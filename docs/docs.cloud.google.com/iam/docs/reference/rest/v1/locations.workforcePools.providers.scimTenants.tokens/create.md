@@ -6,16 +6,16 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-  - [HTTP request](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#body.HTTP_TEMPLATE)
-  - [Path parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#body.PATH_PARAMETERS)
-  - [Query parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#body.QUERY_PARAMETERS)
-  - [Request body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#body.request_body)
-  - [Response body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#body.response_body)
-  - [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#body.aspect)
-  - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#examples)
-  - [Try it\!](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#try-it)
+- [HTTP request](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#body.HTTP_TEMPLATE)
+- [Path parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#body.PATH_PARAMETERS)
+- [Query parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#body.QUERY_PARAMETERS)
+- [Request body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#body.request_body)
+- [Response body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#body.response_body)
+- [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#body.aspect)
+- [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#examples)
+- [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#try-it)
 
-Gemini Enterprise only. Creates a new `  WorkforcePoolProviderScimToken  ` in a `  WorkforcePoolProviderScimTenant  ` . You cannot reuse the name of a deleted SCIM token until 30 days after deletion.
+Gemini Enterprise only. Creates a new [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens#WorkforcePoolProviderScimToken) in a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) . You cannot reuse the name of a deleted SCIM token until 30 days after deletion.
 
 ### HTTP request
 
@@ -25,37 +25,29 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-Parameters
-
-`parent`
-
-`string`
-
-Required. Gemini Enterprise only. The parent tenant to create SCIM token. Format: 'locations/{location}/workforcePools/{workforcePool}/providers/{provider}/scimTenants/{scim\_tenant}'
+| Parameters |                                                                                                                                                                                                 |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`   | `string` Required. Gemini Enterprise only. The parent tenant to create SCIM token. Format: 'locations/{location}/workforcePools/{workforcePool}/providers/{provider}/scimTenants/{scim_tenant}' |
 
 ### Query parameters
 
-Parameters
-
-`workforcePoolProviderScimTokenId`
-
-`string`
-
-Required. Gemini Enterprise only. The ID to use for the SCIM token, which becomes the final component of the resource name. This value should be 4-32 characters and follow the pattern: `([a-z]([a-z0-9\\-]{2,30}[a-z0-9]))`
+| Parameters                         |                                                                                                                                                                                                                                        |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `workforcePoolProviderScimTokenId` | `string` Required. Gemini Enterprise only. The ID to use for the SCIM token, which becomes the final component of the resource name. This value should be 4-32 characters and follow the pattern: `([a-z]([a-z0-9\\-]{2,30}[a-z0-9]))` |
 
 ### Request body
 
-The request body contains an instance of `  WorkforcePoolProviderScimToken  ` .
+The request body contains an instance of [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens#WorkforcePoolProviderScimToken) .
 
 ### Response body
 
-If successful, the response body contains a newly created instance of `  WorkforcePoolProviderScimToken  ` .
+If successful, the response body contains a newly created instance of [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens#WorkforcePoolProviderScimToken) .
 
 ### Authorization scopes
 
 Requires one of the following OAuth scopes:
 
-  - `https://www.googleapis.com/auth/cloud-platform`
-  - `https://www.googleapis.com/auth/iam`
+- `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .

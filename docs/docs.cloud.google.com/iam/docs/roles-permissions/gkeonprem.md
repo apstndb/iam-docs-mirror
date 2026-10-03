@@ -23,214 +23,214 @@ This page lists the IAM roles and permissions for Google Distributed Cloud. To s
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="gkeonprem.admin" class="role-title add-link" data-text="GKE on-prem Admin" tabindex="-1">GKE on-prem Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
+<td>GKE on-prem Admin
+<p>( <code>roles/ gkeonprem.admin</code> )</p>
 <p>Full access to GKE on-prem all resources.</p></td>
-<td><p><code dir="ltr" translate="no">gkeonprem.*</code></p>
+<td><p><code>gkeonprem.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  connect</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  create</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  enroll</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  get</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  list</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  listTagBindings</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  queryVersionConfig</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  unenroll</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  update</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  create</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  delete</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  enroll</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  get</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  list</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  listTagBindings</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  queryVersionConfig</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  unenroll</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  update</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  create</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  delete</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  enroll</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  get</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  list</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  unenroll</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  update</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.locations.list</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.operations.delete</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.operations.get</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.operations.list</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  connect</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  enroll</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  get</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  list</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  listTagBindings</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  unenroll</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  update</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  create</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  delete</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  enroll</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.vmwareClusters.get</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.vmwareClusters.list</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  listTagBindings</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  queryVersionConfig</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  unenroll</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  update</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  create</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  delete</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  enroll</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.vmwareNodePools.get</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.vmwareNodePools.list</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  unenroll</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  update</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. connect</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. create</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. createTagBinding</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. deleteTagBinding</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. enroll</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. get</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. getIamPolicy</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. list</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. listEffectiveTags</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. listTagBindings</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. queryVersionConfig</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. setIamPolicy</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. unenroll</code></li>
+<li><code>gkeonprem. bareMetalAdminClusters. update</code></li>
+<li><code>gkeonprem. bareMetalClusters. create</code></li>
+<li><code>gkeonprem. bareMetalClusters. createTagBinding</code></li>
+<li><code>gkeonprem. bareMetalClusters. delete</code></li>
+<li><code>gkeonprem. bareMetalClusters. deleteTagBinding</code></li>
+<li><code>gkeonprem. bareMetalClusters. enroll</code></li>
+<li><code>gkeonprem. bareMetalClusters. get</code></li>
+<li><code>gkeonprem. bareMetalClusters. getIamPolicy</code></li>
+<li><code>gkeonprem. bareMetalClusters. list</code></li>
+<li><code>gkeonprem. bareMetalClusters. listEffectiveTags</code></li>
+<li><code>gkeonprem. bareMetalClusters. listTagBindings</code></li>
+<li><code>gkeonprem. bareMetalClusters. queryVersionConfig</code></li>
+<li><code>gkeonprem. bareMetalClusters. setIamPolicy</code></li>
+<li><code>gkeonprem. bareMetalClusters. unenroll</code></li>
+<li><code>gkeonprem. bareMetalClusters. update</code></li>
+<li><code>gkeonprem. bareMetalNodePools. create</code></li>
+<li><code>gkeonprem. bareMetalNodePools. delete</code></li>
+<li><code>gkeonprem. bareMetalNodePools. enroll</code></li>
+<li><code>gkeonprem. bareMetalNodePools. get</code></li>
+<li><code>gkeonprem. bareMetalNodePools. getIamPolicy</code></li>
+<li><code>gkeonprem. bareMetalNodePools. list</code></li>
+<li><code>gkeonprem. bareMetalNodePools. setIamPolicy</code></li>
+<li><code>gkeonprem. bareMetalNodePools. unenroll</code></li>
+<li><code>gkeonprem. bareMetalNodePools. update</code></li>
+<li><code>gkeonprem.locations.get</code></li>
+<li><code>gkeonprem.locations.list</code></li>
+<li><code>gkeonprem.operations.cancel</code></li>
+<li><code>gkeonprem.operations.delete</code></li>
+<li><code>gkeonprem.operations.get</code></li>
+<li><code>gkeonprem.operations.list</code></li>
+<li><code>gkeonprem. vmwareAdminClusters. connect</code></li>
+<li><code>gkeonprem. vmwareAdminClusters. createTagBinding</code></li>
+<li><code>gkeonprem. vmwareAdminClusters. deleteTagBinding</code></li>
+<li><code>gkeonprem. vmwareAdminClusters. enroll</code></li>
+<li><code>gkeonprem. vmwareAdminClusters. get</code></li>
+<li><code>gkeonprem. vmwareAdminClusters. getIamPolicy</code></li>
+<li><code>gkeonprem. vmwareAdminClusters. list</code></li>
+<li><code>gkeonprem. vmwareAdminClusters. listEffectiveTags</code></li>
+<li><code>gkeonprem. vmwareAdminClusters. listTagBindings</code></li>
+<li><code>gkeonprem. vmwareAdminClusters. setIamPolicy</code></li>
+<li><code>gkeonprem. vmwareAdminClusters. unenroll</code></li>
+<li><code>gkeonprem. vmwareAdminClusters. update</code></li>
+<li><code>gkeonprem. vmwareClusters. create</code></li>
+<li><code>gkeonprem. vmwareClusters. createTagBinding</code></li>
+<li><code>gkeonprem. vmwareClusters. delete</code></li>
+<li><code>gkeonprem. vmwareClusters. deleteTagBinding</code></li>
+<li><code>gkeonprem. vmwareClusters. enroll</code></li>
+<li><code>gkeonprem.vmwareClusters.get</code></li>
+<li><code>gkeonprem. vmwareClusters. getIamPolicy</code></li>
+<li><code>gkeonprem.vmwareClusters.list</code></li>
+<li><code>gkeonprem. vmwareClusters. listEffectiveTags</code></li>
+<li><code>gkeonprem. vmwareClusters. listTagBindings</code></li>
+<li><code>gkeonprem. vmwareClusters. queryVersionConfig</code></li>
+<li><code>gkeonprem. vmwareClusters. setIamPolicy</code></li>
+<li><code>gkeonprem. vmwareClusters. unenroll</code></li>
+<li><code>gkeonprem. vmwareClusters. update</code></li>
+<li><code>gkeonprem. vmwareNodePools. create</code></li>
+<li><code>gkeonprem. vmwareNodePools. delete</code></li>
+<li><code>gkeonprem. vmwareNodePools. enroll</code></li>
+<li><code>gkeonprem.vmwareNodePools.get</code></li>
+<li><code>gkeonprem. vmwareNodePools. getIamPolicy</code></li>
+<li><code>gkeonprem.vmwareNodePools.list</code></li>
+<li><code>gkeonprem. vmwareNodePools. setIamPolicy</code></li>
+<li><code>gkeonprem. vmwareNodePools. unenroll</code></li>
+<li><code>gkeonprem. vmwareNodePools. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.editor" class="role-title add-link" data-text="Gkeonprem Editor" tabindex="-1">Gkeonprem Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
+<td>Gkeonprem Editor
+<p>( <code>roles/ gkeonprem.editor</code> )</p>
 <p>Editor role for gkeonprem</p></td>
-<td><p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  connect</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  create</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  enroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  queryVersionConfig</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  unenroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  update</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  create</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  delete</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  enroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  queryVersionConfig</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  unenroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  update</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  create</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  delete</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  enroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  unenroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  update</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.locations.*</code></p>
+<td><p><code>gkeonprem. bareMetalAdminClusters. connect</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. create</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. enroll</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. get</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. getIamPolicy</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. list</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. listEffectiveTags</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. listTagBindings</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. queryVersionConfig</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. unenroll</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. update</code></p>
+<p><code>gkeonprem. bareMetalClusters. create</code></p>
+<p><code>gkeonprem. bareMetalClusters. delete</code></p>
+<p><code>gkeonprem. bareMetalClusters. enroll</code></p>
+<p><code>gkeonprem. bareMetalClusters. get</code></p>
+<p><code>gkeonprem. bareMetalClusters. getIamPolicy</code></p>
+<p><code>gkeonprem. bareMetalClusters. list</code></p>
+<p><code>gkeonprem. bareMetalClusters. listEffectiveTags</code></p>
+<p><code>gkeonprem. bareMetalClusters. listTagBindings</code></p>
+<p><code>gkeonprem. bareMetalClusters. queryVersionConfig</code></p>
+<p><code>gkeonprem. bareMetalClusters. unenroll</code></p>
+<p><code>gkeonprem. bareMetalClusters. update</code></p>
+<p><code>gkeonprem. bareMetalNodePools. create</code></p>
+<p><code>gkeonprem. bareMetalNodePools. delete</code></p>
+<p><code>gkeonprem. bareMetalNodePools. enroll</code></p>
+<p><code>gkeonprem. bareMetalNodePools. get</code></p>
+<p><code>gkeonprem. bareMetalNodePools. getIamPolicy</code></p>
+<p><code>gkeonprem. bareMetalNodePools. list</code></p>
+<p><code>gkeonprem. bareMetalNodePools. unenroll</code></p>
+<p><code>gkeonprem. bareMetalNodePools. update</code></p>
+<p><code>gkeonprem.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkeonprem.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.locations.list</code></li>
+<li><code>gkeonprem.locations.get</code></li>
+<li><code>gkeonprem.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkeonprem.operations.*</code></p>
+<p><code>gkeonprem.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkeonprem.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.operations.delete</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.operations.get</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.operations.list</code></li>
+<li><code>gkeonprem.operations.cancel</code></li>
+<li><code>gkeonprem.operations.delete</code></li>
+<li><code>gkeonprem.operations.get</code></li>
+<li><code>gkeonprem.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  connect</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  enroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  unenroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  update</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  create</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  delete</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  enroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.vmwareClusters.get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.vmwareClusters.list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  queryVersionConfig</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  unenroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  update</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  create</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  delete</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  enroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.vmwareNodePools.get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.vmwareNodePools.list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  unenroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  update</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>gkeonprem. vmwareAdminClusters. connect</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. enroll</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. get</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. getIamPolicy</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. list</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. listEffectiveTags</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. listTagBindings</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. unenroll</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. update</code></p>
+<p><code>gkeonprem. vmwareClusters. create</code></p>
+<p><code>gkeonprem. vmwareClusters. delete</code></p>
+<p><code>gkeonprem. vmwareClusters. enroll</code></p>
+<p><code>gkeonprem.vmwareClusters.get</code></p>
+<p><code>gkeonprem. vmwareClusters. getIamPolicy</code></p>
+<p><code>gkeonprem.vmwareClusters.list</code></p>
+<p><code>gkeonprem. vmwareClusters. listEffectiveTags</code></p>
+<p><code>gkeonprem. vmwareClusters. listTagBindings</code></p>
+<p><code>gkeonprem. vmwareClusters. queryVersionConfig</code></p>
+<p><code>gkeonprem. vmwareClusters. unenroll</code></p>
+<p><code>gkeonprem. vmwareClusters. update</code></p>
+<p><code>gkeonprem. vmwareNodePools. create</code></p>
+<p><code>gkeonprem. vmwareNodePools. delete</code></p>
+<p><code>gkeonprem. vmwareNodePools. enroll</code></p>
+<p><code>gkeonprem.vmwareNodePools.get</code></p>
+<p><code>gkeonprem. vmwareNodePools. getIamPolicy</code></p>
+<p><code>gkeonprem.vmwareNodePools.list</code></p>
+<p><code>gkeonprem. vmwareNodePools. unenroll</code></p>
+<p><code>gkeonprem. vmwareNodePools. update</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.viewer" class="role-title add-link" data-text="GKE on-prem Viewer" tabindex="-1">GKE on-prem Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
+<td>GKE on-prem Viewer
+<p>( <code>roles/ gkeonprem.viewer</code> )</p>
 <p>Read-only access to GKE on-prem all resources.</p></td>
-<td><p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  connect</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  queryVersionConfig</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  queryVersionConfig</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.locations.*</code></p>
+<td><p><code>gkeonprem. bareMetalAdminClusters. connect</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. get</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. getIamPolicy</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. list</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. listEffectiveTags</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. listTagBindings</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. queryVersionConfig</code></p>
+<p><code>gkeonprem. bareMetalClusters. get</code></p>
+<p><code>gkeonprem. bareMetalClusters. getIamPolicy</code></p>
+<p><code>gkeonprem. bareMetalClusters. list</code></p>
+<p><code>gkeonprem. bareMetalClusters. listEffectiveTags</code></p>
+<p><code>gkeonprem. bareMetalClusters. listTagBindings</code></p>
+<p><code>gkeonprem. bareMetalClusters. queryVersionConfig</code></p>
+<p><code>gkeonprem. bareMetalNodePools. get</code></p>
+<p><code>gkeonprem. bareMetalNodePools. getIamPolicy</code></p>
+<p><code>gkeonprem. bareMetalNodePools. list</code></p>
+<p><code>gkeonprem.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkeonprem.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkeonprem.locations.list</code></li>
+<li><code>gkeonprem.locations.get</code></li>
+<li><code>gkeonprem.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkeonprem.operations.get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.operations.list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  connect</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.vmwareClusters.get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.vmwareClusters.list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  queryVersionConfig</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.vmwareNodePools.get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.vmwareNodePools.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>gkeonprem.operations.get</code></p>
+<p><code>gkeonprem.operations.list</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. connect</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. get</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. getIamPolicy</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. list</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. listEffectiveTags</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. listTagBindings</code></p>
+<p><code>gkeonprem.vmwareClusters.get</code></p>
+<p><code>gkeonprem. vmwareClusters. getIamPolicy</code></p>
+<p><code>gkeonprem.vmwareClusters.list</code></p>
+<p><code>gkeonprem. vmwareClusters. listEffectiveTags</code></p>
+<p><code>gkeonprem. vmwareClusters. listTagBindings</code></p>
+<p><code>gkeonprem. vmwareClusters. queryVersionConfig</code></p>
+<p><code>gkeonprem.vmwareNodePools.get</code></p>
+<p><code>gkeonprem. vmwareNodePools. getIamPolicy</code></p>
+<p><code>gkeonprem.vmwareNodePools.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -252,37 +252,37 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="gkeonprem.serviceAgent" class="role-title add-link" data-text="GKE On-Prem Service Agent" tabindex="-1">GKE On-Prem Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</p>
+<td>GKE On-Prem Service Agent
+<p>( <code>roles/ gkeonprem.serviceAgent</code> )</p>
 <p>Gives the GKE On-Prem service agent access to Cloud Platform resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">gkehub.memberships.delete</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.update</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  connect</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  enroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  unenroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  enroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  unenroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  enroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  unenroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.operations.get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.operations.list</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  connect</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  enroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  unenroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  enroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.vmwareClusters.get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  unenroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  enroll</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.vmwareNodePools.get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  unenroll</code></p></td>
+<td><p><code>gkehub.memberships.delete</code></p>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>gkehub.memberships.update</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. connect</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. enroll</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. get</code></p>
+<p><code>gkeonprem. bareMetalAdminClusters. unenroll</code></p>
+<p><code>gkeonprem. bareMetalClusters. enroll</code></p>
+<p><code>gkeonprem. bareMetalClusters. get</code></p>
+<p><code>gkeonprem. bareMetalClusters. unenroll</code></p>
+<p><code>gkeonprem. bareMetalNodePools. enroll</code></p>
+<p><code>gkeonprem. bareMetalNodePools. get</code></p>
+<p><code>gkeonprem. bareMetalNodePools. unenroll</code></p>
+<p><code>gkeonprem.operations.get</code></p>
+<p><code>gkeonprem.operations.list</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. connect</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. enroll</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. get</code></p>
+<p><code>gkeonprem. vmwareAdminClusters. unenroll</code></p>
+<p><code>gkeonprem. vmwareClusters. enroll</code></p>
+<p><code>gkeonprem.vmwareClusters.get</code></p>
+<p><code>gkeonprem. vmwareClusters. unenroll</code></p>
+<p><code>gkeonprem. vmwareNodePools. enroll</code></p>
+<p><code>gkeonprem.vmwareNodePools.get</code></p>
+<p><code>gkeonprem. vmwareNodePools. unenroll</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -302,1072 +302,1072 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.connect" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.connect" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  connect</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. bareMetalAdminClusters. connect</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.create" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.create" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalAdminClusters. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.createTagBinding" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  createTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+<td><code>gkeonprem. bareMetalAdminClusters. createTagBinding</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.deleteTagBinding" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  deleteTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+<td><code>gkeonprem. bareMetalAdminClusters. deleteTagBinding</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.enroll" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.enroll" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  enroll</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. bareMetalAdminClusters. enroll</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.get" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.get" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. bareMetalAdminClusters. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.getIamPolicy" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalAdminClusters. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.list" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.list" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalAdminClusters. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.listEffectiveTags" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  listEffectiveTags</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalAdminClusters. listEffectiveTags</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code>roles/ resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.listTagBindings" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  listTagBindings</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalAdminClusters. listTagBindings</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code>roles/ resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.queryVersionConfig" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.queryVersionConfig" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  queryVersionConfig</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalAdminClusters. queryVersionConfig</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.setIamPolicy" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>gkeonprem. bareMetalAdminClusters. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.unenroll" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.unenroll" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  unenroll</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. bareMetalAdminClusters. unenroll</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalAdminClusters.update" class="permission-name add-link" data-text="gkeonprem.bareMetalAdminClusters.update" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalAdminClusters. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalClusters.create" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.create" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalClusters. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalClusters.createTagBinding" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  createTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+<td><code>gkeonprem. bareMetalClusters. createTagBinding</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalClusters.delete" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.delete" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalClusters. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalClusters.deleteTagBinding" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  deleteTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+<td><code>gkeonprem. bareMetalClusters. deleteTagBinding</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalClusters.enroll" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.enroll" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  enroll</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. bareMetalClusters. enroll</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalClusters.get" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.get" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. bareMetalClusters. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalClusters.getIamPolicy" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalClusters. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalClusters.list" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.list" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalClusters. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalClusters.listEffectiveTags" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  listEffectiveTags</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalClusters. listEffectiveTags</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code>roles/ resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalClusters.listTagBindings" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  listTagBindings</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalClusters. listTagBindings</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code>roles/ resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalClusters.queryVersionConfig" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.queryVersionConfig" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  queryVersionConfig</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalClusters. queryVersionConfig</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalClusters.setIamPolicy" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>gkeonprem. bareMetalClusters. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalClusters.unenroll" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.unenroll" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  unenroll</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. bareMetalClusters. unenroll</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalClusters.update" class="permission-name add-link" data-text="gkeonprem.bareMetalClusters.update" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalClusters. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalNodePools.create" class="permission-name add-link" data-text="gkeonprem.bareMetalNodePools.create" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalNodePools. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalNodePools.delete" class="permission-name add-link" data-text="gkeonprem.bareMetalNodePools.delete" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalNodePools. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalNodePools.enroll" class="permission-name add-link" data-text="gkeonprem.bareMetalNodePools.enroll" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  enroll</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. bareMetalNodePools. enroll</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalNodePools.get" class="permission-name add-link" data-text="gkeonprem.bareMetalNodePools.get" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. bareMetalNodePools. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalNodePools.getIamPolicy" class="permission-name add-link" data-text="gkeonprem.bareMetalNodePools.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalNodePools. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalNodePools.list" class="permission-name add-link" data-text="gkeonprem.bareMetalNodePools.list" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalNodePools. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalNodePools.setIamPolicy" class="permission-name add-link" data-text="gkeonprem.bareMetalNodePools.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>gkeonprem. bareMetalNodePools. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.bareMetalNodePools.unenroll" class="permission-name add-link" data-text="gkeonprem.bareMetalNodePools.unenroll" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  unenroll</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. bareMetalNodePools. unenroll</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.bareMetalNodePools.update" class="permission-name add-link" data-text="gkeonprem.bareMetalNodePools.update" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  bareMetalNodePools.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. bareMetalNodePools. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.locations.get" class="permission-name add-link" data-text="gkeonprem.locations.get" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem.locations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.locations.list" class="permission-name add-link" data-text="gkeonprem.locations.list" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.locations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem.locations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.operations.cancel" class="permission-name add-link" data-text="gkeonprem.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.operations.cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem.operations.cancel</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.operations.delete" class="permission-name add-link" data-text="gkeonprem.operations.delete" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.operations.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem.operations.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.operations.get" class="permission-name add-link" data-text="gkeonprem.operations.get" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem.operations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.operations.list" class="permission-name add-link" data-text="gkeonprem.operations.list" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem.operations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareAdminClusters.connect" class="permission-name add-link" data-text="gkeonprem.vmwareAdminClusters.connect" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  connect</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. vmwareAdminClusters. connect</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareAdminClusters.createTagBinding" class="permission-name add-link" data-text="gkeonprem.vmwareAdminClusters.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  createTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+<td><code>gkeonprem. vmwareAdminClusters. createTagBinding</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareAdminClusters.deleteTagBinding" class="permission-name add-link" data-text="gkeonprem.vmwareAdminClusters.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  deleteTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+<td><code>gkeonprem. vmwareAdminClusters. deleteTagBinding</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareAdminClusters.enroll" class="permission-name add-link" data-text="gkeonprem.vmwareAdminClusters.enroll" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  enroll</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. vmwareAdminClusters. enroll</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareAdminClusters.get" class="permission-name add-link" data-text="gkeonprem.vmwareAdminClusters.get" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. vmwareAdminClusters. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareAdminClusters.getIamPolicy" class="permission-name add-link" data-text="gkeonprem.vmwareAdminClusters.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareAdminClusters. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareAdminClusters.list" class="permission-name add-link" data-text="gkeonprem.vmwareAdminClusters.list" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareAdminClusters. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareAdminClusters.listEffectiveTags" class="permission-name add-link" data-text="gkeonprem.vmwareAdminClusters.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  listEffectiveTags</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareAdminClusters. listEffectiveTags</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code>roles/ resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareAdminClusters.listTagBindings" class="permission-name add-link" data-text="gkeonprem.vmwareAdminClusters.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  listTagBindings</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareAdminClusters. listTagBindings</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code>roles/ resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareAdminClusters.setIamPolicy" class="permission-name add-link" data-text="gkeonprem.vmwareAdminClusters.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>gkeonprem. vmwareAdminClusters. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareAdminClusters.unenroll" class="permission-name add-link" data-text="gkeonprem.vmwareAdminClusters.unenroll" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  unenroll</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. vmwareAdminClusters. unenroll</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareAdminClusters.update" class="permission-name add-link" data-text="gkeonprem.vmwareAdminClusters.update" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareAdminClusters.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareAdminClusters. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareClusters.create" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.create" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareClusters. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareClusters.createTagBinding" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  createTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+<td><code>gkeonprem. vmwareClusters. createTagBinding</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareClusters.delete" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.delete" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareClusters. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareClusters.deleteTagBinding" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  deleteTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+<td><code>gkeonprem. vmwareClusters. deleteTagBinding</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareClusters.enroll" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.enroll" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  enroll</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. vmwareClusters. enroll</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareClusters.get" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.get" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.vmwareClusters.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem.vmwareClusters.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareClusters.getIamPolicy" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareClusters. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareClusters.list" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.list" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.vmwareClusters.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem.vmwareClusters.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareClusters.listEffectiveTags" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  listEffectiveTags</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareClusters. listEffectiveTags</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code>roles/ resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareClusters.listTagBindings" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  listTagBindings</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareClusters. listTagBindings</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code>roles/ resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareClusters.queryVersionConfig" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.queryVersionConfig" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  queryVersionConfig</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareClusters. queryVersionConfig</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareClusters.setIamPolicy" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>gkeonprem. vmwareClusters. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareClusters.unenroll" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.unenroll" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  unenroll</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. vmwareClusters. unenroll</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareClusters.update" class="permission-name add-link" data-text="gkeonprem.vmwareClusters.update" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareClusters.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareClusters. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareNodePools.create" class="permission-name add-link" data-text="gkeonprem.vmwareNodePools.create" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareNodePools. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareNodePools.delete" class="permission-name add-link" data-text="gkeonprem.vmwareNodePools.delete" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareNodePools. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareNodePools.enroll" class="permission-name add-link" data-text="gkeonprem.vmwareNodePools.enroll" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  enroll</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. vmwareNodePools. enroll</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareNodePools.get" class="permission-name add-link" data-text="gkeonprem.vmwareNodePools.get" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.vmwareNodePools.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem.vmwareNodePools.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareNodePools.getIamPolicy" class="permission-name add-link" data-text="gkeonprem.vmwareNodePools.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareNodePools. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareNodePools.list" class="permission-name add-link" data-text="gkeonprem.vmwareNodePools.list" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.vmwareNodePools.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem.vmwareNodePools.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.viewer">GKE on-prem Viewer</a> ( <code>roles/ gkeonprem.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareNodePools.setIamPolicy" class="permission-name add-link" data-text="gkeonprem.vmwareNodePools.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>gkeonprem. vmwareNodePools. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkeonprem.vmwareNodePools.unenroll" class="permission-name add-link" data-text="gkeonprem.vmwareNodePools.unenroll" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  unenroll</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkeonprem. vmwareNodePools. unenroll</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkeonprem.vmwareNodePools.update" class="permission-name add-link" data-text="gkeonprem.vmwareNodePools.update" tabindex="-1"><code dir="ltr" translate="no">gkeonprem.  vmwareNodePools.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkeonprem. vmwareNodePools. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.admin">GKE on-prem Admin</a> ( <code>roles/ gkeonprem.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.editor">Gkeonprem Editor</a> ( <code>roles/ gkeonprem.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

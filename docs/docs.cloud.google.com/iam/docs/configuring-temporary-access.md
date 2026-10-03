@@ -12,17 +12,17 @@ This topic describes how to set temporary (expiring) access to Google Cloud reso
 
 ## Before you begin
 
-  - Read [Conditions Overview](https://docs.cloud.google.com/iam/docs/conditions-overview) to understand the basics of Identity and Access Management (IAM) conditional role bindings.
-  - Review the [date/time attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#date-time) that can be used in a condition expression. Date/time attributes are recognized by all Google Cloud services.
+- Read [Conditions Overview](https://docs.cloud.google.com/iam/docs/conditions-overview) to understand the basics of Identity and Access Management (IAM) conditional role bindings.
+- Review the [date/time attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#date-time) that can be used in a condition expression. Date/time attributes are recognized by all Google Cloud services.
 
 ### Required roles
 
 To get the permissions that you need to manage conditional role bindings, ask your administrator to grant you the following IAM roles:
 
-  - To manage access to projects: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` ) on the project
-  - To manage access to folders: [Folder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin) ( `roles/resourcemanager.folderAdmin` ) on the folder
-  - To manage access to projects, folders, and organizations: [Organization Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` ) on the organization
-  - To manage access to almost all Google Cloud resources: [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/iam.securityAdmin` ) on the project, folder, or organization whose resources you want to manage access to
+- To manage access to projects: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` ) on the project
+- To manage access to folders: [Folder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin) ( `roles/resourcemanager.folderAdmin` ) on the folder
+- To manage access to projects, folders, and organizations: [Organization Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` ) on the organization
+- To manage access to almost all Google Cloud resources: [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/iam.securityAdmin` ) on the project, folder, or organization whose resources you want to manage access to
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -32,15 +32,15 @@ These predefined roles contain the permissions required to manage conditional ro
 
 The following permissions are required to manage conditional role bindings:
 
-  - To manage access to projects:
-      - `resourcemanager.projects.getIamPolicy` on the project
-      - `resourcemanager.projects.setIamPolicy` on the project
-  - To manage access to folders:
-      - `resourcemanager.folders.getIamPolicy` on the folder
-      - `resourcemanager.folders.setIamPolicy` on the folder
-  - To manage access to organizations:
-      - `resourcemanager.organizations.getIamPolicy` on the organization
-      - `resourcemanager.organizations.setIamPolicy` on the organization
+- To manage access to projects:
+  - `resourcemanager.projects.getIamPolicy` on the project
+  - `resourcemanager.projects.setIamPolicy` on the project
+- To manage access to folders:
+  - `resourcemanager.folders.getIamPolicy` on the folder
+  - `resourcemanager.folders.setIamPolicy` on the folder
+- To manage access to organizations:
+  - `resourcemanager.organizations.getIamPolicy` on the organization
+  - `resourcemanager.organizations.setIamPolicy` on the organization
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -67,25 +67,27 @@ To grant expirable access to a project resource:
 4.  In the **Edit condition** panel, enter a title and optional description for the condition.
 
 5.  You can add a condition expression using either the **Condition builder** or the **Condition editor** . The condition builder provides an interactive interface to select your desired condition type, operator, and other applicable details about the expression. The condition editor provides a text-based interface to manually enter an expression using [CEL syntax](https://docs.cloud.google.com/iam/docs/conditions-overview#cel) .
-    
+
     **Condition builder** :
-    
+
     1.  From the **Condition type** drop-down, select **Expiring Access** .
     2.  From the **Operator** drop-down, select **by** .
-    3.  From the **Time** drop-down, click the *date\_range* button to select from a date and time range.
+    3.  From the **Time** drop-down, click the *date_range* button to select from a date and time range.
     4.  Click **Save** to apply the condition.
     5.  After the **Edit condition** panel is closed, click **Save** again from the **Edit permissions** panel to update your allow policy.
-    
+
     **Condition editor** :
-    
+
     1.  Click the **Condition editor** tab and enter the following expression (replacing the timestamp with your own):
-        
-            request.time < timestamp("2020-07-01T00:00:00.000Z")
-    
+
+        ```
+        request.time < timestamp("2020-07-01T00:00:00.000Z")
+        ```
+
     2.  After entering your expression, you can optionally choose to validate the CEL syntax by clicking **Run Linter** above the text box on the top-right.
-    
+
     3.  Click **Save** to apply the condition.
-    
+
     4.  After the **Edit condition** panel is closed, click **Save** again from the **Edit permissions** panel to update your allow policy.
 
 ### gcloud
@@ -96,59 +98,67 @@ Execute the [`gcloud projects get-iam-policy`](https://docs.cloud.google.com/sdk
 
 Command:
 
-    gcloud projects get-iam-policy project-id --format=json > filepath
+```
+gcloud projects get-iam-policy project-id --format=json > filepath
+```
 
 The JSON format of the allow policy is downloaded:
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "members": [
-            "user:my-user@example.com"
-          ],
-          "role": "roles/owner"
-        },
-        {
-          "members": [
-            "group:my-group@example.com"
-          ],
-          "role": "roles/iam.securityReviewer"
-        }
+      "members": [
+        "user:my-user@example.com"
       ],
-      "etag": "BwWKmjvelug=",
-      "version": 1
+      "role": "roles/owner"
+    },
+    {
+      "members": [
+        "group:my-group@example.com"
+      ],
+      "role": "roles/iam.securityReviewer"
     }
+  ],
+  "etag": "BwWKmjvelug=",
+  "version": 1
+}
+```
 
 To configure the allow policy with expirable access, add the following highlighted condition expression (replacing the timestamp with your own). The gcloud CLI updates the version automatically:
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "members": [
-            "user:my-user@example.com"
-          ],
-          "role": "roles/owner"
-        },
-        {
-          "members": [
-            "group:my-group@example.com"
-          ],
-          "role": "roles/iam.securityReviewer",
-          "condition": {
-            "title": "Expires_July_1_2020",
-            "description": "Expires on July 1, 2020",
-            "expression":
-              "request.time < timestamp('2020-07-01T00:00:00.000Z')"
-          }
-        }
+      "members": [
+        "user:my-user@example.com"
       ],
-      "etag": "BwWKmjvelug=",
-      "version": 3
+      "role": "roles/owner"
+    },
+    {
+      "members": [
+        "group:my-group@example.com"
+      ],
+      "role": "roles/iam.securityReviewer",
+      "condition": {
+        "title": "Expires_July_1_2020",
+        "description": "Expires on July 1, 2020",
+        "expression":
+          "request.time < timestamp('2020-07-01T00:00:00.000Z')"
+      }
     }
+  ],
+  "etag": "BwWKmjvelug=",
+  "version": 3
+}
+```
 
 Next, set the new allow policy by executing the [`gcloud projects set-iam-policy`](https://docs.cloud.google.com/sdk/gcloud/reference/projects/set-iam-policy) command:
 
-    gcloud projects set-iam-policy project-id filepath
+```
+gcloud projects set-iam-policy project-id filepath
+```
 
 The new allow policy is applied, and the group's role grant will expire at the specified time.
 
@@ -158,24 +168,28 @@ Use the [read-modify-write](https://docs.cloud.google.com/iam/docs/granting-chan
 
 **First, read the allow policy for the project:**
 
-The Resource Manager API's `  projects.getIamPolicy  ` method gets a project's allow policy.
+The Resource Manager API's [`projects.getIamPolicy`](https://docs.cloud.google.com/resource-manager/reference/rest/v1/projects/getIamPolicy) method gets a project's allow policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
-  - `  POLICY_VERSION  ` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POLICY_VERSION` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
 
 HTTP method and URL:
 
-    POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy
+```
+POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "options": {
-        "requestedPolicyVersion": POLICY_VERSION
-      }
-    }
+```
+{
+  "options": {
+    "requestedPolicyVersion": POLICY_VERSION
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -185,11 +199,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -197,15 +213,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -213,92 +231,100 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 You should receive a JSON response similar to the following:
 
+```
+{
+  "version": 1,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 1,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/owner",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        },
-        {
-          "role": "roles/iam.securityReviewer",
-          "members": [
-            "group:my-group@example.com"
-          ]
-        }
+      "role": "roles/owner",
+      "members": [
+        "user:my-user@example.com"
+      ]
+    },
+    {
+      "role": "roles/iam.securityReviewer",
+      "members": [
+        "group:my-group@example.com"
       ]
     }
+  ]
+}
+```
 
 **Next, modify the allow policy so that it allows access until a specific time.** Make sure to change the `version` field to the value `3` :
 
+```
+{
+  "version": 3,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 3,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/owner",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        },
-        {
-          "role": "roles/iam.securityReviewer",
-          "members": [
-            "group:my-group@example.com"
-          ],
-          "condition": {
-            "title": "Expires_July_1_2020",
-            "description": "Expires on July 1, 2020",
-            "expression":
-              "request.time < timestamp('2020-07-01T00:00:00.000Z')"
-          }
-        }
+      "role": "roles/owner",
+      "members": [
+        "user:my-user@example.com"
       ]
+    },
+    {
+      "role": "roles/iam.securityReviewer",
+      "members": [
+        "group:my-group@example.com"
+      ],
+      "condition": {
+        "title": "Expires_July_1_2020",
+        "description": "Expires on July 1, 2020",
+        "expression":
+          "request.time < timestamp('2020-07-01T00:00:00.000Z')"
+      }
     }
+  ]
+}
+```
 
 **Finally, write the updated allow policy:**
 
-The Resource Manager API's `  projects.setIamPolicy  ` method sets the allow policy in the request as the project's new allow policy.
+The Resource Manager API's [`projects.setIamPolicy`](https://docs.cloud.google.com/resource-manager/reference/rest/v1/projects/setIamPolicy) method sets the allow policy in the request as the project's new allow policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
 
 HTTP method and URL:
 
-    POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy
+```
+POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "policy": {
-        "version": 3,
-        "etag": "BwWKmjvelug=",
-        "bindings": [
-          {
-            "role": "roles/owner",
-            "members": [
-              "user:my-user@example.com"
-            ]
-          },
-          {
-            "role": "roles/iam.securityReviewer",
-            "members": [
-              "group:my-group@example.com"
-            ],
-            "condition": {
-              "title": "Expires_July_1_2020",
-              "description": "Expires on July 1, 2020",
-              "expression":
-                "request.time < timestamp('2020-07-01T00:00:00.000Z')"
-            }
-          }
+```
+{
+  "policy": {
+    "version": 3,
+    "etag": "BwWKmjvelug=",
+    "bindings": [
+      {
+        "role": "roles/owner",
+        "members": [
+          "user:my-user@example.com"
         ]
+      },
+      {
+        "role": "roles/iam.securityReviewer",
+        "members": [
+          "group:my-group@example.com"
+        ],
+        "condition": {
+          "title": "Expires_July_1_2020",
+          "description": "Expires on July 1, 2020",
+          "expression":
+            "request.time < timestamp('2020-07-01T00:00:00.000Z')"
+        }
       }
-    }
+    ]
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -308,11 +334,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -320,15 +348,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -361,51 +391,53 @@ To grant access to a project resource for only certain days or hours of the week
 4.  In the **Edit condition** panel, enter a title and optional description for the condition.
 
 5.  You can add a condition expression using either the **Condition builder** or the **Condition editor** . The condition builder provides an interactive interface to select your desired condition type, operator, and other applicable details about the expression. The condition editor provides a text-based interface to manually enter an expression using [CEL syntax](https://docs.cloud.google.com/iam/docs/conditions-overview#cel) .
-    
+
     **Condition builder** :
-    
+
     1.  Click **Add** .
-    2.  From the **Condition type** drop-down, select **Time** *arrow\_right* **Schedule** *arrow\_right* **Day of Week** .
+    2.  From the **Condition type** drop-down, select **Time** *arrow_right* **Schedule** *arrow_right* **Day of Week** .
     3.  From the **Operator** drop-down, select **After or On** .
     4.  From the **Day of Week** drop-down, select **Monday** .
     5.  From the **Choose a time zone** drop-down, select your desired time zone from the list.
     6.  Ensure that the **And** operator is selected on the left, and then click **Add** again.
-    7.  From the **Condition type** drop-down, select **Time** *arrow\_right* **Schedule** *arrow\_right* **Day of Week** .
+    7.  From the **Condition type** drop-down, select **Time** *arrow_right* **Schedule** *arrow_right* **Day of Week** .
     8.  From the **Operator** drop-down, select **Before or On** .
     9.  From the **Day of Week** drop-down, select **Friday** .
     10. From the **Choose a time zone** drop-down, select your desired time zone from the list.
-    
+
     At this point, you've configured access only on Monday through Friday. Now, you will configure access from 9 AM (09:00) to 5 PM (17:00).
-    
+
     1.  Ensure that the **And** operator is selected on the left, and then click **Add** again.
-    
-    2.  From the **Condition type** drop-down, select **Time** *arrow\_right* **Schedule** *arrow\_right* **Hour of Day** .
-        
+
+    2.  From the **Condition type** drop-down, select **Time** *arrow_right* **Schedule** *arrow_right* **Hour of Day** .
+
         1.  From the **Operator** drop-down, select **After or On** .
         2.  From the **Hour of Day** drop-down, select **9** (9 AM).
         3.  From the **Choose a time zone** drop-down, select your desired time zone from the list.
-        4.  From the **Condition type** drop-down, select **Time** *arrow\_right* **Schedule** *arrow\_right* **Hour of Day** .
+        4.  From the **Condition type** drop-down, select **Time** *arrow_right* **Schedule** *arrow_right* **Hour of Day** .
         5.  From the **Operator** drop-down, select **Before or On** . Note that for this selection, "on" will logically evaluate to all times between 17:00 (5 PM) and 17:59 (5:59 PM). To set access to expire at 4:59 PM, ensure the hour is set to 16 instead of 17.
         6.  From the **Hour of Day** drop-down, select **17** (5 PM).
         7.  From the **Choose a time zone** drop-down, select your desired time zone from the list.
         8.  Click **Save** to apply the condition.
         9.  Once the **Edit condition** panel is closed, click **Save** again from the **Edit permissions** panel to update your allow policy.
-        
+
         You've now configured access from Monday to Friday, 9 AM to 5 PM.
-        
+
         **Condition editor** :
-        
+
         1.  Click the **Condition editor** tab and enter the following expression (replacing the placeholder values with your own):
-            
-                request.time.getHours("Europe/Berlin") >= 9 &&
-                request.time.getHours("Europe/Berlin") <= 17 &&
-                request.time.getDayOfWeek("Europe/Berlin") >= 1 &&
-                request.time.getDayOfWeek("Europe/Berlin") <= 5
-        
+
+            ```
+            request.time.getHours("Europe/Berlin") >= 9 &&
+            request.time.getHours("Europe/Berlin") <= 17 &&
+            request.time.getDayOfWeek("Europe/Berlin") >= 1 &&
+            request.time.getDayOfWeek("Europe/Berlin") <= 5
+            ```
+
         2.  After entering your expression, you can optionally choose to validate the CEL syntax by clicking **Run Linter** above the text box on the top-right.
-        
+
         3.  Click **Save** to apply the condition.
-        
+
         4.  Once the **Edit condition** panel is closed, click **Save** again from the **Edit permissions** panel to update your allow policy.
 
 ### gcloud
@@ -416,58 +448,66 @@ Execute the [`gcloud projects get-iam-policy`](https://docs.cloud.google.com/sdk
 
 Command:
 
-    gcloud projects get-iam-policy project-id --format=json > filepath
+```
+gcloud projects get-iam-policy project-id --format=json > filepath
+```
 
 The JSON format of the allow policy is downloaded:
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "members": [
-            "user:my-user@example.com"
-          ],
-          "role": "roles/owner"
-        },
-        {
-          "members": [
-            "group:my-group@example.com"
-          ],
-          "role": "roles/bigquery.dataViewer"
-        }
+      "members": [
+        "user:my-user@example.com"
       ],
-      "etag": "BwWKmjvelug=",
-      "version": 1
+      "role": "roles/owner"
+    },
+    {
+      "members": [
+        "group:my-group@example.com"
+      ],
+      "role": "roles/bigquery.dataViewer"
     }
+  ],
+  "etag": "BwWKmjvelug=",
+  "version": 1
+}
+```
 
 To configure the allow policy with scheduled access, add the following highlighted condition expression (replacing the timestamp with your own). The gcloud CLI updates the version automatically:
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "members": [
-            "user:my-user@example.com"
-          ],
-          "role": "roles/owner"
-        },
-        {
-          "members": [
-            "group:my-group@example.com"
-          ],
-          "role": "roles/bigquery.dataViewer",
-          "condition": {
-            "title": "Business_hours",
-            "description": "Business hours Monday-Friday",
-            "expression": "request.time.getHours('Europe/Berlin') >= 9 && request.time.getHours('Europe/Berlin') <= 17 && request.time.getDayOfWeek('Europe/Berlin') >= 1 && request.time.getDayOfWeek('Europe/Berlin') <= 5"
-          }
-        }
+      "members": [
+        "user:my-user@example.com"
       ],
-      "etag": "BwWKmjvelug=",
-      "version": 3
+      "role": "roles/owner"
+    },
+    {
+      "members": [
+        "group:my-group@example.com"
+      ],
+      "role": "roles/bigquery.dataViewer",
+      "condition": {
+        "title": "Business_hours",
+        "description": "Business hours Monday-Friday",
+        "expression": "request.time.getHours('Europe/Berlin') >= 9 && request.time.getHours('Europe/Berlin') <= 17 && request.time.getDayOfWeek('Europe/Berlin') >= 1 && request.time.getDayOfWeek('Europe/Berlin') <= 5"
+      }
     }
+  ],
+  "etag": "BwWKmjvelug=",
+  "version": 3
+}
+```
 
 Next, set the new allow policy by executing the [`gcloud projects set-iam-policy`](https://docs.cloud.google.com/sdk/gcloud/reference/projects/set-iam-policy) command:
 
-    gcloud projects set-iam-policy project-id filepath
+```
+gcloud projects set-iam-policy project-id filepath
+```
 
 The new allow policy is applied, and the group's role grant will allow access between the specified days and times.
 
@@ -477,24 +517,28 @@ Use the [read-modify-write](https://docs.cloud.google.com/iam/docs/granting-chan
 
 **First, read the allow policy for the project:**
 
-The Resource Manager API's `  projects.getIamPolicy  ` method gets a project's allow policy.
+The Resource Manager API's [`projects.getIamPolicy`](https://docs.cloud.google.com/resource-manager/reference/rest/v1/projects/getIamPolicy) method gets a project's allow policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
-  - `  POLICY_VERSION  ` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POLICY_VERSION` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
 
 HTTP method and URL:
 
-    POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy
+```
+POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "options": {
-        "requestedPolicyVersion": POLICY_VERSION
-      }
-    }
+```
+{
+  "options": {
+    "requestedPolicyVersion": POLICY_VERSION
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -504,11 +548,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -516,15 +562,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -532,94 +580,102 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 You should receive a JSON response similar to the following:
 
+```
+{
+  "version": 1,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 1,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/owner",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        },
-        {
-          "role": "roles/bigquery.dataViewer",
-          "members": [
-            "group:my-group@example.com"
-          ]
-        }
+      "role": "roles/owner",
+      "members": [
+        "user:my-user@example.com"
+      ]
+    },
+    {
+      "role": "roles/bigquery.dataViewer",
+      "members": [
+        "group:my-group@example.com"
       ]
     }
+  ]
+}
+```
 
 **Next, modify the allow policy to allow scheduled access.**
 
 Add the following highlighted condition expression (replacing the timestamp with your own). Ensure that you've updated the `version` value to `3` :
 
+```
+{
+  "etag": "BwWKmjvelug=",
+  "version": 3,
+  "bindings": [
     {
-      "etag": "BwWKmjvelug=",
-      "version": 3,
-      "bindings": [
-        {
-          "role": "roles/owner",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        },
-        {
-          "role": "roles/bigquery.dataViewer",
-          "members": [
-            "group:my-group@example.com"
-          ],
-          "condition": {
-            "title": "Business_hours",
-            "description": "Business hours Monday-Friday",
-            "expression":
-              "request.time.getHours('Europe/Berlin') >= 9 &&
-              request.time.getHours('Europe/Berlin') <= 17 &&
-              request.time.getDayOfWeek('Europe/Berlin') >= 1 &&
-              request.time.getDayOfWeek('Europe/Berlin') <= 5"
-          }
-        }
+      "role": "roles/owner",
+      "members": [
+        "user:my-user@example.com"
       ]
+    },
+    {
+      "role": "roles/bigquery.dataViewer",
+      "members": [
+        "group:my-group@example.com"
+      ],
+      "condition": {
+        "title": "Business_hours",
+        "description": "Business hours Monday-Friday",
+        "expression":
+          "request.time.getHours('Europe/Berlin') >= 9 &&
+          request.time.getHours('Europe/Berlin') <= 17 &&
+          request.time.getDayOfWeek('Europe/Berlin') >= 1 &&
+          request.time.getDayOfWeek('Europe/Berlin') <= 5"
+      }
     }
+  ]
+}
+```
 
-The Resource Manager API's `  projects.setIamPolicy  ` method sets the allow policy in the request as the project's new allow policy.
+The Resource Manager API's [`projects.setIamPolicy`](https://docs.cloud.google.com/resource-manager/reference/rest/v1/projects/setIamPolicy) method sets the allow policy in the request as the project's new allow policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
 
 HTTP method and URL:
 
-    POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy
+```
+POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "policy": {
-        "etag": "BwWKmjvelug=",
-        "version": 3,
-        "bindings": [
-          {
-            "role": "roles/owner",
-            "members": [
-              "user:my-user@example.com"
-            ]
-          },
-          {
-            "role": "roles/bigquery.dataViewer",
-            "members": [
-              "group:my-group@example.com"
-            ],
-            "condition": {
-              "title": "Business_hours",
-              "description": "Business hours Monday-Friday",
-              "expression": "request.time.getHours('Europe/Berlin') >= 9 && request.time.getHours('Europe/Berlin') <= 17 && request.time.getDayOfWeek('Europe/Berlin') >= 1 && request.time.getDayOfWeek('Europe/Berlin') <= 5"
-            }
-          }
+```
+{
+  "policy": {
+    "etag": "BwWKmjvelug=",
+    "version": 3,
+    "bindings": [
+      {
+        "role": "roles/owner",
+        "members": [
+          "user:my-user@example.com"
         ]
+      },
+      {
+        "role": "roles/bigquery.dataViewer",
+        "members": [
+          "group:my-group@example.com"
+        ],
+        "condition": {
+          "title": "Business_hours",
+          "description": "Business hours Monday-Friday",
+          "expression": "request.time.getHours('Europe/Berlin') >= 9 && request.time.getHours('Europe/Berlin') <= 17 && request.time.getDayOfWeek('Europe/Berlin') >= 1 && request.time.getDayOfWeek('Europe/Berlin') <= 5"
+        }
       }
-    }
+    ]
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -629,11 +685,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -641,15 +699,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -663,6 +723,6 @@ The response contains the updated allow policy.
 
 ## What's next
 
-  - Learn how to [manage conditional role bindings](https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings) .
-  - Learn how to [lint allow policies](https://docs.cloud.google.com/iam/docs/linting-policies) .
-  - Learn how to use conditional role bindings to [manage just-in-time privileged access to projects](https://docs.cloud.google.com/architecture/manage-just-in-time-privileged-access-to-project) .
+- Learn how to [manage conditional role bindings](https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings) .
+- Learn how to [lint allow policies](https://docs.cloud.google.com/iam/docs/linting-policies) .
+- Learn how to use conditional role bindings to [manage just-in-time privileged access to projects](https://docs.cloud.google.com/architecture/manage-just-in-time-privileged-access-to-project) .

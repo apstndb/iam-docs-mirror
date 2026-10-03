@@ -20,9 +20,9 @@ Cloud Asset Inventory provides Policy Analyzer for IAM allow policies, which let
 
 Policy Analyzer helps you answer questions like the following:
 
-  - "Who has any access to this IAM service account?"
-  - "What roles and permissions does this user have on this BigQuery dataset?"
-  - "Which BigQuery datasets does this user have permission to read?"
+- "Who has any access to this IAM service account?"
+- "What roles and permissions does this user have on this BigQuery dataset?"
+- "Which BigQuery datasets does this user have permission to read?"
 
 By helping you answer these questions, Policy Analyzer lets you effectively administer access. You can also use Policy Analyzer for audit-related and compliance-related tasks.
 
@@ -33,7 +33,7 @@ To learn how to use Policy Analyzer for allow policies, see [Analyzing IAM polic
 ### Analyze organization policies
 
 > **Preview**
-> 
+>
 > This product or feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA products and features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 Policy Intelligence provides Policy Analyzer for Organization Policy, which you can use to create an analysis query to get information on both custom and predefined organization policies.
@@ -46,14 +46,14 @@ To learn how to use Policy Analyzer for Organization Policy, see [Analyze existi
 
 To help you understand and remedy access issues, Policy Intelligence offers the following troubleshooters:
 
-  - Policy Troubleshooter for Identity and Access Management
-  - VPC Service Controls troubleshooter
-  - Policy Troubleshooter for Chrome Enterprise Premium
+- Policy Troubleshooter for Identity and Access Management
+- VPC Service Controls troubleshooter
+- Policy Troubleshooter for Chrome Enterprise Premium
 
 Access troubleshooters help answer "why" questions like the following:
 
-  - "Why does this user have the `bigquery.datasets.create` permission on this BigQuery dataset?"
-  - "Why isn't this user able to view the allow policy of this Cloud Storage bucket?"
+- "Why does this user have the `bigquery.datasets.create` permission on this BigQuery dataset?"
+- "Why isn't this user able to view the allow policy of this Cloud Storage bucket?"
 
 To learn more about these troubleshooters, see [Access-related troubleshooters](https://docs.cloud.google.com/policy-intelligence/docs/access-troubleshooters) .
 
@@ -63,9 +63,9 @@ To learn more about these troubleshooters, see [Access-related troubleshooters](
 
 To help you understand service account usage, Policy Intelligence offers the following features:
 
-  - **Activity Analyzer** : Activity Analyzer lets you see when your service accounts and keys were last used to call a Google API. To learn how to use Activity Analyzer, see [View recent usage for service accounts and keys](https://docs.cloud.google.com/policy-intelligence/docs/activity-analyzer-service-account-authentication) .
+- **Activity Analyzer** : Activity Analyzer lets you see when your service accounts and keys were last used to call a Google API. To learn how to use Activity Analyzer, see [View recent usage for service accounts and keys](https://docs.cloud.google.com/policy-intelligence/docs/activity-analyzer-service-account-authentication) .
 
-  - **Service account insights** : Service account insights are a type of [insight](https://docs.cloud.google.com/recommender/docs/insights/using-insights) that identify which service accounts in your project have not been used in the past 90 days. To learn how to manage service account insights, see [Find unused service accounts](https://docs.cloud.google.com/policy-intelligence/docs/service-account-insights) .
+- **Service account insights** : Service account insights are a type of [insight](https://docs.cloud.google.com/recommender/docs/insights/using-insights) that identify which service accounts in your project have not been used in the past 90 days. To learn how to manage service account insights, see [Find unused service accounts](https://docs.cloud.google.com/policy-intelligence/docs/service-account-insights) .
 
 To help you understand service account permissions, Policy Intelligence offers lateral movement insights. Lateral movement insights are a type of [insight](https://docs.cloud.google.com/recommender/docs/insights/using-insights) that identify roles that allow a service account in one project to impersonate a service account in another project. For more information about lateral movement insights, see [How lateral movement insights are generated](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#lateral-movement-insights) . To learn how to manage lateral movement insights, see [Identify service accounts with lateral movement permissions](https://docs.cloud.google.com/policy-intelligence/docs/lateral-movement-insights) .
 
@@ -79,9 +79,9 @@ To learn more about role recommendations, including how they're generated, see [
 
 To learn how to manage role recommendations, see one of the following guides:
 
-  - [Review and apply role recommendations for projects, folders, and organizations](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations)
-  - [Review and apply role recommendations for Cloud Storage buckets](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-buckets)
-  - [Review and apply role recommendations for BigQuery datasets](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-datasets)
+- [Review and apply role recommendations for projects, folders, and organizations](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations)
+- [Review and apply role recommendations for Cloud Storage buckets](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-buckets)
+- [Review and apply role recommendations for BigQuery datasets](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-datasets)
 
 ## Prevent policy misconfigurations
 
@@ -93,9 +93,9 @@ There are several Policy Intelligence tools that you can use to see how changes 
 
 To let you see how a change to an access-related policy might affect your principals' access, Policy Intelligence provides the following policy simulators:
 
-  - [Policy Simulator for allow policies](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview)
-  - [Policy Simulator for deny policies](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview)
-  - [Policy Simulator for Principal Access Boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview)
+- [Policy Simulator for allow policies](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview)
+- [Policy Simulator for deny policies](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview)
+- [Policy Simulator for Principal Access Boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview)
 
 Each of these simulators lets you see how a change to a policy of that type would affect access for your principals before you commit to making the change. Each simulator only evaluates one policy type—they don't take into account whether other types of policies would permit or block access.
 

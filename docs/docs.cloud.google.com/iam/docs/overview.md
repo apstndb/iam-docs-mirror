@@ -10,25 +10,21 @@ This page describes how Google Cloud's Identity and Access Management (IAM) syst
 
 IAM is a tool to manage fine-grained authorization for Google Cloud. In other words, it lets you control *who* can do *what* on *which resources* .
 
-<span id="how_cloud_iam_works"></span>
-
 ## Access in Google Cloud
 
 Every action in Google Cloud requires certain permissions. When someone tries to perform an action in Google Cloud—for example, create a VM instance or view a dataset—IAM first checks if they have the required permissions. If they don't, then IAM prevents them from performing the action.
 
 Giving someone permissions in IAM involves the following three components:
 
-  - **Principal** : The identity of the person or system that you want to give permissions to.
-  - **Role** : The collection of permissions that you want to give the principal.
-  - **Resource** : The Google Cloud resource that you want to let the principal access.
+- **Principal** : The identity of the person or system that you want to give permissions to.
+- **Role** : The collection of permissions that you want to give the principal.
+- **Resource** : The Google Cloud resource that you want to let the principal access.
 
 To give the principal permission to access the resource, you grant them a role on the resource. You grant these roles using an *allow policy* .
 
 Allow policies are directly attached to some Google Cloud resources, which are organized [hierarchically](https://docs.cloud.google.com/iam/docs/overview#policy-inheritance) —for example, projects contain service-specific resources. This means that you can grant access to a single resource or a container of resources.
 
 The following sections describe these concepts in more detail.
-
-<span id="#concepts_related_identity"></span>
 
 ### Principals
 
@@ -38,21 +34,19 @@ In the past, principals were referred to as *members* . Some APIs still use that
 
 There are various types of principals in IAM, but they can be divided into two broad categories:
 
-  - **Human users** : Some IAM principal types represent human users. You use these principal types for managing your employees' access to Google Cloud resources.
-    
-    Principal types that represent human users include Google Accounts, Google groups, and federated identities in workforce identity pools.
+- **Human users** : Some IAM principal types represent human users. You use these principal types for managing your employees' access to Google Cloud resources.
 
-  - **Workloads** : Some IAM principal types represent workloads. You use these principal types when managing your workloads' access to Google Cloud resources.
-    
-    Principal types that represent workloads include service accounts and federated identities in a workload identity pool.
+  Principal types that represent human users include Google Accounts, Google groups, and federated identities in workforce identity pools.
+
+- **Workloads** : Some IAM principal types represent workloads. You use these principal types when managing your workloads' access to Google Cloud resources.
+
+  Principal types that represent workloads include service accounts and federated identities in a workload identity pool.
 
 For more information about principals, see [IAM principals](https://docs.cloud.google.com/iam/docs/principals-overview) .
 
-<span id="roles"></span>
-
 ### Permissions and roles
 
-Permissions determine what operations are allowed on a resource. In IAM, permissions are typically represented in the form `  service . resource . verb  ` . Often, permissions correspond one-to-one with REST API methods—for example, the `resourcemanager.projects.list` permission lets you list Resource Manager projects.
+Permissions determine what operations are allowed on a resource. In IAM, permissions are typically represented in the form `service `` . `` resource `` . `` verb` . Often, permissions correspond one-to-one with REST API methods—for example, the `resourcemanager.projects.list` permission lets you list Resource Manager projects.
 
 *You can't directly grant permissions to a principal* . Instead, you give principals permissions by granting them *roles* .
 
@@ -60,11 +54,11 @@ Roles are collections of permissions. When you grant a role to a principal, you 
 
 There are three types of roles:
 
-  - **Predefined roles** : Roles that are managed by Google Cloud services. These roles contain the permissions needed to perform common tasks for each given service. For example, the Pub/Sub Publisher role ( `roles/pubsub.publisher` ) provides access to publish messages to a Pub/Sub topic.
+- **Predefined roles** : Roles that are managed by Google Cloud services. These roles contain the permissions needed to perform common tasks for each given service. For example, the Pub/Sub Publisher role ( `roles/pubsub.publisher` ) provides access to publish messages to a Pub/Sub topic.
 
-  - **Custom roles** : Roles that you create that contain only the permissions that you specify. You have complete control over the permissions in these roles. However, they have a higher maintenance burden than predefined roles and there's a limit to the number of custom roles that you can have in your project and in your organization.
+- **Custom roles** : Roles that you create that contain only the permissions that you specify. You have complete control over the permissions in these roles. However, they have a higher maintenance burden than predefined roles and there's a limit to the number of custom roles that you can have in your project and in your organization.
 
-  - **Basic roles** : Highly permissive roles that provide broad access to Google Cloud services. These roles can be useful for testing purposes, but shouldn't be used in production environments.
+- **Basic roles** : Highly permissive roles that provide broad access to Google Cloud services. These roles can be useful for testing purposes, but shouldn't be used in production environments.
 
 For more information about roles and permissions, see [Roles and permissions](https://docs.cloud.google.com/iam/docs/roles-overview) .
 
@@ -77,8 +71,6 @@ In IAM, you grant roles on a resource. Granting a principal a role on a resource
 You can grant roles on a subset of Google Cloud resources. For a full list of resources that you can grant roles on, see [Resource types that accept allow policies](https://docs.cloud.google.com/iam/docs/resource-types-with-policies) .
 
 Google Cloud also has container resources, including projects, folders, and organizations. These container resources are organized hierarchically, which lets child resources inherit the policies of their parent resources. This means that granting a principal a role on a container resource gives the principal access to both the container resource *and* the resources in that container. This feature lets you use a single role grant to manage access to multiple resources, including resources that you can't grant roles on directly. For more information, see [Policy inheritance](https://docs.cloud.google.com/iam/docs/overview#policy-inheritance) on this page.
-
-<span id="iam_policy"></span> <span id="cloud-iam-policy"></span>
 
 ### Allow policies
 
@@ -98,18 +90,16 @@ When an authenticated principal attempts to access a resource, IAM checks the re
 
 To see examples of allow policies and learn about their structure, see [Understanding allow policies](https://docs.cloud.google.com/iam/docs/allow-policies) .
 
-<span id="policy_hierarchy"></span> <span id="resource-hierarchy"></span>
-
 ## Policy inheritance
 
 Google Cloud has container resources—such as projects, folders, and organizations—that let you organize your resources in a parent-child hierarchy. This hierarchy is called the *resource hierarchy* .
 
 The Google Cloud resource hierarchy has the following structure:
 
-  - The *organization* is the root node in the hierarchy.
-  - *Folders* are children of the organization, or of another folder.
-  - *Projects* are children of the organization, or of a folder.
-  - *Resources* for each service are descendants of projects.
+- The *organization* is the root node in the hierarchy.
+- *Folders* are children of the organization, or of another folder.
+- *Projects* are children of the organization, or of a folder.
+- *Resources* for each service are descendants of projects.
 
 The following diagram is an example of a Google Cloud resource hierarchy:
 
@@ -121,15 +111,15 @@ If you set an allow policy on a container resource, then the allow policy also a
 
 Policy inheritance has the following implications:
 
-  - **You can use a single role binding to grant access to multiple resources.** If you want to give a principal access to all resources in a container, then grant them a role on the container instead of on the resources in the container.
-    
-    For example, if you want to let your security administrator manage allow policies for all resources in your organization, then you could grant them the Security Admin role ( `roles/iam.securityAdmin` ) on the organization.
+- **You can use a single role binding to grant access to multiple resources.** If you want to give a principal access to all resources in a container, then grant them a role on the container instead of on the resources in the container.
 
-  - **You can grant access to resources that don't have their own allow policies.** Not all resources accept allow policies, but all resources inherit allow policies from their ancestors. To give a principal access to a resource that can't have its own allow policy, grant them a role on one of the resource's ancestors.
-    
-    For example, imagine you want to give someone permission to write logs to a log bucket. Log buckets don't have their own allow policies, so to give someone this permission, you can instead grant them the Logs Bucket Writer role ( `roles/logging.bucketWriter` ) on the project that contains the log bucket.
+  For example, if you want to let your security administrator manage allow policies for all resources in your organization, then you could grant them the Security Admin role ( `roles/iam.securityAdmin` ) on the organization.
 
-  - **To understand who can access a resource, you need to also view *all* of the allow policies that affect the resource** . To get a complete list of the principals that have access to the resource, you need to view the resource's allow policy *and* the resource's ancestors' allow policies. The union of all of these policies is called the *effective allow policy* .
+- **You can grant access to resources that don't have their own allow policies.** Not all resources accept allow policies, but all resources inherit allow policies from their ancestors. To give a principal access to a resource that can't have its own allow policy, grant them a role on one of the resource's ancestors.
+
+  For example, imagine you want to give someone permission to write logs to a log bucket. Log buckets don't have their own allow policies, so to give someone this permission, you can instead grant them the Logs Bucket Writer role ( `roles/logging.bucketWriter` ) on the project that contains the log bucket.
+
+- **To understand who can access a resource, you need to also view *all* of the allow policies that affect the resource** . To get a complete list of the principals that have access to the resource, you need to view the resource's allow policy *and* the resource's ancestors' allow policies. The union of all of these policies is called the *effective allow policy* .
 
 For more information about policy inheritance for allow policies, see [Using resource hierarchy for access control](https://docs.cloud.google.com/iam/docs/resource-hierarchy-access-control) .
 
@@ -137,29 +127,29 @@ For more information about policy inheritance for allow policies, see [Using res
 
 In addition to allow policies, IAM provides the following access control mechanisms to help you refine who has access to what resources:
 
-  - **Additional policy types** : IAM offers the following policy types in addition to allow policies:
-    
-      - **Deny policies** : Deny policies prevent principals from using certain permissions, even if they're granted a role with the permission.
-    
-      - **Principal Access Boundary (PAB) policies** : Principal Access Boundary policies define and enforce the resources a principal is eligible to access. Principals can't access resources that they're not eligible to access, even if they've been granted a role on the resource.
-    
-    To learn more about these policies, see [Policy types](https://docs.cloud.google.com/iam/docs/policy-types) .
+- **Additional policy types** : IAM offers the following policy types in addition to allow policies:
 
-<!-- end list -->
+  - **Deny policies** : Deny policies prevent principals from using certain permissions, even if they're granted a role with the permission.
 
-  - **IAM Conditions** : IAM Conditions lets you define and enforce conditional, attribute-based access control. You can use conditions in various policy types. For example, you can add a condition to a role binding in an allow policy to ensure that the role is only granted if the condition is met.
-    
-    You can write conditions based on attributes like the resource in the request and the time of the request.
-    
-    To learn more about IAM Conditions, see [Overview of IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) .
+  - **Principal Access Boundary (PAB) policies** : Principal Access Boundary policies define and enforce the resources a principal is eligible to access. Principals can't access resources that they're not eligible to access, even if they've been granted a role on the resource.
 
-<!-- end list -->
+  To learn more about these policies, see [Policy types](https://docs.cloud.google.com/iam/docs/policy-types) .
 
-  - **Privileged Access Manager (PAM)** : With Privileged Access Manager, you can let principals request and be given temporary, auditable access to resources. For example, you could require that principals request access each time they want to view a sensitive resource instead of permanently granting them a IAM role.
-    
-    You can also configure whether principals are required to provide justifications or get approvals when they request access.
-    
-    To learn more about Privileged Access Manager, see [Privileged Access Manager overview](https://docs.cloud.google.com/iam/docs/pam-overview) .
+<!-- -->
+
+- **IAM Conditions** : IAM Conditions lets you define and enforce conditional, attribute-based access control. You can use conditions in various policy types. For example, you can add a condition to a role binding in an allow policy to ensure that the role is only granted if the condition is met.
+
+  You can write conditions based on attributes like the resource in the request and the time of the request.
+
+  To learn more about IAM Conditions, see [Overview of IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) .
+
+<!-- -->
+
+- **Privileged Access Manager (PAM)** : With Privileged Access Manager, you can let principals request and be given temporary, auditable access to resources. For example, you could require that principals request access each time they want to view a sensitive resource instead of permanently granting them a IAM role.
+
+  You can also configure whether principals are required to provide justifications or get approvals when they request access.
+
+  To learn more about Privileged Access Manager, see [Privileged Access Manager overview](https://docs.cloud.google.com/iam/docs/pam-overview) .
 
 ## Consistency model for the IAM API
 
@@ -167,12 +157,10 @@ The [IAM API](https://docs.cloud.google.com/iam/docs/reference/rest) is [eventua
 
 This consistency model affects how the IAM API works. For example, if you create a service account, then immediately refer to that service account in another request, the IAM API might say that the service account couldn't be found. This behavior occurs because operations are eventually consistent; it can take time for the new service account to become visible to read requests.
 
-<span id="next_steps"></span>
-
 ## What's next
 
-  - To learn how to configure identities for Google Cloud, see [Identity management for Google Cloud](https://docs.cloud.google.com/iam/docs/google-identities) .
-  - To learn how to grant, change, and revoke IAM roles to principals, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
-  - To see available IAM roles, see [Predefined roles](https://docs.cloud.google.com/iam/docs/roles-permissions) .
-  - To get help with choosing the most appropriate predefined roles, read [Find the right predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
-  - To see the policy types available in IAM, see [Policy types](https://docs.cloud.google.com/iam/docs/policy-types) .
+- To learn how to configure identities for Google Cloud, see [Identity management for Google Cloud](https://docs.cloud.google.com/iam/docs/google-identities) .
+- To learn how to grant, change, and revoke IAM roles to principals, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+- To see available IAM roles, see [Predefined roles](https://docs.cloud.google.com/iam/docs/roles-permissions) .
+- To get help with choosing the most appropriate predefined roles, read [Find the right predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
+- To see the policy types available in IAM, see [Policy types](https://docs.cloud.google.com/iam/docs/policy-types) .

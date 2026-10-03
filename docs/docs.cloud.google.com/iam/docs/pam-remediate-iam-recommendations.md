@@ -7,7 +7,7 @@ data_source: docs.cloud.google.com
 ---
 
 > **Preview**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 If the IAM recommender identifies that a principal has excessive permissions, you can remediate the finding by transitioning the principal's permanent role binding to a temporary, on-demand entitlement in Privileged Access Manager (PAM).
@@ -23,12 +23,12 @@ This approach lets you achieve a [least privilege posture](https://docs.cloud.go
 
 To get the permissions that you need to complete the tasks in this guide, ask your administrator to grant you the following IAM roles on your Google Cloud project:
 
-  - To view role recommendations:
-      - [Recommender IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/recommender#recommender.iamAdmin) ( `roles/recommender.iamAdmin` )
-      - [Recommender IAM Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/recommender#recommender.iamViewer) ( `roles/recommender.iamViewer` )
-  - To create Privileged Access Manager (PAM) entitlements:
-      - [Privileged Access Manager Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin) ( `roles/privilegedaccessmanager.admin` )
-      - [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` )
+- To view role recommendations:
+  - [Recommender IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/recommender#recommender.iamAdmin) ( `roles/recommender.iamAdmin` )
+  - [Recommender IAM Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/recommender#recommender.iamViewer) ( `roles/recommender.iamViewer` )
+- To create Privileged Access Manager (PAM) entitlements:
+  - [Privileged Access Manager Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin) ( `roles/privilegedaccessmanager.admin` )
+  - [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` )
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -38,17 +38,17 @@ These predefined roles contain the permissions required to complete the tasks in
 
 The following permissions are required to complete the tasks in this guide:
 
-  - To view role recommendations:
-      - `recommender.iamPolicyInsights.list`
-      - `recommender.iamPolicyRecommendations.list`
-      - `resourcemanager.projects.get`
-  - To create PAM entitlements:
-      - `privilegedaccessmanager.entitlements.create`
-      - `privilegedaccessmanager.entitlements.list`
-      - `privilegedaccessmanager.locations.list`
-      - `privilegedaccessmanager.locations.get`
-      - `resourcemanager.projects.get`
-      - `resourcemanager.projects.setIamPolicy`
+- To view role recommendations:
+  - `recommender.iamPolicyInsights.list`
+  - `recommender.iamPolicyRecommendations.list`
+  - `resourcemanager.projects.get`
+- To create PAM entitlements:
+  - `privilegedaccessmanager.entitlements.create`
+  - `privilegedaccessmanager.entitlements.list`
+  - `privilegedaccessmanager.locations.list`
+  - `privilegedaccessmanager.locations.get`
+  - `resourcemanager.projects.get`
+  - `resourcemanager.projects.setIamPolicy`
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -71,9 +71,9 @@ To transition a role from the **Security Insights** page, do the following:
 5.  In the **Overview** page, select **Remove role and grant on-demand access to the role** .
 
 6.  To create an entitlement with the required role, enter the required details, and click **Apply** . The **Role** and **Resource** fields in the form are pre-populated based on the recommendation. The **Duration** defaults to 8 hours. For detailed instructions, see [Create entitlements](https://docs.cloud.google.com/iam/docs/pam-create-entitlements#create-entitlements) .
-    
+
     Privileged Access Manager creates a new entitlement based on your configuration and removes the permanent role binding from the resource's allow policy.
-    
+
     Access changes take 1–2 minutes to take effect.
 
 ### IAM
@@ -89,9 +89,9 @@ To transition a role from the **IAM** page, do the following:
 4.  In the **Overview** page, select **Remove role and grant on-demand access to the role** .
 
 5.  To create an entitlement with the required role, enter the required details, and click **Apply** . The **Role** and **Resource** fields in the form are pre-populated based on the recommendation. The **Duration** defaults to 8 hours. For detailed instructions, see [Create entitlements](https://docs.cloud.google.com/iam/docs/pam-create-entitlements#create-entitlements) .
-    
+
     Privileged Access Manager creates a new entitlement based on your configuration and removes the permanent role binding from the resource's allow policy.
-    
+
     Access changes take 1–2 minutes to take effect.
 
 ## Revert a recommendation
@@ -104,5 +104,5 @@ After you revert the recommendation, the system restores the original IAM bindin
 
 ## What's next
 
-  - Learn more about [role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) .
-  - Understand [PAM entitlements](https://docs.cloud.google.com/iam/docs/pam-create-entitlements) .
+- Learn more about [role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) .
+- Understand [PAM entitlements](https://docs.cloud.google.com/iam/docs/pam-create-entitlements) .

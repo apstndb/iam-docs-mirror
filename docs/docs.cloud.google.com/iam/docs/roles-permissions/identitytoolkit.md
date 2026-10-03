@@ -23,73 +23,73 @@ This page lists the IAM roles and permissions for Identity Toolkit. To search th
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="identitytoolkit.admin" class="role-title add-link" data-text="Identity Toolkit Admin" tabindex="-1">Identity Toolkit Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  identitytoolkit.admin</code> )</p>
+<td>Identity Toolkit Admin
+<p>( <code>roles/ identitytoolkit.admin</code> )</p>
 <p>Full access to Identity Toolkit resources.</p></td>
-<td><p><code dir="ltr" translate="no">firebaseauth.*</code></p>
+<td><p><code>firebaseauth.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">firebaseauth.configs.create</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.configs.get</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.  configs.  getHashConfig</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.configs.getSecret</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.configs.update</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.create</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.  users.  createSession</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.delete</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.get</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.sendEmail</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.update</code></li>
+<li><code>firebaseauth.configs.create</code></li>
+<li><code>firebaseauth.configs.get</code></li>
+<li><code>firebaseauth. configs. getHashConfig</code></li>
+<li><code>firebaseauth.configs.getSecret</code></li>
+<li><code>firebaseauth.configs.update</code></li>
+<li><code>firebaseauth.users.create</code></li>
+<li><code>firebaseauth. users. createSession</code></li>
+<li><code>firebaseauth.users.delete</code></li>
+<li><code>firebaseauth.users.get</code></li>
+<li><code>firebaseauth.users.sendEmail</code></li>
+<li><code>firebaseauth.users.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">identitytoolkit.*</code></p>
+<p><code>identitytoolkit.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">identitytoolkit.tenants.create</code></li>
-<li><code dir="ltr" translate="no">identitytoolkit.tenants.delete</code></li>
-<li><code dir="ltr" translate="no">identitytoolkit.tenants.get</code></li>
-<li><code dir="ltr" translate="no">identitytoolkit.  tenants.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">identitytoolkit.tenants.list</code></li>
-<li><code dir="ltr" translate="no">identitytoolkit.  tenants.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">identitytoolkit.tenants.update</code></li>
+<li><code>identitytoolkit.tenants.create</code></li>
+<li><code>identitytoolkit.tenants.delete</code></li>
+<li><code>identitytoolkit.tenants.get</code></li>
+<li><code>identitytoolkit. tenants. getIamPolicy</code></li>
+<li><code>identitytoolkit.tenants.list</code></li>
+<li><code>identitytoolkit. tenants. setIamPolicy</code></li>
+<li><code>identitytoolkit.tenants.update</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="identitytoolkit.editor" class="role-title add-link" data-text="Identity Toolkit editor" tabindex="-1">Identity Toolkit editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  identitytoolkit.editor</code> )</p>
+<td>Identity Toolkit editor
+<p>( <code>roles/ identitytoolkit.editor</code> )</p>
 <p>Write access to Identity Toolkit resources.</p></td>
-<td><p><code dir="ltr" translate="no">firebase.clients.get</code></p>
-<p><code dir="ltr" translate="no">firebase.clients.list</code></p>
-<p><code dir="ltr" translate="no">firebase.projects.get</code></p>
-<p><code dir="ltr" translate="no">firebaseauth.*</code></p>
+<td><p><code>firebase.clients.get</code></p>
+<p><code>firebase.clients.list</code></p>
+<p><code>firebase.projects.get</code></p>
+<p><code>firebaseauth.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">firebaseauth.configs.create</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.configs.get</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.  configs.  getHashConfig</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.configs.getSecret</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.configs.update</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.create</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.  users.  createSession</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.delete</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.get</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.sendEmail</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.update</code></li>
+<li><code>firebaseauth.configs.create</code></li>
+<li><code>firebaseauth.configs.get</code></li>
+<li><code>firebaseauth. configs. getHashConfig</code></li>
+<li><code>firebaseauth.configs.getSecret</code></li>
+<li><code>firebaseauth.configs.update</code></li>
+<li><code>firebaseauth.users.create</code></li>
+<li><code>firebaseauth. users. createSession</code></li>
+<li><code>firebaseauth.users.delete</code></li>
+<li><code>firebaseauth.users.get</code></li>
+<li><code>firebaseauth.users.sendEmail</code></li>
+<li><code>firebaseauth.users.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">identitytoolkit.tenants.create</code></p>
-<p><code dir="ltr" translate="no">identitytoolkit.tenants.delete</code></p>
-<p><code dir="ltr" translate="no">identitytoolkit.tenants.get</code></p>
-<p><code dir="ltr" translate="no">identitytoolkit.  tenants.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">identitytoolkit.tenants.list</code></p>
-<p><code dir="ltr" translate="no">identitytoolkit.tenants.update</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>identitytoolkit.tenants.create</code></p>
+<p><code>identitytoolkit.tenants.delete</code></p>
+<p><code>identitytoolkit.tenants.get</code></p>
+<p><code>identitytoolkit. tenants. getIamPolicy</code></p>
+<p><code>identitytoolkit.tenants.list</code></p>
+<p><code>identitytoolkit.tenants.update</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="identitytoolkit.viewer" class="role-title add-link" data-text="Identity Toolkit Viewer" tabindex="-1">Identity Toolkit Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  identitytoolkit.viewer</code> )</p>
+<td>Identity Toolkit Viewer
+<p>( <code>roles/ identitytoolkit.viewer</code> )</p>
 <p>Read access to Identity Toolkit resources.</p></td>
-<td><p><code dir="ltr" translate="no">firebaseauth.configs.get</code></p>
-<p><code dir="ltr" translate="no">firebaseauth.users.get</code></p>
-<p><code dir="ltr" translate="no">identitytoolkit.tenants.get</code></p>
-<p><code dir="ltr" translate="no">identitytoolkit.  tenants.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">identitytoolkit.tenants.list</code></p></td>
+<td><p><code>firebaseauth.configs.get</code></p>
+<p><code>firebaseauth.users.get</code></p>
+<p><code>identitytoolkit.tenants.get</code></p>
+<p><code>identitytoolkit. tenants. getIamPolicy</code></p>
+<p><code>identitytoolkit.tenants.list</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -111,17 +111,17 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="identitytoolkit.serviceAgent" class="role-title add-link" data-text="Identity Platform Service Agent" tabindex="-1">Identity Platform Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  identitytoolkit.serviceAgent</code> )</p>
+<td>Identity Platform Service Agent
+<p>( <code>roles/ identitytoolkit.serviceAgent</code> )</p>
 <p>Gives Identity Platform service account access to customer project resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">cloudfunctions.  functions.  invoke</code></p>
-<p><code dir="ltr" translate="no">recaptchaenterprise.  assessments.  create</code></p>
-<p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  create</code></p>
-<p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  delete</code></p>
-<p><code dir="ltr" translate="no">recaptchaenterprise.keys.get</code></p></td>
+<td><p><code>cloudfunctions. functions. invoke</code></p>
+<p><code>recaptchaenterprise. assessments. create</code></p>
+<p><code>recaptchaenterprise. keys. create</code></p>
+<p><code>recaptchaenterprise. keys. delete</code></p>
+<p><code>recaptchaenterprise.keys.get</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -141,141 +141,141 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="identitytoolkit.tenants.create" class="permission-name add-link" data-text="identitytoolkit.tenants.create" tabindex="-1"><code dir="ltr" translate="no">identitytoolkit.tenants.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identityplatform.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.editor">Identity Toolkit editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>identitytoolkit.tenants.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code>roles/ identityplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code>roles/ identitytoolkit.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.editor">Identity Toolkit editor</a> ( <code>roles/ identitytoolkit.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.sdkAdminServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code>roles/ firebase.sdkAdminServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="identitytoolkit.tenants.delete" class="permission-name add-link" data-text="identitytoolkit.tenants.delete" tabindex="-1"><code dir="ltr" translate="no">identitytoolkit.tenants.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identityplatform.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.editor">Identity Toolkit editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>identitytoolkit.tenants.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code>roles/ identityplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code>roles/ identitytoolkit.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.editor">Identity Toolkit editor</a> ( <code>roles/ identitytoolkit.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.sdkAdminServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code>roles/ firebase.sdkAdminServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="identitytoolkit.tenants.get" class="permission-name add-link" data-text="identitytoolkit.tenants.get" tabindex="-1"><code dir="ltr" translate="no">identitytoolkit.tenants.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identityplatform.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.viewer">Identity Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identityplatform.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.editor">Identity Toolkit editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.viewer">Identity Toolkit Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>identitytoolkit.tenants.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code>roles/ identityplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.viewer">Identity Platform Viewer</a> ( <code>roles/ identityplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code>roles/ identitytoolkit.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.editor">Identity Toolkit editor</a> ( <code>roles/ identitytoolkit.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.viewer">Identity Toolkit Viewer</a> ( <code>roles/ identitytoolkit.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.sdkAdminServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code>roles/ firebase.sdkAdminServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="identitytoolkit.tenants.getIamPolicy" class="permission-name add-link" data-text="identitytoolkit.tenants.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">identitytoolkit.  tenants.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identityplatform.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.viewer">Identity Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identityplatform.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.editor">Identity Toolkit editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.viewer">Identity Toolkit Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>identitytoolkit. tenants. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code>roles/ identityplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.viewer">Identity Platform Viewer</a> ( <code>roles/ identityplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code>roles/ identitytoolkit.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.editor">Identity Toolkit editor</a> ( <code>roles/ identitytoolkit.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.viewer">Identity Toolkit Viewer</a> ( <code>roles/ identitytoolkit.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.sdkAdminServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code>roles/ firebase.sdkAdminServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="identitytoolkit.tenants.list" class="permission-name add-link" data-text="identitytoolkit.tenants.list" tabindex="-1"><code dir="ltr" translate="no">identitytoolkit.tenants.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identityplatform.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.viewer">Identity Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identityplatform.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.editor">Identity Toolkit editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.viewer">Identity Toolkit Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>identitytoolkit.tenants.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code>roles/ identityplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.viewer">Identity Platform Viewer</a> ( <code>roles/ identityplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code>roles/ identitytoolkit.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.editor">Identity Toolkit editor</a> ( <code>roles/ identitytoolkit.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.viewer">Identity Toolkit Viewer</a> ( <code>roles/ identitytoolkit.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.sdkAdminServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code>roles/ firebase.sdkAdminServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="identitytoolkit.tenants.setIamPolicy" class="permission-name add-link" data-text="identitytoolkit.tenants.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">identitytoolkit.  tenants.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identityplatform.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<td><code>identitytoolkit. tenants. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code>roles/ identityplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code>roles/ identitytoolkit.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.sdkAdminServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code>roles/ firebase.sdkAdminServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="identitytoolkit.tenants.update" class="permission-name add-link" data-text="identitytoolkit.tenants.update" tabindex="-1"><code dir="ltr" translate="no">identitytoolkit.tenants.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identityplatform.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.editor">Identity Toolkit editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  identitytoolkit.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>identitytoolkit.tenants.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identityplatform#identityplatform.admin">Identity Platform Admin</a> ( <code>roles/ identityplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.admin">Identity Toolkit Admin</a> ( <code>roles/ identitytoolkit.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.editor">Identity Toolkit editor</a> ( <code>roles/ identitytoolkit.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.sdkAdminServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code>roles/ firebase.sdkAdminServiceAgent</code> )</li>
 </ul></td>
 </tr>
 </tbody>

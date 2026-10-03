@@ -44,20 +44,20 @@ Workforce identity pools let you manage groups of workforce identities and their
 
 Pools let you do the following:
 
-  - Group user identities; for example, `employees` or `partners`
-  - Grant IAM access to an entire pool or a subset of the pool.
-  - Federate identities from one or more IdPs.
-  - Define policies on a group of users that require similar access permissions.
-  - Specify IdP-specific configuration information, including [attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) and [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) .
-  - Enable the Google Cloud CLI and API access for third-party identities.
-  - Log access by users within a pool to Cloud Audit Logs, along with the pool ID.
+- Group user identities; for example, `employees` or `partners`
+- Grant IAM access to an entire pool or a subset of the pool.
+- Federate identities from one or more IdPs.
+- Define policies on a group of users that require similar access permissions.
+- Specify IdP-specific configuration information, including [attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) and [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) .
+- Enable the Google Cloud CLI and API access for third-party identities.
+- Log access by users within a pool to Cloud Audit Logs, along with the pool ID.
 
 You can create multiple pools. For an example that describes one such approach, see [Example: Multiple workforce identity pools](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#example-multiple-workforce-pools) .
 
 Pools are configured at the [Google Cloud organization level](https://docs.cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#organizations) , which motivates the following considerations:
 
-  - When you first set up Workforce Identity Federation for your organization, provide a unique ID for the pool. The pool ID must be globally unique across all workforce identity pools in Google Cloud, and should clearly describe the identities it contains.
-  - If you have the appropriate IAM permissions to view the pool, it can be referenced by its ID across all projects and folders within the organization.
+- When you first set up Workforce Identity Federation for your organization, provide a unique ID for the pool. The pool ID must be globally unique across all workforce identity pools in Google Cloud, and should clearly describe the identities it contains.
+- If you have the appropriate IAM permissions to view the pool, it can be referenced by its ID across all projects and folders within the organization.
 
 ### Workforce identity pool providers
 
@@ -91,62 +91,68 @@ The maximum size for attribute mappings is 16 KB. If the size of attribute mappi
 
 The attributes are as follows:
 
-  - `google.subject` (Required): a unique identifier for the authenticating user. It is *often the subject assertion of the JWT* , because Cloud Audit Logs logs record the contents of this field as the principal. You can use this field to configure IAM for authorization decisions. We recommend that you don't use a mutable value because if you change the value in your IdP's user directory, the user loses access.
-    
-    The maximum length is 127 bytes.
+- `google.subject` (Required): a unique identifier for the authenticating user. It is *often the subject assertion of the JWT* , because Cloud Audit Logs logs record the contents of this field as the principal. You can use this field to configure IAM for authorization decisions. We recommend that you don't use a mutable value because if you change the value in your IdP's user directory, the user loses access.
 
-  - `google.groups` (Optional): the collection of groups that the authenticating user is a member of. You can configure a logic expression using a subset of CEL that produces *an array of strings* . You can also use this field to configure IAM for authorization decisions. Limitations for `google.groups` are as follows:
-    
-      - We recommend that you limit the group name to 40 characters.
-    
-      - If a single user belongs to more than 400 groups, that user's sign-in attempt will fail. To mitigate this, you must define a smaller set of groups in the assertion, and map only those groups that are used to federate the user to Google Cloud.
-    
-      - If you use this attribute to grant access in IAM, every member in the mapped groups is granted access. Therefore, we recommend that you ensure that only authorized users in your organization can modify the membership of the mapped groups.
+  The maximum length is 127 bytes.
 
-  - `google.display_name` (Optional): attribute that is *used to set the name* of the signed-in user in the Google Cloud console. This attribute can't be used in IAM allow policies nor in the attribute condition.
-    
-    The maximum length is 100 bytes.
+- `google.groups` (Optional): the collection of groups that the authenticating user is a member of. You can configure a logic expression using a subset of CEL that produces *an array of strings* . You can also use this field to configure IAM for authorization decisions. Limitations for `google.groups` are as follows:
 
-  - `google.profile_photo` (Optional): a URL of the user's thumbnail photo. We recommend the photo to be 400x400 pixels. When this attribute is set, the image is visible as the user's profile picture in the Google Cloud console. If this value isn't set, or it can't be fetched, a generic user icon is displayed instead. This attribute can't be used in either IAM allow policies or in the attribute condition.
+  - We recommend that you limit the group name to 40 characters.
 
-  - `google.posix_username` (Optional): a unique POSIX-compliant username string used for the following:
-    
-      - [SSH-in-browser](https://docs.cloud.google.com/compute/docs/ssh-in-browser) .
-    
-      - [OS Login with Workforce Identity Federation](https://docs.cloud.google.com/compute/docs/oslogin/manage-oslogin-in-an-org#use_workforce_identity_federation_with_os_login) ( [Preview](https://cloud.google.com/products/#product-launch-stages) ).
-    
-    This attribute can't be used in IAM allow policies or in the attribute condition. The maximum length is 32 characters.
+  - If a single user belongs to more than 400 groups, that user's sign-in attempt will fail. To mitigate this, you must define a smaller set of groups in the assertion, and map only those groups that are used to federate the user to Google Cloud.
 
-  - `google.email` (Optional): an attribute that is used to map email addresses of signed-in, federated users from the IdP to products that you integrate using [Workforce Identity Federation OAuth client integration](https://docs.cloud.google.com/iam/docs/workforce-oauth-app) . This attribute can't be used in IAM allow policies or in the attribute condition.
-    
-    For example, to map email addresses from Okta using the OIDC protocol, include `google.email=assertion.email` in your attribute mapping.
-    
-    Example Google Cloud products that support OAuth client integration include the following:
-    
-      - [Identity-Aware Proxy with Workforce Identity Federation](https://docs.cloud.google.com/iap/docs/use-workforce-identity-federation)
-      - [Secure Source Manager with Workforce Identity Federation](https://docs.cloud.google.com/secure-source-manager/docs/create-instance-federated-identities)
+  - If you use this attribute to grant access in IAM, every member in the mapped groups is granted access. Therefore, we recommend that you ensure that only authorized users in your organization can modify the membership of the mapped groups.
 
-  - ` attribute. KEY  ` (Optional): an external IdP-defined attribute that is present in a user's IdP token. You can use the custom attribute to define your authorization strategy in an IAM allow policy.
-    
-    For example, in your IdP, you can choose to define an attribute such as the user's cost center as `costcenter = "1234"` , and then refer to the principal in the following way:
-    
-        principalSet://iam.googleapis.com/projects/PROJECT_NUMBER/locations/global/workforcePools/WORKFORCE_POOL_ID/attribute.costcenter/1234
-    
-    After you grant access on Google Cloud resources to this principal identifier, all identities that are configured in the IdP to have the `costcenter` attribute set to `1234` have access to the resources.
-    
-    You can configure a maximum of 50 custom attribute mapping rules. The maximum size of each such rule is 2048 characters.
-    
-    Although we don't have restrictions on the attributes you can map here, we strongly recommend that you choose attributes whose values are stable. For example, an attribute like `attribute.job_description` might change for many reasons (such as improving its readability). As an alternative, consider using `attribute.role` . Changes to the latter indicate a change of assigned responsibility and align with changes in the access granted to the user.
+- `google.display_name` (Optional): attribute that is *used to set the name* of the signed-in user in the Google Cloud console. This attribute can't be used in IAM allow policies nor in the attribute condition.
+
+  The maximum length is 100 bytes.
+
+- `google.profile_photo` (Optional): a URL of the user's thumbnail photo. We recommend the photo to be 400x400 pixels. When this attribute is set, the image is visible as the user's profile picture in the Google Cloud console. If this value isn't set, or it can't be fetched, a generic user icon is displayed instead. This attribute can't be used in either IAM allow policies or in the attribute condition.
+
+- `google.posix_username` (Optional): a unique POSIX-compliant username string used for the following:
+
+  - [SSH-in-browser](https://docs.cloud.google.com/compute/docs/ssh-in-browser) .
+
+  - [OS Login with Workforce Identity Federation](https://docs.cloud.google.com/compute/docs/oslogin/manage-oslogin-in-an-org#use_workforce_identity_federation_with_os_login) ( [Preview](https://cloud.google.com/products/#product-launch-stages) ).
+
+  This attribute can't be used in IAM allow policies or in the attribute condition. The maximum length is 32 characters.
+
+- `google.email` (Optional): an attribute that is used to map email addresses of signed-in, federated users from the IdP to products that you integrate using [Workforce Identity Federation OAuth client integration](https://docs.cloud.google.com/iam/docs/workforce-oauth-app) . This attribute can't be used in IAM allow policies or in the attribute condition.
+
+  For example, to map email addresses from Okta using the OIDC protocol, include `google.email=assertion.email` in your attribute mapping.
+
+  Example Google Cloud products that support OAuth client integration include the following:
+
+  - [Identity-Aware Proxy with Workforce Identity Federation](https://docs.cloud.google.com/iap/docs/use-workforce-identity-federation)
+  - [Secure Source Manager with Workforce Identity Federation](https://docs.cloud.google.com/secure-source-manager/docs/create-instance-federated-identities)
+
+- `attribute. `` KEY` (Optional): an external IdP-defined attribute that is present in a user's IdP token. You can use the custom attribute to define your authorization strategy in an IAM allow policy.
+
+  For example, in your IdP, you can choose to define an attribute such as the user's cost center as `costcenter = "1234"` , and then refer to the principal in the following way:
+
+  ```
+  principalSet://iam.googleapis.com/projects/PROJECT_NUMBER/locations/global/workforcePools/WORKFORCE_POOL_ID/attribute.costcenter/1234
+  ```
+
+  After you grant access on Google Cloud resources to this principal identifier, all identities that are configured in the IdP to have the `costcenter` attribute set to `1234` have access to the resources.
+
+  You can configure a maximum of 50 custom attribute mapping rules. The maximum size of each such rule is 2048 characters.
+
+  Although we don't have restrictions on the attributes you can map here, we strongly recommend that you choose attributes whose values are stable. For example, an attribute like `attribute.job_description` might change for many reasons (such as improving its readability). As an alternative, consider using `attribute.role` . Changes to the latter indicate a change of assigned responsibility and align with changes in the access granted to the user.
 
 You can transform attribute values using [standard CEL functions](https://github.com/google/cel-spec/blob/master/doc/langdef.md) . You can also use the following custom functions:
 
-  - The [`split` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-split) splits a string on the provided separator value. For example, to extract the attribute `username` from an email address attribute by splitting its value at the `@` and using the first string, use the following attribute mapping:
-    
-        attribute.username=assertion.email.split("@")[0]
+- The [`split` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-split) splits a string on the provided separator value. For example, to extract the attribute `username` from an email address attribute by splitting its value at the `@` and using the first string, use the following attribute mapping:
 
-  - The [`join` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-join) joins a list of strings on the provided separator value. For example, to populate the custom attribute `department` by concatenating a list of strings with `.` as a separator, use the following attribute mapping:
-    
-        attribute.department=assertion.department.join(".")
+  ```
+  attribute.username=assertion.email.split("@")[0]
+  ```
+
+- The [`join` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-join) joins a list of strings on the provided separator value. For example, to populate the custom attribute `department` by concatenating a list of strings with `.` as a separator, use the following attribute mapping:
+
+  ```
+  attribute.department=assertion.department.join(".")
+  ```
 
 #### Attribute conditions
 
@@ -156,8 +162,8 @@ Attribute conditions are optional CEL expressions that let you set constraints o
 
 The benefits of using attribute conditions include the following:
 
-  - You can use attribute conditions to allow only a subset of external identities to authenticate to your Google Cloud project. For example, you might want to allow only those identities that are in a specific team to sign in, especially if you are using a public IdP. For another example, you might want to allow your accounting team to sign in, but not your engineering team.
-  - Attribute conditions let you prevent credentials intended for use with another platform from being used with Google Cloud, and vice-versa. This helps avoid the [confused deputy problem](https://wikipedia.org/wiki/Confused_deputy_problem) .
+- You can use attribute conditions to allow only a subset of external identities to authenticate to your Google Cloud project. For example, you might want to allow only those identities that are in a specific team to sign in, especially if you are using a public IdP. For another example, you might want to allow your accounting team to sign in, but not your engineering team.
+- Attribute conditions let you prevent credentials intended for use with another platform from being used with Google Cloud, and vice-versa. This helps avoid the [confused deputy problem](https://wikipedia.org/wiki/Confused_deputy_problem) .
 
 #### Attribute conditions for multi-tenant IdPs
 
@@ -191,12 +197,12 @@ For more information, see [SCIM provisioning for Workforce Identity Federation](
 
 The following table shows the principal identifiers that you can use to grant roles to individual users and groups of users.
 
-| Identities                                               | Identifier format                                                                                                                                                        |
-| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Single identity in a workforce identity pool             | ` principal://iam.googleapis.com/locations/global/workforcePools/         POOL_ID        /subject/         SUBJECT_ATTRIBUTE_VALUE        `                              |
-| All workforce identities in a group                      | ` principalSet://iam.googleapis.com/locations/global/workforcePools/         POOL_ID        /group/         GROUP_ID        `                                            |
-| All workforce identities with a specific attribute value | ` principalSet://iam.googleapis.com/locations/global/workforcePools/         POOL_ID        /attribute.         ATTRIBUTE_NAME        /         ATTRIBUTE_VALUE        ` |
-| All identities in a workforce identity pool              | `principalSet://iam.googleapis.com/locations/global/workforcePools/         POOL_ID        /*`                                                                           |
+| Identities                                               | Identifier format                                                                                                                        |
+|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| Single identity in a workforce identity pool             | `principal://iam.googleapis.com/locations/global/workforcePools/ `` POOL_ID `` /subject/ `` SUBJECT_ATTRIBUTE_VALUE`                     |
+| All workforce identities in a group                      | `principalSet://iam.googleapis.com/locations/global/workforcePools/ `` POOL_ID `` /group/ `` GROUP_ID`                                   |
+| All workforce identities with a specific attribute value | `principalSet://iam.googleapis.com/locations/global/workforcePools/ `` POOL_ID `` /attribute. `` ATTRIBUTE_NAME `` / `` ATTRIBUTE_VALUE` |
+| All identities in a workforce identity pool              | `principalSet://iam.googleapis.com/locations/global/workforcePools/ `` POOL_ID `` /*`                                                    |
 
 For a complete list of principal identifiers, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -233,17 +239,19 @@ To do this, Enterprise Example Organization's Admin performs the following tasks
 2.  Create a new workforce pool called `example-organization-partner` .
 
 3.  Create the following allow policy for the `example-organization-partner` pool:
-    
+
+    ```
+    {
+      "bindings": [
         {
-          "bindings": [
-            {
-              "role": "roles/iam.workforcePoolEditor",
-              "members": [
-                "principalSet://iam.googleapis.com/locations/global/workforcePools/enterprise-example-organization-employees/subject/partner-organization-admin@example.com"
-              ]
-            }
+          "role": "roles/iam.workforcePoolEditor",
+          "members": [
+            "principalSet://iam.googleapis.com/locations/global/workforcePools/enterprise-example-organization-employees/subject/partner-organization-admin@example.com"
           ]
         }
+      ]
+    }
+    ```
 
 4.  Grant roles for the `example-organization-partner` pool on the resources they need access to in Enterprise Example Organization's organization.
 
@@ -261,15 +269,17 @@ Workforce Identity Federation administrative features, including workforce pool 
 
 For Security Token Service API requests where the audience is a [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) pool (which is an organization-level resource), you must configure egress rules. This is necessary because VPC Service Controls does not support adding organization-level resources directly to perimeters. The following egress rules allow requests originating from the perimeter to reach the Workforce STS APIs that interact with organization-level Workforce pools:
 
-    - egressTo:
-        operations:
-          - serviceName: 'sts.googleapis.com'
-            methodSelectors:
-              - method: '*'
-        resources:
-          - '*'
-      egressFrom:
-        identityType: ANY_IDENTITY
+```
+- egressTo:
+    operations:
+      - serviceName: 'sts.googleapis.com'
+        methodSelectors:
+          - method: '*'
+    resources:
+      - '*'
+  egressFrom:
+    identityType: ANY_IDENTITY
+```
 
 ### Workforce Identity Federation and Essential Contacts
 
@@ -279,14 +289,14 @@ When you use the Google Cloud console to create or manage workforce identity poo
 
 ## What's next
 
-  - Review [Architecture patterns for identity federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures) .
-  - Review [Best practices for using Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation) .
-  - To learn how to set up Workforce Identity Federation, see [Configuring Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) . For IdP-specific instructions, see the following:
-      - [Configure Workforce Identity Federation with Microsoft Entra ID and sign in users](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id)
-      - [Configure Workforce Identity Federation with Okta and sign in users](https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta)
-  - [Obtain short-lived tokens for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials)
-  - [Manage workforce pools providers](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers)
-  - [Delete Workforce Identity Federation users and their data](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data)
-  - [View Workforce Identity Federation audit logs](https://docs.cloud.google.com/iam/docs/audit-logging/examples-workforce-identity)
-  - [View products that support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services)
-  - [Set up user access to console (federated)](https://docs.cloud.google.com/iam/docs/workforce-console-sso)
+- Review [Architecture patterns for identity federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures) .
+- Review [Best practices for using Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation) .
+- To learn how to set up Workforce Identity Federation, see [Configuring Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) . For IdP-specific instructions, see the following:
+  - [Configure Workforce Identity Federation with Microsoft Entra ID and sign in users](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id)
+  - [Configure Workforce Identity Federation with Okta and sign in users](https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta)
+- [Obtain short-lived tokens for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials)
+- [Manage workforce pools providers](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers)
+- [Delete Workforce Identity Federation users and their data](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data)
+- [View Workforce Identity Federation audit logs](https://docs.cloud.google.com/iam/docs/audit-logging/examples-workforce-identity)
+- [View products that support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services)
+- [Set up user access to console (federated)](https://docs.cloud.google.com/iam/docs/workforce-console-sso)

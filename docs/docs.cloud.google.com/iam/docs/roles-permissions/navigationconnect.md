@@ -23,70 +23,33 @@ This page lists the IAM roles and permissions for Navigation Connect. To search 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="navigationconnect.admin" class="role-title add-link" data-text="Navigation Connect Admin Beta" tabindex="-1">Navigation Connect Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  navigationconnect.admin</code> )</p>
+<td>Navigation Connect Admin <sup>Beta</sup>
+<p>( <code>roles/ navigationconnect.admin</code> )</p>
 <p>Full access to Navigation Connect resources.</p></td>
-<td><p><code dir="ltr" translate="no">navigationconnect.*</code></p>
+<td><p><code>navigationconnect.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">navigationconnect.trips.cancel</code></li>
-<li><code dir="ltr" translate="no">navigationconnect.trips.create</code></li>
-<li><code dir="ltr" translate="no">navigationconnect.trips.get</code></li>
+<li><code>navigationconnect.trips.cancel</code></li>
+<li><code>navigationconnect.trips.create</code></li>
+<li><code>navigationconnect.trips.get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="navigationconnect.viewer" class="role-title add-link" data-text="Navigation Connect Viewer Beta" tabindex="-1">Navigation Connect Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  navigationconnect.viewer</code> )</p>
+<td>Navigation Connect Viewer <sup>Beta</sup>
+<p>( <code>roles/ navigationconnect.viewer</code> )</p>
 <p>Read-only access to Navigation Connect resources.</p></td>
-<td><p><code dir="ltr" translate="no">navigationconnect.trips.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>navigationconnect.trips.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Navigation Connect permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="navigationconnect.trips.cancel" class="permission-name add-link" data-text="navigationconnect.trips.cancel" tabindex="-1"><code dir="ltr" translate="no">navigationconnect.trips.cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/navigationconnect#navigationconnect.admin">Navigation Connect Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  navigationconnect.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="navigationconnect.trips.create" class="permission-name add-link" data-text="navigationconnect.trips.create" tabindex="-1"><code dir="ltr" translate="no">navigationconnect.trips.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/navigationconnect#navigationconnect.admin">Navigation Connect Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  navigationconnect.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="navigationconnect.trips.get" class="permission-name add-link" data-text="navigationconnect.trips.get" tabindex="-1"><code dir="ltr" translate="no">navigationconnect.trips.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/navigationconnect#navigationconnect.admin">Navigation Connect Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  navigationconnect.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/navigationconnect#navigationconnect.viewer">Navigation Connect Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  navigationconnect.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                       | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `navigationconnect.trips.cancel` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Navigation Connect Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/navigationconnect#navigationconnect.admin) ( `roles/ navigationconnect.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `navigationconnect.trips.create` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Navigation Connect Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/navigationconnect#navigationconnect.admin) ( `roles/ navigationconnect.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `navigationconnect.trips.get`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Navigation Connect Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/navigationconnect#navigationconnect.admin) ( `roles/ navigationconnect.admin` ) [Navigation Connect Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/navigationconnect#navigationconnect.viewer) ( `roles/ navigationconnect.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |

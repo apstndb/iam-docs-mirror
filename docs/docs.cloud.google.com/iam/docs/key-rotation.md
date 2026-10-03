@@ -13,7 +13,7 @@ Rotating service account keys can help reduce the risk posed by leaked or stolen
 Having an established process for rotating service account keys also helps you act quickly if you suspect that a service account key has been compromised.
 
 > **Note:** Service account keys are a security risk if not managed correctly. You should [choose a more secure alternative to service account keys](https://docs.cloud.google.com/docs/authentication#auth-decision-tree) whenever possible. If you must authenticate with a service account key, you are responsible for the security of the private key and for other operations described by [Best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) . If you are prevented from creating a service account key, service account key creation might be disabled for your organization. For more information, see [Managing secure-by-default organization resources](https://docs.cloud.google.com/resource-manager/docs/secure-by-default-organizations) .
-> 
+>
 > If you acquired the service account key from an external source, you must validate it before use. For more information, see [Security requirements for externally sourced credentials](https://docs.cloud.google.com/docs/authentication/external/externally-sourced-credentials) .
 
 ## How often to rotate keys
@@ -50,11 +50,13 @@ First, you need to identify the keys that need to be rotated. To identify these 
 
 For example, the following command lists all service account keys that were created before `2023-03-10 00:00:00 UTC` in the organization with the ID `123456789012` :
 
-    gcloud asset search-all-resources \
-        --scope="organizations/123456789012" \
-        --query="createTime < 2023-03-10" \
-        --asset-types="iam.googleapis.com/ServiceAccountKey" \
-        --order-by="createTime"
+```
+gcloud asset search-all-resources \
+    --scope="organizations/123456789012" \
+    --query="createTime < 2023-03-10" \
+    --asset-types="iam.googleapis.com/ServiceAccountKey" \
+    --order-by="createTime"
+```
 
 To learn more about searching resources in Cloud Asset Inventory, see [Searching resources](https://docs.cloud.google.com/asset-inventory/docs/searching-resources) . After identifying the keys that need to be rotated, you can send out notifications to the appropriate teams.
 
@@ -73,5 +75,5 @@ We don't recommend using expiring service account keys for key rotation. This is
 
 ## What's next
 
-  - Use Cloud Asset Inventory to [search for resources](https://docs.cloud.google.com/asset-inventory/docs/searching-resources) , including service account keys, by creation time.
-  - [Create](https://docs.cloud.google.com/iam/docs/keys-create-delete#creating) , [disable](https://docs.cloud.google.com/iam/docs/keys-disable-enable#disabling) , and [delete](https://docs.cloud.google.com/iam/docs/keys-create-delete#deleting) service account keys.
+- Use Cloud Asset Inventory to [search for resources](https://docs.cloud.google.com/asset-inventory/docs/searching-resources) , including service account keys, by creation time.
+- [Create](https://docs.cloud.google.com/iam/docs/keys-create-delete#creating) , [disable](https://docs.cloud.google.com/iam/docs/keys-disable-enable#disabling) , and [delete](https://docs.cloud.google.com/iam/docs/keys-create-delete#deleting) service account keys.

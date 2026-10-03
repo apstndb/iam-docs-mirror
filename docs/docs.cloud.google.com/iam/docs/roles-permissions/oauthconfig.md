@@ -23,146 +23,74 @@ This page lists the IAM roles and permissions for OAuthConfig. To search through
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="oauthconfig.editor" class="role-title add-link" data-text="OAuth Config Editor Beta" tabindex="-1">OAuth Config Editor <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  oauthconfig.editor</code> )</p>
+<td>OAuth Config Editor <sup>Beta</sup>
+<p>( <code>roles/ oauthconfig.editor</code> )</p>
 <p>Read/write access to OAuth config resources</p></td>
-<td><p><code dir="ltr" translate="no">clientauthconfig.*</code></p>
+<td><p><code>clientauthconfig.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">clientauthconfig.brands.create</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.brands.delete</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.brands.get</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.brands.list</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.brands.update</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.  clients.  create</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.  clients.  createSecret</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.  clients.  delete</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.clients.get</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.  clients.  getWithSecret</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.clients.list</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.  clients.  listWithSecrets</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.  clients.  undelete</code></li>
-<li><code dir="ltr" translate="no">clientauthconfig.  clients.  update</code></li>
+<li><code>clientauthconfig.brands.create</code></li>
+<li><code>clientauthconfig.brands.delete</code></li>
+<li><code>clientauthconfig.brands.get</code></li>
+<li><code>clientauthconfig.brands.list</code></li>
+<li><code>clientauthconfig.brands.update</code></li>
+<li><code>clientauthconfig. clients. create</code></li>
+<li><code>clientauthconfig. clients. createSecret</code></li>
+<li><code>clientauthconfig. clients. delete</code></li>
+<li><code>clientauthconfig.clients.get</code></li>
+<li><code>clientauthconfig. clients. getWithSecret</code></li>
+<li><code>clientauthconfig.clients.list</code></li>
+<li><code>clientauthconfig. clients. listWithSecrets</code></li>
+<li><code>clientauthconfig. clients. undelete</code></li>
+<li><code>clientauthconfig. clients. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">firebase.clients.create</code></p>
-<p><code dir="ltr" translate="no">firebase.clients.get</code></p>
-<p><code dir="ltr" translate="no">firebase.clients.list</code></p>
-<p><code dir="ltr" translate="no">firebase.clients.update</code></p>
-<p><code dir="ltr" translate="no">firebaseappcheck.  resourcePolicies.*</code></p>
+<p><code>firebase.clients.create</code></p>
+<p><code>firebase.clients.get</code></p>
+<p><code>firebase.clients.list</code></p>
+<p><code>firebase.clients.update</code></p>
+<p><code>firebaseappcheck. resourcePolicies.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">firebaseappcheck.  resourcePolicies.  get</code></li>
-<li><code dir="ltr" translate="no">firebaseappcheck.  resourcePolicies.  update</code></li>
+<li><code>firebaseappcheck. resourcePolicies. get</code></li>
+<li><code>firebaseappcheck. resourcePolicies. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">oauthconfig.*</code></p>
+<p><code>oauthconfig.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">oauthconfig.clientpolicy.get</code></li>
-<li><code dir="ltr" translate="no">oauthconfig.testusers.get</code></li>
-<li><code dir="ltr" translate="no">oauthconfig.testusers.update</code></li>
-<li><code dir="ltr" translate="no">oauthconfig.verification.get</code></li>
-<li><code dir="ltr" translate="no">oauthconfig.  verification.  submit</code></li>
-<li><code dir="ltr" translate="no">oauthconfig.  verification.  update</code></li>
+<li><code>oauthconfig.clientpolicy.get</code></li>
+<li><code>oauthconfig.testusers.get</code></li>
+<li><code>oauthconfig.testusers.update</code></li>
+<li><code>oauthconfig.verification.get</code></li>
+<li><code>oauthconfig. verification. submit</code></li>
+<li><code>oauthconfig. verification. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="oauthconfig.viewer" class="role-title add-link" data-text="OAuth Config Viewer Beta" tabindex="-1">OAuth Config Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  oauthconfig.viewer</code> )</p>
+<td>OAuth Config Viewer <sup>Beta</sup>
+<p>( <code>roles/ oauthconfig.viewer</code> )</p>
 <p>Read-only access to OAuth config resources</p></td>
-<td><p><code dir="ltr" translate="no">clientauthconfig.brands.get</code></p>
-<p><code dir="ltr" translate="no">clientauthconfig.brands.list</code></p>
-<p><code dir="ltr" translate="no">clientauthconfig.clients.get</code></p>
-<p><code dir="ltr" translate="no">clientauthconfig.clients.list</code></p>
-<p><code dir="ltr" translate="no">firebase.clients.get</code></p>
-<p><code dir="ltr" translate="no">firebase.clients.list</code></p>
-<p><code dir="ltr" translate="no">firebaseappcheck.  resourcePolicies.  get</code></p>
-<p><code dir="ltr" translate="no">oauthconfig.clientpolicy.get</code></p>
-<p><code dir="ltr" translate="no">oauthconfig.testusers.get</code></p>
-<p><code dir="ltr" translate="no">oauthconfig.verification.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>clientauthconfig.brands.get</code></p>
+<p><code>clientauthconfig.brands.list</code></p>
+<p><code>clientauthconfig.clients.get</code></p>
+<p><code>clientauthconfig.clients.list</code></p>
+<p><code>firebase.clients.get</code></p>
+<p><code>firebase.clients.list</code></p>
+<p><code>firebaseappcheck. resourcePolicies. get</code></p>
+<p><code>oauthconfig.clientpolicy.get</code></p>
+<p><code>oauthconfig.testusers.get</code></p>
+<p><code>oauthconfig.verification.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## OAuthConfig permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="oauthconfig.clientpolicy.get" class="permission-name add-link" data-text="oauthconfig.clientpolicy.get" tabindex="-1"><code dir="ltr" translate="no">oauthconfig.clientpolicy.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.editor">OAuth Config Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oauthconfig.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.viewer">OAuth Config Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oauthconfig.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="oauthconfig.testusers.get" class="permission-name add-link" data-text="oauthconfig.testusers.get" tabindex="-1"><code dir="ltr" translate="no">oauthconfig.testusers.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.editor">OAuth Config Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oauthconfig.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.viewer">OAuth Config Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oauthconfig.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="oauthconfig.testusers.update" class="permission-name add-link" data-text="oauthconfig.testusers.update" tabindex="-1"><code dir="ltr" translate="no">oauthconfig.testusers.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.editor">OAuth Config Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oauthconfig.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="oauthconfig.verification.get" class="permission-name add-link" data-text="oauthconfig.verification.get" tabindex="-1"><code dir="ltr" translate="no">oauthconfig.verification.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.editor">OAuth Config Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oauthconfig.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.viewer">OAuth Config Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oauthconfig.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workspacemarketplace#appmetadata.workspaceMarketplaceAppConfigurationAdmin">Workspace Marketplace App Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appmetadata.workspaceMarketplaceAppConfigurationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="oauthconfig.verification.submit" class="permission-name add-link" data-text="oauthconfig.verification.submit" tabindex="-1"><code dir="ltr" translate="no">oauthconfig.  verification.  submit</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.editor">OAuth Config Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oauthconfig.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="oauthconfig.verification.update" class="permission-name add-link" data-text="oauthconfig.verification.update" tabindex="-1"><code dir="ltr" translate="no">oauthconfig.  verification.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.editor">OAuth Config Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oauthconfig.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                          | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `oauthconfig.clientpolicy.get`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [OAuth Config Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.editor) ( `roles/ oauthconfig.editor` ) [OAuth Config Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.viewer) ( `roles/ oauthconfig.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `oauthconfig.testusers.get`         | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [OAuth Config Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.editor) ( `roles/ oauthconfig.editor` ) [OAuth Config Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.viewer) ( `roles/ oauthconfig.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `oauthconfig.testusers.update`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [OAuth Config Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.editor) ( `roles/ oauthconfig.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `oauthconfig.verification.get`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Firebase Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin) ( `roles/ firebase.admin` ) [Firebase Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor) ( `roles/ firebase.editor` ) [Firebase Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer) ( `roles/ firebase.viewer` ) [OAuth Config Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.editor) ( `roles/ oauthconfig.editor` ) [OAuth Config Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.viewer) ( `roles/ oauthconfig.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Workspace Marketplace App Configuration Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/workspacemarketplace#appmetadata.workspaceMarketplaceAppConfigurationAdmin) ( `roles/ appmetadata.workspaceMarketplaceAppConfigurationAdmin` ) [Firebase Develop Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin) ( `roles/ firebase.developAdmin` ) [Firebase Develop Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer) ( `roles/ firebase.developViewer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `oauthconfig. verification. submit` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [OAuth Config Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.editor) ( `roles/ oauthconfig.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `oauthconfig. verification. update` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [OAuth Config Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/oauthconfig#oauthconfig.editor) ( `roles/ oauthconfig.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |

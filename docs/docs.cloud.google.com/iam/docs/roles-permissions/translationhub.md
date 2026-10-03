@@ -23,127 +23,67 @@ This page lists the IAM roles and permissions for Translation Hub. To search thr
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="translationhub.admin" class="role-title add-link" data-text="Translation Hub Admin Beta" tabindex="-1">Translation Hub Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  translationhub.admin</code> )</p>
+<td>Translation Hub Admin <sup>Beta</sup>
+<p>( <code>roles/ translationhub.admin</code> )</p>
 <p>Admin of Translation Hub</p></td>
-<td><p><code dir="ltr" translate="no">automl.models.get</code></p>
-<p><code dir="ltr" translate="no">automl.models.list</code></p>
-<p><code dir="ltr" translate="no">automl.models.predict</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.  customModels.  get</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.  customModels.  list</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.  customModels.  predict</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.  glossaries.  create</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.  glossaries.  delete</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.glossaries.get</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.glossaries.list</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.  glossaries.  predict</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">translationhub.*</code></p>
+<td><p><code>automl.models.get</code></p>
+<p><code>automl.models.list</code></p>
+<p><code>automl.models.predict</code></p>
+<p><code>cloudtranslate. customModels. get</code></p>
+<p><code>cloudtranslate. customModels. list</code></p>
+<p><code>cloudtranslate. customModels. predict</code></p>
+<p><code>cloudtranslate. glossaries. create</code></p>
+<p><code>cloudtranslate. glossaries. delete</code></p>
+<p><code>cloudtranslate.glossaries.get</code></p>
+<p><code>cloudtranslate.glossaries.list</code></p>
+<p><code>cloudtranslate. glossaries. predict</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>translationhub.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">translationhub.portals.create</code></li>
-<li><code dir="ltr" translate="no">translationhub.portals.delete</code></li>
-<li><code dir="ltr" translate="no">translationhub.portals.get</code></li>
-<li><code dir="ltr" translate="no">translationhub.portals.list</code></li>
-<li><code dir="ltr" translate="no">translationhub.portals.update</code></li>
+<li><code>translationhub.portals.create</code></li>
+<li><code>translationhub.portals.delete</code></li>
+<li><code>translationhub.portals.get</code></li>
+<li><code>translationhub.portals.list</code></li>
+<li><code>translationhub.portals.update</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="translationhub.viewer" class="role-title add-link" data-text="Translation Hub Viewer Beta" tabindex="-1">Translation Hub Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  translationhub.viewer</code> )</p>
+<td>Translation Hub Viewer <sup>Beta</sup>
+<p>( <code>roles/ translationhub.viewer</code> )</p>
 <p>Viewer role for Translation Hub</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">translationhub.portals.get</code></p>
-<p><code dir="ltr" translate="no">translationhub.portals.list</code></p></td>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>translationhub.portals.get</code></p>
+<p><code>translationhub.portals.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="translationhub.portalUser" class="role-title add-link" data-text="Translation Hub Portal User Beta" tabindex="-1">Translation Hub Portal User <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  translationhub.portalUser</code> )</p>
+<td>Translation Hub Portal User <sup>Beta</sup>
+<p>( <code>roles/ translationhub.portalUser</code> )</p>
 <p>Portal user of Translation Hub</p></td>
-<td><p><code dir="ltr" translate="no">automl.models.get</code></p>
-<p><code dir="ltr" translate="no">automl.models.list</code></p>
-<p><code dir="ltr" translate="no">automl.models.predict</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.  customModels.  get</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.  customModels.  list</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.  customModels.  predict</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.glossaries.get</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.glossaries.list</code></p>
-<p><code dir="ltr" translate="no">cloudtranslate.  glossaries.  predict</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">translationhub.portals.get</code></p>
-<p><code dir="ltr" translate="no">translationhub.portals.list</code></p></td>
+<td><p><code>automl.models.get</code></p>
+<p><code>automl.models.list</code></p>
+<p><code>automl.models.predict</code></p>
+<p><code>cloudtranslate. customModels. get</code></p>
+<p><code>cloudtranslate. customModels. list</code></p>
+<p><code>cloudtranslate. customModels. predict</code></p>
+<p><code>cloudtranslate.glossaries.get</code></p>
+<p><code>cloudtranslate.glossaries.list</code></p>
+<p><code>cloudtranslate. glossaries. predict</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>translationhub.portals.get</code></p>
+<p><code>translationhub.portals.list</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Translation Hub permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="translationhub.portals.create" class="permission-name add-link" data-text="translationhub.portals.create" tabindex="-1"><code dir="ltr" translate="no">translationhub.portals.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.admin">Translation Hub Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  translationhub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="translationhub.portals.delete" class="permission-name add-link" data-text="translationhub.portals.delete" tabindex="-1"><code dir="ltr" translate="no">translationhub.portals.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.admin">Translation Hub Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  translationhub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="translationhub.portals.get" class="permission-name add-link" data-text="translationhub.portals.get" tabindex="-1"><code dir="ltr" translate="no">translationhub.portals.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.admin">Translation Hub Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  translationhub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.viewer">Translation Hub Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  translationhub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.portalUser">Translation Hub Portal User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  translationhub.portalUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="translationhub.portals.list" class="permission-name add-link" data-text="translationhub.portals.list" tabindex="-1"><code dir="ltr" translate="no">translationhub.portals.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.admin">Translation Hub Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  translationhub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.viewer">Translation Hub Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  translationhub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.portalUser">Translation Hub Portal User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  translationhub.portalUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="translationhub.portals.update" class="permission-name add-link" data-text="translationhub.portals.update" tabindex="-1"><code dir="ltr" translate="no">translationhub.portals.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.admin">Translation Hub Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  translationhub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                      | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `translationhub.portals.create` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Translation Hub Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.admin) ( `roles/ translationhub.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `translationhub.portals.delete` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Translation Hub Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.admin) ( `roles/ translationhub.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `translationhub.portals.get`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Translation Hub Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.admin) ( `roles/ translationhub.admin` ) [Translation Hub Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.viewer) ( `roles/ translationhub.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Translation Hub Portal User](https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.portalUser) ( `roles/ translationhub.portalUser` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `translationhub.portals.list`   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Translation Hub Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.admin) ( `roles/ translationhub.admin` ) [Translation Hub Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.viewer) ( `roles/ translationhub.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Translation Hub Portal User](https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.portalUser) ( `roles/ translationhub.portalUser` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `translationhub.portals.update` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Translation Hub Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub#translationhub.admin) ( `roles/ translationhub.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |

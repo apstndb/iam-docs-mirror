@@ -12,31 +12,31 @@ A role contains a set of permissions that allows you to perform specific actions
 
 ## Before you begin
 
-  - Understand the [basic concepts](https://docs.cloud.google.com/iam/docs/overview) of IAM.
+- Understand the [basic concepts](https://docs.cloud.google.com/iam/docs/overview) of IAM.
 
 ## Role types
 
 There are three types of roles in IAM:
 
-  - **Basic roles** , which provide broad access to Google Cloud resources.
-  - **Predefined roles** , which provide granular access for a specific service and are managed by Google Cloud.
-  - **Custom roles** , which provide granular access according to a user-specified list of permissions.
+- **Basic roles** , which provide broad access to Google Cloud resources.
+- **Predefined roles** , which provide granular access for a specific service and are managed by Google Cloud.
+- **Custom roles** , which provide granular access according to a user-specified list of permissions.
 
 To determine if a permission is included in a basic, predefined, or custom role, you can use one of the following methods:
 
-  - View the role in the Google Cloud console.
+- View the role in the Google Cloud console.
 
-  - Run the [`gcloud iam roles describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles/describe) command.
+- Run the [`gcloud iam roles describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles/describe) command.
 
-  - Get the role using the appropriate REST API method:
-    
-      - For predefined roles, use [`roles.get()`](https://docs.cloud.google.com/iam/reference/rest/v1/roles/get) .
-      - For project-level custom roles, use [`projects.roles.get()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.roles/get) .
-      - For organization-level custom roles, use [`organizations.roles.get()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/get) .
+- Get the role using the appropriate REST API method:
 
-  - For basic and predefined roles only: Search the [permissions reference](https://docs.cloud.google.com/iam/docs/permissions-reference) to see if the permission is granted by the role.
+  - For predefined roles, use [`roles.get()`](https://docs.cloud.google.com/iam/reference/rest/v1/roles/get) .
+  - For project-level custom roles, use [`projects.roles.get()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.roles/get) .
+  - For organization-level custom roles, use [`organizations.roles.get()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/get) .
 
-  - For predefined roles only: Search the [predefined role descriptions](https://docs.cloud.google.com/iam/docs/roles-permissions) to see which permissions the role includes.
+- For basic and predefined roles only: Search the [permissions reference](https://docs.cloud.google.com/iam/docs/permissions-reference) to see if the permission is granted by the role.
+
+- For predefined roles only: Search the [predefined role descriptions](https://docs.cloud.google.com/iam/docs/roles-permissions) to see which permissions the role includes.
 
 For guidance on when to use specific role types, see [Choose which type of role to use](https://docs.cloud.google.com/iam/docs/choose-role-type) .
 
@@ -44,38 +44,40 @@ For guidance on when to use specific role types, see [Choose which type of role 
 
 Each role has the following components:
 
-  - **Title** : A human-readable name for the role. The role title is used to identify the role in the Google Cloud console.
+- **Title** : A human-readable name for the role. The role title is used to identify the role in the Google Cloud console.
 
-  - **Name** : An identifier for the role in one of the following formats:
-    
-      - Predefined roles: ` roles/ SERVICE . IDENTIFIER  `
-      - Project-level custom roles: ` projects/ PROJECT_ID /roles/ IDENTIFIER  `
-      - Organization-level custom roles: ` organizations/ ORG_ID /roles/ IDENTIFIER  `
-    
-    The role name is used to identify the role in [allow policies](https://docs.cloud.google.com/iam/docs/allow-policies) .
+- **Name** : An identifier for the role in one of the following formats:
 
-  - **ID** : A unique identifier for the role. For basic and predefined roles, the ID is the same as the role name. For custom roles, the ID is everything after `roles/` in the role name.
+  - Predefined roles: `roles/ `` SERVICE `` . `` IDENTIFIER`
+  - Project-level custom roles: `projects/ `` PROJECT_ID `` /roles/ `` IDENTIFIER`
+  - Organization-level custom roles: `organizations/ `` ORG_ID `` /roles/ `` IDENTIFIER`
 
-  - **Description** : A human-readable description of the role.
+  The role name is used to identify the role in [allow policies](https://docs.cloud.google.com/iam/docs/allow-policies) .
 
-  - **Stage** : The stage of the role in the launch lifecycle, such as `ALPHA` , `BETA` , or `GA` . To learn more about launch stages, see [Testing and deploying](https://docs.cloud.google.com/iam/docs/roles-overview#custom-role-testing-deploying) .
+- **ID** : A unique identifier for the role. For basic and predefined roles, the ID is the same as the role name. For custom roles, the ID is everything after `roles/` in the role name.
 
-  - **Permissions** : The permissions included in the role. Permissions allow principals to perform specific actions on Google Cloud resources. When you grant a role to a principal, the principal gets all of the permissions in the role.
-    
-    Permissions have the following format:
-    
-        SERVICE.RESOURCE.VERB
-    
-    For example, the `compute.instances.list` permission allows a user to list the Compute Engine instances they own, and `compute.instances.stop` allows a user to stop a VM.
-    
-    Permissions usually, but not always, correspond 1:1 with REST methods. That is, each Google Cloud service has an associated permission for each REST method that it has. To call a method, the caller needs the associated permission. For example, to call the Pub/Sub API's `projects.topics.publish` method, you need the `pubsub.topics.publish` permission.
+- **Description** : A human-readable description of the role.
 
-  - **ETag** : An identifier for the version of the role to help prevent concurrent updates from overwriting each other. Basic and predefined roles always have the ETag `AA==` . ETags for custom roles change each time you modify the roles.
+- **Stage** : The stage of the role in the launch lifecycle, such as `ALPHA` , `BETA` , or `GA` . To learn more about launch stages, see [Testing and deploying](https://docs.cloud.google.com/iam/docs/roles-overview#custom-role-testing-deploying) .
+
+- **Permissions** : The permissions included in the role. Permissions allow principals to perform specific actions on Google Cloud resources. When you grant a role to a principal, the principal gets all of the permissions in the role.
+
+  Permissions have the following format:
+
+  ```
+  SERVICE.RESOURCE.VERB
+  ```
+
+  For example, the `compute.instances.list` permission allows a user to list the Compute Engine instances they own, and `compute.instances.stop` allows a user to stop a VM.
+
+  Permissions usually, but not always, correspond 1:1 with REST methods. That is, each Google Cloud service has an associated permission for each REST method that it has. To call a method, the caller needs the associated permission. For example, to call the Pub/Sub API's `projects.topics.publish` method, you need the `pubsub.topics.publish` permission.
+
+- **ETag** : An identifier for the version of the role to help prevent concurrent updates from overwriting each other. Basic and predefined roles always have the ETag `AA==` . ETags for custom roles change each time you modify the roles.
 
 ## Basic roles
 
 > **Preview — the Reader, Writer, and Admin basic roles**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 Basic roles are highly permissive roles that give broad access to Google Cloud resources.
@@ -101,18 +103,18 @@ The following table summarizes the permissions that the Admin, Writer, and Reade
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Reader</strong> ( <code dir="ltr" translate="no">roles/reader</code> )</td>
+<td><strong>Reader</strong> ( <code>roles/reader</code> )</td>
 <td><p>Permissions for read-only actions that don't affect state, such as viewing (but not modifying) existing resources or data.</p>
 <p>For a list of permissions in the Reader role, see the role details in the Google Cloud console:</p></td>
 </tr>
 <tr class="even">
-<td><strong>Writer</strong> ( <code dir="ltr" translate="no">roles/writer</code> )</td>
+<td><strong>Writer</strong> ( <code>roles/writer</code> )</td>
 <td><p>All of the permissions in the Reader role, <em>plus</em> permissions for actions that modify state, such as changing existing resources.</p>
 <p>The permissions in the Writer role let you create and delete resources for most Google Cloud services. However, the Writer role doesn't contain permissions to perform all actions for all services. For more information about how to check whether a role has the permissions that you need, see <a href="https://docs.cloud.google.com/iam/docs/roles-overview#role-types">Role types</a> on this page.</p>
 <p>For a list of permissions in the Writer role, see the role details in the Google Cloud console:</p></td>
 </tr>
 <tr class="odd">
-<td><strong>Admin</strong> ( <code dir="ltr" translate="no">roles/admin</code> )</td>
+<td><strong>Admin</strong> ( <code>roles/admin</code> )</td>
 <td><p>All of the permissions in the Writer role, <em>plus</em> permissions for actions like the following:</p>
 <ul>
 <li>Completing sensitive tasks, like managing tag bindings for Compute Engine resources</li>
@@ -152,18 +154,18 @@ The following table summarizes the permissions that the legacy basic roles give 
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Viewer</strong> ( <code dir="ltr" translate="no">roles/viewer</code> )</td>
+<td><strong>Viewer</strong> ( <code>roles/viewer</code> )</td>
 <td><p>Permissions for read-only actions that don't affect state, such as viewing (but not modifying) existing resources or data.</p>
 <p>For a list of permissions in the Viewer role, see the role details in the Google Cloud console:</p></td>
 </tr>
 <tr class="even">
-<td><strong>Editor</strong> ( <code dir="ltr" translate="no">roles/editor</code> )</td>
+<td><strong>Editor</strong> ( <code>roles/editor</code> )</td>
 <td><p>All viewer permissions, <em>plus</em> permissions for actions that modify state, such as changing existing resources.</p>
 <p>The permissions in the Editor role let you create and delete resources for most Google Cloud services. However, the Editor role doesn't contain permissions to perform all actions for all services. For more information about how to check whether a role has the permissions that you need, see <a href="https://docs.cloud.google.com/iam/docs/roles-overview#role-types">Role types</a> on this page.</p>
 <p>For a list of permissions in the Editor role, see the role details in the Google Cloud console:</p></td>
 </tr>
 <tr class="odd">
-<td><strong>Owner</strong> ( <code dir="ltr" translate="no">roles/owner</code> )</td>
+<td><strong>Owner</strong> ( <code>roles/owner</code> )</td>
 <td><p>All Editor permissions, <em>plus</em> permissions for actions like the following:</p>
 <ul>
 <li>Completing sensitive tasks, like managing tag bindings for Compute Engine resources</li>
@@ -178,14 +180,14 @@ The following table summarizes the permissions that the legacy basic roles give 
 
 Generally, you can grant legacy basic roles using the Google Cloud console, the API, or the gcloud CLI. However, you must use the Google Cloud console to grant the Owner role in the following situations:
 
-  - The user that you're granting the Owner role to isn't part of your organization.
-  - The project that you're granting the Owner role on isn't part of any organization.
+- The user that you're granting the Owner role to isn't part of your organization.
+- The project that you're granting the Owner role on isn't part of any organization.
 
 Additionally, you can only grant the Owner role to the following types of principals:
 
-  - Google Accounts
-  - Service accounts in your organization
-  - Google groups in your organization
+- Google Accounts
+- Service accounts in your organization
+- Google groups in your organization
 
 To learn how to grant roles, see [Granting, changing, and revoking access](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -218,7 +220,7 @@ You create a custom role by combining one or more of the supported IAM permissio
 You can include many, but not all, IAM permissions in custom roles. Each permission has one of the following support levels for use in custom roles:
 
 | Support level   | Description                                                                                                                                                                                               |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `SUPPORTED`     | The permission is fully supported in custom roles.                                                                                                                                                        |
 | `TESTING`       | Google is testing the permission to check its compatibility with custom roles. You can include the permission in custom roles, but you might see unexpected behavior. Not recommended for production use. |
 | `NOT_SUPPORTED` | The permission is not supported in custom roles.                                                                                                                                                          |
@@ -245,15 +247,15 @@ The following sections describe key considerations at each phase of a custom rol
 
 When you're creating a custom role, choose an ID, title, and description that help you identify the role:
 
-  - **Role ID** : The role ID is a unique identifier for the role. It can be up to 64 bytes long and can contain uppercase and lowercase alphanumeric characters, underscores, and periods. You can't reuse a role ID within an organization or project.
-    
-    You can't change role IDs, so choose them carefully. You can delete a custom role, but you can't create a new custom role with the same ID in the same organization or project until after the 44-day deletion process has completed. For more information about the deletion process, see [Deleting a custom role](https://docs.cloud.google.com/iam/docs/creating-custom-roles#deleting_a_custom_role) .
+- **Role ID** : The role ID is a unique identifier for the role. It can be up to 64 bytes long and can contain uppercase and lowercase alphanumeric characters, underscores, and periods. You can't reuse a role ID within an organization or project.
 
-  - **Role title** : The role title appears in the list of roles in the Google Cloud console. The title doesn't have to be unique, but we recommend using unique and descriptive titles to better distinguish your roles. Also, consider indicating in the role title if the role was created at the organization level or the project level.
-    
-    Role titles can be up to 100 bytes long and can contain uppercase and lowercase alphanumeric characters and symbols. You can change role titles at any time.
+  You can't change role IDs, so choose them carefully. You can delete a custom role, but you can't create a new custom role with the same ID in the same organization or project until after the 44-day deletion process has completed. For more information about the deletion process, see [Deleting a custom role](https://docs.cloud.google.com/iam/docs/creating-custom-roles#deleting_a_custom_role) .
 
-  - **Role description** : The role description is an optional field where you can provide additional information about a role. For example, you could include the role's intended purpose, the date a role was created or modified, and any predefined roles that the custom role is based on. Descriptions can be up to 300 bytes long and can contain uppercase and lowercase alphanumeric characters and symbols.
+- **Role title** : The role title appears in the list of roles in the Google Cloud console. The title doesn't have to be unique, but we recommend using unique and descriptive titles to better distinguish your roles. Also, consider indicating in the role title if the role was created at the organization level or the project level.
+
+  Role titles can be up to 100 bytes long and can contain uppercase and lowercase alphanumeric characters and symbols. You can change role titles at any time.
+
+- **Role description** : The role description is an optional field where you can provide additional information about a role. For example, you could include the role's intended purpose, the date a role was created or modified, and any predefined roles that the custom role is based on. Descriptions can be up to 300 bytes long and can contain uppercase and lowercase alphanumeric characters and symbols.
 
 Also keep [permission dependencies](https://docs.cloud.google.com/iam/docs/roles-overview#custom-role-permission-dependencies) in mind when creating custom roles.
 
@@ -265,10 +267,10 @@ Custom roles include a launch stage as part of the role's metadata. The most com
 
 We recommend that you use launch stages to convey the following information about the role:
 
-  - `EAP` or `ALPHA` : The role is still being developed or tested, or it includes permissions for Google Cloud services or features that are not yet public. It is not ready for widespread use.
-  - `BETA` : The role has been tested on a limited basis, or it includes permissions for Google Cloud services or features that are not generally available.
-  - `GA` : The role has been widely tested, and all of its permissions are for Google Cloud services or features that are generally available.
-  - `DEPRECATED` : The role is no longer in use.
+- `EAP` or `ALPHA` : The role is still being developed or tested, or it includes permissions for Google Cloud services or features that are not yet public. It is not ready for widespread use.
+- `BETA` : The role has been tested on a limited basis, or it includes permissions for Google Cloud services or features that are not generally available.
+- `GA` : The role has been widely tested, and all of its permissions are for Google Cloud services or features that are generally available.
+- `DEPRECATED` : The role is no longer in use.
 
 To learn how to change a role's launch stage, see [Editing an existing custom role](https://docs.cloud.google.com/iam/docs/creating-custom-roles#editing_an_existing_custom_role) .
 
@@ -294,11 +296,11 @@ To learn how to disable a custom role, see [disabling a custom role](https://doc
 
 ## What's next
 
-  - Learn how to [grant IAM roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) to principals.
-  - Find out how to [choose the most appropriate predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
-  - Learn how to [create custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) .
-  - Learn about the [use cases for specific role types](https://docs.cloud.google.com/iam/docs/choose-role-type) .
+- Learn how to [grant IAM roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) to principals.
+- Find out how to [choose the most appropriate predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
+- Learn how to [create custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) .
+- Learn about the [use cases for specific role types](https://docs.cloud.google.com/iam/docs/choose-role-type) .
 
-<!-- end list -->
+<!-- -->
 
-  - Use the [Policy Troubleshooter](https://docs.cloud.google.com/iam/docs/troubleshooting-access) to understand why a user does or doesn't have access to a resource or have permission to call an API.
+- Use the [Policy Troubleshooter](https://docs.cloud.google.com/iam/docs/troubleshooting-access) to understand why a user does or doesn't have access to a resource or have permission to call an API.

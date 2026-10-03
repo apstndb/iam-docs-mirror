@@ -7,7 +7,7 @@ data_source: docs.cloud.google.com
 ---
 
 > **Preview**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 Policy Simulator for Principal Access Boundary (PAB) policies lets you see how a change to a [Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) or [binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) might affect your principals' access before you commit to making the change. You can use Policy Simulator to help you understand the potential impact of a change to a Principal Access Boundary policy or binding before you apply it.
@@ -16,9 +16,9 @@ This feature only evaluates access based on Principal Access Boundary policies a
 
 To learn how to simulate changes to other policy types, see the following:
 
-  - [Policy Simulator for allow policies](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview)
-  - [Policy Simulator for deny policies](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview)
-  - [Policy Simulator for organization policies](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies)
+- [Policy Simulator for allow policies](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview)
+- [Policy Simulator for deny policies](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview)
+- [Policy Simulator for organization policies](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies)
 
 ## How Policy Simulator for Principal Access Boundary policies works
 
@@ -26,9 +26,9 @@ Policy Simulator for Principal Access Boundary policies helps you determine how 
 
 When you run a simulation for a Principal Access Boundary policy or policy binding, Policy Simulator does the following:
 
-  - Reviews access logs from the organization that were generated during the [replay period](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview#replay-period) in the context of the current Principal Access Boundary policies and bindings and the simulated Principal Access Boundary policy or binding.
+- Reviews access logs from the organization that were generated during the [replay period](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview#replay-period) in the context of the current Principal Access Boundary policies and bindings and the simulated Principal Access Boundary policy or binding.
 
-  - Returns a series of *access changes* . These access changes show which access attempts from the logs are likely to have different results if you applied the simulated policy or binding.
+- Returns a series of *access changes* . These access changes show which access attempts from the logs are likely to have different results if you applied the simulated policy or binding.
 
 To learn more about the access changes that Policy Simulator returns, see [Policy Simulator results](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview#review-results) .
 
@@ -42,9 +42,9 @@ Policy Simulator for Principal Access Boundary reports the impact of a proposed 
 
 For each access change, Policy Simulator also reports the following information:
 
-  - The principal, permission, and, if available, resource involved in the access attempt.
-  - The number of days during the replay period that the principal tried to use the permission to access the resource. This total includes only the access attempts that have the same result as the most recent access attempt.
-  - The date of the most recent access attempt.
+- The principal, permission, and, if available, resource involved in the access attempt.
+- The number of days during the replay period that the principal tried to use the permission to access the resource. This total includes only the access attempts that have the same result as the most recent access attempt.
+- The date of the most recent access attempt.
 
 ### Access changes
 
@@ -54,46 +54,46 @@ When calculating access changes, Policy Simulator for Principal Access Boundary 
 
 Policy Simulator calculates access changes using the following information:
 
-  - The result of the most recent access attempt
-  - The impact of the current Principal Access Boundary policies and bindings
-  - The impact of the proposed Principal Access Boundary policies and bindings
+- The result of the most recent access attempt
+- The impact of the current Principal Access Boundary policies and bindings
+- The impact of the proposed Principal Access Boundary policies and bindings
 
 For access to be *gained* , all of the following must be true:
 
-  - The most recent access attempt was blocked
-  - Access is blocked by the current Principal Access Boundary policies and bindings
-  - Access is not blocked by the proposed Principal Access Boundary policies and bindings
+- The most recent access attempt was blocked
+- Access is blocked by the current Principal Access Boundary policies and bindings
+- Access is not blocked by the proposed Principal Access Boundary policies and bindings
 
 For access to be *revoked* , all of the following must be true:
 
-  - The most recent access attempt was not blocked
-  - Access is not blocked by the current Principal Access Boundary policies and bindings
-  - Access is blocked by the proposed Principal Access Boundary policies and bindings
+- The most recent access attempt was not blocked
+- Access is not blocked by the current Principal Access Boundary policies and bindings
+- Access is blocked by the proposed Principal Access Boundary policies and bindings
 
 A set of Principal Access Boundary policies and bindings block a principal's access if *all* of the following are true:
 
-  - Principal Access Boundary policies do affect the principal's access. In other words, the principal is subject to at least one Principal Access Boundary policy that has an [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) that supports the permission in the request.
-  - None of the Principal Access Boundary policies that the principal is subject to include the resource.
+- Principal Access Boundary policies do affect the principal's access. In other words, the principal is subject to at least one Principal Access Boundary policy that has an [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) that supports the permission in the request.
+- None of the Principal Access Boundary policies that the principal is subject to include the resource.
 
 A set of Principal Access Boundary policies and bindings don't block a principal's access if *any* of the following are true:
 
-  - Principal Access Boundary policies don't affect the principal's access. In other words, the principal isn't subject to any Principal Access Boundary policies that have an [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) that supports the permission in the request.
-  - At least one of the Principal Access Boundary policies that the principal is subject to includes the resource.
+- Principal Access Boundary policies don't affect the principal's access. In other words, the principal isn't subject to any Principal Access Boundary policies that have an [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) that supports the permission in the request.
+- At least one of the Principal Access Boundary policies that the principal is subject to includes the resource.
 
 ## Errors
 
 The following errors can cause a simulation to fail:
 
-  - **Timeout** : The simulation took too long to run and timed out. To resolve, try running the simulation again.
-  - **Invalid simulation construction** : The proposed Principal Access Boundary policy or Principal Access Boundary policy binding is invalid. For example, the proposed policy has an invalid condition expression, or the proposed binding is for a principal set that is already bound to the [maximum number of policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) . To resolve, correct the policy or binding and try again.
-  - **Permission denied** : You don't have permission to run a simulation. To resolve, ensure that you're granted the [required roles](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies#required-roles) and try again.
+- **Timeout** : The simulation took too long to run and timed out. To resolve, try running the simulation again.
+- **Invalid simulation construction** : The proposed Principal Access Boundary policy or Principal Access Boundary policy binding is invalid. For example, the proposed policy has an invalid condition expression, or the proposed binding is for a principal set that is already bound to the [maximum number of policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) . To resolve, correct the policy or binding and try again.
+- **Permission denied** : You don't have permission to run a simulation. To resolve, ensure that you're granted the [required roles](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies#required-roles) and try again.
 
 ## Supported principal types
 
 Policy Simulator for Principal Access Boundary policies only reviews access logs for the following types of principals:
 
-  - Google Accounts
-  - Service accounts
+- Google Accounts
+- Service accounts
 
 When simulating Principal Access Boundary policies and bindings, Policy Simulator doesn't review access logs for any other principal types. As a result, it doesn't report whether the proposed changes to your policies or bindings will affect those principals' access.
 
@@ -105,13 +105,13 @@ The token broker must have a role that includes the permissions granted to the t
 
 For example, consider a user who has been granted the **Storage Legacy Bucket Reader** ( `roles/storage.legacyBucketReader` ) role on a resource using a downscoped access token created with a Credential Access Boundary.
 
-  - If you simulate blocking the **Storage Legacy Bucket Reader** role from that user using a Principal Access Boundary, Policy Simulator fails to report a loss of access.
+- If you simulate blocking the **Storage Legacy Bucket Reader** role from that user using a Principal Access Boundary, Policy Simulator fails to report a loss of access.
 
-  - If you simulate blocking the **Storage Legacy Bucket Reader** role from the token broker using a Principal Access Boundary, Policy Simulator fails to report a loss of access for the user. Similarly, if the token broker's access isn't used within 90 days, their access isn't included in the simulation.
+- If you simulate blocking the **Storage Legacy Bucket Reader** role from the token broker using a Principal Access Boundary, Policy Simulator fails to report a loss of access for the user. Similarly, if the token broker's access isn't used within 90 days, their access isn't included in the simulation.
 
 For more information, see [Credential Access Boundaries for Cloud Storage](https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials) .
 
 ## What's next
 
-  - Learn how to [simulate a change to a Principal Access Boundary policy or binding](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies) .
-  - Explore other [Policy Intelligence tools](https://docs.cloud.google.com/policy-intelligence/docs/overview) .
+- Learn how to [simulate a change to a Principal Access Boundary policy or binding](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies) .
+- Explore other [Policy Intelligence tools](https://docs.cloud.google.com/policy-intelligence/docs/overview) .

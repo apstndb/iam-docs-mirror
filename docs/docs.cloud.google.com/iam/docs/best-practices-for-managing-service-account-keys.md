@@ -12,11 +12,11 @@ Because the private key lets you authenticate as the service account, having acc
 
 Service account keys can become a security risk if not managed carefully. You should [choose a more secure alternative for authentication](https://docs.cloud.google.com/docs/authentication#auth-decision-tree) whenever possible. The main threats are related to service account keys are:
 
-  - **Credential leakage** : Service account keys might inadvertently end up in places where they are not supposed to be stored. A bad actor can use a leaked service account key to authenticate and gain a foothold in your environment.
-  - **Privilege escalation** : If a bad actor gets access to a poorly secured service account key, they might be able to use the key to escalate their privileges.
-  - **Information disclosure:** Service account keys might inadvertently disclose confidential metadata.
-  - **Non-repudiation:** By authenticating using a service account key and letting the service account carry out operations on their behalf, a bad actor might conceal their identity and actions.
-  - **Malicious credential configurations:** A bad actor could provide a malicious credential configuration to circumvent your security defenses.
+- **Credential leakage** : Service account keys might inadvertently end up in places where they are not supposed to be stored. A bad actor can use a leaked service account key to authenticate and gain a foothold in your environment.
+- **Privilege escalation** : If a bad actor gets access to a poorly secured service account key, they might be able to use the key to escalate their privileges.
+- **Information disclosure:** Service account keys might inadvertently disclose confidential metadata.
+- **Non-repudiation:** By authenticating using a service account key and letting the service account carry out operations on their behalf, a bad actor might conceal their identity and actions.
+- **Malicious credential configurations:** A bad actor could provide a malicious credential configuration to circumvent your security defenses.
 
 The best way to mitigate these threats is to [avoid user-managed service account keys](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts#service-account-keys) and to use [other methods to authenticate service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts#using_service_accounts) whenever possible. You can also use [IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) and [VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/service-perimeters) to restrict what resources can potentially be accessed by a compromised service account.
 
@@ -30,16 +30,16 @@ To bad actors, service account keys can be even more valuable than a leaked pass
 
 Bad actors might look for service account keys in a variety of places, including:
 
-  - Source code repositories of open source projects
-  - Public Cloud Storage buckets
-  - Public data dumps of breached services
+- Source code repositories of open source projects
+- Public Cloud Storage buckets
+- Public data dumps of breached services
 
 In addition to public locations, bad actors might look for service account keys in private locations they've compromised. Examples include:
 
-  - Email inboxes
-  - File shares
-  - Backup storage
-  - Temporary file system directories
+- Email inboxes
+- File shares
+- Backup storage
+- Temporary file system directories
 
 An effective way to lower the risk of leaking service account keys is to reduce the number of keys in circulation and to disincentivize the creation of new keys. The following sections describe how you can limit the number of service account keys in circulation, and what other measures can help you limit the risk of leaking service accounts.
 
@@ -60,9 +60,9 @@ An effective way to lower the risk of leaking service account keys is to reduce 
 
 Make sure that users in your organization are aware of alternatives and can justify the additional risk and management overhead of using a service account key:
 
-  - Educate your developers on [more secure alternatives to service account keys](https://docs.cloud.google.com/docs/authentication#auth-decision-tree)
-  - Establish a process to help developers decide on the appropriate authentication method for their use case before creating a new service account key.
-  - Use [organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/understanding-constraints) to prevent creating new service account keys, and allow exceptions only for projects that have demonstrated that they cannot use a more secure alternative.
+- Educate your developers on [more secure alternatives to service account keys](https://docs.cloud.google.com/docs/authentication#auth-decision-tree)
+- Establish a process to help developers decide on the appropriate authentication method for their use case before creating a new service account key.
+- Use [organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/understanding-constraints) to prevent creating new service account keys, and allow exceptions only for projects that have demonstrated that they cannot use a more secure alternative.
 
 ### Use organization policy constraints to limit which projects can create service account keys
 
@@ -70,11 +70,11 @@ Given the [more secure alternatives to service account keys](https://docs.cloud.
 
 To prevent unnecessary usage of service account keys, use [organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) :
 
-  - At the root of your [organization's resource hierarchy](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization) , apply the [Disable service account key creation](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#disable_service_account_key_creation) and [Disable service account key upload](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#disable_service_account_key_upload) constraints to establish a default where service account keys are disallowed.
-    
-    > **Note** : If your organization was created on or after May 3, 2024, these constraints are enforced by default.
+- At the root of your [organization's resource hierarchy](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization) , apply the [Disable service account key creation](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#disable_service_account_key_creation) and [Disable service account key upload](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#disable_service_account_key_upload) constraints to establish a default where service account keys are disallowed.
 
-  - When needed, [override](https://docs.cloud.google.com/resource-manager/docs/organization-policy/understanding-hierarchy#disallow_inheritance) one of the constraints for selected projects to re-enable service account key creation or upload.
+  > **Note** : If your organization was created on or after May 3, 2024, these constraints are enforced by default.
+
+- When needed, [override](https://docs.cloud.google.com/resource-manager/docs/organization-policy/understanding-hierarchy#disallow_inheritance) one of the constraints for selected projects to re-enable service account key creation or upload.
 
 Modifying organization policy constraints requires the `orgpolicy.policy.set` permission. Because neither the Owner ( `roles/owner` ) nor the Editor ( `roles/editor` ) role includes this permission, constraints can also be effective in non-production environments where some principals might have Owner or Editor access to projects.
 
@@ -100,18 +100,18 @@ By following this process, you avoid passing the private key and instead only ex
 
 Service account keys are credentials, and must be protected from unauthorized access. If you submit a service account key to a source code repository, there is an increased risk that the key becomes accessible to unauthorized users and bad actors:
 
-  - Bad actors might scan the source code of public source repositories for leaked keys.
-  - In the future, you might decide to turn a private source repository into a public repository, without checking it for keys first.
-  - Other team members might store copies of the source code on their workstation.
+- Bad actors might scan the source code of public source repositories for leaked keys.
+- In the future, you might decide to turn a private source repository into a public repository, without checking it for keys first.
+- Other team members might store copies of the source code on their workstation.
 
 When you work on code that uses a service account key, always store the service account key separate from the source code to reduce the risk of accidentally submitting the key to the source repository. In many cases, you can further reduce this risk by not using service account keys at all during development and [using your personal credentials instead of service account keys](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts#development) instead.
 
 Additionally, set up your source control system so that it detects accidental submissions of service account keys:
 
-  - If you use [Cloud Source Repositories](https://docs.cloud.google.com/source-repositories) , [enable key detection](https://docs.cloud.google.com/source-repositories/docs/detecting-security-keys#enable_security_key_detection) to block `git` push operations that contain private keys and to notify users.
-  - If you use GitHub, [enable secret scanning for your repositories](https://docs.github.com/en/code-security/secret-scanning/enabling-secret-scanning-features/enabling-secret-scanning-for-your-repository) .
-  - Use Security Command Center [anomaly detection](https://docs.cloud.google.com/security-command-center/docs/concepts-security-sources#anomaly_detection) to surface information about leaked credentials.
-  - If your source control management system doesn't support automatic scanning, use an open-source tool like [truffleHog](https://github.com/dxa4481/truffleHog) to scan your source code for secrets by using a [pre-commit hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) , by adding a step to continuous integration pipeline, or both.
+- If you use [Cloud Source Repositories](https://docs.cloud.google.com/source-repositories) , [enable key detection](https://docs.cloud.google.com/source-repositories/docs/detecting-security-keys#enable_security_key_detection) to block `git` push operations that contain private keys and to notify users.
+- If you use GitHub, [enable secret scanning for your repositories](https://docs.github.com/en/code-security/secret-scanning/enabling-secret-scanning-features/enabling-secret-scanning-for-your-repository) .
+- Use Security Command Center [anomaly detection](https://docs.cloud.google.com/security-command-center/docs/concepts-security-sources#anomaly_detection) to surface information about leaked credentials.
+- If your source control management system doesn't support automatic scanning, use an open-source tool like [truffleHog](https://github.com/dxa4481/truffleHog) to scan your source code for secrets by using a [pre-commit hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) , by adding a step to continuous integration pipeline, or both.
 
 > **Important:** If you've accidentally submitted a service account key to a source code repository, you must [delete the key](https://docs.cloud.google.com/iam/docs/keys-create-delete#deleting) in IAM as quickly as possible. It's not sufficient to only delete the key from the source code repository; most source code management systems keep a permanent record of changes, and other users might already have accessed the key.
 
@@ -121,8 +121,8 @@ Service account keys are strings that match a certain pattern, and they can be i
 
 Program binaries for server-side applications might be hosted in artifact repositories or they might be copied to developer workstations for debugging purposes. Keeping service account keys separate from the program binaries helps ensure that a user who can access the binary does not implicitly get access to service account credentials.
 
-  - For client-side applications such as tools, desktop programs, or mobile apps, don't use service accounts. Instead, let users authenticate with their own credentials. For example, you could use the [OAuth-consent flow](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts#user-consent) .
-  - For server-side applications, don't embed service account keys into the binary. Instead, keep the keys separate from the application binary.
+- For client-side applications such as tools, desktop programs, or mobile apps, don't use service accounts. Instead, let users authenticate with their own credentials. For example, you could use the [OAuth-consent flow](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts#user-consent) .
+- For server-side applications, don't embed service account keys into the binary. Instead, keep the keys separate from the application binary.
 
 ### Use metrics to identify unused service account keys
 
@@ -130,8 +130,8 @@ To minimize the number of valid service account keys in circulation, it's best t
 
 If you're unsure whether a key is still in use, you can check its usage with service account insights and authentication metrics:
 
-  - [Service account insights](https://docs.cloud.google.com/iam/docs/managing-insights) let you identify service accounts that have not been used in the past 90 days.
-  - By monitoring the **Key Authentication Events** metric, you can [find out when a service account key was last used](https://docs.cloud.google.com/iam/docs/service-account-monitoring#view-metrics-single-key) and how often it was used to authenticate a service account.
+- [Service account insights](https://docs.cloud.google.com/iam/docs/managing-insights) let you identify service accounts that have not been used in the past 90 days.
+- By monitoring the **Key Authentication Events** metric, you can [find out when a service account key was last used](https://docs.cloud.google.com/iam/docs/service-account-monitoring#view-metrics-single-key) and how often it was used to authenticate a service account.
 
 Because service accounts belong to a Google Cloud project, insights and metrics must be tracked individually for each project.
 
@@ -153,14 +153,14 @@ By default, service account keys that you create and download from IAM don't hav
 
 Use expiry times when you need temporary access to a system that requires a service account key. For example, use expiry times when you're doing the following:
 
-  - Developing code in a non-production environment for an application that can only authenticate with service account keys
-  - Using a third-party tool that can only authenticate with service account keys
+- Developing code in a non-production environment for an application that can only authenticate with service account keys
+- Using a third-party tool that can only authenticate with service account keys
 
 Avoid using expiry times for these scenarios:
 
-  - Production workloads. In production, an expired service account key could cause an accidental outage. Instead, use keys that do not expire, and manage their lifecycle with key rotation.
-  - Non-production workloads that need permanent access, such as a continuous integration (CI) pipeline.
-  - Key-rotation systems that prevent a key from being used after a specified amount of time. To learn about recommended key rotation strategies, see [Service account key rotation](https://docs.cloud.google.com/iam/docs/key-rotation) .
+- Production workloads. In production, an expired service account key could cause an accidental outage. Instead, use keys that do not expire, and manage their lifecycle with key rotation.
+- Non-production workloads that need permanent access, such as a continuous integration (CI) pipeline.
+- Key-rotation systems that prevent a key from being used after a specified amount of time. To learn about recommended key rotation strategies, see [Service account key rotation](https://docs.cloud.google.com/iam/docs/key-rotation) .
 
 To limit the validity of service account keys, you can [configure an expiry time](https://docs.cloud.google.com/iam/docs/service-account-creds#key-expiry) for newly created keys in your project, folder, or organization. The expiry time does not apply to existing keys.
 
@@ -174,9 +174,9 @@ To help manage leaked credentials, ensure that the [Service Account Key Exposure
 
 If a key is disabled because it was leaked, the following fields are added to the key's metadata:
 
-  - `"disable_reason": "SERVICE_ACCOUNT_KEY_DISABLE_REASON_EXPOSED"` : indicates that the key was disabled because it was exposed.
-  - `"extended_status": "SERVICE_ACCOUNT_KEY_EXTENDED_STATUS_KEY_EXPOSED"` ": indicates that the key was once publicly exposed. This value persists even if you re-enable the key.
-  - `"extended_status_message": " LINK_TO_EXPOSURE "` : if available, the metadata contains a link to the place where the key was detected, which you can use for remediation.
+- `"disable_reason": "SERVICE_ACCOUNT_KEY_DISABLE_REASON_EXPOSED"` : indicates that the key was disabled because it was exposed.
+- `"extended_status": "SERVICE_ACCOUNT_KEY_EXTENDED_STATUS_KEY_EXPOSED"` ": indicates that the key was once publicly exposed. This value persists even if you re-enable the key.
+- `"extended_status_message": " `` LINK_TO_EXPOSURE `` "` : if available, the metadata contains a link to the place where the key was detected, which you can use for remediation.
 
 These keys [can be re-enabled](https://docs.cloud.google.com/iam/docs/keys-disable-enable#enabling) if required to mitigate an outage. However, we recommend disabling them again as soon as possible, because publicly exposed keys present a security risk, even if the initial exposure is removed.
 
@@ -207,10 +207,10 @@ The following sections describe best practices for protecting service account ke
 
 Service account keys created by using the Google Cloud console or the gcloud CLI are JSON files, and you can copy these files to the file system of the machine where they are needed. But storing service account keys as files on a file system can expose you to several risks, including:
 
-  - Some file systems such as NTFS use inherited permissions by default. Unless disabled, a permission added to a parent folder might inadvertently cause a key file to become more widely accessible and visible to unauthorized users.
-  - In a virtualized environment, bad actors might be able to undermine file system security by accessing the underlying virtual disk.
-  - File system access and permission changes are often not audit-logged. If file permissions are inadvertently changed and the key becomes visible to unauthorized users, it might be difficult to analyze when and by whom these changes were made.
-  - Files can be easily copied and thus exfiltrated if a bad actor gains access.
+- Some file systems such as NTFS use inherited permissions by default. Unless disabled, a permission added to a parent folder might inadvertently cause a key file to become more widely accessible and visible to unauthorized users.
+- In a virtualized environment, bad actors might be able to undermine file system security by accessing the underlying virtual disk.
+- File system access and permission changes are often not audit-logged. If file permissions are inadvertently changed and the key becomes visible to unauthorized users, it might be difficult to analyze when and by whom these changes were made.
+- Files can be easily copied and thus exfiltrated if a bad actor gains access.
 
 Whenever possible, avoid storing service account keys on a file system. If you can't avoid storing keys on disk, make sure to restrict access to the key file, configure file access auditing, and encrypt the underlying disk.
 
@@ -237,10 +237,10 @@ In situations where using a hardware-based key store isn't viable, use a softwar
 
 The security of a software-based key store typically depends on how its master key is protected. Before you use a software-based key store, make sure to review the following:
 
-  - How the master key is secured at rest,
-  - How the unsealing process works, and who is able to initiate it,
-  - How keys are protected from being extracted from memory,
-  - How the key store is protected from being undermined if a bad actor gains shell access or hypervisor access to the underlying system.
+- How the master key is secured at rest,
+- How the unsealing process works, and who is able to initiate it,
+- How keys are protected from being extracted from memory,
+- How the key store is protected from being undermined if a bad actor gains shell access or hypervisor access to the underlying system.
 
 ### Don't store keys in Secret Manager or other cloud-based secret stores
 
@@ -281,7 +281,7 @@ By following this approach, you avoid having to manage a service account key, re
 
 ### Avoid disclosing confidential information in uploaded X.509 certificates
 
-For each service account key, IAM lets you download a X.509 certificate from the endpoint ` https://www.googleapis.com/service_accounts/v1/metadata/x509/ ACCOUNT_EMAIL  ` . This endpoint is public and doesn't require authentication.
+For each service account key, IAM lets you download a X.509 certificate from the endpoint `https://www.googleapis.com/service_accounts/v1/metadata/x509/ `` ACCOUNT_EMAIL` . This endpoint is public and doesn't require authentication.
 
 For Google-owned and managed keys and user-managed keys that you created by using the Google Cloud console or the gcloud CLI, the X.509 certificates are created automatically and only contain basic metadata such as the email address and expiry date.
 
@@ -332,5 +332,5 @@ For more information, see [Security requirements when using credential configura
 
 ## What's next
 
-  - Read more about [best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .
-  - Review our [best practices for using service accounts in deployment pipelines](https://docs.cloud.google.com/iam/docs/best-practices-for-using-service-accounts-in-deployment-pipelines) .
+- Read more about [best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .
+- Review our [best practices for using service accounts in deployment pipelines](https://docs.cloud.google.com/iam/docs/best-practices-for-using-service-accounts-in-deployment-pipelines) .

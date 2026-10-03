@@ -12,8 +12,8 @@ This page describes how to grant, change, and revoke access to projects, folders
 
 To learn how to manage access to other resources, see the following guides:
 
-  - [Manage access to service accounts](https://docs.cloud.google.com/iam/docs/manage-access-service-accounts)
-  - [Manage access to other resources](https://docs.cloud.google.com/iam/docs/manage-access-other-resources)
+- [Manage access to service accounts](https://docs.cloud.google.com/iam/docs/manage-access-service-accounts)
+- [Manage access to other resources](https://docs.cloud.google.com/iam/docs/manage-access-other-resources)
 
 > **Note:** Granting access to projects, folders, and organizations is considered a sensitive action; in some cases, you might need to reauthenticate before you can initiate the action. For more information, see [Sensitive actions](https://docs.cloud.google.com/docs/authentication/reauthentication#sensitive-actions) .
 
@@ -27,94 +27,104 @@ You can manage access to projects, folders, and organizations with the Google Cl
 
 ## Before you begin
 
-  - Ensure that you have the IAM roles required to manage access.
-    
-    When you create a project, folder, or organization, you are automatically granted a role that lets you manage access for that resource. For more information, see [Default policies](https://docs.cloud.google.com/iam/docs/allow-policies#default) .
-    
-    If you didn't create your project, folder, or organization, then ask your administrator to grant you the [required roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#required-permissions) .
+- Ensure that you have the IAM roles required to manage access.
 
-  - Set up authentication.
-    
-    Select the tab for how you plan to use the samples on this page:
-    
-    ### Console
-    
-    When you use the Google Cloud console to access Google Cloud services and APIs, you don't need to set up authentication.
-    
-    ### gcloud
-    
-    In the Google Cloud console, activate Cloud Shell.
-    
-    At the bottom of the Google Cloud console, a [Cloud Shell](https://docs.cloud.google.com/shell/docs/how-cloud-shell-works) session starts and displays a command-line prompt. Cloud Shell is a shell environment with the Google Cloud CLI already installed and with values already set for your current project. It can take a few seconds for the session to initialize.
-    
-    ### C\#
-    
-    To use the .NET samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
-    
-    1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
-    
-    2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    3.  If you're using a local shell, then create local authentication credentials for your user account:
-        
-            gcloud auth application-default login
-        
-        You don't need to do this if you're using Cloud Shell.
-        
-        If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
-    
-    ### Java
-    
-    To use the Java samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
-    
-    1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
-    
-    2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    3.  If you're using a local shell, then create local authentication credentials for your user account:
-        
-            gcloud auth application-default login
-        
-        You don't need to do this if you're using Cloud Shell.
-        
-        If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
-    
-    ### Python
-    
-    To use the Python samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
-    
-    1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
-    
-    2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    3.  If you're using a local shell, then create local authentication credentials for your user account:
-        
-            gcloud auth application-default login
-        
-        You don't need to do this if you're using Cloud Shell.
-        
-        If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
-    
-    ### REST
-    
-    To use the REST API samples on this page in a local development environment, you use the credentials you provide to the gcloud CLI.
-    
-    For more information, see [Authenticate for using REST](https://docs.cloud.google.com/docs/authentication/rest) in the Google Cloud authentication documentation.
+  When you create a project, folder, or organization, you are automatically granted a role that lets you manage access for that resource. For more information, see [Default policies](https://docs.cloud.google.com/iam/docs/allow-policies#default) .
+
+  If you didn't create your project, folder, or organization, then ask your administrator to grant you the [required roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#required-permissions) .
+
+- Set up authentication.
+
+  Select the tab for how you plan to use the samples on this page:
+
+  ### Console
+
+  When you use the Google Cloud console to access Google Cloud services and APIs, you don't need to set up authentication.
+
+  ### gcloud
+
+  In the Google Cloud console, activate Cloud Shell.
+
+  At the bottom of the Google Cloud console, a [Cloud Shell](https://docs.cloud.google.com/shell/docs/how-cloud-shell-works) session starts and displays a command-line prompt. Cloud Shell is a shell environment with the Google Cloud CLI already installed and with values already set for your current project. It can take a few seconds for the session to initialize.
+
+  ### C#
+
+  To use the .NET samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
+
+  1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
+
+  2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  3.  If you're using a local shell, then create local authentication credentials for your user account:
+
+      ```
+      gcloud auth application-default login
+      ```
+
+      You don't need to do this if you're using Cloud Shell.
+
+      If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
+
+  ### Java
+
+  To use the Java samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
+
+  1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
+
+  2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  3.  If you're using a local shell, then create local authentication credentials for your user account:
+
+      ```
+      gcloud auth application-default login
+      ```
+
+      You don't need to do this if you're using Cloud Shell.
+
+      If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
+
+  ### Python
+
+  To use the Python samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
+
+  1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
+
+  2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  3.  If you're using a local shell, then create local authentication credentials for your user account:
+
+      ```
+      gcloud auth application-default login
+      ```
+
+      You don't need to do this if you're using Cloud Shell.
+
+      If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
+
+  ### REST
+
+  To use the REST API samples on this page in a local development environment, you use the credentials you provide to the gcloud CLI.
+
+  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
+
+  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  For more information, see [Authenticate for using REST](https://docs.cloud.google.com/docs/authentication/rest) in the Google Cloud authentication documentation.
 
 ### Required roles
 
 To get the permissions that you need to manage access to a project, folder, or organization, ask your administrator to grant you the following IAM roles on the resource that you want to manage access for (project, folder, or organization):
 
-  - To manage access to a project: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` )
-  - To manage access to a folder: [Folder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin) ( `roles/resourcemanager.folderAdmin` )
-  - To manage access to projects, folders, and organizations: [Organization Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` )
-  - To manage access to almost all Google Cloud resources: [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/iam.securityAdmin` )
+- To manage access to a project: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` )
+- To manage access to a folder: [Folder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin) ( `roles/resourcemanager.folderAdmin` )
+- To manage access to projects, folders, and organizations: [Organization Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` )
+- To manage access to almost all Google Cloud resources: [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/iam.securityAdmin` )
 
 These predefined roles contain the permissions required to manage access to a project, folder, or organization. To see the exact permissions that are required, expand the **Required permissions** section:
 
@@ -122,19 +132,17 @@ These predefined roles contain the permissions required to manage access to a pr
 
 The following permissions are required to manage access to a project, folder, or organization:
 
-  - To manage access to projects:
-      - `resourcemanager.projects.getIamPolicy`
-      - `resourcemanager.projects.setIamPolicy`
-  - To manage access to folders:
-      - `resourcemanager.folders.getIamPolicy`
-      - `resourcemanager.folders.setIamPolicy`
-  - To manage access to organizations:
-      - `resourcemanager.organizations.getIamPolicy`
-      - `resourcemanager.organizations.setIamPolicy`
+- To manage access to projects:
+  - `resourcemanager.projects.getIamPolicy`
+  - `resourcemanager.projects.setIamPolicy`
+- To manage access to folders:
+  - `resourcemanager.folders.getIamPolicy`
+  - `resourcemanager.folders.setIamPolicy`
+- To manage access to organizations:
+  - `resourcemanager.organizations.getIamPolicy`
+  - `resourcemanager.organizations.setIamPolicy`
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
-
-<span id="viewing-console"></span>
 
 ## View current access
 
@@ -149,44 +157,48 @@ You can view who has access to your project, folder, or organization using the G
 1.  In the Google Cloud console, go to the **IAM** page.
 
 2.  Select a project, folder, or organization.
-    
+
     The Google Cloud console lists all the principals who have been granted roles on your project, folder, or organization. This list includes principals who have inherited roles on the resource from parent resources. For more information about policy inheritance, see [Policy inheritance and the resource hierarchy](https://docs.cloud.google.com/iam/docs/allow-policies#inheritance) .
 
 3.  Optional: To view role grants for [service agents](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox.
-    
+
     ![](https://docs.cloud.google.com/static/iam/img/include-google-provided-role-grants.png)
-    
+
     ![](https://docs.cloud.google.com/static/iam/img/include-google-provided-role-grants-2x.png)
 
 ### gcloud
 
 1.  In the Google Cloud console, activate Cloud Shell.
-    
+
     At the bottom of the Google Cloud console, a [Cloud Shell](https://docs.cloud.google.com/shell/docs/how-cloud-shell-works) session starts and displays a command-line prompt. Cloud Shell is a shell environment with the Google Cloud CLI already installed and with values already set for your current project. It can take a few seconds for the session to initialize.
 
 2.  To see who has access to your project, folder, or organization, get the allow policy for the resource. To learn how to interpret allow policies, see [Understanding allow policies](https://docs.cloud.google.com/iam/docs/allow-policies) .
-    
-    > **Note:** A resource's allow policy does not show any roles gained through [policy inheritance](https://docs.cloud.google.com/iam/docs/allow-policies#inheritance) . To view inherited roles, use the Google Cloud console, or follow the instructions on [Viewing effective IAM policies](https://docs.cloud.google.com/asset-inventory/docs/view-effective-iam-policies) .
-    
-    To get the allow policy for the resource, run the `get-iam-policy` command for the resource:
-    
-        gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT > PATH
-    
-    Provide the following values:
-    
-      - `  RESOURCE_TYPE  ` : The type of the resource that you want to view access to. Use one of these values: `projects` , `resource-manager folders` , or `organizations` .
-    
-      - `  RESOURCE_ID  ` : Your Google Cloud project, folder, or organization ID. Project IDs are alphanumeric, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
-    
-      - `  FORMAT  ` : The desired format for the policy. Use `json` or `yaml` .
-    
-      - `  PATH  ` : The path to a new output file for the policy.
-    
-    For example, the following command gets the policy for the project `my-project` and saves it to your home directory in JSON format:
-    
-        gcloud projects get-iam-policy my-project --format=json > ~/policy.json
 
-### C\#
+    > **Note:** A resource's allow policy does not show any roles gained through [policy inheritance](https://docs.cloud.google.com/iam/docs/allow-policies#inheritance) . To view inherited roles, use the Google Cloud console, or follow the instructions on [Viewing effective IAM policies](https://docs.cloud.google.com/asset-inventory/docs/view-effective-iam-policies) .
+
+    To get the allow policy for the resource, run the `get-iam-policy` command for the resource:
+
+    ```
+    gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT > PATH
+    ```
+
+    Provide the following values:
+
+    - `RESOURCE_TYPE` : The type of the resource that you want to view access to. Use one of these values: `projects` , `resource-manager folders` , or `organizations` .
+
+    - `RESOURCE_ID` : Your Google Cloud project, folder, or organization ID. Project IDs are alphanumeric, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+
+    - `FORMAT` : The desired format for the policy. Use `json` or `yaml` .
+
+    - `PATH` : The path to a new output file for the policy.
+
+    For example, the following command gets the policy for the project `my-project` and saves it to your home directory in JSON format:
+
+    ```
+    gcloud projects get-iam-policy my-project --format=json > ~/policy.json
+    ```
+
+### C#
 
 To authenticate to Resource Manager, set up Application Default Credentials. For more information, see [Before you begin](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#before-you-begin) .
 
@@ -196,27 +208,29 @@ To see who has access to your project, folder, or organization, get the allow po
 
 The following example shows how to get the allow policy for a project. To learn how to get the allow policy for a folder or organization, review the [Resource Manager client library documentation](https://docs.cloud.google.com/resource-manager/docs/libraries) for your programming language.
 
-    using Google.Apis.Auth.OAuth2;
-    using Google.Apis.CloudResourceManager.v1;
-    using Google.Apis.CloudResourceManager.v1.Data;
-    
-    public partial class AccessManager
+```csharp
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.CloudResourceManager.v1;
+using Google.Apis.CloudResourceManager.v1.Data;
+
+public partial class AccessManager
+{
+    public static Policy GetPolicy(string projectId)
     {
-        public static Policy GetPolicy(string projectId)
-        {
-            var credential = GoogleCredential.GetApplicationDefault()
-                .CreateScoped(CloudResourceManagerService.Scope.CloudPlatform);
-            var service = new CloudResourceManagerService(
-                new CloudResourceManagerService.Initializer
-                {
-                    HttpClientInitializer = credential
-                });
-    
-            var policy = service.Projects.GetIamPolicy(new GetIamPolicyRequest(),
-                projectId).Execute();
-            return policy;
-        }
+        var credential = GoogleCredential.GetApplicationDefault()
+            .CreateScoped(CloudResourceManagerService.Scope.CloudPlatform);
+        var service = new CloudResourceManagerService(
+            new CloudResourceManagerService.Initializer
+            {
+                HttpClientInitializer = credential
+            });
+
+        var policy = service.Projects.GetIamPolicy(new GetIamPolicyRequest(),
+            projectId).Execute();
+        return policy;
     }
+}
+```
 
 ### Java
 
@@ -228,33 +242,35 @@ To see who has access to your project, folder, or organization, get the allow po
 
 The following example shows how to get the allow policy for a project. To learn how to get the allow policy for a folder or organization, review the [Resource Manager client library documentation](https://docs.cloud.google.com/resource-manager/docs/libraries) for your programming language.
 
-    import com.google.cloud.resourcemanager.v3.ProjectsClient;
-    import com.google.iam.admin.v1.ProjectName;
-    import com.google.iam.v1.GetIamPolicyRequest;
-    import com.google.iam.v1.Policy;
-    import java.io.IOException;
-    
-    public class GetProjectPolicy {
-      public static void main(String[] args) throws IOException {
-        // TODO(developer): Replace the variables before running the sample.
-        // TODO: Replace with your project ID.
-        String projectId = "your-project-id";
-    
-        getProjectPolicy(projectId);
-      }
-    
-      // Gets a project's policy.
-      public static Policy getProjectPolicy(String projectId) throws IOException {
-        // Initialize client that will be used to send requests.
-        // This client only needs to be created once, and can be reused for multiple requests.
-        try (ProjectsClient projectsClient = ProjectsClient.create()) {
-          GetIamPolicyRequest request = GetIamPolicyRequest.newBuilder()
-                  .setResource(ProjectName.of(projectId).toString())
-                  .build();
-          return projectsClient.getIamPolicy(request);
-        }
-      }
+```java
+import com.google.cloud.resourcemanager.v3.ProjectsClient;
+import com.google.iam.admin.v1.ProjectName;
+import com.google.iam.v1.GetIamPolicyRequest;
+import com.google.iam.v1.Policy;
+import java.io.IOException;
+
+public class GetProjectPolicy {
+  public static void main(String[] args) throws IOException {
+    // TODO(developer): Replace the variables before running the sample.
+    // TODO: Replace with your project ID.
+    String projectId = "your-project-id";
+
+    getProjectPolicy(projectId);
+  }
+
+  // Gets a project's policy.
+  public static Policy getProjectPolicy(String projectId) throws IOException {
+    // Initialize client that will be used to send requests.
+    // This client only needs to be created once, and can be reused for multiple requests.
+    try (ProjectsClient projectsClient = ProjectsClient.create()) {
+      GetIamPolicyRequest request = GetIamPolicyRequest.newBuilder()
+              .setResource(ProjectName.of(projectId).toString())
+              .build();
+      return projectsClient.getIamPolicy(request);
     }
+  }
+}
+```
 
 ### Python
 
@@ -266,24 +282,26 @@ To see who has access to your project, folder, or organization, get the allow po
 
 The following example shows how to get the allow policy for a project. To learn how to get the allow policy for a folder or organization, review the [Resource Manager client library documentation](https://docs.cloud.google.com/resource-manager/docs/libraries) for your programming language.
 
-    from google.cloud import resourcemanager_v3
-    from google.iam.v1 import iam_policy_pb2, policy_pb2
-    
-    
-    def get_project_policy(project_id: str) -> policy_pb2.Policy:
-        """Get policy for project.
-    
-        project_id: ID or number of the Google Cloud project you want to use.
-        """
-    
-        client = resourcemanager_v3.ProjectsClient()
-        request = iam_policy_pb2.GetIamPolicyRequest()
-        request.resource = f"projects/{project_id}"
-    
-        policy = client.get_iam_policy(request)
-        print(f"Policy retrieved: {policy}")
-    
-        return policy
+```python
+from google.cloud import resourcemanager_v3
+from google.iam.v1 import iam_policy_pb2, policy_pb2
+
+
+def get_project_policy(project_id: str) -> policy_pb2.Policy:
+    """Get policy for project.
+
+    project_id: ID or number of the Google Cloud project you want to use.
+    """
+
+    client = resourcemanager_v3.ProjectsClient()
+    request = iam_policy_pb2.GetIamPolicyRequest()
+    request.resource = f"projects/{project_id}"
+
+    policy = client.get_iam_policy(request)
+    print(f"Policy retrieved: {policy}")
+
+    return policy
+```
 
 ### REST
 
@@ -291,26 +309,30 @@ To see who has access to your project, folder, or organization, get the allow po
 
 > **Note:** A resource's allow policy does not show any roles gained through [policy inheritance](https://docs.cloud.google.com/iam/docs/allow-policies#inheritance) . To view inherited roles, use the Google Cloud console, or follow the instructions on [Viewing effective IAM policies](https://docs.cloud.google.com/asset-inventory/docs/view-effective-iam-policies) .
 
-The Resource Manager API's `  get-iam-policy  ` method gets a project's, folder's, or organization's allow policy.
+The Resource Manager API's [`get-iam-policy`](https://docs.cloud.google.com/resource-manager/reference/rest/v1/projects/getIamPolicy) method gets a project's, folder's, or organization's allow policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  API_VERSION  ` : The API version to use. For projects and organizations, use `v1` . For folders, use `v2` .
-  - `  RESOURCE_TYPE  ` : The resource type whose policy you want to manage. Use the value `projects` , `folders` , or `organizations` .
-  - `  RESOURCE_ID  ` : Your Google Cloud project, organization, or folder ID. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
-  - `  POLICY_VERSION  ` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
+- `API_VERSION` : The API version to use. For projects and organizations, use `v1` . For folders, use `v2` .
+- `RESOURCE_TYPE` : The resource type whose policy you want to manage. Use the value `projects` , `folders` , or `organizations` .
+- `RESOURCE_ID` : Your Google Cloud project, organization, or folder ID. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+- `POLICY_VERSION` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
 
 HTTP method and URL:
 
-    POST https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:getIamPolicy
+```
+POST https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:getIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "options": {
-        "requestedPolicyVersion": POLICY_VERSION
-      }
-    }
+```
+{
+  "options": {
+    "requestedPolicyVersion": POLICY_VERSION
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -320,11 +342,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:getIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:getIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -332,15 +356,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:getIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:getIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -348,20 +374,20 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 The response contains the resource's allow policy. For example:
 
+```
+{
+  "version": 1,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 1,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/owner",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        }
+      "role": "roles/owner",
+      "members": [
+        "user:my-user@example.com"
       ]
     }
-
-<span id="using_the"></span> <span id="access_control_via_console"></span> <span id="access-controle-via-console"></span> <span id="updating-gcloud"></span> <span id="using_gcloud_rest_api_or_client_libraries"></span> <span id="modify_access"></span> <span id="modifying-console"></span>
+  ]
+}
+```
 
 ## Grant or revoke a single IAM role
 
@@ -372,8 +398,6 @@ You can use the Google Cloud console and the gcloud CLI to quickly grant or revo
 In general, policy changes take effect within 2 minutes. However, in some cases, it can take 7 minutes or more for changes to propagate across the system.
 
 If you need help identifying the most appropriate predefined role, see [Find the right predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
-
-<span id="grant_access"></span> <span id="granting-console"></span> <span id="granting-gcloud-manual"></span>
 
 ### Grant a single IAM role
 
@@ -386,22 +410,22 @@ To grant a single role to a principal, do the following:
 2.  Select a project, folder, or organization.
 
 3.  Select a principal to grant a role to:
-    
-      - To grant a role to a principal who already has other roles on the resource, find a row containing the principal, click edit **Edit principal** in that row, and click add **Add another role** .
-        
-        To grant a role to a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
-        
-        > **Note:** You cannot edit inherited roles when managing access to a resource. To edit inherited roles, go to the resource where the role was granted.
-    
-      - To grant a role to a principal who doesn't have any existing roles on the resource, click person\_add **Grant Access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
+
+    - To grant a role to a principal who already has other roles on the resource, find a row containing the principal, click edit **Edit principal** in that row, and click add **Add another role** .
+
+      To grant a role to a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
+
+      > **Note:** You cannot edit inherited roles when managing access to a resource. To edit inherited roles, go to the resource where the role was granted.
+
+    - To grant a role to a principal who doesn't have any existing roles on the resource, click person_add **Grant Access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
 
 4.  Click **Select a role** , then search for a role to grant based on the following:
-    
-      - The role name
-      - The Google Cloud product that you want to grant access to
-      - The permission that you want to give
-      - The job function to perform
-    
+
+    - The role name
+    - The Google Cloud product that you want to grant access to
+    - The permission that you want to give
+    - The job function to perform
+
     To follow the principle of least privilege, [choose a role](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) that includes only the permissions that your principal needs.
 
 5.  Optional: Add a [condition](https://docs.cloud.google.com/iam/docs/conditions-overview) to the role.
@@ -417,17 +441,17 @@ To grant a role to a principal for more than one project, folder, or organizatio
 3.  If the info panel is not visible, click **Show info panel** . Then, click **Permissions** .
 
 4.  Select a principal to grant a role to:
-    
-      - To grant a role to a principal who already has other roles, find a row containing the principal, click edit **Edit principal** in that row, and click add **Add another role** .
-      - To grant a role to a principal who does not already have other roles, click person\_add **Grant access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
+
+    - To grant a role to a principal who already has other roles, find a row containing the principal, click edit **Edit principal** in that row, and click add **Add another role** .
+    - To grant a role to a principal who does not already have other roles, click person_add **Grant access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
 
 5.  Click **Select a role** , then search for a role to grant based on the following:
-    
-      - The role name
-      - The Google Cloud product that you want to grant access to
-      - The permission that you want to give
-      - The job function to perform
-    
+
+    - The role name
+    - The Google Cloud product that you want to grant access to
+    - The permission that you want to give
+    - The job function to perform
+
     To follow the principle of least privilege, [choose a role](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) that includes only the permissions that your principal needs.
 
 6.  Optional: Add a [condition](https://docs.cloud.google.com/iam/docs/conditions-overview) to the role.
@@ -439,54 +463,58 @@ To grant a role to a principal for more than one project, folder, or organizatio
 > **Note:** To grant the Owner role ( `roles/owner` ) on a project to a user outside of your organization, you must use the Google Cloud console, not the gcloud CLI. If your project is not part of an organization, you must use the Google Cloud console to grant the Owner role.
 
 1.  In the Google Cloud console, activate Cloud Shell.
-    
+
     At the bottom of the Google Cloud console, a [Cloud Shell](https://docs.cloud.google.com/shell/docs/how-cloud-shell-works) session starts and displays a command-line prompt. Cloud Shell is a shell environment with the Google Cloud CLI already installed and with values already set for your current project. It can take a few seconds for the session to initialize.
 
-2.  The `  add-iam-policy-binding  ` command lets you quickly grant a role to a principal.
-    
-    Before using any of the command data below, make the following replacements:
-    
-      - `  RESOURCE_TYPE  ` : The resource type that you want to manage access to. Use `projects` , `resource-manager folders` , or `organizations` .
-    
-      - `  RESOURCE_ID  ` : Your Google Cloud project, folder, or organization ID. Project IDs are alphanumeric, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
-    
-      - `  PRINCIPAL  ` : An identifier for the principal, or member, which usually has the following form: `  PRINCIPAL_TYPE : ID  ` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` . For a full list of the values that `  PRINCIPAL  ` can have, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
-        
-        For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
-    
-      - `  ROLE_NAME  ` : The name of the role that you want to grant. Use one of the following formats:
-        
-          - Predefined roles: ` roles/ SERVICE . IDENTIFIER  `
-          - Project-level custom roles: ` projects/ PROJECT_ID /roles/ IDENTIFIER  `
-          - Organization-level custom roles: ` organizations/ ORG_ID /roles/ IDENTIFIER  `
-        
-        For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
-    
-      - `  CONDITION  ` : The condition to add to the role binding. If you don't want to add a condition, use the value `None` . For more information about conditions, see the [conditions overview](https://docs.cloud.google.com/iam/docs/conditions-overview) .
-    
-    Execute the following command:
-    
-    #### Linux, macOS, or Cloud Shell
-    
-        gcloud RESOURCE_TYPE add-iam-policy-binding RESOURCE_ID \
-            --member=PRINCIPAL --role=ROLE_NAME \
-            --condition=CONDITION
-    
-    #### Windows (PowerShell)
-    
-        gcloud RESOURCE_TYPE add-iam-policy-binding RESOURCE_ID `
-            --member=PRINCIPAL --role=ROLE_NAME `
-            --condition=CONDITION
-    
-    #### Windows (cmd.exe)
-    
-        gcloud RESOURCE_TYPE add-iam-policy-binding RESOURCE_ID ^
-            --member=PRINCIPAL --role=ROLE_NAME ^
-            --condition=CONDITION
-    
-    The response contains the updated IAM allow policy.
+2.  The [`add-iam-policy-binding`](https://docs.cloud.google.com/sdk/gcloud/reference/projects/add-iam-policy-binding) command lets you quickly grant a role to a principal.
 
-<span id="revoke_access"></span> <span id="revoking-console"></span> <span id="revoking-gcloud-manual"></span>
+    Before using any of the command data below, make the following replacements:
+
+    - `RESOURCE_TYPE` : The resource type that you want to manage access to. Use `projects` , `resource-manager folders` , or `organizations` .
+
+    - `RESOURCE_ID` : Your Google Cloud project, folder, or organization ID. Project IDs are alphanumeric, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+
+    - `PRINCIPAL` : An identifier for the principal, or member, which usually has the following form: `PRINCIPAL_TYPE `` : `` ID` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` . For a full list of the values that `PRINCIPAL` can have, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
+
+      For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
+
+    - `ROLE_NAME` : The name of the role that you want to grant. Use one of the following formats:
+
+      - Predefined roles: `roles/ `` SERVICE `` . `` IDENTIFIER`
+      - Project-level custom roles: `projects/ `` PROJECT_ID `` /roles/ `` IDENTIFIER`
+      - Organization-level custom roles: `organizations/ `` ORG_ID `` /roles/ `` IDENTIFIER`
+
+      For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
+
+    - `CONDITION` : The condition to add to the role binding. If you don't want to add a condition, use the value `None` . For more information about conditions, see the [conditions overview](https://docs.cloud.google.com/iam/docs/conditions-overview) .
+
+    Execute the following command:
+
+    #### Linux, macOS, or Cloud Shell
+
+    ```
+    gcloud RESOURCE_TYPE add-iam-policy-binding RESOURCE_ID \
+        --member=PRINCIPAL --role=ROLE_NAME \
+        --condition=CONDITION
+    ```
+
+    #### Windows (PowerShell)
+
+    ```
+    gcloud RESOURCE_TYPE add-iam-policy-binding RESOURCE_ID `
+        --member=PRINCIPAL --role=ROLE_NAME `
+        --condition=CONDITION
+    ```
+
+    #### Windows (cmd.exe)
+
+    ```
+    gcloud RESOURCE_TYPE add-iam-policy-binding RESOURCE_ID ^
+        --member=PRINCIPAL --role=ROLE_NAME ^
+        --condition=CONDITION
+    ```
+
+    The response contains the updated IAM allow policy.
 
 > **Note:** If you grant access to a user's email alias or a secondary domain, then the values in your allow policy might not match the values that you initially entered. If you grant access to an email alias, then the allow policy displays the user's primary email address. If you grant access to a secondary domain, then the allow policy displays the primary domain.
 
@@ -501,7 +529,7 @@ To revoke a single role from a principal, do the following:
 2.  Select a project, folder, or organization.
 
 3.  Find the row containing the principal whose access you want to revoke. Then, click edit **Edit principal** in that row.
-    
+
     > **Note:** You cannot edit inherited roles when managing access to a resource. To edit inherited roles, go to the resource where the role was granted.
 
 4.  Click the **Delete** delete button for the role that you want to revoke, and then click **Save** .
@@ -509,40 +537,44 @@ To revoke a single role from a principal, do the following:
 ### gcloud
 
 1.  In the Google Cloud console, activate Cloud Shell.
-    
+
     At the bottom of the Google Cloud console, a [Cloud Shell](https://docs.cloud.google.com/shell/docs/how-cloud-shell-works) session starts and displays a command-line prompt. Cloud Shell is a shell environment with the Google Cloud CLI already installed and with values already set for your current project. It can take a few seconds for the session to initialize.
 
 2.  To quickly revoke a role from a user, run the `remove-iam-policy-binding` command:
-    
-        gcloud RESOURCE_TYPE remove-iam-policy-binding RESOURCE_ID 
-        
-            --member=PRINCIPAL --role=ROLE_NAME
-    
+
+    ```
+    gcloud RESOURCE_TYPE remove-iam-policy-binding RESOURCE_ID 
+
+        --member=PRINCIPAL --role=ROLE_NAME
+    ```
+
     Provide the following values:
-    
-      - `  RESOURCE_TYPE  ` : The resource type that you want to manage access to. Use `projects` , `resource-manager folders` , or `organizations` .
-    
-      - `  RESOURCE_ID  ` : Your Google Cloud project, folder, or organization ID. Project IDs are alphanumeric, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
-    
-      - `  PRINCIPAL  ` : An identifier for the principal, or member, which usually has the following form: `  PRINCIPAL_TYPE : ID  ` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
-        
-        For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
-    
-      - `  ROLE_NAME  ` : The name of the role that you want to revoke. Use one of the following formats:
-        
-          - Predefined roles: ` roles/ SERVICE . IDENTIFIER  `
-          - Project-level custom roles: ` projects/ PROJECT_ID /roles/ IDENTIFIER  `
-          - Organization-level custom roles: ` organizations/ ORG_ID /roles/ IDENTIFIER  `
-        
-        For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
-    
+
+    - `RESOURCE_TYPE` : The resource type that you want to manage access to. Use `projects` , `resource-manager folders` , or `organizations` .
+
+    - `RESOURCE_ID` : Your Google Cloud project, folder, or organization ID. Project IDs are alphanumeric, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+
+    - `PRINCIPAL` : An identifier for the principal, or member, which usually has the following form: `PRINCIPAL_TYPE `` : `` ID` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
+
+      For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
+
+    - `ROLE_NAME` : The name of the role that you want to revoke. Use one of the following formats:
+
+      - Predefined roles: `roles/ `` SERVICE `` . `` IDENTIFIER`
+      - Project-level custom roles: `projects/ `` PROJECT_ID `` /roles/ `` IDENTIFIER`
+      - Organization-level custom roles: `organizations/ `` ORG_ID `` /roles/ `` IDENTIFIER`
+
+      For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
+
     For example, to revoke the Project Creator role from the service account `example-service-account@example-project.iam.gserviceaccount.com` for the project `example-project` :
-    
-        gcloud projects remove-iam-policy-binding example-project 
-        
-              --member=serviceAccount:example-service-account@example-project.iam.gserviceaccount.com 
-        
-              --role=roles/resourcemanager.projectCreator
+
+    ```
+    gcloud projects remove-iam-policy-binding example-project 
+
+          --member=serviceAccount:example-service-account@example-project.iam.gserviceaccount.com 
+
+          --role=roles/resourcemanager.projectCreator
+    ```
 
 To help ensure that you don't revoke any necessary roles, you can enable [change risk recommendations](https://docs.cloud.google.com/recommender/docs/change-risk-recommendations) . Change risk recommendations generate warnings when you try to revoke project-level roles that Google Cloud has identified as important.
 
@@ -555,29 +587,27 @@ You can use the Google Cloud console to grant and revoke multiple roles for a si
 2.  Select a project, folder, or organization.
 
 3.  Select the principal whose roles you want to modify:
-    
-      - To modify roles for a principal who already has roles on the resource, find a row containing the principal, click edit **Edit principal** in that row, and click add **Add another role** .
-        
-        To modify roles for a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
-        
-        > **Note:** You cannot edit inherited roles when managing access to a resource. To edit inherited roles, go to the resource where the role was granted.
-    
-      - To grant roles to a principal who doesn't have any roles on the resource, click person\_add **Grant Access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
+
+    - To modify roles for a principal who already has roles on the resource, find a row containing the principal, click edit **Edit principal** in that row, and click add **Add another role** .
+
+      To modify roles for a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
+
+      > **Note:** You cannot edit inherited roles when managing access to a resource. To edit inherited roles, go to the resource where the role was granted.
+
+    - To grant roles to a principal who doesn't have any roles on the resource, click person_add **Grant Access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
 
 4.  Modify the principal's roles:
-    
-      - To grant a role to a principal who doesn't have any existing roles on the resource, click **Select a role** , then search for a role to grant.
-      - To grant an additional role to the principal, click **Add another role** , then search for a role to grant.
-      - To replace one of the principal's roles with a different role, click the existing role, then search for a different role to grant.
-      - To revoke one of the principal's roles, click the **Delete** delete button for each role that you want to revoke.
-    
+
+    - To grant a role to a principal who doesn't have any existing roles on the resource, click **Select a role** , then search for a role to grant.
+    - To grant an additional role to the principal, click **Add another role** , then search for a role to grant.
+    - To replace one of the principal's roles with a different role, click the existing role, then search for a different role to grant.
+    - To revoke one of the principal's roles, click the **Delete** delete button for each role that you want to revoke.
+
     You can also [add a condition](https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings#add) to a role, [modify a role's condition](https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings#modify) , or [remove a role's condition](https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings#removing) .
 
 5.  Click **Save** .
 
 > **Note:** If you grant access to a user's email alias or a secondary domain, then the values in your allow policy might not match the values that you initially entered. If you grant access to an email alias, then the allow policy displays the user's primary email address. If you grant access to a secondary domain, then the allow policy displays the primary domain.
-
-<span id="programmatic"></span> <span id="policy-overview"></span> <span id="overview_of_cloud_iam_policy"></span> <span id="multiple-roles"></span>
 
 ## Grant or revoke multiple IAM roles programmatically
 
@@ -593,43 +623,49 @@ You can use the gcloud CLI, the REST API, or the Resource Manager client librari
 
 In general, policy changes take effect within 2 minutes. However, in some cases, it can take 7 minutes or more for changes to propagate across the system.
 
-<span id="get_policy"></span>
-
 ### Get the current allow policy
 
 ### gcloud
 
-The `  gcloud get-iam-policy  ` command gets a project's, folder's, or organization's allow policy.
+The [`gcloud get-iam-policy`](https://docs.cloud.google.com/sdk/gcloud/reference/projects/add-iam-policy-binding) command gets a project's, folder's, or organization's allow policy.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  RESOURCE_TYPE  ` : The type of the resource that you want to get the allow policy for. Valid values are `projects` , `resource-manager folders` , or `organizations` .
+- `RESOURCE_TYPE` : The type of the resource that you want to get the allow policy for. Valid values are `projects` , `resource-manager folders` , or `organizations` .
 
-  - `  RESOURCE_ID  ` : Your Google Cloud project, folder, or organization ID. Project IDs are alphanumeric, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+- `RESOURCE_ID` : Your Google Cloud project, folder, or organization ID. Project IDs are alphanumeric, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
-  - `  FORMAT  ` : The desired format for the allow policy. Use `json` or `yaml` .
+- `FORMAT` : The desired format for the allow policy. Use `json` or `yaml` .
 
-  - `  PATH  ` : The path to a new output file for the allow policy.
+- `PATH` : The path to a new output file for the allow policy.
 
 Execute the following command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT > PATH
+```
+gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT > PATH
+```
 
 #### Windows (PowerShell)
 
-    gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT > PATH
+```
+gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT > PATH
+```
 
 #### Windows (cmd.exe)
 
-    gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT > PATH
+```
+gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT > PATH
+```
 
 For example, the following command gets the allow policy for the project `my-project` and saves it to your home directory in JSON format:
 
-    gcloud projects get-iam-policy my-project --format json > ~/policy.json
+```
+gcloud projects get-iam-policy my-project --format json > ~/policy.json
+```
 
-### C\#
+### C#
 
 To authenticate to Resource Manager, set up Application Default Credentials. For more information, see [Before you begin](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#before-you-begin) .
 
@@ -637,27 +673,29 @@ To learn how to install and use the client library for Resource Manager, see [Re
 
 The following example shows how to get the allow policy for a project. To learn how to get the allow policy of a folder or organization, review the [Resource Managerclient library documentation](https://docs.cloud.google.com/resource-manager/docs/libraries) for your programming language.
 
-    using Google.Apis.Auth.OAuth2;
-    using Google.Apis.CloudResourceManager.v1;
-    using Google.Apis.CloudResourceManager.v1.Data;
-    
-    public partial class AccessManager
+```csharp
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.CloudResourceManager.v1;
+using Google.Apis.CloudResourceManager.v1.Data;
+
+public partial class AccessManager
+{
+    public static Policy GetPolicy(string projectId)
     {
-        public static Policy GetPolicy(string projectId)
-        {
-            var credential = GoogleCredential.GetApplicationDefault()
-                .CreateScoped(CloudResourceManagerService.Scope.CloudPlatform);
-            var service = new CloudResourceManagerService(
-                new CloudResourceManagerService.Initializer
-                {
-                    HttpClientInitializer = credential
-                });
-    
-            var policy = service.Projects.GetIamPolicy(new GetIamPolicyRequest(),
-                projectId).Execute();
-            return policy;
-        }
+        var credential = GoogleCredential.GetApplicationDefault()
+            .CreateScoped(CloudResourceManagerService.Scope.CloudPlatform);
+        var service = new CloudResourceManagerService(
+            new CloudResourceManagerService.Initializer
+            {
+                HttpClientInitializer = credential
+            });
+
+        var policy = service.Projects.GetIamPolicy(new GetIamPolicyRequest(),
+            projectId).Execute();
+        return policy;
     }
+}
+```
 
 ### Java
 
@@ -667,33 +705,35 @@ To learn how to install and use the client library for Resource Manager, see [Re
 
 The following example shows how to get the allow policy for a project. To learn how to get the allow policy of a folder or organization, review the [Resource Managerclient library documentation](https://docs.cloud.google.com/resource-manager/docs/libraries) for your programming language.
 
-    import com.google.cloud.resourcemanager.v3.ProjectsClient;
-    import com.google.iam.admin.v1.ProjectName;
-    import com.google.iam.v1.GetIamPolicyRequest;
-    import com.google.iam.v1.Policy;
-    import java.io.IOException;
-    
-    public class GetProjectPolicy {
-      public static void main(String[] args) throws IOException {
-        // TODO(developer): Replace the variables before running the sample.
-        // TODO: Replace with your project ID.
-        String projectId = "your-project-id";
-    
-        getProjectPolicy(projectId);
-      }
-    
-      // Gets a project's policy.
-      public static Policy getProjectPolicy(String projectId) throws IOException {
-        // Initialize client that will be used to send requests.
-        // This client only needs to be created once, and can be reused for multiple requests.
-        try (ProjectsClient projectsClient = ProjectsClient.create()) {
-          GetIamPolicyRequest request = GetIamPolicyRequest.newBuilder()
-                  .setResource(ProjectName.of(projectId).toString())
-                  .build();
-          return projectsClient.getIamPolicy(request);
-        }
-      }
+```java
+import com.google.cloud.resourcemanager.v3.ProjectsClient;
+import com.google.iam.admin.v1.ProjectName;
+import com.google.iam.v1.GetIamPolicyRequest;
+import com.google.iam.v1.Policy;
+import java.io.IOException;
+
+public class GetProjectPolicy {
+  public static void main(String[] args) throws IOException {
+    // TODO(developer): Replace the variables before running the sample.
+    // TODO: Replace with your project ID.
+    String projectId = "your-project-id";
+
+    getProjectPolicy(projectId);
+  }
+
+  // Gets a project's policy.
+  public static Policy getProjectPolicy(String projectId) throws IOException {
+    // Initialize client that will be used to send requests.
+    // This client only needs to be created once, and can be reused for multiple requests.
+    try (ProjectsClient projectsClient = ProjectsClient.create()) {
+      GetIamPolicyRequest request = GetIamPolicyRequest.newBuilder()
+              .setResource(ProjectName.of(projectId).toString())
+              .build();
+      return projectsClient.getIamPolicy(request);
     }
+  }
+}
+```
 
 ### Python
 
@@ -703,47 +743,53 @@ To learn how to install and use the client library for Resource Manager, see [Re
 
 The following example shows how to get the allow policy for a project. To learn how to get the allow policy of a folder or organization, review the [Resource Managerclient library documentation](https://docs.cloud.google.com/resource-manager/docs/libraries) for your programming language.
 
-    from google.cloud import resourcemanager_v3
-    from google.iam.v1 import iam_policy_pb2, policy_pb2
-    
-    
-    def get_project_policy(project_id: str) -> policy_pb2.Policy:
-        """Get policy for project.
-    
-        project_id: ID or number of the Google Cloud project you want to use.
-        """
-    
-        client = resourcemanager_v3.ProjectsClient()
-        request = iam_policy_pb2.GetIamPolicyRequest()
-        request.resource = f"projects/{project_id}"
-    
-        policy = client.get_iam_policy(request)
-        print(f"Policy retrieved: {policy}")
-    
-        return policy
+```python
+from google.cloud import resourcemanager_v3
+from google.iam.v1 import iam_policy_pb2, policy_pb2
+
+
+def get_project_policy(project_id: str) -> policy_pb2.Policy:
+    """Get policy for project.
+
+    project_id: ID or number of the Google Cloud project you want to use.
+    """
+
+    client = resourcemanager_v3.ProjectsClient()
+    request = iam_policy_pb2.GetIamPolicyRequest()
+    request.resource = f"projects/{project_id}"
+
+    policy = client.get_iam_policy(request)
+    print(f"Policy retrieved: {policy}")
+
+    return policy
+```
 
 ### REST
 
-The Resource Manager API's `  get-iam-policy  ` method gets a project's, folder's, or organization's allow policy.
+The Resource Manager API's [`get-iam-policy`](https://docs.cloud.google.com/resource-manager/reference/rest/v1/projects/getIamPolicy) method gets a project's, folder's, or organization's allow policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  API_VERSION  ` : The API version to use. For projects and organizations, use `v1` . For folders, use `v2` .
-  - `  RESOURCE_TYPE  ` : The resource type whose policy you want to manage. Use the value `projects` , `folders` , or `organizations` .
-  - `  RESOURCE_ID  ` : Your Google Cloud project, organization, or folder ID. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
-  - `  POLICY_VERSION  ` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
+- `API_VERSION` : The API version to use. For projects and organizations, use `v1` . For folders, use `v2` .
+- `RESOURCE_TYPE` : The resource type whose policy you want to manage. Use the value `projects` , `folders` , or `organizations` .
+- `RESOURCE_ID` : Your Google Cloud project, organization, or folder ID. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+- `POLICY_VERSION` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
 
 HTTP method and URL:
 
-    POST https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:getIamPolicy
+```
+POST https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:getIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "options": {
-        "requestedPolicyVersion": POLICY_VERSION
-      }
-    }
+```
+{
+  "options": {
+    "requestedPolicyVersion": POLICY_VERSION
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -753,11 +799,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:getIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:getIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -765,15 +813,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:getIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:getIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -781,22 +831,22 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 The response contains the resource's allow policy. For example:
 
+```
+{
+  "version": 1,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 1,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/owner",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        }
+      "role": "roles/owner",
+      "members": [
+        "user:my-user@example.com"
       ]
     }
+  ]
+}
+```
 
 Save the response in a file of the appropriate type ( `json` or `yaml` ).
-
-<span id="modify_policy"></span>
 
 ### Modify the allow policy
 
@@ -808,36 +858,38 @@ To help prevent you from overwriting other changes, don't edit or remove the all
 
 To edit the roles that an allow policy grants, you need to edit the role bindings in the allow policy. Role bindings have the following format:
 
-    {
-      "role": "ROLE_NAME",
-      "members": [
-        "PRINCIPAL_1",
-        "PRINCIPAL_2",
-        ...
-        "PRINCIPAL_N"
-      ],
-      "conditions:" {
-        CONDITIONS
-      }
-    }
+```
+{
+  "role": "ROLE_NAME",
+  "members": [
+    "PRINCIPAL_1",
+    "PRINCIPAL_2",
+    ...
+    "PRINCIPAL_N"
+  ],
+  "conditions:" {
+    CONDITIONS
+  }
+}
+```
 
 Replace the following:
 
-  - `  ROLE_NAME  ` : The name of the role that you want to grant. Use one of the following formats:
-    
-      - Predefined roles: ` roles/ SERVICE . IDENTIFIER  `
-      - Project-level custom roles: ` projects/ PROJECT_ID /roles/ IDENTIFIER  `
-      - Organization-level custom roles: ` organizations/ ORG_ID /roles/ IDENTIFIER  `
-    
-    For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
+- `ROLE_NAME` : The name of the role that you want to grant. Use one of the following formats:
 
-  - `  PRINCIPAL_1  ` , `  PRINCIPAL_2  ` , ` ... PRINCIPAL_N  ` : Identifiers for the principals that you want to grant the role to.
-    
-    Principal identifiers usually have the following form: `  PRINCIPAL-TYPE : ID  ` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` . For a full list of the values that `  PRINCIPAL  ` can have, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
-    
-    For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
+  - Predefined roles: `roles/ `` SERVICE `` . `` IDENTIFIER`
+  - Project-level custom roles: `projects/ `` PROJECT_ID `` /roles/ `` IDENTIFIER`
+  - Organization-level custom roles: `organizations/ `` ORG_ID `` /roles/ `` IDENTIFIER`
 
-  - `  CONDITIONS  ` : Optional. Any [conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) that specify when access will be granted.
+  For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
+
+- `PRINCIPAL_1` , `PRINCIPAL_2` , `... `` PRINCIPAL_N` : Identifiers for the principals that you want to grant the role to.
+
+  Principal identifiers usually have the following form: `PRINCIPAL-TYPE `` : `` ID` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` . For a full list of the values that `PRINCIPAL` can have, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
+
+  For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
+
+- `CONDITIONS` : Optional. Any [conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) that specify when access will be granted.
 
 #### Grant an IAM role
 
@@ -853,41 +905,47 @@ Edit the returned allow policy by adding the principal to an existing role bindi
 
 For example, imagine the allow policy contains the following role binding, which grants the Security Reviewer role ( `roles/iam.securityReviewer` ) to Kai:
 
-    {
-      "role": "roles/iam.securityReviewer",
-      "members": [
-        "user:kai@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/iam.securityReviewer",
+  "members": [
+    "user:kai@example.com"
+  ]
+}
+```
 
 To grant that same role to Raha, add Raha's principal identifier to the existing role binding:
 
-    {
-      "role": "roles/iam.securityReviewer",
-      "members": [
-        "user:kai@example.com",
-        "user:raha@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/iam.securityReviewer",
+  "members": [
+    "user:kai@example.com",
+    "user:raha@example.com"
+  ]
+}
+```
 
-### C\#
+### C#
 
 To authenticate to Resource Manager, set up Application Default Credentials. For more information, see [Before you begin](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#before-you-begin) .
 
 To learn how to install and use the client library for Resource Manager, see [Resource Manager client libraries](https://docs.cloud.google.com/resource-manager/docs/libraries) .
 
-    using System.Linq;
-    using Google.Apis.CloudResourceManager.v1.Data;
-    
-    public partial class AccessManager
+```csharp
+using System.Linq;
+using Google.Apis.CloudResourceManager.v1.Data;
+
+public partial class AccessManager
+{
+    public static Policy AddMember(Policy policy, string role, string member)
     {
-        public static Policy AddMember(Policy policy, string role, string member)
-        {
-            var binding = policy.Bindings.First(x => x.Role == role);
-            binding.Members.Add(member);
-            return policy;
-        }
+        var binding = policy.Bindings.First(x => x.Role == role);
+        binding.Members.Add(member);
+        return policy;
     }
+}
+```
 
 ### Go
 
@@ -895,32 +953,34 @@ To authenticate to Resource Manager, set up Application Default Credentials. For
 
 To learn how to install and use the client library for Resource Manager, see [Resource Manager client libraries](https://docs.cloud.google.com/resource-manager/docs/libraries) .
 
-    import (
-     "fmt"
-     "io"
-    
-     "google.golang.org/api/iam/v1"
-    )
-    
-    // addMember adds a member to a role binding.
-    func addMember(w io.Writer, policy *iam.Policy, role, member string) {
-     for _, binding := range policy.Bindings {
-         if binding.Role != role {
-             continue
-         }
-         for _, m := range binding.Members {
-             if m != member {
-                 continue
-             }
-             fmt.Fprintf(w, "Role %q found. Member already exists.\n", role)
-             return
-         }
-         binding.Members = append(binding.Members, member)
-         fmt.Fprintf(w, "Role %q found. Member added.\n", role)
-         return
-     }
-     fmt.Fprintf(w, "Role %q not found. Member not added.\n", role)
+```go
+import (
+    "fmt"
+    "io"
+
+    "google.golang.org/api/iam/v1"
+)
+
+// addMember adds a member to a role binding.
+func addMember(w io.Writer, policy *iam.Policy, role, member string) {
+    for _, binding := range policy.Bindings {
+        if binding.Role != role {
+            continue
+        }
+        for _, m := range binding.Members {
+            if m != member {
+                continue
+            }
+            fmt.Fprintf(w, "Role %q found. Member already exists.\n", role)
+            return
+        }
+        binding.Members = append(binding.Members, member)
+        fmt.Fprintf(w, "Role %q found. Member added.\n", role)
+        return
     }
+    fmt.Fprintf(w, "Role %q not found. Member not added.\n", role)
+}
+```
 
 ### Java
 
@@ -928,48 +988,50 @@ To authenticate to Resource Manager, set up Application Default Credentials. For
 
 To learn how to install and use the client library for Resource Manager, see [Resource Manager client libraries](https://docs.cloud.google.com/resource-manager/docs/libraries) .
 
-    import com.google.iam.v1.Binding;
-    import com.google.iam.v1.Policy;
-    import java.util.ArrayList;
-    import java.util.List;
-    
-    public class AddMember {
-      public static void main(String[] args) {
-        // TODO(developer): Replace the variables before running the sample.
-        // TODO: Replace with your policy, GetPolicy.getPolicy(projectId, serviceAccount).
-        Policy policy = Policy.newBuilder().build();
-        // TODO: Replace with your role.
-        String role = "roles/existing-role";
-        // TODO: Replace with your principal.
-        // For examples, see https://cloud.google.com/iam/docs/principal-identifiers
-        String member = "principal-id";
-    
-        addMember(policy, role, member);
-      }
-    
-      // Adds a principal to a pre-existing role.
-      public static Policy addMember(Policy policy, String role, String member) {
-        List<Binding> newBindingsList = new ArrayList<>();
-    
-        for (Binding b : policy.getBindingsList()) {
-          if (b.getRole().equals(role)) {
-            newBindingsList.add(b.toBuilder().addMembers(member).build());
-          } else {
-            newBindingsList.add(b);
-          }
-        }
-    
-        // Update the policy to add the principal.
-        Policy updatedPolicy = policy.toBuilder()
-                .clearBindings()
-                .addAllBindings(newBindingsList)
-                .build();
-    
-        System.out.println("Added principal: " + updatedPolicy.getBindingsList());
-    
-        return updatedPolicy;
+```java
+import com.google.iam.v1.Binding;
+import com.google.iam.v1.Policy;
+import java.util.ArrayList;
+import java.util.List;
+
+public class AddMember {
+  public static void main(String[] args) {
+    // TODO(developer): Replace the variables before running the sample.
+    // TODO: Replace with your policy, GetPolicy.getPolicy(projectId, serviceAccount).
+    Policy policy = Policy.newBuilder().build();
+    // TODO: Replace with your role.
+    String role = "roles/existing-role";
+    // TODO: Replace with your principal.
+    // For examples, see https://cloud.google.com/iam/docs/principal-identifiers
+    String member = "principal-id";
+
+    addMember(policy, role, member);
+  }
+
+  // Adds a principal to a pre-existing role.
+  public static Policy addMember(Policy policy, String role, String member) {
+    List<Binding> newBindingsList = new ArrayList<>();
+
+    for (Binding b : policy.getBindingsList()) {
+      if (b.getRole().equals(role)) {
+        newBindingsList.add(b.toBuilder().addMembers(member).build());
+      } else {
+        newBindingsList.add(b);
       }
     }
+
+    // Update the policy to add the principal.
+    Policy updatedPolicy = policy.toBuilder()
+            .clearBindings()
+            .addAllBindings(newBindingsList)
+            .build();
+
+    System.out.println("Added principal: " + updatedPolicy.getBindingsList());
+
+    return updatedPolicy;
+  }
+}
+```
 
 ### Python
 
@@ -977,30 +1039,32 @@ To authenticate to Resource Manager, set up Application Default Credentials. For
 
 To learn how to install and use the client library for Resource Manager, see [Resource Manager client libraries](https://docs.cloud.google.com/resource-manager/docs/libraries) .
 
-    from google.iam.v1 import policy_pb2
-    from snippets.get_policy import get_project_policy
-    from snippets.set_policy import set_project_policy
-    
-    
-    def modify_policy_add_principal(
-        project_id: str, role: str, principal: str
-    ) -> policy_pb2.Policy:
-        """Add a principal to certain role in project policy.
-    
-        project_id: ID or number of the Google Cloud project you want to use.
-        role: role to which principal need to be added.
-        principal: The principal requesting access.
-    
-        For principal ID formats, see https://cloud.google.com/iam/docs/principal-identifiers
-        """
-        policy = get_project_policy(project_id)
-    
-        for bind in policy.bindings:
-            if bind.role == role:
-                bind.members.append(principal)
-                break
-    
-        return set_project_policy(project_id, policy)
+```python
+from google.iam.v1 import policy_pb2
+from snippets.get_policy import get_project_policy
+from snippets.set_policy import set_project_policy
+
+
+def modify_policy_add_principal(
+    project_id: str, role: str, principal: str
+) -> policy_pb2.Policy:
+    """Add a principal to certain role in project policy.
+
+    project_id: ID or number of the Google Cloud project you want to use.
+    role: role to which principal need to be added.
+    principal: The principal requesting access.
+
+    For principal ID formats, see https://cloud.google.com/iam/docs/principal-identifiers
+    """
+    policy = get_project_policy(project_id)
+
+    for bind in policy.bindings:
+        if bind.role == role:
+            bind.members.append(principal)
+            break
+
+    return set_project_policy(project_id, policy)
+```
 
 ### REST
 
@@ -1008,22 +1072,26 @@ Edit the returned allow policy by adding the principal to an existing role bindi
 
 For example, imagine the allow policy contains the following role binding, which grants the Security Reviewer role ( `roles/iam.securityReviewer` ) to Kai:
 
-    {
-      "role": "roles/iam.securityReviewer",
-      "members": [
-        "user:kai@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/iam.securityReviewer",
+  "members": [
+    "user:kai@example.com"
+  ]
+}
+```
 
 To grant that same role to Raha, add Raha's principal identifier to the existing role binding:
 
-    {
-      "role": "roles/iam.securityReviewer",
-      "members": [
-        "user:kai@example.com",
-        "user:raha@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/iam.securityReviewer",
+  "members": [
+    "user:kai@example.com",
+    "user:raha@example.com"
+  ]
+}
+```
 
 To grant a role that is not yet included in the allow policy, add a new role binding:
 
@@ -1033,16 +1101,18 @@ Edit the allow policy by adding a new role binding that grants the role to the p
 
 For example, to grant the Compute Storage Admin role ( `roles/compute.storageAdmin` ) to Raha, add the following role binding to the `bindings` array for the allow policy:
 
-    {
-      "role": "roles/compute.storageAdmin",
-      "members": [
-        "user:raha@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/compute.storageAdmin",
+  "members": [
+    "user:raha@example.com"
+  ]
+}
+```
 
-### C\#
+### C#
 
-To learn how to install and use the client library for IAM, see [IAM client libraries](https://docs.cloud.google.com/iam/docs/reference/libraries) . For more information, see the [IAM C\# API reference documentation](https://developers.google.com/api-client-library/dotnet/apis/iam/v1) .
+To learn how to install and use the client library for IAM, see [IAM client libraries](https://docs.cloud.google.com/iam/docs/reference/libraries) . For more information, see the [IAM C# API reference documentation](https://developers.google.com/api-client-library/dotnet/apis/iam/v1) .
 
 To authenticate to IAM, set up Application Default Credentials. For more information, see [Before you begin](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#before-you-begin) .
 
@@ -1050,22 +1120,24 @@ To authenticate to Resource Manager, set up Application Default Credentials. For
 
 To learn how to install and use the client library for Resource Manager, see [Resource Manager client libraries](https://docs.cloud.google.com/resource-manager/docs/libraries) .
 
-    using System.Collections.Generic;
-    using Google.Apis.CloudResourceManager.v1.Data;
-    
-    public partial class AccessManager
+```csharp
+using System.Collections.Generic;
+using Google.Apis.CloudResourceManager.v1.Data;
+
+public partial class AccessManager
+{
+    public static Policy AddBinding(Policy policy, string role, string member)
     {
-        public static Policy AddBinding(Policy policy, string role, string member)
+        var binding = new Binding
         {
-            var binding = new Binding
-            {
-                Role = role,
-                Members = new List<string> { member }
-            };
-            policy.Bindings.Add(binding);
-            return policy;
-        }
+            Role = role,
+            Members = new List<string> { member }
+        };
+        policy.Bindings.Add(binding);
+        return policy;
     }
+}
+```
 
 ### Java
 
@@ -1077,40 +1149,42 @@ To authenticate to Resource Manager, set up Application Default Credentials. For
 
 To learn how to install and use the client library for Resource Manager, see [Resource Manager client libraries](https://docs.cloud.google.com/resource-manager/docs/libraries) .
 
-    import com.google.iam.v1.Binding;
-    import com.google.iam.v1.Policy;
-    import java.util.Collections;
-    import java.util.List;
-    
-    public class AddBinding {
-      public static void main(String[] args) {
-        // TODO(developer): Replace the variables before running the sample.
-        // TODO: Replace with your policy: GetPolicy.getPolicy(projectId, serviceAccount).
-        Policy policy = Policy.newBuilder().build();
-        // TODO: Replace with your role.
-        String role = "roles/role-to-add";
-        // TODO: Replace with your principals.
-        // For examples, see https://cloud.google.com/iam/docs/principal-identifiers
-        List<String> members = Collections.singletonList("principal-id");
-    
-        addBinding(policy, role, members);
-      }
-    
-      // Adds a principals to a role.
-      public static Policy addBinding(Policy policy, String role, List<String> members) {
-        Binding binding = Binding.newBuilder()
-                .setRole(role)
-                .addAllMembers(members)
-                .build();
-    
-        // Update bindings for the policy.
-        Policy updatedPolicy = policy.toBuilder().addBindings(binding).build();
-    
-        System.out.println("Added binding: " + updatedPolicy.getBindingsList());
-    
-        return updatedPolicy;
-      }
-    }
+```java
+import com.google.iam.v1.Binding;
+import com.google.iam.v1.Policy;
+import java.util.Collections;
+import java.util.List;
+
+public class AddBinding {
+  public static void main(String[] args) {
+    // TODO(developer): Replace the variables before running the sample.
+    // TODO: Replace with your policy: GetPolicy.getPolicy(projectId, serviceAccount).
+    Policy policy = Policy.newBuilder().build();
+    // TODO: Replace with your role.
+    String role = "roles/role-to-add";
+    // TODO: Replace with your principals.
+    // For examples, see https://cloud.google.com/iam/docs/principal-identifiers
+    List<String> members = Collections.singletonList("principal-id");
+
+    addBinding(policy, role, members);
+  }
+
+  // Adds a principals to a role.
+  public static Policy addBinding(Policy policy, String role, List<String> members) {
+    Binding binding = Binding.newBuilder()
+            .setRole(role)
+            .addAllMembers(members)
+            .build();
+
+    // Update bindings for the policy.
+    Policy updatedPolicy = policy.toBuilder().addBindings(binding).build();
+
+    System.out.println("Added binding: " + updatedPolicy.getBindingsList());
+
+    return updatedPolicy;
+  }
+}
+```
 
 ### Python
 
@@ -1122,13 +1196,15 @@ To authenticate to Resource Manager, set up Application Default Credentials. For
 
 To learn how to install and use the client library for Resource Manager, see [Resource Manager client libraries](https://docs.cloud.google.com/resource-manager/docs/libraries) .
 
-    def modify_policy_add_role(policy: dict, role: str, principal: str) -> dict:
-        """Adds a new role binding to a policy."""
-    
-        binding = {"role": role, "members": [principal]}
-        policy["bindings"].append(binding)
-        print(policy)
-        return policy
+```python
+def modify_policy_add_role(policy: dict, role: str, principal: str) -> dict:
+    """Adds a new role binding to a policy."""
+
+    binding = {"role": role, "members": [principal]}
+    policy["bindings"].append(binding)
+    print(policy)
+    return policy
+```
 
 ### REST
 
@@ -1136,12 +1212,14 @@ Edit the allow policy by adding a new role binding that grants the role to the p
 
 For example, to grant the Compute Storage Admin role ( `roles/compute.storageAdmin` ) to Raha, add the following role binding to the `bindings` array for the allow policy:
 
-    {
-      "role": "roles/compute.storageAdmin",
-      "members": [
-        "user:raha@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/compute.storageAdmin",
+  "members": [
+    "user:raha@example.com"
+  ]
+}
+```
 
 You can only grant roles related to activated API services. If a service, such as Compute Engine, is not active, you cannot grant roles exclusively related to Compute Engine. For more information, see [Enable and disable APIs](https://support.google.com/cloud/answer/6158841) .
 
@@ -1159,9 +1237,9 @@ Revoke a role by editing the JSON or YAML allow policy returned by the `get-iam-
 
 To revoke a role from a principal, delete the principal or binding from the `bindings` array for the allow policy.
 
-### C\#
+### C#
 
-To learn how to install and use the client library for IAM, see [IAM client libraries](https://docs.cloud.google.com/iam/docs/reference/libraries) . For more information, see the [IAM C\# API reference documentation](https://developers.google.com/api-client-library/dotnet/apis/iam/v1) .
+To learn how to install and use the client library for IAM, see [IAM client libraries](https://docs.cloud.google.com/iam/docs/reference/libraries) . For more information, see the [IAM C# API reference documentation](https://developers.google.com/api-client-library/dotnet/apis/iam/v1) .
 
 To authenticate to IAM, set up Application Default Credentials. For more information, see [Before you begin](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#before-you-begin) .
 
@@ -1169,33 +1247,35 @@ To authenticate to Resource Manager, set up Application Default Credentials. For
 
 To learn how to install and use the client library for Resource Manager, see [Resource Manager client libraries](https://docs.cloud.google.com/resource-manager/docs/libraries) .
 
-    using System.Linq;
-    using Google.Apis.CloudResourceManager.v1.Data;
-    
-    public partial class AccessManager
+```csharp
+using System.Linq;
+using Google.Apis.CloudResourceManager.v1.Data;
+
+public partial class AccessManager
+{
+    public static Policy RemoveMember(Policy policy, string role, string member)
     {
-        public static Policy RemoveMember(Policy policy, string role, string member)
+        try
         {
-            try
+            var binding = policy.Bindings.First(x => x.Role == role);
+            if (binding.Members.Count != 0 && binding.Members.Contains(member))
             {
-                var binding = policy.Bindings.First(x => x.Role == role);
-                if (binding.Members.Count != 0 && binding.Members.Contains(member))
-                {
-                    binding.Members.Remove(member);
-                }
-                if (binding.Members.Count == 0)
-                {
-                    policy.Bindings.Remove(binding);
-                }
-                return policy;
+                binding.Members.Remove(member);
             }
-            catch (System.InvalidOperationException e)
+            if (binding.Members.Count == 0)
             {
-                System.Diagnostics.Debug.WriteLine("Role does not exist in policy: \n" + e.ToString());
-                return policy;
+                policy.Bindings.Remove(binding);
             }
+            return policy;
+        }
+        catch (System.InvalidOperationException e)
+        {
+            System.Diagnostics.Debug.WriteLine("Role does not exist in policy: \n" + e.ToString());
+            return policy;
         }
     }
+}
+```
 
 ### Go
 
@@ -1207,52 +1287,54 @@ To authenticate to Resource Manager, set up Application Default Credentials. For
 
 To learn how to install and use the client library for Resource Manager, see [Resource Manager client libraries](https://docs.cloud.google.com/resource-manager/docs/libraries) .
 
-    import (
-     "fmt"
-     "io"
-    
-     "google.golang.org/api/iam/v1"
-    )
-    
-    // removeMember removes a member from a role binding.
-    func removeMember(w io.Writer, policy *iam.Policy, role, member string) {
-     bindings := policy.Bindings
-     bindingIndex, memberIndex := -1, -1
-     for bIdx := range bindings {
-         if bindings[bIdx].Role != role {
-             continue
-         }
-         bindingIndex = bIdx
-         for mIdx := range bindings[bindingIndex].Members {
-             if bindings[bindingIndex].Members[mIdx] != member {
-                 continue
-             }
-             memberIndex = mIdx
-             break
-         }
-     }
-     if bindingIndex == -1 {
-         fmt.Fprintf(w, "Role %q not found. Member not removed.\n", role)
-         return
-     }
-     if memberIndex == -1 {
-         fmt.Fprintf(w, "Role %q found. Member not found.\n", role)
-         return
-     }
-    
-     members := removeIdx(bindings[bindingIndex].Members, memberIndex)
-     bindings[bindingIndex].Members = members
-     if len(members) == 0 {
-         bindings = removeIdx(bindings, bindingIndex)
-         policy.Bindings = bindings
-     }
-     fmt.Fprintf(w, "Role %q found. Member removed.\n", role)
+```go
+import (
+    "fmt"
+    "io"
+
+    "google.golang.org/api/iam/v1"
+)
+
+// removeMember removes a member from a role binding.
+func removeMember(w io.Writer, policy *iam.Policy, role, member string) {
+    bindings := policy.Bindings
+    bindingIndex, memberIndex := -1, -1
+    for bIdx := range bindings {
+        if bindings[bIdx].Role != role {
+            continue
+        }
+        bindingIndex = bIdx
+        for mIdx := range bindings[bindingIndex].Members {
+            if bindings[bindingIndex].Members[mIdx] != member {
+                continue
+            }
+            memberIndex = mIdx
+            break
+        }
     }
-    
-    // removeIdx removes arr[idx] from arr.
-    func removeIdx[T any](arr []T, idx int) []T {
-     return append(arr[:idx], arr[idx+1:]...)
+    if bindingIndex == -1 {
+        fmt.Fprintf(w, "Role %q not found. Member not removed.\n", role)
+        return
     }
+    if memberIndex == -1 {
+        fmt.Fprintf(w, "Role %q found. Member not found.\n", role)
+        return
+    }
+
+    members := removeIdx(bindings[bindingIndex].Members, memberIndex)
+    bindings[bindingIndex].Members = members
+    if len(members) == 0 {
+        bindings = removeIdx(bindings, bindingIndex)
+        policy.Bindings = bindings
+    }
+    fmt.Fprintf(w, "Role %q found. Member removed.\n", role)
+}
+
+// removeIdx removes arr[idx] from arr.
+func removeIdx[T any](arr []T, idx int) []T {
+    return append(arr[:idx], arr[idx+1:]...)
+}
+```
 
 ### Java
 
@@ -1264,75 +1346,77 @@ To authenticate to Resource Manager, set up Application Default Credentials. For
 
 To learn how to install and use the client library for Resource Manager, see [Resource Manager client libraries](https://docs.cloud.google.com/resource-manager/docs/libraries) .
 
-    import com.google.iam.v1.Binding;
-    import com.google.iam.v1.Policy;
-    import java.io.IOException;
-    import java.util.ArrayList;
-    import java.util.List;
-    
-    public class RemoveMember {
-      public static void main(String[] args) throws IOException {
-        // TODO(developer): Replace the variables before running the sample.
-        // TODO: Replace with your policy, GetPolicy.getPolicy(projectId, serviceAccount).
-        Policy policy = Policy.newBuilder().build();
-        // TODO: Replace with your role.
-        String role = "roles/existing-role";
-        // TODO: Replace with your principal.
-        // For examples, see https://cloud.google.com/iam/docs/principal-identifiers
-        String member = "principal-id";
-    
-        removeMember(policy, role, member);
-      }
-    
-      // Removes principal from a role; removes binding if binding contains no members.
-      public static Policy removeMember(Policy policy, String role, String member) {
-        // Creating new builder with all values copied from origin policy
-        Policy.Builder policyBuilder = policy.toBuilder();
-    
-        // Getting binding with suitable role.
-        Binding binding = null;
-        for (Binding b : policy.getBindingsList()) {
-          if (b.getRole().equals(role)) {
-            binding = b;
-            break;
-          }
-        }
-    
-        if (binding != null && binding.getMembersList().contains(member)) {
-          List<String> newMemberList = new ArrayList<>(binding.getMembersList());
-          // Removing principal from the role
-          newMemberList.remove(member);
-    
-          System.out.println("Member " + member + " removed from " + role);
-    
-          // Adding all remaining principals to create new binding
-          Binding newBinding = binding.toBuilder()
-                  .clearMembers()
-                  .addAllMembers(newMemberList)
-                  .build();
-    
-          List<Binding> newBindingList = new ArrayList<>(policyBuilder.getBindingsList());
-    
-          // Removing old binding to replace with new one
-          newBindingList.remove(binding);
-    
-          // If binding has no more members, binding will not be added
-          if (!newBinding.getMembersList().isEmpty()) {
-            newBindingList.add(newBinding);
-          }
-    
-          // Update the policy to remove the principal.
-          policyBuilder.clearBindings()
-                  .addAllBindings(newBindingList);
-        }
-    
-        Policy updatedPolicy = policyBuilder.build();
-    
-        System.out.println("Exising principals: " + updatedPolicy.getBindingsList());
-    
-        return updatedPolicy;
+```java
+import com.google.iam.v1.Binding;
+import com.google.iam.v1.Policy;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class RemoveMember {
+  public static void main(String[] args) throws IOException {
+    // TODO(developer): Replace the variables before running the sample.
+    // TODO: Replace with your policy, GetPolicy.getPolicy(projectId, serviceAccount).
+    Policy policy = Policy.newBuilder().build();
+    // TODO: Replace with your role.
+    String role = "roles/existing-role";
+    // TODO: Replace with your principal.
+    // For examples, see https://cloud.google.com/iam/docs/principal-identifiers
+    String member = "principal-id";
+
+    removeMember(policy, role, member);
+  }
+
+  // Removes principal from a role; removes binding if binding contains no members.
+  public static Policy removeMember(Policy policy, String role, String member) {
+    // Creating new builder with all values copied from origin policy
+    Policy.Builder policyBuilder = policy.toBuilder();
+
+    // Getting binding with suitable role.
+    Binding binding = null;
+    for (Binding b : policy.getBindingsList()) {
+      if (b.getRole().equals(role)) {
+        binding = b;
+        break;
       }
     }
+
+    if (binding != null && binding.getMembersList().contains(member)) {
+      List<String> newMemberList = new ArrayList<>(binding.getMembersList());
+      // Removing principal from the role
+      newMemberList.remove(member);
+
+      System.out.println("Member " + member + " removed from " + role);
+
+      // Adding all remaining principals to create new binding
+      Binding newBinding = binding.toBuilder()
+              .clearMembers()
+              .addAllMembers(newMemberList)
+              .build();
+
+      List<Binding> newBindingList = new ArrayList<>(policyBuilder.getBindingsList());
+
+      // Removing old binding to replace with new one
+      newBindingList.remove(binding);
+
+      // If binding has no more members, binding will not be added
+      if (!newBinding.getMembersList().isEmpty()) {
+        newBindingList.add(newBinding);
+      }
+
+      // Update the policy to remove the principal.
+      policyBuilder.clearBindings()
+              .addAllBindings(newBindingList);
+    }
+
+    Policy updatedPolicy = policyBuilder.build();
+
+    System.out.println("Exising principals: " + updatedPolicy.getBindingsList());
+
+    return updatedPolicy;
+  }
+}
+```
 
 ### Python
 
@@ -1344,39 +1428,39 @@ To authenticate to Resource Manager, set up Application Default Credentials. For
 
 To learn how to install and use the client library for Resource Manager, see [Resource Manager client libraries](https://docs.cloud.google.com/resource-manager/docs/libraries) .
 
-    from google.iam.v1 import policy_pb2
-    from snippets.get_policy import get_project_policy
-    from snippets.set_policy import set_project_policy
-    
-    
-    def modify_policy_remove_principal(
-        project_id: str, role: str, principal: str
-    ) -> policy_pb2.Policy:
-        """Remove a principal from certain role in project policy.
-    
-        project_id: ID or number of the Google Cloud project you want to use.
-        role: role to revoke.
-        principal: The principal to revoke access from.
-    
-        For principal ID formats, see https://cloud.google.com/iam/docs/principal-identifiers
-        """
-        policy = get_project_policy(project_id)
-    
-        for bind in policy.bindings:
-            if bind.role == role:
-                if principal in bind.members:
-                    bind.members.remove(principal)
-                break
-    
-        return set_project_policy(project_id, policy, False)
+```python
+from google.iam.v1 import policy_pb2
+from snippets.get_policy import get_project_policy
+from snippets.set_policy import set_project_policy
+
+
+def modify_policy_remove_principal(
+    project_id: str, role: str, principal: str
+) -> policy_pb2.Policy:
+    """Remove a principal from certain role in project policy.
+
+    project_id: ID or number of the Google Cloud project you want to use.
+    role: role to revoke.
+    principal: The principal to revoke access from.
+
+    For principal ID formats, see https://cloud.google.com/iam/docs/principal-identifiers
+    """
+    policy = get_project_policy(project_id)
+
+    for bind in policy.bindings:
+        if bind.role == role:
+            if principal in bind.members:
+                bind.members.remove(principal)
+            break
+
+    return set_project_policy(project_id, policy, False)
+```
 
 ### REST
 
 Revoke a role by editing the JSON or YAML allow policy returned by the `get-iam-policy` command. This change won't take effect until you [set the updated allow policy](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#setting-policy) .
 
 To revoke a role from a principal, delete the principal or binding from the `bindings` array for the allow policy.
-
-<span id="set_policy"></span>
 
 ### Set the allow policy
 
@@ -1386,62 +1470,72 @@ After you modify the allow policy to grant and revoke roles, call `setIamPolicy(
 
 ### gcloud
 
-The `  gcloud set-iam-policy  ` command sets the policy in the request as the new allow policy for the project, folder, or organization.
+The [`gcloud set-iam-policy`](https://docs.cloud.google.com/sdk/gcloud/reference/projects/add-iam-policy-binding) command sets the policy in the request as the new allow policy for the project, folder, or organization.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  RESOURCE_TYPE  ` : The type of the resource that you want to set the allow policy for. Valid values are `projects` , `resource-manager folders` , or `organizations` .
+- `RESOURCE_TYPE` : The type of the resource that you want to set the allow policy for. Valid values are `projects` , `resource-manager folders` , or `organizations` .
 
-  - `  RESOURCE_ID  ` : Your Google Cloud project, folder, or organization ID. Project IDs are alphanumeric, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+- `RESOURCE_ID` : Your Google Cloud project, folder, or organization ID. Project IDs are alphanumeric, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
-  - `  PATH  ` : The path to a file that contains the new allow policy.
+- `PATH` : The path to a file that contains the new allow policy.
 
 Execute the following command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud RESOURCE_TYPE set-iam-policy RESOURCE_ID PATH
+```
+gcloud RESOURCE_TYPE set-iam-policy RESOURCE_ID PATH
+```
 
 #### Windows (PowerShell)
 
-    gcloud RESOURCE_TYPE set-iam-policy RESOURCE_ID PATH
+```
+gcloud RESOURCE_TYPE set-iam-policy RESOURCE_ID PATH
+```
 
 #### Windows (cmd.exe)
 
-    gcloud RESOURCE_TYPE set-iam-policy RESOURCE_ID PATH
+```
+gcloud RESOURCE_TYPE set-iam-policy RESOURCE_ID PATH
+```
 
 The response contains the updated allow policy.
 
 For example, the following command sets the allow policy stored in `policy.json` as the allow policy for the project `my-project` :
 
-    gcloud projects set-iam-policy my-project ~/policy.json
+```
+gcloud projects set-iam-policy my-project ~/policy.json
+```
 
 > **Note:** If you treat policies as code and store them in a version-control system, you should store the policy that is returned, not the policy that you sent in the request.
 
-### C\#
+### C#
 
-    using Google.Apis.Auth.OAuth2;
-    using Google.Apis.CloudResourceManager.v1;
-    using Google.Apis.CloudResourceManager.v1.Data;
-    
-    public partial class AccessManager
+```csharp
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.CloudResourceManager.v1;
+using Google.Apis.CloudResourceManager.v1.Data;
+
+public partial class AccessManager
+{
+    public static Policy SetPolicy(string projectId, Policy policy)
     {
-        public static Policy SetPolicy(string projectId, Policy policy)
-        {
-            var credential = GoogleCredential.GetApplicationDefault()
-                .CreateScoped(CloudResourceManagerService.Scope.CloudPlatform);
-            var service = new CloudResourceManagerService(
-                new CloudResourceManagerService.Initializer
-                {
-                    HttpClientInitializer = credential
-                });
-    
-            return service.Projects.SetIamPolicy(new SetIamPolicyRequest
+        var credential = GoogleCredential.GetApplicationDefault()
+            .CreateScoped(CloudResourceManagerService.Scope.CloudPlatform);
+        var service = new CloudResourceManagerService(
+            new CloudResourceManagerService.Initializer
             {
-                Policy = policy
-            }, projectId).Execute();
-        }
+                HttpClientInitializer = credential
+            });
+
+        return service.Projects.SetIamPolicy(new SetIamPolicyRequest
+        {
+            Policy = policy
+        }, projectId).Execute();
     }
+}
+```
 
 ### Java
 
@@ -1451,48 +1545,50 @@ To learn how to install and use the client library for Resource Manager, see [Re
 
 The following example shows how to set the allow policy for a project. To learn how to set the allow policy of a folder or organization, review the [Resource Manager client library documentation](https://docs.cloud.google.com/resource-manager/docs/libraries) for your programming language.
 
-    import com.google.cloud.resourcemanager.v3.ProjectsClient;
-    import com.google.iam.admin.v1.ProjectName;
-    import com.google.iam.v1.Policy;
-    import com.google.iam.v1.SetIamPolicyRequest;
-    import com.google.protobuf.FieldMask;
-    import java.io.IOException;
-    import java.util.Arrays;
-    import java.util.List;
-    
-    public class SetProjectPolicy {
-      public static void main(String[] args) throws IOException {
-        // TODO(developer): Replace the variables before running the sample.
-        // TODO: Replace with your project ID.
-        String projectId = "your-project-id";
-        // TODO: Replace with your policy, GetPolicy.getPolicy(projectId, serviceAccount).
-        Policy policy = Policy.newBuilder().build();
-    
-        setProjectPolicy(policy, projectId);
-      }
-    
-      // Sets a project's policy.
-      public static Policy setProjectPolicy(Policy policy, String projectId)
-              throws IOException {
-    
-        // Initialize client that will be used to send requests.
-        // This client only needs to be created once, and can be reused for multiple requests.
-        try (ProjectsClient projectsClient = ProjectsClient.create()) {
-          List<String> paths = Arrays.asList("bindings", "etag");
-          SetIamPolicyRequest request = SetIamPolicyRequest.newBuilder()
-                  .setResource(ProjectName.of(projectId).toString())
-                  .setPolicy(policy)
-                  // A FieldMask specifying which fields of the policy to modify. Only
-                  // the fields in the mask will be modified. If no mask is provided, the
-                  // following default mask is used:
-                  // `paths: "bindings, etag"`
-                  .setUpdateMask(FieldMask.newBuilder().addAllPaths(paths).build())
-                  .build();
-    
-          return projectsClient.setIamPolicy(request);
-        }
-      }
+```java
+import com.google.cloud.resourcemanager.v3.ProjectsClient;
+import com.google.iam.admin.v1.ProjectName;
+import com.google.iam.v1.Policy;
+import com.google.iam.v1.SetIamPolicyRequest;
+import com.google.protobuf.FieldMask;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
+
+public class SetProjectPolicy {
+  public static void main(String[] args) throws IOException {
+    // TODO(developer): Replace the variables before running the sample.
+    // TODO: Replace with your project ID.
+    String projectId = "your-project-id";
+    // TODO: Replace with your policy, GetPolicy.getPolicy(projectId, serviceAccount).
+    Policy policy = Policy.newBuilder().build();
+
+    setProjectPolicy(policy, projectId);
+  }
+
+  // Sets a project's policy.
+  public static Policy setProjectPolicy(Policy policy, String projectId)
+          throws IOException {
+
+    // Initialize client that will be used to send requests.
+    // This client only needs to be created once, and can be reused for multiple requests.
+    try (ProjectsClient projectsClient = ProjectsClient.create()) {
+      List<String> paths = Arrays.asList("bindings", "etag");
+      SetIamPolicyRequest request = SetIamPolicyRequest.newBuilder()
+              .setResource(ProjectName.of(projectId).toString())
+              .setPolicy(policy)
+              // A FieldMask specifying which fields of the policy to modify. Only
+              // the fields in the mask will be modified. If no mask is provided, the
+              // following default mask is used:
+              // `paths: "bindings, etag"`
+              .setUpdateMask(FieldMask.newBuilder().addAllPaths(paths).build())
+              .build();
+
+      return projectsClient.setIamPolicy(request);
     }
+  }
+}
+```
 
 ### Python
 
@@ -1502,71 +1598,77 @@ To learn how to install and use the client library for Resource Manager, see [Re
 
 The following example shows how to set the allow policy for a project. To learn how to set the allow policy of a folder or organization, review the [Resource Manager client library documentation](https://docs.cloud.google.com/resource-manager/docs/libraries) for your programming language.
 
-    from google.cloud import resourcemanager_v3
-    from google.iam.v1 import iam_policy_pb2, policy_pb2
-    
-    
-    def set_project_policy(
-        project_id: str, policy: policy_pb2.Policy, merge: bool = True
-    ) -> policy_pb2.Policy:
-        """
-        Set policy for project. Pay attention that previous state will be completely rewritten.
-        If you want to update only part of the policy follow the approach read->modify->write.
-        For more details about policies check out https://cloud.google.com/iam/docs/policies
-    
-        project_id: ID or number of the Google Cloud project you want to use.
-        policy: Policy which has to be set.
-        merge: The strategy to be used forming the request. CopyFrom is clearing both mutable and immutable fields,
-        when MergeFrom is replacing only immutable fields and extending mutable.
-        https://googleapis.dev/python/protobuf/latest/google/protobuf/message.html#google.protobuf.message.Message.CopyFrom
-        """
-        client = resourcemanager_v3.ProjectsClient()
-    
-        request = iam_policy_pb2.GetIamPolicyRequest()
-        request.resource = f"projects/{project_id}"
-        current_policy = client.get_iam_policy(request)
-    
-        # Etag should as fresh as possible to lower chance of collisions
-        policy.ClearField("etag")
-        if merge:
-            current_policy.MergeFrom(policy)
-        else:
-            current_policy.CopyFrom(policy)
-    
-        request = iam_policy_pb2.SetIamPolicyRequest()
-        request.resource = f"projects/{project_id}"
-    
-        # request.etag field also will be merged which means you are secured from collision,
-        # but it means that request may fail and you need to leverage exponential retries approach
-        # to be sure policy has been updated.
-        request.policy.CopyFrom(current_policy)
-    
-        policy = client.set_iam_policy(request)
-        return policy
+```python
+from google.cloud import resourcemanager_v3
+from google.iam.v1 import iam_policy_pb2, policy_pb2
+
+
+def set_project_policy(
+    project_id: str, policy: policy_pb2.Policy, merge: bool = True
+) -> policy_pb2.Policy:
+    """
+    Set policy for project. Pay attention that previous state will be completely rewritten.
+    If you want to update only part of the policy follow the approach read->modify->write.
+    For more details about policies check out https://cloud.google.com/iam/docs/policies
+
+    project_id: ID or number of the Google Cloud project you want to use.
+    policy: Policy which has to be set.
+    merge: The strategy to be used forming the request. CopyFrom is clearing both mutable and immutable fields,
+    when MergeFrom is replacing only immutable fields and extending mutable.
+    https://googleapis.dev/python/protobuf/latest/google/protobuf/message.html#google.protobuf.message.Message.CopyFrom
+    """
+    client = resourcemanager_v3.ProjectsClient()
+
+    request = iam_policy_pb2.GetIamPolicyRequest()
+    request.resource = f"projects/{project_id}"
+    current_policy = client.get_iam_policy(request)
+
+    # Etag should as fresh as possible to lower chance of collisions
+    policy.ClearField("etag")
+    if merge:
+        current_policy.MergeFrom(policy)
+    else:
+        current_policy.CopyFrom(policy)
+
+    request = iam_policy_pb2.SetIamPolicyRequest()
+    request.resource = f"projects/{project_id}"
+
+    # request.etag field also will be merged which means you are secured from collision,
+    # but it means that request may fail and you need to leverage exponential retries approach
+    # to be sure policy has been updated.
+    request.policy.CopyFrom(current_policy)
+
+    policy = client.set_iam_policy(request)
+    return policy
+```
 
 ### REST
 
-The Resource Manager API's `  set-iam-policy  ` method sets the policy in the request as the new allow policy for the project, folder, or organization.
+The Resource Manager API's [`set-iam-policy`](https://docs.cloud.google.com/resource-manager/reference/rest/v1/projects/setIamPolicy) method sets the policy in the request as the new allow policy for the project, folder, or organization.
 
 Before using any of the request data, make the following replacements:
 
-  - `  API_VERSION  ` : The API version to use. For projects and organizations, use `v1` . For folders, use `v2` .
+- `API_VERSION` : The API version to use. For projects and organizations, use `v1` . For folders, use `v2` .
 
-  - `  RESOURCE_TYPE  ` : The resource type whose policy you want to manage. Use the value `projects` , `folders` , or `organizations` .
+- `RESOURCE_TYPE` : The resource type whose policy you want to manage. Use the value `projects` , `folders` , or `organizations` .
 
-  - `  RESOURCE_ID  ` : Your Google Cloud project, organization, or folder ID. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+- `RESOURCE_ID` : Your Google Cloud project, organization, or folder ID. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
-  - `  POLICY  ` : A JSON representation of the policy that you want to set. For more information about the format of a policy, see the [Policy reference](https://docs.cloud.google.com/iam/docs/reference/rest/v1/Policy) .
+- `POLICY` : A JSON representation of the policy that you want to set. For more information about the format of a policy, see the [Policy reference](https://docs.cloud.google.com/iam/docs/reference/rest/v1/Policy) .
 
 HTTP method and URL:
 
-    POST https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:setIamPolicy
+```
+POST https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:setIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "policy": POLICY
-    }
+```
+{
+  "policy": POLICY
+}
+```
 
 To send your request, expand one of these options:
 
@@ -1576,11 +1678,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:setIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:setIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -1588,15 +1692,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:setIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://cloudresourcemanager.googleapis.com/API_VERSION/RESOURCE_TYPE/RESOURCE_ID:setIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -1610,10 +1716,10 @@ The response contains the updated allow policy.
 
 ## What's next
 
-  - Learn how to [manage access to service accounts](https://docs.cloud.google.com/iam/docs/manage-access-service-accounts) .
-  - Learn the general steps for [managing access to other resources](https://docs.cloud.google.com/iam/docs/manage-access-other-resources) .
-  - Find out how to [choose the most appropriate predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
-  - Use the [Policy Troubleshooter](https://docs.cloud.google.com/iam/docs/troubleshooting-access) to understand why a user does or doesn't have access to a resource or have permission to call an API.
-  - Discover how to [view the roles that you can grant on a particular resource](https://docs.cloud.google.com/iam/docs/viewing-grantable-roles) .
-  - Learn how to make a principal's access conditional with [conditional role bindings](https://docs.cloud.google.com/iam/docs/conditions-overview) .
-  - Explore ways to secure your applications with [Identity-Aware Proxy](https://docs.cloud.google.com/iap/docs/concepts-overview) .
+- Learn how to [manage access to service accounts](https://docs.cloud.google.com/iam/docs/manage-access-service-accounts) .
+- Learn the general steps for [managing access to other resources](https://docs.cloud.google.com/iam/docs/manage-access-other-resources) .
+- Find out how to [choose the most appropriate predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
+- Use the [Policy Troubleshooter](https://docs.cloud.google.com/iam/docs/troubleshooting-access) to understand why a user does or doesn't have access to a resource or have permission to call an API.
+- Discover how to [view the roles that you can grant on a particular resource](https://docs.cloud.google.com/iam/docs/viewing-grantable-roles) .
+- Learn how to make a principal's access conditional with [conditional role bindings](https://docs.cloud.google.com/iam/docs/conditions-overview) .
+- Explore ways to secure your applications with [Identity-Aware Proxy](https://docs.cloud.google.com/iap/docs/concepts-overview) .

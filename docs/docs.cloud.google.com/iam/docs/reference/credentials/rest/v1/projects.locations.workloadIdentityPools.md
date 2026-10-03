@@ -6,15 +6,13 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-  - [Resource](https://docs.cloud.google.com/iam/docs/reference/credentials/rest/v1/projects.locations.workloadIdentityPools#RESOURCE_REPRESENTATION)
-  - [Methods](https://docs.cloud.google.com/iam/docs/reference/credentials/rest/v1/projects.locations.workloadIdentityPools#METHODS_SUMMARY)
+- [Resource](https://docs.cloud.google.com/iam/docs/reference/credentials/rest/v1/projects.locations.workloadIdentityPools#RESOURCE_REPRESENTATION)
+- [Methods](https://docs.cloud.google.com/iam/docs/reference/credentials/rest/v1/projects.locations.workloadIdentityPools#METHODS_SUMMARY)
 
 ## Resource
 
 There is no persistent data associated with this resource.
 
-## Methods
-
-### `            getAllowedLocations           `
-
-Returns the trust boundary info for a given workload identity pool.
+| Methods                                                                                                                                                    |                                                                     |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| [`getAllowedLocations`](https://docs.cloud.google.com/iam/docs/reference/credentials/rest/v1/projects.locations.workloadIdentityPools/getAllowedLocations) | Returns the trust boundary info for a given workload identity pool. |

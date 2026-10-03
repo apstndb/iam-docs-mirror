@@ -8,7 +8,7 @@ data_source: docs.cloud.google.com
 
 policyassist.googleapis.com API.
 
-  - [REST Resource: v1.projects.locations.global](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest#v1.projects.locations.global)
+- [REST Resource: v1.projects.locations.global](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest#v1.projects.locations.global)
 
 ## Service: policyassist.googleapis.com
 
@@ -18,19 +18,16 @@ To call this service, we recommend that you use the Google-provided [client libr
 
 A [Discovery Document](https://developers.google.com/discovery/v1/reference/apis) is a machine-readable specification for describing and consuming REST APIs. It is used to build client libraries, IDE plugins, and other tools that interact with Google APIs. One service may provide multiple discovery documents. This service provides the following discovery document:
 
-  - <https://policyassist.googleapis.com/$discovery/rest?version=v1>
+- <https://policyassist.googleapis.com/$discovery/rest?version=v1>
 
 ### Service endpoint
 
 A [service endpoint](https://cloud.google.com/apis/design/glossary#api_service_endpoint) is a base URL that specifies the network address of an API service. One service might have multiple service endpoints. This service has the following service endpoint and all URIs below are relative to this service endpoint:
 
-  - `https://policyassist.googleapis.com`
+- `https://policyassist.googleapis.com`
 
 ## REST Resource: [v1.projects.locations.global](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest/v1/projects.locations.global)
 
-Methods
-
-`  recommendIamRoles  `
-
-`POST /v1/{parent=projects/*}/locations/global:recommendIamRoles`  
-Gets role suggestions for individual principals with AI assistance.
+| Methods                                                                                                                                                  |                                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| [`recommendIamRoles`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest/v1/projects.locations.global/recommendIamRoles) | `POST /v1/{parent=projects/*}/locations/global:recommendIamRoles` Gets role suggestions for individual principals with AI assistance. |

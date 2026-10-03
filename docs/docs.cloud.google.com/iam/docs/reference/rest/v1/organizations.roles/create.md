@@ -6,16 +6,16 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-  - [HTTP request](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#body.HTTP_TEMPLATE)
-  - [Path parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#body.PATH_PARAMETERS)
-  - [Request body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#body.request_body)
-      - [JSON representation](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#body.request_body.SCHEMA_REPRESENTATION)
-  - [Response body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#body.response_body)
-  - [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#body.aspect)
-  - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#examples)
-  - [Try it\!](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#try-it)
+- [HTTP request](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#body.HTTP_TEMPLATE)
+- [Path parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#body.PATH_PARAMETERS)
+- [Request body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#body.request_body)
+  - [JSON representation](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#body.request_body.SCHEMA_REPRESENTATION)
+- [Response body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#body.response_body)
+- [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#body.aspect)
+- [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#examples)
+- [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create#try-it)
 
-Creates a new custom `  Role  ` .
+Creates a new custom [`Role`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles#Role) .
 
 ### HTTP request
 
@@ -25,69 +25,64 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-Parameters
-
-`parent`
-
-`string`
-
-The `parent` parameter's value depends on the target resource for the request, namely [projects](https://cloud.google.com/iam/docs/reference/rest/v1/projects.roles) or [organizations](https://cloud.google.com/iam/docs/reference/rest/v1/organizations.roles) . Each resource type's `parent` value format is described below:
-
-  - [projects.roles.create](https://cloud.google.com/iam/docs/reference/rest/v1/projects.roles/create) : `projects/{PROJECT_ID}` . This method creates project-level [custom roles](https://cloud.google.com/iam/docs/understanding-custom-roles) . Example request URL: `https://iam.googleapis.com/v1/projects/{PROJECT_ID}/roles`
-
-  - [organizations.roles.create](https://cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create) : `organizations/{ORGANIZATION_ID}` . This method creates organization-level [custom roles](https://cloud.google.com/iam/docs/understanding-custom-roles) . Example request URL: `https://iam.googleapis.com/v1/organizations/{ORGANIZATION_ID}/roles`
-
-Note: Wildcard (\*) values are invalid; you must specify a complete project ID or organization ID.
-
-Authorization requires the following [IAM](https://cloud.google.com/iam/docs/) permission on the specified resource `parent` :
-
-  - `iam.roles.create`
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameters</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>parent</code></td>
+<td><p><code>string</code></p>
+<p>The <code>parent</code> parameter's value depends on the target resource for the request, namely <a href="https://cloud.google.com/iam/docs/reference/rest/v1/projects.roles">projects</a> or <a href="https://cloud.google.com/iam/docs/reference/rest/v1/organizations.roles">organizations</a> . Each resource type's <code>parent</code> value format is described below:</p>
+<ul>
+<li><p><a href="https://cloud.google.com/iam/docs/reference/rest/v1/projects.roles/create">projects.roles.create</a> : <code>projects/{PROJECT_ID}</code> . This method creates project-level <a href="https://cloud.google.com/iam/docs/understanding-custom-roles">custom roles</a> . Example request URL: <code>https://iam.googleapis.com/v1/projects/{PROJECT_ID}/roles</code></p></li>
+<li><p><a href="https://cloud.google.com/iam/docs/reference/rest/v1/organizations.roles/create">organizations.roles.create</a> : <code>organizations/{ORGANIZATION_ID}</code> . This method creates organization-level <a href="https://cloud.google.com/iam/docs/understanding-custom-roles">custom roles</a> . Example request URL: <code>https://iam.googleapis.com/v1/organizations/{ORGANIZATION_ID}/roles</code></p></li>
+</ul>
+<p>Note: Wildcard (*) values are invalid; you must specify a complete project ID or organization ID.</p>
+<p>Authorization requires the following <a href="https://cloud.google.com/iam/docs/">IAM</a> permission on the specified resource <code>parent</code> :</p>
+<ul>
+<li><code>iam.roles.create</code></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 ### Request body
 
 The request body contains data with the following structure:
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>JSON representation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre dir="ltr" data-is-upgraded="" style="border: 0;margin: 0;" translate="no"><code>{&quot;roleId&quot;: string,&quot;role&quot;: {object (Role)}}</code></pre></td>
-</tr>
-</tbody>
-</table>
+**JSON representation**
 
-Fields
+```
+{
+  "roleId": string,
+  "role": {
+    object (Role)
+  }
+}
+```
 
-`roleId`
-
-`string`
-
-The role ID to use for this role.
-
-A role ID may contain alphanumeric characters, underscores ( `_` ), and periods ( `.` ). It must contain a minimum of 3 characters and a maximum of 64 characters.
-
-`role`
-
-` object ( Role  ` )
-
-The Role resource to create.
+| Fields   |                                                                                                                                                                                                               |
+|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `roleId` | `string` The role ID to use for this role. A role ID may contain alphanumeric characters, underscores ( `_` ), and periods ( `.` ). It must contain a minimum of 3 characters and a maximum of 64 characters. |
+| `role`   | `object ( `[`Role`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles#Role)` )` The Role resource to create.                                                                       |
 
 ### Response body
 
-If successful, the response body contains a newly created instance of `  Role  ` .
+If successful, the response body contains a newly created instance of [`Role`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles#Role) .
 
 ### Authorization scopes
 
 Requires one of the following OAuth scopes:
 
-  - `https://www.googleapis.com/auth/iam`
-  - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
+- `https://www.googleapis.com/auth/cloud-platform`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .

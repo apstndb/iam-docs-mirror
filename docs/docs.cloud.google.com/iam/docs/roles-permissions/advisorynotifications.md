@@ -23,98 +23,40 @@ This page lists the IAM roles and permissions for Advisory Notifications. To sea
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="advisorynotifications.admin" class="role-title add-link" data-text="Advisory Notifications Admin" tabindex="-1">Advisory Notifications Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  advisorynotifications.admin</code> )</p>
+<td>Advisory Notifications Admin
+<p>( <code>roles/ advisorynotifications.admin</code> )</p>
 <p>Grants write access to settings in Advisory Notifications</p></td>
-<td><p><code dir="ltr" translate="no">advisorynotifications.*</code></p>
+<td><p><code>advisorynotifications.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">advisorynotifications.  notifications.  get</code></li>
-<li><code dir="ltr" translate="no">advisorynotifications.  notifications.  list</code></li>
-<li><code dir="ltr" translate="no">advisorynotifications.  settings.  get</code></li>
-<li><code dir="ltr" translate="no">advisorynotifications.  settings.  update</code></li>
+<li><code>advisorynotifications. notifications. get</code></li>
+<li><code>advisorynotifications. notifications. list</code></li>
+<li><code>advisorynotifications. settings. get</code></li>
+<li><code>advisorynotifications. settings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p></td>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="advisorynotifications.viewer" class="role-title add-link" data-text="Advisory Notifications Viewer" tabindex="-1">Advisory Notifications Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  advisorynotifications.viewer</code> )</p>
+<td>Advisory Notifications Viewer
+<p>( <code>roles/ advisorynotifications.viewer</code> )</p>
 <p>Grants view access in Advisory Notifications</p></td>
-<td><p><code dir="ltr" translate="no">advisorynotifications.  notifications.*</code></p>
+<td><p><code>advisorynotifications. notifications.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">advisorynotifications.  notifications.  get</code></li>
-<li><code dir="ltr" translate="no">advisorynotifications.  notifications.  list</code></li>
+<li><code>advisorynotifications. notifications. get</code></li>
+<li><code>advisorynotifications. notifications. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">advisorynotifications.  settings.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p></td>
+<p><code>advisorynotifications. settings. get</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Advisory Notifications permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="advisorynotifications.notifications.get" class="permission-name add-link" data-text="advisorynotifications.notifications.get" tabindex="-1"><code dir="ltr" translate="no">advisorynotifications.  notifications.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.admin">Advisory Notifications Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  advisorynotifications.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.viewer">Advisory Notifications Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  advisorynotifications.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="advisorynotifications.notifications.list" class="permission-name add-link" data-text="advisorynotifications.notifications.list" tabindex="-1"><code dir="ltr" translate="no">advisorynotifications.  notifications.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.admin">Advisory Notifications Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  advisorynotifications.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.viewer">Advisory Notifications Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  advisorynotifications.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="advisorynotifications.settings.get" class="permission-name add-link" data-text="advisorynotifications.settings.get" tabindex="-1"><code dir="ltr" translate="no">advisorynotifications.  settings.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.admin">Advisory Notifications Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  advisorynotifications.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.viewer">Advisory Notifications Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  advisorynotifications.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="advisorynotifications.settings.update" class="permission-name add-link" data-text="advisorynotifications.settings.update" tabindex="-1"><code dir="ltr" translate="no">advisorynotifications.  settings.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.admin">Advisory Notifications Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  advisorynotifications.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                   | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `advisorynotifications. notifications. get`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Advisory Notifications Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.admin) ( `roles/ advisorynotifications.admin` ) [Advisory Notifications Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.viewer) ( `roles/ advisorynotifications.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `advisorynotifications. notifications. list` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Advisory Notifications Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.admin) ( `roles/ advisorynotifications.admin` ) [Advisory Notifications Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.viewer) ( `roles/ advisorynotifications.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `advisorynotifications. settings. get`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Advisory Notifications Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.admin) ( `roles/ advisorynotifications.admin` ) [Advisory Notifications Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.viewer) ( `roles/ advisorynotifications.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `advisorynotifications. settings. update`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Advisory Notifications Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/advisorynotifications#advisorynotifications.admin) ( `roles/ advisorynotifications.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |

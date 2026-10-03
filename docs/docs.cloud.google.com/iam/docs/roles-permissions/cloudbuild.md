@@ -23,450 +23,450 @@ This page lists the IAM roles and permissions for Cloud Build. To search through
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudbuild.admin" class="role-title add-link" data-text="Cloud Build Admin" tabindex="-1">Cloud Build Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
+<td>Cloud Build Admin
+<p>( <code>roles/ cloudbuild.admin</code> )</p>
 <p>Admin role for Cloud Build</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.*</code></p>
+<td><p><code>cloudbuild.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.builds.approve</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.builds.create</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.builds.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.builds.list</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.builds.update</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.connections.create</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.connections.delete</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.  connections.  fetchLinkableRepositories</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.connections.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.  connections.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.connections.list</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.  connections.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.connections.update</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.create</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.delete</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.list</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.update</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.locations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.locations.list</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.operations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.operations.list</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.  repositories.  accessReadToken</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.  repositories.  accessReadWriteToken</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.repositories.create</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.repositories.delete</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.  repositories.  fetchGitRefs</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.repositories.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.repositories.list</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.workerpools.create</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.workerpools.delete</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.workerpools.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.workerpools.list</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.workerpools.update</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.workerpools.use</code></li>
+<li><code>cloudbuild.builds.approve</code></li>
+<li><code>cloudbuild.builds.create</code></li>
+<li><code>cloudbuild.builds.get</code></li>
+<li><code>cloudbuild.builds.list</code></li>
+<li><code>cloudbuild.builds.update</code></li>
+<li><code>cloudbuild.connections.create</code></li>
+<li><code>cloudbuild.connections.delete</code></li>
+<li><code>cloudbuild. connections. fetchLinkableRepositories</code></li>
+<li><code>cloudbuild.connections.get</code></li>
+<li><code>cloudbuild. connections. getIamPolicy</code></li>
+<li><code>cloudbuild.connections.list</code></li>
+<li><code>cloudbuild. connections. setIamPolicy</code></li>
+<li><code>cloudbuild.connections.update</code></li>
+<li><code>cloudbuild.integrations.create</code></li>
+<li><code>cloudbuild.integrations.delete</code></li>
+<li><code>cloudbuild.integrations.get</code></li>
+<li><code>cloudbuild.integrations.list</code></li>
+<li><code>cloudbuild.integrations.update</code></li>
+<li><code>cloudbuild.locations.get</code></li>
+<li><code>cloudbuild.locations.list</code></li>
+<li><code>cloudbuild.operations.get</code></li>
+<li><code>cloudbuild.operations.list</code></li>
+<li><code>cloudbuild. repositories. accessReadToken</code></li>
+<li><code>cloudbuild. repositories. accessReadWriteToken</code></li>
+<li><code>cloudbuild.repositories.create</code></li>
+<li><code>cloudbuild.repositories.delete</code></li>
+<li><code>cloudbuild. repositories. fetchGitRefs</code></li>
+<li><code>cloudbuild.repositories.get</code></li>
+<li><code>cloudbuild.repositories.list</code></li>
+<li><code>cloudbuild.workerpools.create</code></li>
+<li><code>cloudbuild.workerpools.delete</code></li>
+<li><code>cloudbuild.workerpools.get</code></li>
+<li><code>cloudbuild.workerpools.list</code></li>
+<li><code>cloudbuild.workerpools.update</code></li>
+<li><code>cloudbuild.workerpools.use</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.builds.builder" class="role-title add-link" data-text="Cloud Build Service Account" tabindex="-1">Cloud Build Service Account</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.builds.builder</code> )</p>
+<td>Cloud Build Service Account
+<p>( <code>roles/ cloudbuild.builds.builder</code> )</p>
 <p>Provides access to perform builds.</p></td>
-<td><p><code dir="ltr" translate="no">artifactregistry.  aptartifacts.  create</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.attachments.*</code></p>
+<td><p><code>artifactregistry. aptartifacts. create</code></p>
+<p><code>artifactregistry.attachments.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  attachments.  create</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  attachments.  delete</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  attachments.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  attachments.  list</code></li>
+<li><code>artifactregistry. attachments. create</code></li>
+<li><code>artifactregistry. attachments. delete</code></li>
+<li><code>artifactregistry. attachments. get</code></li>
+<li><code>artifactregistry. attachments. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  dockerimages.*</code></p>
+<p><code>artifactregistry. dockerimages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  list</code></li>
+<li><code>artifactregistry. dockerimages. get</code></li>
+<li><code>artifactregistry. dockerimages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  files.  download</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.update</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.upload</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  kfpartifacts.  create</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.locations.*</code></p>
+<p><code>artifactregistry. files. download</code></p>
+<p><code>artifactregistry.files.get</code></p>
+<p><code>artifactregistry.files.list</code></p>
+<p><code>artifactregistry.files.update</code></p>
+<p><code>artifactregistry.files.upload</code></p>
+<p><code>artifactregistry. kfpartifacts. create</code></p>
+<p><code>artifactregistry.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.locations.get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  locations.  list</code></li>
+<li><code>artifactregistry.locations.get</code></li>
+<li><code>artifactregistry. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.*</code></p>
+<p><code>artifactregistry. mavenartifacts.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  list</code></li>
+<li><code>artifactregistry. mavenartifacts. get</code></li>
+<li><code>artifactregistry. mavenartifacts. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.npmpackages.*</code></p>
+<p><code>artifactregistry.npmpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  list</code></li>
+<li><code>artifactregistry. npmpackages. get</code></li>
+<li><code>artifactregistry. npmpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.packages.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.packages.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  packages.  update</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectconfigs.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectsettings.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  pythonpackages.*</code></p>
+<p><code>artifactregistry.packages.get</code></p>
+<p><code>artifactregistry.packages.list</code></p>
+<p><code>artifactregistry. packages. update</code></p>
+<p><code>artifactregistry. projectconfigs. get</code></p>
+<p><code>artifactregistry. projectsettings. get</code></p>
+<p><code>artifactregistry. pythonpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  list</code></li>
+<li><code>artifactregistry. pythonpackages. get</code></li>
+<li><code>artifactregistry. pythonpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  createOnPush</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  deleteArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  downloadArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  exportArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  readViaVirtualRepository</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  uploadArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.rules.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.rules.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.create</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.update</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  yumartifacts.  create</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.create</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.update</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.locations.*</code></p>
+<p><code>artifactregistry. repositories. createOnPush</code></p>
+<p><code>artifactregistry. repositories. deleteArtifacts</code></p>
+<p><code>artifactregistry. repositories. downloadArtifacts</code></p>
+<p><code>artifactregistry. repositories. exportArtifacts</code></p>
+<p><code>artifactregistry. repositories. get</code></p>
+<p><code>artifactregistry. repositories. list</code></p>
+<p><code>artifactregistry. repositories. listEffectiveTags</code></p>
+<p><code>artifactregistry. repositories. listTagBindings</code></p>
+<p><code>artifactregistry. repositories. readViaVirtualRepository</code></p>
+<p><code>artifactregistry. repositories. uploadArtifacts</code></p>
+<p><code>artifactregistry.rules.get</code></p>
+<p><code>artifactregistry.rules.list</code></p>
+<p><code>artifactregistry.tags.create</code></p>
+<p><code>artifactregistry.tags.get</code></p>
+<p><code>artifactregistry.tags.list</code></p>
+<p><code>artifactregistry.tags.update</code></p>
+<p><code>artifactregistry.versions.get</code></p>
+<p><code>artifactregistry.versions.list</code></p>
+<p><code>artifactregistry. yumartifacts. create</code></p>
+<p><code>cloudbuild.builds.create</code></p>
+<p><code>cloudbuild.builds.get</code></p>
+<p><code>cloudbuild.builds.list</code></p>
+<p><code>cloudbuild.builds.update</code></p>
+<p><code>cloudbuild.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.locations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.locations.list</code></li>
+<li><code>cloudbuild.locations.get</code></li>
+<li><code>cloudbuild.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.operations.*</code></p>
+<p><code>cloudbuild.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.operations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.operations.list</code></li>
+<li><code>cloudbuild.operations.get</code></li>
+<li><code>cloudbuild.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.use</code></p>
-<p><code dir="ltr" translate="no">compute.images.create</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  create</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  delete</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  get</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  list</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  update</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.list</code></p>
-<p><code dir="ltr" translate="no">logging.views.access</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.create</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.publish</code></p>
-<p><code dir="ltr" translate="no">remotebuildexecution.blobs.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">source.repos.get</code></p>
-<p><code dir="ltr" translate="no">source.repos.list</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.create</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.get</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.list</code></p>
-<p><code dir="ltr" translate="no">storage.objects.create</code></p>
-<p><code dir="ltr" translate="no">storage.objects.delete</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.list</code></p>
-<p><code dir="ltr" translate="no">storage.objects.update</code></p></td>
+<p><code>cloudbuild.workerpools.use</code></p>
+<p><code>compute.images.create</code></p>
+<p><code>containeranalysis. occurrences. create</code></p>
+<p><code>containeranalysis. occurrences. delete</code></p>
+<p><code>containeranalysis. occurrences. get</code></p>
+<p><code>containeranalysis. occurrences. list</code></p>
+<p><code>containeranalysis. occurrences. update</code></p>
+<p><code>logging.logEntries.create</code></p>
+<p><code>logging.logEntries.list</code></p>
+<p><code>logging.views.access</code></p>
+<p><code>pubsub.topics.create</code></p>
+<p><code>pubsub.topics.publish</code></p>
+<p><code>remotebuildexecution.blobs.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>source.repos.get</code></p>
+<p><code>source.repos.list</code></p>
+<p><code>storage.buckets.create</code></p>
+<p><code>storage.buckets.get</code></p>
+<p><code>storage.buckets.list</code></p>
+<p><code>storage.objects.create</code></p>
+<p><code>storage.objects.delete</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.list</code></p>
+<p><code>storage.objects.update</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.editor" class="role-title add-link" data-text="Cloud Build Editor" tabindex="-1">Cloud Build Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
+<td>Cloud Build Editor
+<p>( <code>roles/ cloudbuild.editor</code> )</p>
 <p>Editor role for Cloud Build</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.builds.*</code></p>
+<td><p><code>cloudbuild.builds.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.builds.approve</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.builds.create</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.builds.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.builds.list</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.builds.update</code></li>
+<li><code>cloudbuild.builds.approve</code></li>
+<li><code>cloudbuild.builds.create</code></li>
+<li><code>cloudbuild.builds.get</code></li>
+<li><code>cloudbuild.builds.list</code></li>
+<li><code>cloudbuild.builds.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.connections.create</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.connections.delete</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  connections.  fetchLinkableRepositories</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.connections.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  connections.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.connections.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.connections.update</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.integrations.*</code></p>
+<p><code>cloudbuild.connections.create</code></p>
+<p><code>cloudbuild.connections.delete</code></p>
+<p><code>cloudbuild. connections. fetchLinkableRepositories</code></p>
+<p><code>cloudbuild.connections.get</code></p>
+<p><code>cloudbuild. connections. getIamPolicy</code></p>
+<p><code>cloudbuild.connections.list</code></p>
+<p><code>cloudbuild.connections.update</code></p>
+<p><code>cloudbuild.integrations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.create</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.delete</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.list</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.update</code></li>
+<li><code>cloudbuild.integrations.create</code></li>
+<li><code>cloudbuild.integrations.delete</code></li>
+<li><code>cloudbuild.integrations.get</code></li>
+<li><code>cloudbuild.integrations.list</code></li>
+<li><code>cloudbuild.integrations.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.locations.*</code></p>
+<p><code>cloudbuild.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.locations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.locations.list</code></li>
+<li><code>cloudbuild.locations.get</code></li>
+<li><code>cloudbuild.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.operations.*</code></p>
+<p><code>cloudbuild.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.operations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.operations.list</code></li>
+<li><code>cloudbuild.operations.get</code></li>
+<li><code>cloudbuild.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.create</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.delete</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  repositories.  fetchGitRefs</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.*</code></p>
+<p><code>cloudbuild.repositories.create</code></p>
+<p><code>cloudbuild.repositories.delete</code></p>
+<p><code>cloudbuild. repositories. fetchGitRefs</code></p>
+<p><code>cloudbuild.repositories.get</code></p>
+<p><code>cloudbuild.repositories.list</code></p>
+<p><code>cloudbuild.workerpools.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.workerpools.create</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.workerpools.delete</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.workerpools.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.workerpools.list</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.workerpools.update</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.workerpools.use</code></li>
+<li><code>cloudbuild.workerpools.create</code></li>
+<li><code>cloudbuild.workerpools.delete</code></li>
+<li><code>cloudbuild.workerpools.get</code></li>
+<li><code>cloudbuild.workerpools.list</code></li>
+<li><code>cloudbuild.workerpools.update</code></li>
+<li><code>cloudbuild.workerpools.use</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.viewer" class="role-title add-link" data-text="Cloud Build Viewer" tabindex="-1">Cloud Build Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
+<td>Cloud Build Viewer
+<p>( <code>roles/ cloudbuild.viewer</code> )</p>
 <p>Viewer role for Cloud Build</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.builds.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  connections.  fetchLinkableRepositories</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.connections.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  connections.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.connections.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.integrations.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.integrations.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.locations.*</code></p>
+<td><p><code>cloudbuild.builds.get</code></p>
+<p><code>cloudbuild.builds.list</code></p>
+<p><code>cloudbuild. connections. fetchLinkableRepositories</code></p>
+<p><code>cloudbuild.connections.get</code></p>
+<p><code>cloudbuild. connections. getIamPolicy</code></p>
+<p><code>cloudbuild.connections.list</code></p>
+<p><code>cloudbuild.integrations.get</code></p>
+<p><code>cloudbuild.integrations.list</code></p>
+<p><code>cloudbuild.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.locations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.locations.list</code></li>
+<li><code>cloudbuild.locations.get</code></li>
+<li><code>cloudbuild.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.operations.*</code></p>
+<p><code>cloudbuild.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.operations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.operations.list</code></li>
+<li><code>cloudbuild.operations.get</code></li>
+<li><code>cloudbuild.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.  repositories.  fetchGitRefs</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>cloudbuild. repositories. fetchGitRefs</code></p>
+<p><code>cloudbuild.repositories.get</code></p>
+<p><code>cloudbuild.repositories.list</code></p>
+<p><code>cloudbuild.workerpools.get</code></p>
+<p><code>cloudbuild.workerpools.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.builds.approver" class="role-title add-link" data-text="Cloud Build Approver" tabindex="-1">Cloud Build Approver</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.builds.approver</code> )</p>
+<td>Cloud Build Approver
+<p>( <code>roles/ cloudbuild.builds.approver</code> )</p>
 <p>Can approve or reject pending builds.</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.builds.approve</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.locations.*</code></p>
+<td><p><code>cloudbuild.builds.approve</code></p>
+<p><code>cloudbuild.builds.get</code></p>
+<p><code>cloudbuild.builds.list</code></p>
+<p><code>cloudbuild.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.locations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.locations.list</code></li>
+<li><code>cloudbuild.locations.get</code></li>
+<li><code>cloudbuild.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.operations.*</code></p>
+<p><code>cloudbuild.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.operations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.operations.list</code></li>
+<li><code>cloudbuild.operations.get</code></li>
+<li><code>cloudbuild.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">remotebuildexecution.blobs.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>remotebuildexecution.blobs.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.builds.editor" class="role-title add-link" data-text="Cloud Build Editor" tabindex="-1">Cloud Build Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.builds.editor</code> )</p>
+<td>Cloud Build Editor
+<p>( <code>roles/ cloudbuild.builds.editor</code> )</p>
 <p>Provides access to create and cancel builds.</p>
 <p>Lowest-level resources where you can grant this role:</p>
 <ul>
 <li>Project</li>
 </ul></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.builds.create</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.update</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.locations.*</code></p>
+<td><p><code>cloudbuild.builds.create</code></p>
+<p><code>cloudbuild.builds.get</code></p>
+<p><code>cloudbuild.builds.list</code></p>
+<p><code>cloudbuild.builds.update</code></p>
+<p><code>cloudbuild.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.locations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.locations.list</code></li>
+<li><code>cloudbuild.locations.get</code></li>
+<li><code>cloudbuild.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.operations.*</code></p>
+<p><code>cloudbuild.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.operations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.operations.list</code></li>
+<li><code>cloudbuild.operations.get</code></li>
+<li><code>cloudbuild.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">remotebuildexecution.blobs.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>remotebuildexecution.blobs.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.builds.viewer" class="role-title add-link" data-text="Cloud Build Viewer" tabindex="-1">Cloud Build Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.builds.viewer</code> )</p>
+<td>Cloud Build Viewer
+<p>( <code>roles/ cloudbuild.builds.viewer</code> )</p>
 <p>Provides access to view builds.</p>
 <p>Lowest-level resources where you can grant this role:</p>
 <ul>
 <li>Project</li>
 </ul></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.builds.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.locations.*</code></p>
+<td><p><code>cloudbuild.builds.get</code></p>
+<p><code>cloudbuild.builds.list</code></p>
+<p><code>cloudbuild.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.locations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.locations.list</code></li>
+<li><code>cloudbuild.locations.get</code></li>
+<li><code>cloudbuild.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.operations.*</code></p>
+<p><code>cloudbuild.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.operations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.operations.list</code></li>
+<li><code>cloudbuild.operations.get</code></li>
+<li><code>cloudbuild.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">remotebuildexecution.blobs.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>remotebuildexecution.blobs.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.connectionAdmin" class="role-title add-link" data-text="Cloud Build Connection Admin" tabindex="-1">Cloud Build Connection Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
+<td>Cloud Build Connection Admin
+<p>( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
 <p>Can manage connections and repositories.</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.connections.*</code></p>
+<td><p><code>cloudbuild.connections.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.connections.create</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.connections.delete</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.  connections.  fetchLinkableRepositories</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.connections.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.  connections.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.connections.list</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.  connections.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.connections.update</code></li>
+<li><code>cloudbuild.connections.create</code></li>
+<li><code>cloudbuild.connections.delete</code></li>
+<li><code>cloudbuild. connections. fetchLinkableRepositories</code></li>
+<li><code>cloudbuild.connections.get</code></li>
+<li><code>cloudbuild. connections. getIamPolicy</code></li>
+<li><code>cloudbuild.connections.list</code></li>
+<li><code>cloudbuild. connections. setIamPolicy</code></li>
+<li><code>cloudbuild.connections.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.operations.*</code></p>
+<p><code>cloudbuild.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.operations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.operations.list</code></li>
+<li><code>cloudbuild.operations.get</code></li>
+<li><code>cloudbuild.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.create</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.delete</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  repositories.  fetchGitRefs</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>cloudbuild.repositories.create</code></p>
+<p><code>cloudbuild.repositories.delete</code></p>
+<p><code>cloudbuild. repositories. fetchGitRefs</code></p>
+<p><code>cloudbuild.repositories.get</code></p>
+<p><code>cloudbuild.repositories.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.connectionViewer" class="role-title add-link" data-text="Cloud Build Connection Viewer" tabindex="-1">Cloud Build Connection Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.connectionViewer</code> )</p>
+<td>Cloud Build Connection Viewer
+<p>( <code>roles/ cloudbuild.connectionViewer</code> )</p>
 <p>Can view and list connections and repositories.</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.  connections.  fetchLinkableRepositories</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.connections.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  connections.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.connections.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  repositories.  fetchGitRefs</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudbuild. connections. fetchLinkableRepositories</code></p>
+<p><code>cloudbuild.connections.get</code></p>
+<p><code>cloudbuild. connections. getIamPolicy</code></p>
+<p><code>cloudbuild.connections.list</code></p>
+<p><code>cloudbuild. repositories. fetchGitRefs</code></p>
+<p><code>cloudbuild.repositories.get</code></p>
+<p><code>cloudbuild.repositories.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.integrationsEditor" class="role-title add-link" data-text="Cloud Build Integrations Editor" tabindex="-1">Cloud Build Integrations Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.integrationsEditor</code> )</p>
+<td>Cloud Build Integrations Editor
+<p>( <code>roles/ cloudbuild.integrationsEditor</code> )</p>
 <p>Can update Integrations</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.integrations.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.integrations.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.integrations.update</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudbuild.integrations.get</code></p>
+<p><code>cloudbuild.integrations.list</code></p>
+<p><code>cloudbuild.integrations.update</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.integrationsOwner" class="role-title add-link" data-text="Cloud Build Integrations Owner" tabindex="-1">Cloud Build Integrations Owner</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.integrationsOwner</code> )</p>
+<td>Cloud Build Integrations Owner
+<p>( <code>roles/ cloudbuild.integrationsOwner</code> )</p>
 <p>Can create/delete Integrations</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.integrations.*</code></p>
+<td><p><code>cloudbuild.integrations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.create</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.delete</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.list</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.integrations.update</code></li>
+<li><code>cloudbuild.integrations.create</code></li>
+<li><code>cloudbuild.integrations.delete</code></li>
+<li><code>cloudbuild.integrations.get</code></li>
+<li><code>cloudbuild.integrations.list</code></li>
+<li><code>cloudbuild.integrations.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">compute.firewalls.create</code></p>
-<p><code dir="ltr" translate="no">compute.firewalls.get</code></p>
-<p><code dir="ltr" translate="no">compute.firewalls.list</code></p>
-<p><code dir="ltr" translate="no">compute.networks.get</code></p>
-<p><code dir="ltr" translate="no">compute.networks.updatePolicy</code></p>
-<p><code dir="ltr" translate="no">compute.regions.get</code></p>
-<p><code dir="ltr" translate="no">compute.subnetworks.get</code></p>
-<p><code dir="ltr" translate="no">compute.subnetworks.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>compute.firewalls.create</code></p>
+<p><code>compute.firewalls.get</code></p>
+<p><code>compute.firewalls.list</code></p>
+<p><code>compute.networks.get</code></p>
+<p><code>compute.networks.updatePolicy</code></p>
+<p><code>compute.regions.get</code></p>
+<p><code>compute.subnetworks.get</code></p>
+<p><code>compute.subnetworks.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.integrationsViewer" class="role-title add-link" data-text="Cloud Build Integrations Viewer" tabindex="-1">Cloud Build Integrations Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.integrationsViewer</code> )</p>
+<td>Cloud Build Integrations Viewer
+<p>( <code>roles/ cloudbuild.integrationsViewer</code> )</p>
 <p>Can view Integrations</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.integrations.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.integrations.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudbuild.integrations.get</code></p>
+<p><code>cloudbuild.integrations.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.readTokenAccessor" class="role-title add-link" data-text="Cloud Build Read Only Token Accessor" tabindex="-1">Cloud Build Read Only Token Accessor</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.readTokenAccessor</code> )</p>
+<td>Cloud Build Read Only Token Accessor
+<p>( <code>roles/ cloudbuild.readTokenAccessor</code> )</p>
 <p>Can view the connection and access its read-only token.</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.connections.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  repositories.  accessReadToken</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.get</code></p></td>
+<td><p><code>cloudbuild.connections.get</code></p>
+<p><code>cloudbuild. repositories. accessReadToken</code></p>
+<p><code>cloudbuild.repositories.get</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.tokenAccessor" class="role-title add-link" data-text="Cloud Build Token Accessor" tabindex="-1">Cloud Build Token Accessor</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.tokenAccessor</code> )</p>
+<td>Cloud Build Token Accessor
+<p>( <code>roles/ cloudbuild.tokenAccessor</code> )</p>
 <p>Can view the connection and access its read/write and read-only tokens.</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.connections.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  repositories.  accessReadToken</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  repositories.  accessReadWriteToken</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.list</code></p></td>
+<td><p><code>cloudbuild.connections.get</code></p>
+<p><code>cloudbuild. repositories. accessReadToken</code></p>
+<p><code>cloudbuild. repositories. accessReadWriteToken</code></p>
+<p><code>cloudbuild.repositories.get</code></p>
+<p><code>cloudbuild.repositories.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.workerPoolEditor" class="role-title add-link" data-text="Cloud Build WorkerPool Editor" tabindex="-1">Cloud Build WorkerPool Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.workerPoolEditor</code> )</p>
+<td>Cloud Build WorkerPool Editor
+<p>( <code>roles/ cloudbuild.workerPoolEditor</code> )</p>
 <p>Can update and view WorkerPools</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.workerpools.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.update</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudbuild.workerpools.get</code></p>
+<p><code>cloudbuild.workerpools.list</code></p>
+<p><code>cloudbuild.workerpools.update</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.workerPoolOwner" class="role-title add-link" data-text="Cloud Build WorkerPool Owner" tabindex="-1">Cloud Build WorkerPool Owner</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.workerPoolOwner</code> )</p>
+<td>Cloud Build WorkerPool Owner
+<p>( <code>roles/ cloudbuild.workerPoolOwner</code> )</p>
 <p>Can create, delete, update, and view WorkerPools</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.workerpools.create</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.delete</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.update</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudbuild.workerpools.create</code></p>
+<p><code>cloudbuild.workerpools.delete</code></p>
+<p><code>cloudbuild.workerpools.get</code></p>
+<p><code>cloudbuild.workerpools.list</code></p>
+<p><code>cloudbuild.workerpools.update</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.workerPoolUser" class="role-title add-link" data-text="Cloud Build WorkerPool User" tabindex="-1">Cloud Build WorkerPool User</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.workerPoolUser</code> )</p>
+<td>Cloud Build WorkerPool User
+<p>( <code>roles/ cloudbuild.workerPoolUser</code> )</p>
 <p>Can run builds in the WorkerPool</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.workerpools.use</code></p></td>
+<td><p><code>cloudbuild.workerpools.use</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.workerPoolViewer" class="role-title add-link" data-text="Cloud Build WorkerPool Viewer" tabindex="-1">Cloud Build WorkerPool Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.workerPoolViewer</code> )</p>
+<td>Cloud Build WorkerPool Viewer
+<p>( <code>roles/ cloudbuild.workerPoolViewer</code> )</p>
 <p>Can view WorkerPools</p></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.workerpools.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudbuild.workerpools.get</code></p>
+<p><code>cloudbuild.workerpools.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -488,180 +488,180 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudbuild.loggingServiceAgent" class="role-title add-link" data-text="Cloud Build Logging Service Agent" tabindex="-1">Cloud Build Logging Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.loggingServiceAgent</code> )</p>
+<td>Cloud Build Logging Service Agent
+<p>( <code>roles/ cloudbuild.loggingServiceAgent</code> )</p>
 <p>Gives the Cloud Build logging-specific service account access to write logs.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">logging.buckets.write</code></p></td>
+<td><p><code>logging.buckets.write</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.serviceAgent" class="role-title add-link" data-text="Cloud Build Service Agent" tabindex="-1">Cloud Build Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</p>
+<td>Cloud Build Service Agent
+<p>( <code>roles/ cloudbuild.serviceAgent</code> )</p>
 <p>Gives Cloud Build service account access to managed resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">artifactregistry.  aptartifacts.  create</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.attachments.*</code></p>
+<td><p><code>artifactregistry. aptartifacts. create</code></p>
+<p><code>artifactregistry.attachments.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  attachments.  create</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  attachments.  delete</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  attachments.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  attachments.  list</code></li>
+<li><code>artifactregistry. attachments. create</code></li>
+<li><code>artifactregistry. attachments. delete</code></li>
+<li><code>artifactregistry. attachments. get</code></li>
+<li><code>artifactregistry. attachments. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  dockerimages.*</code></p>
+<p><code>artifactregistry. dockerimages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  list</code></li>
+<li><code>artifactregistry. dockerimages. get</code></li>
+<li><code>artifactregistry. dockerimages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  files.  download</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.update</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.upload</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  kfpartifacts.  create</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.locations.*</code></p>
+<p><code>artifactregistry. files. download</code></p>
+<p><code>artifactregistry.files.get</code></p>
+<p><code>artifactregistry.files.list</code></p>
+<p><code>artifactregistry.files.update</code></p>
+<p><code>artifactregistry.files.upload</code></p>
+<p><code>artifactregistry. kfpartifacts. create</code></p>
+<p><code>artifactregistry.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.locations.get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  locations.  list</code></li>
+<li><code>artifactregistry.locations.get</code></li>
+<li><code>artifactregistry. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.*</code></p>
+<p><code>artifactregistry. mavenartifacts.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  list</code></li>
+<li><code>artifactregistry. mavenartifacts. get</code></li>
+<li><code>artifactregistry. mavenartifacts. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.npmpackages.*</code></p>
+<p><code>artifactregistry.npmpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  list</code></li>
+<li><code>artifactregistry. npmpackages. get</code></li>
+<li><code>artifactregistry. npmpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.packages.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.packages.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  packages.  update</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectconfigs.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectsettings.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  pythonpackages.*</code></p>
+<p><code>artifactregistry.packages.get</code></p>
+<p><code>artifactregistry.packages.list</code></p>
+<p><code>artifactregistry. packages. update</code></p>
+<p><code>artifactregistry. projectconfigs. get</code></p>
+<p><code>artifactregistry. projectsettings. get</code></p>
+<p><code>artifactregistry. pythonpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  list</code></li>
+<li><code>artifactregistry. pythonpackages. get</code></li>
+<li><code>artifactregistry. pythonpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  createOnPush</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  deleteArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  downloadArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  exportArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  readViaVirtualRepository</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  uploadArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.rules.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.rules.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.create</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.update</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  yumartifacts.  create</code></p>
-<p><code dir="ltr" translate="no">binaryauthorization.  attestors.  create</code></p>
-<p><code dir="ltr" translate="no">binaryauthorization.  attestors.  delete</code></p>
-<p><code dir="ltr" translate="no">binaryauthorization.  attestors.  get</code></p>
-<p><code dir="ltr" translate="no">binaryauthorization.  attestors.  list</code></p>
-<p><code dir="ltr" translate="no">binaryauthorization.  attestors.  update</code></p>
-<p><code dir="ltr" translate="no">binaryauthorization.  attestors.  verifyImageAttested</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.create</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.update</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.connections.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.locations.*</code></p>
+<p><code>artifactregistry. repositories. createOnPush</code></p>
+<p><code>artifactregistry. repositories. deleteArtifacts</code></p>
+<p><code>artifactregistry. repositories. downloadArtifacts</code></p>
+<p><code>artifactregistry. repositories. exportArtifacts</code></p>
+<p><code>artifactregistry. repositories. get</code></p>
+<p><code>artifactregistry. repositories. list</code></p>
+<p><code>artifactregistry. repositories. listEffectiveTags</code></p>
+<p><code>artifactregistry. repositories. listTagBindings</code></p>
+<p><code>artifactregistry. repositories. readViaVirtualRepository</code></p>
+<p><code>artifactregistry. repositories. uploadArtifacts</code></p>
+<p><code>artifactregistry.rules.get</code></p>
+<p><code>artifactregistry.rules.list</code></p>
+<p><code>artifactregistry.tags.create</code></p>
+<p><code>artifactregistry.tags.get</code></p>
+<p><code>artifactregistry.tags.list</code></p>
+<p><code>artifactregistry.tags.update</code></p>
+<p><code>artifactregistry.versions.get</code></p>
+<p><code>artifactregistry.versions.list</code></p>
+<p><code>artifactregistry. yumartifacts. create</code></p>
+<p><code>binaryauthorization. attestors. create</code></p>
+<p><code>binaryauthorization. attestors. delete</code></p>
+<p><code>binaryauthorization. attestors. get</code></p>
+<p><code>binaryauthorization. attestors. list</code></p>
+<p><code>binaryauthorization. attestors. update</code></p>
+<p><code>binaryauthorization. attestors. verifyImageAttested</code></p>
+<p><code>cloudbuild.builds.create</code></p>
+<p><code>cloudbuild.builds.get</code></p>
+<p><code>cloudbuild.builds.list</code></p>
+<p><code>cloudbuild.builds.update</code></p>
+<p><code>cloudbuild.connections.get</code></p>
+<p><code>cloudbuild.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.locations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.locations.list</code></li>
+<li><code>cloudbuild.locations.get</code></li>
+<li><code>cloudbuild.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.operations.*</code></p>
+<p><code>cloudbuild.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudbuild.operations.get</code></li>
-<li><code dir="ltr" translate="no">cloudbuild.operations.list</code></li>
+<li><code>cloudbuild.operations.get</code></li>
+<li><code>cloudbuild.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudbuild.  repositories.  accessReadToken</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  repositories.  accessReadWriteToken</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.use</code></p>
-<p><code dir="ltr" translate="no">compute.firewalls.get</code></p>
-<p><code dir="ltr" translate="no">compute.firewalls.list</code></p>
-<p><code dir="ltr" translate="no">compute.images.create</code></p>
-<p><code dir="ltr" translate="no">compute.networkAttachments.get</code></p>
-<p><code dir="ltr" translate="no">compute.  networkAttachments.  update</code></p>
-<p><code dir="ltr" translate="no">compute.networks.get</code></p>
-<p><code dir="ltr" translate="no">compute.regionOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.subnetworks.get</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  notes.  attachOccurrence</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.notes.create</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.notes.delete</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.notes.get</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.notes.list</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.notes.update</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  create</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  delete</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  get</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  list</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  update</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  connections.  get</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  fetchReadToken</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  fetchReadWriteToken</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  get</code></p>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.get</code></p>
-<p><code dir="ltr" translate="no">iam.  serviceAccounts.  getAccessToken</code></p>
-<p><code dir="ltr" translate="no">iam.  serviceAccounts.  getOpenIdToken</code></p>
-<p><code dir="ltr" translate="no">logging.buckets.create</code></p>
-<p><code dir="ltr" translate="no">logging.buckets.get</code></p>
-<p><code dir="ltr" translate="no">logging.buckets.list</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.list</code></p>
-<p><code dir="ltr" translate="no">logging.views.access</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.create</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.delete</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.update</code></p>
-<p><code dir="ltr" translate="no">pubsub.  topics.  attachSubscription</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.create</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.publish</code></p>
-<p><code dir="ltr" translate="no">remotebuildexecution.blobs.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.endpoints.get</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.  endpoints.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.  endpoints.  list</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.locations.*</code></p>
+<p><code>cloudbuild. repositories. accessReadToken</code></p>
+<p><code>cloudbuild. repositories. accessReadWriteToken</code></p>
+<p><code>cloudbuild.repositories.get</code></p>
+<p><code>cloudbuild.repositories.list</code></p>
+<p><code>cloudbuild.workerpools.use</code></p>
+<p><code>compute.firewalls.get</code></p>
+<p><code>compute.firewalls.list</code></p>
+<p><code>compute.images.create</code></p>
+<p><code>compute.networkAttachments.get</code></p>
+<p><code>compute. networkAttachments. update</code></p>
+<p><code>compute.networks.get</code></p>
+<p><code>compute.regionOperations.get</code></p>
+<p><code>compute.subnetworks.get</code></p>
+<p><code>containeranalysis. notes. attachOccurrence</code></p>
+<p><code>containeranalysis.notes.create</code></p>
+<p><code>containeranalysis.notes.delete</code></p>
+<p><code>containeranalysis.notes.get</code></p>
+<p><code>containeranalysis.notes.list</code></p>
+<p><code>containeranalysis.notes.update</code></p>
+<p><code>containeranalysis. occurrences. create</code></p>
+<p><code>containeranalysis. occurrences. delete</code></p>
+<p><code>containeranalysis. occurrences. get</code></p>
+<p><code>containeranalysis. occurrences. list</code></p>
+<p><code>containeranalysis. occurrences. update</code></p>
+<p><code>developerconnect. connections. get</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. get</code></p>
+<p><code>iam.serviceAccounts.get</code></p>
+<p><code>iam. serviceAccounts. getAccessToken</code></p>
+<p><code>iam. serviceAccounts. getOpenIdToken</code></p>
+<p><code>logging.buckets.create</code></p>
+<p><code>logging.buckets.get</code></p>
+<p><code>logging.buckets.list</code></p>
+<p><code>logging.logEntries.create</code></p>
+<p><code>logging.logEntries.list</code></p>
+<p><code>logging.views.access</code></p>
+<p><code>pubsub.subscriptions.create</code></p>
+<p><code>pubsub.subscriptions.delete</code></p>
+<p><code>pubsub.subscriptions.get</code></p>
+<p><code>pubsub.subscriptions.update</code></p>
+<p><code>pubsub. topics. attachSubscription</code></p>
+<p><code>pubsub.topics.create</code></p>
+<p><code>pubsub.topics.get</code></p>
+<p><code>pubsub.topics.publish</code></p>
+<p><code>remotebuildexecution.blobs.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>servicedirectory.endpoints.get</code></p>
+<p><code>servicedirectory. endpoints. getIamPolicy</code></p>
+<p><code>servicedirectory. endpoints. list</code></p>
+<p><code>servicedirectory.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">servicedirectory.locations.get</code></li>
-<li><code dir="ltr" translate="no">servicedirectory.  locations.  list</code></li>
+<li><code>servicedirectory.locations.get</code></li>
+<li><code>servicedirectory. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">servicedirectory.  namespaces.  get</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.  namespaces.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.  namespaces.  list</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.  networks.  access</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.services.get</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.  services.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.services.list</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.  services.  resolve</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.use</code></p>
-<p><code dir="ltr" translate="no">source.repos.get</code></p>
-<p><code dir="ltr" translate="no">source.repos.list</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.create</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.get</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.list</code></p>
-<p><code dir="ltr" translate="no">storage.objects.create</code></p>
-<p><code dir="ltr" translate="no">storage.objects.delete</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.list</code></p>
-<p><code dir="ltr" translate="no">storage.objects.update</code></p></td>
+<p><code>servicedirectory. namespaces. get</code></p>
+<p><code>servicedirectory. namespaces. getIamPolicy</code></p>
+<p><code>servicedirectory. namespaces. list</code></p>
+<p><code>servicedirectory. networks. access</code></p>
+<p><code>servicedirectory.services.get</code></p>
+<p><code>servicedirectory. services. getIamPolicy</code></p>
+<p><code>servicedirectory.services.list</code></p>
+<p><code>servicedirectory. services. resolve</code></p>
+<p><code>serviceusage.services.use</code></p>
+<p><code>source.repos.get</code></p>
+<p><code>source.repos.list</code></p>
+<p><code>storage.buckets.create</code></p>
+<p><code>storage.buckets.get</code></p>
+<p><code>storage.buckets.list</code></p>
+<p><code>storage.objects.create</code></p>
+<p><code>storage.objects.delete</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.list</code></p>
+<p><code>storage.objects.update</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -681,811 +681,811 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudbuild.builds.approve" class="permission-name add-link" data-text="cloudbuild.builds.approve" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.builds.approve</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudbuild.builds.approve</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code>roles/ cloudbuild.builds.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.builds.create" class="permission-name add-link" data-text="cloudbuild.builds.create" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.builds.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.builder</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild.builds.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code>roles/ cloudbuild.builds.builder</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.builds.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengineflex#appengineflex.serviceAgent">App Engine flexible environment Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengineflex.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.serviceAgent">Infrastructure Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudconfig.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.serviceAgent">Cloud Deploy Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datapipelines.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataprep.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.serviceAgent">DesignCenter Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  designcenter.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.serviceAgent">Cloud Run Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.serviceAgent">Serverless Integrations Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengineflex#appengineflex.serviceAgent">App Engine flexible environment Service Agent</a> ( <code>roles/ appengineflex.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.serviceAgent">Infrastructure Manager Service Agent</a> ( <code>roles/ cloudconfig.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.serviceAgent">Cloud Deploy Service Agent</a> ( <code>roles/ clouddeploy.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code>roles/ clouddeploymentmanager.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code>roles/ configdelivery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code>roles/ datapipelines.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code>roles/ dataprep.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.serviceAgent">DesignCenter Service Agent</a> ( <code>roles/ designcenter.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code>roles/ firebaseapphosting.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.serviceAgent">Cloud Run Service Agent</a> ( <code>roles/ run.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.serviceAgent">Serverless Integrations Service Agent</a> ( <code>roles/ runapps.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.builds.get" class="permission-name add-link" data-text="cloudbuild.builds.get" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.builds.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.builder</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.admin">Application Design Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  designcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.applicationAdmin">Application Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  designcenter.applicationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.applicationEditor">Application Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  designcenter.applicationEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild.builds.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code>roles/ cloudbuild.builds.builder</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code>roles/ cloudfunctions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.admin">Application Design Center Admin</a> ( <code>roles/ designcenter.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code>roles/ firebase.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code>roles/ firebase.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code>roles/ cloudbuild.builds.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.builds.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.builds.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code>roles/ cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.applicationAdmin">Application Admin</a> ( <code>roles/ designcenter.applicationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.applicationEditor">Application Editor</a> ( <code>roles/ designcenter.applicationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code>roles/ firebase.developViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code>roles/ iam.siteReliabilityEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code>roles/ run.sourceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengineflex#appengineflex.serviceAgent">App Engine flexible environment Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengineflex.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.serviceAgent">Infrastructure Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudconfig.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.serviceAgent">Cloud Deploy Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datapipelines.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataprep.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.serviceAgent">DesignCenter Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  designcenter.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.serviceAgent">Cloud Run Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.serviceAgent">Serverless Integrations Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengineflex#appengineflex.serviceAgent">App Engine flexible environment Service Agent</a> ( <code>roles/ appengineflex.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.serviceAgent">Infrastructure Manager Service Agent</a> ( <code>roles/ cloudconfig.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.serviceAgent">Cloud Deploy Service Agent</a> ( <code>roles/ clouddeploy.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code>roles/ clouddeploymentmanager.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code>roles/ configdelivery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code>roles/ datapipelines.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code>roles/ dataprep.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.serviceAgent">DesignCenter Service Agent</a> ( <code>roles/ designcenter.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code>roles/ firebaseapphosting.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.serviceAgent">Cloud Run Service Agent</a> ( <code>roles/ run.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.serviceAgent">Serverless Integrations Service Agent</a> ( <code>roles/ runapps.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.builds.list" class="permission-name add-link" data-text="cloudbuild.builds.list" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.builds.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.builder</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.admin">Application Design Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  designcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.applicationAdmin">Application Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  designcenter.applicationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.applicationEditor">Application Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  designcenter.applicationEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild.builds.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code>roles/ cloudbuild.builds.builder</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code>roles/ cloudfunctions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.admin">Application Design Center Admin</a> ( <code>roles/ designcenter.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code>roles/ firebase.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code>roles/ firebase.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code>roles/ cloudbuild.builds.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.builds.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.builds.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code>roles/ cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.applicationAdmin">Application Admin</a> ( <code>roles/ designcenter.applicationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.applicationEditor">Application Editor</a> ( <code>roles/ designcenter.applicationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code>roles/ firebase.developViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code>roles/ iam.siteReliabilityEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code>roles/ run.sourceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.serviceAgent">Infrastructure Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudconfig.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.serviceAgent">Cloud Deploy Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datapipelines.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataprep.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.serviceAgent">DesignCenter Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  designcenter.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.serviceAgent">Infrastructure Manager Service Agent</a> ( <code>roles/ cloudconfig.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.serviceAgent">Cloud Deploy Service Agent</a> ( <code>roles/ clouddeploy.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code>roles/ configdelivery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code>roles/ datapipelines.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code>roles/ dataprep.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.serviceAgent">DesignCenter Service Agent</a> ( <code>roles/ designcenter.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.builds.update" class="permission-name add-link" data-text="cloudbuild.builds.update" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.builds.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.builder</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild.builds.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code>roles/ cloudbuild.builds.builder</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.builds.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.serviceAgent">Infrastructure Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudconfig.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.serviceAgent">Cloud Deploy Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datapipelines.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataprep.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.serviceAgent">Infrastructure Manager Service Agent</a> ( <code>roles/ cloudconfig.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.serviceAgent">Cloud Deploy Service Agent</a> ( <code>roles/ clouddeploy.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code>roles/ configdelivery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code>roles/ datapipelines.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code>roles/ dataprep.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code>roles/ firebaseapphosting.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.connections.create" class="permission-name add-link" data-text="cloudbuild.connections.create" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.connections.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudbuild.connections.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.connections.delete" class="permission-name add-link" data-text="cloudbuild.connections.delete" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.connections.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudbuild.connections.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.connections.fetchLinkableRepositories" class="permission-name add-link" data-text="cloudbuild.connections.fetchLinkableRepositories" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.  connections.  fetchLinkableRepositories</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudbuild. connections. fetchLinkableRepositories</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code>roles/ cloudbuild.connectionViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.connections.get" class="permission-name add-link" data-text="cloudbuild.connections.get" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.connections.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.readTokenAccessor">Cloud Build Read Only Token Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.readTokenAccessor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.tokenAccessor">Cloud Build Token Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.tokenAccessor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild.connections.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code>roles/ cloudbuild.connectionViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.readTokenAccessor">Cloud Build Read Only Token Accessor</a> ( <code>roles/ cloudbuild.readTokenAccessor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.tokenAccessor">Cloud Build Token Accessor</a> ( <code>roles/ cloudbuild.tokenAccessor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code>roles/ firebaseapphosting.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.connections.getIamPolicy" class="permission-name add-link" data-text="cloudbuild.connections.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.  connections.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudbuild. connections. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code>roles/ cloudbuild.connectionViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.connections.list" class="permission-name add-link" data-text="cloudbuild.connections.list" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.connections.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/config#config.agent">Cloud Infrastructure Manager Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  config.agent</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild.connections.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code>roles/ cloudbuild.connectionViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/config#config.agent">Cloud Infrastructure Manager Agent</a> ( <code>roles/ config.agent</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.serviceAgent">Cluster Director Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.serviceAgent">Cluster Director Service Agent</a> ( <code>roles/ hypercomputecluster.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.connections.setIamPolicy" class="permission-name add-link" data-text="cloudbuild.connections.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.  connections.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p></td>
+<td><code>cloudbuild. connections. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.connections.update" class="permission-name add-link" data-text="cloudbuild.connections.update" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.connections.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudbuild.connections.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.integrations.create" class="permission-name add-link" data-text="cloudbuild.integrations.create" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.integrations.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsOwner">Cloud Build Integrations Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.integrationsOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudbuild.integrations.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsOwner">Cloud Build Integrations Owner</a> ( <code>roles/ cloudbuild.integrationsOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.integrations.delete" class="permission-name add-link" data-text="cloudbuild.integrations.delete" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.integrations.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsOwner">Cloud Build Integrations Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.integrationsOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudbuild.integrations.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsOwner">Cloud Build Integrations Owner</a> ( <code>roles/ cloudbuild.integrationsOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.integrations.get" class="permission-name add-link" data-text="cloudbuild.integrations.get" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.integrations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsEditor">Cloud Build Integrations Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.integrationsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsOwner">Cloud Build Integrations Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.integrationsOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsViewer">Cloud Build Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.integrationsViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudbuild.integrations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsEditor">Cloud Build Integrations Editor</a> ( <code>roles/ cloudbuild.integrationsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsOwner">Cloud Build Integrations Owner</a> ( <code>roles/ cloudbuild.integrationsOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsViewer">Cloud Build Integrations Viewer</a> ( <code>roles/ cloudbuild.integrationsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.integrations.list" class="permission-name add-link" data-text="cloudbuild.integrations.list" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.integrations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsEditor">Cloud Build Integrations Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.integrationsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsOwner">Cloud Build Integrations Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.integrationsOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsViewer">Cloud Build Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.integrationsViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudbuild.integrations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsEditor">Cloud Build Integrations Editor</a> ( <code>roles/ cloudbuild.integrationsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsOwner">Cloud Build Integrations Owner</a> ( <code>roles/ cloudbuild.integrationsOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsViewer">Cloud Build Integrations Viewer</a> ( <code>roles/ cloudbuild.integrationsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.integrations.update" class="permission-name add-link" data-text="cloudbuild.integrations.update" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.integrations.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsEditor">Cloud Build Integrations Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.integrationsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsOwner">Cloud Build Integrations Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.integrationsOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudbuild.integrations.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsEditor">Cloud Build Integrations Editor</a> ( <code>roles/ cloudbuild.integrationsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.integrationsOwner">Cloud Build Integrations Owner</a> ( <code>roles/ cloudbuild.integrationsOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.locations.get" class="permission-name add-link" data-text="cloudbuild.locations.get" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.builder</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild.locations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code>roles/ cloudbuild.builds.builder</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code>roles/ cloudfunctions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code>roles/ firebase.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code>roles/ firebase.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code>roles/ cloudbuild.builds.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.builds.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.builds.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code>roles/ cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code>roles/ firebase.developViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code>roles/ iam.siteReliabilityEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code>roles/ run.sourceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datapipelines.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataprep.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code>roles/ datapipelines.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code>roles/ dataprep.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.locations.list" class="permission-name add-link" data-text="cloudbuild.locations.list" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.locations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.builder</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild.locations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code>roles/ cloudbuild.builds.builder</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code>roles/ cloudfunctions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code>roles/ firebase.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code>roles/ firebase.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code>roles/ cloudbuild.builds.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.builds.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.builds.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code>roles/ cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code>roles/ firebase.developViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code>roles/ iam.siteReliabilityEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code>roles/ run.sourceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datapipelines.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataprep.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code>roles/ datapipelines.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code>roles/ dataprep.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.operations.get" class="permission-name add-link" data-text="cloudbuild.operations.get" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.builder</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild.operations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code>roles/ cloudbuild.builds.builder</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code>roles/ cloudfunctions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code>roles/ firebase.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code>roles/ firebase.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code>roles/ cloudbuild.builds.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.builds.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.builds.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code>roles/ cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code>roles/ firebase.developViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code>roles/ iam.siteReliabilityEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code>roles/ run.sourceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datapipelines.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataprep.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudbuild.operations.list" class="permission-name add-link" data-text="cloudbuild.operations.list" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.builder</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
-<p>Service agent roles</p>
-<blockquote>
-<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
-</blockquote>
-<ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datapipelines.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataprep.serviceAgent</code> )</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudbuild.repositories.accessReadToken" class="permission-name add-link" data-text="cloudbuild.repositories.accessReadToken" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.  repositories.  accessReadToken</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.readTokenAccessor">Cloud Build Read Only Token Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.readTokenAccessor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.tokenAccessor">Cloud Build Token Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.tokenAccessor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/config#config.agent">Cloud Infrastructure Manager Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  config.agent</code> )</p>
-<p>Service agent roles</p>
-<blockquote>
-<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
-</blockquote>
-<ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.serviceAgent">Cluster Director Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code>roles/ datapipelines.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code>roles/ dataprep.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code>roles/ firebaseapphosting.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.repositories.accessReadWriteToken" class="permission-name add-link" data-text="cloudbuild.repositories.accessReadWriteToken" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.  repositories.  accessReadWriteToken</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.tokenAccessor">Cloud Build Token Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.tokenAccessor</code> )</p>
+<td><code>cloudbuild.operations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code>roles/ cloudbuild.builds.builder</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code>roles/ cloudfunctions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code>roles/ firebase.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code>roles/ firebase.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code>roles/ cloudbuild.builds.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.builds.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.builds.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code>roles/ cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developViewer">Firebase Develop Viewer</a> ( <code>roles/ firebase.developViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code>roles/ iam.siteReliabilityEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code>roles/ run.sourceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code>roles/ datapipelines.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code>roles/ dataprep.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.repositories.create" class="permission-name add-link" data-text="cloudbuild.repositories.create" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.repositories.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudbuild.repositories.delete" class="permission-name add-link" data-text="cloudbuild.repositories.delete" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.repositories.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudbuild.repositories.fetchGitRefs" class="permission-name add-link" data-text="cloudbuild.repositories.fetchGitRefs" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.  repositories.  fetchGitRefs</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild. repositories. accessReadToken</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.readTokenAccessor">Cloud Build Read Only Token Accessor</a> ( <code>roles/ cloudbuild.readTokenAccessor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.tokenAccessor">Cloud Build Token Accessor</a> ( <code>roles/ cloudbuild.tokenAccessor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/config#config.agent">Cloud Infrastructure Manager Agent</a> ( <code>roles/ config.agent</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code>roles/ firebaseapphosting.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.serviceAgent">Cluster Director Service Agent</a> ( <code>roles/ hypercomputecluster.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.repositories.get" class="permission-name add-link" data-text="cloudbuild.repositories.get" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.repositories.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.readTokenAccessor">Cloud Build Read Only Token Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.readTokenAccessor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.tokenAccessor">Cloud Build Token Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.tokenAccessor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild. repositories. accessReadWriteToken</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.tokenAccessor">Cloud Build Token Accessor</a> ( <code>roles/ cloudbuild.tokenAccessor</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code>roles/ firebaseapphosting.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudbuild.repositories.list" class="permission-name add-link" data-text="cloudbuild.repositories.list" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.repositories.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.connectionViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.tokenAccessor">Cloud Build Token Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.tokenAccessor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/config#config.agent">Cloud Infrastructure Manager Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  config.agent</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild.repositories.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>cloudbuild.repositories.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>cloudbuild. repositories. fetchGitRefs</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code>roles/ cloudbuild.connectionViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.serviceAgent">Cluster Director Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudbuild.workerpools.create" class="permission-name add-link" data-text="cloudbuild.workerpools.create" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.workerpools.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolOwner">Cloud Build WorkerPool Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.workerPoolOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudbuild.workerpools.delete" class="permission-name add-link" data-text="cloudbuild.workerpools.delete" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.workerpools.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolOwner">Cloud Build WorkerPool Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.workerPoolOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudbuild.workerpools.get" class="permission-name add-link" data-text="cloudbuild.workerpools.get" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.workerpools.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolEditor">Cloud Build WorkerPool Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.workerPoolEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolOwner">Cloud Build WorkerPool Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.workerPoolOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolViewer">Cloud Build WorkerPool Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.workerPoolViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudbuild.workerpools.list" class="permission-name add-link" data-text="cloudbuild.workerpools.list" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.workerpools.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolEditor">Cloud Build WorkerPool Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.workerPoolEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolOwner">Cloud Build WorkerPool Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.workerPoolOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolViewer">Cloud Build WorkerPool Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.workerPoolViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudbuild.workerpools.update" class="permission-name add-link" data-text="cloudbuild.workerpools.update" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.workerpools.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolEditor">Cloud Build WorkerPool Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.workerPoolEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolOwner">Cloud Build WorkerPool Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.workerPoolOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudbuild.workerpools.use" class="permission-name add-link" data-text="cloudbuild.workerpools.use" tabindex="-1"><code dir="ltr" translate="no">cloudbuild.workerpools.use</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.builder</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolUser">Cloud Build WorkerPool User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.workerPoolUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudbuild.repositories.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code>roles/ cloudbuild.connectionViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.readTokenAccessor">Cloud Build Read Only Token Accessor</a> ( <code>roles/ cloudbuild.readTokenAccessor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.tokenAccessor">Cloud Build Token Accessor</a> ( <code>roles/ cloudbuild.tokenAccessor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.serviceAgent">Infrastructure Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudconfig.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.serviceAgent">Cloud Deploy Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code>roles/ configdelivery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code>roles/ firebaseapphosting.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>cloudbuild.repositories.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionAdmin">Cloud Build Connection Admin</a> ( <code>roles/ cloudbuild.connectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.connectionViewer">Cloud Build Connection Viewer</a> ( <code>roles/ cloudbuild.connectionViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.tokenAccessor">Cloud Build Token Accessor</a> ( <code>roles/ cloudbuild.tokenAccessor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/config#config.agent">Cloud Infrastructure Manager Agent</a> ( <code>roles/ config.agent</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.serviceAgent">Cluster Director Service Agent</a> ( <code>roles/ hypercomputecluster.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><code>cloudbuild.workerpools.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolOwner">Cloud Build WorkerPool Owner</a> ( <code>roles/ cloudbuild.workerPoolOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>cloudbuild.workerpools.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolOwner">Cloud Build WorkerPool Owner</a> ( <code>roles/ cloudbuild.workerPoolOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>cloudbuild.workerpools.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolEditor">Cloud Build WorkerPool Editor</a> ( <code>roles/ cloudbuild.workerPoolEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolOwner">Cloud Build WorkerPool Owner</a> ( <code>roles/ cloudbuild.workerPoolOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolViewer">Cloud Build WorkerPool Viewer</a> ( <code>roles/ cloudbuild.workerPoolViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>cloudbuild.workerpools.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.viewer">Cloud Build Viewer</a> ( <code>roles/ cloudbuild.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolEditor">Cloud Build WorkerPool Editor</a> ( <code>roles/ cloudbuild.workerPoolEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolOwner">Cloud Build WorkerPool Owner</a> ( <code>roles/ cloudbuild.workerPoolOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolViewer">Cloud Build WorkerPool Viewer</a> ( <code>roles/ cloudbuild.workerPoolViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>cloudbuild.workerpools.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolEditor">Cloud Build WorkerPool Editor</a> ( <code>roles/ cloudbuild.workerPoolEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolOwner">Cloud Build WorkerPool Owner</a> ( <code>roles/ cloudbuild.workerPoolOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>cloudbuild.workerpools.use</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code>roles/ cloudbuild.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code>roles/ cloudbuild.builds.builder</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code>roles/ cloudbuild.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.workerPoolUser">Cloud Build WorkerPool User</a> ( <code>roles/ cloudbuild.workerPoolUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code>roles/ cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.serviceAgent">Infrastructure Manager Service Agent</a> ( <code>roles/ cloudconfig.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.serviceAgent">Cloud Deploy Service Agent</a> ( <code>roles/ clouddeploy.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 </tbody>

@@ -25,14 +25,14 @@ Gemini API offers the following service agent roles. Service agent roles should 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="generativelanguage.serviceAgent" class="role-title add-link" data-text="Generative Language Service Agent" tabindex="-1">Generative Language Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  generativelanguage.serviceAgent</code> )</p>
+<td>Generative Language Service Agent
+<p>( <code>roles/ generativelanguage.serviceAgent</code> )</p>
 <p>Grants Generative Language Service Agent permissions required to read data from GCS buckets.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">storage.buckets.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p></td>
+<td><p><code>storage.buckets.get</code></p>
+<p><code>storage.objects.get</code></p></td>
 </tr>
 </tbody>
 </table>

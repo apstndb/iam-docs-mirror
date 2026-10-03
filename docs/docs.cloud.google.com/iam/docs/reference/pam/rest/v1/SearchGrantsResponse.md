@@ -6,36 +6,24 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-  - [JSON representation](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/SearchGrantsResponse#SCHEMA_REPRESENTATION)
+- [JSON representation](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/SearchGrantsResponse#SCHEMA_REPRESENTATION)
 
 Response message for `SearchGrants` method.
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>JSON representation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre dir="ltr" data-is-upgraded="" style="border: 0;margin: 0;" translate="no"><code>{&quot;grants&quot;: [{object (Grant)}],&quot;nextPageToken&quot;: string}</code></pre></td>
-</tr>
-</tbody>
-</table>
+**JSON representation**
 
-Fields
+```
+{
+  "grants": [
+    {
+      object (Grant)
+    }
+  ],
+  "nextPageToken": string
+}
+```
 
-`grants[]`
-
-` object ( Grant  ` )
-
-The list of grants.
-
-`nextPageToken`
-
-`string`
-
-A token identifying a page of results the server should return.
+| Fields          |                                                                                                                                                        |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `grants[]`      | `object ( `[`Grant`](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants#Grant)` )` The list of grants. |
+| `nextPageToken` | `string` A token identifying a page of results the server should return.                                                                               |

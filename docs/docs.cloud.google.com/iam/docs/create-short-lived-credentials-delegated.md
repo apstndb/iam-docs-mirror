@@ -18,25 +18,25 @@ Depending on the type of token you create, you can use short-lived credentials t
 
 You can create the following types of short-lived credentials for a service account:
 
-  - OAuth 2.0 access tokens
-    
-    Access tokens are accepted for authentication by most Google APIs. When you generate an access token for a service account, the access token comes without a refresh token, which means that when the token expires, you must repeat the token creation process to generate a new one.
-    
-    For more information, see [Access tokens](https://docs.cloud.google.com/docs/authentication/token-types#access-tokens) .
+- OAuth 2.0 access tokens
 
-  - OpenID Connect (OIDC) ID tokens
-    
-    ID tokens follow the [OpenID Connect (OIDC) specification](https://openid.net/connect/) . ID tokens are accepted by a limited number of services and applications.
-    
-    For more information, see [ID tokens](https://docs.cloud.google.com/docs/authentication/token-types#identity-tokens) and [Authentication for applications hosted on Cloud Run or Cloud Run functions](https://docs.cloud.google.com/docs/authentication/use-cases#run-functions) .
+  Access tokens are accepted for authentication by most Google APIs. When you generate an access token for a service account, the access token comes without a refresh token, which means that when the token expires, you must repeat the token creation process to generate a new one.
 
-  - Self-signed JSON Web Tokens (JWTs)
-    
-    You can use self-signed JWTs to authenticate to some Google APIs without getting an access token from the Authorization Server. APIs deployed with API Gateway require them.
+  For more information, see [Access tokens](https://docs.cloud.google.com/docs/authentication/token-types#access-tokens) .
 
-  - Self-signed binary blobs
-    
-    Self-signed blobs are useful in scenarios when you need to securely transmit arbitrary binary data, usually for authentication purposes.
+- OpenID Connect (OIDC) ID tokens
+
+  ID tokens follow the [OpenID Connect (OIDC) specification](https://openid.net/connect/) . ID tokens are accepted by a limited number of services and applications.
+
+  For more information, see [ID tokens](https://docs.cloud.google.com/docs/authentication/token-types#identity-tokens) and [Authentication for applications hosted on Cloud Run or Cloud Run functions](https://docs.cloud.google.com/docs/authentication/use-cases#run-functions) .
+
+- Self-signed JSON Web Tokens (JWTs)
+
+  You can use self-signed JWTs to authenticate to some Google APIs without getting an access token from the Authorization Server. APIs deployed with API Gateway require them.
+
+- Self-signed binary blobs
+
+  Self-signed blobs are useful in scenarios when you need to securely transmit arbitrary binary data, usually for authentication purposes.
 
 ## Delegated request flow
 
@@ -48,61 +48,65 @@ If one service account provides all of the permissions you need, you should use 
 
 ## Before you begin
 
-  - Enable the IAM and Service Account Credentials APIs, if any are not already enabled.
-    
-    **Roles required to enable APIs**
-    
-    To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+- Enable the IAM and Service Account Credentials APIs, if any are not already enabled.
 
-  - Understand [IAM service accounts](https://docs.cloud.google.com/iam/docs/service-accounts)
+  **Roles required to enable APIs**
 
-  - If you haven't already, enable billing and the IAM API by following the steps in the [quickstart](https://docs.cloud.google.com/iam/docs/grant-role-console#before-you-begin) .
+  To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
-  - Identify the service accounts you will use in your delegation chain.
-    
-    You can [create a new service account](https://docs.cloud.google.com/iam/docs/creating-managing-service-accounts#creating) and include it in the delegation chain if needed.
+- Understand [IAM service accounts](https://docs.cloud.google.com/iam/docs/service-accounts)
+
+- If you haven't already, enable billing and the IAM API by following the steps in the [quickstart](https://docs.cloud.google.com/iam/docs/grant-role-console#before-you-begin) .
+
+- Identify the service accounts you will use in your delegation chain.
+
+  You can [create a new service account](https://docs.cloud.google.com/iam/docs/creating-managing-service-accounts#creating) and include it in the delegation chain if needed.
 
 ## Provide required permissions
 
 A [delegated request](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated) involves more than two identities: the caller, one or more service accounts in a *delegation chain* , and finally the service account for which a credential is created. In this flow, consider the following identities:
 
-  - Service Account 1 ( `  SA_1  ` ), the caller who issues a request for the short-lived credentials.
-  - Service Account 2 ( `  SA_2  ` ), an intermediary service account that will delegate the initial request to `  SA_3  ` . This account only passes on the request—it doesn't give `  SA_1  ` or `  SA_3  ` any additional access.
-  - Service Account 3 ( `  SA_3  ` ), the limited-privilege account for whom the credential is created.
+- Service Account 1 ( `SA_1` ), the caller who issues a request for the short-lived credentials.
+- Service Account 2 ( `SA_2` ), an intermediary service account that will delegate the initial request to `SA_3` . This account only passes on the request—it doesn't give `SA_1` or `SA_3` any additional access.
+- Service Account 3 ( `SA_3` ), the limited-privilege account for whom the credential is created.
 
 To allow delegation, each account must grant the Service Account Token Creator role ( `roles/iam.serviceAccountTokenCreator` ) to the previous account in the chain.
 
-In this particular example, `  SA_1  ` must be granted the Service Account Token Creator role ( `roles/iam.serviceAccountTokenCreator` ) on `  SA_2  ` . This is an example of the `  SA_2  ` service account being treated as a resource: when you grant the role on `  SA_2  ` , you update its allow policy the same way that you would update any other resource.
+In this particular example, `SA_1` must be granted the Service Account Token Creator role ( `roles/iam.serviceAccountTokenCreator` ) on `SA_2` . This is an example of the `SA_2` service account being treated as a resource: when you grant the role on `SA_2` , you update its allow policy the same way that you would update any other resource.
 
 In this example flow, there is only one intermediary service account. To delegate access through more than one service account, you must also assign this role to any other service account in the chain.
 
-Next, `  SA_2  ` must also be granted the Service Account Token Creator role ( `roles/iam.serviceAccountTokenCreator` ) on `  SA_3  ` . This allows `  SA_2  ` to create short-lived credentials for `  SA_3  ` .
+Next, `SA_2` must also be granted the Service Account Token Creator role ( `roles/iam.serviceAccountTokenCreator` ) on `SA_3` . This allows `SA_2` to create short-lived credentials for `SA_3` .
 
 The following steps use the REST API to grant the roles. However, you can also use the Google Cloud console or the [gcloud CLI](https://docs.cloud.google.com/sdk/gcloud) .
 
 ### API
 
-**First, get the allow policy for `  SA_2  ` (the intermediary service account):**
+**First, get the allow policy for `SA_2` (the intermediary service account):**
 
-The `  serviceAccounts.getIamPolicy  ` method gets a service account's allow policy.
+The [`serviceAccounts.getIamPolicy`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts/getIamPolicy) method gets a service account's allow policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
-  - `  SA_2  ` : The name of Service Account 2.
-  - `  POLICY_VERSION  ` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `SA_2` : The name of Service Account 2.
+- `POLICY_VERSION` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
 
 HTTP method and URL:
 
-    POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com:getIamPolicy
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com:getIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "options": {
-        "requestedPolicyVersion": POLICY_VERSION
-      }
-    }
+```
+{
+  "options": {
+    "requestedPolicyVersion": POLICY_VERSION
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -112,11 +116,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com:getIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com:getIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -124,15 +130,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com:getIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com:getIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -140,86 +148,96 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 You should receive a JSON response similar to the following:
 
+```
+{
+  "version": 1,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 1,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/serviceAccountAdmin",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        }
+      "role": "roles/serviceAccountAdmin",
+      "members": [
+        "user:my-user@example.com"
       ]
     }
+  ]
+}
+```
 
 If you have not granted a role to the service account, the response contains only an `etag` value. Include that `etag` value in the next step.
 
-**Next, modify the allow policy to grant `  SA_1  ` the Service Account Token Creator role** ( `roles/iam.serviceAccountTokenCreator` ).
+**Next, modify the allow policy to grant `SA_1` the Service Account Token Creator role** ( `roles/iam.serviceAccountTokenCreator` ).
 
 For example, to modify the sample response from the previous step, add the following:
 
+```
+{
+  "version": 1,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 1,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/serviceAccountAdmin",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        },
-        {
-          "role": "roles/iam.serviceAccountTokenCreator",
-          "members": [
-            "serviceAccount:SA_1@PROJECT_ID.iam.gserviceaccount.com"
-          ]
-        }
+      "role": "roles/serviceAccountAdmin",
+      "members": [
+        "user:my-user@example.com"
+      ]
+    },
+    {
+      "role": "roles/iam.serviceAccountTokenCreator",
+      "members": [
+        "serviceAccount:SA_1@PROJECT_ID.iam.gserviceaccount.com"
       ]
     }
+  ]
+}
+```
 
-**Then, write the updated allow policy for `  SA_2  ` :**
+**Then, write the updated allow policy for `SA_2` :**
 
-The `  serviceAccounts.setIamPolicy  ` method sets an updated allow policy for the service account.
+The [`serviceAccounts.setIamPolicy`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts/setIamPolicy) method sets an updated allow policy for the service account.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
 
-  - `  SA_2  ` : The name of Service Account 2.
+- `SA_2` : The name of Service Account 2.
 
-  - `  POLICY  ` : A JSON representation of the policy that you want to set. For more information about the format of a policy, see the [Policy reference](https://docs.cloud.google.com/iam/docs/reference/rest/v1/Policy) .
-    
-    For example, to set the allow policy shown in the previous step, replace `  POLICY  ` with the following:
-    
-        {
-          "version": 1,
-          "etag": "BwWKmjvelug=",
-          "bindings": [
-            {
-              "role": "roles/serviceAccountAdmin",
-              "members": [
-                "user:my-user@example.com"
-              ]
-            },
-            {
-              "role": "roles/iam.serviceAccountTokenCreator",
-              "members": [
-                "serviceAccount:SA_1@PROJECT_ID.iam.gserviceaccount.com"
-              ]
-            }
-          ]
-        }
+- `POLICY` : A JSON representation of the policy that you want to set. For more information about the format of a policy, see the [Policy reference](https://docs.cloud.google.com/iam/docs/reference/rest/v1/Policy) .
+
+  For example, to set the allow policy shown in the previous step, replace `POLICY` with the following:
+
+  ```
+  {
+    "version": 1,
+    "etag": "BwWKmjvelug=",
+    "bindings": [
+      {
+        "role": "roles/serviceAccountAdmin",
+        "members": [
+          "user:my-user@example.com"
+        ]
+      },
+      {
+        "role": "roles/iam.serviceAccountTokenCreator",
+        "members": [
+          "serviceAccount:SA_1@PROJECT_ID.iam.gserviceaccount.com"
+        ]
+      }
+    ]
+  }
+  ```
 
 HTTP method and URL:
 
-    POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com:setIamPolicy
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com:setIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "policy": POLICY
-    }
+```
+{
+  "policy": POLICY
+}
+```
 
 To send your request, expand one of these options:
 
@@ -229,11 +247,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com:setIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com:setIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -241,15 +261,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com:setIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com:setIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -259,27 +281,31 @@ The response contains the updated allow policy.
 
 > **Note:** If you treat policies as code and store them in a version-control system, you should store the policy that is returned, not the policy that you sent in the request.
 
-**Now, get the allow policy for `  SA_3  ` (the service account for whom the credential is created):**
+**Now, get the allow policy for `SA_3` (the service account for whom the credential is created):**
 
-The `  serviceAccounts.getIamPolicy  ` method gets a service account's allow policy.
+The [`serviceAccounts.getIamPolicy`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts/getIamPolicy) method gets a service account's allow policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
-  - `  SA_3  ` : The name of Service Account 3.
-  - `  POLICY_VERSION  ` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `SA_3` : The name of Service Account 3.
+- `POLICY_VERSION` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
 
 HTTP method and URL:
 
-    POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com:getIamPolicy
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com:getIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "options": {
-        "requestedPolicyVersion": POLICY_VERSION
-      }
-    }
+```
+{
+  "options": {
+    "requestedPolicyVersion": POLICY_VERSION
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -289,11 +315,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com:getIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com:getIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -301,15 +329,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com:getIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com:getIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -317,86 +347,96 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 You should receive a JSON response similar to the following:
 
+```
+{
+  "version": 1,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 1,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/serviceAccountAdmin",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        }
+      "role": "roles/serviceAccountAdmin",
+      "members": [
+        "user:my-user@example.com"
       ]
     }
+  ]
+}
+```
 
 If you have not assigned a role to the service account, the response contains only an `etag` value. Include that `etag` value in the next step.
 
-**Next, modify the allow policy to grant `  SA_2  ` the Service Account Token Creator role** ( `roles/iam.serviceAccountTokenCreator` ).
+**Next, modify the allow policy to grant `SA_2` the Service Account Token Creator role** ( `roles/iam.serviceAccountTokenCreator` ).
 
 For example, to modify the sample response from the previous step, add the following:
 
+```
+{
+  "version": 1,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 1,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/serviceAccountAdmin",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        },
-        {
-          "role": "roles/iam.serviceAccountTokenCreator",
-          "members": [
-            "serviceAccount:SA_2@PROJECT_ID.iam.gserviceaccount.com"
-          ]
-        }
+      "role": "roles/serviceAccountAdmin",
+      "members": [
+        "user:my-user@example.com"
+      ]
+    },
+    {
+      "role": "roles/iam.serviceAccountTokenCreator",
+      "members": [
+        "serviceAccount:SA_2@PROJECT_ID.iam.gserviceaccount.com"
       ]
     }
+  ]
+}
+```
 
 **Finally, write the updated allow policy:**
 
-The `  serviceAccounts.setIamPolicy  ` method sets an updated allow policy for the service account.
+The [`serviceAccounts.setIamPolicy`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts/setIamPolicy) method sets an updated allow policy for the service account.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
 
-  - `  SA_3  ` : The name of Service Account 3.
+- `SA_3` : The name of Service Account 3.
 
-  - `  POLICY  ` : A JSON representation of the policy that you want to set. For more information about the format of a policy, see the [Policy reference](https://docs.cloud.google.com/iam/docs/reference/rest/v1/Policy) .
-    
-    For example, to set the allow policy shown in the previous step, replace `  POLICY  ` with the following:
-    
-        {
-          "version": 1,
-          "etag": "BwWKmjvelug=",
-          "bindings": [
-            {
-              "role": "roles/serviceAccountAdmin",
-              "members": [
-                "user:my-user@example.com"
-              ]
-            },
-            {
-              "role": "roles/iam.serviceAccountTokenCreator",
-              "members": [
-                "serviceAccount:SA_2@PROJECT_ID.iam.gserviceaccount.com"
-              ]
-            }
-          ]
-        }
+- `POLICY` : A JSON representation of the policy that you want to set. For more information about the format of a policy, see the [Policy reference](https://docs.cloud.google.com/iam/docs/reference/rest/v1/Policy) .
+
+  For example, to set the allow policy shown in the previous step, replace `POLICY` with the following:
+
+  ```
+  {
+    "version": 1,
+    "etag": "BwWKmjvelug=",
+    "bindings": [
+      {
+        "role": "roles/serviceAccountAdmin",
+        "members": [
+          "user:my-user@example.com"
+        ]
+      },
+      {
+        "role": "roles/iam.serviceAccountTokenCreator",
+        "members": [
+          "serviceAccount:SA_2@PROJECT_ID.iam.gserviceaccount.com"
+        ]
+      }
+    ]
+  }
+  ```
 
 HTTP method and URL:
 
-    POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com:setIamPolicy
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com:setIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "policy": POLICY
-    }
+```
+{
+  "policy": POLICY
+}
+```
 
 To send your request, expand one of these options:
 
@@ -406,11 +446,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com:setIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com:setIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -418,15 +460,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com:setIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com:setIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -440,10 +484,10 @@ The response contains the updated allow policy.
 
 After you have granted the appropriate roles to each identity, you can request short-lived credentials for the desired service account. The following credential types are supported:
 
-  - [OAuth 2.0 access tokens](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-oauth)
-  - [OpenID Connect ID tokens](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-oidc)
-  - [Self-signed JSON Web Tokens (JWTs)](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-jwt)
-  - [Self-signed binary objects (blobs)](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-blob)
+- [OAuth 2.0 access tokens](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-oauth)
+- [OpenID Connect ID tokens](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-oidc)
+- [Self-signed JSON Web Tokens (JWTs)](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-jwt)
+- [Self-signed binary objects (blobs)](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-blob)
 
 To understand how to specify a delegation chain for these requests, see the [Specifying a delegation chain](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated-chain) section on this page.
 
@@ -455,35 +499,39 @@ To generate an OAuth 2.0 access token for a service account, do the following:
 
 ### API
 
-The Service Account Credentials API's `  serviceAccounts.generateAccessToken  ` method generates an OAuth 2.0 access token for a service account.
+The Service Account Credentials API's [`serviceAccounts.generateAccessToken`](https://docs.cloud.google.com/iam/docs/reference/credentials/rest/v1/projects.serviceAccounts/generateAccessToken) method generates an OAuth 2.0 access token for a service account.
 
 Before using any of the request data, make the following replacements:
 
-  - `  SA_NAME  ` : The name of the service account that you want to create a token for.
+- `SA_NAME` : The name of the service account that you want to create a token for.
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
 
-  - `  DELEGATES  ` : If you are using a [delegated request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated) , see [Specifying a delegation chain](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated-chain) on this page. If you are using a [direct request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-direct) with no delegation, omit the `delegates` field in the request body.
+- `DELEGATES` : If you are using a [delegated request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated) , see [Specifying a delegation chain](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated-chain) on this page. If you are using a [direct request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-direct) with no delegation, omit the `delegates` field in the request body.
 
-  - `  LIFETIME  ` : The amount of time until the access token expires, in seconds. For example, `300s` .
-    
-    By default, the maximum token lifetime is 1 hour (3,600 seconds). To extend the maximum lifetime for these tokens to 12 hours (43,200 seconds), [add the service account to an organization policy](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#setting_a_list_constraint) that includes the `constraints/iam.allowServiceAccountCredentialLifetimeExtension` list constraint.
+- `LIFETIME` : The amount of time until the access token expires, in seconds. For example, `300s` .
+
+  By default, the maximum token lifetime is 1 hour (3,600 seconds). To extend the maximum lifetime for these tokens to 12 hours (43,200 seconds), [add the service account to an organization policy](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#setting_a_list_constraint) that includes the `constraints/iam.allowServiceAccountCredentialLifetimeExtension` list constraint.
 
 HTTP method and URL:
 
-    POST https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:generateAccessToken
+```
+POST https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:generateAccessToken
+```
 
 Request JSON body:
 
-    {
-      "delegates": [
-        DELEGATES
-      ],
-      "scope": [
-        "https://www.googleapis.com/auth/cloud-platform"
-      ],
-      "lifetime": "LIFETIME"
-    }
+```
+{
+  "delegates": [
+    DELEGATES
+  ],
+  "scope": [
+    "https://www.googleapis.com/auth/cloud-platform"
+  ],
+  "lifetime": "LIFETIME"
+}
+```
 
 To send your request, expand one of these options:
 
@@ -493,11 +541,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:generateAccessToken"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:generateAccessToken"
+```
 
 #### PowerShell (Windows)
 
@@ -505,15 +555,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:generateAccessToken" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:generateAccessToken" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -521,10 +573,12 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 If the `generateAccessToken` request was successful, the response body contains an OAuth 2.0 access token and an expiration time. The `accessToken` can then be used to authenticate a request on behalf of the service account until the `expireTime` has been reached:
 
-    {
-      "accessToken": "eyJ0eXAi...NiJ9",
-      "expireTime": "2020-04-07T15:01:23.045123456Z"
-    }
+```
+{
+  "accessToken": "eyJ0eXAi...NiJ9",
+  "expireTime": "2020-04-07T15:01:23.045123456Z"
+}
+```
 
 ### Generate OpenID Connect ID tokens
 
@@ -532,23 +586,27 @@ OpenID Connect ID tokens are valid for 1 hour (3,600 seconds). To generate an ID
 
 ### API
 
-The Service Account Credentials API's `  serviceAccounts.generateIdToken  ` method generates an OIDC ID token for a service account.
+The Service Account Credentials API's [`serviceAccounts.generateIdToken`](https://docs.cloud.google.com/iam/docs/reference/credentials/rest/v1/projects.serviceAccounts/generateIdToken) method generates an OIDC ID token for a service account.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PRIV_SA  ` : The email address of the privilege-bearing service account for which the short-lived token is created.
-  - `  AUDIENCE_NAME  ` : The audience for the token, usually the URL of the application or service that the token will be used to access.
+- `PRIV_SA` : The email address of the privilege-bearing service account for which the short-lived token is created.
+- `AUDIENCE_NAME` : The audience for the token, usually the URL of the application or service that the token will be used to access.
 
 HTTP method and URL:
 
-    POST https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/PRIV_SA:generateIdToken
+```
+POST https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/PRIV_SA:generateIdToken
+```
 
 Request JSON body:
 
-    {
-      "audience": "AUDIENCE_NAME",
-      "includeEmail": "true"
-    }
+```
+{
+  "audience": "AUDIENCE_NAME",
+  "includeEmail": "true"
+}
+```
 
 To send your request, expand one of these options:
 
@@ -558,11 +616,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/PRIV_SA:generateIdToken"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/PRIV_SA:generateIdToken"
+```
 
 #### PowerShell (Windows)
 
@@ -570,15 +630,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/PRIV_SA:generateIdToken" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/PRIV_SA:generateIdToken" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -586,52 +648,60 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 If the `generateId` request was successful, the response body contains an ID token that is valid for 1 hour. The `token` can then be used to authenticate a request on behalf of the service account:
 
-    {
-      "token": "eyJ0eXAi...NiJ9"
-    }
+```
+{
+  "token": "eyJ0eXAi...NiJ9"
+}
+```
 
 ### Create a self-signed JSON Web Token (JWT)
 
 Self-signed JSON Web Tokens (JWTs) are useful in a variety of scenarios, such as:
 
-  - Authenticating a call to a Google API as described in [Google's Authentication Guide](https://developers.google.com/identity/protocols/OAuth2ServiceAccount#jwt-auth) .
-  - Securely communicating between Google Cloud or non-Google services, such as App Engine applications. In this scenario, one application can sign a token that can be verified by another application for authentication purposes.
-  - Treating a service account as an identity provider by signing a JWT that contains arbitrary claims about a user, account, or device.
+- Authenticating a call to a Google API as described in [Google's Authentication Guide](https://developers.google.com/identity/protocols/OAuth2ServiceAccount#jwt-auth) .
+- Securely communicating between Google Cloud or non-Google services, such as App Engine applications. In this scenario, one application can sign a token that can be verified by another application for authentication purposes.
+- Treating a service account as an identity provider by signing a JWT that contains arbitrary claims about a user, account, or device.
 
 To generate a self-signed JWT for a service account, do the following:
 
 ### API
 
-The Service Account Credentials API's `  serviceAccounts.signJwt  ` method signs a JWT using a service account's system-managed private key.
+The Service Account Credentials API's [`serviceAccounts.signJwt`](https://docs.cloud.google.com/iam/docs/reference/credentials/rest/v1/projects.serviceAccounts/signJwt) method signs a JWT using a service account's system-managed private key.
 
 Before using any of the request data, make the following replacements:
 
-  - `  SA_NAME  ` : The name of the service account that you want to create a token for.
+- `SA_NAME` : The name of the service account that you want to create a token for.
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
 
-  - `  DELEGATES  ` : If you are using a [delegated request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated) , see [Specifying a delegation chain](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated-chain) on this page. If you are using a [direct request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-direct) with no delegation, omit the `delegates` field in the request body.
+- `DELEGATES` : If you are using a [delegated request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated) , see [Specifying a delegation chain](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated-chain) on this page. If you are using a [direct request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-direct) with no delegation, omit the `delegates` field in the request body.
 
-  - `  JWT_PAYLOAD  ` : The JWT payload to sign, which is a JSON object that contains a JWT Claims Set. Include the claims that are necessary for your desired use case and to meet the validation requirements for the service you are calling. If you are calling a Google API, see [Google's Authentication Guide](https://developers.google.com/identity/protocols/OAuth2ServiceAccount#jwt-auth) for claim requirements.
-    
-    The `exp` (expiration time) claim must be no more than 12 hours in the future. If you are calling a Google API, the `exp` claim must be set no more than 1 hour in the future.
-    
-    The following example payload contains claims to call a Google API, where `  EXP  ` is an integer timestamp representing the expiration time:
-    
-        { \"iss\": \"SA_NAME@PROJECT_ID.iam.gserviceaccount.com\", \"sub\": \"SA_NAME@PROJECT_ID.iam.gserviceaccount.com\", \"aud\": \"https://firestore.googleapis.com/\", \"iat\": 1529350000, \"exp\": EXP }
+- `JWT_PAYLOAD` : The JWT payload to sign, which is a JSON object that contains a JWT Claims Set. Include the claims that are necessary for your desired use case and to meet the validation requirements for the service you are calling. If you are calling a Google API, see [Google's Authentication Guide](https://developers.google.com/identity/protocols/OAuth2ServiceAccount#jwt-auth) for claim requirements.
+
+  The `exp` (expiration time) claim must be no more than 12 hours in the future. If you are calling a Google API, the `exp` claim must be set no more than 1 hour in the future.
+
+  The following example payload contains claims to call a Google API, where `EXP` is an integer timestamp representing the expiration time:
+
+  ```
+  { \"iss\": \"SA_NAME@PROJECT_ID.iam.gserviceaccount.com\", \"sub\": \"SA_NAME@PROJECT_ID.iam.gserviceaccount.com\", \"aud\": \"https://firestore.googleapis.com/\", \"iat\": 1529350000, \"exp\": EXP }
+  ```
 
 HTTP method and URL:
 
-    POST https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:signJwt
+```
+POST https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:signJwt
+```
 
 Request JSON body:
 
-    {
-      "delegates": [
-        DELEGATES
-      ],
-      "payload": "JWT_PAYLOAD"
-    }
+```
+{
+  "delegates": [
+    DELEGATES
+  ],
+  "payload": "JWT_PAYLOAD"
+}
+```
 
 To send your request, expand one of these options:
 
@@ -641,11 +711,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:signJwt"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:signJwt"
+```
 
 #### PowerShell (Windows)
 
@@ -653,15 +725,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:signJwt" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:signJwt" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -669,10 +743,12 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 If the `signJwt` request was successful, the response body contains a signed JWT and the signing key ID that was used to sign the JWT. You can use the `signedJwt` value as a bearer token to directly authenticate a request on behalf of the service account. The token is valid up to the expiration time specified in the request:
 
-    {
-      "keyId": "42ba1e...fc0a",
-      "signedJwt": "eyJ0eXAi...NiJ9"
-    }
+```
+{
+  "keyId": "42ba1e...fc0a",
+  "signedJwt": "eyJ0eXAi...NiJ9"
+}
+```
 
 ### Create a self-signed blob
 
@@ -682,27 +758,31 @@ To generate a self-signed blob for a service account, do the following:
 
 ### API
 
-The Service Account Credentials API's `  serviceAccounts.signBlob  ` method signs a blob using a service account's system-managed private key.
+The Service Account Credentials API's [`serviceAccounts.signBlob`](https://docs.cloud.google.com/iam/docs/reference/credentials/rest/v1/projects.serviceAccounts/signBlob) method signs a blob using a service account's system-managed private key.
 
 Before using any of the request data, make the following replacements:
 
-  - `  SA_NAME  ` : The name of the service account that you want to create a token for.
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
-  - `  DELEGATES  ` : If you are using a [delegated request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated) , see [Specifying a delegation chain](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated-chain) on this page. If you are using a [direct request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-direct) with no delegation, omit the `delegates` field in the request body.
-  - `  BLOB_PAYLOAD  ` : A base64-encoded string of bytes. For example, `VGhlIHF1aWNrIGJyb3duIGZveCBqdW1wZWQgb3ZlciB0aGUgbGF6eSBkb2cu` .
+- `SA_NAME` : The name of the service account that you want to create a token for.
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `DELEGATES` : If you are using a [delegated request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated) , see [Specifying a delegation chain](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated-chain) on this page. If you are using a [direct request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-direct) with no delegation, omit the `delegates` field in the request body.
+- `BLOB_PAYLOAD` : A base64-encoded string of bytes. For example, `VGhlIHF1aWNrIGJyb3duIGZveCBqdW1wZWQgb3ZlciB0aGUgbGF6eSBkb2cu` .
 
 HTTP method and URL:
 
-    POST https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:signBlob
+```
+POST https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:signBlob
+```
 
 Request JSON body:
 
-    {
-      "delegates": [
-        DELEGATES
-      ],
-      "payload": "BLOB_PAYLOAD"
-    }
+```
+{
+  "delegates": [
+    DELEGATES
+  ],
+  "payload": "BLOB_PAYLOAD"
+}
+```
 
 To send your request, expand one of these options:
 
@@ -712,11 +792,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:signBlob"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:signBlob"
+```
 
 #### PowerShell (Windows)
 
@@ -724,15 +806,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:signBlob" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com:signBlob" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -740,26 +824,30 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 If the `signBlob` request was successful, the response body contains a signed blob and the signing key ID that was used to sign the blob. You can use the `signedBlob` value as a bearer token to directly authenticate a request on behalf of the service account. The token is valid until the service account's system-managed private key expires. This key's ID is the value of the `keyId` field in the response.
 
-    {
-      "keyId": "42ba1e...fc0a",
-      "signedBlob": "eyJ0eXAi...NiJ9"
-    }
+```
+{
+  "keyId": "42ba1e...fc0a",
+  "signedBlob": "eyJ0eXAi...NiJ9"
+}
+```
 
 ### Specify a delegation chain
 
 When using a [delegated request flow](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated#sa-credentials-delegated) to create short-lived service account credentials, the request body for each API must specify the service account delegation chain in the correct order and in the following format:
 
-` projects/-/serviceAccounts/ SA_ID  `
+`projects/-/serviceAccounts/ `` SA_ID`
 
-Replace `  SA_ID  ` with either the service account's unique numeric ID or the service account's email address.
+Replace `SA_ID` with either the service account's unique numeric ID or the service account's email address.
 
-For example, in a delegation chain that flows from `  SA_1  ` (caller) to `  SA_2  ` (delegated) to `  SA_3  ` (delegated) to `  SA_4  ` , the `delegates[]` field would contain `  SA_2  ` and `  SA_3  ` in the following order:
+For example, in a delegation chain that flows from `SA_1` (caller) to `SA_2` (delegated) to `SA_3` (delegated) to `SA_4` , the `delegates[]` field would contain `SA_2` and `SA_3` in the following order:
 
-    {
-      "delegates": [
-        "projects/-/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com",
-        "projects/-/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com"
-      ]
-    }
+```
+{
+  "delegates": [
+    "projects/-/serviceAccounts/SA_2@PROJECT_ID.iam.gserviceaccount.com",
+    "projects/-/serviceAccounts/SA_3@PROJECT_ID.iam.gserviceaccount.com"
+  ]
+}
+```
 
 The caller and the service account for whom the credential is created are not included in the delegation chain.

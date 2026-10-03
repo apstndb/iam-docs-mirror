@@ -12,67 +12,67 @@ Identity and Access Management (IAM) lets you create and manage permissions for 
 
 [Go to the Identity and Access Management product page for more.](https://cloud.google.com/security/products/iam)
 
-format\_list\_numbered
+format_list_numbered
 
 ### Guides
 
-  - Quickstarts: [Quickstart: Grant an IAM role by using the Google Cloud console](https://docs.cloud.google.com/iam/docs/grant-role-console) or [Quickstart: Write an IAM policy by using client libraries](https://docs.cloud.google.com/iam/docs/write-policy-client-libraries)
+- Quickstarts: [Quickstart: Grant an IAM role by using the Google Cloud console](https://docs.cloud.google.com/iam/docs/grant-role-console) or [Quickstart: Write an IAM policy by using client libraries](https://docs.cloud.google.com/iam/docs/write-policy-client-libraries)
 
-  - [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access)
+- [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access)
 
-  - [Manage access to other resources](https://docs.cloud.google.com/iam/docs/manage-access-other-resources)
+- [Manage access to other resources](https://docs.cloud.google.com/iam/docs/manage-access-other-resources)
 
-  - [Roles overview](https://docs.cloud.google.com/iam/docs/roles-overview)
+- [Roles overview](https://docs.cloud.google.com/iam/docs/roles-overview)
 
-  - [Service account overview](https://docs.cloud.google.com/iam/docs/service-account-overview)
+- [Service account overview](https://docs.cloud.google.com/iam/docs/service-account-overview)
 
-  - [Create service accounts](https://docs.cloud.google.com/iam/docs/service-accounts-create)
+- [Create service accounts](https://docs.cloud.google.com/iam/docs/service-accounts-create)
 
-  - [Attach service accounts to resources](https://docs.cloud.google.com/iam/docs/attach-service-accounts)
+- [Attach service accounts to resources](https://docs.cloud.google.com/iam/docs/attach-service-accounts)
 
-  - [Creating and managing custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles)
+- [Creating and managing custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles)
 
-  - [Configure temporary access](https://docs.cloud.google.com/iam/docs/configuring-temporary-access)
+- [Configure temporary access](https://docs.cloud.google.com/iam/docs/configuring-temporary-access)
 
-find\_in\_page
+find_in_page
 
 ### Reference
 
-  - [Roles and permissions](https://docs.cloud.google.com/iam/docs/roles-permissions)
+- [Roles and permissions](https://docs.cloud.google.com/iam/docs/roles-permissions)
 
-  - [Client libraries](https://docs.cloud.google.com/iam/docs/client-libraries)
+- [Client libraries](https://docs.cloud.google.com/iam/docs/client-libraries)
 
-  - [IAM REST API](https://docs.cloud.google.com/iam/docs/reference/rest)
+- [IAM REST API](https://docs.cloud.google.com/iam/docs/reference/rest)
 
-  - [Full resource names](https://docs.cloud.google.com/iam/docs/full-resource-names)
+- [Full resource names](https://docs.cloud.google.com/iam/docs/full-resource-names)
 
-  - [Attribute reference for IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference)
+- [Attribute reference for IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference)
 
-  - [Resource attributes for IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes)
+- [Resource attributes for IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes)
 
-  - [Support levels for permissions in custom roles](https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support)
+- [Support levels for permissions in custom roles](https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support)
 
-  - [Resource types that accept IAM policies](https://docs.cloud.google.com/iam/docs/resource-types-with-policies)
+- [Resource types that accept IAM policies](https://docs.cloud.google.com/iam/docs/resource-types-with-policies)
 
-  - [Service agents](https://docs.cloud.google.com/iam/docs/service-agents)
+- [Service agents](https://docs.cloud.google.com/iam/docs/service-agents)
 
 info
 
 ### Resources
 
-  - [Release notes](https://docs.cloud.google.com/iam/docs/release-notes)
+- [Release notes](https://docs.cloud.google.com/iam/docs/release-notes)
 
-  - [Permissions change log](https://docs.cloud.google.com/iam/docs/permissions-change-log)
+- [Permissions change log](https://docs.cloud.google.com/iam/docs/permissions-change-log)
 
-  - [Getting support](https://docs.cloud.google.com/iam/docs/getting-support)
+- [Getting support](https://docs.cloud.google.com/iam/docs/getting-support)
 
-  - [Quotas and limits](https://docs.cloud.google.com/iam/quotas)
+- [Quotas and limits](https://docs.cloud.google.com/iam/quotas)
 
-  - [Billing questions](https://docs.cloud.google.com/iam/docs/billing-questions)
+- [Billing questions](https://docs.cloud.google.com/iam/docs/billing-questions)
 
-  - [Troubleshooting "withcond" in policies and role bindings](https://docs.cloud.google.com/iam/docs/troubleshooting-withcond)
+- [Troubleshooting "withcond" in policies and role bindings](https://docs.cloud.google.com/iam/docs/troubleshooting-withcond)
 
-  - [Pricing](https://docs.cloud.google.com/iam/pricing)
+- [Pricing](https://docs.cloud.google.com/iam/pricing)
 
 Training
 

@@ -12,10 +12,11 @@ This document shows you how to use the Policy Troubleshooter remote Model Contex
 
 ## What's the difference between local and remote MCP servers?
 
-  - Local MCP servers  
-    Typically run on your local machine and use the standard input and output streams (stdio) for communication between services on the same device.
-  - Remote MCP servers  
-    Run on the service's infrastructure and offer an HTTP endpoint to AI applications for communication between the AI MCP client and the MCP server. For more information about MCP architecture, see [MCP architecture](https://modelcontextprotocol.io/docs/learn/architecture) .
+Local MCP servers  
+Typically run on your local machine and use the standard input and output streams (stdio) for communication between services on the same device.
+
+Remote MCP servers  
+Run on the service's infrastructure and offer an HTTP endpoint to AI applications for communication between the AI MCP client and the MCP server. For more information about MCP architecture, see [MCP architecture](https://modelcontextprotocol.io/docs/learn/architecture) .
 
 ## Stateless core
 
@@ -23,8 +24,8 @@ With [MCP version 2026-07-28](https://modelcontextprotocol.io/specification/2026
 
 To help route and process requests without parsing the request body, some MCP headers are required, including the following:
 
-  - Headers that are required by the MCP specification such as the [protocol version header](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http#protocol-version-header) and [standard request headers](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http#standard-request-headers) .
-  - [Custom headers](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http#custom-headers-from-tool-parameters) that are defined by the MCP server. These headers are mirrored into HTTP headers from the tool's input schema using the `x-mcp-header` property. For example, an MCP server might define a custom header to specify the Google Cloud region or project ID.
+- Headers that are required by the MCP specification such as the [protocol version header](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http#protocol-version-header) and [standard request headers](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http#standard-request-headers) .
+- [Custom headers](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http#custom-headers-from-tool-parameters) that are defined by the MCP server. These headers are mirrored into HTTP headers from the tool's input schema using the `x-mcp-header` property. For example, an MCP server might define a custom header to specify the Google Cloud region or project ID.
 
 For more information about MCP architecture, see the MCP version 2026-07-28 [specification](https://modelcontextprotocol.io/specification/2026-07-28) and [key changes](https://modelcontextprotocol.io/specification/2026-07-28/changelog) .
 
@@ -32,11 +33,11 @@ For more information about MCP architecture, see the MCP version 2026-07-28 [spe
 
 Google and Google Cloud remote MCP servers have the following features and benefits:
 
-  - Simplified, centralized discovery
-  - Managed global or regional HTTP endpoints
-  - Fine-grained authorization
-  - Optional prompt and response security with Model Armor protection
-  - Centralized audit logging
+- Simplified, centralized discovery
+- Managed global or regional HTTP endpoints
+- Fine-grained authorization
+- Optional prompt and response security with Model Armor protection
+- Centralized audit logging
 
 For information about other MCP servers and information about security and governance controls available for Google Cloud MCP servers, see [Google Cloud MCP servers overview](https://docs.cloud.google.com/mcp/overview) .
 
@@ -46,11 +47,11 @@ For information about other MCP servers and information about security and gover
 
 To get the permissions that you need to use the Policy Troubleshooter MCP server, ask your administrator to grant you the following IAM roles on the project where you want to use the Policy Troubleshooter MCP server:
 
-  - [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/iam.securityReviewer` )
-  - Troubleshoot deny policies: [Deny Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyReviewer) ( `roles/iam.denyReviewer` )
-  - Troubleshoot policies that include bindings for [service account principal sets](https://docs.cloud.google.com/iam/docs/principal-identifiers#allow-service-account-principal-sets) : [Browser](https://docs.cloud.google.com/iam/docs/roles-permissions/browser#browser) ( `roles/browser` )
-  - Use the Google Cloud CLI to troubleshoot: [Service Usage Consumer](https://docs.cloud.google.com/iam/docs/roles-permissions/serviceusage#serviceusage.serviceUsageConsumer) ( `roles/serviceusage.serviceUsageConsumer` )
-  - Make MCP tool calls: [MCP Tool User](https://docs.cloud.google.com/iam/docs/roles-permissions/mcp#mcp.toolUser) ( `roles/mcp.toolUser` )
+- [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/iam.securityReviewer` )
+- Troubleshoot deny policies: [Deny Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyReviewer) ( `roles/iam.denyReviewer` )
+- Troubleshoot policies that include bindings for [service account principal sets](https://docs.cloud.google.com/iam/docs/principal-identifiers#allow-service-account-principal-sets) : [Browser](https://docs.cloud.google.com/iam/docs/roles-permissions/browser#browser) ( `roles/browser` )
+- Use the Google Cloud CLI to troubleshoot: [Service Usage Consumer](https://docs.cloud.google.com/iam/docs/roles-permissions/serviceusage#serviceusage.serviceUsageConsumer) ( `roles/serviceusage.serviceUsageConsumer` )
+- Make MCP tool calls: [MCP Tool User](https://docs.cloud.google.com/iam/docs/roles-permissions/mcp#mcp.toolUser) ( `roles/mcp.toolUser` )
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -71,7 +72,7 @@ OAuth 2.0 uses scopes and credentials to determine if an authenticated principal
 Policy Troubleshooter has the following MCP tool OAuth scopes:
 
 | Scope URI for gcloud CLI                                              | Description                                                                        |
-| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+|-----------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | `https://www.googleapis.com/auth/cloud-policytroubleshooter.readonly` | View your Policy Troubleshooter data and the email address of your Google Account. |
 
 Additional scopes might be required on the resources accessed during a tool call. To view a list of scopes required for Policy Troubleshooter, see the [OAuth scopes for the Policy Troubleshooter API](https://developers.google.com/identity/protocols/oauth2/scopes#policytroubleshooter) .
@@ -82,18 +83,18 @@ AI applications and agents, such as Claude or Antigravity, can instantiate an MC
 
 In your AI application, look for a way to add or connect to a remote MCP server. For the Policy Troubleshooter MCP server, enter the following information as required:
 
-  - **Server name** : Policy Troubleshooter MCP server
-  - **Server URL** or **Endpoint** : `https://policytroubleshooter.googleapis.com/mcp`
-  - **Transport** : [Streamable HTTP](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http)
-  - **Authentication details** : depending on how you want to authenticate, you can enter your Google Cloud credentials, your OAuth Client ID and secret, or an agent identity and credentials. For more information about authentication, see [Authenticate to MCP servers](https://docs.cloud.google.com/mcp/authenticate-mcp) .
-  - **OAuth scope** : To access the Policy Troubleshooter MCP server, use the `https://www.googleapis.com/auth/cloud-policytroubleshooter.readonly` [OAuth 2.0 scope](https://developers.google.com/identity/protocols/oauth2/scopes) .
+- **Server name** : Policy Troubleshooter MCP server
+- **Server URL** or **Endpoint** : `https://policytroubleshooter.googleapis.com/mcp`
+- **Transport** : [Streamable HTTP](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http)
+- **Authentication details** : depending on how you want to authenticate, you can enter your Google Cloud credentials, your OAuth Client ID and secret, or an agent identity and credentials. For more information about authentication, see [Authenticate to MCP servers](https://docs.cloud.google.com/mcp/authenticate-mcp) .
+- **OAuth scope** : To access the Policy Troubleshooter MCP server, use the `https://www.googleapis.com/auth/cloud-policytroubleshooter.readonly` [OAuth 2.0 scope](https://developers.google.com/identity/protocols/oauth2/scopes) .
 
 For application-specific guidance about setting up and connecting to MCP server, see [Client-specific guidance](https://docs.cloud.google.com/mcp/configure-mcp-ai-application#client-specific-guidance) .
 
 For more general guidance, see the following resources:
 
-  - [Connect to remote MCP servers](https://modelcontextprotocol.io/docs/develop/connect-remote-servers) .
-  - [Configure MCP in an AI application](https://docs.cloud.google.com/mcp/configure-mcp-ai-application) .
+- [Connect to remote MCP servers](https://modelcontextprotocol.io/docs/develop/connect-remote-servers) .
+- [Configure MCP in an AI application](https://docs.cloud.google.com/mcp/configure-mcp-ai-application) .
 
 ## Available tools
 
@@ -103,40 +104,42 @@ To view details of available MCP tools and their descriptions for the Policy Tro
 
 Use the [MCP inspector](https://modelcontextprotocol.io/docs/tools/inspector) to list tools, or send a `tools/list` HTTP request directly to the Policy Troubleshooter remote MCP server. The `tools/list` method doesn't require authentication.
 
-    curl -X POST https://policytroubleshooter.googleapis.com/TOOLSET_ENDPOINT \
-        -H 'Content-Type: application/json' \
-        -H 'Accept: application/json' \
-        -H 'MCP-Protocol-Version: MCP_PROTOCOL_VERSION' \
-        -H 'Mcp-Method: tools/list' \
-        -d '{
-          "jsonrpc": "2.0",
-          "id": 1,
-          "method": "tools/list",
-          "params": {
-            "_meta": {
-              "io.modelcontextprotocol/protocolVersion": "MCP_PROTOCOL_VERSION",
-              "io.modelcontextprotocol/clientCapabilities": {
-                "extensions": {
-                  "io.modelcontextprotocol/ui": {
-                    "mimeTypes": ["text/html;profile=mcp-app"]
-                  }
-                }
+```
+curl -X POST https://policytroubleshooter.googleapis.com/TOOLSET_ENDPOINT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -H 'MCP-Protocol-Version: MCP_PROTOCOL_VERSION' \
+    -H 'Mcp-Method: tools/list' \
+    -d '{
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "tools/list",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "MCP_PROTOCOL_VERSION",
+          "io.modelcontextprotocol/clientCapabilities": {
+            "extensions": {
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": ["text/html;profile=mcp-app"]
               }
             }
           }
-        }'
+        }
+      }
+    }'
+```
 
 Replace the following:
 
-  - `TOOLSET_ENDPOINT` : the remainder of the MCP endpoint after the service name. For example, for Policy Troubleshooter, this might be `mcp/toolset-name` .
-  - `MCP_PROTOCOL_VERSION` : the MCP protocol version. For example, `2026-07-28` .
+- ` ``TOOLSET_ENDPOINT`` ` : the remainder of the MCP endpoint after the service name. For example, for Policy Troubleshooter, this might be `mcp/toolset-name` .
+- ` ``MCP_PROTOCOL_VERSION`` ` : the MCP protocol version. For example, `2026-07-28` .
 
 ## Example use cases
 
 The Policy Troubleshooter MCP server lets you enable your agent to troubleshoot IAM access issues in real time. The following are example use cases for the Policy Troubleshooter MCP server:
 
 | Use case                                                                            | Prompt examples                                                                                                                                                                                          |
-| ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Debug access issues for a specific principal on a resource across all IAM policies. | "Can you help me understand why example-user@example.com is being denied access when trying to perform `storage.objects.get` on the `my-app-data` bucket in `example-project` ?"                         |
 | Diagnose a specific IAM permission error ID and provide potential resolutions.      | "I am troubleshooting a permission error for one of my service accounts. The error message contains the following troubleshooting ID: `example-error-id` . Can you explain why this access was blocked?" |
 
@@ -163,9 +166,9 @@ You must enable Model Armor APIs before you can use Model Armor.
 ### Console
 
 1.  Enable the Model Armor API, if it is not already enabled.
-    
+
     **Roles required to enable APIs**
-    
+
     To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
 2.  Select the project where you want to activate Model Armor.
@@ -175,14 +178,16 @@ You must enable Model Armor APIs before you can use Model Armor.
 Before you begin, follow these steps using the Google Cloud CLI with the Model Armor API:
 
 1.  In the Google Cloud console, activate Cloud Shell.
-    
+
     At the bottom of the Google Cloud console, a [Cloud Shell](https://docs.cloud.google.com/shell/docs/how-cloud-shell-works) session starts and displays a command-line prompt. Cloud Shell is a shell environment with the Google Cloud CLI already installed and with values already set for your current project. It can take a few seconds for the session to initialize.
 
 2.  Run the following command to set the API endpoint for the Model Armor service.
-    
-        gcloud config set api_endpoint_overrides/modelarmor "https://modelarmor.LOCATION.rep.googleapis.com/"
-    
-    Replace `  LOCATION  ` with the region where you want to use Model Armor.
+
+    ```
+    gcloud config set api_endpoint_overrides/modelarmor "https://modelarmor.LOCATION.rep.googleapis.com/"
+    ```
+
+    Replace `LOCATION` with the region where you want to use Model Armor.
 
 #### Configure protection for Google and Google Cloud remote MCP servers
 
@@ -196,32 +201,36 @@ Set up a Model Armor floor setting with MCP sanitization enabled. For more infor
 
 See the following example command:
 
-    gcloud model-armor floorsettings update \
-    --full-uri='projects/PROJECT_ID/locations/global/floorSetting' \
-    --enable-floor-setting-enforcement=TRUE \
-    --add-integrated-services=GOOGLE_MCP_SERVER \
-    --google-mcp-server-enforcement-type=INSPECT_AND_BLOCK \
-    --enable-google-mcp-server-cloud-logging \
-    --malicious-uri-filter-settings-enforcement=ENABLED \
-    --add-rai-settings-filters='[{"confidenceLevel": "MEDIUM_AND_ABOVE", "filterType": "DANGEROUS"}]'
+```
+gcloud model-armor floorsettings update \
+--full-uri='projects/PROJECT_ID/locations/global/floorSetting' \
+--enable-floor-setting-enforcement=TRUE \
+--add-integrated-services=GOOGLE_MCP_SERVER \
+--google-mcp-server-enforcement-type=INSPECT_AND_BLOCK \
+--enable-google-mcp-server-cloud-logging \
+--malicious-uri-filter-settings-enforcement=ENABLED \
+--add-rai-settings-filters='[{"confidenceLevel": "MEDIUM_AND_ABOVE", "filterType": "DANGEROUS"}]'
+```
 
-Replace `  PROJECT_ID  ` with your Google Cloud project ID.
+Replace `PROJECT_ID` with your Google Cloud project ID.
 
 Note the following settings:
 
-  - `INSPECT_AND_BLOCK` : The enforcement type that inspects content for the Google MCP server and blocks prompts and responses that match the filters.
-  - `ENABLED` : The setting that enables a filter or enforcement.
-  - `MEDIUM_AND_ABOVE` : The confidence level for the Responsible AI - Dangerous filter settings. You can modify this setting, though lower values might result in more false positives. For more information, see [Model Armor confidence levels](https://docs.cloud.google.com/model-armor/overview#ma-confidence-levels) .
+- ` ``INSPECT_AND_BLOCK`` ` : The enforcement type that inspects content for the Google MCP server and blocks prompts and responses that match the filters.
+- ` ``ENABLED`` ` : The setting that enables a filter or enforcement.
+- ` ``MEDIUM_AND_ABOVE`` ` : The confidence level for the Responsible AI - Dangerous filter settings. You can modify this setting, though lower values might result in more false positives. For more information, see [Model Armor confidence levels](https://docs.cloud.google.com/model-armor/overview#ma-confidence-levels) .
 
 #### Disable scanning MCP traffic with Model Armor
 
 To stop Model Armor from automatically scanning traffic to and from Google MCP servers based on the project's floor settings, run the following command:
 
-    gcloud model-armor floorsettings update \
-      --full-uri='projects/PROJECT_ID/locations/global/floorSetting' \
-      --remove-integrated-services=GOOGLE_MCP_SERVER
+```
+gcloud model-armor floorsettings update \
+  --full-uri='projects/PROJECT_ID/locations/global/floorSetting' \
+  --remove-integrated-services=GOOGLE_MCP_SERVER
+```
 
-Replace `  PROJECT_ID  ` with the Google Cloud project ID. Model Armor doesn't automatically apply the rules defined in this project's floor settings to any Google MCP server traffic.
+Replace `PROJECT_ID` with the Google Cloud project ID. Model Armor doesn't automatically apply the rules defined in this project's floor settings to any Google MCP server traffic.
 
 Model Armor floor settings and general configuration can impact more than just MCP. Because Model Armor integrates with services like Vertex AI, any changes you make to floor settings can affect traffic scanning and safety behaviors across all integrated services, not just MCP.
 
@@ -231,14 +240,14 @@ Identity and Access Management (IAM) [deny policies](https://docs.cloud.google.c
 
 You can combine multiple criteria to build customized security and governance policies by allowing or denying access based on the following:
 
-  - The principal.
-  - Tool properties like the read-only attribute.
-  - The service name or tool name.
-  - The application's OAuth client ID.
+- The principal.
+- Tool properties like the read-only attribute.
+- The service name or tool name.
+- The application's OAuth client ID.
 
 For more information, see [Control MCP use with Identity and Access Management](https://docs.cloud.google.com/mcp/control-mcp-use-iam) .
 
 ## What's next
 
-  - Read the [Policy Troubleshooter MCP reference documentation](https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/mcp) .
-  - Learn more about [Google Cloud MCP servers](https://docs.cloud.google.com/mcp/overview) .
+- Read the [Policy Troubleshooter MCP reference documentation](https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/mcp) .
+- Learn more about [Google Cloud MCP servers](https://docs.cloud.google.com/mcp/overview) .

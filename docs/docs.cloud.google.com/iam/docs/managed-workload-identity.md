@@ -12,25 +12,25 @@ Google Cloud provisions X.509 credentials and trust anchors that are issued from
 
 The following features are available:
 
-  - Managed workload identities for GKE ( [Preview](https://cloud.google.com/products#product-launch-stages) )
-  - Managed workload identities for Compute Engine
-  - Agent identities
+- Managed workload identities for GKE ( [Preview](https://cloud.google.com/products#product-launch-stages) )
+- Managed workload identities for Compute Engine
+- Agent identities
 
 ## SPIFFE interoperability
 
 To enable interoperability across dynamic and heterogeneous environments, managed workload identities is based on [Secure Production Identity Framework For Everyone (SPIFFE)](https://spiffe.io/docs/latest/spiffe-about/spiffe-concepts/) . SPIFFE defines a framework and set of standards for identifying, authenticating, and securing communications between workloads. SPIFFE workloads are identified by a unique SPIFFE ID. In Google Cloud, a SPIFFE ID has the following formats:
 
-  - Compute Engine workloads:
-    
-    ` spiffe:// POOL_ID .global. PROJECT_NUMBER .workload.id.goog/ns/ NAMESPACE_ID /sa/ MANAGED_IDENTITY_ID  `
+- Compute Engine workloads:
 
-  - GKE workloads:
-    
-    ` spiffe:// PROJECT_ID .svc.id.goog/ns/ KUBERNETES_NAMESPACE /sa/ KUBERNETES_SERVICE_ACCOUNT  `
+  `spiffe:// `` POOL_ID `` .global. `` PROJECT_NUMBER `` .workload.id.goog/ns/ `` NAMESPACE_ID `` /sa/ `` MANAGED_IDENTITY_ID`
 
-  - Agent identity workloads:
-    
-    ` spiffe://agents.global.org- ORGANIZATION_ID .system.id.goog/resources/aiplatform/projects/ PROJECT_NUMBER /locations/ LOCATION /reasoningEngines/ AGENT_NAME  `
+- GKE workloads:
+
+  `spiffe:// `` PROJECT_ID `` .svc.id.goog/ns/ `` KUBERNETES_NAMESPACE `` /sa/ `` KUBERNETES_SERVICE_ACCOUNT`
+
+- Agent identity workloads:
+
+  `spiffe://agents.global.org- `` ORGANIZATION_ID `` .system.id.goog/resources/aiplatform/projects/ `` PROJECT_NUMBER `` /locations/ `` LOCATION `` /reasoningEngines/ `` AGENT_NAME`
 
 ## Resource hierarchy
 
@@ -54,10 +54,10 @@ Workload attestation policies let you define which workload can be issued a cred
 
 ## What's next
 
-  - [Configure managed workload identity authentication for Compute Engine](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities) .
+- [Configure managed workload identity authentication for Compute Engine](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities) .
 
-  - [Configure managed workload identity authentication for GKE](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-gke) .
+- [Configure managed workload identity authentication for GKE](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-gke) .
 
-  - Learn more about [using managed workload identities with Compute Engine workloads](https://docs.cloud.google.com/compute/docs/access/authenticate-workloads-over-mtls) .
+- Learn more about [using managed workload identities with Compute Engine workloads](https://docs.cloud.google.com/compute/docs/access/authenticate-workloads-over-mtls) .
 
-  - Learn more about [using agent identity with Vertex AI Agent Engine](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/runtime/agent-identity) .
+- Learn more about [using agent identity with Vertex AI Agent Engine](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/runtime/agent-identity) .

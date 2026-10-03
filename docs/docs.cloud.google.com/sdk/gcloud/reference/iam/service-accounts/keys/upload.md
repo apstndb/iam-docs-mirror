@@ -12,7 +12,7 @@ gcloud iam service-accounts keys upload - upload a public key for an IAM service
 
 SYNOPSIS
 
-`gcloud iam service-accounts keys upload` `  PUBLIC_KEY_FILE  ` `  --iam-account  ` = `  IAM_ACCOUNT  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam service-accounts keys upload` [`PUBLIC_KEY_FILE`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/keys/upload#PUBLIC_KEY_FILE) [`--iam-account`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/keys/upload#--iam-account) = `IAM_ACCOUNT` \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/keys/upload#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -24,12 +24,14 @@ EXAMPLES
 
 The following command uploads a public key certificate to a service account:
 
-    gcloud iam service-accounts keys upload test_data/public_key.cert --iam-account=my-iam-account@my-project.iam.gserviceaccount.com
+```
+gcloud iam service-accounts keys upload test_data/public_key.cert --iam-account=my-iam-account@my-project.iam.gserviceaccount.com
+```
 
 POSITIONAL ARGUMENTS
 
-  - `  PUBLIC_KEY_FILE  `  
-    Path of the file containing the public key. Note that only public key data in the format of RSA\_X509\_PEM is supported. See <https://cloud.google.com/iot/docs/concepts/device-security#public_key_format> for more information.
+`PUBLIC_KEY_FILE`  
+Path of the file containing the public key. Note that only public key data in the format of RSA_X509_PEM is supported. See <https://cloud.google.com/iot/docs/concepts/device-security#public_key_format> for more information.
 
 REQUIRED FLAGS
 
@@ -37,24 +39,24 @@ IamAccount resource - The service account for which to upload a key. This repres
 
 To set the `project` attribute:
 
-  - provide the argument `--iam-account` on the command line with a fully specified name;
-  - provide the argument `--project` on the command line;
-  - set the property `core/project` .
+- provide the argument `--iam-account` on the command line with a fully specified name;
+- provide the argument `--project` on the command line;
+- set the property `core/project` .
 
 This must be specified.
 
-  - `--iam-account` = `  IAM_ACCOUNT  `  
-    ID of the iamAccount or fully qualified identifier for the iamAccount.
-    
-    To set the `iam-account` attribute:
-    
-      - provide the argument `--iam-account` on the command line.
+`--iam-account` = `IAM_ACCOUNT`  
+ID of the iamAccount or fully qualified identifier for the iamAccount.
+
+To set the `iam-account` attribute:
+
+- provide the argument `--iam-account` on the command line.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 API REFERENCE
 
@@ -64,6 +66,10 @@ NOTES
 
 These variants are also available:
 
-    gcloud alpha iam service-accounts keys upload
+```
+gcloud alpha iam service-accounts keys upload
+```
 
-    gcloud beta iam service-accounts keys upload
+```
+gcloud beta iam service-accounts keys upload
+```

@@ -12,37 +12,37 @@ This page describes how to manage access to specific resources using conditional
 
 ## Before you begin
 
-  - Read the [Identity and Access Management (IAM) Conditions overview](https://docs.cloud.google.com/iam/docs/conditions-overview) to understand the basics of IAM conditional role bindings.
-  - Review the [resource attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#resource) that can be used in a condition expression.
-  - The resource name attribute can control access to the following Google Cloud services:
-      - Agent Registry
-      - Apigee
-      - Application Integration
-      - Apigee API Hub
-      - Backup and DR Service
-      - BigQuery
-      - BigQuery Reservation API
-      - Bigtable
-      - Binary Authorization
-      - Cloud Deploy
-      - Customer Experience Agent Studio
-      - Cloud Key Management Service
-      - Cloud Logging
-      - Cloud SQL
-      - Cloud Storage
-      - Compute Engine
-      - Dataform
-      - Cloud DNS
-      - Google Kubernetes Engine
-      - Firestore
-      - Cloud NGFW
-      - Integration Connectors
-      - Google Cloud Managed Service for Apache Kafka
-      - Network Security Integration
-      - Parameter Manager
-      - Pub/Sub Lite
-      - Secret Manager
-      - Spanner
+- Read the [Identity and Access Management (IAM) Conditions overview](https://docs.cloud.google.com/iam/docs/conditions-overview) to understand the basics of IAM conditional role bindings.
+- Review the [resource attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#resource) that can be used in a condition expression.
+- The resource name attribute can control access to the following Google Cloud services:
+  - Agent Registry
+  - Apigee
+  - Application Integration
+  - Apigee API Hub
+  - Backup and DR Service
+  - BigQuery
+  - BigQuery Reservation API
+  - Bigtable
+  - Binary Authorization
+  - Cloud Deploy
+  - Customer Experience Agent Studio
+  - Cloud Key Management Service
+  - Cloud Logging
+  - Cloud SQL
+  - Cloud Storage
+  - Compute Engine
+  - Dataform
+  - Cloud DNS
+  - Google Kubernetes Engine
+  - Firestore
+  - Cloud NGFW
+  - Integration Connectors
+  - Google Cloud Managed Service for Apache Kafka
+  - Network Security Integration
+  - Parameter Manager
+  - Pub/Sub Lite
+  - Secret Manager
+  - Spanner
 
 > **Important:** Review [Important usage considerations for resource-based conditions](https://docs.cloud.google.com/iam/docs/configuring-resource-based-access#considerations) at the bottom of this page before applying a condition of this type in a production environment.
 
@@ -50,10 +50,10 @@ This page describes how to manage access to specific resources using conditional
 
 To get the permissions that you need to manage conditional role bindings, ask your administrator to grant you the following IAM roles:
 
-  - To manage access to projects: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` ) on the project
-  - To manage access to folders: [Folder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin) ( `roles/resourcemanager.folderAdmin` ) on the folder
-  - To manage access to projects, folders, and organizations: [Organization Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` ) on the organization
-  - To manage access to almost all Google Cloud resources: [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/iam.securityAdmin` ) on the project, folder, or organization whose resources you want to manage access to
+- To manage access to projects: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` ) on the project
+- To manage access to folders: [Folder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin) ( `roles/resourcemanager.folderAdmin` ) on the folder
+- To manage access to projects, folders, and organizations: [Organization Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` ) on the organization
+- To manage access to almost all Google Cloud resources: [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/iam.securityAdmin` ) on the project, folder, or organization whose resources you want to manage access to
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -63,15 +63,15 @@ These predefined roles contain the permissions required to manage conditional ro
 
 The following permissions are required to manage conditional role bindings:
 
-  - To manage access to projects:
-      - `resourcemanager.projects.getIamPolicy` on the project
-      - `resourcemanager.projects.setIamPolicy` on the project
-  - To manage access to folders:
-      - `resourcemanager.folders.getIamPolicy` on the folder
-      - `resourcemanager.folders.setIamPolicy` on the folder
-  - To manage access to organizations:
-      - `resourcemanager.organizations.getIamPolicy` on the organization
-      - `resourcemanager.organizations.setIamPolicy` on the organization
+- To manage access to projects:
+  - `resourcemanager.projects.getIamPolicy` on the project
+  - `resourcemanager.projects.setIamPolicy` on the project
+- To manage access to folders:
+  - `resourcemanager.folders.getIamPolicy` on the folder
+  - `resourcemanager.folders.setIamPolicy` on the folder
+- To manage access to organizations:
+  - `resourcemanager.organizations.getIamPolicy` on the organization
+  - `resourcemanager.organizations.setIamPolicy` on the organization
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -100,13 +100,12 @@ To grant access based on a name prefix to Compute Engine disks and instances in 
 4.  In the **Edit condition** panel, enter a title and optional description for the condition.
 
 5.  You can add a condition expression using either the **Condition builder** or the **Condition editor** . The condition builder provides an interactive interface to select your desired condition type, operator, and other applicable details about the expression. The condition editor provides a text-based interface to manually enter an expression using CEL syntax.
-    
+
     **Condition builder** :
-    
+
     1.  Delete any existing condition fields from the condition builder. The only field in the condition builder should be the **Add** button.
-    
+
     2.  Create a grouped condition expression that evaluates to `true` if the resource is a disk that starts with the specified prefix:
-        
         1.  Click the **Add** drop-down and then click **Grouped conditions** .
         2.  From the **Condition type** drop-down, select **Resource \> Type** .
         3.  From the **Operator** drop-down, select **is** .
@@ -114,11 +113,10 @@ To grant access based on a name prefix to Compute Engine disks and instances in 
         5.  Click the first **Add** button immediately beneath the condition you just entered to add another clause to the expression.
         6.  From the **Condition type** drop-down, select **Resource \> Name** .
         7.  From the **Operator** drop-down, select **Starts with** .
-        8.  In the **Value** field, enter the [resource name](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes#resource_name_format) , including the desired prefix, in the appropriate format. For example, use ` projects/ PROJECT_ID /region/ ZONE_ID /disks/ PREFIX  ` to identify disks in the project `  PROJECT_ID  ` and the zone `  ZONE_ID  ` whose names start with `  PREFIX  ` .
+        8.  In the **Value** field, enter the [resource name](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes#resource_name_format) , including the desired prefix, in the appropriate format. For example, use `projects/ `` PROJECT_ID `` /region/ `` ZONE_ID `` /disks/ `` PREFIX` to identify disks in the project `PROJECT_ID` and the zone `ZONE_ID` whose names start with `PREFIX` .
         9.  To the left of each condition type, click **And** to ensure both clauses must be true.
-    
+
     3.  Create a grouped condition expression that evaluates to `true` if the resource is an instance that starts with the specified prefix:
-        
         1.  Click the **Add** button outside of the existing condition group and then click **Grouped conditions** .
         2.  From the **Condition type** drop-down, select **Resource \> Type** .
         3.  From the **Operator** drop-down, select **is** .
@@ -126,11 +124,10 @@ To grant access based on a name prefix to Compute Engine disks and instances in 
         5.  In the same condition group, click **Add** .
         6.  From the **Condition type** drop-down, select **Resource \> Name** .
         7.  From the **Operator** drop-down, select **Starts with** .
-        8.  In the **Value** field, enter the [resource name](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes#resource_name_format) , with the desired prefix, in the appropriate format. For example, use ` projects/ PROJECT_ID /zones/ ZONE_ID /instances/ PREFIX  ` to identify instances in the project `  PROJECT_ID  ` and the zone `  ZONE_ID  ` whose names start with `  PREFIX  ` .
+        8.  In the **Value** field, enter the [resource name](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes#resource_name_format) , with the desired prefix, in the appropriate format. For example, use `projects/ `` PROJECT_ID `` /zones/ `` ZONE_ID `` /instances/ `` PREFIX` to identify instances in the project `PROJECT_ID` and the zone `ZONE_ID` whose names start with `PREFIX` .
         9.  Ensure that the logic operator connecting the conditions in the group is set to **And** .
-    
+
     4.  Create a grouped condition expression that evaluates to `true` if the resource isn't a disk or an instance:
-        
         1.  Click the **Add** button outside of the existing condition groups and then click **Grouped conditions** .
         2.  From the **Condition type** drop-down, select **Resource \> Type** .
         3.  From the **Operator** drop-down, select **is not** .
@@ -140,34 +137,36 @@ To grant access based on a name prefix to Compute Engine disks and instances in 
         7.  From the **Operator** drop-down, select **is not** .
         8.  From the **Resource Type** drop-down, select **compute.googleapis.com/Instance** .
         9.  Ensure that the logic operator connecting the conditions in the group is set to **And** .
-    
+
     5.  Ensure that the logic operator connecting all of the groups of condition expressions is **Or** .
-        
+
         When you're finished, the condition builder should look similar to the following:
-        
+
         ![](https://docs.cloud.google.com/static/iam/img/nested-conditions.png)
-        
+
         ![](https://docs.cloud.google.com/static/iam/img/nested-conditions.png)
-    
+
     6.  Click **Save** to apply the condition.
-    
+
     7.  After the **Edit condition** panel is closed, click **Save** again from the **Edit permissions** panel to update your allow policy.
-    
+
     **Condition editor** :
-    
+
     1.  Click the **Condition editor** tab and enter the following expression:
-        
-            (resource.type == "compute.googleapis.com/Disk" &&
-            resource.name.startsWith("projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX")) ||
-            (resource.type == "compute.googleapis.com/Instance" &&
-            resource.name.startsWith("projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX")) ||
-            (resource.type != "compute.googleapis.com/Disk" &&
-            resource.type != "compute.googleapis.com/Instance")
-    
+
+        ```
+        (resource.type == "compute.googleapis.com/Disk" &&
+        resource.name.startsWith("projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX")) ||
+        (resource.type == "compute.googleapis.com/Instance" &&
+        resource.name.startsWith("projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX")) ||
+        (resource.type != "compute.googleapis.com/Disk" &&
+        resource.type != "compute.googleapis.com/Instance")
+        ```
+
     2.  After entering your expression, you can optionally choose to [lint](https://docs.cloud.google.com/iam/docs/linting-policies) the CEL syntax by clicking **Run Linter** above the text box on the top-right.
-    
+
     3.  Click **Save** to apply the condition.
-    
+
     4.  Once the **Edit condition** panel is closed, click **Save** again from the **Edit permissions** panel to update your allow policy.
 
 ### gcloud
@@ -178,69 +177,77 @@ Execute the [`gcloud projects get-iam-policy`](https://docs.cloud.google.com/sdk
 
 Command:
 
-    gcloud projects get-iam-policy project-id --format=json > filepath
+```
+gcloud projects get-iam-policy project-id --format=json > filepath
+```
 
 The JSON format of the allow policy is downloaded:
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "members": [
-            "user:my-user@example.com"
-          ],
-          "role": "roles/owner"
-        },
-        {
-          "members": [
-            "group:my-group@example.com"
-          ],
-          "role": "roles/compute.instanceAdmin"
-        }
+      "members": [
+        "user:my-user@example.com"
       ],
-      "etag": "BwWKmjvelug=",
-      "version": 1
+      "role": "roles/owner"
+    },
+    {
+      "members": [
+        "group:my-group@example.com"
+      ],
+      "role": "roles/compute.instanceAdmin"
     }
+  ],
+  "etag": "BwWKmjvelug=",
+  "version": 1
+}
+```
 
 To configure the allow policy with a resource name prefix condition, add the following highlighted condition expression. The gcloud CLI updates the version automatically:
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "members": [
-            "user:my-user@example.com"
-          ],
-          "role": "roles/owner"
-        },
-        {
-          "members": [
-            "group:my-group@example.com"
-          ],
-          "role": "roles/compute.instanceAdmin",
-          "condition": {
-              "title": "PREFIX_only",
-              "description": "Only gives access to VMs with the PREFIX prefix",
-              "expression":
-                "(resource.type == 'compute.googleapis.com/Disk' &&
-                resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX')) ||
-                (resource.type == 'compute.googleapis.com/Instance' &&
-                resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX')) ||
-                (resource.type != 'compute.googleapis.com/Instance' &&
-                resource.type != 'compute.googleapis.com/Disk')"
-          }
-        }
+      "members": [
+        "user:my-user@example.com"
       ],
-      "etag": "BwWKmjvelug=",
-      "version": 3
+      "role": "roles/owner"
+    },
+    {
+      "members": [
+        "group:my-group@example.com"
+      ],
+      "role": "roles/compute.instanceAdmin",
+      "condition": {
+          "title": "PREFIX_only",
+          "description": "Only gives access to VMs with the PREFIX prefix",
+          "expression":
+            "(resource.type == 'compute.googleapis.com/Disk' &&
+            resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX')) ||
+            (resource.type == 'compute.googleapis.com/Instance' &&
+            resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX')) ||
+            (resource.type != 'compute.googleapis.com/Instance' &&
+            resource.type != 'compute.googleapis.com/Disk')"
+      }
     }
+  ],
+  "etag": "BwWKmjvelug=",
+  "version": 3
+}
+```
 
 Next, set the new allow policy by executing the [`gcloud projects set-iam-policy`](https://docs.cloud.google.com/sdk/gcloud/reference/projects/set-iam-policy) command:
 
-    gcloud projects set-iam-policy project-id filepath
+```
+gcloud projects set-iam-policy project-id filepath
+```
 
 The new conditional role binding grants the group permissions in the following way:
 
-  - Members in the role binding can only use disk and instance permissions to access disks and instances whose names start with the specified prefix
-  - Members in the role binding can use all other permissions in the Instance Admin role ( `roles/compute.instanceAdmin` ) to access all resources besides disks and instances
+- Members in the role binding can only use disk and instance permissions to access disks and instances whose names start with the specified prefix
+- Members in the role binding can use all other permissions in the Instance Admin role ( `roles/compute.instanceAdmin` ) to access all resources besides disks and instances
 
 ### REST
 
@@ -248,24 +255,28 @@ Use the [read-modify-write](https://docs.cloud.google.com/iam/docs/granting-chan
 
 **First, read the allow policy for the project:**
 
-The Resource Manager API's `  projects.getIamPolicy  ` method gets a project's allow policy.
+The Resource Manager API's [`projects.getIamPolicy`](https://docs.cloud.google.com/resource-manager/reference/rest/v1/projects/getIamPolicy) method gets a project's allow policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
-  - `  POLICY_VERSION  ` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POLICY_VERSION` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
 
 HTTP method and URL:
 
-    POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy
+```
+POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "options": {
-        "requestedPolicyVersion": POLICY_VERSION
-      }
-    }
+```
+{
+  "options": {
+    "requestedPolicyVersion": POLICY_VERSION
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -275,11 +286,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -287,15 +300,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:getIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -303,102 +318,110 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 You should receive a JSON response similar to the following:
 
+```
+{
+  "version": 1,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 1,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/owner",
-          "members": [
-            "user:my-user@example.com
-          ]
-        },
-        {
-          "members": [
-            "group:my-group@example.com"
-          ],
-          "role": "roles/compute.instanceAdmin"
-        }
+      "role": "roles/owner",
+      "members": [
+        "user:my-user@example.com
       ]
+    },
+    {
+      "members": [
+        "group:my-group@example.com"
+      ],
+      "role": "roles/compute.instanceAdmin"
     }
+  ]
+}
+```
 
 **Next, modify the allow policy so that it allows access to specific resources.** Make sure to change the `version` field to the value `3` :
 
+```
+{
+  "version": 3,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 3,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/owner",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        },
-        {
-          "role": "roles/compute.instanceAdmin",
-          "members": [
-            "group:my-group@example.com"
-          ],
-          "condition": {
-              "title": "PREFIX_only",
-              "description": "Only gives access to VMs with the PREFIX prefix",
-              "expression":
-                "(resource.type == 'compute.googleapis.com/Disk' &&
-                resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX')) ||
-                (resource.type == 'compute.googleapis.com/Instance' &&
-                resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX')) ||
-                (resource.type != 'compute.googleapis.com/Instance' &&
-                resource.type != 'compute.googleapis.com/Disk')"
-          }
-        }
+      "role": "roles/owner",
+      "members": [
+        "user:my-user@example.com"
       ]
+    },
+    {
+      "role": "roles/compute.instanceAdmin",
+      "members": [
+        "group:my-group@example.com"
+      ],
+      "condition": {
+          "title": "PREFIX_only",
+          "description": "Only gives access to VMs with the PREFIX prefix",
+          "expression":
+            "(resource.type == 'compute.googleapis.com/Disk' &&
+            resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX')) ||
+            (resource.type == 'compute.googleapis.com/Instance' &&
+            resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX')) ||
+            (resource.type != 'compute.googleapis.com/Instance' &&
+            resource.type != 'compute.googleapis.com/Disk')"
+      }
     }
+  ]
+}
+```
 
 **Finally, write the updated allow policy:**
 
-The Resource Manager API's `  projects.setIamPolicy  ` method sets the allow policy in the request as the project's new allow policy.
+The Resource Manager API's [`projects.setIamPolicy`](https://docs.cloud.google.com/resource-manager/reference/rest/v1/projects/setIamPolicy) method sets the allow policy in the request as the project's new allow policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
 
 HTTP method and URL:
 
-    POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy
+```
+POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "policy": {
-        "version": 3,
-        "etag": "BwWKmjvelug=",
-        "bindings": [
-          {
-            "role": "roles/owner",
-            "members": [
-              "user:my-user@example.com"
-            ]
-          },
-          {
-            "role": "roles/compute.instanceAdmin",
-            "members": [
-              "group:my-group@example.com"
-            ],
-            "condition": {
-              "title": "Dev_access_only",
-              "description": "Only access to devAccess* VMs",
-              "expression":
-                "(resource.type == 'compute.googleapis.com/Disk' &&
-                resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX')) ||
-                (resource.type == 'compute.googleapis.com/Instance' &&
-                resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX')) ||
-                (resource.type != 'compute.googleapis.com/Instance' &&
-                resource.type != 'compute.googleapis.com/Disk')"
-            }
-          }
+```
+{
+  "policy": {
+    "version": 3,
+    "etag": "BwWKmjvelug=",
+    "bindings": [
+      {
+        "role": "roles/owner",
+        "members": [
+          "user:my-user@example.com"
         ]
+      },
+      {
+        "role": "roles/compute.instanceAdmin",
+        "members": [
+          "group:my-group@example.com"
+        ],
+        "condition": {
+          "title": "Dev_access_only",
+          "description": "Only access to devAccess* VMs",
+          "expression":
+            "(resource.type == 'compute.googleapis.com/Disk' &&
+            resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX')) ||
+            (resource.type == 'compute.googleapis.com/Instance' &&
+            resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX')) ||
+            (resource.type != 'compute.googleapis.com/Instance' &&
+            resource.type != 'compute.googleapis.com/Disk')"
+        }
       }
-    }
+    ]
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -408,11 +431,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -420,15 +445,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:setIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -440,10 +467,12 @@ The response contains the updated allow policy.
 
   
 
-> **Note** : Resource names for Compute Engine VM instances contain zone information for the instance. To give access to instances with a specific prefix across different zones, enumerate all zone IDs in the condition expression. For example, the following expression specifies instances with the prefix `devAccess` in both `  ZONE_1  ` and `  ZONE_2  ` :
-> 
->     resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_1_ID/instances/devAccess') ||
->      resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_2_ID/instances/devAccess')
+> **Note** : Resource names for Compute Engine VM instances contain zone information for the instance. To give access to instances with a specific prefix across different zones, enumerate all zone IDs in the condition expression. For example, the following expression specifies instances with the prefix `devAccess` in both `ZONE_1` and `ZONE_2` :
+>
+> ```
+> resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_1_ID/instances/devAccess') ||
+>  resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_2_ID/instances/devAccess')
+> ```
 
 ## Extract values from resource names
 
@@ -459,12 +488,16 @@ The following examples show condition expressions that use the `extract()` funct
 
 Suppose you store order information in multiple Cloud Storage buckets, and the objects in each bucket are organized by date. A typical object name might look similar to this example:
 
-    projects/_/buckets/acme-orders-aaa/objects/data_lake/orders/order_date=2019-11-03/aef87g87ae0876
+```
+projects/_/buckets/acme-orders-aaa/objects/data_lake/orders/order_date=2019-11-03/aef87g87ae0876
+```
 
 You want to allow a principal to access any order from the last 30 days. The following condition matches the Cloud Storage objects for these orders. It uses the `duration()` and `date()` functions to subtract 30 days (2,592,000 seconds) from the request time, then compare that timestamp with the order date:
 
-    resource.type == 'storage.googleapis.com/Object' &&
-      request.time - duration('2592000s') < date(resource.name.extract('/order_date={date_str}/'))
+```
+resource.type == 'storage.googleapis.com/Object' &&
+  request.time - duration('2592000s') < date(resource.name.extract('/order_date={date_str}/'))
+```
 
 For details about the `date()` and `duration()` functions, see the [date/time attribute reference](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#date-time) .
 
@@ -472,10 +505,12 @@ For details about the `date()` and `duration()` functions, see the [date/time at
 
 Suppose you want to grant a project-level role to a principal for any Compute Engine VM whose name starts with `dev-` , regardless of the VM's location. You also want the principal to be able to use that role for all other resource types.
 
-The resource name for a VM uses a format similar to ` projects/ PROJECT_ID /zones/ ZONE_ID /instances/ INSTANCE_ID  ` . The following condition evaluates to `true` for VMs with an instance name that starts with the string `dev-` , and for all resource types other than VMs:
+The resource name for a VM uses a format similar to `projects/ `` PROJECT_ID `` /zones/ `` ZONE_ID `` /instances/ `` INSTANCE_ID` . The following condition evaluates to `true` for VMs with an instance name that starts with the string `dev-` , and for all resource types other than VMs:
 
-    resource.type != 'compute.googleapis.com/Instance' ||
-      resource.name.extract('/instances/{name}').startsWith('dev-')
+```
+resource.type != 'compute.googleapis.com/Instance' ||
+  resource.name.extract('/instances/{name}').startsWith('dev-')
+```
 
 The text in curly brackets identifies the part of the resource name that is extracted for comparison. In this example, the extraction template extracts any characters after the first occurrence of the string `/instances/` .
 
@@ -491,8 +526,10 @@ When you use attributes at the organization, folder, or project level, keep in m
 
 To prevent this issue, use the [resource type](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#resource-type) and [resource service](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#resource-service) attributes to limit the scope of the condition. For example, the following condition evaluates to `true` for all resource types other than Compute Engine instances; in contrast, for Compute Engine instances, the condition checks resource name:
 
-    resource.type != 'compute.googleapis.com/Disk' ||
-        resource.name.endsWith('devResource')
+```
+resource.type != 'compute.googleapis.com/Disk' ||
+    resource.name.endsWith('devResource')
+```
 
 ### Custom roles
 
@@ -502,26 +539,30 @@ To accomplish this goal, ensure that the granted role contains the [required per
 
 The following condition expression will result in unexpected behavior. Permissions to operate on Compute Engine VMs are blocked:
 
-    resource.type == 'compute.googleapis.com/Disk' &&
-     resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/staging')
+```
+resource.type == 'compute.googleapis.com/Disk' &&
+ resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/staging')
+```
 
 The following condition expression includes both disks and instances, and will manage access based on the resource name for these two types:
 
-    (resource.type == 'compute.googleapis.com/Disk' &&
-      resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/staging')) ||
-     (resource.type == 'compute.googleapis.com/Instance' &&
-      resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/staging'))
+```
+(resource.type == 'compute.googleapis.com/Disk' &&
+  resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/staging')) ||
+ (resource.type == 'compute.googleapis.com/Instance' &&
+  resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/staging'))
+```
 
 The following condition expression includes both disks and instances, and will manage access based on the resource name for these two types. For any other resource type, the condition expression grants the role regardless of the resource name:
 
-    (resource.type == 'compute.googleapis.com/Disk' &&
-      resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/staging')) ||
-     (resource.type == 'compute.googleapis.com/Instance' &&
-      resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/staging')) ||
-     (resource.type != 'compute.googleapis.com/Disk' &&
-      resource.type != 'compute.googleapis.com/Instance')
-
-<span id="parent-only_permissions"></span>
+```
+(resource.type == 'compute.googleapis.com/Disk' &&
+  resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/staging')) ||
+ (resource.type == 'compute.googleapis.com/Instance' &&
+  resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/staging')) ||
+ (resource.type != 'compute.googleapis.com/Disk' &&
+  resource.type != 'compute.googleapis.com/Instance')
+```
 
 ### Parent-only permissions
 
@@ -533,24 +574,30 @@ To properly grant access to `*.*.list` permissions when using conditions, the co
 
 Consider the following examples. Using the Compute Engine example from the preceding section, the following expression prevents access to `compute.disks.list` and `compute.instances.list` permissions, since the resource on which this permissions are checked have `resource.type` attribute value of `cloudresourcemanager.googleapis.com/Project` .
 
-    (resource.type == 'compute.googleapis.com/Disk' &&
-      resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX')) ||
-     (resource.type == 'compute.googleapis.com/Instance' &&
-      resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX'))
+```
+(resource.type == 'compute.googleapis.com/Disk' &&
+  resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX')) ||
+ (resource.type == 'compute.googleapis.com/Instance' &&
+  resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX'))
+```
 
 It is common that these `list` permissions are granted together with other permissions for regular operations on the resource. To increase to scope of grant in this case, you can either extend the scope for the `cloudresourcemanager.googleapis.com/Project` type only, or extend the scope to all other permissions not of type instance or disk.
 
-    (resource.type == 'compute.googleapis.com/Disk' &&
-      resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX')) ||
-     (resource.type == 'compute.googleapis.com/Instance' &&
-      resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX')) ||
-     resource.type == 'cloudresourcemanager.googleapis.com/Project'
+```
+(resource.type == 'compute.googleapis.com/Disk' &&
+  resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX')) ||
+ (resource.type == 'compute.googleapis.com/Instance' &&
+  resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX')) ||
+ resource.type == 'cloudresourcemanager.googleapis.com/Project'
+```
 
 or
 
-    (resource.type == 'compute.googleapis.com/Disk' &&
-      resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX')) ||
-     (resource.type == 'compute.googleapis.com/Instance' &&
-      resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX')) ||
-     (resource.type != 'compute.googleapis.com/Disk' &&
-      resource.type != 'compute.googleapis.com/Instance')
+```
+(resource.type == 'compute.googleapis.com/Disk' &&
+  resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/disks/PREFIX')) ||
+ (resource.type == 'compute.googleapis.com/Instance' &&
+  resource.name.startsWith('projects/PROJECT_ID/zones/ZONE_ID/instances/PREFIX')) ||
+ (resource.type != 'compute.googleapis.com/Disk' &&
+  resource.type != 'compute.googleapis.com/Instance')
+```

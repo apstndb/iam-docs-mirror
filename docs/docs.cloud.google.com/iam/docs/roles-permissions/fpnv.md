@@ -23,14 +23,14 @@ This page lists the IAM roles and permissions for Firebase Phone Number Verifica
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="fpnv.admin" class="role-title add-link" data-text="Firebase Phone Number Verification Admin Beta" tabindex="-1">Firebase Phone Number Verification Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  fpnv.admin</code> )</p>
+<td>Firebase Phone Number Verification Admin <sup>Beta</sup>
+<p>( <code>roles/ fpnv.admin</code> )</p>
 <p>Full access to FPNV resources.</p></td>
-<td><p><code dir="ltr" translate="no">fpnv.*</code></p>
+<td><p><code>fpnv.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">fpnv.  phoneNumberTokens.  fetchDigitalCredentialPayload</code></li>
-<li><code dir="ltr" translate="no">fpnv.  phoneNumberTokens.  generateTestNumberToken</code></li>
-<li><code dir="ltr" translate="no">fpnv.  phoneNumberTokens.  mintPhoneNumberToken</code></li>
+<li><code>fpnv. phoneNumberTokens. fetchDigitalCredentialPayload</code></li>
+<li><code>fpnv. phoneNumberTokens. generateTestNumberToken</code></li>
+<li><code>fpnv. phoneNumberTokens. mintPhoneNumberToken</code></li>
 </ul></td>
 </tr>
 </tbody>
@@ -38,35 +38,8 @@ This page lists the IAM roles and permissions for Firebase Phone Number Verifica
 
 ## Firebase Phone Number Verification permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="fpnv.phoneNumberTokens.fetchDigitalCredentialPayload" class="permission-name add-link" data-text="fpnv.phoneNumberTokens.fetchDigitalCredentialPayload" tabindex="-1"><code dir="ltr" translate="no">fpnv.  phoneNumberTokens.  fetchDigitalCredentialPayload</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fpnv#fpnv.admin">Firebase Phone Number Verification Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fpnv.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="fpnv.phoneNumberTokens.generateTestNumberToken" class="permission-name add-link" data-text="fpnv.phoneNumberTokens.generateTestNumberToken" tabindex="-1"><code dir="ltr" translate="no">fpnv.  phoneNumberTokens.  generateTestNumberToken</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fpnv#fpnv.admin">Firebase Phone Number Verification Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fpnv.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="fpnv.phoneNumberTokens.mintPhoneNumberToken" class="permission-name add-link" data-text="fpnv.phoneNumberTokens.mintPhoneNumberToken" tabindex="-1"><code dir="ltr" translate="no">fpnv.  phoneNumberTokens.  mintPhoneNumberToken</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fpnv#fpnv.admin">Firebase Phone Number Verification Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fpnv.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                               | Included in roles                                                                                                                                                                                                                                                                                                            |
+|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `fpnv. phoneNumberTokens. fetchDigitalCredentialPayload` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Firebase Phone Number Verification Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/fpnv#fpnv.admin) ( `roles/ fpnv.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) |
+| `fpnv. phoneNumberTokens. generateTestNumberToken`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Firebase Phone Number Verification Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/fpnv#fpnv.admin) ( `roles/ fpnv.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) |
+| `fpnv. phoneNumberTokens. mintPhoneNumberToken`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Firebase Phone Number Verification Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/fpnv#fpnv.admin) ( `roles/ fpnv.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) |

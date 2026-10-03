@@ -12,6 +12,6 @@ To export your recommendations to BigQuery, you need to set up a data transfer u
 
 ## What's next
 
-  - Understand [best practices for using role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-best-practices) .
-  - Find out how to [review and apply recommendations](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations) .
-  - Learn how to [disable role recommendations](https://docs.cloud.google.com/recommender/docs/opting-out) .
+- Understand [best practices for using role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-best-practices) .
+- Find out how to [review and apply recommendations](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations) .
+- Learn how to [disable role recommendations](https://docs.cloud.google.com/recommender/docs/opting-out) .

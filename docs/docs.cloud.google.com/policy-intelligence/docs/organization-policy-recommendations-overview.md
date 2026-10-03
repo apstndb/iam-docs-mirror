@@ -7,7 +7,7 @@ data_source: docs.cloud.google.com
 ---
 
 > **Preview**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 The Organization Policy Service gives customers centralized and programmatic control to set restrictions on their organization's resources. Each type of restriction is defined as a constraint, and is conceptually similar to a blueprint that defines what behaviors are controlled. Creating and maintaining organization policies can be complicated, as the requirements for security and compliance change over time.
@@ -96,8 +96,8 @@ For more information, see [Billing questions](https://docs.cloud.google.com/poli
 
 ## What's next
 
-  - [Review and apply organization policy recommendations](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-organization-policy-recommendations) .
+- [Review and apply organization policy recommendations](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-organization-policy-recommendations) .
 
-  - Learn more about [Recommender](https://docs.cloud.google.com/recommender/docs/overview) .
+- Learn more about [Recommender](https://docs.cloud.google.com/recommender/docs/overview) .
 
-  - Learn more about [managed constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/overview#managed_constraints) in organization policy.
+- Learn more about [managed constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/overview#managed_constraints) in organization policy.

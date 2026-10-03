@@ -22,10 +22,10 @@ The Databases Admin ( `roles/iam.databasesAdmin` ) role is designed for administ
 
 The Databases Admin role contains the permissions necessary for administrative access to all structured and unstructured datastores in Google Cloud. These permissions let users do the following:
 
-  - Manage and maintain data services such as Cloud SQL, Datastore, BigQuery, and Cloud Storage.
-  - Create dashboards and alerts.
-  - View logs to debug data services.
-  - View data from related Google Cloud services like Dataflow, Cloud Key Management Service, and Pub/Sub.
+- Manage and maintain data services such as Cloud SQL, Datastore, BigQuery, and Cloud Storage.
+- Create dashboards and alerts.
+- View logs to debug data services.
+- View data from related Google Cloud services like Dataflow, Cloud Key Management Service, and Pub/Sub.
 
 For a list of the specific permissions included in this role, see the [Databases Admin role](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) on the Identity and Access Management roles and permissions page.
 
@@ -35,9 +35,9 @@ The Infrastructure Administrator ( `roles/iam.infrastructureAdmin` ) role is des
 
 The Infrastructure Administrator role contains the permissions necessary for managing key infrastructure services in Google Cloud. These permissions let users do the following:
 
-  - Manage and maintain all compute, networking, and storage services.
-  - Create custom dashboards and alerts.
-  - View logs for debugging infrastructure services.
+- Manage and maintain all compute, networking, and storage services.
+- Create custom dashboards and alerts.
+- View logs for debugging infrastructure services.
 
 For a list of the specific permissions included in this role, see the [Infrastructure Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin) role on the Identity and Access Management roles and permissions page.
 
@@ -47,9 +47,9 @@ The Network Administrator ( `roles/iam.networkAdmin` ) role is designed for admi
 
 The Network Administrator role contains the permissions necessary for full control of Google Cloud networking resources. These permissions let users do the following:
 
-  - Manage and maintain network infrastructure in the cloud.
-  - Create customized dashboards and alerts.
-  - View logs for debugging network issues.
+- Manage and maintain network infrastructure in the cloud.
+- Create customized dashboards and alerts.
+- View logs for debugging network issues.
 
 For a list of the specific permissions included in this role, see the [Network Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin) role on the Identity and Access Management roles and permissions page.
 
@@ -63,9 +63,9 @@ The Data Scientist ( `roles/iam.dataScientist` ) role is designed for users whos
 
 The Data Scientist role contains the permissions necessary to analyze data from Google Cloud resources and build data processing, transformation, and analysis pipelines. These permissions let users do the following:
 
-  - Manage Vertex AI, data platform, and other associated Compute Engine services.
-  - Use eventing and data streaming services.
-  - Use monitoring, impersonation, key use, and debugging capabilities.
+- Manage Vertex AI, data platform, and other associated Compute Engine services.
+- Use eventing and data streaming services.
+- Use monitoring, impersonation, key use, and debugging capabilities.
 
 For a list of the specific permissions included in this role, see the [Data Scientist](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist) role on the Identity and Access Management roles and permissions page.
 
@@ -75,9 +75,9 @@ The ML Engineer ( `roles/iam.mlEngineer` ) role is designed for users who specia
 
 The ML Engineer role contains the permissions necessary for full control of all AI Platform capabilities. These permissions let users do the following:
 
-  - Build and deploy AI based applications using any Google Cloud AI service, including Vertex AI, Model Armor, and Google Kubernetes Engine.
-  - Create and manage data for machine learning applications.
-  - View monitoring, logging, and associated key data.
+- Build and deploy AI based applications using any Google Cloud AI service, including Vertex AI, Model Armor, and Google Kubernetes Engine.
+- Create and manage data for machine learning applications.
+- View monitoring, logging, and associated key data.
 
 For a list of the specific permissions included in this role, see the [ML Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer) role on the Identity and Access Management roles and permissions page.
 
@@ -91,9 +91,9 @@ The DevOps ( `roles/iam.devOps` ) role is designed for users that are responsibl
 
 The DevOps role contains the permissions necessary to build and deploy applications, create, manage, and perform administrative tasks on associated Google Cloud resources. These permissions let users do the following:
 
-  - Perform administrative tasks on virtual machines.
-  - Manage and maintain storage objects and source repositories.
-  - Ability to manage some relevant Google Cloud resources including Cloud SQL, Cloud Build, Cloud Monitoring, Cloud Logging, and service accounts.
+- Perform administrative tasks on virtual machines.
+- Manage and maintain storage objects and source repositories.
+- Ability to manage some relevant Google Cloud resources including Cloud SQL, Cloud Build, Cloud Monitoring, Cloud Logging, and service accounts.
 
 For a list of the specific permissions included in this role, see the [DevOps](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) role on the Identity and Access Management roles and permissions page.
 
@@ -103,9 +103,9 @@ The Site Reliability Engineer ( `roles/iam.siteReliabilityEngineer` ) role is de
 
 The Site Reliability Engineer role contains the permissions necessary for operational monitoring, performance optimization, and reliability management of applications built on Google Cloud. These permissions let users do the following:
 
-  - Review monitoring and logging data.
-  - Debug asset performance.
-  - View data from assets deployed to production.
+- Review monitoring and logging data.
+- Debug asset performance.
+- View data from assets deployed to production.
 
 For a list of the specific permissions included in this role, see the [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) role on the Identity and Access Management roles and permissions page.
 
@@ -115,9 +115,9 @@ The Support User ( `roles/iam.supportUser` ) role is designed for users whose re
 
 The Support User role contains the permissions necessary to access Google Cloud resource information and gather the insights required for troubleshooting customer issues. These permissions let users do the following:
 
-  - Create and manage support cases in their organization.
-  - View resource configurations and resource log information for troubleshooting issues.
-  - Read resource, monitoring, and logging information for filing support cases.
+- Create and manage support cases in their organization.
+- View resource configurations and resource log information for troubleshooting issues.
+- Read resource, monitoring, and logging information for filing support cases.
 
 For a list of the specific permissions included in this role, see the [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) role on the Identity and Access Management roles and permissions page.
 
@@ -131,14 +131,14 @@ The Security Auditor ( `roles/iam.securityAuditor` ) role is designed for users 
 
 The Security Auditor role contains the read-only permissions necessary to perform comprehensive security evaluations of Google Cloud environments, associated policies, and configurations. These permissions let users do the following:
 
-  - Browse and view Google Cloud resources, folder and project hierarchy, and logs.
-  - Read security configurations.
-  - Read key resource metadata.
+- Browse and view Google Cloud resources, folder and project hierarchy, and logs.
+- Read security configurations.
+- Read key resource metadata.
 
 For a list of the specific permissions included in this role, see the [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) role on the Identity and Access Management roles and permissions page.
 
 ## What's next
 
-  - Learn how to [grant a role to a principal](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#single-role) .
-  - Learn how to [find the right predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
-  - Learn how to [create and maintain custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) .
+- Learn how to [grant a role to a principal](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#single-role) .
+- Learn how to [find the right predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
+- Learn how to [create and maintain custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) .

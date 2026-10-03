@@ -25,14 +25,14 @@ BigQuery Omni offers the following service agent roles. Service agent roles shou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="bigqueryomni.serviceAgent" class="role-title add-link" data-text="BigQuery Omni Service Agent" tabindex="-1">BigQuery Omni Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  bigqueryomni.serviceAgent</code> )</p>
+<td>BigQuery Omni Service Agent
+<p>( <code>roles/ bigqueryomni.serviceAgent</code> )</p>
 <p>Gives BigQuery Omni access to tables in user projects.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">bigquery.jobs.create</code></p>
-<p><code dir="ltr" translate="no">bigquery.tables.updateData</code></p></td>
+<td><p><code>bigquery.jobs.create</code></p>
+<p><code>bigquery.tables.updateData</code></p></td>
 </tr>
 </tbody>
 </table>

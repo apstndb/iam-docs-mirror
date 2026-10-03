@@ -23,19 +23,19 @@ This page lists the IAM roles and permissions for Browser. To search through all
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="browser" class="role-title add-link" data-text="Browser" tabindex="-1">Browser</h4>
-<p>( <code dir="ltr" translate="no">roles/  browser</code> )</p>
+<td>Browser
+<p>( <code>roles/ browser</code> )</p>
 <p>Read access to browse the hierarchy for a project, including the folder, organization, and allow policy. This role doesn't include permission to view resources in the project.</p>
 <p>Lowest-level resources where you can grant this role:</p>
 <ul>
 <li>Project</li>
 </ul></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.folders.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.folders.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  projects.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>resourcemanager.folders.get</code></p>
+<p><code>resourcemanager.folders.list</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager. projects. getIamPolicy</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>

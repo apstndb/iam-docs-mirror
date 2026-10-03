@@ -23,30 +23,30 @@ This page lists the IAM roles and permissions for Cloud Optimization. To search 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudoptimization.admin" class="role-title add-link" data-text="Cloud Optimization AI Admin" tabindex="-1">Cloud Optimization AI Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudoptimization.admin</code> )</p>
+<td>Cloud Optimization AI Admin
+<p>( <code>roles/ cloudoptimization.admin</code> )</p>
 <p>Administrator of Cloud Optimization AI resources</p></td>
-<td><p><code dir="ltr" translate="no">cloudoptimization.*</code></p>
+<td><p><code>cloudoptimization.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudoptimization.  operations.  create</code></li>
-<li><code dir="ltr" translate="no">cloudoptimization.  operations.  get</code></li>
+<li><code>cloudoptimization. operations. create</code></li>
+<li><code>cloudoptimization. operations. get</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudoptimization.editor" class="role-title add-link" data-text="Cloud Optimization AI Editor" tabindex="-1">Cloud Optimization AI Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudoptimization.editor</code> )</p>
+<td>Cloud Optimization AI Editor
+<p>( <code>roles/ cloudoptimization.editor</code> )</p>
 <p>Editor of Cloud Optimization AI resources</p></td>
-<td><p><code dir="ltr" translate="no">cloudoptimization.*</code></p>
+<td><p><code>cloudoptimization.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudoptimization.  operations.  create</code></li>
-<li><code dir="ltr" translate="no">cloudoptimization.  operations.  get</code></li>
+<li><code>cloudoptimization. operations. create</code></li>
+<li><code>cloudoptimization. operations. get</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudoptimization.viewer" class="role-title add-link" data-text="Cloud Optimization AI Viewer" tabindex="-1">Cloud Optimization AI Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudoptimization.viewer</code> )</p>
+<td>Cloud Optimization AI Viewer
+<p>( <code>roles/ cloudoptimization.viewer</code> )</p>
 <p>Viewer of Cloud Optimization AI resources</p></td>
-<td><p><code dir="ltr" translate="no">cloudoptimization.  operations.  get</code></p></td>
+<td><p><code>cloudoptimization. operations. get</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -68,57 +68,25 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudoptimization.serviceAgent" class="role-title add-link" data-text="Cloud Optimization Service Agent" tabindex="-1">Cloud Optimization Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudoptimization.serviceAgent</code> )</p>
+<td>Cloud Optimization Service Agent
+<p>( <code>roles/ cloudoptimization.serviceAgent</code> )</p>
 <p>Grants Cloud Optimization Service Account access to read and write data in the user project.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">storage.buckets.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.create</code></p>
-<p><code dir="ltr" translate="no">storage.objects.delete</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.list</code></p>
-<p><code dir="ltr" translate="no">storage.objects.update</code></p></td>
+<td><p><code>storage.buckets.get</code></p>
+<p><code>storage.objects.create</code></p>
+<p><code>storage.objects.delete</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.list</code></p>
+<p><code>storage.objects.update</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Cloud Optimization permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="cloudoptimization.operations.create" class="permission-name add-link" data-text="cloudoptimization.operations.create" tabindex="-1"><code dir="ltr" translate="no">cloudoptimization.  operations.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudoptimization#cloudoptimization.admin">Cloud Optimization AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudoptimization.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudoptimization#cloudoptimization.editor">Cloud Optimization AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudoptimization.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudoptimization.operations.get" class="permission-name add-link" data-text="cloudoptimization.operations.get" tabindex="-1"><code dir="ltr" translate="no">cloudoptimization.  operations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudoptimization#cloudoptimization.admin">Cloud Optimization AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudoptimization.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudoptimization#cloudoptimization.editor">Cloud Optimization AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudoptimization.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudoptimization#cloudoptimization.viewer">Cloud Optimization AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudoptimization.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                              | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `cloudoptimization. operations. create` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Optimization AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudoptimization#cloudoptimization.admin) ( `roles/ cloudoptimization.admin` ) [Cloud Optimization AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudoptimization#cloudoptimization.editor) ( `roles/ cloudoptimization.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `cloudoptimization. operations. get`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Optimization AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudoptimization#cloudoptimization.admin) ( `roles/ cloudoptimization.admin` ) [Cloud Optimization AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudoptimization#cloudoptimization.editor) ( `roles/ cloudoptimization.editor` ) [Cloud Optimization AI Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudoptimization#cloudoptimization.viewer) ( `roles/ cloudoptimization.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |

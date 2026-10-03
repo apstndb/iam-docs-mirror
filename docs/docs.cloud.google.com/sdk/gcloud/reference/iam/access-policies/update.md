@@ -12,7 +12,7 @@ gcloud iam access-policies update - update AccessPolicy instance
 
 SYNOPSIS
 
-`gcloud iam access-policies update` ( `  ACCESS_POLICY  ` : `  --folder  ` = `  FOLDER  ` `  --location  ` = `  LOCATION  ` `  --organization  ` = `  ORGANIZATION  ` ) \[ `  --async  ` \] \[ `  --display-name  ` = `  DISPLAY_NAME  ` \] \[ `  --etag  ` = `  ETAG  ` \] \[ `  --[no-]validate-only  ` \] \[ `  --annotations  ` =\[ `  ANNOTATIONS  ` , …\] | `  --update-annotations  ` =\[ `  UPDATE_ANNOTATIONS  ` , …\] `  --clear-annotations  ` | `  --remove-annotations  ` = `  REMOVE_ANNOTATIONS  ` \] \[ `  --clear-details  ` `  --details-rules  ` =\[ `  conditions  ` = `  CONDITIONS  ` \], \[ `  description  ` = `  DESCRIPTION  ` \], \[ `  effect  ` = `  EFFECT  ` \], \[ `  excludedPrincipals  ` = `  EXCLUDEDPRINCIPALS  ` \], \[ `  operation  ` = `  OPERATION  ` \], \[ `  principals  ` = `  PRINCIPALS  ` \] | `  --add-details-rules  ` =\[ `  conditions  ` = `  CONDITIONS  ` \], \[ `  description  ` = `  DESCRIPTION  ` \], \[ `  effect  ` = `  EFFECT  ` \], \[ `  excludedPrincipals  ` = `  EXCLUDEDPRINCIPALS  ` \], \[ `  operation  ` = `  OPERATION  ` \], \[ `  principals  ` = `  PRINCIPALS  ` \] `  --clear-details-rules  ` | `  --remove-details-rules  ` =\[ `  conditions  ` = `  CONDITIONS  ` \], \[ `  description  ` = `  DESCRIPTION  ` \], \[ `  effect  ` = `  EFFECT  ` \], \[ `  excludedPrincipals  ` = `  EXCLUDEDPRINCIPALS  ` \], \[ `  operation  ` = `  OPERATION  ` \], \[ `  principals  ` = `  PRINCIPALS  ` \]\] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam access-policies update` ( [`ACCESS_POLICY`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#ACCESS_POLICY) : [`--folder`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--folder) = `FOLDER` [`--location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--location) = `LOCATION` [`--organization`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--organization) = `ORGANIZATION` ) \[ [`--async`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--async) \] \[ [`--display-name`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--display-name) = `DISPLAY_NAME` \] \[ [`--etag`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--etag) = `ETAG` \] \[ [`--[no-]validate-only`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--%5Bno-%5Dvalidate-only) \] \[ [`--annotations`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--annotations) =\[ `ANNOTATIONS` , …\] \| [`--update-annotations`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--update-annotations) =\[ `UPDATE_ANNOTATIONS` , …\] [`--clear-annotations`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--clear-annotations) \| [`--remove-annotations`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--remove-annotations) = `REMOVE_ANNOTATIONS` \] \[ [`--clear-details`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--clear-details) [`--details-rules`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--details-rules) =\[ `conditions` = `CONDITIONS` \], \[ `description` = `DESCRIPTION` \], \[ `effect` = `EFFECT` \], \[ `excludedPrincipals` = `EXCLUDEDPRINCIPALS` \], \[ `operation` = `OPERATION` \], \[ `principals` = `PRINCIPALS` \] \| [`--add-details-rules`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--add-details-rules) =\[ `conditions` = `CONDITIONS` \], \[ `description` = `DESCRIPTION` \], \[ `effect` = `EFFECT` \], \[ `excludedPrincipals` = `EXCLUDEDPRINCIPALS` \], \[ `operation` = `OPERATION` \], \[ `principals` = `PRINCIPALS` \] [`--clear-details-rules`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--clear-details-rules) \| [`--remove-details-rules`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#--remove-details-rules) =\[ `conditions` = `CONDITIONS` \], \[ `description` = `DESCRIPTION` \], \[ `effect` = `EFFECT` \], \[ `excludedPrincipals` = `EXCLUDEDPRINCIPALS` \], \[ `operation` = `OPERATION` \], \[ `principals` = `PRINCIPALS` \]\] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -22,7 +22,9 @@ EXAMPLES
 
 To update display name of `my-policy` in organization `123` , run:
 
-    gcloud iam access-policies update my-policy --organization=123 --location=global --display-name=new-display-name
+```
+gcloud iam access-policies update my-policy --organization=123 --location=global --display-name=new-display-name
+```
 
 POSITIONAL ARGUMENTS
 
@@ -30,51 +32,51 @@ AccessPolicy resource - Identifier. The resource name of the access policy.
 
 The following formats are supported:
 
-  - `projects/{project_id}/locations/{location}/accessPolicies/{policy_id}`
-  - `projects/{project_number}/locations/{location}/accessPolicies/{policy_id}`
-  - `folders/{folder_id}/locations/{location}/accessPolicies/{policy_id}`
-  - `organizations/{organization_id}/locations/{location}/accessPolicies/{policy_id}` The arguments in this group can be used to specify the attributes of this resource. (NOTE) Some attributes are not given arguments in this group but can be set in other ways.
+- `projects/{project_id}/locations/{location}/accessPolicies/{policy_id}`
+- `projects/{project_number}/locations/{location}/accessPolicies/{policy_id}`
+- `folders/{folder_id}/locations/{location}/accessPolicies/{policy_id}`
+- `organizations/{organization_id}/locations/{location}/accessPolicies/{policy_id}` The arguments in this group can be used to specify the attributes of this resource. (NOTE) Some attributes are not given arguments in this group but can be set in other ways.
 
 To set the `project` attribute:
 
-  - provide the argument `access_policy` on the command line with a fully specified name;
-  - provide the argument `--project` on the command line;
-  - set the property `core/project` . This resource can be one of the following types: \[iam.folders.locations.accessPolicies, iam.organizations.locations.accessPolicies, iam.projects.locations.accessPolicies\].
+- provide the argument `access_policy` on the command line with a fully specified name;
+- provide the argument `--project` on the command line;
+- set the property `core/project` . This resource can be one of the following types: \[iam.folders.locations.accessPolicies, iam.organizations.locations.accessPolicies, iam.projects.locations.accessPolicies\].
 
 This must be specified.
 
-  - `  ACCESS_POLICY  `  
-    ID of the accessPolicy or fully qualified identifier for the accessPolicy.
-    
-    To set the `access_policy` attribute:
-    
-      - provide the argument `access_policy` on the command line.
-    
-    This positional argument must be specified if any of the other arguments in this group are specified.
+`ACCESS_POLICY`  
+ID of the accessPolicy or fully qualified identifier for the accessPolicy.
 
-  - `--folder` = `  FOLDER  `  
-    The folder id of the accessPolicy resource.
-    
-    To set the `folder` attribute:
-    
-      - provide the argument `access_policy` on the command line with a fully specified name;
-      - provide the argument `--folder` on the command line. Must be specified for resource of type \[iam.folders.locations.accessPolicies\].
+To set the `access_policy` attribute:
 
-  - `--location` = `  LOCATION  `  
-    The location id of the accessPolicy resource.
-    
-    To set the `location` attribute:
-    
-      - provide the argument `access_policy` on the command line with a fully specified name;
-      - provide the argument `--location` on the command line.
+- provide the argument `access_policy` on the command line.
 
-  - `--organization` = `  ORGANIZATION  `  
-    The organization id of the accessPolicy resource.
-    
-    To set the `organization` attribute:
-    
-      - provide the argument `access_policy` on the command line with a fully specified name;
-      - provide the argument `--organization` on the command line. Must be specified for resource of type \[iam.organizations.locations.accessPolicies\].
+This positional argument must be specified if any of the other arguments in this group are specified.
+
+`--folder` = `FOLDER`  
+The folder id of the accessPolicy resource.
+
+To set the `folder` attribute:
+
+- provide the argument `access_policy` on the command line with a fully specified name;
+- provide the argument `--folder` on the command line. Must be specified for resource of type \[iam.folders.locations.accessPolicies\].
+
+`--location` = `LOCATION`  
+The location id of the accessPolicy resource.
+
+To set the `location` attribute:
+
+- provide the argument `access_policy` on the command line with a fully specified name;
+- provide the argument `--location` on the command line.
+
+`--organization` = `ORGANIZATION`  
+The organization id of the accessPolicy resource.
+
+To set the `organization` attribute:
+
+- provide the argument `access_policy` on the command line with a fully specified name;
+- provide the argument `--organization` on the command line. Must be specified for resource of type \[iam.organizations.locations.accessPolicies\].
 
 FLAGS
 
@@ -82,11 +84,11 @@ FLAGS
 
 Return immediately, without waiting for the operation in progress to complete.
 
-`--display-name` = `  DISPLAY_NAME  `
+`--display-name` = `DISPLAY_NAME`
 
 The description of the access policy. Must be less than or equal to 63 characters.
 
-`--etag` = `  ETAG  `
+`--etag` = `ETAG`
 
 The etag for the access policy. If this is provided on update, it must match the server's etag.
 
@@ -98,67 +100,87 @@ Update annotations.
 
 At most one of these can be specified:
 
-`--annotations` =\[ `  ANNOTATIONS  ` ,…\]
+`--annotations` =\[ `ANNOTATIONS` ,…\]
 
 Set annotations to new value. User defined annotations. See <https://google.aip.dev/148#annotations> for more details such as format and size limitations.
 
-  - `KEY`  
-    Sets `KEY` value.
-  - `VALUE`  
-    Sets `VALUE` value.
+`KEY`  
+Sets `KEY` value.
+
+`VALUE`  
+Sets `VALUE` value.
 
 `Shorthand Example:`
 
-    --annotations=string=string
+```
+--annotations=string=string
+```
 
 `JSON Example:`
 
-    --annotations='{"string": "string"}'
+```
+--annotations='{"string": "string"}'
+```
 
 `File Example:`
 
-    --annotations=path_to_file.(yaml|json)
+```
+--annotations=path_to_file.(yaml|json)
+```
 
 Or at least one of these can be specified:
 
-`--update-annotations` =\[ `  UPDATE_ANNOTATIONS  ` ,…\]
+`--update-annotations` =\[ `UPDATE_ANNOTATIONS` ,…\]
 
 Update annotations value or add key value pair. User defined annotations. See <https://google.aip.dev/148#annotations> for more details such as format and size limitations.
 
-  - `KEY`  
-    Sets `KEY` value.
-  - `VALUE`  
-    Sets `VALUE` value.
+`KEY`  
+Sets `KEY` value.
+
+`VALUE`  
+Sets `VALUE` value.
 
 `Shorthand Example:`
 
-    --update-annotations=string=string
+```
+--update-annotations=string=string
+```
 
 `JSON Example:`
 
-    --update-annotations='{"string": "string"}'
+```
+--update-annotations='{"string": "string"}'
+```
 
 `File Example:`
 
-    --update-annotations=path_to_file.(yaml|json)
+```
+--update-annotations=path_to_file.(yaml|json)
+```
 
 At most one of these can be specified:
 
-  - `--clear-annotations`  
-    Clear annotations value and set to empty map.
+`--clear-annotations`  
+Clear annotations value and set to empty map.
 
-  - `--remove-annotations` = `  REMOVE_ANNOTATIONS  `  
-    Remove existing value from map annotations. Sets `remove_annotations` value. `Shorthand Example:`
-    
-        --remove-annotations=string,string
-    
-    `JSON Example:`
-    
-        --remove-annotations=["string"]
-    
-    `File Example:`
-    
-        --remove-annotations=path_to_file.(yaml|json)
+`--remove-annotations` = `REMOVE_ANNOTATIONS`  
+Remove existing value from map annotations. Sets `remove_annotations` value. `Shorthand Example:`
+
+```
+--remove-annotations=string,string
+```
+
+`JSON Example:`
+
+```
+--remove-annotations=["string"]
+```
+
+`File Example:`
+
+```
+--remove-annotations=path_to_file.(yaml|json)
+```
 
 Access policy details.
 
@@ -166,204 +188,267 @@ Access policy details.
 
 Set googleIamV3AccessPolicy.details back to default value.
 
-Update details\_rules.
+Update details_rules.
 
 At most one of these can be specified:
 
-`--details-rules` =\[ `  conditions  ` = `  CONDITIONS  ` \],\[ `  description  ` = `  DESCRIPTION  ` \],\[ `  effect  ` = `  EFFECT  ` \],\[ `  excludedPrincipals  ` = `  EXCLUDEDPRINCIPALS  ` \],\[ `  operation  ` = `  OPERATION  ` \],\[ `  principals  ` = `  PRINCIPALS  ` \]
+`--details-rules` =\[ `conditions` = `CONDITIONS` \],\[ `description` = `DESCRIPTION` \],\[ `effect` = `EFFECT` \],\[ `excludedPrincipals` = `EXCLUDEDPRINCIPALS` \],\[ `operation` = `OPERATION` \],\[ `principals` = `PRINCIPALS` \]
 
-Set details\_rules to new value. A list of access policy rules.
+Set details_rules to new value. A list of access policy rules.
 
-  - `conditions`  
-    The conditions that determine whether this rule applies to a request. Conditions are identified by their key, which is the FQDN of the service that they are relevant to. For example: `"conditions": { "iam.googleapis.com": { "expression": <cel expression> } }` . Each rule is evaluated independently. If this rule does not apply to a request, other rules might still apply. Currently supported keys are as follows:
-      - `eventarc.googleapis.com` : Can use `CEL` functions that evaluate resource fields.
-    <!-- end list -->
-      - `iam.googleapis.com` : Can use `CEL` functions that evaluate [resource tags](https://cloud.google.com/iam/help/conditions/resource-tags) and combine them using boolean and logical operators. Other functions and operators are not supported.
-    <!-- end list -->
-      - `KEY`  
-        Sets `KEY` value.
-      - `VALUE`  
-        Sets `VALUE` value.
-          - `description`  
-            Description of the expression. This is a longer text which describes the expression, e.g. when hovered over it in a UI.
-          - `expression`  
-            Textual representation of an expression in Common Expression Language syntax.
-          - `location`  
-            String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
-          - `title`  
-            Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
-  - `description`  
-    Customer specified description of the rule. Must be less than or equal to 256 characters.
-  - `effect`  
-    The effect of the rule.
-  - `excludedPrincipals`  
-    The identities that are excluded from the access policy rule, even if they are listed in the `principals` . For example, you could add a Google group to the `principals` , then exclude specific users who belong to that group.
-  - `operation`  
-    Attributes that are used to determine whether this rule applies to a request.
-      - `excludedPermissions`  
-        Specifies the permissions that this rule excludes from the set of affected permissions given by `permissions` . If a permission appears in `permissions` `  and  ` in `excluded_permissions` then it will `  not  ` be subject to the policy effect.
-        
-        The excluded permissions can be specified using the same syntax as `permissions` .
-    
-      - `permissions`  
-        The permissions that are explicitly affected by this rule. Each permission uses the format `{service_fqdn}/{resource}.{verb}` , where `{service_fqdn}` is the fully qualified domain name for the service. Currently supported permissions are as follows:
-        
-          - `eventarc.googleapis.com/messageBuses.publish` .
-  - `principals`  
-    The identities for which this rule's effect governs using one or more permissions on Google Cloud resources. This field can contain the following values:
-      - `principal://goog/subject/{email_id}` : A specific Google Account. Includes Gmail, Cloud Identity, and Google Workspace user accounts. For example, `principal://goog/subject/alice@example.com` .
-    If an identifier that was previously set on a policy is soft deleted, then calls to read that policy will return the identifier with a deleted prefix. Users cannot set identifiers with this syntax.
-      - `deleted:principal://goog/subject/{email_id}?uid={uid}` : A specific Google Account that was deleted recently. For example, `deleted:principal://goog/subject/alice@example.com?uid=1234567890` . If the Google Account is recovered, this identifier reverts to the standard identifier for a Google Account.
-    <!-- end list -->
-      - `deleted:principalSet://goog/group/{group_id}?uid={uid}` : A Google group that was deleted recently. For example, `deleted:principalSet://goog/group/admins@example.com?uid=1234567890` . If the Google group is restored, this identifier reverts to the standard identifier for a Google group.
-    <!-- end list -->
-      - `deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/{service_account_id}?uid={uid}` : A Google Cloud service account that was deleted recently. For example, `deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@iam.gserviceaccount.com?uid=1234567890` . If the service account is undeleted, this identifier reverts to the standard identifier for a service account.
+`conditions`  
+The conditions that determine whether this rule applies to a request. Conditions are identified by their key, which is the FQDN of the service that they are relevant to. For example: `"conditions": { "iam.googleapis.com": { "expression": <cel expression> } }` . Each rule is evaluated independently. If this rule does not apply to a request, other rules might still apply. Currently supported keys are as follows:
+
+- `eventarc.googleapis.com` : Can use `CEL` functions that evaluate resource fields.
+
+- `iam.googleapis.com` : Can use `CEL` functions that evaluate [resource tags](https://cloud.google.com/iam/help/conditions/resource-tags) and combine them using boolean and logical operators. Other functions and operators are not supported.
+
+`KEY`  
+Sets `KEY` value.
+
+`VALUE`  
+Sets `VALUE` value.
+
+`description`  
+Description of the expression. This is a longer text which describes the expression, e.g. when hovered over it in a UI.
+
+`expression`  
+Textual representation of an expression in Common Expression Language syntax.
+
+`location`  
+String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
+
+`title`  
+Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
+
+`description`  
+Customer specified description of the rule. Must be less than or equal to 256 characters.
+
+`effect`  
+The effect of the rule.
+
+`excludedPrincipals`  
+The identities that are excluded from the access policy rule, even if they are listed in the `principals` . For example, you could add a Google group to the `principals` , then exclude specific users who belong to that group.
+
+`operation`  
+Attributes that are used to determine whether this rule applies to a request.
+
+`excludedPermissions`  
+Specifies the permissions that this rule excludes from the set of affected permissions given by `permissions` . If a permission appears in `permissions` `and` in `excluded_permissions` then it will `not` be subject to the policy effect.
+
+The excluded permissions can be specified using the same syntax as `permissions` .
+
+`permissions`  
+The permissions that are explicitly affected by this rule. Each permission uses the format `{service_fqdn}/{resource}.{verb}` , where `{service_fqdn}` is the fully qualified domain name for the service. Currently supported permissions are as follows:
+
+- `eventarc.googleapis.com/messageBuses.publish` .
+
+`principals`  
+The identities for which this rule's effect governs using one or more permissions on Google Cloud resources. This field can contain the following values:
+
+- `principal://goog/subject/{email_id}` : A specific Google Account. Includes Gmail, Cloud Identity, and Google Workspace user accounts. For example, `principal://goog/subject/alice@example.com` .
+
+If an identifier that was previously set on a policy is soft deleted, then calls to read that policy will return the identifier with a deleted prefix. Users cannot set identifiers with this syntax.
+
+- `deleted:principal://goog/subject/{email_id}?uid={uid}` : A specific Google Account that was deleted recently. For example, `deleted:principal://goog/subject/alice@example.com?uid=1234567890` . If the Google Account is recovered, this identifier reverts to the standard identifier for a Google Account.
+
+- `deleted:principalSet://goog/group/{group_id}?uid={uid}` : A Google group that was deleted recently. For example, `deleted:principalSet://goog/group/admins@example.com?uid=1234567890` . If the Google group is restored, this identifier reverts to the standard identifier for a Google group.
+
+- `deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/{service_account_id}?uid={uid}` : A Google Cloud service account that was deleted recently. For example, `deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@iam.gserviceaccount.com?uid=1234567890` . If the service account is undeleted, this identifier reverts to the standard identifier for a service account.
 
 `Shorthand Example:`
 
-    --details-rules=conditions={string={description=string,expression=string,location=string,title=string}},description=string,effect=string,excludedPrincipals=[string],operation={excludedPermissions=[string],permissions=[string]},principals=[string] --details-rules=conditions={string={description=string,expression=string,location=string,title=string}},description=string,effect=string,excludedPrincipals=[string],operation={excludedPermissions=[string],permissions=[string]},principals=[string]
+```
+--details-rules=conditions={string={description=string,expression=string,location=string,title=string}},description=string,effect=string,excludedPrincipals=[string],operation={excludedPermissions=[string],permissions=[string]},principals=[string] --details-rules=conditions={string={description=string,expression=string,location=string,title=string}},description=string,effect=string,excludedPrincipals=[string],operation={excludedPermissions=[string],permissions=[string]},principals=[string]
+```
 
 `JSON Example:`
 
-    --details-rules='[{"conditions": {"string": {"description": "string", "expression": "string", "location": "string", "title": "string"}}, "description": "string", "effect": "string", "excludedPrincipals": ["string"], "operation": {"excludedPermissions": ["string"], "permissions": ["string"]}, "principals": ["string"]}]'
+```
+--details-rules='[{"conditions": {"string": {"description": "string", "expression": "string", "location": "string", "title": "string"}}, "description": "string", "effect": "string", "excludedPrincipals": ["string"], "operation": {"excludedPermissions": ["string"], "permissions": ["string"]}, "principals": ["string"]}]'
+```
 
 `File Example:`
 
-    --details-rules=path_to_file.(yaml|json)
+```
+--details-rules=path_to_file.(yaml|json)
+```
 
 Or at least one of these can be specified:
 
-`--add-details-rules` =\[ `  conditions  ` = `  CONDITIONS  ` \],\[ `  description  ` = `  DESCRIPTION  ` \],\[ `  effect  ` = `  EFFECT  ` \],\[ `  excludedPrincipals  ` = `  EXCLUDEDPRINCIPALS  ` \],\[ `  operation  ` = `  OPERATION  ` \],\[ `  principals  ` = `  PRINCIPALS  ` \]
+`--add-details-rules` =\[ `conditions` = `CONDITIONS` \],\[ `description` = `DESCRIPTION` \],\[ `effect` = `EFFECT` \],\[ `excludedPrincipals` = `EXCLUDEDPRINCIPALS` \],\[ `operation` = `OPERATION` \],\[ `principals` = `PRINCIPALS` \]
 
-Add new value to details\_rules list. A list of access policy rules.
+Add new value to details_rules list. A list of access policy rules.
 
-  - `conditions`  
-    The conditions that determine whether this rule applies to a request. Conditions are identified by their key, which is the FQDN of the service that they are relevant to. For example: `"conditions": { "iam.googleapis.com": { "expression": <cel expression> } }` . Each rule is evaluated independently. If this rule does not apply to a request, other rules might still apply. Currently supported keys are as follows:
-      - `eventarc.googleapis.com` : Can use `CEL` functions that evaluate resource fields.
-    <!-- end list -->
-      - `iam.googleapis.com` : Can use `CEL` functions that evaluate [resource tags](https://cloud.google.com/iam/help/conditions/resource-tags) and combine them using boolean and logical operators. Other functions and operators are not supported.
-    <!-- end list -->
-      - `KEY`  
-        Sets `KEY` value.
-      - `VALUE`  
-        Sets `VALUE` value.
-          - `description`  
-            Description of the expression. This is a longer text which describes the expression, e.g. when hovered over it in a UI.
-          - `expression`  
-            Textual representation of an expression in Common Expression Language syntax.
-          - `location`  
-            String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
-          - `title`  
-            Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
-  - `description`  
-    Customer specified description of the rule. Must be less than or equal to 256 characters.
-  - `effect`  
-    The effect of the rule.
-  - `excludedPrincipals`  
-    The identities that are excluded from the access policy rule, even if they are listed in the `principals` . For example, you could add a Google group to the `principals` , then exclude specific users who belong to that group.
-  - `operation`  
-    Attributes that are used to determine whether this rule applies to a request.
-      - `excludedPermissions`  
-        Specifies the permissions that this rule excludes from the set of affected permissions given by `permissions` . If a permission appears in `permissions` `  and  ` in `excluded_permissions` then it will `  not  ` be subject to the policy effect.
-        
-        The excluded permissions can be specified using the same syntax as `permissions` .
-    
-      - `permissions`  
-        The permissions that are explicitly affected by this rule. Each permission uses the format `{service_fqdn}/{resource}.{verb}` , where `{service_fqdn}` is the fully qualified domain name for the service. Currently supported permissions are as follows:
-        
-          - `eventarc.googleapis.com/messageBuses.publish` .
-  - `principals`  
-    The identities for which this rule's effect governs using one or more permissions on Google Cloud resources. This field can contain the following values:
-      - `principal://goog/subject/{email_id}` : A specific Google Account. Includes Gmail, Cloud Identity, and Google Workspace user accounts. For example, `principal://goog/subject/alice@example.com` .
-    If an identifier that was previously set on a policy is soft deleted, then calls to read that policy will return the identifier with a deleted prefix. Users cannot set identifiers with this syntax.
-      - `deleted:principal://goog/subject/{email_id}?uid={uid}` : A specific Google Account that was deleted recently. For example, `deleted:principal://goog/subject/alice@example.com?uid=1234567890` . If the Google Account is recovered, this identifier reverts to the standard identifier for a Google Account.
-    <!-- end list -->
-      - `deleted:principalSet://goog/group/{group_id}?uid={uid}` : A Google group that was deleted recently. For example, `deleted:principalSet://goog/group/admins@example.com?uid=1234567890` . If the Google group is restored, this identifier reverts to the standard identifier for a Google group.
-    <!-- end list -->
-      - `deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/{service_account_id}?uid={uid}` : A Google Cloud service account that was deleted recently. For example, `deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@iam.gserviceaccount.com?uid=1234567890` . If the service account is undeleted, this identifier reverts to the standard identifier for a service account.
+`conditions`  
+The conditions that determine whether this rule applies to a request. Conditions are identified by their key, which is the FQDN of the service that they are relevant to. For example: `"conditions": { "iam.googleapis.com": { "expression": <cel expression> } }` . Each rule is evaluated independently. If this rule does not apply to a request, other rules might still apply. Currently supported keys are as follows:
+
+- `eventarc.googleapis.com` : Can use `CEL` functions that evaluate resource fields.
+
+- `iam.googleapis.com` : Can use `CEL` functions that evaluate [resource tags](https://cloud.google.com/iam/help/conditions/resource-tags) and combine them using boolean and logical operators. Other functions and operators are not supported.
+
+`KEY`  
+Sets `KEY` value.
+
+`VALUE`  
+Sets `VALUE` value.
+
+`description`  
+Description of the expression. This is a longer text which describes the expression, e.g. when hovered over it in a UI.
+
+`expression`  
+Textual representation of an expression in Common Expression Language syntax.
+
+`location`  
+String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
+
+`title`  
+Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
+
+`description`  
+Customer specified description of the rule. Must be less than or equal to 256 characters.
+
+`effect`  
+The effect of the rule.
+
+`excludedPrincipals`  
+The identities that are excluded from the access policy rule, even if they are listed in the `principals` . For example, you could add a Google group to the `principals` , then exclude specific users who belong to that group.
+
+`operation`  
+Attributes that are used to determine whether this rule applies to a request.
+
+`excludedPermissions`  
+Specifies the permissions that this rule excludes from the set of affected permissions given by `permissions` . If a permission appears in `permissions` `and` in `excluded_permissions` then it will `not` be subject to the policy effect.
+
+The excluded permissions can be specified using the same syntax as `permissions` .
+
+`permissions`  
+The permissions that are explicitly affected by this rule. Each permission uses the format `{service_fqdn}/{resource}.{verb}` , where `{service_fqdn}` is the fully qualified domain name for the service. Currently supported permissions are as follows:
+
+- `eventarc.googleapis.com/messageBuses.publish` .
+
+`principals`  
+The identities for which this rule's effect governs using one or more permissions on Google Cloud resources. This field can contain the following values:
+
+- `principal://goog/subject/{email_id}` : A specific Google Account. Includes Gmail, Cloud Identity, and Google Workspace user accounts. For example, `principal://goog/subject/alice@example.com` .
+
+If an identifier that was previously set on a policy is soft deleted, then calls to read that policy will return the identifier with a deleted prefix. Users cannot set identifiers with this syntax.
+
+- `deleted:principal://goog/subject/{email_id}?uid={uid}` : A specific Google Account that was deleted recently. For example, `deleted:principal://goog/subject/alice@example.com?uid=1234567890` . If the Google Account is recovered, this identifier reverts to the standard identifier for a Google Account.
+
+- `deleted:principalSet://goog/group/{group_id}?uid={uid}` : A Google group that was deleted recently. For example, `deleted:principalSet://goog/group/admins@example.com?uid=1234567890` . If the Google group is restored, this identifier reverts to the standard identifier for a Google group.
+
+- `deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/{service_account_id}?uid={uid}` : A Google Cloud service account that was deleted recently. For example, `deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@iam.gserviceaccount.com?uid=1234567890` . If the service account is undeleted, this identifier reverts to the standard identifier for a service account.
 
 `Shorthand Example:`
 
-    --add-details-rules=conditions={string={description=string,expression=string,location=string,title=string}},description=string,effect=string,excludedPrincipals=[string],operation={excludedPermissions=[string],permissions=[string]},principals=[string] --add-details-rules=conditions={string={description=string,expression=string,location=string,title=string}},description=string,effect=string,excludedPrincipals=[string],operation={excludedPermissions=[string],permissions=[string]},principals=[string]
+```
+--add-details-rules=conditions={string={description=string,expression=string,location=string,title=string}},description=string,effect=string,excludedPrincipals=[string],operation={excludedPermissions=[string],permissions=[string]},principals=[string] --add-details-rules=conditions={string={description=string,expression=string,location=string,title=string}},description=string,effect=string,excludedPrincipals=[string],operation={excludedPermissions=[string],permissions=[string]},principals=[string]
+```
 
 `JSON Example:`
 
-    --add-details-rules='[{"conditions": {"string": {"description": "string", "expression": "string", "location": "string", "title": "string"}}, "description": "string", "effect": "string", "excludedPrincipals": ["string"], "operation": {"excludedPermissions": ["string"], "permissions": ["string"]}, "principals": ["string"]}]'
+```
+--add-details-rules='[{"conditions": {"string": {"description": "string", "expression": "string", "location": "string", "title": "string"}}, "description": "string", "effect": "string", "excludedPrincipals": ["string"], "operation": {"excludedPermissions": ["string"], "permissions": ["string"]}, "principals": ["string"]}]'
+```
 
 `File Example:`
 
-    --add-details-rules=path_to_file.(yaml|json)
+```
+--add-details-rules=path_to_file.(yaml|json)
+```
 
 At most one of these can be specified:
 
-  - `--clear-details-rules`  
-    Clear details\_rules value and set to empty list.
+`--clear-details-rules`  
+Clear details_rules value and set to empty list.
 
-  - `--remove-details-rules` =\[ `  conditions  ` = `  CONDITIONS  ` \],\[ `  description  ` = `  DESCRIPTION  ` \],\[ `  effect  ` = `  EFFECT  ` \],\[ `  excludedPrincipals  ` = `  EXCLUDEDPRINCIPALS  ` \],\[ `  operation  ` = `  OPERATION  ` \],\[ `  principals  ` = `  PRINCIPALS  ` \]  
-    Remove existing value from details\_rules list. A list of access policy rules.
-    
-      - `conditions`  
-        The conditions that determine whether this rule applies to a request. Conditions are identified by their key, which is the FQDN of the service that they are relevant to. For example: `"conditions": { "iam.googleapis.com": { "expression": <cel expression> } }` . Each rule is evaluated independently. If this rule does not apply to a request, other rules might still apply. Currently supported keys are as follows:
-          - `eventarc.googleapis.com` : Can use `CEL` functions that evaluate resource fields.
-        <!-- end list -->
-          - `iam.googleapis.com` : Can use `CEL` functions that evaluate [resource tags](https://cloud.google.com/iam/help/conditions/resource-tags) and combine them using boolean and logical operators. Other functions and operators are not supported.
-        <!-- end list -->
-          - `KEY`  
-            Sets `KEY` value.
-          - `VALUE`  
-            Sets `VALUE` value.
-              - `description`  
-                Description of the expression. This is a longer text which describes the expression, e.g. when hovered over it in a UI.
-              - `expression`  
-                Textual representation of an expression in Common Expression Language syntax.
-              - `location`  
-                String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
-              - `title`  
-                Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
-      - `description`  
-        Customer specified description of the rule. Must be less than or equal to 256 characters.
-      - `effect`  
-        The effect of the rule.
-      - `excludedPrincipals`  
-        The identities that are excluded from the access policy rule, even if they are listed in the `principals` . For example, you could add a Google group to the `principals` , then exclude specific users who belong to that group.
-      - `operation`  
-        Attributes that are used to determine whether this rule applies to a request.
-          - `excludedPermissions`  
-            Specifies the permissions that this rule excludes from the set of affected permissions given by `permissions` . If a permission appears in `permissions` `  and  ` in `excluded_permissions` then it will `  not  ` be subject to the policy effect.
-            
-            The excluded permissions can be specified using the same syntax as `permissions` .
-        
-          - `permissions`  
-            The permissions that are explicitly affected by this rule. Each permission uses the format `{service_fqdn}/{resource}.{verb}` , where `{service_fqdn}` is the fully qualified domain name for the service. Currently supported permissions are as follows:
-            
-              - `eventarc.googleapis.com/messageBuses.publish` .
-      - `principals`  
-        The identities for which this rule's effect governs using one or more permissions on Google Cloud resources. This field can contain the following values:
-          - `principal://goog/subject/{email_id}` : A specific Google Account. Includes Gmail, Cloud Identity, and Google Workspace user accounts. For example, `principal://goog/subject/alice@example.com` .
-        If an identifier that was previously set on a policy is soft deleted, then calls to read that policy will return the identifier with a deleted prefix. Users cannot set identifiers with this syntax.
-          - `deleted:principal://goog/subject/{email_id}?uid={uid}` : A specific Google Account that was deleted recently. For example, `deleted:principal://goog/subject/alice@example.com?uid=1234567890` . If the Google Account is recovered, this identifier reverts to the standard identifier for a Google Account.
-        <!-- end list -->
-          - `deleted:principalSet://goog/group/{group_id}?uid={uid}` : A Google group that was deleted recently. For example, `deleted:principalSet://goog/group/admins@example.com?uid=1234567890` . If the Google group is restored, this identifier reverts to the standard identifier for a Google group.
-        <!-- end list -->
-          - `deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/{service_account_id}?uid={uid}` : A Google Cloud service account that was deleted recently. For example, `deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@iam.gserviceaccount.com?uid=1234567890` . If the service account is undeleted, this identifier reverts to the standard identifier for a service account.
-    
-    `Shorthand Example:`
-    
-        --remove-details-rules=conditions={string={description=string,expression=string,location=string,title=string}},description=string,effect=string,excludedPrincipals=[string],operation={excludedPermissions=[string],permissions=[string]},principals=[string] --remove-details-rules=conditions={string={description=string,expression=string,location=string,title=string}},description=string,effect=string,excludedPrincipals=[string],operation={excludedPermissions=[string],permissions=[string]},principals=[string]
-    
-    `JSON Example:`
-    
-        --remove-details-rules='[{"conditions": {"string": {"description": "string", "expression": "string", "location": "string", "title": "string"}}, "description": "string", "effect": "string", "excludedPrincipals": ["string"], "operation": {"excludedPermissions": ["string"], "permissions": ["string"]}, "principals": ["string"]}]'
-    
-    `File Example:`
-    
-        --remove-details-rules=path_to_file.(yaml|json)
+`--remove-details-rules` =\[ `conditions` = `CONDITIONS` \],\[ `description` = `DESCRIPTION` \],\[ `effect` = `EFFECT` \],\[ `excludedPrincipals` = `EXCLUDEDPRINCIPALS` \],\[ `operation` = `OPERATION` \],\[ `principals` = `PRINCIPALS` \]  
+Remove existing value from details_rules list. A list of access policy rules.
+
+`conditions`  
+The conditions that determine whether this rule applies to a request. Conditions are identified by their key, which is the FQDN of the service that they are relevant to. For example: `"conditions": { "iam.googleapis.com": { "expression": <cel expression> } }` . Each rule is evaluated independently. If this rule does not apply to a request, other rules might still apply. Currently supported keys are as follows:
+
+- `eventarc.googleapis.com` : Can use `CEL` functions that evaluate resource fields.
+
+- `iam.googleapis.com` : Can use `CEL` functions that evaluate [resource tags](https://cloud.google.com/iam/help/conditions/resource-tags) and combine them using boolean and logical operators. Other functions and operators are not supported.
+
+`KEY`  
+Sets `KEY` value.
+
+`VALUE`  
+Sets `VALUE` value.
+
+`description`  
+Description of the expression. This is a longer text which describes the expression, e.g. when hovered over it in a UI.
+
+`expression`  
+Textual representation of an expression in Common Expression Language syntax.
+
+`location`  
+String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
+
+`title`  
+Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
+
+`description`  
+Customer specified description of the rule. Must be less than or equal to 256 characters.
+
+`effect`  
+The effect of the rule.
+
+`excludedPrincipals`  
+The identities that are excluded from the access policy rule, even if they are listed in the `principals` . For example, you could add a Google group to the `principals` , then exclude specific users who belong to that group.
+
+`operation`  
+Attributes that are used to determine whether this rule applies to a request.
+
+`excludedPermissions`  
+Specifies the permissions that this rule excludes from the set of affected permissions given by `permissions` . If a permission appears in `permissions` `and` in `excluded_permissions` then it will `not` be subject to the policy effect.
+
+The excluded permissions can be specified using the same syntax as `permissions` .
+
+`permissions`  
+The permissions that are explicitly affected by this rule. Each permission uses the format `{service_fqdn}/{resource}.{verb}` , where `{service_fqdn}` is the fully qualified domain name for the service. Currently supported permissions are as follows:
+
+- `eventarc.googleapis.com/messageBuses.publish` .
+
+`principals`  
+The identities for which this rule's effect governs using one or more permissions on Google Cloud resources. This field can contain the following values:
+
+- `principal://goog/subject/{email_id}` : A specific Google Account. Includes Gmail, Cloud Identity, and Google Workspace user accounts. For example, `principal://goog/subject/alice@example.com` .
+
+If an identifier that was previously set on a policy is soft deleted, then calls to read that policy will return the identifier with a deleted prefix. Users cannot set identifiers with this syntax.
+
+- `deleted:principal://goog/subject/{email_id}?uid={uid}` : A specific Google Account that was deleted recently. For example, `deleted:principal://goog/subject/alice@example.com?uid=1234567890` . If the Google Account is recovered, this identifier reverts to the standard identifier for a Google Account.
+
+- `deleted:principalSet://goog/group/{group_id}?uid={uid}` : A Google group that was deleted recently. For example, `deleted:principalSet://goog/group/admins@example.com?uid=1234567890` . If the Google group is restored, this identifier reverts to the standard identifier for a Google group.
+
+- `deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/{service_account_id}?uid={uid}` : A Google Cloud service account that was deleted recently. For example, `deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@iam.gserviceaccount.com?uid=1234567890` . If the service account is undeleted, this identifier reverts to the standard identifier for a service account.
+
+`Shorthand Example:`
+
+```
+--remove-details-rules=conditions={string={description=string,expression=string,location=string,title=string}},description=string,effect=string,excludedPrincipals=[string],operation={excludedPermissions=[string],permissions=[string]},principals=[string] --remove-details-rules=conditions={string={description=string,expression=string,location=string,title=string}},description=string,effect=string,excludedPrincipals=[string],operation={excludedPermissions=[string],permissions=[string]},principals=[string]
+```
+
+`JSON Example:`
+
+```
+--remove-details-rules='[{"conditions": {"string": {"description": "string", "expression": "string", "location": "string", "title": "string"}}, "description": "string", "effect": "string", "excludedPrincipals": ["string"], "operation": {"excludedPermissions": ["string"], "permissions": ["string"]}, "principals": ["string"]}]'
+```
+
+`File Example:`
+
+```
+--remove-details-rules=path_to_file.(yaml|json)
+```
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 API REFERENCE
 
@@ -373,4 +458,6 @@ NOTES
 
 This variant is also available:
 
-    gcloud beta iam access-policies update
+```
+gcloud beta iam access-policies update
+```

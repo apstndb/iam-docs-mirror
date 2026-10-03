@@ -12,7 +12,7 @@ gcloud iam access-policies describe - get AccessPolicy instance
 
 SYNOPSIS
 
-`gcloud iam access-policies describe` ( `  ACCESS_POLICY  ` : `  --folder  ` = `  FOLDER  ` `  --location  ` = `  LOCATION  ` `  --organization  ` = `  ORGANIZATION  ` ) \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam access-policies describe` ( [`ACCESS_POLICY`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/describe#ACCESS_POLICY) : [`--folder`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/describe#--folder) = `FOLDER` [`--location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/describe#--location) = `LOCATION` [`--organization`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/describe#--organization) = `ORGANIZATION` ) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/describe#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -22,7 +22,9 @@ EXAMPLES
 
 To get the details of a single policy `my-policy` in organization `123` , run:
 
-    gcloud iam access-policies describe my-policy --organization=123 --location=global
+```
+gcloud iam access-policies describe my-policy --organization=123 --location=global
+```
 
 POSITIONAL ARGUMENTS
 
@@ -32,50 +34,50 @@ Format: `projects/{project_id}/locations/{location}/accessPolicies/{access_polic
 
 To set the `project` attribute:
 
-  - provide the argument `access_policy` on the command line with a fully specified name;
-  - provide the argument `--project` on the command line;
-  - set the property `core/project` . This resource can be one of the following types: \[iam.folders.locations.accessPolicies, iam.organizations.locations.accessPolicies, iam.projects.locations.accessPolicies\].
+- provide the argument `access_policy` on the command line with a fully specified name;
+- provide the argument `--project` on the command line;
+- set the property `core/project` . This resource can be one of the following types: \[iam.folders.locations.accessPolicies, iam.organizations.locations.accessPolicies, iam.projects.locations.accessPolicies\].
 
 This must be specified.
 
-  - `  ACCESS_POLICY  `  
-    ID of the accessPolicy or fully qualified identifier for the accessPolicy.
-    
-    To set the `access_policy` attribute:
-    
-      - provide the argument `access_policy` on the command line.
-    
-    This positional argument must be specified if any of the other arguments in this group are specified.
+`ACCESS_POLICY`  
+ID of the accessPolicy or fully qualified identifier for the accessPolicy.
 
-  - `--folder` = `  FOLDER  `  
-    The folder id of the accessPolicy resource.
-    
-    To set the `folder` attribute:
-    
-      - provide the argument `access_policy` on the command line with a fully specified name;
-      - provide the argument `--folder` on the command line. Must be specified for resource of type \[iam.folders.locations.accessPolicies\].
+To set the `access_policy` attribute:
 
-  - `--location` = `  LOCATION  `  
-    The location id of the accessPolicy resource.
-    
-    To set the `location` attribute:
-    
-      - provide the argument `access_policy` on the command line with a fully specified name;
-      - provide the argument `--location` on the command line.
+- provide the argument `access_policy` on the command line.
 
-  - `--organization` = `  ORGANIZATION  `  
-    The organization id of the accessPolicy resource.
-    
-    To set the `organization` attribute:
-    
-      - provide the argument `access_policy` on the command line with a fully specified name;
-      - provide the argument `--organization` on the command line. Must be specified for resource of type \[iam.organizations.locations.accessPolicies\].
+This positional argument must be specified if any of the other arguments in this group are specified.
+
+`--folder` = `FOLDER`  
+The folder id of the accessPolicy resource.
+
+To set the `folder` attribute:
+
+- provide the argument `access_policy` on the command line with a fully specified name;
+- provide the argument `--folder` on the command line. Must be specified for resource of type \[iam.folders.locations.accessPolicies\].
+
+`--location` = `LOCATION`  
+The location id of the accessPolicy resource.
+
+To set the `location` attribute:
+
+- provide the argument `access_policy` on the command line with a fully specified name;
+- provide the argument `--location` on the command line.
+
+`--organization` = `ORGANIZATION`  
+The organization id of the accessPolicy resource.
+
+To set the `organization` attribute:
+
+- provide the argument `access_policy` on the command line with a fully specified name;
+- provide the argument `--organization` on the command line. Must be specified for resource of type \[iam.organizations.locations.accessPolicies\].
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 API REFERENCE
 
@@ -85,4 +87,6 @@ NOTES
 
 This variant is also available:
 
-    gcloud beta iam access-policies describe
+```
+gcloud beta iam access-policies describe
+```

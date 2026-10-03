@@ -23,30 +23,30 @@ This page lists the IAM roles and permissions for Firebase Remote Config. To sea
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudconfig.admin" class="role-title add-link" data-text="Firebase Remote Config Admin" tabindex="-1">Firebase Remote Config Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudconfig.admin</code> )</p>
+<td>Firebase Remote Config Admin
+<p>( <code>roles/ cloudconfig.admin</code> )</p>
 <p>Full access to Firebase Remote Config resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudconfig.*</code></p>
+<td><p><code>cloudconfig.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudconfig.configs.get</code></li>
-<li><code dir="ltr" translate="no">cloudconfig.configs.update</code></li>
+<li><code>cloudconfig.configs.get</code></li>
+<li><code>cloudconfig.configs.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">firebase.clients.get</code></p>
-<p><code dir="ltr" translate="no">firebase.clients.list</code></p>
-<p><code dir="ltr" translate="no">firebase.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>firebase.clients.get</code></p>
+<p><code>firebase.clients.list</code></p>
+<p><code>firebase.projects.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudconfig.viewer" class="role-title add-link" data-text="Firebase Remote Config Viewer" tabindex="-1">Firebase Remote Config Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudconfig.viewer</code> )</p>
+<td>Firebase Remote Config Viewer
+<p>( <code>roles/ cloudconfig.viewer</code> )</p>
 <p>Read access to Firebase Remote Config resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudconfig.configs.get</code></p>
-<p><code dir="ltr" translate="no">firebase.clients.get</code></p>
-<p><code dir="ltr" translate="no">firebase.clients.list</code></p>
-<p><code dir="ltr" translate="no">firebase.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudconfig.configs.get</code></p>
+<p><code>firebase.clients.get</code></p>
+<p><code>firebase.clients.list</code></p>
+<p><code>firebase.projects.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -68,32 +68,32 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudconfig.serviceAgent" class="role-title add-link" data-text="Infrastructure Manager Service Agent" tabindex="-1">Infrastructure Manager Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudconfig.serviceAgent</code> )</p>
+<td>Infrastructure Manager Service Agent
+<p>( <code>roles/ cloudconfig.serviceAgent</code> )</p>
 <p>Gives Infrastructure Manager service agent access to managed resources</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">cloudbuild.builds.create</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.update</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.workerpools.use</code></p>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.actAs</code></p>
-<p><code dir="ltr" translate="no">iam.  serviceAccounts.  getAccessToken</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.route</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.use</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.create</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.delete</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.get</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.list</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.update</code></p>
-<p><code dir="ltr" translate="no">storage.objects.create</code></p>
-<p><code dir="ltr" translate="no">storage.objects.delete</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.list</code></p>
-<p><code dir="ltr" translate="no">storage.objects.update</code></p></td>
+<td><p><code>cloudbuild.builds.create</code></p>
+<p><code>cloudbuild.builds.get</code></p>
+<p><code>cloudbuild.builds.list</code></p>
+<p><code>cloudbuild.builds.update</code></p>
+<p><code>cloudbuild.workerpools.use</code></p>
+<p><code>iam.serviceAccounts.actAs</code></p>
+<p><code>iam. serviceAccounts. getAccessToken</code></p>
+<p><code>logging.logEntries.create</code></p>
+<p><code>logging.logEntries.route</code></p>
+<p><code>serviceusage.services.use</code></p>
+<p><code>storage.buckets.create</code></p>
+<p><code>storage.buckets.delete</code></p>
+<p><code>storage.buckets.get</code></p>
+<p><code>storage.buckets.list</code></p>
+<p><code>storage.buckets.update</code></p>
+<p><code>storage.objects.create</code></p>
+<p><code>storage.objects.delete</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.list</code></p>
+<p><code>storage.objects.update</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -113,45 +113,45 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudconfig.configs.get" class="permission-name add-link" data-text="cloudconfig.configs.get" tabindex="-1"><code dir="ltr" translate="no">cloudconfig.configs.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.admin">Firebase Remote Config Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudconfig.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.viewer">Firebase Remote Config Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudconfig.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.growthAdmin">Firebase Grow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.growthAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.growthViewer">Firebase Grow Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.growthViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudconfig.configs.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.admin">Firebase Remote Config Admin</a> ( <code>roles/ cloudconfig.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.viewer">Firebase Remote Config Viewer</a> ( <code>roles/ cloudconfig.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code>roles/ firebase.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code>roles/ firebase.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.growthAdmin">Firebase Grow Admin</a> ( <code>roles/ firebase.growthAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.growthViewer">Firebase Grow Viewer</a> ( <code>roles/ firebase.growthViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.sdkAdminServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code>roles/ firebase.sdkAdminServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudconfig.configs.update" class="permission-name add-link" data-text="cloudconfig.configs.update" tabindex="-1"><code dir="ltr" translate="no">cloudconfig.configs.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.admin">Firebase Remote Config Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudconfig.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.growthAdmin">Firebase Grow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.growthAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudconfig.configs.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.admin">Firebase Remote Config Admin</a> ( <code>roles/ cloudconfig.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code>roles/ firebase.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.growthAdmin">Firebase Grow Admin</a> ( <code>roles/ firebase.growthAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.sdkAdminServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code>roles/ firebase.sdkAdminServiceAgent</code> )</li>
 </ul></td>
 </tr>
 </tbody>

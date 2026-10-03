@@ -14,6 +14,6 @@ Use the filter to search for a service, [predefined role](https://docs.cloud.goo
 
 Click a result to see a page with additional details about the result:
 
-  - **Services** : Click the service's name to see all roles and permissions for that service.
-  - **Roles** : Click the role's name to see a description of the role and all of the permissions included in the role.
-  - **Permissions** : Click the permission's name to see a list of roles that include the permission.
+- **Services** : Click the service's name to see all roles and permissions for that service.
+- **Roles** : Click the role's name to see a description of the role and all of the permissions included in the role.
+- **Permissions** : Click the permission's name to see a list of roles that include the permission.

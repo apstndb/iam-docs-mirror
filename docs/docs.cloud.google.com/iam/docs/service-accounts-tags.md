@@ -7,7 +7,7 @@ data_source: docs.cloud.google.com
 ---
 
 > **Preview**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 This guide describes how to create and manage tags for service accounts.
@@ -22,10 +22,10 @@ Tags are attached to resources by creating a tag binding resource that links the
 
 To get the permissions that you need to manage tags, ask your administrator to grant you the following IAM roles:
 
-  - [Tag Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer) ( `roles/resourcemanager.tagViewer` ) on the resources the tags are attached to
-  - View and manage tags at the organization level: [Organization Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationViewer) ( `roles/resourcemanager.organizationViewer` ) on the organization
-  - Create, update, and delete tag definitions: [Tag Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin) ( `roles/resourcemanager.tagAdmin` ) on the resource you're creating, updating, or deleting tags for
-  - Attach and remove tags from resources: [Tag User](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser) ( `roles/resourcemanager.tagUser` ) on the tag value and the resources that you are attaching or removing the tag value to
+- [Tag Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer) ( `roles/resourcemanager.tagViewer` ) on the resources the tags are attached to
+- View and manage tags at the organization level: [Organization Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationViewer) ( `roles/resourcemanager.organizationViewer` ) on the organization
+- Create, update, and delete tag definitions: [Tag Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin) ( `roles/resourcemanager.tagAdmin` ) on the resource you're creating, updating, or deleting tags for
+- Attach and remove tags from resources: [Tag User](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser) ( `roles/resourcemanager.tagUser` ) on the tag value and the resources that you are attaching or removing the tag value to
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -47,17 +47,16 @@ To add a tag to existing service accounts, follow these steps:
 
 To attach a tag to a service account, you must create a tag binding resource by using the `gcloud resource-manager tags bindings create` command:
 
-``` 
+```
       gcloud resource-manager tags bindings create \
           --tag-value=TAGVALUE_NAME \
           --parent=RESOURCE_ID
-      
 ```
 
 Replace the following:
 
-  - `  TAGVALUE_NAME  ` : the permanent ID or namespaced name of the tag value that you attach to a resource—for example, `tagValues/567890123456` .
-  - `  RESOURCE_ID  ` : the unique id or email of the service account including the API domain name ( `//iam.googleapis.com/` ). For example, the full ID of a service account with unique id `1029384756` in project `test-project` is `//iam.googleapis.com/projects/test-project/serviceAccounts/1029384756` .
+- `TAGVALUE_NAME` : the permanent ID or namespaced name of the tag value that you attach to a resource—for example, `tagValues/567890123456` .
+- `RESOURCE_ID` : the unique id or email of the service account including the API domain name ( `//iam.googleapis.com/` ). For example, the full ID of a service account with unique id `1029384756` in project `test-project` is `//iam.googleapis.com/projects/test-project/serviceAccounts/1029384756` .
 
 ## List tags attached to resources
 
@@ -67,19 +66,18 @@ You can view a list of tag bindings directly attached to or inherited by the ser
 
 To get a list of tag bindings attached to a resource, use the `gcloud resource-manager tags bindings list` command:
 
-``` 
+```
       gcloud resource-manager tags bindings list \
           --parent=RESOURCE_ID
-      
 ```
 
 Replace the following:
 
-  - `  RESOURCE_ID  ` : the unique id or email of the service account including the API domain name ( `//iam.googleapis.com/` ). For example, the full ID of a service account with unique id `1029384756` in project `test-project` is `//iam.googleapis.com/projects/test-project/serviceAccounts/1029384756` .
+- `RESOURCE_ID` : the unique id or email of the service account including the API domain name ( `//iam.googleapis.com/` ). For example, the full ID of a service account with unique id `1029384756` in project `test-project` is `//iam.googleapis.com/projects/test-project/serviceAccounts/1029384756` .
 
 You should get a response similar to the following:
 
-``` 
+```
 name: tagBindings/%2F%2Fcloudresourcemanager.googleapis.com%2Fprojects%2F7890123456/tagValues/567890123456
           tagValue: tagValues/567890123456
           resource: //iam.googleapis.com/projects/test-project/serviceAccounts/1029384756
@@ -94,17 +92,16 @@ You can detach tags that have been directly attached to a service account. Inher
 
 To delete a tag binding, use the `gcloud resource-manager tags bindings delete` command:
 
-``` 
+```
       gcloud resource-manager tags bindings delete \
           --tag-value=TAGVALUE_NAME \
           --parent=RESOURCE_ID
-      
 ```
 
 Replace the following:
 
-  - `  TAGVALUE_NAME  ` : the permanent ID or namespaced name of the tag value that is attached—for example, `tagValues/567890123456` .
-  - `  RESOURCE_ID  ` : the unique id or email of the service account including the API domain name ( `//iam.googleapis.com/` ). For example, the full ID of a service account with unique id `1029384756` in project `test-project` is `//iam.googleapis.com/projects/test-project/serviceAccounts/1029384756` .
+- `TAGVALUE_NAME` : the permanent ID or namespaced name of the tag value that is attached—for example, `tagValues/567890123456` .
+- `RESOURCE_ID` : the unique id or email of the service account including the API domain name ( `//iam.googleapis.com/` ). For example, the full ID of a service account with unique id `1029384756` in project `test-project` is `//iam.googleapis.com/projects/test-project/serviceAccounts/1029384756` .
 
 ## Delete tag keys and values
 
@@ -116,5 +113,5 @@ You can use tags and IAM conditions to conditionally grant role bindings to user
 
 ## What's next
 
-  - See the other [services that support tags](https://docs.cloud.google.com/resource-manager/docs/tags/tags-supported-services) .
-  - See [Tags and access control](https://docs.cloud.google.com/iam/docs/tags-access-control) to learn how to use tags with IAM.
+- See the other [services that support tags](https://docs.cloud.google.com/resource-manager/docs/tags/tags-supported-services) .
+- See [Tags and access control](https://docs.cloud.google.com/iam/docs/tags-access-control) to learn how to use tags with IAM.

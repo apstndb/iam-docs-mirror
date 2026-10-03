@@ -8,20 +8,9 @@ data_source: docs.cloud.google.com
 
 Different types of relationships a user can have with a grant.
 
-Enums
-
-`CALLER_RELATIONSHIP_TYPE_UNSPECIFIED`
-
-Unspecified caller relationship type.
-
-`HAD_CREATED`
-
-The user created this grant by calling `CreateGrant` earlier.
-
-`CAN_APPROVE`
-
-The user is an approver for the entitlement that this grant is parented under and can currently approve/deny it.
-
-`HAD_APPROVED`
-
-The caller had successfully approved/denied this grant earlier.
+| Enums                                  |                                                                                                                  |
+|----------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| `CALLER_RELATIONSHIP_TYPE_UNSPECIFIED` | Unspecified caller relationship type.                                                                            |
+| `HAD_CREATED`                          | The user created this grant by calling `CreateGrant` earlier.                                                    |
+| `CAN_APPROVE`                          | The user is an approver for the entitlement that this grant is parented under and can currently approve/deny it. |
+| `HAD_APPROVED`                         | The caller had successfully approved/denied this grant earlier.                                                  |

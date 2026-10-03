@@ -6,15 +6,13 @@ description: A suite of tools to help you understand and manage your policies to
 data_source: docs.cloud.google.com
 ---
 
-  - [Resource](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest/v1/projects.locations.global#RESOURCE_REPRESENTATION)
-  - [Methods](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest/v1/projects.locations.global#METHODS_SUMMARY)
+- [Resource](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest/v1/projects.locations.global#RESOURCE_REPRESENTATION)
+- [Methods](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest/v1/projects.locations.global#METHODS_SUMMARY)
 
 ## Resource
 
 There is no persistent data associated with this resource.
 
-## Methods
-
-### `            recommendIamRoles           `
-
-Gets role suggestions for individual principals with AI assistance.
+| Methods                                                                                                                                                  |                                                                     |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| [`recommendIamRoles`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest/v1/projects.locations.global/recommendIamRoles) | Gets role suggestions for individual principals with AI assistance. |

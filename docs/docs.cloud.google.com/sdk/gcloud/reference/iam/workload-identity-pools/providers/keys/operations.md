@@ -12,7 +12,7 @@ gcloud iam workload-identity-pools providers keys operations - manage IAM worklo
 
 SYNOPSIS
 
-`gcloud iam workload-identity-pools providers keys operations` `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam workload-identity-pools providers keys operations` [`COMMAND`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/keys/operations#COMMAND) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/keys/operations#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -20,13 +20,13 @@ Commands for managing IAM workload identity pool provider key long running opera
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --help  ` .
+These flags are available to all commands: [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 COMMANDS
 
-`  COMMAND  ` is one of the following:
+`COMMAND` is one of the following:
 
-  - `  describe  `  
-    Describe a workload identity pool provider key operation.
+[`describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/keys/operations/describe)  
+Describe a workload identity pool provider key operation.

@@ -23,252 +23,252 @@ This page lists the IAM roles and permissions for Recommendations. To search thr
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="automlrecommendations.admin" class="role-title add-link" data-text="Recommendations AI Admin Beta" tabindex="-1">Recommendations AI Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
+<td>Recommendations AI Admin <sup>Beta</sup>
+<p>( <code>roles/ automlrecommendations.admin</code> )</p>
 <p>Full access to all Recommendations AI resources.</p></td>
-<td><p><code dir="ltr" translate="no">automlrecommendations.*</code></p>
+<td><p><code>automlrecommendations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automlrecommendations.  apiKeys.  create</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  apiKeys.  delete</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  apiKeys.  list</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  create</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  delete</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  get</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  list</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  update</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogs.  getStats</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogs.  list</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogs.  update</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  eventStores.  getStats</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  eventStores.  list</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  events.  create</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  events.  get</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  events.  list</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  events.  purge</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  events.  rejoin</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  placements.  create</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  placements.  delete</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  placements.  getStats</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  placements.  list</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  recommendations.  create</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  recommendations.  delete</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  recommendations.  list</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  recommendations.  pause</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  recommendations.  resume</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  recommendations.  update</code></li>
+<li><code>automlrecommendations. apiKeys. create</code></li>
+<li><code>automlrecommendations. apiKeys. delete</code></li>
+<li><code>automlrecommendations. apiKeys. list</code></li>
+<li><code>automlrecommendations. catalogItems. create</code></li>
+<li><code>automlrecommendations. catalogItems. delete</code></li>
+<li><code>automlrecommendations. catalogItems. get</code></li>
+<li><code>automlrecommendations. catalogItems. list</code></li>
+<li><code>automlrecommendations. catalogItems. update</code></li>
+<li><code>automlrecommendations. catalogs. getStats</code></li>
+<li><code>automlrecommendations. catalogs. list</code></li>
+<li><code>automlrecommendations. catalogs. update</code></li>
+<li><code>automlrecommendations. eventStores. getStats</code></li>
+<li><code>automlrecommendations. eventStores. list</code></li>
+<li><code>automlrecommendations. events. create</code></li>
+<li><code>automlrecommendations. events. get</code></li>
+<li><code>automlrecommendations. events. list</code></li>
+<li><code>automlrecommendations. events. purge</code></li>
+<li><code>automlrecommendations. events. rejoin</code></li>
+<li><code>automlrecommendations. placements. create</code></li>
+<li><code>automlrecommendations. placements. delete</code></li>
+<li><code>automlrecommendations. placements. getStats</code></li>
+<li><code>automlrecommendations. placements. list</code></li>
+<li><code>automlrecommendations. recommendations. create</code></li>
+<li><code>automlrecommendations. recommendations. delete</code></li>
+<li><code>automlrecommendations. recommendations. list</code></li>
+<li><code>automlrecommendations. recommendations. pause</code></li>
+<li><code>automlrecommendations. recommendations. resume</code></li>
+<li><code>automlrecommendations. recommendations. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">retail.catalogs.list</code></p>
-<p><code dir="ltr" translate="no">retail.catalogs.update</code></p>
-<p><code dir="ltr" translate="no">retail.operations.*</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>retail.catalogs.list</code></p>
+<p><code>retail.catalogs.update</code></p>
+<p><code>retail.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">retail.operations.get</code></li>
-<li><code dir="ltr" translate="no">retail.operations.list</code></li>
+<li><code>retail.operations.get</code></li>
+<li><code>retail.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">retail.placements.*</code></p>
+<p><code>retail.placements.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">retail.placements.predict</code></li>
-<li><code dir="ltr" translate="no">retail.placements.search</code></li>
+<li><code>retail.placements.predict</code></li>
+<li><code>retail.placements.search</code></li>
 </ul>
-<p><code dir="ltr" translate="no">retail.products.create</code></p>
-<p><code dir="ltr" translate="no">retail.products.delete</code></p>
-<p><code dir="ltr" translate="no">retail.products.export</code></p>
-<p><code dir="ltr" translate="no">retail.products.get</code></p>
-<p><code dir="ltr" translate="no">retail.products.import</code></p>
-<p><code dir="ltr" translate="no">retail.products.list</code></p>
-<p><code dir="ltr" translate="no">retail.products.purge</code></p>
-<p><code dir="ltr" translate="no">retail.products.update</code></p>
-<p><code dir="ltr" translate="no">retail.retailProjects.*</code></p>
+<p><code>retail.products.create</code></p>
+<p><code>retail.products.delete</code></p>
+<p><code>retail.products.export</code></p>
+<p><code>retail.products.get</code></p>
+<p><code>retail.products.import</code></p>
+<p><code>retail.products.list</code></p>
+<p><code>retail.products.purge</code></p>
+<p><code>retail.products.update</code></p>
+<p><code>retail.retailProjects.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">retail.  retailProjects.  acceptDataTerms</code></li>
-<li><code dir="ltr" translate="no">retail.retailProjects.get</code></li>
+<li><code>retail. retailProjects. acceptDataTerms</code></li>
+<li><code>retail.retailProjects.get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">retail.userEvents.*</code></p>
+<p><code>retail.userEvents.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">retail.userEvents.create</code></li>
-<li><code dir="ltr" translate="no">retail.userEvents.import</code></li>
-<li><code dir="ltr" translate="no">retail.userEvents.purge</code></li>
-<li><code dir="ltr" translate="no">retail.userEvents.rejoin</code></li>
+<li><code>retail.userEvents.create</code></li>
+<li><code>retail.userEvents.import</code></li>
+<li><code>retail.userEvents.purge</code></li>
+<li><code>retail.userEvents.rejoin</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="automlrecommendations.editor" class="role-title add-link" data-text="Recommendations AI Editor Beta" tabindex="-1">Recommendations AI Editor <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
+<td>Recommendations AI Editor <sup>Beta</sup>
+<p>( <code>roles/ automlrecommendations.editor</code> )</p>
 <p>Editor of all Recommendations AI resources.</p></td>
-<td><p><code dir="ltr" translate="no">automlrecommendations.  apiKeys.  create</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  apiKeys.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  catalogItems.*</code></p>
+<td><p><code>automlrecommendations. apiKeys. create</code></p>
+<p><code>automlrecommendations. apiKeys. list</code></p>
+<p><code>automlrecommendations. catalogItems.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  create</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  delete</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  get</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  list</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  update</code></li>
+<li><code>automlrecommendations. catalogItems. create</code></li>
+<li><code>automlrecommendations. catalogItems. delete</code></li>
+<li><code>automlrecommendations. catalogItems. get</code></li>
+<li><code>automlrecommendations. catalogItems. list</code></li>
+<li><code>automlrecommendations. catalogItems. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">automlrecommendations.  catalogs.  getStats</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  catalogs.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  eventStores.*</code></p>
+<p><code>automlrecommendations. catalogs. getStats</code></p>
+<p><code>automlrecommendations. catalogs. list</code></p>
+<p><code>automlrecommendations. eventStores.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automlrecommendations.  eventStores.  getStats</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  eventStores.  list</code></li>
+<li><code>automlrecommendations. eventStores. getStats</code></li>
+<li><code>automlrecommendations. eventStores. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">automlrecommendations.  events.  create</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  events.  get</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  events.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  placements.  create</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  placements.  getStats</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  placements.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  recommendations.  create</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  recommendations.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  recommendations.  pause</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  recommendations.  resume</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  recommendations.  update</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">retail.catalogs.list</code></p>
-<p><code dir="ltr" translate="no">retail.catalogs.update</code></p>
-<p><code dir="ltr" translate="no">retail.operations.*</code></p>
+<p><code>automlrecommendations. events. create</code></p>
+<p><code>automlrecommendations. events. get</code></p>
+<p><code>automlrecommendations. events. list</code></p>
+<p><code>automlrecommendations. placements. create</code></p>
+<p><code>automlrecommendations. placements. getStats</code></p>
+<p><code>automlrecommendations. placements. list</code></p>
+<p><code>automlrecommendations. recommendations. create</code></p>
+<p><code>automlrecommendations. recommendations. list</code></p>
+<p><code>automlrecommendations. recommendations. pause</code></p>
+<p><code>automlrecommendations. recommendations. resume</code></p>
+<p><code>automlrecommendations. recommendations. update</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>retail.catalogs.list</code></p>
+<p><code>retail.catalogs.update</code></p>
+<p><code>retail.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">retail.operations.get</code></li>
-<li><code dir="ltr" translate="no">retail.operations.list</code></li>
+<li><code>retail.operations.get</code></li>
+<li><code>retail.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">retail.placements.*</code></p>
+<p><code>retail.placements.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">retail.placements.predict</code></li>
-<li><code dir="ltr" translate="no">retail.placements.search</code></li>
+<li><code>retail.placements.predict</code></li>
+<li><code>retail.placements.search</code></li>
 </ul>
-<p><code dir="ltr" translate="no">retail.products.create</code></p>
-<p><code dir="ltr" translate="no">retail.products.delete</code></p>
-<p><code dir="ltr" translate="no">retail.products.export</code></p>
-<p><code dir="ltr" translate="no">retail.products.get</code></p>
-<p><code dir="ltr" translate="no">retail.products.import</code></p>
-<p><code dir="ltr" translate="no">retail.products.list</code></p>
-<p><code dir="ltr" translate="no">retail.products.update</code></p>
-<p><code dir="ltr" translate="no">retail.retailProjects.get</code></p>
-<p><code dir="ltr" translate="no">retail.userEvents.create</code></p>
-<p><code dir="ltr" translate="no">retail.userEvents.import</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<p><code>retail.products.create</code></p>
+<p><code>retail.products.delete</code></p>
+<p><code>retail.products.export</code></p>
+<p><code>retail.products.get</code></p>
+<p><code>retail.products.import</code></p>
+<p><code>retail.products.list</code></p>
+<p><code>retail.products.update</code></p>
+<p><code>retail.retailProjects.get</code></p>
+<p><code>retail.userEvents.create</code></p>
+<p><code>retail.userEvents.import</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="automlrecommendations.viewer" class="role-title add-link" data-text="Recommendations AI Viewer Beta" tabindex="-1">Recommendations AI Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  automlrecommendations.viewer</code> )</p>
-<p>Viewer of all Recommendations resources except <code dir="ltr" translate="no">apiKeys</code> . To view all resources, including <code dir="ltr" translate="no">apiKeys</code> , grant the Recommendations AI Admin Viewer role ( <code dir="ltr" translate="no">roles/automlrecommendations.adminViewer</code> ).</p></td>
-<td><p><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  get</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  catalogs.  getStats</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  catalogs.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  eventStores.*</code></p>
+<td>Recommendations AI Viewer <sup>Beta</sup>
+<p>( <code>roles/ automlrecommendations.viewer</code> )</p>
+<p>Viewer of all Recommendations resources except <code>apiKeys</code> . To view all resources, including <code>apiKeys</code> , grant the Recommendations AI Admin Viewer role ( <code>roles/automlrecommendations.adminViewer</code> ).</p></td>
+<td><p><code>automlrecommendations. catalogItems. get</code></p>
+<p><code>automlrecommendations. catalogItems. list</code></p>
+<p><code>automlrecommendations. catalogs. getStats</code></p>
+<p><code>automlrecommendations. catalogs. list</code></p>
+<p><code>automlrecommendations. eventStores.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automlrecommendations.  eventStores.  getStats</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  eventStores.  list</code></li>
+<li><code>automlrecommendations. eventStores. getStats</code></li>
+<li><code>automlrecommendations. eventStores. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">automlrecommendations.  events.  get</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  events.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  placements.  getStats</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  placements.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  recommendations.  list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">retail.catalogs.list</code></p>
-<p><code dir="ltr" translate="no">retail.operations.*</code></p>
+<p><code>automlrecommendations. events. get</code></p>
+<p><code>automlrecommendations. events. list</code></p>
+<p><code>automlrecommendations. placements. getStats</code></p>
+<p><code>automlrecommendations. placements. list</code></p>
+<p><code>automlrecommendations. recommendations. list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>retail.catalogs.list</code></p>
+<p><code>retail.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">retail.operations.get</code></li>
-<li><code dir="ltr" translate="no">retail.operations.list</code></li>
+<li><code>retail.operations.get</code></li>
+<li><code>retail.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">retail.placements.*</code></p>
+<p><code>retail.placements.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">retail.placements.predict</code></li>
-<li><code dir="ltr" translate="no">retail.placements.search</code></li>
+<li><code>retail.placements.predict</code></li>
+<li><code>retail.placements.search</code></li>
 </ul>
-<p><code dir="ltr" translate="no">retail.products.export</code></p>
-<p><code dir="ltr" translate="no">retail.products.get</code></p>
-<p><code dir="ltr" translate="no">retail.products.list</code></p>
-<p><code dir="ltr" translate="no">retail.retailProjects.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<p><code>retail.products.export</code></p>
+<p><code>retail.products.get</code></p>
+<p><code>retail.products.list</code></p>
+<p><code>retail.retailProjects.get</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="automlrecommendations.adminViewer" class="role-title add-link" data-text="Recommendations AI Admin Viewer Beta" tabindex="-1">Recommendations AI Admin Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
+<td>Recommendations AI Admin Viewer <sup>Beta</sup>
+<p>( <code>roles/ automlrecommendations.adminViewer</code> )</p>
 <p>Viewer of all Recommendations AI resources.</p></td>
-<td><p><code dir="ltr" translate="no">automlrecommendations.  apiKeys.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  get</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  catalogs.  getStats</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  catalogs.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  eventStores.*</code></p>
+<td><p><code>automlrecommendations. apiKeys. list</code></p>
+<p><code>automlrecommendations. catalogItems. get</code></p>
+<p><code>automlrecommendations. catalogItems. list</code></p>
+<p><code>automlrecommendations. catalogs. getStats</code></p>
+<p><code>automlrecommendations. catalogs. list</code></p>
+<p><code>automlrecommendations. eventStores.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automlrecommendations.  eventStores.  getStats</code></li>
-<li><code dir="ltr" translate="no">automlrecommendations.  eventStores.  list</code></li>
+<li><code>automlrecommendations. eventStores. getStats</code></li>
+<li><code>automlrecommendations. eventStores. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">automlrecommendations.  events.  get</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  events.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  placements.  getStats</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  placements.  list</code></p>
-<p><code dir="ltr" translate="no">automlrecommendations.  recommendations.  list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">retail.catalogs.list</code></p>
-<p><code dir="ltr" translate="no">retail.operations.*</code></p>
+<p><code>automlrecommendations. events. get</code></p>
+<p><code>automlrecommendations. events. list</code></p>
+<p><code>automlrecommendations. placements. getStats</code></p>
+<p><code>automlrecommendations. placements. list</code></p>
+<p><code>automlrecommendations. recommendations. list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>retail.catalogs.list</code></p>
+<p><code>retail.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">retail.operations.get</code></li>
-<li><code dir="ltr" translate="no">retail.operations.list</code></li>
+<li><code>retail.operations.get</code></li>
+<li><code>retail.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">retail.placements.*</code></p>
+<p><code>retail.placements.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">retail.placements.predict</code></li>
-<li><code dir="ltr" translate="no">retail.placements.search</code></li>
+<li><code>retail.placements.predict</code></li>
+<li><code>retail.placements.search</code></li>
 </ul>
-<p><code dir="ltr" translate="no">retail.products.export</code></p>
-<p><code dir="ltr" translate="no">retail.products.get</code></p>
-<p><code dir="ltr" translate="no">retail.products.list</code></p>
-<p><code dir="ltr" translate="no">retail.retailProjects.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<p><code>retail.products.export</code></p>
+<p><code>retail.products.get</code></p>
+<p><code>retail.products.list</code></p>
+<p><code>retail.retailProjects.get</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -290,503 +290,127 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="automlrecommendations.serviceAgent" class="role-title add-link" data-text="Recommendations AI Service Agent" tabindex="-1">Recommendations AI Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  automlrecommendations.serviceAgent</code> )</p>
+<td>Recommendations AI Service Agent
+<p>( <code>roles/ automlrecommendations.serviceAgent</code> )</p>
 <p>Recommendations AI service uploads catalog feeds from Cloud Storage, reports results to the customer Cloud Storage bucket, writes logs to customer projects, and writes and reads Stackdriver metrics for customer projects.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">bigquery.datasets.create</code></p>
-<p><code dir="ltr" translate="no">bigquery.datasets.get</code></p>
-<p><code dir="ltr" translate="no">bigquery.jobs.create</code></p>
-<p><code dir="ltr" translate="no">bigquery.jobs.get</code></p>
-<p><code dir="ltr" translate="no">bigquery.jobs.list</code></p>
-<p><code dir="ltr" translate="no">bigquery.jobs.update</code></p>
-<p><code dir="ltr" translate="no">bigquery.tables.create</code></p>
-<p><code dir="ltr" translate="no">bigquery.tables.export</code></p>
-<p><code dir="ltr" translate="no">bigquery.tables.get</code></p>
-<p><code dir="ltr" translate="no">bigquery.tables.getData</code></p>
-<p><code dir="ltr" translate="no">bigquery.tables.list</code></p>
-<p><code dir="ltr" translate="no">bigquery.tables.update</code></p>
-<p><code dir="ltr" translate="no">bigquery.tables.updateData</code></p>
-<p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
-<p><code dir="ltr" translate="no">dataflow.jobs.*</code></p>
+<td><p><code>bigquery.datasets.create</code></p>
+<p><code>bigquery.datasets.get</code></p>
+<p><code>bigquery.jobs.create</code></p>
+<p><code>bigquery.jobs.get</code></p>
+<p><code>bigquery.jobs.list</code></p>
+<p><code>bigquery.jobs.update</code></p>
+<p><code>bigquery.tables.create</code></p>
+<p><code>bigquery.tables.export</code></p>
+<p><code>bigquery.tables.get</code></p>
+<p><code>bigquery.tables.getData</code></p>
+<p><code>bigquery.tables.list</code></p>
+<p><code>bigquery.tables.update</code></p>
+<p><code>bigquery.tables.updateData</code></p>
+<p><code>cloudnotifications. activities. list</code></p>
+<p><code>dataflow.jobs.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">dataflow.jobs.cancel</code></li>
-<li><code dir="ltr" translate="no">dataflow.jobs.create</code></li>
-<li><code dir="ltr" translate="no">dataflow.jobs.get</code></li>
-<li><code dir="ltr" translate="no">dataflow.jobs.list</code></li>
-<li><code dir="ltr" translate="no">dataflow.jobs.snapshot</code></li>
-<li><code dir="ltr" translate="no">dataflow.jobs.updateContents</code></li>
+<li><code>dataflow.jobs.cancel</code></li>
+<li><code>dataflow.jobs.create</code></li>
+<li><code>dataflow.jobs.get</code></li>
+<li><code>dataflow.jobs.list</code></li>
+<li><code>dataflow.jobs.snapshot</code></li>
+<li><code>dataflow.jobs.updateContents</code></li>
 </ul>
-<p><code dir="ltr" translate="no">dataflow.messages.list</code></p>
-<p><code dir="ltr" translate="no">dataflow.metrics.get</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.route</code></p>
-<p><code dir="ltr" translate="no">monitoring.alertPolicies.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">monitoring.alerts.*</code></p>
+<p><code>dataflow.messages.list</code></p>
+<p><code>dataflow.metrics.get</code></p>
+<p><code>logging.logEntries.create</code></p>
+<p><code>logging.logEntries.route</code></p>
+<p><code>monitoring.alertPolicies.get</code></p>
+<p><code>monitoring.alertPolicies.list</code></p>
+<p><code>monitoring. alertPolicies. listEffectiveTags</code></p>
+<p><code>monitoring. alertPolicies. listTagBindings</code></p>
+<p><code>monitoring.alerts.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.alerts.get</code></li>
-<li><code dir="ltr" translate="no">monitoring.alerts.list</code></li>
+<li><code>monitoring.alerts.get</code></li>
+<li><code>monitoring.alerts.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.dashboards.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.dashboards.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  dashboards.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">monitoring.  dashboards.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">monitoring.groups.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.groups.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  create</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  get</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.*</code></p>
+<p><code>monitoring.dashboards.get</code></p>
+<p><code>monitoring.dashboards.list</code></p>
+<p><code>monitoring. dashboards. listEffectiveTags</code></p>
+<p><code>monitoring. dashboards. listTagBindings</code></p>
+<p><code>monitoring.groups.get</code></p>
+<p><code>monitoring.groups.list</code></p>
+<p><code>monitoring. metricDescriptors. create</code></p>
+<p><code>monitoring. metricDescriptors. get</code></p>
+<p><code>monitoring. metricDescriptors. list</code></p>
+<p><code>monitoring. monitoredResourceDescriptors.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  get</code></li>
-<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></li>
+<li><code>monitoring. monitoredResourceDescriptors. get</code></li>
+<li><code>monitoring. monitoredResourceDescriptors. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.*</code></p>
+<p><code>monitoring. notificationChannelDescriptors.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.  get</code></li>
-<li><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.  list</code></li>
+<li><code>monitoring. notificationChannelDescriptors. get</code></li>
+<li><code>monitoring. notificationChannelDescriptors. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.  notificationChannels.  get</code></p>
-<p><code dir="ltr" translate="no">monitoring.  notificationChannels.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.services.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.services.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.slos.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.slos.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.snoozes.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.snoozes.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.*</code></p>
+<p><code>monitoring. notificationChannels. get</code></p>
+<p><code>monitoring. notificationChannels. list</code></p>
+<p><code>monitoring.services.get</code></p>
+<p><code>monitoring.services.list</code></p>
+<p><code>monitoring.slos.get</code></p>
+<p><code>monitoring.slos.list</code></p>
+<p><code>monitoring.snoozes.get</code></p>
+<p><code>monitoring.snoozes.list</code></p>
+<p><code>monitoring.timeSeries.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.timeSeries.create</code></li>
-<li><code dir="ltr" translate="no">monitoring.timeSeries.list</code></li>
+<li><code>monitoring.timeSeries.create</code></li>
+<li><code>monitoring.timeSeries.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.  uptimeCheckConfigs.  get</code></p>
-<p><code dir="ltr" translate="no">monitoring.  uptimeCheckConfigs.  list</code></p>
-<p><code dir="ltr" translate="no">opsconfigmonitoring.  resourceMetadata.  list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">stackdriver.projects.get</code></p>
-<p><code dir="ltr" translate="no">stackdriver.  resourceMetadata.  list</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.create</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.create</code></p>
-<p><code dir="ltr" translate="no">storage.objects.delete</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.list</code></p>
-<p><code dir="ltr" translate="no">storage.objects.update</code></p></td>
+<p><code>monitoring. uptimeCheckConfigs. get</code></p>
+<p><code>monitoring. uptimeCheckConfigs. list</code></p>
+<p><code>opsconfigmonitoring. resourceMetadata. list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>stackdriver.projects.get</code></p>
+<p><code>stackdriver. resourceMetadata. list</code></p>
+<p><code>storage.buckets.create</code></p>
+<p><code>storage.buckets.get</code></p>
+<p><code>storage.objects.create</code></p>
+<p><code>storage.objects.delete</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.list</code></p>
+<p><code>storage.objects.update</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Recommendations permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="automlrecommendations.apiKeys.create" class="permission-name add-link" data-text="automlrecommendations.apiKeys.create" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  apiKeys.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.apiKeys.delete" class="permission-name add-link" data-text="automlrecommendations.apiKeys.delete" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  apiKeys.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.apiKeys.list" class="permission-name add-link" data-text="automlrecommendations.apiKeys.list" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  apiKeys.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer">Recommendations AI Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.catalogItems.create" class="permission-name add-link" data-text="automlrecommendations.catalogItems.create" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.catalogItems.delete" class="permission-name add-link" data-text="automlrecommendations.catalogItems.delete" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.catalogItems.get" class="permission-name add-link" data-text="automlrecommendations.catalogItems.get" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer">Recommendations AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer">Retail Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer">Recommendations AI Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover">Retail Merchant Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantApprover</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator">Retail Merchant Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.catalogItems.list" class="permission-name add-link" data-text="automlrecommendations.catalogItems.list" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer">Recommendations AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer">Retail Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer">Recommendations AI Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover">Retail Merchant Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantApprover</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator">Retail Merchant Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.catalogItems.update" class="permission-name add-link" data-text="automlrecommendations.catalogItems.update" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  catalogItems.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.catalogs.getStats" class="permission-name add-link" data-text="automlrecommendations.catalogs.getStats" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  catalogs.  getStats</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer">Recommendations AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer">Retail Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer">Recommendations AI Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover">Retail Merchant Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantApprover</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator">Retail Merchant Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.catalogs.list" class="permission-name add-link" data-text="automlrecommendations.catalogs.list" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  catalogs.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer">Recommendations AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer">Retail Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer">Recommendations AI Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover">Retail Merchant Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantApprover</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator">Retail Merchant Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.catalogs.update" class="permission-name add-link" data-text="automlrecommendations.catalogs.update" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  catalogs.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.eventStores.getStats" class="permission-name add-link" data-text="automlrecommendations.eventStores.getStats" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  eventStores.  getStats</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer">Recommendations AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer">Retail Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer">Recommendations AI Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover">Retail Merchant Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantApprover</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator">Retail Merchant Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.eventStores.list" class="permission-name add-link" data-text="automlrecommendations.eventStores.list" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  eventStores.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer">Recommendations AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer">Recommendations AI Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.events.create" class="permission-name add-link" data-text="automlrecommendations.events.create" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  events.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.events.get" class="permission-name add-link" data-text="automlrecommendations.events.get" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  events.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer">Recommendations AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer">Recommendations AI Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.events.list" class="permission-name add-link" data-text="automlrecommendations.events.list" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  events.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer">Recommendations AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer">Retail Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer">Recommendations AI Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover">Retail Merchant Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantApprover</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator">Retail Merchant Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.events.purge" class="permission-name add-link" data-text="automlrecommendations.events.purge" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  events.  purge</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.events.rejoin" class="permission-name add-link" data-text="automlrecommendations.events.rejoin" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  events.  rejoin</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.placements.create" class="permission-name add-link" data-text="automlrecommendations.placements.create" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  placements.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.placements.delete" class="permission-name add-link" data-text="automlrecommendations.placements.delete" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  placements.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.placements.getStats" class="permission-name add-link" data-text="automlrecommendations.placements.getStats" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  placements.  getStats</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer">Recommendations AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer">Retail Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer">Recommendations AI Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover">Retail Merchant Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantApprover</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator">Retail Merchant Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.placements.list" class="permission-name add-link" data-text="automlrecommendations.placements.list" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  placements.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer">Recommendations AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer">Retail Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer">Recommendations AI Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover">Retail Merchant Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantApprover</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator">Retail Merchant Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.recommendations.create" class="permission-name add-link" data-text="automlrecommendations.recommendations.create" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  recommendations.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.recommendations.delete" class="permission-name add-link" data-text="automlrecommendations.recommendations.delete" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  recommendations.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.recommendations.list" class="permission-name add-link" data-text="automlrecommendations.recommendations.list" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  recommendations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer">Recommendations AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer">Retail Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer">Recommendations AI Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover">Retail Merchant Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantApprover</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator">Retail Merchant Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.recommendations.pause" class="permission-name add-link" data-text="automlrecommendations.recommendations.pause" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  recommendations.  pause</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="automlrecommendations.recommendations.resume" class="permission-name add-link" data-text="automlrecommendations.recommendations.resume" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  recommendations.  resume</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="automlrecommendations.recommendations.update" class="permission-name add-link" data-text="automlrecommendations.recommendations.update" tabindex="-1"><code dir="ltr" translate="no">automlrecommendations.  recommendations.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin">Recommendations AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor">Recommendations AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  automlrecommendations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                       | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `automlrecommendations. apiKeys. create`         | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `automlrecommendations. apiKeys. delete`         | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `automlrecommendations. apiKeys. list`           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Recommendations AI Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer) ( `roles/ automlrecommendations.adminViewer` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| `automlrecommendations. catalogItems. create`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `automlrecommendations. catalogItems. delete`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `automlrecommendations. catalogItems. get`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Recommendations AI Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer) ( `roles/ automlrecommendations.viewer` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Retail Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer) ( `roles/ retail.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Recommendations AI Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer) ( `roles/ automlrecommendations.adminViewer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Retail Merchant Approver](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover) ( `roles/ retail.merchantApprover` ) [Retail Merchant Creator](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator) ( `roles/ retail.merchantCreator` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `automlrecommendations. catalogItems. list`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Recommendations AI Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer) ( `roles/ automlrecommendations.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Retail Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer) ( `roles/ retail.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Recommendations AI Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer) ( `roles/ automlrecommendations.adminViewer` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Retail Merchant Approver](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover) ( `roles/ retail.merchantApprover` ) [Retail Merchant Creator](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator) ( `roles/ retail.merchantCreator` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `automlrecommendations. catalogItems. update`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `automlrecommendations. catalogs. getStats`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Recommendations AI Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer) ( `roles/ automlrecommendations.viewer` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Retail Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer) ( `roles/ retail.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Recommendations AI Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer) ( `roles/ automlrecommendations.adminViewer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Retail Merchant Approver](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover) ( `roles/ retail.merchantApprover` ) [Retail Merchant Creator](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator) ( `roles/ retail.merchantCreator` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `automlrecommendations. catalogs. list`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Recommendations AI Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer) ( `roles/ automlrecommendations.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Retail Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer) ( `roles/ retail.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Recommendations AI Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer) ( `roles/ automlrecommendations.adminViewer` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Retail Merchant Approver](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover) ( `roles/ retail.merchantApprover` ) [Retail Merchant Creator](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator) ( `roles/ retail.merchantCreator` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `automlrecommendations. catalogs. update`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `automlrecommendations. eventStores. getStats`   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Recommendations AI Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer) ( `roles/ automlrecommendations.viewer` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Retail Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer) ( `roles/ retail.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Recommendations AI Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer) ( `roles/ automlrecommendations.adminViewer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Retail Merchant Approver](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover) ( `roles/ retail.merchantApprover` ) [Retail Merchant Creator](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator) ( `roles/ retail.merchantCreator` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `automlrecommendations. eventStores. list`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Recommendations AI Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer) ( `roles/ automlrecommendations.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Recommendations AI Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer) ( `roles/ automlrecommendations.adminViewer` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| `automlrecommendations. events. create`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `automlrecommendations. events. get`             | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Recommendations AI Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer) ( `roles/ automlrecommendations.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Recommendations AI Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer) ( `roles/ automlrecommendations.adminViewer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `automlrecommendations. events. list`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Recommendations AI Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer) ( `roles/ automlrecommendations.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Retail Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer) ( `roles/ retail.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Recommendations AI Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer) ( `roles/ automlrecommendations.adminViewer` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Retail Merchant Approver](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover) ( `roles/ retail.merchantApprover` ) [Retail Merchant Creator](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator) ( `roles/ retail.merchantCreator` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `automlrecommendations. events. purge`           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `automlrecommendations. events. rejoin`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `automlrecommendations. placements. create`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `automlrecommendations. placements. delete`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| `automlrecommendations. placements. getStats`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Recommendations AI Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer) ( `roles/ automlrecommendations.viewer` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Retail Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer) ( `roles/ retail.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Recommendations AI Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer) ( `roles/ automlrecommendations.adminViewer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Retail Merchant Approver](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover) ( `roles/ retail.merchantApprover` ) [Retail Merchant Creator](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator) ( `roles/ retail.merchantCreator` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `automlrecommendations. placements. list`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Recommendations AI Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer) ( `roles/ automlrecommendations.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Retail Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer) ( `roles/ retail.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Recommendations AI Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer) ( `roles/ automlrecommendations.adminViewer` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Retail Merchant Approver](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover) ( `roles/ retail.merchantApprover` ) [Retail Merchant Creator](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator) ( `roles/ retail.merchantCreator` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `automlrecommendations. recommendations. create` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `automlrecommendations. recommendations. delete` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `automlrecommendations. recommendations. list`   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Recommendations AI Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.viewer) ( `roles/ automlrecommendations.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Retail Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer) ( `roles/ retail.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Recommendations AI Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.adminViewer) ( `roles/ automlrecommendations.adminViewer` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Retail Merchant Approver](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover) ( `roles/ retail.merchantApprover` ) [Retail Merchant Creator](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantCreator) ( `roles/ retail.merchantCreator` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `automlrecommendations. recommendations. pause`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `automlrecommendations. recommendations. resume` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `automlrecommendations. recommendations. update` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Recommendations AI Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.admin) ( `roles/ automlrecommendations.admin` ) [Recommendations AI Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/automlrecommendations#automlrecommendations.editor) ( `roles/ automlrecommendations.editor` ) [Retail Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin) ( `roles/ retail.admin` ) [Retail Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor) ( `roles/ retail.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |

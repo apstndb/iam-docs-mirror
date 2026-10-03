@@ -18,8 +18,8 @@ Create a workload identity pool. For instructions, see the [Workload Identity Fe
 
 To get the permissions that you need to manage workload identity pools and providers, ask your administrator to grant you the following IAM roles on the project:
 
-  - To view pools and providers: [IAM Workload Identity Pool Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolViewer) ( `roles/iam.workloadIdentityPoolViewer` )
-  - To view, create, update, and delete pools and providers: [IAM Workload Identity Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin) ( `roles/iam.workloadIdentityPoolAdmin` )
+- To view pools and providers: [IAM Workload Identity Pool Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolViewer) ( `roles/iam.workloadIdentityPoolViewer` )
+- To view, create, update, and delete pools and providers: [IAM Workload Identity Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin) ( `roles/iam.workloadIdentityPoolAdmin` )
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -29,20 +29,20 @@ These predefined roles contain the permissions required to manage workload ident
 
 The following permissions are required to manage workload identity pools and providers:
 
-  - To view workload identity pools and providers:
-      - `iam.googleapis.com/workloadIdentityPoolProviders.get`
-      - `iam.googleapis.com/workloadIdentityPoolProviders.list`
-      - `iam.googleapis.com/workloadIdentityPools.get`
-      - `iam.googleapis.com/workloadIdentityPools.list`
-  - To create, update, and delete pools and providers:
-      - `iam.googleapis.com/workloadIdentityPoolProviders.create`
-      - `iam.googleapis.com/workloadIdentityPoolProviders.delete`
-      - `iam.googleapis.com/workloadIdentityPoolProviders.undelete`
-      - `iam.googleapis.com/workloadIdentityPoolProviders.update`
-      - `iam.googleapis.com/workloadIdentityPools.create`
-      - `iam.googleapis.com/workloadIdentityPools.delete`
-      - `iam.googleapis.com/workloadIdentityPools.undelete`
-      - `iam.googleapis.com/workloadIdentityPools.update`
+- To view workload identity pools and providers:
+  - `iam.googleapis.com/workloadIdentityPoolProviders.get`
+  - `iam.googleapis.com/workloadIdentityPoolProviders.list`
+  - `iam.googleapis.com/workloadIdentityPools.get`
+  - `iam.googleapis.com/workloadIdentityPools.list`
+- To create, update, and delete pools and providers:
+  - `iam.googleapis.com/workloadIdentityPoolProviders.create`
+  - `iam.googleapis.com/workloadIdentityPoolProviders.delete`
+  - `iam.googleapis.com/workloadIdentityPoolProviders.undelete`
+  - `iam.googleapis.com/workloadIdentityPoolProviders.update`
+  - `iam.googleapis.com/workloadIdentityPools.create`
+  - `iam.googleapis.com/workloadIdentityPools.delete`
+  - `iam.googleapis.com/workloadIdentityPools.undelete`
+  - `iam.googleapis.com/workloadIdentityPools.update`
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -117,21 +117,21 @@ To update an existing workload identity pool, do the following:
 3.  Click the workload identity pool's **Display name** .
 
 4.  To edit the workload identity pool's display name, do the following:
-    
+
     1.  In the **Pool details** page, next to the display name, click the edit **Edit** icon.
-    
+
     2.  In the **Edit pool display name** dialog that appears, update the display name.
-    
+
     3.  Click **Save** .
 
 5.  To disable or enable the workload identity pool, click the **Status** toggle, then click **Disable** or **Enable** .
 
 6.  To edit the description, do the following:
-    
+
     1.  In **Description** , next to your description text, click edit **Edit** .
-    
+
     2.  Update the description.
-    
+
     3.  Click **Save** .
 
 ### gcloud
@@ -192,8 +192,6 @@ Execute the [`gcloud iam workload-identity-pools undelete`](https://docs.cloud.g
 
 Call [`projects.locations.workloadIdentityPools.undelete()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/undelete) .
 
-<span id="managing_workload_identity_providers"></span>
-
 ## Manage workload identity pool providers
 
 This section shows you how to manage workload identity pool providers.
@@ -208,33 +206,33 @@ To create a workload identity pool provider in an existing workload identity poo
 
 2.  Find the workload identity pool that you want to add a provider to, then click its edit **Edit** icon.
 
-3.  Click add\_box **Add provider** .
+3.  Click add_box **Add provider** .
 
 4.  Select the type of provider to create:
-    
-      - **AWS** : An Amazon Web Services (AWS) IdP.
-      - **OpenID Connect (OIDC)** : An OIDC-compatible IdP. This includes Microsoft Azure.
+
+    - **AWS** : An Amazon Web Services (AWS) IdP.
+    - **OpenID Connect (OIDC)** : An OIDC-compatible IdP. This includes Microsoft Azure.
 
 5.  Enter a name for the provider.
-    
+
     The Google Cloud console uses the name to create a provider ID. To change the provider ID, click **Edit** . You cannot change the provider ID later.
 
 6.  Complete the remaining fields for your provider:
-    
-      - **AWS** : Enter your AWS account ID.
-      - **OIDC** : Enter the issuer URL. For Azure, the issuer URL uses the format ` https://sts.windows.net/ AZURE_TENANT_ID  ` . For other providers, consult the provider's documentation.
-    
+
+    - **AWS** : Enter your AWS account ID.
+    - **OIDC** : Enter the issuer URL. For Azure, the issuer URL uses the format `https://sts.windows.net/ `` AZURE_TENANT_ID` . For other providers, consult the provider's documentation.
+
     When you are done, click **Continue** .
 
 7.  To configure the attribute mapping, click **Edit mapping** . Attribute mapping lets you use information about external identities to grant access to a subset of those identities.
-    
-      - **AWS** : This step is optional. You can use the default mapping.
-        
-        For details, see [Identity provider settings for AWS and Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions) .
-    
-      - **OIDC** : We recommend mapping `google.subject` to `assertion.sub` . Other mappings are optional.
-        
-        For details, see IdP settings for [Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions) or [other OIDC providers](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#mappings-and-conditions) .
+
+    - **AWS** : This step is optional. You can use the default mapping.
+
+      For details, see [Identity provider settings for AWS and Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions) .
+
+    - **OIDC** : We recommend mapping `google.subject` to `assertion.sub` . Other mappings are optional.
+
+      For details, see IdP settings for [Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions) or [other OIDC providers](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#mappings-and-conditions) .
 
 8.  Optional: To provide an attribute condition, which specifies the identities that can authenticate, click **Add condition** and enter a valid Common Expression Language (CEL) expression. For details, see [Attribute conditions](https://docs.cloud.google.com/iam/docs/workload-identity-federation#conditions) .
 
@@ -258,7 +256,7 @@ To list the workload identity pool providers in a project, do the following:
 
 1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-2.  To view the providers for a workload identity pool, click the arrow\_right **Expand node** icon for the pool.
+2.  To view the providers for a workload identity pool, click the arrow_right **Expand node** icon for the pool.
 
 ### gcloud
 
@@ -276,7 +274,7 @@ To get details for a specific workload identity pool provider, do the following:
 
 1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-2.  Find the workload identity pool that contains the provider, then click the arrow\_right **Expand node** icon for the pool.
+2.  Find the workload identity pool that contains the provider, then click the arrow_right **Expand node** icon for the pool.
 
 3.  Find the workload identity pool provider that you want to view, then click its edit **Edit** icon. The Google Cloud console shows detailed information about the provider.
 
@@ -298,7 +296,7 @@ To update an existing workload identity pool provider, do the following:
 
 1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-2.  Find the workload identity pool that contains the provider, then click the arrow\_right **Expand node** icon for the pool.
+2.  Find the workload identity pool that contains the provider, then click the arrow_right **Expand node** icon for the pool.
 
 3.  Find the workload identity pool provider that you want to edit, then click its edit **Edit** icon.
 
@@ -352,7 +350,7 @@ You can recover a deleted workload identity pool provider for up to 30 days afte
 
 2.  Click the **Show deleted pools and providers** toggle.
 
-3.  Find the workload identity pool that contains the provider, then click the arrow\_right **Expand node** icon for the pool.
+3.  Find the workload identity pool that contains the provider, then click the arrow_right **Expand node** icon for the pool.
 
 4.  Find the provider that you want to undelete, then click its undo **Restore** icon.
 
@@ -382,18 +380,24 @@ To manage which IdPs are allowed, enable the `constraints/iam.workloadIdentityPo
 
 To only allow federation from AWS, create a single constraint with the URI `https://sts.amazonaws.com` . The following example shows how to create this constraint using the gcloud CLI:
 
-    gcloud resource-manager org-policies allow constraints/iam.workloadIdentityPoolProviders \
-         https://sts.amazonaws.com --organization=ORGANIZATION_NUMBER
+```
+gcloud resource-manager org-policies allow constraints/iam.workloadIdentityPoolProviders \
+     https://sts.amazonaws.com --organization=ORGANIZATION_NUMBER
+```
 
 You can also specify which AWS account IDs have access to your Google Cloud resources. To specify the account IDs, use the `constraints/iam.workloadIdentityPoolAwsAccounts` list constraint:
 
-    gcloud resource-manager org-policies allow constraints/iam.workloadIdentityPoolAwsAccounts \
-        ACCOUNT_ID --organization=ORGANIZATION_NUMBER
+```
+gcloud resource-manager org-policies allow constraints/iam.workloadIdentityPoolAwsAccounts \
+    ACCOUNT_ID --organization=ORGANIZATION_NUMBER
+```
 
 To only allow federation from one OIDC provider, create a single constraint with the `issuer_uri` of the allowed provider. For example, the following only allows federation from a specific Azure tenant:
 
-    gcloud resource-manager org-policies allow constraints/iam.workloadIdentityPoolProviders \
-         https://sts.windows.net/AZURE_TENANT_ID --organization=ORGANIZATION_NUMBER
+```
+gcloud resource-manager org-policies allow constraints/iam.workloadIdentityPoolProviders \
+     https://sts.windows.net/AZURE_TENANT_ID --organization=ORGANIZATION_NUMBER
+```
 
 Federation from a SAML IdP is special because the public keys that are used to validate the assertion are provided when the SAML IdP is configured. As a result, it's possible that a malicious user might try to upload a SAML metadata document with the entity ID of your organization's IdP using a public key. Restricting federation using an entity ID in this scenario gives only an illusion of security.
 
@@ -401,23 +405,29 @@ To mitigate this risk, we strongly advise that you only allow a workload identit
 
 To allow federation from SAML IdPs, create a constraint allowing the special keyword `KEY_UPLOAD` .
 
-    gcloud resource-manager org-policies allow constraints/iam.workloadIdentityPoolProviders \
-         KEY_UPLOAD --organization=ORGANIZATION_NUMBER
+```
+gcloud resource-manager org-policies allow constraints/iam.workloadIdentityPoolProviders \
+     KEY_UPLOAD --organization=ORGANIZATION_NUMBER
+```
 
 You can repeat these commands to allow federation from additional providers.
 
 To block federation from all providers:
 
 1.  Create a YAML file containing the following:
-    
-        constraint: constraints/iam.workloadIdentityPoolProviders
-        listPolicy:
-          allValues: DENY
+
+    ```
+    constraint: constraints/iam.workloadIdentityPoolProviders
+    listPolicy:
+      allValues: DENY
+    ```
 
 2.  Pass the file to the [`gcloud resource-manager org-policies set-policy`](https://docs.cloud.google.com/sdk/gcloud/reference/resource-manager/org-policies/set-policy) command:
-    
-        gcloud resource-manager org-policies set-policy FILE_NAME.yaml \
-            --organization=ORGANIZATION_NUMBER
+
+    ```
+    gcloud resource-manager org-policies set-policy FILE_NAME.yaml \
+        --organization=ORGANIZATION_NUMBER
+    ```
 
 ### Restrict service account key creation
 
@@ -429,12 +439,14 @@ To disable the creation of service account keys, enforce the `iam.disableService
 
 You can use the [Google Cloud console](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-policies#boolean_constraints) or the [gcloud CLI](https://docs.cloud.google.com/resource-manager/docs/organization-policy/using-constraints#boolean-constraint) to enable these constraints. For example, the following gcloud CLI commands enable both constraints:
 
-    gcloud resource-manager org-policies enable-enforce \
-        constraints/iam.disableServiceAccountKeyCreation \
-        --organization=ORGANIZATION_NUMBER
-    gcloud resource-manager org-policies enable-enforce \
-        constraints/iam.disableServiceAccountKeyUpload \
-        --organization=ORGANIZATION_NUMBER
+```
+gcloud resource-manager org-policies enable-enforce \
+    constraints/iam.disableServiceAccountKeyCreation \
+    --organization=ORGANIZATION_NUMBER
+gcloud resource-manager org-policies enable-enforce \
+    constraints/iam.disableServiceAccountKeyUpload \
+    --organization=ORGANIZATION_NUMBER
+```
 
 ## Monitor Workload Identity Federation
 

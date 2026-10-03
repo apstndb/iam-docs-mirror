@@ -21,7 +21,7 @@ The most common way to let an application authenticate as a service account is t
 There are other ways to let applications authenticate as service accounts besides attaching a service account. For example, you could set up [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) to allow external workloads to authenticate as service accounts, or create a [service account key](https://docs.cloud.google.com/iam/docs/service-account-creds#user-managed-keys) and use it in any environment to obtain OAuth 2.0 access tokens.
 
 > **Caution:** Service account keys are a security risk if not managed correctly. You should [choose a more secure alternative to service account keys](https://docs.cloud.google.com/docs/authentication#auth-decision-tree) whenever possible. If you must authenticate with a service account key, you are responsible for the security of the private key and for other operations described by [Best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) . If you are prevented from creating a service account key, service account key creation might be disabled for your organization. For more information, see [Managing secure-by-default organization resources](https://docs.cloud.google.com/resource-manager/docs/secure-by-default-organizations) .
-> 
+>
 > If you acquired the service account key from an external source, you must validate it before use. For more information, see [Security requirements for externally sourced credentials](https://docs.cloud.google.com/docs/authentication/external/externally-sourced-credentials) .
 
 To learn more about service account authentication for applications, see [Overview of identities for workloads](https://docs.cloud.google.com/iam/docs/workload-identities) .
@@ -32,11 +32,11 @@ Principals, such as users and other service accounts, can also authenticate as s
 
 In Google Cloud, there are several different types of service accounts:
 
-  - **User-managed service accounts** : Service accounts that you create and manage. These service accounts are often used as [identities for workloads](https://docs.cloud.google.com/iam/docs/workload-identities) .
+- **User-managed service accounts** : Service accounts that you create and manage. These service accounts are often used as [identities for workloads](https://docs.cloud.google.com/iam/docs/workload-identities) .
 
-  - **Default service accounts** : User-managed service accounts that are created automatically when you enable certain Google Cloud services. You are responsible for managing these service accounts.
+- **Default service accounts** : User-managed service accounts that are created automatically when you enable certain Google Cloud services. You are responsible for managing these service accounts.
 
-  - **Service agents** : Service accounts that are created and managed by Google Cloud, and that allow services to access resources on your behalf.
+- **Service agents** : Service accounts that are created and managed by Google Cloud, and that allow services to access resources on your behalf.
 
 To learn more about the different types of service accounts, see [Types of service accounts](https://docs.cloud.google.com/iam/docs/service-account-types) .
 
@@ -44,8 +44,8 @@ To learn more about the different types of service accounts, see [Types of servi
 
 Applications and principals authenticate as a service account by doing one of the following:
 
-  - Obtaining short-lived credentials. In many cases, such as attached service accounts and commands using the gcloud CLI `--impersonate-service-account` flag, these credentials are obtained automatically—you don't need to create or manage them yourself.
-  - Using a service account key to sign a JSON Web Token (JWT) and exchanging it for an access token. Because service account keys are a security risk if not managed correctly, you should choose a [more secure alternative to service account keys](https://docs.cloud.google.com/docs/authentication#auth-decision-tree) whenever possible.
+- Obtaining short-lived credentials. In many cases, such as attached service accounts and commands using the gcloud CLI `--impersonate-service-account` flag, these credentials are obtained automatically—you don't need to create or manage them yourself.
+- Using a service account key to sign a JSON Web Token (JWT) and exchanging it for an access token. Because service account keys are a security risk if not managed correctly, you should choose a [more secure alternative to service account keys](https://docs.cloud.google.com/docs/authentication#auth-decision-tree) whenever possible.
 
 To learn more about service account authentication, see [Service account credentials](https://docs.cloud.google.com/iam/docs/service-account-creds) .
 
@@ -99,26 +99,26 @@ You can manage access for individual service accounts or for all service account
 <tbody>
 <tr class="odd">
 <td>An individual service account</td>
-<td><p><code dir="ltr" translate="no">serviceAccount:          SA_EMAIL_ADDRESS        </code></p>
-<p><strong>Example:</strong> <code dir="ltr" translate="no">serviceAccount:my-service-account@my-project.iam.gserviceaccount.com</code></p></td>
+<td><p><code>serviceAccount: </code><var translate="no"> SA_EMAIL_ADDRESS</var></p>
+<p><strong>Example:</strong> <code>serviceAccount:my-service-account@my-project.iam.gserviceaccount.com</code></p></td>
 </tr>
 <tr class="even">
 <td>All service accounts in a project</td>
-<td><p><code dir="ltr" translate="no">principalSet://cloudresourcemanager.googleapis.com/  projects/           PROJECT_NUMBER         /  type/  ServiceAccount</code></p>
-<p><strong>Example:</strong> <code dir="ltr" translate="no">principalSet://cloudresourcemanager.googleapis.com/  projects/  123456789012/  type/  ServiceAccount</code></p></td>
+<td><p><code>principalSet://cloudresourcemanager.googleapis.com/ projects/ </code><var translate="no"> PROJECT_NUMBER </var><code> / type/ ServiceAccount</code></p>
+<p><strong>Example:</strong> <code>principalSet://cloudresourcemanager.googleapis.com/ projects/ 123456789012/ type/ ServiceAccount</code></p></td>
 </tr>
 <tr class="odd">
 <td>All service accounts in all projects in a folder</td>
-<td><p><code dir="ltr" translate="no">principalSet://cloudresourcemanager.googleapis.com/  folders/           FOLDER_NUMBER         /  type/  ServiceAccount</code></p>
-<p><strong>Example:</strong> <code dir="ltr" translate="no">principalSet://cloudresourcemanager.googleapis.com/  folders/  123456789012/  type/  ServiceAccount</code></p>
+<td><p><code>principalSet://cloudresourcemanager.googleapis.com/ folders/ </code><var translate="no"> FOLDER_NUMBER </var><code> / type/ ServiceAccount</code></p>
+<p><strong>Example:</strong> <code>principalSet://cloudresourcemanager.googleapis.com/ folders/ 123456789012/ type/ ServiceAccount</code></p>
 <blockquote>
 <strong>Note</strong> : Moving projects into or out of a folder changes the service accounts included in this principal set. For example, if you move a project out of a folder, then this principal set no longer includes that project's service accounts.
 </blockquote></td>
 </tr>
 <tr class="even">
 <td>All service accounts in all projects in an organization</td>
-<td><p><code dir="ltr" translate="no">principalSet://cloudresourcemanager.googleapis.com/  organizations/           ORGANIZATION_NUMBER         /  type/  ServiceAccount</code></p>
-<p><strong>Example:</strong> <code dir="ltr" translate="no">principalSet://cloudresourcemanager.googleapis.com/  organizations/  123456789012/  type/  ServiceAccount</code></p>
+<td><p><code>principalSet://cloudresourcemanager.googleapis.com/ organizations/ </code><var translate="no"> ORGANIZATION_NUMBER </var><code> / type/ ServiceAccount</code></p>
+<p><strong>Example:</strong> <code>principalSet://cloudresourcemanager.googleapis.com/ organizations/ 123456789012/ type/ ServiceAccount</code></p>
 <blockquote>
 <strong>Note</strong> : Moving projects into or out of a organization changes the service accounts included in this principal set. For example, if you move a project out of a organization, then this principal set no longer includes that project's service accounts.
 </blockquote></td>
@@ -154,15 +154,15 @@ Each service account is located in a project. After you create a service account
 
 There are a few ways to organize your service accounts into projects:
 
-  - **Create service accounts and resources in the same project.**
-    
-    This approach makes it easier to get started with service accounts. However, it can be difficult to keep track of your service accounts when they are spread across many projects.
+- **Create service accounts and resources in the same project.**
 
-  - **Centralize service accounts in separate projects.**
-    
-    This approach puts all of the service accounts for your organization in a small number of projects, which can make the service accounts easier to manage. However, it requires extra setup if you [attach service accounts to resources](https://docs.cloud.google.com/iam/docs/attach-service-accounts) in other projects, which allows those resources to use the service account as their identity.
-    
-    When a service account is in one project, and it accesses a resource in another project, you usually must [enable the API](https://docs.cloud.google.com/apis/docs/getting-started#enabling_apis) for that resource in both projects. For example, if you have a service account in the project `my-service-accounts` and a Cloud SQL instance in the project `my-application` , you must enable the Cloud SQL API in both `my-service-accounts` and `my-application` .
+  This approach makes it easier to get started with service accounts. However, it can be difficult to keep track of your service accounts when they are spread across many projects.
+
+- **Centralize service accounts in separate projects.**
+
+  This approach puts all of the service accounts for your organization in a small number of projects, which can make the service accounts easier to manage. However, it requires extra setup if you [attach service accounts to resources](https://docs.cloud.google.com/iam/docs/attach-service-accounts) in other projects, which allows those resources to use the service account as their identity.
+
+  When a service account is in one project, and it accesses a resource in another project, you usually must [enable the API](https://docs.cloud.google.com/apis/docs/getting-started#enabling_apis) for that resource in both projects. For example, if you have a service account in the project `my-service-accounts` and a Cloud SQL instance in the project `my-application` , you must enable the Cloud SQL API in both `my-service-accounts` and `my-application` .
 
 The number of service accounts that you can have in each project depends on your project. To view the quota for a project, [view your project's quotas in the Google Cloud console](https://docs.cloud.google.com/docs/quotas/view-manage#viewing_your_quota_console) and search for **Service Account Count** .
 
@@ -176,13 +176,13 @@ You can prevent the creation of service accounts by enforcing the `constraints/i
 
 Before you enforce this constraint, consider the following limitations:
 
-  - If you enforce this constraint in a project, or in all projects within an organization, then some Google Cloud services cannot create [default service accounts](https://docs.cloud.google.com/iam/docs/service-account-types#default) . As a result, if the project runs workloads that need to [authenticate as a service account](https://docs.cloud.google.com/iam/docs/service-account-overview#credentials) , the project might not contain a service account that the workload can use.
-    
-    To address this issue, you can [enable service account impersonation across projects](https://docs.cloud.google.com/iam/docs/attach-service-accounts#enabling-cross-project) . When you enable this feature, you can create service accounts in a centralized project, then attach the service accounts to resources in other projects. Workloads running on those resources can use the attached service accounts to authenticate, making the default service accounts unnecessary.
+- If you enforce this constraint in a project, or in all projects within an organization, then some Google Cloud services cannot create [default service accounts](https://docs.cloud.google.com/iam/docs/service-account-types#default) . As a result, if the project runs workloads that need to [authenticate as a service account](https://docs.cloud.google.com/iam/docs/service-account-overview#credentials) , the project might not contain a service account that the workload can use.
 
-  - Some features, such as [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) , require you to create service accounts.
-    
-    If you don't use Workload Identity Federation, consider using organization policy constraints to [block federation from all identity providers](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#restrict) .
+  To address this issue, you can [enable service account impersonation across projects](https://docs.cloud.google.com/iam/docs/attach-service-accounts#enabling-cross-project) . When you enable this feature, you can create service accounts in a centralized project, then attach the service accounts to resources in other projects. Workloads running on those resources can use the attached service accounts to authenticate, making the default service accounts unnecessary.
+
+- Some features, such as [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) , require you to create service accounts.
+
+  If you don't use Workload Identity Federation, consider using organization policy constraints to [block federation from all identity providers](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#restrict) .
 
 ### Keep track of service accounts
 
@@ -194,11 +194,11 @@ The display name of a service account is a good way to capture additional inform
 
 Compute Engine instances need to run as service accounts to have access to other Google Cloud resources. To help secure your Compute Engine instances, consider the following:
 
-  - You can create instances in the same project with different service accounts. To change the service account of an instance after it's created, use the [`instances.setServiceAccount`](https://docs.cloud.google.com/compute/docs/reference/rest/v1/instances/setServiceAccount) method.
+- You can create instances in the same project with different service accounts. To change the service account of an instance after it's created, use the [`instances.setServiceAccount`](https://docs.cloud.google.com/compute/docs/reference/rest/v1/instances/setServiceAccount) method.
 
-  - To set up authorization for attached service accounts, you need to configure [access scopes](https://docs.cloud.google.com/compute/docs/access/service-accounts#accesscopesiam) in addition to configuring IAM roles.
+- To set up authorization for attached service accounts, you need to configure [access scopes](https://docs.cloud.google.com/compute/docs/access/service-accounts#accesscopesiam) in addition to configuring IAM roles.
 
-  - Since instances depend on their service accounts to have access to Google Cloud resources, avoid deleting service accounts when they are still used by running instances.
+- Since instances depend on their service accounts to have access to Google Cloud resources, avoid deleting service accounts when they are still used by running instances.
 
 To learn more about using service accounts with Compute Engine, see [Service accounts](https://docs.cloud.google.com/compute/docs/access/service-accounts) in the Compute Engine documentation.
 
@@ -208,8 +208,8 @@ After some time, you might have service accounts in your projects that you no lo
 
 Unused service accounts create an unnecessary security risk, so we recommend [disabling unused service accounts](https://docs.cloud.google.com/iam/docs/service-accounts-disable-enable#disabling) , then [deleting the service accounts](https://docs.cloud.google.com/iam/docs/service-accounts-delete-undelete#deleting) when you are sure that you no longer need them. You can use the following methods to identify unused service accounts:
 
-  - **[Service account insights](https://docs.cloud.google.com/iam/docs/manage-service-account-insights)** tell you which service accounts in your project have not authenticated in the past 90 days.
-  - **[Activity Analyzer](https://docs.cloud.google.com/iam/docs/service-account-recent-usage)** lets you check when a service account or key was last used.
+- **[Service account insights](https://docs.cloud.google.com/iam/docs/manage-service-account-insights)** tell you which service accounts in your project have not authenticated in the past 90 days.
+- **[Activity Analyzer](https://docs.cloud.google.com/iam/docs/service-account-recent-usage)** lets you check when a service account or key was last used.
 
 You can also use [service account usage metrics](https://docs.cloud.google.com/iam/docs/service-account-monitoring#identify-unused) to track service account and key usage generally.
 
@@ -237,11 +237,11 @@ If you cannot undelete the original service account, and you need to create a ne
 
 If you also need the new service account to be attached to the same resources as the original service account, do one of the following:
 
-  - For Compute Engine instances, you can [change the service account that is attached to the instance](https://docs.cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances#changeserviceaccountandscopes) to replace the original service account with the new service account.
-  - For all other resources, you must delete the existing resource, then create a new resource of the same type and [attach the new service account](https://docs.cloud.google.com/iam/docs/attach-service-accounts) .
+- For Compute Engine instances, you can [change the service account that is attached to the instance](https://docs.cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances#changeserviceaccountandscopes) to replace the original service account with the new service account.
+- For all other resources, you must delete the existing resource, then create a new resource of the same type and [attach the new service account](https://docs.cloud.google.com/iam/docs/attach-service-accounts) .
 
 ## What's next
 
-  - Find out how to [create service accounts](https://docs.cloud.google.com/iam/docs/service-accounts-create) .
-  - Get [best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .
-  - Review [best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .
+- Find out how to [create service accounts](https://docs.cloud.google.com/iam/docs/service-accounts-create) .
+- Get [best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .
+- Review [best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .

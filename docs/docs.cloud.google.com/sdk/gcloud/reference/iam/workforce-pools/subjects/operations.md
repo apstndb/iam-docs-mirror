@@ -12,7 +12,7 @@ gcloud iam workforce-pools subjects operations - manage IAM workforce pool subje
 
 SYNOPSIS
 
-`gcloud iam workforce-pools subjects operations` `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam workforce-pools subjects operations` [`COMMAND`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/subjects/operations#COMMAND) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/subjects/operations#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -20,13 +20,13 @@ Commands for managing IAM workforce pool subject long-running operations.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --help  ` .
+These flags are available to all commands: [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 COMMANDS
 
-`  COMMAND  ` is one of the following:
+`COMMAND` is one of the following:
 
-  - `  describe  `  
-    Describe a workforce pool subject operation.
+[`describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/subjects/operations/describe)  
+Describe a workforce pool subject operation.

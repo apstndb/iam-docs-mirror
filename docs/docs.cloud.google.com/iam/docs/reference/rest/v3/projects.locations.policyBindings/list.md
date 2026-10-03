@@ -6,15 +6,15 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-  - [HTTP request](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.HTTP_TEMPLATE)
-  - [Path parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.PATH_PARAMETERS)
-  - [Query parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.QUERY_PARAMETERS)
-  - [Request body](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.request_body)
-  - [Response body](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.response_body)
-  - [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.aspect)
-  - [IAM Permissions](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.aspect_1)
-  - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#examples)
-  - [Try it\!](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#try-it)
+- [HTTP request](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.HTTP_TEMPLATE)
+- [Path parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.PATH_PARAMETERS)
+- [Query parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.QUERY_PARAMETERS)
+- [Request body](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.request_body)
+- [Response body](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.response_body)
+- [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.aspect)
+- [IAM Permissions](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#body.aspect_1)
+- [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#examples)
+- [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v3/projects.locations.policyBindings/list#try-it)
 
 Lists policy bindings.
 
@@ -26,55 +26,76 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-Parameters
-
-`parent`
-
-`string`
-
-Required. The parent resource, which owns the collection of policy bindings.
-
-Format:
-
-  - `projects/{projectId}/locations/{location}`
-  - `projects/{projectNumber}/locations/{location}`
-  - `folders/{folderId}/locations/{location}`
-  - `organizations/{organizationId}/locations/{location}`
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameters</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>parent</code></td>
+<td><p><code>string</code></p>
+<p>Required. The parent resource, which owns the collection of policy bindings.</p>
+<p>Format:</p>
+<ul>
+<li><code>projects/{projectId}/locations/{location}</code></li>
+<li><code>projects/{projectNumber}/locations/{location}</code></li>
+<li><code>folders/{folderId}/locations/{location}</code></li>
+<li><code>organizations/{organizationId}/locations/{location}</code></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 ### Query parameters
 
-Parameters
-
-`pageSize`
-
-`integer`
-
-Optional. The maximum number of policy bindings to return. The service may return fewer than this value.
-
-The default value is 50. The maximum value is 1000.
-
-`pageToken`
-
-`string`
-
-Optional. A page token, received from a previous `policyBindings.list` call. Provide this to retrieve the subsequent page.
-
-When paginating, all other parameters provided to `policyBindings.list` must match the call that provided the page token.
-
-`filter`
-
-`string`
-
-Optional. An expression for filtering the results of the request. Filter rules are case insensitive. Some eligible fields for filtering are the following:
-
-  - `target`
-  - `policy`
-
-Some examples of filter queries:
-
-  - `target:ex*` : The binding target's name starts with "ex".
-  - `target:example` : The binding target's name is `example` .
-  - `policy:example` : The binding policy's name is `example` .
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parameters</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>pageSize</code></td>
+<td><p><code>integer</code></p>
+<p>Optional. The maximum number of policy bindings to return. The service may return fewer than this value.</p>
+<p>The default value is 50. The maximum value is 1000.</p></td>
+</tr>
+<tr class="even">
+<td><code>pageToken</code></td>
+<td><p><code>string</code></p>
+<p>Optional. A page token, received from a previous <code>policyBindings.list</code> call. Provide this to retrieve the subsequent page.</p>
+<p>When paginating, all other parameters provided to <code>policyBindings.list</code> must match the call that provided the page token.</p></td>
+</tr>
+<tr class="odd">
+<td><code>filter</code></td>
+<td><p><code>string</code></p>
+<p>Optional. An expression for filtering the results of the request. Filter rules are case insensitive. Some eligible fields for filtering are the following:</p>
+<ul>
+<li><code>target</code></li>
+<li><code>policy</code></li>
+</ul>
+<p>Some examples of filter queries:</p>
+<ul>
+<li><code>target:ex*</code> : The binding target's name starts with "ex".</li>
+<li><code>target:example</code> : The binding target's name is <code>example</code> .</li>
+<li><code>policy:example</code> : The binding policy's name is <code>example</code> .</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 ### Request body
 
@@ -82,13 +103,13 @@ The request body must be empty.
 
 ### Response body
 
-If successful, the response body contains an instance of `  ListPolicyBindingsResponse  ` .
+If successful, the response body contains an instance of [`ListPolicyBindingsResponse`](https://docs.cloud.google.com/iam/docs/reference/rest/v3/ListPolicyBindingsResponse) .
 
 ### Authorization scopes
 
 Requires the following OAuth scope:
 
-  - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/cloud-platform`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -96,6 +117,6 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 Requires the following [IAM](https://cloud.google.com/iam/docs) permission on the `parent` resource:
 
-  - `iam.policybindings.list`
+- `iam.policybindings.list`
 
 For more information, see the [IAM documentation](https://cloud.google.com/iam/docs) .

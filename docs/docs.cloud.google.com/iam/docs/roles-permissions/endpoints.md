@@ -25,16 +25,16 @@ Cloud Endpoints offers the following service agent roles. Service agent roles sh
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="endpoints.serviceAgent" class="role-title add-link" data-text="Cloud Endpoints Service Agent" tabindex="-1">Cloud Endpoints Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  endpoints.serviceAgent</code> )</p>
+<td>Cloud Endpoints Service Agent
+<p>( <code>roles/ endpoints.serviceAgent</code> )</p>
 <p>Gives the Cloud Endpoints service account access to Endpoints services and the ability to act as a service controller.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">servicemanagement.  services.  check</code></p>
-<p><code dir="ltr" translate="no">servicemanagement.services.get</code></p>
-<p><code dir="ltr" translate="no">servicemanagement.  services.  quota</code></p>
-<p><code dir="ltr" translate="no">servicemanagement.  services.  report</code></p></td>
+<td><p><code>servicemanagement. services. check</code></p>
+<p><code>servicemanagement.services.get</code></p>
+<p><code>servicemanagement. services. quota</code></p>
+<p><code>servicemanagement. services. report</code></p></td>
 </tr>
 </tbody>
 </table>

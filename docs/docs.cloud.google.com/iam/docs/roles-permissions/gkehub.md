@@ -23,383 +23,383 @@ This page lists the IAM roles and permissions for GKE Hub. To search through all
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="gkehub.admin" class="role-title add-link" data-text="Fleet Admin (formerly GKE Hub Admin)" tabindex="-1">Fleet Admin (formerly GKE Hub Admin)</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
+<td>Fleet Admin (formerly GKE Hub Admin)
+<p>( <code>roles/ gkehub.admin</code> )</p>
 <p>Full access to Fleet resources.</p></td>
-<td><p><code dir="ltr" translate="no">gkehub.features.*</code></p>
+<td><p><code>gkehub.features.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.features.create</code></li>
-<li><code dir="ltr" translate="no">gkehub.features.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.features.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.features.getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkehub.features.list</code></li>
-<li><code dir="ltr" translate="no">gkehub.features.setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkehub.features.update</code></li>
+<li><code>gkehub.features.create</code></li>
+<li><code>gkehub.features.delete</code></li>
+<li><code>gkehub.features.get</code></li>
+<li><code>gkehub.features.getIamPolicy</code></li>
+<li><code>gkehub.features.list</code></li>
+<li><code>gkehub.features.setIamPolicy</code></li>
+<li><code>gkehub.features.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.fleet.*</code></p>
+<p><code>gkehub.fleet.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.fleet.create</code></li>
-<li><code dir="ltr" translate="no">gkehub.fleet.createFreeTrial</code></li>
-<li><code dir="ltr" translate="no">gkehub.fleet.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.fleet.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.fleet.getFreeTrial</code></li>
-<li><code dir="ltr" translate="no">gkehub.fleet.update</code></li>
-<li><code dir="ltr" translate="no">gkehub.fleet.updateFreeTrial</code></li>
+<li><code>gkehub.fleet.create</code></li>
+<li><code>gkehub.fleet.createFreeTrial</code></li>
+<li><code>gkehub.fleet.delete</code></li>
+<li><code>gkehub.fleet.get</code></li>
+<li><code>gkehub.fleet.getFreeTrial</code></li>
+<li><code>gkehub.fleet.update</code></li>
+<li><code>gkehub.fleet.updateFreeTrial</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.locations.*</code></p>
+<p><code>gkehub.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.locations.list</code></li>
+<li><code>gkehub.locations.get</code></li>
+<li><code>gkehub.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.membershipbindings.*</code></p>
+<p><code>gkehub.membershipbindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.  membershipbindings.  create</code></li>
-<li><code dir="ltr" translate="no">gkehub.  membershipbindings.  delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.membershipbindings.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.membershipbindings.list</code></li>
-<li><code dir="ltr" translate="no">gkehub.  membershipbindings.  update</code></li>
+<li><code>gkehub. membershipbindings. create</code></li>
+<li><code>gkehub. membershipbindings. delete</code></li>
+<li><code>gkehub.membershipbindings.get</code></li>
+<li><code>gkehub.membershipbindings.list</code></li>
+<li><code>gkehub. membershipbindings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.membershipfeatures.*</code></p>
+<p><code>gkehub.membershipfeatures.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.  membershipfeatures.  create</code></li>
-<li><code dir="ltr" translate="no">gkehub.  membershipfeatures.  delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.membershipfeatures.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.membershipfeatures.list</code></li>
-<li><code dir="ltr" translate="no">gkehub.  membershipfeatures.  update</code></li>
+<li><code>gkehub. membershipfeatures. create</code></li>
+<li><code>gkehub. membershipfeatures. delete</code></li>
+<li><code>gkehub.membershipfeatures.get</code></li>
+<li><code>gkehub.membershipfeatures.list</code></li>
+<li><code>gkehub. membershipfeatures. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.memberships.*</code></p>
+<p><code>gkehub.memberships.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.memberships.create</code></li>
-<li><code dir="ltr" translate="no">gkehub.memberships.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.  memberships.  generateConnectManifest</code></li>
-<li><code dir="ltr" translate="no">gkehub.memberships.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.  memberships.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkehub.memberships.list</code></li>
-<li><code dir="ltr" translate="no">gkehub.  memberships.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkehub.memberships.update</code></li>
+<li><code>gkehub.memberships.create</code></li>
+<li><code>gkehub.memberships.delete</code></li>
+<li><code>gkehub. memberships. generateConnectManifest</code></li>
+<li><code>gkehub.memberships.get</code></li>
+<li><code>gkehub. memberships. getIamPolicy</code></li>
+<li><code>gkehub.memberships.list</code></li>
+<li><code>gkehub. memberships. setIamPolicy</code></li>
+<li><code>gkehub.memberships.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.namespaces.*</code></p>
+<p><code>gkehub.namespaces.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.namespaces.create</code></li>
-<li><code dir="ltr" translate="no">gkehub.namespaces.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.namespaces.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.namespaces.list</code></li>
-<li><code dir="ltr" translate="no">gkehub.namespaces.update</code></li>
+<li><code>gkehub.namespaces.create</code></li>
+<li><code>gkehub.namespaces.delete</code></li>
+<li><code>gkehub.namespaces.get</code></li>
+<li><code>gkehub.namespaces.list</code></li>
+<li><code>gkehub.namespaces.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.operations.*</code></p>
+<p><code>gkehub.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">gkehub.operations.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.operations.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.operations.list</code></li>
+<li><code>gkehub.operations.cancel</code></li>
+<li><code>gkehub.operations.delete</code></li>
+<li><code>gkehub.operations.get</code></li>
+<li><code>gkehub.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.rbacrolebindings.*</code></p>
+<p><code>gkehub.rbacrolebindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.create</code></li>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.list</code></li>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.update</code></li>
+<li><code>gkehub.rbacrolebindings.create</code></li>
+<li><code>gkehub.rbacrolebindings.delete</code></li>
+<li><code>gkehub.rbacrolebindings.get</code></li>
+<li><code>gkehub.rbacrolebindings.list</code></li>
+<li><code>gkehub.rbacrolebindings.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.scopes.*</code></p>
+<p><code>gkehub.scopes.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.scopes.create</code></li>
-<li><code dir="ltr" translate="no">gkehub.scopes.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.scopes.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.scopes.getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkehub.scopes.list</code></li>
-<li><code dir="ltr" translate="no">gkehub.  scopes.  listBoundMemberships</code></li>
-<li><code dir="ltr" translate="no">gkehub.scopes.setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkehub.scopes.update</code></li>
+<li><code>gkehub.scopes.create</code></li>
+<li><code>gkehub.scopes.delete</code></li>
+<li><code>gkehub.scopes.get</code></li>
+<li><code>gkehub.scopes.getIamPolicy</code></li>
+<li><code>gkehub.scopes.list</code></li>
+<li><code>gkehub. scopes. listBoundMemberships</code></li>
+<li><code>gkehub.scopes.setIamPolicy</code></li>
+<li><code>gkehub.scopes.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.editor" class="role-title add-link" data-text="Fleet Editor (formerly GKE Hub Editor)" tabindex="-1">Fleet Editor (formerly GKE Hub Editor)</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
+<td>Fleet Editor (formerly GKE Hub Editor)
+<p>( <code>roles/ gkehub.editor</code> )</p>
 <p>Edit access to Fleet resources.</p></td>
-<td><p><code dir="ltr" translate="no">gkehub.features.create</code></p>
-<p><code dir="ltr" translate="no">gkehub.features.delete</code></p>
-<p><code dir="ltr" translate="no">gkehub.features.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.features.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkehub.features.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.features.update</code></p>
-<p><code dir="ltr" translate="no">gkehub.fleet.*</code></p>
+<td><p><code>gkehub.features.create</code></p>
+<p><code>gkehub.features.delete</code></p>
+<p><code>gkehub.features.get</code></p>
+<p><code>gkehub.features.getIamPolicy</code></p>
+<p><code>gkehub.features.list</code></p>
+<p><code>gkehub.features.update</code></p>
+<p><code>gkehub.fleet.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.fleet.create</code></li>
-<li><code dir="ltr" translate="no">gkehub.fleet.createFreeTrial</code></li>
-<li><code dir="ltr" translate="no">gkehub.fleet.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.fleet.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.fleet.getFreeTrial</code></li>
-<li><code dir="ltr" translate="no">gkehub.fleet.update</code></li>
-<li><code dir="ltr" translate="no">gkehub.fleet.updateFreeTrial</code></li>
+<li><code>gkehub.fleet.create</code></li>
+<li><code>gkehub.fleet.createFreeTrial</code></li>
+<li><code>gkehub.fleet.delete</code></li>
+<li><code>gkehub.fleet.get</code></li>
+<li><code>gkehub.fleet.getFreeTrial</code></li>
+<li><code>gkehub.fleet.update</code></li>
+<li><code>gkehub.fleet.updateFreeTrial</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.locations.*</code></p>
+<p><code>gkehub.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.locations.list</code></li>
+<li><code>gkehub.locations.get</code></li>
+<li><code>gkehub.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.membershipbindings.*</code></p>
+<p><code>gkehub.membershipbindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.  membershipbindings.  create</code></li>
-<li><code dir="ltr" translate="no">gkehub.  membershipbindings.  delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.membershipbindings.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.membershipbindings.list</code></li>
-<li><code dir="ltr" translate="no">gkehub.  membershipbindings.  update</code></li>
+<li><code>gkehub. membershipbindings. create</code></li>
+<li><code>gkehub. membershipbindings. delete</code></li>
+<li><code>gkehub.membershipbindings.get</code></li>
+<li><code>gkehub.membershipbindings.list</code></li>
+<li><code>gkehub. membershipbindings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.membershipfeatures.*</code></p>
+<p><code>gkehub.membershipfeatures.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.  membershipfeatures.  create</code></li>
-<li><code dir="ltr" translate="no">gkehub.  membershipfeatures.  delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.membershipfeatures.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.membershipfeatures.list</code></li>
-<li><code dir="ltr" translate="no">gkehub.  membershipfeatures.  update</code></li>
+<li><code>gkehub. membershipfeatures. create</code></li>
+<li><code>gkehub. membershipfeatures. delete</code></li>
+<li><code>gkehub.membershipfeatures.get</code></li>
+<li><code>gkehub.membershipfeatures.list</code></li>
+<li><code>gkehub. membershipfeatures. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.memberships.create</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.delete</code></p>
-<p><code dir="ltr" translate="no">gkehub.  memberships.  generateConnectManifest</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.  memberships.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.update</code></p>
-<p><code dir="ltr" translate="no">gkehub.namespaces.*</code></p>
+<p><code>gkehub.memberships.create</code></p>
+<p><code>gkehub.memberships.delete</code></p>
+<p><code>gkehub. memberships. generateConnectManifest</code></p>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>gkehub. memberships. getIamPolicy</code></p>
+<p><code>gkehub.memberships.list</code></p>
+<p><code>gkehub.memberships.update</code></p>
+<p><code>gkehub.namespaces.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.namespaces.create</code></li>
-<li><code dir="ltr" translate="no">gkehub.namespaces.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.namespaces.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.namespaces.list</code></li>
-<li><code dir="ltr" translate="no">gkehub.namespaces.update</code></li>
+<li><code>gkehub.namespaces.create</code></li>
+<li><code>gkehub.namespaces.delete</code></li>
+<li><code>gkehub.namespaces.get</code></li>
+<li><code>gkehub.namespaces.list</code></li>
+<li><code>gkehub.namespaces.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.operations.*</code></p>
+<p><code>gkehub.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">gkehub.operations.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.operations.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.operations.list</code></li>
+<li><code>gkehub.operations.cancel</code></li>
+<li><code>gkehub.operations.delete</code></li>
+<li><code>gkehub.operations.get</code></li>
+<li><code>gkehub.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.rbacrolebindings.*</code></p>
+<p><code>gkehub.rbacrolebindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.create</code></li>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.list</code></li>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.update</code></li>
+<li><code>gkehub.rbacrolebindings.create</code></li>
+<li><code>gkehub.rbacrolebindings.delete</code></li>
+<li><code>gkehub.rbacrolebindings.get</code></li>
+<li><code>gkehub.rbacrolebindings.list</code></li>
+<li><code>gkehub.rbacrolebindings.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.scopes.create</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.delete</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.  scopes.  listBoundMemberships</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.update</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>gkehub.scopes.create</code></p>
+<p><code>gkehub.scopes.delete</code></p>
+<p><code>gkehub.scopes.get</code></p>
+<p><code>gkehub.scopes.getIamPolicy</code></p>
+<p><code>gkehub.scopes.list</code></p>
+<p><code>gkehub. scopes. listBoundMemberships</code></p>
+<p><code>gkehub.scopes.update</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.viewer" class="role-title add-link" data-text="Fleet Viewer (formerly GKE Hub Viewer)" tabindex="-1">Fleet Viewer (formerly GKE Hub Viewer)</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
+<td>Fleet Viewer (formerly GKE Hub Viewer)
+<p>( <code>roles/ gkehub.viewer</code> )</p>
 <p>Read-only access to Fleets and related resources.</p></td>
-<td><p><code dir="ltr" translate="no">gkehub.features.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.features.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkehub.features.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.fleet.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.fleet.getFreeTrial</code></p>
-<p><code dir="ltr" translate="no">gkehub.locations.*</code></p>
+<td><p><code>gkehub.features.get</code></p>
+<p><code>gkehub.features.getIamPolicy</code></p>
+<p><code>gkehub.features.list</code></p>
+<p><code>gkehub.fleet.get</code></p>
+<p><code>gkehub.fleet.getFreeTrial</code></p>
+<p><code>gkehub.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.locations.list</code></li>
+<li><code>gkehub.locations.get</code></li>
+<li><code>gkehub.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.membershipbindings.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.membershipbindings.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.membershipfeatures.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.membershipfeatures.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.  memberships.  generateConnectManifest</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.  memberships.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.namespaces.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.namespaces.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.operations.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.operations.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.rbacrolebindings.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.rbacrolebindings.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.  scopes.  listBoundMemberships</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>gkehub.membershipbindings.get</code></p>
+<p><code>gkehub.membershipbindings.list</code></p>
+<p><code>gkehub.membershipfeatures.get</code></p>
+<p><code>gkehub.membershipfeatures.list</code></p>
+<p><code>gkehub. memberships. generateConnectManifest</code></p>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>gkehub. memberships. getIamPolicy</code></p>
+<p><code>gkehub.memberships.list</code></p>
+<p><code>gkehub.namespaces.get</code></p>
+<p><code>gkehub.namespaces.list</code></p>
+<p><code>gkehub.operations.get</code></p>
+<p><code>gkehub.operations.list</code></p>
+<p><code>gkehub.rbacrolebindings.get</code></p>
+<p><code>gkehub.rbacrolebindings.list</code></p>
+<p><code>gkehub.scopes.get</code></p>
+<p><code>gkehub.scopes.list</code></p>
+<p><code>gkehub. scopes. listBoundMemberships</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.connect" class="role-title add-link" data-text="GKE Connect Agent" tabindex="-1">GKE Connect Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.connect</code> )</p>
+<td>GKE Connect Agent
+<p>( <code>roles/ gkehub.connect</code> )</p>
 <p>Ability to set up GKE Connect between external clusters and Google.</p></td>
-<td><p><code dir="ltr" translate="no">gkehub.endpoints.connect</code></p></td>
+<td><p><code>gkehub.endpoints.connect</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.gatewayAdmin" class="role-title add-link" data-text="Connect Gateway Admin" tabindex="-1">Connect Gateway Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.gatewayAdmin</code> )</p>
+<td>Connect Gateway Admin
+<p>( <code>roles/ gkehub.gatewayAdmin</code> )</p>
 <p>Full access to Connect Gateway.</p></td>
-<td><p><code dir="ltr" translate="no">gkehub.gateway.*</code></p>
+<td><p><code>gkehub.gateway.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.gateway.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.  gateway.  generateCredentials</code></li>
-<li><code dir="ltr" translate="no">gkehub.gateway.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.gateway.patch</code></li>
-<li><code dir="ltr" translate="no">gkehub.gateway.post</code></li>
-<li><code dir="ltr" translate="no">gkehub.gateway.put</code></li>
-<li><code dir="ltr" translate="no">gkehub.gateway.stream</code></li>
+<li><code>gkehub.gateway.delete</code></li>
+<li><code>gkehub. gateway. generateCredentials</code></li>
+<li><code>gkehub.gateway.get</code></li>
+<li><code>gkehub.gateway.patch</code></li>
+<li><code>gkehub.gateway.post</code></li>
+<li><code>gkehub.gateway.put</code></li>
+<li><code>gkehub.gateway.stream</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.gatewayEditor" class="role-title add-link" data-text="Connect Gateway Editor" tabindex="-1">Connect Gateway Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.gatewayEditor</code> )</p>
+<td>Connect Gateway Editor
+<p>( <code>roles/ gkehub.gatewayEditor</code> )</p>
 <p>Edit access to Connect Gateway.</p></td>
-<td><p><code dir="ltr" translate="no">gkehub.gateway.delete</code></p>
-<p><code dir="ltr" translate="no">gkehub.  gateway.  generateCredentials</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.patch</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.post</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.put</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<td><p><code>gkehub.gateway.delete</code></p>
+<p><code>gkehub. gateway. generateCredentials</code></p>
+<p><code>gkehub.gateway.get</code></p>
+<p><code>gkehub.gateway.patch</code></p>
+<p><code>gkehub.gateway.post</code></p>
+<p><code>gkehub.gateway.put</code></p>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.gatewayReader" class="role-title add-link" data-text="Connect Gateway Reader" tabindex="-1">Connect Gateway Reader</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.gatewayReader</code> )</p>
+<td>Connect Gateway Reader
+<p>( <code>roles/ gkehub.gatewayReader</code> )</p>
 <p>Read-only access to Connect Gateway.</p></td>
-<td><p><code dir="ltr" translate="no">gkehub.  gateway.  generateCredentials</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<td><p><code>gkehub. gateway. generateCredentials</code></p>
+<p><code>gkehub.gateway.get</code></p>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.scopeAdmin" class="role-title add-link" data-text="Fleet Scope Admin" tabindex="-1">Fleet Scope Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
+<td>Fleet Scope Admin
+<p>( <code>roles/ gkehub.scopeAdmin</code> )</p>
 <p>Admin access to Fleet Scopes to set IAM Bindings and RBACRoleBindings.</p></td>
-<td><p><code dir="ltr" translate="no">gkehub.namespaces.create</code></p>
-<p><code dir="ltr" translate="no">gkehub.namespaces.delete</code></p>
-<p><code dir="ltr" translate="no">gkehub.namespaces.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.namespaces.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.rbacrolebindings.*</code></p>
+<td><p><code>gkehub.namespaces.create</code></p>
+<p><code>gkehub.namespaces.delete</code></p>
+<p><code>gkehub.namespaces.get</code></p>
+<p><code>gkehub.namespaces.list</code></p>
+<p><code>gkehub.rbacrolebindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.create</code></li>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.delete</code></li>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.list</code></li>
-<li><code dir="ltr" translate="no">gkehub.rbacrolebindings.update</code></li>
+<li><code>gkehub.rbacrolebindings.create</code></li>
+<li><code>gkehub.rbacrolebindings.delete</code></li>
+<li><code>gkehub.rbacrolebindings.get</code></li>
+<li><code>gkehub.rbacrolebindings.list</code></li>
+<li><code>gkehub.rbacrolebindings.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.scopes.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkehub.  scopes.  listBoundMemberships</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.setIamPolicy</code></p></td>
+<p><code>gkehub.scopes.get</code></p>
+<p><code>gkehub.scopes.getIamPolicy</code></p>
+<p><code>gkehub. scopes. listBoundMemberships</code></p>
+<p><code>gkehub.scopes.setIamPolicy</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.scopeEditor" class="role-title add-link" data-text="Fleet Scope Editor" tabindex="-1">Fleet Scope Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.scopeEditor</code> )</p>
+<td>Fleet Scope Editor
+<p>( <code>roles/ gkehub.scopeEditor</code> )</p>
 <p>Edit access to Namespaces under Fleet Scopes.</p></td>
-<td><p><code dir="ltr" translate="no">gkehub.namespaces.create</code></p>
-<p><code dir="ltr" translate="no">gkehub.namespaces.delete</code></p>
-<p><code dir="ltr" translate="no">gkehub.namespaces.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.namespaces.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.rbacrolebindings.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.rbacrolebindings.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkehub.  scopes.  listBoundMemberships</code></p></td>
+<td><p><code>gkehub.namespaces.create</code></p>
+<p><code>gkehub.namespaces.delete</code></p>
+<p><code>gkehub.namespaces.get</code></p>
+<p><code>gkehub.namespaces.list</code></p>
+<p><code>gkehub.rbacrolebindings.get</code></p>
+<p><code>gkehub.rbacrolebindings.list</code></p>
+<p><code>gkehub.scopes.get</code></p>
+<p><code>gkehub.scopes.getIamPolicy</code></p>
+<p><code>gkehub. scopes. listBoundMemberships</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.scopeEditorProjectLevel" class="role-title add-link" data-text="Fleet Project-level Scope Editor" tabindex="-1">Fleet Project-level Scope Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.scopeEditorProjectLevel</code> )</p>
+<td>Fleet Project-level Scope Editor
+<p>( <code>roles/ gkehub.scopeEditorProjectLevel</code> )</p>
 <p>Role for project-level permissions for editor of Fleet Scopes.</p></td>
-<td><p><code dir="ltr" translate="no">gkehub.gateway.delete</code></p>
-<p><code dir="ltr" translate="no">gkehub.  gateway.  generateCredentials</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.patch</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.post</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.put</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.operations.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<td><p><code>gkehub.gateway.delete</code></p>
+<p><code>gkehub. gateway. generateCredentials</code></p>
+<p><code>gkehub.gateway.get</code></p>
+<p><code>gkehub.gateway.patch</code></p>
+<p><code>gkehub.gateway.post</code></p>
+<p><code>gkehub.gateway.put</code></p>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>gkehub.operations.get</code></p>
+<p><code>monitoring.timeSeries.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.scopeViewer" class="role-title add-link" data-text="Fleet Scope Viewer" tabindex="-1">Fleet Scope Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.scopeViewer</code> )</p>
+<td>Fleet Scope Viewer
+<p>( <code>roles/ gkehub.scopeViewer</code> )</p>
 <p>Viewer of Fleet Scopes and associated resources.</p></td>
-<td><p><code dir="ltr" translate="no">gkehub.namespaces.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.namespaces.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.rbacrolebindings.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.rbacrolebindings.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkehub.  scopes.  listBoundMemberships</code></p></td>
+<td><p><code>gkehub.namespaces.get</code></p>
+<p><code>gkehub.namespaces.list</code></p>
+<p><code>gkehub.rbacrolebindings.get</code></p>
+<p><code>gkehub.rbacrolebindings.list</code></p>
+<p><code>gkehub.scopes.get</code></p>
+<p><code>gkehub.scopes.getIamPolicy</code></p>
+<p><code>gkehub. scopes. listBoundMemberships</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.scopeViewerProjectLevel" class="role-title add-link" data-text="Fleet Project-level Scope Viewer" tabindex="-1">Fleet Project-level Scope Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.scopeViewerProjectLevel</code> )</p>
+<td>Fleet Project-level Scope Viewer
+<p>( <code>roles/ gkehub.scopeViewerProjectLevel</code> )</p>
 <p>Role for project-level permissions for viewer of Fleet Scopes.</p></td>
-<td><p><code dir="ltr" translate="no">gkehub.  gateway.  generateCredentials</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<td><p><code>gkehub. gateway. generateCredentials</code></p>
+<p><code>gkehub.gateway.get</code></p>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>monitoring.timeSeries.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -421,123 +421,123 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="gkehub.crossProjectServiceAgent" class="role-title add-link" data-text="GKE Hub Cross Project Service Agent" tabindex="-1">GKE Hub Cross Project Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.crossProjectServiceAgent</code> )</p>
+<td>GKE Hub Cross Project Service Agent
+<p>( <code>roles/ gkehub.crossProjectServiceAgent</code> )</p>
 <p>Gives the GKE Hub service agent permission to manage the project for cross-project fleet registration.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.  projects.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  projects.  setIamPolicy</code></p></td>
+<td><p><code>resourcemanager. projects. getIamPolicy</code></p>
+<p><code>resourcemanager. projects. setIamPolicy</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.serviceAgent" class="role-title add-link" data-text="GKE Hub Service Agent" tabindex="-1">GKE Hub Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</p>
+<td>GKE Hub Service Agent
+<p>( <code>roles/ gkehub.serviceAgent</code> )</p>
 <p>Gives the GKE Hub service agent access to Cloud Platform resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">container.  clusterRoleBindings.*</code></p>
+<td><p><code>container. clusterRoleBindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  clusterRoleBindings.  create</code></li>
-<li><code dir="ltr" translate="no">container.  clusterRoleBindings.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  clusterRoleBindings.  get</code></li>
-<li><code dir="ltr" translate="no">container.  clusterRoleBindings.  list</code></li>
-<li><code dir="ltr" translate="no">container.  clusterRoleBindings.  update</code></li>
+<li><code>container. clusterRoleBindings. create</code></li>
+<li><code>container. clusterRoleBindings. delete</code></li>
+<li><code>container. clusterRoleBindings. get</code></li>
+<li><code>container. clusterRoleBindings. list</code></li>
+<li><code>container. clusterRoleBindings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.clusterRoles.*</code></p>
+<p><code>container.clusterRoles.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.clusterRoles.bind</code></li>
-<li><code dir="ltr" translate="no">container.clusterRoles.create</code></li>
-<li><code dir="ltr" translate="no">container.clusterRoles.delete</code></li>
-<li><code dir="ltr" translate="no">container.  clusterRoles.  escalate</code></li>
-<li><code dir="ltr" translate="no">container.clusterRoles.get</code></li>
-<li><code dir="ltr" translate="no">container.clusterRoles.list</code></li>
-<li><code dir="ltr" translate="no">container.clusterRoles.update</code></li>
+<li><code>container.clusterRoles.bind</code></li>
+<li><code>container.clusterRoles.create</code></li>
+<li><code>container.clusterRoles.delete</code></li>
+<li><code>container. clusterRoles. escalate</code></li>
+<li><code>container.clusterRoles.get</code></li>
+<li><code>container.clusterRoles.list</code></li>
+<li><code>container.clusterRoles.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.clusters.connect</code></p>
-<p><code dir="ltr" translate="no">container.clusters.get</code></p>
-<p><code dir="ltr" translate="no">container.clusters.list</code></p>
-<p><code dir="ltr" translate="no">container.clusters.update</code></p>
-<p><code dir="ltr" translate="no">container.  customResourceDefinitions.  create</code></p>
-<p><code dir="ltr" translate="no">container.  customResourceDefinitions.  delete</code></p>
-<p><code dir="ltr" translate="no">container.  customResourceDefinitions.  get</code></p>
-<p><code dir="ltr" translate="no">container.  customResourceDefinitions.  list</code></p>
-<p><code dir="ltr" translate="no">container.  customResourceDefinitions.  update</code></p>
-<p><code dir="ltr" translate="no">container.namespaces.get</code></p>
-<p><code dir="ltr" translate="no">container.operations.get</code></p>
-<p><code dir="ltr" translate="no">container.thirdPartyObjects.*</code></p>
+<p><code>container.clusters.connect</code></p>
+<p><code>container.clusters.get</code></p>
+<p><code>container.clusters.list</code></p>
+<p><code>container.clusters.update</code></p>
+<p><code>container. customResourceDefinitions. create</code></p>
+<p><code>container. customResourceDefinitions. delete</code></p>
+<p><code>container. customResourceDefinitions. get</code></p>
+<p><code>container. customResourceDefinitions. list</code></p>
+<p><code>container. customResourceDefinitions. update</code></p>
+<p><code>container.namespaces.get</code></p>
+<p><code>container.operations.get</code></p>
+<p><code>container.thirdPartyObjects.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  thirdPartyObjects.  create</code></li>
-<li><code dir="ltr" translate="no">container.  thirdPartyObjects.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  thirdPartyObjects.  get</code></li>
-<li><code dir="ltr" translate="no">container.  thirdPartyObjects.  list</code></li>
-<li><code dir="ltr" translate="no">container.  thirdPartyObjects.  update</code></li>
+<li><code>container. thirdPartyObjects. create</code></li>
+<li><code>container. thirdPartyObjects. delete</code></li>
+<li><code>container. thirdPartyObjects. get</code></li>
+<li><code>container. thirdPartyObjects. list</code></li>
+<li><code>container. thirdPartyObjects. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.features.create</code></p>
-<p><code dir="ltr" translate="no">gkehub.features.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.features.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.fleet.create</code></p>
-<p><code dir="ltr" translate="no">gkehub.fleet.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.delete</code></p>
-<p><code dir="ltr" translate="no">gkehub.  gateway.  generateCredentials</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.patch</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.post</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.put</code></p>
-<p><code dir="ltr" translate="no">gkehub.locations.*</code></p>
+<p><code>gkehub.features.create</code></p>
+<p><code>gkehub.features.get</code></p>
+<p><code>gkehub.features.list</code></p>
+<p><code>gkehub.fleet.create</code></p>
+<p><code>gkehub.fleet.get</code></p>
+<p><code>gkehub.gateway.delete</code></p>
+<p><code>gkehub. gateway. generateCredentials</code></p>
+<p><code>gkehub.gateway.get</code></p>
+<p><code>gkehub.gateway.patch</code></p>
+<p><code>gkehub.gateway.post</code></p>
+<p><code>gkehub.gateway.put</code></p>
+<p><code>gkehub.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.locations.list</code></li>
+<li><code>gkehub.locations.get</code></li>
+<li><code>gkehub.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.memberships.create</code></p>
-<p><code dir="ltr" translate="no">gkehub.  memberships.  generateConnectManifest</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.operations.get</code></p>
-<p><code dir="ltr" translate="no">gkemulticloud.awsClusters.get</code></p>
-<p><code dir="ltr" translate="no">gkemulticloud.  azureClusters.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.  bareMetalClusters.  get</code></p>
-<p><code dir="ltr" translate="no">gkeonprem.vmwareClusters.get</code></p>
-<p><code dir="ltr" translate="no">logging.buckets.create</code></p>
-<p><code dir="ltr" translate="no">logging.buckets.get</code></p>
-<p><code dir="ltr" translate="no">logging.buckets.list</code></p>
-<p><code dir="ltr" translate="no">logging.buckets.update</code></p>
-<p><code dir="ltr" translate="no">logging.exclusions.*</code></p>
+<p><code>gkehub.memberships.create</code></p>
+<p><code>gkehub. memberships. generateConnectManifest</code></p>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>gkehub.memberships.list</code></p>
+<p><code>gkehub.operations.get</code></p>
+<p><code>gkemulticloud.awsClusters.get</code></p>
+<p><code>gkemulticloud. azureClusters. get</code></p>
+<p><code>gkeonprem. bareMetalClusters. get</code></p>
+<p><code>gkeonprem.vmwareClusters.get</code></p>
+<p><code>logging.buckets.create</code></p>
+<p><code>logging.buckets.get</code></p>
+<p><code>logging.buckets.list</code></p>
+<p><code>logging.buckets.update</code></p>
+<p><code>logging.exclusions.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">logging.exclusions.create</code></li>
-<li><code dir="ltr" translate="no">logging.exclusions.delete</code></li>
-<li><code dir="ltr" translate="no">logging.exclusions.get</code></li>
-<li><code dir="ltr" translate="no">logging.exclusions.list</code></li>
-<li><code dir="ltr" translate="no">logging.exclusions.update</code></li>
+<li><code>logging.exclusions.create</code></li>
+<li><code>logging.exclusions.delete</code></li>
+<li><code>logging.exclusions.get</code></li>
+<li><code>logging.exclusions.list</code></li>
+<li><code>logging.exclusions.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">logging.sinks.*</code></p>
+<p><code>logging.sinks.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">logging.sinks.create</code></li>
-<li><code dir="ltr" translate="no">logging.sinks.delete</code></li>
-<li><code dir="ltr" translate="no">logging.sinks.get</code></li>
-<li><code dir="ltr" translate="no">logging.sinks.list</code></li>
-<li><code dir="ltr" translate="no">logging.sinks.update</code></li>
+<li><code>logging.sinks.create</code></li>
+<li><code>logging.sinks.delete</code></li>
+<li><code>logging.sinks.get</code></li>
+<li><code>logging.sinks.list</code></li>
+<li><code>logging.sinks.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">logging.views.create</code></p>
-<p><code dir="ltr" translate="no">logging.views.get</code></p>
-<p><code dir="ltr" translate="no">logging.views.list</code></p>
-<p><code dir="ltr" translate="no">logging.views.update</code></p>
-<p><code dir="ltr" translate="no">monitoring.metricsScopes.link</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<p><code>logging.views.create</code></p>
+<p><code>logging.views.get</code></p>
+<p><code>logging.views.list</code></p>
+<p><code>logging.views.update</code></p>
+<p><code>monitoring.metricsScopes.link</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -557,1533 +557,1533 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="gkehub.endpoints.connect" class="permission-name add-link" data-text="gkehub.endpoints.connect" tabindex="-1"><code dir="ltr" translate="no">gkehub.endpoints.connect</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudmigration#cloudmigration.inframanager">Velostrata Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudmigration.inframanager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudmigration#cloudmigration.velostrataconnect">Velostrata Manager Connection Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudmigration.velostrataconnect</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.connect">GKE Connect Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.connect</code> )</p>
+<td><code>gkehub.endpoints.connect</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudmigration#cloudmigration.inframanager">Velostrata Manager</a> ( <code>roles/ cloudmigration.inframanager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudmigration#cloudmigration.velostrataconnect">Velostrata Manager Connection Agent</a> ( <code>roles/ cloudmigration.velostrataconnect</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.connect">GKE Connect Agent</a> ( <code>roles/ gkehub.connect</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.features.create" class="permission-name add-link" data-text="gkehub.features.create" tabindex="-1"><code dir="ltr" translate="no">gkehub.features.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.features.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.features.delete" class="permission-name add-link" data-text="gkehub.features.delete" tabindex="-1"><code dir="ltr" translate="no">gkehub.features.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.features.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.features.get" class="permission-name add-link" data-text="gkehub.features.get" tabindex="-1"><code dir="ltr" translate="no">gkehub.features.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.features.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthos#anthos.serviceAgent">Anthos Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthos.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosaudit#anthosaudit.serviceAgent">Anthos Audit Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosaudit.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosconfigmanagement.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosidentityservice.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthospolicycontroller.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosservicemesh.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appdevelopmentexperience.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclustermetering.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusterservicediscovery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicedirectory.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadcertificate.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthos#anthos.serviceAgent">Anthos Service Agent</a> ( <code>roles/ anthos.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosaudit#anthosaudit.serviceAgent">Anthos Audit Service Agent</a> ( <code>roles/ anthosaudit.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code>roles/ anthosconfigmanagement.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code>roles/ anthosidentityservice.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code>roles/ anthospolicycontroller.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code>roles/ anthosservicemesh.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code>roles/ appdevelopmentexperience.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code>roles/ multiclusteringress.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code>roles/ multiclustermetering.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code>roles/ multiclusterservicediscovery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code>roles/ servicedirectory.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code>roles/ workloadcertificate.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.features.getIamPolicy" class="permission-name add-link" data-text="gkehub.features.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkehub.features.getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.features.getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.features.list" class="permission-name add-link" data-text="gkehub.features.list" tabindex="-1"><code dir="ltr" translate="no">gkehub.features.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.features.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.features.setIamPolicy" class="permission-name add-link" data-text="gkehub.features.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkehub.features.setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<td><code>gkehub.features.setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.features.update" class="permission-name add-link" data-text="gkehub.features.update" tabindex="-1"><code dir="ltr" translate="no">gkehub.features.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.features.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.fleet.create" class="permission-name add-link" data-text="gkehub.fleet.create" tabindex="-1"><code dir="ltr" translate="no">gkehub.fleet.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.fleet.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadcertificate.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code>roles/ workloadcertificate.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.fleet.createFreeTrial" class="permission-name add-link" data-text="gkehub.fleet.createFreeTrial" tabindex="-1"><code dir="ltr" translate="no">gkehub.fleet.createFreeTrial</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.fleet.createFreeTrial</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.fleet.delete" class="permission-name add-link" data-text="gkehub.fleet.delete" tabindex="-1"><code dir="ltr" translate="no">gkehub.fleet.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.fleet.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.fleet.get" class="permission-name add-link" data-text="gkehub.fleet.get" tabindex="-1"><code dir="ltr" translate="no">gkehub.fleet.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.fleet.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadcertificate.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code>roles/ workloadcertificate.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.fleet.getFreeTrial" class="permission-name add-link" data-text="gkehub.fleet.getFreeTrial" tabindex="-1"><code dir="ltr" translate="no">gkehub.fleet.getFreeTrial</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.fleet.getFreeTrial</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.fleet.update" class="permission-name add-link" data-text="gkehub.fleet.update" tabindex="-1"><code dir="ltr" translate="no">gkehub.fleet.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.fleet.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.fleet.updateFreeTrial" class="permission-name add-link" data-text="gkehub.fleet.updateFreeTrial" tabindex="-1"><code dir="ltr" translate="no">gkehub.fleet.updateFreeTrial</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.fleet.updateFreeTrial</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.gateway.delete" class="permission-name add-link" data-text="gkehub.gateway.delete" tabindex="-1"><code dir="ltr" translate="no">gkehub.gateway.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditorProjectLevel</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.gateway.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code>roles/ gkehub.gatewayAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code>roles/ gkehub.gatewayEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code>roles/ gkehub.scopeEditorProjectLevel</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosconfigmanagement.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosidentityservice.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthospolicycontroller.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosservicemesh.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appdevelopmentexperience.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclustermetering.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusterservicediscovery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicedirectory.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code>roles/ anthosconfigmanagement.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code>roles/ anthosidentityservice.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code>roles/ anthospolicycontroller.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code>roles/ anthosservicemesh.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code>roles/ appdevelopmentexperience.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code>roles/ configdelivery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code>roles/ multiclusteringress.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code>roles/ multiclustermetering.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code>roles/ multiclusterservicediscovery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code>roles/ servicedirectory.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.gateway.generateCredentials" class="permission-name add-link" data-text="gkehub.gateway.generateCredentials" tabindex="-1"><code dir="ltr" translate="no">gkehub.  gateway.  generateCredentials</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayReader">Connect Gateway Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditorProjectLevel</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewerProjectLevel">Fleet Project-level Scope Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeViewerProjectLevel</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub. gateway. generateCredentials</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code>roles/ gkehub.gatewayAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code>roles/ gkehub.gatewayEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayReader">Connect Gateway Reader</a> ( <code>roles/ gkehub.gatewayReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code>roles/ gkehub.scopeEditorProjectLevel</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewerProjectLevel">Fleet Project-level Scope Viewer</a> ( <code>roles/ gkehub.scopeViewerProjectLevel</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosconfigmanagement.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosidentityservice.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthospolicycontroller.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosservicemesh.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appdevelopmentexperience.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclustermetering.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusterservicediscovery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicedirectory.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code>roles/ anthosconfigmanagement.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code>roles/ anthosidentityservice.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code>roles/ anthospolicycontroller.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code>roles/ anthosservicemesh.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code>roles/ appdevelopmentexperience.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code>roles/ configdelivery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code>roles/ multiclusteringress.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code>roles/ multiclustermetering.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code>roles/ multiclusterservicediscovery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code>roles/ servicedirectory.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.gateway.get" class="permission-name add-link" data-text="gkehub.gateway.get" tabindex="-1"><code dir="ltr" translate="no">gkehub.gateway.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayReader">Connect Gateway Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditorProjectLevel</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewerProjectLevel">Fleet Project-level Scope Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeViewerProjectLevel</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.gateway.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code>roles/ gkehub.gatewayAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code>roles/ gkehub.gatewayEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayReader">Connect Gateway Reader</a> ( <code>roles/ gkehub.gatewayReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code>roles/ gkehub.scopeEditorProjectLevel</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewerProjectLevel">Fleet Project-level Scope Viewer</a> ( <code>roles/ gkehub.scopeViewerProjectLevel</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosconfigmanagement.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosidentityservice.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthospolicycontroller.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosservicemesh.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appdevelopmentexperience.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclustermetering.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusterservicediscovery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicedirectory.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code>roles/ anthosconfigmanagement.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code>roles/ anthosidentityservice.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code>roles/ anthospolicycontroller.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code>roles/ anthosservicemesh.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code>roles/ appdevelopmentexperience.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code>roles/ configdelivery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code>roles/ multiclusteringress.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code>roles/ multiclustermetering.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code>roles/ multiclusterservicediscovery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code>roles/ servicedirectory.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.gateway.patch" class="permission-name add-link" data-text="gkehub.gateway.patch" tabindex="-1"><code dir="ltr" translate="no">gkehub.gateway.patch</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditorProjectLevel</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.gateway.patch</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code>roles/ gkehub.gatewayAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code>roles/ gkehub.gatewayEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code>roles/ gkehub.scopeEditorProjectLevel</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosconfigmanagement.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosidentityservice.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthospolicycontroller.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosservicemesh.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appdevelopmentexperience.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclustermetering.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusterservicediscovery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicedirectory.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code>roles/ anthosconfigmanagement.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code>roles/ anthosidentityservice.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code>roles/ anthospolicycontroller.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code>roles/ anthosservicemesh.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code>roles/ appdevelopmentexperience.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code>roles/ configdelivery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code>roles/ multiclusteringress.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code>roles/ multiclustermetering.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code>roles/ multiclusterservicediscovery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code>roles/ servicedirectory.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.gateway.post" class="permission-name add-link" data-text="gkehub.gateway.post" tabindex="-1"><code dir="ltr" translate="no">gkehub.gateway.post</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditorProjectLevel</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.gateway.post</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code>roles/ gkehub.gatewayAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code>roles/ gkehub.gatewayEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code>roles/ gkehub.scopeEditorProjectLevel</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosconfigmanagement.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosidentityservice.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthospolicycontroller.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosservicemesh.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appdevelopmentexperience.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclustermetering.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusterservicediscovery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicedirectory.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code>roles/ anthosconfigmanagement.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code>roles/ anthosidentityservice.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code>roles/ anthospolicycontroller.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code>roles/ anthosservicemesh.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code>roles/ appdevelopmentexperience.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code>roles/ configdelivery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code>roles/ multiclusteringress.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code>roles/ multiclustermetering.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code>roles/ multiclusterservicediscovery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code>roles/ servicedirectory.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.gateway.put" class="permission-name add-link" data-text="gkehub.gateway.put" tabindex="-1"><code dir="ltr" translate="no">gkehub.gateway.put</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditorProjectLevel</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.gateway.put</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code>roles/ gkehub.gatewayAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code>roles/ gkehub.gatewayEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code>roles/ gkehub.scopeEditorProjectLevel</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosconfigmanagement.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosidentityservice.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthospolicycontroller.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosservicemesh.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appdevelopmentexperience.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclustermetering.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusterservicediscovery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicedirectory.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code>roles/ anthosconfigmanagement.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code>roles/ anthosidentityservice.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code>roles/ anthospolicycontroller.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code>roles/ anthosservicemesh.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code>roles/ appdevelopmentexperience.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code>roles/ configdelivery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code>roles/ multiclusteringress.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code>roles/ multiclustermetering.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code>roles/ multiclusterservicediscovery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code>roles/ servicedirectory.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.gateway.stream" class="permission-name add-link" data-text="gkehub.gateway.stream" tabindex="-1"><code dir="ltr" translate="no">gkehub.gateway.stream</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.gateway.stream</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code>roles/ gkehub.gatewayAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.locations.get" class="permission-name add-link" data-text="gkehub.locations.get" tabindex="-1"><code dir="ltr" translate="no">gkehub.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.locations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthos#anthos.serviceAgent">Anthos Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthos.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosaudit#anthosaudit.serviceAgent">Anthos Audit Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosaudit.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosconfigmanagement.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosidentityservice.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthospolicycontroller.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosservicemesh.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appdevelopmentexperience.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclustermetering.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusterservicediscovery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicedirectory.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadcertificate.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthos#anthos.serviceAgent">Anthos Service Agent</a> ( <code>roles/ anthos.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosaudit#anthosaudit.serviceAgent">Anthos Audit Service Agent</a> ( <code>roles/ anthosaudit.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code>roles/ anthosconfigmanagement.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code>roles/ anthosidentityservice.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code>roles/ anthospolicycontroller.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code>roles/ anthosservicemesh.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code>roles/ appdevelopmentexperience.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code>roles/ multiclusteringress.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code>roles/ multiclustermetering.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code>roles/ multiclusterservicediscovery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code>roles/ servicedirectory.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code>roles/ workloadcertificate.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.locations.list" class="permission-name add-link" data-text="gkehub.locations.list" tabindex="-1"><code dir="ltr" translate="no">gkehub.locations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.locations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthos#anthos.serviceAgent">Anthos Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthos.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosaudit#anthosaudit.serviceAgent">Anthos Audit Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosaudit.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosconfigmanagement.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosidentityservice.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthospolicycontroller.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosservicemesh.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appdevelopmentexperience.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclustermetering.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusterservicediscovery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicedirectory.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadcertificate.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthos#anthos.serviceAgent">Anthos Service Agent</a> ( <code>roles/ anthos.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosaudit#anthosaudit.serviceAgent">Anthos Audit Service Agent</a> ( <code>roles/ anthosaudit.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code>roles/ anthosconfigmanagement.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code>roles/ anthosidentityservice.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code>roles/ anthospolicycontroller.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code>roles/ anthosservicemesh.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code>roles/ appdevelopmentexperience.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code>roles/ multiclusteringress.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code>roles/ multiclustermetering.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code>roles/ multiclusterservicediscovery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code>roles/ servicedirectory.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code>roles/ workloadcertificate.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.membershipbindings.create" class="permission-name add-link" data-text="gkehub.membershipbindings.create" tabindex="-1"><code dir="ltr" translate="no">gkehub.  membershipbindings.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub. membershipbindings. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.membershipbindings.delete" class="permission-name add-link" data-text="gkehub.membershipbindings.delete" tabindex="-1"><code dir="ltr" translate="no">gkehub.  membershipbindings.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub. membershipbindings. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.membershipbindings.get" class="permission-name add-link" data-text="gkehub.membershipbindings.get" tabindex="-1"><code dir="ltr" translate="no">gkehub.membershipbindings.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.membershipbindings.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.membershipbindings.list" class="permission-name add-link" data-text="gkehub.membershipbindings.list" tabindex="-1"><code dir="ltr" translate="no">gkehub.membershipbindings.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.membershipbindings.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.membershipbindings.update" class="permission-name add-link" data-text="gkehub.membershipbindings.update" tabindex="-1"><code dir="ltr" translate="no">gkehub.  membershipbindings.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub. membershipbindings. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.membershipfeatures.create" class="permission-name add-link" data-text="gkehub.membershipfeatures.create" tabindex="-1"><code dir="ltr" translate="no">gkehub.  membershipfeatures.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub. membershipfeatures. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.membershipfeatures.delete" class="permission-name add-link" data-text="gkehub.membershipfeatures.delete" tabindex="-1"><code dir="ltr" translate="no">gkehub.  membershipfeatures.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub. membershipfeatures. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.membershipfeatures.get" class="permission-name add-link" data-text="gkehub.membershipfeatures.get" tabindex="-1"><code dir="ltr" translate="no">gkehub.membershipfeatures.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.membershipfeatures.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.membershipfeatures.list" class="permission-name add-link" data-text="gkehub.membershipfeatures.list" tabindex="-1"><code dir="ltr" translate="no">gkehub.membershipfeatures.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.membershipfeatures.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.membershipfeatures.update" class="permission-name add-link" data-text="gkehub.membershipfeatures.update" tabindex="-1"><code dir="ltr" translate="no">gkehub.  membershipfeatures.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub. membershipfeatures. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.memberships.create" class="permission-name add-link" data-text="gkehub.memberships.create" tabindex="-1"><code dir="ltr" translate="no">gkehub.memberships.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.memberships.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.memberships.delete" class="permission-name add-link" data-text="gkehub.memberships.delete" tabindex="-1"><code dir="ltr" translate="no">gkehub.memberships.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.memberships.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.memberships.generateConnectManifest" class="permission-name add-link" data-text="gkehub.memberships.generateConnectManifest" tabindex="-1"><code dir="ltr" translate="no">gkehub.  memberships.  generateConnectManifest</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub. memberships. generateConnectManifest</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.memberships.get" class="permission-name add-link" data-text="gkehub.memberships.get" tabindex="-1"><code dir="ltr" translate="no">gkehub.memberships.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayReader">Connect Gateway Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.gatewayReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditorProjectLevel</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewerProjectLevel">Fleet Project-level Scope Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeViewerProjectLevel</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.memberships.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayAdmin">Connect Gateway Admin</a> ( <code>roles/ gkehub.gatewayAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayEditor">Connect Gateway Editor</a> ( <code>roles/ gkehub.gatewayEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.gatewayReader">Connect Gateway Reader</a> ( <code>roles/ gkehub.gatewayReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code>roles/ gkehub.scopeEditorProjectLevel</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewerProjectLevel">Fleet Project-level Scope Viewer</a> ( <code>roles/ gkehub.scopeViewerProjectLevel</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthos#anthos.serviceAgent">Anthos Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthos.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosaudit#anthosaudit.serviceAgent">Anthos Audit Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosaudit.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosconfigmanagement.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosidentityservice.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthospolicycontroller.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosservicemesh.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appdevelopmentexperience.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclustermetering.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusterservicediscovery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicedirectory.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadcertificate.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthos#anthos.serviceAgent">Anthos Service Agent</a> ( <code>roles/ anthos.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosaudit#anthosaudit.serviceAgent">Anthos Audit Service Agent</a> ( <code>roles/ anthosaudit.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code>roles/ anthosconfigmanagement.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code>roles/ anthosidentityservice.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code>roles/ anthospolicycontroller.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code>roles/ anthosservicemesh.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code>roles/ appdevelopmentexperience.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.serviceAgent">Config Delivery Service Agent</a> ( <code>roles/ configdelivery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code>roles/ multiclusteringress.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code>roles/ multiclustermetering.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code>roles/ multiclusterservicediscovery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code>roles/ servicedirectory.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code>roles/ workloadcertificate.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.memberships.getIamPolicy" class="permission-name add-link" data-text="gkehub.memberships.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkehub.  memberships.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub. memberships. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.memberships.list" class="permission-name add-link" data-text="gkehub.memberships.list" tabindex="-1"><code dir="ltr" translate="no">gkehub.memberships.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.memberships.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.onlinePredictionServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthos#anthos.serviceAgent">Anthos Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthos.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosaudit#anthosaudit.serviceAgent">Anthos Audit Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosaudit.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosconfigmanagement.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosidentityservice.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthospolicycontroller.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthosservicemesh.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appdevelopmentexperience.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclustermetering.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusterservicediscovery.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicedirectory.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadcertificate.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a> ( <code>roles/ aiplatform.onlinePredictionServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthos#anthos.serviceAgent">Anthos Service Agent</a> ( <code>roles/ anthos.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosaudit#anthosaudit.serviceAgent">Anthos Audit Service Agent</a> ( <code>roles/ anthosaudit.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosconfigmanagement#anthosconfigmanagement.serviceAgent">Anthos Config Management Service Agent</a> ( <code>roles/ anthosconfigmanagement.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosidentityservice#anthosidentityservice.serviceAgent">Anthos Identity Service Agent</a> ( <code>roles/ anthosidentityservice.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthospolicycontroller#anthospolicycontroller.serviceAgent">Anthos Policy Controller Service Agent</a> ( <code>roles/ anthospolicycontroller.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code>roles/ anthosservicemesh.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appdevelopmentexperience#appdevelopmentexperience.serviceAgent">App Development Experience Service Agent</a> ( <code>roles/ appdevelopmentexperience.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code>roles/ multiclusteringress.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a> ( <code>roles/ multiclustermetering.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code>roles/ multiclusterservicediscovery.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a> ( <code>roles/ servicedirectory.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code>roles/ workloadcertificate.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.memberships.setIamPolicy" class="permission-name add-link" data-text="gkehub.memberships.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkehub.  memberships.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<td><code>gkehub. memberships. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.memberships.update" class="permission-name add-link" data-text="gkehub.memberships.update" tabindex="-1"><code dir="ltr" translate="no">gkehub.memberships.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.memberships.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkeonprem.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem#gkeonprem.serviceAgent">GKE On-Prem Service Agent</a> ( <code>roles/ gkeonprem.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.namespaces.create" class="permission-name add-link" data-text="gkehub.namespaces.create" tabindex="-1"><code dir="ltr" translate="no">gkehub.namespaces.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.namespaces.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code>roles/ gkehub.scopeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.namespaces.delete" class="permission-name add-link" data-text="gkehub.namespaces.delete" tabindex="-1"><code dir="ltr" translate="no">gkehub.namespaces.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.namespaces.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code>roles/ gkehub.scopeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.namespaces.get" class="permission-name add-link" data-text="gkehub.namespaces.get" tabindex="-1"><code dir="ltr" translate="no">gkehub.namespaces.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.namespaces.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code>roles/ gkehub.scopeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code>roles/ gkehub.scopeViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.namespaces.list" class="permission-name add-link" data-text="gkehub.namespaces.list" tabindex="-1"><code dir="ltr" translate="no">gkehub.namespaces.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.namespaces.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code>roles/ gkehub.scopeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code>roles/ gkehub.scopeViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.namespaces.update" class="permission-name add-link" data-text="gkehub.namespaces.update" tabindex="-1"><code dir="ltr" translate="no">gkehub.namespaces.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.namespaces.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.operations.cancel" class="permission-name add-link" data-text="gkehub.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">gkehub.operations.cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.operations.cancel</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.operations.delete" class="permission-name add-link" data-text="gkehub.operations.delete" tabindex="-1"><code dir="ltr" translate="no">gkehub.operations.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.operations.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.operations.get" class="permission-name add-link" data-text="gkehub.operations.get" tabindex="-1"><code dir="ltr" translate="no">gkehub.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditorProjectLevel</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.operations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditorProjectLevel">Fleet Project-level Scope Editor</a> ( <code>roles/ gkehub.scopeEditorProjectLevel</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadcertificate.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.serviceAgent">GKE Hub Service Agent</a> ( <code>roles/ gkehub.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.serviceAgent">Workload Certificate Service Agent</a> ( <code>roles/ workloadcertificate.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.operations.list" class="permission-name add-link" data-text="gkehub.operations.list" tabindex="-1"><code dir="ltr" translate="no">gkehub.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.operations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.clusterServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.clusterServiceAgent">Edge Container Cluster Service Agent</a> ( <code>roles/ edgecontainer.clusterServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAgent">Edge Container Service Agent</a> ( <code>roles/ edgecontainer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.rbacrolebindings.create" class="permission-name add-link" data-text="gkehub.rbacrolebindings.create" tabindex="-1"><code dir="ltr" translate="no">gkehub.rbacrolebindings.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.rbacrolebindings.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.rbacrolebindings.delete" class="permission-name add-link" data-text="gkehub.rbacrolebindings.delete" tabindex="-1"><code dir="ltr" translate="no">gkehub.rbacrolebindings.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.rbacrolebindings.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.rbacrolebindings.get" class="permission-name add-link" data-text="gkehub.rbacrolebindings.get" tabindex="-1"><code dir="ltr" translate="no">gkehub.rbacrolebindings.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.rbacrolebindings.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code>roles/ gkehub.scopeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code>roles/ gkehub.scopeViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.rbacrolebindings.list" class="permission-name add-link" data-text="gkehub.rbacrolebindings.list" tabindex="-1"><code dir="ltr" translate="no">gkehub.rbacrolebindings.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.rbacrolebindings.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code>roles/ gkehub.scopeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code>roles/ gkehub.scopeViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.rbacrolebindings.update" class="permission-name add-link" data-text="gkehub.rbacrolebindings.update" tabindex="-1"><code dir="ltr" translate="no">gkehub.rbacrolebindings.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.rbacrolebindings.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.scopes.create" class="permission-name add-link" data-text="gkehub.scopes.create" tabindex="-1"><code dir="ltr" translate="no">gkehub.scopes.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.scopes.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.scopes.delete" class="permission-name add-link" data-text="gkehub.scopes.delete" tabindex="-1"><code dir="ltr" translate="no">gkehub.scopes.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.scopes.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.scopes.get" class="permission-name add-link" data-text="gkehub.scopes.get" tabindex="-1"><code dir="ltr" translate="no">gkehub.scopes.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.scopes.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code>roles/ gkehub.scopeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code>roles/ gkehub.scopeViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.scopes.getIamPolicy" class="permission-name add-link" data-text="gkehub.scopes.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkehub.scopes.getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.scopes.getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code>roles/ gkehub.scopeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code>roles/ gkehub.scopeViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.scopes.list" class="permission-name add-link" data-text="gkehub.scopes.list" tabindex="-1"><code dir="ltr" translate="no">gkehub.scopes.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.scopes.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.scopes.listBoundMemberships" class="permission-name add-link" data-text="gkehub.scopes.listBoundMemberships" tabindex="-1"><code dir="ltr" translate="no">gkehub.  scopes.  listBoundMemberships</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub. scopes. listBoundMemberships</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.viewer">Fleet Viewer (formerly GKE Hub Viewer)</a> ( <code>roles/ gkehub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeEditor">Fleet Scope Editor</a> ( <code>roles/ gkehub.scopeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeViewer">Fleet Scope Viewer</a> ( <code>roles/ gkehub.scopeViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gameservices.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  meshcontrolplane.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthossupport#anthossupport.serviceAgent">Anthos Support Service Agent</a> ( <code>roles/ anthossupport.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gameservices#gameservices.serviceAgent">Game Services Service Agent</a> ( <code>roles/ gameservices.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane#meshcontrolplane.serviceAgent">Mesh Managed Control Plane Service Agent</a> ( <code>roles/ meshcontrolplane.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkehub.scopes.setIamPolicy" class="permission-name add-link" data-text="gkehub.scopes.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkehub.scopes.setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.scopeAdmin</code> )</p></td>
+<td><code>gkehub.scopes.setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.scopeAdmin">Fleet Scope Admin</a> ( <code>roles/ gkehub.scopeAdmin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkehub.scopes.update" class="permission-name add-link" data-text="gkehub.scopes.update" tabindex="-1"><code dir="ltr" translate="no">gkehub.scopes.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkehub.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkehub.scopes.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.admin">Fleet Admin (formerly GKE Hub Admin)</a> ( <code>roles/ gkehub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub#gkehub.editor">Fleet Editor (formerly GKE Hub Editor)</a> ( <code>roles/ gkehub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkemulticloud.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud#gkemulticloud.serviceAgent">Anthos Multi-Cloud Service Agent</a> ( <code>roles/ gkemulticloud.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a> ( <code>roles/ krmapihosting.anthosApiEndpointServiceAgent</code> )</li>
 </ul></td>
 </tr>
 </tbody>

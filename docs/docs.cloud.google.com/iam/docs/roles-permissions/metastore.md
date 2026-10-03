@@ -23,384 +23,384 @@ This page lists the IAM roles and permissions for Dataproc Metastore. To search 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="metastore.admin" class="role-title add-link" data-text="Dataproc Metastore Admin" tabindex="-1">Dataproc Metastore Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
+<td>Dataproc Metastore Admin
+<p>( <code>roles/ metastore.admin</code> )</p>
 <p>Full access to all Dataproc Metastore resources.</p></td>
-<td><p><code dir="ltr" translate="no">metastore.backups.*</code></p>
+<td><p><code>metastore.backups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.backups.create</code></li>
-<li><code dir="ltr" translate="no">metastore.backups.delete</code></li>
-<li><code dir="ltr" translate="no">metastore.backups.get</code></li>
-<li><code dir="ltr" translate="no">metastore.backups.getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">metastore.backups.list</code></li>
-<li><code dir="ltr" translate="no">metastore.backups.setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">metastore.backups.use</code></li>
+<li><code>metastore.backups.create</code></li>
+<li><code>metastore.backups.delete</code></li>
+<li><code>metastore.backups.get</code></li>
+<li><code>metastore.backups.getIamPolicy</code></li>
+<li><code>metastore.backups.list</code></li>
+<li><code>metastore.backups.setIamPolicy</code></li>
+<li><code>metastore.backups.use</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.federations.*</code></p>
+<p><code>metastore.federations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.federations.create</code></li>
-<li><code dir="ltr" translate="no">metastore.  federations.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">metastore.federations.delete</code></li>
-<li><code dir="ltr" translate="no">metastore.  federations.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">metastore.federations.get</code></li>
-<li><code dir="ltr" translate="no">metastore.  federations.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">metastore.federations.list</code></li>
-<li><code dir="ltr" translate="no">metastore.  federations.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">metastore.  federations.  listTagBindings</code></li>
-<li><code dir="ltr" translate="no">metastore.  federations.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">metastore.federations.update</code></li>
-<li><code dir="ltr" translate="no">metastore.federations.use</code></li>
+<li><code>metastore.federations.create</code></li>
+<li><code>metastore. federations. createTagBinding</code></li>
+<li><code>metastore.federations.delete</code></li>
+<li><code>metastore. federations. deleteTagBinding</code></li>
+<li><code>metastore.federations.get</code></li>
+<li><code>metastore. federations. getIamPolicy</code></li>
+<li><code>metastore.federations.list</code></li>
+<li><code>metastore. federations. listEffectiveTags</code></li>
+<li><code>metastore. federations. listTagBindings</code></li>
+<li><code>metastore. federations. setIamPolicy</code></li>
+<li><code>metastore.federations.update</code></li>
+<li><code>metastore.federations.use</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.imports.*</code></p>
+<p><code>metastore.imports.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.imports.create</code></li>
-<li><code dir="ltr" translate="no">metastore.imports.get</code></li>
-<li><code dir="ltr" translate="no">metastore.imports.list</code></li>
-<li><code dir="ltr" translate="no">metastore.imports.update</code></li>
+<li><code>metastore.imports.create</code></li>
+<li><code>metastore.imports.get</code></li>
+<li><code>metastore.imports.list</code></li>
+<li><code>metastore.imports.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.locations.*</code></p>
+<p><code>metastore.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.locations.get</code></li>
-<li><code dir="ltr" translate="no">metastore.locations.list</code></li>
+<li><code>metastore.locations.get</code></li>
+<li><code>metastore.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.migrations.*</code></p>
+<p><code>metastore.migrations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.migrations.cancel</code></li>
-<li><code dir="ltr" translate="no">metastore.migrations.complete</code></li>
-<li><code dir="ltr" translate="no">metastore.migrations.delete</code></li>
-<li><code dir="ltr" translate="no">metastore.migrations.get</code></li>
-<li><code dir="ltr" translate="no">metastore.migrations.list</code></li>
-<li><code dir="ltr" translate="no">metastore.migrations.start</code></li>
+<li><code>metastore.migrations.cancel</code></li>
+<li><code>metastore.migrations.complete</code></li>
+<li><code>metastore.migrations.delete</code></li>
+<li><code>metastore.migrations.get</code></li>
+<li><code>metastore.migrations.list</code></li>
+<li><code>metastore.migrations.start</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.operations.*</code></p>
+<p><code>metastore.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">metastore.operations.delete</code></li>
-<li><code dir="ltr" translate="no">metastore.operations.get</code></li>
-<li><code dir="ltr" translate="no">metastore.operations.list</code></li>
+<li><code>metastore.operations.cancel</code></li>
+<li><code>metastore.operations.delete</code></li>
+<li><code>metastore.operations.get</code></li>
+<li><code>metastore.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.services.create</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  createTagBinding</code></p>
-<p><code dir="ltr" translate="no">metastore.services.delete</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  deleteTagBinding</code></p>
-<p><code dir="ltr" translate="no">metastore.services.export</code></p>
-<p><code dir="ltr" translate="no">metastore.services.get</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.services.list</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">metastore.services.restore</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  setIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.services.update</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>metastore.services.create</code></p>
+<p><code>metastore. services. createTagBinding</code></p>
+<p><code>metastore.services.delete</code></p>
+<p><code>metastore. services. deleteTagBinding</code></p>
+<p><code>metastore.services.export</code></p>
+<p><code>metastore.services.get</code></p>
+<p><code>metastore. services. getIamPolicy</code></p>
+<p><code>metastore.services.list</code></p>
+<p><code>metastore. services. listEffectiveTags</code></p>
+<p><code>metastore. services. listTagBindings</code></p>
+<p><code>metastore.services.restore</code></p>
+<p><code>metastore. services. setIamPolicy</code></p>
+<p><code>metastore.services.update</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.editor" class="role-title add-link" data-text="Dataproc Metastore Editor" tabindex="-1">Dataproc Metastore Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
+<td>Dataproc Metastore Editor
+<p>( <code>roles/ metastore.editor</code> )</p>
 <p>Read and write access to all Dataproc Metastore resources.</p></td>
-<td><p><code dir="ltr" translate="no">metastore.backups.create</code></p>
-<p><code dir="ltr" translate="no">metastore.backups.delete</code></p>
-<p><code dir="ltr" translate="no">metastore.backups.get</code></p>
-<p><code dir="ltr" translate="no">metastore.backups.list</code></p>
-<p><code dir="ltr" translate="no">metastore.backups.use</code></p>
-<p><code dir="ltr" translate="no">metastore.federations.create</code></p>
-<p><code dir="ltr" translate="no">metastore.federations.delete</code></p>
-<p><code dir="ltr" translate="no">metastore.federations.get</code></p>
-<p><code dir="ltr" translate="no">metastore.federations.list</code></p>
-<p><code dir="ltr" translate="no">metastore.  federations.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">metastore.  federations.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">metastore.federations.update</code></p>
-<p><code dir="ltr" translate="no">metastore.imports.*</code></p>
+<td><p><code>metastore.backups.create</code></p>
+<p><code>metastore.backups.delete</code></p>
+<p><code>metastore.backups.get</code></p>
+<p><code>metastore.backups.list</code></p>
+<p><code>metastore.backups.use</code></p>
+<p><code>metastore.federations.create</code></p>
+<p><code>metastore.federations.delete</code></p>
+<p><code>metastore.federations.get</code></p>
+<p><code>metastore.federations.list</code></p>
+<p><code>metastore. federations. listEffectiveTags</code></p>
+<p><code>metastore. federations. listTagBindings</code></p>
+<p><code>metastore.federations.update</code></p>
+<p><code>metastore.imports.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.imports.create</code></li>
-<li><code dir="ltr" translate="no">metastore.imports.get</code></li>
-<li><code dir="ltr" translate="no">metastore.imports.list</code></li>
-<li><code dir="ltr" translate="no">metastore.imports.update</code></li>
+<li><code>metastore.imports.create</code></li>
+<li><code>metastore.imports.get</code></li>
+<li><code>metastore.imports.list</code></li>
+<li><code>metastore.imports.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.locations.*</code></p>
+<p><code>metastore.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.locations.get</code></li>
-<li><code dir="ltr" translate="no">metastore.locations.list</code></li>
+<li><code>metastore.locations.get</code></li>
+<li><code>metastore.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.migrations.*</code></p>
+<p><code>metastore.migrations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.migrations.cancel</code></li>
-<li><code dir="ltr" translate="no">metastore.migrations.complete</code></li>
-<li><code dir="ltr" translate="no">metastore.migrations.delete</code></li>
-<li><code dir="ltr" translate="no">metastore.migrations.get</code></li>
-<li><code dir="ltr" translate="no">metastore.migrations.list</code></li>
-<li><code dir="ltr" translate="no">metastore.migrations.start</code></li>
+<li><code>metastore.migrations.cancel</code></li>
+<li><code>metastore.migrations.complete</code></li>
+<li><code>metastore.migrations.delete</code></li>
+<li><code>metastore.migrations.get</code></li>
+<li><code>metastore.migrations.list</code></li>
+<li><code>metastore.migrations.start</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.operations.*</code></p>
+<p><code>metastore.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">metastore.operations.delete</code></li>
-<li><code dir="ltr" translate="no">metastore.operations.get</code></li>
-<li><code dir="ltr" translate="no">metastore.operations.list</code></li>
+<li><code>metastore.operations.cancel</code></li>
+<li><code>metastore.operations.delete</code></li>
+<li><code>metastore.operations.get</code></li>
+<li><code>metastore.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.services.create</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  createTagBinding</code></p>
-<p><code dir="ltr" translate="no">metastore.services.delete</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  deleteTagBinding</code></p>
-<p><code dir="ltr" translate="no">metastore.services.export</code></p>
-<p><code dir="ltr" translate="no">metastore.services.get</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.services.list</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">metastore.services.restore</code></p>
-<p><code dir="ltr" translate="no">metastore.services.update</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>metastore.services.create</code></p>
+<p><code>metastore. services. createTagBinding</code></p>
+<p><code>metastore.services.delete</code></p>
+<p><code>metastore. services. deleteTagBinding</code></p>
+<p><code>metastore.services.export</code></p>
+<p><code>metastore.services.get</code></p>
+<p><code>metastore. services. getIamPolicy</code></p>
+<p><code>metastore.services.list</code></p>
+<p><code>metastore. services. listEffectiveTags</code></p>
+<p><code>metastore. services. listTagBindings</code></p>
+<p><code>metastore.services.restore</code></p>
+<p><code>metastore.services.update</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.viewer" class="role-title add-link" data-text="Dataproc Metastore Viewer" tabindex="-1">Dataproc Metastore Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
+<td>Dataproc Metastore Viewer
+<p>( <code>roles/ metastore.viewer</code> )</p>
 <p>Viewer role for Dataproc Metastore</p></td>
-<td><p><code dir="ltr" translate="no">metastore.backups.get</code></p>
-<p><code dir="ltr" translate="no">metastore.backups.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.backups.list</code></p>
-<p><code dir="ltr" translate="no">metastore.backups.use</code></p>
-<p><code dir="ltr" translate="no">metastore.databases.get</code></p>
-<p><code dir="ltr" translate="no">metastore.  databases.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.databases.list</code></p>
-<p><code dir="ltr" translate="no">metastore.federations.get</code></p>
-<p><code dir="ltr" translate="no">metastore.  federations.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.federations.list</code></p>
-<p><code dir="ltr" translate="no">metastore.  federations.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">metastore.  federations.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">metastore.imports.get</code></p>
-<p><code dir="ltr" translate="no">metastore.imports.list</code></p>
-<p><code dir="ltr" translate="no">metastore.locations.*</code></p>
+<td><p><code>metastore.backups.get</code></p>
+<p><code>metastore.backups.getIamPolicy</code></p>
+<p><code>metastore.backups.list</code></p>
+<p><code>metastore.backups.use</code></p>
+<p><code>metastore.databases.get</code></p>
+<p><code>metastore. databases. getIamPolicy</code></p>
+<p><code>metastore.databases.list</code></p>
+<p><code>metastore.federations.get</code></p>
+<p><code>metastore. federations. getIamPolicy</code></p>
+<p><code>metastore.federations.list</code></p>
+<p><code>metastore. federations. listEffectiveTags</code></p>
+<p><code>metastore. federations. listTagBindings</code></p>
+<p><code>metastore.imports.get</code></p>
+<p><code>metastore.imports.list</code></p>
+<p><code>metastore.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.locations.get</code></li>
-<li><code dir="ltr" translate="no">metastore.locations.list</code></li>
+<li><code>metastore.locations.get</code></li>
+<li><code>metastore.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.migrations.get</code></p>
-<p><code dir="ltr" translate="no">metastore.migrations.list</code></p>
-<p><code dir="ltr" translate="no">metastore.operations.get</code></p>
-<p><code dir="ltr" translate="no">metastore.operations.list</code></p>
-<p><code dir="ltr" translate="no">metastore.services.export</code></p>
-<p><code dir="ltr" translate="no">metastore.services.get</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.services.list</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.get</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>metastore.migrations.get</code></p>
+<p><code>metastore.migrations.list</code></p>
+<p><code>metastore.operations.get</code></p>
+<p><code>metastore.operations.list</code></p>
+<p><code>metastore.services.export</code></p>
+<p><code>metastore.services.get</code></p>
+<p><code>metastore. services. getIamPolicy</code></p>
+<p><code>metastore.services.list</code></p>
+<p><code>metastore. services. listEffectiveTags</code></p>
+<p><code>metastore. services. listTagBindings</code></p>
+<p><code>metastore.tables.get</code></p>
+<p><code>metastore.tables.getIamPolicy</code></p>
+<p><code>metastore.tables.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.federationAccessor" class="role-title add-link" data-text="Metastore Federation Accessor" tabindex="-1">Metastore Federation Accessor</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.federationAccessor</code> )</p>
+<td>Metastore Federation Accessor
+<p>( <code>roles/ metastore.federationAccessor</code> )</p>
 <p>Access to the Metastore Federation resource.</p></td>
-<td><p><code dir="ltr" translate="no">metastore.federations.use</code></p></td>
+<td><p><code>metastore.federations.use</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.metadataEditor" class="role-title add-link" data-text="Dataproc Metastore Metadata Editor" tabindex="-1">Dataproc Metastore Metadata Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
+<td>Dataproc Metastore Metadata Editor
+<p>( <code>roles/ metastore.metadataEditor</code> )</p>
 <p>Access to read and modify the metadata of databases and tables under those databases.</p></td>
-<td><p><code dir="ltr" translate="no">metastore.databases.create</code></p>
-<p><code dir="ltr" translate="no">metastore.databases.delete</code></p>
-<p><code dir="ltr" translate="no">metastore.databases.get</code></p>
-<p><code dir="ltr" translate="no">metastore.  databases.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.databases.list</code></p>
-<p><code dir="ltr" translate="no">metastore.databases.update</code></p>
-<p><code dir="ltr" translate="no">metastore.services.get</code></p>
-<p><code dir="ltr" translate="no">metastore.services.use</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.create</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.delete</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.get</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.list</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.update</code></p></td>
+<td><p><code>metastore.databases.create</code></p>
+<p><code>metastore.databases.delete</code></p>
+<p><code>metastore.databases.get</code></p>
+<p><code>metastore. databases. getIamPolicy</code></p>
+<p><code>metastore.databases.list</code></p>
+<p><code>metastore.databases.update</code></p>
+<p><code>metastore.services.get</code></p>
+<p><code>metastore.services.use</code></p>
+<p><code>metastore.tables.create</code></p>
+<p><code>metastore.tables.delete</code></p>
+<p><code>metastore.tables.get</code></p>
+<p><code>metastore.tables.getIamPolicy</code></p>
+<p><code>metastore.tables.list</code></p>
+<p><code>metastore.tables.update</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.metadataMutateAdmin" class="role-title add-link" data-text="Dataproc Metastore Metadata Mutate Admin" tabindex="-1">Dataproc Metastore Metadata Mutate Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.metadataMutateAdmin</code> )</p>
+<td>Dataproc Metastore Metadata Mutate Admin
+<p>( <code>roles/ metastore.metadataMutateAdmin</code> )</p>
 <p>Access to mutate metadata from a Dataproc Metastore service's underlying metadata store.</p></td>
-<td><p><code dir="ltr" translate="no">metastore.  services.  mutateMetadata</code></p></td>
+<td><p><code>metastore. services. mutateMetadata</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.metadataOperator" class="role-title add-link" data-text="Dataproc Metastore Metadata Operator" tabindex="-1">Dataproc Metastore Metadata Operator</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
+<td>Dataproc Metastore Metadata Operator
+<p>( <code>roles/ metastore.metadataOperator</code> )</p>
 <p>Read-only access to Dataproc Metastore resources with additional metadata operations permission.</p></td>
-<td><p><code dir="ltr" translate="no">metastore.backups.create</code></p>
-<p><code dir="ltr" translate="no">metastore.backups.delete</code></p>
-<p><code dir="ltr" translate="no">metastore.backups.get</code></p>
-<p><code dir="ltr" translate="no">metastore.backups.list</code></p>
-<p><code dir="ltr" translate="no">metastore.backups.use</code></p>
-<p><code dir="ltr" translate="no">metastore.imports.*</code></p>
+<td><p><code>metastore.backups.create</code></p>
+<p><code>metastore.backups.delete</code></p>
+<p><code>metastore.backups.get</code></p>
+<p><code>metastore.backups.list</code></p>
+<p><code>metastore.backups.use</code></p>
+<p><code>metastore.imports.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.imports.create</code></li>
-<li><code dir="ltr" translate="no">metastore.imports.get</code></li>
-<li><code dir="ltr" translate="no">metastore.imports.list</code></li>
-<li><code dir="ltr" translate="no">metastore.imports.update</code></li>
+<li><code>metastore.imports.create</code></li>
+<li><code>metastore.imports.get</code></li>
+<li><code>metastore.imports.list</code></li>
+<li><code>metastore.imports.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.locations.*</code></p>
+<p><code>metastore.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.locations.get</code></li>
-<li><code dir="ltr" translate="no">metastore.locations.list</code></li>
+<li><code>metastore.locations.get</code></li>
+<li><code>metastore.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.operations.get</code></p>
-<p><code dir="ltr" translate="no">metastore.operations.list</code></p>
-<p><code dir="ltr" translate="no">metastore.services.export</code></p>
-<p><code dir="ltr" translate="no">metastore.services.get</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.services.list</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">metastore.services.restore</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>metastore.operations.get</code></p>
+<p><code>metastore.operations.list</code></p>
+<p><code>metastore.services.export</code></p>
+<p><code>metastore.services.get</code></p>
+<p><code>metastore. services. getIamPolicy</code></p>
+<p><code>metastore.services.list</code></p>
+<p><code>metastore. services. listEffectiveTags</code></p>
+<p><code>metastore. services. listTagBindings</code></p>
+<p><code>metastore.services.restore</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.metadataOwner" class="role-title add-link" data-text="Dataproc Metastore Data Owner" tabindex="-1">Dataproc Metastore Data Owner</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
+<td>Dataproc Metastore Data Owner
+<p>( <code>roles/ metastore.metadataOwner</code> )</p>
 <p>Full access to the metadata of databases and tables under those databases.</p></td>
-<td><p><code dir="ltr" translate="no">metastore.databases.*</code></p>
+<td><p><code>metastore.databases.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.databases.create</code></li>
-<li><code dir="ltr" translate="no">metastore.databases.delete</code></li>
-<li><code dir="ltr" translate="no">metastore.databases.get</code></li>
-<li><code dir="ltr" translate="no">metastore.  databases.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">metastore.databases.list</code></li>
-<li><code dir="ltr" translate="no">metastore.  databases.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">metastore.databases.update</code></li>
+<li><code>metastore.databases.create</code></li>
+<li><code>metastore.databases.delete</code></li>
+<li><code>metastore.databases.get</code></li>
+<li><code>metastore. databases. getIamPolicy</code></li>
+<li><code>metastore.databases.list</code></li>
+<li><code>metastore. databases. setIamPolicy</code></li>
+<li><code>metastore.databases.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.services.get</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.services.list</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">metastore.services.use</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.*</code></p>
+<p><code>metastore.services.get</code></p>
+<p><code>metastore. services. getIamPolicy</code></p>
+<p><code>metastore.services.list</code></p>
+<p><code>metastore. services. listEffectiveTags</code></p>
+<p><code>metastore. services. listTagBindings</code></p>
+<p><code>metastore.services.use</code></p>
+<p><code>metastore.tables.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.tables.create</code></li>
-<li><code dir="ltr" translate="no">metastore.tables.delete</code></li>
-<li><code dir="ltr" translate="no">metastore.tables.get</code></li>
-<li><code dir="ltr" translate="no">metastore.tables.getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">metastore.tables.list</code></li>
-<li><code dir="ltr" translate="no">metastore.tables.setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">metastore.tables.update</code></li>
+<li><code>metastore.tables.create</code></li>
+<li><code>metastore.tables.delete</code></li>
+<li><code>metastore.tables.get</code></li>
+<li><code>metastore.tables.getIamPolicy</code></li>
+<li><code>metastore.tables.list</code></li>
+<li><code>metastore.tables.setIamPolicy</code></li>
+<li><code>metastore.tables.update</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.metadataQueryAdmin" class="role-title add-link" data-text="Dataproc Metastore Metadata Query Admin" tabindex="-1">Dataproc Metastore Metadata Query Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.metadataQueryAdmin</code> )</p>
+<td>Dataproc Metastore Metadata Query Admin
+<p>( <code>roles/ metastore.metadataQueryAdmin</code> )</p>
 <p>Access to query metadata from a Dataproc Metastore service's underlying metadata store.</p></td>
-<td><p><code dir="ltr" translate="no">metastore.  services.  queryMetadata</code></p></td>
+<td><p><code>metastore. services. queryMetadata</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.metadataUser" class="role-title add-link" data-text="Dataproc Metastore Metadata User" tabindex="-1">Dataproc Metastore Metadata User</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.metadataUser</code> )</p>
+<td>Dataproc Metastore Metadata User
+<p>( <code>roles/ metastore.metadataUser</code> )</p>
 <p>Access to the Dataproc Metastore gRPC endpoint</p></td>
-<td><p><code dir="ltr" translate="no">metastore.databases.get</code></p>
-<p><code dir="ltr" translate="no">metastore.databases.list</code></p>
-<p><code dir="ltr" translate="no">metastore.services.get</code></p>
-<p><code dir="ltr" translate="no">metastore.services.use</code></p></td>
+<td><p><code>metastore.databases.get</code></p>
+<p><code>metastore.databases.list</code></p>
+<p><code>metastore.services.get</code></p>
+<p><code>metastore.services.use</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.metadataViewer" class="role-title add-link" data-text="Dataproc Metastore Metadata Viewer" tabindex="-1">Dataproc Metastore Metadata Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.metadataViewer</code> )</p>
+<td>Dataproc Metastore Metadata Viewer
+<p>( <code>roles/ metastore.metadataViewer</code> )</p>
 <p>Access to read the metadata of databases and tables under those databases</p></td>
-<td><p><code dir="ltr" translate="no">metastore.databases.get</code></p>
-<p><code dir="ltr" translate="no">metastore.  databases.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.databases.list</code></p>
-<p><code dir="ltr" translate="no">metastore.services.get</code></p>
-<p><code dir="ltr" translate="no">metastore.services.use</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.get</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.list</code></p></td>
+<td><p><code>metastore.databases.get</code></p>
+<p><code>metastore. databases. getIamPolicy</code></p>
+<p><code>metastore.databases.list</code></p>
+<p><code>metastore.services.get</code></p>
+<p><code>metastore.services.use</code></p>
+<p><code>metastore.tables.get</code></p>
+<p><code>metastore.tables.getIamPolicy</code></p>
+<p><code>metastore.tables.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.migrationAdmin" class="role-title add-link" data-text="Dataproc Metastore Managed Migration Admin" tabindex="-1">Dataproc Metastore Managed Migration Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.migrationAdmin</code> )</p>
+<td>Dataproc Metastore Managed Migration Admin
+<p>( <code>roles/ metastore.migrationAdmin</code> )</p>
 <p>Access to Dataproc Metastore Managed Migration resources and workflow.</p></td>
-<td><p><code dir="ltr" translate="no">cloudsql.instances.connect</code></p>
-<p><code dir="ltr" translate="no">cloudsql.instances.get</code></p>
-<p><code dir="ltr" translate="no">cloudsql.instances.login</code></p>
-<p><code dir="ltr" translate="no">compute.autoscalers.create</code></p>
-<p><code dir="ltr" translate="no">compute.autoscalers.delete</code></p>
-<p><code dir="ltr" translate="no">compute.disks.create</code></p>
-<p><code dir="ltr" translate="no">compute.disks.delete</code></p>
-<p><code dir="ltr" translate="no">compute.forwardingRules.create</code></p>
-<p><code dir="ltr" translate="no">compute.forwardingRules.delete</code></p>
-<p><code dir="ltr" translate="no">compute.forwardingRules.use</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceGroupManagers.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceGroupManagers.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceGroupManagers.  use</code></p>
-<p><code dir="ltr" translate="no">compute.instanceGroups.delete</code></p>
-<p><code dir="ltr" translate="no">compute.instanceGroups.use</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceTemplates.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceTemplates.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.instanceTemplates.get</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceTemplates.  useReadOnly</code></p>
-<p><code dir="ltr" translate="no">compute.instances.create</code></p>
-<p><code dir="ltr" translate="no">compute.instances.delete</code></p>
-<p><code dir="ltr" translate="no">compute.instances.get</code></p>
-<p><code dir="ltr" translate="no">compute.instances.setMetadata</code></p>
-<p><code dir="ltr" translate="no">compute.machineTypes.list</code></p>
-<p><code dir="ltr" translate="no">compute.  regionBackendServices.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  regionBackendServices.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.  regionBackendServices.  use</code></p>
-<p><code dir="ltr" translate="no">compute.  regionHealthChecks.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  regionHealthChecks.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.regionHealthChecks.use</code></p>
-<p><code dir="ltr" translate="no">compute.  regionHealthChecks.  useReadOnly</code></p>
-<p><code dir="ltr" translate="no">compute.  serviceAttachments.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  serviceAttachments.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.subnetworks.get</code></p>
-<p><code dir="ltr" translate="no">compute.subnetworks.use</code></p>
-<p><code dir="ltr" translate="no">compute.zones.list</code></p>
-<p><code dir="ltr" translate="no">datastream.  connectionProfiles.  create</code></p>
-<p><code dir="ltr" translate="no">datastream.  connectionProfiles.  delete</code></p>
-<p><code dir="ltr" translate="no">datastream.objects.*</code></p>
+<td><p><code>cloudsql.instances.connect</code></p>
+<p><code>cloudsql.instances.get</code></p>
+<p><code>cloudsql.instances.login</code></p>
+<p><code>compute.autoscalers.create</code></p>
+<p><code>compute.autoscalers.delete</code></p>
+<p><code>compute.disks.create</code></p>
+<p><code>compute.disks.delete</code></p>
+<p><code>compute.forwardingRules.create</code></p>
+<p><code>compute.forwardingRules.delete</code></p>
+<p><code>compute.forwardingRules.use</code></p>
+<p><code>compute. instanceGroupManagers. create</code></p>
+<p><code>compute. instanceGroupManagers. delete</code></p>
+<p><code>compute. instanceGroupManagers. use</code></p>
+<p><code>compute.instanceGroups.delete</code></p>
+<p><code>compute.instanceGroups.use</code></p>
+<p><code>compute. instanceTemplates. create</code></p>
+<p><code>compute. instanceTemplates. delete</code></p>
+<p><code>compute.instanceTemplates.get</code></p>
+<p><code>compute. instanceTemplates. useReadOnly</code></p>
+<p><code>compute.instances.create</code></p>
+<p><code>compute.instances.delete</code></p>
+<p><code>compute.instances.get</code></p>
+<p><code>compute.instances.setMetadata</code></p>
+<p><code>compute.machineTypes.list</code></p>
+<p><code>compute. regionBackendServices. create</code></p>
+<p><code>compute. regionBackendServices. delete</code></p>
+<p><code>compute. regionBackendServices. use</code></p>
+<p><code>compute. regionHealthChecks. create</code></p>
+<p><code>compute. regionHealthChecks. delete</code></p>
+<p><code>compute.regionHealthChecks.use</code></p>
+<p><code>compute. regionHealthChecks. useReadOnly</code></p>
+<p><code>compute. serviceAttachments. create</code></p>
+<p><code>compute. serviceAttachments. delete</code></p>
+<p><code>compute.subnetworks.get</code></p>
+<p><code>compute.subnetworks.use</code></p>
+<p><code>compute.zones.list</code></p>
+<p><code>datastream. connectionProfiles. create</code></p>
+<p><code>datastream. connectionProfiles. delete</code></p>
+<p><code>datastream.objects.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">datastream.objects.get</code></li>
-<li><code dir="ltr" translate="no">datastream.objects.list</code></li>
-<li><code dir="ltr" translate="no">datastream.  objects.  startBackfillJob</code></li>
-<li><code dir="ltr" translate="no">datastream.  objects.  stopBackfillJob</code></li>
+<li><code>datastream.objects.get</code></li>
+<li><code>datastream.objects.list</code></li>
+<li><code>datastream. objects. startBackfillJob</code></li>
+<li><code>datastream. objects. stopBackfillJob</code></li>
 </ul>
-<p><code dir="ltr" translate="no">datastream.operations.get</code></p>
-<p><code dir="ltr" translate="no">datastream.  privateConnections.  create</code></p>
-<p><code dir="ltr" translate="no">datastream.  privateConnections.  delete</code></p>
-<p><code dir="ltr" translate="no">datastream.streams.create</code></p>
-<p><code dir="ltr" translate="no">datastream.streams.delete</code></p>
-<p><code dir="ltr" translate="no">datastream.streams.get</code></p>
-<p><code dir="ltr" translate="no">datastream.streams.update</code></p></td>
+<p><code>datastream.operations.get</code></p>
+<p><code>datastream. privateConnections. create</code></p>
+<p><code>datastream. privateConnections. delete</code></p>
+<p><code>datastream.streams.create</code></p>
+<p><code>datastream.streams.delete</code></p>
+<p><code>datastream.streams.get</code></p>
+<p><code>datastream.streams.update</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.user" class="role-title add-link" data-text="Dataproc Metastore Viewer" tabindex="-1">Dataproc Metastore Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.user</code> )</p>
+<td>Dataproc Metastore Viewer
+<p>( <code>roles/ metastore.user</code> )</p>
 <p>Read-only access to all Dataproc Metastore resources.</p></td>
-<td><p><code dir="ltr" translate="no">metastore.backups.get</code></p>
-<p><code dir="ltr" translate="no">metastore.backups.list</code></p>
-<p><code dir="ltr" translate="no">metastore.federations.get</code></p>
-<p><code dir="ltr" translate="no">metastore.  federations.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.federations.list</code></p>
-<p><code dir="ltr" translate="no">metastore.  federations.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">metastore.  federations.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">metastore.imports.get</code></p>
-<p><code dir="ltr" translate="no">metastore.imports.list</code></p>
-<p><code dir="ltr" translate="no">metastore.locations.*</code></p>
+<td><p><code>metastore.backups.get</code></p>
+<p><code>metastore.backups.list</code></p>
+<p><code>metastore.federations.get</code></p>
+<p><code>metastore. federations. getIamPolicy</code></p>
+<p><code>metastore.federations.list</code></p>
+<p><code>metastore. federations. listEffectiveTags</code></p>
+<p><code>metastore. federations. listTagBindings</code></p>
+<p><code>metastore.imports.get</code></p>
+<p><code>metastore.imports.list</code></p>
+<p><code>metastore.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">metastore.locations.get</code></li>
-<li><code dir="ltr" translate="no">metastore.locations.list</code></li>
+<li><code>metastore.locations.get</code></li>
+<li><code>metastore.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.operations.get</code></p>
-<p><code dir="ltr" translate="no">metastore.operations.list</code></p>
-<p><code dir="ltr" translate="no">metastore.services.export</code></p>
-<p><code dir="ltr" translate="no">metastore.services.get</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.services.list</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">metastore.  services.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>metastore.operations.get</code></p>
+<p><code>metastore.operations.list</code></p>
+<p><code>metastore.services.export</code></p>
+<p><code>metastore.services.get</code></p>
+<p><code>metastore. services. getIamPolicy</code></p>
+<p><code>metastore.services.list</code></p>
+<p><code>metastore. services. listEffectiveTags</code></p>
+<p><code>metastore. services. listTagBindings</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -422,72 +422,72 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="metastore.serviceAgent" class="role-title add-link" data-text="Dataproc Metastore Service Agent" tabindex="-1">Dataproc Metastore Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  metastore.serviceAgent</code> )</p>
+<td>Dataproc Metastore Service Agent
+<p>( <code>roles/ metastore.serviceAgent</code> )</p>
 <p>Gives the Dataproc Metastore service account access to managed resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">compute.  addresses.  createInternal</code></p>
-<p><code dir="ltr" translate="no">compute.  addresses.  deleteInternal</code></p>
-<p><code dir="ltr" translate="no">compute.addresses.get</code></p>
-<p><code dir="ltr" translate="no">compute.addresses.use</code></p>
-<p><code dir="ltr" translate="no">compute.forwardingRules.create</code></p>
-<p><code dir="ltr" translate="no">compute.forwardingRules.delete</code></p>
-<p><code dir="ltr" translate="no">compute.forwardingRules.get</code></p>
-<p><code dir="ltr" translate="no">compute.  forwardingRules.  pscCreate</code></p>
-<p><code dir="ltr" translate="no">compute.  forwardingRules.  pscDelete</code></p>
-<p><code dir="ltr" translate="no">compute.  globalAddresses.  createInternal</code></p>
-<p><code dir="ltr" translate="no">compute.  globalAddresses.  deleteInternal</code></p>
-<p><code dir="ltr" translate="no">compute.globalAddresses.get</code></p>
-<p><code dir="ltr" translate="no">compute.globalAddresses.list</code></p>
-<p><code dir="ltr" translate="no">compute.globalOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.globalOperations.list</code></p>
-<p><code dir="ltr" translate="no">compute.networks.addPeering</code></p>
-<p><code dir="ltr" translate="no">compute.networks.get</code></p>
-<p><code dir="ltr" translate="no">compute.networks.removePeering</code></p>
-<p><code dir="ltr" translate="no">compute.networks.updatePeering</code></p>
-<p><code dir="ltr" translate="no">compute.networks.use</code></p>
-<p><code dir="ltr" translate="no">compute.regionOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.subnetworks.get</code></p>
-<p><code dir="ltr" translate="no">compute.subnetworks.use</code></p>
-<p><code dir="ltr" translate="no">dns.changes.create</code></p>
-<p><code dir="ltr" translate="no">dns.changes.get</code></p>
-<p><code dir="ltr" translate="no">dns.managedZones.create</code></p>
-<p><code dir="ltr" translate="no">dns.managedZones.delete</code></p>
-<p><code dir="ltr" translate="no">dns.managedZones.get</code></p>
-<p><code dir="ltr" translate="no">dns.managedZones.list</code></p>
-<p><code dir="ltr" translate="no">dns.  networks.  bindPrivateDNSZone</code></p>
-<p><code dir="ltr" translate="no">dns.  networks.  targetWithPeeringZone</code></p>
-<p><code dir="ltr" translate="no">dns.resourceRecordSets.*</code></p>
+<td><p><code>compute. addresses. createInternal</code></p>
+<p><code>compute. addresses. deleteInternal</code></p>
+<p><code>compute.addresses.get</code></p>
+<p><code>compute.addresses.use</code></p>
+<p><code>compute.forwardingRules.create</code></p>
+<p><code>compute.forwardingRules.delete</code></p>
+<p><code>compute.forwardingRules.get</code></p>
+<p><code>compute. forwardingRules. pscCreate</code></p>
+<p><code>compute. forwardingRules. pscDelete</code></p>
+<p><code>compute. globalAddresses. createInternal</code></p>
+<p><code>compute. globalAddresses. deleteInternal</code></p>
+<p><code>compute.globalAddresses.get</code></p>
+<p><code>compute.globalAddresses.list</code></p>
+<p><code>compute.globalOperations.get</code></p>
+<p><code>compute.globalOperations.list</code></p>
+<p><code>compute.networks.addPeering</code></p>
+<p><code>compute.networks.get</code></p>
+<p><code>compute.networks.removePeering</code></p>
+<p><code>compute.networks.updatePeering</code></p>
+<p><code>compute.networks.use</code></p>
+<p><code>compute.regionOperations.get</code></p>
+<p><code>compute.subnetworks.get</code></p>
+<p><code>compute.subnetworks.use</code></p>
+<p><code>dns.changes.create</code></p>
+<p><code>dns.changes.get</code></p>
+<p><code>dns.managedZones.create</code></p>
+<p><code>dns.managedZones.delete</code></p>
+<p><code>dns.managedZones.get</code></p>
+<p><code>dns.managedZones.list</code></p>
+<p><code>dns. networks. bindPrivateDNSZone</code></p>
+<p><code>dns. networks. targetWithPeeringZone</code></p>
+<p><code>dns.resourceRecordSets.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">dns.resourceRecordSets.create</code></li>
-<li><code dir="ltr" translate="no">dns.resourceRecordSets.delete</code></li>
-<li><code dir="ltr" translate="no">dns.resourceRecordSets.get</code></li>
-<li><code dir="ltr" translate="no">dns.resourceRecordSets.list</code></li>
-<li><code dir="ltr" translate="no">dns.resourceRecordSets.update</code></li>
+<li><code>dns.resourceRecordSets.create</code></li>
+<li><code>dns.resourceRecordSets.delete</code></li>
+<li><code>dns.resourceRecordSets.get</code></li>
+<li><code>dns.resourceRecordSets.list</code></li>
+<li><code>dns.resourceRecordSets.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">metastore.databases.get</code></p>
-<p><code dir="ltr" translate="no">metastore.  databases.  setIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.databases.update</code></p>
-<p><code dir="ltr" translate="no">metastore.federations.use</code></p>
-<p><code dir="ltr" translate="no">metastore.services.get</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.get</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.setIamPolicy</code></p>
-<p><code dir="ltr" translate="no">metastore.tables.update</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.  namespaces.  create</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.  namespaces.  delete</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.  services.  create</code></p>
-<p><code dir="ltr" translate="no">servicedirectory.  services.  delete</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.create</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.delete</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.get</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.update</code></p>
-<p><code dir="ltr" translate="no">storage.objects.create</code></p>
-<p><code dir="ltr" translate="no">storage.objects.delete</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.list</code></p>
-<p><code dir="ltr" translate="no">storage.objects.update</code></p></td>
+<p><code>metastore.databases.get</code></p>
+<p><code>metastore. databases. setIamPolicy</code></p>
+<p><code>metastore.databases.update</code></p>
+<p><code>metastore.federations.use</code></p>
+<p><code>metastore.services.get</code></p>
+<p><code>metastore.tables.get</code></p>
+<p><code>metastore.tables.setIamPolicy</code></p>
+<p><code>metastore.tables.update</code></p>
+<p><code>servicedirectory. namespaces. create</code></p>
+<p><code>servicedirectory. namespaces. delete</code></p>
+<p><code>servicedirectory. services. create</code></p>
+<p><code>servicedirectory. services. delete</code></p>
+<p><code>storage.buckets.create</code></p>
+<p><code>storage.buckets.delete</code></p>
+<p><code>storage.buckets.get</code></p>
+<p><code>storage.buckets.update</code></p>
+<p><code>storage.objects.create</code></p>
+<p><code>storage.objects.delete</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.list</code></p>
+<p><code>storage.objects.update</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -507,865 +507,865 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="metastore.backups.create" class="permission-name add-link" data-text="metastore.backups.create" tabindex="-1"><code dir="ltr" translate="no">metastore.backups.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.backups.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.backups.delete" class="permission-name add-link" data-text="metastore.backups.delete" tabindex="-1"><code dir="ltr" translate="no">metastore.backups.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.backups.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.backups.get" class="permission-name add-link" data-text="metastore.backups.get" tabindex="-1"><code dir="ltr" translate="no">metastore.backups.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.backups.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.backups.getIamPolicy" class="permission-name add-link" data-text="metastore.backups.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">metastore.backups.getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.backups.getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.backups.list" class="permission-name add-link" data-text="metastore.backups.list" tabindex="-1"><code dir="ltr" translate="no">metastore.backups.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.backups.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.backups.setIamPolicy" class="permission-name add-link" data-text="metastore.backups.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">metastore.backups.setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>metastore.backups.setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.backups.use" class="permission-name add-link" data-text="metastore.backups.use" tabindex="-1"><code dir="ltr" translate="no">metastore.backups.use</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.backups.use</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.databases.create" class="permission-name add-link" data-text="metastore.databases.create" tabindex="-1"><code dir="ltr" translate="no">metastore.databases.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.databases.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.databases.delete" class="permission-name add-link" data-text="metastore.databases.delete" tabindex="-1"><code dir="ltr" translate="no">metastore.databases.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.databases.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.databases.get" class="permission-name add-link" data-text="metastore.databases.get" tabindex="-1"><code dir="ltr" translate="no">metastore.databases.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataUser">Dataproc Metastore Metadata User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>metastore.databases.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataUser">Dataproc Metastore Metadata User</a> ( <code>roles/ metastore.metadataUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code>roles/ metastore.metadataViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code>roles/ metastore.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.databases.getIamPolicy" class="permission-name add-link" data-text="metastore.databases.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">metastore.  databases.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore. databases. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code>roles/ metastore.metadataViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.databases.list" class="permission-name add-link" data-text="metastore.databases.list" tabindex="-1"><code dir="ltr" translate="no">metastore.databases.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataUser">Dataproc Metastore Metadata User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.databases.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataUser">Dataproc Metastore Metadata User</a> ( <code>roles/ metastore.metadataUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code>roles/ metastore.metadataViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.databases.setIamPolicy" class="permission-name add-link" data-text="metastore.databases.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">metastore.  databases.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
+<td><code>metastore. databases. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code>roles/ metastore.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.databases.update" class="permission-name add-link" data-text="metastore.databases.update" tabindex="-1"><code dir="ltr" translate="no">metastore.databases.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>metastore.databases.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code>roles/ metastore.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.federations.create" class="permission-name add-link" data-text="metastore.federations.create" tabindex="-1"><code dir="ltr" translate="no">metastore.federations.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.federations.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.federations.createTagBinding" class="permission-name add-link" data-text="metastore.federations.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">metastore.  federations.  createTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+<td><code>metastore. federations. createTagBinding</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.federations.delete" class="permission-name add-link" data-text="metastore.federations.delete" tabindex="-1"><code dir="ltr" translate="no">metastore.federations.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.federations.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.federations.deleteTagBinding" class="permission-name add-link" data-text="metastore.federations.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">metastore.  federations.  deleteTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+<td><code>metastore. federations. deleteTagBinding</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.federations.get" class="permission-name add-link" data-text="metastore.federations.get" tabindex="-1"><code dir="ltr" translate="no">metastore.federations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.federations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.federations.getIamPolicy" class="permission-name add-link" data-text="metastore.federations.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">metastore.  federations.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore. federations. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.federations.list" class="permission-name add-link" data-text="metastore.federations.list" tabindex="-1"><code dir="ltr" translate="no">metastore.federations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.federations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.federations.listEffectiveTags" class="permission-name add-link" data-text="metastore.federations.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">metastore.  federations.  listEffectiveTags</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore. federations. listEffectiveTags</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code>roles/ resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.federations.listTagBindings" class="permission-name add-link" data-text="metastore.federations.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">metastore.  federations.  listTagBindings</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore. federations. listTagBindings</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code>roles/ resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.federations.setIamPolicy" class="permission-name add-link" data-text="metastore.federations.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">metastore.  federations.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>metastore. federations. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.federations.update" class="permission-name add-link" data-text="metastore.federations.update" tabindex="-1"><code dir="ltr" translate="no">metastore.federations.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.federations.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.federations.use" class="permission-name add-link" data-text="metastore.federations.use" tabindex="-1"><code dir="ltr" translate="no">metastore.federations.use</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.federationAccessor">Metastore Federation Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.federationAccessor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>metastore.federations.use</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.federationAccessor">Metastore Federation Accessor</a> ( <code>roles/ metastore.federationAccessor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code>roles/ metastore.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.imports.create" class="permission-name add-link" data-text="metastore.imports.create" tabindex="-1"><code dir="ltr" translate="no">metastore.imports.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.imports.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.imports.get" class="permission-name add-link" data-text="metastore.imports.get" tabindex="-1"><code dir="ltr" translate="no">metastore.imports.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.imports.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.imports.list" class="permission-name add-link" data-text="metastore.imports.list" tabindex="-1"><code dir="ltr" translate="no">metastore.imports.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.imports.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.imports.update" class="permission-name add-link" data-text="metastore.imports.update" tabindex="-1"><code dir="ltr" translate="no">metastore.imports.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.imports.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.locations.get" class="permission-name add-link" data-text="metastore.locations.get" tabindex="-1"><code dir="ltr" translate="no">metastore.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.locations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.locations.list" class="permission-name add-link" data-text="metastore.locations.list" tabindex="-1"><code dir="ltr" translate="no">metastore.locations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.locations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.migrations.cancel" class="permission-name add-link" data-text="metastore.migrations.cancel" tabindex="-1"><code dir="ltr" translate="no">metastore.migrations.cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.migrations.cancel</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.migrations.complete" class="permission-name add-link" data-text="metastore.migrations.complete" tabindex="-1"><code dir="ltr" translate="no">metastore.migrations.complete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.migrations.complete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.migrations.delete" class="permission-name add-link" data-text="metastore.migrations.delete" tabindex="-1"><code dir="ltr" translate="no">metastore.migrations.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.migrations.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.migrations.get" class="permission-name add-link" data-text="metastore.migrations.get" tabindex="-1"><code dir="ltr" translate="no">metastore.migrations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.migrations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.migrations.list" class="permission-name add-link" data-text="metastore.migrations.list" tabindex="-1"><code dir="ltr" translate="no">metastore.migrations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.migrations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.migrations.start" class="permission-name add-link" data-text="metastore.migrations.start" tabindex="-1"><code dir="ltr" translate="no">metastore.migrations.start</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.migrations.start</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.operations.cancel" class="permission-name add-link" data-text="metastore.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">metastore.operations.cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.operations.cancel</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.operations.delete" class="permission-name add-link" data-text="metastore.operations.delete" tabindex="-1"><code dir="ltr" translate="no">metastore.operations.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.operations.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.operations.get" class="permission-name add-link" data-text="metastore.operations.get" tabindex="-1"><code dir="ltr" translate="no">metastore.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.operations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.operations.list" class="permission-name add-link" data-text="metastore.operations.list" tabindex="-1"><code dir="ltr" translate="no">metastore.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.operations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.services.create" class="permission-name add-link" data-text="metastore.services.create" tabindex="-1"><code dir="ltr" translate="no">metastore.services.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.services.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.services.createTagBinding" class="permission-name add-link" data-text="metastore.services.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">metastore.  services.  createTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+<td><code>metastore. services. createTagBinding</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.services.delete" class="permission-name add-link" data-text="metastore.services.delete" tabindex="-1"><code dir="ltr" translate="no">metastore.services.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.services.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.services.deleteTagBinding" class="permission-name add-link" data-text="metastore.services.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">metastore.  services.  deleteTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+<td><code>metastore. services. deleteTagBinding</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.services.export" class="permission-name add-link" data-text="metastore.services.export" tabindex="-1"><code dir="ltr" translate="no">metastore.services.export</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.services.export</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.services.get" class="permission-name add-link" data-text="metastore.services.get" tabindex="-1"><code dir="ltr" translate="no">metastore.services.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataUser">Dataproc Metastore Metadata User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>metastore.services.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataUser">Dataproc Metastore Metadata User</a> ( <code>roles/ metastore.metadataUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code>roles/ metastore.metadataViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serviceAgent">Dataproc Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataproc.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code>roles/ dataplex.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serviceAgent">Dataproc Service Agent</a> ( <code>roles/ dataproc.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code>roles/ metastore.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.services.getIamPolicy" class="permission-name add-link" data-text="metastore.services.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">metastore.  services.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore. services. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.services.list" class="permission-name add-link" data-text="metastore.services.list" tabindex="-1"><code dir="ltr" translate="no">metastore.services.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.services.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.services.listEffectiveTags" class="permission-name add-link" data-text="metastore.services.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">metastore.  services.  listEffectiveTags</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore. services. listEffectiveTags</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code>roles/ resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.services.listTagBindings" class="permission-name add-link" data-text="metastore.services.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">metastore.  services.  listTagBindings</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore. services. listTagBindings</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code>roles/ resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code>roles/ resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.services.mutateMetadata" class="permission-name add-link" data-text="metastore.services.mutateMetadata" tabindex="-1"><code dir="ltr" translate="no">metastore.  services.  mutateMetadata</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataMutateAdmin">Dataproc Metastore Metadata Mutate Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataMutateAdmin</code> )</p></td>
+<td><code>metastore. services. mutateMetadata</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataMutateAdmin">Dataproc Metastore Metadata Mutate Admin</a> ( <code>roles/ metastore.metadataMutateAdmin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.services.queryMetadata" class="permission-name add-link" data-text="metastore.services.queryMetadata" tabindex="-1"><code dir="ltr" translate="no">metastore.  services.  queryMetadata</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataQueryAdmin">Dataproc Metastore Metadata Query Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataQueryAdmin</code> )</p></td>
+<td><code>metastore. services. queryMetadata</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataQueryAdmin">Dataproc Metastore Metadata Query Admin</a> ( <code>roles/ metastore.metadataQueryAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.services.restore" class="permission-name add-link" data-text="metastore.services.restore" tabindex="-1"><code dir="ltr" translate="no">metastore.services.restore</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOperator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.services.restore</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.services.setIamPolicy" class="permission-name add-link" data-text="metastore.services.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">metastore.  services.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>metastore. services. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.services.update" class="permission-name add-link" data-text="metastore.services.update" tabindex="-1"><code dir="ltr" translate="no">metastore.services.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.services.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.admin">Dataproc Metastore Admin</a> ( <code>roles/ metastore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.editor">Dataproc Metastore Editor</a> ( <code>roles/ metastore.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.services.use" class="permission-name add-link" data-text="metastore.services.use" tabindex="-1"><code dir="ltr" translate="no">metastore.services.use</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataUser">Dataproc Metastore Metadata User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.services.use</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataUser">Dataproc Metastore Metadata User</a> ( <code>roles/ metastore.metadataUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code>roles/ metastore.metadataViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.tables.create" class="permission-name add-link" data-text="metastore.tables.create" tabindex="-1"><code dir="ltr" translate="no">metastore.tables.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.tables.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.tables.delete" class="permission-name add-link" data-text="metastore.tables.delete" tabindex="-1"><code dir="ltr" translate="no">metastore.tables.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.tables.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.tables.get" class="permission-name add-link" data-text="metastore.tables.get" tabindex="-1"><code dir="ltr" translate="no">metastore.tables.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>metastore.tables.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code>roles/ metastore.metadataViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code>roles/ metastore.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.tables.getIamPolicy" class="permission-name add-link" data-text="metastore.tables.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">metastore.tables.getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.tables.getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code>roles/ metastore.metadataViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.tables.list" class="permission-name add-link" data-text="metastore.tables.list" tabindex="-1"><code dir="ltr" translate="no">metastore.tables.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>metastore.tables.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.viewer">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataViewer">Dataproc Metastore Metadata Viewer</a> ( <code>roles/ metastore.metadataViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="metastore.tables.setIamPolicy" class="permission-name add-link" data-text="metastore.tables.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">metastore.tables.setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
+<td><code>metastore.tables.setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code>roles/ metastore.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="metastore.tables.update" class="permission-name add-link" data-text="metastore.tables.update" tabindex="-1"><code dir="ltr" translate="no">metastore.tables.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>metastore.tables.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataEditor">Dataproc Metastore Metadata Editor</a> ( <code>roles/ metastore.metadataEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  metastore.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.serviceAgent">Dataproc Metastore Service Agent</a> ( <code>roles/ metastore.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 </tbody>

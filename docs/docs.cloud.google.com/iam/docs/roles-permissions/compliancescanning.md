@@ -25,82 +25,82 @@ Compliance Scanning offers the following service agent roles. Service agent role
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="compliancescanning.serviceAgent" class="role-title add-link" data-text="Compliance Scanning Service Agent" tabindex="-1">Compliance Scanning Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  compliancescanning.serviceAgent</code> )</p>
+<td>Compliance Scanning Service Agent
+<p>( <code>roles/ compliancescanning.serviceAgent</code> )</p>
 <p>Gives Compliance Scanning the access it needs to analyze containers and VMs for compliance and create occurrences using the Container Analysis API</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">artifactregistry.  dockerimages.*</code></p>
+<td><p><code>artifactregistry. dockerimages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  list</code></li>
+<li><code>artifactregistry. dockerimages. get</code></li>
+<li><code>artifactregistry. dockerimages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  files.  download</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.locations.*</code></p>
+<p><code>artifactregistry. files. download</code></p>
+<p><code>artifactregistry.files.get</code></p>
+<p><code>artifactregistry.files.list</code></p>
+<p><code>artifactregistry.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.locations.get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  locations.  list</code></li>
+<li><code>artifactregistry.locations.get</code></li>
+<li><code>artifactregistry. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.*</code></p>
+<p><code>artifactregistry. mavenartifacts.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  list</code></li>
+<li><code>artifactregistry. mavenartifacts. get</code></li>
+<li><code>artifactregistry. mavenartifacts. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.npmpackages.*</code></p>
+<p><code>artifactregistry.npmpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  list</code></li>
+<li><code>artifactregistry. npmpackages. get</code></li>
+<li><code>artifactregistry. npmpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.packages.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.packages.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectsettings.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  pythonpackages.*</code></p>
+<p><code>artifactregistry.packages.get</code></p>
+<p><code>artifactregistry.packages.list</code></p>
+<p><code>artifactregistry. projectsettings. get</code></p>
+<p><code>artifactregistry. pythonpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  list</code></li>
+<li><code>artifactregistry. pythonpackages. get</code></li>
+<li><code>artifactregistry. pythonpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  downloadArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  readViaVirtualRepository</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.list</code></p>
-<p><code dir="ltr" translate="no">compute.globalOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.images.get</code></p>
-<p><code dir="ltr" translate="no">compute.images.list</code></p>
-<p><code dir="ltr" translate="no">compute.images.useReadOnly</code></p>
-<p><code dir="ltr" translate="no">compute.instances.get</code></p>
-<p><code dir="ltr" translate="no">compute.  instances.  getGuestAttributes</code></p>
-<p><code dir="ltr" translate="no">compute.instances.list</code></p>
-<p><code dir="ltr" translate="no">compute.regionOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.zoneOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.zones.*</code></p>
+<p><code>artifactregistry. repositories. downloadArtifacts</code></p>
+<p><code>artifactregistry. repositories. get</code></p>
+<p><code>artifactregistry. repositories. list</code></p>
+<p><code>artifactregistry. repositories. listEffectiveTags</code></p>
+<p><code>artifactregistry. repositories. listTagBindings</code></p>
+<p><code>artifactregistry. repositories. readViaVirtualRepository</code></p>
+<p><code>artifactregistry.tags.get</code></p>
+<p><code>artifactregistry.tags.list</code></p>
+<p><code>artifactregistry.versions.get</code></p>
+<p><code>artifactregistry.versions.list</code></p>
+<p><code>compute.globalOperations.get</code></p>
+<p><code>compute.images.get</code></p>
+<p><code>compute.images.list</code></p>
+<p><code>compute.images.useReadOnly</code></p>
+<p><code>compute.instances.get</code></p>
+<p><code>compute. instances. getGuestAttributes</code></p>
+<p><code>compute.instances.list</code></p>
+<p><code>compute.regionOperations.get</code></p>
+<p><code>compute.zoneOperations.get</code></p>
+<p><code>compute.zones.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">compute.zones.get</code></li>
-<li><code dir="ltr" translate="no">compute.zones.list</code></li>
+<li><code>compute.zones.get</code></li>
+<li><code>compute.zones.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">containeranalysis.  notes.  attachOccurrence</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.notes.create</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.notes.delete</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.notes.get</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.notes.list</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.notes.update</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  create</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  delete</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  get</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  list</code></p>
-<p><code dir="ltr" translate="no">containeranalysis.  occurrences.  update</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.list</code></p></td>
+<p><code>containeranalysis. notes. attachOccurrence</code></p>
+<p><code>containeranalysis.notes.create</code></p>
+<p><code>containeranalysis.notes.delete</code></p>
+<p><code>containeranalysis.notes.get</code></p>
+<p><code>containeranalysis.notes.list</code></p>
+<p><code>containeranalysis.notes.update</code></p>
+<p><code>containeranalysis. occurrences. create</code></p>
+<p><code>containeranalysis. occurrences. delete</code></p>
+<p><code>containeranalysis. occurrences. get</code></p>
+<p><code>containeranalysis. occurrences. list</code></p>
+<p><code>containeranalysis. occurrences. update</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.list</code></p></td>
 </tr>
 </tbody>
 </table>

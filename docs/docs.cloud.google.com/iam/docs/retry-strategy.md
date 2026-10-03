@@ -29,10 +29,10 @@ The following algorithm implements truncated exponential backoff with jitter:
 
 Use the following values as you implement the algorithm:
 
-  - Before each retry, the wait time is `min((2 n + random-fraction), maximum-backoff)` , with `n` starting at 0 and incremented by 1 for each retry.
-  - Replace `random-fraction` with a random fractional value less than or equal to 1. Use a different value for each retry. Adding this random value prevents clients from becoming synchronized and sending large numbers of retries at the same time.
-  - Replace `maximum-backoff` with the maximum amount of time, in seconds, to wait between retries. Typical values are 32 or 64 (2 <sup>5</sup> or 2 <sup>6</sup> ) seconds. Choose the value that works best for your use case.
-  - Replace `deadline` with the maximum number of seconds to keep sending retries. Choose a value that reflects your use case. For example, in a continuous integration/continuous deployment (CI/CD) pipeline that is not highly time-sensitive, you might set `deadline` to 300 seconds (5 minutes).
+- Before each retry, the wait time is `min((2 `<sup>`n`</sup>` + random-fraction), maximum-backoff)` , with `n` starting at 0 and incremented by 1 for each retry.
+- Replace `random-fraction` with a random fractional value less than or equal to 1. Use a different value for each retry. Adding this random value prevents clients from becoming synchronized and sending large numbers of retries at the same time.
+- Replace `maximum-backoff` with the maximum amount of time, in seconds, to wait between retries. Typical values are 32 or 64 (2 <sup>5</sup> or 2 <sup>6</sup> ) seconds. Choose the value that works best for your use case.
+- Replace `deadline` with the maximum number of seconds to keep sending retries. Choose a value that reflects your use case. For example, in a continuous integration/continuous deployment (CI/CD) pipeline that is not highly time-sensitive, you might set `deadline` to 300 seconds (5 minutes).
 
 ## Types of errors to retry
 
@@ -44,5 +44,5 @@ In addition, use a modified version of this retry strategy for all requests to t
 
 ## What's next
 
-  - Learn [how concurrency issues are managed](https://docs.cloud.google.com/iam/docs/allow-policies#etag) in allow policies.
-  - Understand how to [implement the read-modify-write pattern](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#programmatic) for updating allow policies.
+- Learn [how concurrency issues are managed](https://docs.cloud.google.com/iam/docs/allow-policies#etag) in allow policies.
+- Understand how to [implement the read-modify-write pattern](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#programmatic) for updating allow policies.

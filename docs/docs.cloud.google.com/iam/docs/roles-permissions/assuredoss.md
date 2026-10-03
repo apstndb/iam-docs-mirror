@@ -23,602 +23,431 @@ This page lists the IAM roles and permissions for Assured Open Source Software. 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="assuredoss.admin" class="role-title add-link" data-text="Assured OSS Admin" tabindex="-1">Assured OSS Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  assuredoss.admin</code> )</p>
+<td>Assured OSS Admin
+<p>( <code>roles/ assuredoss.admin</code> )</p>
 <p>Access to use Assured OSS and manage configuration.</p></td>
-<td><p><code dir="ltr" translate="no">artifactregistry.  attachments.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  attachments.  list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  dockerimages.*</code></p>
+<td><p><code>artifactregistry. attachments. get</code></p>
+<p><code>artifactregistry. attachments. list</code></p>
+<p><code>artifactregistry. dockerimages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  list</code></li>
+<li><code>artifactregistry. dockerimages. get</code></li>
+<li><code>artifactregistry. dockerimages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  files.  download</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.locations.*</code></p>
+<p><code>artifactregistry. files. download</code></p>
+<p><code>artifactregistry.files.get</code></p>
+<p><code>artifactregistry.files.list</code></p>
+<p><code>artifactregistry.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.locations.get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  locations.  list</code></li>
+<li><code>artifactregistry.locations.get</code></li>
+<li><code>artifactregistry. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.*</code></p>
+<p><code>artifactregistry. mavenartifacts.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  list</code></li>
+<li><code>artifactregistry. mavenartifacts. get</code></li>
+<li><code>artifactregistry. mavenartifacts. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.npmpackages.*</code></p>
+<p><code>artifactregistry.npmpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  list</code></li>
+<li><code>artifactregistry. npmpackages. get</code></li>
+<li><code>artifactregistry. npmpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.packages.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.packages.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectconfigs.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectsettings.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  pythonpackages.*</code></p>
+<p><code>artifactregistry.packages.get</code></p>
+<p><code>artifactregistry.packages.list</code></p>
+<p><code>artifactregistry. projectconfigs. get</code></p>
+<p><code>artifactregistry. projectsettings. get</code></p>
+<p><code>artifactregistry. pythonpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  list</code></li>
+<li><code>artifactregistry. pythonpackages. get</code></li>
+<li><code>artifactregistry. pythonpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  create</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  downloadArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  exportArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  readViaVirtualRepository</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.rules.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.rules.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.list</code></p>
-<p><code dir="ltr" translate="no">assuredoss.*</code></p>
+<p><code>artifactregistry. repositories. create</code></p>
+<p><code>artifactregistry. repositories. downloadArtifacts</code></p>
+<p><code>artifactregistry. repositories. exportArtifacts</code></p>
+<p><code>artifactregistry. repositories. get</code></p>
+<p><code>artifactregistry. repositories. list</code></p>
+<p><code>artifactregistry. repositories. listEffectiveTags</code></p>
+<p><code>artifactregistry. repositories. listTagBindings</code></p>
+<p><code>artifactregistry. repositories. readViaVirtualRepository</code></p>
+<p><code>artifactregistry.rules.get</code></p>
+<p><code>artifactregistry.rules.list</code></p>
+<p><code>artifactregistry.tags.get</code></p>
+<p><code>artifactregistry.tags.list</code></p>
+<p><code>artifactregistry.versions.get</code></p>
+<p><code>artifactregistry.versions.list</code></p>
+<p><code>assuredoss.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">assuredoss.config.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.customers.create</code></li>
-<li><code dir="ltr" translate="no">assuredoss.locations.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.locations.list</code></li>
-<li><code dir="ltr" translate="no">assuredoss.metadata.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.metadata.list</code></li>
-<li><code dir="ltr" translate="no">assuredoss.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">assuredoss.operations.delete</code></li>
-<li><code dir="ltr" translate="no">assuredoss.operations.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.operations.list</code></li>
+<li><code>assuredoss.config.get</code></li>
+<li><code>assuredoss.customers.create</code></li>
+<li><code>assuredoss.locations.get</code></li>
+<li><code>assuredoss.locations.list</code></li>
+<li><code>assuredoss.metadata.get</code></li>
+<li><code>assuredoss.metadata.list</code></li>
+<li><code>assuredoss.operations.cancel</code></li>
+<li><code>assuredoss.operations.delete</code></li>
+<li><code>assuredoss.operations.get</code></li>
+<li><code>assuredoss.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">iam.serviceAccountKeys.create</code></p>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.create</code></p>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.  messageTransforms.  validate</code></p>
-<p><code dir="ltr" translate="no">pubsub.schemas.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.schemas.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.schemas.listRevisions</code></p>
-<p><code dir="ltr" translate="no">pubsub.schemas.validate</code></p>
-<p><code dir="ltr" translate="no">pubsub.snapshots.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.snapshots.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.  snapshots.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">pubsub.  snapshots.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.create</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.  subscriptions.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">pubsub.  subscriptions.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.update</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.  topics.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.listTagBindings</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<p><code>iam.serviceAccountKeys.create</code></p>
+<p><code>iam.serviceAccounts.create</code></p>
+<p><code>iam.serviceAccounts.get</code></p>
+<p><code>pubsub. messageTransforms. validate</code></p>
+<p><code>pubsub.schemas.get</code></p>
+<p><code>pubsub.schemas.list</code></p>
+<p><code>pubsub.schemas.listRevisions</code></p>
+<p><code>pubsub.schemas.validate</code></p>
+<p><code>pubsub.snapshots.get</code></p>
+<p><code>pubsub.snapshots.list</code></p>
+<p><code>pubsub. snapshots. listEffectiveTags</code></p>
+<p><code>pubsub. snapshots. listTagBindings</code></p>
+<p><code>pubsub.subscriptions.create</code></p>
+<p><code>pubsub.subscriptions.get</code></p>
+<p><code>pubsub.subscriptions.list</code></p>
+<p><code>pubsub. subscriptions. listEffectiveTags</code></p>
+<p><code>pubsub. subscriptions. listTagBindings</code></p>
+<p><code>pubsub.subscriptions.update</code></p>
+<p><code>pubsub.topics.get</code></p>
+<p><code>pubsub.topics.list</code></p>
+<p><code>pubsub. topics. listEffectiveTags</code></p>
+<p><code>pubsub.topics.listTagBindings</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.quotas.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.enable</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.quotas.get</code></p>
+<p><code>serviceusage.services.enable</code></p>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="assuredoss.editor" class="role-title add-link" data-text="Assured OSS Editor" tabindex="-1">Assured OSS Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  assuredoss.editor</code> )</p>
+<td>Assured OSS Editor
+<p>( <code>roles/ assuredoss.editor</code> )</p>
 <p>Editor role for Assured OSS</p></td>
-<td><p><code dir="ltr" translate="no">assuredoss.config.get</code></p>
-<p><code dir="ltr" translate="no">assuredoss.locations.*</code></p>
+<td><p><code>assuredoss.config.get</code></p>
+<p><code>assuredoss.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">assuredoss.locations.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.locations.list</code></li>
+<li><code>assuredoss.locations.get</code></li>
+<li><code>assuredoss.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">assuredoss.metadata.*</code></p>
+<p><code>assuredoss.metadata.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">assuredoss.metadata.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.metadata.list</code></li>
+<li><code>assuredoss.metadata.get</code></li>
+<li><code>assuredoss.metadata.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">assuredoss.operations.get</code></p>
-<p><code dir="ltr" translate="no">assuredoss.operations.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>assuredoss.operations.get</code></p>
+<p><code>assuredoss.operations.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="assuredoss.viewer" class="role-title add-link" data-text="Assured OSS Viewer" tabindex="-1">Assured OSS Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  assuredoss.viewer</code> )</p>
+<td>Assured OSS Viewer
+<p>( <code>roles/ assuredoss.viewer</code> )</p>
 <p>Viewer role for Assured OSS</p></td>
-<td><p><code dir="ltr" translate="no">assuredoss.config.get</code></p>
-<p><code dir="ltr" translate="no">assuredoss.locations.*</code></p>
+<td><p><code>assuredoss.config.get</code></p>
+<p><code>assuredoss.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">assuredoss.locations.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.locations.list</code></li>
+<li><code>assuredoss.locations.get</code></li>
+<li><code>assuredoss.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">assuredoss.metadata.*</code></p>
+<p><code>assuredoss.metadata.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">assuredoss.metadata.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.metadata.list</code></li>
+<li><code>assuredoss.metadata.get</code></li>
+<li><code>assuredoss.metadata.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">assuredoss.operations.get</code></p>
-<p><code dir="ltr" translate="no">assuredoss.operations.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>assuredoss.operations.get</code></p>
+<p><code>assuredoss.operations.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="assuredoss.projectAdmin" class="role-title add-link" data-text="Assured OSS Project Admin Beta" tabindex="-1">Assured OSS Project Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  assuredoss.projectAdmin</code> )</p>
+<td>Assured OSS Project Admin <sup>Beta</sup>
+<p>( <code>roles/ assuredoss.projectAdmin</code> )</p>
 <p>Access to use Assured OSS and manage configuration.</p></td>
-<td><p><code dir="ltr" translate="no">artifactregistry.  attachments.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  attachments.  list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  dockerimages.*</code></p>
+<td><p><code>artifactregistry. attachments. get</code></p>
+<p><code>artifactregistry. attachments. list</code></p>
+<p><code>artifactregistry. dockerimages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  list</code></li>
+<li><code>artifactregistry. dockerimages. get</code></li>
+<li><code>artifactregistry. dockerimages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  files.  download</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.locations.*</code></p>
+<p><code>artifactregistry. files. download</code></p>
+<p><code>artifactregistry.files.get</code></p>
+<p><code>artifactregistry.files.list</code></p>
+<p><code>artifactregistry.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.locations.get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  locations.  list</code></li>
+<li><code>artifactregistry.locations.get</code></li>
+<li><code>artifactregistry. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.*</code></p>
+<p><code>artifactregistry. mavenartifacts.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  list</code></li>
+<li><code>artifactregistry. mavenartifacts. get</code></li>
+<li><code>artifactregistry. mavenartifacts. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.npmpackages.*</code></p>
+<p><code>artifactregistry.npmpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  list</code></li>
+<li><code>artifactregistry. npmpackages. get</code></li>
+<li><code>artifactregistry. npmpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.packages.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.packages.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectconfigs.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectsettings.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  pythonpackages.*</code></p>
+<p><code>artifactregistry.packages.get</code></p>
+<p><code>artifactregistry.packages.list</code></p>
+<p><code>artifactregistry. projectconfigs. get</code></p>
+<p><code>artifactregistry. projectsettings. get</code></p>
+<p><code>artifactregistry. pythonpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  list</code></li>
+<li><code>artifactregistry. pythonpackages. get</code></li>
+<li><code>artifactregistry. pythonpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  create</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  downloadArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  exportArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  readViaVirtualRepository</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.rules.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.rules.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.list</code></p>
-<p><code dir="ltr" translate="no">assuredoss.*</code></p>
+<p><code>artifactregistry. repositories. create</code></p>
+<p><code>artifactregistry. repositories. downloadArtifacts</code></p>
+<p><code>artifactregistry. repositories. exportArtifacts</code></p>
+<p><code>artifactregistry. repositories. get</code></p>
+<p><code>artifactregistry. repositories. list</code></p>
+<p><code>artifactregistry. repositories. listEffectiveTags</code></p>
+<p><code>artifactregistry. repositories. listTagBindings</code></p>
+<p><code>artifactregistry. repositories. readViaVirtualRepository</code></p>
+<p><code>artifactregistry.rules.get</code></p>
+<p><code>artifactregistry.rules.list</code></p>
+<p><code>artifactregistry.tags.get</code></p>
+<p><code>artifactregistry.tags.list</code></p>
+<p><code>artifactregistry.versions.get</code></p>
+<p><code>artifactregistry.versions.list</code></p>
+<p><code>assuredoss.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">assuredoss.config.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.customers.create</code></li>
-<li><code dir="ltr" translate="no">assuredoss.locations.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.locations.list</code></li>
-<li><code dir="ltr" translate="no">assuredoss.metadata.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.metadata.list</code></li>
-<li><code dir="ltr" translate="no">assuredoss.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">assuredoss.operations.delete</code></li>
-<li><code dir="ltr" translate="no">assuredoss.operations.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.operations.list</code></li>
+<li><code>assuredoss.config.get</code></li>
+<li><code>assuredoss.customers.create</code></li>
+<li><code>assuredoss.locations.get</code></li>
+<li><code>assuredoss.locations.list</code></li>
+<li><code>assuredoss.metadata.get</code></li>
+<li><code>assuredoss.metadata.list</code></li>
+<li><code>assuredoss.operations.cancel</code></li>
+<li><code>assuredoss.operations.delete</code></li>
+<li><code>assuredoss.operations.get</code></li>
+<li><code>assuredoss.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.create</code></p>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.  messageTransforms.  validate</code></p>
-<p><code dir="ltr" translate="no">pubsub.schemas.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.schemas.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.schemas.listRevisions</code></p>
-<p><code dir="ltr" translate="no">pubsub.schemas.validate</code></p>
-<p><code dir="ltr" translate="no">pubsub.snapshots.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.snapshots.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.  snapshots.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">pubsub.  snapshots.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.  subscriptions.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">pubsub.  subscriptions.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.  topics.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.listTagBindings</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<p><code>iam.serviceAccounts.create</code></p>
+<p><code>iam.serviceAccounts.get</code></p>
+<p><code>pubsub. messageTransforms. validate</code></p>
+<p><code>pubsub.schemas.get</code></p>
+<p><code>pubsub.schemas.list</code></p>
+<p><code>pubsub.schemas.listRevisions</code></p>
+<p><code>pubsub.schemas.validate</code></p>
+<p><code>pubsub.snapshots.get</code></p>
+<p><code>pubsub.snapshots.list</code></p>
+<p><code>pubsub. snapshots. listEffectiveTags</code></p>
+<p><code>pubsub. snapshots. listTagBindings</code></p>
+<p><code>pubsub.subscriptions.get</code></p>
+<p><code>pubsub.subscriptions.list</code></p>
+<p><code>pubsub. subscriptions. listEffectiveTags</code></p>
+<p><code>pubsub. subscriptions. listTagBindings</code></p>
+<p><code>pubsub.topics.get</code></p>
+<p><code>pubsub.topics.list</code></p>
+<p><code>pubsub. topics. listEffectiveTags</code></p>
+<p><code>pubsub.topics.listTagBindings</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.quotas.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.enable</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.quotas.get</code></p>
+<p><code>serviceusage.services.enable</code></p>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="assuredoss.reader" class="role-title add-link" data-text="Assured OSS Reader" tabindex="-1">Assured OSS Reader</h4>
-<p>( <code dir="ltr" translate="no">roles/  assuredoss.reader</code> )</p>
+<td>Assured OSS Reader
+<p>( <code>roles/ assuredoss.reader</code> )</p>
 <p>Access to use Assured OSS and view Assured OSS configuration.</p></td>
-<td><p><code dir="ltr" translate="no">artifactregistry.  attachments.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  attachments.  list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  dockerimages.*</code></p>
+<td><p><code>artifactregistry. attachments. get</code></p>
+<p><code>artifactregistry. attachments. list</code></p>
+<p><code>artifactregistry. dockerimages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  list</code></li>
+<li><code>artifactregistry. dockerimages. get</code></li>
+<li><code>artifactregistry. dockerimages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  files.  download</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.locations.*</code></p>
+<p><code>artifactregistry. files. download</code></p>
+<p><code>artifactregistry.files.get</code></p>
+<p><code>artifactregistry.files.list</code></p>
+<p><code>artifactregistry.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.locations.get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  locations.  list</code></li>
+<li><code>artifactregistry.locations.get</code></li>
+<li><code>artifactregistry. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.*</code></p>
+<p><code>artifactregistry. mavenartifacts.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  list</code></li>
+<li><code>artifactregistry. mavenartifacts. get</code></li>
+<li><code>artifactregistry. mavenartifacts. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.npmpackages.*</code></p>
+<p><code>artifactregistry.npmpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  list</code></li>
+<li><code>artifactregistry. npmpackages. get</code></li>
+<li><code>artifactregistry. npmpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.packages.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.packages.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectconfigs.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectsettings.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  pythonpackages.*</code></p>
+<p><code>artifactregistry.packages.get</code></p>
+<p><code>artifactregistry.packages.list</code></p>
+<p><code>artifactregistry. projectconfigs. get</code></p>
+<p><code>artifactregistry. projectsettings. get</code></p>
+<p><code>artifactregistry. pythonpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  list</code></li>
+<li><code>artifactregistry. pythonpackages. get</code></li>
+<li><code>artifactregistry. pythonpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  downloadArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  exportArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  readViaVirtualRepository</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.rules.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.rules.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.list</code></p>
-<p><code dir="ltr" translate="no">assuredoss.config.get</code></p>
-<p><code dir="ltr" translate="no">assuredoss.locations.*</code></p>
+<p><code>artifactregistry. repositories. downloadArtifacts</code></p>
+<p><code>artifactregistry. repositories. exportArtifacts</code></p>
+<p><code>artifactregistry. repositories. get</code></p>
+<p><code>artifactregistry. repositories. list</code></p>
+<p><code>artifactregistry. repositories. listEffectiveTags</code></p>
+<p><code>artifactregistry. repositories. listTagBindings</code></p>
+<p><code>artifactregistry. repositories. readViaVirtualRepository</code></p>
+<p><code>artifactregistry.rules.get</code></p>
+<p><code>artifactregistry.rules.list</code></p>
+<p><code>artifactregistry.tags.get</code></p>
+<p><code>artifactregistry.tags.list</code></p>
+<p><code>artifactregistry.versions.get</code></p>
+<p><code>artifactregistry.versions.list</code></p>
+<p><code>assuredoss.config.get</code></p>
+<p><code>assuredoss.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">assuredoss.locations.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.locations.list</code></li>
+<li><code>assuredoss.locations.get</code></li>
+<li><code>assuredoss.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">assuredoss.metadata.*</code></p>
+<p><code>assuredoss.metadata.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">assuredoss.metadata.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.metadata.list</code></li>
+<li><code>assuredoss.metadata.get</code></li>
+<li><code>assuredoss.metadata.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">assuredoss.operations.get</code></p>
-<p><code dir="ltr" translate="no">assuredoss.operations.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.  messageTransforms.  validate</code></p>
-<p><code dir="ltr" translate="no">pubsub.schemas.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.schemas.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.schemas.listRevisions</code></p>
-<p><code dir="ltr" translate="no">pubsub.schemas.validate</code></p>
-<p><code dir="ltr" translate="no">pubsub.snapshots.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.snapshots.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.  snapshots.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">pubsub.  snapshots.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.  subscriptions.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">pubsub.  subscriptions.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.  topics.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.listTagBindings</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<p><code>assuredoss.operations.get</code></p>
+<p><code>assuredoss.operations.list</code></p>
+<p><code>pubsub. messageTransforms. validate</code></p>
+<p><code>pubsub.schemas.get</code></p>
+<p><code>pubsub.schemas.list</code></p>
+<p><code>pubsub.schemas.listRevisions</code></p>
+<p><code>pubsub.schemas.validate</code></p>
+<p><code>pubsub.snapshots.get</code></p>
+<p><code>pubsub.snapshots.list</code></p>
+<p><code>pubsub. snapshots. listEffectiveTags</code></p>
+<p><code>pubsub. snapshots. listTagBindings</code></p>
+<p><code>pubsub.subscriptions.get</code></p>
+<p><code>pubsub.subscriptions.list</code></p>
+<p><code>pubsub. subscriptions. listEffectiveTags</code></p>
+<p><code>pubsub. subscriptions. listTagBindings</code></p>
+<p><code>pubsub.topics.get</code></p>
+<p><code>pubsub.topics.list</code></p>
+<p><code>pubsub. topics. listEffectiveTags</code></p>
+<p><code>pubsub.topics.listTagBindings</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.quotas.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.quotas.get</code></p>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="assuredoss.user" class="role-title add-link" data-text="Assured OSS User" tabindex="-1">Assured OSS User</h4>
-<p>( <code dir="ltr" translate="no">roles/  assuredoss.user</code> )</p>
+<td>Assured OSS User
+<p>( <code>roles/ assuredoss.user</code> )</p>
 <p>Access to use Assured OSS.</p></td>
-<td><p><code dir="ltr" translate="no">artifactregistry.  attachments.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  attachments.  list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  dockerimages.*</code></p>
+<td><p><code>artifactregistry. attachments. get</code></p>
+<p><code>artifactregistry. attachments. list</code></p>
+<p><code>artifactregistry. dockerimages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  dockerimages.  list</code></li>
+<li><code>artifactregistry. dockerimages. get</code></li>
+<li><code>artifactregistry. dockerimages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  files.  download</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.files.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.locations.*</code></p>
+<p><code>artifactregistry. files. download</code></p>
+<p><code>artifactregistry.files.get</code></p>
+<p><code>artifactregistry.files.list</code></p>
+<p><code>artifactregistry.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.locations.get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  locations.  list</code></li>
+<li><code>artifactregistry.locations.get</code></li>
+<li><code>artifactregistry. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.*</code></p>
+<p><code>artifactregistry. mavenartifacts.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  mavenartifacts.  list</code></li>
+<li><code>artifactregistry. mavenartifacts. get</code></li>
+<li><code>artifactregistry. mavenartifacts. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.npmpackages.*</code></p>
+<p><code>artifactregistry.npmpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  npmpackages.  list</code></li>
+<li><code>artifactregistry. npmpackages. get</code></li>
+<li><code>artifactregistry. npmpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.packages.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.packages.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectconfigs.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  projectsettings.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  pythonpackages.*</code></p>
+<p><code>artifactregistry.packages.get</code></p>
+<p><code>artifactregistry.packages.list</code></p>
+<p><code>artifactregistry. projectconfigs. get</code></p>
+<p><code>artifactregistry. projectsettings. get</code></p>
+<p><code>artifactregistry. pythonpackages.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  get</code></li>
-<li><code dir="ltr" translate="no">artifactregistry.  pythonpackages.  list</code></li>
+<li><code>artifactregistry. pythonpackages. get</code></li>
+<li><code>artifactregistry. pythonpackages. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  downloadArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  exportArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  readViaVirtualRepository</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.rules.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.rules.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.tags.list</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.versions.list</code></p>
-<p><code dir="ltr" translate="no">assuredoss.locations.*</code></p>
+<p><code>artifactregistry. repositories. downloadArtifacts</code></p>
+<p><code>artifactregistry. repositories. exportArtifacts</code></p>
+<p><code>artifactregistry. repositories. get</code></p>
+<p><code>artifactregistry. repositories. list</code></p>
+<p><code>artifactregistry. repositories. listEffectiveTags</code></p>
+<p><code>artifactregistry. repositories. listTagBindings</code></p>
+<p><code>artifactregistry. repositories. readViaVirtualRepository</code></p>
+<p><code>artifactregistry.rules.get</code></p>
+<p><code>artifactregistry.rules.list</code></p>
+<p><code>artifactregistry.tags.get</code></p>
+<p><code>artifactregistry.tags.list</code></p>
+<p><code>artifactregistry.versions.get</code></p>
+<p><code>artifactregistry.versions.list</code></p>
+<p><code>assuredoss.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">assuredoss.locations.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.locations.list</code></li>
+<li><code>assuredoss.locations.get</code></li>
+<li><code>assuredoss.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">assuredoss.metadata.*</code></p>
+<p><code>assuredoss.metadata.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">assuredoss.metadata.get</code></li>
-<li><code dir="ltr" translate="no">assuredoss.metadata.list</code></li>
+<li><code>assuredoss.metadata.get</code></li>
+<li><code>assuredoss.metadata.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">assuredoss.operations.get</code></p>
-<p><code dir="ltr" translate="no">assuredoss.operations.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>assuredoss.operations.get</code></p>
+<p><code>assuredoss.operations.list</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Assured Open Source Software permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="assuredoss.config.get" class="permission-name add-link" data-text="assuredoss.config.get" tabindex="-1"><code dir="ltr" translate="no">assuredoss.config.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin">Assured OSS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor">Assured OSS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer">Assured OSS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin">Assured OSS Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.projectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader">Assured OSS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="assuredoss.customers.create" class="permission-name add-link" data-text="assuredoss.customers.create" tabindex="-1"><code dir="ltr" translate="no">assuredoss.customers.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin">Assured OSS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin">Assured OSS Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.projectAdmin</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="assuredoss.locations.get" class="permission-name add-link" data-text="assuredoss.locations.get" tabindex="-1"><code dir="ltr" translate="no">assuredoss.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin">Assured OSS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor">Assured OSS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer">Assured OSS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin">Assured OSS Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.projectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader">Assured OSS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.user">Assured OSS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="assuredoss.locations.list" class="permission-name add-link" data-text="assuredoss.locations.list" tabindex="-1"><code dir="ltr" translate="no">assuredoss.locations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin">Assured OSS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor">Assured OSS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer">Assured OSS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin">Assured OSS Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.projectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader">Assured OSS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.user">Assured OSS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="assuredoss.metadata.get" class="permission-name add-link" data-text="assuredoss.metadata.get" tabindex="-1"><code dir="ltr" translate="no">assuredoss.metadata.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin">Assured OSS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor">Assured OSS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer">Assured OSS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin">Assured OSS Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.projectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader">Assured OSS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.user">Assured OSS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="assuredoss.metadata.list" class="permission-name add-link" data-text="assuredoss.metadata.list" tabindex="-1"><code dir="ltr" translate="no">assuredoss.metadata.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin">Assured OSS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor">Assured OSS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer">Assured OSS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin">Assured OSS Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.projectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader">Assured OSS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.user">Assured OSS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="assuredoss.operations.cancel" class="permission-name add-link" data-text="assuredoss.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">assuredoss.operations.cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin">Assured OSS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin">Assured OSS Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.projectAdmin</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="assuredoss.operations.delete" class="permission-name add-link" data-text="assuredoss.operations.delete" tabindex="-1"><code dir="ltr" translate="no">assuredoss.operations.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin">Assured OSS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin">Assured OSS Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.projectAdmin</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="assuredoss.operations.get" class="permission-name add-link" data-text="assuredoss.operations.get" tabindex="-1"><code dir="ltr" translate="no">assuredoss.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin">Assured OSS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor">Assured OSS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer">Assured OSS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin">Assured OSS Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.projectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader">Assured OSS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.user">Assured OSS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="assuredoss.operations.list" class="permission-name add-link" data-text="assuredoss.operations.list" tabindex="-1"><code dir="ltr" translate="no">assuredoss.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin">Assured OSS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor">Assured OSS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer">Assured OSS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin">Assured OSS Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.projectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader">Assured OSS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.user">Assured OSS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredoss.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.adminViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                     | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `assuredoss.config.get`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Assured OSS Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin) ( `roles/ assuredoss.admin` ) [Assured OSS Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor) ( `roles/ assuredoss.editor` ) [Assured OSS Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer) ( `roles/ assuredoss.viewer` ) [Security Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin) ( `roles/ securitycenter.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Assured OSS Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin) ( `roles/ assuredoss.projectAdmin` ) [Assured OSS Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader) ( `roles/ assuredoss.reader` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Security Center Admin Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor) ( `roles/ securitycenter.adminEditor` ) [Security Center Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer) ( `roles/ securitycenter.adminViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `assuredoss.customers.create`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Assured OSS Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin) ( `roles/ assuredoss.admin` ) [Security Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin) ( `roles/ securitycenter.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Assured OSS Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin) ( `roles/ assuredoss.projectAdmin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `assuredoss.locations.get`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Assured OSS Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin) ( `roles/ assuredoss.admin` ) [Assured OSS Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor) ( `roles/ assuredoss.editor` ) [Assured OSS Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer) ( `roles/ assuredoss.viewer` ) [Security Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin) ( `roles/ securitycenter.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Assured OSS Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin) ( `roles/ assuredoss.projectAdmin` ) [Assured OSS Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader) ( `roles/ assuredoss.reader` ) [Assured OSS User](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.user) ( `roles/ assuredoss.user` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Security Center Admin Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor) ( `roles/ securitycenter.adminEditor` ) [Security Center Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer) ( `roles/ securitycenter.adminViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `assuredoss.locations.list`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Assured OSS Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin) ( `roles/ assuredoss.admin` ) [Assured OSS Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor) ( `roles/ assuredoss.editor` ) [Assured OSS Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer) ( `roles/ assuredoss.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Security Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin) ( `roles/ securitycenter.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Assured OSS Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin) ( `roles/ assuredoss.projectAdmin` ) [Assured OSS Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader) ( `roles/ assuredoss.reader` ) [Assured OSS User](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.user) ( `roles/ assuredoss.user` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Security Center Admin Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor) ( `roles/ securitycenter.adminEditor` ) [Security Center Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer) ( `roles/ securitycenter.adminViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `assuredoss.metadata.get`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Assured OSS Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin) ( `roles/ assuredoss.admin` ) [Assured OSS Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor) ( `roles/ assuredoss.editor` ) [Assured OSS Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer) ( `roles/ assuredoss.viewer` ) [Security Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin) ( `roles/ securitycenter.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Assured OSS Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin) ( `roles/ assuredoss.projectAdmin` ) [Assured OSS Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader) ( `roles/ assuredoss.reader` ) [Assured OSS User](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.user) ( `roles/ assuredoss.user` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Security Center Admin Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor) ( `roles/ securitycenter.adminEditor` ) [Security Center Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer) ( `roles/ securitycenter.adminViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `assuredoss.metadata.list`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Assured OSS Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin) ( `roles/ assuredoss.admin` ) [Assured OSS Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor) ( `roles/ assuredoss.editor` ) [Assured OSS Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer) ( `roles/ assuredoss.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Security Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin) ( `roles/ securitycenter.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Assured OSS Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin) ( `roles/ assuredoss.projectAdmin` ) [Assured OSS Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader) ( `roles/ assuredoss.reader` ) [Assured OSS User](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.user) ( `roles/ assuredoss.user` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Security Center Admin Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor) ( `roles/ securitycenter.adminEditor` ) [Security Center Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer) ( `roles/ securitycenter.adminViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `assuredoss.operations.cancel` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Assured OSS Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin) ( `roles/ assuredoss.admin` ) [Security Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin) ( `roles/ securitycenter.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Assured OSS Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin) ( `roles/ assuredoss.projectAdmin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `assuredoss.operations.delete` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Assured OSS Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin) ( `roles/ assuredoss.admin` ) [Security Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin) ( `roles/ securitycenter.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Assured OSS Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin) ( `roles/ assuredoss.projectAdmin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `assuredoss.operations.get`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Assured OSS Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin) ( `roles/ assuredoss.admin` ) [Assured OSS Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor) ( `roles/ assuredoss.editor` ) [Assured OSS Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer) ( `roles/ assuredoss.viewer` ) [Security Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin) ( `roles/ securitycenter.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Assured OSS Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin) ( `roles/ assuredoss.projectAdmin` ) [Assured OSS Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader) ( `roles/ assuredoss.reader` ) [Assured OSS User](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.user) ( `roles/ assuredoss.user` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Security Center Admin Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor) ( `roles/ securitycenter.adminEditor` ) [Security Center Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer) ( `roles/ securitycenter.adminViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `assuredoss.operations.list`   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Assured OSS Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.admin) ( `roles/ assuredoss.admin` ) [Assured OSS Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.editor) ( `roles/ assuredoss.editor` ) [Assured OSS Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.viewer) ( `roles/ assuredoss.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Security Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin) ( `roles/ securitycenter.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Assured OSS Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.projectAdmin) ( `roles/ assuredoss.projectAdmin` ) [Assured OSS Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.reader) ( `roles/ assuredoss.reader` ) [Assured OSS User](https://docs.cloud.google.com/iam/docs/roles-permissions/assuredoss#assuredoss.user) ( `roles/ assuredoss.user` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Security Center Admin Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor) ( `roles/ securitycenter.adminEditor` ) [Security Center Admin Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer) ( `roles/ securitycenter.adminViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |

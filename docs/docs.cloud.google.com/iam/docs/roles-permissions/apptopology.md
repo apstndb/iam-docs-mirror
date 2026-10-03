@@ -23,385 +23,155 @@ This page lists the IAM roles and permissions for App Topology. To search throug
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="apptopology.admin" class="role-title add-link" data-text="App Topology Admin" tabindex="-1">App Topology Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
+<td>App Topology Admin
+<p>( <code>roles/ apptopology.admin</code> )</p>
 <p>Full access to App Topology resources.</p></td>
-<td><p><code dir="ltr" translate="no">apptopology.*</code></p>
+<td><p><code>apptopology.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">apptopology.  applicationTopologies.  generate</code></li>
-<li><code dir="ltr" translate="no">apptopology.  devOpsDomainTopologies.  generate</code></li>
-<li><code dir="ltr" translate="no">apptopology.  discoveredResourcesTopologies.  generate</code></li>
-<li><code dir="ltr" translate="no">apptopology.domains.get</code></li>
-<li><code dir="ltr" translate="no">apptopology.domains.list</code></li>
-<li><code dir="ltr" translate="no">apptopology.locations.get</code></li>
-<li><code dir="ltr" translate="no">apptopology.locations.list</code></li>
-<li><code dir="ltr" translate="no">apptopology.operations.get</code></li>
-<li><code dir="ltr" translate="no">apptopology.operations.list</code></li>
-<li><code dir="ltr" translate="no">apptopology.schemas.get</code></li>
-<li><code dir="ltr" translate="no">apptopology.  securityDomainTopologies.  generate</code></li>
-<li><code dir="ltr" translate="no">apptopology.  sreDomainTopologies.  generate</code></li>
-<li><code dir="ltr" translate="no">apptopology.topologyViews.get</code></li>
-<li><code dir="ltr" translate="no">apptopology.topologyViews.list</code></li>
+<li><code>apptopology. applicationTopologies. generate</code></li>
+<li><code>apptopology. devOpsDomainTopologies. generate</code></li>
+<li><code>apptopology. discoveredResourcesTopologies. generate</code></li>
+<li><code>apptopology.domains.get</code></li>
+<li><code>apptopology.domains.list</code></li>
+<li><code>apptopology.locations.get</code></li>
+<li><code>apptopology.locations.list</code></li>
+<li><code>apptopology.operations.get</code></li>
+<li><code>apptopology.operations.list</code></li>
+<li><code>apptopology.schemas.get</code></li>
+<li><code>apptopology. securityDomainTopologies. generate</code></li>
+<li><code>apptopology. sreDomainTopologies. generate</code></li>
+<li><code>apptopology.topologyViews.get</code></li>
+<li><code>apptopology.topologyViews.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.alertPolicies.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">monitoring.alerts.*</code></p>
+<p><code>cloudnotifications. activities. list</code></p>
+<p><code>monitoring.alertPolicies.get</code></p>
+<p><code>monitoring.alertPolicies.list</code></p>
+<p><code>monitoring. alertPolicies. listEffectiveTags</code></p>
+<p><code>monitoring. alertPolicies. listTagBindings</code></p>
+<p><code>monitoring.alerts.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.alerts.get</code></li>
-<li><code dir="ltr" translate="no">monitoring.alerts.list</code></li>
+<li><code>monitoring.alerts.get</code></li>
+<li><code>monitoring.alerts.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.dashboards.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.dashboards.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  dashboards.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">monitoring.  dashboards.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">monitoring.groups.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.groups.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  get</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.*</code></p>
+<p><code>monitoring.dashboards.get</code></p>
+<p><code>monitoring.dashboards.list</code></p>
+<p><code>monitoring. dashboards. listEffectiveTags</code></p>
+<p><code>monitoring. dashboards. listTagBindings</code></p>
+<p><code>monitoring.groups.get</code></p>
+<p><code>monitoring.groups.list</code></p>
+<p><code>monitoring. metricDescriptors. get</code></p>
+<p><code>monitoring. metricDescriptors. list</code></p>
+<p><code>monitoring. monitoredResourceDescriptors.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  get</code></li>
-<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></li>
+<li><code>monitoring. monitoredResourceDescriptors. get</code></li>
+<li><code>monitoring. monitoredResourceDescriptors. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.*</code></p>
+<p><code>monitoring. notificationChannelDescriptors.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.  get</code></li>
-<li><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.  list</code></li>
+<li><code>monitoring. notificationChannelDescriptors. get</code></li>
+<li><code>monitoring. notificationChannelDescriptors. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.  notificationChannels.  get</code></p>
-<p><code dir="ltr" translate="no">monitoring.  notificationChannels.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.services.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.services.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.slos.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.slos.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.snoozes.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.snoozes.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  uptimeCheckConfigs.  get</code></p>
-<p><code dir="ltr" translate="no">monitoring.  uptimeCheckConfigs.  list</code></p>
-<p><code dir="ltr" translate="no">opsconfigmonitoring.  resourceMetadata.  list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">stackdriver.projects.get</code></p>
-<p><code dir="ltr" translate="no">stackdriver.  resourceMetadata.  list</code></p></td>
+<p><code>monitoring. notificationChannels. get</code></p>
+<p><code>monitoring. notificationChannels. list</code></p>
+<p><code>monitoring.services.get</code></p>
+<p><code>monitoring.services.list</code></p>
+<p><code>monitoring.slos.get</code></p>
+<p><code>monitoring.slos.list</code></p>
+<p><code>monitoring.snoozes.get</code></p>
+<p><code>monitoring.snoozes.list</code></p>
+<p><code>monitoring.timeSeries.list</code></p>
+<p><code>monitoring. uptimeCheckConfigs. get</code></p>
+<p><code>monitoring. uptimeCheckConfigs. list</code></p>
+<p><code>opsconfigmonitoring. resourceMetadata. list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>stackdriver.projects.get</code></p>
+<p><code>stackdriver. resourceMetadata. list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="apptopology.viewer" class="role-title add-link" data-text="App Topology Viewer" tabindex="-1">App Topology Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
+<td>App Topology Viewer
+<p>( <code>roles/ apptopology.viewer</code> )</p>
 <p>Readonly access to App Topology resources.</p></td>
-<td><p><code dir="ltr" translate="no">apptopology.*</code></p>
+<td><p><code>apptopology.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">apptopology.  applicationTopologies.  generate</code></li>
-<li><code dir="ltr" translate="no">apptopology.  devOpsDomainTopologies.  generate</code></li>
-<li><code dir="ltr" translate="no">apptopology.  discoveredResourcesTopologies.  generate</code></li>
-<li><code dir="ltr" translate="no">apptopology.domains.get</code></li>
-<li><code dir="ltr" translate="no">apptopology.domains.list</code></li>
-<li><code dir="ltr" translate="no">apptopology.locations.get</code></li>
-<li><code dir="ltr" translate="no">apptopology.locations.list</code></li>
-<li><code dir="ltr" translate="no">apptopology.operations.get</code></li>
-<li><code dir="ltr" translate="no">apptopology.operations.list</code></li>
-<li><code dir="ltr" translate="no">apptopology.schemas.get</code></li>
-<li><code dir="ltr" translate="no">apptopology.  securityDomainTopologies.  generate</code></li>
-<li><code dir="ltr" translate="no">apptopology.  sreDomainTopologies.  generate</code></li>
-<li><code dir="ltr" translate="no">apptopology.topologyViews.get</code></li>
-<li><code dir="ltr" translate="no">apptopology.topologyViews.list</code></li>
+<li><code>apptopology. applicationTopologies. generate</code></li>
+<li><code>apptopology. devOpsDomainTopologies. generate</code></li>
+<li><code>apptopology. discoveredResourcesTopologies. generate</code></li>
+<li><code>apptopology.domains.get</code></li>
+<li><code>apptopology.domains.list</code></li>
+<li><code>apptopology.locations.get</code></li>
+<li><code>apptopology.locations.list</code></li>
+<li><code>apptopology.operations.get</code></li>
+<li><code>apptopology.operations.list</code></li>
+<li><code>apptopology.schemas.get</code></li>
+<li><code>apptopology. securityDomainTopologies. generate</code></li>
+<li><code>apptopology. sreDomainTopologies. generate</code></li>
+<li><code>apptopology.topologyViews.get</code></li>
+<li><code>apptopology.topologyViews.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.alertPolicies.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">monitoring.alerts.*</code></p>
+<p><code>cloudnotifications. activities. list</code></p>
+<p><code>monitoring.alertPolicies.get</code></p>
+<p><code>monitoring.alertPolicies.list</code></p>
+<p><code>monitoring. alertPolicies. listEffectiveTags</code></p>
+<p><code>monitoring. alertPolicies. listTagBindings</code></p>
+<p><code>monitoring.alerts.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.alerts.get</code></li>
-<li><code dir="ltr" translate="no">monitoring.alerts.list</code></li>
+<li><code>monitoring.alerts.get</code></li>
+<li><code>monitoring.alerts.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.dashboards.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.dashboards.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  dashboards.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">monitoring.  dashboards.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">monitoring.groups.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.groups.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  get</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.*</code></p>
+<p><code>monitoring.dashboards.get</code></p>
+<p><code>monitoring.dashboards.list</code></p>
+<p><code>monitoring. dashboards. listEffectiveTags</code></p>
+<p><code>monitoring. dashboards. listTagBindings</code></p>
+<p><code>monitoring.groups.get</code></p>
+<p><code>monitoring.groups.list</code></p>
+<p><code>monitoring. metricDescriptors. get</code></p>
+<p><code>monitoring. metricDescriptors. list</code></p>
+<p><code>monitoring. monitoredResourceDescriptors.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  get</code></li>
-<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></li>
+<li><code>monitoring. monitoredResourceDescriptors. get</code></li>
+<li><code>monitoring. monitoredResourceDescriptors. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.*</code></p>
+<p><code>monitoring. notificationChannelDescriptors.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.  get</code></li>
-<li><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.  list</code></li>
+<li><code>monitoring. notificationChannelDescriptors. get</code></li>
+<li><code>monitoring. notificationChannelDescriptors. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.  notificationChannels.  get</code></p>
-<p><code dir="ltr" translate="no">monitoring.  notificationChannels.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.services.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.services.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.slos.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.slos.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.snoozes.get</code></p>
-<p><code dir="ltr" translate="no">monitoring.snoozes.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  uptimeCheckConfigs.  get</code></p>
-<p><code dir="ltr" translate="no">monitoring.  uptimeCheckConfigs.  list</code></p>
-<p><code dir="ltr" translate="no">opsconfigmonitoring.  resourceMetadata.  list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">stackdriver.projects.get</code></p>
-<p><code dir="ltr" translate="no">stackdriver.  resourceMetadata.  list</code></p></td>
+<p><code>monitoring. notificationChannels. get</code></p>
+<p><code>monitoring. notificationChannels. list</code></p>
+<p><code>monitoring.services.get</code></p>
+<p><code>monitoring.services.list</code></p>
+<p><code>monitoring.slos.get</code></p>
+<p><code>monitoring.slos.list</code></p>
+<p><code>monitoring.snoozes.get</code></p>
+<p><code>monitoring.snoozes.list</code></p>
+<p><code>monitoring.timeSeries.list</code></p>
+<p><code>monitoring. uptimeCheckConfigs. get</code></p>
+<p><code>monitoring. uptimeCheckConfigs. list</code></p>
+<p><code>opsconfigmonitoring. resourceMetadata. list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>stackdriver.projects.get</code></p>
+<p><code>stackdriver. resourceMetadata. list</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## App Topology permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="apptopology.applicationTopologies.generate" class="permission-name add-link" data-text="apptopology.applicationTopologies.generate" tabindex="-1"><code dir="ltr" translate="no">apptopology.  applicationTopologies.  generate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="apptopology.devOpsDomainTopologies.generate" class="permission-name add-link" data-text="apptopology.devOpsDomainTopologies.generate" tabindex="-1"><code dir="ltr" translate="no">apptopology.  devOpsDomainTopologies.  generate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="apptopology.discoveredResourcesTopologies.generate" class="permission-name add-link" data-text="apptopology.discoveredResourcesTopologies.generate" tabindex="-1"><code dir="ltr" translate="no">apptopology.  discoveredResourcesTopologies.  generate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="apptopology.domains.get" class="permission-name add-link" data-text="apptopology.domains.get" tabindex="-1"><code dir="ltr" translate="no">apptopology.domains.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="apptopology.domains.list" class="permission-name add-link" data-text="apptopology.domains.list" tabindex="-1"><code dir="ltr" translate="no">apptopology.domains.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="apptopology.locations.get" class="permission-name add-link" data-text="apptopology.locations.get" tabindex="-1"><code dir="ltr" translate="no">apptopology.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="apptopology.locations.list" class="permission-name add-link" data-text="apptopology.locations.list" tabindex="-1"><code dir="ltr" translate="no">apptopology.locations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="apptopology.operations.get" class="permission-name add-link" data-text="apptopology.operations.get" tabindex="-1"><code dir="ltr" translate="no">apptopology.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="apptopology.operations.list" class="permission-name add-link" data-text="apptopology.operations.list" tabindex="-1"><code dir="ltr" translate="no">apptopology.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="apptopology.schemas.get" class="permission-name add-link" data-text="apptopology.schemas.get" tabindex="-1"><code dir="ltr" translate="no">apptopology.schemas.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="apptopology.securityDomainTopologies.generate" class="permission-name add-link" data-text="apptopology.securityDomainTopologies.generate" tabindex="-1"><code dir="ltr" translate="no">apptopology.  securityDomainTopologies.  generate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="apptopology.sreDomainTopologies.generate" class="permission-name add-link" data-text="apptopology.sreDomainTopologies.generate" tabindex="-1"><code dir="ltr" translate="no">apptopology.  sreDomainTopologies.  generate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="apptopology.topologyViews.get" class="permission-name add-link" data-text="apptopology.topologyViews.get" tabindex="-1"><code dir="ltr" translate="no">apptopology.topologyViews.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="apptopology.topologyViews.list" class="permission-name add-link" data-text="apptopology.topologyViews.list" tabindex="-1"><code dir="ltr" translate="no">apptopology.topologyViews.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                             | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `apptopology. applicationTopologies. generate`         | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `apptopology. devOpsDomainTopologies. generate`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `apptopology. discoveredResourcesTopologies. generate` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `apptopology.domains.get`                              | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `apptopology.domains.list`                             | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `apptopology.locations.get`                            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `apptopology.locations.list`                           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `apptopology.operations.get`                           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `apptopology.operations.list`                          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `apptopology.schemas.get`                              | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `apptopology. securityDomainTopologies. generate`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `apptopology. sreDomainTopologies. generate`           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `apptopology.topologyViews.get`                        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                          |
+| `apptopology.topologyViews.list`                       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [App Topology Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin) ( `roles/ apptopology.admin` ) [App Topology Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer) ( `roles/ apptopology.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Dev Ops](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps) ( `roles/ iam.devOps` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Site Reliability Engineer](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer) ( `roles/ iam.siteReliabilityEngineer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |

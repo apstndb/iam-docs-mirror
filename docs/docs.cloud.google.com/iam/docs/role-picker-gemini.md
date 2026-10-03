@@ -14,9 +14,9 @@ Gemini can suggest predefined roles for individual principals. If Gemini suggest
 
 You *can't* use the IAM role picker to get suggestions for the following things:
 
-  - Custom roles
-  - Roles for multiple principals (with a single prompt)
-  - Roles for Google Workspace products like Google Sheets and Google Docs
+- Custom roles
+- Roles for multiple principals (with a single prompt)
+- Roles for Google Workspace products like Google Sheets and Google Docs
 
 > **Note:** Gemini can't suggest custom roles through the IAM role picker, but you can still get custom role suggestions from Gemini by using the Policy Assist API ( [Preview](https://cloud.google.com/products#product-launch-stages) ) or the Gemini Cloud Assist chat panel. For instructions, see [Use Gemini Cloud Assist in the Google Cloud console](https://docs.cloud.google.com/cloud-assist/chat-panel) in the Gemini Cloud Assist documentation.
 
@@ -33,7 +33,7 @@ You can use the IAM role picker in the Google Cloud console without enabling any
 ### REST
 
 > **Preview**
-> 
+>
 > This product or feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA products and features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 To get role suggestions with the [Policy Assist REST API](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest/v1/projects.locations.global/recommendIamRoles) , you must enable the Policy Assist API on your project in the Google Cloud console:
@@ -42,8 +42,8 @@ To get role suggestions with the [Policy Assist REST API](https://docs.cloud.goo
 
 To get the permissions that you need to use the IAM role picker, ask your administrator to grant you the following IAM roles on project:
 
-  - Get role suggestions in the console: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` )
-  - Get custom role suggestions with the API: [IAM Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.viewer) ( `roles/iam.viewer` )
+- Get role suggestions in the console: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` )
+- Get custom role suggestions with the API: [IAM Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.viewer) ( `roles/iam.viewer` )
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -53,11 +53,11 @@ These predefined roles contain the permissions required to use the IAM role pick
 
 The following permissions are required to use the IAM role picker:
 
-  - Get role suggestions in the console:
-      - `resourcemanager.projects.get`
-      - `resourcemanager.projects.getIamPolicy`
-      - `resourcemanager.projects.setIamPolicy`
-  - Get custom role suggestions with the API: `iam.roles.list`
+- Get role suggestions in the console:
+  - `resourcemanager.projects.get`
+  - `resourcemanager.projects.getIamPolicy`
+  - `resourcemanager.projects.setIamPolicy`
+- Get custom role suggestions with the API: `iam.roles.list`
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -71,9 +71,9 @@ You can ask Gemini for role suggestions using the Google Cloud console or the Po
 
 To get role suggestions from Gemini in the Google Cloud console, you can access the IAM role picker on pages that let you grant access at the project level. For example, the IAM role picker is available on the following pages in the Google Cloud console:
 
-  - The **IAM** page
-  - The **Service Accounts** page
-  - The Google Cloud console **Dashboard** page
+- The **IAM** page
+- The **Service Accounts** page
+- The Google Cloud console **Dashboard** page
 
 The following procedure uses the **IAM** page as the primary entry point.
 
@@ -82,25 +82,25 @@ The following procedure uses the **IAM** page as the primary entry point.
 2.  Select a project.
 
 3.  Select a principal to get role suggestions for:
-    
-      - To get role suggestions for a principal who already has other roles on the resource, find a row containing the principal, and then click edit **Edit principal** in that row.
-        
-        To grant a role to a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
-        
-        > **Note:** You cannot edit inherited roles when managing access to a resource. To edit inherited roles, go to the resource where the role was granted.
-    
-      - To get role suggestions for a principal who doesn't have any existing roles on the resource, click person\_add **Grant Access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
+
+    - To get role suggestions for a principal who already has other roles on the resource, find a row containing the principal, and then click edit **Edit principal** in that row.
+
+      To grant a role to a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
+
+      > **Note:** You cannot edit inherited roles when managing access to a resource. To edit inherited roles, go to the resource where the role was granted.
+
+    - To get role suggestions for a principal who doesn't have any existing roles on the resource, click person_add **Grant Access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
 
 4.  To open the IAM role picker dialog, click **Help me choose roles** .
 
 5.  In your own words, describe the action you want the principal to perform and the resource in the project that they need to perform it on.
 
 6.  Click **Suggest roles** . Based on your input, Gemini suggests the predefined roles that it considers appropriate.
-    
+
     To get more information about the roles and why Gemini suggested them, click **Show reasoning** . We also recommend using the [roles and permissions reference](https://docs.cloud.google.com/iam/docs/roles-permissions) to validate Gemini's suggested roles before granting them to the principal.
 
 7.  Optional: If Gemini doesn't suggest the right roles, you can refine your prompt.
-    
+
     1.  To modify your prompt, click **Edit** .
     2.  Edit the description and then click **Update** . Gemini updates its role suggestions based on the new description.
 
@@ -117,27 +117,31 @@ If you don't have the permissions to grant the roles at the organization, folder
 ### REST
 
 > **Preview**
-> 
+>
 > This product or feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA products and features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 To get role suggestions with the Policy Assist REST API, call the [`recommendIamRoles`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest/v1/projects.locations.global/recommendIamRoles) method.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric, like `my-project` .
-  - `  USER_INSTRUCTIONS  ` : The natural language prompt that describes the permissions you need. For example, "Suggest a role that lets me view storage buckets."
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric, like `my-project` .
+- `USER_INSTRUCTIONS` : The natural language prompt that describes the permissions you need. For example, "Suggest a role that lets me view storage buckets."
 
 HTTP method and URL:
 
-    POST https://policyassist.googleapis.com/v1/projects/PROJECT_ID/locations/global:recommendIamRoles
+```
+POST https://policyassist.googleapis.com/v1/projects/PROJECT_ID/locations/global:recommendIamRoles
+```
 
 Request JSON body:
 
-    {
-      "prompt": {
-        "userInstructions": "USER_INSTRUCTIONS"
-      }
-    }
+```
+{
+  "prompt": {
+    "userInstructions": "USER_INSTRUCTIONS"
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -147,11 +151,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://policyassist.googleapis.com/v1/projects/PROJECT_ID/locations/global:recommendIamRoles"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://policyassist.googleapis.com/v1/projects/PROJECT_ID/locations/global:recommendIamRoles"
+```
 
 #### PowerShell (Windows)
 
@@ -159,45 +165,49 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://policyassist.googleapis.com/v1/projects/PROJECT_ID/locations/global:recommendIamRoles" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://policyassist.googleapis.com/v1/projects/PROJECT_ID/locations/global:recommendIamRoles" | Select-Object -Expand Content
+```
 
 You should receive a JSON response similar to the following:
 
+```
+{
+  "summary": "",
+  "recommendations": [
     {
-      "summary": "",
-      "recommendations": [
+      "type": "RECOMMENDATION_TYPE_PREDEFINED_ROLES",
+      "roles": [
         {
-          "type": "RECOMMENDATION_TYPE_PREDEFINED_ROLES",
-          "roles": [
-            {
-              "name": "roles/storage.objectViewer",
-              "roleType": "ROLE_TYPE_PREDEFINED",
-              "grantableScopes": [
-                "Projects",
-                "Buckets"
-              ]
-            },
-            {
-              "name": "roles/storage.legacyBucketReader",
-              "roleType": "ROLE_TYPE_PREDEFINED",
-              "grantableScopes": [
-                "Projects"
-              ]
-            }
-          ],
-          "intro": "The following roles match your description:"
-          "detailedReasoning": "The roles/storage.objectViewer role grants permissions to view objects and their metadata. The roles/storage.legacyBucketReader grants broader read access to buckets and objects. Choose the one that best fits the principle of least privilege for your use case."
+          "name": "roles/storage.objectViewer",
+          "roleType": "ROLE_TYPE_PREDEFINED",
+          "grantableScopes": [
+            "Projects",
+            "Buckets"
+          ]
+        },
+        {
+          "name": "roles/storage.legacyBucketReader",
+          "roleType": "ROLE_TYPE_PREDEFINED",
+          "grantableScopes": [
+            "Projects"
+          ]
         }
-      ]
+      ],
+      "intro": "The following roles match your description:"
+      "detailedReasoning": "The roles/storage.objectViewer role grants permissions to view objects and their metadata. The roles/storage.legacyBucketReader grants broader read access to buckets and objects. Choose the one that best fits the principle of least privilege for your use case."
     }
+  ]
+}
+```
 
 To learn how to grant the suggested roles to the principal at the appropriate level, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) . If you don't have the permissions to grant the roles, contact your administrator.
 
@@ -247,11 +257,11 @@ If you want Gemini to suggest the most granular, least privileged roles, you mus
 <tr class="odd">
 <td>Identifying roles necessary to run Google Cloud CLI commands</td>
 <td><ul>
-<li>"What IAM role is required to run: <code dir="ltr" translate="no">gcloud compute instances create instance-1</code> ?"</li>
+<li>"What IAM role is required to run: <code>gcloud compute instances create instance-1</code> ?"</li>
 </ul>
 <p>Prompt that yields least privileged role suggestions:</p>
 <ul>
-<li>"What is the <em>smallest role</em> a service account needs to execute: <code dir="ltr" translate="no">gcloud datastore instances describe</code> ?"</li>
+<li>"What is the <em>smallest role</em> a service account needs to execute: <code>gcloud datastore instances describe</code> ?"</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -281,37 +291,35 @@ If you want Gemini to suggest the most granular, least privileged roles, you mus
 
 To help Gemini provide the most accurate suggestions for your use case, we recommend that you adhere to the following best practices when drafting your prompt.
 
-  - **Clearly describe your use case.** Avoid using vague language in your prompts. Be as clear as possible about what actions you want the principal to perform on which services and resource types. If you want Gemini to suggest the least privileged roles, be sure to create your prompt with [specific keywords](https://docs.cloud.google.com/iam/docs/role-picker-gemini#keywords) that describe your intent to adhere to the principle of least privilege.
-    
-    | Do                                                                                            | Don't                                              | Details                                                                                                                                                                                                                                                                                                                                                                |
-    | --------------------------------------------------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | "What role is required to execute SQL queries on a BigQuery table and read the data from it?" | "What role is required to execute SQL statements?" | SQL is a generic language used across multiple Google Cloud services. Without specifying the service or actions, Gemini can't suggest a precise role.                                                                                                                                                                                                                  |
-    | "I need roles to start, stop, and reboot Compute Engine virtual machine instances."           | "I need to manage my virtual machines."            | The term *manage* is too vague. Manage could mean creating, deleting, updating, or viewing VMs. Clearly listing the specific actions to be performed (start, stop, reboot) and the exact resource type (Compute Engine virtual machine instances) yields more accurate suggestions.                                                                                    |
-    | "I need to upload and download objects from a Cloud Storage bucket named `example-bucket` ."  | "Give me access to storage."                       | The term *Storage* alone could refer to various services like Cloud Storage, Filestore, or Persistent Disk. In addition, there are no actions specified. Without specifying the service (Cloud Storage), the resource type name ( `example-bucket` ), or the actions (upload and download objects), Gemini doesn't have enough information to suggest the right roles. |
-    | "I need the least permissive role that provides list-only access to Secret Manager."          | "I need limited access to manage my secrets."      | The phrase *limited access* doesn't clearly define the required restrictions. *Manage my secrets* covers a broad range of actions (create, list, update, delete, access versions). Without using explicit keywords like *least privilege* , Gemini defaults to suggesting more general service-specific Admin, Editor, or Viewer roles.                                |
-    
+- **Clearly describe your use case.** Avoid using vague language in your prompts. Be as clear as possible about what actions you want the principal to perform on which services and resource types. If you want Gemini to suggest the least privileged roles, be sure to create your prompt with [specific keywords](https://docs.cloud.google.com/iam/docs/role-picker-gemini#keywords) that describe your intent to adhere to the principle of least privilege.
 
-  - **Use official names.** Use the official names of Google Cloud services, resource types, and API operations in your prompt. If you are unsure about the official names of services, resource types, or API operations, we recommend consulting the official product documentation.
-    
-    | Do                                                                      | Don't                                                             | Details                                                                                                                                                                                                                      |
-    | ----------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | "What role do I need to update BigQuery datasets?"                      | "What role do I need to update Big query datasets?                | *BigQuery* is the official name of the product—not *Big query* .                                                                                                                                                             |
-    | "What role is required to create a Cloud Storage bucket in my project?" | "What role is required to create a Storage bucket in my project?" | *Storage bucket* could refer to different resource types from services like Cloud Storage, Filestore, or Persistent Disk. Specifying the product name and the associated resource type will yield more accurate suggestions. |
-    
+  | Do                                                                                            | Don't                                              | Details                                                                                                                                                                                                                                                                                                                                                                |
+  |-----------------------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | "What role is required to execute SQL queries on a BigQuery table and read the data from it?" | "What role is required to execute SQL statements?" | SQL is a generic language used across multiple Google Cloud services. Without specifying the service or actions, Gemini can't suggest a precise role.                                                                                                                                                                                                                  |
+  | "I need roles to start, stop, and reboot Compute Engine virtual machine instances."           | "I need to manage my virtual machines."            | The term *manage* is too vague. Manage could mean creating, deleting, updating, or viewing VMs. Clearly listing the specific actions to be performed (start, stop, reboot) and the exact resource type (Compute Engine virtual machine instances) yields more accurate suggestions.                                                                                    |
+  | "I need to upload and download objects from a Cloud Storage bucket named `example-bucket` ."  | "Give me access to storage."                       | The term *Storage* alone could refer to various services like Cloud Storage, Filestore, or Persistent Disk. In addition, there are no actions specified. Without specifying the service (Cloud Storage), the resource type name ( `example-bucket` ), or the actions (upload and download objects), Gemini doesn't have enough information to suggest the right roles. |
+  | "I need the least permissive role that provides list-only access to Secret Manager."          | "I need limited access to manage my secrets."      | The phrase *limited access* doesn't clearly define the required restrictions. *Manage my secrets* covers a broad range of actions (create, list, update, delete, access versions). Without using explicit keywords like *least privilege* , Gemini defaults to suggesting more general service-specific Admin, Editor, or Viewer roles.                                |
+
+- **Use official names.** Use the official names of Google Cloud services, resource types, and API operations in your prompt. If you are unsure about the official names of services, resource types, or API operations, we recommend consulting the official product documentation.
+
+  | Do                                                                      | Don't                                                             | Details                                                                                                                                                                                                                      |
+  |-------------------------------------------------------------------------|-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | "What role do I need to update BigQuery datasets?"                      | "What role do I need to update Big query datasets?                | *BigQuery* is the official name of the product—not *Big query* .                                                                                                                                                             |
+  | "What role is required to create a Cloud Storage bucket in my project?" | "What role is required to create a Storage bucket in my project?" | *Storage bucket* could refer to different resource types from services like Cloud Storage, Filestore, or Persistent Disk. Specifying the product name and the associated resource type will yield more accurate suggestions. |
 
 ### Keywords for least privileged roles
 
 If you need role suggestions from Gemini that adhere to the principle of least privilege, you must use specific keywords in your prompt. The following is a non-exhaustive list of keywords that you can use to request least privileged roles:
 
-  - *least permissive*
-  - *most secure*
-  - *smallest role*
-  - *least privileged*
-  - *minimum permissions*
-  - *strictly granular*
-  - *narrowest access*
-  - *only the absolute minimum*
-  - *only with the exact permissions*
+- *least permissive*
+- *most secure*
+- *smallest role*
+- *least privileged*
+- *minimum permissions*
+- *strictly granular*
+- *narrowest access*
+- *only the absolute minimum*
+- *only with the exact permissions*
 
 ## Troubleshooting
 
@@ -327,7 +335,7 @@ If you don't have the permissions to grant the roles at the organization, folder
 
 ## What's next
 
-  - Read [Gemini for Google Cloud overview](https://docs.cloud.google.com/gemini/docs/overview) .
-  - Learn [how Gemini for Google Cloud uses your data](https://docs.cloud.google.com/gemini/docs/discover/data-governance) .
-  - Learn how to manually [find the right predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
-  - [Use the Policy Assist remote MCP server](https://docs.cloud.google.com/policy-intelligence/docs/use-policy-assist-mcp) to give external agents access to the IAM role picker.
+- Read [Gemini for Google Cloud overview](https://docs.cloud.google.com/gemini/docs/overview) .
+- Learn [how Gemini for Google Cloud uses your data](https://docs.cloud.google.com/gemini/docs/discover/data-governance) .
+- Learn how to manually [find the right predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
+- [Use the Policy Assist remote MCP server](https://docs.cloud.google.com/policy-intelligence/docs/use-policy-assist-mcp) to give external agents access to the IAM role picker.

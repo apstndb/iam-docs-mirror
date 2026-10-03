@@ -25,15 +25,15 @@ Cloud Endpoints Portal offers the following service agent roles. Service agent r
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="endpointsportal.serviceAgent" class="role-title add-link" data-text="Endpoints Portal Service Agent" tabindex="-1">Endpoints Portal Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  endpointsportal.serviceAgent</code> )</p>
+<td>Endpoints Portal Service Agent
+<p>( <code>roles/ endpointsportal.serviceAgent</code> )</p>
 <p>Can access information about Endpoints services for consumer portal management, and can read Source Repositories for consumer portal custom content.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">servicemanagement.services.get</code></p>
-<p><code dir="ltr" translate="no">servicemanagement.  services.  list</code></p>
-<p><code dir="ltr" translate="no">source.repos.get</code></p></td>
+<td><p><code>servicemanagement.services.get</code></p>
+<p><code>servicemanagement. services. list</code></p>
+<p><code>source.repos.get</code></p></td>
 </tr>
 </tbody>
 </table>

@@ -23,133 +23,67 @@ This page lists the IAM roles and permissions for Confidential Computing. To sea
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="confidentialcomputing.admin" class="role-title add-link" data-text="Confidentialcomputing Admin" tabindex="-1">Confidentialcomputing Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  confidentialcomputing.admin</code> )</p>
+<td>Confidentialcomputing Admin
+<p>( <code>roles/ confidentialcomputing.admin</code> )</p>
 <p>Admin role for confidentialcomputing</p></td>
-<td><p><code dir="ltr" translate="no">confidentialcomputing.*</code></p>
+<td><p><code>confidentialcomputing.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">confidentialcomputing.  challenges.  create</code></li>
-<li><code dir="ltr" translate="no">confidentialcomputing.  challenges.  verify</code></li>
-<li><code dir="ltr" translate="no">confidentialcomputing.  challenges.  verifygke</code></li>
-<li><code dir="ltr" translate="no">confidentialcomputing.  locations.  get</code></li>
-<li><code dir="ltr" translate="no">confidentialcomputing.  locations.  list</code></li>
+<li><code>confidentialcomputing. challenges. create</code></li>
+<li><code>confidentialcomputing. challenges. verify</code></li>
+<li><code>confidentialcomputing. challenges. verifygke</code></li>
+<li><code>confidentialcomputing. locations. get</code></li>
+<li><code>confidentialcomputing. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="confidentialcomputing.viewer" class="role-title add-link" data-text="Confidentialcomputing Viewer" tabindex="-1">Confidentialcomputing Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  confidentialcomputing.viewer</code> )</p>
+<td>Confidentialcomputing Viewer
+<p>( <code>roles/ confidentialcomputing.viewer</code> )</p>
 <p>Viewer role for confidentialcomputing</p></td>
-<td><p><code dir="ltr" translate="no">confidentialcomputing.  locations.*</code></p>
+<td><p><code>confidentialcomputing. locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">confidentialcomputing.  locations.  get</code></li>
-<li><code dir="ltr" translate="no">confidentialcomputing.  locations.  list</code></li>
+<li><code>confidentialcomputing. locations. get</code></li>
+<li><code>confidentialcomputing. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="confidentialcomputing.gkeWorkloadUser" class="role-title add-link" data-text="Confidential GKE Workload User" tabindex="-1">Confidential GKE Workload User</h4>
-<p>( <code dir="ltr" translate="no">roles/  confidentialcomputing.gkeWorkloadUser</code> )</p>
+<td>Confidential GKE Workload User
+<p>( <code>roles/ confidentialcomputing.gkeWorkloadUser</code> )</p>
 <p>Grants the ability to generate a GKE attestation token and run a workload in a GKE cluster.</p></td>
-<td><p><code dir="ltr" translate="no">confidentialcomputing.  challenges.  create</code></p>
-<p><code dir="ltr" translate="no">confidentialcomputing.  challenges.  verifygke</code></p>
-<p><code dir="ltr" translate="no">confidentialcomputing.  locations.*</code></p>
+<td><p><code>confidentialcomputing. challenges. create</code></p>
+<p><code>confidentialcomputing. challenges. verifygke</code></p>
+<p><code>confidentialcomputing. locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">confidentialcomputing.  locations.  get</code></li>
-<li><code dir="ltr" translate="no">confidentialcomputing.  locations.  list</code></li>
+<li><code>confidentialcomputing. locations. get</code></li>
+<li><code>confidentialcomputing. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">logging.logEntries.create</code></p></td>
+<p><code>logging.logEntries.create</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="confidentialcomputing.workloadUser" class="role-title add-link" data-text="Confidential Space Workload User" tabindex="-1">Confidential Space Workload User</h4>
-<p>( <code dir="ltr" translate="no">roles/  confidentialcomputing.workloadUser</code> )</p>
+<td>Confidential Space Workload User
+<p>( <code>roles/ confidentialcomputing.workloadUser</code> )</p>
 <p>Grants the ability to generate an attestation token and run a workload in a VM. Intended for service accounts that run on Confidential Space VMs.</p></td>
-<td><p><code dir="ltr" translate="no">confidentialcomputing.  challenges.  create</code></p>
-<p><code dir="ltr" translate="no">confidentialcomputing.  challenges.  verify</code></p>
-<p><code dir="ltr" translate="no">confidentialcomputing.  locations.*</code></p>
+<td><p><code>confidentialcomputing. challenges. create</code></p>
+<p><code>confidentialcomputing. challenges. verify</code></p>
+<p><code>confidentialcomputing. locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">confidentialcomputing.  locations.  get</code></li>
-<li><code dir="ltr" translate="no">confidentialcomputing.  locations.  list</code></li>
+<li><code>confidentialcomputing. locations. get</code></li>
+<li><code>confidentialcomputing. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">logging.logEntries.create</code></p></td>
+<p><code>logging.logEntries.create</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Confidential Computing permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="confidentialcomputing.challenges.create" class="permission-name add-link" data-text="confidentialcomputing.challenges.create" tabindex="-1"><code dir="ltr" translate="no">confidentialcomputing.  challenges.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.admin">Confidentialcomputing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.gkeWorkloadUser">Confidential GKE Workload User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.gkeWorkloadUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.workloadUser">Confidential Space Workload User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.workloadUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="confidentialcomputing.challenges.verify" class="permission-name add-link" data-text="confidentialcomputing.challenges.verify" tabindex="-1"><code dir="ltr" translate="no">confidentialcomputing.  challenges.  verify</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.admin">Confidentialcomputing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.workloadUser">Confidential Space Workload User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.workloadUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="confidentialcomputing.challenges.verifygke" class="permission-name add-link" data-text="confidentialcomputing.challenges.verifygke" tabindex="-1"><code dir="ltr" translate="no">confidentialcomputing.  challenges.  verifygke</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.admin">Confidentialcomputing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.gkeWorkloadUser">Confidential GKE Workload User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.gkeWorkloadUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="confidentialcomputing.locations.get" class="permission-name add-link" data-text="confidentialcomputing.locations.get" tabindex="-1"><code dir="ltr" translate="no">confidentialcomputing.  locations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.admin">Confidentialcomputing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.viewer">Confidentialcomputing Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.gkeWorkloadUser">Confidential GKE Workload User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.gkeWorkloadUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.workloadUser">Confidential Space Workload User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.workloadUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="confidentialcomputing.locations.list" class="permission-name add-link" data-text="confidentialcomputing.locations.list" tabindex="-1"><code dir="ltr" translate="no">confidentialcomputing.  locations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.admin">Confidentialcomputing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.viewer">Confidentialcomputing Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.gkeWorkloadUser">Confidential GKE Workload User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.gkeWorkloadUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.workloadUser">Confidential Space Workload User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  confidentialcomputing.workloadUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                     | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `confidentialcomputing. challenges. create`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Confidentialcomputing Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.admin) ( `roles/ confidentialcomputing.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Confidential GKE Workload User](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.gkeWorkloadUser) ( `roles/ confidentialcomputing.gkeWorkloadUser` ) [Confidential Space Workload User](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.workloadUser) ( `roles/ confidentialcomputing.workloadUser` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| `confidentialcomputing. challenges. verify`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Confidentialcomputing Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.admin) ( `roles/ confidentialcomputing.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Confidential Space Workload User](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.workloadUser) ( `roles/ confidentialcomputing.workloadUser` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `confidentialcomputing. challenges. verifygke` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Confidentialcomputing Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.admin) ( `roles/ confidentialcomputing.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Confidential GKE Workload User](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.gkeWorkloadUser) ( `roles/ confidentialcomputing.gkeWorkloadUser` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| `confidentialcomputing. locations. get`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Confidentialcomputing Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.admin) ( `roles/ confidentialcomputing.admin` ) [Confidentialcomputing Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.viewer) ( `roles/ confidentialcomputing.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Confidential GKE Workload User](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.gkeWorkloadUser) ( `roles/ confidentialcomputing.gkeWorkloadUser` ) [Confidential Space Workload User](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.workloadUser) ( `roles/ confidentialcomputing.workloadUser` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `confidentialcomputing. locations. list`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Confidentialcomputing Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.admin) ( `roles/ confidentialcomputing.admin` ) [Confidentialcomputing Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.viewer) ( `roles/ confidentialcomputing.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Confidential GKE Workload User](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.gkeWorkloadUser) ( `roles/ confidentialcomputing.gkeWorkloadUser` ) [Confidential Space Workload User](https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing#confidentialcomputing.workloadUser) ( `roles/ confidentialcomputing.workloadUser` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |

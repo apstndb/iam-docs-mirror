@@ -20,47 +20,23 @@ To facilitate this the organization makes use of a [shared VPC](https://docs.clo
 
 The tables below explain the IAM roles that need to be granted to the security and admin team and the development team, as well as the resource level at which the roles are granted.
 
-Resource:
+|            |                                               |     |
+|------------|-----------------------------------------------|-----|
+| Resource:  | Organization                                  |     |
+| Roles:     | Shared VPC Admin Network Admin Security Admin |     |
+| Principal: | Security & network admin team                 |     |
 
-Organization
+|            |              |                                                                            |
+|------------|--------------|----------------------------------------------------------------------------|
+| Resource:  | Host Project | This role grants permission to use subnets that the shared VPC has shared. |
+| Role:      | Network user |                                                                            |
+| Principal: | Developers   |                                                                            |
 
-Roles:
-
-Shared VPC Admin  
-Network Admin  
-Security Admin
-
-Principal:
-
-Security & network admin team
-
-Resource:
-
-Host Project
-
-This role grants permission to use subnets that the shared VPC has shared.
-
-Role:
-
-Network user
-
-Principal:
-
-Developers
-
-Resource:
-
-Service project
-
-Note this role allows the permission to use External IP addresses. See the note below for guidance on how to prevent this action.
-
-Role:
-
-compute.instanceAdmin
-
-Principal:
-
-Developers
+|            |                       |                                                                                                                                   |
+|------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Resource:  | Service project       | Note this role allows the permission to use External IP addresses. See the note below for guidance on how to prevent this action. |
+| Role:      | compute.instanceAdmin |                                                                                                                                   |
+| Principal: | Developers            |                                                                                                                                   |
 
 > **Note:** If you need to prevent principals from associating external IP addresses with instances in a project, you can apply an [organization policy](https://docs.cloud.google.com/compute/docs/configure-ip-addresses#disableexternalip) . Organization administrators can override this policy when necessary.
 
@@ -68,41 +44,45 @@ For this scenario you need three separate allow policies: one for the organizati
 
 The first allow policy, which needs to be attached at the organization level, grants the network and security team the roles they need to administer shared VPC host projects. This includes the ability to associate service projects with the host project. It also grants the network and security team the ability to manage all network and security resources in all projects in the organization.
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "role": "roles/compute.xpnAdmin",
-          "members": [
-            "group:sec-net@example.com"
-          ]
-        },
-        {
-          "role":"roles/compute.networkAdmin",
-          "members": [
-            "group:sec-net@example.com"
-          ]
-        },
-        {
-          "role": "roles/compute.securityAdmin",
-          "members": [
-            "group:sec-net@example.com"
-          ]
-        }
+      "role": "roles/compute.xpnAdmin",
+      "members": [
+        "group:sec-net@example.com"
+      ]
+    },
+    {
+      "role":"roles/compute.networkAdmin",
+      "members": [
+        "group:sec-net@example.com"
+      ]
+    },
+    {
+      "role": "roles/compute.securityAdmin",
+      "members": [
+        "group:sec-net@example.com"
       ]
     }
+  ]
+}
+```
 
 The second allow policy needs to be associated with the host project and enables the developers in the organization the ability to use the shared networks in the shared VPC host project.
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "role": "roles/compute.networkUser",
-          "members": [
-            "group:developers@example.com"
-          ]
-        }
+      "role": "roles/compute.networkUser",
+      "members": [
+        "group:developers@example.com"
       ]
     }
+  ]
+}
+```
 
 The third allow policy needs to be associated with each service project. This enables the developers using the project to manage instances in the service project and the ability to use the shared subnets in the host project.
 
@@ -112,22 +92,24 @@ You could place all service projects in a folder and set this particular allow p
 
 You also need to grant the developers the Network User role in the service project.
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "role": "roles/compute.networkUser",
-          "members": [
-            "group:developers@example.com"
-          ]
-        },
-        {
-          "role": "roles/compute.instanceAdmin",
-          "members": [
-            "group:developers@example.com"
-          ]
-        }
+      "role": "roles/compute.networkUser",
+      "members": [
+        "group:developers@example.com"
+      ]
+    },
+    {
+      "role": "roles/compute.instanceAdmin",
+      "members": [
+        "group:developers@example.com"
       ]
     }
+  ]
+}
+```
 
 The best practice is to use groups to manage principals. In the example above, you would add the user IDs of the users who manage the security & network controls to the `sec-net` group, and developers into the `developers` group. When you need to modify who is able to carry out the function, you simply need to adjust the group membership, negating the need to update the allow policy.
 
@@ -139,59 +121,29 @@ As with the first scenario, a shared VPC will be used and the appropriate permis
 
 The tables below explain the IAM roles that need to be granted to the security and admin team and the development team, as well as the resource level at which the roles are granted.
 
-Resource:
+|            |                                |     |
+|------------|--------------------------------|-----|
+| Resource:  | Organization                   |     |
+| Roles:     | Shared VPC Admin Network Admin |     |
+| Principal: | Network Admin team             |     |
 
-Organization
+|            |                                   |     |
+|------------|-----------------------------------|-----|
+| Resource:  | Organization                      |     |
+| Roles:     | Security Admin Organization Admin |     |
+| Principal: | Security team                     |     |
 
-Roles:
+|            |              |                                                                            |
+|------------|--------------|----------------------------------------------------------------------------|
+| Resource:  | Host Project | This role grants permission to use subnets that the shared VPC has shared. |
+| Role:      | Network user |                                                                            |
+| Principal: | Developers   |                                                                            |
 
-Shared VPC Admin  
-Network Admin
-
-Principal:
-
-Network Admin team
-
-Resource:
-
-Organization
-
-Roles:
-
-Security Admin  
-Organization Admin
-
-Principal:
-
-Security team
-
-Resource:
-
-Host Project
-
-This role grants permission to use subnets that the shared VPC has shared.
-
-Role:
-
-Network user
-
-Principal:
-
-Developers
-
-Resource:
-
-Service project
-
-Note this role allows the permission to use External IP addresses. See the note below for guidance on how to prevent this action.
-
-Role:
-
-compute.instanceAdmin
-
-Principal:
-
-Developers
+|            |                       |                                                                                                                                   |
+|------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Resource:  | Service project       | Note this role allows the permission to use External IP addresses. See the note below for guidance on how to prevent this action. |
+| Role:      | compute.instanceAdmin |                                                                                                                                   |
+| Principal: | Developers            |                                                                                                                                   |
 
 > **Note:** If you need to prevent principals from associating external IP addresses with instances in a project, you can apply an [organization policy](https://docs.cloud.google.com/compute/docs/configure-ip-addresses#disableexternalip) . Organization administrators can override this policy when necessary.
 
@@ -199,47 +151,51 @@ For this scenario you need three separate allow policies: one for the organizati
 
 The first allow policy, which needs to be attached at the organization level, grants the network team the roles they need to administer shared VPC host projects and to manage all network resources. This includes the ability to associate service projects with the host project. The network admin role also grants the network team the ability to view but not modify firewall rules. It also grants the security team the ability to set allow policies and manage firewall rules and SSL certificates in all projects in the organization.
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "role": "roles/compute.xpnAdmin",
-          "members": [
-            "group:networks@example.com"
-          ]
-        },
-        {
-          "role": "roles/compute.networkAdmin",
-          "members": [
-            "group:networks@example.com"
-          ]
-        },
-        {
-          "role": "roles/compute.securityAdmin",
-          "members": [
-            "group:security@example.com"
-          ]
-        },
-        {
-          "role": "roles/resourcemanager.organizationAdmin",
-          "members": [
-            "group:security@example.com"
-          ]
-        }
+      "role": "roles/compute.xpnAdmin",
+      "members": [
+        "group:networks@example.com"
+      ]
+    },
+    {
+      "role": "roles/compute.networkAdmin",
+      "members": [
+        "group:networks@example.com"
+      ]
+    },
+    {
+      "role": "roles/compute.securityAdmin",
+      "members": [
+        "group:security@example.com"
+      ]
+    },
+    {
+      "role": "roles/resourcemanager.organizationAdmin",
+      "members": [
+        "group:security@example.com"
       ]
     }
+  ]
+}
+```
 
 The second allow policy needs to be associated with the host project. This allow policy enables the developers in the organization to use the shared networks in the shared VPC host project.
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "role": "roles/compute.networkUser",
-          "members": [
-            "group:developers@example.com"
-          ]
-        }
+      "role": "roles/compute.networkUser",
+      "members": [
+        "group:developers@example.com"
       ]
     }
+  ]
+}
+```
 
 The third allow policy needs to be associated with each service project. This enables the developers using the project to manage instances in the service project and the ability to use the shared subnets in the host project.
 
@@ -247,22 +203,24 @@ You could place all service projects in a folder and set this particular allow p
 
 > **Note:** You also need to grant the developers the network user role in the service project.
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "role": "roles/compute.networkUser",
-          "members": [
-            "group:developers@example.com"
-          ]
-        },
-        {
-          "role": "roles/compute.instanceAdmin",
-          "members": [
-            "group:developers@example.com"
-          ]
-        }
+      "role": "roles/compute.networkUser",
+      "members": [
+        "group:developers@example.com"
+      ]
+    },
+    {
+      "role": "roles/compute.instanceAdmin",
+      "members": [
+        "group:developers@example.com"
       ]
     }
+  ]
+}
+```
 
 ## Each team can manage its own network
 
@@ -276,94 +234,69 @@ Even though it will initially be the same team members who will be managing the 
 
 This approach facilitates limiting access to those resources that temporary staff need or maybe new staff that need training up before they can modify network resources. It also allows the ability to change who has access to what resources without having to modify the allow policy every time a personnel change occurs.
 
-Resource:
-
-Folder
-
-A service account can be used to create and own projects.
-
-Roles:
-
-Project creator  
-Folder Admin
-
-Principal:
-
-Dev Teamleads  
-Service account
+|            |                               |                                                           |
+|------------|-------------------------------|-----------------------------------------------------------|
+| Resource:  | Folder                        | A service account can be used to create and own projects. |
+| Roles:     | Project creator Folder Admin  |                                                           |
+| Principal: | Dev Teamleads Service account |                                                           |
 
 > **Note:** Refer to [IAM roles for billing-related job functions](https://docs.cloud.google.com/iam/docs/job-functions/billing) for the IAM settings to allow a service account or user to associate a project with a billing account.
 
-Resource:
+|            |                              |     |
+|------------|------------------------------|-----|
+| Resource:  | Folder                       |     |
+| Roles:     | Network Admin Security Admin |     |
+| Principal: | Network & security team      |     |
 
-Folder
-
-Roles:
-
-Network Admin
-
-Security Admin
-
-Principal:
-
-Network & security team
-
-Resource:
-
-Folder
-
-These roles allow the developers to manage all aspects of BigQuery and Compute engine.
-
-Roles:
-
-Instance Admin  
-BigQuery Admin
-
-Principal:
-
-Developers
+|            |                               |                                                                                        |
+|------------|-------------------------------|----------------------------------------------------------------------------------------|
+| Resource:  | Folder                        | These roles allow the developers to manage all aspects of BigQuery and Compute engine. |
+| Roles:     | Instance Admin BigQuery Admin |                                                                                        |
+| Principal: | Developers                    |                                                                                        |
 
 This requires an allow policy bound at each team's allocated folder.
 
+```
+{
+  "bindings": [
     {
-      "bindings": [
-        {
-          "role": "roles/resourcemanager.foldersAdmin",
-          "members": [
-            "group:devteamleads01@example.com",
-            "serviceAccount:dev01-project-creator@shared-resources-proj.iam.gserviceaccount.com"
-          ]
-        },
-        {
-          "role":"roles/resourcemanager.projectCreator",
-          "members": [
-            "group:devteamleads01@example.com",
-            "serviceAccount:dev01-project-creator@shared-resources-proj.iam.gserviceaccount.com"
-          ]
-        },
-        {
-          "role": "roles/compute.securityAdmin",
-          "members": [
-            "group:net-sec-dev01@example.com"
-          ]
-        },
-        {
-          "role": "roles/compute.networkAdmin",
-          "members": [
-            "group:net-sec-dev01@example.com"
-          ]
-        },
-        {
-          "role": "roles/compute.instanceAdmin",
-          "members": [
-            "group:dev01@example.com"
-          ]
-        },
-        {
-          "role": "roles/bigquery.admin",
-          "members": [
-            "group:dev01@example.com"
-          ]
-        }
+      "role": "roles/resourcemanager.foldersAdmin",
+      "members": [
+        "group:devteamleads01@example.com",
+        "serviceAccount:dev01-project-creator@shared-resources-proj.iam.gserviceaccount.com"
+      ]
+    },
+    {
+      "role":"roles/resourcemanager.projectCreator",
+      "members": [
+        "group:devteamleads01@example.com",
+        "serviceAccount:dev01-project-creator@shared-resources-proj.iam.gserviceaccount.com"
+      ]
+    },
+    {
+      "role": "roles/compute.securityAdmin",
+      "members": [
+        "group:net-sec-dev01@example.com"
+      ]
+    },
+    {
+      "role": "roles/compute.networkAdmin",
+      "members": [
+        "group:net-sec-dev01@example.com"
+      ]
+    },
+    {
+      "role": "roles/compute.instanceAdmin",
+      "members": [
+        "group:dev01@example.com"
+      ]
+    },
+    {
+      "role": "roles/bigquery.admin",
+      "members": [
+        "group:dev01@example.com"
       ]
     }
+  ]
+}
+```

@@ -12,7 +12,7 @@ gcloud iam workload-identity-pools providers keys delete - delete a workload ide
 
 SYNOPSIS
 
-`gcloud iam workload-identity-pools providers keys delete` ( `  KEY  ` : `  --location  ` = `  LOCATION  ` `  --provider  ` = `  PROVIDER  ` `  --workload-identity-pool  ` = `  WORKLOAD_IDENTITY_POOL  ` ) \[ `  --async  ` \] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam workload-identity-pools providers keys delete` ( [`KEY`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/keys/delete#KEY) : [`--location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/keys/delete#--location) = `LOCATION` [`--provider`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/keys/delete#--provider) = `PROVIDER` [`--workload-identity-pool`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/keys/delete#--workload-identity-pool) = `WORKLOAD_IDENTITY_POOL` ) \[ [`--async`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/keys/delete#--async) \] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/keys/delete#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -20,9 +20,11 @@ Delete a workload identity pool provider key.
 
 EXAMPLES
 
-The following command deletes a workload identity pool provider key in the default project with the ID `  my-key  ` .
+The following command deletes a workload identity pool provider key in the default project with the ID `my-key` .
 
-    gcloud iam workload-identity-pools providers keys delete my-key --location="global" --workload-identity-pool="my-workload-identity-pool" --provider="my-provider"
+```
+gcloud iam workload-identity-pools providers keys delete my-key --location="global" --workload-identity-pool="my-workload-identity-pool" --provider="my-provider"
+```
 
 POSITIONAL ARGUMENTS
 
@@ -30,51 +32,51 @@ Workload identity pool provider key resource - The workload identity pool provid
 
 To set the `project` attribute:
 
-  - provide the argument `key` on the command line with a fully specified name;
-  - provide the argument `--project` on the command line;
-  - set the property `core/project` .
+- provide the argument `key` on the command line with a fully specified name;
+- provide the argument `--project` on the command line;
+- set the property `core/project` .
 
 This must be specified.
 
-  - `  KEY  `  
-    ID of the workload identity pool provider key or fully qualified identifier for the workload identity pool provider key.
-    
-    To set the `key` attribute:
-    
-      - provide the argument `key` on the command line.
-    
-    This positional argument must be specified if any of the other arguments in this group are specified.
+`KEY`  
+ID of the workload identity pool provider key or fully qualified identifier for the workload identity pool provider key.
 
-  - `--location` = `  LOCATION  `  
-    The location name.
-    
-    To set the `location` attribute:
-    
-      - provide the argument `key` on the command line with a fully specified name;
-      - provide the argument `--location` on the command line.
+To set the `key` attribute:
 
-  - `--provider` = `  PROVIDER  `  
-    The ID for the provider, which becomes the final component of the resource name. This value must be 4-32 characters, and may contain the characters \[a-z0-9-\]. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `provider` attribute:
-    
-      - provide the argument `key` on the command line with a fully specified name;
-      - provide the argument `--provider` on the command line.
+- provide the argument `key` on the command line.
 
-  - `--workload-identity-pool` = `  WORKLOAD_IDENTITY_POOL  `  
-    The ID to use for the pool, which becomes the final component of the resource name. This value should be 4-32 characters, and may contain the characters \[a-z0-9-\]. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `workload-identity-pool` attribute:
-    
-      - provide the argument `key` on the command line with a fully specified name;
-      - provide the argument `--workload-identity-pool` on the command line.
+This positional argument must be specified if any of the other arguments in this group are specified.
+
+`--location` = `LOCATION`  
+The location name.
+
+To set the `location` attribute:
+
+- provide the argument `key` on the command line with a fully specified name;
+- provide the argument `--location` on the command line.
+
+`--provider` = `PROVIDER`  
+The ID for the provider, which becomes the final component of the resource name. This value must be 4-32 characters, and may contain the characters \[a-z0-9-\]. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `provider` attribute:
+
+- provide the argument `key` on the command line with a fully specified name;
+- provide the argument `--provider` on the command line.
+
+`--workload-identity-pool` = `WORKLOAD_IDENTITY_POOL`  
+The ID to use for the pool, which becomes the final component of the resource name. This value should be 4-32 characters, and may contain the characters \[a-z0-9-\]. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `workload-identity-pool` attribute:
+
+- provide the argument `key` on the command line with a fully specified name;
+- provide the argument `--workload-identity-pool` on the command line.
 
 FLAGS
 
-  - `--async`  
-    Return immediately, without waiting for the operation in progress to complete.
+`--async`  
+Return immediately, without waiting for the operation in progress to complete.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 API REFERENCE
 

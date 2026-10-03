@@ -24,8 +24,8 @@ Principal Access Boundary policies only block access attempts that involve suppo
 
 Principal Access Boundary policies are useful in circumstances like the following:
 
-  - Preventing principals from accessing resources that you don't own
-  - Keeping certain principal types, like service accounts, limited to certain projects
+- Preventing principals from accessing resources that you don't own
+- Keeping certain principal types, like service accounts, limited to certain projects
 
 For detailed examples of how you can use Principal Access Boundary policies in situations like these, see [Example use cases for Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-use-cases) .
 
@@ -75,9 +75,9 @@ The following sections describe how to customize the set of resources that a pri
 
 There are several ways to make a principal eligible to access a resource that they're ineligible to access:
 
-  - [Add the resource](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit#edit-policy) to a Principal Access Boundary policy that the principal is subject to.
-  - [Create a new Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create) with the additional resource and bind the policy to a principal set that includes the principal.
-  - [Remove or delete all Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#increase-eligibility) that the principal is subject to. This action makes the principal eligible to access all Google Cloud resources.
+- [Add the resource](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit#edit-policy) to a Principal Access Boundary policy that the principal is subject to.
+- [Create a new Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create) with the additional resource and bind the policy to a principal set that includes the principal.
+- [Remove or delete all Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#increase-eligibility) that the principal is subject to. This action makes the principal eligible to access all Google Cloud resources.
 
 ### Remove eligible resources
 
@@ -85,13 +85,13 @@ There are several ways to make a principal ineligible to access a resource that 
 
 First, [find all of the Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#search-target-bindings) that the principal is subject to that include the resource. Based on the policies that you find, you can then do one of the following:
 
-  - If the principal isn't subject to any Principal Access Boundary policies, then [create a new Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create) that includes only the resources that you want the principal to be eligible to access. Then, bind that policy to a principal set that contains the principal.
-    
-    After you apply the policy, the principal goes from being eligible to access all resources to only being eligible to access the resources listed in the policy.
+- If the principal isn't subject to any Principal Access Boundary policies, then [create a new Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create) that includes only the resources that you want the principal to be eligible to access. Then, bind that policy to a principal set that contains the principal.
 
-  - If the principal is already subject to one or more Principal Access Boundary policies, then you must ensure that none of the Principal Access Boundary policies that they're subject to include the resource. For step-by-step instructions, see [Reduce the resources that principals are eligible to access](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#reduce-eligibility) .
-    
-    During this process, you must ensure that the principal is always subject to at least one Principal Access Boundary policy. Otherwise, the principal might become eligible to access all resources.
+  After you apply the policy, the principal goes from being eligible to access all resources to only being eligible to access the resources listed in the policy.
+
+- If the principal is already subject to one or more Principal Access Boundary policies, then you must ensure that none of the Principal Access Boundary policies that they're subject to include the resource. For step-by-step instructions, see [Reduce the resources that principals are eligible to access](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#reduce-eligibility) .
+
+  During this process, you must ensure that the principal is always subject to at least one Principal Access Boundary policy. Otherwise, the principal might become eligible to access all resources.
 
 ### Principal Access Boundary policies and cached resources
 
@@ -99,12 +99,10 @@ Certain Google Cloud services cache publicly visible resources. For example, Clo
 
 Whether a Principal Access Boundary policy can prevent ineligible principals from viewing a publicly visible resource depends on whether the resource is cached:
 
-  - If the resource is cached, then Principal Access Boundary policies can't prevent principals from viewing the resource
-  - If the resource isn't cached, then Principal Access Boundary prevents ineligible principals from viewing the resource
+- If the resource is cached, then Principal Access Boundary policies can't prevent principals from viewing the resource
+- If the resource isn't cached, then Principal Access Boundary prevents ineligible principals from viewing the resource
 
 In all cases, Principal Access Boundary policies still prevent ineligible principals from modifying or deleting publicly visible resources.
-
-<span id="interactions"></span>
 
 ## Principal Access Boundary policy evaluation
 
@@ -114,13 +112,11 @@ Principal Access Boundary policies can only block or not block access—they can
 
 IAM *doesn't block* access if any of the following are true:
 
-  - The principal isn't subject to any Principal Access Boundary policies
-  - The relevant Principal Access Boundary policies [can't block](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) the permission in the request
-  - A Principal Access Boundary policy makes the principal eligible to access the resource
+- The principal isn't subject to any Principal Access Boundary policies
+- The relevant Principal Access Boundary policies [can't block](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) the permission in the request
+- A Principal Access Boundary policy makes the principal eligible to access the resource
 
 IAM *does* block access if the principal is subject to at least one Principal Access Boundary policy, but none of the relevant policies make the principal eligible to access the resource.
-
-<span id="fail-open"></span>
 
 ### Fail-closed evaluation
 
@@ -144,10 +140,10 @@ To learn how to manage Principal Access Boundary policies, see [Create and apply
 
 The following table lists the types of principal sets that you can bind Principal Access Boundary policies to. Each row contains the following:
 
-  - The type of principal set
-  - The principals in that type of principal set
-  - The format of IDs for that type of principal set
-  - The Resource Manager resource (project, folder, or organization) that parents policy bindings for that type of principal set
+- The type of principal set
+- The principals in that type of principal set
+- The format of IDs for that type of principal set
+- The Resource Manager resource (project, folder, or organization) that parents policy bindings for that type of principal set
 
 <table>
 <colgroup>
@@ -166,23 +162,23 @@ The following table lists the types of principal sets that you can bind Principa
 <tr class="odd">
 <td>Workforce identity pool</td>
 <td><p>Contains all identities in the specified <a href="https://docs.cloud.google.com/iam/docs/workforce-identity-federation#workforce-identity-pools">workforce identity pool</a> .</p>
-<p>Format: <code dir="ltr" translate="no">//iam.googleapis.com/locations/global/  workforcePools/           WORKFORCE_POOL_ID        </code></p></td>
+<p>Format: <code>//iam.googleapis.com/locations/global/ workforcePools/ </code><var translate="no"> WORKFORCE_POOL_ID</var></p></td>
 <td>The organization that contains the workforce identity pool</td>
 </tr>
 <tr class="even">
 <td>Workload identity pool</td>
 <td><p>Contains all identities in the specified <a href="https://docs.cloud.google.com/iam/docs/workload-identity-federation#pools">workload identity pool</a> .</p>
-<p>Format: <code dir="ltr" translate="no">//iam.googleapis.com/projects/           PROJECT_NUMBER         /  locations/  global/  workloadIdentityPools/           WORKLOAD_POOL_ID        </code></p></td>
+<p>Format: <code>//iam.googleapis.com/projects/ </code><var translate="no"> PROJECT_NUMBER </var><code> / locations/ global/ workloadIdentityPools/ </code><var translate="no"> WORKLOAD_POOL_ID</var></p></td>
 <td>The project that contains the workload identity pool</td>
 </tr>
 <tr class="odd">
 <td>Google Workspace domain</td>
 <td><p>Contains all identities in the specified <a href="https://docs.cloud.google.com/iam/docs/principals-overview#domains">Google Workspace domain</a> .</p>
-<p>Format: <code dir="ltr" translate="no">//iam.googleapis.com/locations/  global/  workspace/           CUSTOMER_ID        </code></p>
+<p>Format: <code>//iam.googleapis.com/locations/ global/ workspace/ </code><var translate="no"> CUSTOMER_ID</var></p>
 <p>You can find your customer ID by using the following methods:</p>
 <ul>
-<li>Use the <a href="https://docs.cloud.google.com/sdk/gcloud/reference/organizations/describe"><code dir="ltr" translate="no">gcloud organizations describe</code> command</a> . Your workspace ID is in the <code dir="ltr" translate="no">directoryCustomerId</code> field in the response.</li>
-<li>Use the <a href="https://docs.cloud.google.com/resource-manager/reference/rest/v3/organizations/get"><code dir="ltr" translate="no">organizations.get</code> method</a> in the Cloud Resource Manager API. You workspace ID is in the <code dir="ltr" translate="no">directoryCustomerId</code> field in the response.</li>
+<li>Use the <a href="https://docs.cloud.google.com/sdk/gcloud/reference/organizations/describe"><code>gcloud organizations describe</code> command</a> . Your workspace ID is in the <code>directoryCustomerId</code> field in the response.</li>
+<li>Use the <a href="https://docs.cloud.google.com/resource-manager/reference/rest/v3/organizations/get"><code>organizations.get</code> method</a> in the Cloud Resource Manager API. You workspace ID is in the <code>directoryCustomerId</code> field in the response.</li>
 <li><a href="https://support.google.com/cloudidentity/answer/10070793">View your customer ID in the Admin console</a> . This method requires <a href="https://support.google.com/a/answer/2405986">the Google Workspace super admin role</a> .</li>
 </ul></td>
 <td>The organization that's associated with the Google Workspace domain</td>
@@ -190,13 +186,13 @@ The following table lists the types of principal sets that you can bind Principa
 <tr class="even">
 <td>Project's principal set</td>
 <td><p>Contains all service accounts, workload identity pools, and agent identities in the specified project.</p>
-<p>Format: <code dir="ltr" translate="no">//cloudresourcemanager.googleapis.com/  projects/           PROJECT_ID        </code></p></td>
+<p>Format: <code>//cloudresourcemanager.googleapis.com/ projects/ </code><var translate="no"> PROJECT_ID</var></p></td>
 <td>The project</td>
 </tr>
 <tr class="odd">
 <td>Folder's principal set</td>
 <td><p>Contains all service accounts, all workload identity pools, and all agent identities in any project in the specified folder.</p>
-<p>Format: <code dir="ltr" translate="no">//cloudresourcemanager.googleapis.com/  folders/           FOLDER_ID        </code></p></td>
+<p>Format: <code>//cloudresourcemanager.googleapis.com/ folders/ </code><var translate="no"> FOLDER_ID</var></p></td>
 <td>The folder</td>
 </tr>
 <tr class="even">
@@ -207,7 +203,7 @@ The following table lists the types of principal sets that you can bind Principa
 <li>All workforce identity pools in your organization</li>
 <li>All service accounts, workload identity pools, and agent identities in any project in the organization</li>
 </ul>
-<p>Format: <code dir="ltr" translate="no">//cloudresourcemanager.googleapis.com/  organizations/           ORGANIZATION_ID        </code></p></td>
+<p>Format: <code>//cloudresourcemanager.googleapis.com/ organizations/ </code><var translate="no"> ORGANIZATION_ID</var></p></td>
 <td>The organization</td>
 </tr>
 <tr class="odd">
@@ -215,8 +211,8 @@ The following table lists the types of principal sets that you can bind Principa
 <td><p>All agent identities in the specified project's trust domain. By default, a project's trust domain contains all <a href="https://docs.cloud.google.com/iam/docs/principals-overview#agent-identity">agent identities</a> in the project.</p>
 <p>Formats:</p>
 <ul>
-<li><code dir="ltr" translate="no">//agents.global.org-           ORGANIZATION_ID          .system.id.goog/  attribute.container/  projects/            PROJECT_NUMBER         </code></li>
-<li><code dir="ltr" translate="no">//agents.global.proj-           PROJECT_NUMBER          .system.id.goog/  attribute.container/  projects/            PROJECT_NUMBER         </code></li>
+<li><code>//agents.global.org- </code><var translate="no"> ORGANIZATION_ID </var><code> .system.id.goog/ attribute.container/ projects/ </code><var translate="no"> PROJECT_NUMBER</var></li>
+<li><code>//agents.global.proj- </code><var translate="no"> PROJECT_NUMBER </var><code> .system.id.goog/ attribute.container/ projects/ </code><var translate="no"> PROJECT_NUMBER</var></li>
 </ul></td>
 <td>The project</td>
 </tr>
@@ -235,15 +231,15 @@ For example, consider an organization, `example.com` . This organization is asso
 
 ![Resource hierarchy for example.com](https://docs.cloud.google.com/static/iam/img/pab-sample-resource-hierarchy.svg)
 
-  - An organization, `example.com`
-  - A project, `project-1` , that's a child of the organization
-  - A folder, `folder-a` , that's a child of the organization
-  - Two projects, `project-2` and `project-3` , that are children of `folder-a`
+- An organization, `example.com`
+- A project, `project-1` , that's a child of the organization
+- A folder, `folder-a` , that's a child of the organization
+- Two projects, `project-2` and `project-3` , that are children of `folder-a`
 
 These resources' principal sets contain the following identities:
 
 | Principal set                   | Google Workspace identities in the `example.com` domain | Workforce identity federation pools in `example.com` | Service accounts, workload identity pools, and agent identities in `project-1` | Service accounts, workload identity pools, and agent identities in `project-2` | Service accounts, workload identity pools, and agent identities in `project-3` |
-| ------------------------------- | :-----------------------------------------------------: | :--------------------------------------------------: | :----------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :----------------------------------------------------------------------------: |
+|---------------------------------|---------------------------------------------------------|------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | Principal set for `example.com` |                                                         |                                                      |                                                                                |                                                                                |                                                                                |
 | Principal set for `folder-a`    |                                                         |                                                      |                                                                                |                                                                                |                                                                                |
 | Principal set for `project-1`   |                                                         |                                                      |                                                                                |                                                                                |                                                                                |
@@ -252,11 +248,11 @@ These resources' principal sets contain the following identities:
 
 As a result, the following principals are affected by the following Principal Access Boundary policies:
 
-  - A Google Workspace identity in the `example.com` domain is in the principal set for `example.com` and will be affected by Principal Access Boundary policies bound to that principal set.
+- A Google Workspace identity in the `example.com` domain is in the principal set for `example.com` and will be affected by Principal Access Boundary policies bound to that principal set.
 
-  - A service account in `project-1` is in the principal sets for `project-1` and `example.com` and will be affected by Principal Access Boundary policies bound to either of those principal sets.
+- A service account in `project-1` is in the principal sets for `project-1` and `example.com` and will be affected by Principal Access Boundary policies bound to either of those principal sets.
 
-  - An agent identity in `project-3` is in the principal sets for `project-3` , `folder-a` , and `example.com` , and will be affected by Principal Access Boundary policies bound to any of those principal sets.
+- An agent identity in `project-3` is in the principal sets for `project-3` , `folder-a` , and `example.com` , and will be affected by Principal Access Boundary policies bound to any of those principal sets.
 
 ### Conditional policy bindings for Principal Access Boundary policies
 
@@ -266,17 +262,21 @@ Condition expressions for policy bindings consist of one or more statements join
 
 You can use the `principal.type` and `principal.subject` attributes in conditions for policy bindings. No other attributes are supported.
 
-  - The `principal.type` attribute refers to the type of the principal that made the request—for example, a service account or an agent identity. You can use conditions with this attribute to control which types of principals a Principal Access Boundary policy applies to.
-    
-    For example, if you add the following condition expression to a binding for a Principal Access Boundary policy, then the policy only applies to service accounts:
-    
-        principal.type == 'iam.googleapis.com/ServiceAccount'
+- The `principal.type` attribute refers to the type of the principal that made the request—for example, a service account or an agent identity. You can use conditions with this attribute to control which types of principals a Principal Access Boundary policy applies to.
 
-  - The `principal.subject` attribute refers to the identity of the principal that made the request—for example, `cruz@example.com` . You can use conditions with this attribute to control exactly which principals are subject to a Principal Access Boundary policy.
-    
-    For example, if you add the following condition expression to a binding for a Principal Access Boundary policy, then the policy won't apply for the user `special-admin@example.com` :
-    
-        principal.subject != 'special-admin@example.com'
+  For example, if you add the following condition expression to a binding for a Principal Access Boundary policy, then the policy only applies to service accounts:
+
+  ```
+  principal.type == 'iam.googleapis.com/ServiceAccount'
+  ```
+
+- The `principal.subject` attribute refers to the identity of the principal that made the request—for example, `cruz@example.com` . You can use conditions with this attribute to control exactly which principals are subject to a Principal Access Boundary policy.
+
+  For example, if you add the following condition expression to a binding for a Principal Access Boundary policy, then the policy won't apply for the user `special-admin@example.com` :
+
+  ```
+  principal.subject != 'special-admin@example.com'
+  ```
 
 To learn more about the values that you can use for these conditions, see the [conditions attribute reference](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#principals) .
 
@@ -288,9 +288,9 @@ You can't create a *cross-organization policy binding* for a Principal Access Bo
 
 IAM periodically deletes any existing cross-organization policy bindings. Cross-organization policy bindings can occur when you [move a project](https://docs.cloud.google.com/resource-manager/docs/project-migration) from one organization to another. For example, consider the following situation:
 
-  - You have a project, `example-project` , in the organization `example.com` .
-  - You want principals in `example-project` to be eligible to access resources in `example.com` . To do this, you create a Principal Access Boundary policy in `example.com` that makes principals eligible to access resources in `example.com` and bind that policy to the principal set for `example-project` .
-  - You move `example-project` from `example.com` to `cymbalgroup.com` .
+- You have a project, `example-project` , in the organization `example.com` .
+- You want principals in `example-project` to be eligible to access resources in `example.com` . To do this, you create a Principal Access Boundary policy in `example.com` that makes principals eligible to access resources in `example.com` and bind that policy to the principal set for `example-project` .
+- You move `example-project` from `example.com` to `cymbalgroup.com` .
 
 In this situation, moving the project creates a cross-organization policy binding. This is because the Principal Access Boundary policy in `example.com` is bound to a principal set in `cymbalgroup.com` . If you don't delete the binding manually, IAM eventually deletes it automatically. Deleting this binding helps ensure that `cymbalgroup.com` administrators have access to all Principal Access Boundary policies bound to their principals.
 
@@ -300,29 +300,31 @@ A Principal Access Boundary policy is a collection of metadata and Principal Acc
 
 For example, the following Principal Access Boundary policy makes the principals who are subject to the policy eligible to access the resources in the organization with the ID `0123456789012` .
 
-    {
-      "name": "organizations/0123456789012/locations/global/principalAccessBoundaryPolicies/example-policy",
-      "uid": "puid_0123456789012345678",
-      "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
-      "displayName": "Example policy",
-      "annotations": {
-        "example-key": "example-value"
-      },
-      "createTime": "2024-01-02T15:01:23Z",
-      "updateTime": "2024-01-02T15:01:23Z",
-      "details": {
-        "rules": [
-          {
-            "description": "Example principal access boundary policy rule",
-            "resources": [
-              "//cloudresourcemanager.googleapis.com/organizations/0123456789012"
-            ],
-            "effect": "ALLOW"
-          }
+```
+{
+  "name": "organizations/0123456789012/locations/global/principalAccessBoundaryPolicies/example-policy",
+  "uid": "puid_0123456789012345678",
+  "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
+  "displayName": "Example policy",
+  "annotations": {
+    "example-key": "example-value"
+  },
+  "createTime": "2024-01-02T15:01:23Z",
+  "updateTime": "2024-01-02T15:01:23Z",
+  "details": {
+    "rules": [
+      {
+        "description": "Example principal access boundary policy rule",
+        "resources": [
+          "//cloudresourcemanager.googleapis.com/organizations/0123456789012"
         ],
-        "enforcementVersion": "4"
+        "effect": "ALLOW"
       }
-    }
+    ],
+    "enforcementVersion": "4"
+  }
+}
+```
 
 The following sections describe the fields in a Principal Access Boundary policy's metadata and details.
 
@@ -330,31 +332,31 @@ The following sections describe the fields in a Principal Access Boundary policy
 
 Principal Access Boundary policies contain the following metadata:
 
-  - `name` : The name of the Principal Access Boundary policy. This name has the format ` organizations/ ORGANIZATION_ID /locations/global/principalAccessBoundaryPolicies/ PAB_POLICY_ID  ` , where `  ORGANIZATION_ID  ` is the numeric ID of the organization where the Principal Access Boundary policy was created and `  PAB_POLICY_ID  ` is the Principal Access Boundary policy's alphanumeric ID.
-  - `uid` : A unique ID assigned to the Principal Access Boundary policy.
-  - `etag` : An identifier for the policy's current state. This value changes when you update the policy. To prevent conflicting updates, the `etag` value must match the value that is stored in IAM. If the `etag` values don't match, the request fails.
-  - `displayName` : A human-readable name for the Principal Access Boundary policy.
-  - `annotations` : Optional. A list of user-defined key-value pairs. You can use these annotations to add extra metadata to the policy—for example, who created the policy, or whether the policy was deployed by an automated pipeline. For more information about annotations, see [Annotations](https://google.aip.dev/148#annotations) .
-  - `createTime` : The time when the Principal Access Boundary policy was created.
-  - `updateTime` : The time when the Principal Access Boundary policy was last updated.
+- `name` : The name of the Principal Access Boundary policy. This name has the format `organizations/ `` ORGANIZATION_ID `` /locations/global/principalAccessBoundaryPolicies/ `` PAB_POLICY_ID` , where `ORGANIZATION_ID` is the numeric ID of the organization where the Principal Access Boundary policy was created and `PAB_POLICY_ID` is the Principal Access Boundary policy's alphanumeric ID.
+- `uid` : A unique ID assigned to the Principal Access Boundary policy.
+- `etag` : An identifier for the policy's current state. This value changes when you update the policy. To prevent conflicting updates, the `etag` value must match the value that is stored in IAM. If the `etag` values don't match, the request fails.
+- `displayName` : A human-readable name for the Principal Access Boundary policy.
+- `annotations` : Optional. A list of user-defined key-value pairs. You can use these annotations to add extra metadata to the policy—for example, who created the policy, or whether the policy was deployed by an automated pipeline. For more information about annotations, see [Annotations](https://google.aip.dev/148#annotations) .
+- `createTime` : The time when the Principal Access Boundary policy was created.
+- `updateTime` : The time when the Principal Access Boundary policy was last updated.
 
 ### Details
 
 Each Principal Access Boundary policy contains a `details` field. This field contains the Principal Access Boundary rules and enforcement version:
 
-  - `rules` : A list of Principal Access Boundary rules, which define the resources that affected principals are eligible to access. Each rule contains the following fields:
-    
-      - `description` : A human-readable description for the rule.
-    
-      - `resources` : A list of Resource Manager resources (projects, folders, and organizations) that you want principals to be eligible to access. Any principal that is subject to this policy is eligible to access these resources.
-        
-        Each Principal Access Boundary policy can reference a maximum of 500 resources across all rules in the policy.
-    
-      - `effect` : The relationship that principals have with the resources listed in the `resources` field. The only effect that you can specify in Principal Access Boundary rules is `"ALLOW"` . This relationship makes the principals eligible to access the resources listed in the rule.
+- `rules` : A list of Principal Access Boundary rules, which define the resources that affected principals are eligible to access. Each rule contains the following fields:
 
-  - `enforcementVersion` : The enforcement version that IAM uses when enforcing the policy. The Principal Access Boundary policy version determines which permissions the Principal Access Boundary policy can block.
-    
-    For more information about how to set and manage enforcement versions, see [Manage enforcement versions](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#versions) on this page.
+  - `description` : A human-readable description for the rule.
+
+  - `resources` : A list of Resource Manager resources (projects, folders, and organizations) that you want principals to be eligible to access. Any principal that is subject to this policy is eligible to access these resources.
+
+    Each Principal Access Boundary policy can reference a maximum of 500 resources across all rules in the policy.
+
+  - `effect` : The relationship that principals have with the resources listed in the `resources` field. The only effect that you can specify in Principal Access Boundary rules is `"ALLOW"` . This relationship makes the principals eligible to access the resources listed in the rule.
+
+- `enforcementVersion` : The enforcement version that IAM uses when enforcing the policy. The Principal Access Boundary policy version determines which permissions the Principal Access Boundary policy can block.
+
+  For more information about how to set and manage enforcement versions, see [Manage enforcement versions](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#versions) on this page.
 
 ## Structure of a policy binding
 
@@ -362,59 +364,61 @@ A policy binding for a Principal Access Boundary policy contains the name of a p
 
 For example, the following policy binding binds the policy `example-policy` to all principals in the `example.com` organization, which has the ID `0123456789012` . The policy binding also contains a condition that prevents the policy from being enforced for the principal `super-admin@example.com` .
 
-    {
-      "name": "organizations/0123456789012/locations/global/policyBindings/example-policy-binding",
-      "uid": "buid_01234567890123456789", 
-      "etag": "W/\"cRMdDXbT82aLuZlvoL9Gqg==\"",
-      "displayName": "Example policy binding",
-      "annotations": {
-        "example-key": "example-value"
-      },
-      "target": {
-        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/0123456789012"
-      },
-      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-      "policy": "organizations/0123456789012/locations/global/principalAccessBoundaryPolicies/example-policy",
-      "policyUid": "puid_0123456789012345678",
-      "condition": {
-        "title": "Exempt principal",
-        "description": "Don't enforce the policy for super-admin@example.com",
-        "expression": "principal.subject != 'super-admin@example.com'"
-      },
-      "createTime": "2024-01-02T17:00:16Z",
-      "updateTime": "2024-01-02T17:00:16Z"
-    }
+```
+{
+  "name": "organizations/0123456789012/locations/global/policyBindings/example-policy-binding",
+  "uid": "buid_01234567890123456789", 
+  "etag": "W/\"cRMdDXbT82aLuZlvoL9Gqg==\"",
+  "displayName": "Example policy binding",
+  "annotations": {
+    "example-key": "example-value"
+  },
+  "target": {
+    "principalSet": "//cloudresourcemanager.googleapis.com/organizations/0123456789012"
+  },
+  "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+  "policy": "organizations/0123456789012/locations/global/principalAccessBoundaryPolicies/example-policy",
+  "policyUid": "puid_0123456789012345678",
+  "condition": {
+    "title": "Exempt principal",
+    "description": "Don't enforce the policy for super-admin@example.com",
+    "expression": "principal.subject != 'super-admin@example.com'"
+  },
+  "createTime": "2024-01-02T17:00:16Z",
+  "updateTime": "2024-01-02T17:00:16Z"
+}
+```
 
 Each policy binding contains the following fields:
 
-  - `name` : The name of the policy binding. This name has the format `  RESOURCE_TYPE / RESOURCE_ID /locations/global/policyBindings/ BINDING_ID  ` , where `  RESOURCE_TYPE/ RESOURCE_ID  ` is the type and ID of the policy binding's parent resource and `  BINDING_ID  ` is the policy binding's alphanumeric ID.
+- `name` : The name of the policy binding. This name has the format `RESOURCE_TYPE `` / `` RESOURCE_ID `` /locations/global/policyBindings/ `` BINDING_ID` , where `RESOURCE_TYPE/ `` RESOURCE_ID` is the type and ID of the policy binding's parent resource and `BINDING_ID` is the policy binding's alphanumeric ID.
 
-  - `uid` : A unique ID assigned to the policy binding.
+- `uid` : A unique ID assigned to the policy binding.
 
-  - `etag` : An identifier for the policy's current state. This value changes when you update the policy. To prevent conflicting updates, the `etag` value must match the value that is stored in IAM. If the `etag` values don't match, the request fails.
+- `etag` : An identifier for the policy's current state. This value changes when you update the policy. To prevent conflicting updates, the `etag` value must match the value that is stored in IAM. If the `etag` values don't match, the request fails.
 
-  - `displayName` : A human-readable name for the policy binding.
+- `displayName` : A human-readable name for the policy binding.
 
-  - `annotations` : Optional. A list of user-defined key-value pairs. You can use these annotations to add extra metadata to the policy binding—for example, who created the policy binding, or whether the policy binding was deployed by an automated pipeline. For more information about annotations, see [Annotations](https://google.aip.dev/148#annotations) .
+- `annotations` : Optional. A list of user-defined key-value pairs. You can use these annotations to add extra metadata to the policy binding—for example, who created the policy binding, or whether the policy binding was deployed by an automated pipeline. For more information about annotations, see [Annotations](https://google.aip.dev/148#annotations) .
 
-  - `target` : The principal set to bind the policy to. The value has the format `{"principalSet": PRINCIPAL_SET }` , where `  PRINCIPAL_SET  ` is the ID of the principal set that you want to bind the policy to.
-    
-    Each target can have up to 10 policies bound to it.
+- `target` : The principal set to bind the policy to. The value has the format `{"principalSet": `` PRINCIPAL_SET `` }` , where `PRINCIPAL_SET` is the ID of the principal set that you want to bind the policy to.
 
-  - `policyKind` : The type of policy that the policy binding references. For policy bindings for Principal Access Boundary policies, this value is always `PRINCIPAL_ACCESS_BOUNDARY` .
+  Each target can have up to 10 policies bound to it.
 
-  - `policy` : The Principal Access Boundary policy to bind to the target principal set.
+- `policyKind` : The type of policy that the policy binding references. For policy bindings for Principal Access Boundary policies, this value is always `PRINCIPAL_ACCESS_BOUNDARY` .
 
-  - `policyUid` : A unique ID assigned to the Principal Access Boundary policy referenced in the `policy` field.
+- `policy` : The Principal Access Boundary policy to bind to the target principal set.
 
-  - `condition` : Optional. A logic expression that affects which principals IAM enforces the policy for. If the condition evaluates to true or cannot be evaluated, Identity and Access Management enforces the policy for the principal making the request. If the condition evaluates to false, Identity and Access Management doesn't enforce the policy for the principal. For more information, see [Principal Access Boundary and conditions](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#conditions) on this page.
+- `policyUid` : A unique ID assigned to the Principal Access Boundary policy referenced in the `policy` field.
 
-  - `createTime` : The time when the policy binding was created.
+- `condition` : Optional. A logic expression that affects which principals IAM enforces the policy for. If the condition evaluates to true or cannot be evaluated, Identity and Access Management enforces the policy for the principal making the request. If the condition evaluates to false, Identity and Access Management doesn't enforce the policy for the principal. For more information, see [Principal Access Boundary and conditions](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#conditions) on this page.
 
-  - `updateTime` : The time when the policy binding was last updated.
+- `createTime` : The time when the policy binding was created.
+
+- `updateTime` : The time when the policy binding was last updated.
 
 ## What's next
 
-  - Learn more about the [use cases for Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-use-cases) .
-  - Learn how to [create and apply Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create) .
-  - Review the [permission each Principal Access Boundary policy enforcement version blocks](https://docs.cloud.google.com/iam/docs/pab-blocked-permissions) .
+- Learn more about the [use cases for Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-use-cases) .
+- Learn how to [create and apply Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create) .
+- Review the [permission each Principal Access Boundary policy enforcement version blocks](https://docs.cloud.google.com/iam/docs/pab-blocked-permissions) .

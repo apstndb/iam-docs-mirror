@@ -23,72 +23,35 @@ This page lists the IAM roles and permissions for Care Studio. To search through
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="carestudio.admin" class="role-title add-link" data-text="Carestudio Admin" tabindex="-1">Carestudio Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  carestudio.admin</code> )</p>
+<td>Carestudio Admin
+<p>( <code>roles/ carestudio.admin</code> )</p>
 <p>Admin role for carestudio</p></td>
-<td><p><code dir="ltr" translate="no">carestudio.*</code></p>
+<td><p><code>carestudio.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">carestudio.patients.get</code></li>
-<li><code dir="ltr" translate="no">carestudio.patients.list</code></li>
+<li><code>carestudio.patients.get</code></li>
+<li><code>carestudio.patients.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="carestudio.viewer" class="role-title add-link" data-text="Care Studio Patients Viewer" tabindex="-1">Care Studio Patients Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  carestudio.viewer</code> )</p>
+<td>Care Studio Patients Viewer
+<p>( <code>roles/ carestudio.viewer</code> )</p>
 <p>This role can view all properties of Patients.</p></td>
-<td><p><code dir="ltr" translate="no">carestudio.*</code></p>
+<td><p><code>carestudio.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">carestudio.patients.get</code></li>
-<li><code dir="ltr" translate="no">carestudio.patients.list</code></li>
+<li><code>carestudio.patients.get</code></li>
+<li><code>carestudio.patients.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Care Studio permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="carestudio.patients.get" class="permission-name add-link" data-text="carestudio.patients.get" tabindex="-1"><code dir="ltr" translate="no">carestudio.patients.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/carestudio#carestudio.admin">Carestudio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  carestudio.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/carestudio#carestudio.viewer">Care Studio Patients Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  carestudio.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="carestudio.patients.list" class="permission-name add-link" data-text="carestudio.patients.list" tabindex="-1"><code dir="ltr" translate="no">carestudio.patients.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/carestudio#carestudio.admin">Carestudio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  carestudio.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/carestudio#carestudio.viewer">Care Studio Patients Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  carestudio.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                 | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `carestudio.patients.get`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Carestudio Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/carestudio#carestudio.admin) ( `roles/ carestudio.admin` ) [Care Studio Patients Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/carestudio#carestudio.viewer) ( `roles/ carestudio.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `carestudio.patients.list` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Carestudio Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/carestudio#carestudio.admin) ( `roles/ carestudio.admin` ) [Care Studio Patients Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/carestudio#carestudio.viewer) ( `roles/ carestudio.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |

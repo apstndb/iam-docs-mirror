@@ -17,7 +17,7 @@ Agent Identity and Agent Identity auth providers are available in the following 
 ### Americas
 
 | Region name               | Location          | Launch stage             |
-| ------------------------- | ----------------- | ------------------------ |
+|---------------------------|-------------------|--------------------------|
 | `us-central1`             | Iowa              | Generally Available (GA) |
 | `us-east1`                | South Carolina    | Generally Available (GA) |
 | `us-east4`                | Northern Virginia | Generally Available (GA) |
@@ -30,7 +30,7 @@ Agent Identity and Agent Identity auth providers are available in the following 
 ### Europe and the Middle East
 
 | Region name         | Location    | Launch stage             |
-| ------------------- | ----------- | ------------------------ |
+|---------------------|-------------|--------------------------|
 | `europe-west1`      | Belgium     | Generally Available (GA) |
 | `europe-west2`      | London      | Generally Available (GA) |
 | `europe-west3`      | Frankfurt   | Generally Available (GA) |
@@ -43,7 +43,7 @@ Agent Identity and Agent Identity auth providers are available in the following 
 ### Asia Pacific
 
 | Region name            | Location  | Launch stage             |
-| ---------------------- | --------- | ------------------------ |
+|------------------------|-----------|--------------------------|
 | `asia-east1`           | Taiwan    | Generally Available (GA) |
 | `asia-east2`           | Hong Kong | Generally Available (GA) |
 | `asia-northeast1`      | Tokyo     | Generally Available (GA) |
@@ -56,9 +56,9 @@ Agent Identity and Agent Identity auth providers are available in the following 
 
 ## What's next
 
-  - [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
-  - [Agent Identity auth manager overview](https://docs.cloud.google.com/iam/docs/auth-manager-overview)
-  - [Authenticate using 3-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)
-  - [Authenticate using 2-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
-  - [Authenticate using an API key](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
-  - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)
+- [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
+- [Agent Identity auth manager overview](https://docs.cloud.google.com/iam/docs/auth-manager-overview)
+- [Authenticate using 3-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)
+- [Authenticate using 2-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
+- [Authenticate using an API key](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
+- [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)

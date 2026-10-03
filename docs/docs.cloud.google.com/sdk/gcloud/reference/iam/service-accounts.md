@@ -12,7 +12,7 @@ gcloud iam service-accounts - create and manipulate service accounts
 
 SYNOPSIS
 
-`gcloud iam service-accounts` `  GROUP  ` | `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam service-accounts` [`GROUP`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts#GROUP) \| [`COMMAND`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts#COMMAND) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -24,54 +24,71 @@ More information on service accounts can be found at: <https://cloud.google.com/
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --help  ` .
+These flags are available to all commands: [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 GROUPS
 
-`  GROUP  ` is one of the following:
+`GROUP` is one of the following:
 
-  - `  keys  `  
-    Manage service account keys.
+[`keys`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/keys)  
+Manage service account keys.
 
 COMMANDS
 
-`  COMMAND  ` is one of the following:
+`COMMAND` is one of the following:
 
-  - `  add-iam-policy-binding  `  
-    Add an IAM policy binding to an IAM service account.
-  - `  create  `  
-    Create a service account for a project.
-  - `  delete  `  
-    Delete a service account from a project.
-  - `  describe  `  
-    Show metadata for a service account from a project.
-  - `  disable  `  
-    Disable an IAM service account.
-  - `  enable  `  
-    Enable an IAM service account.
-  - `  get-iam-policy  `  
-    Get the IAM policy for a service account.
-  - `  list  `  
-    List all of a project's service accounts.
-  - `  remove-iam-policy-binding  `  
-    Remove IAM policy binding from a service account.
-  - `  set-iam-policy  `  
-    Set IAM policy for a service account.
-  - `  sign-blob  `  
-    Sign a blob with a managed service account key.
-  - `  sign-jwt  `  
-    Sign a JWT with a managed service account key.
-  - `  undelete  `  
-    Undelete a service account for a project.
-  - `  update  `  
-    Update an IAM service account.
+[`add-iam-policy-binding`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/add-iam-policy-binding)  
+Add an IAM policy binding to an IAM service account.
+
+[`create`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/create)  
+Create a service account for a project.
+
+[`delete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/delete)  
+Delete a service account from a project.
+
+[`describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/describe)  
+Show metadata for a service account from a project.
+
+[`disable`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/disable)  
+Disable an IAM service account.
+
+[`enable`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/enable)  
+Enable an IAM service account.
+
+[`get-iam-policy`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/get-iam-policy)  
+Get the IAM policy for a service account.
+
+[`list`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/list)  
+List all of a project's service accounts.
+
+[`remove-iam-policy-binding`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/remove-iam-policy-binding)  
+Remove IAM policy binding from a service account.
+
+[`set-iam-policy`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/set-iam-policy)  
+Set IAM policy for a service account.
+
+[`sign-blob`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/sign-blob)  
+Sign a blob with a managed service account key.
+
+[`sign-jwt`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/sign-jwt)  
+Sign a JWT with a managed service account key.
+
+[`undelete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/undelete)  
+Undelete a service account for a project.
+
+[`update`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/update)  
+Update an IAM service account.
 
 NOTES
 
 These variants are also available:
 
-    gcloud alpha iam service-accounts
+```
+gcloud alpha iam service-accounts
+```
 
-    gcloud beta iam service-accounts
+```
+gcloud beta iam service-accounts
+```

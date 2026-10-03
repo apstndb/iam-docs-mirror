@@ -6,8 +6,6 @@ description: Learn how to use PAM settings to enable automated approvals for ser
 data_source: docs.cloud.google.com
 ---
 
-> ****
-> 
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 As a Privileged Access Manager settings administrator, you can configure some additional settings for the approval workflow and notification preferences.
@@ -24,8 +22,8 @@ You can customize resource-wide notification preferences for various Privileged 
 
 To get the permissions that you need to configure Privileged Access Manager settings, ask your administrator to grant you the following IAM roles:
 
-  - Configure settings for your project, folder, or organization: [PAM Settings Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.settingsAdmin) ( `roles/privilegedaccessmanager.settingsAdmin` ) on your organization
-  - View settings for your project, folder, or organization: [PAM Settings Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.settingsViewer) ( `roles/privilegedaccessmanager.settingsViewer` ) on your project, folder, or organization
+- Configure settings for your project, folder, or organization: [PAM Settings Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.settingsAdmin) ( `roles/privilegedaccessmanager.settingsAdmin` ) on your organization
+- View settings for your project, folder, or organization: [PAM Settings Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.settingsViewer) ( `roles/privilegedaccessmanager.settingsViewer` ) on your project, folder, or organization
 
 These predefined roles contain the permissions required to configure Privileged Access Manager settings. To see the exact permissions that are required, expand the **Required permissions** section:
 
@@ -33,10 +31,10 @@ These predefined roles contain the permissions required to configure Privileged 
 
 The following permissions are required to configure Privileged Access Manager settings:
 
-  - Configure settings: `privilegedaccessmanager.settings.update`
-  - View settings:
-      - `privilegedaccessmanager.settings.get`
-      - `privilegedaccessmanager.settings.fetchEffective`
+- Configure settings: `privilegedaccessmanager.settings.update`
+- View settings:
+  - `privilegedaccessmanager.settings.get`
+  - `privilegedaccessmanager.settings.fetchEffective`
 
 ## Automated approvals
 
@@ -51,7 +49,7 @@ The following permissions are required to configure Privileged Access Manager se
 4.  To override settings inherited from the parent resource on a child resource, in the **Automated approvals** section, select **Override inheritance** .
 
 5.  To enable automated approvals, turn on the **Enable Agent Identity and Service Account as Approvers** toggle and click **Save** .
-    
+
     > **Note:** If you disable the automated approvals setting, grants that require approvals from service accounts or agent identities won't get approved. If your entitlements have only service accounts or agent identities as approvers, then those entitlements won't be effective.
 
 ### gcloud
@@ -60,89 +58,99 @@ The `gcloud alpha pam settings update` command configures additional Privileged 
 
 Before using any of the command data below, make the following replacements:
 
-  - `  RESOURCE_TYPE  ` : Optional. The resource type that you want to update the settings for. Use the value `organization` , `folder` , or `project` .
+- `RESOURCE_TYPE` : Optional. The resource type that you want to update the settings for. Use the value `organization` , `folder` , or `project` .
 
-  - `  RESOURCE_ID  ` : Used with `RESOURCE_TYPE` . The ID of the Google Cloud project, folder, or organization that you want to manage entitlements for. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+- `RESOURCE_ID` : Used with ` ``RESOURCE_TYPE`` ` . The ID of the Google Cloud project, folder, or organization that you want to manage entitlements for. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
-  - `  SA_AS_APPROVER  ` : A boolean value in the `serviceAccountApproverSettings` field that indicates whether service accounts and agent identities are allowed to approve grants. The default value is `false` .
-    
-      - If you specify the `serviceAccountApproverSettings` field with a value, then that setting is applied to your resource.
-      - If you specify the `serviceAccountApproverSettings` field but leave it empty, then the default settings are applied to your resource.
-      - If you don't specify the `serviceAccountApproverSettings` field at all, then your resource inherits the settings from the parent resource.
-    
-    If you disable this setting, the grants that require approvals from service accounts or agent identities won't get approved. If your entitlements have only service accounts or agent identities as approvers, those entitlements aren't effective.
+- `SA_AS_APPROVER` : A boolean value in the `serviceAccountApproverSettings` field that indicates whether service accounts and agent identities are allowed to approve grants. The default value is `false` .
 
-  - `request.json` : A file containing the modified settings. To create this file, [get](https://docs.cloud.google.com/iam/docs/pam-view-export-settings#export-settings) the existing settings, save the response in file named `request.json` , and then modify it to use as the body of your update request. You must include the ETAG in the body to update the latest version of the settings.
+  - If you specify the `serviceAccountApproverSettings` field with a value, then that setting is applied to your resource.
+  - If you specify the `serviceAccountApproverSettings` field but leave it empty, then the default settings are applied to your resource.
+  - If you don't specify the `serviceAccountApproverSettings` field at all, then your resource inherits the settings from the parent resource.
+
+  If you disable this setting, the grants that require approvals from service accounts or agent identities won't get approved. If your entitlements have only service accounts or agent identities as approvers, those entitlements aren't effective.
+
+- `request.json` : A file containing the modified settings. To create this file, [get](https://docs.cloud.google.com/iam/docs/pam-view-export-settings#export-settings) the existing settings, save the response in file named `request.json` , and then modify it to use as the body of your update request. You must include the ETAG in the body to update the latest version of the settings.
 
 Save the following content in a file called `filename.yaml` :
 
-    emailNotificationSettings:
-      customNotificationBehavior:
-        adminNotifications:
-          grantActivated: NOTIFICATION_MODE_1
-          grantActivationFailed: DISABLED
-          grantEnded: ENABLED
-          grantExternallyModified: ENABLED
-        approverNotifications:
-          pendingApproval: NOTIFICATION_MODE_2
-        requesterNotifications:
-          entitlementAssigned: ENABLED
-          grantActivated: ENABLED
-          grantExpired: NOTIFICATION_MODE_3
-          grantRevoked: ENABLED
-    etag:'"ZjlkNWZlMWUtNDlhYS00YjJjAYlzNWYtZWFkNGVjOWU3NWMkBwYRsottW5Md"'
-    name: RESOURCE_TYPE/RESOURCE_ID/locations/global/settings
-    serviceAccountApproverSettings:
-      enabled: SA_AS_APPROVER
+```
+emailNotificationSettings:
+  customNotificationBehavior:
+    adminNotifications:
+      grantActivated: NOTIFICATION_MODE_1
+      grantActivationFailed: DISABLED
+      grantEnded: ENABLED
+      grantExternallyModified: ENABLED
+    approverNotifications:
+      pendingApproval: NOTIFICATION_MODE_2
+    requesterNotifications:
+      entitlementAssigned: ENABLED
+      grantActivated: ENABLED
+      grantExpired: NOTIFICATION_MODE_3
+      grantRevoked: ENABLED
+etag:'"ZjlkNWZlMWUtNDlhYS00YjJjAYlzNWYtZWFkNGVjOWU3NWMkBwYRsottW5Md"'
+name: RESOURCE_TYPE/RESOURCE_ID/locations/global/settings
+serviceAccountApproverSettings:
+  enabled: SA_AS_APPROVER
+```
 
 Execute the following command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud alpha pam settings update \
-        --location=global \
-        --RESOURCE_TYPE=RESOURCE_ID \
-        --settings-file FILENAME.yaml
+```
+gcloud alpha pam settings update \
+    --location=global \
+    --RESOURCE_TYPE=RESOURCE_ID \
+    --settings-file FILENAME.yaml
+```
 
 #### Windows (PowerShell)
 
-    gcloud alpha pam settings update `
-        --location=global `
-        --RESOURCE_TYPE=RESOURCE_ID `
-        --settings-file FILENAME.yaml
+```
+gcloud alpha pam settings update `
+    --location=global `
+    --RESOURCE_TYPE=RESOURCE_ID `
+    --settings-file FILENAME.yaml
+```
 
 #### Windows (cmd.exe)
 
-    gcloud alpha pam settings update ^
-        --location=global ^
-        --RESOURCE_TYPE=RESOURCE_ID ^
-        --settings-file FILENAME.yaml
+```
+gcloud alpha pam settings update ^
+    --location=global ^
+    --RESOURCE_TYPE=RESOURCE_ID ^
+    --settings-file FILENAME.yaml
+```
 
 You should receive a response similar to the following:
 
-    Parsed [location] resource: RESOURCE_TYPE/RESOURCE_ID/locations/global
-    Request issued for: [global]
-    Updated location [global].
-    createTime: '2025-05-18T10:10:10.101010101Z'
-    emailNotificationSettings:
-      customNotificationBehavior:
-        adminNotifications:
-          grantActivated: ENABLED
-          grantActivationFailed: DISABLED
-          grantEnded: ENABLED
-          grantExternallyModified: ENABLED
-        approverNotifications:
-          pendingApproval: ENABLED
-        requesterNotifications:
-          entitlementAssigned: ENABLED
-          grantActivated: ENABLED
-          grantExpired: ENABLED
-          grantRevoked: ENABLED
-    etag: "ZjlkNWZlMWUtNDlhYS00YjJjAYlzNWYtZWFkNGVjOWU3NWMkBwYRsottW5Md1"
-    name: RESOURCE_TYPE/RESOURCE_ID/locations/global/settings
-    serviceAccountApproverSettings:
-      enabled: true
-    updateTime: '2025-05-18T10:10:40.101010101Z'
+```
+Parsed [location] resource: RESOURCE_TYPE/RESOURCE_ID/locations/global
+Request issued for: [global]
+Updated location [global].
+createTime: '2025-05-18T10:10:10.101010101Z'
+emailNotificationSettings:
+  customNotificationBehavior:
+    adminNotifications:
+      grantActivated: ENABLED
+      grantActivationFailed: DISABLED
+      grantEnded: ENABLED
+      grantExternallyModified: ENABLED
+    approverNotifications:
+      pendingApproval: ENABLED
+    requesterNotifications:
+      entitlementAssigned: ENABLED
+      grantActivated: ENABLED
+      grantExpired: ENABLED
+      grantRevoked: ENABLED
+etag: "ZjlkNWZlMWUtNDlhYS00YjJjAYlzNWYtZWFkNGVjOWU3NWMkBwYRsottW5Md1"
+name: RESOURCE_TYPE/RESOURCE_ID/locations/global/settings
+serviceAccountApproverSettings:
+  enabled: true
+updateTime: '2025-05-18T10:10:40.101010101Z'
+```
 
 ### REST
 
@@ -150,54 +158,58 @@ The Privileged Access Manager API's `updateSettings` method configures additiona
 
 Before using any of the request data, make the following replacements:
 
-  - `  SCOPE  ` : The organization, folder, or project that you want to update the settings for, in the format of ` organizations/ ORGANIZATION_ID  ` , ` folders/ FOLDER_ID  ` , or ` projects/ PROJECT_ID  ` . Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+- `SCOPE` : The organization, folder, or project that you want to update the settings for, in the format of `organizations/ `` ORGANIZATION_ID` , `folders/ `` FOLDER_ID` , or `projects/ `` PROJECT_ID` . Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
-  - `  UPDATED_FIELDS  ` : A comma-separated list of fields that need to be updated in the settings. For example, `emailNotificationSettings,serviceAccountApproverSettings` .
-    
-    To update all fields that can be modified, set the update mask to `*` .
+- `UPDATED_FIELDS` : A comma-separated list of fields that need to be updated in the settings. For example, `emailNotificationSettings,serviceAccountApproverSettings` .
 
-  - `  SA_AS_APPROVER  ` : A boolean value in the `serviceAccountApproverSettings` field that indicates whether service accounts and agent identities are allowed to approve grants. The default value is `false` .
-    
-      - If you specify the `serviceAccountApproverSettings` field with a value, then that setting is applied to your resource.
-      - If you specify the `serviceAccountApproverSettings` field but leave it empty, then the default settings are applied to your resource.
-      - If you don't specify the `serviceAccountApproverSettings` field at all, then your resource inherits the settings from the parent resource.
-    
-    If you disable this setting, the grants that require approvals from service accounts or agent identities won't be approved. If your entitlements have only service accounts or agent identities as approvers, those entitlements aren't effective.
+  To update all fields that can be modified, set the update mask to `*` .
 
-  - `request.json` : A file containing the modified settings. To create this file, [get](https://docs.cloud.google.com/iam/docs/pam-view-export-settings#export-settings) the existing settings, save the response in file named `request.json` , and then modify it to use as the body of your update request. You must include the ETAG in the body to update the latest version of the settings.
+- `SA_AS_APPROVER` : A boolean value in the `serviceAccountApproverSettings` field that indicates whether service accounts and agent identities are allowed to approve grants. The default value is `false` .
+
+  - If you specify the `serviceAccountApproverSettings` field with a value, then that setting is applied to your resource.
+  - If you specify the `serviceAccountApproverSettings` field but leave it empty, then the default settings are applied to your resource.
+  - If you don't specify the `serviceAccountApproverSettings` field at all, then your resource inherits the settings from the parent resource.
+
+  If you disable this setting, the grants that require approvals from service accounts or agent identities won't be approved. If your entitlements have only service accounts or agent identities as approvers, those entitlements aren't effective.
+
+- `request.json` : A file containing the modified settings. To create this file, [get](https://docs.cloud.google.com/iam/docs/pam-view-export-settings#export-settings) the existing settings, save the response in file named `request.json` , and then modify it to use as the body of your update request. You must include the ETAG in the body to update the latest version of the settings.
 
 HTTP method and URL:
 
-    PATCH https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/settings?updateMask=UPDATED_FIELDS
+```
+PATCH https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/settings?updateMask=UPDATED_FIELDS
+```
 
 Request JSON body:
 
-    {
-      "emailNotificationSettings": {
-        "customNotificationBehavior": {
-          "adminNotifications": {
-            "grantActivated": "NOTIFICATION_MODE_1",
-            "grantActivationFailed": "DISABLED",
-            "grantEnded": "ENABLED",
-            "grantExternallyModified": "ENABLED"
-          },
-          "approverNotifications": {
-            "pendingApproval": "NOTIFICATION_MODE_2"
-          },
-          "requesterNotifications": {
-            "entitlementAssigned": "ENABLED",
-            "grantActivated": "ENABLED",
-            "grantExpired": "NOTIFICATION_MODE_3",
-            "grantRevoked": "ENABLED"
-          }
-        }
+```
+{
+  "emailNotificationSettings": {
+    "customNotificationBehavior": {
+      "adminNotifications": {
+        "grantActivated": "NOTIFICATION_MODE_1",
+        "grantActivationFailed": "DISABLED",
+        "grantEnded": "ENABLED",
+        "grantExternallyModified": "ENABLED"
       },
-      "etag": "\"ZjlkNWZlMWUtNDlhYS00YjJjAYlzNWYtZWFkNGVjOWU3NWMkBwYRsottW5Md\"",
-      "name": "SCOPE/locations/global/settings",
-      "serviceAccountApproverSettings": {
-        "enabled": SA_AS_APPROVER
+      "approverNotifications": {
+        "pendingApproval": "NOTIFICATION_MODE_2"
+      },
+      "requesterNotifications": {
+        "entitlementAssigned": "ENABLED",
+        "grantActivated": "ENABLED",
+        "grantExpired": "NOTIFICATION_MODE_3",
+        "grantRevoked": "ENABLED"
       }
     }
+  },
+  "etag": "\"ZjlkNWZlMWUtNDlhYS00YjJjAYlzNWYtZWFkNGVjOWU3NWMkBwYRsottW5Md\"",
+  "name": "SCOPE/locations/global/settings",
+  "serviceAccountApproverSettings": {
+    "enabled": SA_AS_APPROVER
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -207,11 +219,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X PATCH \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/settings?updateMask=UPDATED_FIELDS"
+```
+curl -X PATCH \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/settings?updateMask=UPDATED_FIELDS"
+```
 
 #### PowerShell (Windows)
 
@@ -219,19 +233,21 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method PATCH `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/settings?updateMask=UPDATED_FIELDS" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method PATCH `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/settings?updateMask=UPDATED_FIELDS" | Select-Object -Expand Content
+```
 
 You should receive a JSON response similar to the following:
 
-``` 
+```
 {
   "name": "SCOPE/locations/global/operations/OPERATION_ID",
   "metadata": {
@@ -249,15 +265,19 @@ You should receive a JSON response similar to the following:
 
 To check on the progress of an update operation, you can send a `GET` request to the following endpoint:
 
-    https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/operations/OPERATION_ID
+```
+https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/operations/OPERATION_ID
+```
 
 Send a `GET` request to the following endpoint to list all operations:
 
-    https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/operations
+```
+https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/operations
+```
 
 ### Terraform
 
-You can use [Terraform](https://www.terraform.io/) to configure Privileged Access Manager settings. For more information, see [google\_privileged\_access\_manager\_settings](https://registry.terraform.io/providers/hashicorp/google-beta/latest/docs/resources/privileged_access_manager_settings) in the Terraform documentation.
+You can use [Terraform](https://www.terraform.io/) to configure Privileged Access Manager settings. For more information, see [google_privileged_access_manager_settings](https://registry.terraform.io/providers/hashicorp/google-beta/latest/docs/resources/privileged_access_manager_settings) in the Terraform documentation.
 
 ## Customize notification preferences
 
@@ -270,11 +290,11 @@ You can use [Terraform](https://www.terraform.io/) to configure Privileged Acces
 3.  Click the **Settings** tab.
 
 4.  In the **Notifications** section, **Inherit from parent** is selected by default.
-    
+
     The following table shows the default notification preferences:
-    
+
     | Event                          | Admin | Requester | Approver |
-    | ------------------------------ | ----- | --------- | -------- |
+    |--------------------------------|-------|-----------|----------|
     | Entitlement assigned           | \-    | ✓         | \-       |
     | Grant requires approval        | \-    | \-        | ✓        |
     | Grants are activated           | ✓     | ✓         | \-       |
@@ -284,7 +304,6 @@ You can use [Terraform](https://www.terraform.io/) to configure Privileged Acces
     | Grants are revoked             | \-    | ✓         | \-       |
     | Grants are externally modified | ✓     | ✓         | \-       |
     | Grants activation failed       | ✓     | ✓         | \-       |
-    
 
 5.  To override settings inheritance from the parent, turn on the **Send notifications for the following events** toggle.
 
@@ -298,83 +317,93 @@ The `gcloud alpha pam settings update` command configures additional Privileged 
 
 Before using any of the command data below, make the following replacements:
 
-  - `  RESOURCE_TYPE  ` : Optional. The resource type that you want to update the settings for. Use the value `organization` , `folder` , or `project` .
-  - `  RESOURCE_ID  ` : Used with `RESOURCE_TYPE` . The ID of the Google Cloud project, folder, or organization that you want to manage entitlements for. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
-  - `  NOTIFICATION_MODE  ` : In the `emailNotificationSettings` field, use `ENABLED` to send notification emails for the event, or `DISABLED` to prevent them.
-      - If you specify the `emailNotificationSettings` field with a value, then that setting is applied to your resource.
-      - If you specify the `emailNotificationSettings` field but leave it empty, then the default settings are applied to your resource.
-      - If you don't specify the `emailNotificationSettings` field at all, then your resource inherits the settings from the parent resource.
-  - `request.json` : A file containing the modified settings. To create this file, [get](https://docs.cloud.google.com/iam/docs/pam-view-export-settings#export-settings) the existing settings, save the response in file named `request.json` , and then modify it to use as the body of your update request. You must include the ETAG in the body to update the latest version of the settings.
+- `RESOURCE_TYPE` : Optional. The resource type that you want to update the settings for. Use the value `organization` , `folder` , or `project` .
+- `RESOURCE_ID` : Used with ` ``RESOURCE_TYPE`` ` . The ID of the Google Cloud project, folder, or organization that you want to manage entitlements for. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+- `NOTIFICATION_MODE` : In the `emailNotificationSettings` field, use `ENABLED` to send notification emails for the event, or `DISABLED` to prevent them.
+  - If you specify the `emailNotificationSettings` field with a value, then that setting is applied to your resource.
+  - If you specify the `emailNotificationSettings` field but leave it empty, then the default settings are applied to your resource.
+  - If you don't specify the `emailNotificationSettings` field at all, then your resource inherits the settings from the parent resource.
+- `request.json` : A file containing the modified settings. To create this file, [get](https://docs.cloud.google.com/iam/docs/pam-view-export-settings#export-settings) the existing settings, save the response in file named `request.json` , and then modify it to use as the body of your update request. You must include the ETAG in the body to update the latest version of the settings.
 
 Save the following content in a file called `filename.yaml` :
 
-    emailNotificationSettings:
-      customNotificationBehavior:
-        adminNotifications:
-          grantActivated: NOTIFICATION_MODE_1
-          grantActivationFailed: DISABLED
-          grantEnded: ENABLED
-          grantExternallyModified: ENABLED
-        approverNotifications:
-          pendingApproval: NOTIFICATION_MODE_2
-        requesterNotifications:
-          entitlementAssigned: ENABLED
-          grantActivated: ENABLED
-          grantExpired: NOTIFICATION_MODE_3
-          grantRevoked: ENABLED
-    etag:'"ZjlkNWZlMWUtNDlhYS00YjJjAYlzNWYtZWFkNGVjOWU3NWMkBwYRsottW5Md"'
-    name: RESOURCE_TYPE/RESOURCE_ID/locations/global/settings
-    serviceAccountApproverSettings:
-      enabled: SA_AS_APPROVER
+```
+emailNotificationSettings:
+  customNotificationBehavior:
+    adminNotifications:
+      grantActivated: NOTIFICATION_MODE_1
+      grantActivationFailed: DISABLED
+      grantEnded: ENABLED
+      grantExternallyModified: ENABLED
+    approverNotifications:
+      pendingApproval: NOTIFICATION_MODE_2
+    requesterNotifications:
+      entitlementAssigned: ENABLED
+      grantActivated: ENABLED
+      grantExpired: NOTIFICATION_MODE_3
+      grantRevoked: ENABLED
+etag:'"ZjlkNWZlMWUtNDlhYS00YjJjAYlzNWYtZWFkNGVjOWU3NWMkBwYRsottW5Md"'
+name: RESOURCE_TYPE/RESOURCE_ID/locations/global/settings
+serviceAccountApproverSettings:
+  enabled: SA_AS_APPROVER
+```
 
 Execute the following command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud alpha pam settings update \
-        --location=global \
-        --RESOURCE_TYPE=RESOURCE_ID \
-        --settings-file FILENAME.yaml
+```
+gcloud alpha pam settings update \
+    --location=global \
+    --RESOURCE_TYPE=RESOURCE_ID \
+    --settings-file FILENAME.yaml
+```
 
 #### Windows (PowerShell)
 
-    gcloud alpha pam settings update `
-        --location=global `
-        --RESOURCE_TYPE=RESOURCE_ID `
-        --settings-file FILENAME.yaml
+```
+gcloud alpha pam settings update `
+    --location=global `
+    --RESOURCE_TYPE=RESOURCE_ID `
+    --settings-file FILENAME.yaml
+```
 
 #### Windows (cmd.exe)
 
-    gcloud alpha pam settings update ^
-        --location=global ^
-        --RESOURCE_TYPE=RESOURCE_ID ^
-        --settings-file FILENAME.yaml
+```
+gcloud alpha pam settings update ^
+    --location=global ^
+    --RESOURCE_TYPE=RESOURCE_ID ^
+    --settings-file FILENAME.yaml
+```
 
 You should receive a response similar to the following:
 
-    Parsed [location] resource: RESOURCE_TYPE/RESOURCE_ID/locations/global
-    Request issued for: [global]
-    Updated location [global].
-    createTime: '2025-05-18T10:10:10.101010101Z'
-    emailNotificationSettings:
-      customNotificationBehavior:
-        adminNotifications:
-          grantActivated: ENABLED
-          grantActivationFailed: DISABLED
-          grantEnded: ENABLED
-          grantExternallyModified: ENABLED
-        approverNotifications:
-          pendingApproval: ENABLED
-        requesterNotifications:
-          entitlementAssigned: ENABLED
-          grantActivated: ENABLED
-          grantExpired: ENABLED
-          grantRevoked: ENABLED
-    etag: "ZjlkNWZlMWUtNDlhYS00YjJjAYlzNWYtZWFkNGVjOWU3NWMkBwYRsottW5Md1"
-    name: RESOURCE_TYPE/RESOURCE_ID/locations/global/settings
-    serviceAccountApproverSettings:
-      enabled: true
-    updateTime: '2025-05-18T10:10:40.101010101Z'
+```
+Parsed [location] resource: RESOURCE_TYPE/RESOURCE_ID/locations/global
+Request issued for: [global]
+Updated location [global].
+createTime: '2025-05-18T10:10:10.101010101Z'
+emailNotificationSettings:
+  customNotificationBehavior:
+    adminNotifications:
+      grantActivated: ENABLED
+      grantActivationFailed: DISABLED
+      grantEnded: ENABLED
+      grantExternallyModified: ENABLED
+    approverNotifications:
+      pendingApproval: ENABLED
+    requesterNotifications:
+      entitlementAssigned: ENABLED
+      grantActivated: ENABLED
+      grantExpired: ENABLED
+      grantRevoked: ENABLED
+etag: "ZjlkNWZlMWUtNDlhYS00YjJjAYlzNWYtZWFkNGVjOWU3NWMkBwYRsottW5Md1"
+name: RESOURCE_TYPE/RESOURCE_ID/locations/global/settings
+serviceAccountApproverSettings:
+  enabled: true
+updateTime: '2025-05-18T10:10:40.101010101Z'
+```
 
 ### REST
 
@@ -382,52 +411,55 @@ The Privileged Access Manager API's `updateSettings` method configures additiona
 
 Before using any of the request data, make the following replacements:
 
-  - `  SCOPE  ` : The organization, folder, or project that you want to update the settings for, in the format of ` organizations/ ORGANIZATION_ID  ` , ` folders/ FOLDER_ID  ` , or ` projects/ PROJECT_ID  ` . Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+- `SCOPE` : The organization, folder, or project that you want to update the settings for, in the format of `organizations/ `` ORGANIZATION_ID` , `folders/ `` FOLDER_ID` , or `projects/ `` PROJECT_ID` . Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
-  - `  UPDATED_FIELDS  ` : A comma-separated list of fields that need to be updated in the settings. For example, `emailNotificationSettings,serviceAccountApproverSettings` .
-    
-    To update all fields that can be modified, set the update mask to `*` .
+- `UPDATED_FIELDS` : A comma-separated list of fields that need to be updated in the settings. For example, `emailNotificationSettings,serviceAccountApproverSettings` .
 
-  - `  NOTIFICATION_MODE  ` : In the `emailNotificationSettings` field, use `ENABLED` to send notification emails for the event or `DISABLED` to prevent them.
-    
-      - If you specify the `emailNotificationSettings` field with a value, then that setting is applied to your resource.
-      - If you specify the `emailNotificationSettings` field but leave it empty, then the default settings are applied to your resource.
-      - If you don't specify the `emailNotificationSettings` field at all, then your resource inherits the settings from the parent resource.
+  To update all fields that can be modified, set the update mask to `*` .
 
-  - `request.json` : A file containing the modified settings. To create this file, [get](https://docs.cloud.google.com/iam/docs/pam-view-export-settings#export-settings) the existing settings, save the response in file named `request.json` , and then modify it to use as the body of your update request. You must include the ETAG in the body to update the latest version of the settings.
+- `NOTIFICATION_MODE` : In the `emailNotificationSettings` field, use `ENABLED` to send notification emails for the event or `DISABLED` to prevent them.
+  - If you specify the `emailNotificationSettings` field with a value, then that setting is applied to your resource.
+  - If you specify the `emailNotificationSettings` field but leave it empty, then the default settings are applied to your resource.
+  - If you don't specify the `emailNotificationSettings` field at all, then your resource inherits the settings from the parent resource.
+
+- `request.json` : A file containing the modified settings. To create this file, [get](https://docs.cloud.google.com/iam/docs/pam-view-export-settings#export-settings) the existing settings, save the response in file named `request.json` , and then modify it to use as the body of your update request. You must include the ETAG in the body to update the latest version of the settings.
 
 HTTP method and URL:
 
-    PATCH https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/settings?updateMask=UPDATED_FIELDS
+```
+PATCH https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/settings?updateMask=UPDATED_FIELDS
+```
 
 Request JSON body:
 
-    {
-      "emailNotificationSettings": {
-        "customNotificationBehavior": {
-          "adminNotifications": {
-            "grantActivated": "NOTIFICATION_MODE_1",
-            "grantActivationFailed": "DISABLED",
-            "grantEnded": "ENABLED",
-            "grantExternallyModified": "ENABLED"
-          },
-          "approverNotifications": {
-            "pendingApproval": "NOTIFICATION_MODE_2"
-          },
-          "requesterNotifications": {
-            "entitlementAssigned": "ENABLED",
-            "grantActivated": "ENABLED",
-            "grantExpired": "NOTIFICATION_MODE_3",
-            "grantRevoked": "ENABLED"
-          }
-        }
+```
+{
+  "emailNotificationSettings": {
+    "customNotificationBehavior": {
+      "adminNotifications": {
+        "grantActivated": "NOTIFICATION_MODE_1",
+        "grantActivationFailed": "DISABLED",
+        "grantEnded": "ENABLED",
+        "grantExternallyModified": "ENABLED"
       },
-      "etag": "\"ZjlkNWZlMWUtNDlhYS00YjJjAYlzNWYtZWFkNGVjOWU3NWMkBwYRsottW5Md\"",
-      "name": "SCOPE/locations/global/settings",
-      "serviceAccountApproverSettings": {
-        "enabled": SA_AS_APPROVER
+      "approverNotifications": {
+        "pendingApproval": "NOTIFICATION_MODE_2"
+      },
+      "requesterNotifications": {
+        "entitlementAssigned": "ENABLED",
+        "grantActivated": "ENABLED",
+        "grantExpired": "NOTIFICATION_MODE_3",
+        "grantRevoked": "ENABLED"
       }
     }
+  },
+  "etag": "\"ZjlkNWZlMWUtNDlhYS00YjJjAYlzNWYtZWFkNGVjOWU3NWMkBwYRsottW5Md\"",
+  "name": "SCOPE/locations/global/settings",
+  "serviceAccountApproverSettings": {
+    "enabled": SA_AS_APPROVER
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -437,11 +469,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X PATCH \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/settings?updateMask=UPDATED_FIELDS"
+```
+curl -X PATCH \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/settings?updateMask=UPDATED_FIELDS"
+```
 
 #### PowerShell (Windows)
 
@@ -449,19 +483,21 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method PATCH `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/settings?updateMask=UPDATED_FIELDS" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method PATCH `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/settings?updateMask=UPDATED_FIELDS" | Select-Object -Expand Content
+```
 
 You should receive a JSON response similar to the following:
 
-``` 
+```
 {
   "name": "SCOPE/locations/global/operations/OPERATION_ID",
   "metadata": {
@@ -479,16 +515,20 @@ You should receive a JSON response similar to the following:
 
 To check on the progress of an update operation, you can send a `GET` request to the following endpoint:
 
-    https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/operations/OPERATION_ID
+```
+https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/operations/OPERATION_ID
+```
 
 Send a `GET` request to the following endpoint to list all operations:
 
-    https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/operations
+```
+https://privilegedaccessmanager.googleapis.com/v1beta/SCOPE/locations/global/operations
+```
 
 ### Terraform
 
-You can use [Terraform](https://www.terraform.io/) to configure Privileged Access Manager settings. For more information, see [google\_privileged\_access\_manager\_settings](https://registry.terraform.io/providers/hashicorp/google-beta/latest/docs/resources/privileged_access_manager_settings) in the Terraform documentation.
+You can use [Terraform](https://www.terraform.io/) to configure Privileged Access Manager settings. For more information, see [google_privileged_access_manager_settings](https://registry.terraform.io/providers/hashicorp/google-beta/latest/docs/resources/privileged_access_manager_settings) in the Terraform documentation.
 
 ## What's next
 
-  - [View and export Privileged Access Manager settings](https://docs.cloud.google.com/iam/docs/pam-view-export-settings)
+- [View and export Privileged Access Manager settings](https://docs.cloud.google.com/iam/docs/pam-view-export-settings)

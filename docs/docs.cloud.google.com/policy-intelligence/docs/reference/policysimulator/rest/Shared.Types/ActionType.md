@@ -8,16 +8,8 @@ data_source: docs.cloud.google.com
 
 Allow or deny type.
 
-Enums
-
-`ACTION_TYPE_UNSPECIFIED`
-
-This is only used for distinguishing unset values and should never be used. Results in an error.
-
-`ALLOW`
-
-Allowed action type.
-
-`DENY`
-
-Deny action type.
+| Enums                     |                                                                                                  |
+|---------------------------|--------------------------------------------------------------------------------------------------|
+| `ACTION_TYPE_UNSPECIFIED` | This is only used for distinguishing unset values and should never be used. Results in an error. |
+| `ALLOW`                   | Allowed action type.                                                                             |
+| `DENY`                    | Deny action type.                                                                                |

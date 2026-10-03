@@ -20,25 +20,13 @@ Read the [quick walkthrough](https://cloud.google.com/iam/docs/grant-role-consol
 
 ### Benefits
 
-  - [](https://cloud.google.com/products/iam#proof-of-concept)
-    
-    Safeguard identity across humans, workloads, and AI agents
+- [Safeguard identity across humans, workloads, and AI agents](https://cloud.google.com/products/iam#proof-of-concept)
+- [Enforce Zero Trust with granular access and agent guardrails](https://cloud.google.com/products/iam#features)
+- [Streamline governance with automated permission management](https://cloud.google.com/products/iam#common-uses)
 
-  - [](https://cloud.google.com/products/iam#features)
-    
-    Enforce Zero Trust with granular access and agent guardrails
+------------------------------------------------------------------------
 
-  - [](https://cloud.google.com/products/iam#common-uses)
-    
-    Streamline governance with automated permission management
-
------
-
-  - [](https://cloud.google.com/blog/products/identity-security/whats-new-in-iam-security-governance-and-runtime-defense)
-    
-    What's new in Google Cloud IAM? Read the Next 2026 blog
-    
-    7 minute read
+- [What's new in Google Cloud IAM? Read the Next 2026 blog 7 minute read](https://cloud.google.com/blog/products/identity-security/whats-new-in-iam-security-governance-and-runtime-defense)
 
 Features
 
@@ -46,31 +34,19 @@ Features
 
 Consolidate identity for your entire ecosystem: Enable your workforce to securely sign in using SSO and MFA with Google [Cloud Identity](https://docs.cloud.google.com/identity/docs) or syncless [Workforce Identity Federation](https://cloud.google.com/workforce-identity-federation) with your own identity provider. Provide [first-class cryptographic identities unique to your agents](https://docs.cloud.google.com/iam/docs/agent-identity-overview) and applications allowing them to securely authenticate both as themselves and [on behalf of the end user](https://docs.cloud.google.com/iam/docs/agent-identity-overview#agent-auth-manager).
 
-[](https://www.youtube.com/watch?v=gMbMv91g0Zg&t=5s)
-
-![What's next in IAM: Security, goernance, and Runtime defense for AI agents](https://www.gstatic.com/bricks/image/dc5a9da2-07f2-4fd0-9f32-ee6c2d2624e4.png)
-
-What's next in IAM? See updates from Next 2026
+[![What's next in IAM: Security, goernance, and Runtime defense for AI agents](https://www.gstatic.com/bricks/image/dc5a9da2-07f2-4fd0-9f32-ee6c2d2624e4.png) What's next in IAM? See updates from Next 2026](https://www.youtube.com/watch?v=gMbMv91g0Zg&t=5s)
 
 ### Gemini-powered roles and Policy Intelligence
 
 Simplify setup with Gemini for intelligent optimization. Eliminate guesswork by using the [Gemini Role Picker](https://cloud.google.com/iam/docs/role-picker-gemini) to generate least-privilege roles from natural language. Use the broader [Policy Intelligence](https://cloud.google.com/policy-intelligence) suite to see what your users and agents have access to with [Policy Analyzer](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-overview), then automatically detect and remove excessive permissions, troubleshoot access issues, and ensure your policies remain secure and optimized over time.
 
-[](https://www.youtube.com/watch?v=I6aM-ku_ris&t=1s)
-
-![](https://img.youtube.com/vi/I6aM-ku_ris/hqdefault.jpg)
-
-Simplify permissions management with Gemini
+[![](https://img.youtube.com/vi/I6aM-ku_ris/hqdefault.jpg) Simplify permissions management with Gemini](https://www.youtube.com/watch?v=I6aM-ku_ris&t=1s)
 
 ### Streamlined deployment of security and governance
 
 Establish a secure foundation for your workforce, workloads, and AI agents. Use [Organization Policies](https://cloud.google.com/resource-manager/docs/organization-policy/overview) to create a centralized hierarchy for all resources. Define a security baseline with [custom policies](https://docs.cloud.google.com/organization-policy/create-custom-constraints) that programmatically enforce guardrails, ensuring human, workload, and agent access remains compliant with corporate policies from day one.
 
-[](https://www.youtube.com/watch?v=23cgo7dgjEE)
-
-![](https://img.youtube.com/vi/23cgo7dgjEE/hqdefault.jpg)
-
-Organization Policies
+[![](https://img.youtube.com/vi/23cgo7dgjEE/hqdefault.jpg) Organization Policies](https://www.youtube.com/watch?v=23cgo7dgjEE)
 
 ### Fine-grained entitlements and just-in-time access
 
@@ -80,11 +56,7 @@ Move beyond broad roles with precise permissions. Use [Principal Access Boundary
 
 Enforce a comprehensive Zero Trust model with dynamic, attribute-based access. Use [Access Context Manager](https://cloud.google.com/access-context-manager/docs/overview) to create fine-grained access rules based on user identity and device context. Then, enforce these rules across your applications and Google Cloud services with [Identity-Aware Proxy (IAP)](https://cloud.google.com/iap) and [VPC Service Controls](https://cloud.google.com/vpc-service-controls) to create a secure, unified perimeter.
 
-[](https://www.youtube.com/watch?v=TD06WkY1zLs&t=1s)
-
-![](https://img.youtube.com/vi/TD06WkY1zLs/hqdefault.jpg)
-
-VPC Service Controls
+[![](https://img.youtube.com/vi/TD06WkY1zLs/hqdefault.jpg) VPC Service Controls](https://www.youtube.com/watch?v=TD06WkY1zLs&t=1s)
 
 How It Works
 
@@ -104,17 +76,9 @@ Give every agent a unique, short-lived identity using the [SPIFFE framework](htt
 
 [Learn more about Agent Identity](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
 
-  - [](https://www.skills.google/course_templates/44)
-    
-    Take the course: Introduction to Cloud Identity
-
-  - [](https://cloud.google.com/iam/docs/workforce-identity-federation)
-    
-    Configure Workforce Identity Federation to use single sign-on (SSO) to access Google Cloud
-
-  - [](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/runtime/agent-identity#create-agent-identity)
-    
-    Read the documentation: create an agent with agent identity
+- [Take the course: Introduction to Cloud Identity](https://www.skills.google/course_templates/44)
+- [Configure Workforce Identity Federation to use single sign-on (SSO) to access Google Cloud](https://cloud.google.com/iam/docs/workforce-identity-federation)
+- [Read the documentation: create an agent with agent identity](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/runtime/agent-identity#create-agent-identity)
 
 ![{msg desc="Alternative text for a build icon"}build{/msg}](https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg)
 
@@ -124,17 +88,9 @@ Give every agent a unique, short-lived identity using the [SPIFFE framework](htt
 
 [Learn more about Agent Identity](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
 
-  - [](https://www.skills.google/course_templates/44)
-    
-    Take the course: Introduction to Cloud Identity
-
-  - [](https://cloud.google.com/iam/docs/workforce-identity-federation)
-    
-    Configure Workforce Identity Federation to use single sign-on (SSO) to access Google Cloud
-
-  - [](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/runtime/agent-identity#create-agent-identity)
-    
-    Read the documentation: create an agent with agent identity
+- [Take the course: Introduction to Cloud Identity](https://www.skills.google/course_templates/44)
+- [Configure Workforce Identity Federation to use single sign-on (SSO) to access Google Cloud](https://cloud.google.com/iam/docs/workforce-identity-federation)
+- [Read the documentation: create an agent with agent identity](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/runtime/agent-identity#create-agent-identity)
 
 ### Enforce intelligent access
 
@@ -142,17 +98,9 @@ Use [Gemini Role Picker](https://docs.cloud.google.com/iam/docs/role-picker-gemi
 
 [Start granting IAM roles in the Google Cloud Console with our QuickStart guide](https://docs.cloud.google.com/iam/docs/grant-role-console)
 
-  - [](https://docs.cloud.google.com/iam/docs/role-picker-gemini)
-    
-    Get pre-defined role suggestions with Gemini
-
-  - [](https://www.youtube.com/watch?v=Sdt-i-Q7tyA)
-    
-    See how to add IAM Roles and Permissions on Google Cloud
-
-  - [](https://www.skills.google/course_templates/1515)
-    
-    Learn how to design secure resource hierarchies and enforce least privilege
+- [Get pre-defined role suggestions with Gemini](https://docs.cloud.google.com/iam/docs/role-picker-gemini)
+- [See how to add IAM Roles and Permissions on Google Cloud](https://www.youtube.com/watch?v=Sdt-i-Q7tyA)
+- [Learn how to design secure resource hierarchies and enforce least privilege](https://www.skills.google/course_templates/1515)
 
 ![{msg desc="Alternative text for a build icon"}build{/msg}](https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg)
 
@@ -162,33 +110,17 @@ Use [Gemini Role Picker](https://docs.cloud.google.com/iam/docs/role-picker-gemi
 
 [Start granting IAM roles in the Google Cloud Console with our QuickStart guide](https://docs.cloud.google.com/iam/docs/grant-role-console)
 
-  - [](https://docs.cloud.google.com/iam/docs/role-picker-gemini)
-    
-    Get pre-defined role suggestions with Gemini
-
-  - [](https://www.youtube.com/watch?v=Sdt-i-Q7tyA)
-    
-    See how to add IAM Roles and Permissions on Google Cloud
-
-  - [](https://www.skills.google/course_templates/1515)
-    
-    Learn how to design secure resource hierarchies and enforce least privilege
+- [Get pre-defined role suggestions with Gemini](https://docs.cloud.google.com/iam/docs/role-picker-gemini)
+- [See how to add IAM Roles and Permissions on Google Cloud](https://www.youtube.com/watch?v=Sdt-i-Q7tyA)
+- [Learn how to design secure resource hierarchies and enforce least privilege](https://www.skills.google/course_templates/1515)
 
 ### Defend the agent interaction
 
 Ringfence [Model Context Protocol (MCP) servers](https://docs.cloud.google.com/mcp/control-mcp-use-iam) and data with [VPC Service Controls](https://cloud.google.com/security/vpc-service-controls) to prevent exfiltration. Secure all agent interactions—including Agent-to-Agent (A2A) communication—by routing traffic through the [Agent Gateway](https://docs.cloud.google.com/agent-builder/agent-engine/manage/access), where [Model Armor](https://cloud.google.com/security/products/model-armor) policies block prompt injections and harmful content. Use [Security Command Center](https://cloud.google.com/security/products/security-command-center) (SCC) for centralized threat detection and AI posture management.
 
-  - [](https://cloud.google.com/vpc-service-controls)
-    
-    Learn more about VPC Service Controls
-
-  - [](https://docs.cloud.google.com/model-armor/model-armor-agent-gateway-integration)
-    
-    Learn more about integrating Agent Gateway with Model Armor policies
-
-  - [](https://docs.cloud.google.com/access-context-manager/docs/securing-console-and-apis)
-    
-    Setup context-aware access
+- [Learn more about VPC Service Controls](https://cloud.google.com/vpc-service-controls)
+- [Learn more about integrating Agent Gateway with Model Armor policies](https://docs.cloud.google.com/model-armor/model-armor-agent-gateway-integration)
+- [Setup context-aware access](https://docs.cloud.google.com/access-context-manager/docs/securing-console-and-apis)
 
 ![book](https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/book/wght100fill1/20px.svg)
 
@@ -196,63 +128,71 @@ Ringfence [Model Context Protocol (MCP) servers](https://docs.cloud.google.com/m
 
 Ringfence [Model Context Protocol (MCP) servers](https://docs.cloud.google.com/mcp/control-mcp-use-iam) and data with [VPC Service Controls](https://cloud.google.com/security/vpc-service-controls) to prevent exfiltration. Secure all agent interactions—including Agent-to-Agent (A2A) communication—by routing traffic through the [Agent Gateway](https://docs.cloud.google.com/agent-builder/agent-engine/manage/access), where [Model Armor](https://cloud.google.com/security/products/model-armor) policies block prompt injections and harmful content. Use [Security Command Center](https://cloud.google.com/security/products/security-command-center) (SCC) for centralized threat detection and AI posture management.
 
-  - [](https://cloud.google.com/vpc-service-controls)
-    
-    Learn more about VPC Service Controls
-
-  - [](https://docs.cloud.google.com/model-armor/model-armor-agent-gateway-integration)
-    
-    Learn more about integrating Agent Gateway with Model Armor policies
-
-  - [](https://docs.cloud.google.com/access-context-manager/docs/securing-console-and-apis)
-    
-    Setup context-aware access
+- [Learn more about VPC Service Controls](https://cloud.google.com/vpc-service-controls)
+- [Learn more about integrating Agent Gateway with Model Armor policies](https://docs.cloud.google.com/model-armor/model-armor-agent-gateway-integration)
+- [Setup context-aware access](https://docs.cloud.google.com/access-context-manager/docs/securing-console-and-apis)
 
 Pricing
 
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Included in the Google Cloud Console</th>
+<th>All use of Identity and Access Management API is free of charge</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th>Package</th>
+<th>Description</th>
+<th>What's included</th>
+</tr>
+
+<tr class="odd">
+<td><p>Google Cloud IAM</p></td>
+<td><ul>
+<li>Built-in identity and access management for all your Google Cloud resources.</li>
+</ul>
+<p><br />
+</p></td>
+<td><ul>
+<li>Centralized organization policies</li>
+<li>Unlimited custom roles and permissions</li>
+<li>Workforce and Workload Identity Federation</li>
+<li>IAM recommender insights</li>
+<li>No additional cost per user or identity</li>
+</ul>
+<p><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 Included in the Google Cloud Console
 
 All use of Identity and Access Management API is free of charge
 
-Package
-
-Description
-
-What's included
-
-Google Cloud IAM
-
-  - Built-in identity and access management for all your Google Cloud resources.
-
-  
-
-  - Centralized organization policies
-  - Unlimited custom roles and permissions
-  - Workforce and Workload Identity Federation
-  - IAM recommender insights
-  - No additional cost per user or identity
-
-  
-
-Included in the Google Cloud Console
-
-All use of Identity and Access Management API is free of charge
-
 Google Cloud IAM
 
 Description
 
-  - Built-in identity and access management for all your Google Cloud resources.
+- Built-in identity and access management for all your Google Cloud resources.
 
   
 
 What's included
 
-  - Centralized organization policies
-  - Unlimited custom roles and permissions
-  - Workforce and Workload Identity Federation
-  - IAM recommender insights
-  - No additional cost per user or identity
+- Centralized organization policies
+- Unlimited custom roles and permissions
+- Workforce and Workload Identity Federation
+- IAM recommender insights
+- No additional cost per user or identity
 
   
 

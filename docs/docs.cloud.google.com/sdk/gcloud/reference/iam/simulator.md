@@ -12,7 +12,7 @@ gcloud iam simulator - understand how an IAM policy change could impact access b
 
 SYNOPSIS
 
-`gcloud iam simulator` `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam simulator` [`COMMAND`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/simulator#COMMAND) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/simulator#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -20,13 +20,13 @@ Understand how an IAM policy change could impact access before deploying the cha
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --help  ` .
+These flags are available to all commands: [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 COMMANDS
 
-`  COMMAND  ` is one of the following:
+`COMMAND` is one of the following:
 
-  - `  replay-recent-access  `  
-    Determine affected recent access attempts before IAM policy change deployment.
+[`replay-recent-access`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/simulator/replay-recent-access)  
+Determine affected recent access attempts before IAM policy change deployment.

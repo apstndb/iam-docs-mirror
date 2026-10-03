@@ -23,41 +23,41 @@ This page lists the IAM roles and permissions for Service Extensions. To search 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="serviceextensions.admin" class="role-title add-link" data-text="Service Extensions Admin Beta" tabindex="-1">Service Extensions Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  serviceextensions.admin</code> )</p>
+<td>Service Extensions Admin <sup>Beta</sup>
+<p>( <code>roles/ serviceextensions.admin</code> )</p>
 <p>Grants full access to Service Extensions resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceextensions.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceextensions.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceextensions.  callouts.  invoke</code></li>
-<li><code dir="ltr" translate="no">serviceextensions.  locations.  get</code></li>
-<li><code dir="ltr" translate="no">serviceextensions.  locations.  list</code></li>
+<li><code>serviceextensions. callouts. invoke</code></li>
+<li><code>serviceextensions. locations. get</code></li>
+<li><code>serviceextensions. locations. list</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="serviceextensions.editor" class="role-title add-link" data-text="Service Extensions Editor Beta" tabindex="-1">Service Extensions Editor <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  serviceextensions.editor</code> )</p>
+<td>Service Extensions Editor <sup>Beta</sup>
+<p>( <code>roles/ serviceextensions.editor</code> )</p>
 <p>Grants access to edit Service Extensions resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceextensions.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceextensions.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceextensions.  callouts.  invoke</code></li>
-<li><code dir="ltr" translate="no">serviceextensions.  locations.  get</code></li>
-<li><code dir="ltr" translate="no">serviceextensions.  locations.  list</code></li>
+<li><code>serviceextensions. callouts. invoke</code></li>
+<li><code>serviceextensions. locations. get</code></li>
+<li><code>serviceextensions. locations. list</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="serviceextensions.viewer" class="role-title add-link" data-text="Service Extensions Viewer Beta" tabindex="-1">Service Extensions Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  serviceextensions.viewer</code> )</p>
+<td>Service Extensions Viewer <sup>Beta</sup>
+<p>( <code>roles/ serviceextensions.viewer</code> )</p>
 <p>Grants read access to Service Extensions resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceextensions.locations.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceextensions.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceextensions.  locations.  get</code></li>
-<li><code dir="ltr" translate="no">serviceextensions.  locations.  list</code></li>
+<li><code>serviceextensions. locations. get</code></li>
+<li><code>serviceextensions. locations. list</code></li>
 </ul></td>
 </tr>
 </tbody>
@@ -80,14 +80,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="networkactions.serviceAgent" class="role-title add-link" data-text="Network Actions Service Agent" tabindex="-1">Network Actions Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  networkactions.serviceAgent</code> )</p>
+<td>Network Actions Service Agent
+<p>( <code>roles/ networkactions.serviceAgent</code> )</p>
 <p>Gives Network Actions service account access to read required resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">artifactregistry.  files.  download</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  downloadArtifacts</code></p></td>
+<td><p><code>artifactregistry. files. download</code></p>
+<p><code>artifactregistry. repositories. downloadArtifacts</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -107,49 +107,49 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="serviceextensions.callouts.invoke" class="permission-name add-link" data-text="serviceextensions.callouts.invoke" tabindex="-1"><code dir="ltr" translate="no">serviceextensions.  callouts.  invoke</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.admin">Service Extensions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  serviceextensions.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.editor">Service Extensions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  serviceextensions.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>serviceextensions. callouts. invoke</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.admin">Service Extensions Admin</a> ( <code>roles/ serviceextensions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.editor">Service Extensions Editor</a> ( <code>roles/ serviceextensions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="serviceextensions.locations.get" class="permission-name add-link" data-text="serviceextensions.locations.get" tabindex="-1"><code dir="ltr" translate="no">serviceextensions.  locations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.admin">Service Extensions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  serviceextensions.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.editor">Service Extensions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  serviceextensions.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.viewer">Service Extensions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  serviceextensions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>serviceextensions. locations. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.admin">Service Extensions Admin</a> ( <code>roles/ serviceextensions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.editor">Service Extensions Editor</a> ( <code>roles/ serviceextensions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.viewer">Service Extensions Viewer</a> ( <code>roles/ serviceextensions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="serviceextensions.locations.list" class="permission-name add-link" data-text="serviceextensions.locations.list" tabindex="-1"><code dir="ltr" translate="no">serviceextensions.  locations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.admin">Service Extensions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  serviceextensions.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.editor">Service Extensions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  serviceextensions.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.viewer">Service Extensions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  serviceextensions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>serviceextensions. locations. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.admin">Service Extensions Admin</a> ( <code>roles/ serviceextensions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.editor">Service Extensions Editor</a> ( <code>roles/ serviceextensions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#serviceextensions.viewer">Service Extensions Viewer</a> ( <code>roles/ serviceextensions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

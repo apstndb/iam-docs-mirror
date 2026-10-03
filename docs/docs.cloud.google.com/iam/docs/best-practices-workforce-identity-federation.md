@@ -23,10 +23,10 @@ The following sections describe key factors for choosing a federation architectu
 
 The following four patterns describe common ways to federate a Google Cloud organization with an external IdP:
 
-  - [Cloud Identity federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#cloud-identity-fed)
-  - [Workforce Identity Federation, sync-less](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#sync-less-fed)
-  - [Workforce Identity Federation with System for Cross-domain Identity Management (SCIM)](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#scim-fed)
-  - [Hybrid Cloud Identity and Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#hybrid-fed)
+- [Cloud Identity federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#cloud-identity-fed)
+- [Workforce Identity Federation, sync-less](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#sync-less-fed)
+- [Workforce Identity Federation with System for Cross-domain Identity Management (SCIM)](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#scim-fed)
+- [Hybrid Cloud Identity and Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#hybrid-fed)
 
 Before federating, consider the advantages and limitations of each pattern and choose the one that matches your requirements. For more information, see the [Architecture patterns for identity federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures) .
 
@@ -40,22 +40,22 @@ To reduce complexity, we recommend using either Cloud Identity or Workforce Iden
 
 If you use Cloud Identity federation and Workforce Identity Federation in parallel, you can partition their usage in the following ways:
 
-  - **Partition by user** : Partition your users into two cohorts: one using Workforce Identity Federation and one using Cloud Identity federation.
-    
-      - *Advantage* : Each user has a single identity across Google services and one sign-in method.
-    
-      - *Disadvantages* : Partitioning by users has several disadvantages, including the following:
-        
-          - Managing access groups can be complex because IAM allow policies need to contain a combination of principal types and you can't use the same groups for Cloud Identity and Workforce Identity Federation users.
-        
-          - Users from different cohorts can't share links with each other because the Google Cloud console, Gemini Enterprise, and other tools use different URLs depending on how users sign in.
-        
-          - Users from different cohorts might have access to different feature sets.
+- **Partition by user** : Partition your users into two cohorts: one using Workforce Identity Federation and one using Cloud Identity federation.
 
-  - **Partition by service** : Configure each service, such as Google Cloud or Gemini Enterprise, so that it exclusively grants access to Workforce Identity Federation users or Cloud Identity users, but never both.
-    
-      - *Advantage* : Simplifies administration and ensures a consistent feature set across different users.
-      - *Disadvantage* : Some employees might need to be assigned two identities—one that uses Workforce Identity Federation and one that uses Cloud Identity.
+  - *Advantage* : Each user has a single identity across Google services and one sign-in method.
+
+  - *Disadvantages* : Partitioning by users has several disadvantages, including the following:
+
+    - Managing access groups can be complex because IAM allow policies need to contain a combination of principal types and you can't use the same groups for Cloud Identity and Workforce Identity Federation users.
+
+    - Users from different cohorts can't share links with each other because the Google Cloud console, Gemini Enterprise, and other tools use different URLs depending on how users sign in.
+
+    - Users from different cohorts might have access to different feature sets.
+
+- **Partition by service** : Configure each service, such as Google Cloud or Gemini Enterprise, so that it exclusively grants access to Workforce Identity Federation users or Cloud Identity users, but never both.
+
+  - *Advantage* : Simplifies administration and ensures a consistent feature set across different users.
+  - *Disadvantage* : Some employees might need to be assigned two identities—one that uses Workforce Identity Federation and one that uses Cloud Identity.
 
 We recommend partitioning by service, specifically separating Gemini Enterprise and Gemini Notebook Enterprise from other services. Gemini Enterprise and the Google Cloud console are separate tools designed for different tasks. Any differences in their sign-in processes should have minimal impact on the overall user experience.
 
@@ -67,32 +67,32 @@ You should manage access using groups and establish clear processes for governin
 
 A user's permissions to access resources aren't determined during authentication. Instead, access is evaluated when the user attempts to access the resource based on the policies attached to that specific resource. These policies can include the following:
 
-  - One or more [allow policies](https://docs.cloud.google.com/iam/docs/allow-policies)
-  - Zero or more [deny policies](https://docs.cloud.google.com/iam/docs/deny-overview)
-  - Zero or more [principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies)
+- One or more [allow policies](https://docs.cloud.google.com/iam/docs/allow-policies)
+- Zero or more [deny policies](https://docs.cloud.google.com/iam/docs/deny-overview)
+- Zero or more [principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies)
 
 Policies define access for individual principals or principal sets:
 
-  - **Principal** : An authenticated user identified by a principal identifier. A workforce principal identifier is similar to the following: `principal://iam.googleapis.com/locations/global/workforcePools/` `  POOL_ID /subject/ SUBJECT  `
-    
-    The principal identifier contains the following:
-    
-      - `  POOL_ID  ` : uniquely identifies a workforce identity pool.
-      - `  SUBJECT  ` : uniquely identifies a specific user. The value and format depends on your IdP and attribute mapping.
+- **Principal** : An authenticated user identified by a principal identifier. A workforce principal identifier is similar to the following: `principal://iam.googleapis.com/locations/global/workforcePools/` `POOL_ID `` /subject/ `` SUBJECT`
 
-  - **Principal set** : Users matching specific criteria. Workforce Identity Federation supports three principal sets: group-based (members of a group), attribute-based, and wildcard (all users).
+  The principal identifier contains the following:
+
+  - `POOL_ID` : uniquely identifies a workforce identity pool.
+  - `SUBJECT` : uniquely identifies a specific user. The value and format depends on your IdP and attribute mapping.
+
+- **Principal set** : Users matching specific criteria. Workforce Identity Federation supports three principal sets: group-based (members of a group), attribute-based, and wildcard (all users).
 
 Granting access to individual principals can be useful in specific situations, but it tends to scale poorly because of the following issues:
 
-  - Adding principals one by one causes allow policies to grow and become increasingly difficult to manage.
-  - Individual access management requires frequent changes to allow policies.
-  - Policies might become increasingly inconsistent over time.
+- Adding principals one by one causes allow policies to grow and become increasingly difficult to manage.
+- Individual access management requires frequent changes to allow policies.
+- Policies might become increasingly inconsistent over time.
 
 For scalable and effective access management, using group-based principal sets provides these advantages:
 
-  - You can manage access by adding or removing members from groups, using your existing identity tools and processes.
-  - Reduce the size and complexity of allow policies.
-  - Ensure users with the same role have the same resource access.
+- You can manage access by adding or removing members from groups, using your existing identity tools and processes.
+- Reduce the size and complexity of allow policies.
+- Ensure users with the same role have the same resource access.
 
 To use groups to manage access, you must configure your external IdP in certain ways and be aware of any limitations that the IdP imposes on groups.
 
@@ -110,15 +110,15 @@ The following sections describe best practices for using groups effectively and 
 
 The following list describes four types of groups commonly found in organizations:
 
-  - **Access groups** : Used only to grant access to Google services or Google Cloud resources. They represent job functions and simplify the assignment of roles that are required to perform these job functions.
-  - **Organizational groups** : These groups represent subsets of an organization's structure, and are typically sourced from human resources data. They might be based on department, reporting structure, geographic location, or other organizational groupings.
-  - **Collaboration groups** : These groups represent workgroups, project members, or users that want to collaborate on a project or discuss a specific topic and might be used for email distribution. Collaboration groups are often created on an ad hoc, self-service basis.
-  - **Enforcement groups** : Enforcement groups, also called *policy groups* , are used to restrict access, in contrast to access groups, which are used to grant access. For example, principal access boundaries, deny policies, or enforcing multi-factor authentication. Access groups can allow members to voluntarily leave a group. However, membership of an enforcement group is not voluntary.
+- **Access groups** : Used only to grant access to Google services or Google Cloud resources. They represent job functions and simplify the assignment of roles that are required to perform these job functions.
+- **Organizational groups** : These groups represent subsets of an organization's structure, and are typically sourced from human resources data. They might be based on department, reporting structure, geographic location, or other organizational groupings.
+- **Collaboration groups** : These groups represent workgroups, project members, or users that want to collaborate on a project or discuss a specific topic and might be used for email distribution. Collaboration groups are often created on an ad hoc, self-service basis.
+- **Enforcement groups** : Enforcement groups, also called *policy groups* , are used to restrict access, in contrast to access groups, which are used to grant access. For example, principal access boundaries, deny policies, or enforcing multi-factor authentication. Access groups can allow members to voluntarily leave a group. However, membership of an enforcement group is not voluntary.
 
 The groups you need to federate depend on the following services you use:
 
-  - For Google Cloud, you only need access groups and enforcement groups.
-  - For Gemini Enterprise, you need access groups, enforcement groups, and—if using data ingestion-based connectors—certain organizational and collaboration groups.
+- For Google Cloud, you only need access groups and enforcement groups.
+- For Gemini Enterprise, you need access groups, enforcement groups, and—if using data ingestion-based connectors—certain organizational and collaboration groups.
 
 When configuring Workforce Identity Federation, exclude irrelevant group types to help avoid token limits with your IdP. This approach helps you reduce the risk of exceeding limitations imposed by your IdP and ensure more consistent usage of groups.
 
@@ -135,37 +135,37 @@ Configure access groups by doing the following:
 
 Use access groups for policies that grant access, including the following:
 
-  - IAM allow policies
-  - VPC Service Controls ingress rules
+- IAM allow policies
+- VPC Service Controls ingress rules
 
 Ensure that access groups are sufficiently fine-grained. For example, the following groups represent effective access groups:
 
-  - `widget-sales-dashboard-readers` : grants read access to a specific BigQuery dataset and associated dashboard.
+- `widget-sales-dashboard-readers` : grants read access to a specific BigQuery dataset and associated dashboard.
 
-  - `dev-ssh-users` : grants OS Login access to Compute Engine VMs in the development environment.
-    
-    In contrast, the following types of groups aren't generally suitable for use as access groups:
-    
-      - Broad administrator groups like `cloud-admins` often lack specificity around which workloads or environments apply.
-    
-      - Organizational groups like `australia-fte` represent groups like teams or by location, rather than job function.
-    
-      - Communication groups like `security-discuss` are designed for email lists or collaboration, rather than an access group.
-    
-    To keep access groups fine-grained, create a new set of access groups for each workload or project that you onboard to Google Cloud. This way, you can scale your number of access groups to your number of workloads that you run on Google Cloud.
+- `dev-ssh-users` : grants OS Login access to Compute Engine VMs in the development environment.
+
+  In contrast, the following types of groups aren't generally suitable for use as access groups:
+
+  - Broad administrator groups like `cloud-admins` often lack specificity around which workloads or environments apply.
+
+  - Organizational groups like `australia-fte` represent groups like teams or by location, rather than job function.
+
+  - Communication groups like `security-discuss` are designed for email lists or collaboration, rather than an access group.
+
+  To keep access groups fine-grained, create a new set of access groups for each workload or project that you onboard to Google Cloud. This way, you can scale your number of access groups to your number of workloads that you run on Google Cloud.
 
 ### Constrain access to resources by using enforcement groups
 
 Enforcement groups are similar to access groups, but typically differ in the following ways:
 
-  - They don't allow members to voluntarily leave the group.
-  - They aren't specific to a workload.
+- They don't allow members to voluntarily leave the group.
+- They aren't specific to a workload.
 
 Use enforcement groups for policies that reduce access, including the following:
 
-  - IAM deny policies
-  - Principal access boundaries
-  - Organization policies
+- IAM deny policies
+- Principal access boundaries
+- Organization policies
 
 Examples of enforcement groups include `users-in-restricted-locations` , `fedramp-low` , and `mfa-users` . The number of enforcement groups is typically small and unlikely to affect a user's total group memberships.
 
@@ -175,8 +175,8 @@ To manage access effectively, you can use access groups and enforcement groups i
 
 Organizational groups represent teams or subsets of an organization's structure and are typically sourced from human resources data. These groups are not suitable for managing access to Google Cloud resources for the following reasons:
 
-  - Team responsibilities and composition might shift over time. For example, a team might hand over a workload to another team, or two teams might merge. Managing access with organizational groups might require a cascade of policy changes during these transitions.
-  - Members of an organizational group rarely need identical access to resources. Granting access to an organizational group often gives some members more access than they need.
+- Team responsibilities and composition might shift over time. For example, a team might hand over a workload to another team, or two teams might merge. Managing access with organizational groups might require a cascade of policy changes during these transitions.
+- Members of an organizational group rarely need identical access to resources. Granting access to an organizational group often gives some members more access than they need.
 
 Collaboration groups are typically self-managed, allowing members to join with approval from another member or without approval. You can use collaboration groups to grant access can lead to over-permissioning and privilege escalation.
 
@@ -186,13 +186,13 @@ To prevent organizational and collaboration groups from being used for access ma
 
 Although organizational and collaboration groups aren't well-suited for managing access to Google Cloud resources, you might need them for Gemini Enterprise:
 
-  - **ACL evaluation** : When you use data ingestion-based connectors to integrate Gemini Enterprise with Microsoft 365, it might encounter documents with access control lists (ACLs) that refer to organizational and collaboration groups. If Gemini Enterprise lacks access to a user's memberships in these groups, it might not correctly evaluate whether the user is authorized to access those documents.
-  - **Notebook sharing** : Gemini Notebook Enterprise lets users share notebooks. Allowing users to share notebooks with collaboration groups is often more convenient than restricting sharing to individual users.
+- **ACL evaluation** : When you use data ingestion-based connectors to integrate Gemini Enterprise with Microsoft 365, it might encounter documents with access control lists (ACLs) that refer to organizational and collaboration groups. If Gemini Enterprise lacks access to a user's memberships in these groups, it might not correctly evaluate whether the user is authorized to access those documents.
+- **Notebook sharing** : Gemini Notebook Enterprise lets users share notebooks. Allowing users to share notebooks with collaboration groups is often more convenient than restricting sharing to individual users.
 
 To ensure that organizational and collaboration groups are only available to Gemini Enterprise, you can configure your IdP as follows:
 
-  - Use SCIM to provision organizational and collaboration groups and their memberships.
-  - Exclude organizational and collaboration group memberships in the tokens or assertions used for Workforce Identity Federation.
+- Use SCIM to provision organizational and collaboration groups and their memberships.
+- Exclude organizational and collaboration group memberships in the tokens or assertions used for Workforce Identity Federation.
 
 ## Manage workforce identity pools
 
@@ -211,21 +211,21 @@ Workforce identity pools are an organization-level resource, not a project-level
 
 For most organizations, the number of workforce identity pools should match the number of IdPs:
 
-  - If your organization uses a single IdP to manage authentication, use a single workforce identity pool.
-  - If your organization uses multiple IdPs—for example, because of an acquisition—use one workforce identity pool per IdP.
+- If your organization uses a single IdP to manage authentication, use a single workforce identity pool.
+- If your organization uses multiple IdPs—for example, because of an acquisition—use one workforce identity pool per IdP.
 
 Limiting the number of workforce identity pools helps you ensure the following:
 
-  - You don't need to create or modify workforce identity pools when onboarding new workloads to Google Cloud.
-  - You can use IAM to control which projects and resources within Google Cloud individual users can access.
+- You don't need to create or modify workforce identity pools when onboarding new workloads to Google Cloud.
+- You can use IAM to control which projects and resources within Google Cloud individual users can access.
 
 ### Choose a unique and meaningful pool name
 
 To make principal identifiers globally unique, workforce identity encodes the workforce identity pool name into the principal identifier. When choosing a name for a workforce identity pool, consider the following constraints:
 
-  - **Uniqueness** : Choose a name that's unique across Google Cloud and unclaimed by another organization.
-  - **Immutability** : You cannot change a workforce identity pool name. Choose a name that remains meaningful over time, avoiding temporary initiative names.
-  - **User experience** : Depending on your sign-in configuration, users might need to enter the pool name during sign-in. Choose a short name that's memorable.
+- **Uniqueness** : Choose a name that's unique across Google Cloud and unclaimed by another organization.
+- **Immutability** : You cannot change a workforce identity pool name. Choose a name that remains meaningful over time, avoiding temporary initiative names.
+- **User experience** : Depending on your sign-in configuration, users might need to enter the pool name during sign-in. Choose a short name that's memorable.
 
 ### Treat pools as highly-privileged resources
 
@@ -233,22 +233,22 @@ The workforce identity pool and provider determine how users sign in and control
 
 To perform a spoofing attack, bad actors might attempt the following actions:
 
-  - **Modifying attribute mappings** : Altering attribute mappings can let a bad actor authenticate as someone else and gain unauthorized privileged access.
-  - **Adding a malicious provider** : Adding a provider can let a bad actor bypass your organization's IdP and authenticate using a different IdP that they control.
+- **Modifying attribute mappings** : Altering attribute mappings can let a bad actor authenticate as someone else and gain unauthorized privileged access.
+- **Adding a malicious provider** : Adding a provider can let a bad actor bypass your organization's IdP and authenticate using a different IdP that they control.
 
 Workforce identity pools and providers are security-critical resources that require the following protection:
 
-  - **Restrict access to non-federated users** : Limit administrative access to a small number of Cloud Identity or Google Workspace users, including at least one emergency-access user.
-  - **Protect administrative users** : Require two-step verification for all administrative and emergency-access users.
-  - **Just-in-time access** : Use [Privileged Access Manager (PAM)](https://docs.cloud.google.com/iam/docs/pam-overview) to grant administrative access on a just-in-time basis rather than granting permanent access.
+- **Restrict access to non-federated users** : Limit administrative access to a small number of Cloud Identity or Google Workspace users, including at least one emergency-access user.
+- **Protect administrative users** : Require two-step verification for all administrative and emergency-access users.
+- **Just-in-time access** : Use [Privileged Access Manager (PAM)](https://docs.cloud.google.com/iam/docs/pam-overview) to grant administrative access on a just-in-time basis rather than granting permanent access.
 
 ### Consider risks when extending federation to partners
 
 Federating Google Cloud with an external IdP using Workforce Identity Federation establishes a trust relationship. By using federation, you rely on the external IdP to perform the following actions:
 
-  - Perform multi-factor authentication (MFA) that meets your security requirements.
-  - Make accurate assertions regarding user identities and group memberships.
-  - Follow identity governance processes that ensure users are offboarded promptly and group memberships accurately reflect current roles.
+- Perform multi-factor authentication (MFA) that meets your security requirements.
+- Make accurate assertions regarding user identities and group memberships.
+- Follow identity governance processes that ensure users are offboarded promptly and group memberships accurately reflect current roles.
 
 Workforce Identity Federation provides limited mechanisms to validate the assertions made by an external IdP. Specifically, Workforce Identity Federation doesn't support post-SSO MFA [in the same way as Cloud Identity](https://support.google.com/a/answer/6002699) .
 
@@ -258,9 +258,9 @@ Before using Workforce Identity Federation to allow external partners or contrac
 
 A workforce identity pool provider defines a federation relationship with an external IdP and contains configuration for the following:
 
-  - The IdP to use for single sign-on.
-  - The attribute mapping to use for deriving principal identifiers from tokens or assertions provided by the IdP.
-  - Optional: the SCIM tenant to use for looking up group membership information.
+- The IdP to use for single sign-on.
+- The attribute mapping to use for deriving principal identifiers from tokens or assertions provided by the IdP.
+- Optional: the SCIM tenant to use for looking up group membership information.
 
 **Best practices** :
 
@@ -281,31 +281,31 @@ Avoid using names like `oidc` or `saml` , because these acronyms might be unfami
 
 Identity providers such as Microsoft Entra ID and Okta provide an application portal that lets users discover and access their assigned applications. Use the portal to optimize user experience by doing the following:
 
-  - Configure the portal to show relevant Google services individually instead of showing a single Google Cloud link.
-  - Configure links to sign in the user automatically.
+- Configure the portal to show relevant Google services individually instead of showing a single Google Cloud link.
+- Configure links to sign in the user automatically.
 
 The following table lists common Google services that support Workforce Identity Federation and the URLs for automatic sign-in:
 
-| Application                                                                               | URL                                                                                                                                                                                                                                     |
-| :---------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Google Cloud Workforce Identity Federation console, also known as the console (federated) | `https://auth.cloud.google/signin/locations/global/workforcePools/         POOL        /providers/         PROVIDER        ?continueUrl=https%3A%2F%2Fconsole.cloud.google`                                                             |
-| Gemini Enterprise                                                                         | ` https://auth.cloud.google/signin/locations/global/workforcePools/         POOL        /providers/         PROVIDER        ?continueUrl=https%3A%2F%2Fvertexaisearch.cloud.google%2Fhome%2Fcid%2F         WEBAPP_ID        `           |
-| Gemini Notebook Enterprise                                                                | ` https://auth.cloud.google/signin/locations/global/workforcePools/         POOL        /providers/         PROVIDER        ?continueUrl=https%3A%2F%2Fnotebooklm.cloud.google%2Fglobal%2F%3Fproject%3D         PROJECT_NUMBER        ` |
-| IAP web apps                                                                              | App URL, such as `https://iap.example.com/`                                                                                                                                                                                             |
+| Application                                                                               | URL                                                                                                                                                                                                     |
+|-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Google Cloud Workforce Identity Federation console, also known as the console (federated) | `https://auth.cloud.google/signin/locations/global/workforcePools/ `` POOL `` /providers/ `` PROVIDER `` ?continueUrl=https%3A%2F%2Fconsole.cloud.google`                                               |
+| Gemini Enterprise                                                                         | `https://auth.cloud.google/signin/locations/global/workforcePools/ `` POOL `` /providers/ `` PROVIDER `` ?continueUrl=https%3A%2F%2Fvertexaisearch.cloud.google%2Fhome%2Fcid%2F `` WEBAPP_ID`           |
+| Gemini Notebook Enterprise                                                                | `https://auth.cloud.google/signin/locations/global/workforcePools/ `` POOL `` /providers/ `` PROVIDER `` ?continueUrl=https%3A%2F%2Fnotebooklm.cloud.google%2Fglobal%2F%3Fproject%3D `` PROJECT_NUMBER` |
+| IAP web apps                                                                              | App URL, such as `https://iap.example.com/`                                                                                                                                                             |
 
 Replace the following:
 
-  - `  POOL  ` : the workforce identity pool name.
-  - `  PROVIDER  ` : the pool provider name.
-  - `  WEBAPP_ID  ` : the Gemini Enterprise web app ID.
-  - `  PROJECT_NUMBER  ` : the Gemini Notebook Enterprise project number.
+- `POOL` : the workforce identity pool name.
+- `PROVIDER` : the pool provider name.
+- `WEBAPP_ID` : the Gemini Enterprise web app ID.
+- `PROJECT_NUMBER` : the Gemini Notebook Enterprise project number.
 
 ### Use a single provider per pool to avoid subject collisions
 
 You can use Workforce Identity Federation to add multiple providers to a workforce pool. Adding a second provider is useful during migrations where you temporarily allow users to authenticate using different IdPs. Beyond temporary situations, avoid using multiple providers for the following reasons:
 
-  - **Subject collisions** : Using multiple providers introduces a risk of subject collisions. In such collisions, the `google.subject` attribute mapping for one provider returns the same value as another provider. This collision maps multiple external identities to the same IAM principal, making them indistinguishable in Cloud Audit Logs.
-  - **IAP compatibility** : IAP requires [workforce identity pools to have a single provider](https://docs.cloud.google.com/iap/docs/use-workforce-identity-federation#limitations-when-working-with-workforce-pools) to redirect unauthenticated users to the IdP automatically. If you add an additional provider, IAP cannot authenticate users.
+- **Subject collisions** : Using multiple providers introduces a risk of subject collisions. In such collisions, the `google.subject` attribute mapping for one provider returns the same value as another provider. This collision maps multiple external identities to the same IAM principal, making them indistinguishable in Cloud Audit Logs.
+- **IAP compatibility** : IAP requires [workforce identity pools to have a single provider](https://docs.cloud.google.com/iap/docs/use-workforce-identity-federation#limitations-when-working-with-workforce-pools) to redirect unauthenticated users to the IdP automatically. If you add an additional provider, IAP cannot authenticate users.
 
 If you need to federate with multiple providers, create multiple workforce pools and configure one provider for each pool.
 
@@ -330,9 +330,11 @@ You can manage users using Workforce Identity Federation. Workforce Identity Fed
 1.  Determine the subject identifier by applying the attribute mapping for `google.subject` . The subject identifier must uniquely identify a user within a workforce identity pool, but doesn't need to be unique across Google Cloud.
 
 2.  Derive the principal identifier by appending the subject identifier to a prefix that identifies the workforce identity pool. The resulting principal identifier is unique across Google Cloud and has the following format:
-    
-        principal://iam.googleapis.com/locations/global/workforcePools/POOL_ID/\
-        subject/SUBJECT
+
+    ```
+    principal://iam.googleapis.com/locations/global/workforcePools/POOL_ID/\
+    subject/SUBJECT
+    ```
 
 When a user who authenticated using Workforce Identity Federation accesses a resource, IAM uses the principal identifier to evaluate role bindings in allow policies and records it in Cloud Audit Logs.
 
@@ -346,8 +348,8 @@ When a user who authenticated using Workforce Identity Federation accesses a res
 
 When a user's subject identifier changes, their principal identifier changes. As a result, Google Cloud no longer recognizes them as the same user:
 
-  - The user cannot access resources they were previously granted access to because their new principal identifier no longer matches the principal identifiers listed in allow policies.
-  - Cloud Audit Logs entries only contain the new principal identifier and can no longer be correlated with logs that used the old principal identifier.
+- The user cannot access resources they were previously granted access to because their new principal identifier no longer matches the principal identifiers listed in allow policies.
+- Cloud Audit Logs entries only contain the new principal identifier and can no longer be correlated with logs that used the old principal identifier.
 
 To keep a user's principal identifier stable, use an attribute mapping that results in a stable value for `google.subject` .
 
@@ -367,8 +369,8 @@ If your provider's attribute mapping for `google.subject` refers to a user ident
 
 To prevent subject collisions, do one or both of the following:
 
-  - Map `google.subject` to a user identifier that your IdP doesn't allow to be reused.
-  - When deleting a user in your IdP, use the [`locations.workforcePools.subjects.delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/delete) API to [delete the user's data in Google Cloud](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data) and block the same user identifier from being used for sign-ins until all data has been purged.
+- Map `google.subject` to a user identifier that your IdP doesn't allow to be reused.
+- When deleting a user in your IdP, use the [`locations.workforcePools.subjects.delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/delete) API to [delete the user's data in Google Cloud](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data) and block the same user identifier from being used for sign-ins until all data has been purged.
 
 ### Microsoft Entra ID: use the UPN as the subject identifier
 
@@ -376,22 +378,22 @@ This best practice applies only if you use Microsoft Entra ID as your IdP.
 
 If you use Microsoft Entra ID, the identifiers you can use as the subject identifier include the following:
 
-  - User principal name ( `upn` )
-  - Object ID ( `oid` )
-  - Email address (the primary address in `proxyAddresses` )
+- User principal name ( `upn` )
+- Object ID ( `oid` )
+- Email address (the primary address in `proxyAddresses` )
 
 Among these options, we recommend using the user principal name as the subject identifier for the following reasons:
 
-  - All users have a user principal name.
-  - User principal names uniquely identify a user.
-  - User principal names tend to be meaningful and straightforward to work with.
-  - User principal names embed a domain name, which uniquely identifies the Microsoft Entra ID tenant that the user is associated with.
-  - Your organization might have a policy in place that prohibits or governs the reuse of user principal identifiers.
+- All users have a user principal name.
+- User principal names uniquely identify a user.
+- User principal names tend to be meaningful and straightforward to work with.
+- User principal names embed a domain name, which uniquely identifies the Microsoft Entra ID tenant that the user is associated with.
+- Your organization might have a policy in place that prohibits or governs the reuse of user principal identifiers.
 
 In contrast, a user's Object ID and email address are less suitable for the following reasons:
 
-  - An Object ID ( `oid` ) is immutable but formatted as a GUID. This format makes them difficult to work with and not meaningful for humans.
-  - The email address is not a required attribute, and it might not be populated for all users.
+- An Object ID ( `oid` ) is immutable but formatted as a GUID. This format makes them difficult to work with and not meaningful for humans.
+- The email address is not a required attribute, and it might not be populated for all users.
 
 Regardless of which identifier you choose, we recommend that you avoid applying transformations such as forcing identifiers to lowercase.
 
@@ -401,14 +403,14 @@ Regardless of which identifier you choose, we recommend that you avoid applying 
 
 Workforce Identity Federation can determine a user's group membership from the following sources:
 
-  - The SAML assertion or ID token provided by the IdP.
-  - The Microsoft Graph API, if you use Microsoft Entra ID as your IdP.
-  - The SCIM tenant associated with the workforce identity pool provider.
+- The SAML assertion or ID token provided by the IdP.
+- The Microsoft Graph API, if you use Microsoft Entra ID as your IdP.
+- The SCIM tenant associated with the workforce identity pool provider.
 
 By default, Workforce Identity Federation uses only the SAML assertion or ID token:
 
 | Source              | Google Cloud | Gemini Enterprise |
-| ------------------- | ------------ | ----------------- |
+|---------------------|--------------|-------------------|
 | SAML or ID token    |              |                   |
 | Microsoft Graph API | \-           | \-                |
 | SCIM tenant         | \-           | \-                |
@@ -416,18 +418,18 @@ By default, Workforce Identity Federation uses only the SAML assertion or ID tok
 If you use Microsoft Entra ID as your IdP, you can enable the [extra attributes](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups#extra-attributes) feature. Workforce Identity Federation then uses only the Microsoft Graph API as the source for group memberships:
 
 | Source              | Google Cloud | Gemini Enterprise |
-| ------------------- | ------------ | ----------------- |
+|---------------------|--------------|-------------------|
 | SAML or ID token    | \-           | \-                |
 | Microsoft Graph API |              |                   |
 | SCIM tenant         | \-           | \-                |
 
 If you use Gemini Enterprise, you can configure Workforce Identity Federation to use a SCIM tenant, which changes the behavior as follows:
 
-  - Gemini Enterprise uses group memberships from the SCIM tenant and ignores group membership information from the SAML assertion or ID token.
-  - Google Cloud uses group membership information from the SAML assertion or ID token and ignores group membership information from the SCIM tenant.
+- Gemini Enterprise uses group memberships from the SCIM tenant and ignores group membership information from the SAML assertion or ID token.
+- Google Cloud uses group membership information from the SAML assertion or ID token and ignores group membership information from the SCIM tenant.
 
 | Source              | Google Cloud | Gemini Enterprise |
-| ------------------- | ------------ | ----------------- |
+|---------------------|--------------|-------------------|
 | SAML or ID token    |              | \-                |
 | Microsoft Graph API | \-           | \-                |
 | SCIM tenant         | \-           |                   |
@@ -435,15 +437,16 @@ If you use Gemini Enterprise, you can configure Workforce Identity Federation to
 For each group membership, Workforce Identity Federation derives a principal identifier by performing the following steps:
 
 1.  Determine the group identifier by doing one of the following:
-    
-      - **SAML assertion or ID token** : Apply the attribute mapping for `google.groups` .
-      - **SCIM tenant** : Apply the claims mapping for `google.group` .
-      - **Microsoft Graph API** : Follow `extra-attributes-type` in the provider configuration.
+    - **SAML assertion or ID token** : Apply the attribute mapping for `google.groups` .
+    - **SCIM tenant** : Apply the claims mapping for `google.group` .
+    - **Microsoft Graph API** : Follow `extra-attributes-type` in the provider configuration.
 
 2.  Derive the principal identifier by appending the group identifier to a prefix that identifies the workforce identity pool. The resulting principal identifier is unique across Google Cloud and has the following format:
-    
-        principalSet://iam.googleapis.com/locations/global/workforcePools/\
-        POOL_ID/group/GROUP_ID
+
+    ```
+    principalSet://iam.googleapis.com/locations/global/workforcePools/\
+    POOL_ID/group/GROUP_ID
+    ```
 
 When a user that authenticated using Workforce Identity Federation accesses a resource, IAM uses these principal identifiers to evaluate role bindings in allow policies.
 
@@ -457,8 +460,8 @@ When a user that authenticated using Workforce Identity Federation accesses a re
 
 All IAM policies reference groups by their principal identifier. When you rename a group in your IdP so that its identifier changes, Google Cloud no longer recognizes it as the same group:
 
-  - Existing IAM role bindings continue to refer to the old principal identifier and become ineffective.
-  - Members of the renamed group lose access because the group's new principal identifier no longer matches any IAM role bindings.
+- Existing IAM role bindings continue to refer to the old principal identifier and become ineffective.
+- Members of the renamed group lose access because the group's new principal identifier no longer matches any IAM role bindings.
 
 To prevent these disruptions, configure your attribute and claims mapping to use a stable, immutable value, such as an IdP-generated unique ID. Avoid using display names or email addresses as group identifiers, because these might change during organizational changes.
 
@@ -466,32 +469,31 @@ To prevent these disruptions, configure your attribute and claims mapping to use
 
 By default, your IdP might include more group memberships in SAML assertions or ID tokens than you need to manage access to Gemini Enterprise and Google Cloud resources. Including unnecessary group memberships creates multiple risks:
 
-  - **Partial loss of access** : Many IdPs impose limits on the number of group memberships that they can include in a token or assertion. When a user exceeds this limit (group overage), the IdP might drop some group memberships, causing the user to lose access to certain resources.
-  - **Sign-in failures** : Workforce Identity Federation [limits the size and number of group memberships](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) that the `google.groups` attribute mapping can produce. Users that exceed one of these limits cannot sign in.
-  - **Inconsistent group usage** : If you expose groups to Google Cloud, project owners might decide to use those groups to manage access to resources, even if you never intended certain groups to be used in Google Cloud.
+- **Partial loss of access** : Many IdPs impose limits on the number of group memberships that they can include in a token or assertion. When a user exceeds this limit (group overage), the IdP might drop some group memberships, causing the user to lose access to certain resources.
+- **Sign-in failures** : Workforce Identity Federation [limits the size and number of group memberships](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) that the `google.groups` attribute mapping can produce. Users that exceed one of these limits cannot sign in.
+- **Inconsistent group usage** : If you expose groups to Google Cloud, project owners might decide to use those groups to manage access to resources, even if you never intended certain groups to be used in Google Cloud.
 
 The following approaches can help you mitigate these risks and reduce the number of group memberships in assertions or tokens:
 
-  - **Filter by group type** : Some IdPs, including Microsoft Entra ID, let you configure a filter that determines which groups to include in assertions or tokens. You can configure a filter to exclude group types that are not relevant based on your configuration and the [services that you plan to use](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#service-portfolio) .
-    
-    The following table indicates which types of groups you might need to include in assertions or tokens, depending on the services that you plan to use:
-    
-    | Group Type            | Google Cloud | Gemini (Sync-less) | Gemini (SCIM) |
-    | --------------------- | ------------ | ------------------ | ------------- |
-    | Access groups         |              |                    | \-            |
-    | Enforcement groups    |              |                    | \-            |
-    | Organizational groups | Not needed   | \*                 | \-            |
-    | Collaboration groups  | Not needed   | \*                 | \-            |
-    
+- **Filter by group type** : Some IdPs, including Microsoft Entra ID, let you configure a filter that determines which groups to include in assertions or tokens. You can configure a filter to exclude group types that are not relevant based on your configuration and the [services that you plan to use](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#service-portfolio) .
 
-    \* Required only if using data-ingestion-based connectors.
-    
-      - To manage access to Google Cloud, you must include access groups and enforcement groups.
-      - The filter required to manage access to Gemini Enterprise depends on whether you use SCIM. If you use SCIM, Gemini Enterprise ignores group memberships included in assertions or tokens, so you don't need to include any groups specific to Gemini Enterprise. If you don't use SCIM, you must include access groups and enforcement groups needed for Gemini Enterprise. Depending on whether you plan to use [data ingestion-based connectors](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#gemini-m365) , you might also need to include certain organizational and collaboration groups.
+  The following table indicates which types of groups you might need to include in assertions or tokens, depending on the services that you plan to use:
 
-  - **Assignment** : Some IdPs, including Microsoft Entra ID, let you restrict group memberships in tokens and assertions to assigned groups, which are the groups you explicitly assign to the relying party configuration.
+  | Group Type            | Google Cloud | Gemini (Sync-less) | Gemini (SCIM) |
+  |-----------------------|--------------|--------------------|---------------|
+  | Access groups         |              |                    | \-            |
+  | Enforcement groups    |              |                    | \-            |
+  | Organizational groups | Not needed   | \*                 | \-            |
+  | Collaboration groups  | Not needed   | \*                 | \-            |
 
-  - **Extra attributes filter** : If you use Microsoft Entra ID and have enabled the [extra attributes](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups#extra-attributes) feature, you can specify a filter using the [`--extra-attributes-filter`](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) flag. Workforce Identity Federation passes this filter to the Microsoft Graph API when requesting group memberships.
+  \* Required only if using data-ingestion-based connectors.
+
+  - To manage access to Google Cloud, you must include access groups and enforcement groups.
+  - The filter required to manage access to Gemini Enterprise depends on whether you use SCIM. If you use SCIM, Gemini Enterprise ignores group memberships included in assertions or tokens, so you don't need to include any groups specific to Gemini Enterprise. If you don't use SCIM, you must include access groups and enforcement groups needed for Gemini Enterprise. Depending on whether you plan to use [data ingestion-based connectors](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#gemini-m365) , you might also need to include certain organizational and collaboration groups.
+
+- **Assignment** : Some IdPs, including Microsoft Entra ID, let you restrict group memberships in tokens and assertions to assigned groups, which are the groups you explicitly assign to the relying party configuration.
+
+- **Extra attributes filter** : If you use Microsoft Entra ID and have enabled the [extra attributes](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups#extra-attributes) feature, you can specify a filter using the [`--extra-attributes-filter`](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) flag. Workforce Identity Federation passes this filter to the Microsoft Graph API when requesting group memberships.
 
 To test or troubleshoot filters, use the [Debug IdP token](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) tool in the Google Cloud console or enable [detailed audit logging](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#detailed-audit-logging) .
 
@@ -501,14 +503,14 @@ This best practice applies only if you use Microsoft Entra ID as your IdP.
 
 If you use Microsoft Entra ID, the identifiers you can use as the group identifier include the following:
 
-  - Object ID ( `oid` )
-  - Email address
-  - Display name
+- Object ID ( `oid` )
+- Email address
+- Display name
 
 Among these options, we recommend using the Object ID ( `oid` ) as the group identifier for the following reasons:
 
-  - All groups have an Object ID. In contrast, the email address is an optional field that might be populated only for Microsoft 365 groups.
-  - The Object ID is unique and immutable. In contrast, a group's display name can change and might not be unique.
+- All groups have an Object ID. In contrast, the email address is an optional field that might be populated only for Microsoft 365 groups.
+- The Object ID is unique and immutable. In contrast, a group's display name can change and might not be unique.
 
 Regardless of which identifier you choose, we recommend that you avoid applying transformations such as forcing identifiers to lowercase.
 
@@ -533,15 +535,15 @@ To help ensure continuous access to your Google Cloud environments, create emerg
 
 Emergency-access users provide access to your Google Cloud environment when services are misconfigured, compromised, or not operating normally. Emergency-access users are highly privileged. Relying on Workforce Identity Federation to authenticate emergency-access users introduces the following risks:
 
-  - A mistake in the workforce identity pool provider configuration can cause you to lock yourself out.
-  - A service interruption affecting the external IdP can prevent you from using an emergency-access user when you need it most.
-  - A compromise of the external IdP can let bad actors authenticate as an emergency-access user and gain broad access to your Google Cloud resources.
+- A mistake in the workforce identity pool provider configuration can cause you to lock yourself out.
+- A service interruption affecting the external IdP can prevent you from using an emergency-access user when you need it most.
+- A compromise of the external IdP can let bad actors authenticate as an emergency-access user and gain broad access to your Google Cloud resources.
 
 To mitigate these risks, use Cloud Identity or Google Workspace for emergency-access users, even if you use Workforce Identity Federation for other users:
 
-  - Create emergency-access users in Cloud Identity.
-  - Exclude these users from single sign-on and let them authenticate using a username and password.
-  - Secure these users by enrolling them in two-step verification with a security key.
+- Create emergency-access users in Cloud Identity.
+- Exclude these users from single sign-on and let them authenticate using a username and password.
+- Secure these users by enrolling them in two-step verification with a security key.
 
 For more information on emergency-access users, see [Best practices for continuous access to Google Cloud](https://docs.cloud.google.com/docs/security/best-practices-continuous-access-to-google-cloud) .
 
@@ -549,16 +551,16 @@ For more information on emergency-access users, see [Best practices for continuo
 
 Highly-privileged users have broad access to your Google Cloud environment. Examples of these users include the following:
 
-  - Users with the Organization Administrator role ( `roles/resourcemanager.organizationAdmin` )
-  - Users with the Security Admin role ( `roles/iam.securityAdmin` ) or a similar role that can modify allow policies across significant parts of your Google Cloud resource hierarchy
+- Users with the Organization Administrator role ( `roles/resourcemanager.organizationAdmin` )
+- Users with the Security Admin role ( `roles/iam.securityAdmin` ) or a similar role that can modify allow policies across significant parts of your Google Cloud resource hierarchy
 
 If you use Workforce Identity Federation for highly-privileged users, any misconfiguration or compromise in your external IdP can impact the security of your Google Cloud resources. In particular, a compromise of the external IdP can let bad actors authenticate as a highly privileged user and gain broad access to your Google Cloud resources.
 
 To mitigate these risks, use Cloud Identity for highly-privileged users:
 
-  - Create highly privileged users in Cloud Identity.
-  - Secure these users by enrolling them in two-step verification with a security key.
-  - If you have federated Cloud Identity with an external IdP, enable [additional SSO verifications and two-step verification](https://support.google.com/a/answer/6002699#ssochallenges&zippy=Cset-up-post-sso-verification) for these users.
+- Create highly privileged users in Cloud Identity.
+- Secure these users by enrolling them in two-step verification with a security key.
+- If you have federated Cloud Identity with an external IdP, enable [additional SSO verifications and two-step verification](https://support.google.com/a/answer/6002699#ssochallenges&zippy=Cset-up-post-sso-verification) for these users.
 
 Additional SSO verifications might seem redundant if your IdP already enforces multi-factor authentication, but this setting helps protect users if the IdP is compromised. Additional SSO verifications is a feature supported by Cloud Identity but unavailable for Workforce Identity Federation.
 
@@ -568,8 +570,8 @@ If you use Cloud Identity for purposes other than emergency or highly- privilege
 
 For example, you can limit Workforce Identity Federation to Gemini Enterprise by doing the following:
 
-  - Apply a custom organization policy constraint to your Gemini Enterprise project that uses the [`MemberTypeMatches`](https://docs.cloud.google.com/iam/docs/org-policy-custom-constraints#member-type-matches-supported-principal-types) function to limit allowed principal types to `iam.googleapis.com/WorkforcePoolPrincipal` and `iam.googleapis.com/WorkforcePoolPrincipalSet` . These are the principal types used by Workforce Identity Federation.
-  - For all other projects, apply a constraint that allows all principal types except `iam.googleapis.com/WorkforcePoolPrincipal` and `iam.googleapis.com/WorkforcePoolPrincipalSet` .
+- Apply a custom organization policy constraint to your Gemini Enterprise project that uses the [`MemberTypeMatches`](https://docs.cloud.google.com/iam/docs/org-policy-custom-constraints#member-type-matches-supported-principal-types) function to limit allowed principal types to `iam.googleapis.com/WorkforcePoolPrincipal` and `iam.googleapis.com/WorkforcePoolPrincipalSet` . These are the principal types used by Workforce Identity Federation.
+- For all other projects, apply a constraint that allows all principal types except `iam.googleapis.com/WorkforcePoolPrincipal` and `iam.googleapis.com/WorkforcePoolPrincipalSet` .
 
 Using custom organization policy constraints helps you ensure consistency and helps prevent accidental use of incorrect principal types.
 
@@ -577,8 +579,10 @@ Using custom organization policy constraints helps you ensure consistency and he
 
 Workforce Identity Federation supports a wildcard principal identifier that uses the following format:
 
-    principalSet://iam.googleapis.com/locations/global/workforcePools/
-    POOL_ID/*
+```
+principalSet://iam.googleapis.com/locations/global/workforcePools/
+POOL_ID/*
+```
 
 This identifier matches every user your IdP allows to authenticate to Google Cloud.
 
@@ -590,20 +594,20 @@ Instead, create access groups in your IdP and use these groups to manage access 
 
 When a user signs in, Workforce Identity Federation initiates a session. The session permits a user to do the following:
 
-  - Use and navigate between the console (federated), Gemini Enterprise, or other portals that support Workforce Identity Federation.
-  - Use IAP-protected web applications.
-  - Obtain [federated refresh tokens](https://docs.cloud.google.com/docs/authentication/token-types#federated-refresh-tokens) and [federated access tokens](https://docs.cloud.google.com/docs/authentication/token-types#fed-access-tokens) —for example, by running `gcloud auth login` .
+- Use and navigate between the console (federated), Gemini Enterprise, or other portals that support Workforce Identity Federation.
+- Use IAP-protected web applications.
+- Obtain [federated refresh tokens](https://docs.cloud.google.com/docs/authentication/token-types#federated-refresh-tokens) and [federated access tokens](https://docs.cloud.google.com/docs/authentication/token-types#fed-access-tokens) —for example, by running `gcloud auth login` .
 
 A session remains valid until one of the following occurs:
 
-  - The session length reaches the limit defined by the [workforce identity pool](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools#WorkforcePool:) .
-  - The session length reaches the limit defined in the `SessionNotOnOrAfter` attribute in the user's SAML assertion, if present.
-  - The user signs out.
+- The session length reaches the limit defined by the [workforce identity pool](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools#WorkforcePool:) .
+- The session length reaches the limit defined in the `SessionNotOnOrAfter` attribute in the user's SAML assertion, if present.
+- The user signs out.
 
 Allowing sessions to stay valid for extended periods increases the risk of token theft and can cause group membership information to become stale:
 
-  - Users might retain access longer than intended if permissions are revoked in the IdP.
-  - Users might be unable to exercise newly granted access until they re-authenticate and establish a fresh session.
+- Users might retain access longer than intended if permissions are revoked in the IdP.
+- Users might be unable to exercise newly granted access until they re-authenticate and establish a fresh session.
 
 To mitigate these risks, limit the session length so that users must sign in again at least once per day.
 
@@ -611,8 +615,8 @@ To mitigate these risks, limit the session length so that users must sign in aga
 
 To manage privileged access, your IdPs might support just-in-time (JIT) groups that members can activate temporarily. Using just-in-time groups to manage privileged access to Google Cloud or Gemini Enterprise can introduce the following risks:
 
-  - **Delayed activation** : If a user has an active Workforce Identity Federation session while activating their just-in-time group membership, the membership change doesn't take effect until the user signs out and signs in again. Alternatively, if the workforce identity pool provider uses SCIM, the membership change doesn't take effect until the group membership change is provisioned.
-  - **Delayed revocation** : If a group membership expires, the user doesn't lose privileged access until they sign out and sign in again or the group membership change is provisioned using SCIM. Depending on your session length, this delay can undermine the purpose of membership expiration.
+- **Delayed activation** : If a user has an active Workforce Identity Federation session while activating their just-in-time group membership, the membership change doesn't take effect until the user signs out and signs in again. Alternatively, if the workforce identity pool provider uses SCIM, the membership change doesn't take effect until the group membership change is provisioned.
+- **Delayed revocation** : If a group membership expires, the user doesn't lose privileged access until they sign out and sign in again or the group membership change is provisioned using SCIM. Depending on your session length, this delay can undermine the purpose of membership expiration.
 
 To mitigate these risks, configure your workforce identity pool session length to be sufficiently short.
 
@@ -624,20 +628,20 @@ Whenever you notice suspicious activity affecting a resource in Google Cloud, Cl
 
 Workforce Identity Federation can generate logs that let you track sign-in and token exchange activities. The Security Token Service API writes these logs, which include the following [methods](https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-sts) :
 
-  - `google.identity.sts.SecurityTokenService.WebSignIn`
-  - `google.identity.sts.SecurityTokenService.WebSignOut`
-  - `google.identity.sts.v1.SecurityTokenService.ExchangeToken`
-  - `google.identity.sts.v1beta.SecurityTokenService.ExchangeToken`
+- `google.identity.sts.SecurityTokenService.WebSignIn`
+- `google.identity.sts.SecurityTokenService.WebSignOut`
+- `google.identity.sts.v1.SecurityTokenService.ExchangeToken`
+- `google.identity.sts.v1beta.SecurityTokenService.ExchangeToken`
 
 All logs related to sign-in and token exchange activities are classified as data access logs and are disabled by default. To capture these logs, [enable data access logs](https://docs.cloud.google.com/logging/docs/audit/configure-data-access) for the Security Token Service API across your Google Cloud organization. To increase the verbosity of sign-in logs further, enable [detailed audit logging](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#detailed-audit-logging) .
 
 To track other authentication-related activity, we recommend that you enable and use the following logs:
 
-  - [IAM SCIM](https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamscim) audit logs
-  - [Service Account Credentials](https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamcreds) audit logs
-  - Cloud Identity and Google Workspace [login audit logs](https://developers.google.com/workspace/admin/reports/v1/appendix/activity/login)
+- [IAM SCIM](https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamscim) audit logs
+- [Service Account Credentials](https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamcreds) audit logs
+- Cloud Identity and Google Workspace [login audit logs](https://developers.google.com/workspace/admin/reports/v1/appendix/activity/login)
 
 ## What's next
 
-  - Review the [Workforce Identity Federation Overview](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) .
-  - Learn to [Manage pools and providers](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers) .
+- Review the [Workforce Identity Federation Overview](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) .
+- Learn to [Manage pools and providers](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers) .

@@ -8,7 +8,7 @@ data_source: docs.cloud.google.com
 
 The Agent Identity Credentials API retrieves and finalizes authorization credentials for auth providers.
 
-  - [REST Resource: v1.projects.locations.authProviders.credentials](https://docs.cloud.google.com/iam/docs/reference/agentidentitycredentials/rest#v1.projects.locations.authProviders.credentials)
+- [REST Resource: v1.projects.locations.authProviders.credentials](https://docs.cloud.google.com/iam/docs/reference/agentidentitycredentials/rest#v1.projects.locations.authProviders.credentials)
 
 ## Service: agentidentitycredentials.googleapis.com
 
@@ -18,24 +18,17 @@ To call this service, we recommend that you use the Google-provided [client libr
 
 A [Discovery Document](https://developers.google.com/discovery/v1/reference/apis) is a machine-readable specification for describing and consuming REST APIs. It is used to build client libraries, IDE plugins, and other tools that interact with Google APIs. One service may provide multiple discovery documents. This service provides the following discovery document:
 
-  - <https://agentidentitycredentials.googleapis.com/$discovery/rest?version=v1>
+- <https://agentidentitycredentials.googleapis.com/$discovery/rest?version=v1>
 
 ### Service endpoint
 
 A [service endpoint](https://cloud.google.com/apis/design/glossary#api_service_endpoint) is a base URL that specifies the network address of an API service. One service might have multiple service endpoints. This service has the following service endpoint and all URIs below are relative to this service endpoint:
 
-  - `https://agentidentitycredentials.googleapis.com`
+- `https://agentidentitycredentials.googleapis.com`
 
 ## REST Resource: [v1.projects.locations.authProviders.credentials](https://docs.cloud.google.com/iam/docs/reference/agentidentitycredentials/rest/v1/projects.locations.authProviders.credentials)
 
-Methods
-
-`  finalize  `
-
-`POST /v1/{authProvider=projects/*/locations/*/authProviders/*}/credentials:finalize`  
-Finalizes the credentials after a successful consent flow.
-
-`  retrieve  `
-
-`POST /v1/{authProvider=projects/*/locations/*/authProviders/*}/credentials:retrieve`  
-Retrieves authorization credentials for an auth provider, or indicates what action needs to be taken to obtain credentials.
+| Methods                                                                                                                                               |                                                                                                                                                                                                                   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`finalize`](https://docs.cloud.google.com/iam/docs/reference/agentidentitycredentials/rest/v1/projects.locations.authProviders.credentials/finalize) | `POST /v1/{authProvider=projects/*/locations/*/authProviders/*}/credentials:finalize` Finalizes the credentials after a successful consent flow.                                                                  |
+| [`retrieve`](https://docs.cloud.google.com/iam/docs/reference/agentidentitycredentials/rest/v1/projects.locations.authProviders.credentials/retrieve) | `POST /v1/{authProvider=projects/*/locations/*/authProviders/*}/credentials:retrieve` Retrieves authorization credentials for an auth provider, or indicates what action needs to be taken to obtain credentials. |

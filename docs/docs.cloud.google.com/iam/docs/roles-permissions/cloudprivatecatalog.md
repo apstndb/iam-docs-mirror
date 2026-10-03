@@ -23,253 +23,253 @@ This page lists the IAM roles and permissions for Service Catalog. To search thr
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalog.admin" class="role-title add-link" data-text="Cloudprivatecatalog Admin Beta" tabindex="-1">Cloudprivatecatalog Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudprivatecatalog.admin</code> )</p>
+<td>Cloudprivatecatalog Admin <sup>Beta</sup>
+<p>( <code>roles/ cloudprivatecatalog.admin</code> )</p>
 <p>Admin role for cloudprivatecatalog</p></td>
-<td><p><code dir="ltr" translate="no">cloudprivatecatalog.  targets.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudprivatecatalog. targets. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalog.viewer" class="role-title add-link" data-text="Cloudprivatecatalog Viewer Beta" tabindex="-1">Cloudprivatecatalog Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudprivatecatalog.viewer</code> )</p>
+<td>Cloudprivatecatalog Viewer <sup>Beta</sup>
+<p>( <code>roles/ cloudprivatecatalog.viewer</code> )</p>
 <p>Viewer role for cloudprivatecatalog</p></td>
-<td><p><code dir="ltr" translate="no">cloudprivatecatalog.  targets.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudprivatecatalog. targets. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.admin" class="role-title add-link" data-text="Catalog Admin Beta" tabindex="-1">Catalog Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
+<td>Catalog Admin <sup>Beta</sup>
+<p>( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
 <p>Can manage catalog and view its associations.</p></td>
-<td><p><code dir="ltr" translate="no">cloudprivatecatalog.  targets.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.*</code></p>
+<td><p><code>cloudprivatecatalog. targets. get</code></p>
+<p><code>cloudprivatecatalogproducer. associations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  list</code></li>
+<li><code>cloudprivatecatalogproducer. associations. create</code></li>
+<li><code>cloudprivatecatalogproducer. associations. delete</code></li>
+<li><code>cloudprivatecatalogproducer. associations. get</code></li>
+<li><code>cloudprivatecatalogproducer. associations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.*</code></p>
+<p><code>cloudprivatecatalogproducer. catalogAssociations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  list</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. create</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. delete</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. get</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.*</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  list</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  undelete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  update</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. create</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. delete</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. get</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. getIamPolicy</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. list</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. setIamPolicy</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. undelete</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.*</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  attachProduct</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  detachProduct</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  list</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  update</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. attachProduct</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. create</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. delete</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. detachProduct</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. get</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. getIamPolicy</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. list</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. setIamPolicy</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.*</code></p>
+<p><code>cloudprivatecatalogproducer. products.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  list</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  update</code></li>
+<li><code>cloudprivatecatalogproducer. products. create</code></li>
+<li><code>cloudprivatecatalogproducer. products. delete</code></li>
+<li><code>cloudprivatecatalogproducer. products. get</code></li>
+<li><code>cloudprivatecatalogproducer. products. getIamPolicy</code></li>
+<li><code>cloudprivatecatalogproducer. products. list</code></li>
+<li><code>cloudprivatecatalogproducer. products. setIamPolicy</code></li>
+<li><code>cloudprivatecatalogproducer. products. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.*</code></p>
+<p><code>cloudprivatecatalogproducer. targets.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.  associate</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.  unassociate</code></li>
+<li><code>cloudprivatecatalogproducer. targets. associate</code></li>
+<li><code>cloudprivatecatalogproducer. targets. unassociate</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.folders.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.folders.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.folders.get</code></p>
+<p><code>resourcemanager.folders.list</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.editor" class="role-title add-link" data-text="Catalog Editor Beta" tabindex="-1">Catalog Editor <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
+<td>Catalog Editor <sup>Beta</sup>
+<p>( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
 <p>Editor role for Cloud Private Catalog</p></td>
-<td><p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.*</code></p>
+<td><p><code>cloudprivatecatalogproducer. associations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  list</code></li>
+<li><code>cloudprivatecatalogproducer. associations. create</code></li>
+<li><code>cloudprivatecatalogproducer. associations. delete</code></li>
+<li><code>cloudprivatecatalogproducer. associations. get</code></li>
+<li><code>cloudprivatecatalogproducer. associations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.*</code></p>
+<p><code>cloudprivatecatalogproducer. catalogAssociations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  list</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. create</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. delete</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. get</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  create</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  delete</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  list</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  undelete</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  update</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  attachProduct</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  create</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  delete</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  detachProduct</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  list</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  update</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  create</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  delete</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  list</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  update</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  settings.*</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs. create</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs. delete</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs. get</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs. getIamPolicy</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs. list</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs. undelete</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs. update</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. attachProduct</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. create</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. delete</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. detachProduct</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. get</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. getIamPolicy</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. list</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. update</code></p>
+<p><code>cloudprivatecatalogproducer. products. create</code></p>
+<p><code>cloudprivatecatalogproducer. products. delete</code></p>
+<p><code>cloudprivatecatalogproducer. products. get</code></p>
+<p><code>cloudprivatecatalogproducer. products. getIamPolicy</code></p>
+<p><code>cloudprivatecatalogproducer. products. list</code></p>
+<p><code>cloudprivatecatalogproducer. products. update</code></p>
+<p><code>cloudprivatecatalogproducer. settings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  settings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  settings.  update</code></li>
+<li><code>cloudprivatecatalogproducer. settings. get</code></li>
+<li><code>cloudprivatecatalogproducer. settings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.*</code></p>
+<p><code>cloudprivatecatalogproducer. targets.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.  associate</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.  unassociate</code></li>
+<li><code>cloudprivatecatalogproducer. targets. associate</code></li>
+<li><code>cloudprivatecatalogproducer. targets. unassociate</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.viewer" class="role-title add-link" data-text="Catalog Viewer Beta" tabindex="-1">Catalog Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
+<td>Catalog Viewer <sup>Beta</sup>
+<p>( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
 <p>Viewer role for Cloud Private Catalog</p></td>
-<td><p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  list</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  list</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  list</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  list</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  list</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  settings.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudprivatecatalogproducer. associations. get</code></p>
+<p><code>cloudprivatecatalogproducer. associations. list</code></p>
+<p><code>cloudprivatecatalogproducer. catalogAssociations. get</code></p>
+<p><code>cloudprivatecatalogproducer. catalogAssociations. list</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs. get</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs. getIamPolicy</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs. list</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. get</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. getIamPolicy</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. list</code></p>
+<p><code>cloudprivatecatalogproducer. products. get</code></p>
+<p><code>cloudprivatecatalogproducer. products. getIamPolicy</code></p>
+<p><code>cloudprivatecatalogproducer. products. list</code></p>
+<p><code>cloudprivatecatalogproducer. settings. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalog.consumer" class="role-title add-link" data-text="Catalog Consumer Beta" tabindex="-1">Catalog Consumer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudprivatecatalog.consumer</code> )</p>
+<td>Catalog Consumer <sup>Beta</sup>
+<p>( <code>roles/ cloudprivatecatalog.consumer</code> )</p>
 <p>Can browse catalogs in the target resource context.</p></td>
-<td><p><code dir="ltr" translate="no">cloudprivatecatalog.  targets.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudprivatecatalog. targets. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.manager" class="role-title add-link" data-text="Catalog Manager Beta" tabindex="-1">Catalog Manager <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
+<td>Catalog Manager <sup>Beta</sup>
+<p>( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
 <p>Can manage associations between a catalog and a target resource.</p></td>
-<td><p><code dir="ltr" translate="no">cloudprivatecatalog.  targets.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.*</code></p>
+<td><p><code>cloudprivatecatalog. targets. get</code></p>
+<p><code>cloudprivatecatalogproducer. associations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  list</code></li>
+<li><code>cloudprivatecatalogproducer. associations. create</code></li>
+<li><code>cloudprivatecatalogproducer. associations. delete</code></li>
+<li><code>cloudprivatecatalogproducer. associations. get</code></li>
+<li><code>cloudprivatecatalogproducer. associations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.*</code></p>
+<p><code>cloudprivatecatalogproducer. catalogAssociations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  list</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. create</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. delete</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. get</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  list</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  list</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.*</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs. get</code></p>
+<p><code>cloudprivatecatalogproducer. catalogs. list</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. get</code></p>
+<p><code>cloudprivatecatalogproducer. producerCatalogs. list</code></p>
+<p><code>cloudprivatecatalogproducer. targets.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.  associate</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.  unassociate</code></li>
+<li><code>cloudprivatecatalogproducer. targets. associate</code></li>
+<li><code>cloudprivatecatalogproducer. targets. unassociate</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.folders.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.folders.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.folders.get</code></p>
+<p><code>resourcemanager.folders.list</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.orgAdmin" class="role-title add-link" data-text="Catalog Org Admin Beta" tabindex="-1">Catalog Org Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<td>Catalog Org Admin <sup>Beta</sup>
+<p>( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
 <p>Can manage catalog org settings.</p></td>
-<td><p><code dir="ltr" translate="no">cloudprivatecatalog.  targets.  get</code></p>
-<p><code dir="ltr" translate="no">cloudprivatecatalogproducer.*</code></p>
+<td><p><code>cloudprivatecatalog. targets. get</code></p>
+<p><code>cloudprivatecatalogproducer.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  list</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  list</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  list</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  undelete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  update</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  attachProduct</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  detachProduct</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  list</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  update</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  create</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  list</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  update</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  settings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  settings.  update</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.  associate</code></li>
-<li><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.  unassociate</code></li>
+<li><code>cloudprivatecatalogproducer. associations. create</code></li>
+<li><code>cloudprivatecatalogproducer. associations. delete</code></li>
+<li><code>cloudprivatecatalogproducer. associations. get</code></li>
+<li><code>cloudprivatecatalogproducer. associations. list</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. create</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. delete</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. get</code></li>
+<li><code>cloudprivatecatalogproducer. catalogAssociations. list</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. create</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. delete</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. get</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. getIamPolicy</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. list</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. setIamPolicy</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. undelete</code></li>
+<li><code>cloudprivatecatalogproducer. catalogs. update</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. attachProduct</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. create</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. delete</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. detachProduct</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. get</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. getIamPolicy</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. list</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. setIamPolicy</code></li>
+<li><code>cloudprivatecatalogproducer. producerCatalogs. update</code></li>
+<li><code>cloudprivatecatalogproducer. products. create</code></li>
+<li><code>cloudprivatecatalogproducer. products. delete</code></li>
+<li><code>cloudprivatecatalogproducer. products. get</code></li>
+<li><code>cloudprivatecatalogproducer. products. getIamPolicy</code></li>
+<li><code>cloudprivatecatalogproducer. products. list</code></li>
+<li><code>cloudprivatecatalogproducer. products. setIamPolicy</code></li>
+<li><code>cloudprivatecatalogproducer. products. update</code></li>
+<li><code>cloudprivatecatalogproducer. settings. get</code></li>
+<li><code>cloudprivatecatalogproducer. settings. update</code></li>
+<li><code>cloudprivatecatalogproducer. targets. associate</code></li>
+<li><code>cloudprivatecatalogproducer. targets. unassociate</code></li>
 </ul>
-<p><code dir="ltr" translate="no">commerceorggovernance.  organizationSettings.*</code></p>
+<p><code>commerceorggovernance. organizationSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">commerceorggovernance.  organizationSettings.  get</code></li>
-<li><code dir="ltr" translate="no">commerceorggovernance.  organizationSettings.  update</code></li>
+<li><code>commerceorggovernance. organizationSettings. get</code></li>
+<li><code>commerceorggovernance. organizationSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.folders.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.folders.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.folders.get</code></p>
+<p><code>resourcemanager.folders.list</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -289,473 +289,473 @@ This page lists the IAM roles and permissions for Service Catalog. To search thr
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalog.targets.get" class="permission-name add-link" data-text="cloudprivatecatalog.targets.get" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalog.  targets.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalog.admin">Cloudprivatecatalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalog.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalog.viewer">Cloudprivatecatalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalog.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalog.consumer">Catalog Consumer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalog.consumer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudprivatecatalog. targets. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalog.admin">Cloudprivatecatalog Admin</a> ( <code>roles/ cloudprivatecatalog.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalog.viewer">Cloudprivatecatalog Viewer</a> ( <code>roles/ cloudprivatecatalog.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalog.consumer">Catalog Consumer</a> ( <code>roles/ cloudprivatecatalog.consumer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code>roles/ clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.associations.create" class="permission-name add-link" data-text="cloudprivatecatalogproducer.associations.create" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. associations. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.associations.delete" class="permission-name add-link" data-text="cloudprivatecatalogproducer.associations.delete" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. associations. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.associations.get" class="permission-name add-link" data-text="cloudprivatecatalogproducer.associations.get" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. associations. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.associations.list" class="permission-name add-link" data-text="cloudprivatecatalogproducer.associations.list" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  associations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. associations. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.catalogAssociations.create" class="permission-name add-link" data-text="cloudprivatecatalogproducer.catalogAssociations.create" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. catalogAssociations. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.catalogAssociations.delete" class="permission-name add-link" data-text="cloudprivatecatalogproducer.catalogAssociations.delete" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. catalogAssociations. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.catalogAssociations.get" class="permission-name add-link" data-text="cloudprivatecatalogproducer.catalogAssociations.get" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. catalogAssociations. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.catalogAssociations.list" class="permission-name add-link" data-text="cloudprivatecatalogproducer.catalogAssociations.list" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogAssociations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. catalogAssociations. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.catalogs.create" class="permission-name add-link" data-text="cloudprivatecatalogproducer.catalogs.create" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. catalogs. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.catalogs.delete" class="permission-name add-link" data-text="cloudprivatecatalogproducer.catalogs.delete" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. catalogs. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.catalogs.get" class="permission-name add-link" data-text="cloudprivatecatalogproducer.catalogs.get" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. catalogs. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.catalogs.getIamPolicy" class="permission-name add-link" data-text="cloudprivatecatalogproducer.catalogs.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. catalogs. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.catalogs.list" class="permission-name add-link" data-text="cloudprivatecatalogproducer.catalogs.list" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. catalogs. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.catalogs.setIamPolicy" class="permission-name add-link" data-text="cloudprivatecatalogproducer.catalogs.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. catalogs. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.catalogs.undelete" class="permission-name add-link" data-text="cloudprivatecatalogproducer.catalogs.undelete" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  undelete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. catalogs. undelete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.catalogs.update" class="permission-name add-link" data-text="cloudprivatecatalogproducer.catalogs.update" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  catalogs.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. catalogs. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.producerCatalogs.attachProduct" class="permission-name add-link" data-text="cloudprivatecatalogproducer.producerCatalogs.attachProduct" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  attachProduct</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. producerCatalogs. attachProduct</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.producerCatalogs.create" class="permission-name add-link" data-text="cloudprivatecatalogproducer.producerCatalogs.create" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. producerCatalogs. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.producerCatalogs.delete" class="permission-name add-link" data-text="cloudprivatecatalogproducer.producerCatalogs.delete" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. producerCatalogs. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.producerCatalogs.detachProduct" class="permission-name add-link" data-text="cloudprivatecatalogproducer.producerCatalogs.detachProduct" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  detachProduct</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. producerCatalogs. detachProduct</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.producerCatalogs.get" class="permission-name add-link" data-text="cloudprivatecatalogproducer.producerCatalogs.get" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. producerCatalogs. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.producerCatalogs.getIamPolicy" class="permission-name add-link" data-text="cloudprivatecatalogproducer.producerCatalogs.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. producerCatalogs. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.producerCatalogs.list" class="permission-name add-link" data-text="cloudprivatecatalogproducer.producerCatalogs.list" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. producerCatalogs. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.producerCatalogs.setIamPolicy" class="permission-name add-link" data-text="cloudprivatecatalogproducer.producerCatalogs.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. producerCatalogs. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.producerCatalogs.update" class="permission-name add-link" data-text="cloudprivatecatalogproducer.producerCatalogs.update" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  producerCatalogs.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. producerCatalogs. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.products.create" class="permission-name add-link" data-text="cloudprivatecatalogproducer.products.create" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. products. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.products.delete" class="permission-name add-link" data-text="cloudprivatecatalogproducer.products.delete" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. products. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.products.get" class="permission-name add-link" data-text="cloudprivatecatalogproducer.products.get" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. products. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.products.getIamPolicy" class="permission-name add-link" data-text="cloudprivatecatalogproducer.products.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. products. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.products.list" class="permission-name add-link" data-text="cloudprivatecatalogproducer.products.list" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. products. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.products.setIamPolicy" class="permission-name add-link" data-text="cloudprivatecatalogproducer.products.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. products. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.products.update" class="permission-name add-link" data-text="cloudprivatecatalogproducer.products.update" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  products.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. products. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.settings.get" class="permission-name add-link" data-text="cloudprivatecatalogproducer.settings.get" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  settings.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. settings. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.viewer">Catalog Viewer</a> ( <code>roles/ cloudprivatecatalogproducer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.settings.update" class="permission-name add-link" data-text="cloudprivatecatalogproducer.settings.update" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  settings.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. settings. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprivatecatalogproducer.targets.associate" class="permission-name add-link" data-text="cloudprivatecatalogproducer.targets.associate" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.  associate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. targets. associate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprivatecatalogproducer.targets.unassociate" class="permission-name add-link" data-text="cloudprivatecatalogproducer.targets.unassociate" tabindex="-1"><code dir="ltr" translate="no">cloudprivatecatalogproducer.  targets.  unassociate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.orgAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudprivatecatalogproducer. targets. unassociate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code>roles/ cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.editor">Catalog Editor</a> ( <code>roles/ cloudprivatecatalogproducer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.manager">Catalog Manager</a> ( <code>roles/ cloudprivatecatalogproducer.manager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.orgAdmin">Catalog Org Admin</a> ( <code>roles/ cloudprivatecatalogproducer.orgAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

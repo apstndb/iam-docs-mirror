@@ -26,17 +26,17 @@ The IAM recommender generates policy insights by comparing a principal's total n
 
 There are a few ways in which a principal can use a permission:
 
-  - *Directly* , by calling an API that requires the permission
-    
-    For example, the [`roles.list` method](https://docs.cloud.google.com/iam/docs/reference/rest/v1/roles/list) in the IAM REST API requires the `iam.roles.list` permission. When you call the `roles.list` method, you use the `iam.roles.list` permission.
-    
-    Similarly, when you call the `testIamPermissions` method for a resource, you effectively use all of the permissions that you are testing.
+- *Directly* , by calling an API that requires the permission
 
-  - *Indirectly* , by using the Google Cloud console to work with Google Cloud resources
-    
-    For example, in the Google Cloud console, you can edit a Compute Engine virtual machine (VM) instance, which requires different permissions based on which settings you change. However, the Google Cloud console also displays the existing settings, which requires the `compute.instances.get` permission.
-    
-    As a result, when you edit a VM instance in the Google Cloud console, you use the `compute.instances.get` permission.
+  For example, the [`roles.list` method](https://docs.cloud.google.com/iam/docs/reference/rest/v1/roles/list) in the IAM REST API requires the `iam.roles.list` permission. When you call the `roles.list` method, you use the `iam.roles.list` permission.
+
+  Similarly, when you call the `testIamPermissions` method for a resource, you effectively use all of the permissions that you are testing.
+
+- *Indirectly* , by using the Google Cloud console to work with Google Cloud resources
+
+  For example, in the Google Cloud console, you can edit a Compute Engine virtual machine (VM) instance, which requires different permissions based on which settings you change. However, the Google Cloud console also displays the existing settings, which requires the `compute.instances.get` permission.
+
+  As a result, when you edit a VM instance in the Google Cloud console, you use the `compute.instances.get` permission.
 
 To determine the permissions that the principal used, the IAM recommender uses aggregated IAM access data. To learn how to export the data that IAM recommender uses for these insights, see [Export data for role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/export-role-recommendations-data) .
 
@@ -52,9 +52,9 @@ In some cases, a principal is likely to need certain permissions that are includ
 
 This machine learning model is trained on multiple sets of signals:
 
-  - **Common co-occurrence patterns in the observed history** : The fact that a user used permission A, B, and C in the past provides a hint that A, B, and C might be related in some way and that they are needed together to carry out a task on Google Cloud. If the ML model observes this pattern frequently enough, the next time a different user uses permission A and B, the model will suggest that the user might need permission C as well.
+- **Common co-occurrence patterns in the observed history** : The fact that a user used permission A, B, and C in the past provides a hint that A, B, and C might be related in some way and that they are needed together to carry out a task on Google Cloud. If the ML model observes this pattern frequently enough, the next time a different user uses permission A and B, the model will suggest that the user might need permission C as well.
 
-  - **Domain knowledge as encoded in the role definitions** : IAM provides hundreds of different predefined roles that are service-specific. If a predefined role contains a set of permissions, it is a strong signal that those permissions should be granted together.
+- **Domain knowledge as encoded in the role definitions** : IAM provides hundreds of different predefined roles that are service-specific. If a predefined role contains a set of permissions, it is a strong signal that those permissions should be granted together.
 
 In addition to these signals, the model also uses [word embedding](https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture) to calculate how semantically similar the permissions are. Semantically similar permissions will be "close" to each other after embedding, and more likely to be granted together. For example, `bigquery.datasets.get` and `bigquery.tables.list` will be very close to each other after embedding.
 
@@ -94,8 +94,8 @@ The IAM recommender recommends new custom roles only for roles granted on a proj
 
 Additionally, the IAM recommender doesn't recommend new custom roles in the following cases:
 
-  - Your organization already has 100 or more custom roles.
-  - Your project already has 25 or more custom roles.
+- Your organization already has 100 or more custom roles.
+- Your project already has 25 or more custom roles.
 
 The IAM recommender recommends no more than 5 new custom roles per day in each project, and no more than 15 new custom roles across the entire organization.
 
@@ -107,16 +107,16 @@ These permissions can result in a chain of impersonations across projects that g
 
 The IAM recommender generates lateral movement insights by identifying roles that fit the following criteria:
 
-  - The principal that was granted the role is a service account that was *not* created in the project.
+- The principal that was granted the role is a service account that was *not* created in the project.
 
-  - The role includes one of the following permissions, which allow a principal to impersonate a service account:
-    
-      - `iam.serviceAccounts.actAs`
-      - `iam.serviceAccounts.getAccessToken`
-      - `iam.serviceAccounts.getOpenIdToken`
-      - `iam.serviceAccounts.implicitDelegation`
-      - `iam.serviceAccounts.signBlob`
-      - `iam.serviceAccounts.signJwt`
+- The role includes one of the following permissions, which allow a principal to impersonate a service account:
+
+  - `iam.serviceAccounts.actAs`
+  - `iam.serviceAccounts.getAccessToken`
+  - `iam.serviceAccounts.getOpenIdToken`
+  - `iam.serviceAccounts.implicitDelegation`
+  - `iam.serviceAccounts.signBlob`
+  - `iam.serviceAccounts.signJwt`
 
 If a role fits these criteria, the IAM recommender generates a lateral movement insight for the role. This insight contains information about the service account's impersonation abilities, including which service accounts it can impersonate and whether it used any impersonation permissions in the last 90 days.
 
@@ -129,60 +129,60 @@ To learn how to manage lateral movement insights, see [Manage lateral movement i
 Policy insights, lateral movement insights, and role recommendations aren't generated for all roles that are granted to principals. Read the following sections to understand the roles that policy insights, lateral movement insights, and recommendations are generated for.
 
 > **Note:** If your project is inactive, the IAM recommender will not generate policy insights or role recommendations for your project. It will start generating policy insights and role recommendations again if your project becomes active.
-> 
+>
 > We use machine learning to determine if a project is active. Your project will never be marked as inactive if you have viewed or updated your project's or organization's allow policies in the past 50 days.
 
 ### Policy insight availability
 
 For the IAM recommender to generate a policy insight for a role, the following must be true:
 
-  - The IAM allow policy that grants the role must be attached to one of the following resources:
-    
-    > **Preview — Policy insights for BigQuery datasets**
-    > 
-    > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
-    
-      - Cloud Storage bucket
-      - BigQuery dataset
-      - Project
-      - Folder
-      - Organization
-    
-    The IAM recommender only generates policy insights for roles that are granted on these resources.
+- The IAM allow policy that grants the role must be attached to one of the following resources:
 
-  - The role binding that grants the role must *not* have a condition. The IAM recommender does not generate policy insights for [conditional role bindings](https://docs.cloud.google.com/iam/docs/conditions-overview) .
+  > **Preview — Policy insights for BigQuery datasets**
+  >
+  > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-  - The principal that's granted the role needs to be one of the following principal types:
-    
-      - User
-    
-      - Service account
-    
-      - Group
-    
-      - `allUsers`
-    
-      - `allAuthenticatedUsers`
-    
-      - [Cloud Storage convenience values](https://docs.cloud.google.com/storage/docs/access-control/iam#convenience-values)
-    
-      - [BigQuery special group membership](https://docs.cloud.google.com/bigquery/docs/access-control-basic-roles)
-    
-      - One of the following types of federated identities:
-        
-          - All identities in a workload identity pool
-        
-          - Single identity in a workload identity pool
-        
-          - All identities in a workforce identity pool
-        
-          - Single identity in a workforce identity pool
-        
-          - All Google Kubernetes Engine Pods that use a specific Kubernetes service account
-            
-            > **Note:** For the IAM recommender to generate policy insights for this principal type, the principal identifier must use the Kubernetes service account's name, not its UID. For more information about principal identifiers for this principal type, see [Reference Kubernetes resources in IAM policies](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/workload-identity#kubernetes-resources-iam-policies) .
-    
-    For details about the identifier format for each principal type, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
+  - Cloud Storage bucket
+  - BigQuery dataset
+  - Project
+  - Folder
+  - Organization
+
+  The IAM recommender only generates policy insights for roles that are granted on these resources.
+
+- The role binding that grants the role must *not* have a condition. The IAM recommender does not generate policy insights for [conditional role bindings](https://docs.cloud.google.com/iam/docs/conditions-overview) .
+
+- The principal that's granted the role needs to be one of the following principal types:
+
+  - User
+
+  - Service account
+
+  - Group
+
+  - `allUsers`
+
+  - `allAuthenticatedUsers`
+
+  - [Cloud Storage convenience values](https://docs.cloud.google.com/storage/docs/access-control/iam#convenience-values)
+
+  - [BigQuery special group membership](https://docs.cloud.google.com/bigquery/docs/access-control-basic-roles)
+
+  - One of the following types of federated identities:
+
+    - All identities in a workload identity pool
+
+    - Single identity in a workload identity pool
+
+    - All identities in a workforce identity pool
+
+    - Single identity in a workforce identity pool
+
+    - All Google Kubernetes Engine Pods that use a specific Kubernetes service account
+
+      > **Note:** For the IAM recommender to generate policy insights for this principal type, the principal identifier must use the Kubernetes service account's name, not its UID. For more information about principal identifiers for this principal type, see [Reference Kubernetes resources in IAM policies](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/workload-identity#kubernetes-resources-iam-policies) .
+
+  For details about the identifier format for each principal type, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
 It can take up to 15 days for the IAM recommender to generate policy insights for a newly granted role.
 
@@ -190,30 +190,30 @@ It can take up to 15 days for the IAM recommender to generate policy insights fo
 
 Lateral movement insights are generated for roles that are granted on the following resources:
 
-  - Organizations
-  - Folders
-  - Projects
-  - Service accounts
+- Organizations
+- Folders
+- Projects
+- Service accounts
 
 ### Role recommendation availability
 
 For the IAM recommender to generate a role recommendation for a role, the following must be true:
 
-  - The role must have a policy insight associated with it. This policy insight serves as the basis for the recommendation.
-  - It must have been longer than the [minimum observation period](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#observation-period) since the role was granted. This ensures that the IAM recommender has enough usage data to make a recommendation. By default, the minimum observation period is 90 days, but you can manually set it to 30 days or 60 days. For details, see [Configure role recommendation generation](https://docs.cloud.google.com/policy-intelligence/docs/configure-role-recommendations) .
-  - If the principal that's granted the role is a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , the role must be Owner, Editor, or Viewer. The IAM recommender doesn't generate role recommendations for service agents with other roles. For more details, see [Role recommendations for service agents](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#service-agents) .
+- The role must have a policy insight associated with it. This policy insight serves as the basis for the recommendation.
+- It must have been longer than the [minimum observation period](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#observation-period) since the role was granted. This ensures that the IAM recommender has enough usage data to make a recommendation. By default, the minimum observation period is 90 days, but you can manually set it to 30 days or 60 days. For details, see [Configure role recommendation generation](https://docs.cloud.google.com/policy-intelligence/docs/configure-role-recommendations) .
+- If the principal that's granted the role is a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , the role must be Owner, Editor, or Viewer. The IAM recommender doesn't generate role recommendations for service agents with other roles. For more details, see [Role recommendations for service agents](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#service-agents) .
 
 If a role was granted too recently or doesn't have any insights, the **Analyzed permissions** column in the Google Cloud console shows a help icon.
 
 There are some cases where the IAM recommender doesn't generate role recommendations for a role, even though enough time has passed and the role has an insight associated with it. This can happen for the following reasons:
 
-  - **There are no predefined IAM roles that are more appropriate than the current role.** If a principal already has a predefined role that minimizes their permissions, or that includes fewer permissions than other predefined roles, then the IAM recommender cannot recommend a different predefined role.
-    
-    You might be able to reduce the principal's permissions by creating a [custom role](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) for the principal.
+- **There are no predefined IAM roles that are more appropriate than the current role.** If a principal already has a predefined role that minimizes their permissions, or that includes fewer permissions than other predefined roles, then the IAM recommender cannot recommend a different predefined role.
 
-  - **The principal is a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , and the role is not a basic role.** The IAM recommender only generates role recommendations for service agents that have a basic role (Owner, Editor, or Viewer). For more details, see [Role recommendations for service agents](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#service-agents) .
+  You might be able to reduce the principal's permissions by creating a [custom role](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) for the principal.
 
-  - **No other principal has the Owner basic role for the project.** At least one principal must have the Owner role ( `roles/owner` ) for each project. If only one principal has this role, the IAM recommender will not recommend that you revoke or replace the role.
+- **The principal is a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , and the role is not a basic role.** The IAM recommender only generates role recommendations for service agents that have a basic role (Owner, Editor, or Viewer). For more details, see [Role recommendations for service agents](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#service-agents) .
+
+- **No other principal has the Owner basic role for the project.** At least one principal must have the Owner role ( `roles/owner` ) for each project. If only one principal has this role, the IAM recommender will not recommend that you revoke or replace the role.
 
 In these cases, the **Analyzed permissions** column in the Google Cloud console shows the principal's permission usage, but does not have a **Recommendation available** ![](https://docs.cloud.google.com/static/policy-intelligence/img/recommender-yes.svg) icon.
 
@@ -230,7 +230,7 @@ Recommendations are assigned priority levels based their perceived urgency. Prio
 A role recommendation's priority depends on the role that the recommendation is for:
 
 | Recommendation details                                                                                             | Priority | Explanation                                                                                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------------------------------------------------------------------------------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Recommendations for roles that grant public access to Cloud Storage buckets                                        | `P1`     | Publicly accessible buckets can be accessed by anyone on the internet. Removing public access gives you more control over your data.                                    |
 | Recommendations for roles that grant public access to BigQuery datasets                                            | `P1`     | Publicly accessible datasets can be accessed by anyone on the internet. Removing public access gives you more control over your data.                                   |
 | Recommendations for basic roles (Owner, Editor, and Viewer) that are granted on a project, folder, or organization | `P2`     | Basic roles are highly permissive, and applying recommendations for these roles can greatly reduce excess permissions.                                                  |
@@ -243,7 +243,7 @@ Insights are assigned severity levels based their perceived urgency. Severity le
 A policy insight's severity depends on the role that the insight is for:
 
 | Insight details                                                                                             | Severity   | Explanation                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Insights for roles that grant public access to Cloud Storage buckets                                        | `CRITICAL` | Publicly accessible buckets can be accessed by anyone on the internet. Removing public access gives you more control over your data.                        |
 | Insights for roles that grant public access to BigQuery datasets                                            | `CRITICAL` | Publicly accessible datasets can be accessed by anyone on the internet. Removing public access gives you more control over your data.                       |
 | Insights for basic roles (Owner, Editor, and Viewer) that are granted on a project, folder, or organization | `HIGH`     | Basic roles are highly permissive, and addressing insights for these roles can greatly reduce excess permissions.                                           |
@@ -257,11 +257,11 @@ The IAM recommender does not apply recommendations automatically. Instead, you m
 
 You can address recommendations in several ways:
 
-  - **Apply or dismiss recommendations** : You can apply recommendations to replace or remove roles, or dismiss recommendations that you don't want to apply. To learn how to review, apply, and dismiss recommendations, see one of the following guides:
-      - [Review and apply role recommendations for projects, folders, and organizations](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations)
-      - [Review and apply role recommendations for Cloud Storage buckets](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-buckets)
-      - [Review and apply role recommendations for BigQuery datasets](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-datasets)
-  - **Remediate with Privileged Access Manager** : If you receive a recommendation to remove or replace a role for a group, you can remediate the excessive permissions by replacing the permanent role with a Privileged Access Manager entitlement that provides temporary, on-demand access. For details, see [Remediate excessive permissions with Privileged Access Manager](https://docs.cloud.google.com/iam/docs/pam-remediate-iam-recommendations) . This feature is in ( [Preview](https://cloud.google.com/products#product-launch-stages) ).
+- **Apply or dismiss recommendations** : You can apply recommendations to replace or remove roles, or dismiss recommendations that you don't want to apply. To learn how to review, apply, and dismiss recommendations, see one of the following guides:
+  - [Review and apply role recommendations for projects, folders, and organizations](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations)
+  - [Review and apply role recommendations for Cloud Storage buckets](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-buckets)
+  - [Review and apply role recommendations for BigQuery datasets](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-datasets)
+- **Remediate with Privileged Access Manager** : If you receive a recommendation to remove or replace a role for a group, you can remediate the excessive permissions by replacing the permanent role with a Privileged Access Manager entitlement that provides temporary, on-demand access. For details, see [Remediate excessive permissions with Privileged Access Manager](https://docs.cloud.google.com/iam/docs/pam-remediate-iam-recommendations) . This feature is in ( [Preview](https://cloud.google.com/products#product-launch-stages) ).
 
 ## Audit logging
 
@@ -270,13 +270,13 @@ When you apply or dismiss a recommendation, the IAM recommender creates a log en
 ## Role recommendation subtypes
 
 > **Preview**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 Role recommendations are split into several different subtypes based on the action they recommend. If you use the gcloud CLI or the REST API, you can use these subtypes to filter your recommendations.
 
 | Subtype                              | Description                                                                                                                                                                                                                                                                                                                                     |
-| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `REMOVE_ROLE`                        | A recommendation to remove the principal's project-level, folder-level, or organization-level role.                                                                                                                                                                                                                                             |
 | `REMOVE_ROLE_BIGQUERY_DATASET`       | A recommendation to remove the principal's dataset-level role.                                                                                                                                                                                                                                                                                  |
 | `REMOVE_ROLE_STORAGE_BUCKET`         | A recommendation to remove the principal's bucket-level role.                                                                                                                                                                                                                                                                                   |
@@ -286,8 +286,6 @@ Role recommendations are split into several different subtypes based on the acti
 | `REPLACE_ROLE_STORAGE_BUCKET`        | A recommendation to replace the principal's bucket-level role with a less permissive role. The recommended replacement could be an existing custom role or one or more predefined roles.                                                                                                                                                        |
 | `SERVICE_AGENT_WITH_DEFAULT_ROLE`    | A recommendation to replace a service agent's Owner, Editor, or Viewer role with the role that was automatically granted to the service account when it was created. For more information, see [Role recommendations for service agents](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#service-agents) . |
 | `SERVICE_AGENT_WITHOUT_DEFAULT_ROLE` | A recommendation to replace a service agent's Owner, Editor, or Viewer role with a less permissive role. For more information, see [Role recommendations for service agents](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#service-agents) .                                                             |
-
-<span id="google-managed-sa"></span>
 
 ### Role recommendations for service agents
 
@@ -309,25 +307,12 @@ If a service agent is not automatically granted a role on creation, recommendati
 
 If you have the Premium or Enterprise tier of Security Command Center, you can view some subtypes of role recommendations as findings in Security Command Center. Each subtype is associated with a detector:
 
-Recommendation subtype
-
-Finding category
-
-`REMOVE_ROLE`
-
-`Unused IAM role`
-
-`REPLACE_ROLE`
-
-`IAM role has excessive permissions`
-
-`SERVICE_AGENT_WITH_DEFAULT_ROLE`
-
-`Service agent role replaced with basic role`
-
-`SERVICE_AGENT_WITHOUT_DEFAULT_ROLE`
-
-`Service agent granted basic role`
+| Recommendation subtype               | Finding category                              |
+|--------------------------------------|-----------------------------------------------|
+| `REMOVE_ROLE`                        | `Unused IAM role`                             |
+| `REPLACE_ROLE`                       | `IAM role has excessive permissions`          |
+| `SERVICE_AGENT_WITH_DEFAULT_ROLE`    | `Service agent role replaced with basic role` |
+| `SERVICE_AGENT_WITHOUT_DEFAULT_ROLE` | `Service agent granted basic role`            |
 
 For more information about viewing role recommendations in Security Command Center, see [IAM recommender](https://docs.cloud.google.com/security-command-center/docs/concepts-security-sources#iamrec-source) in the Security Command Center documentation.
 
@@ -337,11 +322,11 @@ Project-level, folder-level, and organization-level role recommendations for bas
 
 The following advanced IAM recommender features are available with project-level or organization-level activations of [the Premium or Enterprise tier of Security Command Center](https://docs.cloud.google.com/security-command-center/pricing#security-command-center-pricing) :
 
-  - Recommendations for non-basic roles
-  - Recommendations for roles granted on resources other than organizations, folders, and projects—for example, recommendations for roles granted on Cloud Storage buckets
-  - Recommendations that suggest custom roles
-  - Policy insights
-  - Lateral movement insights
+- Recommendations for non-basic roles
+- Recommendations for roles granted on resources other than organizations, folders, and projects—for example, recommendations for roles granted on Cloud Storage buckets
+- Recommendations that suggest custom roles
+- Policy insights
+- Lateral movement insights
 
 For more information, see [Billing questions](https://docs.cloud.google.com/policy-intelligence/docs/billing-questions) .
 
@@ -363,105 +348,109 @@ Therefore, the IAM recommender generates a role recommendation suggesting that y
 
 ### gcloud
 
+```
+{
+  "associatedInsights": [
     {
-      "associatedInsights": [
-        {
-          "insight": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/86c14538-dcfd-4326-afe5-ee8ac921e06a"
-        }
-      ],
-      "content": {
-        "operationGroups": [
+      "insight": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/86c14538-dcfd-4326-afe5-ee8ac921e06a"
+    }
+  ],
+  "content": {
+    "operationGroups": [
+      {
+        "operations": [
           {
-            "operations": [
-              {
-                "action": "remove",
-                "path": "/iamPolicy/bindings/*/members/*",
-                "pathFilters": {
-                  "/iamPolicy/bindings/*/condition/expression": "",
-                  "/iamPolicy/bindings/*/members/*": "user:my-user@example.com",
-                  "/iamPolicy/bindings/*/role": "roles/browser"
-                },
-                "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-                "resourceType": "cloudresourcemanager.googleapis.com/Project"
-              }
-            ]
+            "action": "remove",
+            "path": "/iamPolicy/bindings/*/members/*",
+            "pathFilters": {
+              "/iamPolicy/bindings/*/condition/expression": "",
+              "/iamPolicy/bindings/*/members/*": "user:my-user@example.com",
+              "/iamPolicy/bindings/*/role": "roles/browser"
+            },
+            "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+            "resourceType": "cloudresourcemanager.googleapis.com/Project"
           }
-        ],
-        "overview": {
-          "member": "user:my-user@example.com",
-          "removedRole": "roles/browser",
-          "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012"
-        }
-      },
-      "description": "This role has not been used during the observation window.",
-      "etag": "\"9fc3241da8bfab51\"",
-      "lastRefreshTime": "2022-05-20T07:00:00Z",
-      "name": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/fe512038-5455-49g1-8f9c-752e31c8c154",
-      "primaryImpact": {
-        "category": "SECURITY",
-        "securityProjection": {
-          "details": {
-            "revokedIamPermissionsCount": 6
-          }
-        }
-      },
-      "priority": "P4",
-      "recommenderSubtype": "REMOVE_ROLE",
-      "stateInfo": {
-        "state": "ACTIVE"
+        ]
+      }
+    ],
+    "overview": {
+      "member": "user:my-user@example.com",
+      "removedRole": "roles/browser",
+      "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012"
+    }
+  },
+  "description": "This role has not been used during the observation window.",
+  "etag": "\"9fc3241da8bfab51\"",
+  "lastRefreshTime": "2022-05-20T07:00:00Z",
+  "name": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/fe512038-5455-49g1-8f9c-752e31c8c154",
+  "primaryImpact": {
+    "category": "SECURITY",
+    "securityProjection": {
+      "details": {
+        "revokedIamPermissionsCount": 6
       }
     }
+  },
+  "priority": "P4",
+  "recommenderSubtype": "REMOVE_ROLE",
+  "stateInfo": {
+    "state": "ACTIVE"
+  }
+}
+```
 
 ### REST
 
-    {
-      "name": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/fe512038-5455-49g1-8f9c-752e31c8c154",
-      "description": "This role has not been used during the observation window.",
-      "lastRefreshTime": "2022-05-20T07:00:00Z",
-      "primaryImpact": {
-        "category": "SECURITY",
-        "securityProjection": {
-          "details": {
-            "revokedIamPermissionsCount": 6
-          }
-        }
-      },
-      "content": {
-        "operationGroups": [
-          {
-            "operations": [
-              {
-                "action": "remove",
-                "resourceType": "cloudresourcemanager.googleapis.com/Project",
-                "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-                "path": "/iamPolicy/bindings/*/members/*",
-                "pathFilters": {
-                  "/iamPolicy/bindings/*/condition/expression": "",
-                  "/iamPolicy/bindings/*/members/*": "user:my-user@example.com",
-                  "/iamPolicy/bindings/*/role": "roles/browser"
-                }
-              }
-            ]
-          }
-        ],
-        "overview": {
-          "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-          "member": "user:my-user@example.com",
-          "removedRole": "roles/browser"
-        }
-      },
-      "stateInfo": {
-        "state": "ACTIVE"
-      },
-      "etag": "\"9fc3241da8bfab51\"",
-      "recommenderSubtype": "REMOVE_ROLE",
-      "associatedInsights": [
-        {
-          "insight": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/86c14538-dcfd-4326-afe5-ee8ac921e06a"
-        }
-      ],
-      "priority": "P4"
+```
+{
+  "name": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/fe512038-5455-49g1-8f9c-752e31c8c154",
+  "description": "This role has not been used during the observation window.",
+  "lastRefreshTime": "2022-05-20T07:00:00Z",
+  "primaryImpact": {
+    "category": "SECURITY",
+    "securityProjection": {
+      "details": {
+        "revokedIamPermissionsCount": 6
+      }
     }
+  },
+  "content": {
+    "operationGroups": [
+      {
+        "operations": [
+          {
+            "action": "remove",
+            "resourceType": "cloudresourcemanager.googleapis.com/Project",
+            "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+            "path": "/iamPolicy/bindings/*/members/*",
+            "pathFilters": {
+              "/iamPolicy/bindings/*/condition/expression": "",
+              "/iamPolicy/bindings/*/members/*": "user:my-user@example.com",
+              "/iamPolicy/bindings/*/role": "roles/browser"
+            }
+          }
+        ]
+      }
+    ],
+    "overview": {
+      "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+      "member": "user:my-user@example.com",
+      "removedRole": "roles/browser"
+    }
+  },
+  "stateInfo": {
+    "state": "ACTIVE"
+  },
+  "etag": "\"9fc3241da8bfab51\"",
+  "recommenderSubtype": "REMOVE_ROLE",
+  "associatedInsights": [
+    {
+      "insight": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/86c14538-dcfd-4326-afe5-ee8ac921e06a"
+    }
+  ],
+  "priority": "P4"
+}
+```
 
 ### Replace an existing role
 
@@ -477,159 +466,163 @@ Therefore, the IAM recommender generates a role recommendation suggesting that y
 
 ### gcloud
 
+```
+{
+  "associatedInsights": [
     {
-      "associatedInsights": [
-        {
-          "insight": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/3d4ef3d6-bdf0-4330-975d-c65cb929c44d"
-        }
-      ],
-      "content": {
-        "operationGroups": [
+      "insight": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/3d4ef3d6-bdf0-4330-975d-c65cb929c44d"
+    }
+  ],
+  "content": {
+    "operationGroups": [
+      {
+        "operations": [
           {
-            "operations": [
-              {
-                "action": "add",
-                "path": "/iamPolicy/bindings/*/members/-",
-                "pathFilters": {
-                  "/iamPolicy/bindings/*/condition/expression": "",
-                  "/iamPolicy/bindings/*/role": "roles/iam.serviceAccountUser"
-                },
-                "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-                "resourceType": "cloudresourcemanager.googleapis.com/Project",
-                "value": "user:my-user@example.com"
-              },
-              {
-                "action": "add",
-                "path": "/iamPolicy/bindings/*/members/-",
-                "pathFilters": {
-                  "/iamPolicy/bindings/*/condition/expression": "",
-                  "/iamPolicy/bindings/*/role": "roles/storage.objectAdmin"
-                },
-                "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-                "resourceType": "cloudresourcemanager.googleapis.com/Project",
-                "value": "user:my-user@example.com"
-              },
-              {
-                "action": "remove",
-                "path": "/iamPolicy/bindings/*/members/*",
-                "pathFilters": {
-                  "/iamPolicy/bindings/*/condition/expression": "",
-                  "/iamPolicy/bindings/*/members/*": "user:my-user@example.com",
-                  "/iamPolicy/bindings/*/role": "roles/editor"
-                },
-                "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-                "resourceType": "cloudresourcemanager.googleapis.com/Project"
-              }
-            ]
+            "action": "add",
+            "path": "/iamPolicy/bindings/*/members/-",
+            "pathFilters": {
+              "/iamPolicy/bindings/*/condition/expression": "",
+              "/iamPolicy/bindings/*/role": "roles/iam.serviceAccountUser"
+            },
+            "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+            "resourceType": "cloudresourcemanager.googleapis.com/Project",
+            "value": "user:my-user@example.com"
+          },
+          {
+            "action": "add",
+            "path": "/iamPolicy/bindings/*/members/-",
+            "pathFilters": {
+              "/iamPolicy/bindings/*/condition/expression": "",
+              "/iamPolicy/bindings/*/role": "roles/storage.objectAdmin"
+            },
+            "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+            "resourceType": "cloudresourcemanager.googleapis.com/Project",
+            "value": "user:my-user@example.com"
+          },
+          {
+            "action": "remove",
+            "path": "/iamPolicy/bindings/*/members/*",
+            "pathFilters": {
+              "/iamPolicy/bindings/*/condition/expression": "",
+              "/iamPolicy/bindings/*/members/*": "user:my-user@example.com",
+              "/iamPolicy/bindings/*/role": "roles/editor"
+            },
+            "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+            "resourceType": "cloudresourcemanager.googleapis.com/Project"
           }
-        ],
-        "overview": {
-          "addedRoles": [
-            "roles/iam.serviceAccountUser",
-            "roles/storage.objectAdmin"
-          ],
-          "member": "user:my-user@example.com",
-          "minimumObservationPeriodInDays": "0",
-          "removedRole": "roles/editor",
-          "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012"
-        }
-      },
-      "description": "Replace the current role with smaller predefined roles to cover the permissions needed.",
-      "etag": "\"0da9a354c2a83d96\"",
-      "lastRefreshTime": "2022-06-22T07:00:00Z",
-      "name": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/4637db3d-dba5-45eb-95ac-b4ee4b4cd14e",
-      "primaryImpact": {
-        "category": "SECURITY",
-        "securityProjection": {
-          "details": {
-            "revokedIamPermissionsCount": 2998
-          }
-        }
-      },
-      "priority": "P2",
-      "recommenderSubtype": "REPLACE_ROLE",
-      "stateInfo": {
-        "state": "ACTIVE"
+        ]
+      }
+    ],
+    "overview": {
+      "addedRoles": [
+        "roles/iam.serviceAccountUser",
+        "roles/storage.objectAdmin"
+      ],
+      "member": "user:my-user@example.com",
+      "minimumObservationPeriodInDays": "0",
+      "removedRole": "roles/editor",
+      "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012"
+    }
+  },
+  "description": "Replace the current role with smaller predefined roles to cover the permissions needed.",
+  "etag": "\"0da9a354c2a83d96\"",
+  "lastRefreshTime": "2022-06-22T07:00:00Z",
+  "name": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/4637db3d-dba5-45eb-95ac-b4ee4b4cd14e",
+  "primaryImpact": {
+    "category": "SECURITY",
+    "securityProjection": {
+      "details": {
+        "revokedIamPermissionsCount": 2998
       }
     }
+  },
+  "priority": "P2",
+  "recommenderSubtype": "REPLACE_ROLE",
+  "stateInfo": {
+    "state": "ACTIVE"
+  }
+}
+```
 
 ### REST
 
-    {
-      "name": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/4637db3d-dba5-45eb-95ac-b4ee4b4cd14e",
-      "description": "Replace the current role with smaller predefined roles to cover the permissions needed.",
-      "lastRefreshTime": "2022-06-22T07:00:00Z",
-      "primaryImpact": {
-        "category": "SECURITY",
-        "securityProjection": {
-          "details": {
-            "revokedIamPermissionsCount": 2998
-          }
-        }
-      },
-      "content": {
-        "operationGroups": [
-          {
-            "operations": [
-              {
-                "action": "add",
-                "resourceType": "cloudresourcemanager.googleapis.com/Project",
-                "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-                "path": "/iamPolicy/bindings/*/members/-",
-                "value": "user:my-user@example.com",
-                "pathFilters": {
-                  "/iamPolicy/bindings/*/condition/expression": "",
-                  "/iamPolicy/bindings/*/role": "roles/iam.serviceAccountOwner"
-                }
-              },
-              {
-                "action": "add",
-                "resourceType": "cloudresourcemanager.googleapis.com/Project",
-                "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-                "path": "/iamPolicy/bindings/*/members/-",
-                "value": "user:my-user@example.com",
-                "pathFilters": {
-                  "/iamPolicy/bindings/*/condition/expression": "",
-                  "/iamPolicy/bindings/*/role": "roles/storage.objectAdmin"
-                }
-              },
-              {
-                "action": "remove",
-                "resourceType": "cloudresourcemanager.googleapis.com/Project",
-                "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-                "path": "/iamPolicy/bindings/*/members/*",
-                "pathFilters": {
-                  "/iamPolicy/bindings/*/condition/expression": "",
-                  "/iamPolicy/bindings/*/members/*": "user:my-user@example.com",
-                  "/iamPolicy/bindings/*/role": "roles/editor"
-                }
-              }
-            ]
-          }
-        ],
-        "overview": {
-          "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-          "member": "user:my-user@example.com",
-          "removedRole": "roles/editor",
-          "addedRoles": [
-            "roles/iam.serviceAccountUser",
-            "roles/storage.objectAdmin"
-          ],
-          "minimumObservationPeriodInDays": "0"
-        }
-      },
-      "stateInfo": {
-        "state": "ACTIVE"
-      },
-      "etag": "\"0da9a354c2a83d96\"",
-      "recommenderSubtype": "REPLACE_ROLE",
-      "associatedInsights": [
-        {
-          "insight": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/3d4ef3d6-bdf0-4330-975d-c65cb929c44d"
-        }
-      ],
-      "priority": "P2"
+```
+{
+  "name": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/4637db3d-dba5-45eb-95ac-b4ee4b4cd14e",
+  "description": "Replace the current role with smaller predefined roles to cover the permissions needed.",
+  "lastRefreshTime": "2022-06-22T07:00:00Z",
+  "primaryImpact": {
+    "category": "SECURITY",
+    "securityProjection": {
+      "details": {
+        "revokedIamPermissionsCount": 2998
+      }
     }
+  },
+  "content": {
+    "operationGroups": [
+      {
+        "operations": [
+          {
+            "action": "add",
+            "resourceType": "cloudresourcemanager.googleapis.com/Project",
+            "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+            "path": "/iamPolicy/bindings/*/members/-",
+            "value": "user:my-user@example.com",
+            "pathFilters": {
+              "/iamPolicy/bindings/*/condition/expression": "",
+              "/iamPolicy/bindings/*/role": "roles/iam.serviceAccountOwner"
+            }
+          },
+          {
+            "action": "add",
+            "resourceType": "cloudresourcemanager.googleapis.com/Project",
+            "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+            "path": "/iamPolicy/bindings/*/members/-",
+            "value": "user:my-user@example.com",
+            "pathFilters": {
+              "/iamPolicy/bindings/*/condition/expression": "",
+              "/iamPolicy/bindings/*/role": "roles/storage.objectAdmin"
+            }
+          },
+          {
+            "action": "remove",
+            "resourceType": "cloudresourcemanager.googleapis.com/Project",
+            "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+            "path": "/iamPolicy/bindings/*/members/*",
+            "pathFilters": {
+              "/iamPolicy/bindings/*/condition/expression": "",
+              "/iamPolicy/bindings/*/members/*": "user:my-user@example.com",
+              "/iamPolicy/bindings/*/role": "roles/editor"
+            }
+          }
+        ]
+      }
+    ],
+    "overview": {
+      "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+      "member": "user:my-user@example.com",
+      "removedRole": "roles/editor",
+      "addedRoles": [
+        "roles/iam.serviceAccountUser",
+        "roles/storage.objectAdmin"
+      ],
+      "minimumObservationPeriodInDays": "0"
+    }
+  },
+  "stateInfo": {
+    "state": "ACTIVE"
+  },
+  "etag": "\"0da9a354c2a83d96\"",
+  "recommenderSubtype": "REPLACE_ROLE",
+  "associatedInsights": [
+    {
+      "insight": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/3d4ef3d6-bdf0-4330-975d-c65cb929c44d"
+    }
+  ],
+  "priority": "P2"
+}
+```
 
 ### Create a custom role
 
@@ -647,131 +640,135 @@ Therefore, the IAM recommender generates a role recommendation suggesting that y
 
 The `REPLACE_ROLE_CUSTOMIZABLE` subtype indicates that the IAM recommender recommends creating a custom role with the used permissions. To see the used permissions, [get the associated policy insight](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights) .
 
+```
+{
+  "associatedInsights": [
     {
-      "associatedInsights": [
-        {
-          "insight": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/2799dc04-b12e-4cf6-86aa-d81907d31f58"
-        }
-      ],
-      "associatedResourceNames": [
-        "//cloudresourcemanager.googleapis.com/projects/123456789012"
-      ],
-      "content": {
-        "operationGroups": [
-          {
-            "operations": [
-              {
-                "action": "add",
-                "path": "/iamPolicy/bindings/*/members/-",
-                "pathFilters": {
-                  "/iamPolicy/bindings/*/condition/expression": "",
-                  "/iamPolicy/bindings/*/role": "roles/cloudtrace.user"
-                },
-                "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-                "resourceType": "cloudresourcemanager.googleapis.com/Project",
-                "value": "user:my-user@example.com"
-              },
-              {
-                "action": "remove",
-                "path": "/iamPolicy/bindings/*/members/*",
-                "pathFilters": {
-                  "/iamPolicy/bindings/*/condition/expression": "",
-                  "/iamPolicy/bindings/*/members/*": "user:my-user@example.com",
-                  "/iamPolicy/bindings/*/role": "roles/cloudtrace.admin"
-                },
-                "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-                "resourceType": "cloudresourcemanager.googleapis.com/Project"
-              }
-            ]
-          }
-        ],
-        "overview": {
-          "minimumObservationPeriodInDays": "0"
-        }
-      },
-      "description": "Replace the current role with a smaller role to cover the permissions needed.",
-      "etag": "\"c7f57a4725d32d66\"",
-      "lastRefreshTime": "2022-06-22T07:00:00Z",
-      "name": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/ba1fc977-fddd-3856-a829-f69649ae8075",
-      "originalContent": {},
-      "primaryImpact": {
-        "category": "SECURITY",
-        "securityProjection": {
-          "details": {},
-          "revokedIamPermissionsCount": 1
-        }
-      },
-      "priority": "P4",
-      "recommenderSubtype": "REPLACE_ROLE_CUSTOMIZABLE",
-      "stateInfo": {
-        "state": "ACTIVE"
-      },
-      "targetResources": [
-        "//cloudresourcemanager.googleapis.com/projects/123456789012"
-      ]
+      "insight": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/2799dc04-b12e-4cf6-86aa-d81907d31f58"
     }
+  ],
+  "associatedResourceNames": [
+    "//cloudresourcemanager.googleapis.com/projects/123456789012"
+  ],
+  "content": {
+    "operationGroups": [
+      {
+        "operations": [
+          {
+            "action": "add",
+            "path": "/iamPolicy/bindings/*/members/-",
+            "pathFilters": {
+              "/iamPolicy/bindings/*/condition/expression": "",
+              "/iamPolicy/bindings/*/role": "roles/cloudtrace.user"
+            },
+            "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+            "resourceType": "cloudresourcemanager.googleapis.com/Project",
+            "value": "user:my-user@example.com"
+          },
+          {
+            "action": "remove",
+            "path": "/iamPolicy/bindings/*/members/*",
+            "pathFilters": {
+              "/iamPolicy/bindings/*/condition/expression": "",
+              "/iamPolicy/bindings/*/members/*": "user:my-user@example.com",
+              "/iamPolicy/bindings/*/role": "roles/cloudtrace.admin"
+            },
+            "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+            "resourceType": "cloudresourcemanager.googleapis.com/Project"
+          }
+        ]
+      }
+    ],
+    "overview": {
+      "minimumObservationPeriodInDays": "0"
+    }
+  },
+  "description": "Replace the current role with a smaller role to cover the permissions needed.",
+  "etag": "\"c7f57a4725d32d66\"",
+  "lastRefreshTime": "2022-06-22T07:00:00Z",
+  "name": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/ba1fc977-fddd-3856-a829-f69649ae8075",
+  "originalContent": {},
+  "primaryImpact": {
+    "category": "SECURITY",
+    "securityProjection": {
+      "details": {},
+      "revokedIamPermissionsCount": 1
+    }
+  },
+  "priority": "P4",
+  "recommenderSubtype": "REPLACE_ROLE_CUSTOMIZABLE",
+  "stateInfo": {
+    "state": "ACTIVE"
+  },
+  "targetResources": [
+    "//cloudresourcemanager.googleapis.com/projects/123456789012"
+  ]
+}
+```
 
 ### REST
 
 The `REPLACE_ROLE_CUSTOMIZABLE` subtype indicates that the IAM recommender recommends creating a custom role with the used permissions. To see the used permissions, [get the associated policy insight](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights) .
 
-    {
-      "name": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/ba1fc977-fddd-3856-a829-f69649ae8075",
-      "description": "Replace the current role with a smaller role to cover the permissions needed.",
-      "lastRefreshTime": "2022-06-22T07:00:00Z",
-      "primaryImpact": {
-        "category": "SECURITY",
-        "securityProjection": {
-          "details": {
-            "revokedIamPermissionsCount": 1
-          }
-        }
-      },
-      "content": {
-        "operationGroups": [
-          {
-            "operations": [
-              {
-                "action": "add",
-                "resourceType": "cloudresourcemanager.googleapis.com/Project",
-                "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-                "path": "/iamPolicy/bindings/*/members/-",
-                "value": "user:my-user@example.com",
-                "pathFilters": {
-                  "/iamPolicy/bindings/*/condition/expression": "",
-                  "/iamPolicy/bindings/*/role": "roles/cloudtrace.user"
-                }
-              },
-              {
-                "action": "remove",
-                "resourceType": "cloudresourcemanager.googleapis.com/Project",
-                "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
-                "path": "/iamPolicy/bindings/*/members/*",
-                "pathFilters": {
-                  "/iamPolicy/bindings/*/condition/expression": "",
-                  "/iamPolicy/bindings/*/members/*": "user:my-user@example.com",
-                  "/iamPolicy/bindings/*/role": "roles/cloudtrace.admin"
-                }
-              }
-            ]
-          }
-        ],
-        "overview": {
-          "minimumObservationPeriodInDays": "0"
-        }
-      },
-      "stateInfo": {
-        "state": "ACTIVE"
-      },
-      "etag": "\"c7f57a4725d32d66\"",
-      "recommenderSubtype": "REPLACE_ROLE_CUSTOMIZABLE",
-      "associatedInsights": [
-        {
-          "insight": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/2799dc04-b12e-4cf6-86aa-d81907d31f58"
-        }
-      ],
-      "priority": "P4"
+```
+{
+  "name": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/ba1fc977-fddd-3856-a829-f69649ae8075",
+  "description": "Replace the current role with a smaller role to cover the permissions needed.",
+  "lastRefreshTime": "2022-06-22T07:00:00Z",
+  "primaryImpact": {
+    "category": "SECURITY",
+    "securityProjection": {
+      "details": {
+        "revokedIamPermissionsCount": 1
+      }
     }
+  },
+  "content": {
+    "operationGroups": [
+      {
+        "operations": [
+          {
+            "action": "add",
+            "resourceType": "cloudresourcemanager.googleapis.com/Project",
+            "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+            "path": "/iamPolicy/bindings/*/members/-",
+            "value": "user:my-user@example.com",
+            "pathFilters": {
+              "/iamPolicy/bindings/*/condition/expression": "",
+              "/iamPolicy/bindings/*/role": "roles/cloudtrace.user"
+            }
+          },
+          {
+            "action": "remove",
+            "resourceType": "cloudresourcemanager.googleapis.com/Project",
+            "resource": "//cloudresourcemanager.googleapis.com/projects/123456789012",
+            "path": "/iamPolicy/bindings/*/members/*",
+            "pathFilters": {
+              "/iamPolicy/bindings/*/condition/expression": "",
+              "/iamPolicy/bindings/*/members/*": "user:my-user@example.com",
+              "/iamPolicy/bindings/*/role": "roles/cloudtrace.admin"
+            }
+          }
+        ]
+      }
+    ],
+    "overview": {
+      "minimumObservationPeriodInDays": "0"
+    }
+  },
+  "stateInfo": {
+    "state": "ACTIVE"
+  },
+  "etag": "\"c7f57a4725d32d66\"",
+  "recommenderSubtype": "REPLACE_ROLE_CUSTOMIZABLE",
+  "associatedInsights": [
+    {
+      "insight": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/2799dc04-b12e-4cf6-86aa-d81907d31f58"
+    }
+  ],
+  "priority": "P4"
+}
+```
 
 The role recommendation also suggests another option, which is to replace the existing role with the Cloud Trace User role ( `roles/cloudtrace.user` ). This predefined role includes slightly fewer permissions than the Cloud Trace Admin role.
 
@@ -795,110 +792,114 @@ The IAM recommender uses a **Machine learning** ![](https://docs.cloud.google.co
 
 Permissions that were added based on the IAM recommender's machine learning rather than on permission usage aren't listed in the recommendation itself. Instead, they're listed in the policy insights associated with the recommendation. All ML-based permissions are listed in the `inferredPermissions` field of the insight. In this example, the `resourcemanager.projects.get` permission was recommended based on machine learning:
 
-    associatedRecommendations:
-    - recommendation: projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/0573b702-96a5-4622-a916-c762e7b0731f
-    category: SECURITY
-    content:
-      condition:
-        description: ''
-        expression: ''
-        location: ''
-        title: ''
-      currentTotalPermissionsCount: '5069'
-      exercisedPermissions:
-      - permission: storage.objects.create
-      - permission: storage.objects.delete
-      - permission: storage.objects.get
-      - permission: storage.objects.list
-      inferredPermissions:
-      - permission: resourcemanager.projects.get
-      member: serviceAccount:my-service-account@my-project.iam.gserviceaccount.com
-      role: roles/editor
-    description: 4 of the permissions in this role binding were used in the past 90 days.
-    etag: '"d3cdec23cc712bd0"'
-    insightSubtype: PERMISSIONS_USAGE
-    lastRefreshTime: '2020-07-11T07:00:00Z'
-    name: projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/0d3ce433-f067-4e78-b6ae-03d7d1f6f040
-    observationPeriod: 7776000s
-    stateInfo:
-      state: ACTIVE
-    targetResources:
-    - //cloudresourcemanager.googleapis.com/projects/123456789012
-    severity: HIGH
+```
+associatedRecommendations:
+- recommendation: projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/0573b702-96a5-4622-a916-c762e7b0731f
+category: SECURITY
+content:
+  condition:
+    description: ''
+    expression: ''
+    location: ''
+    title: ''
+  currentTotalPermissionsCount: '5069'
+  exercisedPermissions:
+  - permission: storage.objects.create
+  - permission: storage.objects.delete
+  - permission: storage.objects.get
+  - permission: storage.objects.list
+  inferredPermissions:
+  - permission: resourcemanager.projects.get
+  member: serviceAccount:my-service-account@my-project.iam.gserviceaccount.com
+  role: roles/editor
+description: 4 of the permissions in this role binding were used in the past 90 days.
+etag: '"d3cdec23cc712bd0"'
+insightSubtype: PERMISSIONS_USAGE
+lastRefreshTime: '2020-07-11T07:00:00Z'
+name: projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/0d3ce433-f067-4e78-b6ae-03d7d1f6f040
+observationPeriod: 7776000s
+stateInfo:
+  state: ACTIVE
+targetResources:
+- //cloudresourcemanager.googleapis.com/projects/123456789012
+severity: HIGH
+```
 
 To learn how to get a policy insight, see one of the following:
 
-  - [Review policy insights for projects, folders, and organizations](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights)
-  - [Review policy insights for Cloud Storage buckets](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights-buckets)
-  - [Review policy insights for BigQuery datasets](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights-datasets)
+- [Review policy insights for projects, folders, and organizations](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights)
+- [Review policy insights for Cloud Storage buckets](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights-buckets)
+- [Review policy insights for BigQuery datasets](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights-datasets)
 
 ### REST
 
 Permissions that were added based on the IAM recommender's machine learning rather than on permission usage aren't listed in the recommendation itself. Instead, they're listed in the policy insights associated with the recommendation. All ML-based permissions are listed in the `inferredPermissions` field of the insight. In this example, the `resourcemanager.projects.get` permission was recommended based on machine learning:
 
+```
+{
+  "name": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/07841f74-02ce-4de8-bbe6-fc4eabb68568",
+  "description": "4 of the permissions in this role binding were used in the past 90 days.",
+  "content": {
+    "role": "roles/editor",
+    "member": "serviceAccount:my-service-account@my-project.iam.gserviceaccount.com",
+    "condition": {
+      "expression": "",
+      "title": "",
+      "description": "",
+      "location": ""
+    },
+    "exercisedPermissions": [
+      {
+        "permission": "storage.objects.create"
+      },
+      {
+        "permission": "storage.objects.delete"
+      },
+      {
+        "permission": "storage.objects.get"
+      },
+      {
+        "permission": "storage.objects.list"
+      }
+    ],
+    "inferredPermissions": [
+      {
+        "permission": "resourcemanager.projects.get"
+      }
+    ],
+    "currentTotalPermissionsCount": "5069"
+  },
+  "lastRefreshTime": "2020-07-12T07:00:00Z",
+  "observationPeriod": "7776000s",
+  "stateInfo": {
+    "state": "ACTIVE"
+  },
+  "category": "SECURITY",
+  "associatedRecommendations": [
     {
-      "name": "projects/123456789012/locations/global/insightTypes/google.iam.policy.Insight/insights/07841f74-02ce-4de8-bbe6-fc4eabb68568",
-      "description": "4 of the permissions in this role binding were used in the past 90 days.",
-      "content": {
-        "role": "roles/editor",
-        "member": "serviceAccount:my-service-account@my-project.iam.gserviceaccount.com",
-        "condition": {
-          "expression": "",
-          "title": "",
-          "description": "",
-          "location": ""
-        },
-        "exercisedPermissions": [
-          {
-            "permission": "storage.objects.create"
-          },
-          {
-            "permission": "storage.objects.delete"
-          },
-          {
-            "permission": "storage.objects.get"
-          },
-          {
-            "permission": "storage.objects.list"
-          }
-        ],
-        "inferredPermissions": [
-          {
-            "permission": "resourcemanager.projects.get"
-          }
-        ],
-        "currentTotalPermissionsCount": "5069"
-      },
-      "lastRefreshTime": "2020-07-12T07:00:00Z",
-      "observationPeriod": "7776000s",
-      "stateInfo": {
-        "state": "ACTIVE"
-      },
-      "category": "SECURITY",
-      "associatedRecommendations": [
-        {
-          "recommendation": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/b1932220-867d-43d1-bd74-fb95876ab656"
-        }
-      ],
-      "targetResources": [
-        "//cloudresourcemanager.googleapis.com/projects/123456789012"
-      ],
-      "insightSubtype": "PERMISSIONS_USAGE",
-      "etag": "\"d3cdec23cc712bd0\"",
-      "severity": "HIGH"
+      "recommendation": "projects/123456789012/locations/global/recommenders/google.iam.policy.Recommender/recommendations/b1932220-867d-43d1-bd74-fb95876ab656"
     }
+  ],
+  "targetResources": [
+    "//cloudresourcemanager.googleapis.com/projects/123456789012"
+  ],
+  "insightSubtype": "PERMISSIONS_USAGE",
+  "etag": "\"d3cdec23cc712bd0\"",
+  "severity": "HIGH"
+}
+```
 
 To learn how to get a policy insight, see one of the following:
 
-  - [Review policy insights for projects, folders, and organizations](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights)
-  - [Review policy insights for Cloud Storage buckets](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights-buckets)
-  - [Review policy insights for BigQuery datasets](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights-datasets)
+- [Review policy insights for projects, folders, and organizations](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights)
+- [Review policy insights for Cloud Storage buckets](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights-buckets)
+- [Review policy insights for BigQuery datasets](https://docs.cloud.google.com/policy-intelligence/docs/policy-insights-datasets)
 
 ## What's next
 
-  - Understand [best practices for using role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-best-practices) .
-  - [Review and apply role recommendations for projects, folders, and organizations](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations) .
-  - [Review and apply your role recommendations for Cloud Storage buckets](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-buckets)
-  - [Review and apply your role recommendations for BigQuery datasets](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-datasets)
-  - Learn more about [Recommender](https://docs.cloud.google.com/recommender/docs/overview) .
-  - Understand [predefined roles](https://docs.cloud.google.com/iam/docs/understanding-roles) and [custom roles](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) in IAM.
+- Understand [best practices for using role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-best-practices) .
+- [Review and apply role recommendations for projects, folders, and organizations](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations) .
+- [Review and apply your role recommendations for Cloud Storage buckets](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-buckets)
+- [Review and apply your role recommendations for BigQuery datasets](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations-datasets)
+- Learn more about [Recommender](https://docs.cloud.google.com/recommender/docs/overview) .
+- Understand [predefined roles](https://docs.cloud.google.com/iam/docs/understanding-roles) and [custom roles](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) in IAM.

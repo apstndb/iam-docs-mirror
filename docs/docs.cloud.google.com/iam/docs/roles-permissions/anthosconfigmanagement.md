@@ -25,27 +25,27 @@ Config Management offers the following service agent roles. Service agent roles 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="anthosconfigmanagement.serviceAgent" class="role-title add-link" data-text="Anthos Config Management Service Agent" tabindex="-1">Anthos Config Management Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  anthosconfigmanagement.serviceAgent</code> )</p>
+<td>Anthos Config Management Service Agent
+<p>( <code>roles/ anthosconfigmanagement.serviceAgent</code> )</p>
 <p>Gives the Anthos Config Management service agent access to Google Cloud resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">container.clusters.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.features.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.delete</code></p>
-<p><code dir="ltr" translate="no">gkehub.  gateway.  generateCredentials</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.patch</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.post</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.put</code></p>
-<p><code dir="ltr" translate="no">gkehub.locations.*</code></p>
+<td><p><code>container.clusters.get</code></p>
+<p><code>gkehub.features.get</code></p>
+<p><code>gkehub.gateway.delete</code></p>
+<p><code>gkehub. gateway. generateCredentials</code></p>
+<p><code>gkehub.gateway.get</code></p>
+<p><code>gkehub.gateway.patch</code></p>
+<p><code>gkehub.gateway.post</code></p>
+<p><code>gkehub.gateway.put</code></p>
+<p><code>gkehub.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.locations.list</code></li>
+<li><code>gkehub.locations.get</code></li>
+<li><code>gkehub.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.list</code></p></td>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>gkehub.memberships.list</code></p></td>
 </tr>
 </tbody>
 </table>

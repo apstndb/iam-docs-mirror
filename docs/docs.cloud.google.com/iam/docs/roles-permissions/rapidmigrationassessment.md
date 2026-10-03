@@ -23,62 +23,62 @@ This page lists the IAM roles and permissions for Rapid Migration Assessment. To
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="rma.admin" class="role-title add-link" data-text="Rapid Migration Assessment Admin" tabindex="-1">Rapid Migration Assessment Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  rma.admin</code> )</p>
+<td>Rapid Migration Assessment Admin
+<p>( <code>roles/ rma.admin</code> )</p>
 <p>Full access to Rapid Migration Assessment all resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">rma.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>rma.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">rma.annotations.create</code></li>
-<li><code dir="ltr" translate="no">rma.annotations.get</code></li>
-<li><code dir="ltr" translate="no">rma.collectors.create</code></li>
-<li><code dir="ltr" translate="no">rma.collectors.delete</code></li>
-<li><code dir="ltr" translate="no">rma.collectors.get</code></li>
-<li><code dir="ltr" translate="no">rma.collectors.list</code></li>
-<li><code dir="ltr" translate="no">rma.collectors.update</code></li>
-<li><code dir="ltr" translate="no">rma.locations.get</code></li>
-<li><code dir="ltr" translate="no">rma.locations.list</code></li>
-<li><code dir="ltr" translate="no">rma.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">rma.operations.delete</code></li>
-<li><code dir="ltr" translate="no">rma.operations.get</code></li>
-<li><code dir="ltr" translate="no">rma.operations.list</code></li>
+<li><code>rma.annotations.create</code></li>
+<li><code>rma.annotations.get</code></li>
+<li><code>rma.collectors.create</code></li>
+<li><code>rma.collectors.delete</code></li>
+<li><code>rma.collectors.get</code></li>
+<li><code>rma.collectors.list</code></li>
+<li><code>rma.collectors.update</code></li>
+<li><code>rma.locations.get</code></li>
+<li><code>rma.locations.list</code></li>
+<li><code>rma.operations.cancel</code></li>
+<li><code>rma.operations.delete</code></li>
+<li><code>rma.operations.get</code></li>
+<li><code>rma.operations.list</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="rma.viewer" class="role-title add-link" data-text="Rapid Migration Assessment Viewer" tabindex="-1">Rapid Migration Assessment Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
+<td>Rapid Migration Assessment Viewer
+<p>( <code>roles/ rma.viewer</code> )</p>
 <p>Read-only access to Rapid Migration Assessment all resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">rma.annotations.get</code></p>
-<p><code dir="ltr" translate="no">rma.collectors.get</code></p>
-<p><code dir="ltr" translate="no">rma.collectors.list</code></p>
-<p><code dir="ltr" translate="no">rma.locations.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>rma.annotations.get</code></p>
+<p><code>rma.collectors.get</code></p>
+<p><code>rma.collectors.list</code></p>
+<p><code>rma.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">rma.locations.get</code></li>
-<li><code dir="ltr" translate="no">rma.locations.list</code></li>
+<li><code>rma.locations.get</code></li>
+<li><code>rma.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">rma.operations.get</code></p>
-<p><code dir="ltr" translate="no">rma.operations.list</code></p></td>
+<p><code>rma.operations.get</code></p>
+<p><code>rma.operations.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="rma.runner" class="role-title add-link" data-text="Rapid Migration Assessment Runner" tabindex="-1">Rapid Migration Assessment Runner</h4>
-<p>( <code dir="ltr" translate="no">roles/  rma.runner</code> )</p>
+<td>Rapid Migration Assessment Runner
+<p>( <code>roles/ rma.runner</code> )</p>
 <p>Update and Read access to Rapid Migration Assessment all resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">rma.annotations.get</code></p>
-<p><code dir="ltr" translate="no">rma.collectors.get</code></p>
-<p><code dir="ltr" translate="no">rma.collectors.list</code></p>
-<p><code dir="ltr" translate="no">rma.collectors.update</code></p>
-<p><code dir="ltr" translate="no">rma.locations.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>rma.annotations.get</code></p>
+<p><code>rma.collectors.get</code></p>
+<p><code>rma.collectors.list</code></p>
+<p><code>rma.collectors.update</code></p>
+<p><code>rma.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">rma.locations.get</code></li>
-<li><code dir="ltr" translate="no">rma.locations.list</code></li>
+<li><code>rma.locations.get</code></li>
+<li><code>rma.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">rma.operations.get</code></p>
-<p><code dir="ltr" translate="no">rma.operations.list</code></p></td>
+<p><code>rma.operations.get</code></p>
+<p><code>rma.operations.list</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -100,218 +100,50 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="rapidmigrationassessment.serviceAgent" class="role-title add-link" data-text="RMA Service Agent" tabindex="-1">RMA Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  rapidmigrationassessment.serviceAgent</code> )</p>
+<td>RMA Service Agent
+<p>( <code>roles/ rapidmigrationassessment.serviceAgent</code> )</p>
 <p>Gives RMA service account access to MC resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">autoscaling.sites.writeMetrics</code></p>
-<p><code dir="ltr" translate="no">cloudasset.  assets.  exportResource</code></p>
-<p><code dir="ltr" translate="no">cloudasset.feeds.create</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
-<p><code dir="ltr" translate="no">migrationcenter.assets.list</code></p>
-<p><code dir="ltr" translate="no">migrationcenter.  assets.  reportFrames</code></p>
-<p><code dir="ltr" translate="no">migrationcenter.importJobs.get</code></p>
-<p><code dir="ltr" translate="no">migrationcenter.  importJobs.  list</code></p>
-<p><code dir="ltr" translate="no">migrationcenter.sources.*</code></p>
+<td><p><code>autoscaling.sites.writeMetrics</code></p>
+<p><code>cloudasset. assets. exportResource</code></p>
+<p><code>cloudasset.feeds.create</code></p>
+<p><code>logging.logEntries.create</code></p>
+<p><code>migrationcenter.assets.list</code></p>
+<p><code>migrationcenter. assets. reportFrames</code></p>
+<p><code>migrationcenter.importJobs.get</code></p>
+<p><code>migrationcenter. importJobs. list</code></p>
+<p><code>migrationcenter.sources.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">migrationcenter.sources.create</code></li>
-<li><code dir="ltr" translate="no">migrationcenter.sources.delete</code></li>
-<li><code dir="ltr" translate="no">migrationcenter.sources.get</code></li>
-<li><code dir="ltr" translate="no">migrationcenter.sources.list</code></li>
-<li><code dir="ltr" translate="no">migrationcenter.sources.update</code></li>
+<li><code>migrationcenter.sources.create</code></li>
+<li><code>migrationcenter.sources.delete</code></li>
+<li><code>migrationcenter.sources.get</code></li>
+<li><code>migrationcenter.sources.list</code></li>
+<li><code>migrationcenter.sources.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  create</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.create</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p></td>
+<p><code>monitoring. metricDescriptors. create</code></p>
+<p><code>monitoring. metricDescriptors. list</code></p>
+<p><code>monitoring.timeSeries.create</code></p>
+<p><code>resourcemanager.projects.get</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Rapid Migration Assessment permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="rma.annotations.create" class="permission-name add-link" data-text="rma.annotations.create" tabindex="-1"><code dir="ltr" translate="no">rma.annotations.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="rma.annotations.get" class="permission-name add-link" data-text="rma.annotations.get" tabindex="-1"><code dir="ltr" translate="no">rma.annotations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="rma.collectors.create" class="permission-name add-link" data-text="rma.collectors.create" tabindex="-1"><code dir="ltr" translate="no">rma.collectors.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="rma.collectors.delete" class="permission-name add-link" data-text="rma.collectors.delete" tabindex="-1"><code dir="ltr" translate="no">rma.collectors.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="rma.collectors.get" class="permission-name add-link" data-text="rma.collectors.get" tabindex="-1"><code dir="ltr" translate="no">rma.collectors.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="rma.collectors.list" class="permission-name add-link" data-text="rma.collectors.list" tabindex="-1"><code dir="ltr" translate="no">rma.collectors.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="rma.collectors.update" class="permission-name add-link" data-text="rma.collectors.update" tabindex="-1"><code dir="ltr" translate="no">rma.collectors.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="rma.locations.get" class="permission-name add-link" data-text="rma.locations.get" tabindex="-1"><code dir="ltr" translate="no">rma.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="rma.locations.list" class="permission-name add-link" data-text="rma.locations.list" tabindex="-1"><code dir="ltr" translate="no">rma.locations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="rma.operations.cancel" class="permission-name add-link" data-text="rma.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">rma.operations.cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="rma.operations.delete" class="permission-name add-link" data-text="rma.operations.delete" tabindex="-1"><code dir="ltr" translate="no">rma.operations.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="rma.operations.get" class="permission-name add-link" data-text="rma.operations.get" tabindex="-1"><code dir="ltr" translate="no">rma.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="rma.operations.list" class="permission-name add-link" data-text="rma.operations.list" tabindex="-1"><code dir="ltr" translate="no">rma.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission               | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `rma.annotations.create` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `rma.annotations.get`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Migration Center Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer) ( `roles/ migrationcenter.viewer` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Rapid Migration Assessment Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer) ( `roles/ rma.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Rapid Migration Assessment Runner](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner) ( `roles/ rma.runner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `rma.collectors.create`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `rma.collectors.delete`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `rma.collectors.get`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Migration Center Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer) ( `roles/ migrationcenter.viewer` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Rapid Migration Assessment Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer) ( `roles/ rma.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Rapid Migration Assessment Runner](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner) ( `roles/ rma.runner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `rma.collectors.list`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Migration Center Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer) ( `roles/ migrationcenter.viewer` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Rapid Migration Assessment Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer) ( `roles/ rma.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Rapid Migration Assessment Runner](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner) ( `roles/ rma.runner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `rma.collectors.update`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Rapid Migration Assessment Runner](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner) ( `roles/ rma.runner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `rma.locations.get`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Migration Center Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer) ( `roles/ migrationcenter.viewer` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Rapid Migration Assessment Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer) ( `roles/ rma.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Rapid Migration Assessment Runner](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner) ( `roles/ rma.runner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `rma.locations.list`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Migration Center Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer) ( `roles/ migrationcenter.viewer` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Rapid Migration Assessment Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer) ( `roles/ rma.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Rapid Migration Assessment Runner](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner) ( `roles/ rma.runner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `rma.operations.cancel`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `rma.operations.delete`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `rma.operations.get`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Migration Center Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer) ( `roles/ migrationcenter.viewer` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Rapid Migration Assessment Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer) ( `roles/ rma.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Rapid Migration Assessment Runner](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner) ( `roles/ rma.runner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `rma.operations.list`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Migration Center Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin) ( `roles/ migrationcenter.admin` ) [Migration Center Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer) ( `roles/ migrationcenter.viewer` ) [Rapid Migration Assessment Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin) ( `roles/ rma.admin` ) [Rapid Migration Assessment Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer) ( `roles/ rma.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Rapid Migration Assessment Runner](https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner) ( `roles/ rma.runner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |

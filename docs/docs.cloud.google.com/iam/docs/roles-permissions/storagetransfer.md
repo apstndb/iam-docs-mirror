@@ -23,96 +23,96 @@ This page lists the IAM roles and permissions for Storage Transfer Service. To s
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="storagetransfer.admin" class="role-title add-link" data-text="Storage Transfer Admin" tabindex="-1">Storage Transfer Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
+<td>Storage Transfer Admin
+<p>( <code>roles/ storagetransfer.admin</code> )</p>
 <p>Create, update and manage transfer jobs and operations.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>storagetransfer.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">storagetransfer.  agentpools.  create</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  agentpools.  delete</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.agentpools.get</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  agentpools.  list</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  agentpools.  report</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  agentpools.  update</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.jobs.create</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.jobs.delete</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.jobs.get</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.jobs.list</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.jobs.run</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.jobs.update</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  operations.  assign</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.operations.get</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  operations.  list</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  operations.  pause</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  operations.  report</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  operations.  resume</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  projects.  getServiceAccount</code></li>
+<li><code>storagetransfer. agentpools. create</code></li>
+<li><code>storagetransfer. agentpools. delete</code></li>
+<li><code>storagetransfer.agentpools.get</code></li>
+<li><code>storagetransfer. agentpools. list</code></li>
+<li><code>storagetransfer. agentpools. report</code></li>
+<li><code>storagetransfer. agentpools. update</code></li>
+<li><code>storagetransfer.jobs.create</code></li>
+<li><code>storagetransfer.jobs.delete</code></li>
+<li><code>storagetransfer.jobs.get</code></li>
+<li><code>storagetransfer.jobs.list</code></li>
+<li><code>storagetransfer.jobs.run</code></li>
+<li><code>storagetransfer.jobs.update</code></li>
+<li><code>storagetransfer. operations. assign</code></li>
+<li><code>storagetransfer. operations. cancel</code></li>
+<li><code>storagetransfer.operations.get</code></li>
+<li><code>storagetransfer. operations. list</code></li>
+<li><code>storagetransfer. operations. pause</code></li>
+<li><code>storagetransfer. operations. report</code></li>
+<li><code>storagetransfer. operations. resume</code></li>
+<li><code>storagetransfer. projects. getServiceAccount</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="storagetransfer.viewer" class="role-title add-link" data-text="Storage Transfer Viewer" tabindex="-1">Storage Transfer Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  storagetransfer.viewer</code> )</p>
+<td>Storage Transfer Viewer
+<p>( <code>roles/ storagetransfer.viewer</code> )</p>
 <p>Read access to storage transfer jobs and operations.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.agentpools.get</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.  agentpools.  list</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.jobs.get</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.jobs.list</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.operations.get</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.  operations.  list</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.  projects.  getServiceAccount</code></p></td>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>storagetransfer.agentpools.get</code></p>
+<p><code>storagetransfer. agentpools. list</code></p>
+<p><code>storagetransfer.jobs.get</code></p>
+<p><code>storagetransfer.jobs.list</code></p>
+<p><code>storagetransfer.operations.get</code></p>
+<p><code>storagetransfer. operations. list</code></p>
+<p><code>storagetransfer. projects. getServiceAccount</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="storagetransfer.transferAgent" class="role-title add-link" data-text="Storage Transfer Agent" tabindex="-1">Storage Transfer Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  storagetransfer.transferAgent</code> )</p>
+<td>Storage Transfer Agent
+<p>( <code>roles/ storagetransfer.transferAgent</code> )</p>
 <p>Perform transfers from an agent.</p></td>
-<td><p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.create</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.consume</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.create</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.delete</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.  topics.  attachSubscription</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.create</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.list</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.publish</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.  agentpools.  report</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.  operations.  assign</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.operations.get</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.  operations.  report</code></p></td>
+<td><p><code>logging.logEntries.create</code></p>
+<p><code>monitoring.timeSeries.create</code></p>
+<p><code>pubsub.subscriptions.consume</code></p>
+<p><code>pubsub.subscriptions.create</code></p>
+<p><code>pubsub.subscriptions.delete</code></p>
+<p><code>pubsub.subscriptions.get</code></p>
+<p><code>pubsub. topics. attachSubscription</code></p>
+<p><code>pubsub.topics.create</code></p>
+<p><code>pubsub.topics.get</code></p>
+<p><code>pubsub.topics.list</code></p>
+<p><code>pubsub.topics.publish</code></p>
+<p><code>storagetransfer. agentpools. report</code></p>
+<p><code>storagetransfer. operations. assign</code></p>
+<p><code>storagetransfer.operations.get</code></p>
+<p><code>storagetransfer. operations. report</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="storagetransfer.user" class="role-title add-link" data-text="Storage Transfer User" tabindex="-1">Storage Transfer User</h4>
-<p>( <code dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
+<td>Storage Transfer User
+<p>( <code>roles/ storagetransfer.user</code> )</p>
 <p>Create and update storage transfer jobs and operations.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.  agentpools.  create</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.agentpools.get</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.  agentpools.  list</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.  agentpools.  report</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.  agentpools.  update</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.jobs.create</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.jobs.get</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.jobs.list</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.jobs.run</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.jobs.update</code></p>
-<p><code dir="ltr" translate="no">storagetransfer.operations.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>storagetransfer. agentpools. create</code></p>
+<p><code>storagetransfer.agentpools.get</code></p>
+<p><code>storagetransfer. agentpools. list</code></p>
+<p><code>storagetransfer. agentpools. report</code></p>
+<p><code>storagetransfer. agentpools. update</code></p>
+<p><code>storagetransfer.jobs.create</code></p>
+<p><code>storagetransfer.jobs.get</code></p>
+<p><code>storagetransfer.jobs.list</code></p>
+<p><code>storagetransfer.jobs.run</code></p>
+<p><code>storagetransfer.jobs.update</code></p>
+<p><code>storagetransfer.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">storagetransfer.  operations.  assign</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.operations.get</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  operations.  list</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  operations.  pause</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  operations.  report</code></li>
-<li><code dir="ltr" translate="no">storagetransfer.  operations.  resume</code></li>
+<li><code>storagetransfer. operations. assign</code></li>
+<li><code>storagetransfer. operations. cancel</code></li>
+<li><code>storagetransfer.operations.get</code></li>
+<li><code>storagetransfer. operations. list</code></li>
+<li><code>storagetransfer. operations. pause</code></li>
+<li><code>storagetransfer. operations. report</code></li>
+<li><code>storagetransfer. operations. resume</code></li>
 </ul>
-<p><code dir="ltr" translate="no">storagetransfer.  projects.  getServiceAccount</code></p></td>
+<p><code>storagetransfer. projects. getServiceAccount</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -134,259 +134,48 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="storagetransfer.serviceAgent" class="role-title add-link" data-text="Storage Transfer Service Agent" tabindex="-1">Storage Transfer Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  storagetransfer.serviceAgent</code> )</p>
+<td>Storage Transfer Service Agent
+<p>( <code>roles/ storagetransfer.serviceAgent</code> )</p>
 <p>Grants Storage Transfer Service Agent permissions required to run transfers</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">pubsub.subscriptions.consume</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.create</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.delete</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.subscriptions.update</code></p>
-<p><code dir="ltr" translate="no">pubsub.  topics.  attachSubscription</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.create</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.delete</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.publish</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.update</code></p></td>
+<td><p><code>pubsub.subscriptions.consume</code></p>
+<p><code>pubsub.subscriptions.create</code></p>
+<p><code>pubsub.subscriptions.delete</code></p>
+<p><code>pubsub.subscriptions.get</code></p>
+<p><code>pubsub.subscriptions.update</code></p>
+<p><code>pubsub. topics. attachSubscription</code></p>
+<p><code>pubsub.topics.create</code></p>
+<p><code>pubsub.topics.delete</code></p>
+<p><code>pubsub.topics.get</code></p>
+<p><code>pubsub.topics.publish</code></p>
+<p><code>pubsub.topics.update</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Storage Transfer Service permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="storagetransfer.agentpools.create" class="permission-name add-link" data-text="storagetransfer.agentpools.create" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.  agentpools.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="storagetransfer.agentpools.delete" class="permission-name add-link" data-text="storagetransfer.agentpools.delete" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.  agentpools.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="storagetransfer.agentpools.get" class="permission-name add-link" data-text="storagetransfer.agentpools.get" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.agentpools.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer">Storage Transfer Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="storagetransfer.agentpools.list" class="permission-name add-link" data-text="storagetransfer.agentpools.list" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.  agentpools.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer">Storage Transfer Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="storagetransfer.agentpools.report" class="permission-name add-link" data-text="storagetransfer.agentpools.report" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.  agentpools.  report</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.transferAgent">Storage Transfer Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.transferAgent</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="storagetransfer.agentpools.update" class="permission-name add-link" data-text="storagetransfer.agentpools.update" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.  agentpools.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="storagetransfer.jobs.create" class="permission-name add-link" data-text="storagetransfer.jobs.create" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.jobs.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="storagetransfer.jobs.delete" class="permission-name add-link" data-text="storagetransfer.jobs.delete" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.jobs.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="storagetransfer.jobs.get" class="permission-name add-link" data-text="storagetransfer.jobs.get" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.jobs.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer">Storage Transfer Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="storagetransfer.jobs.list" class="permission-name add-link" data-text="storagetransfer.jobs.list" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.jobs.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer">Storage Transfer Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="storagetransfer.jobs.run" class="permission-name add-link" data-text="storagetransfer.jobs.run" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.jobs.run</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="storagetransfer.jobs.update" class="permission-name add-link" data-text="storagetransfer.jobs.update" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.jobs.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="storagetransfer.operations.assign" class="permission-name add-link" data-text="storagetransfer.operations.assign" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.  operations.  assign</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.transferAgent">Storage Transfer Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.transferAgent</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="storagetransfer.operations.cancel" class="permission-name add-link" data-text="storagetransfer.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.  operations.  cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="storagetransfer.operations.get" class="permission-name add-link" data-text="storagetransfer.operations.get" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer">Storage Transfer Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.transferAgent">Storage Transfer Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.transferAgent</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="storagetransfer.operations.list" class="permission-name add-link" data-text="storagetransfer.operations.list" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.  operations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer">Storage Transfer Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="storagetransfer.operations.pause" class="permission-name add-link" data-text="storagetransfer.operations.pause" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.  operations.  pause</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="storagetransfer.operations.report" class="permission-name add-link" data-text="storagetransfer.operations.report" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.  operations.  report</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.transferAgent">Storage Transfer Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.transferAgent</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="storagetransfer.operations.resume" class="permission-name add-link" data-text="storagetransfer.operations.resume" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.  operations.  resume</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="storagetransfer.projects.getServiceAccount" class="permission-name add-link" data-text="storagetransfer.projects.getServiceAccount" tabindex="-1"><code dir="ltr" translate="no">storagetransfer.  projects.  getServiceAccount</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin">Storage Transfer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer">Storage Transfer Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user">Storage Transfer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storagetransfer.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                     | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `storagetransfer. agentpools. create`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `storagetransfer. agentpools. delete`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `storagetransfer.agentpools.get`               | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Storage Transfer Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer) ( `roles/ storagetransfer.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `storagetransfer. agentpools. list`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Storage Transfer Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer) ( `roles/ storagetransfer.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `storagetransfer. agentpools. report`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Storage Transfer Agent](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.transferAgent) ( `roles/ storagetransfer.transferAgent` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `storagetransfer. agentpools. update`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `storagetransfer.jobs.create`                  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `storagetransfer.jobs.delete`                  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `storagetransfer.jobs.get`                     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Storage Transfer Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer) ( `roles/ storagetransfer.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `storagetransfer.jobs.list`                    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Storage Transfer Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer) ( `roles/ storagetransfer.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `storagetransfer.jobs.run`                     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `storagetransfer.jobs.update`                  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `storagetransfer. operations. assign`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Storage Transfer Agent](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.transferAgent) ( `roles/ storagetransfer.transferAgent` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `storagetransfer. operations. cancel`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `storagetransfer.operations.get`               | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Storage Transfer Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer) ( `roles/ storagetransfer.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Storage Transfer Agent](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.transferAgent) ( `roles/ storagetransfer.transferAgent` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                             |
+| `storagetransfer. operations. list`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Storage Transfer Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer) ( `roles/ storagetransfer.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `storagetransfer. operations. pause`           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `storagetransfer. operations. report`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Storage Transfer Agent](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.transferAgent) ( `roles/ storagetransfer.transferAgent` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `storagetransfer. operations. resume`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `storagetransfer. projects. getServiceAccount` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Storage Transfer Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.admin) ( `roles/ storagetransfer.admin` ) [Storage Transfer Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.viewer) ( `roles/ storagetransfer.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Storage Transfer User](https://docs.cloud.google.com/iam/docs/roles-permissions/storagetransfer#storagetransfer.user) ( `roles/ storagetransfer.user` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |

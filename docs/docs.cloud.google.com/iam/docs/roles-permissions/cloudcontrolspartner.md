@@ -23,119 +23,119 @@ This page lists the IAM roles and permissions for Cloud Controls Partner API. To
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudcontrolspartner.admin" class="role-title add-link" data-text="Cloud Controls Partner Admin" tabindex="-1">Cloud Controls Partner Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
+<td>Cloud Controls Partner Admin
+<p>( <code>roles/ cloudcontrolspartner.admin</code> )</p>
 <p>Full access to Cloud Controls Partner resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudcontrolspartner.  accessapprovalrequests.  list</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  customers.*</code></p>
+<td><p><code>cloudcontrolspartner. accessapprovalrequests. list</code></p>
+<p><code>cloudcontrolspartner. customers.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  create</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  list</code></li>
+<li><code>cloudcontrolspartner. customers. create</code></li>
+<li><code>cloudcontrolspartner. customers. delete</code></li>
+<li><code>cloudcontrolspartner. customers. get</code></li>
+<li><code>cloudcontrolspartner. customers. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  ekmconnections.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  inspectabilityevents.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  partnerpermissions.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  partners.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  platformcontrols.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  violations.  list</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.  list</code></p></td>
+<p><code>cloudcontrolspartner. ekmconnections. get</code></p>
+<p><code>cloudcontrolspartner. inspectabilityevents. get</code></p>
+<p><code>cloudcontrolspartner. partnerpermissions. get</code></p>
+<p><code>cloudcontrolspartner. partners. get</code></p>
+<p><code>cloudcontrolspartner. platformcontrols. get</code></p>
+<p><code>cloudcontrolspartner. violations. list</code></p>
+<p><code>cloudcontrolspartner. workloads. list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudcontrolspartner.editor" class="role-title add-link" data-text="Cloud Controls Partner Editor" tabindex="-1">Cloud Controls Partner Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
+<td>Cloud Controls Partner Editor
+<p>( <code>roles/ cloudcontrolspartner.editor</code> )</p>
 <p>Editor access to Cloud Controls Partner resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudcontrolspartner.*</code></p>
+<td><p><code>cloudcontrolspartner.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  accessapprovalrequests.  list</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  create</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  list</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  ekmconnections.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  inspectabilityevents.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  partnerpermissions.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  partners.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  platformcontrols.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  violations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  violations.  list</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.  list</code></li>
+<li><code>cloudcontrolspartner. accessapprovalrequests. list</code></li>
+<li><code>cloudcontrolspartner. customers. create</code></li>
+<li><code>cloudcontrolspartner. customers. delete</code></li>
+<li><code>cloudcontrolspartner. customers. get</code></li>
+<li><code>cloudcontrolspartner. customers. list</code></li>
+<li><code>cloudcontrolspartner. ekmconnections. get</code></li>
+<li><code>cloudcontrolspartner. inspectabilityevents. get</code></li>
+<li><code>cloudcontrolspartner. partnerpermissions. get</code></li>
+<li><code>cloudcontrolspartner. partners. get</code></li>
+<li><code>cloudcontrolspartner. platformcontrols. get</code></li>
+<li><code>cloudcontrolspartner. violations. get</code></li>
+<li><code>cloudcontrolspartner. violations. list</code></li>
+<li><code>cloudcontrolspartner. workloads. get</code></li>
+<li><code>cloudcontrolspartner. workloads. list</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudcontrolspartner.viewer" class="role-title add-link" data-text="Cloudcontrolspartner Viewer" tabindex="-1">Cloudcontrolspartner Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
+<td>Cloudcontrolspartner Viewer
+<p>( <code>roles/ cloudcontrolspartner.viewer</code> )</p>
 <p>Viewer role for cloudcontrolspartner</p></td>
-<td><p><code dir="ltr" translate="no">cloudcontrolspartner.  accessapprovalrequests.  list</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  list</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  ekmconnections.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  inspectabilityevents.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  partnerpermissions.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  partners.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  platformcontrols.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  violations.*</code></p>
+<td><p><code>cloudcontrolspartner. accessapprovalrequests. list</code></p>
+<p><code>cloudcontrolspartner. customers. get</code></p>
+<p><code>cloudcontrolspartner. customers. list</code></p>
+<p><code>cloudcontrolspartner. ekmconnections. get</code></p>
+<p><code>cloudcontrolspartner. inspectabilityevents. get</code></p>
+<p><code>cloudcontrolspartner. partnerpermissions. get</code></p>
+<p><code>cloudcontrolspartner. partners. get</code></p>
+<p><code>cloudcontrolspartner. platformcontrols. get</code></p>
+<p><code>cloudcontrolspartner. violations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  violations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  violations.  list</code></li>
+<li><code>cloudcontrolspartner. violations. get</code></li>
+<li><code>cloudcontrolspartner. violations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.*</code></p>
+<p><code>cloudcontrolspartner. workloads.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.  list</code></li>
+<li><code>cloudcontrolspartner. workloads. get</code></li>
+<li><code>cloudcontrolspartner. workloads. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudcontrolspartner.inspectabilityReader" class="role-title add-link" data-text="Cloud Controls Partner Inspectability Reader" tabindex="-1">Cloud Controls Partner Inspectability Reader</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudcontrolspartner.inspectabilityReader</code> )</p>
+<td>Cloud Controls Partner Inspectability Reader
+<p>( <code>roles/ cloudcontrolspartner.inspectabilityReader</code> )</p>
 <p>Readonly access to Cloud Controls Partner inspectability resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  list</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  inspectabilityevents.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  platformcontrols.  get</code></p></td>
+<td><p><code>cloudcontrolspartner. customers. get</code></p>
+<p><code>cloudcontrolspartner. customers. list</code></p>
+<p><code>cloudcontrolspartner. inspectabilityevents. get</code></p>
+<p><code>cloudcontrolspartner. platformcontrols. get</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudcontrolspartner.monitoringReader" class="role-title add-link" data-text="Cloud Controls Partner Monitoring Reader" tabindex="-1">Cloud Controls Partner Monitoring Reader</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudcontrolspartner.monitoringReader</code> )</p>
+<td>Cloud Controls Partner Monitoring Reader
+<p>( <code>roles/ cloudcontrolspartner.monitoringReader</code> )</p>
 <p>Read-only access to Cloud Controls Partner monitoring resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  list</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  violations.*</code></p>
+<td><p><code>cloudcontrolspartner. customers. get</code></p>
+<p><code>cloudcontrolspartner. customers. list</code></p>
+<p><code>cloudcontrolspartner. violations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  violations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  violations.  list</code></li>
+<li><code>cloudcontrolspartner. violations. get</code></li>
+<li><code>cloudcontrolspartner. violations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.*</code></p>
+<p><code>cloudcontrolspartner. workloads.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.  list</code></li>
+<li><code>cloudcontrolspartner. workloads. get</code></li>
+<li><code>cloudcontrolspartner. workloads. list</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudcontrolspartner.reader" class="role-title add-link" data-text="Cloud Controls Partner Reader" tabindex="-1">Cloud Controls Partner Reader</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
+<td>Cloud Controls Partner Reader
+<p>( <code>roles/ cloudcontrolspartner.reader</code> )</p>
 <p>Read-only access to Cloud Controls Partner resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudcontrolspartner.  accessapprovalrequests.  list</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  list</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  ekmconnections.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  inspectabilityevents.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  partnerpermissions.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  partners.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  platformcontrols.  get</code></p>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  violations.*</code></p>
+<td><p><code>cloudcontrolspartner. accessapprovalrequests. list</code></p>
+<p><code>cloudcontrolspartner. customers. get</code></p>
+<p><code>cloudcontrolspartner. customers. list</code></p>
+<p><code>cloudcontrolspartner. ekmconnections. get</code></p>
+<p><code>cloudcontrolspartner. inspectabilityevents. get</code></p>
+<p><code>cloudcontrolspartner. partnerpermissions. get</code></p>
+<p><code>cloudcontrolspartner. partners. get</code></p>
+<p><code>cloudcontrolspartner. platformcontrols. get</code></p>
+<p><code>cloudcontrolspartner. violations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  violations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  violations.  list</code></li>
+<li><code>cloudcontrolspartner. violations. get</code></li>
+<li><code>cloudcontrolspartner. violations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.*</code></p>
+<p><code>cloudcontrolspartner. workloads.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.  get</code></li>
-<li><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.  list</code></li>
+<li><code>cloudcontrolspartner. workloads. get</code></li>
+<li><code>cloudcontrolspartner. workloads. list</code></li>
 </ul></td>
 </tr>
 </tbody>
@@ -158,268 +158,64 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudcontrolspartner.accessApprovalServiceAgent" class="role-title add-link" data-text="Cloud Controls Partner Access Approval Service Agent" tabindex="-1">Cloud Controls Partner Access Approval Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudcontrolspartner.accessApprovalServiceAgent</code> )</p>
+<td>Cloud Controls Partner Access Approval Service Agent
+<p>( <code>roles/ cloudcontrolspartner.accessApprovalServiceAgent</code> )</p>
 <p>Gives the Partner Console service account access to read Access Approval Requests for workloads associated with a partner.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">accessapproval.requests.get</code></p>
-<p><code dir="ltr" translate="no">accessapproval.requests.list</code></p></td>
+<td><p><code>accessapproval.requests.get</code></p>
+<p><code>accessapproval.requests.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudcontrolspartner.ekmServiceAgent" class="role-title add-link" data-text="Cloud Controls Partner EKM Service Agent" tabindex="-1">Cloud Controls Partner EKM Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudcontrolspartner.ekmServiceAgent</code> )</p>
+<td>Cloud Controls Partner EKM Service Agent
+<p>( <code>roles/ cloudcontrolspartner.ekmServiceAgent</code> )</p>
 <p>Gives Cloud Controls Partner service agent permission to list EKM connections, get EKM connection status, and provide EKM diagnostic information.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">cloudkms.ekmConnections.get</code></p>
-<p><code dir="ltr" translate="no">cloudkms.  ekmConnections.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudkms.ekmConnections.list</code></p>
-<p><code dir="ltr" translate="no">cloudkms.  ekmConnections.  verifyConnectivity</code></p></td>
+<td><p><code>cloudkms.ekmConnections.get</code></p>
+<p><code>cloudkms. ekmConnections. getIamPolicy</code></p>
+<p><code>cloudkms.ekmConnections.list</code></p>
+<p><code>cloudkms. ekmConnections. verifyConnectivity</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudcontrolspartner.monitoringServiceAgent" class="role-title add-link" data-text="Cloud Controls Partner Monitoring Service Agent" tabindex="-1">Cloud Controls Partner Monitoring Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudcontrolspartner.monitoringServiceAgent</code> )</p>
+<td>Cloud Controls Partner Monitoring Service Agent
+<p>( <code>roles/ cloudcontrolspartner.monitoringServiceAgent</code> )</p>
 <p>Gives Cloud Controls Partner monitoring service agent permission to view and list Assured Workload violations. The role is assigned to enable partner monitoring capability.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">assuredworkloads.  violations.  get</code></p>
-<p><code dir="ltr" translate="no">assuredworkloads.  violations.  list</code></p></td>
+<td><p><code>assuredworkloads. violations. get</code></p>
+<p><code>assuredworkloads. violations. list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudcontrolspartner.supportCaseServiceAgent" class="role-title add-link" data-text="Cloud Controls Partner Support Case Service Agent" tabindex="-1">Cloud Controls Partner Support Case Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudcontrolspartner.supportCaseServiceAgent</code> )</p>
+<td>Cloud Controls Partner Support Case Service Agent
+<p>( <code>roles/ cloudcontrolspartner.supportCaseServiceAgent</code> )</p>
 <p>Gives the Partner Console service account access to support cases for workloads associated with a partner.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">cloudsupport.techCases.get</code></p></td>
+<td><p><code>cloudsupport.techCases.get</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Cloud Controls Partner API permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="cloudcontrolspartner.accessapprovalrequests.list" class="permission-name add-link" data-text="cloudcontrolspartner.accessapprovalrequests.list" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  accessapprovalrequests.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin">Cloud Controls Partner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer">Cloudcontrolspartner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader">Cloud Controls Partner Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudcontrolspartner.customers.create" class="permission-name add-link" data-text="cloudcontrolspartner.customers.create" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin">Cloud Controls Partner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudcontrolspartner.customers.delete" class="permission-name add-link" data-text="cloudcontrolspartner.customers.delete" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin">Cloud Controls Partner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudcontrolspartner.customers.get" class="permission-name add-link" data-text="cloudcontrolspartner.customers.get" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin">Cloud Controls Partner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer">Cloudcontrolspartner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.inspectabilityReader">Cloud Controls Partner Inspectability Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.inspectabilityReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringReader">Cloud Controls Partner Monitoring Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.monitoringReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader">Cloud Controls Partner Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudcontrolspartner.customers.list" class="permission-name add-link" data-text="cloudcontrolspartner.customers.list" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  customers.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin">Cloud Controls Partner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer">Cloudcontrolspartner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.inspectabilityReader">Cloud Controls Partner Inspectability Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.inspectabilityReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringReader">Cloud Controls Partner Monitoring Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.monitoringReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader">Cloud Controls Partner Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudcontrolspartner.ekmconnections.get" class="permission-name add-link" data-text="cloudcontrolspartner.ekmconnections.get" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  ekmconnections.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin">Cloud Controls Partner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer">Cloudcontrolspartner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader">Cloud Controls Partner Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudcontrolspartner.inspectabilityevents.get" class="permission-name add-link" data-text="cloudcontrolspartner.inspectabilityevents.get" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  inspectabilityevents.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin">Cloud Controls Partner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer">Cloudcontrolspartner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.inspectabilityReader">Cloud Controls Partner Inspectability Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.inspectabilityReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader">Cloud Controls Partner Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudcontrolspartner.partnerpermissions.get" class="permission-name add-link" data-text="cloudcontrolspartner.partnerpermissions.get" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  partnerpermissions.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin">Cloud Controls Partner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer">Cloudcontrolspartner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader">Cloud Controls Partner Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudcontrolspartner.partners.get" class="permission-name add-link" data-text="cloudcontrolspartner.partners.get" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  partners.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin">Cloud Controls Partner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer">Cloudcontrolspartner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader">Cloud Controls Partner Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudcontrolspartner.platformcontrols.get" class="permission-name add-link" data-text="cloudcontrolspartner.platformcontrols.get" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  platformcontrols.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin">Cloud Controls Partner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer">Cloudcontrolspartner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.inspectabilityReader">Cloud Controls Partner Inspectability Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.inspectabilityReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader">Cloud Controls Partner Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudcontrolspartner.violations.get" class="permission-name add-link" data-text="cloudcontrolspartner.violations.get" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  violations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer">Cloudcontrolspartner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringReader">Cloud Controls Partner Monitoring Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.monitoringReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader">Cloud Controls Partner Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudcontrolspartner.violations.list" class="permission-name add-link" data-text="cloudcontrolspartner.violations.list" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  violations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin">Cloud Controls Partner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer">Cloudcontrolspartner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringReader">Cloud Controls Partner Monitoring Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.monitoringReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader">Cloud Controls Partner Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudcontrolspartner.workloads.get" class="permission-name add-link" data-text="cloudcontrolspartner.workloads.get" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer">Cloudcontrolspartner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringReader">Cloud Controls Partner Monitoring Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.monitoringReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader">Cloud Controls Partner Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudcontrolspartner.workloads.list" class="permission-name add-link" data-text="cloudcontrolspartner.workloads.list" tabindex="-1"><code dir="ltr" translate="no">cloudcontrolspartner.  workloads.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin">Cloud Controls Partner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor">Cloud Controls Partner Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer">Cloudcontrolspartner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringReader">Cloud Controls Partner Monitoring Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.monitoringReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader">Cloud Controls Partner Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                           | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `cloudcontrolspartner. accessapprovalrequests. list` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Controls Partner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin) ( `roles/ cloudcontrolspartner.admin` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Cloudcontrolspartner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer) ( `roles/ cloudcontrolspartner.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Controls Partner Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader) ( `roles/ cloudcontrolspartner.reader` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `cloudcontrolspartner. customers. create`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Controls Partner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin) ( `roles/ cloudcontrolspartner.admin` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `cloudcontrolspartner. customers. delete`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Controls Partner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin) ( `roles/ cloudcontrolspartner.admin` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `cloudcontrolspartner. customers. get`               | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Controls Partner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin) ( `roles/ cloudcontrolspartner.admin` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Cloudcontrolspartner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer) ( `roles/ cloudcontrolspartner.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Controls Partner Inspectability Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.inspectabilityReader) ( `roles/ cloudcontrolspartner.inspectabilityReader` ) [Cloud Controls Partner Monitoring Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringReader) ( `roles/ cloudcontrolspartner.monitoringReader` ) [Cloud Controls Partner Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader) ( `roles/ cloudcontrolspartner.reader` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `cloudcontrolspartner. customers. list`              | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Controls Partner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin) ( `roles/ cloudcontrolspartner.admin` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Cloudcontrolspartner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer) ( `roles/ cloudcontrolspartner.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Controls Partner Inspectability Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.inspectabilityReader) ( `roles/ cloudcontrolspartner.inspectabilityReader` ) [Cloud Controls Partner Monitoring Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringReader) ( `roles/ cloudcontrolspartner.monitoringReader` ) [Cloud Controls Partner Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader) ( `roles/ cloudcontrolspartner.reader` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `cloudcontrolspartner. ekmconnections. get`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Controls Partner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin) ( `roles/ cloudcontrolspartner.admin` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Cloudcontrolspartner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer) ( `roles/ cloudcontrolspartner.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Controls Partner Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader) ( `roles/ cloudcontrolspartner.reader` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| `cloudcontrolspartner. inspectabilityevents. get`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Controls Partner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin) ( `roles/ cloudcontrolspartner.admin` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Cloudcontrolspartner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer) ( `roles/ cloudcontrolspartner.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Controls Partner Inspectability Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.inspectabilityReader) ( `roles/ cloudcontrolspartner.inspectabilityReader` ) [Cloud Controls Partner Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader) ( `roles/ cloudcontrolspartner.reader` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| `cloudcontrolspartner. partnerpermissions. get`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Controls Partner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin) ( `roles/ cloudcontrolspartner.admin` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Cloudcontrolspartner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer) ( `roles/ cloudcontrolspartner.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Controls Partner Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader) ( `roles/ cloudcontrolspartner.reader` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| `cloudcontrolspartner. partners. get`                | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Controls Partner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin) ( `roles/ cloudcontrolspartner.admin` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Cloudcontrolspartner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer) ( `roles/ cloudcontrolspartner.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Controls Partner Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader) ( `roles/ cloudcontrolspartner.reader` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| `cloudcontrolspartner. platformcontrols. get`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Controls Partner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin) ( `roles/ cloudcontrolspartner.admin` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Cloudcontrolspartner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer) ( `roles/ cloudcontrolspartner.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Controls Partner Inspectability Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.inspectabilityReader) ( `roles/ cloudcontrolspartner.inspectabilityReader` ) [Cloud Controls Partner Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader) ( `roles/ cloudcontrolspartner.reader` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| `cloudcontrolspartner. violations. get`              | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Cloudcontrolspartner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer) ( `roles/ cloudcontrolspartner.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Controls Partner Monitoring Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringReader) ( `roles/ cloudcontrolspartner.monitoringReader` ) [Cloud Controls Partner Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader) ( `roles/ cloudcontrolspartner.reader` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `cloudcontrolspartner. violations. list`             | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Controls Partner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin) ( `roles/ cloudcontrolspartner.admin` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Cloudcontrolspartner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer) ( `roles/ cloudcontrolspartner.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Controls Partner Monitoring Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringReader) ( `roles/ cloudcontrolspartner.monitoringReader` ) [Cloud Controls Partner Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader) ( `roles/ cloudcontrolspartner.reader` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                |
+| `cloudcontrolspartner. workloads. get`               | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Cloudcontrolspartner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer) ( `roles/ cloudcontrolspartner.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Controls Partner Monitoring Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringReader) ( `roles/ cloudcontrolspartner.monitoringReader` ) [Cloud Controls Partner Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader) ( `roles/ cloudcontrolspartner.reader` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `cloudcontrolspartner. workloads. list`              | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Controls Partner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.admin) ( `roles/ cloudcontrolspartner.admin` ) [Cloud Controls Partner Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.editor) ( `roles/ cloudcontrolspartner.editor` ) [Cloudcontrolspartner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.viewer) ( `roles/ cloudcontrolspartner.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Controls Partner Monitoring Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringReader) ( `roles/ cloudcontrolspartner.monitoringReader` ) [Cloud Controls Partner Reader](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.reader) ( `roles/ cloudcontrolspartner.reader` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                |

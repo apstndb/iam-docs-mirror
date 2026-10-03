@@ -18,93 +18,105 @@ The `testIamPermissions()` method is intended for third-party graphical user int
 
 ## Before you begin
 
-  - Enable the Resource Manager API, if it is not already enabled.
-    
-    **Roles required to enable APIs**
-    
-    To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+- Enable the Resource Manager API, if it is not already enabled.
 
-  - Set up authentication.
-    
-    Select the tab for how you plan to use the samples on this page:
-    
-    ### C\#
-    
-    To use the .NET samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
-    
-    1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
-    
-    2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    3.  If you're using a local shell, then create local authentication credentials for your user account:
-        
-            gcloud auth application-default login
-        
-        You don't need to do this if you're using Cloud Shell.
-        
-        If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
-    
-    ### C++
-    
-    To use the C++ samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
-    
-    1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
-    
-    2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    3.  If you're using a local shell, then create local authentication credentials for your user account:
-        
-            gcloud auth application-default login
-        
-        You don't need to do this if you're using Cloud Shell.
-        
-        If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
-    
-    ### Java
-    
-    To use the Java samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
-    
-    1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
-    
-    2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    3.  If you're using a local shell, then create local authentication credentials for your user account:
-        
-            gcloud auth application-default login
-        
-        You don't need to do this if you're using Cloud Shell.
-        
-        If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
-    
-    ### Python
-    
-    To use the Python samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
-    
-    1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
-    
-    2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    3.  If you're using a local shell, then create local authentication credentials for your user account:
-        
-            gcloud auth application-default login
-        
-        You don't need to do this if you're using Cloud Shell.
-        
-        If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
-    For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
-    
-    ### REST
-    
-    To use the REST API samples on this page in a local development environment, you use the credentials you provide to the gcloud CLI.
-    
-    For more information, see [Authenticate for using REST](https://docs.cloud.google.com/docs/authentication/rest) in the Google Cloud authentication documentation.
+  **Roles required to enable APIs**
+
+  To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+
+- Set up authentication.
+
+  Select the tab for how you plan to use the samples on this page:
+
+  ### C#
+
+  To use the .NET samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
+
+  1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
+
+  2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  3.  If you're using a local shell, then create local authentication credentials for your user account:
+
+      ```
+      gcloud auth application-default login
+      ```
+
+      You don't need to do this if you're using Cloud Shell.
+
+      If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
+
+  ### C++
+
+  To use the C++ samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
+
+  1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
+
+  2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  3.  If you're using a local shell, then create local authentication credentials for your user account:
+
+      ```
+      gcloud auth application-default login
+      ```
+
+      You don't need to do this if you're using Cloud Shell.
+
+      If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
+
+  ### Java
+
+  To use the Java samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
+
+  1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
+
+  2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  3.  If you're using a local shell, then create local authentication credentials for your user account:
+
+      ```
+      gcloud auth application-default login
+      ```
+
+      You don't need to do this if you're using Cloud Shell.
+
+      If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
+
+  ### Python
+
+  To use the Python samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
+
+  1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
+
+  2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  3.  If you're using a local shell, then create local authentication credentials for your user account:
+
+      ```
+      gcloud auth application-default login
+      ```
+
+      You don't need to do this if you're using Cloud Shell.
+
+      If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
+
+  ### REST
+
+  To use the REST API samples on this page in a local development environment, you use the credentials you provide to the gcloud CLI.
+
+  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
+
+  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  For more information, see [Authenticate for using REST](https://docs.cloud.google.com/docs/authentication/rest) in the Google Cloud authentication documentation.
 
 ### Required roles
 
@@ -120,16 +132,18 @@ To learn how to install and use the client library for IAM, see [IAM client libr
 
 To authenticate to IAM, set up Application Default Credentials. For more information, see [Before you begin](https://docs.cloud.google.com/iam/docs/testing-permissions#before-you-begin) .
 
-    namespace iam = ::google::cloud::iam_admin_v1;
-    [](std::string const& name, std::vector<std::string> const& permissions) {
-      iam::IAMClient client(iam::MakeIAMConnection());
-      auto response = client.TestIamPermissions(name, permissions);
-      if (!response) throw std::move(response).status();
-      std::cout << "Permissions successfully tested: " << response->DebugString()
-                << "\n";
-    }
+```cpp
+namespace iam = ::google::cloud::iam_admin_v1;
+[](std::string const& name, std::vector<std::string> const& permissions) {
+  iam::IAMClient client(iam::MakeIAMConnection());
+  auto response = client.TestIamPermissions(name, permissions);
+  if (!response) throw std::move(response).status();
+  std::cout << "Permissions successfully tested: " << response->DebugString()
+            << "\n";
+}
+```
 
-### C\#
+### C#
 
 To authenticate to Resource Manager, set up Application Default Credentials. For more information, see [Before you begin](https://docs.cloud.google.com/iam/docs/testing-permissions#before-you-begin) .
 
@@ -137,32 +151,34 @@ To learn how to install and use the client library for Resource Manager, see [Re
 
 IAM tests the permissions of the service account that you are using to generate credentials.
 
-    using System;
-    using System.Collections.Generic;
-    using Google.Apis.Auth.OAuth2;
-    using Google.Apis.CloudResourceManager.v1;
-    using Google.Apis.CloudResourceManager.v1.Data;
-    
-    public partial class AccessManager
+```csharp
+using System;
+using System.Collections.Generic;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.CloudResourceManager.v1;
+using Google.Apis.CloudResourceManager.v1.Data;
+
+public partial class AccessManager
+{
+    public static IList<String> TestIamPermissions(string projectId)
     {
-        public static IList<String> TestIamPermissions(string projectId)
-        {
-            var credential = GoogleCredential.GetApplicationDefault()
-                .CreateScoped(CloudResourceManagerService.Scope.CloudPlatform);
-            var service = new CloudResourceManagerService(
-                new CloudResourceManagerService.Initializer
-                {
-                    HttpClientInitializer = credential
-                });
-    
-            TestIamPermissionsRequest requestBody = new TestIamPermissionsRequest();
-            var permissions = new List<string>() { "resourcemanager.projects.get", "resourcemanager.projects.delete" };
-            requestBody.Permissions = new List<string>(permissions);
-            var returnedPermissions = service.Projects.TestIamPermissions(requestBody, projectId).Execute().Permissions;
-    
-            return returnedPermissions;
-        }
+        var credential = GoogleCredential.GetApplicationDefault()
+            .CreateScoped(CloudResourceManagerService.Scope.CloudPlatform);
+        var service = new CloudResourceManagerService(
+            new CloudResourceManagerService.Initializer
+            {
+                HttpClientInitializer = credential
+            });
+
+        TestIamPermissionsRequest requestBody = new TestIamPermissionsRequest();
+        var permissions = new List<string>() { "resourcemanager.projects.get", "resourcemanager.projects.delete" };
+        requestBody.Permissions = new List<string>(permissions);
+        var returnedPermissions = service.Projects.TestIamPermissions(requestBody, projectId).Execute().Permissions;
+
+        return returnedPermissions;
     }
+}
+```
 
 ### Java
 
@@ -172,69 +188,71 @@ To learn how to install and use the client library for Resource Manager, see [Re
 
 IAM tests the permissions of the service account that you are using to generate credentials.
 
-    import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
-    import com.google.api.client.json.gson.GsonFactory;
-    import com.google.api.services.cloudresourcemanager.v3.CloudResourceManager;
-    import com.google.api.services.cloudresourcemanager.v3.model.TestIamPermissionsRequest;
-    import com.google.api.services.cloudresourcemanager.v3.model.TestIamPermissionsResponse;
-    import com.google.api.services.iam.v1.IamScopes;
-    import com.google.auth.http.HttpCredentialsAdapter;
-    import com.google.auth.oauth2.GoogleCredentials;
-    import java.io.IOException;
-    import java.security.GeneralSecurityException;
-    import java.util.Arrays;
-    import java.util.Collections;
-    import java.util.List;
-    
-    public class TestPermissions {
-    
-      // Tests if the caller has the listed permissions.
-      public static void testPermissions(String projectId) {
-        // projectId = "my-project-id"
-    
-        CloudResourceManager service = null;
-        try {
-          service = createCloudResourceManagerService();
-        } catch (IOException | GeneralSecurityException e) {
-          System.out.println("Unable to initialize service: \n" + e.toString());
-          return;
-        }
-    
-        List<String> permissionsList =
-            Arrays.asList("resourcemanager.projects.get", "resourcemanager.projects.delete");
-    
-        TestIamPermissionsRequest requestBody =
-            new TestIamPermissionsRequest().setPermissions(permissionsList);
-        try {
-          TestIamPermissionsResponse testIamPermissionsResponse =
-              service.projects().testIamPermissions(projectId, requestBody).execute();
-    
-          System.out.println(
-              "Of the permissions listed in the request, the caller has the following: "
-                  + testIamPermissionsResponse.getPermissions().toString());
-        } catch (IOException e) {
-          System.out.println("Unable to test permissions: \n" + e.toString());
-        }
-      }
-    
-      public static CloudResourceManager createCloudResourceManagerService()
-          throws IOException, GeneralSecurityException {
-        // Use the Application Default Credentials strategy for authentication. For more info, see:
-        // https://cloud.google.com/docs/authentication/production#finding_credentials_automatically
-        GoogleCredentials credential =
-            GoogleCredentials.getApplicationDefault()
-                .createScoped(Collections.singleton(IamScopes.CLOUD_PLATFORM));
-    
-        CloudResourceManager service =
-            new CloudResourceManager.Builder(
-                    GoogleNetHttpTransport.newTrustedTransport(),
-                    GsonFactory.getDefaultInstance(),
-                    new HttpCredentialsAdapter(credential))
-                .setApplicationName("service-accounts")
-                .build();
-        return service;
-      }
+```java
+import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
+import com.google.api.client.json.gson.GsonFactory;
+import com.google.api.services.cloudresourcemanager.v3.CloudResourceManager;
+import com.google.api.services.cloudresourcemanager.v3.model.TestIamPermissionsRequest;
+import com.google.api.services.cloudresourcemanager.v3.model.TestIamPermissionsResponse;
+import com.google.api.services.iam.v1.IamScopes;
+import com.google.auth.http.HttpCredentialsAdapter;
+import com.google.auth.oauth2.GoogleCredentials;
+import java.io.IOException;
+import java.security.GeneralSecurityException;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class TestPermissions {
+
+  // Tests if the caller has the listed permissions.
+  public static void testPermissions(String projectId) {
+    // projectId = "my-project-id"
+
+    CloudResourceManager service = null;
+    try {
+      service = createCloudResourceManagerService();
+    } catch (IOException | GeneralSecurityException e) {
+      System.out.println("Unable to initialize service: \n" + e.toString());
+      return;
     }
+
+    List<String> permissionsList =
+        Arrays.asList("resourcemanager.projects.get", "resourcemanager.projects.delete");
+
+    TestIamPermissionsRequest requestBody =
+        new TestIamPermissionsRequest().setPermissions(permissionsList);
+    try {
+      TestIamPermissionsResponse testIamPermissionsResponse =
+          service.projects().testIamPermissions(projectId, requestBody).execute();
+
+      System.out.println(
+          "Of the permissions listed in the request, the caller has the following: "
+              + testIamPermissionsResponse.getPermissions().toString());
+    } catch (IOException e) {
+      System.out.println("Unable to test permissions: \n" + e.toString());
+    }
+  }
+
+  public static CloudResourceManager createCloudResourceManagerService()
+      throws IOException, GeneralSecurityException {
+    // Use the Application Default Credentials strategy for authentication. For more info, see:
+    // https://cloud.google.com/docs/authentication/production#finding_credentials_automatically
+    GoogleCredentials credential =
+        GoogleCredentials.getApplicationDefault()
+            .createScoped(Collections.singleton(IamScopes.CLOUD_PLATFORM));
+
+    CloudResourceManager service =
+        new CloudResourceManager.Builder(
+                GoogleNetHttpTransport.newTrustedTransport(),
+                GsonFactory.getDefaultInstance(),
+                new HttpCredentialsAdapter(credential))
+            .setApplicationName("service-accounts")
+            .build();
+    return service;
+  }
+}
+```
 
 ### Python
 
@@ -244,43 +262,49 @@ To learn how to install and use the client library for Resource Manager, see [Re
 
 IAM tests the permissions of the service account that you are using to generate credentials.
 
-    def test_permissions(project_id: str) -> List[str]:
-        """Tests IAM permissions of currently authenticated user to a project."""
-    
-        projects_client = resourcemanager_v3.ProjectsClient()
-        if not project_id.startswith("projects/"):
-            project_id = "projects/" + project_id
-    
-        owned_permissions = projects_client.test_iam_permissions(
-            resource=project_id,
-            permissions=["resourcemanager.projects.get", "resourcemanager.projects.delete"],
-        ).permissions
-    
-        print("Currently authenticated user has following permissions:", owned_permissions)
-        return owned_permissions
+```python
+def test_permissions(project_id: str) -> List[str]:
+    """Tests IAM permissions of currently authenticated user to a project."""
+
+    projects_client = resourcemanager_v3.ProjectsClient()
+    if not project_id.startswith("projects/"):
+        project_id = "projects/" + project_id
+
+    owned_permissions = projects_client.test_iam_permissions(
+        resource=project_id,
+        permissions=["resourcemanager.projects.get", "resourcemanager.projects.delete"],
+    ).permissions
+
+    print("Currently authenticated user has following permissions:", owned_permissions)
+    return owned_permissions
+```
 
 ### REST
 
 In this example, the user has an IAM role that allows them to get information about a project, but not to delete projects.
 
-The Resource Manager API's `  projects.testIamPermissions  ` method accepts a list of permissions and tests which of the permissions a principal has.
+The Resource Manager API's [`projects.testIamPermissions`](https://docs.cloud.google.com/resource-manager/reference/rest/v1/projects/testIamPermissions) method accepts a list of permissions and tests which of the permissions a principal has.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
 
 HTTP method and URL:
 
-    POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:testIamPermissions
+```
+POST https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:testIamPermissions
+```
 
 Request JSON body:
 
-    {
-      "permissions":  [
-        "resourcemanager.projects.get",
-        "resourcemanager.projects.delete"
-      ]
-    }
+```
+{
+  "permissions":  [
+    "resourcemanager.projects.get",
+    "resourcemanager.projects.delete"
+  ]
+}
+```
 
 To send your request, expand one of these options:
 
@@ -290,11 +314,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:testIamPermissions"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:testIamPermissions"
+```
 
 #### PowerShell (Windows)
 
@@ -302,15 +328,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:testIamPermissions" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://cloudresourcemanager.googleapis.com/v1/projects/PROJECT_ID:testIamPermissions" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -318,11 +346,13 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 You should receive a JSON response similar to the following:
 
-    {
-      "permissions": [
-        "resourcemanager.projects.get"
-      ]
-    }
+```
+{
+  "permissions": [
+    "resourcemanager.projects.get"
+  ]
+}
+```
 
 ## What's next
 

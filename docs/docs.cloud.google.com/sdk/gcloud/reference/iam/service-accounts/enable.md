@@ -12,7 +12,7 @@ gcloud iam service-accounts enable - enable an IAM service account
 
 SYNOPSIS
 
-`gcloud iam service-accounts enable` `  SERVICE_ACCOUNT  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam service-accounts enable` [`SERVICE_ACCOUNT`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/enable#SERVICE_ACCOUNT) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/enable#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -24,7 +24,9 @@ EXAMPLES
 
 To enable a service account from your project, run:
 
-    gcloud iam service-accounts enable my-iam-account@my-project.iam.gserviceaccount.com
+```
+gcloud iam service-accounts enable my-iam-account@my-project.iam.gserviceaccount.com
+```
 
 POSITIONAL ARGUMENTS
 
@@ -32,24 +34,24 @@ ServiceAccount resource - The IAM service account to enable. This represents a C
 
 To set the `project` attribute:
 
-  - provide the argument `service_account` on the command line with a fully specified name;
-  - provide the argument `--project` on the command line;
-  - set the property `core/project` .
+- provide the argument `service_account` on the command line with a fully specified name;
+- provide the argument `--project` on the command line;
+- set the property `core/project` .
 
 This must be specified.
 
-  - `  SERVICE_ACCOUNT  `  
-    ID of the serviceAccount or fully qualified identifier for the serviceAccount.
-    
-    To set the `service_account` attribute:
-    
-      - provide the argument `service_account` on the command line.
+`SERVICE_ACCOUNT`  
+ID of the serviceAccount or fully qualified identifier for the serviceAccount.
+
+To set the `service_account` attribute:
+
+- provide the argument `service_account` on the command line.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 API REFERENCE
 
@@ -59,6 +61,10 @@ NOTES
 
 These variants are also available:
 
-    gcloud alpha iam service-accounts enable
+```
+gcloud alpha iam service-accounts enable
+```
 
-    gcloud beta iam service-accounts enable
+```
+gcloud beta iam service-accounts enable
+```

@@ -12,7 +12,7 @@ gcloud iam workforce-pools subjects - create and manage workforce pool subjects
 
 SYNOPSIS
 
-`gcloud iam workforce-pools subjects` `  GROUP  ` | `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam workforce-pools subjects` [`GROUP`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/subjects#GROUP) \| [`COMMAND`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/subjects#COMMAND) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/subjects#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -20,22 +20,23 @@ The gcloud iam workforce-pools subjects group lets you create and manage workfor
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --help  ` .
+These flags are available to all commands: [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 GROUPS
 
-`  GROUP  ` is one of the following:
+`GROUP` is one of the following:
 
-  - `  operations  `  
-    Manage IAM workforce pool subject long-running operations.
+[`operations`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/subjects/operations)  
+Manage IAM workforce pool subject long-running operations.
 
 COMMANDS
 
-`  COMMAND  ` is one of the following:
+`COMMAND` is one of the following:
 
-  - `  delete  `  
-    Delete a workforce pool subject.
-  - `  undelete  `  
-    Undelete a workforce pool subject.
+[`delete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/subjects/delete)  
+Delete a workforce pool subject.
+
+[`undelete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/subjects/undelete)  
+Undelete a workforce pool subject.

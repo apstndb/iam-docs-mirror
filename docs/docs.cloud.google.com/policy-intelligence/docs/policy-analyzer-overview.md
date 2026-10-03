@@ -10,11 +10,11 @@ Policy Analyzer for allow policies lets you find out which principals (for examp
 
 Policy Analyzer for allow policies can help you answer questions like these:
 
-  - Who can access this IAM service account?
-  - Who can read data in this BigQuery dataset that contains personally identifiable information (PII)?
-  - What roles and permissions does the `dev-testers` group have on any resource in this project?
-  - What Compute Engine virtual machine (VM) instances can Tal delete in project A?
-  - Who can access this Cloud Storage bucket at 7 PM?
+- Who can access this IAM service account?
+- Who can read data in this BigQuery dataset that contains personally identifiable information (PII)?
+- What roles and permissions does the `dev-testers` group have on any resource in this project?
+- What Compute Engine virtual machine (VM) instances can Tal delete in project A?
+- Who can access this Cloud Storage bucket at 7 PM?
 
 ## How Policy Analyzer for allow policies works
 
@@ -24,10 +24,10 @@ To use Policy Analyzer for allow policies, you create an analysis query, specify
 
 To use Policy Analyzer, you create an *analysis query* specifying one or more of the following fields:
 
-  - Principals: The identities (for example, users, service accounts, groups, and domains) whose access you want to check
-  - Access: The permissions and roles that you want to check for
-  - Resources: The resources that you want to check for access to
-  - (API only) Condition context: The context—for example, time of day—under which you want to check for access
+- Principals: The identities (for example, users, service accounts, groups, and domains) whose access you want to check
+- Access: The permissions and roles that you want to check for
+- Resources: The resources that you want to check for access to
+- (API only) Condition context: The context—for example, time of day—under which you want to check for access
 
 Typically, you specify one or two of these fields in the analysis query, then use the query results to get more information about the fields that you didn't specify. For example, if you wanted to know who has a certain permission on a certain resource, you would specify the access and resource in the analysis query, but you would not specify the principal.
 
@@ -55,11 +55,11 @@ Policy Analyzer for allow policies only supports [IAM allow policies](https://do
 
 Policy Analyzer for allow policies doesn't support the following forms of access control:
 
-  - [IAM deny policies](https://docs.cloud.google.com/iam/docs/deny-overview)
-  - [IAM Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies)
-  - [Google Kubernetes Engine role-based access control](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/role-based-access-control)
-  - [Cloud Storage access control lists](https://docs.cloud.google.com/storage/docs/access-control/lists)
-  - [Cloud Storage public access prevention](https://docs.cloud.google.com/storage/docs/public-access-prevention)
+- [IAM deny policies](https://docs.cloud.google.com/iam/docs/deny-overview)
+- [IAM Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies)
+- [Google Kubernetes Engine role-based access control](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/role-based-access-control)
+- [Cloud Storage access control lists](https://docs.cloud.google.com/storage/docs/access-control/lists)
+- [Cloud Storage public access prevention](https://docs.cloud.google.com/storage/docs/public-access-prevention)
 
 Policy Analyzer query results don't account for unsupported policy types. For example, imagine that a user has the `iam.roles.get` permission on a project because of an allow policy, but a deny policy prevents them from using the permission. Policy Analyzer will report that they have the `iam.roles.get` permission, despite the deny policy.
 
@@ -69,8 +69,8 @@ To account for [policy inheritance](https://docs.cloud.google.com/iam/docs/polic
 
 For example, imagine you're trying to find out who can access an IAM service account:
 
-  - If you scope the query to a project, Policy Analyzer analyzes the allow policy of the service account and the allow policy of the project.
-  - If you scope the query to an organization, Policy Analyzer analyzes the allow policy of the service account, the allow policy of the project that owns the service account, the allow policies of any folders containing the project, and the allow policy of the organization.
+- If you scope the query to a project, Policy Analyzer analyzes the allow policy of the service account and the allow policy of the project.
+- If you scope the query to an organization, Policy Analyzer analyzes the allow policy of the service account, the allow policy of the project that owns the service account, the allow policies of any folders containing the project, and the allow policy of the organization.
 
 ### Conditional access
 
@@ -78,17 +78,17 @@ If a role binding has a [condition](https://docs.cloud.google.com/iam/docs/condi
 
 In some cases, Policy Analyzer can also analyze the condition, meaning that it can report whether the condition would be met. Policy Analyzer can analyze the following types of conditions:
 
-  - Conditions based on [resource attributes](https://docs.cloud.google.com/iam/docs/conditions-overview#resource_attributes) , for resource types that provide a [resource name](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes#resource-name) .
-  - [Date/time conditions](https://docs.cloud.google.com/iam/docs/conditions-overview#example-date-time) (API and gcloud CLI only). For Policy Analyzer to analyze these conditions, you need to provide the time of the access ( `accessTime` ) in your analysis query. To learn how to provide this context, see [Determine access at a specific time](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#conditional-access) .
+- Conditions based on [resource attributes](https://docs.cloud.google.com/iam/docs/conditions-overview#resource_attributes) , for resource types that provide a [resource name](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes#resource-name) .
+- [Date/time conditions](https://docs.cloud.google.com/iam/docs/conditions-overview#example-date-time) (API and gcloud CLI only). For Policy Analyzer to analyze these conditions, you need to provide the time of the access ( `accessTime` ) in your analysis query. To learn how to provide this context, see [Determine access at a specific time](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#conditional-access) .
 
 If a relevant role binding contains a condition, Policy Analyzer does one of the following:
 
-  - If Policy Analyzer can analyze the condition, it does one of the following:
-    
-      - If the condition evaluates to true, Policy Analyzer includes the role binding in the query results and marks the condition evaluation as `TRUE` .
-      - If the condition evaluates to false, Policy Analyzer does not include the role in the query results.
+- If Policy Analyzer can analyze the condition, it does one of the following:
 
-  - If Policy Analyzer can't analyze a condition for a relevant role binding, it includes the role in the query results and marks the condition evaluation as `CONDITIONAL` .
+  - If the condition evaluates to true, Policy Analyzer includes the role binding in the query results and marks the condition evaluation as `TRUE` .
+  - If the condition evaluates to false, Policy Analyzer does not include the role in the query results.
+
+- If Policy Analyzer can't analyze a condition for a relevant role binding, it includes the role in the query results and marks the condition evaluation as `CONDITIONAL` .
 
 ### Data freshness
 
@@ -104,10 +104,10 @@ To determine which principals can access a resource, create an analysis query th
 
 These queries can help you answer questions like the following:
 
-  - Who has access to this IAM service account?
-  - Who has permission to impersonate this IAM service account?
-  - Who are the billing administrators on project A?
-  - (API and gcloud CLI only): Who can update project A by impersonating a service account?
+- Who has access to this IAM service account?
+- Who has permission to impersonate this IAM service account?
+- Who are the billing administrators on project A?
+- (API and gcloud CLI only): Who can update project A by impersonating a service account?
 
 To learn how to create and send these queries, see [Determine which principals can access a resource](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#principal-query-resource) .
 
@@ -117,10 +117,10 @@ To determine which principals have certain roles and permissions, create an anal
 
 These queries can help you answer questions like the following:
 
-  - Who has permission to impersonate service accounts in my organization?
-  - Who are the billing administrators in my organization?
-  - Who can read data in this BigQuery dataset that contains personally identifiable information (PII)?
-  - (API and gcloud CLI only): Who in my organization can read a BigQuery dataset by impersonating a service account?
+- Who has permission to impersonate service accounts in my organization?
+- Who are the billing administrators in my organization?
+- Who can read data in this BigQuery dataset that contains personally identifiable information (PII)?
+- (API and gcloud CLI only): Who in my organization can read a BigQuery dataset by impersonating a service account?
 
 To learn how to create and send these queries, see [Determine which principals have certain roles or permissions](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#principal-query-all) .
 
@@ -130,9 +130,9 @@ To determine what roles and permissions a principal has on a specific resource, 
 
 These queries can help you answer questions like the following:
 
-  - What roles and permissions does user Sasha have on this BigQuery dataset?
-  - What roles and permissions does the `dev-testers` group have on any resource in this project?
-  - (API and gcloud CLI only): What roles and permissions does the user Dana have on this BigQuery dataset if Dana impersonates a service account?
+- What roles and permissions does user Sasha have on this BigQuery dataset?
+- What roles and permissions does the `dev-testers` group have on any resource in this project?
+- (API and gcloud CLI only): What roles and permissions does the user Dana have on this BigQuery dataset if Dana impersonates a service account?
 
 To learn how to create and send these queries, see [Determine what access a principal has on a resource](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#access-query) .
 
@@ -142,10 +142,10 @@ To determine what resources a specific principal can access, create an analysis 
 
 These queries can help you answer questions like the following:
 
-  - Which BigQuery datasets does the user Mahan have permission to read?
-  - Which BigQuery datasets is the `dev-testers` group the data owner of?
-  - What VMs can Tal delete in project A?
-  - (API and gcloud CLI only): What VMs can the user John delete by impersonating a service account?
+- Which BigQuery datasets does the user Mahan have permission to read?
+- Which BigQuery datasets is the `dev-testers` group the data owner of?
+- What VMs can Tal delete in project A?
+- (API and gcloud CLI only): What VMs can the user John delete by impersonating a service account?
 
 To learn how to create and send these queries, see [Determine which resources a principal can access](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#resource-query) .
 
@@ -191,13 +191,13 @@ If you enable resource expansion for a Policy Analyzer query, the query results 
 
 For example, consider how resource expansion would affect the following queries:
 
-  - Who has the `storage.buckets.delete` permission for `project-1` ?
-    
-    If you enable resource expansion for this query, the resources section of the query results will list not only the project, but also all storage buckets inside the project.
+- Who has the `storage.buckets.delete` permission for `project-1` ?
 
-  - Which resources does `my-user@example.com` have the `compute.instances.setIamPolicy` permission on?
-    
-    If you enable resource expansion for this query and Policy Analyzer finds that `my-user@example.com` has a project-level role that contains that permission, the resources section of the query results will list not only the project, but also all Compute Engine instances inside the project.
+  If you enable resource expansion for this query, the resources section of the query results will list not only the project, but also all storage buckets inside the project.
+
+- Which resources does `my-user@example.com` have the `compute.instances.setIamPolicy` permission on?
+
+  If you enable resource expansion for this query and Policy Analyzer finds that `my-user@example.com` has a project-level role that contains that permission, the resources section of the query results will list not only the project, but also all Compute Engine instances inside the project.
 
 This option lets you get a detailed understanding of the resources that your principals can access.
 
@@ -207,12 +207,12 @@ If you are using the REST API or gcloud CLI you can enable analysis of [service 
 
 If this option is enabled, Policy Analyzer runs additional analysis queries to determine who can impersonate the service accounts that have the specified access to the specified resources. Policy Analyzer runs one query for each service account in query results. These queries analyze who has any of the following permissions on the service account:
 
-  - `iam.serviceAccounts.actAs`
-  - `iam.serviceAccounts.getAccessToken`
-  - `iam.serviceAccounts.getOpenIdToken`
-  - `iam.serviceAccounts.implicitDelegation`
-  - `iam.serviceAccounts.signBlob`
-  - `iam.serviceAccounts.signJwt`
+- `iam.serviceAccounts.actAs`
+- `iam.serviceAccounts.getAccessToken`
+- `iam.serviceAccounts.getOpenIdToken`
+- `iam.serviceAccounts.implicitDelegation`
+- `iam.serviceAccounts.signBlob`
+- `iam.serviceAccounts.signJwt`
 
 ## Quotas and limits
 
@@ -228,5 +228,5 @@ If you want to execute more than 20 analysis queries per day, you must have an [
 
 ## What's next
 
-  - Learn how to use Policy Analyzer to [analyze an allow policy](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies) .
-  - See how you can use the REST API to [save Policy Analysis queries](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-saved-queries) .
+- Learn how to use Policy Analyzer to [analyze an allow policy](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies) .
+- See how you can use the REST API to [save Policy Analysis queries](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-saved-queries) .

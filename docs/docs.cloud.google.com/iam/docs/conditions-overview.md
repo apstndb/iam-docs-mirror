@@ -12,9 +12,9 @@ This page describes the Conditions feature of Identity and Access Management (IA
 
 You can use conditions in the following places:
 
-  - Allow policy role bindings, including role bindings managed by Privileged Access Manager entitlements
-  - Deny policy rules
-  - Policy bindings for Principal Access Boundary policies
+- Allow policy role bindings, including role bindings managed by Privileged Access Manager entitlements
+- Deny policy rules
+- Policy bindings for Principal Access Boundary policies
 
 The following sections describe how you can use conditions in each of these places to enforce attribute-based access control.
 
@@ -30,20 +30,22 @@ Conditions are specified in the role bindings of a resource's allow policy. If a
 
 To add a condition to a role binding, you define the `condition` field:
 
-    "bindings": [
-      {
-        "role": "ROLE",
-        "members": [
-          "MEMBER_1",
-          "MEMBER_2"
-        ],
-        "condition": {
-          "title": "TITLE",
-          "description": "DESCRIPTION",
-          "expression": "EXPRESSION"
-        }
-      }
-    ]
+```
+"bindings": [
+  {
+    "role": "ROLE",
+    "members": [
+      "MEMBER_1",
+      "MEMBER_2"
+    ],
+    "condition": {
+      "title": "TITLE",
+      "description": "DESCRIPTION",
+      "expression": "EXPRESSION"
+    }
+  }
+]
+```
 
 If you're using Privileged Access Manager entitlements, you can also add conditions to the roles in that entitlement. When a user successfully requests a grant for that entitlement, they are granted the role with the specified condition.
 
@@ -67,29 +69,31 @@ Conditions in deny policies have the same structure as conditions in allow polic
 
 To add a condition to a deny rule, you define the `denialCondition` field:
 
-    "rules": [
-      {
-        "denyRule": {
-          "deniedPrincipals": [
-            "PRINCIPAL_1",
-            "PRINCIPAL_2"
-          ],
-          "exceptionPrincipals": [
-            "EXCEPTION_PRINCIPAL_1",
-            "EXCEPTION_PRINCIPAL_2"
-          ],
-          "deniedPermissions": [
-            "DENIED_PERMISSION_1",
-            "DENIED_PERMISSION_2"
-          ],
-          "denialCondition": {
-            "title": "TITLE",
-            "description": "DESCRIPTION",
-            "expression": "EXPRESSION"
-          }
-        }
+```
+"rules": [
+  {
+    "denyRule": {
+      "deniedPrincipals": [
+        "PRINCIPAL_1",
+        "PRINCIPAL_2"
+      ],
+      "exceptionPrincipals": [
+        "EXCEPTION_PRINCIPAL_1",
+        "EXCEPTION_PRINCIPAL_2"
+      ],
+      "deniedPermissions": [
+        "DENIED_PERMISSION_1",
+        "DENIED_PERMISSION_2"
+      ],
+      "denialCondition": {
+        "title": "TITLE",
+        "description": "DESCRIPTION",
+        "expression": "EXPRESSION"
       }
-    ]
+    }
+  }
+]
+```
 
 To learn more about the fields in a condition, see [Condition structure](https://docs.cloud.google.com/iam/docs/conditions-overview#structure) on this page.
 
@@ -103,19 +107,21 @@ Conditions are specified in each policy binding. If a policy binding has a condi
 
 To add a condition to a policy binding, you define the `condition` field in the policy binding:
 
-    {
-      "displayName": "DISPLAY_NAME",
-      "target": {
-        "principalSet": "PRINCIPAL_SET"
-      },
-      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-      "policy": "PAB_POLICY",
-      "condition": {
-        "title": "TITLE",
-        "description": "DESCRIPTION",
-        "expression": "EXPRESSION"
-      }
-    }
+```
+{
+  "displayName": "DISPLAY_NAME",
+  "target": {
+    "principalSet": "PRINCIPAL_SET"
+  },
+  "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+  "policy": "PAB_POLICY",
+  "condition": {
+    "title": "TITLE",
+    "description": "DESCRIPTION",
+    "expression": "EXPRESSION"
+  }
+}
+```
 
 To learn more about the fields in a condition, see [Condition structure](https://docs.cloud.google.com/iam/docs/conditions-overview#structure) on this page.
 
@@ -125,11 +131,13 @@ To learn how to create policy bindings for Principal Access Boundary policies, s
 
 The `condition` object has the following structure:
 
-    "condition": {
-        "title": ...,
-        "description": ...,
-        "expression": ...
-    }
+```
+"condition": {
+    "title": ...,
+    "description": ...,
+    "expression": ...
+}
+```
 
 The condition's `title` is required, but the `description` is optional. Both the title and description are purely informational fields to help you identify and describe the condition.
 
@@ -145,10 +153,10 @@ Each statement expresses an attribute-based control rule, and ultimately determi
 
 Conditions in IAM Conditions use the following CEL features:
 
-  - **Variables** : Conditions use *variables* to express a given attribute, such as `request.time` (of type Timestamp) or `resource.name` (of type String). These variables are populated with value based on the context at runtime.
-  - **Operators** : Every data type, such as Timestamp or String, supports a set of *operators* that can be used to create a logic expression. Most commonly, operators are used to compare the value contained in a variable with a literal value, such as `resource.service == 'compute.googleapis.com'` . In this example, if the input value of `resource.service` is `compute.googleapis.com` , then the expression evaluates to `true` .
-  - **Functions** : A function is a compound operator for data types that support more complex operations. In condition expressions, there are predefined functions that can be used with a given data type. For example, `request.path.startsWith('/finance')` uses a String prefix match function, and evaluates to `true` if the value of `request.path` contains a matching prefix, such as `/finance` .
-  - **Logical operators** : Conditions supports three logical operators that can be used to build complex logic expressions from basic expression statements: `&&` , `||` , and `!` . These logical operators make it possible to use multiple input variables in a condition expression. For example: `request.time.getFullYear() < 2020 && resource.service == 'compute.googleapis.com'` joins two basic statements, and requires both statements to be met in order to produce a `true` overall evaluation result.
+- **Variables** : Conditions use *variables* to express a given attribute, such as `request.time` (of type Timestamp) or `resource.name` (of type String). These variables are populated with value based on the context at runtime.
+- **Operators** : Every data type, such as Timestamp or String, supports a set of *operators* that can be used to create a logic expression. Most commonly, operators are used to compare the value contained in a variable with a literal value, such as `resource.service == 'compute.googleapis.com'` . In this example, if the input value of `resource.service` is `compute.googleapis.com` , then the expression evaluates to `true` .
+- **Functions** : A function is a compound operator for data types that support more complex operations. In condition expressions, there are predefined functions that can be used with a given data type. For example, `request.path.startsWith('/finance')` uses a String prefix match function, and evaluates to `true` if the value of `request.path` contains a matching prefix, such as `/finance` .
+- **Logical operators** : Conditions supports three logical operators that can be used to build complex logic expressions from basic expression statements: `&&` , `||` , and `!` . These logical operators make it possible to use multiple input variables in a condition expression. For example: `request.time.getFullYear() < 2020 && resource.service == 'compute.googleapis.com'` joins two basic statements, and requires both statements to be met in order to produce a `true` overall evaluation result.
 
 For more information about supported variables, operators, and functions, see the [attribute reference](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference) .
 
@@ -164,10 +172,10 @@ The following sections show examples of some of the attributes that you can use 
 
 You can use resource attributes to write conditions that evaluate the resource in the access request. The attributes that you can evaluate include the following:
 
-  - The resource type
-  - The resource name
-  - The Google Cloud service being used
-  - The tags attached to the resource
+- The resource type
+- The resource name
+- The Google Cloud service being used
+- The tags attached to the resource
 
 You can use any of these attributes in allow policy role bindings. Additionally, you can use the resource tags attribute in deny policy deny rules.
 
@@ -175,33 +183,39 @@ For a complete list of resource attributes, see the [resource attributes referen
 
 To learn how to use resource attributes to configure resource-based access, see [Configuring resource-based access](https://docs.cloud.google.com/iam/docs/configuring-resource-based-access) .
 
-<span id="example_expressions"></span>
-
 #### Example expressions
 
 In a role binding, the following condition expression allows access to Compute Engine VM instances, but no other type of resource:
 
-    resource.type == 'compute.googleapis.com/Instance'
+```
+resource.type == 'compute.googleapis.com/Instance'
+```
 
 In a role binding, the following condition expression allows access to Cloud Storage resources, but no other service's resources:
 
-    resource.service == 'storage.googleapis.com'
+```
+resource.service == 'storage.googleapis.com'
+```
 
 In a role binding, the following condition expression allows access only to Cloud Storage objects inside a specific bucket:
 
-    resource.type == 'storage.googleapis.com/Object' &&
-    resource.name.startsWith('projects/_/buckets/exampleco-site-assets/')
+```
+resource.type == 'storage.googleapis.com/Object' &&
+resource.name.startsWith('projects/_/buckets/exampleco-site-assets/')
+```
 
 In a deny rule, the following condition expression denies access to Google Cloud resources that have the tag `env: prod` :
 
-    resource.matchTag('123456789012/env', 'prod')
+```
+resource.matchTag('123456789012/env', 'prod')
+```
 
 ### Principal attributes
 
 The principal attributes let you write conditions based on the principal that issued the request. The attributes that you can evaluate include the following:
 
-  - The type of principal in the request
-  - The identity of the principal in the request
+- The type of principal in the request
+- The identity of the principal in the request
 
 You can use these attributes in policy bindings for Principal Access Boundary policies.
 
@@ -211,24 +225,26 @@ For details, see the [conditions attribute reference](https://docs.cloud.google.
 
 In a Principal Access Boundary policy binding, the following condition expression ensures that the policy in the binding is only enforced for service accounts:
 
-    principal.type == 'iam.googleapis.com/ServiceAccount'
+```
+principal.type == 'iam.googleapis.com/ServiceAccount'
+```
 
 In a Principal Access Boundary policy binding, the following condition expression ensures that the policy in the binding isn't enforced for `super-admin@example.com` :
 
-    principal.subject != 'super-admin@example.com'
+```
+principal.subject != 'super-admin@example.com'
+```
 
 ### Request attributes
 
 You can use request attributes to write conditions that evaluate details about the request, such as the following:
 
-  - The access level
-  - The date and time
-  - The destination IP address and port (for IAP TCP tunneling)
-  - The expected URL host or path (for IAP)
+- The access level
+- The date and time
+- The destination IP address and port (for IAP TCP tunneling)
+- The expected URL host or path (for IAP)
 
 You can use these attributes in allow policy role bindings.
-
-<span id="example_access_level_expression"></span>
 
 #### Example access level expression (for IAP only)
 
@@ -236,8 +252,10 @@ In the following example, your organization defines an access level, `CorpNet` ,
 
 > **Note:** The access levels attribute is available only when you use IAP either to access a tunnel instance or to access a web application that runs on App Engine or Compute Engine backend services. For more information, see [Access levels attribute](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#access-levels) .
 
-    'accessPolicies/199923665455/accessLevels/CorpNet' in
-    request.auth.access_levels
+```
+'accessPolicies/199923665455/accessLevels/CorpNet' in
+request.auth.access_levels
+```
 
 Your organization defines access levels based on attributes of the request, such as origin IP address, device attributes, the time of day, and more. For more details, see the [Access Context Manager documentation](https://docs.cloud.google.com/access-context-manager/docs) .
 
@@ -245,31 +263,37 @@ Your organization defines access levels based on attributes of the request, such
 
 In a role binding for a role with the `iam.projects.setIamPolicy` permission, the following condition expression allows a user to grant and revoke only the Billing Account Administrator ( `roles/billing.admin` ) role on the project:
 
-    api.getAttribute('iam.googleapis.com/modifiedGrantsByRole', [])
-                     .hasOnly(['roles/billing.admin'])
+```
+api.getAttribute('iam.googleapis.com/modifiedGrantsByRole', [])
+                 .hasOnly(['roles/billing.admin'])
+```
 
 To learn more about using API attributes to limit role granting, see [Setting limits on granting roles](https://docs.cloud.google.com/iam/docs/setting-limits-on-granting-roles) .
-
-<span id="example_datetime_expressions"></span>
 
 #### Example date/time expressions
 
 In a role binding, the following condition expression allows access until midnight on January 1st, 2021:
 
-    request.time < timestamp('2021-01-01T00:00:00Z')
+```
+request.time < timestamp('2021-01-01T00:00:00Z')
+```
 
 In a role binding, the following condition expression allows access only during specified working hours, based on the time zone for Berlin, Germany:
 
-    request.time.getHours('Europe/Berlin') >= 9 &&
-    request.time.getHours('Europe/Berlin') <= 17 &&
-    // Days of the week range from 0 to 6, where 0 == Sunday and 6 == Saturday.
-    request.time.getDayOfWeek('Europe/Berlin') >= 1 &&
-    request.time.getDayOfWeek('Europe/Berlin') <= '
+```
+request.time.getHours('Europe/Berlin') >= 9 &&
+request.time.getHours('Europe/Berlin') <= 17 &&
+// Days of the week range from 0 to 6, where 0 == Sunday and 6 == Saturday.
+request.time.getDayOfWeek('Europe/Berlin') >= 1 &&
+request.time.getDayOfWeek('Europe/Berlin') <= '
+```
 
 In a role binding, the following condition expression allows access only for June of 2020, based on the time zone for Berlin, Germany:
 
-    request.time.getFullYear('Europe/Berlin') == 2020
-    request.time.getMonth('Europe/Berlin') < 6
+```
+request.time.getFullYear('Europe/Berlin') == 2020
+request.time.getMonth('Europe/Berlin') < 6
+```
 
 To specify a timestamp, use [RFC 3339](https://www.ietf.org/rfc/rfc3339.txt) format. To specify a time zone, use the identifiers in the [IANA Time Zone Database](https://www.iana.org/time-zones) .
 
@@ -277,54 +301,56 @@ For more details about date/time expressions, see the [CEL specification](https:
 
 To learn how to use date/time expressions to configure temporary access, see [Configuring temporary access](https://docs.cloud.google.com/iam/docs/configuring-temporary-access) .
 
-<span id="example_destination_ipport_expressions_for_tcp_tunneling"></span>
-
 #### Example destination IP and port expressions (for IAP TCP tunneling)
 
 In a role binding, the following condition expression allows access to an internal destination IP address or port number:
 
-    destination.ip == '14.0.0.1'
-    destination.ip != '127.0.0.1'
-    destination.port == 22
-    destination.port > 21 && destination.port <= 23
+```
+destination.ip == '14.0.0.1'
+destination.ip != '127.0.0.1'
+destination.port == 22
+destination.port > 21 && destination.port <= 23
+```
 
 #### Example forwarding rule expressions
 
 In a role binding, the following condition expression allows access for a principal if the request is not creating a forwarding rule, or if the request is creating a forwarding rule for an internal Google Cloud load balancer:
 
-    !compute.isForwardingRuleCreationOperation() || (
-      compute.isForwardingRuleCreationOperation() &&
-      compute.matchLoadBalancingSchemes([
-        'INTERNAL', 'INTERNAL_MANAGED', 'INTERNAL_SELF_MANAGED'
-      ])
-    )
+```
+!compute.isForwardingRuleCreationOperation() || (
+  compute.isForwardingRuleCreationOperation() &&
+  compute.matchLoadBalancingSchemes([
+    'INTERNAL', 'INTERNAL_MANAGED', 'INTERNAL_SELF_MANAGED'
+  ])
+)
+```
 
 For details about load-balancing schemes, see [Using IAM Conditions on Google Cloud load balancers](https://docs.cloud.google.com/load-balancing/docs/access-control/iam-conditions#conditions-iam) .
-
-<span id="example_url_hostpath_expressions_for"></span>
 
 #### Example URL host or path expressions (for IAP)
 
 In a role binding, the following condition expression allows access only for certain subdomains or URL paths in the request:
 
-    request.host == 'hr.example.com'
-    request.host.endsWith('.example.com')
-    request.path == '/admin/payroll.js'
-    request.path.startsWith('/admin')
-
-<span id="example_expression_with_different_types_of_attributes"></span>
+```
+request.host == 'hr.example.com'
+request.host.endsWith('.example.com')
+request.path == '/admin/payroll.js'
+request.path.startsWith('/admin')
+```
 
 #### Example expression with different types of attributes
 
 In a role binding, the following condition expression allows access if the request is made during a specific time, matching a resource name prefix, and for a specific resource type:
 
-    request.time > timestamp('2018-08-03T16:00:00-07:00') &&
-    request.time < timestamp('2018-08-03T16:05:00-07:00') &&
-    resource.name.startsWith('projects/project-123/zones/us-east1-b/instances/dev' ||
-    resource.type != 'compute.googleapis.com/Instance')
+```
+request.time > timestamp('2018-08-03T16:00:00-07:00') &&
+request.time < timestamp('2018-08-03T16:05:00-07:00') &&
+resource.name.startsWith('projects/project-123/zones/us-east1-b/instances/dev' ||
+resource.type != 'compute.googleapis.com/Instance')
+```
 
 ## What's next
 
-  - Get details about the [condition attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference) that you can use to manage access.
-  - Learn more about [allow policies](https://docs.cloud.google.com/iam/docs/allow-policies) .
-  - Find [resource types that accept conditional role bindings](https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles) .
+- Get details about the [condition attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference) that you can use to manage access.
+- Learn more about [allow policies](https://docs.cloud.google.com/iam/docs/allow-policies) .
+- Find [resource types that accept conditional role bindings](https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles) .

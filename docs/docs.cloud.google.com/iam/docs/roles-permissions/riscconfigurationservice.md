@@ -23,68 +23,31 @@ This page lists the IAM roles and permissions for RISC Configuration Service. To
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="riscconfigs.admin" class="role-title add-link" data-text="RISC Configuration Admin Beta" tabindex="-1">RISC Configuration Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  riscconfigs.admin</code> )</p>
+<td>RISC Configuration Admin <sup>Beta</sup>
+<p>( <code>roles/ riscconfigs.admin</code> )</p>
 <p>Read/write access to RISC config resources.</p></td>
-<td><p><code dir="ltr" translate="no">clientauthconfig.clients.list</code></p>
-<p><code dir="ltr" translate="no">riscconfigurationservice.*</code></p>
+<td><p><code>clientauthconfig.clients.list</code></p>
+<p><code>riscconfigurationservice.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">riscconfigurationservice.  riscconfigs.  createOrUpdate</code></li>
-<li><code dir="ltr" translate="no">riscconfigurationservice.  riscconfigs.  delete</code></li>
-<li><code dir="ltr" translate="no">riscconfigurationservice.  riscconfigs.  get</code></li>
+<li><code>riscconfigurationservice. riscconfigs. createOrUpdate</code></li>
+<li><code>riscconfigurationservice. riscconfigs. delete</code></li>
+<li><code>riscconfigurationservice. riscconfigs. get</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="riscconfigs.viewer" class="role-title add-link" data-text="RISC Configuration Viewer Beta" tabindex="-1">RISC Configuration Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  riscconfigs.viewer</code> )</p>
+<td>RISC Configuration Viewer <sup>Beta</sup>
+<p>( <code>roles/ riscconfigs.viewer</code> )</p>
 <p>Read-only access to RISC config resources.</p></td>
-<td><p><code dir="ltr" translate="no">clientauthconfig.clients.list</code></p>
-<p><code dir="ltr" translate="no">riscconfigurationservice.  riscconfigs.  get</code></p></td>
+<td><p><code>clientauthconfig.clients.list</code></p>
+<p><code>riscconfigurationservice. riscconfigs. get</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## RISC Configuration Service permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="riscconfigurationservice.riscconfigs.createOrUpdate" class="permission-name add-link" data-text="riscconfigurationservice.riscconfigs.createOrUpdate" tabindex="-1"><code dir="ltr" translate="no">riscconfigurationservice.  riscconfigs.  createOrUpdate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riscconfigurationservice#riscconfigs.admin">RISC Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riscconfigs.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="riscconfigurationservice.riscconfigs.delete" class="permission-name add-link" data-text="riscconfigurationservice.riscconfigs.delete" tabindex="-1"><code dir="ltr" translate="no">riscconfigurationservice.  riscconfigs.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riscconfigurationservice#riscconfigs.admin">RISC Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riscconfigs.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="riscconfigurationservice.riscconfigs.get" class="permission-name add-link" data-text="riscconfigurationservice.riscconfigs.get" tabindex="-1"><code dir="ltr" translate="no">riscconfigurationservice.  riscconfigs.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riscconfigurationservice#riscconfigs.admin">RISC Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riscconfigs.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riscconfigurationservice#riscconfigs.viewer">RISC Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riscconfigs.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                              | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `riscconfigurationservice. riscconfigs. createOrUpdate` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [RISC Configuration Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/riscconfigurationservice#riscconfigs.admin) ( `roles/ riscconfigs.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `riscconfigurationservice. riscconfigs. delete`         | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [RISC Configuration Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/riscconfigurationservice#riscconfigs.admin) ( `roles/ riscconfigs.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `riscconfigurationservice. riscconfigs. get`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [RISC Configuration Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/riscconfigurationservice#riscconfigs.admin) ( `roles/ riscconfigs.admin` ) [RISC Configuration Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/riscconfigurationservice#riscconfigs.viewer) ( `roles/ riscconfigs.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |

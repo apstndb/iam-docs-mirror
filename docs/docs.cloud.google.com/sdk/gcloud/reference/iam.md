@@ -12,7 +12,7 @@ gcloud iam - manage IAM service accounts and keys
 
 SYNOPSIS
 
-`gcloud iam` `  GROUP  ` | `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam` [`GROUP`](https://docs.cloud.google.com/sdk/gcloud/reference/iam#GROUP) \| [`COMMAND`](https://docs.cloud.google.com/sdk/gcloud/reference/iam#COMMAND) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -24,48 +24,62 @@ More information on Cloud IAM can be found here: <https://cloud.google.com/iam> 
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --help  ` .
+These flags are available to all commands: [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 GROUPS
 
-`  GROUP  ` is one of the following:
+`GROUP` is one of the following:
 
-  - `  access-policies  `  
-    Manage Access Policy resources.
-  - `  oauth-clients  `  
-    Create and manage OAuth clients.
-  - `  policies  `  
-    Manage IAM deny policies.
-  - `  policy-bindings  `  
-    Manage PolicyBinding instances.
-  - `  principal-access-boundary-policies  `  
-    Manage principal access boundary policies.
-  - `  roles  `  
-    Create and manipulate roles.
-  - `  service-accounts  `  
-    Create and manipulate service accounts.
-  - `  simulator  `  
-    Understand how an IAM policy change could impact access before deploying the change.
-  - `  workforce-pools  `  
-    Create and manage workforce pools.
-  - `  workload-identity-pools  `  
-    Manage IAM workload identity pools.
+[`access-policies`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies)  
+Manage Access Policy resources.
+
+[`oauth-clients`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/oauth-clients)  
+Create and manage OAuth clients.
+
+[`policies`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policies)  
+Manage IAM deny policies.
+
+[`policy-bindings`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings)  
+Manage PolicyBinding instances.
+
+[`principal-access-boundary-policies`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/principal-access-boundary-policies)  
+Manage principal access boundary policies.
+
+[`roles`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles)  
+Create and manipulate roles.
+
+[`service-accounts`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts)  
+Create and manipulate service accounts.
+
+[`simulator`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/simulator)  
+Understand how an IAM policy change could impact access before deploying the change.
+
+[`workforce-pools`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools)  
+Create and manage workforce pools.
+
+[`workload-identity-pools`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools)  
+Manage IAM workload identity pools.
 
 COMMANDS
 
-`  COMMAND  ` is one of the following:
+`COMMAND` is one of the following:
 
-  - `  list-grantable-roles  `  
-    List IAM grantable roles for a resource.
-  - `  list-testable-permissions  `  
-    List IAM testable permissions for a resource.
+[`list-grantable-roles`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/list-grantable-roles)  
+List IAM grantable roles for a resource.
+
+[`list-testable-permissions`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/list-testable-permissions)  
+List IAM testable permissions for a resource.
 
 NOTES
 
 These variants are also available:
 
-    gcloud alpha iam
+```
+gcloud alpha iam
+```
 
-    gcloud beta iam
+```
+gcloud beta iam
+```

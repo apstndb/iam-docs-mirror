@@ -140,11 +140,11 @@ Feature
 
 The IAM recommender generates policy insights and role recommendations for the following identities:
 
-  - All identities in a workload identity pool
-  - Single identity in a workload identity pool
-  - All identities in a workforce identity pool
-  - Single identity in a workforce identity pool
-  - All Google Kubernetes Engine Pods that use a specific Kubernetes service account
+- All identities in a workload identity pool
+- Single identity in a workload identity pool
+- All identities in a workforce identity pool
+- Single identity in a workforce identity pool
+- All Google Kubernetes Engine Pods that use a specific Kubernetes service account
 
 To learn more, see [Availability](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#availability) . This feature is generally available.
 

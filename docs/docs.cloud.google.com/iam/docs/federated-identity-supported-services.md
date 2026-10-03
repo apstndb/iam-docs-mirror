@@ -30,18 +30,13 @@ The table in this section lists products, their level of support for identity fe
 
 The limitations table is organized in the following way:
 
-**Product:** The product name.
-
-**Identity federation launch stage:** Refers to the [launch stage](https://cloud.google.com/products/#product-launch-stages) of the product's support for identity federation. Launch stage doesn't refer to the launch stage of the product itself.
-
-**Columns that describe supported products:**
-
+- **Product:** The product name.
+- **Identity federation launch stage:** Refers to the [launch stage](https://cloud.google.com/products/#product-launch-stages) of the product's support for identity federation. Launch stage doesn't refer to the launch stage of the product itself.
+- **Columns that describe supported products:**
   - **Google Cloud API:** The product's identity federation-related limitations that are associated with API methods and the gcloud CLI commands that access those methods.
   - **Console (federated):** The product's Workforce Identity Federation-related console (federated) UI limitations.
   - **Other:** The product's identity federation-related limitations that aren't Google Cloud API or console (federated) limitations.
-
-**Columns that describe unsupported products:**
-
+- **Columns that describe unsupported products:**
   - **Alternatives:** For products that don't support identity federation, this column describes alternative products that support identity federation and provide similar features.
 
 ## List of products and limitations
@@ -63,7 +58,7 @@ The limitations table is organized in the following way:
 </thead>
 <tbody>
 <tr class="odd">
-<td><h3 id="access-approval" data-text="Access Approval" tabindex="-1"><a href="https://docs.cloud.google.com/assured-workloads/access-approval/docs">Access Approval</a></h3></td>
+<td><a href="https://docs.cloud.google.com/assured-workloads/access-approval/docs">Access Approval</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -83,7 +78,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="access-context-manager" data-text="Access Context Manager" tabindex="-1"><a href="https://docs.cloud.google.com/access-context-manager/docs">Access Context Manager</a></h3></td>
+<td><a href="https://docs.cloud.google.com/access-context-manager/docs">Access Context Manager</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -93,7 +88,7 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td><a href="https://docs.cloud.google.com/access-context-manager/docs/reference/rpc/google.identity.accesscontextmanager.v1alpha"><code dir="ltr" translate="no">v1alpha</code> APIs</a> aren't available for federated identities.</td>
+<td><a href="https://docs.cloud.google.com/access-context-manager/docs/reference/rpc/google.identity.accesscontextmanager.v1alpha"><code>v1alpha</code> APIs</a> aren't available for federated identities.</td>
 </tr>
 <tr class="odd">
 <td>Other:</td>
@@ -103,7 +98,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="access-transparency" data-text="Access Transparency" tabindex="-1"><a href="https://docs.cloud.google.com/assured-workloads/access-transparency/docs">Access Transparency</a></h3></td>
+<td><a href="https://docs.cloud.google.com/assured-workloads/access-transparency/docs">Access Transparency</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -123,7 +118,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="agent-assist" data-text="Agent Assist" tabindex="-1"><a href="https://docs.cloud.google.com/agent-assist/docs">Agent Assist</a></h3></td>
+<td><a href="https://docs.cloud.google.com/agent-assist/docs">Agent Assist</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -143,7 +138,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="agent-registry" data-text="Agent Registry" tabindex="-1"><a href="https://docs.cloud.google.com/agent-registry/overview">Agent Registry</a></h3></td>
+<td><a href="https://docs.cloud.google.com/agent-registry/overview">Agent Registry</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">Preview</a></td>
 <td><table>
 <tbody>
@@ -163,7 +158,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="alloydb-for-postgresql" data-text="AlloyDB for PostgreSQL" tabindex="-1"><a href="https://docs.cloud.google.com/alloydb/docs">AlloyDB for PostgreSQL</a></h3></td>
+<td><a href="https://docs.cloud.google.com/alloydb/docs">AlloyDB for PostgreSQL</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -191,7 +186,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="anti-money-laundering-ai" data-text="Anti Money Laundering AI" tabindex="-1"><a href="https://docs.cloud.google.com/financial-services/anti-money-laundering/docs/">Anti Money Laundering AI</a></h3></td>
+<td><a href="https://docs.cloud.google.com/financial-services/anti-money-laundering/docs/">Anti Money Laundering AI</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -211,7 +206,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="api-gateway" data-text="API Gateway" tabindex="-1"><a href="https://docs.cloud.google.com/api-gateway/docs">API Gateway</a></h3></td>
+<td><a href="https://docs.cloud.google.com/api-gateway/docs">API Gateway</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -231,7 +226,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="apigee" data-text="Apigee" tabindex="-1"><a href="https://docs.cloud.google.com/apigee/docs">Apigee</a></h3></td>
+<td><a href="https://docs.cloud.google.com/apigee/docs">Apigee</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -266,7 +261,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="apigee-api-hub" data-text="Apigee API hub" tabindex="-1"><a href="https://docs.cloud.google.com/apigee/docs/apihub/what-is-api-hub/">Apigee API hub</a></h3></td>
+<td><a href="https://docs.cloud.google.com/apigee/docs/apihub/what-is-api-hub/">Apigee API hub</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -286,7 +281,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="apis-and-services" data-text="APIs and Services" tabindex="-1"><a href="https://docs.cloud.google.com/apis/docs">APIs and Services</a></h3></td>
+<td><a href="https://docs.cloud.google.com/apis/docs">APIs and Services</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -313,7 +308,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="app-engine" data-text="App Engine" tabindex="-1"><a href="https://docs.cloud.google.com/appengine/docs">App Engine</a></h3></td>
+<td><a href="https://docs.cloud.google.com/appengine/docs">App Engine</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -325,7 +320,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="app-hub" data-text="App Hub" tabindex="-1"><a href="https://docs.cloud.google.com/app-hub/docs">App Hub</a></h3></td>
+<td><a href="https://docs.cloud.google.com/app-hub/docs">App Hub</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -345,7 +340,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="application-integration" data-text="Application Integration" tabindex="-1"><a href="https://docs.cloud.google.com/application-integration/docs">Application Integration</a></h3></td>
+<td><a href="https://docs.cloud.google.com/application-integration/docs">Application Integration</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -365,7 +360,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="artifact-registry" data-text="Artifact Registry" tabindex="-1"><a href="https://docs.cloud.google.com/artifact-registry/docs">Artifact Registry</a></h3></td>
+<td><a href="https://docs.cloud.google.com/artifact-registry/docs">Artifact Registry</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -391,7 +386,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="assured-workloads" data-text="Assured Workloads" tabindex="-1"><a href="https://docs.cloud.google.com/assured-workloads/docs">Assured Workloads</a></h3></td>
+<td><a href="https://docs.cloud.google.com/assured-workloads/docs">Assured Workloads</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -411,7 +406,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="backup-and-dr-service" data-text="Backup and DR Service" tabindex="-1"><a href="https://docs.cloud.google.com/backup-disaster-recovery/docs">Backup and DR Service</a></h3></td>
+<td><a href="https://docs.cloud.google.com/backup-disaster-recovery/docs">Backup and DR Service</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -431,7 +426,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="batch" data-text="Batch" tabindex="-1"><a href="https://docs.cloud.google.com/batch/docs">Batch</a></h3></td>
+<td><a href="https://docs.cloud.google.com/batch/docs">Batch</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -451,7 +446,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="bigquery" data-text="BigQuery" tabindex="-1"><a href="https://docs.cloud.google.com/bigquery/docs">BigQuery</a></h3></td>
+<td><a href="https://docs.cloud.google.com/bigquery/docs">BigQuery</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -490,7 +485,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="bigtable" data-text="Bigtable" tabindex="-1"><a href="https://docs.cloud.google.com/bigtable/docs">Bigtable</a></h3></td>
+<td><a href="https://docs.cloud.google.com/bigtable/docs">Bigtable</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -510,7 +505,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="binary-authorization" data-text="Binary Authorization" tabindex="-1"><a href="https://docs.cloud.google.com/binary-authorization/docs">Binary Authorization</a></h3></td>
+<td><a href="https://docs.cloud.google.com/binary-authorization/docs">Binary Authorization</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -530,7 +525,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="blockchain-analytics" data-text="Blockchain Analytics" tabindex="-1"><a href="https://docs.cloud.google.com/blockchain-analytics/docs/overview">Blockchain Analytics</a></h3></td>
+<td><a href="https://docs.cloud.google.com/blockchain-analytics/docs/overview">Blockchain Analytics</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -550,7 +545,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="blockchain-node-engine" data-text="Blockchain Node Engine" tabindex="-1"><a href="https://docs.cloud.google.com/blockchain-node-engine/docs">Blockchain Node Engine</a></h3></td>
+<td><a href="https://docs.cloud.google.com/blockchain-node-engine/docs">Blockchain Node Engine</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -570,7 +565,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="carbon-footprint" data-text="Carbon Footprint" tabindex="-1"><a href="https://docs.cloud.google.com/carbon-footprint/docs">Carbon Footprint</a></h3></td>
+<td><a href="https://docs.cloud.google.com/carbon-footprint/docs">Carbon Footprint</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -590,7 +585,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="certificate-authority-service" data-text="Certificate Authority Service" tabindex="-1"><a href="https://docs.cloud.google.com/certificate-authority-service/docs">Certificate Authority Service</a></h3></td>
+<td><a href="https://docs.cloud.google.com/certificate-authority-service/docs">Certificate Authority Service</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -610,7 +605,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="certificate-manager" data-text="Certificate Manager" tabindex="-1"><a href="https://docs.cloud.google.com/certificate-manager/docs">Certificate Manager</a></h3></td>
+<td><a href="https://docs.cloud.google.com/certificate-manager/docs">Certificate Manager</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -630,7 +625,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="channel-services" data-text="Channel Services" tabindex="-1"><a href="https://docs.cloud.google.com/channel/docs">Channel Services</a></h3></td>
+<td><a href="https://docs.cloud.google.com/channel/docs">Channel Services</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -650,7 +645,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-asset-inventory" data-text="Cloud Asset Inventory" tabindex="-1"><a href="https://docs.cloud.google.com/asset-inventory/docs">Cloud Asset Inventory</a></h3></td>
+<td><a href="https://docs.cloud.google.com/asset-inventory/docs">Cloud Asset Inventory</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -660,7 +655,7 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td><p><a href="https://docs.cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/analyzeMove"><code dir="ltr" translate="no">analyzeMove</code></a> isn't supported by identity federation.</p></td>
+<td><a href="https://docs.cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/analyzeMove"><code>analyzeMove</code></a> isn't supported by identity federation.</td>
 </tr>
 <tr class="odd">
 <td>Other:</td>
@@ -670,7 +665,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-billing" data-text="Cloud Billing" tabindex="-1"><a href="https://docs.cloud.google.com/billing/docs">Cloud Billing</a></h3></td>
+<td><a href="https://docs.cloud.google.com/billing/docs">Cloud Billing</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -696,7 +691,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-build" data-text="Cloud Build" tabindex="-1"><a href="https://docs.cloud.google.com/build/docs">Cloud Build</a></h3></td>
+<td><a href="https://docs.cloud.google.com/build/docs">Cloud Build</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -716,7 +711,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-cdn" data-text="Cloud CDN" tabindex="-1"><a href="https://docs.cloud.google.com/cdn/docs">Cloud CDN</a></h3></td>
+<td><a href="https://docs.cloud.google.com/cdn/docs">Cloud CDN</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -736,7 +731,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-code" data-text="Cloud Code" tabindex="-1"><a href="https://docs.cloud.google.com/code/docs">Cloud Code</a></h3></td>
+<td><a href="https://docs.cloud.google.com/code/docs">Cloud Code</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -748,7 +743,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="managed-service-for-apache-airflow" data-text="Managed Service for Apache Airflow" tabindex="-1"><a href="https://docs.cloud.google.com/composer/docs">Managed Service for Apache Airflow</a></h3></td>
+<td><a href="https://docs.cloud.google.com/composer/docs">Managed Service for Apache Airflow</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -775,7 +770,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-console" data-text="Cloud Console" tabindex="-1"><a href="https://cloud.google.com/cloud-console">Cloud Console</a></h3></td>
+<td><a href="https://cloud.google.com/cloud-console">Cloud Console</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -805,7 +800,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-customer-care" data-text="Cloud Customer Care" tabindex="-1"><a href="https://docs.cloud.google.com/support/docs">Cloud Customer Care</a></h3></td>
+<td><a href="https://docs.cloud.google.com/support/docs">Cloud Customer Care</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -832,7 +827,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-data-fusion" data-text="Cloud Data Fusion" tabindex="-1"><a href="https://docs.cloud.google.com/data-fusion/docs">Cloud Data Fusion</a></h3></td>
+<td><a href="https://docs.cloud.google.com/data-fusion/docs">Cloud Data Fusion</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -852,7 +847,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-deploy" data-text="Cloud Deploy" tabindex="-1"><a href="https://docs.cloud.google.com/deploy/docs">Cloud Deploy</a></h3></td>
+<td><a href="https://docs.cloud.google.com/deploy/docs">Cloud Deploy</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -872,7 +867,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-deployment-manager" data-text="Cloud Deployment Manager" tabindex="-1"><a href="https://docs.cloud.google.com/deployment-manager/docs">Cloud Deployment Manager</a></h3></td>
+<td><a href="https://docs.cloud.google.com/deployment-manager/docs">Cloud Deployment Manager</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -884,7 +879,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-dns" data-text="Cloud DNS" tabindex="-1"><a href="https://docs.cloud.google.com/dns/docs">Cloud DNS</a></h3></td>
+<td><a href="https://docs.cloud.google.com/dns/docs">Cloud DNS</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -904,7 +899,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-domains" data-text="Cloud Domains" tabindex="-1"><a href="https://docs.cloud.google.com/domains/docs">Cloud Domains</a></h3></td>
+<td><a href="https://docs.cloud.google.com/domains/docs">Cloud Domains</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -924,7 +919,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-endpoints" data-text="Cloud Endpoints" tabindex="-1"><a href="https://docs.cloud.google.com/endpoints/docs">Cloud Endpoints</a></h3></td>
+<td><a href="https://docs.cloud.google.com/endpoints/docs">Cloud Endpoints</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -936,7 +931,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-fleet-routing" data-text="Cloud Fleet Routing" tabindex="-1"><a href="https://cloud.google.com/ai">Cloud Fleet Routing</a></h3></td>
+<td><a href="https://cloud.google.com/ai">Cloud Fleet Routing</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -956,7 +951,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-healthcare-api" data-text="Cloud Healthcare API" tabindex="-1"><a href="https://docs.cloud.google.com/healthcare-api/docs">Cloud Healthcare API</a></h3></td>
+<td><a href="https://docs.cloud.google.com/healthcare-api/docs">Cloud Healthcare API</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -976,7 +971,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-hsm" data-text="Cloud HSM" tabindex="-1"><a href="https://docs.cloud.google.com/kms/docs/hsm">Cloud HSM</a></h3></td>
+<td><a href="https://docs.cloud.google.com/kms/docs/hsm">Cloud HSM</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -996,7 +991,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-intrusion-detection-system" data-text="Cloud Intrusion Detection System" tabindex="-1"><a href="https://docs.cloud.google.com/intrusion-detection-system/docs/">Cloud Intrusion Detection System</a></h3></td>
+<td><a href="https://docs.cloud.google.com/intrusion-detection-system/docs/">Cloud Intrusion Detection System</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1016,7 +1011,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-key-management-service" data-text="Cloud Key Management Service" tabindex="-1"><a href="https://docs.cloud.google.com/kms/docs">Cloud Key Management Service</a></h3></td>
+<td><a href="https://docs.cloud.google.com/kms/docs">Cloud Key Management Service</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1036,7 +1031,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-load-balancing" data-text="Cloud Load Balancing" tabindex="-1"><a href="https://docs.cloud.google.com/load-balancing/docs">Cloud Load Balancing</a></h3></td>
+<td><a href="https://docs.cloud.google.com/load-balancing/docs">Cloud Load Balancing</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1056,7 +1051,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-logging" data-text="Cloud Logging" tabindex="-1"><a href="https://docs.cloud.google.com/logging/docs">Cloud Logging</a></h3></td>
+<td><a href="https://docs.cloud.google.com/logging/docs">Cloud Logging</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1076,7 +1071,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-mobile-app" data-text="Cloud Mobile App" tabindex="-1"><a href="https://cloud.google.com/app">Cloud Mobile App</a></h3></td>
+<td><a href="https://cloud.google.com/app">Cloud Mobile App</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -1088,7 +1083,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-monitoring" data-text="Cloud Monitoring" tabindex="-1"><a href="https://docs.cloud.google.com/monitoring/docs">Cloud Monitoring</a></h3></td>
+<td><a href="https://docs.cloud.google.com/monitoring/docs">Cloud Monitoring</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1108,7 +1103,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-nat" data-text="Cloud NAT" tabindex="-1"><a href="https://docs.cloud.google.com/nat/docs">Cloud NAT</a></h3></td>
+<td><a href="https://docs.cloud.google.com/nat/docs">Cloud NAT</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1128,7 +1123,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-next-generation-firewall" data-text="Cloud Next Generation Firewall" tabindex="-1"><a href="https://docs.cloud.google.com/firewall/docs">Cloud Next Generation Firewall</a></h3></td>
+<td><a href="https://docs.cloud.google.com/firewall/docs">Cloud Next Generation Firewall</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1148,7 +1143,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-profiler" data-text="Cloud Profiler" tabindex="-1"><a href="https://docs.cloud.google.com/profiler/docs/about-profiler/">Cloud Profiler</a></h3></td>
+<td><a href="https://docs.cloud.google.com/profiler/docs/about-profiler/">Cloud Profiler</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -1160,7 +1155,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-run" data-text="Cloud Run" tabindex="-1"><a href="https://docs.cloud.google.com/run/docs">Cloud Run</a></h3></td>
+<td><a href="https://docs.cloud.google.com/run/docs">Cloud Run</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -1179,7 +1174,7 @@ The limitations table is organized in the following way:
 <tr class="odd">
 <td>Other:</td>
 <td><ul>
-<li>The IAM permission <code dir="ltr" translate="no">run.routes.invoke</code> , which can manage access to Cloud Run service endpoints, doesn't support Workforce Identity Federation. Enable <a href="https://docs.cloud.google.com/run/docs/securing/identity-aware-proxy-cloud-run">Identity-Aware Proxy for Cloud Run</a> to use it.</li>
+<li>The IAM permission <code>run.routes.invoke</code> , which can manage access to Cloud Run service endpoints, doesn't support Workforce Identity Federation. Enable <a href="https://docs.cloud.google.com/run/docs/securing/identity-aware-proxy-cloud-run">Identity-Aware Proxy for Cloud Run</a> to use it.</li>
 <li>Cloud Run doesn't support Workload Identity Federation direct resource access. To allow access, use <a href="https://docs.cloud.google.com/iam/docs/workload-identity-federation#impersonation">service account impersonation</a> .</li>
 </ul></td>
 </tr>
@@ -1187,7 +1182,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-run-functions" data-text="Cloud Run functions" tabindex="-1"><a href="https://docs.cloud.google.com/functions/docs">Cloud Run functions</a></h3></td>
+<td><a href="https://docs.cloud.google.com/functions/docs">Cloud Run functions</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -1206,7 +1201,7 @@ The limitations table is organized in the following way:
 <tr class="odd">
 <td>Other:</td>
 <td><ul>
-<li>The IAM permission <code dir="ltr" translate="no">run.routes.invoke</code> , which manages access to Cloud Run service endpoints, doesn't support Workforce Identity Federation. Enable <a href="https://docs.cloud.google.com/run/docs/securing/identity-aware-proxy-cloud-run">Identity-Aware Proxy for Cloud Run</a> to use it.</li>
+<li>The IAM permission <code>run.routes.invoke</code> , which manages access to Cloud Run service endpoints, doesn't support Workforce Identity Federation. Enable <a href="https://docs.cloud.google.com/run/docs/securing/identity-aware-proxy-cloud-run">Identity-Aware Proxy for Cloud Run</a> to use it.</li>
 <li>Cloud Run doesn't support Workload Identity Federation. To allow access, use <a href="https://docs.cloud.google.com/iam/docs/workload-identity-federation#impersonation">service account impersonation</a> .</li>
 </ul></td>
 </tr>
@@ -1214,7 +1209,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-scheduler" data-text="Cloud Scheduler" tabindex="-1"><a href="https://docs.cloud.google.com/scheduler/docs">Cloud Scheduler</a></h3></td>
+<td><a href="https://docs.cloud.google.com/scheduler/docs">Cloud Scheduler</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -1231,7 +1226,7 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td>The Cloud Scheduler API doesn't support identity federation for jobs that have their <code dir="ltr" translate="no">target</code> attribute set to <a href="https://docs.cloud.google.com/scheduler/docs/reference/rest/v1/projects.locations.jobs#appenginehttptarget"><code dir="ltr" translate="no">appEngineHttpTarget</code></a> . To send a job to an App Engine target using identity federation, create your job with the <code dir="ltr" translate="no">target</code> type set to <a href="https://docs.cloud.google.com/scheduler/docs/reference/rest/v1/projects.locations.jobs#HttpTarget"><code dir="ltr" translate="no">httpTarget</code></a> and the <code dir="ltr" translate="no">uri</code> field set to the full URI path of your App Engine target.</td>
+<td>The Cloud Scheduler API doesn't support identity federation for jobs that have their <code>target</code> attribute set to <a href="https://docs.cloud.google.com/scheduler/docs/reference/rest/v1/projects.locations.jobs#appenginehttptarget"><code>appEngineHttpTarget</code></a> . To send a job to an App Engine target using identity federation, create your job with the <code>target</code> type set to <a href="https://docs.cloud.google.com/scheduler/docs/reference/rest/v1/projects.locations.jobs#HttpTarget"><code>httpTarget</code></a> and the <code>uri</code> field set to the full URI path of your App Engine target.</td>
 </tr>
 <tr class="odd">
 <td>Other:</td>
@@ -1241,7 +1236,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-service-mesh" data-text="Cloud Service Mesh" tabindex="-1"><a href="https://docs.cloud.google.com/service-mesh/docs">Cloud Service Mesh</a></h3></td>
+<td><a href="https://docs.cloud.google.com/service-mesh/docs">Cloud Service Mesh</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1261,7 +1256,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-shell" data-text="Cloud Shell" tabindex="-1"><a href="https://docs.cloud.google.com/shell/docs">Cloud Shell</a></h3></td>
+<td><a href="https://docs.cloud.google.com/shell/docs">Cloud Shell</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -1273,7 +1268,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-source-repositories" data-text="Cloud Source Repositories" tabindex="-1"><a href="https://docs.cloud.google.com/source-repositories/docs">Cloud Source Repositories</a></h3></td>
+<td><a href="https://docs.cloud.google.com/source-repositories/docs">Cloud Source Repositories</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -1285,7 +1280,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-sql" data-text="Cloud SQL" tabindex="-1"><a href="https://docs.cloud.google.com/sql/docs">Cloud SQL</a></h3></td>
+<td><a href="https://docs.cloud.google.com/sql/docs">Cloud SQL</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -1312,7 +1307,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-storage" data-text="Cloud Storage" tabindex="-1"><a href="https://docs.cloud.google.com/storage/docs">Cloud Storage</a></h3></td>
+<td><a href="https://docs.cloud.google.com/storage/docs">Cloud Storage</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -1343,7 +1338,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-talent-solution" data-text="Cloud Talent Solution" tabindex="-1"><a href="https://docs.cloud.google.com/talent-solution/docs">Cloud Talent Solution</a></h3></td>
+<td><a href="https://docs.cloud.google.com/talent-solution/docs">Cloud Talent Solution</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1363,7 +1358,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-tasks" data-text="Cloud Tasks" tabindex="-1"><a href="https://docs.cloud.google.com/tasks/docs">Cloud Tasks</a></h3></td>
+<td><a href="https://docs.cloud.google.com/tasks/docs">Cloud Tasks</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -1379,7 +1374,7 @@ The limitations table is organized in the following way:
 <td>Google Cloud API:</td>
 <td>The Cloud Tasks API doesn't support identity federation for tasks that have App Engine targets—for example:
 <ul>
-<li><strong>App Engine queues:</strong> Since App Engine queues (queues that are created using a <code dir="ltr" translate="no">queue.yaml</code> or <code dir="ltr" translate="no">queue.xml</code> file) contain only tasks with App Engine targets, tasks in these queues aren't supported.</li>
+<li><strong>App Engine queues:</strong> Since App Engine queues (queues that are created using a <code>queue.yaml</code> or <code>queue.xml</code> file) contain only tasks with App Engine targets, tasks in these queues aren't supported.</li>
 <li><strong>Regular queues:</strong> For regular Cloud Tasks queues, tasks with HTTP targets are supported. Tasks with App Engine targets aren't supported (even though the queue isn't an App Engine queue).</li>
 </ul></td>
 </tr>
@@ -1391,7 +1386,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-trace" data-text="Cloud Trace" tabindex="-1"><a href="https://docs.cloud.google.com/trace/docs">Cloud Trace</a></h3></td>
+<td><a href="https://docs.cloud.google.com/trace/docs">Cloud Trace</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1411,7 +1406,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-translation" data-text="Cloud Translation" tabindex="-1"><a href="https://docs.cloud.google.com/translate/docs">Cloud Translation</a></h3></td>
+<td><a href="https://docs.cloud.google.com/translate/docs">Cloud Translation</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1431,7 +1426,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cloud-vision-api" data-text="Cloud Vision API" tabindex="-1"><a href="https://docs.cloud.google.com/vision/docs">Cloud Vision API</a></h3></td>
+<td><a href="https://docs.cloud.google.com/vision/docs">Cloud Vision API</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1451,7 +1446,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="cloud-workstations" data-text="Cloud Workstations" tabindex="-1"><a href="https://docs.cloud.google.com/workstations/docs">Cloud Workstations</a></h3></td>
+<td><a href="https://docs.cloud.google.com/workstations/docs">Cloud Workstations</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1471,7 +1466,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="cluster-director" data-text="Cluster Director" tabindex="-1"><a href="https://docs.cloud.google.com/cluster-director/docs">Cluster Director</a></h3></td>
+<td><a href="https://docs.cloud.google.com/cluster-director/docs">Cluster Director</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1485,13 +1480,13 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="odd">
 <td>Other:</td>
-<td>To connect to the nodes in your cluster by using the <a href="https://docs.cloud.google.com/sdk/gcloud/reference/compute/ssh"><code dir="ltr" translate="no">gcloud compute ssh</code> command</a> , you must <a href="https://docs.cloud.google.com/compute/docs/oslogin/manage-oslogin-in-an-org#external-user">grant access to users outside of your organization</a> .</td>
+<td>To connect to the nodes in your cluster by using the <a href="https://docs.cloud.google.com/sdk/gcloud/reference/compute/ssh"><code>gcloud compute ssh</code> command</a> , you must <a href="https://docs.cloud.google.com/compute/docs/oslogin/manage-oslogin-in-an-org#external-user">grant access to users outside of your organization</a> .</td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="compute-engine" data-text="Compute Engine" tabindex="-1"><a href="https://docs.cloud.google.com/compute/docs">Compute Engine</a></h3></td>
+<td><a href="https://docs.cloud.google.com/compute/docs">Compute Engine</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -1501,7 +1496,7 @@ The limitations table is organized in the following way:
 <tbody>
 <tr class="odd">
 <td>Console (federated):</td>
-<td>To use <a href="https://docs.cloud.google.com/compute/docs/ssh-in-browser">SSH-in-browser</a> , you must set up <a href="https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings"><code dir="ltr" translate="no">google.posix_username</code> attribute mappings</a> .</td>
+<td>To use <a href="https://docs.cloud.google.com/compute/docs/ssh-in-browser">SSH-in-browser</a> , you must set up <a href="https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings"><code>google.posix_username</code> attribute mappings</a> .</td>
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
@@ -1509,9 +1504,9 @@ The limitations table is organized in the following way:
 <li>Importing and exporting images and disks with a Cloud Storage bucket requires <a href="https://docs.cloud.google.com/storage/docs/uniform-bucket-level-access">uniform bucket-level access</a> to be enabled for the bucket. To work around this limitation, use one of the following options:
 <ul>
 <li>If you don't need fine-grained object access control lists (ACLs), <a href="https://docs.cloud.google.com/storage/docs/using-uniform-bucket-level-access">enable uniform bucket-level access</a> on the affected Cloud Storage bucket:<br />
-<code dir="ltr" translate="no">gcloud storage buckets update gs://                   BUCKET_NAME                  --uniform-bucket-level-access</code></li>
+<code>gcloud storage buckets update gs:// </code><var translate="no"> BUCKET_NAME </var><code> --uniform-bucket-level-access</code></li>
 <li>Use <a href="https://docs.cloud.google.com/docs/authentication/use-service-account-impersonation">service account impersonation</a> to import and export images and disks with buckets that don't have uniform bucket-level access enabled. Google service accounts are first-party credentials and aren't subject to identity federation limitations. To impersonate a service account, run the following command:<br />
-<code dir="ltr" translate="no">gcloud config set auth/impersonate_service_account                   SERVICE_ACCOUNT_EMAIL                 </code></li>
+<code>gcloud config set auth/impersonate_service_account </code><var translate="no"> SERVICE_ACCOUNT_EMAIL</var></li>
 </ul></li>
 <li><a href="https://docs.cloud.google.com/bare-metal/docs">Bare Metal Solution</a> isn't supported.</li>
 </ul></td>
@@ -1524,7 +1519,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="confidential-space" data-text="Confidential Space" tabindex="-1"><a href="https://docs.cloud.google.com/confidential-computing/docs">Confidential Space</a></h3></td>
+<td><a href="https://docs.cloud.google.com/confidential-computing/docs">Confidential Space</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1544,7 +1539,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="context-aware-access" data-text="Context-Aware Access" tabindex="-1"><a href="https://docs.cloud.google.com/beyondcorp-enterprise/docs">Context-Aware Access</a></h3></td>
+<td><a href="https://docs.cloud.google.com/beyondcorp-enterprise/docs">Context-Aware Access</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">Preview</a></td>
 <td><table>
 <colgroup>
@@ -1571,7 +1566,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="customer-experience-insights" data-text="Customer Experience Insights" tabindex="-1"><a href="https://docs.cloud.google.com/contact-center/insights/docs">Customer Experience Insights</a></h3></td>
+<td><a href="https://docs.cloud.google.com/contact-center/insights/docs">Customer Experience Insights</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1591,7 +1586,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="data-catalog" data-text="Data Catalog" tabindex="-1"><a href="https://docs.cloud.google.com/data-catalog/docs">Data Catalog</a></h3></td>
+<td><a href="https://docs.cloud.google.com/data-catalog/docs">Data Catalog</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1611,7 +1606,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="database-migration-service" data-text="Database Migration Service" tabindex="-1"><a href="https://docs.cloud.google.com/database-migration/docs">Database Migration Service</a></h3></td>
+<td><a href="https://docs.cloud.google.com/database-migration/docs">Database Migration Service</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1631,7 +1626,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="dataflow" data-text="Dataflow" tabindex="-1"><a href="https://docs.cloud.google.com/dataflow/docs">Dataflow</a></h3></td>
+<td><a href="https://docs.cloud.google.com/dataflow/docs">Dataflow</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1651,7 +1646,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="dataform" data-text="Dataform" tabindex="-1"><a href="https://docs.cloud.google.com/dataform/docs">Dataform</a></h3></td>
+<td><a href="https://docs.cloud.google.com/dataform/docs">Dataform</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1671,7 +1666,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="knowledge-catalog" data-text="Knowledge Catalog" tabindex="-1"><a href="https://docs.cloud.google.com/dataplex/docs">Knowledge Catalog</a></h3></td>
+<td><a href="https://docs.cloud.google.com/dataplex/docs">Knowledge Catalog</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -1699,7 +1694,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="managed-service-for-apache-spark" data-text="Managed Service for Apache Spark" tabindex="-1"><a href="https://docs.cloud.google.com/dataproc/docs">Managed Service for Apache Spark</a></h3></td>
+<td><a href="https://docs.cloud.google.com/dataproc/docs">Managed Service for Apache Spark</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -1733,7 +1728,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="dataproc-metastore" data-text="Dataproc Metastore" tabindex="-1"><a href="https://docs.cloud.google.com/dataproc-metastore/docs">Dataproc Metastore</a></h3></td>
+<td><a href="https://docs.cloud.google.com/dataproc-metastore/docs">Dataproc Metastore</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1753,7 +1748,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="datastore" data-text="Datastore" tabindex="-1"><a href="https://docs.cloud.google.com/datastore/docs">Datastore</a></h3></td>
+<td><a href="https://docs.cloud.google.com/datastore/docs">Datastore</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1773,7 +1768,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="datastream" data-text="Datastream" tabindex="-1"><a href="https://docs.cloud.google.com/datastream/docs">Datastream</a></h3></td>
+<td><a href="https://docs.cloud.google.com/datastream/docs">Datastream</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1793,7 +1788,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="dialogflow" data-text="Dialogflow" tabindex="-1"><a href="https://docs.cloud.google.com/dialogflow/docs">Dialogflow</a></h3></td>
+<td><a href="https://docs.cloud.google.com/dialogflow/docs">Dialogflow</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1813,7 +1808,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="document-ai" data-text="Document AI" tabindex="-1"><a href="https://docs.cloud.google.com/document-ai/docs">Document AI</a></h3></td>
+<td><a href="https://docs.cloud.google.com/document-ai/docs">Document AI</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1833,7 +1828,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="endpoint-verification" data-text="Endpoint Verification" tabindex="-1"><a href="https://docs.cloud.google.com/endpoint-verification/docs">Endpoint Verification</a></h3></td>
+<td><a href="https://docs.cloud.google.com/endpoint-verification/docs">Endpoint Verification</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -1845,7 +1840,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="enterprise-knowledge-graph" data-text="Enterprise Knowledge Graph" tabindex="-1"><a href="https://docs.cloud.google.com/enterprise-knowledge-graph/docs/overview">Enterprise Knowledge Graph</a></h3></td>
+<td><a href="https://docs.cloud.google.com/enterprise-knowledge-graph/docs/overview">Enterprise Knowledge Graph</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -1857,7 +1852,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="error-reporting" data-text="Error Reporting" tabindex="-1"><a href="https://docs.cloud.google.com/error-reporting/docs">Error Reporting</a></h3></td>
+<td><a href="https://docs.cloud.google.com/error-reporting/docs">Error Reporting</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1877,7 +1872,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="eventarc" data-text="Eventarc" tabindex="-1"><a href="https://docs.cloud.google.com/eventarc/docs">Eventarc</a></h3></td>
+<td><a href="https://docs.cloud.google.com/eventarc/docs">Eventarc</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1887,7 +1882,7 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td><a href="https://docs.cloud.google.com/eventarc/docs/third-parties/third-parties-overview">Third-party event publishing</a> using a <code dir="ltr" translate="no">ChannelConnection</code> resource isn't supported for identity federation.</td>
+<td><a href="https://docs.cloud.google.com/eventarc/docs/third-parties/third-parties-overview">Third-party event publishing</a> using a <code>ChannelConnection</code> resource isn't supported for identity federation.</td>
 </tr>
 <tr class="odd">
 <td>Other:</td>
@@ -1897,7 +1892,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="filestore" data-text="Filestore" tabindex="-1"><a href="https://docs.cloud.google.com/filestore/docs">Filestore</a></h3></td>
+<td><a href="https://docs.cloud.google.com/filestore/docs">Filestore</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1917,7 +1912,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="firestore" data-text="Firestore" tabindex="-1"><a href="https://docs.cloud.google.com/firestore/docs">Firestore</a></h3></td>
+<td><a href="https://docs.cloud.google.com/firestore/docs">Firestore</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1937,7 +1932,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="gemini" data-text="Gemini" tabindex="-1"><a href="https://docs.cloud.google.com/duet-ai/docs">Gemini</a></h3></td>
+<td><a href="https://docs.cloud.google.com/duet-ai/docs">Gemini</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1957,7 +1952,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="google-cloud-armor" data-text="Google Cloud Armor" tabindex="-1"><a href="https://docs.cloud.google.com/armor/docs">Google Cloud Armor</a></h3></td>
+<td><a href="https://docs.cloud.google.com/armor/docs">Google Cloud Armor</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1977,7 +1972,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="google-cloud-contact-center-as-a-service" data-text="Google Cloud Contact Center as a Service" tabindex="-1"><a href="https://docs.cloud.google.com/contact-center/ccai-platform/docs">Google Cloud Contact Center as a Service</a></h3></td>
+<td><a href="https://docs.cloud.google.com/contact-center/ccai-platform/docs">Google Cloud Contact Center as a Service</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -1997,7 +1992,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="google-cloud-managed-service-for-apache-kafka" data-text="Google Cloud Managed Service for Apache Kafka" tabindex="-1"><a href="https://docs.cloud.google.com/managed-service-for-apache-kafka/docs">Google Cloud Managed Service for Apache Kafka</a></h3></td>
+<td><a href="https://docs.cloud.google.com/managed-service-for-apache-kafka/docs">Google Cloud Managed Service for Apache Kafka</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2017,7 +2012,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="google-cloud-marketplace" data-text="Google Cloud Marketplace" tabindex="-1"><a href="https://docs.cloud.google.com/marketplace/docs">Google Cloud Marketplace</a></h3></td>
+<td><a href="https://docs.cloud.google.com/marketplace/docs">Google Cloud Marketplace</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -2048,7 +2043,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="google-cloud-migration-center" data-text="Google Cloud Migration Center" tabindex="-1"><a href="https://docs.cloud.google.com/migration-center/docs">Google Cloud Migration Center</a></h3></td>
+<td><a href="https://docs.cloud.google.com/migration-center/docs">Google Cloud Migration Center</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">Preview</a></td>
 <td><table>
 <colgroup>
@@ -2075,7 +2070,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="google-cloud-netapp-volumes" data-text="Google Cloud NetApp Volumes" tabindex="-1"><a href="https://docs.cloud.google.com/netapp/volumes/docs/discover/overview/">Google Cloud NetApp Volumes</a></h3></td>
+<td><a href="https://docs.cloud.google.com/netapp/volumes/docs/discover/overview/">Google Cloud NetApp Volumes</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2095,7 +2090,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="google-cloud-sdk" data-text="Google Cloud SDK" tabindex="-1"><a href="https://docs.cloud.google.com/sdk/docs">Google Cloud SDK</a></h3></td>
+<td><a href="https://docs.cloud.google.com/sdk/docs">Google Cloud SDK</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2115,7 +2110,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="google-distributed-cloud-air-gapped" data-text="Google Distributed Cloud air-gapped" tabindex="-1"><a href="https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag">Google Distributed Cloud air-gapped</a></h3></td>
+<td><a href="https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag">Google Distributed Cloud air-gapped</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -2127,7 +2122,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="google-distributed-cloud-connected" data-text="Google Distributed Cloud connected" tabindex="-1"><a href="https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/overview">Google Distributed Cloud connected</a></h3></td>
+<td><a href="https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/overview">Google Distributed Cloud connected</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2137,7 +2132,7 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td>If you use Workload Identity Federation to programmatically run <code dir="ltr" translate="no">kubectl</code> commands against different clusters from a Pod, you must use service account impersonation, as described in <a href="https://docs.cloud.google.com/kubernetes-engine/docs/how-to/workload-identity#kubernetes-sa-to-iam">Alternative: link Kubernetes ServiceAccounts to IAM</a> . This limitation doesn't apply if you use your own workload identity pool with Workload Identity Federation.</td>
+<td>If you use Workload Identity Federation to programmatically run <code>kubectl</code> commands against different clusters from a Pod, you must use service account impersonation, as described in <a href="https://docs.cloud.google.com/kubernetes-engine/docs/how-to/workload-identity#kubernetes-sa-to-iam">Alternative: link Kubernetes ServiceAccounts to IAM</a> . This limitation doesn't apply if you use your own workload identity pool with Workload Identity Federation.</td>
 </tr>
 <tr class="odd">
 <td>Other:</td>
@@ -2147,7 +2142,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="google-distributed-cloud-software-only" data-text="Google Distributed Cloud software only" tabindex="-1"><a href="https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal">Google Distributed Cloud software only</a></h3></td>
+<td><a href="https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal">Google Distributed Cloud software only</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2157,17 +2152,17 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td>If you use Workload Identity Federation to programmatically run <code dir="ltr" translate="no">kubectl</code> commands against different clusters from a Pod, you must use service account impersonation, as described in <a href="https://docs.cloud.google.com/kubernetes-engine/docs/how-to/workload-identity#kubernetes-sa-to-iam">Alternative: link Kubernetes ServiceAccounts to IAM</a> . This limitation doesn't apply if you use your own workload identity pool with Workload Identity Federation.</td>
+<td>If you use Workload Identity Federation to programmatically run <code>kubectl</code> commands against different clusters from a Pod, you must use service account impersonation, as described in <a href="https://docs.cloud.google.com/kubernetes-engine/docs/how-to/workload-identity#kubernetes-sa-to-iam">Alternative: link Kubernetes ServiceAccounts to IAM</a> . This limitation doesn't apply if you use your own workload identity pool with Workload Identity Federation.</td>
 </tr>
 <tr class="odd">
 <td>Other:</td>
-<td><code dir="ltr" translate="no">gkectl</code> and <code dir="ltr" translate="no">bmctl</code> don't support Workforce Identity Federation.</td>
+<td><code>gkectl</code> and <code>bmctl</code> don't support Workforce Identity Federation.</td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="google-earth-engine" data-text="Google Earth Engine" tabindex="-1"><a href="https://cloud.google.com/earth-engine">Google Earth Engine</a></h3></td>
+<td><a href="https://cloud.google.com/earth-engine">Google Earth Engine</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -2188,13 +2183,13 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="odd">
 <td>Other:</td>
-<td>The BigQuery function <a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/geography_functions#st_regionstats"><code dir="ltr" translate="no">ST_REGIONSTATS</code></a> for raster data doesn't support Workforce Identity Federation.</td>
+<td>The BigQuery function <a href="https://cloud.google.com/bigquery/docs/reference/standard-sql/geography_functions#st_regionstats"><code>ST_REGIONSTATS</code></a> for raster data doesn't support Workforce Identity Federation.</td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="google-kubernetes-engine" data-text="Google Kubernetes Engine" tabindex="-1"><a href="https://docs.cloud.google.com/kubernetes-engine/docs">Google Kubernetes Engine</a></h3></td>
+<td><a href="https://docs.cloud.google.com/kubernetes-engine/docs">Google Kubernetes Engine</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -2211,17 +2206,17 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td>If you use Workload Identity Federation for GKE to programmatically run <code dir="ltr" translate="no">kubectl</code> commands against a different GKE cluster from a Pod, you must use service account impersonation, as described in <a href="https://docs.cloud.google.com/kubernetes-engine/docs/how-to/workload-identity#kubernetes-sa-to-iam">Alternative: link Kubernetes ServiceAccounts to IAM</a> . This limitation doesn't apply if you use your own workload identity pool with Workload Identity Federation.</td>
+<td>If you use Workload Identity Federation for GKE to programmatically run <code>kubectl</code> commands against a different GKE cluster from a Pod, you must use service account impersonation, as described in <a href="https://docs.cloud.google.com/kubernetes-engine/docs/how-to/workload-identity#kubernetes-sa-to-iam">Alternative: link Kubernetes ServiceAccounts to IAM</a> . This limitation doesn't apply if you use your own workload identity pool with Workload Identity Federation.</td>
 </tr>
 <tr class="odd">
 <td>Other:</td>
-<td><code dir="ltr" translate="no">gkeadm</code> , <code dir="ltr" translate="no">gkectl</code> and <code dir="ltr" translate="no">bmctl</code> don't support Workforce Identity Federation.</td>
+<td><code>gkeadm</code> , <code>gkectl</code> and <code>bmctl</code> don't support Workforce Identity Federation.</td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="google-security-operations" data-text="Google Security Operations" tabindex="-1"><a href="https://docs.cloud.google.com/chronicle">Google Security Operations</a></h3></td>
+<td><a href="https://docs.cloud.google.com/chronicle">Google Security Operations</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2241,7 +2236,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="hybrid-connectivity" data-text="Hybrid Connectivity" tabindex="-1"><a href="https://docs.cloud.google.com/hybrid-connectivity">Hybrid Connectivity</a></h3></td>
+<td><a href="https://docs.cloud.google.com/hybrid-connectivity">Hybrid Connectivity</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2261,7 +2256,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="identity-and-access-management" data-text="Identity and Access Management" tabindex="-1"><a href="https://docs.cloud.google.com/iam/docs">Identity and Access Management</a></h3></td>
+<td><a href="https://docs.cloud.google.com/iam/docs">Identity and Access Management</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -2289,7 +2284,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="identity-aware-proxy" data-text="Identity-Aware Proxy" tabindex="-1"><a href="https://docs.cloud.google.com/iap/docs">Identity-Aware Proxy</a></h3></td>
+<td><a href="https://docs.cloud.google.com/iap/docs">Identity-Aware Proxy</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -2318,7 +2313,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="identity-platform" data-text="Identity Platform" tabindex="-1"><a href="https://docs.cloud.google.com/identity-platform/docs">Identity Platform</a></h3></td>
+<td><a href="https://docs.cloud.google.com/identity-platform/docs">Identity Platform</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2328,7 +2323,7 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td><a href="https://docs.cloud.google.com/identity-platform/docs/reference/rpc/google.cloud.identitytoolkit.admin.v2#google.cloud.identitytoolkit.admin.v2.ProjectConfigService.InitializeIdentityPlatform"><code dir="ltr" translate="no">InitializeIdentityPlatform</code></a> doesn't support identity federation.</td>
+<td><a href="https://docs.cloud.google.com/identity-platform/docs/reference/rpc/google.cloud.identitytoolkit.admin.v2#google.cloud.identitytoolkit.admin.v2.ProjectConfigService.InitializeIdentityPlatform"><code>InitializeIdentityPlatform</code></a> doesn't support identity federation.</td>
 </tr>
 <tr class="odd">
 <td>Other:</td>
@@ -2338,7 +2333,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="integration-connectors" data-text="Integration Connectors" tabindex="-1"><a href="https://docs.cloud.google.com/integration-connectors/docs">Integration Connectors</a></h3></td>
+<td><a href="https://docs.cloud.google.com/integration-connectors/docs">Integration Connectors</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2358,7 +2353,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="key-access-justifications" data-text="Key Access Justifications" tabindex="-1"><a href="https://docs.cloud.google.com/assured-workloads/key-access-justifications/docs">Key Access Justifications</a></h3></td>
+<td><a href="https://docs.cloud.google.com/assured-workloads/key-access-justifications/docs">Key Access Justifications</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2378,7 +2373,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="knative-serving" data-text="Knative serving" tabindex="-1"><a href="https://docs.cloud.google.com/anthos/run/docs">Knative serving</a></h3></td>
+<td><a href="https://docs.cloud.google.com/anthos/run/docs">Knative serving</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -2405,7 +2400,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="live-stream-api" data-text="Live Stream API" tabindex="-1"><a href="https://docs.cloud.google.com/livestream/docs">Live Stream API</a></h3></td>
+<td><a href="https://docs.cloud.google.com/livestream/docs">Live Stream API</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2425,7 +2420,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="looker-google-cloud-core" data-text="Looker (Google Cloud core)" tabindex="-1"><a href="https://docs.cloud.google.com/looker/docs">Looker (Google Cloud core)</a></h3></td>
+<td><a href="https://docs.cloud.google.com/looker/docs">Looker (Google Cloud core)</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -2437,7 +2432,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="data-studio" data-text="Data Studio" tabindex="-1"><a href="https://docs.cloud.google.com/looker/docs/studio">Data Studio</a></h3></td>
+<td><a href="https://docs.cloud.google.com/looker/docs/studio">Data Studio</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -2449,7 +2444,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="managed-service-for-microsoft-active-directory" data-text="Managed Service for Microsoft Active Directory" tabindex="-1"><a href="https://docs.cloud.google.com/managed-microsoft-ad/docs">Managed Service for Microsoft Active Directory</a></h3></td>
+<td><a href="https://docs.cloud.google.com/managed-microsoft-ad/docs">Managed Service for Microsoft Active Directory</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2469,7 +2464,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="media-cdn" data-text="Media CDN" tabindex="-1"><a href="https://docs.cloud.google.com/media-cdn/docs">Media CDN</a></h3></td>
+<td><a href="https://docs.cloud.google.com/media-cdn/docs">Media CDN</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2489,7 +2484,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="memorystore" data-text="Memorystore" tabindex="-1"><a href="https://docs.cloud.google.com/memorystore/docs/redis/">Memorystore</a></h3></td>
+<td><a href="https://docs.cloud.google.com/memorystore/docs/redis/">Memorystore</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -2519,7 +2514,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="migrate-to-containers" data-text="Migrate to Containers" tabindex="-1"><a href="https://docs.cloud.google.com/migrate/containers/docs">Migrate to Containers</a></h3></td>
+<td><a href="https://docs.cloud.google.com/migrate/containers/docs">Migrate to Containers</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2539,7 +2534,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="migrate-to-virtual-machines" data-text="Migrate to Virtual Machines" tabindex="-1"><a href="https://docs.cloud.google.com/migrate/virtual-machines/docs">Migrate to Virtual Machines</a></h3></td>
+<td><a href="https://docs.cloud.google.com/migrate/virtual-machines/docs">Migrate to Virtual Machines</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2559,7 +2554,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="network-connectivity-center" data-text="Network Connectivity Center" tabindex="-1"><a href="https://docs.cloud.google.com/network-connectivity/docs/network-connectivity-center">Network Connectivity Center</a></h3></td>
+<td><a href="https://docs.cloud.google.com/network-connectivity/docs/network-connectivity-center">Network Connectivity Center</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2579,7 +2574,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="network-intelligence-center" data-text="Network Intelligence Center" tabindex="-1"><a href="https://docs.cloud.google.com/network-intelligence-center">Network Intelligence Center</a></h3></td>
+<td><a href="https://docs.cloud.google.com/network-intelligence-center">Network Intelligence Center</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2599,7 +2594,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="network-service-tiers" data-text="Network Service Tiers" tabindex="-1"><a href="https://docs.cloud.google.com/network-tiers/docs">Network Service Tiers</a></h3></td>
+<td><a href="https://docs.cloud.google.com/network-tiers/docs">Network Service Tiers</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2619,7 +2614,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="organization-policy-service" data-text="Organization Policy Service" tabindex="-1"><a href="https://docs.cloud.google.com/resource-manager/docs/organization-policy/overview/">Organization Policy Service</a></h3></td>
+<td><a href="https://docs.cloud.google.com/resource-manager/docs/organization-policy/overview/">Organization Policy Service</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2639,7 +2634,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="parallelstore" data-text="Parallelstore" tabindex="-1"><a href="https://docs.cloud.google.com/parallelstore/docs/overview/">Parallelstore</a></h3></td>
+<td><a href="https://docs.cloud.google.com/parallelstore/docs/overview/">Parallelstore</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2659,7 +2654,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="personalized-service-health" data-text="Personalized Service Health" tabindex="-1"><a href="https://docs.cloud.google.com/service-health/docs/overview/">Personalized Service Health</a></h3></td>
+<td><a href="https://docs.cloud.google.com/service-health/docs/overview/">Personalized Service Health</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2679,7 +2674,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="policy-intelligence" data-text="Policy Intelligence" tabindex="-1"><a href="https://docs.cloud.google.com/policy-intelligence/docs">Policy Intelligence</a></h3></td>
+<td><a href="https://docs.cloud.google.com/policy-intelligence/docs">Policy Intelligence</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -2701,19 +2696,19 @@ The limitations table is organized in the following way:
 <td>Google Cloud API:</td>
 <td><p>The following Policy Intelligence features have API limitations for federated identities:</p>
 <ul>
-<li><a href="https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access">Policy Troubleshooter</a> : Federated identities can't check the membership of Google groups in allow and deny policies, or the membership of Cloud Identity accounts (domains) in deny policies. When federated identities call the <code dir="ltr" translate="no">iam.troubleshoot</code> method, role bindings and deny rules that contain groups or domains have an access result of <strong>Unknown</strong> , unless the role binding or deny rule also explicitly includes the principal.</li>
-<li><p><a href="https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-overview">Policy Analyzer</a> : When calling the <a href="https://docs.cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/analyzeIamPolicy"><code dir="ltr" translate="no">analyzeIamPolicy</code></a> or the <a href="https://docs.cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/analyzeIamPolicyLongrunning"><code dir="ltr" translate="no">analyzeIamPolicyLongrunning</code></a> method, federated identities might receive incomplete analysis results because of the following:</p>
+<li><a href="https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access">Policy Troubleshooter</a> : Federated identities can't check the membership of Google groups in allow and deny policies, or the membership of Cloud Identity accounts (domains) in deny policies. When federated identities call the <code>iam.troubleshoot</code> method, role bindings and deny rules that contain groups or domains have an access result of <strong>Unknown</strong> , unless the role binding or deny rule also explicitly includes the principal.</li>
+<li><p><a href="https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-overview">Policy Analyzer</a> : When calling the <a href="https://docs.cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/analyzeIamPolicy"><code>analyzeIamPolicy</code></a> or the <a href="https://docs.cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/analyzeIamPolicyLongrunning"><code>analyzeIamPolicyLongrunning</code></a> method, federated identities might receive incomplete analysis results because of the following:</p>
 <ul>
 <li>Federated identities can't check the membership of Google groups in allow policies. As a result, when federated identities analyze access for a principal, the query results don't include permissions and roles that the principal has due to their membership in a group.</li>
-<li>When analyzing access, federated identities can't enable the <code dir="ltr" translate="no">expand-groups</code> option.</li>
+<li>When analyzing access, federated identities can't enable the <code>expand-groups</code> option.</li>
 </ul>
 <p>Federated identities can't use the following API methods:</p>
 <ul>
-<li><a href="https://docs.cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/analyzeMove"><code dir="ltr" translate="no">analyzeMove</code></a></li>
+<li><a href="https://docs.cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/analyzeMove"><code>analyzeMove</code></a></li>
 </ul></li>
-<li><a href="https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview">Policy Simulator</a> : Federated identities can't use the Policy Simulator API ( <code dir="ltr" translate="no">policysimulator.googleapis.com</code> ).</li>
-<li><a href="https://docs.cloud.google.com/policy-intelligence/docs/activity-analyzer-service-account-authentication">Activity Analyzer</a> : Federated identities can't use the Policy Analyzer API ( <code dir="ltr" translate="no">policyanalyzer.googleapis.com</code> ).</li>
-<li><a href="https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview">IAM Recommender</a> : Federated identities can't use the Recommender API ( <code dir="ltr" translate="no">recommender.googleapis.com</code> ).</li>
+<li><a href="https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview">Policy Simulator</a> : Federated identities can't use the Policy Simulator API ( <code>policysimulator.googleapis.com</code> ).</li>
+<li><a href="https://docs.cloud.google.com/policy-intelligence/docs/activity-analyzer-service-account-authentication">Activity Analyzer</a> : Federated identities can't use the Policy Analyzer API ( <code>policyanalyzer.googleapis.com</code> ).</li>
+<li><a href="https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview">IAM Recommender</a> : Federated identities can't use the Recommender API ( <code>recommender.googleapis.com</code> ).</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -2724,7 +2719,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="private-service-connect" data-text="Private Service Connect" tabindex="-1"><a href="https://docs.cloud.google.com/vpc/docs/private-service-connect">Private Service Connect</a></h3></td>
+<td><a href="https://docs.cloud.google.com/vpc/docs/private-service-connect">Private Service Connect</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2744,7 +2739,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="privileged-access-manager" data-text="Privileged Access Manager" tabindex="-1"><a href="https://docs.cloud.google.com/iam/docs/pam-overview/">Privileged Access Manager</a></h3></td>
+<td><a href="https://docs.cloud.google.com/iam/docs/pam-overview/">Privileged Access Manager</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2764,7 +2759,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="pubsub" data-text="Pub/Sub" tabindex="-1"><a href="https://docs.cloud.google.com/pubsub/docs">Pub/Sub</a></h3></td>
+<td><a href="https://docs.cloud.google.com/pubsub/docs">Pub/Sub</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2784,7 +2779,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="recaptcha" data-text="reCAPTCHA" tabindex="-1"><a href="https://docs.cloud.google.com/recaptcha/docs">reCAPTCHA</a></h3></td>
+<td><a href="https://docs.cloud.google.com/recaptcha/docs">reCAPTCHA</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -2801,7 +2796,7 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td><a href="https://docs.cloud.google.com/recaptcha/docs/reference/rpc/google.cloud.recaptchaenterprise.v1#google.cloud.recaptchaenterprise.v1.RecaptchaEnterpriseService.MigrateKey"><code dir="ltr" translate="no">MigrateKey</code></a> isn't supported for federated identities.</td>
+<td><a href="https://docs.cloud.google.com/recaptcha/docs/reference/rpc/google.cloud.recaptchaenterprise.v1#google.cloud.recaptchaenterprise.v1.RecaptchaEnterpriseService.MigrateKey"><code>MigrateKey</code></a> isn't supported for federated identities.</td>
 </tr>
 <tr class="odd">
 <td>Other:</td>
@@ -2811,7 +2806,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="recommender" data-text="Recommender" tabindex="-1"><a href="https://docs.cloud.google.com/recommender/docs">Recommender</a></h3></td>
+<td><a href="https://docs.cloud.google.com/recommender/docs">Recommender</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2831,7 +2826,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="resource-manager" data-text="Resource Manager" tabindex="-1"><a href="https://docs.cloud.google.com/resource-manager/docs">Resource Manager</a></h3></td>
+<td><a href="https://docs.cloud.google.com/resource-manager/docs">Resource Manager</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2851,7 +2846,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="ai-commerce-search-api" data-text="AI Commerce Search API" tabindex="-1"><a href="https://docs.cloud.google.com/retail/docs">AI Commerce Search API</a></h3></td>
+<td><a href="https://docs.cloud.google.com/retail/docs">AI Commerce Search API</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -2890,7 +2885,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="secret-manager" data-text="Secret Manager" tabindex="-1"><a href="https://docs.cloud.google.com/secret-manager/docs">Secret Manager</a></h3></td>
+<td><a href="https://docs.cloud.google.com/secret-manager/docs">Secret Manager</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2910,7 +2905,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="secure-source-manager" data-text="Secure Source Manager" tabindex="-1"><a href="https://docs.cloud.google.com/secure-source-manager/docs">Secure Source Manager</a></h3></td>
+<td><a href="https://docs.cloud.google.com/secure-source-manager/docs">Secure Source Manager</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -2937,7 +2932,7 @@ The limitations table is organized in the following way:
 <td>Other:</td>
 <td><ul>
 <li>A new Secure Source Manager instance must be created to use Workforce Identity Federation. Existing instances can't be updated.</li>
-<li>Workforce identity pool providers used for Secure Source Manager must provide <code dir="ltr" translate="no">google.subject</code> and <code dir="ltr" translate="no">google.email</code> attribute mappings.</li>
+<li>Workforce identity pool providers used for Secure Source Manager must provide <code>google.subject</code> and <code>google.email</code> attribute mappings.</li>
 <li>You can only use your federated identity to log in to a Secure Source Manager instance that is configured to use Workforce Identity Federation.</li>
 <li>Email notifications from Secure Source Manager are not supported for Workforce Identity Federation configured instances.</li>
 </ul></td>
@@ -2946,7 +2941,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="security-command-center" data-text="Security Command Center" tabindex="-1"><a href="https://docs.cloud.google.com/security-command-center/docs">Security Command Center</a></h3></td>
+<td><a href="https://docs.cloud.google.com/security-command-center/docs">Security Command Center</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -2973,7 +2968,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="sensitive-data-protection" data-text="Sensitive Data Protection" tabindex="-1"><a href="https://docs.cloud.google.com/dlp/docs">Sensitive Data Protection</a></h3></td>
+<td><a href="https://docs.cloud.google.com/dlp/docs">Sensitive Data Protection</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -2993,7 +2988,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="serverless-vpc-access" data-text="Serverless VPC Access" tabindex="-1"><a href="https://docs.cloud.google.com/vpc/docs/serverless-vpc-access/">Serverless VPC Access</a></h3></td>
+<td><a href="https://docs.cloud.google.com/vpc/docs/serverless-vpc-access/">Serverless VPC Access</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3013,7 +3008,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="service-directory" data-text="Service Directory" tabindex="-1"><a href="https://docs.cloud.google.com/service-directory/docs">Service Directory</a></h3></td>
+<td><a href="https://docs.cloud.google.com/service-directory/docs">Service Directory</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3033,7 +3028,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="service-infrastructure" data-text="Service Infrastructure" tabindex="-1"><a href="https://docs.cloud.google.com/service-infrastructure/docs">Service Infrastructure</a></h3></td>
+<td><a href="https://docs.cloud.google.com/service-infrastructure/docs">Service Infrastructure</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">Preview</a></td>
 <td><table>
 <colgroup>
@@ -3061,7 +3056,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="spanner" data-text="Spanner" tabindex="-1"><a href="https://docs.cloud.google.com/spanner/docs">Spanner</a></h3></td>
+<td><a href="https://docs.cloud.google.com/spanner/docs">Spanner</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3081,7 +3076,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="speech-to-text" data-text="Speech-to-Text" tabindex="-1"><a href="https://docs.cloud.google.com/speech-to-text/docs">Speech-to-Text</a></h3></td>
+<td><a href="https://docs.cloud.google.com/speech-to-text/docs">Speech-to-Text</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3101,7 +3096,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="storage-transfer-service" data-text="Storage Transfer Service" tabindex="-1"><a href="https://docs.cloud.google.com/storage-transfer/docs/">Storage Transfer Service</a></h3></td>
+<td><a href="https://docs.cloud.google.com/storage-transfer/docs/">Storage Transfer Service</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3121,7 +3116,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="text-to-speech" data-text="Text-to-Speech" tabindex="-1"><a href="https://docs.cloud.google.com/text-to-speech/docs">Text-to-Speech</a></h3></td>
+<td><a href="https://docs.cloud.google.com/text-to-speech/docs">Text-to-Speech</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3141,7 +3136,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="transcoder-api" data-text="Transcoder API" tabindex="-1"><a href="https://docs.cloud.google.com/transcoder/docs">Transcoder API</a></h3></td>
+<td><a href="https://docs.cloud.google.com/transcoder/docs">Transcoder API</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3161,7 +3156,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="transfer-appliance" data-text="Transfer Appliance" tabindex="-1"><a href="https://docs.cloud.google.com/transfer-appliance/docs/4.0/overview/">Transfer Appliance</a></h3></td>
+<td><a href="https://docs.cloud.google.com/transfer-appliance/docs/4.0/overview/">Transfer Appliance</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3181,7 +3176,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="translation-hub" data-text="Translation Hub" tabindex="-1"><a href="https://docs.cloud.google.com/translation-hub/docs">Translation Hub</a></h3></td>
+<td><a href="https://docs.cloud.google.com/translation-hub/docs">Translation Hub</a></td>
 <td>Unsupported</td>
 <td><table>
 <tbody>
@@ -3193,7 +3188,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="vertex-ai" data-text="Vertex AI" tabindex="-1"><a href="https://docs.cloud.google.com/vertex-ai/docs">Vertex AI</a></h3></td>
+<td><a href="https://docs.cloud.google.com/vertex-ai/docs">Vertex AI</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3213,7 +3208,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="vertex-ai-agent-builder" data-text="Vertex AI Agent Builder" tabindex="-1"><a href="https://docs.cloud.google.com/agent-builder/overview">Vertex AI Agent Builder</a></h3></td>
+<td><a href="https://docs.cloud.google.com/agent-builder/overview">Vertex AI Agent Builder</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">Preview</a></td>
 <td><table>
 <colgroup>
@@ -3240,7 +3235,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="gemini-enterprise" data-text="Gemini Enterprise" tabindex="-1"><a href="https://cloud.google.com/gemini-enterprise">Gemini Enterprise</a></h3></td>
+<td><a href="https://cloud.google.com/gemini-enterprise">Gemini Enterprise</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3260,7 +3255,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="vertex-ai-vision" data-text="Vertex AI Vision" tabindex="-1"><a href="https://docs.cloud.google.com/vision-ai/docs">Vertex AI Vision</a></h3></td>
+<td><a href="https://docs.cloud.google.com/vision-ai/docs">Vertex AI Vision</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3280,7 +3275,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="vertex-ai-workbench" data-text="Vertex AI Workbench" tabindex="-1"><a href="https://docs.cloud.google.com/vertex-ai/docs/workbench/notebook-solution">Vertex AI Workbench</a></h3></td>
+<td><a href="https://docs.cloud.google.com/vertex-ai/docs/workbench/notebook-solution">Vertex AI Workbench</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -3307,7 +3302,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="video-intelligence-api" data-text="Video Intelligence API" tabindex="-1"><a href="https://docs.cloud.google.com/video-intelligence/docs">Video Intelligence API</a></h3></td>
+<td><a href="https://docs.cloud.google.com/video-intelligence/docs">Video Intelligence API</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3327,7 +3322,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="video-stitcher-api" data-text="Video Stitcher API" tabindex="-1"><a href="https://docs.cloud.google.com/video-stitcher/docs">Video Stitcher API</a></h3></td>
+<td><a href="https://docs.cloud.google.com/video-stitcher/docs">Video Stitcher API</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3347,7 +3342,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="virtual-private-cloud" data-text="Virtual Private Cloud" tabindex="-1"><a href="https://docs.cloud.google.com/vpc/docs">Virtual Private Cloud</a></h3></td>
+<td><a href="https://docs.cloud.google.com/vpc/docs">Virtual Private Cloud</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3367,7 +3362,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="vpc-service-controls" data-text="VPC Service Controls" tabindex="-1"><a href="https://docs.cloud.google.com/vpc-service-controls/docs">VPC Service Controls</a></h3></td>
+<td><a href="https://docs.cloud.google.com/vpc-service-controls/docs">VPC Service Controls</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <colgroup>
@@ -3386,7 +3381,7 @@ The limitations table is organized in the following way:
 <tr class="even">
 <td>Google Cloud API:</td>
 <td><ul>
-<li><a href="https://docs.cloud.google.com/access-context-manager/docs/reference/rpc/google.identity.accesscontextmanager.v1alpha"><code dir="ltr" translate="no">v1alpha</code> APIs</a> aren't available to federated identities.</li>
+<li><a href="https://docs.cloud.google.com/access-context-manager/docs/reference/rpc/google.identity.accesscontextmanager.v1alpha"><code>v1alpha</code> APIs</a> aren't available to federated identities.</li>
 <li>VPC Service Controls supports only specific <a href="https://docs.cloud.google.com/vpc-service-controls/docs/supported-identities">Workforce Identity Federation and Workload Identity Federation principal identifiers</a> . You can use these principal identifiers to <a href="https://docs.cloud.google.com/vpc-service-controls/docs/configure-identity-groups">configure identity groups and third-party identities in ingress and egress rules</a> .</li>
 </ul></td>
 </tr>
@@ -3398,7 +3393,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="web-risk" data-text="Web Risk" tabindex="-1"><a href="https://docs.cloud.google.com/web-risk/docs">Web Risk</a></h3></td>
+<td><a href="https://docs.cloud.google.com/web-risk/docs">Web Risk</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
@@ -3418,13 +3413,13 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><h3 id="workflows" data-text="Workflows" tabindex="-1"><a href="https://docs.cloud.google.com/workflows/docs">Workflows</a></h3></td>
+<td><a href="https://docs.cloud.google.com/workflows/docs">Workflows</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
 <tr class="odd">
 <td>Console (federated):</td>
-<td>The automated grant feature, which grants the Workforce Identity Federation user the Service Account User ( <code dir="ltr" translate="no">roles/iam.serviceAccountUser</code> ) role on the project, is inactive. To grant the role to Workforce Identity Federation users, you must go to the IAM page and specify a Workforce Identity Federation <a href="https://docs.cloud.google.com/iam/docs/principal-identifiers">principal identifier</a> or contact the project owner to do so.</td>
+<td>The automated grant feature, which grants the Workforce Identity Federation user the Service Account User ( <code>roles/iam.serviceAccountUser</code> ) role on the project, is inactive. To grant the role to Workforce Identity Federation users, you must go to the IAM page and specify a Workforce Identity Federation <a href="https://docs.cloud.google.com/iam/docs/principal-identifiers">principal identifier</a> or contact the project owner to do so.</td>
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
@@ -3438,7 +3433,7 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><h3 id="workload-manager" data-text="Workload Manager" tabindex="-1"><a href="https://docs.cloud.google.com/workload-manager/docs">Workload Manager</a></h3></td>
+<td><a href="https://docs.cloud.google.com/workload-manager/docs">Workload Manager</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>

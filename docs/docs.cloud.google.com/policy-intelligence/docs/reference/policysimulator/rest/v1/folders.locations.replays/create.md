@@ -6,15 +6,15 @@ description: A suite of tools to help you understand and manage your policies to
 data_source: docs.cloud.google.com
 ---
 
-  - [HTTP request](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#body.HTTP_TEMPLATE)
-  - [Path parameters](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#body.PATH_PARAMETERS)
-  - [Request body](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#body.request_body)
-  - [Response body](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#body.response_body)
-  - [Authorization scopes](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#body.aspect)
-  - [IAM Permissions](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#body.aspect_1)
-  - [Try it\!](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#try-it)
+- [HTTP request](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#body.HTTP_TEMPLATE)
+- [Path parameters](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#body.PATH_PARAMETERS)
+- [Request body](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#body.request_body)
+- [Response body](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#body.response_body)
+- [Authorization scopes](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#body.aspect)
+- [IAM Permissions](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#body.aspect_1)
+- [Try it!](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays/create#try-it)
 
-Creates and starts a `  Replay  ` using the given `  ReplayConfig  ` .
+Creates and starts a [`Replay`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays#Replay) using the given [`ReplayConfig`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays#Replay.ReplayConfig) .
 
 ### HTTP request
 
@@ -24,29 +24,23 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-Parameters
-
-`parent`
-
-`string`
-
-Required. The parent resource where this `  Replay  ` will be created. This resource must be a project, folder, or organization with a location.
-
-Example: `projects/my-example-project/locations/global`
+| Parameters |                                                                                                                                                                                                                                                                                                                                            |
+|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`   | `string` Required. The parent resource where this [`Replay`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays#Replay) will be created. This resource must be a project, folder, or organization with a location. Example: `projects/my-example-project/locations/global` |
 
 ### Request body
 
-The request body contains an instance of `  Replay  ` .
+The request body contains an instance of [`Replay`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1/folders.locations.replays#Replay) .
 
 ### Response body
 
-If successful, the response body contains a newly created instance of `  Operation  ` .
+If successful, the response body contains a newly created instance of [`Operation`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/Shared.Types/ListOperationsResponse#Operation) .
 
 ### Authorization scopes
 
 Requires the following OAuth scope:
 
-  - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/cloud-platform`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -54,6 +48,6 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 Requires the following [IAM](https://cloud.google.com/iam/docs) permission on the `parent` resource:
 
-  - `policysimulator.replays.create`
+- `policysimulator.replays.create`
 
 For more information, see the [IAM documentation](https://cloud.google.com/iam/docs) .

@@ -23,280 +23,125 @@ This page lists the IAM roles and permissions for Capacity Planner. To search th
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="capacityplanner.admin" class="role-title add-link" data-text="Capacityplanner Admin Beta" tabindex="-1">Capacityplanner Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
+<td>Capacityplanner Admin <sup>Beta</sup>
+<p>( <code>roles/ capacityplanner.admin</code> )</p>
 <p>Admin role for capacityplanner</p></td>
-<td><p><code dir="ltr" translate="no">capacityplanner.*</code></p>
+<td><p><code>capacityplanner.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  create</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  delete</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  get</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  list</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  update</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.forecasts.list</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.operations.get</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  planAlertInsights.  list</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  usageAlertInsights.  list</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  usageHistories.  list</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  usageHistories.  summarize</code></li>
+<li><code>capacityplanner. capacityPlans. create</code></li>
+<li><code>capacityplanner. capacityPlans. delete</code></li>
+<li><code>capacityplanner. capacityPlans. get</code></li>
+<li><code>capacityplanner. capacityPlans. list</code></li>
+<li><code>capacityplanner. capacityPlans. update</code></li>
+<li><code>capacityplanner.forecasts.list</code></li>
+<li><code>capacityplanner.operations.get</code></li>
+<li><code>capacityplanner. planAlertInsights. list</code></li>
+<li><code>capacityplanner. usageAlertInsights. list</code></li>
+<li><code>capacityplanner. usageHistories. list</code></li>
+<li><code>capacityplanner. usageHistories. summarize</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudquotas.quotas.get</code></p>
-<p><code dir="ltr" translate="no">compute.futureReservations.get</code></p>
-<p><code dir="ltr" translate="no">compute.  futureReservations.  list</code></p>
-<p><code dir="ltr" translate="no">compute.reservations.get</code></p>
-<p><code dir="ltr" translate="no">compute.reservations.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.folders.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></p>
-<p><code dir="ltr" translate="no">serviceusage.quotas.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>cloudquotas.quotas.get</code></p>
+<p><code>compute.futureReservations.get</code></p>
+<p><code>compute. futureReservations. list</code></p>
+<p><code>compute.reservations.get</code></p>
+<p><code>compute.reservations.list</code></p>
+<p><code>monitoring.timeSeries.list</code></p>
+<p><code>resourcemanager.folders.get</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.list</code></p>
+<p><code>serviceusage. groups. listMembers</code></p>
+<p><code>serviceusage.quotas.get</code></p>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="capacityplanner.viewer" class="role-title add-link" data-text="Capacity Planner Viewer Beta" tabindex="-1">Capacity Planner Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  capacityplanner.viewer</code> )</p>
+<td>Capacity Planner Viewer <sup>Beta</sup>
+<p>( <code>roles/ capacityplanner.viewer</code> )</p>
 <p>Read-only access to Capacity Planner resources</p></td>
-<td><p><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  get</code></p>
-<p><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  list</code></p>
-<p><code dir="ltr" translate="no">capacityplanner.forecasts.list</code></p>
-<p><code dir="ltr" translate="no">capacityplanner.operations.get</code></p>
-<p><code dir="ltr" translate="no">capacityplanner.  planAlertInsights.  list</code></p>
-<p><code dir="ltr" translate="no">capacityplanner.  usageAlertInsights.  list</code></p>
-<p><code dir="ltr" translate="no">capacityplanner.  usageHistories.*</code></p>
+<td><p><code>capacityplanner. capacityPlans. get</code></p>
+<p><code>capacityplanner. capacityPlans. list</code></p>
+<p><code>capacityplanner.forecasts.list</code></p>
+<p><code>capacityplanner.operations.get</code></p>
+<p><code>capacityplanner. planAlertInsights. list</code></p>
+<p><code>capacityplanner. usageAlertInsights. list</code></p>
+<p><code>capacityplanner. usageHistories.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">capacityplanner.  usageHistories.  list</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  usageHistories.  summarize</code></li>
+<li><code>capacityplanner. usageHistories. list</code></li>
+<li><code>capacityplanner. usageHistories. summarize</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudquotas.quotas.get</code></p>
-<p><code dir="ltr" translate="no">compute.futureReservations.get</code></p>
-<p><code dir="ltr" translate="no">compute.  futureReservations.  list</code></p>
-<p><code dir="ltr" translate="no">compute.reservations.get</code></p>
-<p><code dir="ltr" translate="no">compute.reservations.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.folders.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></p>
-<p><code dir="ltr" translate="no">serviceusage.quotas.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>cloudquotas.quotas.get</code></p>
+<p><code>compute.futureReservations.get</code></p>
+<p><code>compute. futureReservations. list</code></p>
+<p><code>compute.reservations.get</code></p>
+<p><code>compute.reservations.list</code></p>
+<p><code>monitoring.timeSeries.list</code></p>
+<p><code>resourcemanager.folders.get</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.list</code></p>
+<p><code>serviceusage. groups. listMembers</code></p>
+<p><code>serviceusage.quotas.get</code></p>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="capacityplanner.planner" class="role-title add-link" data-text="Capacity Planner Beta" tabindex="-1">Capacity Planner <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  capacityplanner.planner</code> )</p>
+<td>Capacity Planner <sup>Beta</sup>
+<p>( <code>roles/ capacityplanner.planner</code> )</p>
 <p>Role that enables capacity planning</p></td>
-<td><p><code dir="ltr" translate="no">capacityplanner.*</code></p>
+<td><p><code>capacityplanner.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  create</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  delete</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  get</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  list</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  update</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.forecasts.list</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.operations.get</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  planAlertInsights.  list</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  usageAlertInsights.  list</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  usageHistories.  list</code></li>
-<li><code dir="ltr" translate="no">capacityplanner.  usageHistories.  summarize</code></li>
+<li><code>capacityplanner. capacityPlans. create</code></li>
+<li><code>capacityplanner. capacityPlans. delete</code></li>
+<li><code>capacityplanner. capacityPlans. get</code></li>
+<li><code>capacityplanner. capacityPlans. list</code></li>
+<li><code>capacityplanner. capacityPlans. update</code></li>
+<li><code>capacityplanner.forecasts.list</code></li>
+<li><code>capacityplanner.operations.get</code></li>
+<li><code>capacityplanner. planAlertInsights. list</code></li>
+<li><code>capacityplanner. usageAlertInsights. list</code></li>
+<li><code>capacityplanner. usageHistories. list</code></li>
+<li><code>capacityplanner. usageHistories. summarize</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudquotas.quotas.get</code></p>
-<p><code dir="ltr" translate="no">compute.futureReservations.get</code></p>
-<p><code dir="ltr" translate="no">compute.  futureReservations.  list</code></p>
-<p><code dir="ltr" translate="no">compute.reservations.get</code></p>
-<p><code dir="ltr" translate="no">compute.reservations.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.folders.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></p>
-<p><code dir="ltr" translate="no">serviceusage.quotas.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>cloudquotas.quotas.get</code></p>
+<p><code>compute.futureReservations.get</code></p>
+<p><code>compute. futureReservations. list</code></p>
+<p><code>compute.reservations.get</code></p>
+<p><code>compute.reservations.list</code></p>
+<p><code>monitoring.timeSeries.list</code></p>
+<p><code>resourcemanager.folders.get</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.list</code></p>
+<p><code>serviceusage. groups. listMembers</code></p>
+<p><code>serviceusage.quotas.get</code></p>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Capacity Planner permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="capacityplanner.capacityPlans.create" class="permission-name add-link" data-text="capacityplanner.capacityPlans.create" tabindex="-1"><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin">Capacityplanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner">Capacity Planner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.planner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="capacityplanner.capacityPlans.delete" class="permission-name add-link" data-text="capacityplanner.capacityPlans.delete" tabindex="-1"><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin">Capacityplanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner">Capacity Planner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.planner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="capacityplanner.capacityPlans.get" class="permission-name add-link" data-text="capacityplanner.capacityPlans.get" tabindex="-1"><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin">Capacityplanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer">Capacity Planner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner">Capacity Planner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.planner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="capacityplanner.capacityPlans.list" class="permission-name add-link" data-text="capacityplanner.capacityPlans.list" tabindex="-1"><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin">Capacityplanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer">Capacity Planner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner">Capacity Planner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.planner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="capacityplanner.capacityPlans.update" class="permission-name add-link" data-text="capacityplanner.capacityPlans.update" tabindex="-1"><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin">Capacityplanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner">Capacity Planner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.planner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="capacityplanner.forecasts.list" class="permission-name add-link" data-text="capacityplanner.forecasts.list" tabindex="-1"><code dir="ltr" translate="no">capacityplanner.forecasts.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin">Capacityplanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer">Capacity Planner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner">Capacity Planner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.planner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="capacityplanner.operations.get" class="permission-name add-link" data-text="capacityplanner.operations.get" tabindex="-1"><code dir="ltr" translate="no">capacityplanner.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin">Capacityplanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer">Capacity Planner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner">Capacity Planner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.planner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="capacityplanner.planAlertInsights.list" class="permission-name add-link" data-text="capacityplanner.planAlertInsights.list" tabindex="-1"><code dir="ltr" translate="no">capacityplanner.  planAlertInsights.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin">Capacityplanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer">Capacity Planner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner">Capacity Planner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.planner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="capacityplanner.usageAlertInsights.list" class="permission-name add-link" data-text="capacityplanner.usageAlertInsights.list" tabindex="-1"><code dir="ltr" translate="no">capacityplanner.  usageAlertInsights.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin">Capacityplanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer">Capacity Planner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner">Capacity Planner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.planner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="capacityplanner.usageHistories.list" class="permission-name add-link" data-text="capacityplanner.usageHistories.list" tabindex="-1"><code dir="ltr" translate="no">capacityplanner.  usageHistories.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin">Capacityplanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer">Capacity Planner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner">Capacity Planner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.planner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="capacityplanner.usageHistories.summarize" class="permission-name add-link" data-text="capacityplanner.usageHistories.summarize" tabindex="-1"><code dir="ltr" translate="no">capacityplanner.  usageHistories.  summarize</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin">Capacityplanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer">Capacity Planner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner">Capacity Planner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.planner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                   | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `capacityplanner. capacityPlans. create`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Capacityplanner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin) ( `roles/ capacityplanner.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Capacity Planner](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner) ( `roles/ capacityplanner.planner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `capacityplanner. capacityPlans. delete`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Capacityplanner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin) ( `roles/ capacityplanner.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Capacity Planner](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner) ( `roles/ capacityplanner.planner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `capacityplanner. capacityPlans. get`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Capacityplanner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin) ( `roles/ capacityplanner.admin` ) [Capacity Planner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer) ( `roles/ capacityplanner.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Capacity Planner](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner) ( `roles/ capacityplanner.planner` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `capacityplanner. capacityPlans. list`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Capacityplanner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin) ( `roles/ capacityplanner.admin` ) [Capacity Planner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer) ( `roles/ capacityplanner.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Capacity Planner](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner) ( `roles/ capacityplanner.planner` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `capacityplanner. capacityPlans. update`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Capacityplanner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin) ( `roles/ capacityplanner.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Capacity Planner](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner) ( `roles/ capacityplanner.planner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `capacityplanner.forecasts.list`             | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Capacityplanner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin) ( `roles/ capacityplanner.admin` ) [Capacity Planner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer) ( `roles/ capacityplanner.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Capacity Planner](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner) ( `roles/ capacityplanner.planner` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `capacityplanner.operations.get`             | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Capacityplanner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin) ( `roles/ capacityplanner.admin` ) [Capacity Planner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer) ( `roles/ capacityplanner.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Capacity Planner](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner) ( `roles/ capacityplanner.planner` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `capacityplanner. planAlertInsights. list`   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Capacityplanner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin) ( `roles/ capacityplanner.admin` ) [Capacity Planner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer) ( `roles/ capacityplanner.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Capacity Planner](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner) ( `roles/ capacityplanner.planner` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `capacityplanner. usageAlertInsights. list`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Capacityplanner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin) ( `roles/ capacityplanner.admin` ) [Capacity Planner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer) ( `roles/ capacityplanner.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Capacity Planner](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner) ( `roles/ capacityplanner.planner` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `capacityplanner. usageHistories. list`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Capacityplanner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin) ( `roles/ capacityplanner.admin` ) [Capacity Planner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer) ( `roles/ capacityplanner.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Capacity Planner](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner) ( `roles/ capacityplanner.planner` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `capacityplanner. usageHistories. summarize` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Capacityplanner Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin) ( `roles/ capacityplanner.admin` ) [Capacity Planner Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer) ( `roles/ capacityplanner.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Capacity Planner](https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.planner) ( `roles/ capacityplanner.planner` ) [Cloud Hub Operator](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator) ( `roles/ cloudhub.operator` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |

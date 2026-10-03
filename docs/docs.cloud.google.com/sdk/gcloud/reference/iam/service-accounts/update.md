@@ -12,7 +12,7 @@ gcloud iam service-accounts update - update an IAM service account
 
 SYNOPSIS
 
-`gcloud iam service-accounts update` `  SERVICE_ACCOUNT  ` \[ `  --description  ` = `  DESCRIPTION  ` \] \[ `  --display-name  ` = `  DISPLAY_NAME  ` \] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam service-accounts update` [`SERVICE_ACCOUNT`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/update#SERVICE_ACCOUNT) \[ [`--description`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/update#--description) = `DESCRIPTION` \] \[ [`--display-name`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/update#--display-name) = `DISPLAY_NAME` \] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/update#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -24,7 +24,9 @@ EXAMPLES
 
 To update the description and display name for a service account, run:
 
-    gcloud iam service-accounts update my-iam-account@my-project.iam.gserviceaccount.com --description="Updated description." --display-name="Updated Name"
+```
+gcloud iam service-accounts update my-iam-account@my-project.iam.gserviceaccount.com --description="Updated description." --display-name="Updated Name"
+```
 
 POSITIONAL ARGUMENTS
 
@@ -32,31 +34,32 @@ ServiceAccount resource - The service account to update. The account should be f
 
 To set the `project` attribute:
 
-  - provide the argument `service_account` on the command line with a fully specified name;
-  - provide the argument `--project` on the command line;
-  - set the property `core/project` .
+- provide the argument `service_account` on the command line with a fully specified name;
+- provide the argument `--project` on the command line;
+- set the property `core/project` .
 
 This must be specified.
 
-  - `  SERVICE_ACCOUNT  `  
-    ID of the serviceAccount or fully qualified identifier for the serviceAccount.
-    
-    To set the `service_account` attribute:
-    
-      - provide the argument `service_account` on the command line.
+`SERVICE_ACCOUNT`  
+ID of the serviceAccount or fully qualified identifier for the serviceAccount.
+
+To set the `service_account` attribute:
+
+- provide the argument `service_account` on the command line.
 
 FLAGS
 
-  - `--description` = `  DESCRIPTION  `  
-    The new textual description for the account.
-  - `--display-name` = `  DISPLAY_NAME  `  
-    The new textual name to display for the account.
+`--description` = `DESCRIPTION`  
+The new textual description for the account.
+
+`--display-name` = `DISPLAY_NAME`  
+The new textual name to display for the account.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 API REFERENCE
 
@@ -66,6 +69,10 @@ NOTES
 
 These variants are also available:
 
-    gcloud alpha iam service-accounts update
+```
+gcloud alpha iam service-accounts update
+```
 
-    gcloud beta iam service-accounts update
+```
+gcloud beta iam service-accounts update
+```

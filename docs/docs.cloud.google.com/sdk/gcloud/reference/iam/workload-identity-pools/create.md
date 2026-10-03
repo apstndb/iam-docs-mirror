@@ -12,7 +12,7 @@ gcloud iam workload-identity-pools create - create a new workload identity pool
 
 SYNOPSIS
 
-`gcloud iam workload-identity-pools create` ( `  WORKLOAD_IDENTITY_POOL  ` : `  --location  ` = `  LOCATION  ` ) \[ `  --description  ` = `  DESCRIPTION  ` \] \[ `  --disabled  ` \] \[ `  --display-name  ` = `  DISPLAY_NAME  ` \] \[ `  --inline-trust-config-file  ` = `  INLINE_TRUST_CONFIG_FILE  ` \] \[ `  --mode  ` = `  MODE  ` \] \[ `  --inline-certificate-issuance-config-file  ` = `  INLINE_CERTIFICATE_ISSUANCE_CONFIG_FILE  ` | `  --[no-]use-default-shared-ca  ` \] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam workload-identity-pools create` ( [`WORKLOAD_IDENTITY_POOL`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create#WORKLOAD_IDENTITY_POOL) : [`--location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create#--location) = `LOCATION` ) \[ [`--description`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create#--description) = `DESCRIPTION` \] \[ [`--disabled`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create#--disabled) \] \[ [`--display-name`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create#--display-name) = `DISPLAY_NAME` \] \[ [`--inline-trust-config-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create#--inline-trust-config-file) = `INLINE_TRUST_CONFIG_FILE` \] \[ [`--mode`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create#--mode) = `MODE` \] \[ [`--inline-certificate-issuance-config-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create#--inline-certificate-issuance-config-file) = `INLINE_CERTIFICATE_ISSUANCE_CONFIG_FILE` \| [`--[no-]use-default-shared-ca`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create#--%5Bno-%5Duse-default-shared-ca) \] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -20,9 +20,11 @@ Create a new workload identity pool.
 
 EXAMPLES
 
-The following command creates a disabled workload identity pool in the default project with the ID `  my-workload-identity-pool  ` . Explicit values for all required and optional parameters are provided.
+The following command creates a disabled workload identity pool in the default project with the ID `my-workload-identity-pool` . Explicit values for all required and optional parameters are provided.
 
-    gcloud iam workload-identity-pools create my-workload-identity-pool --location="global" --display-name="My workload pool" --description="My workload pool description" --disabled
+```
+gcloud iam workload-identity-pools create my-workload-identity-pool --location="global" --display-name="My workload pool" --description="My workload pool description" --disabled
+```
 
 POSITIONAL ARGUMENTS
 
@@ -30,32 +32,32 @@ Workload identity pool resource - The workload identity pool to create. The argu
 
 To set the `project` attribute:
 
-  - provide the argument `workload_identity_pool` on the command line with a fully specified name;
-  - provide the argument `--project` on the command line;
-  - set the property `core/project` .
+- provide the argument `workload_identity_pool` on the command line with a fully specified name;
+- provide the argument `--project` on the command line;
+- set the property `core/project` .
 
 This must be specified.
 
-  - `  WORKLOAD_IDENTITY_POOL  `  
-    ID of the workload identity pool or fully qualified identifier for the workload identity pool.
-    
-    To set the `workload_identity_pool` attribute:
-    
-      - provide the argument `workload_identity_pool` on the command line.
-    
-    This positional argument must be specified if any of the other arguments in this group are specified.
+`WORKLOAD_IDENTITY_POOL`  
+ID of the workload identity pool or fully qualified identifier for the workload identity pool.
 
-  - `--location` = `  LOCATION  `  
-    The location name.
-    
-    To set the `location` attribute:
-    
-      - provide the argument `workload_identity_pool` on the command line with a fully specified name;
-      - provide the argument `--location` on the command line.
+To set the `workload_identity_pool` attribute:
+
+- provide the argument `workload_identity_pool` on the command line.
+
+This positional argument must be specified if any of the other arguments in this group are specified.
+
+`--location` = `LOCATION`  
+The location name.
+
+To set the `location` attribute:
+
+- provide the argument `workload_identity_pool` on the command line with a fully specified name;
+- provide the argument `--location` on the command line.
 
 FLAGS
 
-`--description` = `  DESCRIPTION  `
+`--description` = `DESCRIPTION`
 
 A description of the pool. Cannot exceed 256 characters.
 
@@ -63,58 +65,62 @@ A description of the pool. Cannot exceed 256 characters.
 
 Whether the pool is disabled. You cannot use a disabled pool to exchange tokens, or use existing tokens to access resources. If the pool is re-enabled, existing tokens grant access again.
 
-`--display-name` = `  DISPLAY_NAME  `
+`--display-name` = `DISPLAY_NAME`
 
 A display name for the pool. Cannot exceed 32 characters.
 
-`--inline-trust-config-file` = `  INLINE_TRUST_CONFIG_FILE  `
+`--inline-trust-config-file` = `INLINE_TRUST_CONFIG_FILE`
 
 YAML file with configuration for providing additional trust bundles. Example file format:
 
-    inlineTrustConfig:
-      additionalTrustBundles:
-        example.com:
-          trustAnchors:
-          - pemCertificate: "-----BEGIN CERTIFICATE-----
-            <certificate>
-            -----END CERTIFICATE-----"
-          - pemCertificate: "-----BEGIN CERTIFICATE-----
-            <certificate>
-            -----END CERTIFICATE-----"
-        myorg.com:
-          trustAnchors:
-          - pemCertificate: "-----BEGIN CERTIFICATE-----
-            <certificate>
-            -----END CERTIFICATE-----"
-          - pemCertificate: "-----BEGIN CERTIFICATE-----
-            <certificate>
-            -----END CERTIFICATE-----"
+```
+inlineTrustConfig:
+  additionalTrustBundles:
+    example.com:
+      trustAnchors:
+      - pemCertificate: "-----BEGIN CERTIFICATE-----
+        <certificate>
+        -----END CERTIFICATE-----"
+      - pemCertificate: "-----BEGIN CERTIFICATE-----
+        <certificate>
+        -----END CERTIFICATE-----"
+    myorg.com:
+      trustAnchors:
+      - pemCertificate: "-----BEGIN CERTIFICATE-----
+        <certificate>
+        -----END CERTIFICATE-----"
+      - pemCertificate: "-----BEGIN CERTIFICATE-----
+        <certificate>
+        -----END CERTIFICATE-----"
+```
 
-`--mode` = `  MODE  `
+`--mode` = `MODE`
 
-The mode of the pool. `  MODE  ` must be one of: `federation-only` , `mode-unspecified` , `system-trust-domain` , `trust-domain` .
+The mode of the pool. `MODE` must be one of: `federation-only` , `mode-unspecified` , `system-trust-domain` , `trust-domain` .
 
 At most one of these can be specified:
 
-  - `--inline-certificate-issuance-config-file` = `  INLINE_CERTIFICATE_ISSUANCE_CONFIG_FILE  `  
-    YAML file with configuration for certificate issuance. Example file format:
-    
-        inlineCertificateIssuanceConfig:
-          caPools:
-            us-east1: projects/1234/locations/us-east1/caPools/capoolname
-            us-west1: projects/1234/locations/us-west1/caPools/capoolname
-          keyAlgorithm: ECDSA_P256
-          lifetime: 86400s
-          rotationWindowPercentage: 50
+`--inline-certificate-issuance-config-file` = `INLINE_CERTIFICATE_ISSUANCE_CONFIG_FILE`  
+YAML file with configuration for certificate issuance. Example file format:
 
-  - `--[no-]use-default-shared-ca`  
-    Use the default shared certificate authorities (CAs) to issue certificates. If enabled, Google Cloud automatically provisions certificates from a default shared CA in the same region as the workload. Enabling this flag clears any existing CA pools configuration. Use `--use-default-shared-ca` to enable and `--no-use-default-shared-ca` to disable.
+```
+inlineCertificateIssuanceConfig:
+  caPools:
+    us-east1: projects/1234/locations/us-east1/caPools/capoolname
+    us-west1: projects/1234/locations/us-west1/caPools/capoolname
+  keyAlgorithm: ECDSA_P256
+  lifetime: 86400s
+  rotationWindowPercentage: 50
+```
+
+`--[no-]use-default-shared-ca`  
+Use the default shared certificate authorities (CAs) to issue certificates. If enabled, Google Cloud automatically provisions certificates from a default shared CA in the same region as the workload. Enabling this flag clears any existing CA pools configuration. Use `--use-default-shared-ca` to enable and `--no-use-default-shared-ca` to disable.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 API REFERENCE
 
@@ -124,6 +130,10 @@ NOTES
 
 These variants are also available:
 
-    gcloud alpha iam workload-identity-pools create
+```
+gcloud alpha iam workload-identity-pools create
+```
 
-    gcloud beta iam workload-identity-pools create
+```
+gcloud beta iam workload-identity-pools create
+```

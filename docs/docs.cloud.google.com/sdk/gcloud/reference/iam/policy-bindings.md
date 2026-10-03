@@ -12,7 +12,7 @@ gcloud iam policy-bindings - manage PolicyBinding instances
 
 SYNOPSIS
 
-`gcloud iam policy-bindings` `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam policy-bindings` [`COMMAND`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings#COMMAND) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -20,29 +20,36 @@ Manage PolicyBinding instances.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --help  ` .
+These flags are available to all commands: [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 COMMANDS
 
-`  COMMAND  ` is one of the following:
+`COMMAND` is one of the following:
 
-  - `  create  `  
-    Create PolicyBinding instance.
-  - `  delete  `  
-    Delete PolicyBinding instance.
-  - `  describe  `  
-    Get PolicyBinding instance.
-  - `  list  `  
-    List PolicyBinding instances.
-  - `  search-target-policy-bindings  `  
-    Search policy bindings by target.
-  - `  update  `  
-    Update PolicyBinding instance.
+[`create`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/create)  
+Create PolicyBinding instance.
+
+[`delete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/delete)  
+Delete PolicyBinding instance.
+
+[`describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/describe)  
+Get PolicyBinding instance.
+
+[`list`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/list)  
+List PolicyBinding instances.
+
+[`search-target-policy-bindings`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/search-target-policy-bindings)  
+Search policy bindings by target.
+
+[`update`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/update)  
+Update PolicyBinding instance.
 
 NOTES
 
 This variant is also available:
 
-    gcloud beta iam policy-bindings
+```
+gcloud beta iam policy-bindings
+```

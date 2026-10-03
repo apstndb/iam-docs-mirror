@@ -23,362 +23,362 @@ This page lists the IAM roles and permissions for Backup for GKE. To search thro
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="gkebackup.admin" class="role-title add-link" data-text="Backup for GKE Admin" tabindex="-1">Backup for GKE Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
+<td>Backup for GKE Admin
+<p>( <code>roles/ gkebackup.admin</code> )</p>
 <p>Full access to all Backup for GKE resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudkms.keyHandles.*</code></p>
+<td><p><code>cloudkms.keyHandles.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></li>
-<li><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></li>
-<li><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></li>
+<li><code>cloudkms.keyHandles.create</code></li>
+<li><code>cloudkms.keyHandles.get</code></li>
+<li><code>cloudkms.keyHandles.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
-<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
-<p><code dir="ltr" translate="no">gkebackup.*</code></p>
+<p><code>cloudkms.operations.get</code></p>
+<p><code>cloudkms. projects. showEffectiveAutokeyConfig</code></p>
+<p><code>gkebackup.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.  backupChannels.  create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupChannels.  delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupChannels.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupChannels.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupChannels.  update</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlanBindings.  get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlanBindings.  list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupPlans.create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupPlans.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupPlans.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlans.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupPlans.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlans.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupPlans.update</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backups.  getBackupIndex</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.update</code></li>
-<li><code dir="ltr" translate="no">gkebackup.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.locations.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">gkebackup.operations.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.operations.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.operations.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restoreChannels.  create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restoreChannels.  delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restoreChannels.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restoreChannels.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restoreChannels.  update</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.  get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.  list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restorePlans.create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restorePlans.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restorePlans.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlans.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restorePlans.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlans.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restorePlans.update</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.update</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeBackups.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeBackups.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeRestores.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeRestores.list</code></li>
+<li><code>gkebackup. backupChannels. create</code></li>
+<li><code>gkebackup. backupChannels. delete</code></li>
+<li><code>gkebackup.backupChannels.get</code></li>
+<li><code>gkebackup.backupChannels.list</code></li>
+<li><code>gkebackup. backupChannels. update</code></li>
+<li><code>gkebackup. backupPlanBindings. get</code></li>
+<li><code>gkebackup. backupPlanBindings. list</code></li>
+<li><code>gkebackup.backupPlans.create</code></li>
+<li><code>gkebackup.backupPlans.delete</code></li>
+<li><code>gkebackup.backupPlans.get</code></li>
+<li><code>gkebackup. backupPlans. getIamPolicy</code></li>
+<li><code>gkebackup.backupPlans.list</code></li>
+<li><code>gkebackup. backupPlans. setIamPolicy</code></li>
+<li><code>gkebackup.backupPlans.update</code></li>
+<li><code>gkebackup.backups.create</code></li>
+<li><code>gkebackup.backups.delete</code></li>
+<li><code>gkebackup.backups.get</code></li>
+<li><code>gkebackup. backups. getBackupIndex</code></li>
+<li><code>gkebackup.backups.list</code></li>
+<li><code>gkebackup.backups.update</code></li>
+<li><code>gkebackup.locations.get</code></li>
+<li><code>gkebackup.locations.list</code></li>
+<li><code>gkebackup.operations.cancel</code></li>
+<li><code>gkebackup.operations.delete</code></li>
+<li><code>gkebackup.operations.get</code></li>
+<li><code>gkebackup.operations.list</code></li>
+<li><code>gkebackup. restoreChannels. create</code></li>
+<li><code>gkebackup. restoreChannels. delete</code></li>
+<li><code>gkebackup.restoreChannels.get</code></li>
+<li><code>gkebackup.restoreChannels.list</code></li>
+<li><code>gkebackup. restoreChannels. update</code></li>
+<li><code>gkebackup. restorePlanBindings. get</code></li>
+<li><code>gkebackup. restorePlanBindings. list</code></li>
+<li><code>gkebackup.restorePlans.create</code></li>
+<li><code>gkebackup.restorePlans.delete</code></li>
+<li><code>gkebackup.restorePlans.get</code></li>
+<li><code>gkebackup. restorePlans. getIamPolicy</code></li>
+<li><code>gkebackup.restorePlans.list</code></li>
+<li><code>gkebackup. restorePlans. setIamPolicy</code></li>
+<li><code>gkebackup.restorePlans.update</code></li>
+<li><code>gkebackup.restores.create</code></li>
+<li><code>gkebackup.restores.delete</code></li>
+<li><code>gkebackup.restores.get</code></li>
+<li><code>gkebackup.restores.list</code></li>
+<li><code>gkebackup.restores.update</code></li>
+<li><code>gkebackup.volumeBackups.get</code></li>
+<li><code>gkebackup.volumeBackups.list</code></li>
+<li><code>gkebackup.volumeRestores.get</code></li>
+<li><code>gkebackup.volumeRestores.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.editor" class="role-title add-link" data-text="Gkebackup Editor" tabindex="-1">Gkebackup Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
+<td>Gkebackup Editor
+<p>( <code>roles/ gkebackup.editor</code> )</p>
 <p>Editor role for gkebackup</p></td>
-<td><p><code dir="ltr" translate="no">gkebackup.backupChannels.*</code></p>
+<td><p><code>gkebackup.backupChannels.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.  backupChannels.  create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupChannels.  delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupChannels.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupChannels.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupChannels.  update</code></li>
+<li><code>gkebackup. backupChannels. create</code></li>
+<li><code>gkebackup. backupChannels. delete</code></li>
+<li><code>gkebackup.backupChannels.get</code></li>
+<li><code>gkebackup.backupChannels.list</code></li>
+<li><code>gkebackup. backupChannels. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.backupPlanBindings.*</code></p>
+<p><code>gkebackup.backupPlanBindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlanBindings.  get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlanBindings.  list</code></li>
+<li><code>gkebackup. backupPlanBindings. get</code></li>
+<li><code>gkebackup. backupPlanBindings. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.backupPlans.create</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backupPlans.delete</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backupPlans.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.  backupPlans.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backupPlans.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backupPlans.update</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backups.*</code></p>
+<p><code>gkebackup.backupPlans.create</code></p>
+<p><code>gkebackup.backupPlans.delete</code></p>
+<p><code>gkebackup.backupPlans.get</code></p>
+<p><code>gkebackup. backupPlans. getIamPolicy</code></p>
+<p><code>gkebackup.backupPlans.list</code></p>
+<p><code>gkebackup.backupPlans.update</code></p>
+<p><code>gkebackup.backups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.backups.create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backups.  getBackupIndex</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.update</code></li>
+<li><code>gkebackup.backups.create</code></li>
+<li><code>gkebackup.backups.delete</code></li>
+<li><code>gkebackup.backups.get</code></li>
+<li><code>gkebackup. backups. getBackupIndex</code></li>
+<li><code>gkebackup.backups.list</code></li>
+<li><code>gkebackup.backups.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.locations.*</code></p>
+<p><code>gkebackup.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.locations.list</code></li>
+<li><code>gkebackup.locations.get</code></li>
+<li><code>gkebackup.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.operations.*</code></p>
+<p><code>gkebackup.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">gkebackup.operations.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.operations.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.operations.list</code></li>
+<li><code>gkebackup.operations.cancel</code></li>
+<li><code>gkebackup.operations.delete</code></li>
+<li><code>gkebackup.operations.get</code></li>
+<li><code>gkebackup.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.restoreChannels.*</code></p>
+<p><code>gkebackup.restoreChannels.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.  restoreChannels.  create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restoreChannels.  delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restoreChannels.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restoreChannels.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restoreChannels.  update</code></li>
+<li><code>gkebackup. restoreChannels. create</code></li>
+<li><code>gkebackup. restoreChannels. delete</code></li>
+<li><code>gkebackup.restoreChannels.get</code></li>
+<li><code>gkebackup.restoreChannels.list</code></li>
+<li><code>gkebackup. restoreChannels. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.*</code></p>
+<p><code>gkebackup. restorePlanBindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.  get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.  list</code></li>
+<li><code>gkebackup. restorePlanBindings. get</code></li>
+<li><code>gkebackup. restorePlanBindings. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.restorePlans.create</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restorePlans.delete</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restorePlans.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.  restorePlans.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restorePlans.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restorePlans.update</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restores.*</code></p>
+<p><code>gkebackup.restorePlans.create</code></p>
+<p><code>gkebackup.restorePlans.delete</code></p>
+<p><code>gkebackup.restorePlans.get</code></p>
+<p><code>gkebackup. restorePlans. getIamPolicy</code></p>
+<p><code>gkebackup.restorePlans.list</code></p>
+<p><code>gkebackup.restorePlans.update</code></p>
+<p><code>gkebackup.restores.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.restores.create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.update</code></li>
+<li><code>gkebackup.restores.create</code></li>
+<li><code>gkebackup.restores.delete</code></li>
+<li><code>gkebackup.restores.get</code></li>
+<li><code>gkebackup.restores.list</code></li>
+<li><code>gkebackup.restores.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.volumeBackups.*</code></p>
+<p><code>gkebackup.volumeBackups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.volumeBackups.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeBackups.list</code></li>
+<li><code>gkebackup.volumeBackups.get</code></li>
+<li><code>gkebackup.volumeBackups.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.volumeRestores.*</code></p>
+<p><code>gkebackup.volumeRestores.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.volumeRestores.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeRestores.list</code></li>
+<li><code>gkebackup.volumeRestores.get</code></li>
+<li><code>gkebackup.volumeRestores.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.viewer" class="role-title add-link" data-text="Backup for GKE Viewer" tabindex="-1">Backup for GKE Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
+<td>Backup for GKE Viewer
+<p>( <code>roles/ gkebackup.viewer</code> )</p>
 <p>Read-only access to all Backup for GKE resources.</p></td>
-<td><p><code dir="ltr" translate="no">gkebackup.backupChannels.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backupChannels.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backupPlanBindings.*</code></p>
+<td><p><code>gkebackup.backupChannels.get</code></p>
+<p><code>gkebackup.backupChannels.list</code></p>
+<p><code>gkebackup.backupPlanBindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlanBindings.  get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlanBindings.  list</code></li>
+<li><code>gkebackup. backupPlanBindings. get</code></li>
+<li><code>gkebackup. backupPlanBindings. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.backupPlans.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.  backupPlans.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backupPlans.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backups.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.  backups.  getBackupIndex</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backups.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.locations.*</code></p>
+<p><code>gkebackup.backupPlans.get</code></p>
+<p><code>gkebackup. backupPlans. getIamPolicy</code></p>
+<p><code>gkebackup.backupPlans.list</code></p>
+<p><code>gkebackup.backups.get</code></p>
+<p><code>gkebackup. backups. getBackupIndex</code></p>
+<p><code>gkebackup.backups.list</code></p>
+<p><code>gkebackup.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.locations.list</code></li>
+<li><code>gkebackup.locations.get</code></li>
+<li><code>gkebackup.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.operations.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.operations.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restoreChannels.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restoreChannels.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.*</code></p>
+<p><code>gkebackup.operations.get</code></p>
+<p><code>gkebackup.operations.list</code></p>
+<p><code>gkebackup.restoreChannels.get</code></p>
+<p><code>gkebackup.restoreChannels.list</code></p>
+<p><code>gkebackup. restorePlanBindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.  get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.  list</code></li>
+<li><code>gkebackup. restorePlanBindings. get</code></li>
+<li><code>gkebackup. restorePlanBindings. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.restorePlans.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.  restorePlans.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restorePlans.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restores.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restores.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.volumeBackups.*</code></p>
+<p><code>gkebackup.restorePlans.get</code></p>
+<p><code>gkebackup. restorePlans. getIamPolicy</code></p>
+<p><code>gkebackup.restorePlans.list</code></p>
+<p><code>gkebackup.restores.get</code></p>
+<p><code>gkebackup.restores.list</code></p>
+<p><code>gkebackup.volumeBackups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.volumeBackups.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeBackups.list</code></li>
+<li><code>gkebackup.volumeBackups.get</code></li>
+<li><code>gkebackup.volumeBackups.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.volumeRestores.*</code></p>
+<p><code>gkebackup.volumeRestores.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.volumeRestores.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeRestores.list</code></li>
+<li><code>gkebackup.volumeRestores.get</code></li>
+<li><code>gkebackup.volumeRestores.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.backupAdmin" class="role-title add-link" data-text="Backup for GKE Backup Admin" tabindex="-1">Backup for GKE Backup Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
+<td>Backup for GKE Backup Admin
+<p>( <code>roles/ gkebackup.backupAdmin</code> )</p>
 <p>Allows administrators to manage all BackupPlan and Backup resources.</p></td>
-<td><p><code dir="ltr" translate="no">gkebackup.backupChannels.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backupChannels.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backupPlanBindings.*</code></p>
+<td><p><code>gkebackup.backupChannels.get</code></p>
+<p><code>gkebackup.backupChannels.list</code></p>
+<p><code>gkebackup.backupPlanBindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlanBindings.  get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlanBindings.  list</code></li>
+<li><code>gkebackup. backupPlanBindings. get</code></li>
+<li><code>gkebackup. backupPlanBindings. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.backupPlans.*</code></p>
+<p><code>gkebackup.backupPlans.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.backupPlans.create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupPlans.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupPlans.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlans.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupPlans.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlans.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backupPlans.update</code></li>
+<li><code>gkebackup.backupPlans.create</code></li>
+<li><code>gkebackup.backupPlans.delete</code></li>
+<li><code>gkebackup.backupPlans.get</code></li>
+<li><code>gkebackup. backupPlans. getIamPolicy</code></li>
+<li><code>gkebackup.backupPlans.list</code></li>
+<li><code>gkebackup. backupPlans. setIamPolicy</code></li>
+<li><code>gkebackup.backupPlans.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.backups.*</code></p>
+<p><code>gkebackup.backups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.backups.create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backups.  getBackupIndex</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.update</code></li>
+<li><code>gkebackup.backups.create</code></li>
+<li><code>gkebackup.backups.delete</code></li>
+<li><code>gkebackup.backups.get</code></li>
+<li><code>gkebackup. backups. getBackupIndex</code></li>
+<li><code>gkebackup.backups.list</code></li>
+<li><code>gkebackup.backups.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.locations.*</code></p>
+<p><code>gkebackup.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.locations.list</code></li>
+<li><code>gkebackup.locations.get</code></li>
+<li><code>gkebackup.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.operations.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.operations.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restoreChannels.*</code></p>
+<p><code>gkebackup.operations.get</code></p>
+<p><code>gkebackup.operations.list</code></p>
+<p><code>gkebackup.restoreChannels.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.  restoreChannels.  create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restoreChannels.  delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restoreChannels.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restoreChannels.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restoreChannels.  update</code></li>
+<li><code>gkebackup. restoreChannels. create</code></li>
+<li><code>gkebackup. restoreChannels. delete</code></li>
+<li><code>gkebackup.restoreChannels.get</code></li>
+<li><code>gkebackup.restoreChannels.list</code></li>
+<li><code>gkebackup. restoreChannels. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.*</code></p>
+<p><code>gkebackup. restorePlanBindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.  get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.  list</code></li>
+<li><code>gkebackup. restorePlanBindings. get</code></li>
+<li><code>gkebackup. restorePlanBindings. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.volumeBackups.*</code></p>
+<p><code>gkebackup.volumeBackups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.volumeBackups.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeBackups.list</code></li>
+<li><code>gkebackup.volumeBackups.get</code></li>
+<li><code>gkebackup.volumeBackups.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.delegatedBackupAdmin" class="role-title add-link" data-text="Backup for GKE Delegated Backup Admin" tabindex="-1">Backup for GKE Delegated Backup Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
+<td>Backup for GKE Delegated Backup Admin
+<p>( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
 <p>Allows administrators to manage Backup resources for specific BackupPlans</p></td>
-<td><p><code dir="ltr" translate="no">gkebackup.backupChannels.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backupChannels.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backupPlanBindings.*</code></p>
+<td><p><code>gkebackup.backupChannels.get</code></p>
+<p><code>gkebackup.backupChannels.list</code></p>
+<p><code>gkebackup.backupPlanBindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlanBindings.  get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backupPlanBindings.  list</code></li>
+<li><code>gkebackup. backupPlanBindings. get</code></li>
+<li><code>gkebackup. backupPlanBindings. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.backupPlans.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backups.*</code></p>
+<p><code>gkebackup.backupPlans.get</code></p>
+<p><code>gkebackup.backups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.backups.create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  backups.  getBackupIndex</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.backups.update</code></li>
+<li><code>gkebackup.backups.create</code></li>
+<li><code>gkebackup.backups.delete</code></li>
+<li><code>gkebackup.backups.get</code></li>
+<li><code>gkebackup. backups. getBackupIndex</code></li>
+<li><code>gkebackup.backups.list</code></li>
+<li><code>gkebackup.backups.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.volumeBackups.*</code></p>
+<p><code>gkebackup.volumeBackups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.volumeBackups.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeBackups.list</code></li>
+<li><code>gkebackup.volumeBackups.get</code></li>
+<li><code>gkebackup.volumeBackups.list</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.delegatedRestoreAdmin" class="role-title add-link" data-text="Backup for GKE Delegated Restore Admin" tabindex="-1">Backup for GKE Delegated Restore Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkebackup.delegatedRestoreAdmin</code> )</p>
+<td>Backup for GKE Delegated Restore Admin
+<p>( <code>roles/ gkebackup.delegatedRestoreAdmin</code> )</p>
 <p>Allows administrators to manage Restore resources for specific RestorePlans</p></td>
-<td><p><code dir="ltr" translate="no">gkebackup.restorePlans.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restores.*</code></p>
+<td><p><code>gkebackup.restorePlans.get</code></p>
+<p><code>gkebackup.restores.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.restores.create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.update</code></li>
+<li><code>gkebackup.restores.create</code></li>
+<li><code>gkebackup.restores.delete</code></li>
+<li><code>gkebackup.restores.get</code></li>
+<li><code>gkebackup.restores.list</code></li>
+<li><code>gkebackup.restores.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.volumeRestores.*</code></p>
+<p><code>gkebackup.volumeRestores.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.volumeRestores.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeRestores.list</code></li>
+<li><code>gkebackup.volumeRestores.get</code></li>
+<li><code>gkebackup.volumeRestores.list</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.restoreAdmin" class="role-title add-link" data-text="Backup for GKE Restore Admin" tabindex="-1">Backup for GKE Restore Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
+<td>Backup for GKE Restore Admin
+<p>( <code>roles/ gkebackup.restoreAdmin</code> )</p>
 <p>Allows administrators to manage all RestorePlan and Restore resources.</p></td>
-<td><p><code dir="ltr" translate="no">gkebackup.backupPlans.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backupPlans.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backups.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.  backups.  getBackupIndex</code></p>
-<p><code dir="ltr" translate="no">gkebackup.backups.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.locations.*</code></p>
+<td><p><code>gkebackup.backupPlans.get</code></p>
+<p><code>gkebackup.backupPlans.list</code></p>
+<p><code>gkebackup.backups.get</code></p>
+<p><code>gkebackup. backups. getBackupIndex</code></p>
+<p><code>gkebackup.backups.list</code></p>
+<p><code>gkebackup.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.locations.list</code></li>
+<li><code>gkebackup.locations.get</code></li>
+<li><code>gkebackup.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.operations.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.operations.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restoreChannels.get</code></p>
-<p><code dir="ltr" translate="no">gkebackup.restoreChannels.list</code></p>
-<p><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.*</code></p>
+<p><code>gkebackup.operations.get</code></p>
+<p><code>gkebackup.operations.list</code></p>
+<p><code>gkebackup.restoreChannels.get</code></p>
+<p><code>gkebackup.restoreChannels.list</code></p>
+<p><code>gkebackup. restorePlanBindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.  get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.  list</code></li>
+<li><code>gkebackup. restorePlanBindings. get</code></li>
+<li><code>gkebackup. restorePlanBindings. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.restorePlans.*</code></p>
+<p><code>gkebackup.restorePlans.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.restorePlans.create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restorePlans.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restorePlans.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlans.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restorePlans.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.  restorePlans.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restorePlans.update</code></li>
+<li><code>gkebackup.restorePlans.create</code></li>
+<li><code>gkebackup.restorePlans.delete</code></li>
+<li><code>gkebackup.restorePlans.get</code></li>
+<li><code>gkebackup. restorePlans. getIamPolicy</code></li>
+<li><code>gkebackup.restorePlans.list</code></li>
+<li><code>gkebackup. restorePlans. setIamPolicy</code></li>
+<li><code>gkebackup.restorePlans.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.restores.*</code></p>
+<p><code>gkebackup.restores.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.restores.create</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.delete</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.list</code></li>
-<li><code dir="ltr" translate="no">gkebackup.restores.update</code></li>
+<li><code>gkebackup.restores.create</code></li>
+<li><code>gkebackup.restores.delete</code></li>
+<li><code>gkebackup.restores.get</code></li>
+<li><code>gkebackup.restores.list</code></li>
+<li><code>gkebackup.restores.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.volumeBackups.*</code></p>
+<p><code>gkebackup.volumeBackups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.volumeBackups.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeBackups.list</code></li>
+<li><code>gkebackup.volumeBackups.get</code></li>
+<li><code>gkebackup.volumeBackups.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.volumeRestores.*</code></p>
+<p><code>gkebackup.volumeRestores.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkebackup.volumeRestores.get</code></li>
-<li><code dir="ltr" translate="no">gkebackup.volumeRestores.list</code></li>
+<li><code>gkebackup.volumeRestores.get</code></li>
+<li><code>gkebackup.volumeRestores.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -400,8 +400,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="gkebackup.crossProjectServiceAgent" class="role-title add-link" data-text="Backup for GKE Cross Project Service Agent" tabindex="-1">Backup for GKE Cross Project Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkebackup.crossProjectServiceAgent</code> )</p>
+<td>Backup for GKE Cross Project Service Agent
+<p>( <code>roles/ gkebackup.crossProjectServiceAgent</code> )</p>
 <p>Grants permissions to execute Backup for GKE resources across projects.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -409,604 +409,604 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.serviceAgent" class="role-title add-link" data-text="Backup for GKE Service Agent" tabindex="-1">Backup for GKE Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkebackup.serviceAgent</code> )</p>
+<td>Backup for GKE Service Agent
+<p>( <code>roles/ gkebackup.serviceAgent</code> )</p>
 <p>Grants the Backup for GKE Service Account access to managed resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">compute.disks.create</code></p>
-<p><code dir="ltr" translate="no">compute.disks.createSnapshot</code></p>
-<p><code dir="ltr" translate="no">compute.disks.get</code></p>
-<p><code dir="ltr" translate="no">compute.disks.list</code></p>
-<p><code dir="ltr" translate="no">compute.disks.setLabels</code></p>
-<p><code dir="ltr" translate="no">compute.disks.useReadOnly</code></p>
-<p><code dir="ltr" translate="no">compute.globalOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.regionOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.snapshots.delete</code></p>
-<p><code dir="ltr" translate="no">compute.snapshots.get</code></p>
-<p><code dir="ltr" translate="no">compute.storagePools.use</code></p>
-<p><code dir="ltr" translate="no">compute.zoneOperations.get</code></p>
-<p><code dir="ltr" translate="no">container.apiServices.*</code></p>
+<td><p><code>compute.disks.create</code></p>
+<p><code>compute.disks.createSnapshot</code></p>
+<p><code>compute.disks.get</code></p>
+<p><code>compute.disks.list</code></p>
+<p><code>compute.disks.setLabels</code></p>
+<p><code>compute.disks.useReadOnly</code></p>
+<p><code>compute.globalOperations.get</code></p>
+<p><code>compute.regionOperations.get</code></p>
+<p><code>compute.snapshots.delete</code></p>
+<p><code>compute.snapshots.get</code></p>
+<p><code>compute.storagePools.use</code></p>
+<p><code>compute.zoneOperations.get</code></p>
+<p><code>container.apiServices.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.apiServices.create</code></li>
-<li><code dir="ltr" translate="no">container.apiServices.delete</code></li>
-<li><code dir="ltr" translate="no">container.apiServices.get</code></li>
-<li><code dir="ltr" translate="no">container.  apiServices.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.apiServices.list</code></li>
-<li><code dir="ltr" translate="no">container.apiServices.update</code></li>
-<li><code dir="ltr" translate="no">container.  apiServices.  updateStatus</code></li>
+<li><code>container.apiServices.create</code></li>
+<li><code>container.apiServices.delete</code></li>
+<li><code>container.apiServices.get</code></li>
+<li><code>container. apiServices. getStatus</code></li>
+<li><code>container.apiServices.list</code></li>
+<li><code>container.apiServices.update</code></li>
+<li><code>container. apiServices. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.auditSinks.*</code></p>
+<p><code>container.auditSinks.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.auditSinks.create</code></li>
-<li><code dir="ltr" translate="no">container.auditSinks.delete</code></li>
-<li><code dir="ltr" translate="no">container.auditSinks.get</code></li>
-<li><code dir="ltr" translate="no">container.auditSinks.list</code></li>
-<li><code dir="ltr" translate="no">container.auditSinks.update</code></li>
+<li><code>container.auditSinks.create</code></li>
+<li><code>container.auditSinks.delete</code></li>
+<li><code>container.auditSinks.get</code></li>
+<li><code>container.auditSinks.list</code></li>
+<li><code>container.auditSinks.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.backendConfigs.*</code></p>
+<p><code>container.backendConfigs.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  backendConfigs.  create</code></li>
-<li><code dir="ltr" translate="no">container.  backendConfigs.  delete</code></li>
-<li><code dir="ltr" translate="no">container.backendConfigs.get</code></li>
-<li><code dir="ltr" translate="no">container.backendConfigs.list</code></li>
-<li><code dir="ltr" translate="no">container.  backendConfigs.  update</code></li>
+<li><code>container. backendConfigs. create</code></li>
+<li><code>container. backendConfigs. delete</code></li>
+<li><code>container.backendConfigs.get</code></li>
+<li><code>container.backendConfigs.list</code></li>
+<li><code>container. backendConfigs. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.bindings.*</code></p>
+<p><code>container.bindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.bindings.create</code></li>
-<li><code dir="ltr" translate="no">container.bindings.delete</code></li>
-<li><code dir="ltr" translate="no">container.bindings.get</code></li>
-<li><code dir="ltr" translate="no">container.bindings.list</code></li>
-<li><code dir="ltr" translate="no">container.bindings.update</code></li>
+<li><code>container.bindings.create</code></li>
+<li><code>container.bindings.delete</code></li>
+<li><code>container.bindings.get</code></li>
+<li><code>container.bindings.list</code></li>
+<li><code>container.bindings.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  certificateSigningRequests.  create</code></p>
-<p><code dir="ltr" translate="no">container.  certificateSigningRequests.  delete</code></p>
-<p><code dir="ltr" translate="no">container.  certificateSigningRequests.  get</code></p>
-<p><code dir="ltr" translate="no">container.  certificateSigningRequests.  list</code></p>
-<p><code dir="ltr" translate="no">container.  certificateSigningRequests.  update</code></p>
-<p><code dir="ltr" translate="no">container.  certificateSigningRequests.  updateStatus</code></p>
-<p><code dir="ltr" translate="no">container.  clusterRoleBindings.  get</code></p>
-<p><code dir="ltr" translate="no">container.  clusterRoleBindings.  list</code></p>
-<p><code dir="ltr" translate="no">container.clusterRoles.get</code></p>
-<p><code dir="ltr" translate="no">container.clusterRoles.list</code></p>
-<p><code dir="ltr" translate="no">container.clusters.connect</code></p>
-<p><code dir="ltr" translate="no">container.clusters.get</code></p>
-<p><code dir="ltr" translate="no">container.clusters.list</code></p>
-<p><code dir="ltr" translate="no">container.clusters.update</code></p>
-<p><code dir="ltr" translate="no">container.componentStatuses.*</code></p>
+<p><code>container. certificateSigningRequests. create</code></p>
+<p><code>container. certificateSigningRequests. delete</code></p>
+<p><code>container. certificateSigningRequests. get</code></p>
+<p><code>container. certificateSigningRequests. list</code></p>
+<p><code>container. certificateSigningRequests. update</code></p>
+<p><code>container. certificateSigningRequests. updateStatus</code></p>
+<p><code>container. clusterRoleBindings. get</code></p>
+<p><code>container. clusterRoleBindings. list</code></p>
+<p><code>container.clusterRoles.get</code></p>
+<p><code>container.clusterRoles.list</code></p>
+<p><code>container.clusters.connect</code></p>
+<p><code>container.clusters.get</code></p>
+<p><code>container.clusters.list</code></p>
+<p><code>container.clusters.update</code></p>
+<p><code>container.componentStatuses.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  componentStatuses.  get</code></li>
-<li><code dir="ltr" translate="no">container.  componentStatuses.  list</code></li>
+<li><code>container. componentStatuses. get</code></li>
+<li><code>container. componentStatuses. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.configMaps.*</code></p>
+<p><code>container.configMaps.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.configMaps.create</code></li>
-<li><code dir="ltr" translate="no">container.configMaps.delete</code></li>
-<li><code dir="ltr" translate="no">container.configMaps.get</code></li>
-<li><code dir="ltr" translate="no">container.configMaps.list</code></li>
-<li><code dir="ltr" translate="no">container.configMaps.update</code></li>
+<li><code>container.configMaps.create</code></li>
+<li><code>container.configMaps.delete</code></li>
+<li><code>container.configMaps.get</code></li>
+<li><code>container.configMaps.list</code></li>
+<li><code>container.configMaps.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  controllerRevisions.  get</code></p>
-<p><code dir="ltr" translate="no">container.  controllerRevisions.  list</code></p>
-<p><code dir="ltr" translate="no">container.cronJobs.*</code></p>
+<p><code>container. controllerRevisions. get</code></p>
+<p><code>container. controllerRevisions. list</code></p>
+<p><code>container.cronJobs.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.cronJobs.create</code></li>
-<li><code dir="ltr" translate="no">container.cronJobs.delete</code></li>
-<li><code dir="ltr" translate="no">container.cronJobs.get</code></li>
-<li><code dir="ltr" translate="no">container.cronJobs.getStatus</code></li>
-<li><code dir="ltr" translate="no">container.cronJobs.list</code></li>
-<li><code dir="ltr" translate="no">container.cronJobs.update</code></li>
-<li><code dir="ltr" translate="no">container.  cronJobs.  updateStatus</code></li>
+<li><code>container.cronJobs.create</code></li>
+<li><code>container.cronJobs.delete</code></li>
+<li><code>container.cronJobs.get</code></li>
+<li><code>container.cronJobs.getStatus</code></li>
+<li><code>container.cronJobs.list</code></li>
+<li><code>container.cronJobs.update</code></li>
+<li><code>container. cronJobs. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.csiDrivers.*</code></p>
+<p><code>container.csiDrivers.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.csiDrivers.create</code></li>
-<li><code dir="ltr" translate="no">container.csiDrivers.delete</code></li>
-<li><code dir="ltr" translate="no">container.csiDrivers.get</code></li>
-<li><code dir="ltr" translate="no">container.csiDrivers.list</code></li>
-<li><code dir="ltr" translate="no">container.csiDrivers.update</code></li>
+<li><code>container.csiDrivers.create</code></li>
+<li><code>container.csiDrivers.delete</code></li>
+<li><code>container.csiDrivers.get</code></li>
+<li><code>container.csiDrivers.list</code></li>
+<li><code>container.csiDrivers.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.csiNodeInfos.*</code></p>
+<p><code>container.csiNodeInfos.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.csiNodeInfos.create</code></li>
-<li><code dir="ltr" translate="no">container.csiNodeInfos.delete</code></li>
-<li><code dir="ltr" translate="no">container.csiNodeInfos.get</code></li>
-<li><code dir="ltr" translate="no">container.csiNodeInfos.list</code></li>
-<li><code dir="ltr" translate="no">container.csiNodeInfos.update</code></li>
+<li><code>container.csiNodeInfos.create</code></li>
+<li><code>container.csiNodeInfos.delete</code></li>
+<li><code>container.csiNodeInfos.get</code></li>
+<li><code>container.csiNodeInfos.list</code></li>
+<li><code>container.csiNodeInfos.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.csiNodes.*</code></p>
+<p><code>container.csiNodes.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.csiNodes.create</code></li>
-<li><code dir="ltr" translate="no">container.csiNodes.delete</code></li>
-<li><code dir="ltr" translate="no">container.csiNodes.get</code></li>
-<li><code dir="ltr" translate="no">container.csiNodes.list</code></li>
-<li><code dir="ltr" translate="no">container.csiNodes.update</code></li>
+<li><code>container.csiNodes.create</code></li>
+<li><code>container.csiNodes.delete</code></li>
+<li><code>container.csiNodes.get</code></li>
+<li><code>container.csiNodes.list</code></li>
+<li><code>container.csiNodes.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  customResourceDefinitions.*</code></p>
+<p><code>container. customResourceDefinitions.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  customResourceDefinitions.  create</code></li>
-<li><code dir="ltr" translate="no">container.  customResourceDefinitions.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  customResourceDefinitions.  get</code></li>
-<li><code dir="ltr" translate="no">container.  customResourceDefinitions.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.  customResourceDefinitions.  list</code></li>
-<li><code dir="ltr" translate="no">container.  customResourceDefinitions.  update</code></li>
-<li><code dir="ltr" translate="no">container.  customResourceDefinitions.  updateStatus</code></li>
+<li><code>container. customResourceDefinitions. create</code></li>
+<li><code>container. customResourceDefinitions. delete</code></li>
+<li><code>container. customResourceDefinitions. get</code></li>
+<li><code>container. customResourceDefinitions. getStatus</code></li>
+<li><code>container. customResourceDefinitions. list</code></li>
+<li><code>container. customResourceDefinitions. update</code></li>
+<li><code>container. customResourceDefinitions. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.daemonSets.*</code></p>
+<p><code>container.daemonSets.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.daemonSets.create</code></li>
-<li><code dir="ltr" translate="no">container.daemonSets.delete</code></li>
-<li><code dir="ltr" translate="no">container.daemonSets.get</code></li>
-<li><code dir="ltr" translate="no">container.daemonSets.getStatus</code></li>
-<li><code dir="ltr" translate="no">container.daemonSets.list</code></li>
-<li><code dir="ltr" translate="no">container.daemonSets.update</code></li>
-<li><code dir="ltr" translate="no">container.  daemonSets.  updateStatus</code></li>
+<li><code>container.daemonSets.create</code></li>
+<li><code>container.daemonSets.delete</code></li>
+<li><code>container.daemonSets.get</code></li>
+<li><code>container.daemonSets.getStatus</code></li>
+<li><code>container.daemonSets.list</code></li>
+<li><code>container.daemonSets.update</code></li>
+<li><code>container. daemonSets. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.deployments.*</code></p>
+<p><code>container.deployments.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.deployments.create</code></li>
-<li><code dir="ltr" translate="no">container.deployments.delete</code></li>
-<li><code dir="ltr" translate="no">container.deployments.get</code></li>
-<li><code dir="ltr" translate="no">container.deployments.getScale</code></li>
-<li><code dir="ltr" translate="no">container.  deployments.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.deployments.list</code></li>
-<li><code dir="ltr" translate="no">container.deployments.rollback</code></li>
-<li><code dir="ltr" translate="no">container.deployments.update</code></li>
-<li><code dir="ltr" translate="no">container.  deployments.  updateScale</code></li>
-<li><code dir="ltr" translate="no">container.  deployments.  updateStatus</code></li>
+<li><code>container.deployments.create</code></li>
+<li><code>container.deployments.delete</code></li>
+<li><code>container.deployments.get</code></li>
+<li><code>container.deployments.getScale</code></li>
+<li><code>container. deployments. getStatus</code></li>
+<li><code>container.deployments.list</code></li>
+<li><code>container.deployments.rollback</code></li>
+<li><code>container.deployments.update</code></li>
+<li><code>container. deployments. updateScale</code></li>
+<li><code>container. deployments. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.endpointSlices.*</code></p>
+<p><code>container.endpointSlices.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  endpointSlices.  create</code></li>
-<li><code dir="ltr" translate="no">container.  endpointSlices.  delete</code></li>
-<li><code dir="ltr" translate="no">container.endpointSlices.get</code></li>
-<li><code dir="ltr" translate="no">container.endpointSlices.list</code></li>
-<li><code dir="ltr" translate="no">container.  endpointSlices.  update</code></li>
+<li><code>container. endpointSlices. create</code></li>
+<li><code>container. endpointSlices. delete</code></li>
+<li><code>container.endpointSlices.get</code></li>
+<li><code>container.endpointSlices.list</code></li>
+<li><code>container. endpointSlices. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.endpoints.*</code></p>
+<p><code>container.endpoints.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.endpoints.create</code></li>
-<li><code dir="ltr" translate="no">container.endpoints.delete</code></li>
-<li><code dir="ltr" translate="no">container.endpoints.get</code></li>
-<li><code dir="ltr" translate="no">container.endpoints.list</code></li>
-<li><code dir="ltr" translate="no">container.endpoints.update</code></li>
+<li><code>container.endpoints.create</code></li>
+<li><code>container.endpoints.delete</code></li>
+<li><code>container.endpoints.get</code></li>
+<li><code>container.endpoints.list</code></li>
+<li><code>container.endpoints.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.events.*</code></p>
+<p><code>container.events.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.events.create</code></li>
-<li><code dir="ltr" translate="no">container.events.delete</code></li>
-<li><code dir="ltr" translate="no">container.events.get</code></li>
-<li><code dir="ltr" translate="no">container.events.list</code></li>
-<li><code dir="ltr" translate="no">container.events.update</code></li>
+<li><code>container.events.create</code></li>
+<li><code>container.events.delete</code></li>
+<li><code>container.events.get</code></li>
+<li><code>container.events.list</code></li>
+<li><code>container.events.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.frontendConfigs.*</code></p>
+<p><code>container.frontendConfigs.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  frontendConfigs.  create</code></li>
-<li><code dir="ltr" translate="no">container.  frontendConfigs.  delete</code></li>
-<li><code dir="ltr" translate="no">container.frontendConfigs.get</code></li>
-<li><code dir="ltr" translate="no">container.frontendConfigs.list</code></li>
-<li><code dir="ltr" translate="no">container.  frontendConfigs.  update</code></li>
+<li><code>container. frontendConfigs. create</code></li>
+<li><code>container. frontendConfigs. delete</code></li>
+<li><code>container.frontendConfigs.get</code></li>
+<li><code>container.frontendConfigs.list</code></li>
+<li><code>container. frontendConfigs. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  horizontalPodAutoscalers.*</code></p>
+<p><code>container. horizontalPodAutoscalers.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  horizontalPodAutoscalers.  create</code></li>
-<li><code dir="ltr" translate="no">container.  horizontalPodAutoscalers.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  horizontalPodAutoscalers.  get</code></li>
-<li><code dir="ltr" translate="no">container.  horizontalPodAutoscalers.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.  horizontalPodAutoscalers.  list</code></li>
-<li><code dir="ltr" translate="no">container.  horizontalPodAutoscalers.  update</code></li>
-<li><code dir="ltr" translate="no">container.  horizontalPodAutoscalers.  updateStatus</code></li>
+<li><code>container. horizontalPodAutoscalers. create</code></li>
+<li><code>container. horizontalPodAutoscalers. delete</code></li>
+<li><code>container. horizontalPodAutoscalers. get</code></li>
+<li><code>container. horizontalPodAutoscalers. getStatus</code></li>
+<li><code>container. horizontalPodAutoscalers. list</code></li>
+<li><code>container. horizontalPodAutoscalers. update</code></li>
+<li><code>container. horizontalPodAutoscalers. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.ingresses.*</code></p>
+<p><code>container.ingresses.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.ingresses.create</code></li>
-<li><code dir="ltr" translate="no">container.ingresses.delete</code></li>
-<li><code dir="ltr" translate="no">container.ingresses.get</code></li>
-<li><code dir="ltr" translate="no">container.ingresses.getStatus</code></li>
-<li><code dir="ltr" translate="no">container.ingresses.list</code></li>
-<li><code dir="ltr" translate="no">container.ingresses.update</code></li>
-<li><code dir="ltr" translate="no">container.  ingresses.  updateStatus</code></li>
+<li><code>container.ingresses.create</code></li>
+<li><code>container.ingresses.delete</code></li>
+<li><code>container.ingresses.get</code></li>
+<li><code>container.ingresses.getStatus</code></li>
+<li><code>container.ingresses.list</code></li>
+<li><code>container.ingresses.update</code></li>
+<li><code>container. ingresses. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  initializerConfigurations.*</code></p>
+<p><code>container. initializerConfigurations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  initializerConfigurations.  create</code></li>
-<li><code dir="ltr" translate="no">container.  initializerConfigurations.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  initializerConfigurations.  get</code></li>
-<li><code dir="ltr" translate="no">container.  initializerConfigurations.  list</code></li>
-<li><code dir="ltr" translate="no">container.  initializerConfigurations.  update</code></li>
+<li><code>container. initializerConfigurations. create</code></li>
+<li><code>container. initializerConfigurations. delete</code></li>
+<li><code>container. initializerConfigurations. get</code></li>
+<li><code>container. initializerConfigurations. list</code></li>
+<li><code>container. initializerConfigurations. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.jobs.*</code></p>
+<p><code>container.jobs.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.jobs.create</code></li>
-<li><code dir="ltr" translate="no">container.jobs.delete</code></li>
-<li><code dir="ltr" translate="no">container.jobs.get</code></li>
-<li><code dir="ltr" translate="no">container.jobs.getStatus</code></li>
-<li><code dir="ltr" translate="no">container.jobs.list</code></li>
-<li><code dir="ltr" translate="no">container.jobs.update</code></li>
-<li><code dir="ltr" translate="no">container.jobs.updateStatus</code></li>
+<li><code>container.jobs.create</code></li>
+<li><code>container.jobs.delete</code></li>
+<li><code>container.jobs.get</code></li>
+<li><code>container.jobs.getStatus</code></li>
+<li><code>container.jobs.list</code></li>
+<li><code>container.jobs.update</code></li>
+<li><code>container.jobs.updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.leases.*</code></p>
+<p><code>container.leases.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.leases.create</code></li>
-<li><code dir="ltr" translate="no">container.leases.delete</code></li>
-<li><code dir="ltr" translate="no">container.leases.get</code></li>
-<li><code dir="ltr" translate="no">container.leases.list</code></li>
-<li><code dir="ltr" translate="no">container.leases.update</code></li>
+<li><code>container.leases.create</code></li>
+<li><code>container.leases.delete</code></li>
+<li><code>container.leases.get</code></li>
+<li><code>container.leases.list</code></li>
+<li><code>container.leases.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.limitRanges.*</code></p>
+<p><code>container.limitRanges.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.limitRanges.create</code></li>
-<li><code dir="ltr" translate="no">container.limitRanges.delete</code></li>
-<li><code dir="ltr" translate="no">container.limitRanges.get</code></li>
-<li><code dir="ltr" translate="no">container.limitRanges.list</code></li>
-<li><code dir="ltr" translate="no">container.limitRanges.update</code></li>
+<li><code>container.limitRanges.create</code></li>
+<li><code>container.limitRanges.delete</code></li>
+<li><code>container.limitRanges.get</code></li>
+<li><code>container.limitRanges.list</code></li>
+<li><code>container.limitRanges.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  localSubjectAccessReviews.*</code></p>
+<p><code>container. localSubjectAccessReviews.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  localSubjectAccessReviews.  create</code></li>
-<li><code dir="ltr" translate="no">container.  localSubjectAccessReviews.  list</code></li>
+<li><code>container. localSubjectAccessReviews. create</code></li>
+<li><code>container. localSubjectAccessReviews. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  managedCertificates.*</code></p>
+<p><code>container. managedCertificates.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  managedCertificates.  create</code></li>
-<li><code dir="ltr" translate="no">container.  managedCertificates.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  managedCertificates.  get</code></li>
-<li><code dir="ltr" translate="no">container.  managedCertificates.  list</code></li>
-<li><code dir="ltr" translate="no">container.  managedCertificates.  update</code></li>
+<li><code>container. managedCertificates. create</code></li>
+<li><code>container. managedCertificates. delete</code></li>
+<li><code>container. managedCertificates. get</code></li>
+<li><code>container. managedCertificates. list</code></li>
+<li><code>container. managedCertificates. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  mutatingWebhookConfigurations.  get</code></p>
-<p><code dir="ltr" translate="no">container.  mutatingWebhookConfigurations.  list</code></p>
-<p><code dir="ltr" translate="no">container.namespaces.*</code></p>
+<p><code>container. mutatingWebhookConfigurations. get</code></p>
+<p><code>container. mutatingWebhookConfigurations. list</code></p>
+<p><code>container.namespaces.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.namespaces.create</code></li>
-<li><code dir="ltr" translate="no">container.namespaces.delete</code></li>
-<li><code dir="ltr" translate="no">container.namespaces.finalize</code></li>
-<li><code dir="ltr" translate="no">container.namespaces.get</code></li>
-<li><code dir="ltr" translate="no">container.namespaces.getStatus</code></li>
-<li><code dir="ltr" translate="no">container.namespaces.list</code></li>
-<li><code dir="ltr" translate="no">container.namespaces.update</code></li>
-<li><code dir="ltr" translate="no">container.  namespaces.  updateStatus</code></li>
+<li><code>container.namespaces.create</code></li>
+<li><code>container.namespaces.delete</code></li>
+<li><code>container.namespaces.finalize</code></li>
+<li><code>container.namespaces.get</code></li>
+<li><code>container.namespaces.getStatus</code></li>
+<li><code>container.namespaces.list</code></li>
+<li><code>container.namespaces.update</code></li>
+<li><code>container. namespaces. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.networkPolicies.*</code></p>
+<p><code>container.networkPolicies.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  networkPolicies.  create</code></li>
-<li><code dir="ltr" translate="no">container.  networkPolicies.  delete</code></li>
-<li><code dir="ltr" translate="no">container.networkPolicies.get</code></li>
-<li><code dir="ltr" translate="no">container.networkPolicies.list</code></li>
-<li><code dir="ltr" translate="no">container.  networkPolicies.  update</code></li>
+<li><code>container. networkPolicies. create</code></li>
+<li><code>container. networkPolicies. delete</code></li>
+<li><code>container.networkPolicies.get</code></li>
+<li><code>container.networkPolicies.list</code></li>
+<li><code>container. networkPolicies. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.nodes.*</code></p>
+<p><code>container.nodes.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.nodes.create</code></li>
-<li><code dir="ltr" translate="no">container.nodes.delete</code></li>
-<li><code dir="ltr" translate="no">container.nodes.get</code></li>
-<li><code dir="ltr" translate="no">container.nodes.getStatus</code></li>
-<li><code dir="ltr" translate="no">container.nodes.list</code></li>
-<li><code dir="ltr" translate="no">container.nodes.proxy</code></li>
-<li><code dir="ltr" translate="no">container.nodes.update</code></li>
-<li><code dir="ltr" translate="no">container.nodes.updateStatus</code></li>
+<li><code>container.nodes.create</code></li>
+<li><code>container.nodes.delete</code></li>
+<li><code>container.nodes.get</code></li>
+<li><code>container.nodes.getStatus</code></li>
+<li><code>container.nodes.list</code></li>
+<li><code>container.nodes.proxy</code></li>
+<li><code>container.nodes.update</code></li>
+<li><code>container.nodes.updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.operations.*</code></p>
+<p><code>container.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.operations.get</code></li>
-<li><code dir="ltr" translate="no">container.operations.list</code></li>
+<li><code>container.operations.get</code></li>
+<li><code>container.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  persistentVolumeClaims.*</code></p>
+<p><code>container. persistentVolumeClaims.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  persistentVolumeClaims.  create</code></li>
-<li><code dir="ltr" translate="no">container.  persistentVolumeClaims.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  persistentVolumeClaims.  get</code></li>
-<li><code dir="ltr" translate="no">container.  persistentVolumeClaims.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.  persistentVolumeClaims.  list</code></li>
-<li><code dir="ltr" translate="no">container.  persistentVolumeClaims.  update</code></li>
-<li><code dir="ltr" translate="no">container.  persistentVolumeClaims.  updateStatus</code></li>
+<li><code>container. persistentVolumeClaims. create</code></li>
+<li><code>container. persistentVolumeClaims. delete</code></li>
+<li><code>container. persistentVolumeClaims. get</code></li>
+<li><code>container. persistentVolumeClaims. getStatus</code></li>
+<li><code>container. persistentVolumeClaims. list</code></li>
+<li><code>container. persistentVolumeClaims. update</code></li>
+<li><code>container. persistentVolumeClaims. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.persistentVolumes.*</code></p>
+<p><code>container.persistentVolumes.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  persistentVolumes.  create</code></li>
-<li><code dir="ltr" translate="no">container.  persistentVolumes.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  persistentVolumes.  get</code></li>
-<li><code dir="ltr" translate="no">container.  persistentVolumes.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.  persistentVolumes.  list</code></li>
-<li><code dir="ltr" translate="no">container.  persistentVolumes.  update</code></li>
-<li><code dir="ltr" translate="no">container.  persistentVolumes.  updateStatus</code></li>
+<li><code>container. persistentVolumes. create</code></li>
+<li><code>container. persistentVolumes. delete</code></li>
+<li><code>container. persistentVolumes. get</code></li>
+<li><code>container. persistentVolumes. getStatus</code></li>
+<li><code>container. persistentVolumes. list</code></li>
+<li><code>container. persistentVolumes. update</code></li>
+<li><code>container. persistentVolumes. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.petSets.*</code></p>
+<p><code>container.petSets.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.petSets.create</code></li>
-<li><code dir="ltr" translate="no">container.petSets.delete</code></li>
-<li><code dir="ltr" translate="no">container.petSets.get</code></li>
-<li><code dir="ltr" translate="no">container.petSets.list</code></li>
-<li><code dir="ltr" translate="no">container.petSets.update</code></li>
-<li><code dir="ltr" translate="no">container.petSets.updateStatus</code></li>
+<li><code>container.petSets.create</code></li>
+<li><code>container.petSets.delete</code></li>
+<li><code>container.petSets.get</code></li>
+<li><code>container.petSets.list</code></li>
+<li><code>container.petSets.update</code></li>
+<li><code>container.petSets.updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  podDisruptionBudgets.*</code></p>
+<p><code>container. podDisruptionBudgets.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  podDisruptionBudgets.  create</code></li>
-<li><code dir="ltr" translate="no">container.  podDisruptionBudgets.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  podDisruptionBudgets.  get</code></li>
-<li><code dir="ltr" translate="no">container.  podDisruptionBudgets.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.  podDisruptionBudgets.  list</code></li>
-<li><code dir="ltr" translate="no">container.  podDisruptionBudgets.  update</code></li>
-<li><code dir="ltr" translate="no">container.  podDisruptionBudgets.  updateStatus</code></li>
+<li><code>container. podDisruptionBudgets. create</code></li>
+<li><code>container. podDisruptionBudgets. delete</code></li>
+<li><code>container. podDisruptionBudgets. get</code></li>
+<li><code>container. podDisruptionBudgets. getStatus</code></li>
+<li><code>container. podDisruptionBudgets. list</code></li>
+<li><code>container. podDisruptionBudgets. update</code></li>
+<li><code>container. podDisruptionBudgets. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.podPresets.*</code></p>
+<p><code>container.podPresets.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.podPresets.create</code></li>
-<li><code dir="ltr" translate="no">container.podPresets.delete</code></li>
-<li><code dir="ltr" translate="no">container.podPresets.get</code></li>
-<li><code dir="ltr" translate="no">container.podPresets.list</code></li>
-<li><code dir="ltr" translate="no">container.podPresets.update</code></li>
+<li><code>container.podPresets.create</code></li>
+<li><code>container.podPresets.delete</code></li>
+<li><code>container.podPresets.get</code></li>
+<li><code>container.podPresets.list</code></li>
+<li><code>container.podPresets.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  podSecurityPolicies.  get</code></p>
-<p><code dir="ltr" translate="no">container.  podSecurityPolicies.  list</code></p>
-<p><code dir="ltr" translate="no">container.podTemplates.*</code></p>
+<p><code>container. podSecurityPolicies. get</code></p>
+<p><code>container. podSecurityPolicies. list</code></p>
+<p><code>container.podTemplates.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.podTemplates.create</code></li>
-<li><code dir="ltr" translate="no">container.podTemplates.delete</code></li>
-<li><code dir="ltr" translate="no">container.podTemplates.get</code></li>
-<li><code dir="ltr" translate="no">container.podTemplates.list</code></li>
-<li><code dir="ltr" translate="no">container.podTemplates.update</code></li>
+<li><code>container.podTemplates.create</code></li>
+<li><code>container.podTemplates.delete</code></li>
+<li><code>container.podTemplates.get</code></li>
+<li><code>container.podTemplates.list</code></li>
+<li><code>container.podTemplates.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.pods.*</code></p>
+<p><code>container.pods.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.pods.attach</code></li>
-<li><code dir="ltr" translate="no">container.pods.create</code></li>
-<li><code dir="ltr" translate="no">container.pods.delete</code></li>
-<li><code dir="ltr" translate="no">container.pods.evict</code></li>
-<li><code dir="ltr" translate="no">container.pods.exec</code></li>
-<li><code dir="ltr" translate="no">container.pods.get</code></li>
-<li><code dir="ltr" translate="no">container.pods.getLogs</code></li>
-<li><code dir="ltr" translate="no">container.pods.getStatus</code></li>
-<li><code dir="ltr" translate="no">container.pods.initialize</code></li>
-<li><code dir="ltr" translate="no">container.pods.list</code></li>
-<li><code dir="ltr" translate="no">container.pods.portForward</code></li>
-<li><code dir="ltr" translate="no">container.pods.proxy</code></li>
-<li><code dir="ltr" translate="no">container.pods.update</code></li>
-<li><code dir="ltr" translate="no">container.pods.updateStatus</code></li>
+<li><code>container.pods.attach</code></li>
+<li><code>container.pods.create</code></li>
+<li><code>container.pods.delete</code></li>
+<li><code>container.pods.evict</code></li>
+<li><code>container.pods.exec</code></li>
+<li><code>container.pods.get</code></li>
+<li><code>container.pods.getLogs</code></li>
+<li><code>container.pods.getStatus</code></li>
+<li><code>container.pods.initialize</code></li>
+<li><code>container.pods.list</code></li>
+<li><code>container.pods.portForward</code></li>
+<li><code>container.pods.proxy</code></li>
+<li><code>container.pods.update</code></li>
+<li><code>container.pods.updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.priorityClasses.*</code></p>
+<p><code>container.priorityClasses.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  priorityClasses.  create</code></li>
-<li><code dir="ltr" translate="no">container.  priorityClasses.  delete</code></li>
-<li><code dir="ltr" translate="no">container.priorityClasses.get</code></li>
-<li><code dir="ltr" translate="no">container.priorityClasses.list</code></li>
-<li><code dir="ltr" translate="no">container.  priorityClasses.  update</code></li>
+<li><code>container. priorityClasses. create</code></li>
+<li><code>container. priorityClasses. delete</code></li>
+<li><code>container.priorityClasses.get</code></li>
+<li><code>container.priorityClasses.list</code></li>
+<li><code>container. priorityClasses. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.replicaSets.*</code></p>
+<p><code>container.replicaSets.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.replicaSets.create</code></li>
-<li><code dir="ltr" translate="no">container.replicaSets.delete</code></li>
-<li><code dir="ltr" translate="no">container.replicaSets.get</code></li>
-<li><code dir="ltr" translate="no">container.replicaSets.getScale</code></li>
-<li><code dir="ltr" translate="no">container.  replicaSets.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.replicaSets.list</code></li>
-<li><code dir="ltr" translate="no">container.replicaSets.update</code></li>
-<li><code dir="ltr" translate="no">container.  replicaSets.  updateScale</code></li>
-<li><code dir="ltr" translate="no">container.  replicaSets.  updateStatus</code></li>
+<li><code>container.replicaSets.create</code></li>
+<li><code>container.replicaSets.delete</code></li>
+<li><code>container.replicaSets.get</code></li>
+<li><code>container.replicaSets.getScale</code></li>
+<li><code>container. replicaSets. getStatus</code></li>
+<li><code>container.replicaSets.list</code></li>
+<li><code>container.replicaSets.update</code></li>
+<li><code>container. replicaSets. updateScale</code></li>
+<li><code>container. replicaSets. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  replicationControllers.*</code></p>
+<p><code>container. replicationControllers.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  replicationControllers.  create</code></li>
-<li><code dir="ltr" translate="no">container.  replicationControllers.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  replicationControllers.  get</code></li>
-<li><code dir="ltr" translate="no">container.  replicationControllers.  getScale</code></li>
-<li><code dir="ltr" translate="no">container.  replicationControllers.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.  replicationControllers.  list</code></li>
-<li><code dir="ltr" translate="no">container.  replicationControllers.  update</code></li>
-<li><code dir="ltr" translate="no">container.  replicationControllers.  updateScale</code></li>
-<li><code dir="ltr" translate="no">container.  replicationControllers.  updateStatus</code></li>
+<li><code>container. replicationControllers. create</code></li>
+<li><code>container. replicationControllers. delete</code></li>
+<li><code>container. replicationControllers. get</code></li>
+<li><code>container. replicationControllers. getScale</code></li>
+<li><code>container. replicationControllers. getStatus</code></li>
+<li><code>container. replicationControllers. list</code></li>
+<li><code>container. replicationControllers. update</code></li>
+<li><code>container. replicationControllers. updateScale</code></li>
+<li><code>container. replicationControllers. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.resourceQuotas.*</code></p>
+<p><code>container.resourceQuotas.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  resourceQuotas.  create</code></li>
-<li><code dir="ltr" translate="no">container.  resourceQuotas.  delete</code></li>
-<li><code dir="ltr" translate="no">container.resourceQuotas.get</code></li>
-<li><code dir="ltr" translate="no">container.  resourceQuotas.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.resourceQuotas.list</code></li>
-<li><code dir="ltr" translate="no">container.  resourceQuotas.  update</code></li>
-<li><code dir="ltr" translate="no">container.  resourceQuotas.  updateStatus</code></li>
+<li><code>container. resourceQuotas. create</code></li>
+<li><code>container. resourceQuotas. delete</code></li>
+<li><code>container.resourceQuotas.get</code></li>
+<li><code>container. resourceQuotas. getStatus</code></li>
+<li><code>container.resourceQuotas.list</code></li>
+<li><code>container. resourceQuotas. update</code></li>
+<li><code>container. resourceQuotas. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.roleBindings.get</code></p>
-<p><code dir="ltr" translate="no">container.roleBindings.list</code></p>
-<p><code dir="ltr" translate="no">container.roles.get</code></p>
-<p><code dir="ltr" translate="no">container.roles.list</code></p>
-<p><code dir="ltr" translate="no">container.runtimeClasses.*</code></p>
+<p><code>container.roleBindings.get</code></p>
+<p><code>container.roleBindings.list</code></p>
+<p><code>container.roles.get</code></p>
+<p><code>container.roles.list</code></p>
+<p><code>container.runtimeClasses.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  runtimeClasses.  create</code></li>
-<li><code dir="ltr" translate="no">container.  runtimeClasses.  delete</code></li>
-<li><code dir="ltr" translate="no">container.runtimeClasses.get</code></li>
-<li><code dir="ltr" translate="no">container.runtimeClasses.list</code></li>
-<li><code dir="ltr" translate="no">container.  runtimeClasses.  update</code></li>
+<li><code>container. runtimeClasses. create</code></li>
+<li><code>container. runtimeClasses. delete</code></li>
+<li><code>container.runtimeClasses.get</code></li>
+<li><code>container.runtimeClasses.list</code></li>
+<li><code>container. runtimeClasses. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.scheduledJobs.*</code></p>
+<p><code>container.scheduledJobs.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.scheduledJobs.create</code></li>
-<li><code dir="ltr" translate="no">container.scheduledJobs.delete</code></li>
-<li><code dir="ltr" translate="no">container.scheduledJobs.get</code></li>
-<li><code dir="ltr" translate="no">container.scheduledJobs.list</code></li>
-<li><code dir="ltr" translate="no">container.scheduledJobs.update</code></li>
-<li><code dir="ltr" translate="no">container.  scheduledJobs.  updateStatus</code></li>
+<li><code>container.scheduledJobs.create</code></li>
+<li><code>container.scheduledJobs.delete</code></li>
+<li><code>container.scheduledJobs.get</code></li>
+<li><code>container.scheduledJobs.list</code></li>
+<li><code>container.scheduledJobs.update</code></li>
+<li><code>container. scheduledJobs. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.secrets.*</code></p>
+<p><code>container.secrets.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.secrets.create</code></li>
-<li><code dir="ltr" translate="no">container.secrets.delete</code></li>
-<li><code dir="ltr" translate="no">container.secrets.get</code></li>
-<li><code dir="ltr" translate="no">container.secrets.list</code></li>
-<li><code dir="ltr" translate="no">container.secrets.update</code></li>
+<li><code>container.secrets.create</code></li>
+<li><code>container.secrets.delete</code></li>
+<li><code>container.secrets.get</code></li>
+<li><code>container.secrets.list</code></li>
+<li><code>container.secrets.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  selfSubjectAccessReviews.*</code></p>
+<p><code>container. selfSubjectAccessReviews.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  selfSubjectAccessReviews.  create</code></li>
-<li><code dir="ltr" translate="no">container.  selfSubjectAccessReviews.  list</code></li>
+<li><code>container. selfSubjectAccessReviews. create</code></li>
+<li><code>container. selfSubjectAccessReviews. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  selfSubjectRulesReviews.  create</code></p>
-<p><code dir="ltr" translate="no">container.serviceAccounts.*</code></p>
+<p><code>container. selfSubjectRulesReviews. create</code></p>
+<p><code>container.serviceAccounts.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  serviceAccounts.  create</code></li>
-<li><code dir="ltr" translate="no">container.  serviceAccounts.  createToken</code></li>
-<li><code dir="ltr" translate="no">container.  serviceAccounts.  delete</code></li>
-<li><code dir="ltr" translate="no">container.serviceAccounts.get</code></li>
-<li><code dir="ltr" translate="no">container.serviceAccounts.list</code></li>
-<li><code dir="ltr" translate="no">container.  serviceAccounts.  update</code></li>
+<li><code>container. serviceAccounts. create</code></li>
+<li><code>container. serviceAccounts. createToken</code></li>
+<li><code>container. serviceAccounts. delete</code></li>
+<li><code>container.serviceAccounts.get</code></li>
+<li><code>container.serviceAccounts.list</code></li>
+<li><code>container. serviceAccounts. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.services.*</code></p>
+<p><code>container.services.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.services.create</code></li>
-<li><code dir="ltr" translate="no">container.services.delete</code></li>
-<li><code dir="ltr" translate="no">container.services.get</code></li>
-<li><code dir="ltr" translate="no">container.services.getStatus</code></li>
-<li><code dir="ltr" translate="no">container.services.list</code></li>
-<li><code dir="ltr" translate="no">container.services.proxy</code></li>
-<li><code dir="ltr" translate="no">container.services.update</code></li>
-<li><code dir="ltr" translate="no">container.  services.  updateStatus</code></li>
+<li><code>container.services.create</code></li>
+<li><code>container.services.delete</code></li>
+<li><code>container.services.get</code></li>
+<li><code>container.services.getStatus</code></li>
+<li><code>container.services.list</code></li>
+<li><code>container.services.proxy</code></li>
+<li><code>container.services.update</code></li>
+<li><code>container. services. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.statefulSets.*</code></p>
+<p><code>container.statefulSets.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.statefulSets.create</code></li>
-<li><code dir="ltr" translate="no">container.statefulSets.delete</code></li>
-<li><code dir="ltr" translate="no">container.statefulSets.get</code></li>
-<li><code dir="ltr" translate="no">container.  statefulSets.  getScale</code></li>
-<li><code dir="ltr" translate="no">container.  statefulSets.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.statefulSets.list</code></li>
-<li><code dir="ltr" translate="no">container.statefulSets.update</code></li>
-<li><code dir="ltr" translate="no">container.  statefulSets.  updateScale</code></li>
-<li><code dir="ltr" translate="no">container.  statefulSets.  updateStatus</code></li>
+<li><code>container.statefulSets.create</code></li>
+<li><code>container.statefulSets.delete</code></li>
+<li><code>container.statefulSets.get</code></li>
+<li><code>container. statefulSets. getScale</code></li>
+<li><code>container. statefulSets. getStatus</code></li>
+<li><code>container.statefulSets.list</code></li>
+<li><code>container.statefulSets.update</code></li>
+<li><code>container. statefulSets. updateScale</code></li>
+<li><code>container. statefulSets. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.storageClasses.*</code></p>
+<p><code>container.storageClasses.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  storageClasses.  create</code></li>
-<li><code dir="ltr" translate="no">container.  storageClasses.  delete</code></li>
-<li><code dir="ltr" translate="no">container.storageClasses.get</code></li>
-<li><code dir="ltr" translate="no">container.storageClasses.list</code></li>
-<li><code dir="ltr" translate="no">container.  storageClasses.  update</code></li>
+<li><code>container. storageClasses. create</code></li>
+<li><code>container. storageClasses. delete</code></li>
+<li><code>container.storageClasses.get</code></li>
+<li><code>container.storageClasses.list</code></li>
+<li><code>container. storageClasses. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.storageStates.*</code></p>
+<p><code>container.storageStates.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.storageStates.create</code></li>
-<li><code dir="ltr" translate="no">container.storageStates.delete</code></li>
-<li><code dir="ltr" translate="no">container.storageStates.get</code></li>
-<li><code dir="ltr" translate="no">container.  storageStates.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.storageStates.list</code></li>
-<li><code dir="ltr" translate="no">container.storageStates.update</code></li>
-<li><code dir="ltr" translate="no">container.  storageStates.  updateStatus</code></li>
+<li><code>container.storageStates.create</code></li>
+<li><code>container.storageStates.delete</code></li>
+<li><code>container.storageStates.get</code></li>
+<li><code>container. storageStates. getStatus</code></li>
+<li><code>container.storageStates.list</code></li>
+<li><code>container.storageStates.update</code></li>
+<li><code>container. storageStates. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  storageVersionMigrations.*</code></p>
+<p><code>container. storageVersionMigrations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  storageVersionMigrations.  create</code></li>
-<li><code dir="ltr" translate="no">container.  storageVersionMigrations.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  storageVersionMigrations.  get</code></li>
-<li><code dir="ltr" translate="no">container.  storageVersionMigrations.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.  storageVersionMigrations.  list</code></li>
-<li><code dir="ltr" translate="no">container.  storageVersionMigrations.  update</code></li>
-<li><code dir="ltr" translate="no">container.  storageVersionMigrations.  updateStatus</code></li>
+<li><code>container. storageVersionMigrations. create</code></li>
+<li><code>container. storageVersionMigrations. delete</code></li>
+<li><code>container. storageVersionMigrations. get</code></li>
+<li><code>container. storageVersionMigrations. getStatus</code></li>
+<li><code>container. storageVersionMigrations. list</code></li>
+<li><code>container. storageVersionMigrations. update</code></li>
+<li><code>container. storageVersionMigrations. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  subjectAccessReviews.*</code></p>
+<p><code>container. subjectAccessReviews.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  subjectAccessReviews.  create</code></li>
-<li><code dir="ltr" translate="no">container.  subjectAccessReviews.  list</code></li>
+<li><code>container. subjectAccessReviews. create</code></li>
+<li><code>container. subjectAccessReviews. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.thirdPartyObjects.*</code></p>
+<p><code>container.thirdPartyObjects.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  thirdPartyObjects.  create</code></li>
-<li><code dir="ltr" translate="no">container.  thirdPartyObjects.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  thirdPartyObjects.  get</code></li>
-<li><code dir="ltr" translate="no">container.  thirdPartyObjects.  list</code></li>
-<li><code dir="ltr" translate="no">container.  thirdPartyObjects.  update</code></li>
+<li><code>container. thirdPartyObjects. create</code></li>
+<li><code>container. thirdPartyObjects. delete</code></li>
+<li><code>container. thirdPartyObjects. get</code></li>
+<li><code>container. thirdPartyObjects. list</code></li>
+<li><code>container. thirdPartyObjects. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  thirdPartyResources.*</code></p>
+<p><code>container. thirdPartyResources.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  thirdPartyResources.  create</code></li>
-<li><code dir="ltr" translate="no">container.  thirdPartyResources.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  thirdPartyResources.  get</code></li>
-<li><code dir="ltr" translate="no">container.  thirdPartyResources.  list</code></li>
-<li><code dir="ltr" translate="no">container.  thirdPartyResources.  update</code></li>
+<li><code>container. thirdPartyResources. create</code></li>
+<li><code>container. thirdPartyResources. delete</code></li>
+<li><code>container. thirdPartyResources. get</code></li>
+<li><code>container. thirdPartyResources. list</code></li>
+<li><code>container. thirdPartyResources. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.tokenReviews.create</code></p>
-<p><code dir="ltr" translate="no">container.updateInfos.*</code></p>
+<p><code>container.tokenReviews.create</code></p>
+<p><code>container.updateInfos.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.updateInfos.create</code></li>
-<li><code dir="ltr" translate="no">container.updateInfos.delete</code></li>
-<li><code dir="ltr" translate="no">container.updateInfos.get</code></li>
-<li><code dir="ltr" translate="no">container.updateInfos.list</code></li>
-<li><code dir="ltr" translate="no">container.updateInfos.update</code></li>
+<li><code>container.updateInfos.create</code></li>
+<li><code>container.updateInfos.delete</code></li>
+<li><code>container.updateInfos.get</code></li>
+<li><code>container.updateInfos.list</code></li>
+<li><code>container.updateInfos.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  validatingWebhookConfigurations.  get</code></p>
-<p><code dir="ltr" translate="no">container.  validatingWebhookConfigurations.  list</code></p>
-<p><code dir="ltr" translate="no">container.volumeAttachments.*</code></p>
+<p><code>container. validatingWebhookConfigurations. get</code></p>
+<p><code>container. validatingWebhookConfigurations. list</code></p>
+<p><code>container.volumeAttachments.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  volumeAttachments.  create</code></li>
-<li><code dir="ltr" translate="no">container.  volumeAttachments.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  volumeAttachments.  get</code></li>
-<li><code dir="ltr" translate="no">container.  volumeAttachments.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.  volumeAttachments.  list</code></li>
-<li><code dir="ltr" translate="no">container.  volumeAttachments.  update</code></li>
-<li><code dir="ltr" translate="no">container.  volumeAttachments.  updateStatus</code></li>
+<li><code>container. volumeAttachments. create</code></li>
+<li><code>container. volumeAttachments. delete</code></li>
+<li><code>container. volumeAttachments. get</code></li>
+<li><code>container. volumeAttachments. getStatus</code></li>
+<li><code>container. volumeAttachments. list</code></li>
+<li><code>container. volumeAttachments. update</code></li>
+<li><code>container. volumeAttachments. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  volumeSnapshotClasses.*</code></p>
+<p><code>container. volumeSnapshotClasses.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  volumeSnapshotClasses.  create</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshotClasses.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshotClasses.  get</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshotClasses.  list</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshotClasses.  update</code></li>
+<li><code>container. volumeSnapshotClasses. create</code></li>
+<li><code>container. volumeSnapshotClasses. delete</code></li>
+<li><code>container. volumeSnapshotClasses. get</code></li>
+<li><code>container. volumeSnapshotClasses. list</code></li>
+<li><code>container. volumeSnapshotClasses. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.  volumeSnapshotContents.*</code></p>
+<p><code>container. volumeSnapshotContents.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  volumeSnapshotContents.  create</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshotContents.  delete</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshotContents.  get</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshotContents.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshotContents.  list</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshotContents.  update</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshotContents.  updateStatus</code></li>
+<li><code>container. volumeSnapshotContents. create</code></li>
+<li><code>container. volumeSnapshotContents. delete</code></li>
+<li><code>container. volumeSnapshotContents. get</code></li>
+<li><code>container. volumeSnapshotContents. getStatus</code></li>
+<li><code>container. volumeSnapshotContents. list</code></li>
+<li><code>container. volumeSnapshotContents. update</code></li>
+<li><code>container. volumeSnapshotContents. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">container.volumeSnapshots.*</code></p>
+<p><code>container.volumeSnapshots.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">container.  volumeSnapshots.  create</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshots.  delete</code></li>
-<li><code dir="ltr" translate="no">container.volumeSnapshots.get</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshots.  getStatus</code></li>
-<li><code dir="ltr" translate="no">container.volumeSnapshots.list</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshots.  update</code></li>
-<li><code dir="ltr" translate="no">container.  volumeSnapshots.  updateStatus</code></li>
+<li><code>container. volumeSnapshots. create</code></li>
+<li><code>container. volumeSnapshots. delete</code></li>
+<li><code>container.volumeSnapshots.get</code></li>
+<li><code>container. volumeSnapshots. getStatus</code></li>
+<li><code>container.volumeSnapshots.list</code></li>
+<li><code>container. volumeSnapshots. update</code></li>
+<li><code>container. volumeSnapshots. updateStatus</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkebackup.operations.get</code></p>
-<p><code dir="ltr" translate="no">recommender.  containerDiagnosisInsights.*</code></p>
+<p><code>gkebackup.operations.get</code></p>
+<p><code>recommender. containerDiagnosisInsights.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">recommender.  containerDiagnosisInsights.  get</code></li>
-<li><code dir="ltr" translate="no">recommender.  containerDiagnosisInsights.  list</code></li>
-<li><code dir="ltr" translate="no">recommender.  containerDiagnosisInsights.  update</code></li>
+<li><code>recommender. containerDiagnosisInsights. get</code></li>
+<li><code>recommender. containerDiagnosisInsights. list</code></li>
+<li><code>recommender. containerDiagnosisInsights. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">recommender.  containerDiagnosisRecommendations.*</code></p>
+<p><code>recommender. containerDiagnosisRecommendations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">recommender.  containerDiagnosisRecommendations.  get</code></li>
-<li><code dir="ltr" translate="no">recommender.  containerDiagnosisRecommendations.  list</code></li>
-<li><code dir="ltr" translate="no">recommender.  containerDiagnosisRecommendations.  update</code></li>
+<li><code>recommender. containerDiagnosisRecommendations. get</code></li>
+<li><code>recommender. containerDiagnosisRecommendations. list</code></li>
+<li><code>recommender. containerDiagnosisRecommendations. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">recommender.locations.*</code></p>
+<p><code>recommender.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">recommender.locations.get</code></li>
-<li><code dir="ltr" translate="no">recommender.locations.list</code></li>
+<li><code>recommender.locations.get</code></li>
+<li><code>recommender.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">recommender.  networkAnalyzerGkeConnectivityInsights.*</code></p>
+<p><code>recommender. networkAnalyzerGkeConnectivityInsights.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">recommender.  networkAnalyzerGkeConnectivityInsights.  get</code></li>
-<li><code dir="ltr" translate="no">recommender.  networkAnalyzerGkeConnectivityInsights.  list</code></li>
-<li><code dir="ltr" translate="no">recommender.  networkAnalyzerGkeConnectivityInsights.  update</code></li>
+<li><code>recommender. networkAnalyzerGkeConnectivityInsights. get</code></li>
+<li><code>recommender. networkAnalyzerGkeConnectivityInsights. list</code></li>
+<li><code>recommender. networkAnalyzerGkeConnectivityInsights. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">recommender.  networkAnalyzerGkeIpAddressInsights.*</code></p>
+<p><code>recommender. networkAnalyzerGkeIpAddressInsights.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">recommender.  networkAnalyzerGkeIpAddressInsights.  get</code></li>
-<li><code dir="ltr" translate="no">recommender.  networkAnalyzerGkeIpAddressInsights.  list</code></li>
-<li><code dir="ltr" translate="no">recommender.  networkAnalyzerGkeIpAddressInsights.  update</code></li>
+<li><code>recommender. networkAnalyzerGkeIpAddressInsights. get</code></li>
+<li><code>recommender. networkAnalyzerGkeIpAddressInsights. list</code></li>
+<li><code>recommender. networkAnalyzerGkeIpAddressInsights. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  projects.  updateLiens</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>resourcemanager. projects. updateLiens</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -1026,678 +1026,678 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="gkebackup.backupChannels.create" class="permission-name add-link" data-text="gkebackup.backupChannels.create" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  backupChannels.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. backupChannels. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.backupChannels.delete" class="permission-name add-link" data-text="gkebackup.backupChannels.delete" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  backupChannels.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. backupChannels. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.backupChannels.get" class="permission-name add-link" data-text="gkebackup.backupChannels.get" tabindex="-1"><code dir="ltr" translate="no">gkebackup.backupChannels.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.backupChannels.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.backupChannels.list" class="permission-name add-link" data-text="gkebackup.backupChannels.list" tabindex="-1"><code dir="ltr" translate="no">gkebackup.backupChannels.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.backupChannels.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.backupChannels.update" class="permission-name add-link" data-text="gkebackup.backupChannels.update" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  backupChannels.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. backupChannels. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.backupPlanBindings.get" class="permission-name add-link" data-text="gkebackup.backupPlanBindings.get" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  backupPlanBindings.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. backupPlanBindings. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.backupPlanBindings.list" class="permission-name add-link" data-text="gkebackup.backupPlanBindings.list" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  backupPlanBindings.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. backupPlanBindings. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.backupPlans.create" class="permission-name add-link" data-text="gkebackup.backupPlans.create" tabindex="-1"><code dir="ltr" translate="no">gkebackup.backupPlans.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.backupPlans.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.backupPlans.delete" class="permission-name add-link" data-text="gkebackup.backupPlans.delete" tabindex="-1"><code dir="ltr" translate="no">gkebackup.backupPlans.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.backupPlans.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.backupPlans.get" class="permission-name add-link" data-text="gkebackup.backupPlans.get" tabindex="-1"><code dir="ltr" translate="no">gkebackup.backupPlans.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.backupPlans.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.backupPlans.getIamPolicy" class="permission-name add-link" data-text="gkebackup.backupPlans.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  backupPlans.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. backupPlans. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.backupPlans.list" class="permission-name add-link" data-text="gkebackup.backupPlans.list" tabindex="-1"><code dir="ltr" translate="no">gkebackup.backupPlans.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.backupPlans.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.backupPlans.setIamPolicy" class="permission-name add-link" data-text="gkebackup.backupPlans.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  backupPlans.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p></td>
+<td><code>gkebackup. backupPlans. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.backupPlans.update" class="permission-name add-link" data-text="gkebackup.backupPlans.update" tabindex="-1"><code dir="ltr" translate="no">gkebackup.backupPlans.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.backupPlans.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.backups.create" class="permission-name add-link" data-text="gkebackup.backups.create" tabindex="-1"><code dir="ltr" translate="no">gkebackup.backups.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.backups.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.backups.delete" class="permission-name add-link" data-text="gkebackup.backups.delete" tabindex="-1"><code dir="ltr" translate="no">gkebackup.backups.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.backups.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.backups.get" class="permission-name add-link" data-text="gkebackup.backups.get" tabindex="-1"><code dir="ltr" translate="no">gkebackup.backups.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.backups.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.backups.getBackupIndex" class="permission-name add-link" data-text="gkebackup.backups.getBackupIndex" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  backups.  getBackupIndex</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. backups. getBackupIndex</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.backups.list" class="permission-name add-link" data-text="gkebackup.backups.list" tabindex="-1"><code dir="ltr" translate="no">gkebackup.backups.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.backups.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.backups.update" class="permission-name add-link" data-text="gkebackup.backups.update" tabindex="-1"><code dir="ltr" translate="no">gkebackup.backups.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.backups.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.locations.get" class="permission-name add-link" data-text="gkebackup.locations.get" tabindex="-1"><code dir="ltr" translate="no">gkebackup.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.locations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.locations.list" class="permission-name add-link" data-text="gkebackup.locations.list" tabindex="-1"><code dir="ltr" translate="no">gkebackup.locations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.locations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.operations.cancel" class="permission-name add-link" data-text="gkebackup.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">gkebackup.operations.cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.operations.cancel</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.operations.delete" class="permission-name add-link" data-text="gkebackup.operations.delete" tabindex="-1"><code dir="ltr" translate="no">gkebackup.operations.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.operations.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.operations.get" class="permission-name add-link" data-text="gkebackup.operations.get" tabindex="-1"><code dir="ltr" translate="no">gkebackup.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>gkebackup.operations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.serviceAgent">Backup for GKE Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.serviceAgent">Backup for GKE Service Agent</a> ( <code>roles/ gkebackup.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.operations.list" class="permission-name add-link" data-text="gkebackup.operations.list" tabindex="-1"><code dir="ltr" translate="no">gkebackup.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.operations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.restoreChannels.create" class="permission-name add-link" data-text="gkebackup.restoreChannels.create" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  restoreChannels.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. restoreChannels. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.restoreChannels.delete" class="permission-name add-link" data-text="gkebackup.restoreChannels.delete" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  restoreChannels.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. restoreChannels. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.restoreChannels.get" class="permission-name add-link" data-text="gkebackup.restoreChannels.get" tabindex="-1"><code dir="ltr" translate="no">gkebackup.restoreChannels.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.restoreChannels.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.restoreChannels.list" class="permission-name add-link" data-text="gkebackup.restoreChannels.list" tabindex="-1"><code dir="ltr" translate="no">gkebackup.restoreChannels.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.restoreChannels.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.restoreChannels.update" class="permission-name add-link" data-text="gkebackup.restoreChannels.update" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  restoreChannels.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. restoreChannels. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.restorePlanBindings.get" class="permission-name add-link" data-text="gkebackup.restorePlanBindings.get" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. restorePlanBindings. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.restorePlanBindings.list" class="permission-name add-link" data-text="gkebackup.restorePlanBindings.list" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  restorePlanBindings.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. restorePlanBindings. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.restorePlans.create" class="permission-name add-link" data-text="gkebackup.restorePlans.create" tabindex="-1"><code dir="ltr" translate="no">gkebackup.restorePlans.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.restorePlans.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.restorePlans.delete" class="permission-name add-link" data-text="gkebackup.restorePlans.delete" tabindex="-1"><code dir="ltr" translate="no">gkebackup.restorePlans.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.restorePlans.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.restorePlans.get" class="permission-name add-link" data-text="gkebackup.restorePlans.get" tabindex="-1"><code dir="ltr" translate="no">gkebackup.restorePlans.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedRestoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.restorePlans.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code>roles/ gkebackup.delegatedRestoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.restorePlans.getIamPolicy" class="permission-name add-link" data-text="gkebackup.restorePlans.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  restorePlans.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup. restorePlans. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.restorePlans.list" class="permission-name add-link" data-text="gkebackup.restorePlans.list" tabindex="-1"><code dir="ltr" translate="no">gkebackup.restorePlans.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.restorePlans.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.restorePlans.setIamPolicy" class="permission-name add-link" data-text="gkebackup.restorePlans.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">gkebackup.  restorePlans.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p></td>
+<td><code>gkebackup. restorePlans. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.restorePlans.update" class="permission-name add-link" data-text="gkebackup.restorePlans.update" tabindex="-1"><code dir="ltr" translate="no">gkebackup.restorePlans.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.restorePlans.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.restores.create" class="permission-name add-link" data-text="gkebackup.restores.create" tabindex="-1"><code dir="ltr" translate="no">gkebackup.restores.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedRestoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.restores.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code>roles/ gkebackup.delegatedRestoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.restores.delete" class="permission-name add-link" data-text="gkebackup.restores.delete" tabindex="-1"><code dir="ltr" translate="no">gkebackup.restores.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedRestoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.restores.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code>roles/ gkebackup.delegatedRestoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.restores.get" class="permission-name add-link" data-text="gkebackup.restores.get" tabindex="-1"><code dir="ltr" translate="no">gkebackup.restores.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedRestoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.restores.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code>roles/ gkebackup.delegatedRestoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.restores.list" class="permission-name add-link" data-text="gkebackup.restores.list" tabindex="-1"><code dir="ltr" translate="no">gkebackup.restores.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedRestoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.restores.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code>roles/ gkebackup.delegatedRestoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.restores.update" class="permission-name add-link" data-text="gkebackup.restores.update" tabindex="-1"><code dir="ltr" translate="no">gkebackup.restores.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedRestoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.restores.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code>roles/ gkebackup.delegatedRestoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.volumeBackups.get" class="permission-name add-link" data-text="gkebackup.volumeBackups.get" tabindex="-1"><code dir="ltr" translate="no">gkebackup.volumeBackups.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.volumeBackups.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.volumeBackups.list" class="permission-name add-link" data-text="gkebackup.volumeBackups.list" tabindex="-1"><code dir="ltr" translate="no">gkebackup.volumeBackups.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedBackupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.volumeBackups.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.backupAdmin">Backup for GKE Backup Admin</a> ( <code>roles/ gkebackup.backupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedBackupAdmin">Backup for GKE Delegated Backup Admin</a> ( <code>roles/ gkebackup.delegatedBackupAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="gkebackup.volumeRestores.get" class="permission-name add-link" data-text="gkebackup.volumeRestores.get" tabindex="-1"><code dir="ltr" translate="no">gkebackup.volumeRestores.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedRestoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.volumeRestores.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code>roles/ gkebackup.delegatedRestoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="gkebackup.volumeRestores.list" class="permission-name add-link" data-text="gkebackup.volumeRestores.list" tabindex="-1"><code dir="ltr" translate="no">gkebackup.volumeRestores.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.delegatedRestoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gkebackup.restoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>gkebackup.volumeRestores.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.editor">Gkebackup Editor</a> ( <code>roles/ gkebackup.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.viewer">Backup for GKE Viewer</a> ( <code>roles/ gkebackup.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.delegatedRestoreAdmin">Backup for GKE Delegated Restore Admin</a> ( <code>roles/ gkebackup.delegatedRestoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.restoreAdmin">Backup for GKE Restore Admin</a> ( <code>roles/ gkebackup.restoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

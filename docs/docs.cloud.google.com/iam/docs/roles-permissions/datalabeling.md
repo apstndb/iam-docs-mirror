@@ -23,101 +23,101 @@ This page lists the IAM roles and permissions for AI Platform Data Labeling Serv
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="datalabeling.admin" class="role-title add-link" data-text="Data Labeling Service Admin Beta" tabindex="-1">Data Labeling Service Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
+<td>Data Labeling Service Admin <sup>Beta</sup>
+<p>( <code>roles/ datalabeling.admin</code> )</p>
 <p>Full access to all Data Labeling resources</p></td>
-<td><p><code dir="ltr" translate="no">datalabeling.*</code></p>
+<td><p><code>datalabeling.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  delete</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  label</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  list</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  create</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  delete</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  list</code></li>
-<li><code dir="ltr" translate="no">datalabeling.dataitems.get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.dataitems.list</code></li>
-<li><code dir="ltr" translate="no">datalabeling.datasets.create</code></li>
-<li><code dir="ltr" translate="no">datalabeling.datasets.delete</code></li>
-<li><code dir="ltr" translate="no">datalabeling.datasets.export</code></li>
-<li><code dir="ltr" translate="no">datalabeling.datasets.get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.datasets.import</code></li>
-<li><code dir="ltr" translate="no">datalabeling.datasets.list</code></li>
-<li><code dir="ltr" translate="no">datalabeling.examples.get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.examples.list</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  instructions.  create</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  instructions.  delete</code></li>
-<li><code dir="ltr" translate="no">datalabeling.instructions.get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.instructions.list</code></li>
-<li><code dir="ltr" translate="no">datalabeling.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">datalabeling.operations.get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.operations.list</code></li>
+<li><code>datalabeling. annotateddatasets. delete</code></li>
+<li><code>datalabeling. annotateddatasets. get</code></li>
+<li><code>datalabeling. annotateddatasets. label</code></li>
+<li><code>datalabeling. annotateddatasets. list</code></li>
+<li><code>datalabeling. annotationspecsets. create</code></li>
+<li><code>datalabeling. annotationspecsets. delete</code></li>
+<li><code>datalabeling. annotationspecsets. get</code></li>
+<li><code>datalabeling. annotationspecsets. list</code></li>
+<li><code>datalabeling.dataitems.get</code></li>
+<li><code>datalabeling.dataitems.list</code></li>
+<li><code>datalabeling.datasets.create</code></li>
+<li><code>datalabeling.datasets.delete</code></li>
+<li><code>datalabeling.datasets.export</code></li>
+<li><code>datalabeling.datasets.get</code></li>
+<li><code>datalabeling.datasets.import</code></li>
+<li><code>datalabeling.datasets.list</code></li>
+<li><code>datalabeling.examples.get</code></li>
+<li><code>datalabeling.examples.list</code></li>
+<li><code>datalabeling. instructions. create</code></li>
+<li><code>datalabeling. instructions. delete</code></li>
+<li><code>datalabeling.instructions.get</code></li>
+<li><code>datalabeling.instructions.list</code></li>
+<li><code>datalabeling.operations.cancel</code></li>
+<li><code>datalabeling.operations.get</code></li>
+<li><code>datalabeling.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="datalabeling.editor" class="role-title add-link" data-text="Data Labeling Service Editor Beta" tabindex="-1">Data Labeling Service Editor <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
+<td>Data Labeling Service Editor <sup>Beta</sup>
+<p>( <code>roles/ datalabeling.editor</code> )</p>
 <p>Editor of all Data Labeling resources</p></td>
-<td><p><code dir="ltr" translate="no">datalabeling.*</code></p>
+<td><p><code>datalabeling.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  delete</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  label</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  list</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  create</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  delete</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  list</code></li>
-<li><code dir="ltr" translate="no">datalabeling.dataitems.get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.dataitems.list</code></li>
-<li><code dir="ltr" translate="no">datalabeling.datasets.create</code></li>
-<li><code dir="ltr" translate="no">datalabeling.datasets.delete</code></li>
-<li><code dir="ltr" translate="no">datalabeling.datasets.export</code></li>
-<li><code dir="ltr" translate="no">datalabeling.datasets.get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.datasets.import</code></li>
-<li><code dir="ltr" translate="no">datalabeling.datasets.list</code></li>
-<li><code dir="ltr" translate="no">datalabeling.examples.get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.examples.list</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  instructions.  create</code></li>
-<li><code dir="ltr" translate="no">datalabeling.  instructions.  delete</code></li>
-<li><code dir="ltr" translate="no">datalabeling.instructions.get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.instructions.list</code></li>
-<li><code dir="ltr" translate="no">datalabeling.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">datalabeling.operations.get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.operations.list</code></li>
+<li><code>datalabeling. annotateddatasets. delete</code></li>
+<li><code>datalabeling. annotateddatasets. get</code></li>
+<li><code>datalabeling. annotateddatasets. label</code></li>
+<li><code>datalabeling. annotateddatasets. list</code></li>
+<li><code>datalabeling. annotationspecsets. create</code></li>
+<li><code>datalabeling. annotationspecsets. delete</code></li>
+<li><code>datalabeling. annotationspecsets. get</code></li>
+<li><code>datalabeling. annotationspecsets. list</code></li>
+<li><code>datalabeling.dataitems.get</code></li>
+<li><code>datalabeling.dataitems.list</code></li>
+<li><code>datalabeling.datasets.create</code></li>
+<li><code>datalabeling.datasets.delete</code></li>
+<li><code>datalabeling.datasets.export</code></li>
+<li><code>datalabeling.datasets.get</code></li>
+<li><code>datalabeling.datasets.import</code></li>
+<li><code>datalabeling.datasets.list</code></li>
+<li><code>datalabeling.examples.get</code></li>
+<li><code>datalabeling.examples.list</code></li>
+<li><code>datalabeling. instructions. create</code></li>
+<li><code>datalabeling. instructions. delete</code></li>
+<li><code>datalabeling.instructions.get</code></li>
+<li><code>datalabeling.instructions.list</code></li>
+<li><code>datalabeling.operations.cancel</code></li>
+<li><code>datalabeling.operations.get</code></li>
+<li><code>datalabeling.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="datalabeling.viewer" class="role-title add-link" data-text="Data Labeling Service Viewer Beta" tabindex="-1">Data Labeling Service Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
+<td>Data Labeling Service Viewer <sup>Beta</sup>
+<p>( <code>roles/ datalabeling.viewer</code> )</p>
 <p>Viewer of all Data Labeling resources</p></td>
-<td><p><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  get</code></p>
-<p><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  list</code></p>
-<p><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  get</code></p>
-<p><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  list</code></p>
-<p><code dir="ltr" translate="no">datalabeling.dataitems.*</code></p>
+<td><p><code>datalabeling. annotateddatasets. get</code></p>
+<p><code>datalabeling. annotateddatasets. list</code></p>
+<p><code>datalabeling. annotationspecsets. get</code></p>
+<p><code>datalabeling. annotationspecsets. list</code></p>
+<p><code>datalabeling.dataitems.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">datalabeling.dataitems.get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.dataitems.list</code></li>
+<li><code>datalabeling.dataitems.get</code></li>
+<li><code>datalabeling.dataitems.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">datalabeling.datasets.get</code></p>
-<p><code dir="ltr" translate="no">datalabeling.datasets.list</code></p>
-<p><code dir="ltr" translate="no">datalabeling.examples.*</code></p>
+<p><code>datalabeling.datasets.get</code></p>
+<p><code>datalabeling.datasets.list</code></p>
+<p><code>datalabeling.examples.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">datalabeling.examples.get</code></li>
-<li><code dir="ltr" translate="no">datalabeling.examples.list</code></li>
+<li><code>datalabeling.examples.get</code></li>
+<li><code>datalabeling.examples.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">datalabeling.instructions.get</code></p>
-<p><code dir="ltr" translate="no">datalabeling.instructions.list</code></p>
-<p><code dir="ltr" translate="no">datalabeling.operations.get</code></p>
-<p><code dir="ltr" translate="no">datalabeling.operations.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>datalabeling.instructions.get</code></p>
+<p><code>datalabeling.instructions.list</code></p>
+<p><code>datalabeling.operations.get</code></p>
+<p><code>datalabeling.operations.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -139,164 +139,164 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="datalabeling.serviceAgent" class="role-title add-link" data-text="Data Labeling Service Agent" tabindex="-1">Data Labeling Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  datalabeling.serviceAgent</code> )</p>
+<td>Data Labeling Service Agent
+<p>( <code>roles/ datalabeling.serviceAgent</code> )</p>
 <p>Gives Data Labeling service account read/write access to Cloud Storage, read/write BigQuery, update CMLE model versions, editor access to Annotation service and AutoML service.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">automl.annotationSpecs.*</code></p>
+<td><p><code>automl.annotationSpecs.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automl.annotationSpecs.create</code></li>
-<li><code dir="ltr" translate="no">automl.annotationSpecs.delete</code></li>
-<li><code dir="ltr" translate="no">automl.annotationSpecs.get</code></li>
-<li><code dir="ltr" translate="no">automl.annotationSpecs.list</code></li>
-<li><code dir="ltr" translate="no">automl.annotationSpecs.update</code></li>
+<li><code>automl.annotationSpecs.create</code></li>
+<li><code>automl.annotationSpecs.delete</code></li>
+<li><code>automl.annotationSpecs.get</code></li>
+<li><code>automl.annotationSpecs.list</code></li>
+<li><code>automl.annotationSpecs.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">automl.annotations.*</code></p>
+<p><code>automl.annotations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automl.annotations.approve</code></li>
-<li><code dir="ltr" translate="no">automl.annotations.create</code></li>
-<li><code dir="ltr" translate="no">automl.annotations.list</code></li>
-<li><code dir="ltr" translate="no">automl.annotations.manipulate</code></li>
-<li><code dir="ltr" translate="no">automl.annotations.reject</code></li>
+<li><code>automl.annotations.approve</code></li>
+<li><code>automl.annotations.create</code></li>
+<li><code>automl.annotations.list</code></li>
+<li><code>automl.annotations.manipulate</code></li>
+<li><code>automl.annotations.reject</code></li>
 </ul>
-<p><code dir="ltr" translate="no">automl.columnSpecs.*</code></p>
+<p><code>automl.columnSpecs.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automl.columnSpecs.get</code></li>
-<li><code dir="ltr" translate="no">automl.columnSpecs.list</code></li>
-<li><code dir="ltr" translate="no">automl.columnSpecs.update</code></li>
+<li><code>automl.columnSpecs.get</code></li>
+<li><code>automl.columnSpecs.list</code></li>
+<li><code>automl.columnSpecs.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">automl.datasets.create</code></p>
-<p><code dir="ltr" translate="no">automl.datasets.delete</code></p>
-<p><code dir="ltr" translate="no">automl.datasets.export</code></p>
-<p><code dir="ltr" translate="no">automl.datasets.get</code></p>
-<p><code dir="ltr" translate="no">automl.datasets.import</code></p>
-<p><code dir="ltr" translate="no">automl.datasets.list</code></p>
-<p><code dir="ltr" translate="no">automl.datasets.update</code></p>
-<p><code dir="ltr" translate="no">automl.examples.*</code></p>
+<p><code>automl.datasets.create</code></p>
+<p><code>automl.datasets.delete</code></p>
+<p><code>automl.datasets.export</code></p>
+<p><code>automl.datasets.get</code></p>
+<p><code>automl.datasets.import</code></p>
+<p><code>automl.datasets.list</code></p>
+<p><code>automl.datasets.update</code></p>
+<p><code>automl.examples.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automl.examples.delete</code></li>
-<li><code dir="ltr" translate="no">automl.examples.get</code></li>
-<li><code dir="ltr" translate="no">automl.examples.list</code></li>
-<li><code dir="ltr" translate="no">automl.examples.update</code></li>
+<li><code>automl.examples.delete</code></li>
+<li><code>automl.examples.get</code></li>
+<li><code>automl.examples.list</code></li>
+<li><code>automl.examples.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">automl.files.*</code></p>
+<p><code>automl.files.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automl.files.delete</code></li>
-<li><code dir="ltr" translate="no">automl.files.list</code></li>
+<li><code>automl.files.delete</code></li>
+<li><code>automl.files.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">automl.humanAnnotationTasks.*</code></p>
+<p><code>automl.humanAnnotationTasks.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automl.  humanAnnotationTasks.  create</code></li>
-<li><code dir="ltr" translate="no">automl.  humanAnnotationTasks.  delete</code></li>
-<li><code dir="ltr" translate="no">automl.  humanAnnotationTasks.  get</code></li>
-<li><code dir="ltr" translate="no">automl.  humanAnnotationTasks.  list</code></li>
+<li><code>automl. humanAnnotationTasks. create</code></li>
+<li><code>automl. humanAnnotationTasks. delete</code></li>
+<li><code>automl. humanAnnotationTasks. get</code></li>
+<li><code>automl. humanAnnotationTasks. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">automl.locations.get</code></p>
-<p><code dir="ltr" translate="no">automl.locations.list</code></p>
-<p><code dir="ltr" translate="no">automl.modelEvaluations.*</code></p>
+<p><code>automl.locations.get</code></p>
+<p><code>automl.locations.list</code></p>
+<p><code>automl.modelEvaluations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automl.modelEvaluations.create</code></li>
-<li><code dir="ltr" translate="no">automl.modelEvaluations.get</code></li>
-<li><code dir="ltr" translate="no">automl.modelEvaluations.list</code></li>
+<li><code>automl.modelEvaluations.create</code></li>
+<li><code>automl.modelEvaluations.get</code></li>
+<li><code>automl.modelEvaluations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">automl.models.create</code></p>
-<p><code dir="ltr" translate="no">automl.models.delete</code></p>
-<p><code dir="ltr" translate="no">automl.models.deploy</code></p>
-<p><code dir="ltr" translate="no">automl.models.export</code></p>
-<p><code dir="ltr" translate="no">automl.models.get</code></p>
-<p><code dir="ltr" translate="no">automl.models.list</code></p>
-<p><code dir="ltr" translate="no">automl.models.predict</code></p>
-<p><code dir="ltr" translate="no">automl.models.undeploy</code></p>
-<p><code dir="ltr" translate="no">automl.operations.*</code></p>
+<p><code>automl.models.create</code></p>
+<p><code>automl.models.delete</code></p>
+<p><code>automl.models.deploy</code></p>
+<p><code>automl.models.export</code></p>
+<p><code>automl.models.get</code></p>
+<p><code>automl.models.list</code></p>
+<p><code>automl.models.predict</code></p>
+<p><code>automl.models.undeploy</code></p>
+<p><code>automl.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automl.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">automl.operations.delete</code></li>
-<li><code dir="ltr" translate="no">automl.operations.get</code></li>
-<li><code dir="ltr" translate="no">automl.operations.list</code></li>
+<li><code>automl.operations.cancel</code></li>
+<li><code>automl.operations.delete</code></li>
+<li><code>automl.operations.get</code></li>
+<li><code>automl.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">automl.tableSpecs.*</code></p>
+<p><code>automl.tableSpecs.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">automl.tableSpecs.get</code></li>
-<li><code dir="ltr" translate="no">automl.tableSpecs.list</code></li>
-<li><code dir="ltr" translate="no">automl.tableSpecs.update</code></li>
+<li><code>automl.tableSpecs.get</code></li>
+<li><code>automl.tableSpecs.list</code></li>
+<li><code>automl.tableSpecs.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">bigquery.datasets.create</code></p>
-<p><code dir="ltr" translate="no">bigquery.datasets.get</code></p>
-<p><code dir="ltr" translate="no">bigquery.jobs.create</code></p>
-<p><code dir="ltr" translate="no">bigquery.jobs.get</code></p>
-<p><code dir="ltr" translate="no">bigquery.tables.create</code></p>
-<p><code dir="ltr" translate="no">bigquery.tables.get</code></p>
-<p><code dir="ltr" translate="no">bigquery.tables.getData</code></p>
-<p><code dir="ltr" translate="no">ml.jobs.create</code></p>
-<p><code dir="ltr" translate="no">ml.jobs.get</code></p>
-<p><code dir="ltr" translate="no">ml.jobs.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">ml.jobs.list</code></p>
-<p><code dir="ltr" translate="no">ml.locations.*</code></p>
+<p><code>bigquery.datasets.create</code></p>
+<p><code>bigquery.datasets.get</code></p>
+<p><code>bigquery.jobs.create</code></p>
+<p><code>bigquery.jobs.get</code></p>
+<p><code>bigquery.tables.create</code></p>
+<p><code>bigquery.tables.get</code></p>
+<p><code>bigquery.tables.getData</code></p>
+<p><code>ml.jobs.create</code></p>
+<p><code>ml.jobs.get</code></p>
+<p><code>ml.jobs.getIamPolicy</code></p>
+<p><code>ml.jobs.list</code></p>
+<p><code>ml.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">ml.locations.get</code></li>
-<li><code dir="ltr" translate="no">ml.locations.list</code></li>
+<li><code>ml.locations.get</code></li>
+<li><code>ml.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">ml.models.*</code></p>
+<p><code>ml.models.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">ml.models.create</code></li>
-<li><code dir="ltr" translate="no">ml.models.delete</code></li>
-<li><code dir="ltr" translate="no">ml.models.get</code></li>
-<li><code dir="ltr" translate="no">ml.models.getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">ml.models.list</code></li>
-<li><code dir="ltr" translate="no">ml.models.predict</code></li>
-<li><code dir="ltr" translate="no">ml.models.setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">ml.models.update</code></li>
+<li><code>ml.models.create</code></li>
+<li><code>ml.models.delete</code></li>
+<li><code>ml.models.get</code></li>
+<li><code>ml.models.getIamPolicy</code></li>
+<li><code>ml.models.list</code></li>
+<li><code>ml.models.predict</code></li>
+<li><code>ml.models.setIamPolicy</code></li>
+<li><code>ml.models.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">ml.operations.get</code></p>
-<p><code dir="ltr" translate="no">ml.operations.list</code></p>
-<p><code dir="ltr" translate="no">ml.projects.getConfig</code></p>
-<p><code dir="ltr" translate="no">ml.studies.*</code></p>
+<p><code>ml.operations.get</code></p>
+<p><code>ml.operations.list</code></p>
+<p><code>ml.projects.getConfig</code></p>
+<p><code>ml.studies.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">ml.studies.create</code></li>
-<li><code dir="ltr" translate="no">ml.studies.delete</code></li>
-<li><code dir="ltr" translate="no">ml.studies.get</code></li>
-<li><code dir="ltr" translate="no">ml.studies.getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">ml.studies.list</code></li>
-<li><code dir="ltr" translate="no">ml.studies.setIamPolicy</code></li>
+<li><code>ml.studies.create</code></li>
+<li><code>ml.studies.delete</code></li>
+<li><code>ml.studies.get</code></li>
+<li><code>ml.studies.getIamPolicy</code></li>
+<li><code>ml.studies.list</code></li>
+<li><code>ml.studies.setIamPolicy</code></li>
 </ul>
-<p><code dir="ltr" translate="no">ml.trials.*</code></p>
+<p><code>ml.trials.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">ml.trials.create</code></li>
-<li><code dir="ltr" translate="no">ml.trials.delete</code></li>
-<li><code dir="ltr" translate="no">ml.trials.get</code></li>
-<li><code dir="ltr" translate="no">ml.trials.list</code></li>
-<li><code dir="ltr" translate="no">ml.trials.update</code></li>
+<li><code>ml.trials.create</code></li>
+<li><code>ml.trials.delete</code></li>
+<li><code>ml.trials.get</code></li>
+<li><code>ml.trials.list</code></li>
+<li><code>ml.trials.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">ml.versions.*</code></p>
+<p><code>ml.versions.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">ml.versions.create</code></li>
-<li><code dir="ltr" translate="no">ml.versions.delete</code></li>
-<li><code dir="ltr" translate="no">ml.versions.get</code></li>
-<li><code dir="ltr" translate="no">ml.versions.list</code></li>
-<li><code dir="ltr" translate="no">ml.versions.predict</code></li>
-<li><code dir="ltr" translate="no">ml.versions.update</code></li>
+<li><code>ml.versions.create</code></li>
+<li><code>ml.versions.delete</code></li>
+<li><code>ml.versions.get</code></li>
+<li><code>ml.versions.list</code></li>
+<li><code>ml.versions.predict</code></li>
+<li><code>ml.versions.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p>
-<p><code dir="ltr" translate="no">storage.objects.create</code></p>
-<p><code dir="ltr" translate="no">storage.objects.delete</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.list</code></p>
-<p><code dir="ltr" translate="no">storage.objects.update</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.values.test</code></p>
+<p><code>storage.objects.create</code></p>
+<p><code>storage.objects.delete</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.list</code></p>
+<p><code>storage.objects.update</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -316,391 +316,391 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="datalabeling.annotateddatasets.delete" class="permission-name add-link" data-text="datalabeling.annotateddatasets.delete" tabindex="-1"><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>datalabeling. annotateddatasets. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="datalabeling.annotateddatasets.get" class="permission-name add-link" data-text="datalabeling.annotateddatasets.get" tabindex="-1"><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>datalabeling. annotateddatasets. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="datalabeling.annotateddatasets.label" class="permission-name add-link" data-text="datalabeling.annotateddatasets.label" tabindex="-1"><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  label</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>datalabeling. annotateddatasets. label</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="datalabeling.annotateddatasets.list" class="permission-name add-link" data-text="datalabeling.annotateddatasets.list" tabindex="-1"><code dir="ltr" translate="no">datalabeling.  annotateddatasets.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>datalabeling. annotateddatasets. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="datalabeling.annotationspecsets.create" class="permission-name add-link" data-text="datalabeling.annotationspecsets.create" tabindex="-1"><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>datalabeling. annotationspecsets. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="datalabeling.annotationspecsets.delete" class="permission-name add-link" data-text="datalabeling.annotationspecsets.delete" tabindex="-1"><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>datalabeling. annotationspecsets. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="datalabeling.annotationspecsets.get" class="permission-name add-link" data-text="datalabeling.annotationspecsets.get" tabindex="-1"><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>datalabeling. annotationspecsets. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="datalabeling.annotationspecsets.list" class="permission-name add-link" data-text="datalabeling.annotationspecsets.list" tabindex="-1"><code dir="ltr" translate="no">datalabeling.  annotationspecsets.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>datalabeling. annotationspecsets. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="datalabeling.dataitems.get" class="permission-name add-link" data-text="datalabeling.dataitems.get" tabindex="-1"><code dir="ltr" translate="no">datalabeling.dataitems.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>datalabeling.dataitems.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code>roles/ contactcenterinsights.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="datalabeling.dataitems.list" class="permission-name add-link" data-text="datalabeling.dataitems.list" tabindex="-1"><code dir="ltr" translate="no">datalabeling.dataitems.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>datalabeling.dataitems.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code>roles/ contactcenterinsights.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="datalabeling.datasets.create" class="permission-name add-link" data-text="datalabeling.datasets.create" tabindex="-1"><code dir="ltr" translate="no">datalabeling.datasets.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>datalabeling.datasets.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.serviceAgent</code> )</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><h4 id="datalabeling.datasets.delete" class="permission-name add-link" data-text="datalabeling.datasets.delete" tabindex="-1"><code dir="ltr" translate="no">datalabeling.datasets.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
-<p>Service agent roles</p>
-<blockquote>
-<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
-</blockquote>
-<ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.serviceAgent</code> )</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><h4 id="datalabeling.datasets.export" class="permission-name add-link" data-text="datalabeling.datasets.export" tabindex="-1"><code dir="ltr" translate="no">datalabeling.datasets.export</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
-<p>Service agent roles</p>
-<blockquote>
-<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
-</blockquote>
-<ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code>roles/ contactcenterinsights.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="datalabeling.datasets.get" class="permission-name add-link" data-text="datalabeling.datasets.get" tabindex="-1"><code dir="ltr" translate="no">datalabeling.datasets.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>datalabeling.datasets.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code>roles/ contactcenterinsights.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="datalabeling.datasets.import" class="permission-name add-link" data-text="datalabeling.datasets.import" tabindex="-1"><code dir="ltr" translate="no">datalabeling.datasets.import</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>datalabeling.datasets.export</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code>roles/ contactcenterinsights.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="datalabeling.datasets.list" class="permission-name add-link" data-text="datalabeling.datasets.list" tabindex="-1"><code dir="ltr" translate="no">datalabeling.datasets.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>datalabeling.datasets.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code>roles/ contactcenterinsights.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="datalabeling.examples.get" class="permission-name add-link" data-text="datalabeling.examples.get" tabindex="-1"><code dir="ltr" translate="no">datalabeling.examples.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="datalabeling.examples.list" class="permission-name add-link" data-text="datalabeling.examples.list" tabindex="-1"><code dir="ltr" translate="no">datalabeling.examples.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="datalabeling.instructions.create" class="permission-name add-link" data-text="datalabeling.instructions.create" tabindex="-1"><code dir="ltr" translate="no">datalabeling.  instructions.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="datalabeling.instructions.delete" class="permission-name add-link" data-text="datalabeling.instructions.delete" tabindex="-1"><code dir="ltr" translate="no">datalabeling.  instructions.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="datalabeling.instructions.get" class="permission-name add-link" data-text="datalabeling.instructions.get" tabindex="-1"><code dir="ltr" translate="no">datalabeling.instructions.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="datalabeling.instructions.list" class="permission-name add-link" data-text="datalabeling.instructions.list" tabindex="-1"><code dir="ltr" translate="no">datalabeling.instructions.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="datalabeling.operations.cancel" class="permission-name add-link" data-text="datalabeling.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">datalabeling.operations.cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="datalabeling.operations.get" class="permission-name add-link" data-text="datalabeling.operations.get" tabindex="-1"><code dir="ltr" translate="no">datalabeling.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>datalabeling.datasets.import</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code>roles/ contactcenterinsights.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><code>datalabeling.datasets.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="datalabeling.operations.list" class="permission-name add-link" data-text="datalabeling.operations.list" tabindex="-1"><code dir="ltr" translate="no">datalabeling.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalabeling.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>datalabeling.examples.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>datalabeling.examples.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>datalabeling. instructions. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>datalabeling. instructions. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>datalabeling.instructions.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>datalabeling.instructions.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>datalabeling.operations.cancel</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>datalabeling.operations.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code>roles/ contactcenterinsights.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>datalabeling.operations.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.admin">Data Labeling Service Admin</a> ( <code>roles/ datalabeling.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.editor">Data Labeling Service Editor</a> ( <code>roles/ datalabeling.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling#datalabeling.viewer">Data Labeling Service Viewer</a> ( <code>roles/ datalabeling.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.serviceAgent">Contact Center AI Insights Service Agent</a> ( <code>roles/ contactcenterinsights.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 </tbody>

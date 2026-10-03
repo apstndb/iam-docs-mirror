@@ -12,7 +12,7 @@ gcloud iam workload-identity-pools set-attestation-rules - set attestation rules
 
 SYNOPSIS
 
-`gcloud iam workload-identity-pools set-attestation-rules` ( `  WORKLOAD_IDENTITY_POOL  ` : `  --location  ` = `  LOCATION  ` ) `  --policy-file  ` = `  POLICY_FILE  ` \[ `  --async  ` \] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam workload-identity-pools set-attestation-rules` ( [`WORKLOAD_IDENTITY_POOL`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/set-attestation-rules#WORKLOAD_IDENTITY_POOL) : [`--location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/set-attestation-rules#--location) = `LOCATION` ) [`--policy-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/set-attestation-rules#--policy-file) = `POLICY_FILE` \[ [`--async`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/set-attestation-rules#--async) \] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/set-attestation-rules#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -22,7 +22,9 @@ EXAMPLES
 
 The following command sets attestation rules on a workload identity pool `my-pool` using a policy file.
 
-    gcloud iam workload-identity-pools set-attestation-rules my-pool --location="global" --policy-file="policy.json"
+```
+gcloud iam workload-identity-pools set-attestation-rules my-pool --location="global" --policy-file="policy.json"
+```
 
 POSITIONAL ARGUMENTS
 
@@ -30,41 +32,41 @@ Workload identity pool resource - The workload identity pool to set attestation 
 
 To set the `project` attribute:
 
-  - provide the argument `workload_identity_pool` on the command line with a fully specified name;
-  - provide the argument `--project` on the command line;
-  - set the property `core/project` .
+- provide the argument `workload_identity_pool` on the command line with a fully specified name;
+- provide the argument `--project` on the command line;
+- set the property `core/project` .
 
 This must be specified.
 
-  - `  WORKLOAD_IDENTITY_POOL  `  
-    ID of the workload identity pool or fully qualified identifier for the workload identity pool.
-    
-    To set the `workload_identity_pool` attribute:
-    
-      - provide the argument `workload_identity_pool` on the command line.
-    
-    This positional argument must be specified if any of the other arguments in this group are specified.
+`WORKLOAD_IDENTITY_POOL`  
+ID of the workload identity pool or fully qualified identifier for the workload identity pool.
 
-  - `--location` = `  LOCATION  `  
-    The location name.
-    
-    To set the `location` attribute:
-    
-      - provide the argument `workload_identity_pool` on the command line with a fully specified name;
-      - provide the argument `--location` on the command line.
+To set the `workload_identity_pool` attribute:
+
+- provide the argument `workload_identity_pool` on the command line.
+
+This positional argument must be specified if any of the other arguments in this group are specified.
+
+`--location` = `LOCATION`  
+The location name.
+
+To set the `location` attribute:
+
+- provide the argument `workload_identity_pool` on the command line with a fully specified name;
+- provide the argument `--location` on the command line.
 
 REQUIRED FLAGS
 
-  - `--policy-file` = `  POLICY_FILE  `  
-    Path to a local JSON-formatted or YAML-formatted file containing an attestation policy, structured as a [list of attestation rules](https://cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/setAttestationRules#request-body) .
+`--policy-file` = `POLICY_FILE`  
+Path to a local JSON-formatted or YAML-formatted file containing an attestation policy, structured as a [list of attestation rules](https://cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/setAttestationRules#request-body) .
 
 OPTIONAL FLAGS
 
-  - `--async`  
-    Return immediately, without waiting for the operation in progress to complete.
+`--async`  
+Return immediately, without waiting for the operation in progress to complete.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.

@@ -10,34 +10,10 @@ This page lists the IAM roles and permissions for Flow. To search through all ro
 
 ## Flow roles
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Role</th>
-<th>Permissions</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="flow.admin" class="role-title add-link" data-text="Flow Admin Beta" tabindex="-1">Flow Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  flow.admin</code> )</p>
-<p>Full access to all Flow resources. Intended for project administrators.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
-</tr>
-<tr class="even">
-<td><h4 id="flow.editor" class="role-title add-link" data-text="Flow Editor Beta" tabindex="-1">Flow Editor <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  flow.editor</code> )</p>
-<p>Create and manage Flow generated media. Intended for content creators.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
-</tr>
-</tbody>
-</table>
+| Role                                                                                                                        | Permissions                                                    |
+|-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| Flow Admin <sup>Beta</sup> ( `roles/ flow.admin` ) Full access to all Flow resources. Intended for project administrators.  | `resourcemanager.projects.get` `resourcemanager.projects.list` |
+| Flow Editor <sup>Beta</sup> ( `roles/ flow.editor` ) Create and manage Flow generated media. Intended for content creators. | `resourcemanager.projects.get` `resourcemanager.projects.list` |
 
 ### Service agent roles
 
@@ -56,32 +32,32 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="aisandbox.serviceAgent" class="role-title add-link" data-text="FlowService Service Agent" tabindex="-1">FlowService Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  aisandbox.serviceAgent</code> )</p>
+<td>FlowService Service Agent
+<p>( <code>roles/ aisandbox.serviceAgent</code> )</p>
 <p>Grants FlowService Service Agent permissions to manage resources in the consumer project.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">aiplatform.endpoints.predict</code></p>
-<p><code dir="ltr" translate="no">aiplatform.interactions.create</code></p>
-<p><code dir="ltr" translate="no">aiplatform.interactions.get</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.route</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.use</code></p></td>
+<td><p><code>aiplatform.endpoints.predict</code></p>
+<p><code>aiplatform.interactions.create</code></p>
+<p><code>aiplatform.interactions.get</code></p>
+<p><code>logging.logEntries.create</code></p>
+<p><code>logging.logEntries.route</code></p>
+<p><code>serviceusage.services.use</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="flow.serviceAgent" class="role-title add-link" data-text="Flow Service Agent" tabindex="-1">Flow Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  flow.serviceAgent</code> )</p>
+<td>Flow Service Agent
+<p>( <code>roles/ flow.serviceAgent</code> )</p>
 <p>Grants Flow Service Agent permissions to manage resources in the consumer project.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">aiplatform.endpoints.predict</code></p>
-<p><code dir="ltr" translate="no">aiplatform.interactions.create</code></p>
-<p><code dir="ltr" translate="no">aiplatform.interactions.get</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.route</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.use</code></p></td>
+<td><p><code>aiplatform.endpoints.predict</code></p>
+<p><code>aiplatform.interactions.create</code></p>
+<p><code>aiplatform.interactions.get</code></p>
+<p><code>logging.logEntries.create</code></p>
+<p><code>logging.logEntries.route</code></p>
+<p><code>serviceusage.services.use</code></p></td>
 </tr>
 </tbody>
 </table>

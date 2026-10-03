@@ -10,9 +10,9 @@ This page offers guidance on which type of roleâ€”predefined, custom, or basicâ€
 
 The following summarizes our recommendations for choosing which type of role to use:
 
-  - We recommend that you prioritize using predefined roles because they're managed by Google and offer a balance of security and convenience.
-  - If you need a role that closely adheres to the principle of least privilege, and you can't find a predefined role that fits your security requirements, use custom roles.
-  - Don't use basic roles unless you have no alternative or are using them in a test environment.
+- We recommend that you prioritize using predefined roles because they're managed by Google and offer a balance of security and convenience.
+- If you need a role that closely adheres to the principle of least privilege, and you can't find a predefined role that fits your security requirements, use custom roles.
+- Don't use basic roles unless you have no alternative or are using them in a test environment.
 
 ## When to use predefined roles
 
@@ -28,19 +28,19 @@ Unlike predefined roles, custom roles are not maintained by Google. That means w
 
 However, it might be appropriate to create and grant custom roles in the following cases:
 
-  - A principal needs a permission, but each predefined role that includes that permission also includes permissions that the principal doesn't need and shouldn't have.
-  - You use [role recommendations](https://docs.cloud.google.com/iam/docs/recommender-overview) to replace overly permissive role grants with more appropriate role grants. In some cases, you might receive a [recommendation to create a custom role](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#custom-roles) .
+- A principal needs a permission, but each predefined role that includes that permission also includes permissions that the principal doesn't need and shouldn't have.
+- You use [role recommendations](https://docs.cloud.google.com/iam/docs/recommender-overview) to replace overly permissive role grants with more appropriate role grants. In some cases, you might receive a [recommendation to create a custom role](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#custom-roles) .
 
 When using custom roles, be aware of the following limits:
 
-  - Custom roles can contain up to 3,000 permissions.
+- Custom roles can contain up to 3,000 permissions.
 
-  - The maximum total size of the title, description, and permission names for a custom role is 64 KB.
+- The maximum total size of the title, description, and permission names for a custom role is 64 KB.
 
-  - There are limits to the number of custom roles you can create:
-    
-      - You can create up to 300 organization-level custom roles in your organization.
-      - You can create up to 300 project-level custom roles in each project in your organization.
+- There are limits to the number of custom roles you can create:
+
+  - You can create up to 300 organization-level custom roles in your organization.
+  - You can create up to 300 project-level custom roles in each project in your organization.
 
 ## When to use basic roles
 
@@ -52,6 +52,6 @@ It might be appropriate to grant basic roles when you want to grant broader perm
 
 ## What's next
 
-  - Learn how to [find the right predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
-  - Learn how to [create custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) .
-  - Learn more about [basic roles](https://docs.cloud.google.com/iam/docs/roles-overview#basic) .
+- Learn how to [find the right predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
+- Learn how to [create custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) .
+- Learn more about [basic roles](https://docs.cloud.google.com/iam/docs/roles-overview#basic) .

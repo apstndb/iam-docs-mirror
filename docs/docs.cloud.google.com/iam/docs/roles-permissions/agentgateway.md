@@ -25,13 +25,13 @@ Agent Gateway offers the following service agent roles. Service agent roles shou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="agentgateway.serviceAgent" class="role-title add-link" data-text="Agent Gateway Service Agent" tabindex="-1">Agent Gateway Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  agentgateway.serviceAgent</code> )</p>
+<td>Agent Gateway Service Agent
+<p>( <code>roles/ agentgateway.serviceAgent</code> )</p>
 <p>Grants Agent Gateway Service Agent permissions required to do DNS peering.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">dns.  networks.  targetWithPeeringZone</code></p></td>
+<td><p><code>dns. networks. targetWithPeeringZone</code></p></td>
 </tr>
 </tbody>
 </table>

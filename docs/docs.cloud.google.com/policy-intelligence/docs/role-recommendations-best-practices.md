@@ -14,25 +14,25 @@ For more information about role recommendations, see the [role recommendation ov
 
 The following best practices can help you get started with role recommendations.
 
-  - **Begin with an initial cleanup of over-granted permissions.** Initially, you might see a very large number of recommendations, especially if many principals have highly permissive roles like Editor. Take the time to address all recommendations in your project or organization to ensure that all of your principals have the appropriate roles.
-    
-    When doing this initial cleanup, prioritize the following types of recommendations:
-    
-      - **Recommendations that reduce permissions for service accounts.** By default, all [default service accounts](https://docs.cloud.google.com/iam/docs/service-account-types#default) are granted the highly permissive Editor role on projects. Other service accounts that you manage might also have been granted highly permissive roles. All over-granted permissions increase your security risk, including overly privileged service accounts, so we recommend prioritizing overly privileged service accounts during your initial cleanup.
-    
-      - **Recommendations that help prevent privilege escalation.** Roles that let principals act as a service account ( `iam.serviceAccounts.actAs` ) or get or set the allow policy for a resource can potentially let a principal escalate their own privilege. Prioritize recommendations relating to these roles.
-    
-      - **Recommendations that reduce lateral movement.** Lateral movement is when a service account in one project has permission to impersonate a service account in another project. This permission can result in a chain of impersonations across projects that gives principals unintended access to resources. To mitigate this unintended access, prioritize recommendations that are associated with [lateral movement insights](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#lateral-movement-insights) .
-    
-      - **Recommendations with a high priority level.** IAM recommendations are automatically assigned priority levels based on the role bindings they're associated with. Prioritize recommendations with a high priority level to quickly reduce over-granted permissions.
-        
-        To learn how a recommendation's priority is determined, see [Recommendation priority](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#priority) .
-    
-      - **When you find an over-privileged principal in one project, check other projects for recommendations involving that principal.** If a principal has been granted an overly permissive role in one project, it is possible that they have been granted overly permissive roles in other projects as well. Review recommendations for the principal across multiple projects to globally reduce the principal's access to the appropriate level.
+- **Begin with an initial cleanup of over-granted permissions.** Initially, you might see a very large number of recommendations, especially if many principals have highly permissive roles like Editor. Take the time to address all recommendations in your project or organization to ensure that all of your principals have the appropriate roles.
 
-  - After the initial cleanup, **check your recommendations regularly.** We recommend that you check your recommendations at least once a week. This check will usually take much less time than the initial cleanup, because you will only need to address recommendations for changes that have occurred since the last cleanup or check.
-    
-    Regularly checking permissions reduces the work required for each check, and can help you proactively identify and remove inactive users, as well as continue to downscope permissions for active users.
+  When doing this initial cleanup, prioritize the following types of recommendations:
+
+  - **Recommendations that reduce permissions for service accounts.** By default, all [default service accounts](https://docs.cloud.google.com/iam/docs/service-account-types#default) are granted the highly permissive Editor role on projects. Other service accounts that you manage might also have been granted highly permissive roles. All over-granted permissions increase your security risk, including overly privileged service accounts, so we recommend prioritizing overly privileged service accounts during your initial cleanup.
+
+  - **Recommendations that help prevent privilege escalation.** Roles that let principals act as a service account ( `iam.serviceAccounts.actAs` ) or get or set the allow policy for a resource can potentially let a principal escalate their own privilege. Prioritize recommendations relating to these roles.
+
+  - **Recommendations that reduce lateral movement.** Lateral movement is when a service account in one project has permission to impersonate a service account in another project. This permission can result in a chain of impersonations across projects that gives principals unintended access to resources. To mitigate this unintended access, prioritize recommendations that are associated with [lateral movement insights](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#lateral-movement-insights) .
+
+  - **Recommendations with a high priority level.** IAM recommendations are automatically assigned priority levels based on the role bindings they're associated with. Prioritize recommendations with a high priority level to quickly reduce over-granted permissions.
+
+    To learn how a recommendation's priority is determined, see [Recommendation priority](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#priority) .
+
+  - **When you find an over-privileged principal in one project, check other projects for recommendations involving that principal.** If a principal has been granted an overly permissive role in one project, it is possible that they have been granted overly permissive roles in other projects as well. Review recommendations for the principal across multiple projects to globally reduce the principal's access to the appropriate level.
+
+- After the initial cleanup, **check your recommendations regularly.** We recommend that you check your recommendations at least once a week. This check will usually take much less time than the initial cleanup, because you will only need to address recommendations for changes that have occurred since the last cleanup or check.
+
+  Regularly checking permissions reduces the work required for each check, and can help you proactively identify and remove inactive users, as well as continue to downscope permissions for active users.
 
 ## Best practices for working with recommendations
 
@@ -52,6 +52,6 @@ When automating recommendations, you might want to identify which resource a rec
 
 ## What's next
 
-  - Understand [role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) .
-  - Learn the steps for [reviewing and applying recommendations](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations) .
-  - Find out how to [export data for IAM recommendations](https://docs.cloud.google.com/policy-intelligence/docs/export-role-recommendations-data) .
+- Understand [role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) .
+- Learn the steps for [reviewing and applying recommendations](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations) .
+- Find out how to [export data for IAM recommendations](https://docs.cloud.google.com/policy-intelligence/docs/export-role-recommendations-data) .

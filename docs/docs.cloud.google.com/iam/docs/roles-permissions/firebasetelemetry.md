@@ -25,39 +25,39 @@ Firebase Telemetry offers the following service agent roles. Service agent roles
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="firebasetelemetry.serviceAgent" class="role-title add-link" data-text="Firebase Telemetry Service Agent" tabindex="-1">Firebase Telemetry Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  firebasetelemetry.serviceAgent</code> )</p>
+<td>Firebase Telemetry Service Agent
+<p>( <code>roles/ firebasetelemetry.serviceAgent</code> )</p>
 <p>Access to Cloud Storage, Cloud Monitoring, and Cloud Logging for Firebase Telemetry.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">cloudtrace.traces.patch</code></p>
-<p><code dir="ltr" translate="no">logging.buckets.create</code></p>
-<p><code dir="ltr" translate="no">logging.buckets.get</code></p>
-<p><code dir="ltr" translate="no">logging.buckets.list</code></p>
-<p><code dir="ltr" translate="no">logging.buckets.update</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.route</code></p>
-<p><code dir="ltr" translate="no">logging.sinks.*</code></p>
+<td><p><code>cloudtrace.traces.patch</code></p>
+<p><code>logging.buckets.create</code></p>
+<p><code>logging.buckets.get</code></p>
+<p><code>logging.buckets.list</code></p>
+<p><code>logging.buckets.update</code></p>
+<p><code>logging.logEntries.create</code></p>
+<p><code>logging.logEntries.route</code></p>
+<p><code>logging.sinks.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">logging.sinks.create</code></li>
-<li><code dir="ltr" translate="no">logging.sinks.delete</code></li>
-<li><code dir="ltr" translate="no">logging.sinks.get</code></li>
-<li><code dir="ltr" translate="no">logging.sinks.list</code></li>
-<li><code dir="ltr" translate="no">logging.sinks.update</code></li>
+<li><code>logging.sinks.create</code></li>
+<li><code>logging.sinks.delete</code></li>
+<li><code>logging.sinks.get</code></li>
+<li><code>logging.sinks.list</code></li>
+<li><code>logging.sinks.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  create</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  get</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.*</code></p>
+<p><code>monitoring. metricDescriptors. create</code></p>
+<p><code>monitoring. metricDescriptors. get</code></p>
+<p><code>monitoring. metricDescriptors. list</code></p>
+<p><code>monitoring. monitoredResourceDescriptors.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  get</code></li>
-<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></li>
+<li><code>monitoring. monitoredResourceDescriptors. get</code></li>
+<li><code>monitoring. monitoredResourceDescriptors. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.create</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">telemetry.traces.write</code></p></td>
+<p><code>monitoring.timeSeries.create</code></p>
+<p><code>storage.buckets.get</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>telemetry.traces.write</code></p></td>
 </tr>
 </tbody>
 </table>

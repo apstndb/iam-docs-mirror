@@ -12,7 +12,7 @@ gcloud iam workload-identity-pools providers update-saml - update a SAML workloa
 
 SYNOPSIS
 
-`gcloud iam workload-identity-pools providers update-saml` ( `  PROVIDER  ` : `  --location  ` = `  LOCATION  ` `  --workload-identity-pool  ` = `  WORKLOAD_IDENTITY_POOL  ` ) \[ `  --attribute-condition  ` = `  ATTRIBUTE_CONDITION  ` \] \[ `  --attribute-mapping  ` =\[ `  KEY  ` = `  VALUE  ` , …\]\] \[ `  --description  ` = `  DESCRIPTION  ` \] \[ `  --disabled  ` \] \[ `  --display-name  ` = `  DISPLAY_NAME  ` \] \[ `  --idp-metadata-path  ` = `  PATH_TO_FILE  ` \] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam workload-identity-pools providers update-saml` ( [`PROVIDER`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-saml#PROVIDER) : [`--location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-saml#--location) = `LOCATION` [`--workload-identity-pool`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-saml#--workload-identity-pool) = `WORKLOAD_IDENTITY_POOL` ) \[ [`--attribute-condition`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-saml#--attribute-condition) = `ATTRIBUTE_CONDITION` \] \[ [`--attribute-mapping`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-saml#--attribute-mapping) =\[ `KEY` = `VALUE` , …\]\] \[ [`--description`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-saml#--description) = `DESCRIPTION` \] \[ [`--disabled`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-saml#--disabled) \] \[ [`--display-name`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-saml#--display-name) = `DISPLAY_NAME` \] \[ [`--idp-metadata-path`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-saml#--idp-metadata-path) = `PATH_TO_FILE` \] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-saml#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -20,9 +20,11 @@ Update a SAML workload identity pool provider.
 
 EXAMPLES
 
-The following command updates the SAML workload identity pool provider with the ID `  my-workload-identity-pool-provider  ` . Explicit values for all required and optional parameters are provided:
+The following command updates the SAML workload identity pool provider with the ID `my-workload-identity-pool-provider` . Explicit values for all required and optional parameters are provided:
 
-    gcloud iam workload-identity-pools providers update-saml my-workload-identity-pool-provider --location="global" --workload-identity-pool="my-workload-identity-pool" --display-name="My workload pool provider" --description="My workload pool provider description" --disabled --attribute-mapping="google.subject=assertion.sub" --attribute-condition="true" --idp-metadata-path="path/to/metadata/file.xml"
+```
+gcloud iam workload-identity-pools providers update-saml my-workload-identity-pool-provider --location="global" --workload-identity-pool="my-workload-identity-pool" --display-name="My workload pool provider" --description="My workload pool provider description" --disabled --attribute-mapping="google.subject=assertion.sub" --attribute-condition="true" --idp-metadata-path="path/to/metadata/file.xml"
+```
 
 POSITIONAL ARGUMENTS
 
@@ -30,130 +32,126 @@ Workload identity pool provider resource - The workload identity pool provider t
 
 To set the `project` attribute:
 
-  - provide the argument `provider` on the command line with a fully specified name;
-  - provide the argument `--project` on the command line;
-  - set the property `core/project` .
+- provide the argument `provider` on the command line with a fully specified name;
+- provide the argument `--project` on the command line;
+- set the property `core/project` .
 
 This must be specified.
 
-  - `  PROVIDER  `  
-    ID of the workload identity pool provider or fully qualified identifier for the workload identity pool provider.
-    
-    To set the `provider` attribute:
-    
-      - provide the argument `provider` on the command line.
-    
-    This positional argument must be specified if any of the other arguments in this group are specified.
+`PROVIDER`  
+ID of the workload identity pool provider or fully qualified identifier for the workload identity pool provider.
 
-  - `--location` = `  LOCATION  `  
-    The location name.
-    
-    To set the `location` attribute:
-    
-      - provide the argument `provider` on the command line with a fully specified name;
-      - provide the argument `--location` on the command line.
+To set the `provider` attribute:
 
-  - `--workload-identity-pool` = `  WORKLOAD_IDENTITY_POOL  `  
-    The ID to use for the pool, which becomes the final component of the resource name. This value should be 4-32 characters, and may contain the characters \[a-z0-9-\]. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `workload-identity-pool` attribute:
-    
-      - provide the argument `provider` on the command line with a fully specified name;
-      - provide the argument `--workload-identity-pool` on the command line.
+- provide the argument `provider` on the command line.
+
+This positional argument must be specified if any of the other arguments in this group are specified.
+
+`--location` = `LOCATION`  
+The location name.
+
+To set the `location` attribute:
+
+- provide the argument `provider` on the command line with a fully specified name;
+- provide the argument `--location` on the command line.
+
+`--workload-identity-pool` = `WORKLOAD_IDENTITY_POOL`  
+The ID to use for the pool, which becomes the final component of the resource name. This value should be 4-32 characters, and may contain the characters \[a-z0-9-\]. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `workload-identity-pool` attribute:
+
+- provide the argument `provider` on the command line with a fully specified name;
+- provide the argument `--workload-identity-pool` on the command line.
 
 FLAGS
 
-  - `--attribute-condition` = `  ATTRIBUTE_CONDITION  `  
-    [A Common Expression Language](https://opensource.google/projects/cel) expression, in plain text, to restrict what otherwise valid authentication credentials issued by the provider should not be accepted.
-    
-    The expression must output a boolean representing whether to allow the federation.
-    
-    The following keywords may be referenced in the expressions:
-    
-      - `assertion` : JSON representing the authentication credential issued by the provider.
-      - `google` : The Google attributes mapped from the assertion in the `attribute_mappings` .
-      - `attribute` : The custom attributes mapped from the assertion in the `attribute_mappings` .
-    
-    The maximum length of the attribute condition expression is 4096 characters. If unspecified, all valid authentication credential are accepted.
-    
-    The following example shows how to only allow credentials with a mapped `google.groups` value of `admins` :
-    
-        "'admins' in google.groups"
+`--attribute-condition` = `ATTRIBUTE_CONDITION`  
+[A Common Expression Language](https://opensource.google/projects/cel) expression, in plain text, to restrict what otherwise valid authentication credentials issued by the provider should not be accepted.
 
-  - `--attribute-mapping` =\[ `  KEY  ` = `  VALUE  ` ,…\]  
-    Maps attributes from authentication credentials issued by an external identity provider to Google Cloud attributes, such as `subject` and `segment` .
-    
-    Each key must be a string specifying the Google Cloud IAM attribute to map to.
-    
-    The following keys are supported:
-    
-      - `google.subject` : The principal IAM is authenticating. You can reference this value in IAM bindings. This is also the subject that appears in Cloud Logging logs. Cannot exceed 127 bytes.
-    
-    <!-- end list -->
-    
-      - `google.groups` : Groups the external identity belongs to. You can grant groups access to resources using an IAM `principalSet` binding; access applies to all members of the group.
-    
-    You can also provide custom attributes by specifying `attribute.{custom_attribute}` , where `{custom_attribute}` is the name of the custom attribute to be mapped. You can define a maximum of 50 custom attributes. The maximum length of a mapped attribute key is 100 characters, and the key can only contain the characters `[a-z0-9_]` .
-    
-    You can reference these attributes in IAM policies to define fine-grained access for a workload to Google Cloud resources. For example:
-    
-      - `google.subject` : `principal://iam.googleapis.com/projects/{project}/locations/{location}/workloadIdentityPools/{pool}/subject/{value}`
-    
-    <!-- end list -->
-    
-      - `google.groups` : `principalSet://iam.googleapis.com/projects/{project}/locations/{location}/workloadIdentityPools/{pool}/group/{value}`
-    
-    <!-- end list -->
-    
-      - `attribute.{custom_attribute}` : `principalSet://iam.googleapis.com/projects/{project}/locations/{location}/workloadIdentityPools/{pool}/attribute.{custom_attribute}/{value}`
-    
-    Each value must be a [Common Expression Language](https://opensource.google/projects/cel) function that maps an identity provider credential to the normalized attribute specified by the corresponding map key.
-    
-    You can use the `assertion` keyword in the expression to access a JSON representation of the authentication credential issued by the provider.
-    
-    The maximum length of an attribute mapping expression is 2048 characters. When evaluated, the total size of all mapped attributes must not exceed 8KB.
-    
-    For AWS providers, the following rules apply:
-    
-      - If no attribute mapping is defined, the following default mapping applies:
-    
-    <!-- end list -->
-    
-        {
-          "google.subject":"assertion.arn",
-          "attribute.aws_role":
-              "assertion.arn.contains('assumed-role')"
-              " ? assertion.arn.extract('{account_arn}assumed-role/')"
-              "   + 'assumed-role/'"
-              "   + assertion.arn.extract('assumed-role/{role_name}/')"
-              " : assertion.arn",
-        }
-    
-      - If any custom attribute mappings are defined, they must include a mapping to the `google.subject` attribute.
-    
-    For OIDC providers, the following rules apply:
-    
-      - Custom attribute mappings must be defined, and must include a mapping to the `google.subject` attribute. For example, the following maps the `sub` claim of the incoming credential to the `subject` attribute on a Google token.
-    
-    <!-- end list -->
-    
-        {"google.subject": "assertion.sub"}
+The expression must output a boolean representing whether to allow the federation.
 
-  - `--description` = `  DESCRIPTION  `  
-    A description for the provider. Cannot exceed 256 characters.
+The following keywords may be referenced in the expressions:
 
-  - `--disabled`  
-    Whether the provider is disabled. You cannot use a disabled provider to exchange tokens. However, existing tokens still grant access.
+- `assertion` : JSON representing the authentication credential issued by the provider.
+- `google` : The Google attributes mapped from the assertion in the `attribute_mappings` .
+- `attribute` : The custom attributes mapped from the assertion in the `attribute_mappings` .
 
-  - `--display-name` = `  DISPLAY_NAME  `  
-    A display name for the provider. Cannot exceed 32 characters.
+The maximum length of the attribute condition expression is 4096 characters. If unspecified, all valid authentication credential are accepted.
 
-  - `--idp-metadata-path` = `  PATH_TO_FILE  `  
-    XML file with configuration metadata for the SAML identity provider. The metadata file must follow the [SAML 2.0 metadata specification](https://www.oasis-open.org/committees/download.php/35391/sstc-saml-metadata-errata-2.0-wd-04-diff.pdf) . Use a full or relative path to a local file containing the value of idp\_metadata\_path.
+The following example shows how to only allow credentials with a mapped `google.groups` value of `admins` :
+
+```
+"'admins' in google.groups"
+```
+
+`--attribute-mapping` =\[ `KEY` = `VALUE` ,…\]  
+Maps attributes from authentication credentials issued by an external identity provider to Google Cloud attributes, such as `subject` and `segment` .
+
+Each key must be a string specifying the Google Cloud IAM attribute to map to.
+
+The following keys are supported:
+
+- `google.subject` : The principal IAM is authenticating. You can reference this value in IAM bindings. This is also the subject that appears in Cloud Logging logs. Cannot exceed 127 bytes.
+
+- `google.groups` : Groups the external identity belongs to. You can grant groups access to resources using an IAM `principalSet` binding; access applies to all members of the group.
+
+You can also provide custom attributes by specifying `attribute.{custom_attribute}` , where `{custom_attribute}` is the name of the custom attribute to be mapped. You can define a maximum of 50 custom attributes. The maximum length of a mapped attribute key is 100 characters, and the key can only contain the characters `[a-z0-9_]` .
+
+You can reference these attributes in IAM policies to define fine-grained access for a workload to Google Cloud resources. For example:
+
+- `google.subject` : `principal://iam.googleapis.com/projects/{project}/locations/{location}/workloadIdentityPools/{pool}/subject/{value}`
+
+- `google.groups` : `principalSet://iam.googleapis.com/projects/{project}/locations/{location}/workloadIdentityPools/{pool}/group/{value}`
+
+- `attribute.{custom_attribute}` : `principalSet://iam.googleapis.com/projects/{project}/locations/{location}/workloadIdentityPools/{pool}/attribute.{custom_attribute}/{value}`
+
+Each value must be a [Common Expression Language](https://opensource.google/projects/cel) function that maps an identity provider credential to the normalized attribute specified by the corresponding map key.
+
+You can use the `assertion` keyword in the expression to access a JSON representation of the authentication credential issued by the provider.
+
+The maximum length of an attribute mapping expression is 2048 characters. When evaluated, the total size of all mapped attributes must not exceed 8KB.
+
+For AWS providers, the following rules apply:
+
+- If no attribute mapping is defined, the following default mapping applies:
+
+```
+{
+  "google.subject":"assertion.arn",
+  "attribute.aws_role":
+      "assertion.arn.contains('assumed-role')"
+      " ? assertion.arn.extract('{account_arn}assumed-role/')"
+      "   + 'assumed-role/'"
+      "   + assertion.arn.extract('assumed-role/{role_name}/')"
+      " : assertion.arn",
+}
+```
+
+- If any custom attribute mappings are defined, they must include a mapping to the `google.subject` attribute.
+
+For OIDC providers, the following rules apply:
+
+- Custom attribute mappings must be defined, and must include a mapping to the `google.subject` attribute. For example, the following maps the `sub` claim of the incoming credential to the `subject` attribute on a Google token.
+
+```
+{"google.subject": "assertion.sub"}
+```
+
+`--description` = `DESCRIPTION`  
+A description for the provider. Cannot exceed 256 characters.
+
+`--disabled`  
+Whether the provider is disabled. You cannot use a disabled provider to exchange tokens. However, existing tokens still grant access.
+
+`--display-name` = `DISPLAY_NAME`  
+A display name for the provider. Cannot exceed 32 characters.
+
+`--idp-metadata-path` = `PATH_TO_FILE`  
+XML file with configuration metadata for the SAML identity provider. The metadata file must follow the [SAML 2.0 metadata specification](https://www.oasis-open.org/committees/download.php/35391/sstc-saml-metadata-errata-2.0-wd-04-diff.pdf) . Use a full or relative path to a local file containing the value of idp_metadata_path.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 API REFERENCE
 

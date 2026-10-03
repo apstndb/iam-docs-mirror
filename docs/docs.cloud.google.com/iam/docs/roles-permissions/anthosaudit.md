@@ -25,20 +25,20 @@ Anthos Audit API offers the following service agent roles. Service agent roles s
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="anthosaudit.serviceAgent" class="role-title add-link" data-text="Anthos Audit Service Agent" tabindex="-1">Anthos Audit Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  anthosaudit.serviceAgent</code> )</p>
+<td>Anthos Audit Service Agent
+<p>( <code>roles/ anthosaudit.serviceAgent</code> )</p>
 <p>Gives the Anthos Audit service agent access to Cloud Platform resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">gkehub.features.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.locations.*</code></p>
+<td><p><code>gkehub.features.get</code></p>
+<p><code>gkehub.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.locations.list</code></li>
+<li><code>gkehub.locations.get</code></li>
+<li><code>gkehub.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.list</code></p></td>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>gkehub.memberships.list</code></p></td>
 </tr>
 </tbody>
 </table>

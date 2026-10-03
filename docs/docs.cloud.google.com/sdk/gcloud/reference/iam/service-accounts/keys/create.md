@@ -12,7 +12,7 @@ gcloud iam service-accounts keys create - create a service account key
 
 SYNOPSIS
 
-`gcloud iam service-accounts keys create` `  OUTPUT-FILE  ` `  --iam-account  ` = `  IAM_ACCOUNT  ` \[ `  --key-file-type  ` = `  KEY_FILE_TYPE  ` ; default="json"\] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam service-accounts keys create` `OUTPUT-FILE` [`--iam-account`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/keys/create#--iam-account) = `IAM_ACCOUNT` \[ [`--key-file-type`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/keys/create#--key-file-type) = `KEY_FILE_TYPE` ; default="json"\] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/keys/create#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -22,32 +22,36 @@ EXAMPLES
 
 To create a new service account key and save the private portion of the key locally, run:
 
-    gcloud iam service-accounts keys create key.json --iam-account=my-iam-account@my-project.iam.gserviceaccount.com
+```
+gcloud iam service-accounts keys create key.json --iam-account=my-iam-account@my-project.iam.gserviceaccount.com
+```
 
 POSITIONAL ARGUMENTS
 
-  - `  OUTPUT-FILE  `  
-    The path where the resulting private key should be written. File system write permission will be checked on the specified path prior to the key creation.
+`OUTPUT-FILE`  
+The path where the resulting private key should be written. File system write permission will be checked on the specified path prior to the key creation.
 
 REQUIRED FLAGS
 
-  - `--iam-account` = `  IAM_ACCOUNT  `  
-    The service account for which to create a key.
-    
-    To list all service accounts in the project, run:
-    
-        gcloud iam service-accounts list
+`--iam-account` = `IAM_ACCOUNT`  
+The service account for which to create a key.
+
+To list all service accounts in the project, run:
+
+```
+gcloud iam service-accounts list
+```
 
 OPTIONAL FLAGS
 
-  - `--key-file-type` = `  KEY_FILE_TYPE  ` ; default="json"  
-    The type of key to create. `  KEY_FILE_TYPE  ` must be one of: `json` , `p12` .
+`--key-file-type` = `KEY_FILE_TYPE` ; default="json"  
+The type of key to create. `KEY_FILE_TYPE` must be one of: `json` , `p12` .
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 NOTES
 
@@ -55,6 +59,10 @@ The option --key-file-type=p12 is available here only for legacy reasons; all ne
 
 These variants are also available:
 
-    gcloud alpha iam service-accounts keys create
+```
+gcloud alpha iam service-accounts keys create
+```
 
-    gcloud beta iam service-accounts keys create
+```
+gcloud beta iam service-accounts keys create
+```

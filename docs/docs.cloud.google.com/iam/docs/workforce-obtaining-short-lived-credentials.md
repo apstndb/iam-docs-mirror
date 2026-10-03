@@ -18,26 +18,28 @@ To obtain short-lived tokens, follow this high-level process:
 ## Before you begin
 
 1.  [Configure Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) or, for IdP-specific instructions, see the following guides:
-    
-      - [Configure Microsoft Entra ID-based Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id)
-      - [Configure Okta-based Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta)
-    
+
+    - [Configure Microsoft Entra ID-based Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id)
+    - [Configure Okta-based Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta)
+
     Note your workforce identity pool ID and workforce identity pool provider ID.
 
 2.  Ensure that every principal for which tokens are exchanged using the Security Token Service has the Identity and Access Management (IAM) permission `serviceusage.services.use` . The least-privileged role that contains this permission is Service Usage Consumer ( `roles/serviceusage.serviceUsageConsumer` ).
 
 3.  Enable the IAM, Security Token Service, and the Cloud OAuth API APIs, if any are not already enabled.
-    
+
     **Roles required to enable APIs**
-    
+
     To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
 4.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI. After installation, [initialize](https://docs.cloud.google.com/sdk/docs/initializing) the Google Cloud CLI by running the following command:
-    
-        gcloud init
-    
+
+    ```
+    gcloud init
+    ```
+
     If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
+
     > **Note:** If you installed the gcloud CLI previously, make sure you have the latest version by running `gcloud components update` .
 
 ## Exchange external credentials for a Google Cloud access token
@@ -58,37 +60,43 @@ Run the following command to create a login configuration file:
 
 ### Linux and macOS
 
-    gcloud iam workforce-pools create-login-config \
-        locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
-        --output-file=LOGIN_CONFIG_PATH
+```
+gcloud iam workforce-pools create-login-config \
+    locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
+    --output-file=LOGIN_CONFIG_PATH
+```
 
 ### Windows (PowerShell)
 
-    gcloud iam workforce-pools create-login-config `
-        locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID `
-        --output-file=LOGIN_CONFIG_PATH
+```
+gcloud iam workforce-pools create-login-config `
+    locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID `
+    --output-file=LOGIN_CONFIG_PATH
+```
 
 > **Note:** You can optionally activate the login configuration file as the default for the gcloud CLI by adding the [`--activate`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/create-login-config#--activate) flag. You can then run `gcloud auth login` to authorize the gcloud CLI without specifying the login configuration file path each time.
 
 Replace the following:
 
-  - `  WORKFORCE_POOL_ID  ` : The Workforce Identity Federation pool ID.
-  - `  WORKFORCE_PROVIDER_ID  ` : The Workforce Identity Federation provider ID.
-  - `  LOGIN_CONFIG_PATH  ` : The path to write the login configuration file to. For example, `login-config.json` .
+- `WORKFORCE_POOL_ID` : The Workforce Identity Federation pool ID.
+- `WORKFORCE_PROVIDER_ID` : The Workforce Identity Federation provider ID.
+- `LOGIN_CONFIG_PATH` : The path to write the login configuration file to. For example, `login-config.json` .
 
 The login configuration file contains the endpoints used by the gcloud CLI to enable the browser-based authentication flow and set the audience to the IdP that was configured in the workforce identity pool provider. The file doesn't contain confidential information.
 
 The login configuration file content looks similar to the following:
 
-    {
-      "universe_domain": "googleapis.com",
-      "universe_cloud_web_domain": "cloud.google",
-      "type": "external_account_authorized_user_login_config",
-      "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
-      "auth_url": "https://auth.cloud.google/authorize",
-      "token_url": "https://sts.googleapis.com/v1/oauthtoken",
-      "token_info_url": "https://sts.googleapis.com/v1/introspect"
-    }
+```
+{
+  "universe_domain": "googleapis.com",
+  "universe_cloud_web_domain": "cloud.google",
+  "type": "external_account_authorized_user_login_config",
+  "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
+  "auth_url": "https://auth.cloud.google/authorize",
+  "token_url": "https://sts.googleapis.com/v1/oauthtoken",
+  "token_info_url": "https://sts.googleapis.com/v1/introspect"
+}
+```
 
 > **Caution:** We recommend that you first ensure that the contents of this file are correct and then safeguard the file—for example, by making it read-only and restricting access with an ACL. The file isn't validated; a malicious actor with write access to this file can change the endpoints and intercept credentials.
 
@@ -103,8 +111,10 @@ To use the login configuration file with an environment variable, complete the f
 1.  Set the `CLOUDSDK_AUTH_LOGIN_CONFIG_FILE` environment variable to the path of the login configuration file.
 
 2.  Run the following command:
-    
-        gcloud auth login
+
+    ```
+    gcloud auth login
+    ```
 
 3.  The gcloud CLI references the environment variable to find the login configuration file, and then starts the authentication process. Follow the browser-based flow to authenticate and authorize the gcloud CLI to access resources on your behalf for future commands.
 
@@ -115,45 +125,57 @@ To stop using the login configuration file for `gcloud auth login` commands, cle
 To use the login configuration file with a gcloud CLI configuration property, complete the following instructions:
 
 1.  Set the active gcloud CLI configuration's `auth/login_config_file` property to the login configuration file's path with the following command:
-    
-        gcloud config set auth/login_config_file LOGIN_CONFIG_PATH
+
+    ```
+    gcloud config set auth/login_config_file LOGIN_CONFIG_PATH
+    ```
 
 2.  Run the following command:
-    
-        gcloud auth login
+
+    ```
+    gcloud auth login
+    ```
 
 3.  The gcloud CLI references the configuration property to find the login configuration file, and then starts the authentication process. Follow the browser-based flow to authenticate and authorize the gcloud CLI to access resources on your behalf for future commands.
 
 To stop using the login configuration file for `gcloud auth login` commands, unset the property with the following command:
 
-    gcloud config unset auth/login_config_file
+```
+gcloud config unset auth/login_config_file
+```
 
 ### gcloud auth login
 
 To use the login configuration file directly with the `gcloud auth login` command, complete the following instructions:
 
-  - If you used the `--activate` flag when you created the login configuration file, run the following command:
-    
-        gcloud auth login
+- If you used the `--activate` flag when you created the login configuration file, run the following command:
 
-  - If you didn't use the `--activate` flag when you created the login configuration file, run the following command:
-    
-    ### Linux and macOS
-    
-        gcloud auth login \
-            --login-config=LOGIN_CONFIG_PATH
-    
-    ### Windows (PowerShell)
-    
-        gcloud auth login `
-            --login-config=LOGIN_CONFIG_PATH
-    
-    Replace LOGIN\_CONFIG\_PATH with the path of your login configuration file.
+  ```
+  gcloud auth login
+  ```
+
+- If you didn't use the `--activate` flag when you created the login configuration file, run the following command:
+
+  ### Linux and macOS
+
+  ```
+  gcloud auth login \
+      --login-config=LOGIN_CONFIG_PATH
+  ```
+
+  ### Windows (PowerShell)
+
+  ```
+  gcloud auth login `
+      --login-config=LOGIN_CONFIG_PATH
+  ```
+
+  Replace ` LOGIN_CONFIG_PATH ` with the path of your login configuration file.
 
 The [gcloud auth login](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) command stores access credentials in your home directory. The authenticated principal becomes the active principal in your active gcloud CLI configuration. Unless overridden, the gcloud CLI uses these stored credentials to access Google Cloud.
 
 > **Caution** : Any user with access to your file system can use the stored access credentials created by `gcloud auth login` . To reduce the consequences of a system being compromised, strictly separate human and workload use, and don't use `gcloud auth login` for automated workloads on remote systems with persistent storage. Where possible, use a secret manager in combination with environment variables instead.
-> 
+>
 > For more guidance on hardening remote systems, see [Best practices for protecting developer credentials](https://docs.cloud.google.com/docs/security/bps-for-protecting-developer-credentials) .
 
 ### Use configuration files for sign-in
@@ -166,10 +188,10 @@ How you set up your configuration file depends on whether your IdP uses OIDC or 
 
 You can source the credentials that you use to set up your configuration file from the following sources:
 
-  - [File-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#oidc-file)
-  - [URL-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#oidc-url)
-  - [Non-interactive executable-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#oidc-non-int-exec)
-  - [Interactive executable-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#oidc-int-exec)
+- [File-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#oidc-file)
+- [URL-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#oidc-url)
+- [Non-interactive executable-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#oidc-non-int-exec)
+- [Interactive executable-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#oidc-int-exec)
 
 #### File-sourced credentials
 
@@ -177,34 +199,38 @@ When you use file-sourced credentials, tokens are loaded from a file. Another pr
 
 To generate the configuration file with a file-sourced credential, execute the following command:
 
-    gcloud iam workforce-pools create-cred-config \
-        locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
-        --subject-token-type=urn:ietf:params:oauth:token-type:id_token \
-        --credential-source-file=PATH_TO_OIDC_ID_TOKEN \
-        --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT \
-        --output-file=config.json
+```
+gcloud iam workforce-pools create-cred-config \
+    locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
+    --subject-token-type=urn:ietf:params:oauth:token-type:id_token \
+    --credential-source-file=PATH_TO_OIDC_ID_TOKEN \
+    --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT \
+    --output-file=config.json
+```
 
 Replace the following:
 
-  - `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID
-  - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID
-  - `  PATH_TO_OIDC_TOKEN  ` : the path to the OIDC IdP credential file
-  - `  WORKFORCE_POOL_USER_PROJECT  ` : the project number or ID associated with the [workforce pools user project](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#workforce-pools-user-project) .
+- `WORKFORCE_POOL_ID` : the workforce identity pool ID
+- `WORKFORCE_PROVIDER_ID` : the workforce identity pool provider ID
+- `PATH_TO_OIDC_TOKEN` : the path to the OIDC IdP credential file
+- `WORKFORCE_POOL_USER_PROJECT` : the project number or ID associated with the [workforce pools user project](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#workforce-pools-user-project) .
 
 The principal must have `serviceusage.services.use` permission on this project.
 
 Running the command produces an OIDC IdP config file similar to the following:
 
-    {
-      "type": "external_account",
-      "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
-      "subject_token_type": "urn:ietf:params:oauth:token-type:id_token",
-      "token_url": "https://sts.googleapis.com/v1/token",
-      "workforce_pool_user_project": "WORKFORCE_POOL_USER_PROJECT",
-      "credential_source": {
-        "file": "PATH_TO_OIDC_CREDENTIALS_FILE"
-      }
-    }
+```
+{
+  "type": "external_account",
+  "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
+  "subject_token_type": "urn:ietf:params:oauth:token-type:id_token",
+  "token_url": "https://sts.googleapis.com/v1/token",
+  "workforce_pool_user_project": "WORKFORCE_POOL_USER_PROJECT",
+  "credential_source": {
+    "file": "PATH_TO_OIDC_CREDENTIALS_FILE"
+  }
+}
+```
 
 #### URL-sourced credentials
 
@@ -212,87 +238,95 @@ When you use URL-sourced credentials, tokens are loaded from a local server with
 
 To generate a configuration file with a URL-sourced credential, execute the following command:
 
-    gcloud iam workforce-pools create-cred-config \
-        locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
-        --subject-token-type=urn:ietf:params:oauth:token-type:id_token \
-        --credential-source-url=URL_TO_RETURN_OIDC_ID_TOKEN \
-        --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT \
-        --output-file=config.json
+```
+gcloud iam workforce-pools create-cred-config \
+    locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
+    --subject-token-type=urn:ietf:params:oauth:token-type:id_token \
+    --credential-source-url=URL_TO_RETURN_OIDC_ID_TOKEN \
+    --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT \
+    --output-file=config.json
+```
 
 Replace the following:
 
-  - `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID.
-  - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID.
-  - `  URL_TO_RETURN_OIDC_ID_TOKEN  ` : the URL to call to retrieve the OIDC credentials, such as an OIDC ID token—for example: `http://localhost:5000/token` .
-  - `  WORKFORCE_POOL_USER_PROJECT  ` : the project number used for quota and billing. The principal needs to have `serviceusage.services.use` permission on this project.
+- `WORKFORCE_POOL_ID` : the workforce identity pool ID.
+- `WORKFORCE_PROVIDER_ID` : the workforce identity pool provider ID.
+- `URL_TO_RETURN_OIDC_ID_TOKEN` : the URL to call to retrieve the OIDC credentials, such as an OIDC ID token—for example: `http://localhost:5000/token` .
+- `WORKFORCE_POOL_USER_PROJECT` : the project number used for quota and billing. The principal needs to have `serviceusage.services.use` permission on this project.
 
 Running the command produces an OIDC IdP config file similar to the following:
 
-    {
-      "type": "external_account",
-      "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
-      "subject_token_type": "urn:ietf:params:oauth:token-type:id_token",
-      "token_url": "https://sts.googleapis.com/v1/token",
-      "workforce_pool_user_project": "WORKFORCE_POOL_USER_PROJECT",
-      "credential_source": {
-        "url": "URL_TO_RETURN_OIDC_ID_TOKEN"
-      }
-    }
+```
+{
+  "type": "external_account",
+  "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
+  "subject_token_type": "urn:ietf:params:oauth:token-type:id_token",
+  "token_url": "https://sts.googleapis.com/v1/token",
+  "workforce_pool_user_project": "WORKFORCE_POOL_USER_PROJECT",
+  "credential_source": {
+    "url": "URL_TO_RETURN_OIDC_ID_TOKEN"
+  }
+}
+```
 
 #### Non-interactive executable-sourced credentials
 
 When you use non-interactive executable-sourced credentials, tokens are loaded from a local executable. The executable must provide a valid, unexpired OIDC ID token in JSON format to `stdout` :
 
-    {
-      "version": 1,
-      "success": true,
-      "token_type": "urn:ietf:params:oauth:token-type:id_token",
-      "id_token": "HEADER.PAYLOAD.SIGNATURE",
-      "expiration_time": 1620499962
-    }
+```
+{
+  "version": 1,
+  "success": true,
+  "token_type": "urn:ietf:params:oauth:token-type:id_token",
+  "id_token": "HEADER.PAYLOAD.SIGNATURE",
+  "expiration_time": 1620499962
+}
+```
 
 These fields are required for a successful response, with the exception of `expiration_time` . The `expiration_time` field is only required when an output file has been specified in the credential configuration.
 
 The executable must surface any errors to `stdout` in the following JSON format:
 
-    {
-      "version": 1,
-      "success": false,
-      "code": "401",
-      "message": "Caller not authorized."
-    }
+```
+{
+  "version": 1,
+  "success": false,
+  "code": "401",
+  "message": "Caller not authorized."
+}
+```
 
 These fields are all required for an error response. The code and message fields are used by the client libraries when raising the appropriate error.
 
 The command can return the following fields:
 
-  - `version` : the version of the JSON output. Only version `1` is supported.
+- `version` : the version of the JSON output. Only version `1` is supported.
 
-  - `success` : the status of the response. When the status is `true` , the executable must exit with exit code `0` and the response must contain the following fields:
-    
-      - `token_type` : `id_token`
-      - `expiration_time` field, if an output file is specified in the credential configuration
-    
-    When the status is `false` , the executable must exit with a non-zero value and the response must contain the following fields:
-    
-      - `code`
-      - `message`
+- `success` : the status of the response. When the status is `true` , the executable must exit with exit code `0` and the response must contain the following fields:
 
-  - `token_type` : the third-party subject token type, which must be `urn:ietf:params:oauth:token-type:id_token`
+  - `token_type` : `id_token`
+  - `expiration_time` field, if an output file is specified in the credential configuration
 
-  - `id_token` : the third-party OIDC token
+  When the status is `false` , the executable must exit with a non-zero value and the response must contain the following fields:
 
-  - `expiration_time` : the third-party OIDC token expiration time in seconds (Unix epoch time)
+  - `code`
+  - `message`
 
-  - `code` : the error code string
+- `token_type` : the third-party subject token type, which must be `urn:ietf:params:oauth:token-type:id_token`
 
-  - `message` : the error message
+- `id_token` : the third-party OIDC token
+
+- `expiration_time` : the third-party OIDC token expiration time in seconds (Unix epoch time)
+
+- `code` : the error code string
+
+- `message` : the error message
 
 The client libraries set the following environment variables when the executable is run:
 
-  - `GOOGLE_EXTERNAL_ACCOUNT_AUDIENCE` : the audience field from the credential configuration. This variable is always set.
-  - `GOOGLE_EXTERNAL_ACCOUNT_TOKEN_TYPE` : the expected subject token type. This variable is always set.
-  - `GOOGLE_EXTERNAL_ACCOUNT_OUTPUT_FILE` : the output file location from the credential configuration. This variable is only present when it is specified in the credential configuration.
+- `GOOGLE_EXTERNAL_ACCOUNT_AUDIENCE` : the audience field from the credential configuration. This variable is always set.
+- `GOOGLE_EXTERNAL_ACCOUNT_TOKEN_TYPE` : the expected subject token type. This variable is always set.
+- `GOOGLE_EXTERNAL_ACCOUNT_OUTPUT_FILE` : the output file location from the credential configuration. This variable is only present when it is specified in the credential configuration.
 
 These environment variables can be used by the executable to avoid hardcoding these values.
 
@@ -300,40 +334,44 @@ To enable this credential sourcing method with the client libraries, the `GOOGLE
 
 To generate the configuration file with an executable-sourced credential, run the following command:
 
-    gcloud iam workforce-pools create-cred-config \
-        locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
-        --subject-token-type=urn:ietf:params:oauth:token-type:id_token  \
-        --executable-command=EXECUTABLE_COMMAND \
-        --executable-timeout-millis=EXECUTABLE_TIMEOUT \
-        --executable-output-file=EXECUTABLE_OUTPUT_FILE \
-        --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT \
-        --output-file /path/to/generated/config.json
+```
+gcloud iam workforce-pools create-cred-config \
+    locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
+    --subject-token-type=urn:ietf:params:oauth:token-type:id_token  \
+    --executable-command=EXECUTABLE_COMMAND \
+    --executable-timeout-millis=EXECUTABLE_TIMEOUT \
+    --executable-output-file=EXECUTABLE_OUTPUT_FILE \
+    --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT \
+    --output-file /path/to/generated/config.json
+```
 
 Replace the following:
 
-  - `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID.
-  - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID.
-  - `  EXECUTABLE_COMMAND  ` : the full command, including arguments, to run to retrieve the subject token, such as an OIDC ID token, in the following format: `--executable-command="/path/to/command --foo=bar"` .
-  - `  EXECUTABLE_TIMEOUT  ` : Optional. A duration, in milliseconds, to wait for the executable to run (defaults to 30s).
-  - `  EXECUTABLE_OUTPUT_FILE  ` : Optional. A path to the third-party credentials generated by the executable. This is useful for caching the credentials. The Auth libraries first check for this path before running the executable.
-  - `  WORKFORCE_POOL_USER_PROJECT  ` : the project number or ID that is used for quota and billing. The principal must have the `serviceusage.services.use` permission set on this project.
+- `WORKFORCE_POOL_ID` : the workforce identity pool ID.
+- `WORKFORCE_PROVIDER_ID` : the workforce identity pool provider ID.
+- `EXECUTABLE_COMMAND` : the full command, including arguments, to run to retrieve the subject token, such as an OIDC ID token, in the following format: `--executable-command="/path/to/command --foo=bar"` .
+- `EXECUTABLE_TIMEOUT` : Optional. A duration, in milliseconds, to wait for the executable to run (defaults to 30s).
+- `EXECUTABLE_OUTPUT_FILE` : Optional. A path to the third-party credentials generated by the executable. This is useful for caching the credentials. The Auth libraries first check for this path before running the executable.
+- `WORKFORCE_POOL_USER_PROJECT` : the project number or ID that is used for quota and billing. The principal must have the `serviceusage.services.use` permission set on this project.
 
 Running the command produces an OIDC IdP config file similar to the following:
 
-    {
-      "type": "external_account",
-      "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
-      "subject_token_type": "urn:ietf:params:oauth:token-type:id_token",
-      "token_url": "https://sts.googleapis.com/v1/token",
-      "workforce_pool_user_project": "WORKFORCE_POOL_USER_PROJECT",
-      "credential_source": {
-        "executable": {
-          "command": "EXECUTABLE_COMMAND",
-          "timeout_millis": "EXECUTABLE_TIMEOUT",
-          "output_file": "EXECUTABLE_OUTPUT_FILE"
-        }
-      }
+```
+{
+  "type": "external_account",
+  "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
+  "subject_token_type": "urn:ietf:params:oauth:token-type:id_token",
+  "token_url": "https://sts.googleapis.com/v1/token",
+  "workforce_pool_user_project": "WORKFORCE_POOL_USER_PROJECT",
+  "credential_source": {
+    "executable": {
+      "command": "EXECUTABLE_COMMAND",
+      "timeout_millis": "EXECUTABLE_TIMEOUT",
+      "output_file": "EXECUTABLE_OUTPUT_FILE"
     }
+  }
+}
+```
 
 #### Interactive executable-sourced credentials
 
@@ -341,27 +379,31 @@ When you use interactive executable-sourced credentials, you can provide an exec
 
 To use this mode, the following flags are required:
 
-  - `--executable-output-file` : the file that the executable writes the credential information to
-  - `--exeutable-interactive-timeout-millis` : a non-zero value that indicates *interactive mode* and sets the timeout—for example, `60000` for a 60-second timeout
+- `--executable-output-file` : the file that the executable writes the credential information to
+- `--exeutable-interactive-timeout-millis` : a non-zero value that indicates *interactive mode* and sets the timeout—for example, `60000` for a 60-second timeout
 
 The following fields are required for a successful response, with the exception of `expiration_time` :
 
-    {
-      "version": 1,
-      "success": true,
-      "token_type": "urn:ietf:params:oauth:token-type:id_token",
-      "id_token": "HEADER.PAYLOAD.SIGNATURE",
-      "expiration_time": 1620499962
-    }
+```
+{
+  "version": 1,
+  "success": true,
+  "token_type": "urn:ietf:params:oauth:token-type:id_token",
+  "id_token": "HEADER.PAYLOAD.SIGNATURE",
+  "expiration_time": 1620499962
+}
+```
 
 The executable must write any errors to the file specified in `--executable-output-file` in the following JSON format. The following fields are all required when returning an error response.
 
-    {
-      "version": 1,
-      "success": false,
-      "code": "401",
-      "message": "Caller not authorized."
-    }
+```
+{
+  "version": 1,
+  "success": false,
+  "code": "401",
+  "message": "Caller not authorized."
+}
+```
 
 The `code` and `message` fields must indicate the appropriate error. These fields are used by the client libraries when raising the error.
 
@@ -371,41 +413,45 @@ The environment variables are also the same for interactive and non-interactive 
 
 To generate an interactive executable-sourced credential, add the parameter `--executable-interactive-timeout-millis` and the parameter `--executable-output-file` .
 
-    gcloud iam workforce-pools create-cred-config \
-        locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
-        --subject-token-type=urn:ietf:params:oauth:token-type:id_token  \
-        --executable-command=EXECUTABLE_COMMAND \
-        --executable-interactive-timeout-millis=EXECUTABLE_INTERACTIVE_TIMEOUT \
-        --executable-output-file=EXECUTABLE_OUTPUT_FILE \
-        --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT \
-        --output-file /path/to/generated/config.json
+```
+gcloud iam workforce-pools create-cred-config \
+    locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
+    --subject-token-type=urn:ietf:params:oauth:token-type:id_token  \
+    --executable-command=EXECUTABLE_COMMAND \
+    --executable-interactive-timeout-millis=EXECUTABLE_INTERACTIVE_TIMEOUT \
+    --executable-output-file=EXECUTABLE_OUTPUT_FILE \
+    --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT \
+    --output-file /path/to/generated/config.json
+```
 
 Replace the following:
 
-  - `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID.
-  - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID.
-  - `  EXECUTABLE_COMMAND  ` : the full command, including arguments, to run to retrieve the subject token, formatted as follows: `--executable-command="/path/to/command --arg1=val1 --arg2=val2"`
-  - `  EXECUTABLE_INTERACTIVE_TIMEOUT  ` : a duration, in milliseconds, to wait for the executable to run.
-  - `  EXECUTABLE_OUTPUT_FILE  ` : a path to the third-party credentials generated by the executable. This path is useful for caching the credentials. The authentication libraries first check for this path before running the executable.
-  - `  WORKFORCE_POOL_USER_PROJECT  ` : the project number or ID used for quota and billing. The principal must have the `serviceusage.services.use` permission on this project.
+- `WORKFORCE_POOL_ID` : the workforce identity pool ID.
+- `WORKFORCE_PROVIDER_ID` : the workforce identity pool provider ID.
+- `EXECUTABLE_COMMAND` : the full command, including arguments, to run to retrieve the subject token, formatted as follows: `--executable-command="/path/to/command --arg1=val1 --arg2=val2"`
+- `EXECUTABLE_INTERACTIVE_TIMEOUT` : a duration, in milliseconds, to wait for the executable to run.
+- `EXECUTABLE_OUTPUT_FILE` : a path to the third-party credentials generated by the executable. This path is useful for caching the credentials. The authentication libraries first check for this path before running the executable.
+- `WORKFORCE_POOL_USER_PROJECT` : the project number or ID used for quota and billing. The principal must have the `serviceusage.services.use` permission on this project.
 
 Running the command produces an OIDC IdP config file similar to the following:
 
-    {
-      "type": "external_account",
-      "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
-      "subject_token_type": "urn:ietf:params:oauth:token-type:id_token",
-      "token_url": "https://sts.googleapis.com/v1/token",
-      "workforce_pool_user_project": "WORKFORCE_POOL_USER_PROJECT",
-      "credential_source": {
-        "executable": {
-          "command": "EXECUTABLE_COMMAND",
-          "interactive_timeout_millis": "EXECUTABLE_INTERACTIVE_TIMEOUT",
-          "timeout_millis": "EXECUTABLE_TIMEOUT",
-          "output_file": "EXECUTABLE_OUTPUT_FILE",
-        }
-      }
+```
+{
+  "type": "external_account",
+  "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
+  "subject_token_type": "urn:ietf:params:oauth:token-type:id_token",
+  "token_url": "https://sts.googleapis.com/v1/token",
+  "workforce_pool_user_project": "WORKFORCE_POOL_USER_PROJECT",
+  "credential_source": {
+    "executable": {
+      "command": "EXECUTABLE_COMMAND",
+      "interactive_timeout_millis": "EXECUTABLE_INTERACTIVE_TIMEOUT",
+      "timeout_millis": "EXECUTABLE_TIMEOUT",
+      "output_file": "EXECUTABLE_OUTPUT_FILE",
     }
+  }
+}
+```
 
 The `timeout_millis` field is returned because an interactive executable can also run in non-interactive mode, in some cases. In interactive mode, the command returns a default timeout.
 
@@ -413,10 +459,10 @@ The `timeout_millis` field is returned because an interactive executable can als
 
 You can source the credentials that you use to set up your configuration file from the following sources:
 
-  - [File-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#saml-file)
-  - [URL-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#saml-url)
-  - [Executable-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#saml-exec)
-  - [Executable-sourced credentials for gcloud interactive mode](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#saml-exec-gcloud)
+- [File-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#saml-file)
+- [URL-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#saml-url)
+- [Executable-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#saml-exec)
+- [Executable-sourced credentials for gcloud interactive mode](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#saml-exec-gcloud)
 
 #### File-sourced credentials
 
@@ -424,75 +470,81 @@ Assertions are loaded from a file. Another process must refresh this file with a
 
 > **Note:** You must pass the `--subject-token-type=urn:ietf:params:oauth:token-type:saml2` flag when you generate the configuration file.
 
-    gcloud iam workforce-pools create-cred-config \
-        locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
-        --output-file=federation_config.json \
-        --credential-source-file=CREDENTIAL_FILE \
-        --subject-token-type=urn:ietf:params:oauth:token-type:saml2 \
-        --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT
+```
+gcloud iam workforce-pools create-cred-config \
+    locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
+    --output-file=federation_config.json \
+    --credential-source-file=CREDENTIAL_FILE \
+    --subject-token-type=urn:ietf:params:oauth:token-type:saml2 \
+    --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT
+```
 
 Replace the following:
 
-  - `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID.
-  - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID.
-  - `  CREDENTIAL_FILE  ` : the path to the credential file that is generated by the IdP.
-  - `  WORKFORCE_POOL_USER_PROJECT  ` : the project number or ID that is used for quota and billing. The principal must have `serviceusage.services.use` permission on this project.
+- `WORKFORCE_POOL_ID` : the workforce identity pool ID.
+- `WORKFORCE_PROVIDER_ID` : the workforce identity pool provider ID.
+- `CREDENTIAL_FILE` : the path to the credential file that is generated by the IdP.
+- `WORKFORCE_POOL_USER_PROJECT` : the project number or ID that is used for quota and billing. The principal must have `serviceusage.services.use` permission on this project.
 
 #### URL-sourced credentials
 
-Assertions are loaded from a local server with an endpoint that responds to HTTP \`GET\` requests. The response must be either a \[base64-encoded\](https://toolbox.googleapps.com/apps/encode\_decode/) SAML assertion or JSON containing a base64-encoded SAML assertion. To use URL-sourced credentials, use the \`--credential-source-url\` flag: \`\`\`sh gcloud iam workforce-pools create-cred-config \\ locations/global/workforcePools/ WORKFORCE\_POOL\_ID /providers/ WORKFORCE\_PROVIDER\_ID \\ --output-file=federation\_config.json \\ --credential-source-url= CREDENTIAL\_URL \\ --subject-token-type=urn:ietf:params:oauth:token-type:saml2 \\ --workforce-pool-user-project= WORKFORCE\_POOL\_USER\_PROJECT \`\`\` Replace the following: \* `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID. \* `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID. \* `  CREDENTIAL_URL  ` : the URL of the local server endpoint. \* `  WORKFORCE_POOL_USER_PROJECT  ` : the project number or ID used for quota and billing. The principal needs to have \`serviceusage.services.use\` permission on this project.
+Assertions are loaded from a local server with an endpoint that responds to HTTP \`GET\` requests. The response must be either a \[base64-encoded\](https://toolbox.googleapps.com/apps/encode_decode/) SAML assertion or JSON containing a base64-encoded SAML assertion. To use URL-sourced credentials, use the \`--credential-source-url\` flag: \`\`\`sh gcloud iam workforce-pools create-cred-config \\ locations/global/workforcePools/ ` WORKFORCE_POOL_ID ` /providers/ ` WORKFORCE_PROVIDER_ID ` \\ --output-file=federation_config.json \\ --credential-source-url= ` CREDENTIAL_URL ` \\ --subject-token-type=urn:ietf:params:oauth:token-type:saml2 \\ --workforce-pool-user-project= ` WORKFORCE_POOL_USER_PROJECT ` \`\`\` Replace the following: \* `WORKFORCE_POOL_ID` : the workforce identity pool ID. \* `WORKFORCE_PROVIDER_ID` : the workforce identity pool provider ID. \* `CREDENTIAL_URL` : the URL of the local server endpoint. \* `WORKFORCE_POOL_USER_PROJECT` : the project number or ID used for quota and billing. The principal needs to have \`serviceusage.services.use\` permission on this project.
 
 #### Executable-sourced credentials
 
 Assertions are loaded from a local executable. The executable must provide a valid, unexpired SAML assertion in JSON format to `stdout` .
 
-    {
-      "version": 1,
-      "success": true,
-      "token_type": "urn:ietf:params:oauth:token-type:saml2",
-      "saml_response": "...",
-      "expiration_time": 1620499962
-    }
+```
+{
+  "version": 1,
+  "success": true,
+  "token_type": "urn:ietf:params:oauth:token-type:saml2",
+  "saml_response": "...",
+  "expiration_time": 1620499962
+}
+```
 
 These fields are required for a successful response, with the exception of `expiration_time` . The `expiration_time` field is required only when an output file is specified in the credential configuration.
 
 If an error occurs, it must be surfaced by the executable in the following JSON format to stdout:
 
-    {
-      "version": 1,
-      "success": false,
-      "code": "401",
-      "message": "Caller not authorized."
-    }
+```
+{
+  "version": 1,
+  "success": false,
+  "code": "401",
+  "message": "Caller not authorized."
+}
+```
 
 These fields are all required for an error response. The code and message fields are used by the client libraries when raising the appropriate error.
 
 The command can return the following fields:
 
-  - `  version  ` : the version of the JSON output. Only version `1` is supported.
+- `version` : the version of the JSON output. Only version `1` is supported.
 
-  - `  success  ` : the status of the response. When the status is `true` , the executable must exit with exit code `0` and the response must contain the following fields:
-    
-      - `token_type` : `saml_response`
-      - `expiration_time` field, if an output file is specified in the credential configuration
-    
-    When the status is `false` , the executable must exit with a non-zero value and the response must contain the following fields: + `code` + `message`
+- `success` : the status of the response. When the status is `true` , the executable must exit with exit code `0` and the response must contain the following fields:
 
-  - `  token_type  ` : the third-party subject token type, which must be `urn:ietf:params:oauth:token-type:saml2`
+  - `token_type` : `saml_response`
+  - `expiration_time` field, if an output file is specified in the credential configuration
 
-  - `  saml_response  ` : the third-party SAML response
+  When the status is `false` , the executable must exit with a non-zero value and the response must contain the following fields: + `code` + `message`
 
-  - `  expiration_time  ` : the third-party SAML response expiration time in seconds (Unix epoch time)
+- `token_type` : the third-party subject token type, which must be `urn:ietf:params:oauth:token-type:saml2`
 
-  - `  code  ` : the error code string
+- `saml_response` : the third-party SAML response
 
-  - `  message  ` : the error message
+- `expiration_time` : the third-party SAML response expiration time in seconds (Unix epoch time)
+
+- `code` : the error code string
+
+- `message` : the error message
 
 The client libraries set the following environment variables when the executable is run:
 
-  - `  GOOGLE_EXTERNAL_ACCOUNT_AUDIENCE  ` : the audience field from the credential configuration. This variable is always set.
-  - `  GOOGLE_EXTERNAL_ACCOUNT_TOKEN_TYPE  ` : the expected subject token type. This variable is always set.
-  - `  GOOGLE_EXTERNAL_ACCOUNT_OUTPUT_FILE  ` : the output file location from the credential configuration. This variable is only present when it is specified in the credential configuration.
+- `GOOGLE_EXTERNAL_ACCOUNT_AUDIENCE` : the audience field from the credential configuration. This variable is always set.
+- `GOOGLE_EXTERNAL_ACCOUNT_TOKEN_TYPE` : the expected subject token type. This variable is always set.
+- `GOOGLE_EXTERNAL_ACCOUNT_OUTPUT_FILE` : the output file location from the credential configuration. This variable is only present when it is specified in the credential configuration.
 
 > **Note:** The executable can use these environment variables to avoid hardcoding these values.
 
@@ -500,40 +552,44 @@ To enable this credential sourcing method with the client libraries, set the `GO
 
 To generate the configuration file with a executable-sourced credential, execute the following command:
 
-    gcloud iam workforce-pools create-cred-config \
-        locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
-        --subject-token-type=urn:ietf:params:oauth:token-type:saml2  \
-        --executable-command=EXECUTABLE_COMMAND \
-        --executable-timeout-millis=EXECUTABLE_TIMEOUT \
-        --executable-output-file=EXECUTABLE_OUTPUT_FILE \
-        --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT \
-        --output-file /path/to/generated/config.json
+```
+gcloud iam workforce-pools create-cred-config \
+    locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
+    --subject-token-type=urn:ietf:params:oauth:token-type:saml2  \
+    --executable-command=EXECUTABLE_COMMAND \
+    --executable-timeout-millis=EXECUTABLE_TIMEOUT \
+    --executable-output-file=EXECUTABLE_OUTPUT_FILE \
+    --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT \
+    --output-file /path/to/generated/config.json
+```
 
 Replace the following:
 
-  - `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID.
-  - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID.
-  - `  EXECUTABLE_COMMAND  ` : the full command, including arguments, to run to retrieve the subject token, in the following format: `--executable-command="/path/to/command --foo=bar"` .
-  - `  EXECUTABLE_TIMEOUT  ` : Optional. The duration in milliseconds to wait for the executable to run (defaults to 30s).
-  - `  EXECUTABLE_OUTPUT_FILE  ` : Optional. The path to the third-party identity (3PI) credentials generated by the executable. This is useful for caching the credentials. The authorization libraries check for its existence before running the executable.
-  - `  WORKFORCE_POOL_USER_PROJECT  ` : the project number used for quota and billing. The principal must have the `serviceusage.services.use` permission on this project.
+- `WORKFORCE_POOL_ID` : the workforce identity pool ID.
+- `WORKFORCE_PROVIDER_ID` : the workforce identity pool provider ID.
+- `EXECUTABLE_COMMAND` : the full command, including arguments, to run to retrieve the subject token, in the following format: `--executable-command="/path/to/command --foo=bar"` .
+- `EXECUTABLE_TIMEOUT` : Optional. The duration in milliseconds to wait for the executable to run (defaults to 30s).
+- `EXECUTABLE_OUTPUT_FILE` : Optional. The path to the third-party identity (3PI) credentials generated by the executable. This is useful for caching the credentials. The authorization libraries check for its existence before running the executable.
+- `WORKFORCE_POOL_USER_PROJECT` : the project number used for quota and billing. The principal must have the `serviceusage.services.use` permission on this project.
 
 Running the command produces a SAML IdP config file that is similar to the following:
 
-    {
-      "type": "external_account",
-      "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
-      "subject_token_type": "urn:ietf:params:oauth:token-type:saml2",
-      "token_url": "https://sts.googleapis.com/v1/token",
-      "workforce_pool_user_project": "WORKFORCE_POOL_USER_PROJECT",
-      "credential_source": {
-        "executable": {
-          "command": "EXECUTABLE_COMMAND",
-          "timeout_millis": "EXECUTABLE_TIMEOUT",
-          "output_file": "EXECUTABLE_OUTPUT_FILE"
-        }
-      }
+```
+{
+  "type": "external_account",
+  "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
+  "subject_token_type": "urn:ietf:params:oauth:token-type:saml2",
+  "token_url": "https://sts.googleapis.com/v1/token",
+  "workforce_pool_user_project": "WORKFORCE_POOL_USER_PROJECT",
+  "credential_source": {
+    "executable": {
+      "command": "EXECUTABLE_COMMAND",
+      "timeout_millis": "EXECUTABLE_TIMEOUT",
+      "output_file": "EXECUTABLE_OUTPUT_FILE"
     }
+  }
+}
+```
 
 #### Executable-sourced credentials for gcloud interactive mode
 
@@ -541,12 +597,10 @@ When you use executable-sourced credentials for gcloud interactive mode, an exec
 
 In the previous command, replace the following:
 
-  - `  EXECUTABLE_OUTPUT_FILE  ` : Required. The path to the file that provides the credentials generated by the executable.
-  - `  EXECUTABLE_TIMEOUT  ` : Required. A non-zero timeout value also signals the command to use interactive mode.
+- `EXECUTABLE_OUTPUT_FILE` : Required. The path to the file that provides the credentials generated by the executable.
+- `EXECUTABLE_TIMEOUT` : Required. A non-zero timeout value also signals the command to use interactive mode.
 
-<!-- end list -->
-
-``` 
+```
     {
       "version": 1,
       "success": true,
@@ -560,12 +614,14 @@ These fields are required for a successful response, with the exception of `expi
 
 The executable must surface any errors to the `executable-output-file` in the following JSON format. When the executable reports an error, these fields are all required. The code and message fields are used by the client libraries when raising the appropriate error.
 
-    {
-      "version": 1,
-      "success": false,
-      "code": "401",
-      "message": "Caller not authorized."
-    }
+```
+{
+  "version": 1,
+  "success": false,
+  "code": "401",
+  "message": "Caller not authorized."
+}
+```
 
 Successful command execution returns the same fields as [non-interactive executable-sourced credentials](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials#saml-exec) .
 
@@ -573,47 +629,53 @@ The environment variables are also the same as a non-interactive executable-sour
 
 To generate an interactive executable-sourced credential, add the parameter `--executable-interactive-timeout-millis` .
 
-    gcloud iam workforce-pools create-cred-config \
-        locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
-        --subject-token-type=urn:ietf:params:oauth:token-type:saml2  \
-        --executable-command=EXECUTABLE_COMMAND \
-        --executable-interactive-timeout-millis=EXECUTABLE_INTERACTIVE_TIMEOUT \
-        --executable-output-file=EXECUTABLE_OUTPUT_FILE \
-        --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT \
-        --output-file /path/to/generated/config.json
+```
+gcloud iam workforce-pools create-cred-config \
+    locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
+    --subject-token-type=urn:ietf:params:oauth:token-type:saml2  \
+    --executable-command=EXECUTABLE_COMMAND \
+    --executable-interactive-timeout-millis=EXECUTABLE_INTERACTIVE_TIMEOUT \
+    --executable-output-file=EXECUTABLE_OUTPUT_FILE \
+    --workforce-pool-user-project=WORKFORCE_POOL_USER_PROJECT \
+    --output-file /path/to/generated/config.json
+```
 
 Replace the following:
 
-  - `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID.
-  - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID.
-  - `  EXECUTABLE_COMMAND  ` : the full command, including arguments, to run to retrieve the subject token, formatted as follows: `--executable-command="/path/to/command --foo=bar")` .
-  - `  EXECUTABLE_INTERACTIVE_TIMEOUT  ` : a duration, in milliseconds, to wait for the executable to run.
-  - `  EXECUTABLE_OUTPUT_FILE  ` : a path to the third-party credentials generated by the executable. This is useful for caching the credentials. The authentication libraries first check for this path before running the executable.
-  - `  WORKFORCE_POOL_USER_PROJECT  ` : the project number or ID used for quota and billing. The principal must have the `serviceusage.services.use` permission on this project.
+- `WORKFORCE_POOL_ID` : the workforce identity pool ID.
+- `WORKFORCE_PROVIDER_ID` : the workforce identity pool provider ID.
+- `EXECUTABLE_COMMAND` : the full command, including arguments, to run to retrieve the subject token, formatted as follows: `--executable-command="/path/to/command --foo=bar")` .
+- `EXECUTABLE_INTERACTIVE_TIMEOUT` : a duration, in milliseconds, to wait for the executable to run.
+- `EXECUTABLE_OUTPUT_FILE` : a path to the third-party credentials generated by the executable. This is useful for caching the credentials. The authentication libraries first check for this path before running the executable.
+- `WORKFORCE_POOL_USER_PROJECT` : the project number or ID used for quota and billing. The principal must have the `serviceusage.services.use` permission on this project.
 
 Running the command produces a SAML IdP config file similar to the following:
 
-    {
-      "type": "external_account",
-      "audience": "//iam.googleapis.com/locations/global/workforcePools/<var>WORKFORCE_POOL_ID<var>/providers/<var>WORKFORCE_PROVIDER_ID</var>",
-      "subject_token_type": "urn:ietf:params:oauth:token-type:saml2",
-      "token_url": "https://sts.googleapis.com/v1/token",
-      "workforce_pool_user_project": "<var>WORKFORCE_POOL_USER_PROJECT</var>",
-      "credential_source": {
-        "executable": {
-          "command": "<var>EXECUTABLE_COMMAND</var>",
-          "interactive_timeout_millis": "<var>EXECUTABLE_INTERACTIVE_TIMEOUT</var>",
-          "timeout_millis": "<var>EXECUTABLE_TIMEOUT</var>",
-          "output_file": "<var>EXECUTABLE_OUTPUT_FILE</var>",
-        }
-      }
+```
+{
+  "type": "external_account",
+  "audience": "//iam.googleapis.com/locations/global/workforcePools/<var>WORKFORCE_POOL_ID<var>/providers/<var>WORKFORCE_PROVIDER_ID</var>",
+  "subject_token_type": "urn:ietf:params:oauth:token-type:saml2",
+  "token_url": "https://sts.googleapis.com/v1/token",
+  "workforce_pool_user_project": "<var>WORKFORCE_POOL_USER_PROJECT</var>",
+  "credential_source": {
+    "executable": {
+      "command": "<var>EXECUTABLE_COMMAND</var>",
+      "interactive_timeout_millis": "<var>EXECUTABLE_INTERACTIVE_TIMEOUT</var>",
+      "timeout_millis": "<var>EXECUTABLE_TIMEOUT</var>",
+      "output_file": "<var>EXECUTABLE_OUTPUT_FILE</var>",
     }
+  }
+}
+```
 
 > **Note:** `timeout_millis` is included in the configuration because an interactive executable-sourced credential can also run in non-interactive mode in some cases. The gcloud CLI configuration generator auto fills that field with default timeout setting of 30 seconds.
 
 To sign in, run the following command:
 
-    gcloud auth login --cred-file=/path/to/config.json
+```
+gcloud auth login --cred-file=/path/to/config.json
+```
 
 Note that neither the gcloud CLI nor the bq command-line tool support executable-sourced credential types.
 
@@ -633,9 +695,11 @@ To use client libraries with these services or languages, do the following:
 
 To authenticate using Workforce Identity Federation, use the [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) command:
 
-    gcloud auth login --cred-file=FILEPATH.json
+```
+gcloud auth login --cred-file=FILEPATH.json
+```
 
-where `  FILEPATH  ` is the path to the credential configuration file.
+where `FILEPATH` is the path to the credential configuration file.
 
 Support for Workforce Identity Federation in the bq tool is available in [version 390.0.0 and later versions of the Google Cloud CLI](https://docs.cloud.google.com/sdk/docs/components#updating_components) .
 
@@ -645,20 +709,24 @@ Most of the [Google Cloud Client Libraries for C++](https://github.com/googleapi
 
 The Cloud Storage Cloud Client Libraries for C++ uses the REST API, not gRPC, so it doesn't support Workforce Identity Federation.
 
-    auto creds = grpc::GoogleDefaultCredentials();
-    
-    // Create a channel, stub and make RPC calls (same as in the previous example)
-    auto channel = grpc::CreateChannel("greeter.googleapis.com", creds);
-    std::unique_ptr<Greeter::Stub> stub(Greeter::NewStub(channel));
-    grpc::Status s = stub->sayHello(&context, *request, response);
+```
+auto creds = grpc::GoogleDefaultCredentials();
+
+// Create a channel, stub and make RPC calls (same as in the previous example)
+auto channel = grpc::CreateChannel("greeter.googleapis.com", creds);
+std::unique_ptr<Greeter::Stub> stub(Greeter::NewStub(channel));
+grpc::Status s = stub->sayHello(&context, *request, response);
+```
 
 ### gcloud
 
 To authenticate using Workforce Identity Federation, use the [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) command:
 
-    gcloud auth login --cred-file=FILEPATH.json
+```
+gcloud auth login --cred-file=FILEPATH.json
+```
 
-Replace `  FILEPATH  ` with the path to the credential configuration file.
+Replace `FILEPATH` with the path to the credential configuration file.
 
 Support for Workforce Identity Federation in the gcloud CLI is available in [version 392.0.0 and later versions of the Google Cloud CLI](https://docs.cloud.google.com/sdk/docs/components#updating_components) .
 
@@ -666,51 +734,55 @@ Support for Workforce Identity Federation in the gcloud CLI is available in [ver
 
 Cloud Client Libraries for Go support Workforce Identity Federation when you use version v0.0.0-20211005180243-6b3c2da341f1 or later of the `golang.org/x/oauth2` module.
 
-    import (
-      "context"
-      "fmt"
-      "log"
-    
-      "cloud.google.com/go/storage"
-      "google.golang.org/api/iterator"
-      "google.golang.org/api/option"
-      "io/ioutil"
-    )
-    ctx := context.Background()
-    client, err := storage.NewClient(ctx)
-    # Explicit initialization can also be used.
-    # var jsonPath = "/path/to/3p-credentials.json"
-    # client, err := storage.NewClient(ctx, option.WithCredentialsFile(jsonPath))
-    if err != nil {
-      log.Fatal(err)
-    }
-    fmt.Println("Buckets:")
-    it := client.Buckets(ctx, projectID)
-    for {
-      battrs, err := it.Next()
-      if err == iterator.Done {
-        break
-      }
-      if err != nil {
-        log.Fatal(err)
-      }
-      fmt.Println(battrs.Name)
-    }
+```
+import (
+  "context"
+  "fmt"
+  "log"
+
+  "cloud.google.com/go/storage"
+  "google.golang.org/api/iterator"
+  "google.golang.org/api/option"
+  "io/ioutil"
+)
+ctx := context.Background()
+client, err := storage.NewClient(ctx)
+# Explicit initialization can also be used.
+# var jsonPath = "/path/to/3p-credentials.json"
+# client, err := storage.NewClient(ctx, option.WithCredentialsFile(jsonPath))
+if err != nil {
+  log.Fatal(err)
+}
+fmt.Println("Buckets:")
+it := client.Buckets(ctx, projectID)
+for {
+  battrs, err := it.Next()
+  if err == iterator.Done {
+    break
+  }
+  if err != nil {
+    log.Fatal(err)
+  }
+  fmt.Println(battrs.Name)
+}
+```
 
 ### Java
 
 Cloud Client Libraries for Java support Workforce Identity Federation when you use version 1.2.0 or later of the [`com.google.auth:google-auth-library-oauth2-http` artifact](https://search.maven.org/artifact/com.google.auth/google-auth-library-oauth2-http) .
 
-    import com.google.auth.oauth2.GoogleCredentials;
-    import com.google.cloud.storage.Storage;
-    import com.google.cloud.storage.StorageOptions;
-    
-    GoogleCredentials credentials = GoogleCredentials.getApplicationDefault();
-    GoogleCredentials sourceCredentials = credentials
-        .createScoped(Arrays.asList("https://www.googleapis.com/auth/devstorage.read_only"));
-    
-    Storage storageService = StorageOptions.newBuilder().setProjectId("project-id")
-        .setCredentials(sourceCredentials).build().getService();
+```
+import com.google.auth.oauth2.GoogleCredentials;
+import com.google.cloud.storage.Storage;
+import com.google.cloud.storage.StorageOptions;
+
+GoogleCredentials credentials = GoogleCredentials.getApplicationDefault();
+GoogleCredentials sourceCredentials = credentials
+    .createScoped(Arrays.asList("https://www.googleapis.com/auth/devstorage.read_only"));
+
+Storage storageService = StorageOptions.newBuilder().setProjectId("project-id")
+    .setCredentials(sourceCredentials).build().getService();
+```
 
 ### Node.js
 
@@ -718,31 +790,35 @@ Cloud Client Libraries for Node.js support Workforce Identity Federation when yo
 
 Unlike workload identity pools, workforce identity pools are associated with an organization and not a Google Cloud project. When you create a `GoogleAuth` object, you must specify a project ID. For more information, see the [README for the `google-auth-library` package](https://github.com/googleapis/google-auth-library-nodejs#using-external-identities) .
 
-    const auth = new GoogleAuth({
-      scopes: 'https://www.googleapis.com/auth/cloud-platform',
-      // Specify a project ID.
-      projectId: 'CLOUD_RESOURCE_PROJECT_ID',
-    });
-    
-    # API request using Auth library.
-    const client = await auth.getClient();
-    const url =
-        `https://storage.googleapis.com/storage/v1/b?projects=${projectId}`;
-    const res = await client.request({url});
-    console.log(res.data);
+```
+const auth = new GoogleAuth({
+  scopes: 'https://www.googleapis.com/auth/cloud-platform',
+  // Specify a project ID.
+  projectId: 'CLOUD_RESOURCE_PROJECT_ID',
+});
+
+# API request using Auth library.
+const client = await auth.getClient();
+const url =
+    `https://storage.googleapis.com/storage/v1/b?projects=${projectId}`;
+const res = await client.request({url});
+console.log(res.data);
+```
 
 ### Python
 
 Cloud Client Libraries for Python support Workforce Identity Federation when you use version 2.3.0 or later of the [`google-auth` package](https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth) .
 
-    from google.cloud import storage
-    import google.auth
-    
-    credentials, project = google.auth.default(
-        scopes=['https://www.googleapis.com/auth/devstorage.read_only'])
-    
-    client = storage.Client(
-        project="project-id", credentials=credentials)
+```
+from google.cloud import storage
+import google.auth
+
+credentials, project = google.auth.default(
+    scopes=['https://www.googleapis.com/auth/devstorage.read_only'])
+
+client = storage.Client(
+    project="project-id", credentials=credentials)
+```
 
 In the example code, the `project` value can be `None` if the library is unable to automatically discover the project ID. You can pass the project ID explicitly when using a service instance, as the storage client example does, or set the project ID through the environment variable `GOOGLE_CLOUD_PROJECT` .
 
@@ -752,42 +828,46 @@ For details, see the [user guide for the `google-auth` package](https://github.c
 
 You can call the Google Cloud Security Token Service API to exchange your external credentials for Google Cloud access tokens by running the following command:
 
-    curl https://sts.googleapis.com/v1/token \
-        --data-urlencode "audience=//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID" \
-        --data-urlencode "grant_type=urn:ietf:params:oauth:grant-type:token-exchange" \
-        --data-urlencode "requested_token_type=urn:ietf:params:oauth:token-type:access_token" \
-        --data-urlencode "scope=https://www.googleapis.com/auth/cloud-platform" \
-        --data-urlencode "subject_token_type=SUBJECT_TOKEN_TYPE" \
-        --data-urlencode "subject_token=EXTERNAL_SUBJECT_TOKEN"  \
-        --data-urlencode "options={\"userProject\":\"BILLING_PROJECT_NUMBER\"}"
+```
+curl https://sts.googleapis.com/v1/token \
+    --data-urlencode "audience=//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID" \
+    --data-urlencode "grant_type=urn:ietf:params:oauth:grant-type:token-exchange" \
+    --data-urlencode "requested_token_type=urn:ietf:params:oauth:token-type:access_token" \
+    --data-urlencode "scope=https://www.googleapis.com/auth/cloud-platform" \
+    --data-urlencode "subject_token_type=SUBJECT_TOKEN_TYPE" \
+    --data-urlencode "subject_token=EXTERNAL_SUBJECT_TOKEN"  \
+    --data-urlencode "options={\"userProject\":\"BILLING_PROJECT_NUMBER\"}"
+```
 
 Replace the following:
 
-  - `  AUDIENCE  ` : the full [resource name](https://docs.cloud.google.com/apis/design/resource_names) of the provider that issues the subject token.
+- `AUDIENCE` : the full [resource name](https://docs.cloud.google.com/apis/design/resource_names) of the provider that issues the subject token.
 
-  - `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID
+- `WORKFORCE_POOL_ID` : the workforce identity pool ID
 
-  - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID
+- `WORKFORCE_PROVIDER_ID` : the workforce identity pool provider ID
 
-  - `  SUBJECT_TOKEN_TYPE  ` : set to one of the following:
-    
-      - `urn:ietf:params:oauth:token-type:id_token` for OIDC ID tokens
-      - `urn:ietf:params:oauth:token-type:saml2` for SAML assertions
+- `SUBJECT_TOKEN_TYPE` : set to one of the following:
 
-  - `  EXTERNAL_SUBJECT_TOKEN  ` : the IdP-issued token that represents the identity of the principal for whom the access token is requested.
-    
-    If you configured an OIDC provider, the token must be JWT formatted.
+  - `urn:ietf:params:oauth:token-type:id_token` for OIDC ID tokens
+  - `urn:ietf:params:oauth:token-type:saml2` for SAML assertions
 
-  - `  BILLING_PROJECT_NUMBER  ` : the project number or ID used for quota and billing. The principal must have the `serviceusage.services.use` permission on this project.
+- `EXTERNAL_SUBJECT_TOKEN` : the IdP-issued token that represents the identity of the principal for whom the access token is requested.
+
+  If you configured an OIDC provider, the token must be JWT formatted.
+
+- `BILLING_PROJECT_NUMBER` : the project number or ID used for quota and billing. The principal must have the `serviceusage.services.use` permission on this project.
 
 The response is similar to the following:
 
-    {
-      "access_token": "ya29.dr.AaT61Tc6Ntv1ktbGkaQ9U_MQfiQw...",
-      "issued_token_type": "urn:ietf:params:oauth:token-type:access_token",
-      "token_type": "Bearer",
-      "expires_in": 3600
-    }
+```
+{
+  "access_token": "ya29.dr.AaT61Tc6Ntv1ktbGkaQ9U_MQfiQw...",
+  "issued_token_type": "urn:ietf:params:oauth:token-type:access_token",
+  "token_type": "Bearer",
+  "expires_in": 3600
+}
+```
 
 ### Manage sessions using the gcloud CLI
 
@@ -797,25 +877,33 @@ If your credentials have expired, then no new Google Cloud tokens are issued, an
 
 You can terminate your session by executing the following command:
 
-    gcloud auth revoke
+```
+gcloud auth revoke
+```
 
 `gcloud` supports multiple user sessions. To get the list of sessions, including the session that is currently active, execute the following command:
 
-    gcloud auth list
+```
+gcloud auth list
+```
 
 The output of the command is similar to the following:
 
-    Credentialed Accounts
-    ACTIVE    ACCOUNT
-    *         bola@example.com
-              principal://iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/subject/kalani@example.com
+```
+Credentialed Accounts
+ACTIVE    ACCOUNT
+*         bola@example.com
+          principal://iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/subject/kalani@example.com
+```
 
 To switch to a different session and set it as active, execute the following command:
 
-    gcloud config set account principal://iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/subject/SUBJECT_ID
+```
+gcloud config set account principal://iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/subject/SUBJECT_ID
+```
 
 ## What's next
 
-  - [Delete Workforce Identity Federation users and their data](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data)
-  - Learn which Google Cloud products [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services)
-  - [Set up user access to console (federated)](https://docs.cloud.google.com/iam/docs/workforce-console-sso)
+- [Delete Workforce Identity Federation users and their data](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data)
+- Learn which Google Cloud products [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services)
+- [Set up user access to console (federated)](https://docs.cloud.google.com/iam/docs/workforce-console-sso)

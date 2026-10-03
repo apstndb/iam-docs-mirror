@@ -23,79 +23,79 @@ This page lists the IAM roles and permissions for Memorystore for Memcached. To 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="memcache.admin" class="role-title add-link" data-text="Cloud Memorystore Memcached Admin" tabindex="-1">Cloud Memorystore Memcached Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
+<td>Cloud Memorystore Memcached Admin
+<p>( <code>roles/ memcache.admin</code> )</p>
 <p>Full access to Memcached instances and related resources.</p></td>
-<td><p><code dir="ltr" translate="no">compute.networks.list</code></p>
-<p><code dir="ltr" translate="no">memcache.*</code></p>
+<td><p><code>compute.networks.list</code></p>
+<p><code>memcache.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">memcache.  instances.  applyParameters</code></li>
-<li><code dir="ltr" translate="no">memcache.  instances.  applySoftwareUpdate</code></li>
-<li><code dir="ltr" translate="no">memcache.instances.create</code></li>
-<li><code dir="ltr" translate="no">memcache.  instances.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">memcache.instances.delete</code></li>
-<li><code dir="ltr" translate="no">memcache.  instances.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">memcache.instances.get</code></li>
-<li><code dir="ltr" translate="no">memcache.instances.list</code></li>
-<li><code dir="ltr" translate="no">memcache.  instances.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">memcache.  instances.  listTagBindings</code></li>
-<li><code dir="ltr" translate="no">memcache.  instances.  rescheduleMaintenance</code></li>
-<li><code dir="ltr" translate="no">memcache.instances.update</code></li>
-<li><code dir="ltr" translate="no">memcache.  instances.  updateParameters</code></li>
-<li><code dir="ltr" translate="no">memcache.instances.upgrade</code></li>
-<li><code dir="ltr" translate="no">memcache.locations.get</code></li>
-<li><code dir="ltr" translate="no">memcache.locations.list</code></li>
-<li><code dir="ltr" translate="no">memcache.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">memcache.operations.delete</code></li>
-<li><code dir="ltr" translate="no">memcache.operations.get</code></li>
-<li><code dir="ltr" translate="no">memcache.operations.list</code></li>
+<li><code>memcache. instances. applyParameters</code></li>
+<li><code>memcache. instances. applySoftwareUpdate</code></li>
+<li><code>memcache.instances.create</code></li>
+<li><code>memcache. instances. createTagBinding</code></li>
+<li><code>memcache.instances.delete</code></li>
+<li><code>memcache. instances. deleteTagBinding</code></li>
+<li><code>memcache.instances.get</code></li>
+<li><code>memcache.instances.list</code></li>
+<li><code>memcache. instances. listEffectiveTags</code></li>
+<li><code>memcache. instances. listTagBindings</code></li>
+<li><code>memcache. instances. rescheduleMaintenance</code></li>
+<li><code>memcache.instances.update</code></li>
+<li><code>memcache. instances. updateParameters</code></li>
+<li><code>memcache.instances.upgrade</code></li>
+<li><code>memcache.locations.get</code></li>
+<li><code>memcache.locations.list</code></li>
+<li><code>memcache.operations.cancel</code></li>
+<li><code>memcache.operations.delete</code></li>
+<li><code>memcache.operations.get</code></li>
+<li><code>memcache.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="memcache.editor" class="role-title add-link" data-text="Cloud Memorystore Memcached Editor" tabindex="-1">Cloud Memorystore Memcached Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
+<td>Cloud Memorystore Memcached Editor
+<p>( <code>roles/ memcache.editor</code> )</p>
 <p>Read-Write access to Memcached instances and related resources.</p></td>
-<td><p><code dir="ltr" translate="no">memcache.  instances.  applyParameters</code></p>
-<p><code dir="ltr" translate="no">memcache.  instances.  createTagBinding</code></p>
-<p><code dir="ltr" translate="no">memcache.  instances.  deleteTagBinding</code></p>
-<p><code dir="ltr" translate="no">memcache.instances.get</code></p>
-<p><code dir="ltr" translate="no">memcache.instances.list</code></p>
-<p><code dir="ltr" translate="no">memcache.  instances.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">memcache.  instances.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">memcache.instances.update</code></p>
-<p><code dir="ltr" translate="no">memcache.  instances.  updateParameters</code></p>
-<p><code dir="ltr" translate="no">memcache.locations.*</code></p>
+<td><p><code>memcache. instances. applyParameters</code></p>
+<p><code>memcache. instances. createTagBinding</code></p>
+<p><code>memcache. instances. deleteTagBinding</code></p>
+<p><code>memcache.instances.get</code></p>
+<p><code>memcache.instances.list</code></p>
+<p><code>memcache. instances. listEffectiveTags</code></p>
+<p><code>memcache. instances. listTagBindings</code></p>
+<p><code>memcache.instances.update</code></p>
+<p><code>memcache. instances. updateParameters</code></p>
+<p><code>memcache.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">memcache.locations.get</code></li>
-<li><code dir="ltr" translate="no">memcache.locations.list</code></li>
+<li><code>memcache.locations.get</code></li>
+<li><code>memcache.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">memcache.operations.*</code></p>
+<p><code>memcache.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">memcache.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">memcache.operations.delete</code></li>
-<li><code dir="ltr" translate="no">memcache.operations.get</code></li>
-<li><code dir="ltr" translate="no">memcache.operations.list</code></li>
+<li><code>memcache.operations.cancel</code></li>
+<li><code>memcache.operations.delete</code></li>
+<li><code>memcache.operations.get</code></li>
+<li><code>memcache.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="memcache.viewer" class="role-title add-link" data-text="Cloud Memorystore Memcached Viewer" tabindex="-1">Cloud Memorystore Memcached Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  memcache.viewer</code> )</p>
+<td>Cloud Memorystore Memcached Viewer
+<p>( <code>roles/ memcache.viewer</code> )</p>
 <p>Read-only access to Memcached instances and related resources.</p></td>
-<td><p><code dir="ltr" translate="no">memcache.instances.get</code></p>
-<p><code dir="ltr" translate="no">memcache.instances.list</code></p>
-<p><code dir="ltr" translate="no">memcache.locations.*</code></p>
+<td><p><code>memcache.instances.get</code></p>
+<p><code>memcache.instances.list</code></p>
+<p><code>memcache.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">memcache.locations.get</code></li>
-<li><code dir="ltr" translate="no">memcache.locations.list</code></li>
+<li><code>memcache.locations.get</code></li>
+<li><code>memcache.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">memcache.operations.get</code></p>
-<p><code dir="ltr" translate="no">memcache.operations.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>memcache.operations.get</code></p>
+<p><code>memcache.operations.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -117,301 +117,57 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="memcache.serviceAgent" class="role-title add-link" data-text="Cloud Memorystore Memcached Service Agent" tabindex="-1">Cloud Memorystore Memcached Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  memcache.serviceAgent</code> )</p>
+<td>Cloud Memorystore Memcached Service Agent
+<p>( <code>roles/ memcache.serviceAgent</code> )</p>
 <p>Gives Cloud Memorystore Memcached service account access to managed resource</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">compute.globalOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.networks.addPeering</code></p>
-<p><code dir="ltr" translate="no">compute.networks.get</code></p>
-<p><code dir="ltr" translate="no">compute.networks.removePeering</code></p>
-<p><code dir="ltr" translate="no">compute.networks.update</code></p>
-<p><code dir="ltr" translate="no">compute.routes.get</code></p>
-<p><code dir="ltr" translate="no">compute.routes.list</code></p>
-<p><code dir="ltr" translate="no">compute.subnetworks.get</code></p>
-<p><code dir="ltr" translate="no">compute.subnetworks.list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  create</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  get</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.*</code></p>
+<td><p><code>compute.globalOperations.get</code></p>
+<p><code>compute.networks.addPeering</code></p>
+<p><code>compute.networks.get</code></p>
+<p><code>compute.networks.removePeering</code></p>
+<p><code>compute.networks.update</code></p>
+<p><code>compute.routes.get</code></p>
+<p><code>compute.routes.list</code></p>
+<p><code>compute.subnetworks.get</code></p>
+<p><code>compute.subnetworks.list</code></p>
+<p><code>monitoring. metricDescriptors. create</code></p>
+<p><code>monitoring. metricDescriptors. get</code></p>
+<p><code>monitoring. metricDescriptors. list</code></p>
+<p><code>monitoring. monitoredResourceDescriptors.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  get</code></li>
-<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></li>
+<li><code>monitoring. monitoredResourceDescriptors. get</code></li>
+<li><code>monitoring. monitoredResourceDescriptors. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.create</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>monitoring.timeSeries.create</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Memorystore for Memcached permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="memcache.instances.applyParameters" class="permission-name add-link" data-text="memcache.instances.applyParameters" tabindex="-1"><code dir="ltr" translate="no">memcache.  instances.  applyParameters</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="memcache.instances.applySoftwareUpdate" class="permission-name add-link" data-text="memcache.instances.applySoftwareUpdate" tabindex="-1"><code dir="ltr" translate="no">memcache.  instances.  applySoftwareUpdate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="memcache.instances.create" class="permission-name add-link" data-text="memcache.instances.create" tabindex="-1"><code dir="ltr" translate="no">memcache.instances.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="memcache.instances.createTagBinding" class="permission-name add-link" data-text="memcache.instances.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">memcache.  instances.  createTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="memcache.instances.delete" class="permission-name add-link" data-text="memcache.instances.delete" tabindex="-1"><code dir="ltr" translate="no">memcache.instances.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="memcache.instances.deleteTagBinding" class="permission-name add-link" data-text="memcache.instances.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">memcache.  instances.  deleteTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="memcache.instances.get" class="permission-name add-link" data-text="memcache.instances.get" tabindex="-1"><code dir="ltr" translate="no">memcache.instances.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.viewer">Cloud Memorystore Memcached Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="memcache.instances.list" class="permission-name add-link" data-text="memcache.instances.list" tabindex="-1"><code dir="ltr" translate="no">memcache.instances.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.viewer">Cloud Memorystore Memcached Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="memcache.instances.listEffectiveTags" class="permission-name add-link" data-text="memcache.instances.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">memcache.  instances.  listEffectiveTags</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="memcache.instances.listTagBindings" class="permission-name add-link" data-text="memcache.instances.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">memcache.  instances.  listTagBindings</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="memcache.instances.rescheduleMaintenance" class="permission-name add-link" data-text="memcache.instances.rescheduleMaintenance" tabindex="-1"><code dir="ltr" translate="no">memcache.  instances.  rescheduleMaintenance</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="memcache.instances.update" class="permission-name add-link" data-text="memcache.instances.update" tabindex="-1"><code dir="ltr" translate="no">memcache.instances.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="memcache.instances.updateParameters" class="permission-name add-link" data-text="memcache.instances.updateParameters" tabindex="-1"><code dir="ltr" translate="no">memcache.  instances.  updateParameters</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="memcache.instances.upgrade" class="permission-name add-link" data-text="memcache.instances.upgrade" tabindex="-1"><code dir="ltr" translate="no">memcache.instances.upgrade</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="memcache.locations.get" class="permission-name add-link" data-text="memcache.locations.get" tabindex="-1"><code dir="ltr" translate="no">memcache.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.viewer">Cloud Memorystore Memcached Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="memcache.locations.list" class="permission-name add-link" data-text="memcache.locations.list" tabindex="-1"><code dir="ltr" translate="no">memcache.locations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.viewer">Cloud Memorystore Memcached Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="memcache.operations.cancel" class="permission-name add-link" data-text="memcache.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">memcache.operations.cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="memcache.operations.delete" class="permission-name add-link" data-text="memcache.operations.delete" tabindex="-1"><code dir="ltr" translate="no">memcache.operations.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="memcache.operations.get" class="permission-name add-link" data-text="memcache.operations.get" tabindex="-1"><code dir="ltr" translate="no">memcache.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.viewer">Cloud Memorystore Memcached Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="memcache.operations.list" class="permission-name add-link" data-text="memcache.operations.list" tabindex="-1"><code dir="ltr" translate="no">memcache.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor">Cloud Memorystore Memcached Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.viewer">Cloud Memorystore Memcached Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                   | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `memcache. instances. applyParameters`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `memcache. instances. applySoftwareUpdate`   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `memcache.instances.create`                  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `memcache. instances. createTagBinding`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Tag User](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser) ( `roles/ resourcemanager.tagUser` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [DLP Organization Data Profiles Driver](https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver) ( `roles/ dlp.orgdriver` ) [DLP Project Data Profiles Driver](https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver) ( `roles/ dlp.projectdriver` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `memcache.instances.delete`                  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `memcache. instances. deleteTagBinding`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Tag User](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser) ( `roles/ resourcemanager.tagUser` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [DLP Organization Data Profiles Driver](https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver) ( `roles/ dlp.orgdriver` ) [DLP Project Data Profiles Driver](https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver) ( `roles/ dlp.projectdriver` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `memcache.instances.get`                     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Cloud Memorystore Memcached Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.viewer) ( `roles/ memcache.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Data Scientist](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist) ( `roles/ iam.dataScientist` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| `memcache.instances.list`                    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Cloud Memorystore Memcached Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.viewer) ( `roles/ memcache.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Data Scientist](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist) ( `roles/ iam.dataScientist` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                     |
+| `memcache. instances. listEffectiveTags`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Tag User](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser) ( `roles/ resourcemanager.tagUser` ) [Tag Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer) ( `roles/ resourcemanager.tagViewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [DLP Organization Data Profiles Driver](https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver) ( `roles/ dlp.orgdriver` ) [DLP Project Data Profiles Driver](https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver) ( `roles/ dlp.projectdriver` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `memcache. instances. listTagBindings`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Tag User](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser) ( `roles/ resourcemanager.tagUser` ) [Tag Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer) ( `roles/ resourcemanager.tagViewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [DLP Organization Data Profiles Driver](https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver) ( `roles/ dlp.orgdriver` ) [DLP Project Data Profiles Driver](https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver) ( `roles/ dlp.projectdriver` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `memcache. instances. rescheduleMaintenance` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `memcache.instances.update`                  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `memcache. instances. updateParameters`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `memcache.instances.upgrade`                 | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `memcache.locations.get`                     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Cloud Memorystore Memcached Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.viewer) ( `roles/ memcache.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Data Scientist](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist) ( `roles/ iam.dataScientist` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| `memcache.locations.list`                    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Cloud Memorystore Memcached Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.viewer) ( `roles/ memcache.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Data Scientist](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist) ( `roles/ iam.dataScientist` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                     |
+| `memcache.operations.cancel`                 | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `memcache.operations.delete`                 | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `memcache.operations.get`                    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Cloud Memorystore Memcached Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.viewer) ( `roles/ memcache.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Data Scientist](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist) ( `roles/ iam.dataScientist` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| `memcache.operations.list`                   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Cloud Memorystore Memcached Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin) ( `roles/ memcache.admin` ) [Cloud Memorystore Memcached Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.editor) ( `roles/ memcache.editor` ) [Cloud Memorystore Memcached Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.viewer) ( `roles/ memcache.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Data Scientist](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist) ( `roles/ iam.dataScientist` ) [Databases Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin) ( `roles/ iam.databasesAdmin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                     |

@@ -10,17 +10,17 @@ You can use Privileged Access Manager (PAM) to control just-in-time temporary pr
 
 To allow temporary elevation, you [create an *entitlement*](https://docs.cloud.google.com/iam/docs/pam-create-entitlements) in Privileged Access Manager, and add the following attributes to it:
 
-  - A set of principals who are allowed to request a grant against the entitlement.
+- A set of principals who are allowed to request a grant against the entitlement.
 
-  - Whether a justification is required for that grant.
+- Whether a justification is required for that grant.
 
-  - A set of [roles](https://docs.cloud.google.com/iam/docs/roles-overview) to temporarily grant. [IAM conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) can be set on the roles.
+- A set of [roles](https://docs.cloud.google.com/iam/docs/roles-overview) to temporarily grant. [IAM conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) can be set on the roles.
 
-  - The maximum duration a grant can last.
+- The maximum duration a grant can last.
 
-  - Optional: Whether requests need [approval from a select set of principals](https://docs.cloud.google.com/iam/docs/pam-approve-deny-grants) , and whether those principals need to justify their approval.
+- Optional: Whether requests need [approval from a select set of principals](https://docs.cloud.google.com/iam/docs/pam-approve-deny-grants) , and whether those principals need to justify their approval.
 
-  - Optional: Additional stakeholders to be notified about important events, such as grants and pending approvals.
+- Optional: Additional stakeholders to be notified about important events, such as grants and pending approvals.
 
 A principal that's been added as a requester to an entitlement can [request a grant against that entitlement](https://docs.cloud.google.com/iam/docs/pam-request-temporary-elevated-access) . If successful, they are granted the roles listed in the entitlement until the end of the grant duration, after which the roles are revoked by Privileged Access Manager.
 
@@ -30,29 +30,29 @@ To effectively use Privileged Access Manager, start by identifying specific use 
 
 While Privileged Access Manager can be used as a general best practice to grant temporary rather than permanent privileges, here are some scenarios where it may be commonly used:
 
-  - **Grant emergency access** : Allow select emergency responders to perform critical tasks without having to wait for approval. You can require justifications for emergency access requests for additional context.
+- **Grant emergency access** : Allow select emergency responders to perform critical tasks without having to wait for approval. You can require justifications for emergency access requests for additional context.
 
-  - **Control access to sensitive resources** : Tightly control access to sensitive resources, requiring approvals and business justifications. Privileged Access Manager can also be used to audit how this access was used—for example, when granted roles were active for a user, which resources were accessible during that time, the justification for access, and who approved it.
-    
-    For example, you can use Privileged Access Manager to do the following:
-    
-      - Give developers temporary access to production environments for troubleshooting or deployments.
-    
-      - Give support engineers access to sensitive customer data for specific tasks.
-    
-      - Give database administrators elevated privileges for maintenance or configuration changes.
+- **Control access to sensitive resources** : Tightly control access to sensitive resources, requiring approvals and business justifications. Privileged Access Manager can also be used to audit how this access was used—for example, when granted roles were active for a user, which resources were accessible during that time, the justification for access, and who approved it.
 
-  - **Implement granular least privilege** : Assigning administrative roles or broad access to all users can increase the attack surface. To prevent this, administrators can assign least privilege permanent roles and use Privileged Access Manager to provide temporary, time-bound elevated access for specific tasks when needed. Administrators can create entitlements with tag-based conditions and enforce requesters to create grant requests with customized scope and withdraw grants after the task is completed. This significantly reduces opportunities for misuse and reinforces the principle of "just-in-time" access.
+  For example, you can use Privileged Access Manager to do the following:
 
-  - **Automate privileged access approvals** : To enhance efficiency, you can configure service accounts or agent identities as approvers within your DevOps pipelines. These accounts can automate programmatic approvals by validating tickets directly from ITSM systems, thereby eliminating slow manual checks.
+  - Give developers temporary access to production environments for troubleshooting or deployments.
 
-  - **Help secure service accounts and agent identities** : Instead of permanently granting roles to service accounts or agent identities, allow them to self-elevate and assume roles only when needed for automated tasks.
+  - Give support engineers access to sensitive customer data for specific tasks.
 
-  - **Mitigate insider threats and accidental misuse** : With multi-party approvals, you can require a second approver for grant requests. This approach reduces the risk of a single administrator or a compromised account approving malicious access.
+  - Give database administrators elevated privileges for maintenance or configuration changes.
 
-  - **Manage access for contractors and extended workforce** : Grant contractors or members of the extended workforce temporary, time-bound access to resources, with approvals and justifications required.
+- **Implement granular least privilege** : Assigning administrative roles or broad access to all users can increase the attack surface. To prevent this, administrators can assign least privilege permanent roles and use Privileged Access Manager to provide temporary, time-bound elevated access for specific tasks when needed. Administrators can create entitlements with tag-based conditions and enforce requesters to create grant requests with customized scope and withdraw grants after the task is completed. This significantly reduces opportunities for misuse and reinforces the principle of "just-in-time" access.
 
-  - **Transition permanent roles to temporary access** : Remediate excessive permissions identified by [IAM recommender](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) . Instead of permanently revoking a role, you can shift it to a temporary, on-demand entitlement. For more information, see [Remediate excessive permissions with Privileged Access Manager](https://docs.cloud.google.com/iam/docs/pam-remediate-iam-recommendations) .
+- **Automate privileged access approvals** : To enhance efficiency, you can configure service accounts or agent identities as approvers within your DevOps pipelines. These accounts can automate programmatic approvals by validating tickets directly from ITSM systems, thereby eliminating slow manual checks.
+
+- **Help secure service accounts and agent identities** : Instead of permanently granting roles to service accounts or agent identities, allow them to self-elevate and assume roles only when needed for automated tasks.
+
+- **Mitigate insider threats and accidental misuse** : With multi-party approvals, you can require a second approver for grant requests. This approach reduces the risk of a single administrator or a compromised account approving malicious access.
+
+- **Manage access for contractors and extended workforce** : Grant contractors or members of the extended workforce temporary, time-bound access to resources, with approvals and justifications required.
+
+- **Transition permanent roles to temporary access** : Remediate excessive permissions identified by [IAM recommender](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) . Instead of permanently revoking a role, you can shift it to a temporary, on-demand entitlement. For more information, see [Remediate excessive permissions with Privileged Access Manager](https://docs.cloud.google.com/iam/docs/pam-remediate-iam-recommendations) .
 
 ## Capabilities and limitations
 
@@ -79,23 +79,23 @@ Privileged Access Manager events, such as creation of entitlements, requisition 
 ### Multi-level and multi-party approvals
 
 > **Preview — Multi-level and multi-party approvals**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 > **Note:** This feature is available with either the [Enterprise or Premium tier](https://docs.cloud.google.com/security-command-center/docs/service-tiers) of Security Command Center.
 
 Privileged Access Manager administrators can set up multi-level and multi-party approvals. This is useful for use cases that involve the following:
 
-  - High-risk operations such as modifying critical infrastructure or accessing sensitive data
-  - Enforcing the separation of duties
-  - Automating multi-level approval processes in dynamic workflows using service accounts or agent identities as intelligent approvers
+- High-risk operations such as modifying critical infrastructure or accessing sensitive data
+- Enforcing the separation of duties
+- Automating multi-level approval processes in dynamic workflows using service accounts or agent identities as intelligent approvers
 
 With this feature, Privileged Access Manager administrators can mandate more than one approval level per entitlement, allowing up to two levels of sequential approvals for each entitlement. Administrators can mandate up to five approvals per level. For more information, see [Create entitlements](https://docs.cloud.google.com/iam/docs/pam-create-entitlements) .
 
 ### Scope customization
 
 > **Preview — Scope customization**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 > **Note:** This feature is available with either the [Enterprise or Premium tier](https://docs.cloud.google.com/security-command-center/docs/service-tiers) of Security Command Center.
@@ -105,7 +105,7 @@ Requesters can customize the scope of their grant requests to include only the s
 ### Service account and agent identity approvals
 
 > **Preview — Service account and agent identity approvals**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 Privileged Access Manager administrators can enable service accounts and agent identities as eligible approvers. This lets administrators add service accounts, agent identities, and [identities in workload identity pools](https://docs.cloud.google.com/iam/docs/workload-identity-federation) as approvers when creating or modifying entitlements. For more information, see [Configure Privileged Access Manager settings](https://docs.cloud.google.com/iam/docs/pam-configure-settings) .
@@ -113,7 +113,7 @@ Privileged Access Manager administrators can enable service accounts and agent i
 ### Inheritance support
 
 > **Preview — Inheritance support**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 Entitlements and grants that are set up at the organization- or folder-level are visible from their descendent folders and projects in the Google Cloud console. Requesters can request access to the child resources based on those entitlements directly within those child resources. For more information, see [Request temporary elevated access with Privileged Access Manager](https://docs.cloud.google.com/iam/docs/pam-request-temporary-elevated-access) .
@@ -121,7 +121,7 @@ Entitlements and grants that are set up at the organization- or folder-level are
 ### Notification preferences customization
 
 > **Preview — Notification preferences customization**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 Privileged Access Manager settings administrators can customize resource-wide notification preferences for various Privileged Access Manager events. These settings let administrators selectively disable notifications for specific events and specific personas, or disable all notifications. For more information, see [Configure Privileged Access Manager settings](https://docs.cloud.google.com/iam/docs/pam-configure-settings) .
@@ -129,7 +129,7 @@ Privileged Access Manager settings administrators can customize resource-wide no
 ### Grant scheduling
 
 > **Preview — Grant scheduling**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 Requesters can schedule grant requests up to seven days in advance. This helps requesters align access with planned maintenance or on-call shifts and reduces the time they spend waiting for approvals. For more information, see [Request temporary elevated access](https://docs.cloud.google.com/iam/docs/pam-request-temporary-elevated-access) .
@@ -137,7 +137,7 @@ Requesters can schedule grant requests up to seven days in advance. This helps r
 ### Grant withdrawal
 
 > **Preview — Grant withdrawal**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 Requesters can withdraw grant requests that are pending approval or scheduled for activation. Requesters can also end their active grants when their privileged task is complete or when the access is no longer required. Organizations can recommend this as a best practice to limit the duration of privileged access to only the time it's actively needed. For more information, see [Withdraw grants](https://docs.cloud.google.com/iam/docs/pam-withdraw-grants) .
@@ -154,8 +154,8 @@ If these role bindings are modified by something other than Privileged Access Ma
 
 To avoid this issue, we recommend doing the following:
 
-  - Don't manually modify role bindings that are managed by Privileged Access Manager.
-  - If you use [Terraform](https://www.terraform.io/) to manage your IAM policies, ensure that you're using [non-authoritative resources](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_project_iam) instead of authoritative resources. This helps ensure that Terraform won't override Privileged Access Manager role bindings, even if they aren't in the declarative IAM policy configuration.
+- Don't manually modify role bindings that are managed by Privileged Access Manager.
+- If you use [Terraform](https://www.terraform.io/) to manage your IAM policies, ensure that you're using [non-authoritative resources](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_project_iam) instead of authoritative resources. This helps ensure that Terraform won't override Privileged Access Manager role bindings, even if they aren't in the declarative IAM policy configuration.
 
 ## Notifications
 
@@ -165,24 +165,24 @@ Privileged Access Manager can notify you about various events happening in Privi
 
 Privileged Access Manager sends email notifications to the relevant stakeholders for an entitlement and grant changes. The sets of recipients are as follows:
 
-  - **Eligible requesters of an entitlement** :
-    
-      - Email addresses of Cloud Identity users and [groups](https://docs.cloud.google.com/identity/docs/groups) specified as requesters in the entitlement.
-      - Manually configured email addresses in the entitlement: When using Google Cloud console, these email addresses are listed in the **Requester email recipients** field in the **Add requesters** section. When using the gcloud CLI or the REST API, these email addresses are listed in the `requesterEmailRecipients` field.
+- **Eligible requesters of an entitlement** :
 
-  - **Grant approvers for an entitlement** :
-    
-      - Email addresses of Cloud Identity users and groups specified as approvers in the approval level.
-      - Manually configured email addresses in the entitlement: When using the Google Cloud console, these email addresses are listed in the **Approval email recipients** field in the **Add approvers** section. When using the gcloud CLI or the REST API, these email addresses are listed in the `approverEmailRecipients` field of the approval workflow steps.
+  - Email addresses of Cloud Identity users and [groups](https://docs.cloud.google.com/identity/docs/groups) specified as requesters in the entitlement.
+  - Manually configured email addresses in the entitlement: When using Google Cloud console, these email addresses are listed in the **Requester email recipients** field in the **Add requesters** section. When using the gcloud CLI or the REST API, these email addresses are listed in the `requesterEmailRecipients` field.
 
-  - **Administrator of the entitlement** :
-    
-      - Manually configured email addresses in the entitlement: When using the Google Cloud console, these email addresses are listed in the **Admin email recipients** field in the **Entitlement details** section. When using the gcloud CLI or the REST API, these email addresses are listed in the `adminEmailRecipients` field.
+- **Grant approvers for an entitlement** :
 
-  - **Requester of a grant** :
-    
-      - Email address of the grant requester if they are a Cloud Identity user.
-      - Additional email addresses added by the requester while requesting the grant: When using Google Cloud console, these email addresses are listed in the **Additional email address(es)** field. When using gcloud CLI or the REST API, these email addresses are listed in the `additionalEmailRecipients` field.
+  - Email addresses of Cloud Identity users and groups specified as approvers in the approval level.
+  - Manually configured email addresses in the entitlement: When using the Google Cloud console, these email addresses are listed in the **Approval email recipients** field in the **Add approvers** section. When using the gcloud CLI or the REST API, these email addresses are listed in the `approverEmailRecipients` field of the approval workflow steps.
+
+- **Administrator of the entitlement** :
+
+  - Manually configured email addresses in the entitlement: When using the Google Cloud console, these email addresses are listed in the **Admin email recipients** field in the **Entitlement details** section. When using the gcloud CLI or the REST API, these email addresses are listed in the `adminEmailRecipients` field.
+
+- **Requester of a grant** :
+
+  - Email address of the grant requester if they are a Cloud Identity user.
+  - Additional email addresses added by the requester while requesting the grant: When using Google Cloud console, these email addresses are listed in the **Additional email address(es)** field. When using gcloud CLI or the REST API, these email addresses are listed in the `additionalEmailRecipients` field.
 
 Privileged Access Manager sends emails to these email addresses for the following events:
 
@@ -232,4 +232,4 @@ Privileged Access Manager is integrated with [Cloud Asset Inventory](https://doc
 
 ## What's next
 
-  - [Privileged Access Manager permissions and setup](https://docs.cloud.google.com/iam/docs/pam-permissions-and-setup)
+- [Privileged Access Manager permissions and setup](https://docs.cloud.google.com/iam/docs/pam-permissions-and-setup)

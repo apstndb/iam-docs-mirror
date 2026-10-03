@@ -13,25 +13,25 @@ In Identity and Access Management (IAM), you control access for *principals* . A
 To use principals in your policies, do the following:
 
 1.  **Configure identities that Google Cloud can recognize.** Configuring identities is the process of creating identities that Google Cloud can recognize. You can configure identities for users and for workloads.
-    
+
     To learn how to configure identities, see the following:
-    
-      - To learn how to configure identities for users, see [Identities for users](https://docs.cloud.google.com/iam/docs/user-identities) .
-      - To learn how to configure identities for workloads, see [Identities for workloads](https://docs.cloud.google.com/iam/docs/workload-identities) .
+
+    - To learn how to configure identities for users, see [Identities for users](https://docs.cloud.google.com/iam/docs/user-identities) .
+    - To learn how to configure identities for workloads, see [Identities for workloads](https://docs.cloud.google.com/iam/docs/workload-identities) .
 
 2.  **Determine the principal identifier that you will use.** The principal identifier is how you refer to a principal in your policies. This identifier can refer to a single identity or to a group of identities.
-    
+
     The format that you use for the principal identifier depends on the following:
-    
-      - The type of principal
-      - The type of the policy that you want to include the principal in
-    
+
+    - The type of principal
+    - The type of the policy that you want to include the principal in
+
     To see the principal identifier format for each type of principal in each type of policy, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
-    
+
     After you know the format of the identifier, you can determine the principal's unique identifier based on the attributes of the principal, such as the principal's email address.
 
 3.  **Include the principal's identifier in your policy.** Add your principal to your policy, following the format of the policy.
-    
+
     To learn about the different types of policies in IAM, see [Policy types](https://docs.cloud.google.com/iam/docs/policy-types) .
 
 ### Support for principal types
@@ -158,7 +158,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 </ul></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.cloud.google.com/iam/docs/principals-overview#all-authenticated-users"><code dir="ltr" translate="no">allAuthenticatedUsers</code></a></td>
+<td><a href="https://docs.cloud.google.com/iam/docs/principals-overview#all-authenticated-users"><code>allAuthenticatedUsers</code></a></td>
 <td>A special identifier that represents all service accounts and human users on the internet who have authenticated with a Google Account.</td>
 <td><p>Principal set that can contain the following principal types:</p>
 <ul>
@@ -168,18 +168,18 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <li>Workload identities</li>
 </ul></td>
 <td>Google-managed</td>
-<td><p>The following policy types support <code dir="ltr" translate="no">allAuthenticatedUsers</code> for some resources:</p>
+<td><p>The following policy types support <code>allAuthenticatedUsers</code> for some resources:</p>
 <ul>
 <li><strong>Allow</strong></li>
 </ul>
-<p>The following policy types don't support <code dir="ltr" translate="no">allAuthenticatedUsers</code> :</p>
+<p>The following policy types don't support <code>allAuthenticatedUsers</code> :</p>
 <ul>
 <li><strong>Deny</strong></li>
 <li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.cloud.google.com/iam/docs/principals-overview#all-users"><code dir="ltr" translate="no">allUsers</code></a></td>
+<td><a href="https://docs.cloud.google.com/iam/docs/principals-overview#all-users"><code>allUsers</code></a></td>
 <td>A special identifier that represents anyone who is on the internet—authenticated and unauthenticated.</td>
 <td><p>Principal set that can contain the following principal types:</p>
 <ul>
@@ -189,12 +189,12 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <li>Workload identities</li>
 </ul></td>
 <td>Both</td>
-<td><p>The following policy types support <code dir="ltr" translate="no">allUsers</code> :</p>
+<td><p>The following policy types support <code>allUsers</code> :</p>
 <ul>
 <li><strong>Allow</strong> (for some resources)</li>
 <li><strong>Deny</strong></li>
 </ul>
-<p>The following policy types don't support <code dir="ltr" translate="no">allUsers</code> :</p>
+<p>The following policy types don't support <code>allUsers</code> :</p>
 <ul>
 <li><strong>Principal Access Boundary</strong></li>
 </ul></td>
@@ -330,8 +330,8 @@ A Google Account represents a developer, an administrator, or any other person w
 
 The following examples show how you can identify a Google Account in different types of policies:
 
-  - **Allow policies** : `user:alex@example.com`
-  - **Deny policies** : `principal://goog/subject/alex@example.com`
+- **Allow policies** : `user:alex@example.com`
+- **Deny policies** : `principal://goog/subject/alex@example.com`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -343,36 +343,36 @@ For more information about setting up Google Accounts, see [Cloud Identity or Go
 
 A service account is an account for an application or compute workload instead of an individual end user. Service accounts can be divided into *user-managed service accounts* and Google-managed service accounts, which are called *service agents* :
 
-  - When you run code that's hosted on Google Cloud, you specify a service account to use as the identity for your application. You can create as many user-managed service accounts as needed to represent the different logical components of your application.
+- When you run code that's hosted on Google Cloud, you specify a service account to use as the identity for your application. You can create as many user-managed service accounts as needed to represent the different logical components of your application.
 
-  - Some Google Cloud services need access to your resources so they can act on your behalf. Google creates and manages service agents to meet this need.
+- Some Google Cloud services need access to your resources so they can act on your behalf. Google creates and manages service agents to meet this need.
 
 You can reference service accounts and service agents in the following ways:
 
-  - A single service account
-  - All service accounts in a project
-  - All service agents associated with a project
-  - All service accounts in all projects in a folder
-  - All service agents associated with a folder and its descendants
-  - All service accounts in all projects in an organization
-  - All service agents associated with an organization and its descendants
+- A single service account
+- All service accounts in a project
+- All service agents associated with a project
+- All service accounts in all projects in a folder
+- All service agents associated with a folder and its descendants
+- All service accounts in all projects in an organization
+- All service agents associated with an organization and its descendants
 
 The following examples show how you can identify an individual service account in different types of policies:
 
-  - **A service account in allow policies** : `serviceAccount:my-service-account@my-project.iam.gserviceaccount.com`
-  - **A service account in deny policies** : `principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com`
+- **A service account in allow policies** : `serviceAccount:my-service-account@my-project.iam.gserviceaccount.com`
+- **A service account in deny policies** : `principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com`
 
 The following examples show how you can identify all service accounts for a project, folder, or organization in different types of policies:
 
-  - **All service accounts for a project in allow policies** : `principalSet://cloudresourcemanager.googleapis.com/projects/123456789012/type/ServiceAccount`
-  - **All service agents associated with a folder in deny policies** : `principalSet://cloudresourcemanager.googleapis.com/folders/123456789012/type/ServiceAgent`
+- **All service accounts for a project in allow policies** : `principalSet://cloudresourcemanager.googleapis.com/projects/123456789012/type/ServiceAccount`
+- **All service agents associated with a folder in deny policies** : `principalSet://cloudresourcemanager.googleapis.com/folders/123456789012/type/ServiceAgent`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
 For more information about service accounts, see the following pages:
 
-  - [Service accounts overview](https://docs.cloud.google.com/iam/docs/service-account-overview)
-  - [Types of service accounts](https://docs.cloud.google.com/iam/docs/service-account-types)
+- [Service accounts overview](https://docs.cloud.google.com/iam/docs/service-account-overview)
+- [Types of service accounts](https://docs.cloud.google.com/iam/docs/service-account-types)
 
 > **Note:** If you use Google Kubernetes Engine (GKE), you can also grant roles to [Kubernetes service accounts](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/service-accounts#kubernetes-service-accounts) , which differ from IAM service accounts.
 
@@ -386,14 +386,12 @@ Google groups don't have login credentials, and you can't use Google groups to e
 
 The following examples show how you can identify a Google group in different types of policies:
 
-  - **Allow policies** : `group:my-group@example.com`
-  - **Deny policies** : `principalSet://goog/group/my-group@example.com`
+- **Allow policies** : `group:my-group@example.com`
+- **Deny policies** : `principalSet://goog/group/my-group@example.com`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
 To learn more about using groups for access control, see [Best practices for using Google groups](https://docs.cloud.google.com/iam/docs/groups-best-practices) .
-
-<span id="domains"></span>
 
 ### Domains
 
@@ -405,9 +403,9 @@ When you create a Google Account for a new user, such as `username@example.com` 
 
 The following examples show how you can identify a domain in different types of policies:
 
-  - **Allow policies** : `domain:example.com`
-  - **Deny policies** : `principalSet://goog/cloudIdentityCustomerId/C01Abc35`
-  - **Principal Access Boundary policies** : `//iam.googleapis.com/locations/global/workspace/C01Abc35`
+- **Allow policies** : `domain:example.com`
+- **Deny policies** : `principalSet://goog/cloudIdentityCustomerId/C01Abc35`
+- **Principal Access Boundary policies** : `//iam.googleapis.com/locations/global/workspace/C01Abc35`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -423,8 +421,6 @@ IAM uses your customer ID to identify members in the domain, not the domain name
 
 Domain names in allow policies default to the primary domain name. If you grant access to a domain using a secondary domain name, it will be automatically replaced with the corresponding primary domain name.
 
-<span id="allauthenticatedusers"></span>
-
 ### `allAuthenticatedUsers`
 
 The value `allAuthenticatedUsers` is a special identifier that represents all service accounts and all users on the internet who have authenticated with a Google Account. This identifier includes accounts that aren't connected to a Google Workspace account or Cloud Identity domain, such as personal Gmail accounts. Users who aren't authenticated, such as anonymous visitors, aren't included.
@@ -435,12 +431,10 @@ The value `allAuthenticatedUsers` is a special identifier that represents all se
 
 This principal type doesn't include federated identities, which are managed by external identity providers (IdPs). If you use [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) or [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) , don't use `allAuthenticatedUsers` . Instead, use one of the following:
 
-  - To include users from all IdPs, use `allUsers` .
-  - To include users from specific external IdPs, use the identifier for [all identities in a workforce identity pool](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#representing-workforce-users) or [all identities in a workload identity pool](https://docs.cloud.google.com/iam/docs/workload-identity-federation#impersonation) .
+- To include users from all IdPs, use `allUsers` .
+- To include users from specific external IdPs, use the identifier for [all identities in a workforce identity pool](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#representing-workforce-users) or [all identities in a workload identity pool](https://docs.cloud.google.com/iam/docs/workload-identity-federation#impersonation) .
 
 Some resource types don't support this principal type.
-
-<span id="allusers"></span>
 
 ### `allUsers`
 
@@ -454,8 +448,8 @@ Some resource types don't support this principal type.
 
 The following examples show how the `allUsers` identifier might look in different types of policies:
 
-  - **Allow policies on supported resource types** : `allUsers`
-  - **Deny policies** : `principalSet://goog/public:all`
+- **Allow policies on supported resource types** : `allUsers`
+- **Deny policies** : `principalSet://goog/public:all`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -463,16 +457,16 @@ To learn more about principal identifier formats, see [Principal identifiers](ht
 
 A workforce identity pool is a set of user identities that is managed by an external IdP and federated by using [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) . You can reference principals in these pools in the following ways:
 
-  - A single identity in a workforce identity pool
-  - All workforce identities in a specified group
-  - All workforce identities with a specific attribute value
-  - All identities in a workforce identity pool
+- A single identity in a workforce identity pool
+- All workforce identities in a specified group
+- All workforce identities with a specific attribute value
+- All identities in a workforce identity pool
 
 The following examples show how you can identify federated workforce identity pools in different types of policies:
 
-  - **A single identity in allow policies** : `principal://iam.googleapis.com/locations/global/workforcePools/altostrat-contractors/subject/raha@altostrat.com`
-  - **A group of identities in deny policies** : `principalSet://iam.googleapis.com/locations/global/workforcePools/altostrat-contractors/group/administrators-group@altostrat.com`
-  - **A workforce identity pool in Principal Access Boundary policies** : `//iam.googleapis.com/locations/global/workforcePools/example-workforce-pool`
+- **A single identity in allow policies** : `principal://iam.googleapis.com/locations/global/workforcePools/altostrat-contractors/subject/raha@altostrat.com`
+- **A group of identities in deny policies** : `principalSet://iam.googleapis.com/locations/global/workforcePools/altostrat-contractors/group/administrators-group@altostrat.com`
+- **A workforce identity pool in Principal Access Boundary policies** : `//iam.googleapis.com/locations/global/workforcePools/example-workforce-pool`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -480,16 +474,16 @@ To learn more about principal identifier formats, see [Principal identifiers](ht
 
 A workload identity pool is a set of workload identities that is managed by an external IdP and federated by using [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) . You can reference principals in these pools in the following ways:
 
-  - A single identity in a workload identity pool
-  - All workload identities in a specified group
-  - All workload identities with a specific attribute value
-  - All identities in a workload identity pool
+- A single identity in a workload identity pool
+- All workload identities in a specified group
+- All workload identities with a specific attribute value
+- All identities in a workload identity pool
 
 The following examples show how you can identify federated workload identity pools in different types of policies:
 
-  - **A single identity in allow policies** : `principal://iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/altostrat-contractors/subject/raha@altostrat.com`
-  - **A group of identities in deny policies** : `principalSet://iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/altostrat-contractors/group/administrators-group@altostrat.com`
-  - **A workload identity pool in Principal Access Boundary policies** : `//iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/example-workload-pool`
+- **A single identity in allow policies** : `principal://iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/altostrat-contractors/subject/raha@altostrat.com`
+- **A group of identities in deny policies** : `principalSet://iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/altostrat-contractors/group/administrators-group@altostrat.com`
+- **A workload identity pool in Principal Access Boundary policies** : `//iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/example-workload-pool`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -499,14 +493,16 @@ Workloads running on GKE use [Workload Identity Federation for GKE](https://docs
 
 The following example shows how you can identify all GKE pods in a specific cluster in an allow policy:
 
-    principalSet://iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/123456789012.svc.id.goog/kubernetes.cluster/https://container.googleapis.com/v1/projects/123456789012/locations/global/clusters/example-gke-cluster
+```
+principalSet://iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/123456789012.svc.id.goog/kubernetes.cluster/https://container.googleapis.com/v1/projects/123456789012/locations/global/clusters/example-gke-cluster
+```
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
 ### Agent identities
 
 > **Preview**
-> 
+>
 > This product or feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA products and features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 An agent identity is a Google-managed identity for agentic workloads. An agent identity is attested and tied to the lifecycle of the agent, which provides a more secure way to manage agent access to Google Cloud resources than using service accounts.
@@ -517,10 +513,10 @@ Agent identities can also be grouped into *agent identity pools* .
 
 The following examples show how you can identify agent identities in various types of policies:
 
-  - **A single agent identity in an allow policy (in an organization)** : `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
-  - **A single agent identity in an allow policy (in a project without an organization)** : `principal://agents.global.proj-9876543210.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
-  - **All agent identities in a project in a deny policy** : `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210`
-  - **All agent identities in a project in a Principal Access Boundary policy** : `//agents.global.org-123456789012.system.id.goog/attribute.container/projects/9876543210`
+- **A single agent identity in an allow policy (in an organization)** : `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
+- **A single agent identity in an allow policy (in a project without an organization)** : `principal://agents.global.proj-9876543210.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
+- **All agent identities in a project in a deny policy** : `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210`
+- **All agent identities in a project in a Principal Access Boundary policy** : `//agents.global.org-123456789012.system.id.goog/attribute.container/projects/9876543210`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -530,23 +526,25 @@ Each Resource Manager resource—such as a project, folder, or organization—is
 
 Principal sets for Resource Manager resources contain the following principals:
 
-  - **Project principal set** : All service accounts and workload identity pools in the specified project.
+- **Project principal set** : All service accounts and workload identity pools in the specified project.
 
-  - **Folder principal set** : All service accounts and all workload identity pools in any project in the specified folder.
+- **Folder principal set** : All service accounts and all workload identity pools in any project in the specified folder.
 
-  - **Organization principal set** : Contains the following identities:
-    
-      - All identities in all domains associated with your Google Workspace customer ID
-      - All workforce identity pools in your organization
-      - All service accounts and workload identity pools in any project in the organization
+- **Organization principal set** : Contains the following identities:
+
+  - All identities in all domains associated with your Google Workspace customer ID
+  - All workforce identity pools in your organization
+  - All service accounts and workload identity pools in any project in the organization
 
 The following example shows how you can identify a project's principal set in a Principal Access Boundary policy:
 
-    //cloudresourcemanager.googleapis.com/projects/example-project
+```
+//cloudresourcemanager.googleapis.com/projects/example-project
+```
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
 ## What's next
 
-  - Learn about the [policy types](https://docs.cloud.google.com/iam/docs/policy-types) that IAM supports
-  - [Grant a principal a role](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) on a Resource Manager project, folder, or organization
+- Learn about the [policy types](https://docs.cloud.google.com/iam/docs/policy-types) that IAM supports
+- [Grant a principal a role](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) on a Resource Manager project, folder, or organization

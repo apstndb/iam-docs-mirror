@@ -29,26 +29,28 @@ To enable APIs, you need the `serviceusage.services.enable` permission. If you c
 
 When you enable the Agent Identity API, the Agent Registry page in the Google Cloud console switches to the new API to read and write resources:
 
-  - **You don't need to recreate your auth providers.** The new API mirrors each legacy auth provider (for example, ` projects/ PROJECT_ID /locations/ LOCATION / connectors / AUTH_PROVIDER_NAME  ` ) as an `  authProviders  ` resource ( ` projects/ PROJECT_ID /locations/ LOCATION / authProviders / AUTH_PROVIDER_NAME  ` ).
+- **You don't need to recreate your auth providers.** The new API mirrors each legacy auth provider (for example, `projects/ `` PROJECT_ID `` /locations/ `` LOCATION `` / `**`connectors`**` / `` AUTH_PROVIDER_NAME` ) as an **`authProviders`** resource ( `projects/ `` PROJECT_ID `` /locations/ `` LOCATION `` / `**`authProviders`**` / `` AUTH_PROVIDER_NAME` ).
 
-  - A newly created auth provider using the Google Cloud console or the gcloud CLI appears as an `authProviders/` resource and isn't visible in the legacy API.
+- A newly created auth provider using the Google Cloud console or the gcloud CLI appears as an `authProviders/` resource and isn't visible in the legacy API.
 
-  - The active agents using legacy `connectors/` strings continue to work during the migration window.
+- The active agents using legacy `connectors/` strings continue to work during the migration window.
 
 ## Update IAM allow policies
 
 Grant the new IAM roles on mirrored auth provider resources so that your agents can retrieve credentials from the new API endpoints.
 
-For example, if you granted the **Connector User** ( `roles/iamconnectors.user` ) role to your agent's SPIFFE ID on the legacy `  connectors / AUTH_PROVIDER_NAME  ` resource, grant the **Agent Identity User** ( `roles/agentidentity.user` ) role on the new `  authProviders / AUTH_PROVIDER_NAME  ` resource:
+For example, if you granted the **Connector User** ( `roles/iamconnectors.user` ) role to your agent's SPIFFE ID on the legacy **`connectors`**` / `` AUTH_PROVIDER_NAME` resource, grant the **Agent Identity User** ( `roles/agentidentity.user` ) role on the new **`authProviders`**` / `` AUTH_PROVIDER_NAME` resource:
 
-    gcloud agent-identity auth-providers add-iam-policy-binding \
-        AUTH_PROVIDER_NAME \
-        --project="PROJECT_ID" \
-        --location="LOCATION" \
-        --role="roles/agentidentity.user" \
-        --member="principal://agents.global.org-ORGANIZATION_ID.system.id.goog/resources/aiplatform/projects/PROJECT_NUMBER/locations/LOCATION/reasoningEngines/ENGINE_ID"
+```
+gcloud agent-identity auth-providers add-iam-policy-binding \
+    AUTH_PROVIDER_NAME \
+    --project="PROJECT_ID" \
+    --location="LOCATION" \
+    --role="roles/agentidentity.user" \
+    --member="principal://agents.global.org-ORGANIZATION_ID.system.id.goog/resources/aiplatform/projects/PROJECT_NUMBER/locations/LOCATION/reasoningEngines/ENGINE_ID"
+```
 
-If you test your agent locally using `adk web` , grant `roles/agentidentity.user` to your personal user account ( ` user: USER_EMAIL  ` ).
+If you test your agent locally using `adk web` , grant `roles/agentidentity.user` to your personal user account ( `user: `` USER_EMAIL` ).
 
 ## Update your agent code and SDKs
 
@@ -57,18 +59,22 @@ Update your agent code to reference the new `authProviders/` resource hierarchy 
 1.  Update your ADK version in your agent code to **2.3.0** or higher.
 
 2.  In your agent code (for example, `agent.py` ), replace `connectors/` with `authProviders/` in the `GcpAuthProviderScheme` resource string.
-    
+
     **Legacy configuration** :
-    
-        auth_scheme = GcpAuthProviderScheme(
-            name="projects/PROJECT_ID/locations/LOCATION/connectors/AUTH_PROVIDER_NAME"
-        )
-    
+
+    ```
+    auth_scheme = GcpAuthProviderScheme(
+        name="projects/PROJECT_ID/locations/LOCATION/connectors/AUTH_PROVIDER_NAME"
+    )
+    ```
+
     **New configuration** :
-    
-        auth_scheme = GcpAuthProviderScheme(
-            name="projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME"
-        )
+
+    ```
+    auth_scheme = GcpAuthProviderScheme(
+        name="projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME"
+    )
+    ```
 
 3.  3-legged OAuth only: If your agent calls the REST API directly, update the endpoint hostname from `iamconnectorcredentials.googleapis.com` to `agentidentitycredentials.googleapis.com` , and replace `connectors/` with `authProviders/` in the request path.
 
@@ -80,13 +86,16 @@ After you update your IAM allow policies and deploy your agent code, verify that
 
 After you migrate all active workflows, disable the legacy service in your project:
 
-    gcloud services disable iamconnectors.googleapis.com \    --project="PROJECT_ID"
+```
+gcloud services disable iamconnectors.googleapis.com \
+    --project="PROJECT_ID"
+```
 
 ## What's next
 
-  - [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
-  - [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)
-  - [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
-  - [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
-  - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)
-  - [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations)
+- [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
+- [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)
+- [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
+- [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
+- [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)
+- [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations)

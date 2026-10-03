@@ -23,106 +23,61 @@ This page lists the IAM roles and permissions for Cloud Profiler. To search thro
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudprofiler.admin" class="role-title add-link" data-text="Cloud Profiler Admin" tabindex="-1">Cloud Profiler Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudprofiler.admin</code> )</p>
+<td>Cloud Profiler Admin
+<p>( <code>roles/ cloudprofiler.admin</code> )</p>
 <p>Admin role for Cloud Profiler</p></td>
-<td><p><code dir="ltr" translate="no">cloudprofiler.*</code></p>
+<td><p><code>cloudprofiler.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudprofiler.profiles.create</code></li>
-<li><code dir="ltr" translate="no">cloudprofiler.profiles.list</code></li>
-<li><code dir="ltr" translate="no">cloudprofiler.profiles.update</code></li>
+<li><code>cloudprofiler.profiles.create</code></li>
+<li><code>cloudprofiler.profiles.list</code></li>
+<li><code>cloudprofiler.profiles.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprofiler.viewer" class="role-title add-link" data-text="Cloud Profiler Viewer" tabindex="-1">Cloud Profiler Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudprofiler.viewer</code> )</p>
+<td>Cloud Profiler Viewer
+<p>( <code>roles/ cloudprofiler.viewer</code> )</p>
 <p>Viewer role for Cloud Profiler</p></td>
-<td><p><code dir="ltr" translate="no">cloudprofiler.profiles.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudprofiler.profiles.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudprofiler.agent" class="role-title add-link" data-text="Cloud Profiler Agent" tabindex="-1">Cloud Profiler Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudprofiler.agent</code> )</p>
+<td>Cloud Profiler Agent
+<p>( <code>roles/ cloudprofiler.agent</code> )</p>
 <p>Cloud Profiler agents are allowed to register and provide the profiling data.</p></td>
-<td><p><code dir="ltr" translate="no">cloudprofiler.profiles.create</code></p>
-<p><code dir="ltr" translate="no">cloudprofiler.profiles.update</code></p></td>
+<td><p><code>cloudprofiler.profiles.create</code></p>
+<p><code>cloudprofiler.profiles.update</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudprofiler.user" class="role-title add-link" data-text="Cloud Profiler User" tabindex="-1">Cloud Profiler User</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudprofiler.user</code> )</p>
+<td>Cloud Profiler User
+<p>( <code>roles/ cloudprofiler.user</code> )</p>
 <p>Cloud Profiler users are allowed to query and view the profiling data.</p></td>
-<td><p><code dir="ltr" translate="no">cloudprofiler.profiles.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<td><p><code>cloudprofiler.profiles.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.quotas.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.quotas.get</code></p>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Cloud Profiler permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="cloudprofiler.profiles.create" class="permission-name add-link" data-text="cloudprofiler.profiles.create" tabindex="-1"><code dir="ltr" translate="no">cloudprofiler.profiles.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.admin">Cloud Profiler Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprofiler.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.agent">Cloud Profiler Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprofiler.agent</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.worker">Dataproc Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataproc.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudprofiler.profiles.list" class="permission-name add-link" data-text="cloudprofiler.profiles.list" tabindex="-1"><code dir="ltr" translate="no">cloudprofiler.profiles.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.admin">Cloud Profiler Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprofiler.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.viewer">Cloud Profiler Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprofiler.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.user">Cloud Profiler User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprofiler.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudprofiler.profiles.update" class="permission-name add-link" data-text="cloudprofiler.profiles.update" tabindex="-1"><code dir="ltr" translate="no">cloudprofiler.profiles.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.admin">Cloud Profiler Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprofiler.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.agent">Cloud Profiler Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprofiler.agent</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.worker">Dataproc Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataproc.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                      | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `cloudprofiler.profiles.create` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Profiler Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.admin) ( `roles/ cloudprofiler.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Profiler Agent](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.agent) ( `roles/ cloudprofiler.agent` ) [Dataproc Worker](https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.worker) ( `roles/ dataproc.worker` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `cloudprofiler.profiles.list`   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Profiler Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.admin) ( `roles/ cloudprofiler.admin` ) [Cloud Profiler Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.viewer) ( `roles/ cloudprofiler.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Profiler User](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.user) ( `roles/ cloudprofiler.user` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `cloudprofiler.profiles.update` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Profiler Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.admin) ( `roles/ cloudprofiler.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Cloud Profiler Agent](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprofiler#cloudprofiler.agent) ( `roles/ cloudprofiler.agent` ) [Dataproc Worker](https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.worker) ( `roles/ dataproc.worker` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |

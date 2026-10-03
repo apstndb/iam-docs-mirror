@@ -6,214 +6,57 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-  - [](https://docs.cloud.google.com/iam/docs/authentication)
-    
-    ### Authenticate to IAM
-    
-    Authenticate to IAM programmatically so that you can access the IAM API.
+- [Authenticate to IAM Authenticate to IAM programmatically so that you can access the IAM API.](https://docs.cloud.google.com/iam/docs/authentication)
+- [Retry failed requests Find out how to retry failed requests to the IAM API.](https://docs.cloud.google.com/iam/docs/retry-strategy)
+- [Client libraries Use a client library to integrate your application with IAM.](https://docs.cloud.google.com/iam/docs/reference/libraries)
+- [`gcloud iam` commands Use the `gcloud iam` commands to work with IAM from the command line.](https://docs.cloud.google.com/sdk/gcloud/reference/iam)
 
-  - [](https://docs.cloud.google.com/iam/docs/retry-strategy)
-    
-    ### Retry failed requests
-    
-    Find out how to retry failed requests to the IAM API.
+<!-- -->
 
-  - [](https://docs.cloud.google.com/iam/docs/reference/libraries)
-    
-    ### Client libraries
-    
-    Use a client library to integrate your application with IAM.
+- [IAM REST API Manage roles and permissions, and manage your service accounts and keys, with the REST API.](https://docs.cloud.google.com/iam/docs/reference/rest)
+- [Privileged Access Manager REST API Manage just-in-time temporary role grants with the REST API.](https://docs.cloud.google.com/iam/docs/reference/pam/rest)
+- [Security Token Service REST API Exchange access tokens.](https://docs.cloud.google.com/iam/docs/reference/sts/rest)
+- [Service Account Credentials REST API Create short-lived, limited-privilege credentials for service accounts.](https://docs.cloud.google.com/iam/docs/reference/credentials/rest)
+- [Workload Identity API REST API Trigger service agent creation.](https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest)
+- [Agent Identity Credentials REST API Retrieve and finalize authorization credentials for auth providers.](https://docs.cloud.google.com/iam/docs/reference/agentidentitycredentials/rest)
+- [Agent Identity REST API Manage auth providers for Agent Identity.](https://docs.cloud.google.com/iam/docs/reference/agentidentity/rest)
+- [Cloud OAuth REST API (Preview) Exchange credentials for short-lived access tokens, revoke tokens, and manage OAuth configurations.](https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest)
 
-  - [](https://docs.cloud.google.com/sdk/gcloud/reference/iam)
-    
-    ### `gcloud iam` commands
-    
-    Use the `gcloud iam` commands to work with IAM from the command line.
+<!-- -->
 
-<!-- end list -->
+- [IAM RPC API Manage roles and permissions, and manage your service accounts and keys, with the RPC API.](https://docs.cloud.google.com/iam/docs/reference/rpc)
+- [Privileged Access Manager RPC API Manage just-in-time temporary role grants with the RPC API.](https://docs.cloud.google.com/iam/docs/reference/pam/rpc)
 
-  - [](https://docs.cloud.google.com/iam/docs/reference/rest)
-    
-    ### IAM REST API
-    
-    Manage roles and permissions, and manage your service accounts and keys, with the REST API.
+<!-- -->
 
-  - [](https://docs.cloud.google.com/iam/docs/reference/pam/rest)
-    
-    ### Privileged Access Manager REST API
-    
-    Manage just-in-time temporary role grants with the REST API.
+- [IAM MCP tools Learn about the MCP tools that you can use to inspect and manage IAM policy configurations across your Google Cloud resources.](https://docs.cloud.google.com/iam/docs/reference/mcp)
 
-  - [](https://docs.cloud.google.com/iam/docs/reference/sts/rest)
-    
-    ### Security Token Service REST API
-    
-    Exchange access tokens.
+<!-- -->
 
-  - [](https://docs.cloud.google.com/iam/docs/reference/credentials/rest)
-    
-    ### Service Account Credentials REST API
-    
-    Create short-lived, limited-privilege credentials for service accounts.
+- [Conditions attribute reference Learn about attributes that you can use to conditionally grant or deny access.](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference)
+- [Conditions resource attribute value reference Grant access to specific Google Cloud services, resource types, and resource names.](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes)
+- [Services that allow conditional role bindings Find out which resource types let you add conditional role bindings to their allow policies.](https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles)
 
-  - [](https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest)
-    
-    ### Workload Identity API REST API
-    
-    Trigger service agent creation.
+<!-- -->
 
-  - [](https://docs.cloud.google.com/iam/docs/reference/agentidentitycredentials/rest)
-    
-    ### Agent Identity Credentials REST API
-    
-    Retrieve and finalize authorization credentials for auth providers.
+- [Conditions attribute reference Learn about attributes that you can use to conditionally grant or deny access.](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference)
+- [Conditions resource attribute value reference Grant access to specific Google Cloud services, resource types, and resource names.](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes)
+- [Services that allow conditional role bindings Find out which resource types let you add conditional role bindings to their allow policies.](https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles)
 
-  - [](https://docs.cloud.google.com/iam/docs/reference/agentidentity/rest)
-    
-    ### Agent Identity REST API
-    
-    Manage auth providers for Agent Identity.
+<!-- -->
 
-  - [](https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest)
-    
-    ### Cloud OAuth REST API (Preview)
-    
-    Exchange credentials for short-lived access tokens, revoke tokens, and manage OAuth configurations.
+- [Roles and permissions index Filter and browse the available IAM roles and permissions for all Google Cloud services.](https://docs.cloud.google.com/iam/docs/roles-permissions)
 
-<!-- end list -->
+<!-- -->
 
-  - [](https://docs.cloud.google.com/iam/docs/reference/rpc)
-    
-    ### IAM RPC API
-    
-    Manage roles and permissions, and manage your service accounts and keys, with the RPC API.
-
-  - [](https://docs.cloud.google.com/iam/docs/reference/pam/rpc)
-    
-    ### Privileged Access Manager RPC API
-    
-    Manage just-in-time temporary role grants with the RPC API.
-
-<!-- end list -->
-
-  - [](https://docs.cloud.google.com/iam/docs/reference/mcp)
-    
-    ### IAM MCP tools
-    
-    Learn about the MCP tools that you can use to inspect and manage IAM policy configurations across your Google Cloud resources.
-
-<!-- end list -->
-
-  - [](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference)
-    
-    ### Conditions attribute reference
-    
-    Learn about attributes that you can use to conditionally grant or deny access.
-
-  - [](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes)
-    
-    ### Conditions resource attribute value reference
-    
-    Grant access to specific Google Cloud services, resource types, and resource names.
-
-  - [](https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles)
-    
-    ### Services that allow conditional role bindings
-    
-    Find out which resource types let you add conditional role bindings to their allow policies.
-
-<!-- end list -->
-
-  - [](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference)
-    
-    ### Conditions attribute reference
-    
-    Learn about attributes that you can use to conditionally grant or deny access.
-
-  - [](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes)
-    
-    ### Conditions resource attribute value reference
-    
-    Grant access to specific Google Cloud services, resource types, and resource names.
-
-  - [](https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles)
-    
-    ### Services that allow conditional role bindings
-    
-    Find out which resource types let you add conditional role bindings to their allow policies.
-
-<!-- end list -->
-
-  - [](https://docs.cloud.google.com/iam/docs/roles-permissions)
-    
-    ### Roles and permissions index
-    
-    Filter and browse the available IAM roles and permissions for all Google Cloud services.
-
-<!-- end list -->
-
-  - [](https://docs.cloud.google.com/iam/docs/understanding-roles)
-    
-    ### Basic and predefined roles reference
-    
-    View IAM basic roles, as well as a complete list of IAM predefined roles and the permissions they contain.
-
-  - [](https://docs.cloud.google.com/iam/docs/full-resource-names)
-    
-    ### Full resource names
-    
-    Understand the format that IAM uses to identify another service's resources.
-
-  - [](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services)
-    
-    ### Identity federation: supported products and limitations
-    
-    Lists Google Cloud products that work with workforce identity federation, and provides associated product limitations.
-
-  - [](https://docs.cloud.google.com/iam/docs/permissions-reference)
-    
-    ### Permissions reference
-    
-    View a complete list of IAM permissions and the roles that grant them.
-
-  - [](https://docs.cloud.google.com/iam/docs/deny-permissions-support)
-    
-    ### Permissions supported in deny policies
-    
-    Learn which IAM permissions you can use in deny policies.
-
-  - [](https://docs.cloud.google.com/iam/docs/pab-blocked-permissions)
-    
-    ### Principal Access Boundary policy enforcement version permissions
-    
-    Learn which IAM permissions each version of Principal Access Boundary policies can block.
-
-  - [](https://docs.cloud.google.com/iam/docs/principal-identifiers)
-    
-    ### Principal identifiers
-    
-    Understand the identifiers that you use when listing principals in allow policies and deny policies.
-
-  - [](https://docs.cloud.google.com/iam/docs/resource-types-with-policies)
-    
-    ### Resource types that accept allow policies
-    
-    Learn which resource types accept allow policies.
-
-  - [](https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities)
-    
-    ### Resource types with built-in identities
-    
-    Learn which resource have built-in identities and what the principal identifiers for those built-in identities are.
-
-  - [](https://docs.cloud.google.com/iam/docs/service-agents)
-    
-    ### Service agents
-    
-    Get details about the service accounts that Google Cloud services use to access your resources.
-
-  - [](https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support)
-    
-    ### Support levels for permissions in custom roles
-    
-    Learn which IAM permissions you can use in custom roles.
+- [Basic and predefined roles reference View IAM basic roles, as well as a complete list of IAM predefined roles and the permissions they contain.](https://docs.cloud.google.com/iam/docs/understanding-roles)
+- [Full resource names Understand the format that IAM uses to identify another service's resources.](https://docs.cloud.google.com/iam/docs/full-resource-names)
+- [Identity federation: supported products and limitations Lists Google Cloud products that work with workforce identity federation, and provides associated product limitations.](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services)
+- [Permissions reference View a complete list of IAM permissions and the roles that grant them.](https://docs.cloud.google.com/iam/docs/permissions-reference)
+- [Permissions supported in deny policies Learn which IAM permissions you can use in deny policies.](https://docs.cloud.google.com/iam/docs/deny-permissions-support)
+- [Principal Access Boundary policy enforcement version permissions Learn which IAM permissions each version of Principal Access Boundary policies can block.](https://docs.cloud.google.com/iam/docs/pab-blocked-permissions)
+- [Principal identifiers Understand the identifiers that you use when listing principals in allow policies and deny policies.](https://docs.cloud.google.com/iam/docs/principal-identifiers)
+- [Resource types that accept allow policies Learn which resource types accept allow policies.](https://docs.cloud.google.com/iam/docs/resource-types-with-policies)
+- [Resource types with built-in identities Learn which resource have built-in identities and what the principal identifiers for those built-in identities are.](https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities)
+- [Service agents Get details about the service accounts that Google Cloud services use to access your resources.](https://docs.cloud.google.com/iam/docs/service-agents)
+- [Support levels for permissions in custom roles Learn which IAM permissions you can use in custom roles.](https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support)

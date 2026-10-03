@@ -12,7 +12,7 @@ gcloud iam workforce-pools providers scim-tenants - manage IAM workforce identit
 
 SYNOPSIS
 
-`gcloud iam workforce-pools providers scim-tenants` `  GROUP  ` | `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam workforce-pools providers scim-tenants` [`GROUP`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants#GROUP) \| [`COMMAND`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants#COMMAND) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -20,38 +20,47 @@ Commands for creating, describing, listing, updating, and deleting SCIM tenants 
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --help  ` .
+These flags are available to all commands: [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 GROUPS
 
-`  GROUP  ` is one of the following:
+`GROUP` is one of the following:
 
-  - `  tokens  `  
-    Manage IAM workforce identity pool provider SCIM tenant tokens.
+[`tokens`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/tokens)  
+Manage IAM workforce identity pool provider SCIM tenant tokens.
 
 COMMANDS
 
-`  COMMAND  ` is one of the following:
+`COMMAND` is one of the following:
 
-  - `  create  `  
-    Create an IAM workforce identity pool provider SCIM tenant.
-  - `  delete  `  
-    Delete an IAM workforce identity pool provider SCIM tenant.
-  - `  describe  `  
-    Describe an IAM workforce identity pool provider SCIM tenant.
-  - `  list  `  
-    List IAM workforce identity pool provider SCIM tenants.
-  - `  undelete  `  
-    Undelete an IAM workforce identity pool provider SCIM tenant.
-  - `  update  `  
-    Update an IAM workforce identity pool provider SCIM tenant.
+[`create`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/create)  
+Create an IAM workforce identity pool provider SCIM tenant.
+
+[`delete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/delete)  
+Delete an IAM workforce identity pool provider SCIM tenant.
+
+[`describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/describe)  
+Describe an IAM workforce identity pool provider SCIM tenant.
+
+[`list`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/list)  
+List IAM workforce identity pool provider SCIM tenants.
+
+[`undelete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/undelete)  
+Undelete an IAM workforce identity pool provider SCIM tenant.
+
+[`update`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/update)  
+Update an IAM workforce identity pool provider SCIM tenant.
 
 NOTES
 
 These variants are also available:
 
-    gcloud alpha iam workforce-pools providers scim-tenants
+```
+gcloud alpha iam workforce-pools providers scim-tenants
+```
 
-    gcloud beta iam workforce-pools providers scim-tenants
+```
+gcloud beta iam workforce-pools providers scim-tenants
+```

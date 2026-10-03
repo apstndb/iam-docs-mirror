@@ -23,7 +23,7 @@ Cloud Storage hash-based message authentication code (HMAC) authentication keys 
 ## Activity Analyzer
 
 > **Preview — Viewing service account and key authentication activities with Activity Analyzer**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 Policy Intelligence's Activity Analyzer lets you view the most recent [authentication activities](https://docs.cloud.google.com/policy-intelligence/docs/service-account-usage-tools#understand-authn) for your service accounts and service account keys. The date of the most recent authentication activity is determined based on US and Canadian Pacific Standard Time (UTC-8), even when Pacific Daylight Time is in effect.
@@ -37,7 +37,7 @@ To learn how to view service account authentication activities, see [View recent
 ## Service account insights
 
 > **Preview — Service account insights**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 Recommender provides service account insights, which identify the service accounts in your project that haven't authenticated in the past 90 days. Use service account insights to quickly identify unused service accounts.

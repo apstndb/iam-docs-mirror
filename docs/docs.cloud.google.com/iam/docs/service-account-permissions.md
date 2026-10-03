@@ -28,9 +28,9 @@ The Service Account Token Creator role ( `roles/iam.serviceAccountTokenCreator` 
 
 The Service Account Token Creator role lets you create the following types of short-lived credentials:
 
-  - OAuth 2.0 access tokens, which you can use to authenticate with Google APIs
-  - OpenID Connect (OIDC) ID tokens
-  - Signed JSON Web Tokens (JWTs) and binary blobs
+- OAuth 2.0 access tokens, which you can use to authenticate with Google APIs
+- OpenID Connect (OIDC) ID tokens
+- Signed JSON Web Tokens (JWTs) and binary blobs
 
 > **Note:** If you only need to create OIDC ID tokens, use the [Service Account OpenID Connect Identity Token Creator role](https://docs.cloud.google.com/iam/docs/service-account-permissions#id-token-creator-role) instead. This role includes only the permission for creating OIDC ID tokens.
 
@@ -38,11 +38,11 @@ The Service Account Token Creator role also lets principals use the [`--imperson
 
 The role's permissions include the following:
 
-  - `iam.serviceAccounts.getAccessToken` : lets you create OAuth 2.0 access tokens
-  - `iam.serviceAccounts.getOpenIdToken` : lets you create OpenID Connect (OIDC) ID tokens
-  - `iam.serviceAccounts.implicitDelegation` : lets service accounts get tokens in a [delegation chain](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated)
-  - `iam.serviceAccounts.signBlob` : lets you sign binary blobs
-  - `iam.serviceAccounts.signJwt` : lets you sign JWTs
+- `iam.serviceAccounts.getAccessToken` : lets you create OAuth 2.0 access tokens
+- `iam.serviceAccounts.getOpenIdToken` : lets you create OpenID Connect (OIDC) ID tokens
+- `iam.serviceAccounts.implicitDelegation` : lets service accounts get tokens in a [delegation chain](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated)
+- `iam.serviceAccounts.signBlob` : lets you sign binary blobs
+- `iam.serviceAccounts.signJwt` : lets you sign JWTs
 
 ### Service Account OpenID Connect Identity Token Creator
 
@@ -56,8 +56,8 @@ The Workload Identity User role ( `roles/iam.workloadIdentityUser` ) lets princi
 
 The role's permissions include the following:
 
-  - `iam.serviceAccounts.getAccessToken` : lets you create OAuth 2.0 access tokens
-  - `iam.serviceAccounts.getOpenIdToken` : lets you create OpenID Connect (OIDC) ID tokens
+- `iam.serviceAccounts.getAccessToken` : lets you create OAuth 2.0 access tokens
+- `iam.serviceAccounts.getOpenIdToken` : lets you create OpenID Connect (OIDC) ID tokens
 
 ## Service account permissions for common scenarios
 
@@ -69,16 +69,16 @@ If you want to start a long-running job that authenticates as a service account,
 
 **Permissions:**
 
-  - Permissions to create the resource
-  - `iam.serviceAccounts.actAs`
+- Permissions to create the resource
+- `iam.serviceAccounts.actAs`
 
 To find roles that include these permissions, search the [roles list](https://docs.cloud.google.com/iam/docs/understanding-roles) for the permissions.
 
 There are several different Google Cloud resources that can run long-running jobs as service accounts. Some examples of these resources include:
 
-  - Compute Engine VMs
-  - App Engine apps
-  - Cloud Run functions
+- Compute Engine VMs
+- App Engine apps
+- Cloud Run functions
 
 When you create these resources, you have the option to attach a service account. This service account acts as the resource's identity.
 
@@ -90,26 +90,20 @@ After you create the resource and attach a service account to it, you can start 
 
 To learn more about attaching service accounts to resources, see [Attaching a service account to a resource](https://docs.cloud.google.com/iam/docs/attach-service-accounts) .
 
-<span id="directly-impersonate"></span>
+Impersonating a service account **Permissions:**
 
-<span id="directly-impersonate"></span>
-
-### Impersonating a service account
-
-**Permissions:**
-
-  - `iam.serviceAccounts.getAccessToken`
-  - `iam.serviceAccounts.signBlob`
-  - `iam.serviceAccounts.signJwt`
-  - `iam.serviceAccounts.implicitDelegation`
+- `iam.serviceAccounts.getAccessToken`
+- `iam.serviceAccounts.signBlob`
+- `iam.serviceAccounts.signJwt`
+- `iam.serviceAccounts.implicitDelegation`
 
 **Roles:**
 
-  - `roles/iam.serviceAccountTokenCreator` (Service Account Token Creator)
+- `roles/iam.serviceAccountTokenCreator` (Service Account Token Creator)
 
 Once granted the required permissions, a user (or another service account) can impersonate the service account in a few common scenarios.
 
-<span id="directly-impersonate">First, the user can authenticate as the service account. For example, they can get short-lived credentials for the service account using the `iam.serviceAccounts.getAccessToken` permission and by calling the</span> [`generateAccessToken()`](https://docs.cloud.google.com/iam/credentials/reference/rest/v1/projects.serviceAccounts/generateAccessToken) method. Or, they can use the [`--impersonate-service-account` flag](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) for gcloud CLI to impersonate the service account. When a user authenticates as a service account, they can issue commands to Google Cloud and can access all resources to which the service account has access.
+First, the user can authenticate as the service account. For example, they can get short-lived credentials for the service account using the `iam.serviceAccounts.getAccessToken` permission and by calling the [`generateAccessToken()`](https://docs.cloud.google.com/iam/credentials/reference/rest/v1/projects.serviceAccounts/generateAccessToken) method. Or, they can use the [`--impersonate-service-account` flag](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) for gcloud CLI to impersonate the service account. When a user authenticates as a service account, they can issue commands to Google Cloud and can access all resources to which the service account has access.
 
 Second, the user can get artifacts signed by the Google-managed private key of the service account using the `iam.serviceAccounts.signBlob` permission and by calling either the [`signBlob()`](https://docs.cloud.google.com/iam/credentials/reference/rest/v1/projects.serviceAccounts/signBlob) or [`signJwt()`](https://docs.cloud.google.com/iam/credentials/reference/rest/v1/projects.serviceAccounts/signJwt) method. The Google-managed private key is always held in escrow and is never directly exposed. `signBlob()` allows signing of arbitrary payloads (such as Cloud Storage-signed URLs), while `signJwt()` only allows signing well-formed JWTs.
 
@@ -119,11 +113,11 @@ Finally, the user can impersonate the service account without ever retrieving a 
 
 **Permissions:**
 
-  - `iam.serviceAccounts.getOpenIdToken`
+- `iam.serviceAccounts.getOpenIdToken`
 
 **Roles:**
 
-  - `roles/iam.serviceAccountOpenIdTokenCreator` (Service Account OpenID Connect Identity Token Creator)
+- `roles/iam.serviceAccountOpenIdTokenCreator` (Service Account OpenID Connect Identity Token Creator)
 
 A user (or service) can generate an OpenID Connect (OIDC)-compatible JWT token signed by the Google OIDC Provider (accounts.google.com) that represents the identity of the service account using the `iam.serviceAccounts.getOpenIdToken` permission.
 
@@ -133,12 +127,12 @@ These tokens are not directly accepted by most Google APIs without your organiza
 
 **Permissions:**
 
-  - `iam.serviceAccountKeys.create`
+- `iam.serviceAccountKeys.create`
 
 **Roles:**
 
-  - `roles/editor` (Editor)
-  - `roles/iam.serviceAccountKeyAdmin` (Service Account Key Admin)
+- `roles/editor` (Editor)
+- `roles/iam.serviceAccountKeyAdmin` (Service Account Key Admin)
 
 A user or service can generate external private key material (RSA) that can be used to authenticate directly to Google as the service account. This key material can then be used with Application Default Credentials (ADC) libraries, or with the [`gcloud auth activate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/activate-service-account) command. Any person who gains access to the key material will then have full access to all resources to which the service account has access. Such private key material should be treated with the highest concern, and should be considered less secure the longer the material exists. Therefore, rotating private key material is critical to maintaining strong security.
 
@@ -163,22 +157,22 @@ The following table shows the operations enabled by these permissions:
 </thead>
 <tbody>
 <tr class="odd">
-<td><code dir="ltr" translate="no">iam.serviceAccounts.getAccessToken</code></td>
+<td><code>iam.serviceAccounts.getAccessToken</code></td>
 <td>Get an access token for the service account</td>
 </tr>
 <tr class="even">
-<td><code dir="ltr" translate="no">iam.serviceAccounts.getOpenIdToken</code></td>
+<td><code>iam.serviceAccounts.getOpenIdToken</code></td>
 <td>Get an ID token for the service account</td>
 </tr>
 <tr class="odd">
-<td><code dir="ltr" translate="no">iam.serviceAccounts.signJwt</code></td>
+<td><code>iam.serviceAccounts.signJwt</code></td>
 <td><ul>
 <li>Sign a JWT</li>
 <li>Get an access token or ID token for the service account by using a <a href="https://developers.google.com/identity/protocols/oauth2/service-account#authorizingrequests">JWT bearer token</a> .</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><code dir="ltr" translate="no">iam.serviceAccounts.signBlob</code></td>
+<td><code>iam.serviceAccounts.signBlob</code></td>
 <td><ul>
 <li>Sign any type of blob, including JWTs</li>
 <li>Get an access token or ID token for the service account by using a <a href="https://developers.google.com/identity/protocols/oauth2/service-account#authorizingrequests">JWT bearer token</a> .</li>
@@ -193,10 +187,10 @@ In scenarios where a service account has been granted permissions to perform hig
 
 Service accounts represent your service-level security. The security of the service is determined by the people who have IAM roles to manage and use the service accounts, and people who hold [service account keys](https://docs.cloud.google.com/iam/docs/service-account-creds#user-managed-keys) for those service accounts. Best practices to ensure security include the following:
 
-  - Use the IAM API to audit the service accounts, the keys, and the allow policies on those service accounts.
-  - If your service accounts don't need service account keys, disable or delete them.
-  - If users don't need permission to manage or use service accounts, then remove them from the applicable allow policy.
-  - Understand how granting certain permissions for service accounts can [effectively enable other capabilities](https://docs.cloud.google.com/iam/docs/service-account-permissions#concentric-permissions) .
-  - Make sure that service accounts have the fewest permissions possible. Use [default service accounts](https://docs.cloud.google.com/iam/docs/service-account-types#default) with caution, because they are automatically granted the Editor ( `roles/editor` ) role on the project.
+- Use the IAM API to audit the service accounts, the keys, and the allow policies on those service accounts.
+- If your service accounts don't need service account keys, disable or delete them.
+- If users don't need permission to manage or use service accounts, then remove them from the applicable allow policy.
+- Understand how granting certain permissions for service accounts can [effectively enable other capabilities](https://docs.cloud.google.com/iam/docs/service-account-permissions#concentric-permissions) .
+- Make sure that service accounts have the fewest permissions possible. Use [default service accounts](https://docs.cloud.google.com/iam/docs/service-account-types#default) with caution, because they are automatically granted the Editor ( `roles/editor` ) role on the project.
 
 To learn more about best practices, see [Best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .

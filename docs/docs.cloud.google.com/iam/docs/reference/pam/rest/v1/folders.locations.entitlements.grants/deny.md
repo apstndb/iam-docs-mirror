@@ -6,14 +6,14 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-  - [HTTP request](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#body.HTTP_TEMPLATE)
-  - [Path parameters](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#body.PATH_PARAMETERS)
-  - [Request body](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#body.request_body)
-      - [JSON representation](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#body.request_body.SCHEMA_REPRESENTATION)
-  - [Response body](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#body.response_body)
-  - [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#body.aspect)
-  - [Examples](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#examples)
-  - [Try it\!](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#try-it)
+- [HTTP request](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#body.HTTP_TEMPLATE)
+- [Path parameters](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#body.PATH_PARAMETERS)
+- [Request body](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#body.request_body)
+  - [JSON representation](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#body.request_body.SCHEMA_REPRESENTATION)
+- [Response body](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#body.response_body)
+- [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#body.aspect)
+- [Examples](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#examples)
+- [Try it!](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants/deny#try-it)
 
 `grants.deny` is used to deny a grant. This method can only be called on a grant when it's in the `APPROVAL_AWAITED` state. This operation can't be undone.
 
@@ -25,52 +25,34 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-Parameters
-
-`name`
-
-`string`
-
-Required. Name of the grant resource which is being denied.
+| Parameters |                                                                      |
+|------------|----------------------------------------------------------------------|
+| `name`     | `string` Required. Name of the grant resource which is being denied. |
 
 ### Request body
 
 The request body contains data with the following structure:
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>JSON representation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre dir="ltr" data-is-upgraded="" style="border: 0;margin: 0;" translate="no"><code>{
-  &quot;reason&quot;: string
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+**JSON representation**
 
-Fields
+```
+{
+  "reason": string
+}
+```
 
-`reason`
-
-`string`
-
-Optional. The reason for denying this grant. This is required if `requireApproverJustification` field of the `ManualApprovals` workflow used in this grant is true.
+| Fields   |                                                                                                                                                                              |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `reason` | `string` Optional. The reason for denying this grant. This is required if `requireApproverJustification` field of the `ManualApprovals` workflow used in this grant is true. |
 
 ### Response body
 
-If successful, the response body contains an instance of `  Grant  ` .
+If successful, the response body contains an instance of [`Grant`](https://docs.cloud.google.com/iam/docs/reference/pam/rest/v1/folders.locations.entitlements.grants#Grant) .
 
 ### Authorization scopes
 
 Requires the following OAuth scope:
 
-  - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/cloud-platform`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .

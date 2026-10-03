@@ -25,21 +25,21 @@ SecLM offers the following service agent roles. Service agent roles should only 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="seclm.serviceAgent" class="role-title add-link" data-text="SecLM Service Agent" tabindex="-1">SecLM Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  seclm.serviceAgent</code> )</p>
+<td>SecLM Service Agent
+<p>( <code>roles/ seclm.serviceAgent</code> )</p>
 <p>Service agent used by SecLM to access resources used by SecLM Workbenches.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">aiplatform.endpoints.predict</code></p>
-<p><code dir="ltr" translate="no">aiplatform.locations.get</code></p>
-<p><code dir="ltr" translate="no">aiplatform.ragCorpora.get</code></p>
-<p><code dir="ltr" translate="no">aiplatform.ragCorpora.list</code></p>
-<p><code dir="ltr" translate="no">aiplatform.ragCorpora.query</code></p>
-<p><code dir="ltr" translate="no">discoveryengine.  dataStores.  completeQuery</code></p>
-<p><code dir="ltr" translate="no">discoveryengine.dataStores.get</code></p>
-<p><code dir="ltr" translate="no">discoveryengine.  dataStores.  list</code></p>
-<p><code dir="ltr" translate="no">discoveryengine.  servingConfigs.  search</code></p></td>
+<td><p><code>aiplatform.endpoints.predict</code></p>
+<p><code>aiplatform.locations.get</code></p>
+<p><code>aiplatform.ragCorpora.get</code></p>
+<p><code>aiplatform.ragCorpora.list</code></p>
+<p><code>aiplatform.ragCorpora.query</code></p>
+<p><code>discoveryengine. dataStores. completeQuery</code></p>
+<p><code>discoveryengine.dataStores.get</code></p>
+<p><code>discoveryengine. dataStores. list</code></p>
+<p><code>discoveryengine. servingConfigs. search</code></p></td>
 </tr>
 </tbody>
 </table>

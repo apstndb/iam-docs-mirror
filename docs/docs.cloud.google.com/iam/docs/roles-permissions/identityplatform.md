@@ -23,43 +23,43 @@ This page lists the IAM roles and permissions for Identity Platform. To search t
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="identityplatform.admin" class="role-title add-link" data-text="Identity Platform Admin Beta" tabindex="-1">Identity Platform Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  identityplatform.admin</code> )</p>
+<td>Identity Platform Admin <sup>Beta</sup>
+<p>( <code>roles/ identityplatform.admin</code> )</p>
 <p>Full access to Identity Platform resources.</p></td>
-<td><p><code dir="ltr" translate="no">firebaseauth.*</code></p>
+<td><p><code>firebaseauth.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">firebaseauth.configs.create</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.configs.get</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.  configs.  getHashConfig</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.configs.getSecret</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.configs.update</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.create</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.  users.  createSession</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.delete</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.get</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.sendEmail</code></li>
-<li><code dir="ltr" translate="no">firebaseauth.users.update</code></li>
+<li><code>firebaseauth.configs.create</code></li>
+<li><code>firebaseauth.configs.get</code></li>
+<li><code>firebaseauth. configs. getHashConfig</code></li>
+<li><code>firebaseauth.configs.getSecret</code></li>
+<li><code>firebaseauth.configs.update</code></li>
+<li><code>firebaseauth.users.create</code></li>
+<li><code>firebaseauth. users. createSession</code></li>
+<li><code>firebaseauth.users.delete</code></li>
+<li><code>firebaseauth.users.get</code></li>
+<li><code>firebaseauth.users.sendEmail</code></li>
+<li><code>firebaseauth.users.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">identitytoolkit.*</code></p>
+<p><code>identitytoolkit.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">identitytoolkit.tenants.create</code></li>
-<li><code dir="ltr" translate="no">identitytoolkit.tenants.delete</code></li>
-<li><code dir="ltr" translate="no">identitytoolkit.tenants.get</code></li>
-<li><code dir="ltr" translate="no">identitytoolkit.  tenants.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">identitytoolkit.tenants.list</code></li>
-<li><code dir="ltr" translate="no">identitytoolkit.  tenants.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">identitytoolkit.tenants.update</code></li>
+<li><code>identitytoolkit.tenants.create</code></li>
+<li><code>identitytoolkit.tenants.delete</code></li>
+<li><code>identitytoolkit.tenants.get</code></li>
+<li><code>identitytoolkit. tenants. getIamPolicy</code></li>
+<li><code>identitytoolkit.tenants.list</code></li>
+<li><code>identitytoolkit. tenants. setIamPolicy</code></li>
+<li><code>identitytoolkit.tenants.update</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="identityplatform.viewer" class="role-title add-link" data-text="Identity Platform Viewer Beta" tabindex="-1">Identity Platform Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  identityplatform.viewer</code> )</p>
+<td>Identity Platform Viewer <sup>Beta</sup>
+<p>( <code>roles/ identityplatform.viewer</code> )</p>
 <p>Read access to Identity Platform resources.</p></td>
-<td><p><code dir="ltr" translate="no">firebaseauth.configs.get</code></p>
-<p><code dir="ltr" translate="no">firebaseauth.users.get</code></p>
-<p><code dir="ltr" translate="no">identitytoolkit.tenants.get</code></p>
-<p><code dir="ltr" translate="no">identitytoolkit.  tenants.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">identitytoolkit.tenants.list</code></p></td>
+<td><p><code>firebaseauth.configs.get</code></p>
+<p><code>firebaseauth.users.get</code></p>
+<p><code>identitytoolkit.tenants.get</code></p>
+<p><code>identitytoolkit. tenants. getIamPolicy</code></p>
+<p><code>identitytoolkit.tenants.list</code></p></td>
 </tr>
 </tbody>
 </table>

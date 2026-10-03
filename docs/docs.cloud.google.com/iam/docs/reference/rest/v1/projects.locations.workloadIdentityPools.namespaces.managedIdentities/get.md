@@ -6,15 +6,15 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-  - [HTTP request](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#body.HTTP_TEMPLATE)
-  - [Path parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#body.PATH_PARAMETERS)
-  - [Request body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#body.request_body)
-  - [Response body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#body.response_body)
-  - [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#body.aspect)
-  - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#examples)
-  - [Try it\!](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#try-it)
+- [HTTP request](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#body.HTTP_TEMPLATE)
+- [Path parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#body.PATH_PARAMETERS)
+- [Request body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#body.request_body)
+- [Response body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#body.response_body)
+- [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#body.aspect)
+- [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#examples)
+- [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/get#try-it)
 
-Gets an individual `  WorkloadIdentityPoolManagedIdentity  ` .
+Gets an individual [`WorkloadIdentityPoolManagedIdentity`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities#WorkloadIdentityPoolManagedIdentity) .
 
 ### HTTP request
 
@@ -24,13 +24,9 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-Parameters
-
-`name`
-
-`string`
-
-Required. The name of the managed identity to retrieve.
+| Parameters |                                                                  |
+|------------|------------------------------------------------------------------|
+| `name`     | `string` Required. The name of the managed identity to retrieve. |
 
 ### Request body
 
@@ -38,13 +34,13 @@ The request body must be empty.
 
 ### Response body
 
-If successful, the response body contains an instance of `  WorkloadIdentityPoolManagedIdentity  ` .
+If successful, the response body contains an instance of [`WorkloadIdentityPoolManagedIdentity`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities#WorkloadIdentityPoolManagedIdentity) .
 
 ### Authorization scopes
 
 Requires one of the following OAuth scopes:
 
-  - `https://www.googleapis.com/auth/cloud-platform`
-  - `https://www.googleapis.com/auth/iam`
+- `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .

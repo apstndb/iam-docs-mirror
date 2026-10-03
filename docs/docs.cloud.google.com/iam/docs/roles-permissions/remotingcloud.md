@@ -25,15 +25,15 @@ Remoting Cloud offers the following service agent roles. Service agent roles sho
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="remotingcloud.serviceAgent" class="role-title add-link" data-text="Remoting Cloud Service Agent" tabindex="-1">Remoting Cloud Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  remotingcloud.serviceAgent</code> )</p>
+<td>Remoting Cloud Service Agent
+<p>( <code>roles/ remotingcloud.serviceAgent</code> )</p>
 <p>Grants Chrome Remote Desktop Service Agent access to Google Compute Engine metadata.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">compute.instanceSettings.get</code></p>
-<p><code dir="ltr" translate="no">compute.instances.get</code></p>
-<p><code dir="ltr" translate="no">compute.projects.get</code></p></td>
+<td><p><code>compute.instanceSettings.get</code></p>
+<p><code>compute.instances.get</code></p>
+<p><code>compute.projects.get</code></p></td>
 </tr>
 </tbody>
 </table>

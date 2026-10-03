@@ -25,13 +25,13 @@ Progressive Rollout offers the following service agent roles. Service agent role
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="progressiverollout.serviceAgent" class="role-title add-link" data-text="Progressive Rollout Service Agent" tabindex="-1">Progressive Rollout Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  progressiverollout.serviceAgent</code> )</p>
+<td>Progressive Rollout Service Agent
+<p>( <code>roles/ progressiverollout.serviceAgent</code> )</p>
 <p>Gives Progressive Rollout the ability to roll out a customer change.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">cloudasset.  assets.  searchAllResources</code></p></td>
+<td><p><code>cloudasset. assets. searchAllResources</code></p></td>
 </tr>
 </tbody>
 </table>

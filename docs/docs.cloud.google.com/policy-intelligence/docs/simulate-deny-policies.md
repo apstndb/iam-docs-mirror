@@ -12,19 +12,19 @@ This feature only evaluates access based on deny policies.
 
 To learn how to simulate other types of policies, see the following:
 
-  - [Test organization policy changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies)
-  - [Test Principal Access Boundary policy changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies)
-  - [Test role changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/simulate-iam-policies)
+- [Test organization policy changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies)
+- [Test Principal Access Boundary policy changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies)
+- [Test role changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/simulate-iam-policies)
 
 ## Before you begin
 
-  - Enable the Policy Simulator and Identity and Access Management APIs, if any are not already enabled.
-    
-    **Roles required to enable APIs**
-    
-    To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+- Enable the Policy Simulator and Identity and Access Management APIs, if any are not already enabled.
 
-  - Optional: Learn [how Policy Simulator for deny policies works](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview) .
+  **Roles required to enable APIs**
+
+  To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+
+- Optional: Learn [how Policy Simulator for deny policies works](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview) .
 
 ### Required roles
 
@@ -45,33 +45,33 @@ Simulating a deny policy involves the following steps:
 
 You can start a simulation in the following ways:
 
-  - Simulate a new deny policy:
-    
-    1.  In the Google Cloud console, go to the **Deny** tab on the **IAM** page.
-    
-    <!-- end list -->
-    
-    1.  Select a project, folder, or organization.
-    2.  Follow the steps to [create a deny policy](https://docs.cloud.google.com/iam/docs/deny-access#create-deny-policy) , but don't click **Create** after entering the deny policy details. Instead, click **Test policy** .
+- Simulate a new deny policy:
 
-  - Simulate an edit to a deny policy:
-    
-    1.  In the Google Cloud console, go to the **Deny** tab on the **IAM** page.
-    
-    2.  Select a project, folder, or organization.
-    
-    3.  In the **Policy ID** column, click the ID of the policy that you want to edit.
-    
-    4.  Click edit **Edit** .
-    
-    5.  Update the deny policy:
-        
-          - To change the policy display name, edit the **Display name** field.
-          - To edit an existing deny rule, click the deny rule, and then modify the rule's principals, exception principals, denied permissions, exception permissions, or denial condition.
-          - To remove a deny rule, find the deny rule that you want to delete, and then click delete **Delete** in that row.
-          - To add a deny rule, click **Add deny rule** , and then create a deny rule like you do when you [create a deny policy](https://docs.cloud.google.com/iam/docs/deny-access#create-deny-policy) .
-    
-    6.  When you're done updating the deny policy, click **Test changes** .
+  1.  In the Google Cloud console, go to the **Deny** tab on the **IAM** page.
+
+  <!-- -->
+
+  1.  Select a project, folder, or organization.
+  2.  Follow the steps to [create a deny policy](https://docs.cloud.google.com/iam/docs/deny-access#create-deny-policy) , but don't click **Create** after entering the deny policy details. Instead, click **Test policy** .
+
+- Simulate an edit to a deny policy:
+
+  1.  In the Google Cloud console, go to the **Deny** tab on the **IAM** page.
+
+  2.  Select a project, folder, or organization.
+
+  3.  In the **Policy ID** column, click the ID of the policy that you want to edit.
+
+  4.  Click edit **Edit** .
+
+  5.  Update the deny policy:
+
+      - To change the policy display name, edit the **Display name** field.
+      - To edit an existing deny rule, click the deny rule, and then modify the rule's principals, exception principals, denied permissions, exception permissions, or denial condition.
+      - To remove a deny rule, find the deny rule that you want to delete, and then click delete **Delete** in that row.
+      - To add a deny rule, click **Add deny rule** , and then create a deny rule like you do when you [create a deny policy](https://docs.cloud.google.com/iam/docs/deny-access#create-deny-policy) .
+
+  6.  When you're done updating the deny policy, click **Test changes** .
 
 When you click **Test policy** or **Test changes** , Policy Simulator starts the simulation and redirects you to the **Deny simulation reports** page. You can navigate away from this page without losing progress.
 
@@ -93,25 +93,25 @@ Each user can have up to 50 in-progress simulations.
 
 The simulation report contains the following:
 
-  - An overview of the simulation details, including the simulated policy, the simulated action, and the simulation time.
-  - A **View policy** or **View policy changes** button, which, when clicked, displays the simulated policy in JSON format. If you're simulating the policy change, then it might also display the difference between the current policy and the simulated policy.
-  - A **Replay results** section, which displays the results of the simulation. To learn how to interpret these results, see [Policy Simulator results](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview#review-results) .
+- An overview of the simulation details, including the simulated policy, the simulated action, and the simulation time.
+- A **View policy** or **View policy changes** button, which, when clicked, displays the simulated policy in JSON format. If you're simulating the policy change, then it might also display the difference between the current policy and the simulated policy.
+- A **Replay results** section, which displays the results of the simulation. To learn how to interpret these results, see [Policy Simulator results](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview#review-results) .
 
 ## Take action based on a simulation
 
 After reviewing a simulation report, you can take the following actions:
 
-  - **Export the simulation results** : To export the results of a simulation as a CSV file, click **Export results** .
-    
-    When you click this button, a CSV file with the simulation reports is downloaded to your computer.
+- **Export the simulation results** : To export the results of a simulation as a CSV file, click **Export results** .
 
-  - **Apply the simulated policy change** : To apply the simulated policy or policy change, click **Set policy** .
-    
-    When you click this button, the Google Cloud console sets the simulated policy.
+  When you click this button, a CSV file with the simulation reports is downloaded to your computer.
 
-  - **Edit the simulated change to the policy** : To make further changes to the simulated policy or policy change, click **Modify policy** .
-    
-    When you click this button, the Google Cloud console redirects you to the deny policy editor.
+- **Apply the simulated policy change** : To apply the simulated policy or policy change, click **Set policy** .
+
+  When you click this button, the Google Cloud console sets the simulated policy.
+
+- **Edit the simulated change to the policy** : To make further changes to the simulated policy or policy change, click **Modify policy** .
+
+  When you click this button, the Google Cloud console redirects you to the deny policy editor.
 
 Alternatively, you can click **Cancel** to leave the simulation report without taking any action.
 
@@ -131,11 +131,11 @@ For each simulation, the page lists the policy that the simulation is for, the d
 
 Simulations can have the following statuses:
 
-  - **In progress** : The simulation is running, but hasn't completed yet. You can have up to 50 in-progress simulations.
-  - **Completed** : The simulation is complete.
-  - **Error** : The simulation couldn't be completed due to an error.
+- **In progress** : The simulation is running, but hasn't completed yet. You can have up to 50 in-progress simulations.
+- **Completed** : The simulation is complete.
+- **Error** : The simulation couldn't be completed due to an error.
 
 ## What's next
 
-  - [Test organization policy changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies)
-  - [Test role changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/simulate-iam-policies)
+- [Test organization policy changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies)
+- [Test role changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/simulate-iam-policies)

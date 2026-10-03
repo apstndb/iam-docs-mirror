@@ -12,7 +12,7 @@ gcloud iam roles create - create a custom role for a project or an organization
 
 SYNOPSIS
 
-`gcloud iam roles create` `  ROLE_ID  ` ( `  --organization  ` = `  ORGANIZATION  ` | `  --project  ` = `  PROJECT_ID  ` ) \[ `  --file  ` = `  FILE  ` | `  --description  ` = `  DESCRIPTION  ` `  --permissions  ` = `  PERMISSIONS  ` `  --stage  ` = `  STAGE  ` `  --title  ` = `  TITLE  ` \] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam roles create` [`ROLE_ID`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles/create#ROLE_ID) ( [`--organization`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles/create#--organization) = `ORGANIZATION` \| [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles/create#--project) = `PROJECT_ID` ) \[ [`--file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles/create#--file) = `FILE` \| [`--description`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles/create#--description) = `DESCRIPTION` [`--permissions`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles/create#--permissions) = `PERMISSIONS` [`--stage`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles/create#--stage) = `STAGE` [`--title`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles/create#--title) = `TITLE` \] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles/create#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -20,63 +20,74 @@ This command creates a custom role with the provided information.
 
 EXAMPLES
 
-To create a custom role `  ProjectUpdater  ` from a YAML file, run:
+To create a custom role `ProjectUpdater` from a YAML file, run:
 
-    gcloud iam roles create ProjectUpdater --organization=12345 --file=role_file_path
+```
+gcloud iam roles create ProjectUpdater --organization=12345 --file=role_file_path
+```
 
-To create a custom role `  ProjectUpdater  ` with flags, run:
+To create a custom role `ProjectUpdater` with flags, run:
 
-    gcloud iam roles create ProjectUpdater --project=myproject --title=ProjectUpdater --description="Have access to get and update the project" --permissions=resourcemanager.projects.get,resourcemanager.projects.update
+```
+gcloud iam roles create ProjectUpdater --project=myproject --title=ProjectUpdater --description="Have access to get and update the project" --permissions=resourcemanager.projects.get,resourcemanager.projects.update
+```
 
 POSITIONAL ARGUMENTS
 
-  - `  ROLE_ID  `  
-    ID of the custom role to create. You must also specify the `--organization` or `--project` flag.
+`ROLE_ID`  
+ID of the custom role to create. You must also specify the `--organization` or `--project` flag.
 
 REQUIRED FLAGS
 
 Exactly one of these must be specified:
 
-  - `--organization` = `  ORGANIZATION  `  
-    Organization of the role you want to create.
+`--organization` = `ORGANIZATION`  
+Organization of the role you want to create.
 
-  - `--project` = `  PROJECT_ID  `  
-    Project of the role you want to create.
-    
-    The Google Cloud project ID to use for this invocation. If omitted, then the current project is assumed; the current project can be listed using `gcloud config list --format='text(core.project)'` and can be set using `gcloud config set project PROJECTID` .
-    
-    `--project` and its fallback `core/project` property play two roles in the invocation: they specify both the project of the resource to operate on, and the project for API enablement checks, quota, and billing. To specify a different project for quota and billing, use the `--billing-project` flag or the `billing/quota_project` property.
+`--project` = `PROJECT_ID`  
+Project of the role you want to create.
+
+The Google Cloud project ID to use for this invocation. If omitted, then the current project is assumed; the current project can be listed using `gcloud config list --format='text(core.project)'` and can be set using `gcloud config set project PROJECTID` .
+
+`--project` and its fallback `core/project` property play two roles in the invocation: they specify both the project of the resource to operate on, and the project for API enablement checks, quota, and billing. To specify a different project for quota and billing, use the `--billing-project` flag or the `billing/quota_project` property.
 
 OPTIONAL FLAGS
 
 At most one of these can be specified:
 
-`--file` = `  FILE  `
+`--file` = `FILE`
 
 The JSON or YAML file with the IAM Role to create. See <https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.roles> .
 
 Or at least one of these can be specified:
 
-  - Roles Settings  
-    `--description` = `  DESCRIPTION  `  
-    The description of the role you want to create.
-  - `--permissions` = `  PERMISSIONS  `  
-    The permissions of the role you want to create. Use commas to separate them.
-  - `--stage` = `  STAGE  `  
-    The state of the role you want to create. This represents a role's lifecycle phase: `ALPHA` , `BETA` , `GA` , `DEPRECATED` , `DISABLED` , `EAP` .
-  - `--title` = `  TITLE  `  
-    The title of the role you want to create.
+Roles Settings  
+`--description` = `DESCRIPTION`  
+The description of the role you want to create.
+
+`--permissions` = `PERMISSIONS`  
+The permissions of the role you want to create. Use commas to separate them.
+
+`--stage` = `STAGE`  
+The state of the role you want to create. This represents a role's lifecycle phase: `ALPHA` , `BETA` , `GA` , `DEPRECATED` , `DISABLED` , `EAP` .
+
+`--title` = `TITLE`  
+The title of the role you want to create.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 NOTES
 
 These variants are also available:
 
-    gcloud alpha iam roles create
+```
+gcloud alpha iam roles create
+```
 
-    gcloud beta iam roles create
+```
+gcloud beta iam roles create
+```

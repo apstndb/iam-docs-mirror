@@ -12,7 +12,7 @@ gcloud iam workload-identity-pools managed-identities update - update workload i
 
 SYNOPSIS
 
-`gcloud iam workload-identity-pools managed-identities update` ( `  MANAGED_IDENTITY  ` : `  --location  ` = `  LOCATION  ` `  --namespace  ` = `  NAMESPACE  ` `  --workload-identity-pool  ` = `  WORKLOAD_IDENTITY_POOL  ` ) \[ `  --async  ` \] \[ `  --description  ` = `  DESCRIPTION  ` \] \[ `  --disabled  ` \] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam workload-identity-pools managed-identities update` ( [`MANAGED_IDENTITY`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/managed-identities/update#MANAGED_IDENTITY) : [`--location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/managed-identities/update#--location) = `LOCATION` [`--namespace`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/managed-identities/update#--namespace) = `NAMESPACE` [`--workload-identity-pool`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/managed-identities/update#--workload-identity-pool) = `WORKLOAD_IDENTITY_POOL` ) \[ [`--async`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/managed-identities/update#--async) \] \[ [`--description`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/managed-identities/update#--description) = `DESCRIPTION` \] \[ [`--disabled`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/managed-identities/update#--disabled) \] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/managed-identities/update#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -22,7 +22,9 @@ EXAMPLES
 
 The following command updates the workload identity pool managed identity with the ID `my-managed-identity` :
 
-    gcloud iam workload-identity-pools managed-identities update my-managed-identity --location="global" --workload-identity-pool="my-workload-identity-pool" --namespace="my-namespace" --description="My managed identity description" --disabled
+```
+gcloud iam workload-identity-pools managed-identities update my-managed-identity --location="global" --workload-identity-pool="my-workload-identity-pool" --namespace="my-namespace" --description="My managed identity description" --disabled
+```
 
 POSITIONAL ARGUMENTS
 
@@ -30,55 +32,57 @@ Workload identity pool managed identity resource - Workload identity pool manage
 
 To set the `project` attribute:
 
-  - provide the argument `managed_identity` on the command line with a fully specified name;
-  - provide the argument `--project` on the command line;
-  - set the property `core/project` .
+- provide the argument `managed_identity` on the command line with a fully specified name;
+- provide the argument `--project` on the command line;
+- set the property `core/project` .
 
 This must be specified.
 
-  - `  MANAGED_IDENTITY  `  
-    ID of the workload identity pool managed identity or fully qualified identifier for the workload identity pool managed identity.
-    
-    To set the `managed_identity` attribute:
-    
-      - provide the argument `managed_identity` on the command line.
-    
-    This positional argument must be specified if any of the other arguments in this group are specified.
+`MANAGED_IDENTITY`  
+ID of the workload identity pool managed identity or fully qualified identifier for the workload identity pool managed identity.
 
-  - `--location` = `  LOCATION  `  
-    The location name.
-    
-    To set the `location` attribute:
-    
-      - provide the argument `managed_identity` on the command line with a fully specified name;
-      - provide the argument `--location` on the command line.
+To set the `managed_identity` attribute:
 
-  - `--namespace` = `  NAMESPACE  `  
-    The ID to use for the namespace. This value must be 2-63 characters, and may contain the characters \[a-z0-9-\]. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `namespace` attribute:
-    
-      - provide the argument `managed_identity` on the command line with a fully specified name;
-      - provide the argument `--namespace` on the command line.
+- provide the argument `managed_identity` on the command line.
 
-  - `--workload-identity-pool` = `  WORKLOAD_IDENTITY_POOL  `  
-    The ID to use for the pool, which becomes the final component of the resource name. This value should be 4-32 characters, and may contain the characters \[a-z0-9-\]. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `workload-identity-pool` attribute:
-    
-      - provide the argument `managed_identity` on the command line with a fully specified name;
-      - provide the argument `--workload-identity-pool` on the command line.
+This positional argument must be specified if any of the other arguments in this group are specified.
+
+`--location` = `LOCATION`  
+The location name.
+
+To set the `location` attribute:
+
+- provide the argument `managed_identity` on the command line with a fully specified name;
+- provide the argument `--location` on the command line.
+
+`--namespace` = `NAMESPACE`  
+The ID to use for the namespace. This value must be 2-63 characters, and may contain the characters \[a-z0-9-\]. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `namespace` attribute:
+
+- provide the argument `managed_identity` on the command line with a fully specified name;
+- provide the argument `--namespace` on the command line.
+
+`--workload-identity-pool` = `WORKLOAD_IDENTITY_POOL`  
+The ID to use for the pool, which becomes the final component of the resource name. This value should be 4-32 characters, and may contain the characters \[a-z0-9-\]. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `workload-identity-pool` attribute:
+
+- provide the argument `managed_identity` on the command line with a fully specified name;
+- provide the argument `--workload-identity-pool` on the command line.
 
 FLAGS
 
-  - `--async`  
-    Return immediately, without waiting for the operation in progress to complete.
-  - `--description` = `  DESCRIPTION  `  
-    A description of the managed identity.
-  - `--disabled`  
-    Whether the managed identity is disabled. If disabled, credentials may no longer be issued for this identity. Existing credentials may continue to be accepted until they expire.
+`--async`  
+Return immediately, without waiting for the operation in progress to complete.
+
+`--description` = `DESCRIPTION`  
+A description of the managed identity.
+
+`--disabled`  
+Whether the managed identity is disabled. If disabled, credentials may no longer be issued for this identity. Existing credentials may continue to be accepted until they expire.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 API REFERENCE
 

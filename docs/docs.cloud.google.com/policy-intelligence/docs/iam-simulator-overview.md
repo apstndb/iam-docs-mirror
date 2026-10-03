@@ -10,9 +10,9 @@ Policy Simulator for Identity and Access Management [allow policies](https://doc
 
 This feature only evaluates allow policies. To learn how to simulate other policy types, see the following:
 
-  - [Policy Simulator for deny policies](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview)
-  - [Policy Simulator for organization policies](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies)
-  - [Policy Simulator for Principal Access Boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview)
+- [Policy Simulator for deny policies](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview)
+- [Policy Simulator for organization policies](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies)
+- [Policy Simulator for Principal Access Boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview)
 
 ## How Policy Simulator for allow policies works
 
@@ -25,15 +25,15 @@ When you simulate a change to an allow policy, you provide a proposed allow poli
 When you run a simulation, Policy Simulator does the following:
 
 1.  Retrieves access logs for [supported resource types](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview#support-levels) from the last 90 days. Where these logs are collected from depends on the resource whose allow policy you're simulating:
-    
-      - If you are simulating an allow policy for a project or organization, Policy Simulator retrieves the access logs for that project or organization.
-      - If you are simulating an allow policy for a different type of resource, Policy Simulator retrieves the access logs for that resource's parent project or organization.
-      - If you are simulating multiple resources' allow policies at once, Policy Simulator retrieves the access logs for the resources' nearest common project or organization.
-    
+
+    - If you are simulating an allow policy for a project or organization, Policy Simulator retrieves the access logs for that project or organization.
+    - If you are simulating an allow policy for a different type of resource, Policy Simulator retrieves the access logs for that resource's parent project or organization.
+    - If you are simulating multiple resources' allow policies at once, Policy Simulator retrieves the access logs for the resources' nearest common project or organization.
+
     If the parent resource has not existed for 90 days, Policy Simulator retrieves all access attempts since the resource was created.
 
 2.  Re-evaluates, or *replays* , the access attempts recorded in the access logs using the current allow policies, taking into account any [inherited allow policies](https://docs.cloud.google.com/iam/docs/policies#inheritance) and any allow policies set on descendant resources.
-    
+
     Replaying access attempts with the current allow policy ensures that Policy Simulator only reports access changes that are a result of the proposed allow policy, and does not report changes that are the result of other allow policy modifications that you've made in the last 90 days.
 
 3.  Replays the access attempts again using the proposed allow policy, once more taking into account any inherited allow policies and any allow policies set on descendant resources.
@@ -48,10 +48,10 @@ You use the Google Cloud console, REST API, or the Google Cloud CLI to [simulate
 
 When you begin the simulation, Policy Simulator does the following:
 
-  - Retrieves the access logs for your organization from the last 90 days.
-  - Replays the access attempts using the organization's current allow policy, where the user has the Organization Viewer role.
-  - Replays the access attempts again using the proposed allow policy, where the user doesn't have the Organization Viewer role.
-  - Compares the results from the two replays and reports the differences between them.
+- Retrieves the access logs for your organization from the last 90 days.
+- Replays the access attempts using the organization's current allow policy, where the user has the Organization Viewer role.
+- Replays the access attempts again using the proposed allow policy, where the user doesn't have the Organization Viewer role.
+- Compares the results from the two replays and reports the differences between them.
 
 You can then review the results to understand how the proposed change affects the user's access.
 
@@ -67,10 +67,10 @@ Note that `Engineering` has a parent resource, the organization `example.com` , 
 
 You provide a proposed allow policy and run the simulation. When you begin the simulation, Policy Simulator does the following:
 
-  - Retrieves all relevant logs for the last 90 days. Because `Engineering` is a folder, Policy Simulator retrieves logs from its parent organization, `example.com` .
-  - Replays the access attempts using the folder's current allow policy, the allow policy inherited from `example.com` , and the allow policies of the child projects.
-  - Replays each access attempt again using the proposed allow policy, the allow policy inherited from `example.com` , and the allow policies of the child projects.
-  - Compares the results from the replays and reports the differences between them.
+- Retrieves all relevant logs for the last 90 days. Because `Engineering` is a folder, Policy Simulator retrieves logs from its parent organization, `example.com` .
+- Replays the access attempts using the folder's current allow policy, the allow policy inherited from `example.com` , and the allow policies of the child projects.
+- Replays each access attempt again using the proposed allow policy, the allow policy inherited from `example.com` , and the allow policies of the child projects.
+- Compares the results from the replays and reports the differences between them.
 
 You can then review the results to understand how the proposed change affects the user's access.
 
@@ -135,10 +135,10 @@ If an access result is *unknown* , it means that Policy Simulator did not have e
 
 There are several reasons that a result can be unknown:
 
-  - **Role info denied** : The principal running the simulation did not have permission to see the role details for one or more of the roles being simulated.
-  - **Unable to access policy** : The principal running the simulation did not have permission to get the allow policy for one or more of the resources involved in the simulation.
-  - **Membership info denied** : The principal running the simulation did not have permission to view the members of one or more of the groups included in the simulated allow policy.
-  - **Unsupported condition** : There is a conditional role binding in the allow policy that is being tested. Policy Simulator does not support conditions, so the binding could not be evaluated.
+- **Role info denied** : The principal running the simulation did not have permission to see the role details for one or more of the roles being simulated.
+- **Unable to access policy** : The principal running the simulation did not have permission to get the allow policy for one or more of the resources involved in the simulation.
+- **Membership info denied** : The principal running the simulation did not have permission to view the members of one or more of the groups included in the simulated allow policy.
+- **Unsupported condition** : There is a conditional role binding in the allow policy that is being tested. Policy Simulator does not support conditions, so the binding could not be evaluated.
 
 If an access result is unknown, the Policy Simulator results report the reason it was unknown, plus the specific roles, allow policies, membership info, and conditionals it was unable to access or evaluate.
 
@@ -148,15 +148,15 @@ Policy Simulator also reports any errors that occurred during the simulation. It
 
 There are several types of errors that Policy Simulator might report:
 
-  - **Operation errors** : The simulation could not be run.
-    
-    If the error message states the simulation could not be run because there are [too many logs](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview#max-log-size) in your project or organization, then you cannot run a simulation on the resource.
-    
-    If you get this error for another reason, try running the simulation again. If you still cannot run the simulation, contact policy-simulator-feedback@google.com.
+- **Operation errors** : The simulation could not be run.
 
-  - **Replay errors** : A replay of a single access attempt was unsuccessful, so Policy Simulator could not determine if the result of the access attempt would change under the proposed allow policy.
+  If the error message states the simulation could not be run because there are [too many logs](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview#max-log-size) in your project or organization, then you cannot run a simulation on the resource.
 
-  - **Unsupported resource type errors** : The proposed allow policy affects permissions associated with an [unsupported resource type](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview#support-levels) , which Policy Simulator cannot simulate. Policy Simulator lists these permissions in the simulation results so that you know which permissions it was unable to simulate.
+  If you get this error for another reason, try running the simulation again. If you still cannot run the simulation, contact policy-simulator-feedback@google.com.
+
+- **Replay errors** : A replay of a single access attempt was unsuccessful, so Policy Simulator could not determine if the result of the access attempt would change under the proposed allow policy.
+
+- **Unsupported resource type errors** : The proposed allow policy affects permissions associated with an [unsupported resource type](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview#support-levels) , which Policy Simulator cannot simulate. Policy Simulator lists these permissions in the simulation results so that you know which permissions it was unable to simulate.
 
 ## Maximum log replay size
 
@@ -187,52 +187,52 @@ Policy Simulator supports **only** the following resource types:
 <tr class="odd">
 <td>Cloud Storage</td>
 <td><ul>
-<li><code dir="ltr" translate="no">buckets</code></li>
+<li><code>buckets</code></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Pub/Sub</td>
 <td><ul>
-<li><code dir="ltr" translate="no">snapshots</code></li>
-<li><code dir="ltr" translate="no">subscriptions</code></li>
-<li><code dir="ltr" translate="no">topics</code></li>
+<li><code>snapshots</code></li>
+<li><code>subscriptions</code></li>
+<li><code>topics</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Cloud SQL</td>
 <td><ul>
-<li><code dir="ltr" translate="no">backupRuns</code></li>
-<li><code dir="ltr" translate="no">databases</code></li>
-<li><code dir="ltr" translate="no">instances</code></li>
-<li><code dir="ltr" translate="no">sslCerts</code></li>
-<li><code dir="ltr" translate="no">users</code></li>
+<li><code>backupRuns</code></li>
+<li><code>databases</code></li>
+<li><code>instances</code></li>
+<li><code>sslCerts</code></li>
+<li><code>users</code></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Spanner</td>
 <td><ul>
-<li><code dir="ltr" translate="no">backups</code></li>
-<li><code dir="ltr" translate="no">backupOperations</code></li>
-<li><code dir="ltr" translate="no">databases</code></li>
-<li><code dir="ltr" translate="no">databaseOperations</code></li>
-<li><code dir="ltr" translate="no">instanceConfigs</code></li>
-<li><code dir="ltr" translate="no">instanceOperations</code></li>
-<li><code dir="ltr" translate="no">instances</code></li>
-<li><code dir="ltr" translate="no">sessions</code></li>
+<li><code>backups</code></li>
+<li><code>backupOperations</code></li>
+<li><code>databases</code></li>
+<li><code>databaseOperations</code></li>
+<li><code>instanceConfigs</code></li>
+<li><code>instanceOperations</code></li>
+<li><code>instances</code></li>
+<li><code>sessions</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Resource Manager</td>
 <td><ul>
-<li><code dir="ltr" translate="no">folders</code></li>
-<li><code dir="ltr" translate="no">organizations</code></li>
-<li><code dir="ltr" translate="no">projects</code></li>
+<li><code>folders</code></li>
+<li><code>organizations</code></li>
+<li><code>projects</code></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Compute Engine</td>
 <td><ul>
-<li><code dir="ltr" translate="no">instances</code></li>
+<li><code>instances</code></li>
 </ul></td>
 </tr>
 </tbody>
@@ -246,9 +246,9 @@ The token broker must have a role that includes the permissions granted to the t
 
 For example, consider a user who has been granted the **Storage Legacy Bucket Reader** ( `roles/storage.legacyBucketReader` ) role on a resource using a downscoped access token created with a Credential Access Boundary.
 
-  - If you simulate removing the **Storage Legacy Bucket Reader** role from that user, Policy Simulator fails to report a loss of access.
+- If you simulate removing the **Storage Legacy Bucket Reader** role from that user, Policy Simulator fails to report a loss of access.
 
-  - If you simulate removing the **Storage Legacy Bucket Reader** role from the token broker, Policy Simulator fails to report a loss of access for the user. Similarly, if the token broker's access isn't used within 90 days, their access isn't included in the simulation.
+- If you simulate removing the **Storage Legacy Bucket Reader** role from the token broker, Policy Simulator fails to report a loss of access for the user. Similarly, if the token broker's access isn't used within 90 days, their access isn't included in the simulation.
 
 For more information, see [Credential Access Boundaries for Cloud Storage](https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials) .
 
@@ -260,5 +260,5 @@ If a proposed change to an allow policy involves permissions for an unsupported 
 
 ## What's next
 
-  - Learn how to [simulate a change to an allow policy](https://docs.cloud.google.com/policy-intelligence/docs/simulate-iam-policies) .
-  - Explore other [Policy Intelligence tools](https://docs.cloud.google.com/policy-intelligence/docs/overview) .
+- Learn how to [simulate a change to an allow policy](https://docs.cloud.google.com/policy-intelligence/docs/simulate-iam-policies) .
+- Explore other [Policy Intelligence tools](https://docs.cloud.google.com/policy-intelligence/docs/overview) .

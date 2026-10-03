@@ -30,21 +30,21 @@ To identify the permissions that a principal needs, start by listing the tasks t
 
 After you identify the tasks and services, there are a few strategies you can use to identify the necessary permissions for each task:
 
-  - Check the documentation for the Google Cloud services.
-    
-    For some services, the task-oriented how-to guides list the roles or permissions that you need for each task, either in a "Before you begin" section or with the instructions for each task. For example, see the Compute Engine [prerequisites for importing and exporting VM images](https://docs.cloud.google.com/compute/docs/import/requirements-export-import-images) .
-    
-    Some other services identify required roles and permissions on a page about access control. For example, see the Pub/Sub [required permissions for calling Pub/Sub methods](https://docs.cloud.google.com/pubsub/docs/access-control#required_permissions) .
+- Check the documentation for the Google Cloud services.
 
-  - Identify the REST or RPC API methods that you would use to complete the tasks, and check the API reference documentation for the required IAM permissions.
-    
-    For some services, the REST and RPC API documentation lists the permissions that each method requires. For example, see the Compute Engine documentation for the [`instances.get` method](https://docs.cloud.google.com/compute/docs/reference/rest/v1/instances/get#iam-permissions) .
+  For some services, the task-oriented how-to guides list the roles or permissions that you need for each task, either in a "Before you begin" section or with the instructions for each task. For example, see the Compute Engine [prerequisites for importing and exporting VM images](https://docs.cloud.google.com/compute/docs/import/requirements-export-import-images) .
 
-  - Look at the list of permissions for each service, and use your judgment to find the relevant permissions.
-    
-    In most cases, the name of each permission also describes what the permission lets you do with it. For example, the permission for creating a Compute Engine VM instance is named `compute.instances.create` .
-    
-    To help you understand each permission name, remember that permission names use the format `  SERVICE . RESOURCE_TYPE . ACTION  ` .
+  Some other services identify required roles and permissions on a page about access control. For example, see the Pub/Sub [required permissions for calling Pub/Sub methods](https://docs.cloud.google.com/pubsub/docs/access-control#required_permissions) .
+
+- Identify the REST or RPC API methods that you would use to complete the tasks, and check the API reference documentation for the required IAM permissions.
+
+  For some services, the REST and RPC API documentation lists the permissions that each method requires. For example, see the Compute Engine documentation for the [`instances.get` method](https://docs.cloud.google.com/compute/docs/reference/rest/v1/instances/get#iam-permissions) .
+
+- Look at the list of permissions for each service, and use your judgment to find the relevant permissions.
+
+  In most cases, the name of each permission also describes what the permission lets you do with it. For example, the permission for creating a Compute Engine VM instance is named `compute.instances.create` .
+
+  To help you understand each permission name, remember that permission names use the format `SERVICE `` . `` RESOURCE_TYPE `` . `` ACTION` .
 
 In general, you don't need to identify every permission that's required for every task. Instead, focus on identifying the most relevant permission for each task. If a predefined role contains that permission, it's likely to contain related permissions as well.
 
@@ -52,16 +52,16 @@ As part of this process, you should also try to identify which of the required p
 
 For example, the following types of permissions are especially powerful:
 
-  - Permissions to create and delete resources
-  - Permissions to access sensitive data, such as encryption keys or personally identifiable information (PII)
-  - Permissions to set the allow policy or deny policy for a resource
-  - Permissions to update organizations, folders, and projects, which can cause other resources to inherit the updates
+- Permissions to create and delete resources
+- Permissions to access sensitive data, such as encryption keys or personally identifiable information (PII)
+- Permissions to set the allow policy or deny policy for a resource
+- Permissions to update organizations, folders, and projects, which can cause other resources to inherit the updates
 
 In contrast, the following types of permissions are less powerful:
 
-  - Permissions to list resources
-  - Permissions to access data that is not sensitive
-  - Permissions to update settings that have limited risk, such as the minimum CPU platform for Compute Engine virtual machine instances
+- Permissions to list resources
+- Permissions to access data that is not sensitive
+- Permissions to update settings that have limited risk, such as the minimum CPU platform for Compute Engine virtual machine instances
 
 ## Find roles that contain the permissions
 
@@ -77,13 +77,13 @@ Now that you have a list of predefined roles that might be a good fit, you can c
 
 Start by eliminating the following types of roles:
 
-  - For production environments: Basic roles, including Owner ( `roles/owner` ), Editor ( `roles/editor` ), and Viewer ( `roles/viewer` ).
-    
-    Basic roles include thousands of permissions across all Google Cloud services. In production environments, do not grant basic roles unless there is no alternative. Instead, grant the most limited predefined roles or custom roles that meet your needs.
+- For production environments: Basic roles, including Owner ( `roles/owner` ), Editor ( `roles/editor` ), and Viewer ( `roles/viewer` ).
 
-  - Service agent roles, which typically have titles that end in "Service Agent" and names that end in `serviceAgent` .
-    
-    These roles are intended for [service agents](https://docs.cloud.google.com/iam/docs/service-agents) , which are a special type of service account that a Google Cloud service uses to access your resources. Service agent roles tend to contain permissions for multiple services, which might include services that your principal doesn't need to access.
+  Basic roles include thousands of permissions across all Google Cloud services. In production environments, do not grant basic roles unless there is no alternative. Instead, grant the most limited predefined roles or custom roles that meet your needs.
+
+- Service agent roles, which typically have titles that end in "Service Agent" and names that end in `serviceAgent` .
+
+  These roles are intended for [service agents](https://docs.cloud.google.com/iam/docs/service-agents) , which are a special type of service account that a Google Cloud service uses to access your resources. Service agent roles tend to contain permissions for multiple services, which might include services that your principal doesn't need to access.
 
 Next, use the [predefined roles reference](https://docs.cloud.google.com/iam/docs/roles-permissions) or the [**Roles** page in the Google Cloud console](https://console.cloud.google.com/iam-admin/roles) to list the permissions that each role contains. We recommend choosing predefined roles that contain all of the permissions that a user is likely to need for a given use case. Each service provides broad Admin, Editor, and Viewer roles that serve this purpose. For example, the Bigtable Admin role provides administrative permissions to create new instances and access to all table data in a project, and the Bigtable Viewer role provides view-only access to the Bigtable in the Google Cloud console.
 
@@ -99,11 +99,11 @@ When you grant a role, you always grant it on a specific Google Cloud *resource*
 
 Choose where to grant the predefined roles that you identified:
 
-  - If the principal needs access to specific lower-level resources, grant the roles on those resources.
+- If the principal needs access to specific lower-level resources, grant the roles on those resources.
 
-  - If the principal needs access to many resources within a project, folder, or organization, grant the roles on the project, folder, or organization. Choose the lowest-level resource that meets the principal's needs.
-    
-    Also, consider using IAM Conditions to [grant the roles only on specific resources](https://docs.cloud.google.com/iam/docs/configuring-resource-based-access) within the project, folder, or organization.
+- If the principal needs access to many resources within a project, folder, or organization, grant the roles on the project, folder, or organization. Choose the lowest-level resource that meets the principal's needs.
+
+  Also, consider using IAM Conditions to [grant the roles only on specific resources](https://docs.cloud.google.com/iam/docs/configuring-resource-based-access) within the project, folder, or organization.
 
 If you identified multiple predefined roles, consider whether you should grant the roles at different levels of the resource hierarchy. For example, if a principal needs access to a single Cloud SQL database, but many different Compute Engine VM instances, you might want to grant the role for Cloud SQL on the database and the role for Compute Engine on the project.
 
@@ -111,9 +111,9 @@ If you identified multiple predefined roles, consider whether you should grant t
 
 Now you're ready to grant the roles to your principal. To learn how to grant roles, see the following:
 
-  - [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access)
-  - [Manage access to service accounts](https://docs.cloud.google.com/iam/docs/manage-access-service-accounts)
-  - [Manage access to other resources](https://docs.cloud.google.com/iam/docs/manage-access-other-resources)
+- [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access)
+- [Manage access to service accounts](https://docs.cloud.google.com/iam/docs/manage-access-service-accounts)
+- [Manage access to other resources](https://docs.cloud.google.com/iam/docs/manage-access-other-resources)
 
 After you grant the roles, you can use the [Policy Analyzer and Policy Troubleshooter](https://docs.cloud.google.com/policy-intelligence/docs/overview) to check which resources the principal can access and troubleshoot access issues.
 
@@ -123,12 +123,12 @@ If you accidentally grant a role with too many permissions, then a [role recomme
 
 ## What's next
 
-  - Learn how the [Policy Simulator](https://docs.cloud.google.com/iam/docs/understanding-simulator) can help you test changes to a principal's roles.
+- Learn how the [Policy Simulator](https://docs.cloud.google.com/iam/docs/understanding-simulator) can help you test changes to a principal's roles.
 
-<!-- end list -->
+<!-- -->
 
-  - Find out how the [Policy Analyzer](https://docs.cloud.google.com/asset-inventory/docs/analyzing-iam-policy) can tell you what access a principal has to a resource.
+- Find out how the [Policy Analyzer](https://docs.cloud.google.com/asset-inventory/docs/analyzing-iam-policy) can tell you what access a principal has to a resource.
 
-<!-- end list -->
+<!-- -->
 
-  - Get details about [troubleshooting access issues](https://docs.cloud.google.com/iam/docs/troubleshoot-policies) .
+- Get details about [troubleshooting access issues](https://docs.cloud.google.com/iam/docs/troubleshoot-policies) .

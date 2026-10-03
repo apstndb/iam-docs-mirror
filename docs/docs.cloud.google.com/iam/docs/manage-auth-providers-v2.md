@@ -25,8 +25,8 @@ This predefined role contains the permissions required to manage Agent Identity 
 
 The following permissions are required to manage Agent Identity auth providers:
 
-  - `agentidentity.authProviders.update`
-  - `agentidentity.authProviders.delete`
+- `agentidentity.authProviders.update`
+- `agentidentity.authProviders.delete`
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -44,7 +44,7 @@ To update the description or authentication details of an auth provider, use the
 
 4.  In the **Auth Providers** section, find the auth provider that you want to manage.
 
-5.  For your auth provider, click the **more\_vert Actions** menu and select **Edit** .
+5.  For your auth provider, click the **more_vert Actions** menu and select **Edit** .
 
 6.  Update the description or authentication details as needed.
 
@@ -53,18 +53,26 @@ To update the description or authentication details of an auth provider, use the
 ### Google Cloud CLI
 
 1.  To update an auth provider, run the following command:
-    
-        gcloud agent-identity auth-providers update AUTH_PROVIDER_NAME \    --location="LOCATION" \    --description="NEW_DESCRIPTION" \    --three-legged-oauth-client-id="NEW_CLIENT_ID" \    --three-legged-oauth-client-secret="NEW_CLIENT_SECRET" \    --three-legged-oauth-authorization-url="NEW_ENDPOINT" \    --three-legged-oauth-default-continue-uri="NEW_DEFAULT_CONTINUE_URI"
-    
+
+    ```
+    gcloud agent-identity auth-providers update AUTH_PROVIDER_NAME \
+        --location="LOCATION" \
+        --description="NEW_DESCRIPTION" \
+        --three-legged-oauth-client-id="NEW_CLIENT_ID" \
+        --three-legged-oauth-client-secret="NEW_CLIENT_SECRET" \
+        --three-legged-oauth-authorization-url="NEW_ENDPOINT" \
+        --three-legged-oauth-default-continue-uri="NEW_DEFAULT_CONTINUE_URI"
+    ```
+
     Replace the following:
-    
-      - `  AUTH_PROVIDER_NAME  ` : The name of the auth provider.
-      - `  LOCATION  ` : The location of the auth provider.
-      - `  NEW_DESCRIPTION  ` : A new description for the auth provider.
-      - `  NEW_CLIENT_ID  ` : A new client ID from your third-party application.
-      - `  NEW_CLIENT_SECRET  ` : A new client secret from your third-party application.
-      - `  NEW_ENDPOINT  ` : A new URL of the third-party authorization server.
-      - `  NEW_DEFAULT_CONTINUE_URI  ` : Optional. A new default redirect URI where users are sent after granting consent.
+
+    - `AUTH_PROVIDER_NAME` : The name of the auth provider.
+    - `LOCATION` : The location of the auth provider.
+    - `NEW_DESCRIPTION` : A new description for the auth provider.
+    - `NEW_CLIENT_ID` : A new client ID from your third-party application.
+    - `NEW_CLIENT_SECRET` : A new client secret from your third-party application.
+    - `NEW_ENDPOINT` : A new URL of the third-party authorization server.
+    - `NEW_DEFAULT_CONTINUE_URI` : Optional. A new default redirect URI where users are sent after granting consent.
 
 ## Enable or disable an auth provider
 
@@ -80,24 +88,30 @@ If you want to temporarily stop an agent from using an auth provider without del
 
 4.  In the **Auth Providers** section, find the auth provider that you want to manage.
 
-5.  For your auth provider, click **more\_vert Actions** and select **Enable** or **Disable** .
+5.  For your auth provider, click **more_vert Actions** and select **Enable** or **Disable** .
 
 6.  In the confirmation dialog, click **Enable** or **Disable** .
 
 ### Google Cloud CLI
 
 1.  To enable an auth provider, run the following command:
-    
-        gcloud agent-identity auth-providers enable AUTH_PROVIDER_NAME \    --location="LOCATION"
+
+    ```
+    gcloud agent-identity auth-providers enable AUTH_PROVIDER_NAME \
+        --location="LOCATION"
+    ```
 
 2.  To disable an auth provider, run the following command:
-    
-        gcloud agent-identity auth-providers disable AUTH_PROVIDER_NAME \    --location="LOCATION"
+
+    ```
+    gcloud agent-identity auth-providers disable AUTH_PROVIDER_NAME \
+        --location="LOCATION"
+    ```
 
 Replace the following:
 
-  - `  AUTH_PROVIDER_NAME  ` : The name of the auth provider.
-  - `  LOCATION  ` : The location of the auth provider.
+- `AUTH_PROVIDER_NAME` : The name of the auth provider.
+- `LOCATION` : The location of the auth provider.
 
 ## Delete an auth provider
 
@@ -113,20 +127,23 @@ When you no longer need an auth provider, you can delete it. Deleting an auth pr
 
 4.  In the **Auth Providers** section, find the auth provider that you want to manage.
 
-5.  For your auth provider, click **more\_vert Actions** and select **Delete** .
+5.  For your auth provider, click **more_vert Actions** and select **Delete** .
 
 6.  In the confirmation dialog, click **Delete** .
 
 ### gcloud
 
 1.  To delete an auth provider, run the following command:
-    
-        gcloud agent-identity auth-providers delete AUTH_PROVIDER_NAME \    --location="LOCATION"
+
+    ```
+    gcloud agent-identity auth-providers delete AUTH_PROVIDER_NAME \
+        --location="LOCATION"
+    ```
 
 Replace the following:
 
-  - `  AUTH_PROVIDER_NAME  ` : The name of the auth provider.
-  - `  LOCATION  ` : The location of the auth provider.
+- `AUTH_PROVIDER_NAME` : The name of the auth provider.
+- `LOCATION` : The location of the auth provider.
 
 ## Restore a deleted auth provider
 
@@ -142,26 +159,29 @@ If you accidentally delete an auth provider, you can restore it from its soft-de
 
 4.  In the **Auth Providers** section, find the auth provider that you want to manage.
 
-5.  For your auth provider, click **more\_vert Actions** and select **Restore** .
+5.  For your auth provider, click **more_vert Actions** and select **Restore** .
 
 6.  In the confirmation dialog, click **Restore** .
 
 ### gcloud
 
 1.  To restore an auth provider, run the following command:
-    
-        gcloud agent-identity auth-providers undelete AUTH_PROVIDER_NAME \    --location="LOCATION"
+
+    ```
+    gcloud agent-identity auth-providers undelete AUTH_PROVIDER_NAME \
+        --location="LOCATION"
+    ```
 
 Replace the following:
 
-  - `  AUTH_PROVIDER_NAME  ` : The name of the auth provider.
-  - `  LOCATION  ` : The location of the auth provider.
+- `AUTH_PROVIDER_NAME` : The name of the auth provider.
+- `LOCATION` : The location of the auth provider.
 
 ## What's next
 
-  - [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
-  - [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)
-  - [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
-  - [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
-  - [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations)
-  - [Troubleshoot Agent Identity auth manager](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager)
+- [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
+- [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)
+- [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
+- [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
+- [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations)
+- [Troubleshoot Agent Identity auth manager](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager)

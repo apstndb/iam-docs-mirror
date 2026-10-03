@@ -8,8 +8,8 @@ data_source: docs.cloud.google.com
 
 [Service accounts](https://docs.cloud.google.com/iam/docs/service-account-overview) can be divided into the following categories:
 
-  - *User-managed service accounts* , which you create and manage yourself
-  - *Service agents* , which Google Cloud creates and manages
+- *User-managed service accounts* , which you create and manage yourself
+- *Service agents* , which Google Cloud creates and manages
 
 This page describes how each type of service account is created and used.
 
@@ -23,7 +23,7 @@ The number of service accounts that you can have in each project depends on your
 
 When you create a user-managed service account in your project, you choose a name for the service account. This name appears in the email address that identifies the service account, which uses the following format:
 
-`  service-account-name @ project-id .iam.gserviceaccount.com `
+`service-account-name `` @ `` project-id `` .iam.gserviceaccount.com`
 
 To learn how to create a service account, see [Create service accounts](https://docs.cloud.google.com/iam/docs/service-accounts-create) .
 
@@ -43,14 +43,12 @@ If the default service account already has the Editor role, we recommend that yo
 
 The following table lists the services that create default service accounts:
 
-| Service                                                               | Service account name                   | Email address                                                            |
-| --------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------------ |
-| App Engine, and any Google Cloud service that uses App Engine         | App Engine default service account     | `         project-id        @appspot.gserviceaccount.com `               |
-| Compute Engine, and any Google Cloud service that uses Compute Engine | Compute Engine default service account | `         project-number        -compute@developer.gserviceaccount.com ` |
+| Service                                                               | Service account name                   | Email address                                              |
+|-----------------------------------------------------------------------|----------------------------------------|------------------------------------------------------------|
+| App Engine, and any Google Cloud service that uses App Engine         | App Engine default service account     | `project-id `` @appspot.gserviceaccount.com`               |
+| Compute Engine, and any Google Cloud service that uses Compute Engine | Compute Engine default service account | `project-number `` -compute@developer.gserviceaccount.com` |
 
 > **Note:** Both the creation time and the email address format for default service accounts are subject to change.
-
-<span id="google-managed"></span>
 
 ## Service agents
 
@@ -70,9 +68,9 @@ By default, service agents aren't listed in the **IAM** page in the Google Cloud
 
 Google Cloud has the following types of service agents:
 
-  - [Service-specific service agents](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents)
-  - [Google APIs Service Agent](https://docs.cloud.google.com/iam/docs/service-account-types#google-apis-service-agent)
-  - [Role manager for service agents](https://docs.cloud.google.com/iam/docs/service-account-types#role-manager)
+- [Service-specific service agents](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents)
+- [Google APIs Service Agent](https://docs.cloud.google.com/iam/docs/service-account-types#google-apis-service-agent)
+- [Role manager for service agents](https://docs.cloud.google.com/iam/docs/service-account-types#role-manager)
 
 ### Service-specific service agents
 
@@ -82,24 +80,24 @@ Each service agent is associated with a resource. This resource is typically a p
 
 You can determine which type of resource a service agent is associated with by looking at its email address:
 
-  - If the service agent is associated with a project, folder, or organization, its email address contains the numeric ID for that project, folder, or organization.
-  - If the service agent is associated with a service-specific resource, its email address contains a numeric project ID and a unique identifier. The numeric project ID indicates which project owns the resource that the service agent is associated with. The unique identifier distinguishes the service agent from other similar service agents in the same project.
+- If the service agent is associated with a project, folder, or organization, its email address contains the numeric ID for that project, folder, or organization.
+- If the service agent is associated with a service-specific resource, its email address contains a numeric project ID and a unique identifier. The numeric project ID indicates which project owns the resource that the service agent is associated with. The unique identifier distinguishes the service agent from other similar service agents in the same project.
 
 ### Google APIs Service Agent
 
-Your project's allow policy is likely to refer to a service account named the Google APIs Service Agent, with an email address that uses the following format: `  project-number @cloudservices.gserviceaccount.com ` .
+Your project's allow policy is likely to refer to a service account named the Google APIs Service Agent, with an email address that uses the following format: `project-number `` @cloudservices.gserviceaccount.com` .
 
 This service account runs internal processes on your behalf, primarily for Compute Engine features. By default, the Google APIs Service Agent is granted the Instance Group Manager Service Agent role ( `roles/compute.instanceGroupManagerServiceAgent` ).
 
 However, in some cases, the Google APIs Service Agent might automatically be granted a different role:
 
-  - **Dataproc Service Agent role ( `roles/dataproc.serviceAgent` )** : Granted if you enable the Dataproc API
+- **Dataproc Service Agent role ( `roles/dataproc.serviceAgent` )** : Granted if you enable the Dataproc API
 
-  - **Cloud Scheduler Service Agent role ( `roles/cloudscheduler.serviceAgent` )** : Granted if you enable the Cloud Scheduler API
+- **Cloud Scheduler Service Agent role ( `roles/cloudscheduler.serviceAgent` )** : Granted if you enable the Cloud Scheduler API
 
-  - **Editor role ( `roles/editor` )** : Granted if your project was created before April 2026 or if you enable the Cloud Deployment Manager API
-    
-    The Editor role is highly permissive. If the Google APIs Service Agent is granted the Editor role, then we recommend using the [Role Recommender](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) to determine if you can safely reduce its permissions.
+- **Editor role ( `roles/editor` )** : Granted if your project was created before April 2026 or if you enable the Cloud Deployment Manager API
+
+  The Editor role is highly permissive. If the Google APIs Service Agent is granted the Editor role, then we recommend using the [Role Recommender](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) to determine if you can safely reduce its permissions.
 
 ### Role manager for service agents
 
@@ -143,39 +141,41 @@ To help you understand the context for a service agent's actions, some service a
 
 The following service agents include these additional details in their audit logs:
 
-  - [BigQuery Connection Service Agent](https://docs.cloud.google.com/iam/docs/service-agents#bigquery-connection-service-agent)
-  - [BigQuery Connection Delegation Service Agent](https://docs.cloud.google.com/iam/docs/service-agents#bigquery-connection-delegation-service-agent)
+- [BigQuery Connection Service Agent](https://docs.cloud.google.com/iam/docs/service-agents#bigquery-connection-service-agent)
+- [BigQuery Connection Delegation Service Agent](https://docs.cloud.google.com/iam/docs/service-agents#bigquery-connection-delegation-service-agent)
 
 These additional details are in the `serviceDelegationHistory` field of the audit log, which is nested in the `authenticationInfo` field. This field contains the following information:
 
-  - The original principal who created the job
-  - The service agent that executed the action
-  - The service that the service agent belongs to
-  - The job ID
+- The original principal who created the job
+- The service agent that executed the action
+- The service that the service agent belongs to
+- The job ID
 
 For example, suppose `example-user@example.com` creates a job using the BigQuery Connection API. This job requires one of the BigQuery Connection API's service agents to execute an action. In this case, the audit log for the service agent's action would contain a `serviceDelegationHistory` field similar to the following:
 
-    {
-      "protoPayload": {
-        "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
-        "authenticationInfo": {
-          "principalEmail": "bqcx-442188550395-jujw@gcp-sa-bigquery-condel.iam.gserviceaccount.com",
-          "serviceDelegationHistory": {
-            "originalPrincipal": "user:my-user@example.com",
-            "serviceMetadata": [
-              {
-                "principalSubject": "serviceAccount:bqcx-442188550395-jujw@gcp-sa-bigquery-condel.iam.gserviceaccount.com",
-                "serviceDomain": "bigquery.googleapis.com",
-              }
-            ]
+```
+{
+  "protoPayload": {
+    "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+    "authenticationInfo": {
+      "principalEmail": "bqcx-442188550395-jujw@gcp-sa-bigquery-condel.iam.gserviceaccount.com",
+      "serviceDelegationHistory": {
+        "originalPrincipal": "user:my-user@example.com",
+        "serviceMetadata": [
+          {
+            "principalSubject": "serviceAccount:bqcx-442188550395-jujw@gcp-sa-bigquery-condel.iam.gserviceaccount.com",
+            "serviceDomain": "bigquery.googleapis.com",
           }
-        }
+        ]
       }
     }
+  }
+}
+```
 
 ## What's next
 
-  - Find out how to [create and manage service accounts](https://docs.cloud.google.com/iam/docs/managing-service-accounts) .
-  - Learn how to [create and manage service account keys](https://docs.cloud.google.com/iam/docs/managing-service-account-keys) .
-  - Get [best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .
-  - Review [best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .
+- Find out how to [create and manage service accounts](https://docs.cloud.google.com/iam/docs/managing-service-accounts) .
+- Learn how to [create and manage service account keys](https://docs.cloud.google.com/iam/docs/managing-service-account-keys) .
+- Get [best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .
+- Review [best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .

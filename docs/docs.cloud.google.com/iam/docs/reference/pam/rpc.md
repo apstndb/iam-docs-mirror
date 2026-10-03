@@ -8,262 +8,96 @@ data_source: docs.cloud.google.com
 
 Privileged Access Manager (PAM) helps you to follow least privilege best practice to mitigate risks tied to privileged access misuse and abuse. You can shift from always-on standing privileges to on-demand access using time-bound and approval-based access elevations. IAM administrators specifically can use PAM to create entitlements that can grant temporary access to a specific resource scope. Requesters can explore eligible entitlements and request the access needed for their task, and approvers are notified when approvals require their attention. Streamlined workflows facilitated using PAM support several use cases, including the following:
 
-  - Emergency access for incident responders
+- Emergency access for incident responders
 
-  - Time-boxed access for developers for critical deployment or maintenance
+- Time-boxed access for developers for critical deployment or maintenance
 
-  - Temporary access for operators for data ingestion and audits
+- Temporary access for operators for data ingestion and audits
 
-  - Temporary access to service accounts for automated tasks
+- Temporary access to service accounts for automated tasks
 
 ## Service: privilegedaccessmanager.googleapis.com
 
 The Service name `privilegedaccessmanager.googleapis.com` is needed to create RPC client stubs.
 
-## `        google.cloud.location.Locations       `
-
-Methods
-
-`  GetLocation  `
-
-Gets information about a location.
-
-`  ListLocations  `
-
-Lists information about the supported locations for this service.
-
-## `        google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager       `
-
-Methods
-
-`  ApproveGrant  `
-
-`ApproveGrant` is used to approve a grant.
-
-`  CheckOnboardingStatus  `
-
-`CheckOnboardingStatus` reports the onboarding status for a project, folder, or organization.
-
-`  CreateEntitlement  `
-
-Creates a new entitlement in a given project, folder, organization, and in a given location.
-
-`  CreateGrant  `
-
-Creates a grant in a given project, folder, or organization and location.
-
-`  DeleteEntitlement  `
-
-Deletes a single entitlement.
-
-`  DenyGrant  `
-
-`DenyGrant` is used to deny a grant.
-
-`  GetEntitlement  `
-
-Gets details of a single entitlement.
-
-`  GetGrant  `
-
-Get details of a single grant.
-
-`  ListEntitlements  `
-
-Lists the entitlements in a given project, folder, organization, and in a given location.
-
-`  ListGrants  `
-
-Lists grants for a given entitlement.
-
-`  RevokeGrant  `
-
-`RevokeGrant` is used to immediately revoke access for a grant.
-
-`  SearchEntitlements  `
-
-`SearchEntitlements` returns entitlements on which the caller has the specified access.
-
-`  SearchGrants  `
-
-`SearchGrants` returns grants that are related to the calling user in the specified way.
-
-`  UpdateEntitlement  `
-
-Updates the entitlement specified in the request.
-
-## `        google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager       `
-
-Methods
-
-`  ApproveGrant  `
-
-`ApproveGrant` is used to approve a grant.
-
-`  CheckOnboardingStatus  `
-
-`CheckOnboardingStatus` reports the onboarding status for a project, folder, or organization.
-
-`  CreateEntitlement  `
-
-Creates a new entitlement in a given project, folder, organization, and in a given location.
-
-`  CreateGrant  `
-
-Creates a grant in a given project, folder, or organization and location.
-
-`  DeleteEntitlement  `
-
-Deletes a single entitlement.
-
-`  DenyGrant  `
-
-`DenyGrant` is used to deny a grant.
-
-`  FetchEffectiveSettings  `
-
-`FetchEffectiveSettings` returns the effective PAM Settings for the given project, folder, or organization.
-
-`  GetEntitlement  `
-
-Gets details of a single entitlement.
-
-`  GetGrant  `
-
-Get details of a single grant.
-
-`  GetSettings  `
-
-`GetSettings` returns the PAM Settings for the given project, folder, or organization.
-
-`  ListEntitlements  `
-
-Lists the entitlements in a given project, folder, organization, and in a given location.
-
-`  ListGrants  `
-
-Lists grants for a given entitlement.
-
-`  RevokeGrant  `
-
-`RevokeGrant` is used to immediately revoke access for a grant.
-
-`  SearchEntitlements  `
-
-`SearchEntitlements` returns entitlements on which the caller has the specified access.
-
-`  SearchGrants  `
-
-`SearchGrants` returns grants that are related to the calling user in the specified way.
-
-`  UpdateEntitlement  `
-
-Updates the entitlement specified in the request.
-
-`  UpdateSettings  `
-
-`UpdateSettings` updates the PAM Settings resource specified in the request.
-
-`  WithdrawGrant  `
-
-`WithdrawGrant` is used to immediately withdraw the grant.
-
-## `        google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager       `
-
-Methods
-
-`  ApproveGrant  `
-
-`ApproveGrant` is used to approve a grant.
-
-`  CheckOnboardingStatus  `
-
-`CheckOnboardingStatus` reports the onboarding status for a project, folder, or organization.
-
-`  CreateEntitlement  `
-
-Creates a new entitlement in a given project, folder, organization, and in a given location.
-
-`  CreateGrant  `
-
-Creates a grant in a given project, folder, or organization and location.
-
-`  DeleteEntitlement  `
-
-Deletes a single entitlement.
-
-`  DenyGrant  `
-
-`DenyGrant` is used to deny a grant.
-
-`  FetchEffectiveSettings  `
-
-`FetchEffectiveSettings` returns the effective PAM Settings for the given project, folder, or organization.
-
-`  GetEntitlement  `
-
-Gets details of a single entitlement.
-
-`  GetGrant  `
-
-Get details of a single grant.
-
-`  GetSettings  `
-
-`GetSettings` returns the PAM Settings for the given project, folder, or organization.
-
-`  ListEntitlements  `
-
-Lists the entitlements in a given project, folder, organization, and in a given location.
-
-`  ListGrants  `
-
-Lists grants for a given entitlement.
-
-`  RevokeGrant  `
-
-`RevokeGrant` is used to immediately revoke access for a grant.
-
-`  SearchEntitlements  `
-
-`SearchEntitlements` returns entitlements on which the caller has the specified access.
-
-`  SearchGrants  `
-
-`SearchGrants` returns grants that are related to the calling user in the specified way.
-
-`  UpdateEntitlement  `
-
-Updates the entitlement specified in the request.
-
-`  UpdateSettings  `
-
-`UpdateSettings` updates the PAM Settings resource specified in the request.
-
-`  WithdrawGrant  `
-
-`WithdrawGrant` is used to immediately withdraw the grant.
-
-## `        google.longrunning.Operations       `
-
-Methods
-
-`  CancelOperation  `
-
-Starts asynchronous cancellation on a long-running operation.
-
-`  DeleteOperation  `
-
-Deletes a long-running operation.
-
-`  GetOperation  `
-
-Gets the latest state of a long-running operation.
-
-`  ListOperations  `
-
-Lists operations that match the specified filter in the request.
-
-`  WaitOperation  `
-
-Waits until the specified long-running operation is done or reaches at most a specified timeout, returning the latest state.
+## [`google.cloud.location.Locations`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.location#google.cloud.location.Locations)
+
+| Methods                                                                                                                                         |                                                                   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [`GetLocation`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.location#google.cloud.location.Locations.GetLocation)     | Gets information about a location.                                |
+| [`ListLocations`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.location#google.cloud.location.Locations.ListLocations) | Lists information about the supported locations for this service. |
+
+## [`google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager)
+
+| Methods                                                                                                                                                                                                           |                                                                                               |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| [`ApproveGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.ApproveGrant)                   | `ApproveGrant` is used to approve a grant.                                                    |
+| [`CheckOnboardingStatus`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.CheckOnboardingStatus) | `CheckOnboardingStatus` reports the onboarding status for a project, folder, or organization. |
+| [`CreateEntitlement`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.CreateEntitlement)         | Creates a new entitlement in a given project, folder, organization, and in a given location.  |
+| [`CreateGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.CreateGrant)                     | Creates a grant in a given project, folder, or organization and location.                     |
+| [`DeleteEntitlement`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.DeleteEntitlement)         | Deletes a single entitlement.                                                                 |
+| [`DenyGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.DenyGrant)                         | `DenyGrant` is used to deny a grant.                                                          |
+| [`GetEntitlement`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.GetEntitlement)               | Gets details of a single entitlement.                                                         |
+| [`GetGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.GetGrant)                           | Get details of a single grant.                                                                |
+| [`ListEntitlements`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.ListEntitlements)           | Lists the entitlements in a given project, folder, organization, and in a given location.     |
+| [`ListGrants`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.ListGrants)                       | Lists grants for a given entitlement.                                                         |
+| [`RevokeGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.RevokeGrant)                     | `RevokeGrant` is used to immediately revoke access for a grant.                               |
+| [`SearchEntitlements`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.SearchEntitlements)       | `SearchEntitlements` returns entitlements on which the caller has the specified access.       |
+| [`SearchGrants`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.SearchGrants)                   | `SearchGrants` returns grants that are related to the calling user in the specified way.      |
+| [`UpdateEntitlement`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1#google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.UpdateEntitlement)         | Updates the entitlement specified in the request.                                             |
+
+## [`google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager)
+
+| Methods                                                                                                                                                                                                                       |                                                                                                             |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| [`ApproveGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.ApproveGrant)                     | `ApproveGrant` is used to approve a grant.                                                                  |
+| [`CheckOnboardingStatus`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.CheckOnboardingStatus)   | `CheckOnboardingStatus` reports the onboarding status for a project, folder, or organization.               |
+| [`CreateEntitlement`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.CreateEntitlement)           | Creates a new entitlement in a given project, folder, organization, and in a given location.                |
+| [`CreateGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.CreateGrant)                       | Creates a grant in a given project, folder, or organization and location.                                   |
+| [`DeleteEntitlement`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.DeleteEntitlement)           | Deletes a single entitlement.                                                                               |
+| [`DenyGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.DenyGrant)                           | `DenyGrant` is used to deny a grant.                                                                        |
+| [`FetchEffectiveSettings`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.FetchEffectiveSettings) | `FetchEffectiveSettings` returns the effective PAM Settings for the given project, folder, or organization. |
+| [`GetEntitlement`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.GetEntitlement)                 | Gets details of a single entitlement.                                                                       |
+| [`GetGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.GetGrant)                             | Get details of a single grant.                                                                              |
+| [`GetSettings`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.GetSettings)                       | `GetSettings` returns the PAM Settings for the given project, folder, or organization.                      |
+| [`ListEntitlements`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.ListEntitlements)             | Lists the entitlements in a given project, folder, organization, and in a given location.                   |
+| [`ListGrants`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.ListGrants)                         | Lists grants for a given entitlement.                                                                       |
+| [`RevokeGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.RevokeGrant)                       | `RevokeGrant` is used to immediately revoke access for a grant.                                             |
+| [`SearchEntitlements`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.SearchEntitlements)         | `SearchEntitlements` returns entitlements on which the caller has the specified access.                     |
+| [`SearchGrants`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.SearchGrants)                     | `SearchGrants` returns grants that are related to the calling user in the specified way.                    |
+| [`UpdateEntitlement`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.UpdateEntitlement)           | Updates the entitlement specified in the request.                                                           |
+| [`UpdateSettings`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.UpdateSettings)                 | `UpdateSettings` updates the PAM Settings resource specified in the request.                                |
+| [`WithdrawGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1alpha#google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.WithdrawGrant)                   | `WithdrawGrant` is used to immediately withdraw the grant.                                                  |
+
+## [`google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager)
+
+| Methods                                                                                                                                                                                                                     |                                                                                                             |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| [`ApproveGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.ApproveGrant)                     | `ApproveGrant` is used to approve a grant.                                                                  |
+| [`CheckOnboardingStatus`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.CheckOnboardingStatus)   | `CheckOnboardingStatus` reports the onboarding status for a project, folder, or organization.               |
+| [`CreateEntitlement`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.CreateEntitlement)           | Creates a new entitlement in a given project, folder, organization, and in a given location.                |
+| [`CreateGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.CreateGrant)                       | Creates a grant in a given project, folder, or organization and location.                                   |
+| [`DeleteEntitlement`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.DeleteEntitlement)           | Deletes a single entitlement.                                                                               |
+| [`DenyGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.DenyGrant)                           | `DenyGrant` is used to deny a grant.                                                                        |
+| [`FetchEffectiveSettings`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.FetchEffectiveSettings) | `FetchEffectiveSettings` returns the effective PAM Settings for the given project, folder, or organization. |
+| [`GetEntitlement`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.GetEntitlement)                 | Gets details of a single entitlement.                                                                       |
+| [`GetGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.GetGrant)                             | Get details of a single grant.                                                                              |
+| [`GetSettings`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.GetSettings)                       | `GetSettings` returns the PAM Settings for the given project, folder, or organization.                      |
+| [`ListEntitlements`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.ListEntitlements)             | Lists the entitlements in a given project, folder, organization, and in a given location.                   |
+| [`ListGrants`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.ListGrants)                         | Lists grants for a given entitlement.                                                                       |
+| [`RevokeGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.RevokeGrant)                       | `RevokeGrant` is used to immediately revoke access for a grant.                                             |
+| [`SearchEntitlements`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.SearchEntitlements)         | `SearchEntitlements` returns entitlements on which the caller has the specified access.                     |
+| [`SearchGrants`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.SearchGrants)                     | `SearchGrants` returns grants that are related to the calling user in the specified way.                    |
+| [`UpdateEntitlement`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.UpdateEntitlement)           | Updates the entitlement specified in the request.                                                           |
+| [`UpdateSettings`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.UpdateSettings)                 | `UpdateSettings` updates the PAM Settings resource specified in the request.                                |
+| [`WithdrawGrant`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.cloud.privilegedaccessmanager.v1beta#google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.WithdrawGrant)                   | `WithdrawGrant` is used to immediately withdraw the grant.                                                  |
+
+## [`google.longrunning.Operations`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.longrunning#google.longrunning.Operations)
+
+| Methods                                                                                                                                        |                                                                                                                              |
+|------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| [`CancelOperation`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.longrunning#google.longrunning.Operations.CancelOperation) | Starts asynchronous cancellation on a long-running operation.                                                                |
+| [`DeleteOperation`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.longrunning#google.longrunning.Operations.DeleteOperation) | Deletes a long-running operation.                                                                                            |
+| [`GetOperation`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.longrunning#google.longrunning.Operations.GetOperation)       | Gets the latest state of a long-running operation.                                                                           |
+| [`ListOperations`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.longrunning#google.longrunning.Operations.ListOperations)   | Lists operations that match the specified filter in the request.                                                             |
+| [`WaitOperation`](https://docs.cloud.google.com/iam/docs/reference/pam/rpc/google.longrunning#google.longrunning.Operations.WaitOperation)     | Waits until the specified long-running operation is done or reaches at most a specified timeout, returning the latest state. |

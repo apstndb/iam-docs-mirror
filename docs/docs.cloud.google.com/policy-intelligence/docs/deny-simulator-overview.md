@@ -10,9 +10,9 @@ Policy Simulator for deny policies lets you see how a change to an IAM [deny pol
 
 This feature only evaluates deny policies. To learn how to simulate other policy types, see the following:
 
-  - [Policy Simulator for organization policies](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies)
-  - [Policy Simulator for allow policies](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview)
-  - [Policy Simulator for Principal Access Boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview)
+- [Policy Simulator for organization policies](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies)
+- [Policy Simulator for allow policies](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview)
+- [Policy Simulator for Principal Access Boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview)
 
 ## How Policy Simulator for deny policies works
 
@@ -21,7 +21,7 @@ Policy Simulator for deny policies helps you determine whether a change to a den
 When you run a simulation for a deny policy, Policy Simulator does the following:
 
 1.  Retrieves access logs for the organization that were generated during the [replay period](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview#replay-period) . The replay period is 90 days.
-    
+
     If the organization has not existed for more than 90 days, then Policy Simulator retrieves all access logs since the organization was created.
 
 2.  Determines which access logs are relevant to the simulation. Relevant access logs are all access logs that represent a principal's most recent attempt to use a permission to access a resource.
@@ -29,7 +29,7 @@ When you run a simulation for a deny policy, Policy Simulator does the following
 3.  For each relevant access log, determines whether the current deny policies, along with the proposed changes, would permit the attempted access. This process is called *replaying* the access attempts.
 
 4.  For each access log, compares the access state from the replay with the access state in the access logs. Then, Policy Simulator reports any historical access attempts that weren't blocked in the access log, but were blocked in the replay. These differences, which are called *access changes* , show which access attempts would have been blocked if the simulated deny policy had been in place at the time of the attempt.
-    
+
     > **Note:** The access state in an access log might not reflect the current access state. In these cases, Policy Simulator always compares the results of the replay to the result from the access log, *not* to the current access state.
 
 ### Replay period
@@ -42,23 +42,23 @@ Policy Simulator reports the impact of a proposed change to a deny policy as a l
 
 Policy Simulator reports that access is revoked if the following are true:
 
-  - The principal's most recent attempt to access the resource was successful
-  - The proposed changes or another deny policy block the principal's access to the resource
+- The principal's most recent attempt to access the resource was successful
+- The proposed changes or another deny policy block the principal's access to the resource
 
 For each access change, Policy Simulator also reports the following information:
 
-  - The principal, resource, and permission involved in the access attempt.
-  - The number of days during the replay period that the principal tried to use the permission to access the resource. This total includes only the access attempts that have the same result as the most recent access attempt.
-  - The date of the most recent access attempt.
+- The principal, resource, and permission involved in the access attempt.
+- The number of days during the replay period that the principal tried to use the permission to access the resource. This total includes only the access attempts that have the same result as the most recent access attempt.
+- The date of the most recent access attempt.
 
 ## Errors
 
 The following errors can cause a simulation to fail:
 
-  - **Maximum concurrent simulations exceeded** : The user already has 50 in-progress simulations, which is the maximum number of in-progress simulations that a user can have. To resolve, wait for one of the in-progress simulations to complete, then try running the simulation again.
-  - **Timeout** : The simulation took too long to run and timed out. Any simulation that takes more than 24 hours times out automatically. To resolve, try running the simulation again or reducing the size of the simulation.
-  - **Invalid simulation construction** : The proposed deny policy is invalid or contains unsupported deny rules. An example of an invalid policy is one that contains an invalid condition expression. An example of an unsupported deny rule is one that uses workforce identity principal identifiers. To resolve, correct the policy and try again.
-  - **Permission denied** : You don't have permission to run a simulation. To resolve, ensure that you're granted the [required roles](https://docs.cloud.google.com/policy-intelligence/docs/simulate-deny-policies#required-roles) and try again.
+- **Maximum concurrent simulations exceeded** : The user already has 50 in-progress simulations, which is the maximum number of in-progress simulations that a user can have. To resolve, wait for one of the in-progress simulations to complete, then try running the simulation again.
+- **Timeout** : The simulation took too long to run and timed out. Any simulation that takes more than 24 hours times out automatically. To resolve, try running the simulation again or reducing the size of the simulation.
+- **Invalid simulation construction** : The proposed deny policy is invalid or contains unsupported deny rules. An example of an invalid policy is one that contains an invalid condition expression. An example of an unsupported deny rule is one that uses workforce identity principal identifiers. To resolve, correct the policy and try again.
+- **Permission denied** : You don't have permission to run a simulation. To resolve, ensure that you're granted the [required roles](https://docs.cloud.google.com/policy-intelligence/docs/simulate-deny-policies#required-roles) and try again.
 
 > **Note:** Unsupported deny policies are ignored during simulations of deny policies elsewhere in the resource hierarchy. For example, if you successfully simulate a valid deny policy on a resource and there's an unsupported deny policy on an ancestor resource, that unsupported deny policy is not evaluated by the simulation. The result of the simulation reflects the valid deny policy, and ignores the unsupported deny policy.
 
@@ -66,11 +66,11 @@ The following errors can cause a simulation to fail:
 
 Policy Simulator for deny policies only reviews access logs for the following types of principals:
 
-  - Google Workspace Accounts
-  - Service accounts
-  - [Service account principal sets](https://docs.cloud.google.com/iam/docs/principal-identifiers#deny-service-account-principal-sets) for projects, folders, and organizations
-  - Service agents
-  - [Service agent principal sets](https://docs.cloud.google.com/iam/docs/principal-identifiers#deny-service-agent-principal-sets) for projects, folders, and organizations
+- Google Workspace Accounts
+- Service accounts
+- [Service account principal sets](https://docs.cloud.google.com/iam/docs/principal-identifiers#deny-service-account-principal-sets) for projects, folders, and organizations
+- Service agents
+- [Service agent principal sets](https://docs.cloud.google.com/iam/docs/principal-identifiers#deny-service-agent-principal-sets) for projects, folders, and organizations
 
 When simulating deny policies, Policy Simulator doesn't review access logs for any other principal types, including those based on federated identities in a workload identity pool. As a result, Policy Simulator doesn't report whether the proposed changes to your policies or bindings affect those principals' access.
 
@@ -82,13 +82,13 @@ The token broker must have a role that includes the permissions granted to the t
 
 For example, consider a user who has been granted the **Storage Legacy Bucket Reader** ( `roles/storage.legacyBucketReader` ) role on a resource using a downscoped access token created with a Credential Access Boundary.
 
-  - If you simulate denying the **Storage Legacy Bucket Reader** role on that user, Policy Simulator fails to report a loss of access.
+- If you simulate denying the **Storage Legacy Bucket Reader** role on that user, Policy Simulator fails to report a loss of access.
 
-  - If you simulate denying the **Storage Legacy Bucket Reader** role on the token broker, Policy Simulator fails to report a loss of access for the user. Similarly, if the token broker's access isn't used within 90 days, their access isn't included in the simulation.
+- If you simulate denying the **Storage Legacy Bucket Reader** role on the token broker, Policy Simulator fails to report a loss of access for the user. Similarly, if the token broker's access isn't used within 90 days, their access isn't included in the simulation.
 
 For more information, see [Credential Access Boundaries for Cloud Storage](https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials) .
 
 ## What's next
 
-  - Learn how to [simulate a change to a deny policy](https://docs.cloud.google.com/policy-intelligence/docs/simulate-deny-policies) .
-  - Explore other [Policy Intelligence tools](https://docs.cloud.google.com/policy-intelligence/docs/overview) .
+- Learn how to [simulate a change to a deny policy](https://docs.cloud.google.com/policy-intelligence/docs/simulate-deny-policies) .
+- Explore other [Policy Intelligence tools](https://docs.cloud.google.com/policy-intelligence/docs/overview) .

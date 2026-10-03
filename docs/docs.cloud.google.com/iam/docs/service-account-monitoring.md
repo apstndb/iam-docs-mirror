@@ -16,8 +16,8 @@ Service account keys also appear in these metrics if a system lists the keys whi
 
 The following don't appear in either service account or service account key metrics:
 
-  - Cloud Storage HMAC authentication keys
-  - Requests authenticated by [API keys bound to service accounts](https://docs.cloud.google.com/docs/authentication/api-keys#api-keys-bound-sa)
+- Cloud Storage HMAC authentication keys
+- Requests authenticated by [API keys bound to service accounts](https://docs.cloud.google.com/docs/authentication/api-keys#api-keys-bound-sa)
 
 Monitoring retains service account metrics for 6 weeks. If you need to access data for a longer time period, you can periodically export the results to BigQuery. For more information, see [Monitoring metric export](https://docs.cloud.google.com/solutions/stackdriver-monitoring-metric-export) in the Solutions documentation.
 
@@ -25,11 +25,11 @@ After you use a service account or service account key, usage metrics are usuall
 
 ## Before you begin
 
-  - Enable the IAM and Cloud Monitoring APIs, if any are not already enabled.
-    
-    **Roles required to enable APIs**
-    
-    To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+- Enable the IAM and Cloud Monitoring APIs, if any are not already enabled.
+
+  **Roles required to enable APIs**
+
+  To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
 ### Required roles
 
@@ -46,28 +46,26 @@ To view the usage metrics for your service accounts or service account keys, fol
 To view the metrics for a monitored resource by using the Metrics Explorer, do the following:
 
 1.  In the Google Cloud console, go to the *leaderboard* **Metrics explorer** page:
-    
+
     If you use the search bar to find this page, then select the result whose subheading is **Monitoring** .
 
 2.  In the toolbar of the Google Cloud console, select your Google Cloud project. For [App Hub](https://docs.cloud.google.com/app-hub/docs/overview) configurations, select the App Hub host project or the app-enabled folder's management project.
 
 3.  In the **Metric** element, expand the **Select a metric** menu, enter `IAM Service Account` in the filter bar, and then use the submenus to select a specific resource type and metric:
-    
     1.  In the **Active resources** menu, select **IAM Service Account** .
-    2.  In the **Active metric categories** menu, select **Service\_account** .
+    2.  In the **Active metric categories** menu, select **Service_account** .
     3.  In the **Active metrics** menu, select a service account metric. The following metrics are available within your selected time interval:
-          - For service account usage metrics, select **Service account authentication events** .
-          - For service account key usage metrics, select **Service account key authentication events** .
+        - For service account usage metrics, select **Service account authentication events** .
+        - For service account key usage metrics, select **Service account key authentication events** .
     4.  Click **Apply** .
 
 4.  To add filters, which remove time series from the query results, use the [**Filter** element](https://docs.cloud.google.com/monitoring/charts/metrics-selector#filter-option) .
 
 5.  To combine time series, use the menus on the [**Aggregation** element](https://docs.cloud.google.com/monitoring/charts/metrics-selector#select_display) . For example, to display the CPU utilization for your VMs, based on their zone, set the first menu to **Mean** and the second menu to **zone** .
-    
+
     All time series are displayed when the first menu of the **Aggregation** element is set to **Unaggregated** . The default settings for the **Aggregation** element are determined by the metric type you selected.
 
 6.  For quota and other metrics that report one sample per day, do the following:
-    
     1.  In the **Display** pane, set the **Widget type** to **Stacked bar chart** .
     2.  Set the time period to at least one week.
 
@@ -75,20 +73,24 @@ To view the metrics for a monitored resource by using the Metrics Explorer, do t
 
 ### REST
 
-The Cloud Monitoring API API's `  timeSeries.list  ` method allows you to access usage metrics programmatically.
+The Cloud Monitoring API API's [`timeSeries.list`](https://docs.cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.timeSeries/list) method allows you to access usage metrics programmatically.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
-  - `  METRIC_TYPE  ` : The type of metric you want to check. Use one of the following values:
-      - For service account usage metrics, use `iam.googleapis.com%2Fservice_account%2Fauthn_events_count` .
-      - For service account key usage metrics, use `iam.googleapis.com%2Fservice_account%2Fkey%2Fauthn_events_count` .
-  - `  END_TIME  ` : The end of the time interval that you want to check, in percent-encoded [RFC 3339](https://tools.ietf.org/html/rfc3339) format. For example, `2020-06-12T00%3A00%3A00.00Z` .
-  - `  START_TIME  ` : The start of the time interval that you want to check, in percent-encoded [RFC 3339](https://tools.ietf.org/html/rfc3339) format. For example, `2020-04-12T00%3A00%3A00.00Z` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `METRIC_TYPE` : The type of metric you want to check. Use one of the following values:
+  - For service account usage metrics, use `iam.googleapis.com%2Fservice_account%2Fauthn_events_count` .
+  - For service account key usage metrics, use `iam.googleapis.com%2Fservice_account%2Fkey%2Fauthn_events_count` .
+- `END_TIME` : The end of the time interval that you want to check, in percent-encoded [RFC 3339](https://tools.ietf.org/html/rfc3339) format. For example, `2020-06-12T00%3A00%3A00.00Z` .
+- `START_TIME` : The start of the time interval that you want to check, in percent-encoded [RFC 3339](https://tools.ietf.org/html/rfc3339) format. For example, `2020-04-12T00%3A00%3A00.00Z` .
+
+> **Note:** If you are sending the request using the API Explorer, do not use percent-encoded values.
 
 HTTP method and URL:
 
-    GET https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22METRIC_TYPE%22&interval.endTime=END_TIME&interval.startTime=START_TIME
+```
+GET https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22METRIC_TYPE%22&interval.endTime=END_TIME&interval.startTime=START_TIME
+```
 
 To send your request, expand one of these options:
 
@@ -98,9 +100,11 @@ To send your request, expand one of these options:
 
 Execute the following command:
 
-    curl -X GET \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         "https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22METRIC_TYPE%22&interval.endTime=END_TIME&interval.startTime=START_TIME"
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22METRIC_TYPE%22&interval.endTime=END_TIME&interval.startTime=START_TIME"
+```
 
 #### PowerShell (Windows)
 
@@ -108,13 +112,15 @@ Execute the following command:
 
 Execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method GET `
-        -Headers $headers `
-        -Uri "https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22METRIC_TYPE%22&interval.endTime=END_TIME&interval.startTime=START_TIME" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22METRIC_TYPE%22&interval.endTime=END_TIME&interval.startTime=START_TIME" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -138,25 +144,29 @@ To view usage metrics for a single service account, follow these steps:
 
 4.  Click the **Metrics** tab. The **Authentication traffic** chart shows the usage metrics for the service account.
 
-5.  Optional: To view the chart on the **Metrics explorer** page, which offers additional filtering and viewing options, click more\_vert \> **View in Metrics Explorer** .
+5.  Optional: To view the chart on the **Metrics explorer** page, which offers additional filtering and viewing options, click more_vert \> **View in Metrics Explorer** .
 
 ### REST
 
-The Cloud Monitoring API's `  timeSeries.list  ` method , when used with specific filters, allows you to get usage metrics for a single service account. You can then use those metrics to determine when the account was last used.
+The Cloud Monitoring API's [`timeSeries.list`](https://docs.cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.timeSeries/list) method , when used with specific filters, allows you to get usage metrics for a single service account. You can then use those metrics to determine when the account was last used.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
-  - `  SERVICE_ACCOUNT_ID  ` : The unique numeric ID of your service account. To find your service account's unique numeric ID, follow these steps:
-    1.  In the Google Cloud console, go to the **Service Accounts** page.
-    
-    2.  Click the email address of your service account. Your service account's unique numeric ID is the value in the **Unique ID** field.
-  - `  END_TIME  ` : The end of the time interval that you want to check, in percent-encoded [RFC 3339](https://tools.ietf.org/html/rfc3339) format. For example, `2020-06-12T00%3A00%3A00.00Z` .
-  - `  START_TIME  ` : The start of the time interval that you want to check, in percent-encoded [RFC 3339](https://tools.ietf.org/html/rfc3339) format. For example, `2020-04-12T00%3A00%3A00.00Z` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `SERVICE_ACCOUNT_ID` : The unique numeric ID of your service account. To find your service account's unique numeric ID, follow these steps:
+  1.  In the Google Cloud console, go to the **Service Accounts** page.
+
+  2.  Click the email address of your service account. Your service account's unique numeric ID is the value in the **Unique ID** field.
+- `END_TIME` : The end of the time interval that you want to check, in percent-encoded [RFC 3339](https://tools.ietf.org/html/rfc3339) format. For example, `2020-06-12T00%3A00%3A00.00Z` .
+- `START_TIME` : The start of the time interval that you want to check, in percent-encoded [RFC 3339](https://tools.ietf.org/html/rfc3339) format. For example, `2020-04-12T00%3A00%3A00.00Z` .
+
+> **Note:** If you are sending the request using the API Explorer, do not use percent-encoded values.
 
 HTTP method and URL:
 
-    GET https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22iam.googleapis.com%2Fservice_account%2Fauthn_events_count%22%20AND%20resource.labels.unique_id%3D%22SERVICE_ACCOUNT_ID%22&interval.endTime=END_TIME&interval.startTime=START_TIME
+```
+GET https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22iam.googleapis.com%2Fservice_account%2Fauthn_events_count%22%20AND%20resource.labels.unique_id%3D%22SERVICE_ACCOUNT_ID%22&interval.endTime=END_TIME&interval.startTime=START_TIME
+```
 
 To send your request, expand one of these options:
 
@@ -166,9 +176,11 @@ To send your request, expand one of these options:
 
 Execute the following command:
 
-    curl -X GET \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         "https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22iam.googleapis.com%2Fservice_account%2Fauthn_events_count%22%20AND%20resource.labels.unique_id%3D%22SERVICE_ACCOUNT_ID%22&interval.endTime=END_TIME&interval.startTime=START_TIME"
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22iam.googleapis.com%2Fservice_account%2Fauthn_events_count%22%20AND%20resource.labels.unique_id%3D%22SERVICE_ACCOUNT_ID%22&interval.endTime=END_TIME&interval.startTime=START_TIME"
+```
 
 #### PowerShell (Windows)
 
@@ -176,13 +188,15 @@ Execute the following command:
 
 Execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method GET `
-        -Headers $headers `
-        -Uri "https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22iam.googleapis.com%2Fservice_account%2Fauthn_events_count%22%20AND%20resource.labels.unique_id%3D%22SERVICE_ACCOUNT_ID%22&interval.endTime=END_TIME&interval.startTime=START_TIME" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22iam.googleapis.com%2Fservice_account%2Fauthn_events_count%22%20AND%20resource.labels.unique_id%3D%22SERVICE_ACCOUNT_ID%22&interval.endTime=END_TIME&interval.startTime=START_TIME" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -206,117 +220,133 @@ To view usage metrics for a single service account key, follow these steps:
 
 5.  In the chart legend, click the ID of the service account key that you want to view usage metrics for. The chart updates to show metrics for only that service account key.
 
-6.  Optional: To view the chart on the **Metrics explorer** page, which offers additional filtering and viewing options, click more\_vert \> **View in Metrics Explorer** .
+6.  Optional: To view the chart on the **Metrics explorer** page, which offers additional filtering and viewing options, click more_vert \> **View in Metrics Explorer** .
 
 ### REST
 
 **First, get the service account key's ID.**
 
 1.  List the service account keys:
-    
-    The `  projects.serviceAccounts.keys.list  ` method lists all of the service account keys for a service account.
-    
+
+    The [`projects.serviceAccounts.keys.list`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/list) method lists all of the service account keys for a service account.
+
     Before using any of the request data, make the following replacements:
-    
-      - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
-      - `  SA_NAME  ` : The name of the service account whose keys you want to list.
-      - `  KEY_TYPES  ` : Optional. A comma-separated list of key types that you want to include in the response. The key type indicates whether a key is user-managed ( `USER_MANAGED` ) or system-managed ( `SYSTEM_MANAGED` ). If left blank, all keys are returned.
-    
+
+    - `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+    - `SA_NAME` : The name of the service account whose keys you want to list.
+    - `KEY_TYPES` : Optional. A comma-separated list of key types that you want to include in the response. The key type indicates whether a key is user-managed ( `USER_MANAGED` ) or system-managed ( `SYSTEM_MANAGED` ). If left blank, all keys are returned.
+
     HTTP method and URL:
-    
-        GET https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys?keyTypes=KEY_TYPES
-    
+
+    ```
+    GET https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys?keyTypes=KEY_TYPES
+    ```
+
     To send your request, expand one of these options:
-    
+
     #### curl (Linux, macOS, or Cloud Shell)
-    
+
     > **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
-    
+
     Execute the following command:
-    
-        curl -X GET \
-             -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-             "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys?keyTypes=KEY_TYPES"
-    
+
+    ```
+    curl -X GET \
+         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+         "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys?keyTypes=KEY_TYPES"
+    ```
+
     #### PowerShell (Windows)
-    
+
     > **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
-    
+
     Execute the following command:
-    
-        $cred = gcloud auth print-access-token
-        $headers = @{ "Authorization" = "Bearer $cred" }
-        
-        Invoke-WebRequest `
-            -Method GET `
-            -Headers $headers `
-            -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys?keyTypes=KEY_TYPES" | Select-Object -Expand Content
-    
+
+    ```
+    $cred = gcloud auth print-access-token
+    $headers = @{ "Authorization" = "Bearer $cred" }
+
+    Invoke-WebRequest `
+        -Method GET `
+        -Headers $headers `
+        -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys?keyTypes=KEY_TYPES" | Select-Object -Expand Content
+    ```
+
     #### APIs Explorer (browser)
-    
+
     Open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/list) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Complete any required fields and click **Execute** .
-    
+
     You should receive a JSON response similar to the following:
-    
+
+    ```
+    {
+      "keys": [
         {
-          "keys": [
-            {
-              "name": "projects/my-project/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com/keys/90c48f61c65cd56224a12ab18e6ee9ca9c3aee7c",
-              "validAfterTime": "2020-03-04T17:39:47Z",
-              "validBeforeTime": "9999-12-31T23:59:59Z",
-              "keyAlgorithm": "KEY_ALG_RSA_2048",
-              "keyOrigin": "GOOGLE_PROVIDED",
-              "keyType": "USER_MANAGED"
-            },
-            {
-              "name": "projects/my-project/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com/keys/e5e3800831ac1adc8a5849da7d827b4724b1fce8",
-              "validAfterTime": "2020-03-31T23:50:09Z",
-              "validBeforeTime": "9999-12-31T23:59:59Z",
-              "keyAlgorithm": "KEY_ALG_RSA_2048",
-              "keyOrigin": "GOOGLE_PROVIDED",
-              "keyType": "USER_MANAGED"
-            },
-            {
-              "name": "projects/my-project/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com/keys/b97699f042b8eee6a846f4f96259fbcd13e2682e",
-              "validAfterTime": "2020-05-17T18:58:13Z",
-              "validBeforeTime": "9999-12-31T23:59:59Z",
-              "keyAlgorithm": "KEY_ALG_RSA_2048",
-              "keyOrigin": "GOOGLE_PROVIDED",
-              "keyType": "USER_MANAGED",
-              "disabled": true
-              "disable_reason": "SERVICE_ACCOUNT_KEY_DISABLE_REASON_EXPOSED"
-              "extended_status": "SERVICE_ACCOUNT_KEY_EXTENDED_STATUS_KEY_EXPOSED"
-              "extended_status_message": "exposed at: https://www.github.com/SomePublicRepo"
-            }
-          ]
+          "name": "projects/my-project/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com/keys/90c48f61c65cd56224a12ab18e6ee9ca9c3aee7c",
+          "validAfterTime": "2020-03-04T17:39:47Z",
+          "validBeforeTime": "9999-12-31T23:59:59Z",
+          "keyAlgorithm": "KEY_ALG_RSA_2048",
+          "keyOrigin": "GOOGLE_PROVIDED",
+          "keyType": "USER_MANAGED"
+        },
+        {
+          "name": "projects/my-project/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com/keys/e5e3800831ac1adc8a5849da7d827b4724b1fce8",
+          "validAfterTime": "2020-03-31T23:50:09Z",
+          "validBeforeTime": "9999-12-31T23:59:59Z",
+          "keyAlgorithm": "KEY_ALG_RSA_2048",
+          "keyOrigin": "GOOGLE_PROVIDED",
+          "keyType": "USER_MANAGED"
+        },
+        {
+          "name": "projects/my-project/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com/keys/b97699f042b8eee6a846f4f96259fbcd13e2682e",
+          "validAfterTime": "2020-05-17T18:58:13Z",
+          "validBeforeTime": "9999-12-31T23:59:59Z",
+          "keyAlgorithm": "KEY_ALG_RSA_2048",
+          "keyOrigin": "GOOGLE_PROVIDED",
+          "keyType": "USER_MANAGED",
+          "disabled": true
+          "disable_reason": "SERVICE_ACCOUNT_KEY_DISABLE_REASON_EXPOSED"
+          "extended_status": "SERVICE_ACCOUNT_KEY_EXTENDED_STATUS_KEY_EXPOSED"
+          "extended_status_message": "exposed at: https://www.github.com/SomePublicRepo"
         }
+      ]
+    }
+    ```
 
 2.  Use the metadata in the response to identify the key you want to track. Then, copy the key's unique ID from the end of the `name` field.
-    
+
     The `name` field has the following format:
-    
-        "name": "projects/PROJECT_ID/serviceAccounts/SERVICE_ACCOUNT_EMAIL/keys/KEY_ID"
-    
+
+    ```
+    "name": "projects/PROJECT_ID/serviceAccounts/SERVICE_ACCOUNT_EMAIL/keys/KEY_ID"
+    ```
+
     The key's unique ID is everything after `keys/` .
-    
+
     For example, the unique ID in the following key name is `0f561cc41650ff521899de2fd653bd3de08e2da4` :
-    
-        "name": "projects/my-project/serviceAccounts/my-account@my-project.iam.gserviceaccount.com/keys/0f561cc41650ff521899de2fd653bd3de08e2da4"
+
+    ```
+    "name": "projects/my-project/serviceAccounts/my-account@my-project.iam.gserviceaccount.com/keys/0f561cc41650ff521899de2fd653bd3de08e2da4"
+    ```
 
 **Then, use the ID to view usage metrics for the service account key.**
 
-The Cloud Monitoring API's `  timeSeries.list  ` method , when used with specific filters, allows you to get usage metrics for a single service account key. You can then use those metrics to determine when the key was last used.
+The Cloud Monitoring API's [`timeSeries.list`](https://docs.cloud.google.com/monitoring/api/ref_v3/rest/v3/projects.timeSeries/list) method , when used with specific filters, allows you to get usage metrics for a single service account key. You can then use those metrics to determine when the key was last used.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
-  - `  KEY_ID  ` : The unique ID of your service account key.
-  - `  END_TIME  ` : The end of the time interval that you want to check, in percent-encoded [RFC 3339](https://tools.ietf.org/html/rfc3339) format. For example, `2020-06-12T00%3A00%3A00.00Z` .
-  - `  START_TIME  ` : The start of the time interval that you want to check, in percent-encoded [RFC 3339](https://tools.ietf.org/html/rfc3339) format. For example, `2020-04-12T00%3A00%3A00.00Z` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `KEY_ID` : The unique ID of your service account key.
+- `END_TIME` : The end of the time interval that you want to check, in percent-encoded [RFC 3339](https://tools.ietf.org/html/rfc3339) format. For example, `2020-06-12T00%3A00%3A00.00Z` .
+- `START_TIME` : The start of the time interval that you want to check, in percent-encoded [RFC 3339](https://tools.ietf.org/html/rfc3339) format. For example, `2020-04-12T00%3A00%3A00.00Z` .
+
+> **Note:** If you are sending the request using the API Explorer, do not use percent-encoded values.
 
 HTTP method and URL:
 
-    GET https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22iam.googleapis.com%2Fservice_account%2Fkey%2Fauthn_events_count%22%20AND%20metric.labels.key_id%3D%22KEY_ID%22&interval.endTime=END_TIME&interval.startTime=START_TIME
+```
+GET https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22iam.googleapis.com%2Fservice_account%2Fkey%2Fauthn_events_count%22%20AND%20metric.labels.key_id%3D%22KEY_ID%22&interval.endTime=END_TIME&interval.startTime=START_TIME
+```
 
 To send your request, expand one of these options:
 
@@ -326,9 +356,11 @@ To send your request, expand one of these options:
 
 Execute the following command:
 
-    curl -X GET \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         "https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22iam.googleapis.com%2Fservice_account%2Fkey%2Fauthn_events_count%22%20AND%20metric.labels.key_id%3D%22KEY_ID%22&interval.endTime=END_TIME&interval.startTime=START_TIME"
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22iam.googleapis.com%2Fservice_account%2Fkey%2Fauthn_events_count%22%20AND%20metric.labels.key_id%3D%22KEY_ID%22&interval.endTime=END_TIME&interval.startTime=START_TIME"
+```
 
 #### PowerShell (Windows)
 
@@ -336,13 +368,15 @@ Execute the following command:
 
 Execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method GET `
-        -Headers $headers `
-        -Uri "https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22iam.googleapis.com%2Fservice_account%2Fkey%2Fauthn_events_count%22%20AND%20metric.labels.key_id%3D%22KEY_ID%22&interval.endTime=END_TIME&interval.startTime=START_TIME" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://monitoring.googleapis.com/v3/projects/PROJECT_ID/timeSeries?filter=metric.type%3D%22iam.googleapis.com%2Fservice_account%2Fkey%2Fauthn_events_count%22%20AND%20metric.labels.key_id%3D%22KEY_ID%22&interval.endTime=END_TIME&interval.startTime=START_TIME" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -358,18 +392,18 @@ For instructions, see [Monitoring metric export](https://docs.cloud.google.com/s
 
 ## What's next
 
-  - Discover how to [export metric data](https://docs.cloud.google.com/solutions/stackdriver-monitoring-metric-export) to BigQuery.
+- Discover how to [export metric data](https://docs.cloud.google.com/solutions/stackdriver-monitoring-metric-export) to BigQuery.
 
-<!-- end list -->
+<!-- -->
 
-  - Use Activity Analyzer to [view only the most recent authentication events](https://docs.cloud.google.com/iam/docs/service-account-recent-usage) for your service accounts and keys.
+- Use Activity Analyzer to [view only the most recent authentication events](https://docs.cloud.google.com/iam/docs/service-account-recent-usage) for your service accounts and keys.
 
-<!-- end list -->
+<!-- -->
 
-  - Use [service account insights](https://docs.cloud.google.com/iam/docs/manage-service-account-insights) to identify service accounts that have not been used in the past 90 days.
+- Use [service account insights](https://docs.cloud.google.com/iam/docs/manage-service-account-insights) to identify service accounts that have not been used in the past 90 days.
 
-<!-- end list -->
+<!-- -->
 
-  - Learn how to [disable service accounts](https://docs.cloud.google.com/iam/docs/service-accounts-disable-enable#disabling) or [delete service accounts](https://docs.cloud.google.com/iam/docs/service-accounts-delete-undelete#deleting) .
-  - Learn how to [delete service account keys](https://docs.cloud.google.com/iam/docs/keys-create-delete#deleting) .
-  - Explore the features offered by [Monitoring](https://docs.cloud.google.com/monitoring/docs) .
+- Learn how to [disable service accounts](https://docs.cloud.google.com/iam/docs/service-accounts-disable-enable#disabling) or [delete service accounts](https://docs.cloud.google.com/iam/docs/service-accounts-delete-undelete#deleting) .
+- Learn how to [delete service account keys](https://docs.cloud.google.com/iam/docs/keys-create-delete#deleting) .
+- Explore the features offered by [Monitoring](https://docs.cloud.google.com/monitoring/docs) .

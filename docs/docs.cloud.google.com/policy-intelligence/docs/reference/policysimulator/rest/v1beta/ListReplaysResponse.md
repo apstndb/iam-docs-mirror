@@ -6,36 +6,24 @@ description: A suite of tools to help you understand and manage your policies to
 data_source: docs.cloud.google.com
 ---
 
-  - [JSON representation](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/ListReplaysResponse#SCHEMA_REPRESENTATION)
+- [JSON representation](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/ListReplaysResponse#SCHEMA_REPRESENTATION)
 
-Response message for `  Simulator.ListReplays  ` .
+Response message for [`Simulator.ListReplays`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/projects.locations.replays/list#google.cloud.policysimulator.v1beta.Simulator.ListReplays) .
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>JSON representation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre dir="ltr" data-is-upgraded="" style="border: 0;margin: 0;" translate="no"><code>{&quot;replays&quot;: [{object (Replay)}],&quot;nextPageToken&quot;: string}</code></pre></td>
-</tr>
-</tbody>
-</table>
+**JSON representation**
 
-Fields
+```
+{
+  "replays": [
+    {
+      object (Replay)
+    }
+  ],
+  "nextPageToken": string
+}
+```
 
-`replays[]`
-
-` object ( Replay  ` )
-
-The list of `  Replay  ` objects.
-
-`nextPageToken`
-
-`string`
-
-A token that you can use to retrieve the next page of results. If this field is omitted, there are no subsequent pages.
+| Fields          |                                                                                                                                                                                                                                                                                                                         |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `replays[]`     | `object ( `[`Replay`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/folders.locations.replays#Replay)` )` The list of [`Replay`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/folders.locations.replays#Replay) objects. |
+| `nextPageToken` | `string` A token that you can use to retrieve the next page of results. If this field is omitted, there are no subsequent pages.                                                                                                                                                                                        |

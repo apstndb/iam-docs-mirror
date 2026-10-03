@@ -10,53 +10,12 @@ This page lists the IAM roles and permissions for SaaS Config API. To search thr
 
 ## SaaS Config API roles
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Role</th>
-<th>Permissions</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="saasconfig.viewer" class="role-title add-link" data-text="SaaS Config Viewer Beta" tabindex="-1">SaaS Config Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  saasconfig.viewer</code> )</p>
-<p>Read access to SaaS Config resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">saasconfig.  featureFlagsConfigs.  get</code></p></td>
-</tr>
-</tbody>
-</table>
+| Role                                                                                                    | Permissions                                                                                           |
+|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| SaaS Config Viewer <sup>Beta</sup> ( `roles/ saasconfig.viewer` ) Read access to SaaS Config resources. | `resourcemanager.projects.get` `resourcemanager.projects.list` `saasconfig. featureFlagsConfigs. get` |
 
 ## SaaS Config API permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="saasconfig.featureFlagsConfigs.get" class="permission-name add-link" data-text="saasconfig.featureFlagsConfigs.get" tabindex="-1"><code dir="ltr" translate="no">saasconfig.  featureFlagsConfigs.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasconfig#saasconfig.viewer">SaaS Config Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasconfig.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                             | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `saasconfig. featureFlagsConfigs. get` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [SaaS Config Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/saasconfig#saasconfig.viewer) ( `roles/ saasconfig.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |

@@ -25,190 +25,190 @@ App Engine flexible environment offers the following service agent roles. Servic
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="appengineflex.serviceAgent" class="role-title add-link" data-text="App Engine flexible environment Service Agent" tabindex="-1">App Engine flexible environment Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  appengineflex.serviceAgent</code> )</p>
+<td>App Engine flexible environment Service Agent
+<p>( <code>roles/ appengineflex.serviceAgent</code> )</p>
 <p>Can edit and manage App Engine Flexible Environment apps. Includes access to service accounts.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">artifactregistry.  projectsettings.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  create</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  downloadArtifacts</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  get</code></p>
-<p><code dir="ltr" translate="no">artifactregistry.  repositories.  uploadArtifacts</code></p>
-<p><code dir="ltr" translate="no">billing.accounts.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.create</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.builds.get</code></p>
-<p><code dir="ltr" translate="no">compute.addresses.create</code></p>
-<p><code dir="ltr" translate="no">compute.addresses.delete</code></p>
-<p><code dir="ltr" translate="no">compute.addresses.get</code></p>
-<p><code dir="ltr" translate="no">compute.addresses.list</code></p>
-<p><code dir="ltr" translate="no">compute.addresses.use</code></p>
-<p><code dir="ltr" translate="no">compute.autoscalers.create</code></p>
-<p><code dir="ltr" translate="no">compute.autoscalers.delete</code></p>
-<p><code dir="ltr" translate="no">compute.autoscalers.get</code></p>
-<p><code dir="ltr" translate="no">compute.autoscalers.update</code></p>
-<p><code dir="ltr" translate="no">compute.backendServices.create</code></p>
-<p><code dir="ltr" translate="no">compute.backendServices.delete</code></p>
-<p><code dir="ltr" translate="no">compute.backendServices.get</code></p>
-<p><code dir="ltr" translate="no">compute.backendServices.list</code></p>
-<p><code dir="ltr" translate="no">compute.backendServices.update</code></p>
-<p><code dir="ltr" translate="no">compute.backendServices.use</code></p>
-<p><code dir="ltr" translate="no">compute.disks.create</code></p>
-<p><code dir="ltr" translate="no">compute.disks.list</code></p>
-<p><code dir="ltr" translate="no">compute.firewalls.create</code></p>
-<p><code dir="ltr" translate="no">compute.firewalls.delete</code></p>
-<p><code dir="ltr" translate="no">compute.firewalls.get</code></p>
-<p><code dir="ltr" translate="no">compute.firewalls.list</code></p>
-<p><code dir="ltr" translate="no">compute.firewalls.update</code></p>
-<p><code dir="ltr" translate="no">compute.forwardingRules.create</code></p>
-<p><code dir="ltr" translate="no">compute.forwardingRules.delete</code></p>
-<p><code dir="ltr" translate="no">compute.forwardingRules.get</code></p>
-<p><code dir="ltr" translate="no">compute.globalAddresses.create</code></p>
-<p><code dir="ltr" translate="no">compute.globalAddresses.delete</code></p>
-<p><code dir="ltr" translate="no">compute.globalAddresses.get</code></p>
-<p><code dir="ltr" translate="no">compute.globalAddresses.use</code></p>
-<p><code dir="ltr" translate="no">compute.  globalForwardingRules.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  globalForwardingRules.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.  globalForwardingRules.  get</code></p>
-<p><code dir="ltr" translate="no">compute.globalOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.healthChecks.create</code></p>
-<p><code dir="ltr" translate="no">compute.healthChecks.delete</code></p>
-<p><code dir="ltr" translate="no">compute.healthChecks.get</code></p>
-<p><code dir="ltr" translate="no">compute.healthChecks.update</code></p>
-<p><code dir="ltr" translate="no">compute.  healthChecks.  useReadOnly</code></p>
-<p><code dir="ltr" translate="no">compute.  httpHealthChecks.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  httpHealthChecks.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.httpHealthChecks.get</code></p>
-<p><code dir="ltr" translate="no">compute.httpHealthChecks.use</code></p>
-<p><code dir="ltr" translate="no">compute.  httpHealthChecks.  useReadOnly</code></p>
-<p><code dir="ltr" translate="no">compute.  httpsHealthChecks.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  httpsHealthChecks.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.httpsHealthChecks.get</code></p>
-<p><code dir="ltr" translate="no">compute.  httpsHealthChecks.  update</code></p>
-<p><code dir="ltr" translate="no">compute.httpsHealthChecks.use</code></p>
-<p><code dir="ltr" translate="no">compute.  httpsHealthChecks.  useReadOnly</code></p>
-<p><code dir="ltr" translate="no">compute.images.get</code></p>
-<p><code dir="ltr" translate="no">compute.images.useReadOnly</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceGroupManagers.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceGroupManagers.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceGroupManagers.  get</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceGroupManagers.  update</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceGroupManagers.  use</code></p>
-<p><code dir="ltr" translate="no">compute.instanceGroups.create</code></p>
-<p><code dir="ltr" translate="no">compute.instanceGroups.delete</code></p>
-<p><code dir="ltr" translate="no">compute.instanceGroups.get</code></p>
-<p><code dir="ltr" translate="no">compute.instanceGroups.update</code></p>
-<p><code dir="ltr" translate="no">compute.instanceGroups.use</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceTemplates.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceTemplates.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.instanceTemplates.get</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceTemplates.  useReadOnly</code></p>
-<p><code dir="ltr" translate="no">compute.instances.attachDisk</code></p>
-<p><code dir="ltr" translate="no">compute.instances.create</code></p>
-<p><code dir="ltr" translate="no">compute.instances.delete</code></p>
-<p><code dir="ltr" translate="no">compute.instances.detachDisk</code></p>
-<p><code dir="ltr" translate="no">compute.instances.get</code></p>
-<p><code dir="ltr" translate="no">compute.  instances.  getGuestAttributes</code></p>
-<p><code dir="ltr" translate="no">compute.  instances.  getSerialPortOutput</code></p>
-<p><code dir="ltr" translate="no">compute.instances.list</code></p>
-<p><code dir="ltr" translate="no">compute.instances.reset</code></p>
-<p><code dir="ltr" translate="no">compute.instances.setLabels</code></p>
-<p><code dir="ltr" translate="no">compute.instances.setMetadata</code></p>
-<p><code dir="ltr" translate="no">compute.instances.setTags</code></p>
-<p><code dir="ltr" translate="no">compute.instances.start</code></p>
-<p><code dir="ltr" translate="no">compute.instances.stop</code></p>
-<p><code dir="ltr" translate="no">compute.instances.use</code></p>
-<p><code dir="ltr" translate="no">compute.machineTypes.get</code></p>
-<p><code dir="ltr" translate="no">compute.networks.create</code></p>
-<p><code dir="ltr" translate="no">compute.networks.delete</code></p>
-<p><code dir="ltr" translate="no">compute.networks.get</code></p>
-<p><code dir="ltr" translate="no">compute.networks.updatePolicy</code></p>
-<p><code dir="ltr" translate="no">compute.networks.use</code></p>
-<p><code dir="ltr" translate="no">compute.networks.useExternalIp</code></p>
-<p><code dir="ltr" translate="no">compute.projects.get</code></p>
-<p><code dir="ltr" translate="no">compute.  projects.  setCommonInstanceMetadata</code></p>
-<p><code dir="ltr" translate="no">compute.  regionBackendServices.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  regionBackendServices.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.  regionBackendServices.  get</code></p>
-<p><code dir="ltr" translate="no">compute.  regionBackendServices.  list</code></p>
-<p><code dir="ltr" translate="no">compute.  regionBackendServices.  update</code></p>
-<p><code dir="ltr" translate="no">compute.  regionBackendServices.  use</code></p>
-<p><code dir="ltr" translate="no">compute.regionOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.regions.get</code></p>
-<p><code dir="ltr" translate="no">compute.routes.create</code></p>
-<p><code dir="ltr" translate="no">compute.routes.delete</code></p>
-<p><code dir="ltr" translate="no">compute.routes.get</code></p>
-<p><code dir="ltr" translate="no">compute.routes.list</code></p>
-<p><code dir="ltr" translate="no">compute.subnetworks.delete</code></p>
-<p><code dir="ltr" translate="no">compute.subnetworks.get</code></p>
-<p><code dir="ltr" translate="no">compute.subnetworks.use</code></p>
-<p><code dir="ltr" translate="no">compute.  subnetworks.  useExternalIp</code></p>
-<p><code dir="ltr" translate="no">compute.  targetHttpProxies.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  targetHttpProxies.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.targetHttpProxies.get</code></p>
-<p><code dir="ltr" translate="no">compute.targetHttpProxies.use</code></p>
-<p><code dir="ltr" translate="no">compute.  targetHttpsProxies.  create</code></p>
-<p><code dir="ltr" translate="no">compute.  targetHttpsProxies.  delete</code></p>
-<p><code dir="ltr" translate="no">compute.targetHttpsProxies.get</code></p>
-<p><code dir="ltr" translate="no">compute.  targetHttpsProxies.  setSslCertificates</code></p>
-<p><code dir="ltr" translate="no">compute.targetHttpsProxies.use</code></p>
-<p><code dir="ltr" translate="no">compute.urlMaps.create</code></p>
-<p><code dir="ltr" translate="no">compute.urlMaps.delete</code></p>
-<p><code dir="ltr" translate="no">compute.urlMaps.get</code></p>
-<p><code dir="ltr" translate="no">compute.urlMaps.update</code></p>
-<p><code dir="ltr" translate="no">compute.urlMaps.use</code></p>
-<p><code dir="ltr" translate="no">compute.zoneOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.zoneOperations.list</code></p>
-<p><code dir="ltr" translate="no">compute.zones.*</code></p>
+<td><p><code>artifactregistry. projectsettings. get</code></p>
+<p><code>artifactregistry. repositories. create</code></p>
+<p><code>artifactregistry. repositories. downloadArtifacts</code></p>
+<p><code>artifactregistry. repositories. get</code></p>
+<p><code>artifactregistry. repositories. uploadArtifacts</code></p>
+<p><code>billing.accounts.get</code></p>
+<p><code>cloudbuild.builds.create</code></p>
+<p><code>cloudbuild.builds.get</code></p>
+<p><code>compute.addresses.create</code></p>
+<p><code>compute.addresses.delete</code></p>
+<p><code>compute.addresses.get</code></p>
+<p><code>compute.addresses.list</code></p>
+<p><code>compute.addresses.use</code></p>
+<p><code>compute.autoscalers.create</code></p>
+<p><code>compute.autoscalers.delete</code></p>
+<p><code>compute.autoscalers.get</code></p>
+<p><code>compute.autoscalers.update</code></p>
+<p><code>compute.backendServices.create</code></p>
+<p><code>compute.backendServices.delete</code></p>
+<p><code>compute.backendServices.get</code></p>
+<p><code>compute.backendServices.list</code></p>
+<p><code>compute.backendServices.update</code></p>
+<p><code>compute.backendServices.use</code></p>
+<p><code>compute.disks.create</code></p>
+<p><code>compute.disks.list</code></p>
+<p><code>compute.firewalls.create</code></p>
+<p><code>compute.firewalls.delete</code></p>
+<p><code>compute.firewalls.get</code></p>
+<p><code>compute.firewalls.list</code></p>
+<p><code>compute.firewalls.update</code></p>
+<p><code>compute.forwardingRules.create</code></p>
+<p><code>compute.forwardingRules.delete</code></p>
+<p><code>compute.forwardingRules.get</code></p>
+<p><code>compute.globalAddresses.create</code></p>
+<p><code>compute.globalAddresses.delete</code></p>
+<p><code>compute.globalAddresses.get</code></p>
+<p><code>compute.globalAddresses.use</code></p>
+<p><code>compute. globalForwardingRules. create</code></p>
+<p><code>compute. globalForwardingRules. delete</code></p>
+<p><code>compute. globalForwardingRules. get</code></p>
+<p><code>compute.globalOperations.get</code></p>
+<p><code>compute.healthChecks.create</code></p>
+<p><code>compute.healthChecks.delete</code></p>
+<p><code>compute.healthChecks.get</code></p>
+<p><code>compute.healthChecks.update</code></p>
+<p><code>compute. healthChecks. useReadOnly</code></p>
+<p><code>compute. httpHealthChecks. create</code></p>
+<p><code>compute. httpHealthChecks. delete</code></p>
+<p><code>compute.httpHealthChecks.get</code></p>
+<p><code>compute.httpHealthChecks.use</code></p>
+<p><code>compute. httpHealthChecks. useReadOnly</code></p>
+<p><code>compute. httpsHealthChecks. create</code></p>
+<p><code>compute. httpsHealthChecks. delete</code></p>
+<p><code>compute.httpsHealthChecks.get</code></p>
+<p><code>compute. httpsHealthChecks. update</code></p>
+<p><code>compute.httpsHealthChecks.use</code></p>
+<p><code>compute. httpsHealthChecks. useReadOnly</code></p>
+<p><code>compute.images.get</code></p>
+<p><code>compute.images.useReadOnly</code></p>
+<p><code>compute. instanceGroupManagers. create</code></p>
+<p><code>compute. instanceGroupManagers. delete</code></p>
+<p><code>compute. instanceGroupManagers. get</code></p>
+<p><code>compute. instanceGroupManagers. update</code></p>
+<p><code>compute. instanceGroupManagers. use</code></p>
+<p><code>compute.instanceGroups.create</code></p>
+<p><code>compute.instanceGroups.delete</code></p>
+<p><code>compute.instanceGroups.get</code></p>
+<p><code>compute.instanceGroups.update</code></p>
+<p><code>compute.instanceGroups.use</code></p>
+<p><code>compute. instanceTemplates. create</code></p>
+<p><code>compute. instanceTemplates. delete</code></p>
+<p><code>compute.instanceTemplates.get</code></p>
+<p><code>compute. instanceTemplates. useReadOnly</code></p>
+<p><code>compute.instances.attachDisk</code></p>
+<p><code>compute.instances.create</code></p>
+<p><code>compute.instances.delete</code></p>
+<p><code>compute.instances.detachDisk</code></p>
+<p><code>compute.instances.get</code></p>
+<p><code>compute. instances. getGuestAttributes</code></p>
+<p><code>compute. instances. getSerialPortOutput</code></p>
+<p><code>compute.instances.list</code></p>
+<p><code>compute.instances.reset</code></p>
+<p><code>compute.instances.setLabels</code></p>
+<p><code>compute.instances.setMetadata</code></p>
+<p><code>compute.instances.setTags</code></p>
+<p><code>compute.instances.start</code></p>
+<p><code>compute.instances.stop</code></p>
+<p><code>compute.instances.use</code></p>
+<p><code>compute.machineTypes.get</code></p>
+<p><code>compute.networks.create</code></p>
+<p><code>compute.networks.delete</code></p>
+<p><code>compute.networks.get</code></p>
+<p><code>compute.networks.updatePolicy</code></p>
+<p><code>compute.networks.use</code></p>
+<p><code>compute.networks.useExternalIp</code></p>
+<p><code>compute.projects.get</code></p>
+<p><code>compute. projects. setCommonInstanceMetadata</code></p>
+<p><code>compute. regionBackendServices. create</code></p>
+<p><code>compute. regionBackendServices. delete</code></p>
+<p><code>compute. regionBackendServices. get</code></p>
+<p><code>compute. regionBackendServices. list</code></p>
+<p><code>compute. regionBackendServices. update</code></p>
+<p><code>compute. regionBackendServices. use</code></p>
+<p><code>compute.regionOperations.get</code></p>
+<p><code>compute.regions.get</code></p>
+<p><code>compute.routes.create</code></p>
+<p><code>compute.routes.delete</code></p>
+<p><code>compute.routes.get</code></p>
+<p><code>compute.routes.list</code></p>
+<p><code>compute.subnetworks.delete</code></p>
+<p><code>compute.subnetworks.get</code></p>
+<p><code>compute.subnetworks.use</code></p>
+<p><code>compute. subnetworks. useExternalIp</code></p>
+<p><code>compute. targetHttpProxies. create</code></p>
+<p><code>compute. targetHttpProxies. delete</code></p>
+<p><code>compute.targetHttpProxies.get</code></p>
+<p><code>compute.targetHttpProxies.use</code></p>
+<p><code>compute. targetHttpsProxies. create</code></p>
+<p><code>compute. targetHttpsProxies. delete</code></p>
+<p><code>compute.targetHttpsProxies.get</code></p>
+<p><code>compute. targetHttpsProxies. setSslCertificates</code></p>
+<p><code>compute.targetHttpsProxies.use</code></p>
+<p><code>compute.urlMaps.create</code></p>
+<p><code>compute.urlMaps.delete</code></p>
+<p><code>compute.urlMaps.get</code></p>
+<p><code>compute.urlMaps.update</code></p>
+<p><code>compute.urlMaps.use</code></p>
+<p><code>compute.zoneOperations.get</code></p>
+<p><code>compute.zoneOperations.list</code></p>
+<p><code>compute.zones.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">compute.zones.get</code></li>
-<li><code dir="ltr" translate="no">compute.zones.list</code></li>
+<li><code>compute.zones.get</code></li>
+<li><code>compute.zones.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">deploymentmanager.  compositeTypes.  get</code></p>
-<p><code dir="ltr" translate="no">deploymentmanager.  deployments.  create</code></p>
-<p><code dir="ltr" translate="no">deploymentmanager.  deployments.  delete</code></p>
-<p><code dir="ltr" translate="no">deploymentmanager.  deployments.  get</code></p>
-<p><code dir="ltr" translate="no">deploymentmanager.  deployments.  list</code></p>
-<p><code dir="ltr" translate="no">deploymentmanager.  deployments.  update</code></p>
-<p><code dir="ltr" translate="no">deploymentmanager.manifests.*</code></p>
+<p><code>deploymentmanager. compositeTypes. get</code></p>
+<p><code>deploymentmanager. deployments. create</code></p>
+<p><code>deploymentmanager. deployments. delete</code></p>
+<p><code>deploymentmanager. deployments. get</code></p>
+<p><code>deploymentmanager. deployments. list</code></p>
+<p><code>deploymentmanager. deployments. update</code></p>
+<p><code>deploymentmanager.manifests.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">deploymentmanager.  manifests.  get</code></li>
-<li><code dir="ltr" translate="no">deploymentmanager.  manifests.  list</code></li>
+<li><code>deploymentmanager. manifests. get</code></li>
+<li><code>deploymentmanager. manifests. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">deploymentmanager.operations.*</code></p>
+<p><code>deploymentmanager.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">deploymentmanager.  operations.  get</code></li>
-<li><code dir="ltr" translate="no">deploymentmanager.  operations.  list</code></li>
+<li><code>deploymentmanager. operations. get</code></li>
+<li><code>deploymentmanager. operations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">deploymentmanager.  typeProviders.  create</code></p>
-<p><code dir="ltr" translate="no">deploymentmanager.  typeProviders.  get</code></p>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.actAs</code></p>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.get</code></p>
-<p><code dir="ltr" translate="no">iam.  serviceAccounts.  getAccessToken</code></p>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.signBlob</code></p>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.signJwt</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
-<p><code dir="ltr" translate="no">logging.logMetrics.create</code></p>
-<p><code dir="ltr" translate="no">logging.logMetrics.delete</code></p>
-<p><code dir="ltr" translate="no">logging.logMetrics.get</code></p>
-<p><code dir="ltr" translate="no">logging.logMetrics.update</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  projects.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  projects.  setIamPolicy</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.enable</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.create</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.delete</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.get</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.setIamPolicy</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.update</code></p>
-<p><code dir="ltr" translate="no">storage.objects.create</code></p>
-<p><code dir="ltr" translate="no">storage.objects.delete</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">storage.objects.list</code></p></td>
+<p><code>deploymentmanager. typeProviders. create</code></p>
+<p><code>deploymentmanager. typeProviders. get</code></p>
+<p><code>iam.serviceAccounts.actAs</code></p>
+<p><code>iam.serviceAccounts.get</code></p>
+<p><code>iam. serviceAccounts. getAccessToken</code></p>
+<p><code>iam.serviceAccounts.signBlob</code></p>
+<p><code>iam.serviceAccounts.signJwt</code></p>
+<p><code>logging.logEntries.create</code></p>
+<p><code>logging.logMetrics.create</code></p>
+<p><code>logging.logMetrics.delete</code></p>
+<p><code>logging.logMetrics.get</code></p>
+<p><code>logging.logMetrics.update</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager. projects. getIamPolicy</code></p>
+<p><code>resourcemanager. projects. setIamPolicy</code></p>
+<p><code>serviceusage.services.enable</code></p>
+<p><code>storage.buckets.create</code></p>
+<p><code>storage.buckets.delete</code></p>
+<p><code>storage.buckets.get</code></p>
+<p><code>storage.buckets.getIamPolicy</code></p>
+<p><code>storage.buckets.setIamPolicy</code></p>
+<p><code>storage.buckets.update</code></p>
+<p><code>storage.objects.create</code></p>
+<p><code>storage.objects.delete</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.getIamPolicy</code></p>
+<p><code>storage.objects.list</code></p></td>
 </tr>
 </tbody>
 </table>

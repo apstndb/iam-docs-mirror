@@ -6,32 +6,18 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-  - [JSON representation](https://docs.cloud.google.com/iam/docs/reference/rest/Shared.Types/GetOperationRequest#SCHEMA_REPRESENTATION)
+- [JSON representation](https://docs.cloud.google.com/iam/docs/reference/rest/Shared.Types/GetOperationRequest#SCHEMA_REPRESENTATION)
 
-The request message for `  Operations.GetOperation  ` .
+The request message for [`Operations.GetOperation`](https://docs.cloud.google.com/iam/docs/reference/rest/v1beta/projects.locations.workloadIdentityPools.operations/get#google.longrunning.Operations.GetOperation) .
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>JSON representation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre dir="ltr" data-is-upgraded="" style="border: 0;margin: 0;" translate="no"><code>{
-  &quot;name&quot;: string
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+**JSON representation**
 
-Fields
+```
+{
+  "name": string
+}
+```
 
-`name`
-
-`string`
-
-The name of the operation resource.
+| Fields |                                              |
+|--------|----------------------------------------------|
+| `name` | `string` The name of the operation resource. |

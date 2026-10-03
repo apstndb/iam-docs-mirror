@@ -23,130 +23,47 @@ This page lists the IAM roles and permissions for Workload Identity API. To sear
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="workloadidentity.admin" class="role-title add-link" data-text="Workload Identity API Admin" tabindex="-1">Workload Identity API Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  workloadidentity.admin</code> )</p>
+<td>Workload Identity API Admin
+<p>( <code>roles/ workloadidentity.admin</code> )</p>
 <p>Full access to Workload Identity API resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">workloadidentity.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>workloadidentity.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">workloadidentity.locations.get</code></li>
-<li><code dir="ltr" translate="no">workloadidentity.  locations.  list</code></li>
-<li><code dir="ltr" translate="no">workloadidentity.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">workloadidentity.  operations.  delete</code></li>
-<li><code dir="ltr" translate="no">workloadidentity.  operations.  get</code></li>
-<li><code dir="ltr" translate="no">workloadidentity.  operations.  list</code></li>
-<li><code dir="ltr" translate="no">workloadidentity.  serviceAgents.  create</code></li>
+<li><code>workloadidentity.locations.get</code></li>
+<li><code>workloadidentity. locations. list</code></li>
+<li><code>workloadidentity. operations. cancel</code></li>
+<li><code>workloadidentity. operations. delete</code></li>
+<li><code>workloadidentity. operations. get</code></li>
+<li><code>workloadidentity. operations. list</code></li>
+<li><code>workloadidentity. serviceAgents. create</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="workloadidentity.viewer" class="role-title add-link" data-text="Workload Identity API Viewer" tabindex="-1">Workload Identity API Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  workloadidentity.viewer</code> )</p>
+<td>Workload Identity API Viewer
+<p>( <code>roles/ workloadidentity.viewer</code> )</p>
 <p>Readonly access to Workload Identity API resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">workloadidentity.locations.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>workloadidentity.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">workloadidentity.locations.get</code></li>
-<li><code dir="ltr" translate="no">workloadidentity.  locations.  list</code></li>
+<li><code>workloadidentity.locations.get</code></li>
+<li><code>workloadidentity. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">workloadidentity.  operations.  get</code></p>
-<p><code dir="ltr" translate="no">workloadidentity.  operations.  list</code></p></td>
+<p><code>workloadidentity. operations. get</code></p>
+<p><code>workloadidentity. operations. list</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Workload Identity API permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="workloadidentity.locations.get" class="permission-name add-link" data-text="workloadidentity.locations.get" tabindex="-1"><code dir="ltr" translate="no">workloadidentity.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin">Workload Identity API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadidentity.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.viewer">Workload Identity API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadidentity.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="workloadidentity.locations.list" class="permission-name add-link" data-text="workloadidentity.locations.list" tabindex="-1"><code dir="ltr" translate="no">workloadidentity.  locations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin">Workload Identity API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadidentity.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.viewer">Workload Identity API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadidentity.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="workloadidentity.operations.cancel" class="permission-name add-link" data-text="workloadidentity.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">workloadidentity.  operations.  cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin">Workload Identity API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadidentity.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="workloadidentity.operations.delete" class="permission-name add-link" data-text="workloadidentity.operations.delete" tabindex="-1"><code dir="ltr" translate="no">workloadidentity.  operations.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin">Workload Identity API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadidentity.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="workloadidentity.operations.get" class="permission-name add-link" data-text="workloadidentity.operations.get" tabindex="-1"><code dir="ltr" translate="no">workloadidentity.  operations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin">Workload Identity API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadidentity.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.viewer">Workload Identity API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadidentity.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="workloadidentity.operations.list" class="permission-name add-link" data-text="workloadidentity.operations.list" tabindex="-1"><code dir="ltr" translate="no">workloadidentity.  operations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin">Workload Identity API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadidentity.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.viewer">Workload Identity API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadidentity.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="workloadidentity.serviceAgents.create" class="permission-name add-link" data-text="workloadidentity.serviceAgents.create" tabindex="-1"><code dir="ltr" translate="no">workloadidentity.  serviceAgents.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin">Workload Identity API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadidentity.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `workloadidentity.locations.get`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Workload Identity API Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin) ( `roles/ workloadidentity.admin` ) [Workload Identity API Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.viewer) ( `roles/ workloadidentity.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `workloadidentity. locations. list`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Workload Identity API Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin) ( `roles/ workloadidentity.admin` ) [Workload Identity API Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.viewer) ( `roles/ workloadidentity.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `workloadidentity. operations. cancel`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Workload Identity API Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin) ( `roles/ workloadidentity.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `workloadidentity. operations. delete`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Workload Identity API Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin) ( `roles/ workloadidentity.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| `workloadidentity. operations. get`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Workload Identity API Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin) ( `roles/ workloadidentity.admin` ) [Workload Identity API Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.viewer) ( `roles/ workloadidentity.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `workloadidentity. operations. list`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Workload Identity API Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin) ( `roles/ workloadidentity.admin` ) [Workload Identity API Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.viewer) ( `roles/ workloadidentity.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `workloadidentity. serviceAgents. create` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Workload Identity API Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin) ( `roles/ workloadidentity.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |

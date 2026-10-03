@@ -6,62 +6,26 @@ description: Get details about client libraries and APIs
 data_source: docs.cloud.google.com
 ---
 
-  - [](https://docs.cloud.google.com/asset-inventory/docs/reference/rest)
-    
-    ### Cloud Asset REST API
-    
-    Analyze your IAM allow policies to understand who has what access to which resources.
+- [Cloud Asset REST API Analyze your IAM allow policies to understand who has what access to which resources.](https://docs.cloud.google.com/asset-inventory/docs/reference/rest)
 
-  - [](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest)
-    
-    ### Policy Analyzer REST API
-    
-    View authentication and authorization activities in your projects.
-    
-    > **Note:** The Policy Analyzer REST API does not include the `analyzeIamPolicy` or `analyzeIamPolicyLongrunning` methods. Those methods are part of the Cloud Asset API.
+- [Policy Analyzer REST API View authentication and authorization activities in your projects.](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest)
 
-  - [](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest)
-    
-    ### Policy Assist REST API
-    
-    Get AI assistance for developing policies and troubleshooting access issues.
+  > **Note:** The Policy Analyzer REST API does not include the `analyzeIamPolicy` or `analyzeIamPolicyLongrunning` methods. Those methods are part of the Cloud Asset API.
 
-  - [](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest)
-    
-    ### Policy Simulator REST API
-    
-    Simulate changes to IAM policies.
+- [Policy Assist REST API Get AI assistance for developing policies and troubleshooting access issues.](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest)
 
-  - [](https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/rest)
-    
-    ### Policy Troubleshooter REST API
-    
-    Troubleshoot access issues for Google Cloud resources.
+- [Policy Simulator REST API Simulate changes to IAM policies.](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest)
 
-  - [](https://docs.cloud.google.com/recommender/docs/reference/rest)
-    
-    ### Recommender REST API
-    
-    Review and apply recommendations, including IAM role recommendations.
+- [Policy Troubleshooter REST API Troubleshoot access issues for Google Cloud resources.](https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/rest)
 
-<!-- end list -->
+- [Recommender REST API Review and apply recommendations, including IAM role recommendations.](https://docs.cloud.google.com/recommender/docs/reference/rest)
 
-  - [](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/mcp/policy-analyzer-mcp)
-    
-    ### Policy Analyzer MCP tools
-    
-    Learn about the MCP tools that let your agents analyze and audit IAM configurations.
-    
-    > **Note:** The Policy Analyzer MCP tools are part of the Cloud Asset Inventory MCP server.
+<!-- -->
 
-  - [](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/mcp)
-    
-    ### Policy Assist MCP tools
-    
-    Learn about the MCP tools that let your agents access the IAM role picker to suggest roles for your use case.
+- [Policy Analyzer MCP tools Learn about the MCP tools that let your agents analyze and audit IAM configurations.](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/mcp/policy-analyzer-mcp)
 
-  - [](https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/mcp)
-    
-    ### Policy Troubleshooter MCP tools
-    
-    Learn about the MCP tools that let your agents troubleshoot access issues for Google Cloud resources.
+  > **Note:** The Policy Analyzer MCP tools are part of the Cloud Asset Inventory MCP server.
+
+- [Policy Assist MCP tools Learn about the MCP tools that let your agents access the IAM role picker to suggest roles for your use case.](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/mcp)
+
+- [Policy Troubleshooter MCP tools Learn about the MCP tools that let your agents troubleshoot access issues for Google Cloud resources.](https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/mcp)

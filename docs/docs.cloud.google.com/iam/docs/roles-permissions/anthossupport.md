@@ -25,54 +25,54 @@ Anthos Support offers the following service agent roles. Service agent roles sho
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="anthossupport.serviceAgent" class="role-title add-link" data-text="Anthos Support Service Agent" tabindex="-1">Anthos Support Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  anthossupport.serviceAgent</code> )</p>
+<td>Anthos Support Service Agent
+<p>( <code>roles/ anthossupport.serviceAgent</code> )</p>
 <p>Gives the Anthos Support Service Agent access to Cloud Platform resource.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">gkehub.features.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.features.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkehub.features.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.fleet.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.fleet.getFreeTrial</code></p>
-<p><code dir="ltr" translate="no">gkehub.  gateway.  generateCredentials</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.locations.*</code></p>
+<td><p><code>gkehub.features.get</code></p>
+<p><code>gkehub.features.getIamPolicy</code></p>
+<p><code>gkehub.features.list</code></p>
+<p><code>gkehub.fleet.get</code></p>
+<p><code>gkehub.fleet.getFreeTrial</code></p>
+<p><code>gkehub. gateway. generateCredentials</code></p>
+<p><code>gkehub.gateway.get</code></p>
+<p><code>gkehub.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.locations.list</code></li>
+<li><code>gkehub.locations.get</code></li>
+<li><code>gkehub.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.membershipbindings.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.membershipbindings.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.membershipfeatures.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.membershipfeatures.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.  memberships.  generateConnectManifest</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.  memberships.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.namespaces.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.namespaces.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.operations.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.operations.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.rbacrolebindings.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.rbacrolebindings.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.scopes.list</code></p>
-<p><code dir="ltr" translate="no">gkehub.  scopes.  listBoundMemberships</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<p><code>gkehub.membershipbindings.get</code></p>
+<p><code>gkehub.membershipbindings.list</code></p>
+<p><code>gkehub.membershipfeatures.get</code></p>
+<p><code>gkehub.membershipfeatures.list</code></p>
+<p><code>gkehub. memberships. generateConnectManifest</code></p>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>gkehub. memberships. getIamPolicy</code></p>
+<p><code>gkehub.memberships.list</code></p>
+<p><code>gkehub.namespaces.get</code></p>
+<p><code>gkehub.namespaces.list</code></p>
+<p><code>gkehub.operations.get</code></p>
+<p><code>gkehub.operations.list</code></p>
+<p><code>gkehub.rbacrolebindings.get</code></p>
+<p><code>gkehub.rbacrolebindings.list</code></p>
+<p><code>gkehub.scopes.get</code></p>
+<p><code>gkehub.scopes.list</code></p>
+<p><code>gkehub. scopes. listBoundMemberships</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>
 </table>

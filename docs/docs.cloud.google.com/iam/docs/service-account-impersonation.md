@@ -18,17 +18,17 @@ Service account impersonation always involves two identities: an authenticated p
 
 There are multiple ways to impersonate a service account:
 
-  - Set the [`--impersonate-service-account` flag](https://docs.cloud.google.com/docs/authentication/use-service-account-impersonation#gcloud) or the [`impersonate-service-account` property](https://docs.cloud.google.com/sdk/gcloud/reference/topic/configurations#impersonate_service_account) when running a Google Cloud CLI command. When you run a gcloud CLI command with this setting, gcloud CLI creates short-lived credentials for the service account, then runs the command with those credentials.
-    
-    You can also use the `--impersonate-service-account` flag when setting up your [Application Default Credentials file](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment#sa-impersonation) . This setup enables client libraries that support impersonation to automatically impersonate the service account.
+- Set the [`--impersonate-service-account` flag](https://docs.cloud.google.com/docs/authentication/use-service-account-impersonation#gcloud) or the [`impersonate-service-account` property](https://docs.cloud.google.com/sdk/gcloud/reference/topic/configurations#impersonate_service_account) when running a Google Cloud CLI command. When you run a gcloud CLI command with this setting, gcloud CLI creates short-lived credentials for the service account, then runs the command with those credentials.
 
-  - [Create short-lived credentials](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct) using the Service Account Credentials API, then use those credentials to authenticate an API request.
-    
-    Short-lived credentials have a limited lifetime, with durations of just a few hours or shorter, and are not automatically refreshed. They create less risk than long-lived credentials, such as service account keys.
+  You can also use the `--impersonate-service-account` flag when setting up your [Application Default Credentials file](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment#sa-impersonation) . This setup enables client libraries that support impersonation to automatically impersonate the service account.
 
-  - Use a [credential configuration file](https://google.aip.dev/auth/4117) to configure an external application to impersonate a service account. This option is only available for applications that use [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) .
-    
-    When an application uses a credential configuration file to access Google Cloud, it first uses its environment-specific credentials to get a short-lived credential for a designated service account. Then, it uses that short-lived credential to authenticate to Google Cloud.
+- [Create short-lived credentials](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct) using the Service Account Credentials API, then use those credentials to authenticate an API request.
+
+  Short-lived credentials have a limited lifetime, with durations of just a few hours or shorter, and are not automatically refreshed. They create less risk than long-lived credentials, such as service account keys.
+
+- Use a [credential configuration file](https://google.aip.dev/auth/4117) to configure an external application to impersonate a service account. This option is only available for applications that use [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) .
+
+  When an application uses a credential configuration file to access Google Cloud, it first uses its environment-specific credentials to get a short-lived credential for a designated service account. Then, it uses that short-lived credential to authenticate to Google Cloud.
 
 If a principal accesses resources while impersonating a service account, most audit logs include both their identity and the identity of the service account they're impersonating. For more information, see [Interpreting audit logs](https://docs.cloud.google.com/iam/docs/service-account-creds#audit-logs) .
 
@@ -38,15 +38,15 @@ When you use the Google Cloud console, you always authenticate with your user cr
 
 There are several ways for a workload or user to authenticate as a service account *without* impersonating the service account:
 
-  - A workload uses an [attached service account](https://docs.cloud.google.com/iam/docs/workload-identities#attached-service-accounts) to authenticate to Google APIs. In this case, the attached service account acts as the workload's identity, and is the only authenticated identity involved in the request.
-    
-    To learn about how workloads authenticate to Google Cloud, see [Identities for workloads](https://docs.cloud.google.com/iam/docs/workload-identities) .
+- A workload uses an [attached service account](https://docs.cloud.google.com/iam/docs/workload-identities#attached-service-accounts) to authenticate to Google APIs. In this case, the attached service account acts as the workload's identity, and is the only authenticated identity involved in the request.
 
-  - A principal uses a service account key to authenticate as a service account. Using a service account key to authenticate as a service account only involves one authenticated identity: the service account's. Because there is only one identity involved, using a key isn't service account impersonation.
-    
-    > **Note:** Service account keys are a security risk if not managed correctly. You should [choose a more secure alternative to service account keys](https://docs.cloud.google.com/docs/authentication#auth-decision-tree) whenever possible. If you must authenticate with a service account key, you are responsible for the security of the private key and for other operations described by [Best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) . If you are prevented from creating a service account key, service account key creation might be disabled for your organization. For more information, see [Managing secure-by-default organization resources](https://docs.cloud.google.com/resource-manager/docs/secure-by-default-organizations) .
-    > 
-    > If you acquired the service account key from an external source, you must validate it before use. For more information, see [Security requirements for externally sourced credentials](https://docs.cloud.google.com/docs/authentication/external/externally-sourced-credentials) .
+  To learn about how workloads authenticate to Google Cloud, see [Identities for workloads](https://docs.cloud.google.com/iam/docs/workload-identities) .
+
+- A principal uses a service account key to authenticate as a service account. Using a service account key to authenticate as a service account only involves one authenticated identity: the service account's. Because there is only one identity involved, using a key isn't service account impersonation.
+
+  > **Note:** Service account keys are a security risk if not managed correctly. You should [choose a more secure alternative to service account keys](https://docs.cloud.google.com/docs/authentication#auth-decision-tree) whenever possible. If you must authenticate with a service account key, you are responsible for the security of the private key and for other operations described by [Best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) . If you are prevented from creating a service account key, service account key creation might be disabled for your organization. For more information, see [Managing secure-by-default organization resources](https://docs.cloud.google.com/resource-manager/docs/secure-by-default-organizations) .
+  >
+  > If you acquired the service account key from an external source, you must validate it before use. For more information, see [Security requirements for externally sourced credentials](https://docs.cloud.google.com/docs/authentication/external/externally-sourced-credentials) .
 
 In these cases, the audit logs record only the identity of the service account. They don't record any other identities—for example, the identities of the users who executed code on the workload, or the identities of the people who used the service account key to authenticate. As a result, using service account keys or giving developers permission to execute code on privileged resources—for example, an SSH session to a VM instance—can create privilege-escalation and non-repudiation risks.
 
@@ -60,10 +60,10 @@ For more information about roles required for impersonation, see [Roles for serv
 
 Service account impersonation is useful when you need to do tasks like the following:
 
-  - Grant a user temporary elevated access
-  - Test whether a specific set of permissions is sufficient for a task
-  - Locally develop applications that can only run as a service account
-  - Authenticate external applications
+- Grant a user temporary elevated access
+- Test whether a specific set of permissions is sufficient for a task
+- Locally develop applications that can only run as a service account
+- Authenticate external applications
 
 ### Grant temporary elevated access
 
@@ -99,7 +99,7 @@ Although it's possible to use service account keys to authenticate external appl
 
 ## What's next
 
-  - Find out how to [use service account impersonation](https://docs.cloud.google.com/docs/authentication/use-service-account-impersonation) .
-  - Learn more about [temporary elevated access](https://docs.cloud.google.com/iam/docs/temporary-elevated-access) .
-  - [Create short-lived credentials](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct) to impersonate a service account.
-  - Get [best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .
+- Find out how to [use service account impersonation](https://docs.cloud.google.com/docs/authentication/use-service-account-impersonation) .
+- Learn more about [temporary elevated access](https://docs.cloud.google.com/iam/docs/temporary-elevated-access) .
+- [Create short-lived credentials](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct) to impersonate a service account.
+- Get [best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .

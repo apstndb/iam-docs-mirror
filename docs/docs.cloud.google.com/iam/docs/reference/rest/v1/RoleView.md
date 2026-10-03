@@ -8,12 +8,7 @@ data_source: docs.cloud.google.com
 
 A view for Role objects.
 
-Enums
-
-`BASIC`
-
-Omits the `includedPermissions` field. This is the default value.
-
-`FULL`
-
-Returns all fields.
+| Enums   |                                                                   |
+|---------|-------------------------------------------------------------------|
+| `BASIC` | Omits the `includedPermissions` field. This is the default value. |
+| `FULL`  | Returns all fields.                                               |

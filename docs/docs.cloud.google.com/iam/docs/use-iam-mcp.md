@@ -12,10 +12,11 @@ This document shows you how to use the Identity and Access Management remote Mod
 
 ## What's the difference between local and remote MCP servers?
 
-  - Local MCP servers  
-    Typically run on your local machine and use the standard input and output streams (stdio) for communication between services on the same device.
-  - Remote MCP servers  
-    Run on the service's infrastructure and offer an HTTP endpoint to AI applications for communication between the AI MCP client and the MCP server. For more information about MCP architecture, see [MCP architecture](https://modelcontextprotocol.io/docs/learn/architecture) .
+Local MCP servers  
+Typically run on your local machine and use the standard input and output streams (stdio) for communication between services on the same device.
+
+Remote MCP servers  
+Run on the service's infrastructure and offer an HTTP endpoint to AI applications for communication between the AI MCP client and the MCP server. For more information about MCP architecture, see [MCP architecture](https://modelcontextprotocol.io/docs/learn/architecture) .
 
 ## Stateless core
 
@@ -23,8 +24,8 @@ With [MCP version 2026-07-28](https://modelcontextprotocol.io/specification/2026
 
 To help route and process requests without parsing the request body, some MCP headers are required, including the following:
 
-  - Headers that are required by the MCP specification such as the [protocol version header](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http#protocol-version-header) and [standard request headers](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http#standard-request-headers) .
-  - [Custom headers](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http#custom-headers-from-tool-parameters) that are defined by the MCP server. These headers are mirrored into HTTP headers from the tool's input schema using the `x-mcp-header` property. For example, an MCP server might define a custom header to specify the Google Cloud region or project ID.
+- Headers that are required by the MCP specification such as the [protocol version header](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http#protocol-version-header) and [standard request headers](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http#standard-request-headers) .
+- [Custom headers](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http#custom-headers-from-tool-parameters) that are defined by the MCP server. These headers are mirrored into HTTP headers from the tool's input schema using the `x-mcp-header` property. For example, an MCP server might define a custom header to specify the Google Cloud region or project ID.
 
 For more information about MCP architecture, see the MCP version 2026-07-28 [specification](https://modelcontextprotocol.io/specification/2026-07-28) and [key changes](https://modelcontextprotocol.io/specification/2026-07-28/changelog) .
 
@@ -32,11 +33,11 @@ For more information about MCP architecture, see the MCP version 2026-07-28 [spe
 
 Google and Google Cloud remote MCP servers have the following features and benefits:
 
-  - Simplified, centralized discovery
-  - Managed global or regional HTTP endpoints
-  - Fine-grained authorization
-  - Optional prompt and response security with Model Armor protection
-  - Centralized audit logging
+- Simplified, centralized discovery
+- Managed global or regional HTTP endpoints
+- Fine-grained authorization
+- Optional prompt and response security with Model Armor protection
+- Centralized audit logging
 
 For information about other MCP servers and information about security and governance controls available for Google Cloud MCP servers, see [Google Cloud MCP servers overview](https://docs.cloud.google.com/mcp/overview) .
 
@@ -46,9 +47,9 @@ For information about other MCP servers and information about security and gover
 
 To get the permissions that you need to use the Identity and Access Management MCP server, ask your administrator to grant you the following IAM roles:
 
-  - Make MCP tool calls: [MCP Tool User](https://docs.cloud.google.com/iam/docs/roles-permissions/mcp#mcp.toolUser) ( `roles/mcp.toolUser` ) on the project
-  - Manage custom roles: [Role Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.roleAdmin) ( `roles/iam.roleAdmin` ) on the project
-  - Manage deny policies: [Deny Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyAdmin) ( `roles/iam.denyAdmin` ) on the organization
+- Make MCP tool calls: [MCP Tool User](https://docs.cloud.google.com/iam/docs/roles-permissions/mcp#mcp.toolUser) ( `roles/mcp.toolUser` ) on the project
+- Manage custom roles: [Role Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.roleAdmin) ( `roles/iam.roleAdmin` ) on the project
+- Manage deny policies: [Deny Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyAdmin) ( `roles/iam.denyAdmin` ) on the organization
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -58,20 +59,20 @@ These predefined roles contain the permissions required to use the Identity and 
 
 The following permissions are required to use the Identity and Access Management MCP server:
 
-  - Make MCP tool calls: `mcp.tools.call`
-  - Manage custom roles:
-      - `iam.roles.create`
-      - `iam.roles.delete`
-      - `iam.roles.get`
-      - `iam.roles.list`
-      - `iam.roles.undelete`
-      - `iam.roles.update`
-  - Manage deny policies:
-      - `iam.denypolicies.create`
-      - `iam.denypolicies.delete`
-      - `iam.denypolicies.get`
-      - `iam.denypolicies.list`
-      - `iam.denypolicies.update`
+- Make MCP tool calls: `mcp.tools.call`
+- Manage custom roles:
+  - `iam.roles.create`
+  - `iam.roles.delete`
+  - `iam.roles.get`
+  - `iam.roles.list`
+  - `iam.roles.undelete`
+  - `iam.roles.update`
+- Manage deny policies:
+  - `iam.denypolicies.create`
+  - `iam.denypolicies.delete`
+  - `iam.denypolicies.get`
+  - `iam.denypolicies.list`
+  - `iam.denypolicies.update`
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -90,7 +91,7 @@ OAuth 2.0 uses scopes and credentials to determine if an authenticated principal
 Identity and Access Management has the following MCP tool OAuth scopes:
 
 | Scope URI for gcloud CLI                         | Description                                                                                                                  |
-| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+|--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | `https://www.googleapis.com/auth/cloud-platform` | See, edit, configure, and delete your Google Cloud data and see the email address for your Google Account.                   |
 | `https://www.googleapis.com/auth/iam`            | Grants access to view and manage policies for IAM, the service that controls who can access specific Google Cloud resources. |
 
@@ -102,11 +103,11 @@ AI applications and agents, such as Claude or Antigravity, can instantiate an MC
 
 In your AI application, look for a way to add or connect to a remote MCP server. For the Identity and Access Management MCP server, enter the following information as required:
 
-  - **Server name** : Identity and Access Management MCP server
-  - **Server URL** or **Endpoint** : `https://iam.googleapis.com/mcp`
-  - **Transport** : HTTP
-  - **Authentication details** : Depending on how you want to authenticate, you can enter your Google Cloud credentials, your OAuth Client ID and secret, or an agent identity and credentials. For more information about authentication, see [Authenticate to MCP servers](https://docs.cloud.google.com/mcp/authenticate-mcp) .
-  - **OAuth scope** : To access the Identity and Access Management MCP server, use the `https://www.googleapis.com/auth/cloud-platform` or `https://www.googleapis.com/auth/iam` [OAuth 2.0 scopes](https://developers.google.com/identity/protocols/oauth2/scopes) .
+- **Server name** : Identity and Access Management MCP server
+- **Server URL** or **Endpoint** : `https://iam.googleapis.com/mcp`
+- **Transport** : HTTP
+- **Authentication details** : Depending on how you want to authenticate, you can enter your Google Cloud credentials, your OAuth Client ID and secret, or an agent identity and credentials. For more information about authentication, see [Authenticate to MCP servers](https://docs.cloud.google.com/mcp/authenticate-mcp) .
+- **OAuth scope** : To access the Identity and Access Management MCP server, use the `https://www.googleapis.com/auth/cloud-platform` or `https://www.googleapis.com/auth/iam` [OAuth 2.0 scopes](https://developers.google.com/identity/protocols/oauth2/scopes) .
 
 ### Redirect URIs
 
@@ -116,8 +117,8 @@ For application-specific guidance about setting up and connecting to MCP server,
 
 For more general guidance, see the following resources:
 
-  - [Connect to remote MCP servers](https://modelcontextprotocol.io/docs/develop/connect-remote-servers) .
-  - [Configure MCP in an AI application](https://docs.cloud.google.com/mcp/configure-mcp-ai-application) .
+- [Connect to remote MCP servers](https://modelcontextprotocol.io/docs/develop/connect-remote-servers) .
+- [Configure MCP in an AI application](https://docs.cloud.google.com/mcp/configure-mcp-ai-application) .
 
 ## Available tools
 
@@ -127,14 +128,16 @@ To view details of available MCP tools and their descriptions for the Identity a
 
 Use the [MCP inspector](https://modelcontextprotocol.io/docs/tools/inspector) to list tools, or send a `tools/list` HTTP request directly to the Identity and Access Management remote MCP server. The `tools/list` method doesn't require authentication.
 
-    POST /mcp HTTP/1.1
-    Host: iam.googleapis.com
-    Content-Type: application/json
-    
-    {
-      "jsonrpc": "2.0",
-      "method": "tools/list",
-    }
+```
+POST /mcp HTTP/1.1
+Host: iam.googleapis.com
+Content-Type: application/json
+
+{
+  "jsonrpc": "2.0",
+  "method": "tools/list",
+}
+```
 
 ## Example use cases
 
@@ -143,7 +146,7 @@ The IAM remote MCP server lets you manage IAM access configurations across your 
 The following are example use cases for the Identity and Access Management MCP server:
 
 | Use case                                                              | Prompt examples                                                                                                                                                                                                                                                                                                                                                      |
-| --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | List, search, and retrieve metadata of custom IAM roles in a project. | "Our new DevOps intern needs to view Cloud Storage buckets and restart Google Kubernetes Engine instances in the staging project. Can you check if there is an existing predefined or custom role in this project that matches these requirements, or do we need to build a new custom role?"                                                                        |
 | Create, update, delete, or restore custom IAM roles in a project.     | "We need to create a new role for our auditing team in the `security-audit` project. This role should be called `LogViewerAndBucketReader` and should contain the following permissions: `logging.logEntries.list` , `logging.privateLogEntries.list` , and `storage.buckets.list` . Additionally, delete the deprecated custom role `OldAuditRole` in the project." |
 | List and retrieve explicit Deny policies in a project.                | "I need to audit the `secure-data-folders` folder. Please list all deny policies attached directly to this folder. Show me the details for each policy, particularly any rules that deny data access or resource creation permissions."                                                                                                                              |
@@ -172,9 +175,9 @@ You must enable Model Armor APIs before you can use Model Armor.
 ### Console
 
 1.  Enable the Model Armor API, if it is not already enabled.
-    
+
     **Roles required to enable APIs**
-    
+
     To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
 2.  Select the project where you want to activate Model Armor.
@@ -184,14 +187,16 @@ You must enable Model Armor APIs before you can use Model Armor.
 Before you begin, follow these steps using the Google Cloud CLI with the Model Armor API:
 
 1.  In the Google Cloud console, activate Cloud Shell.
-    
+
     At the bottom of the Google Cloud console, a [Cloud Shell](https://docs.cloud.google.com/shell/docs/how-cloud-shell-works) session starts and displays a command-line prompt. Cloud Shell is a shell environment with the Google Cloud CLI already installed and with values already set for your current project. It can take a few seconds for the session to initialize.
 
 2.  Run the following command to set the API endpoint for the Model Armor service.
-    
-        gcloud config set api_endpoint_overrides/modelarmor "https://modelarmor.LOCATION.rep.googleapis.com/"
-    
-    Replace `  LOCATION  ` with the region where you want to use Model Armor.
+
+    ```
+    gcloud config set api_endpoint_overrides/modelarmor "https://modelarmor.LOCATION.rep.googleapis.com/"
+    ```
+
+    Replace `LOCATION` with the region where you want to use Model Armor.
 
 #### Configure protection for Google and Google Cloud remote MCP servers
 
@@ -205,32 +210,36 @@ Set up a Model Armor floor setting with MCP sanitization enabled. For more infor
 
 See the following example command:
 
-    gcloud model-armor floorsettings update \
-    --full-uri='projects/PROJECT_ID/locations/global/floorSetting' \
-    --enable-floor-setting-enforcement=TRUE \
-    --add-integrated-services=GOOGLE_MCP_SERVER \
-    --google-mcp-server-enforcement-type=INSPECT_AND_BLOCK \
-    --enable-google-mcp-server-cloud-logging \
-    --malicious-uri-filter-settings-enforcement=ENABLED \
-    --add-rai-settings-filters='[{"confidenceLevel": "MEDIUM_AND_ABOVE", "filterType": "DANGEROUS"}]'
+```
+gcloud model-armor floorsettings update \
+--full-uri='projects/PROJECT_ID/locations/global/floorSetting' \
+--enable-floor-setting-enforcement=TRUE \
+--add-integrated-services=GOOGLE_MCP_SERVER \
+--google-mcp-server-enforcement-type=INSPECT_AND_BLOCK \
+--enable-google-mcp-server-cloud-logging \
+--malicious-uri-filter-settings-enforcement=ENABLED \
+--add-rai-settings-filters='[{"confidenceLevel": "MEDIUM_AND_ABOVE", "filterType": "DANGEROUS"}]'
+```
 
-Replace `  PROJECT_ID  ` with your Google Cloud project ID.
+Replace `PROJECT_ID` with your Google Cloud project ID.
 
 Note the following settings:
 
-  - `INSPECT_AND_BLOCK` : The enforcement type that inspects content for the Google MCP server and blocks prompts and responses that match the filters.
-  - `ENABLED` : The setting that enables a filter or enforcement.
-  - `MEDIUM_AND_ABOVE` : The confidence level for the Responsible AI - Dangerous filter settings. You can modify this setting, though lower values might result in more false positives. For more information, see [Model Armor confidence levels](https://docs.cloud.google.com/model-armor/overview#ma-confidence-levels) .
+- ` ``INSPECT_AND_BLOCK`` ` : The enforcement type that inspects content for the Google MCP server and blocks prompts and responses that match the filters.
+- ` ``ENABLED`` ` : The setting that enables a filter or enforcement.
+- ` ``MEDIUM_AND_ABOVE`` ` : The confidence level for the Responsible AI - Dangerous filter settings. You can modify this setting, though lower values might result in more false positives. For more information, see [Model Armor confidence levels](https://docs.cloud.google.com/model-armor/overview#ma-confidence-levels) .
 
 #### Disable scanning MCP traffic with Model Armor
 
 To stop Model Armor from automatically scanning traffic to and from Google MCP servers based on the project's floor settings, run the following command:
 
-    gcloud model-armor floorsettings update \
-      --full-uri='projects/PROJECT_ID/locations/global/floorSetting' \
-      --remove-integrated-services=GOOGLE_MCP_SERVER
+```
+gcloud model-armor floorsettings update \
+  --full-uri='projects/PROJECT_ID/locations/global/floorSetting' \
+  --remove-integrated-services=GOOGLE_MCP_SERVER
+```
 
-Replace `  PROJECT_ID  ` with the Google Cloud project ID. Model Armor doesn't automatically apply the rules defined in this project's floor settings to any Google MCP server traffic.
+Replace `PROJECT_ID` with the Google Cloud project ID. Model Armor doesn't automatically apply the rules defined in this project's floor settings to any Google MCP server traffic.
 
 Model Armor floor settings and general configuration can impact more than just MCP. Because Model Armor integrates with services like Vertex AI, any changes you make to floor settings can affect traffic scanning and safety behaviors across all integrated services, not just MCP.
 
@@ -240,14 +249,14 @@ Identity and Access Management (IAM) [deny policies](https://docs.cloud.google.c
 
 You can combine multiple criteria to build customized security and governance policies by allowing or denying access based on the following:
 
-  - The principal.
-  - Tool properties like the read-only attribute.
-  - The service name or tool name.
-  - The application's OAuth client ID.
+- The principal.
+- Tool properties like the read-only attribute.
+- The service name or tool name.
+- The application's OAuth client ID.
 
 For more information, see [Control MCP use with Identity and Access Management](https://docs.cloud.google.com/mcp/control-mcp-use-iam) .
 
 ## What's next
 
-  - Read the [Identity and Access Management MCP reference documentation](https://docs.cloud.google.com/iam/docs/reference/mcp) .
-  - Learn more about [Google Cloud MCP servers](https://docs.cloud.google.com/mcp/overview) .
+- Read the [Identity and Access Management MCP reference documentation](https://docs.cloud.google.com/iam/docs/reference/mcp) .
+- Learn more about [Google Cloud MCP servers](https://docs.cloud.google.com/mcp/overview) .

@@ -25,15 +25,15 @@ Cloud Infrastructure Entitlement Management (CIEM) offers the following service 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="ciem.serviceAgent" class="role-title add-link" data-text="CIEM Service Agent" tabindex="-1">CIEM Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  ciem.serviceAgent</code> )</p>
+<td>CIEM Service Agent
+<p>( <code>roles/ ciem.serviceAgent</code> )</p>
 <p>Gives CIEM Service Account permission to access GCP resources</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">cloudasset.  assets.  exportIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudasset.  assets.  exportResource</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p></td>
+<td><p><code>cloudasset. assets. exportIamPolicy</code></p>
+<p><code>cloudasset. assets. exportResource</code></p>
+<p><code>resourcemanager. organizations. get</code></p></td>
 </tr>
 </tbody>
 </table>

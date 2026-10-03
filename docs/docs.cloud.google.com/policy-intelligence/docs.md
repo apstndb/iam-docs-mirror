@@ -12,38 +12,38 @@ Large organizations often have an extensive set of Google Cloud policies to cont
 
 [Go to the Policy Intelligence product page for more.](https://cloud.google.com/security/products/policy-intelligence)
 
-format\_list\_numbered
+format_list_numbered
 
 ### Guides
 
-  - [Policy Intelligence tools](https://docs.cloud.google.com/policy-intelligence/docs/overview)
+- [Policy Intelligence tools](https://docs.cloud.google.com/policy-intelligence/docs/overview)
 
-  - [Analyze policies](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-overview)
+- [Analyze policies](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-overview)
 
-  - [Troubleshoot access issues](https://docs.cloud.google.com/policy-intelligence/docs/access-troubleshooters)
+- [Troubleshoot access issues](https://docs.cloud.google.com/policy-intelligence/docs/access-troubleshooters)
 
-  - [Understand service account usage](https://docs.cloud.google.com/policy-intelligence/docs/service-account-usage-tools)
+- [Understand service account usage](https://docs.cloud.google.com/policy-intelligence/docs/service-account-usage-tools)
 
-  - [Improve your policies with role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview)
+- [Improve your policies with role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview)
 
-  - [Test IAM allow policy changes](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview)
+- [Test IAM allow policy changes](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview)
 
-find\_in\_page
+find_in_page
 
 ### Reference
 
-  - [REST API](https://docs.cloud.google.com/policy-intelligence/docs/apis)
+- [REST API](https://docs.cloud.google.com/policy-intelligence/docs/apis)
 
-  - [Client libraries](https://docs.cloud.google.com/policy-intelligence/docs/reference/libraries)
+- [Client libraries](https://docs.cloud.google.com/policy-intelligence/docs/reference/libraries)
 
 info
 
 ### Resources
 
-  - [Quotas and limits](https://docs.cloud.google.com/policy-intelligence/docs/quotas)
+- [Quotas and limits](https://docs.cloud.google.com/policy-intelligence/docs/quotas)
 
-  - [Release notes](https://docs.cloud.google.com/policy-intelligence/docs/release-notes)
+- [Release notes](https://docs.cloud.google.com/policy-intelligence/docs/release-notes)
 
-  - [Support](https://docs.cloud.google.com/policy-intelligence/docs/getting-support)
+- [Support](https://docs.cloud.google.com/policy-intelligence/docs/getting-support)
 
 ## Related videos

@@ -6,19 +6,14 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-  - [Resource](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects#RESOURCE_REPRESENTATION)
-  - [Methods](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects#METHODS_SUMMARY)
+- [Resource](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects#RESOURCE_REPRESENTATION)
+- [Methods](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects#METHODS_SUMMARY)
 
 ## Resource
 
 There is no persistent data associated with this resource.
 
-## Methods
-
-### `            delete           `
-
-Deletes a `WorkforcePoolSubject` .
-
-### `            undelete           `
-
-Undeletes a `WorkforcePoolSubject` , as long as it was deleted fewer than 30 days ago.
+| Methods                                                                                                           |                                                                                        |
+|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/delete)     | Deletes a `WorkforcePoolSubject` .                                                     |
+| [`undelete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/undelete) | Undeletes a `WorkforcePoolSubject` , as long as it was deleted fewer than 30 days ago. |

@@ -25,18 +25,18 @@ AI Edge Portal offers the following service agent roles. Service agent roles sho
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="aiedgeportal.serviceAgent" class="role-title add-link" data-text="AI Edge Portal Service Agent" tabindex="-1">AI Edge Portal Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  aiedgeportal.serviceAgent</code> )</p>
+<td>AI Edge Portal Service Agent
+<p>( <code>roles/ aiedgeportal.serviceAgent</code> )</p>
 <p>Grants AI Edge Portal Service Agent permissions required to read/write data to GCS buckets</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">storage.buckets.create</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.get</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.list</code></p>
-<p><code dir="ltr" translate="no">storage.objects.create</code></p>
-<p><code dir="ltr" translate="no">storage.objects.delete</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p></td>
+<td><p><code>storage.buckets.create</code></p>
+<p><code>storage.buckets.get</code></p>
+<p><code>storage.buckets.list</code></p>
+<p><code>storage.objects.create</code></p>
+<p><code>storage.objects.delete</code></p>
+<p><code>storage.objects.get</code></p></td>
 </tr>
 </tbody>
 </table>

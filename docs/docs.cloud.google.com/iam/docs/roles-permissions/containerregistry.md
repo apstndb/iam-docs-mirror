@@ -25,16 +25,16 @@ Container Registry offers the following service agent roles. Service agent roles
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="containerregistry.ServiceAgent" class="role-title add-link" data-text="Container Registry Service Agent" tabindex="-1">Container Registry Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  containerregistry.ServiceAgent</code> )</p>
+<td>Container Registry Service Agent
+<p>( <code>roles/ containerregistry.ServiceAgent</code> )</p>
 <p>Access for Container Registry</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">pubsub.topics.publish</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">storage.objects.list</code></p></td>
+<td><p><code>pubsub.topics.publish</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.getIamPolicy</code></p>
+<p><code>storage.objects.list</code></p></td>
 </tr>
 </tbody>
 </table>

@@ -10,28 +10,11 @@ The operation for which this constraint will be applied. To apply this constrain
 
 `UPDATE` only custom constraints are not supported. Use `CREATE` or `CREATE, UPDATE` .
 
-Enums
-
-`METHOD_TYPE_UNSPECIFIED`
-
-This is only used for distinguishing unset values and should never be used. Results in an error.
-
-`CREATE`
-
-Constraint applied when creating the resource.
-
-`UPDATE`
-
-Constraint applied when updating the resource.
-
-`DELETE`
-
-Constraint applied when deleting the resource. Not currently supported.
-
-`REMOVE_GRANT`
-
-Constraint applied when removing an IAM grant.
-
-`GOVERN_TAGS`
-
-Constraint applied when enforcing forced tagging.
+| Enums                     |                                                                                                  |
+|---------------------------|--------------------------------------------------------------------------------------------------|
+| `METHOD_TYPE_UNSPECIFIED` | This is only used for distinguishing unset values and should never be used. Results in an error. |
+| `CREATE`                  | Constraint applied when creating the resource.                                                   |
+| `UPDATE`                  | Constraint applied when updating the resource.                                                   |
+| `DELETE`                  | Constraint applied when deleting the resource. Not currently supported.                          |
+| `REMOVE_GRANT`            | Constraint applied when removing an IAM grant.                                                   |
+| `GOVERN_TAGS`             | Constraint applied when enforcing forced tagging.                                                |

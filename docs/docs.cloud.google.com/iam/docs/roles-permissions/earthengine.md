@@ -23,529 +23,223 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="earthengine.admin" class="role-title add-link" data-text="Earth Engine Resource Admin Beta" tabindex="-1">Earth Engine Resource Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
+<td>Earth Engine Resource Admin <sup>Beta</sup>
+<p>( <code>roles/ earthengine.admin</code> )</p>
 <p>Full access to all Earth Engine resource features</p></td>
-<td><p><code dir="ltr" translate="no">earthengine.*</code></p>
+<td><p><code>earthengine.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.assets.create</code></li>
-<li><code dir="ltr" translate="no">earthengine.assets.delete</code></li>
-<li><code dir="ltr" translate="no">earthengine.assets.get</code></li>
-<li><code dir="ltr" translate="no">earthengine.  assets.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">earthengine.assets.list</code></li>
-<li><code dir="ltr" translate="no">earthengine.  assets.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">earthengine.assets.update</code></li>
-<li><code dir="ltr" translate="no">earthengine.  computations.  create</code></li>
-<li><code dir="ltr" translate="no">earthengine.config.get</code></li>
-<li><code dir="ltr" translate="no">earthengine.config.update</code></li>
-<li><code dir="ltr" translate="no">earthengine.exports.create</code></li>
-<li><code dir="ltr" translate="no">earthengine.  featureviews.  create</code></li>
-<li><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.  create</code></li>
-<li><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.  get</code></li>
-<li><code dir="ltr" translate="no">earthengine.imports.create</code></li>
-<li><code dir="ltr" translate="no">earthengine.maps.create</code></li>
-<li><code dir="ltr" translate="no">earthengine.maps.get</code></li>
-<li><code dir="ltr" translate="no">earthengine.operations.delete</code></li>
-<li><code dir="ltr" translate="no">earthengine.operations.get</code></li>
-<li><code dir="ltr" translate="no">earthengine.operations.list</code></li>
-<li><code dir="ltr" translate="no">earthengine.operations.update</code></li>
-<li><code dir="ltr" translate="no">earthengine.tables.create</code></li>
-<li><code dir="ltr" translate="no">earthengine.tables.get</code></li>
-<li><code dir="ltr" translate="no">earthengine.thumbnails.create</code></li>
-<li><code dir="ltr" translate="no">earthengine.thumbnails.get</code></li>
-<li><code dir="ltr" translate="no">earthengine.  videothumbnails.  create</code></li>
-<li><code dir="ltr" translate="no">earthengine.  videothumbnails.  get</code></li>
+<li><code>earthengine.assets.create</code></li>
+<li><code>earthengine.assets.delete</code></li>
+<li><code>earthengine.assets.get</code></li>
+<li><code>earthengine. assets. getIamPolicy</code></li>
+<li><code>earthengine.assets.list</code></li>
+<li><code>earthengine. assets. setIamPolicy</code></li>
+<li><code>earthengine.assets.update</code></li>
+<li><code>earthengine. computations. create</code></li>
+<li><code>earthengine.config.get</code></li>
+<li><code>earthengine.config.update</code></li>
+<li><code>earthengine.exports.create</code></li>
+<li><code>earthengine. featureviews. create</code></li>
+<li><code>earthengine. filmstripthumbnails. create</code></li>
+<li><code>earthengine. filmstripthumbnails. get</code></li>
+<li><code>earthengine.imports.create</code></li>
+<li><code>earthengine.maps.create</code></li>
+<li><code>earthengine.maps.get</code></li>
+<li><code>earthengine.operations.delete</code></li>
+<li><code>earthengine.operations.get</code></li>
+<li><code>earthengine.operations.list</code></li>
+<li><code>earthengine.operations.update</code></li>
+<li><code>earthengine.tables.create</code></li>
+<li><code>earthengine.tables.get</code></li>
+<li><code>earthengine.thumbnails.create</code></li>
+<li><code>earthengine.thumbnails.get</code></li>
+<li><code>earthengine. videothumbnails. create</code></li>
+<li><code>earthengine. videothumbnails. get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="earthengine.editor" class="role-title add-link" data-text="Earthengine Editor Beta" tabindex="-1">Earthengine Editor <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
+<td>Earthengine Editor <sup>Beta</sup>
+<p>( <code>roles/ earthengine.editor</code> )</p>
 <p>Editor role for earthengine</p></td>
-<td><p><code dir="ltr" translate="no">earthengine.assets.create</code></p>
-<p><code dir="ltr" translate="no">earthengine.assets.delete</code></p>
-<p><code dir="ltr" translate="no">earthengine.assets.get</code></p>
-<p><code dir="ltr" translate="no">earthengine.  assets.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">earthengine.assets.list</code></p>
-<p><code dir="ltr" translate="no">earthengine.assets.update</code></p>
-<p><code dir="ltr" translate="no">earthengine.  computations.  create</code></p>
-<p><code dir="ltr" translate="no">earthengine.config.*</code></p>
+<td><p><code>earthengine.assets.create</code></p>
+<p><code>earthengine.assets.delete</code></p>
+<p><code>earthengine.assets.get</code></p>
+<p><code>earthengine. assets. getIamPolicy</code></p>
+<p><code>earthengine.assets.list</code></p>
+<p><code>earthengine.assets.update</code></p>
+<p><code>earthengine. computations. create</code></p>
+<p><code>earthengine.config.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.config.get</code></li>
-<li><code dir="ltr" translate="no">earthengine.config.update</code></li>
+<li><code>earthengine.config.get</code></li>
+<li><code>earthengine.config.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">earthengine.exports.create</code></p>
-<p><code dir="ltr" translate="no">earthengine.  featureviews.  create</code></p>
-<p><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.*</code></p>
+<p><code>earthengine.exports.create</code></p>
+<p><code>earthengine. featureviews. create</code></p>
+<p><code>earthengine. filmstripthumbnails.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.  create</code></li>
-<li><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.  get</code></li>
+<li><code>earthengine. filmstripthumbnails. create</code></li>
+<li><code>earthengine. filmstripthumbnails. get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">earthengine.imports.create</code></p>
-<p><code dir="ltr" translate="no">earthengine.maps.*</code></p>
+<p><code>earthengine.imports.create</code></p>
+<p><code>earthengine.maps.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.maps.create</code></li>
-<li><code dir="ltr" translate="no">earthengine.maps.get</code></li>
+<li><code>earthengine.maps.create</code></li>
+<li><code>earthengine.maps.get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">earthengine.operations.*</code></p>
+<p><code>earthengine.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.operations.delete</code></li>
-<li><code dir="ltr" translate="no">earthengine.operations.get</code></li>
-<li><code dir="ltr" translate="no">earthengine.operations.list</code></li>
-<li><code dir="ltr" translate="no">earthengine.operations.update</code></li>
+<li><code>earthengine.operations.delete</code></li>
+<li><code>earthengine.operations.get</code></li>
+<li><code>earthengine.operations.list</code></li>
+<li><code>earthengine.operations.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">earthengine.tables.*</code></p>
+<p><code>earthengine.tables.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.tables.create</code></li>
-<li><code dir="ltr" translate="no">earthengine.tables.get</code></li>
+<li><code>earthengine.tables.create</code></li>
+<li><code>earthengine.tables.get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">earthengine.thumbnails.*</code></p>
+<p><code>earthengine.thumbnails.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.thumbnails.create</code></li>
-<li><code dir="ltr" translate="no">earthengine.thumbnails.get</code></li>
+<li><code>earthengine.thumbnails.create</code></li>
+<li><code>earthengine.thumbnails.get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">earthengine.videothumbnails.*</code></p>
+<p><code>earthengine.videothumbnails.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.  videothumbnails.  create</code></li>
-<li><code dir="ltr" translate="no">earthengine.  videothumbnails.  get</code></li>
+<li><code>earthengine. videothumbnails. create</code></li>
+<li><code>earthengine. videothumbnails. get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="earthengine.viewer" class="role-title add-link" data-text="Earth Engine Resource Viewer Beta" tabindex="-1">Earth Engine Resource Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
+<td>Earth Engine Resource Viewer <sup>Beta</sup>
+<p>( <code>roles/ earthengine.viewer</code> )</p>
 <p>Viewer of all Earth Engine resources</p></td>
-<td><p><code dir="ltr" translate="no">earthengine.assets.get</code></p>
-<p><code dir="ltr" translate="no">earthengine.  assets.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">earthengine.assets.list</code></p>
-<p><code dir="ltr" translate="no">earthengine.  computations.  create</code></p>
-<p><code dir="ltr" translate="no">earthengine.config.get</code></p>
-<p><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.  get</code></p>
-<p><code dir="ltr" translate="no">earthengine.maps.get</code></p>
-<p><code dir="ltr" translate="no">earthengine.operations.get</code></p>
-<p><code dir="ltr" translate="no">earthengine.operations.list</code></p>
-<p><code dir="ltr" translate="no">earthengine.tables.get</code></p>
-<p><code dir="ltr" translate="no">earthengine.thumbnails.get</code></p>
-<p><code dir="ltr" translate="no">earthengine.  videothumbnails.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>earthengine.assets.get</code></p>
+<p><code>earthengine. assets. getIamPolicy</code></p>
+<p><code>earthengine.assets.list</code></p>
+<p><code>earthengine. computations. create</code></p>
+<p><code>earthengine.config.get</code></p>
+<p><code>earthengine. filmstripthumbnails. get</code></p>
+<p><code>earthengine.maps.get</code></p>
+<p><code>earthengine.operations.get</code></p>
+<p><code>earthengine.operations.list</code></p>
+<p><code>earthengine.tables.get</code></p>
+<p><code>earthengine.thumbnails.get</code></p>
+<p><code>earthengine. videothumbnails. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="earthengine.appsPublisher" class="role-title add-link" data-text="Earth Engine Apps Publisher Beta" tabindex="-1">Earth Engine Apps Publisher <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  earthengine.appsPublisher</code> )</p>
+<td>Earth Engine Apps Publisher <sup>Beta</sup>
+<p>( <code>roles/ earthengine.appsPublisher</code> )</p>
 <p>Publisher of Earth Engine Apps</p></td>
-<td><p><code dir="ltr" translate="no">iam.serviceAccounts.create</code></p>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.disable</code></p>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.enable</code></p>
-<p><code dir="ltr" translate="no">iam.serviceAccounts.get</code></p>
-<p><code dir="ltr" translate="no">iam.  serviceAccounts.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">iam.  serviceAccounts.  setIamPolicy</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.  effectivepolicy.  get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.groups.*</code></p>
+<td><p><code>iam.serviceAccounts.create</code></p>
+<p><code>iam.serviceAccounts.disable</code></p>
+<p><code>iam.serviceAccounts.enable</code></p>
+<p><code>iam.serviceAccounts.get</code></p>
+<p><code>iam. serviceAccounts. getIamPolicy</code></p>
+<p><code>iam. serviceAccounts. setIamPolicy</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">serviceusage.groups.list</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listExpandedMembers</code></li>
-<li><code dir="ltr" translate="no">serviceusage.  groups.  listMembers</code></li>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
 </ul>
-<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
-<p><code dir="ltr" translate="no">serviceusage.values.test</code></p></td>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="earthengine.writer" class="role-title add-link" data-text="Earth Engine Resource Writer Beta" tabindex="-1">Earth Engine Resource Writer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<td>Earth Engine Resource Writer <sup>Beta</sup>
+<p>( <code>roles/ earthengine.writer</code> )</p>
 <p>Writer of all Earth Engine resources</p></td>
-<td><p><code dir="ltr" translate="no">earthengine.assets.create</code></p>
-<p><code dir="ltr" translate="no">earthengine.assets.delete</code></p>
-<p><code dir="ltr" translate="no">earthengine.assets.get</code></p>
-<p><code dir="ltr" translate="no">earthengine.  assets.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">earthengine.assets.list</code></p>
-<p><code dir="ltr" translate="no">earthengine.assets.update</code></p>
-<p><code dir="ltr" translate="no">earthengine.  computations.  create</code></p>
-<p><code dir="ltr" translate="no">earthengine.config.*</code></p>
+<td><p><code>earthengine.assets.create</code></p>
+<p><code>earthengine.assets.delete</code></p>
+<p><code>earthengine.assets.get</code></p>
+<p><code>earthengine. assets. getIamPolicy</code></p>
+<p><code>earthengine.assets.list</code></p>
+<p><code>earthengine.assets.update</code></p>
+<p><code>earthengine. computations. create</code></p>
+<p><code>earthengine.config.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.config.get</code></li>
-<li><code dir="ltr" translate="no">earthengine.config.update</code></li>
+<li><code>earthengine.config.get</code></li>
+<li><code>earthengine.config.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">earthengine.exports.create</code></p>
-<p><code dir="ltr" translate="no">earthengine.  featureviews.  create</code></p>
-<p><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.*</code></p>
+<p><code>earthengine.exports.create</code></p>
+<p><code>earthengine. featureviews. create</code></p>
+<p><code>earthengine. filmstripthumbnails.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.  create</code></li>
-<li><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.  get</code></li>
+<li><code>earthengine. filmstripthumbnails. create</code></li>
+<li><code>earthengine. filmstripthumbnails. get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">earthengine.imports.create</code></p>
-<p><code dir="ltr" translate="no">earthengine.maps.*</code></p>
+<p><code>earthengine.imports.create</code></p>
+<p><code>earthengine.maps.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.maps.create</code></li>
-<li><code dir="ltr" translate="no">earthengine.maps.get</code></li>
+<li><code>earthengine.maps.create</code></li>
+<li><code>earthengine.maps.get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">earthengine.operations.*</code></p>
+<p><code>earthengine.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.operations.delete</code></li>
-<li><code dir="ltr" translate="no">earthengine.operations.get</code></li>
-<li><code dir="ltr" translate="no">earthengine.operations.list</code></li>
-<li><code dir="ltr" translate="no">earthengine.operations.update</code></li>
+<li><code>earthengine.operations.delete</code></li>
+<li><code>earthengine.operations.get</code></li>
+<li><code>earthengine.operations.list</code></li>
+<li><code>earthengine.operations.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">earthengine.tables.*</code></p>
+<p><code>earthengine.tables.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.tables.create</code></li>
-<li><code dir="ltr" translate="no">earthengine.tables.get</code></li>
+<li><code>earthengine.tables.create</code></li>
+<li><code>earthengine.tables.get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">earthengine.thumbnails.*</code></p>
+<p><code>earthengine.thumbnails.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.thumbnails.create</code></li>
-<li><code dir="ltr" translate="no">earthengine.thumbnails.get</code></li>
+<li><code>earthengine.thumbnails.create</code></li>
+<li><code>earthengine.thumbnails.get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">earthengine.videothumbnails.*</code></p>
+<p><code>earthengine.videothumbnails.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">earthengine.  videothumbnails.  create</code></li>
-<li><code dir="ltr" translate="no">earthengine.  videothumbnails.  get</code></li>
+<li><code>earthengine. videothumbnails. create</code></li>
+<li><code>earthengine. videothumbnails. get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Google Earth Engine permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="earthengine.assets.create" class="permission-name add-link" data-text="earthengine.assets.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.assets.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.assets.delete" class="permission-name add-link" data-text="earthengine.assets.delete" tabindex="-1"><code dir="ltr" translate="no">earthengine.assets.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.assets.get" class="permission-name add-link" data-text="earthengine.assets.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.assets.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.assets.getIamPolicy" class="permission-name add-link" data-text="earthengine.assets.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">earthengine.  assets.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.assets.list" class="permission-name add-link" data-text="earthengine.assets.list" tabindex="-1"><code dir="ltr" translate="no">earthengine.assets.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.assets.setIamPolicy" class="permission-name add-link" data-text="earthengine.assets.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">earthengine.  assets.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.assets.update" class="permission-name add-link" data-text="earthengine.assets.update" tabindex="-1"><code dir="ltr" translate="no">earthengine.assets.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.computations.create" class="permission-name add-link" data-text="earthengine.computations.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.  computations.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.config.get" class="permission-name add-link" data-text="earthengine.config.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.config.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.config.update" class="permission-name add-link" data-text="earthengine.config.update" tabindex="-1"><code dir="ltr" translate="no">earthengine.config.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.exports.create" class="permission-name add-link" data-text="earthengine.exports.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.exports.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.featureviews.create" class="permission-name add-link" data-text="earthengine.featureviews.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.  featureviews.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.filmstripthumbnails.create" class="permission-name add-link" data-text="earthengine.filmstripthumbnails.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.filmstripthumbnails.get" class="permission-name add-link" data-text="earthengine.filmstripthumbnails.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.imports.create" class="permission-name add-link" data-text="earthengine.imports.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.imports.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.maps.create" class="permission-name add-link" data-text="earthengine.maps.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.maps.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.maps.get" class="permission-name add-link" data-text="earthengine.maps.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.maps.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.operations.delete" class="permission-name add-link" data-text="earthengine.operations.delete" tabindex="-1"><code dir="ltr" translate="no">earthengine.operations.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.operations.get" class="permission-name add-link" data-text="earthengine.operations.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.operations.list" class="permission-name add-link" data-text="earthengine.operations.list" tabindex="-1"><code dir="ltr" translate="no">earthengine.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.operations.update" class="permission-name add-link" data-text="earthengine.operations.update" tabindex="-1"><code dir="ltr" translate="no">earthengine.operations.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.tables.create" class="permission-name add-link" data-text="earthengine.tables.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.tables.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.tables.get" class="permission-name add-link" data-text="earthengine.tables.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.tables.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.thumbnails.create" class="permission-name add-link" data-text="earthengine.thumbnails.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.thumbnails.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.thumbnails.get" class="permission-name add-link" data-text="earthengine.thumbnails.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.thumbnails.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="earthengine.videothumbnails.create" class="permission-name add-link" data-text="earthengine.videothumbnails.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.  videothumbnails.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="earthengine.videothumbnails.get" class="permission-name add-link" data-text="earthengine.videothumbnails.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.  videothumbnails.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                 | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `earthengine.assets.create`                | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine.assets.delete`                | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine.assets.get`                   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Earth Engine Resource Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer) ( `roles/ earthengine.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `earthengine. assets. getIamPolicy`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Earth Engine Resource Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer) ( `roles/ earthengine.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `earthengine.assets.list`                  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Earth Engine Resource Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer) ( `roles/ earthengine.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `earthengine. assets. setIamPolicy`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `earthengine.assets.update`                | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine. computations. create`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Earth Engine Resource Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer) ( `roles/ earthengine.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `earthengine.config.get`                   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Earth Engine Resource Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer) ( `roles/ earthengine.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `earthengine.config.update`                | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine.exports.create`               | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine. featureviews. create`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine. filmstripthumbnails. create` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine. filmstripthumbnails. get`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Earth Engine Resource Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer) ( `roles/ earthengine.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `earthengine.imports.create`               | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine.maps.create`                  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine.maps.get`                     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Earth Engine Resource Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer) ( `roles/ earthengine.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `earthengine.operations.delete`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine.operations.get`               | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Earth Engine Resource Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer) ( `roles/ earthengine.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `earthengine.operations.list`              | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Earth Engine Resource Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer) ( `roles/ earthengine.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `earthengine.operations.update`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine.tables.create`                | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine.tables.get`                   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Earth Engine Resource Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer) ( `roles/ earthengine.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `earthengine.thumbnails.create`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine.thumbnails.get`               | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Earth Engine Resource Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer) ( `roles/ earthengine.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `earthengine. videothumbnails. create`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `earthengine. videothumbnails. get`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Earth Engine Resource Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin) ( `roles/ earthengine.admin` ) [Earthengine Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor) ( `roles/ earthengine.editor` ) [Earth Engine Resource Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer) ( `roles/ earthengine.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Earth Engine Resource Writer](https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer) ( `roles/ earthengine.writer` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |

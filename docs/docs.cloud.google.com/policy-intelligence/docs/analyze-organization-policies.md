@@ -10,34 +10,34 @@ This page contains information about analyzing your organization policy settings
 
 An analysis query is composed of a scope and a constraint.
 
-  - Constraint: specifies the resource name of a constraint.
+- Constraint: specifies the resource name of a constraint.
 
-  - Scope: specifies an organization to scope the analysis. All organization policies with the specified constraint defined in this scope are included in the analysis.
+- Scope: specifies an organization to scope the analysis. All organization policies with the specified constraint defined in this scope are included in the analysis.
 
-  - For more information about organization policies, see the [Introduction to the Organization Policy Service](https://docs.cloud.google.com/resource-manager/docs/organization-policy/overview) .
+- For more information about organization policies, see the [Introduction to the Organization Policy Service](https://docs.cloud.google.com/resource-manager/docs/organization-policy/overview) .
 
-  - For more information about how to create custom constraints, see [Creating and managing custom constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints) .
+- For more information about how to create custom constraints, see [Creating and managing custom constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints) .
 
-  - For more information about managed constraints, see [Using constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/using-constraints#managed-constraints) .
+- For more information about managed constraints, see [Using constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/using-constraints#managed-constraints) .
 
 ## Before you begin
 
-  - Enable the Cloud Asset API, if it is not already enabled.
-    
-    **Roles required to enable APIs**
-    
-    To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
-    
-    You must enable the API in the project you will use to send the query. This doesn't have to be the same resource that you scope your query to.
+- Enable the Cloud Asset API, if it is not already enabled.
 
-  - Optional: If you want to execute more than 20 policy analysis queries per organization per day, ensure that you have an [organization-level activation of the Premium or Enterprise tier of Security Command Center](https://cloud.google.com/security-command-center/pricing#organization-level-activations) . For more information, see [Billing questions](https://docs.cloud.google.com/policy-intelligence/docs/billing-questions) .
+  **Roles required to enable APIs**
+
+  To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+
+  You must enable the API in the project you will use to send the query. This doesn't have to be the same resource that you scope your query to.
+
+- Optional: If you want to execute more than 20 policy analysis queries per organization per day, ensure that you have an [organization-level activation of the Premium or Enterprise tier of Security Command Center](https://cloud.google.com/security-command-center/pricing#organization-level-activations) . For more information, see [Billing questions](https://docs.cloud.google.com/policy-intelligence/docs/billing-questions) .
 
 ### Required roles and permissions
 
 To get the permissions that you need to run an organization policy analysis, ask your administrator to grant you the following IAM roles on the organization resource in which you want to conduct your analysis:
 
-  - To conduct the analysis: [Cloud Asset Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.viewer) ( `roles/cloudasset.viewer` )
-  - To view constraints: [Organization Policy Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/orgpolicy#orgpolicy.policyViewer) ( `roles/orgpolicy.policyViewer` )
+- To conduct the analysis: [Cloud Asset Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.viewer) ( `roles/cloudasset.viewer` )
+- To view constraints: [Organization Policy Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/orgpolicy#orgpolicy.policyViewer) ( `roles/orgpolicy.policyViewer` )
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -47,11 +47,11 @@ These predefined roles contain the permissions required to run an organization p
 
 The following permissions are required to run an organization policy analysis:
 
-  - To conduct the analysis:
-      - `cloudasset.assets.analyzeOrgPolicy`
-      - `cloudasset.assets.searchAllResources`
-      - `cloudasset.assets.searchAllIamPolicies`
-  - To view custom and managed constraints: `orgpolicy.customConstraints.get`
+- To conduct the analysis:
+  - `cloudasset.assets.analyzeOrgPolicy`
+  - `cloudasset.assets.searchAllResources`
+  - `cloudasset.assets.searchAllIamPolicies`
+- To view custom and managed constraints: `orgpolicy.customConstraints.get`
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -67,15 +67,15 @@ An organization policy is built from a constraint and optional conditions under 
 
 For each organization policy that is detected in the query's scope, Policy Analyzer returns a result entry. A result entry contains the following fields:
 
-  - `consolidatedPolicy` : the resource to which the organization policy is attached, and the effective policy enforcement on that resource with respect to [hierarchy evaluation rules](https://docs.cloud.google.com/resource-manager/docs/organization-policy/understanding-hierarchy) .
+- `consolidatedPolicy` : the resource to which the organization policy is attached, and the effective policy enforcement on that resource with respect to [hierarchy evaluation rules](https://docs.cloud.google.com/resource-manager/docs/organization-policy/understanding-hierarchy) .
 
-  - `project` : the ID of the project resource to which this consolidated policy belongs.
+- `project` : the ID of the project resource to which this consolidated policy belongs.
 
-  - `folders` : the ID of any folder resources that are ancestors of the resource to which the organization policy is attached.
+- `folders` : the ID of any folder resources that are ancestors of the resource to which the organization policy is attached.
 
-  - `organization` : the ID of the organization resource that is the ancestor of the resource to which the organization policy is attached.
+- `organization` : the ID of the organization resource that is the ancestor of the resource to which the organization policy is attached.
 
-  - `policyBundle` : the full configured organization policy attached to the above resource, and the organization policies defined on its ancestors in the resource hierarchy.
+- `policyBundle` : the full configured organization policy attached to the above resource, and the organization policies defined on its ancestors in the resource hierarchy.
 
 If your resources are protected by a VPC Service Controls service perimeter, you must create an [egress rule](https://docs.cloud.google.com/vpc-service-controls/docs/ingress-egress-rules) in the perimeter of your organization resource that allows access to the `cloudasset.googleapis.com` service. Because method-level restrictions aren't supported for Cloud Asset API, you must allow all Cloud Asset API methods by specifying `method: *` in the egress rule. If you don't have an egress rule, the request fails with a `NETWORK_NOT_IN_SAME_SERVICE_PERIMETER` error. For more information, see [Debugging requests blocked by VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/troubleshooting#debugging) .
 
@@ -101,48 +101,52 @@ If your resources are protected by a VPC Service Controls service perimeter, you
 
 To get an analysis of how an organization policy constraint is enforced within an organization, use the [`gcloud asset analyze-org-policies` command](https://docs.cloud.google.com/sdk/gcloud/reference/asset/analyze-org-policies) :
 
-    gcloud asset analyze-org-policies \
-        --constraint=CONSTRAINT_NAME  \
-        --scope=organizations/ORGANIZATION_ID \
-        --limit=LIMIT_POLICIES \
-        --filter=FILTER_QUERY
+```
+gcloud asset analyze-org-policies \
+    --constraint=CONSTRAINT_NAME  \
+    --scope=organizations/ORGANIZATION_ID \
+    --limit=LIMIT_POLICIES \
+    --filter=FILTER_QUERY
+```
 
 Replace the following:
 
-  - CONSTRAINT\_NAME : the name of the organization policy constraint you want to analyze. For a list of constraints, see [Organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) .
+- ` CONSTRAINT_NAME ` : the name of the organization policy constraint you want to analyze. For a list of constraints, see [Organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) .
 
-  - ORGANIZATION\_ID : the ID of your organization resource. For more information about finding your organization ID, see [Creating and managing organizations](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) .
+- ` ORGANIZATION_ID ` : the ID of your organization resource. For more information about finding your organization ID, see [Creating and managing organizations](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) .
 
-  - LIMIT\_POLICIES : the number of result entries you want to view. To see unlimited entries, enter `unlimited` .
+- ` LIMIT_POLICIES ` : the number of result entries you want to view. To see unlimited entries, enter `unlimited` .
 
-  - FILTER\_QUERY : a filter query to see only policies that match your filtering expression. The only available field for filtering is `consolidated_policy.attached_resource` . For example, `consolidated_policy.attached_resource="//cloudresourcemanager.googleapis.com/projects/1234567890"` would only return policies that were attached to the project with the project ID `1234567890` .
+- ` FILTER_QUERY ` : a filter query to see only policies that match your filtering expression. The only available field for filtering is `consolidated_policy.attached_resource` . For example, `consolidated_policy.attached_resource="//cloudresourcemanager.googleapis.com/projects/1234567890"` would only return policies that were attached to the project with the project ID `1234567890` .
 
 The YAML response is similar to the following:
 
 #### Sample YAML response
 
-    ---
-    consolidatedPolicy:
-      appliedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
-      attachedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
-      rules:
-      - enforce: true
-    policyBundle:
-    - appliedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
-      attachedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
-      reset: true
-    - appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
-      rules:
-      - enforce: true
-    ---
-    consolidatedPolicy:
-      appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
-      rules:
-      - enforce: true
-    policyBundle:
-    - appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
-      rules:
-      - enforce: true
+```
+---
+consolidatedPolicy:
+  appliedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
+  attachedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
+  rules:
+  - enforce: true
+policyBundle:
+- appliedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
+  attachedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
+  reset: true
+- appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
+  rules:
+  - enforce: true
+---
+consolidatedPolicy:
+  appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
+  rules:
+  - enforce: true
+policyBundle:
+- appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
+  rules:
+  - enforce: true
+```
 
 ### REST
 
@@ -150,127 +154,133 @@ To get an analysis of how an organization policy constraint is enforced within a
 
 HTTP method and URL:
 
-    GET https://cloudasset.googleapis.com/v1/organizations/ORGANIZATION_ID:analyzeOrgPolicies
+```
+GET https://cloudasset.googleapis.com/v1/organizations/ORGANIZATION_ID:analyzeOrgPolicies
+```
 
 Request JSON body:
 
-    JSON_REQUEST="{
-      'constraint': 'CONSTRAINT_NAME',
-      'filter': 'FILTER_QUERY',
-      'page_size': PAGE_SIZE,
-      'page_token': PAGE_TOKEN
-    }"
+```
+JSON_REQUEST="{
+  'constraint': 'CONSTRAINT_NAME',
+  'filter': 'FILTER_QUERY',
+  'page_size': PAGE_SIZE,
+  'page_token': PAGE_TOKEN
+}"
+```
 
 Replace the following:
 
-  - ORGANIZATION\_ID : the ID of your organization resource. For more information about finding your organization ID, see [Creating and managing organizations](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) .
+- ` ORGANIZATION_ID ` : the ID of your organization resource. For more information about finding your organization ID, see [Creating and managing organizations](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) .
 
-  - CONSTRAINT\_NAME : the name of the organization policy constraint you want to analyze. For a list of constraints, see [Organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) .
+- ` CONSTRAINT_NAME ` : the name of the organization policy constraint you want to analyze. For a list of constraints, see [Organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) .
 
-  - FILTER\_QUERY : a filter query to see only policies that match your filtering expression. The only available field for filtering is `consolidated_policy.attached_resource` . For example, `consolidated_policy.attached_resource="//cloudresourcemanager.googleapis.com/projects/1234567890"` would only return policies that were attached to the project with the project ID `1234567890` .
+- ` FILTER_QUERY ` : a filter query to see only policies that match your filtering expression. The only available field for filtering is `consolidated_policy.attached_resource` . For example, `consolidated_policy.attached_resource="//cloudresourcemanager.googleapis.com/projects/1234567890"` would only return policies that were attached to the project with the project ID `1234567890` .
 
-  - PAGE\_SIZE : the number of result entries per page you want to view. To see unlimited entries, enter `unlimited` . A request made with this flag set returns a `nextPageToken` value if the total number of result entries is greater than the PAGE\_SIZE .
+- ` PAGE_SIZE ` : the number of result entries per page you want to view. To see unlimited entries, enter `unlimited` . A request made with this flag set returns a `nextPageToken` value if the total number of result entries is greater than the ` PAGE_SIZE ` .
 
-  - PAGE\_TOKEN : only to be set on requests after the first request that includes the `page_size` flag. You can use the `nextPageToken` values received from previous responses to return a particular page of results.
+- ` PAGE_TOKEN ` : only to be set on requests after the first request that includes the `page_size` flag. You can use the `nextPageToken` values received from previous responses to return a particular page of results.
 
 The JSON response is similar to the following:
 
 #### Sample JSON response
 
+```
+{
+  "orgPolicyResults": [
     {
-      "orgPolicyResults": [
-        {
-          "consolidatedPolicy": {
-            "attachedResource": "//cloudresourcemanager.googleapis.com/folders/123456789012",
-            "rules": [
-              {
-                "values": {
-                  "allowedValues": [
-                    "C0265whk2"
-                  ]
-                }
-              },
-              {
-                "values": {
-                  "allowedValues": [
-                    "C03kd36xr"
-                  ]
-                }
-              }
-            ],
-            "appliedResource": "//cloudresourcemanager.googleapis.com/folders/123456789012"
-          },
-          "policyBundle": [
-            {
-              "attachedResource": "//cloudresourcemanager.googleapis.com/folders/123456789012",
-              "rules": [
-                {
-                  "values": {
-                    "allowedValues": [
-                      "C03kd36xr"
-                    ]
-                  }
-                }
-              ],
-              "inheritFromParent": true,
-              "appliedResource": "//cloudresourcemanager.googleapis.com/folders/123456789012"
-            },
-            {
-              "attachedResource": "//cloudresourcemanager.googleapis.com/folders/234567890123",
-              "rules": [
-                {
-                  "values": {
-                    "allowedValues": [
-                      "C0265whk2"
-                    ]
-                  }
-                }
-              ],
-              "appliedResource": "//cloudresourcemanager.googleapis.com/folders/234567890123"
+      "consolidatedPolicy": {
+        "attachedResource": "//cloudresourcemanager.googleapis.com/folders/123456789012",
+        "rules": [
+          {
+            "values": {
+              "allowedValues": [
+                "C0265whk2"
+              ]
             }
-          ]
+          },
+          {
+            "values": {
+              "allowedValues": [
+                "C03kd36xr"
+              ]
+            }
+          }
+        ],
+        "appliedResource": "//cloudresourcemanager.googleapis.com/folders/123456789012"
+      },
+      "policyBundle": [
+        {
+          "attachedResource": "//cloudresourcemanager.googleapis.com/folders/123456789012",
+          "rules": [
+            {
+              "values": {
+                "allowedValues": [
+                  "C03kd36xr"
+                ]
+              }
+            }
+          ],
+          "inheritFromParent": true,
+          "appliedResource": "//cloudresourcemanager.googleapis.com/folders/123456789012"
         },
         {
-          "consolidatedPolicy": {
-            "attachedResource": "//cloudresourcemanager.googleapis.com/folders/234567890123",
-            "rules": [
-              {
-                "values": {
-                  "allowedValues": [
-                    "C0265whk2"
-                  ]
-                }
-              }
-            ],
-            "appliedResource": "//cloudresourcemanager.googleapis.com/folders/234567890123"
-          },
-          "policyBundle": [
+          "attachedResource": "//cloudresourcemanager.googleapis.com/folders/234567890123",
+          "rules": [
             {
-              "attachedResource": "//cloudresourcemanager.googleapis.com/folders/234567890123",
-              "rules": [
-                {
-                  "values": {
-                    "allowedValues": [
-                      "C0265whk2"
-                    ]
-                  }
-                }
-              ],
-              "appliedResource": "//cloudresourcemanager.googleapis.com/folders/234567890123"
+              "values": {
+                "allowedValues": [
+                  "C0265whk2"
+                ]
+              }
             }
-          ]
+          ],
+          "appliedResource": "//cloudresourcemanager.googleapis.com/folders/234567890123"
         }
       ]
-      "constraint": {
-        "googleDefinedConstraint": {
-          "name": "constraints/iam.allowedPolicyMemberDomains",
-          "displayName": "Domain restricted sharing",
-          "description": "This list constraint defines one or more Cloud Identity or Google Workspace customer IDs whose principals can be added to IAM policies. \u003cbr\u003eBy default, all user identities are allowed to be added to IAM policies. Only allowed values can be defined in this constraint, denied values are not supported. \u003cbr\u003eIf this constraint is active, only principals that belong to the allowed customer IDs can be added to IAM policies.",
-          "constraintDefault": "ALLOW",
-          "listConstraint": {}
+    },
+    {
+      "consolidatedPolicy": {
+        "attachedResource": "//cloudresourcemanager.googleapis.com/folders/234567890123",
+        "rules": [
+          {
+            "values": {
+              "allowedValues": [
+                "C0265whk2"
+              ]
+            }
+          }
+        ],
+        "appliedResource": "//cloudresourcemanager.googleapis.com/folders/234567890123"
+      },
+      "policyBundle": [
+        {
+          "attachedResource": "//cloudresourcemanager.googleapis.com/folders/234567890123",
+          "rules": [
+            {
+              "values": {
+                "allowedValues": [
+                  "C0265whk2"
+                ]
+              }
+            }
+          ],
+          "appliedResource": "//cloudresourcemanager.googleapis.com/folders/234567890123"
         }
-      }
+      ]
     }
+  ]
+  "constraint": {
+    "googleDefinedConstraint": {
+      "name": "constraints/iam.allowedPolicyMemberDomains",
+      "displayName": "Domain restricted sharing",
+      "description": "This list constraint defines one or more Cloud Identity or Google Workspace customer IDs whose principals can be added to IAM policies. \u003cbr\u003eBy default, all user identities are allowed to be added to IAM policies. Only allowed values can be defined in this constraint, denied values are not supported. \u003cbr\u003eIf this constraint is active, only principals that belong to the allowed customer IDs can be added to IAM policies.",
+      "constraintDefault": "ALLOW",
+      "listConstraint": {}
+    }
+  }
+}
+```
 
 ## Analyze containers
 
@@ -278,23 +288,23 @@ A container in this context is a project, folder, or organization resource. You 
 
 For each container that is detected in the query's scope, Policy Analyzer returns a result entry. A result entry contains the following fields:
 
-  - `consolidatedPolicy` : the container to which the organization policy is attached, and the effective policy enforcement on that container with respect to [hierarchy evaluation rules](https://docs.cloud.google.com/resource-manager/docs/organization-policy/understanding-hierarchy) .
+- `consolidatedPolicy` : the container to which the organization policy is attached, and the effective policy enforcement on that container with respect to [hierarchy evaluation rules](https://docs.cloud.google.com/resource-manager/docs/organization-policy/understanding-hierarchy) .
 
-  - `conditionEvaluation` : if the included conditions result in enforcement of the organization policy, `evaluationValue` is `TRUE` . If the conditions result in the organization policy not being enforced, `evaluationValue` is `FALSE` . If the condition is not supported by one or more of the resources on which the organization policy is enforced, the condition itself is returned.
+- `conditionEvaluation` : if the included conditions result in enforcement of the organization policy, `evaluationValue` is `TRUE` . If the conditions result in the organization policy not being enforced, `evaluationValue` is `FALSE` . If the condition is not supported by one or more of the resources on which the organization policy is enforced, the condition itself is returned.
 
-  - `effectiveTags` : all tags that are directly attached to or inherited by the container and the container's parents in the hierarchy.
+- `effectiveTags` : all tags that are directly attached to or inherited by the container and the container's parents in the hierarchy.
 
-  - `folders` : the ID of any folder resources that contain the container to which the organization policy is attached.
+- `folders` : the ID of any folder resources that contain the container to which the organization policy is attached.
 
-  - `fullResourceName` : the full name of the container.
+- `fullResourceName` : the full name of the container.
 
-  - `organization` : the ID of the organization resource that is the ancestor of the container to which the organization policy is attached.
+- `organization` : the ID of the organization resource that is the ancestor of the container to which the organization policy is attached.
 
-  - `parent` : the full resource name of the parent of this container.
+- `parent` : the full resource name of the parent of this container.
 
-  - `policyBundle` : the organization policy configured directly on the container, if one exists, and the organization policies defined on the ancestors of the container in the resource hierarchy.
+- `policyBundle` : the organization policy configured directly on the container, if one exists, and the organization policies defined on the ancestors of the container in the resource hierarchy.
 
-  - `project` : the ID of the container to which the organization policy is attached, if it is a project resource.
+- `project` : the ID of the container to which the organization policy is attached, if it is a project resource.
 
 If your resources are protected by a VPC Service Controls service perimeter, you must create an [egress rule](https://docs.cloud.google.com/vpc-service-controls/docs/ingress-egress-rules) in the perimeter of your organization resource that allows access to the `cloudasset.googleapis.com` service. Because method-level restrictions aren't supported for Cloud Asset API, you must allow all Cloud Asset API methods by specifying `method: *` in the egress rule. If you don't have an egress rule, the request fails with a `NETWORK_NOT_IN_SAME_SERVICE_PERIMETER` error. For more information, see [Debugging requests blocked by VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/troubleshooting#debugging) .
 
@@ -320,75 +330,79 @@ If your resources are protected by a VPC Service Controls service perimeter, you
 
 To get an analysis of how an organization policy constraint is enforced on containers within an organization, use the [`gcloud asset analyze-org-policy-governed-containers` command](https://docs.cloud.google.com/sdk/gcloud/reference/asset/analyze-org-policy-governed-containers) :
 
-    gcloud asset analyze-org-policy-governed-containers \
-        --constraint=CONSTRAINT_NAME  \
-        --scope=organizations/ORGANIZATION_ID \
-        --limit=LIMIT_CONTAINERS \
-        --filter=FILTER_QUERY
+```
+gcloud asset analyze-org-policy-governed-containers \
+    --constraint=CONSTRAINT_NAME  \
+    --scope=organizations/ORGANIZATION_ID \
+    --limit=LIMIT_CONTAINERS \
+    --filter=FILTER_QUERY
+```
 
 Replace the following:
 
-  - CONSTRAINT\_NAME : the name of the organization policy constraint you want to analyze. For a list of constraints, see [Organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) .
+- ` CONSTRAINT_NAME ` : the name of the organization policy constraint you want to analyze. For a list of constraints, see [Organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) .
 
-  - ORGANIZATION\_ID : the ID of your organization resource. For more information about finding your organization ID, see [Creating and managing organizations](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) .
+- ` ORGANIZATION_ID ` : the ID of your organization resource. For more information about finding your organization ID, see [Creating and managing organizations](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) .
 
-  - LIMIT\_CONTAINERS : the number of result entries you want to view. To see unlimited entries, enter `unlimited` .
+- ` LIMIT_CONTAINERS ` : the number of result entries you want to view. To see unlimited entries, enter `unlimited` .
 
-  - FILTER\_QUERY : a filter query to see only containers that match your filtering expression. The only available field for filtering is `parent` . For example, `parent="//cloudresourcemanager.googleapis.com/organizations/012345678901"` would only return containers that were children of the organization with the organization ID `012345678901` .
+- ` FILTER_QUERY ` : a filter query to see only containers that match your filtering expression. The only available field for filtering is `parent` . For example, `parent="//cloudresourcemanager.googleapis.com/organizations/012345678901"` would only return containers that were children of the organization with the organization ID `012345678901` .
 
 The YAML response is similar to the following:
 
 #### Sample YAML response
 
-    ---
-    consolidatedPolicy:
-      appliedResource: //cloudresourcemanager.googleapis.com/projects/donghe-project1
-      attachedResource: //cloudresourcemanager.googleapis.com/projects/donghe-project1
-      rules:
-      - values:
-          allowedValues:
-          - projects/donghe-project1/zones/us-central1-a/instances/instance-1
-    fullResourceName: //cloudresourcemanager.googleapis.com/projects/donghe-project1
-    parent: //cloudresourcemanager.googleapis.com/folders/86513245445
-    policyBundle:
-    - appliedResource: //cloudresourcemanager.googleapis.com/projects/donghe-project1
-      attachedResource: //cloudresourcemanager.googleapis.com/projects/donghe-project1
-      inheritFromParent: true
-      rules:
-      - values:
-          allowedValues:
-          - projects/donghe-project1/zones/us-central1-a/instances/instance-1
-    ---
-    consolidatedPolicy:
-      appliedResource: //cloudresourcemanager.googleapis.com/projects/jeffreyai-prj01-on-ipa1
-      attachedResource: //cloudresourcemanager.googleapis.com/projects/jeffreyai-prj01-on-ipa1
-      rules:
-      - denyAll: true
-    fullResourceName: //cloudresourcemanager.googleapis.com/projects/jeffreyai-prj01-on-ipa1
-    parent: //cloudresourcemanager.googleapis.com/organizations/474566717491
-    policyBundle:
-    - appliedResource: //cloudresourcemanager.googleapis.com/projects/jeffreyai-prj01-on-ipa1
-      attachedResource: //cloudresourcemanager.googleapis.com/projects/jeffreyai-prj01-on-ipa1
-      inheritFromParent: true
-      rules:
-      - denyAll: true
-    ---
-    consolidatedPolicy:
-      appliedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
-      attachedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
-      rules:
-      - values:
-          allowedValues:
-          - projects/opa-test-project-1-364621/zones/us-central1-a/instances/instance-1
-    fullResourceName: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
-    parent: //cloudresourcemanager.googleapis.com/folders/666681422980
-    policyBundle:
-    - appliedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
-      attachedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
-      rules:
-      - values:
-          allowedValues:
-          - projects/opa-test-project-1-364621/zones/us-central1-a/instances/instance-1
+```
+---
+consolidatedPolicy:
+  appliedResource: //cloudresourcemanager.googleapis.com/projects/donghe-project1
+  attachedResource: //cloudresourcemanager.googleapis.com/projects/donghe-project1
+  rules:
+  - values:
+      allowedValues:
+      - projects/donghe-project1/zones/us-central1-a/instances/instance-1
+fullResourceName: //cloudresourcemanager.googleapis.com/projects/donghe-project1
+parent: //cloudresourcemanager.googleapis.com/folders/86513245445
+policyBundle:
+- appliedResource: //cloudresourcemanager.googleapis.com/projects/donghe-project1
+  attachedResource: //cloudresourcemanager.googleapis.com/projects/donghe-project1
+  inheritFromParent: true
+  rules:
+  - values:
+      allowedValues:
+      - projects/donghe-project1/zones/us-central1-a/instances/instance-1
+---
+consolidatedPolicy:
+  appliedResource: //cloudresourcemanager.googleapis.com/projects/jeffreyai-prj01-on-ipa1
+  attachedResource: //cloudresourcemanager.googleapis.com/projects/jeffreyai-prj01-on-ipa1
+  rules:
+  - denyAll: true
+fullResourceName: //cloudresourcemanager.googleapis.com/projects/jeffreyai-prj01-on-ipa1
+parent: //cloudresourcemanager.googleapis.com/organizations/474566717491
+policyBundle:
+- appliedResource: //cloudresourcemanager.googleapis.com/projects/jeffreyai-prj01-on-ipa1
+  attachedResource: //cloudresourcemanager.googleapis.com/projects/jeffreyai-prj01-on-ipa1
+  inheritFromParent: true
+  rules:
+  - denyAll: true
+---
+consolidatedPolicy:
+  appliedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
+  attachedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
+  rules:
+  - values:
+      allowedValues:
+      - projects/opa-test-project-1-364621/zones/us-central1-a/instances/instance-1
+fullResourceName: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
+parent: //cloudresourcemanager.googleapis.com/folders/666681422980
+policyBundle:
+- appliedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
+  attachedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-1-364621
+  rules:
+  - values:
+      allowedValues:
+      - projects/opa-test-project-1-364621/zones/us-central1-a/instances/instance-1
+```
 
 ### REST
 
@@ -396,158 +410,164 @@ To get an analysis of how an organization policy constraint is enforced on conta
 
 HTTP method and URL:
 
-    GET https://cloudasset.googleapis.com/v1/organizations/ORGANIZATION_ID:analyzeOrgPolicyGovernedContainers
+```
+GET https://cloudasset.googleapis.com/v1/organizations/ORGANIZATION_ID:analyzeOrgPolicyGovernedContainers
+```
 
 Request JSON body:
 
-    JSON_REQUEST="{
-      'constraint': 'CONSTRAINT_NAME',
-      'filter': '"FILTER_QUERY"',
-      'page_size': PAGE_SIZE,
-      'page_token': PAGE_TOKEN
-    }"
+```
+JSON_REQUEST="{
+  'constraint': 'CONSTRAINT_NAME',
+  'filter': '"FILTER_QUERY"',
+  'page_size': PAGE_SIZE,
+  'page_token': PAGE_TOKEN
+}"
+```
 
 Replace the following:
 
-  - ORGANIZATION\_ID : the ID of your organization resource. For more information about finding your organization ID, see [Creating and managing organizations](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) .
+- ` ORGANIZATION_ID ` : the ID of your organization resource. For more information about finding your organization ID, see [Creating and managing organizations](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) .
 
-  - CONSTRAINT\_NAME : the name of the organization policy constraint you want to analyze. For a list of constraints, see [Organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) .
+- ` CONSTRAINT_NAME ` : the name of the organization policy constraint you want to analyze. For a list of constraints, see [Organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) .
 
-  - FILTER\_QUERY : a filter query to see only containers that match your filtering expression. The only available field for filtering is `parent` . For example, `parent="//cloudresourcemanager.googleapis.com/organizations/012345678901"` would only return containers that were children of the organization with the organization ID `012345678901` .
+- ` FILTER_QUERY ` : a filter query to see only containers that match your filtering expression. The only available field for filtering is `parent` . For example, `parent="//cloudresourcemanager.googleapis.com/organizations/012345678901"` would only return containers that were children of the organization with the organization ID `012345678901` .
 
-  - PAGE\_SIZE : the number of pages of result entries you want to view. To see unlimited entries, enter `unlimited` . A request made with this flag set returns a `nextPageToken` value if the total number of result entries is greater than the PAGE\_SIZE .
+- ` PAGE_SIZE ` : the number of pages of result entries you want to view. To see unlimited entries, enter `unlimited` . A request made with this flag set returns a `nextPageToken` value if the total number of result entries is greater than the ` PAGE_SIZE ` .
 
-  - PAGE\_TOKEN : only to be set on requests after the first request that includes the `page_size` flag. You can use the `nextPageToken` values received from previous responses to return a particular page of results.
+- ` PAGE_TOKEN ` : only to be set on requests after the first request that includes the `page_size` flag. You can use the `nextPageToken` values received from previous responses to return a particular page of results.
 
 The JSON response is similar to the following:
 
 #### Sample JSON response
 
+```
+{
+  "governedContainers": [
     {
-      "governedContainers": [
+      "fullResourceName": "//cloudresourcemanager.googleapis.com/projects/opa-test-project-2",
+      "parent": "//cloudresourcemanager.googleapis.com/folders/513502730678",
+      "consolidatedPolicy": {
+        "attachedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678",
+        "rules": [
+          {
+            "enforce": false
+          }
+        ],
+        "appliedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678"
+      },
+      "policyBundle": [
         {
-          "fullResourceName": "//cloudresourcemanager.googleapis.com/projects/opa-test-project-2",
-          "parent": "//cloudresourcemanager.googleapis.com/folders/513502730678",
-          "consolidatedPolicy": {
-            "attachedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678",
-            "rules": [
-              {
-                "enforce": false
-              }
-            ],
-            "appliedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678"
-          },
-          "policyBundle": [
+          "attachedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678",
+          "rules": [
             {
-              "attachedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678",
-              "rules": [
-                {
-                  "enforce": false
-                }
-              ],
-              "appliedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678"
-            },
-            {
-              "attachedResource": "//cloudresourcemanager.googleapis.com/folders/666681422980",
-              "rules": [
-                {
-                  "enforce": true
-                }
-              ],
-              "appliedResource": "//cloudresourcemanager.googleapis.com/folders/666681422980"
+              "enforce": false
             }
-          ]
+          ],
+          "appliedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678"
         },
         {
-          "fullResourceName": "//cloudresourcemanager.googleapis.com/projects/opa-test-project-1",
-          "parent": "//cloudresourcemanager.googleapis.com/folders/513502730678",
-          "consolidatedPolicy": {
-            "attachedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678",
-            "rules": [
-              {
-                "enforce": false
-              }
-            ],
-            "appliedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678"
-          },
-          "policyBundle": [
+          "attachedResource": "//cloudresourcemanager.googleapis.com/folders/666681422980",
+          "rules": [
             {
-              "attachedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678",
-              "rules": [
-                {
-                  "enforce": false
-                }
-              ],
-              "appliedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678"
-            },
-            {
-              "attachedResource": "//cloudresourcemanager.googleapis.com/folders/666681422980",
-              "rules": [
-                {
-                  "enforce": true
-                }
-              ],
-              "appliedResource": "//cloudresourcemanager.googleapis.com/folders/666681422980"
+              "enforce": true
             }
-          ]
+          ],
+          "appliedResource": "//cloudresourcemanager.googleapis.com/folders/666681422980"
         }
       ]
-      "constraint": {
-        "googleDefinedConstraint": {
-          "name": "constraints/compute.requireOsLogin",
-          "displayName": "Require OS Login",
-          "description": "This boolean constraint, when set to \u003ccode\u003etrue\u003c/code\u003e, enables OS Login on all newly created Projects. All VM instances created in new projects will have OS Login enabled. On new and existing projects, this constraint prevents metadata updates that disable OS Login at the project or instance level. \u003cbr\u003eBy default, the OS Login feature is disabled on Compute Engine projects.\u003cbr\u003eGKE instances in private clusters running node pool versions 1.20.5-gke.2000 and later support OS Login. GKE instances in public clusters do not currently support OS Login. If this constraint is applied to a Project running public clusters, GKE instances running in that Project may not function properly.",
-          "constraintDefault": "ALLOW",
-          "booleanConstraint": {}
+    },
+    {
+      "fullResourceName": "//cloudresourcemanager.googleapis.com/projects/opa-test-project-1",
+      "parent": "//cloudresourcemanager.googleapis.com/folders/513502730678",
+      "consolidatedPolicy": {
+        "attachedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678",
+        "rules": [
+          {
+            "enforce": false
+          }
+        ],
+        "appliedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678"
+      },
+      "policyBundle": [
+        {
+          "attachedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678",
+          "rules": [
+            {
+              "enforce": false
+            }
+          ],
+          "appliedResource": "//cloudresourcemanager.googleapis.com/folders/513502730678"
+        },
+        {
+          "attachedResource": "//cloudresourcemanager.googleapis.com/folders/666681422980",
+          "rules": [
+            {
+              "enforce": true
+            }
+          ],
+          "appliedResource": "//cloudresourcemanager.googleapis.com/folders/666681422980"
         }
-      }
+      ]
     }
+  ]
+  "constraint": {
+    "googleDefinedConstraint": {
+      "name": "constraints/compute.requireOsLogin",
+      "displayName": "Require OS Login",
+      "description": "This boolean constraint, when set to \u003ccode\u003etrue\u003c/code\u003e, enables OS Login on all newly created Projects. All VM instances created in new projects will have OS Login enabled. On new and existing projects, this constraint prevents metadata updates that disable OS Login at the project or instance level. \u003cbr\u003eBy default, the OS Login feature is disabled on Compute Engine projects.\u003cbr\u003eGKE instances in private clusters running node pool versions 1.20.5-gke.2000 and later support OS Login. GKE instances in public clusters do not currently support OS Login. If this constraint is applied to a Project running public clusters, GKE instances running in that Project may not function properly.",
+      "constraintDefault": "ALLOW",
+      "booleanConstraint": {}
+    }
+  }
+}
+```
 
 ## Analyze assets
 
 An asset in this context is a Google Cloud resource or Identity and Access Management (IAM) allow policy. You can use Policy Analyzer to return a list of all assets that have organization policies with a particular constraint enforced on them. Custom constraints, managed constraints, and the following predefined constraints are supported:
 
-  - `constraints/ainotebooks.accessMode`
-  - `constraints/ainotebooks.disableFileDownloads`
-  - `constraints/ainotebooks.disableRootAccess`
-  - `constraints/ainotebooks.disableTerminal`
-  - `constraints/ainotebooks.environmentOptions`
-  - `constraints/ainotebooks.requireAutoUpgradeSchedule`
-  - `constraints/ainotebooks.restrictVpcNetworks`
-  - `constraints/compute.disableGuestAttributesAccess`
-  - `constraints/compute.disableInstanceDataAccessApis`
-  - `constraints/compute.disableNestedVirtualization`
-  - `constraints/compute.disableSerialPortAccess`
-  - `constraints/compute.disableSerialPortLogging`
-  - `constraints/compute.disableVpcExternalIpv6`
-  - `constraints/compute.requireOsLogin`
-  - `constraints/compute.requireShieldedVm`
-  - `constraints/compute.restrictLoadBalancerCreationForTypes`
-  - `constraints/compute.restrictProtocolForwardingCreationForTypes`
-  - `constraints/compute.restrictXpnProjectLienRemoval`
-  - `constraints/compute.setNewProjectDefaultToZonalDNSOnly`
-  - `constraints/compute.skipDefaultNetworkCreation`
-  - `constraints/compute.trustedImageProjects`
-  - `constraints/compute.vmCanIpForward`
-  - `constraints/compute.vmExternalIpAccess`
-  - `constraints/gcp.detailedAuditLoggingMode`
-  - `constraints/gcp.resourceLocations`
-  - `constraints/iam.allowedPolicyMemberDomains`
-  - `constraints/iam.automaticIamGrantsForDefaultServiceAccounts`
-  - `constraints/iam.disableServiceAccountCreation`
-  - `constraints/iam.disableServiceAccountKeyCreation`
-  - `constraints/iam.disableServiceAccountKeyUpload`
-  - `constraints/iam.restrictCrossProjectServiceAccountLienRemoval`
-  - `constraints/iam.serviceAccountKeyExpiryHours`
-  - `constraints/resourcemanager.accessBoundaries`
-  - `constraints/resourcemanager.allowedExportDestinations`
-  - `constraints/sql.restrictAuthorizedNetworks`
-  - `constraints/sql.restrictNoncompliantDiagnosticDataAccess`
-  - `constraints/sql.restrictNoncompliantResourceCreation`
-  - `constraints/sql.restrictPublicIp`
-  - `constraints/storage.publicAccessPrevention`
-  - `constraints/storage.restrictAuthTypes`
-  - `constraints/storage.uniformBucketLevelAccess`
+- `constraints/ainotebooks.accessMode`
+- `constraints/ainotebooks.disableFileDownloads`
+- `constraints/ainotebooks.disableRootAccess`
+- `constraints/ainotebooks.disableTerminal`
+- `constraints/ainotebooks.environmentOptions`
+- `constraints/ainotebooks.requireAutoUpgradeSchedule`
+- `constraints/ainotebooks.restrictVpcNetworks`
+- `constraints/compute.disableGuestAttributesAccess`
+- `constraints/compute.disableInstanceDataAccessApis`
+- `constraints/compute.disableNestedVirtualization`
+- `constraints/compute.disableSerialPortAccess`
+- `constraints/compute.disableSerialPortLogging`
+- `constraints/compute.disableVpcExternalIpv6`
+- `constraints/compute.requireOsLogin`
+- `constraints/compute.requireShieldedVm`
+- `constraints/compute.restrictLoadBalancerCreationForTypes`
+- `constraints/compute.restrictProtocolForwardingCreationForTypes`
+- `constraints/compute.restrictXpnProjectLienRemoval`
+- `constraints/compute.setNewProjectDefaultToZonalDNSOnly`
+- `constraints/compute.skipDefaultNetworkCreation`
+- `constraints/compute.trustedImageProjects`
+- `constraints/compute.vmCanIpForward`
+- `constraints/compute.vmExternalIpAccess`
+- `constraints/gcp.detailedAuditLoggingMode`
+- `constraints/gcp.resourceLocations`
+- `constraints/iam.allowedPolicyMemberDomains`
+- `constraints/iam.automaticIamGrantsForDefaultServiceAccounts`
+- `constraints/iam.disableServiceAccountCreation`
+- `constraints/iam.disableServiceAccountKeyCreation`
+- `constraints/iam.disableServiceAccountKeyUpload`
+- `constraints/iam.restrictCrossProjectServiceAccountLienRemoval`
+- `constraints/iam.serviceAccountKeyExpiryHours`
+- `constraints/resourcemanager.accessBoundaries`
+- `constraints/resourcemanager.allowedExportDestinations`
+- `constraints/sql.restrictAuthorizedNetworks`
+- `constraints/sql.restrictNoncompliantDiagnosticDataAccess`
+- `constraints/sql.restrictNoncompliantResourceCreation`
+- `constraints/sql.restrictPublicIp`
+- `constraints/storage.publicAccessPrevention`
+- `constraints/storage.restrictAuthTypes`
+- `constraints/storage.uniformBucketLevelAccess`
 
 Policy Analyzer returns the full name of each asset, the asset's parent in the hierarchy, and any ancestor project, folder, and organization resources above the asset in the hierarchy.
 
@@ -555,43 +575,43 @@ For each asset that is detected in the query's scope, Policy Analyzer returns a 
 
 A result entry for a resource contains the following fields:
 
-  - `consolidatedPolicy` : the resource to which the organization policy is attached, and the effective policy enforcement on that resource with respect to [hierarchy evaluation rules](https://docs.cloud.google.com/resource-manager/docs/organization-policy/understanding-hierarchy) .
+- `consolidatedPolicy` : the resource to which the organization policy is attached, and the effective policy enforcement on that resource with respect to [hierarchy evaluation rules](https://docs.cloud.google.com/resource-manager/docs/organization-policy/understanding-hierarchy) .
 
-  - `conditionEvaluation` : if the included conditions result in enforcement of the organization policy, `evaluationValue` is `TRUE` . If the conditions result in the organization policy not being enforced, `evaluationValue` is `FALSE` . If the condition is not supported by one or more of the resources on which the organization policy is enforced, the condition itself is returned.
+- `conditionEvaluation` : if the included conditions result in enforcement of the organization policy, `evaluationValue` is `TRUE` . If the conditions result in the organization policy not being enforced, `evaluationValue` is `FALSE` . If the condition is not supported by one or more of the resources on which the organization policy is enforced, the condition itself is returned.
 
-  - `assetType` : the resource type of the asset.
+- `assetType` : the resource type of the asset.
 
-  - `effectiveTags` : all tags that are directly attached to or inherited by the resource to which the organization policy is attached and the resource's parents in the hierarchy.
+- `effectiveTags` : all tags that are directly attached to or inherited by the resource to which the organization policy is attached and the resource's parents in the hierarchy.
 
-  - `folders` : the ID of any folder resources that contain the resource to which the organization policy is attached.
+- `folders` : the ID of any folder resources that contain the resource to which the organization policy is attached.
 
-  - `fullResourceName` : the full resource name of the resource.
+- `fullResourceName` : the full resource name of the resource.
 
-  - `organization` : the relative resource name of the organization that contains the resource.
+- `organization` : the relative resource name of the organization that contains the resource.
 
-  - `parent` : the full resource name of the parent of the resource.
+- `parent` : the full resource name of the parent of the resource.
 
-  - `project` : the ID of the project that contains the resource.
+- `project` : the ID of the project that contains the resource.
 
-  - `policyBundle` : the full configured organization policy attached to the above resource, and the organization policies defined on its ancestors in the resource hierarchy.
+- `policyBundle` : the full configured organization policy attached to the above resource, and the organization policies defined on its ancestors in the resource hierarchy.
 
 A result entry for an allow policy contains the following fields:
 
-  - `consolidatedPolicy` : the resource to which the organization policy is attached, and the effective policy enforcement on that resource with respect to [hierarchy evaluation rules](https://docs.cloud.google.com/resource-manager/docs/organization-policy/understanding-hierarchy) .
+- `consolidatedPolicy` : the resource to which the organization policy is attached, and the effective policy enforcement on that resource with respect to [hierarchy evaluation rules](https://docs.cloud.google.com/resource-manager/docs/organization-policy/understanding-hierarchy) .
 
-  - `assetType` : the resource type of the resource to which the allow policy is attached.
+- `assetType` : the resource type of the resource to which the allow policy is attached.
 
-  - `attachedResource` : the full name of the resource to which the allow policy is attached.
+- `attachedResource` : the full name of the resource to which the allow policy is attached.
 
-  - `folders` : the relative resource name of any folders that contain the allow policy.
+- `folders` : the relative resource name of any folders that contain the allow policy.
 
-  - `organization` : the relative resource name of the organization that contains the allow policy.
+- `organization` : the relative resource name of the organization that contains the allow policy.
 
-  - `policy` : the allow policy.
+- `policy` : the allow policy.
 
-  - `project` : the relative resource name of the project that contains the allow policy.
+- `project` : the relative resource name of the project that contains the allow policy.
 
-  - `policyBundle` : the full configured organization policy attached to the above resource, and the organization policies defined on its ancestors in the resource hierarchy.
+- `policyBundle` : the full configured organization policy attached to the above resource, and the organization policies defined on its ancestors in the resource hierarchy.
 
 If your resources are protected by a VPC Service Controls service perimeter, you must create an [egress rule](https://docs.cloud.google.com/vpc-service-controls/docs/ingress-egress-rules) in the perimeter of your organization resource that allows access to the `cloudasset.googleapis.com` service. Because method-level restrictions aren't supported for Cloud Asset API, you must allow all Cloud Asset API methods by specifying `method: *` in the egress rule. If you don't have an egress rule, the request fails with a `NETWORK_NOT_IN_SAME_SERVICE_PERIMETER` error. For more information, see [Debugging requests blocked by VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/troubleshooting#debugging) .
 
@@ -617,96 +637,100 @@ If your resources are protected by a VPC Service Controls service perimeter, you
 
 To get an analysis of how an organization policy constraint is enforced on assets within an organization, use the [`gcloud asset analyze-org-policy-governed-assets` command](https://docs.cloud.google.com/sdk/gcloud/reference/asset/analyze-org-policy-governed-assets) :
 
-    gcloud asset analyze-org-policy-governed-assets \
-        --constraint=CONSTRAINT_NAME  \
-        --scope=organizations/ORGANIZATION_ID \
-        --limit=LIMIT_ASSETS \
-        --filter=FILTER_QUERY
+```
+gcloud asset analyze-org-policy-governed-assets \
+    --constraint=CONSTRAINT_NAME  \
+    --scope=organizations/ORGANIZATION_ID \
+    --limit=LIMIT_ASSETS \
+    --filter=FILTER_QUERY
+```
 
 Replace the following:
 
-  - CONSTRAINT\_NAME : the name of the organization policy constraint you want to analyze. For a list of constraints, see [Organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) .
+- ` CONSTRAINT_NAME ` : the name of the organization policy constraint you want to analyze. For a list of constraints, see [Organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) .
 
-  - ORGANIZATION\_ID : the ID of your organization resource. For more information about finding your organization ID, see [Creating and managing organizations](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) .
+- ` ORGANIZATION_ID ` : the ID of your organization resource. For more information about finding your organization ID, see [Creating and managing organizations](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) .
 
-  - LIMIT\_ASSETS : the number of result entries you want to view. To see unlimited entries, enter `unlimited` .
+- ` LIMIT_ASSETS ` : the number of result entries you want to view. To see unlimited entries, enter `unlimited` .
 
-  - FILTER\_QUERY : a filter query to see only assets that match your filtering expression. The available fields for filtering are `governed_resource.folders` , `governed_resource.project` , `governed_iam_policy.folders` , and `governed_iam_policy.project` . For example, `governed_resource.project="projects/1234567890"` would only return assets that were attached to the project with the project ID `1234567890` .
+- ` FILTER_QUERY ` : a filter query to see only assets that match your filtering expression. The available fields for filtering are `governed_resource.folders` , `governed_resource.project` , `governed_iam_policy.folders` , and `governed_iam_policy.project` . For example, `governed_resource.project="projects/1234567890"` would only return assets that were attached to the project with the project ID `1234567890` .
 
 The YAML response is similar to the following:
 
 #### Sample YAML response
 
-    ---
-    consolidatedPolicy:
-      appliedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-2
-      attachedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-2
-      rules:
-      - enforce: false
-    governedResource:
-      folders:
-      - folders/513502730678
-      - folders/666681422980
-      fullResourceName: //container.googleapis.com/projects/opa-test-project-2/zones/us-central1-c/clusters/opa-test-project-2-cluster-1/nodePools/default-pool
-      organization: organizations/474566717491
-      parent: //container.googleapis.com/projects/opa-test-project-2/zones/us-central1-c/clusters/opa-test-project-2-cluster-1
-      project: projects/892625391619
-    policyBundle:
-    - appliedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-2
-      attachedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-2
-      reset: true
-    - appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
-      attachedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
-      rules:
-      - enforce: true
-    ---
-    consolidatedPolicy:
-      appliedResource: //cloudresourcemanager.googleapis.com/projects/project2-244918
-      attachedResource: //cloudresourcemanager.googleapis.com/projects/project2-244918
-      rules:
-      - enforce: false
-    governedResource:
-      folders:
-      - folders/800636178739
-      - folders/408342778736
-      fullResourceName: //container.googleapis.com/projects/project2-244918/zones/us-central1-c/clusters/cluster-1/nodePools/default-pool
-      organization: organizations/474566717491
-      parent: //container.googleapis.com/projects/project2-244918/zones/us-central1-c/clusters/cluster-1
-      project: projects/761097189269
-    policyBundle:
-    - appliedResource: //cloudresourcemanager.googleapis.com/projects/project2-244918
-      attachedResource: //cloudresourcemanager.googleapis.com/projects/project2-244918
-      rules:
-      - enforce: false
-    - appliedResource: //cloudresourcemanager.googleapis.com/folders/408342778736
-      attachedResource: //cloudresourcemanager.googleapis.com/folders/408342778736
-      rules:
-      - condition:
-          description: cond-desc1
-          expression: resource.matchTag("474566717491/env", "prod")
-          title: cond-title1
-        enforce: false
-      - enforce: true
-    - appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
-      attachedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
-      rules:
-      - enforce: true
-    ---
-    consolidatedPolicy:
-      appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
-      attachedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
-      rules:
-      - enforce: true
-    governedResource:
-      fullResourceName: //container.googleapis.com/projects/probe-per-rt-project/zones/us-west1-a/clusters/test-cluster-for-backup/nodePools/default-pool
-      organization: organizations/474566717491
-      parent: //container.googleapis.com/projects/probe-per-rt-project/zones/us-west1-a/clusters/test-cluster-for-backup
-      project: projects/896190383908
-    policyBundle:
-    - appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
-      attachedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
-      rules:
-      - enforce: true
+```
+---
+consolidatedPolicy:
+  appliedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-2
+  attachedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-2
+  rules:
+  - enforce: false
+governedResource:
+  folders:
+  - folders/513502730678
+  - folders/666681422980
+  fullResourceName: //container.googleapis.com/projects/opa-test-project-2/zones/us-central1-c/clusters/opa-test-project-2-cluster-1/nodePools/default-pool
+  organization: organizations/474566717491
+  parent: //container.googleapis.com/projects/opa-test-project-2/zones/us-central1-c/clusters/opa-test-project-2-cluster-1
+  project: projects/892625391619
+policyBundle:
+- appliedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-2
+  attachedResource: //cloudresourcemanager.googleapis.com/projects/opa-test-project-2
+  reset: true
+- appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
+  attachedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
+  rules:
+  - enforce: true
+---
+consolidatedPolicy:
+  appliedResource: //cloudresourcemanager.googleapis.com/projects/project2-244918
+  attachedResource: //cloudresourcemanager.googleapis.com/projects/project2-244918
+  rules:
+  - enforce: false
+governedResource:
+  folders:
+  - folders/800636178739
+  - folders/408342778736
+  fullResourceName: //container.googleapis.com/projects/project2-244918/zones/us-central1-c/clusters/cluster-1/nodePools/default-pool
+  organization: organizations/474566717491
+  parent: //container.googleapis.com/projects/project2-244918/zones/us-central1-c/clusters/cluster-1
+  project: projects/761097189269
+policyBundle:
+- appliedResource: //cloudresourcemanager.googleapis.com/projects/project2-244918
+  attachedResource: //cloudresourcemanager.googleapis.com/projects/project2-244918
+  rules:
+  - enforce: false
+- appliedResource: //cloudresourcemanager.googleapis.com/folders/408342778736
+  attachedResource: //cloudresourcemanager.googleapis.com/folders/408342778736
+  rules:
+  - condition:
+      description: cond-desc1
+      expression: resource.matchTag("474566717491/env", "prod")
+      title: cond-title1
+    enforce: false
+  - enforce: true
+- appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
+  attachedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
+  rules:
+  - enforce: true
+---
+consolidatedPolicy:
+  appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
+  attachedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
+  rules:
+  - enforce: true
+governedResource:
+  fullResourceName: //container.googleapis.com/projects/probe-per-rt-project/zones/us-west1-a/clusters/test-cluster-for-backup/nodePools/default-pool
+  organization: organizations/474566717491
+  parent: //container.googleapis.com/projects/probe-per-rt-project/zones/us-west1-a/clusters/test-cluster-for-backup
+  project: projects/896190383908
+policyBundle:
+- appliedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
+  attachedResource: //cloudresourcemanager.googleapis.com/organizations/474566717491
+  rules:
+  - enforce: true
+```
 
 ### REST
 
@@ -714,148 +738,154 @@ To get an analysis of how an organization policy constraint is enforced on asset
 
 HTTP method and URL:
 
-    GET https://cloudasset.googleapis.com/v1/organizations/ORGANIZATION_ID:analyzeOrgPolicyGovernedAssets
+```
+GET https://cloudasset.googleapis.com/v1/organizations/ORGANIZATION_ID:analyzeOrgPolicyGovernedAssets
+```
 
 Request JSON body:
 
-    JSON_REQUEST="{
-      'constraint': 'CONSTRAINT_NAME',
-      'filter': 'FILTER_QUERY',
-      'page_size': PAGE_SIZE,
-      'page_token': PAGE_TOKEN
-    }"
+```
+JSON_REQUEST="{
+  'constraint': 'CONSTRAINT_NAME',
+  'filter': 'FILTER_QUERY',
+  'page_size': PAGE_SIZE,
+  'page_token': PAGE_TOKEN
+}"
+```
 
 Replace the following:
 
-  - ORGANIZATION\_ID : the ID of your organization resource. For more information about finding your organization ID, see [Creating and managing organizations](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) .
+- ` ORGANIZATION_ID ` : the ID of your organization resource. For more information about finding your organization ID, see [Creating and managing organizations](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) .
 
-  - CONSTRAINT\_NAME : the name of the organization policy constraint you want to analyze. For a list of constraints, see [Organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) .
+- ` CONSTRAINT_NAME ` : the name of the organization policy constraint you want to analyze. For a list of constraints, see [Organization policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/org-policy-constraints) .
 
-  - FILTER\_QUERY : a filter query to see only assets that match your filtering expression. The available fields for filtering are `governed_resource.folders` , `governed_resource.project` , `governed_iam_policy.folders` , and `governed_iam_policy.project` . For example, `governed_resource.project="projects/1234567890"` would only return assets that were attached to the project with the project ID `1234567890` .
+- ` FILTER_QUERY ` : a filter query to see only assets that match your filtering expression. The available fields for filtering are `governed_resource.folders` , `governed_resource.project` , `governed_iam_policy.folders` , and `governed_iam_policy.project` . For example, `governed_resource.project="projects/1234567890"` would only return assets that were attached to the project with the project ID `1234567890` .
 
-  - PAGE\_SIZE : the number of pages of result entries you want to view. To see unlimited entries, enter `unlimited` . A request made with this flag set returns a `nextPageToken` value if the total number of result entries is greater than the PAGE\_SIZE .
+- ` PAGE_SIZE ` : the number of pages of result entries you want to view. To see unlimited entries, enter `unlimited` . A request made with this flag set returns a `nextPageToken` value if the total number of result entries is greater than the ` PAGE_SIZE ` .
 
-  - PAGE\_TOKEN : only to be set on requests after the first request that includes the `page_size` flag. You can use the `nextPageToken` values received from previous responses to return a particular page of results.
+- ` PAGE_TOKEN ` : only to be set on requests after the first request that includes the `page_size` flag. You can use the `nextPageToken` values received from previous responses to return a particular page of results.
 
 The JSON response is similar to the following:
 
 #### Sample JSON response
 
+```
+{
+  "governedAssets": [
     {
-      "governedAssets": [
+      "governedResource": {
+        "fullResourceName": "//container.googleapis.com/projects/opa-test-project-2/zones/us-central1-c/clusters/opa-test-project-2-cluster-1/nodePools/default-pool",
+        "parent": "//container.googleapis.com/projects/opa-test-project-2/zones/us-central1-c/clusters/opa-test-project-2-cluster-1",
+        "project": "projects/892625391619",
+        "folders": [
+          "folders/513502730678",
+          "folders/666681422980"
+        ],
+        "organization": "organizations/474566717491"
+      },
+      "consolidatedPolicy": {
+        "attachedResource": "//cloudresourcemanager.googleapis.com/projects/opa-test-project-2",
+        "rules": [
+          {
+            "enforce": false
+          }
+        ],
+        "appliedResource": "//cloudresourcemanager.googleapis.com/projects/opa-test-project-2"
+      },
+      "policyBundle": [
         {
-          "governedResource": {
-            "fullResourceName": "//container.googleapis.com/projects/opa-test-project-2/zones/us-central1-c/clusters/opa-test-project-2-cluster-1/nodePools/default-pool",
-            "parent": "//container.googleapis.com/projects/opa-test-project-2/zones/us-central1-c/clusters/opa-test-project-2-cluster-1",
-            "project": "projects/892625391619",
-            "folders": [
-              "folders/513502730678",
-              "folders/666681422980"
-            ],
-            "organization": "organizations/474566717491"
-          },
-          "consolidatedPolicy": {
-            "attachedResource": "//cloudresourcemanager.googleapis.com/projects/opa-test-project-2",
-            "rules": [
-              {
-                "enforce": false
-              }
-            ],
-            "appliedResource": "//cloudresourcemanager.googleapis.com/projects/opa-test-project-2"
-          },
-          "policyBundle": [
-            {
-              "attachedResource": "//cloudresourcemanager.googleapis.com/projects/opa-test-project-2",
-              "reset": true,
-              "appliedResource": "//cloudresourcemanager.googleapis.com/projects/opa-test-project-2"
-            },
-            {
-              "attachedResource": "//cloudresourcemanager.googleapis.com/organizations/474566717491",
-              "rules": [
-                {
-                  "enforce": true
-                }
-              ],
-              "appliedResource": "//cloudresourcemanager.googleapis.com/organizations/474566717491"
-            }
-          ]
+          "attachedResource": "//cloudresourcemanager.googleapis.com/projects/opa-test-project-2",
+          "reset": true,
+          "appliedResource": "//cloudresourcemanager.googleapis.com/projects/opa-test-project-2"
         },
         {
-          "governedResource": {
-            "fullResourceName": "//container.googleapis.com/projects/project2-244918/zones/us-central1-c/clusters/cluster-1/nodePools/default-pool",
-            "parent": "//container.googleapis.com/projects/project2-244918/zones/us-central1-c/clusters/cluster-1",
-            "project": "projects/761097189269",
-            "folders": [
-              "folders/800636178739",
-              "folders/408342778736"
-            ],
-            "organization": "organizations/474566717491"
-          },
-          "consolidatedPolicy": {
-            "attachedResource": "//cloudresourcemanager.googleapis.com/projects/project2-244918",
-            "rules": [
-              {
-                "enforce": false
-              }
-            ],
-            "appliedResource": "//cloudresourcemanager.googleapis.com/projects/project2-244918"
-          },
-          "policyBundle": [
+          "attachedResource": "//cloudresourcemanager.googleapis.com/organizations/474566717491",
+          "rules": [
             {
-              "attachedResource": "//cloudresourcemanager.googleapis.com/projects/project2-244918",
-              "rules": [
-                {
-                  "enforce": false
-                }
-              ],
-              "appliedResource": "//cloudresourcemanager.googleapis.com/projects/project2-244918"
-            },
-            {
-              "attachedResource": "//cloudresourcemanager.googleapis.com/folders/408342778736",
-              "rules": [
-                {
-                  "enforce": false,
-                  "condition": {
-                    "expression": "resource.matchTag(\"474566717491/env\", \"prod\")",
-                    "title": "cond-title1",
-                    "description": "cond-desc1"
-                  }
-                },
-                {
-                  "enforce": true
-                }
-              ],
-              "appliedResource": "//cloudresourcemanager.googleapis.com/folders/408342778736"
-            },
-            {
-              "attachedResource": "//cloudresourcemanager.googleapis.com/organizations/474566717491",
-              "rules": [
-                {
-                  "enforce": true
-                }
-              ],
-              "appliedResource": "//cloudresourcemanager.googleapis.com/organizations/474566717491"
+              "enforce": true
             }
-          ]
+          ],
+          "appliedResource": "//cloudresourcemanager.googleapis.com/organizations/474566717491"
         }
       ]
-      "constraint": {
-        "customConstraint": {
-          "name": "organizations/474566717491/customConstraints/custom.disableGkeAutoUpgrade",
-          "resourceTypes": [
-            "container.googleapis.com/NodePool"
+    },
+    {
+      "governedResource": {
+        "fullResourceName": "//container.googleapis.com/projects/project2-244918/zones/us-central1-c/clusters/cluster-1/nodePools/default-pool",
+        "parent": "//container.googleapis.com/projects/project2-244918/zones/us-central1-c/clusters/cluster-1",
+        "project": "projects/761097189269",
+        "folders": [
+          "folders/800636178739",
+          "folders/408342778736"
+        ],
+        "organization": "organizations/474566717491"
+      },
+      "consolidatedPolicy": {
+        "attachedResource": "//cloudresourcemanager.googleapis.com/projects/project2-244918",
+        "rules": [
+          {
+            "enforce": false
+          }
+        ],
+        "appliedResource": "//cloudresourcemanager.googleapis.com/projects/project2-244918"
+      },
+      "policyBundle": [
+        {
+          "attachedResource": "//cloudresourcemanager.googleapis.com/projects/project2-244918",
+          "rules": [
+            {
+              "enforce": false
+            }
           ],
-          "methodTypes": [
-            "CREATE",
-            "UPDATE"
+          "appliedResource": "//cloudresourcemanager.googleapis.com/projects/project2-244918"
+        },
+        {
+          "attachedResource": "//cloudresourcemanager.googleapis.com/folders/408342778736",
+          "rules": [
+            {
+              "enforce": false,
+              "condition": {
+                "expression": "resource.matchTag(\"474566717491/env\", \"prod\")",
+                "title": "cond-title1",
+                "description": "cond-desc1"
+              }
+            },
+            {
+              "enforce": true
+            }
           ],
-          "condition": "resource.management.autoUpgrade == false",
-          "actionType": "ALLOW",
-          "displayName": "Disable GKE auto upgrade",
-          "description": "Only allow GKE NodePool resource create or updates if AutoUpgrade is not enabled"
+          "appliedResource": "//cloudresourcemanager.googleapis.com/folders/408342778736"
+        },
+        {
+          "attachedResource": "//cloudresourcemanager.googleapis.com/organizations/474566717491",
+          "rules": [
+            {
+              "enforce": true
+            }
+          ],
+          "appliedResource": "//cloudresourcemanager.googleapis.com/organizations/474566717491"
         }
-      }
+      ]
     }
+  ]
+  "constraint": {
+    "customConstraint": {
+      "name": "organizations/474566717491/customConstraints/custom.disableGkeAutoUpgrade",
+      "resourceTypes": [
+        "container.googleapis.com/NodePool"
+      ],
+      "methodTypes": [
+        "CREATE",
+        "UPDATE"
+      ],
+      "condition": "resource.management.autoUpgrade == false",
+      "actionType": "ALLOW",
+      "displayName": "Disable GKE auto upgrade",
+      "description": "Only allow GKE NodePool resource create or updates if AutoUpgrade is not enabled"
+    }
+  }
+}
+```
 
 ## Visualize inheritance
 
@@ -887,5 +917,5 @@ The **Resource inheritance** page shows a visualization of the resource hierarch
 
 ## What's next
 
-  - Learn more about [Using constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/using-constraints) .
-  - Learn how to [Create and manage custom constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints) .
+- Learn more about [Using constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/using-constraints) .
+- Learn how to [Create and manage custom constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints) .

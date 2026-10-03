@@ -26,14 +26,14 @@ In general, we recommend creating a new pool for each non-Google Cloud environme
 
 A *workload identity pool provider* is an entity that describes a relationship between Google Cloud and your IdP, including the following:
 
-  - AWS
-  - Microsoft Entra ID
-  - GitHub
-  - GitLab
-  - Kubernetes clusters
-  - Okta
-  - On-premises Active Directory Federation Services (AD FS)
-  - Terraform
+- AWS
+- Microsoft Entra ID
+- GitHub
+- GitLab
+- Kubernetes clusters
+- Okta
+- On-premises Active Directory Federation Services (AD FS)
+- Terraform
 
 Workload Identity Federation follows the [OAuth 2.0 token exchange](https://tools.ietf.org/html/rfc8693) specification. You provide a credential from your IdP to the [Security Token Service](https://docs.cloud.google.com/iam/docs/reference/sts/rest) , which verifies the identity on the credential, and then returns a federated token in exchange.
 
@@ -47,64 +47,82 @@ The tokens issued by your external IdP contain one or more attributes. Some IdPs
 
 Google Security Token Service tokens also contain one or more attributes, as listed in the following table:
 
-| Attribute                          | Description                                                                                                                                                                                         |
-| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `google.subject`                   | Required. A unique identifier for the user. This attribute is used in IAM `principal://` role bindings and appears in Cloud Logging logs. The value must be unique and can't exceed 127 characters. |
-| `google.groups`                    | Optional. A set of groups that the identity belongs to. This attribute is used in IAM `principalSet://` role bindings to grant access to all members of a group.                                    |
-| ` attribute.         NAME        ` | Optional. You can define up to 50 custom attributes and use these attributes in IAM `principalSet://` role bindings to grant access to all identities with a certain attribute.                     |
+| Attribute            | Description                                                                                                                                                                                         |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `google.subject`     | Required. A unique identifier for the user. This attribute is used in IAM `principal://` role bindings and appears in Cloud Logging logs. The value must be unique and can't exceed 127 characters. |
+| `google.groups`      | Optional. A set of groups that the identity belongs to. This attribute is used in IAM `principalSet://` role bindings to grant access to all members of a group.                                    |
+| `attribute. `` NAME` | Optional. You can define up to 50 custom attributes and use these attributes in IAM `principalSet://` role bindings to grant access to all identities with a certain attribute.                     |
 
 An attribute mapping defines how to derive the value of the Google Security Token Service token attribute from an external token. For each Google Security Token Service token attribute, you can define an attribute mapping, formatted as follows:
 
-`  TARGET_ATTRIBUTE  ` = `  SOURCE_EXPRESSION  `
+`TARGET_ATTRIBUTE` = `SOURCE_EXPRESSION`
 
 Replace the following:
 
-  - `  TARGET_ATTRIBUTE  ` is an attribute of the Google Security Token Service token
-  - `  SOURCE_EXPRESSION  ` is a [Common Expression Language (CEL)](https://github.com/google/cel-spec/blob/master/doc/intro.md#introduction) expression that transforms one or more attributes from the tokens issued by your external IdP
+- `TARGET_ATTRIBUTE` is an attribute of the Google Security Token Service token
+- `SOURCE_EXPRESSION` is a [Common Expression Language (CEL)](https://github.com/google/cel-spec/blob/master/doc/intro.md#introduction) expression that transforms one or more attributes from the tokens issued by your external IdP
 
 The following list provides attribute mapping examples:
 
-  - Assign the assertion attribute `sub` to `google.subject` :
-    
-        google.subject=assertion.sub
+- Assign the assertion attribute `sub` to `google.subject` :
 
-  - Concatenate multiple assertion attributes:
-    
-        google.subject='myprovider::' + assertion.aud + '::' + assertion.sub
+  ```
+  google.subject=assertion.sub
+  ```
 
-  - Map a GUID-valued assertion attribute `workload_id` to a name, and assign the result to a custom attribute named `attribute.my_display_name` :
-    
-        attribute.my_display_name={
-          "8bb39bdb-1cc5-4447-b7db-a19e920eb111": "Workload1",
-          "55d36609-9bcf-48e0-a366-a3cf19027d2a": "Workload2"
-        }[assertion.workload_id]
+- Concatenate multiple assertion attributes:
 
-  - Use CEL [logical operators and functions](https://github.com/google/cel-spec/blob/master/doc/langdef.md#list-of-standard-definitions) to set a custom attribute named `attribute.environment` to either `prod` or `test` , depending on the identity's Amazon Resource Name (ARN):
-    
-        attribute.environment=assertion.arn.contains(":instance-profile/Production") ? "prod" : "test"
+  ```
+  google.subject='myprovider::' + assertion.aud + '::' + assertion.sub
+  ```
 
-  - Use the [`extract` function](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#extract) to populate a custom attribute `aws_role` with the name of the assumed role or, if no role has been assumed, with the identity's ARN.
-    
-        attribute.aws_role=assertion.arn.contains('assumed-role') ? assertion.arn.extract('{account_arn}assumed-role/') + 'assumed-role/' + assertion.arn.extract('assumed-role/{role_name}/') : assertion.arn
+- Map a GUID-valued assertion attribute `workload_id` to a name, and assign the result to a custom attribute named `attribute.my_display_name` :
 
-  - Use the [`split` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-split) to split a string on a specified separator. For example, to extract the attribute `username` from an email address attribute by splitting its value at the `@` symbol and using the first string, use the following attribute mapping:
-    
-        attribute.username=assertion.email.split("@")[0]
+  ```
+  attribute.my_display_name={
+    "8bb39bdb-1cc5-4447-b7db-a19e920eb111": "Workload1",
+    "55d36609-9bcf-48e0-a366-a3cf19027d2a": "Workload2"
+  }[assertion.workload_id]
+  ```
 
-  - Use the [`join` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-join) to join a list of strings on a specified separator. For example, to populate the custom attribute `department` by concatenating a list of strings with `.` as a separator, use the following attribute mapping:
-    
-        attribute.department=assertion.department.join(".")
+- Use CEL [logical operators and functions](https://github.com/google/cel-spec/blob/master/doc/langdef.md#list-of-standard-definitions) to set a custom attribute named `attribute.environment` to either `prod` or `test` , depending on the identity's Amazon Resource Name (ARN):
+
+  ```
+  attribute.environment=assertion.arn.contains(":instance-profile/Production") ? "prod" : "test"
+  ```
+
+- Use the [`extract` function](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#extract) to populate a custom attribute `aws_role` with the name of the assumed role or, if no role has been assumed, with the identity's ARN.
+
+  ```
+  attribute.aws_role=assertion.arn.contains('assumed-role') ? assertion.arn.extract('{account_arn}assumed-role/') + 'assumed-role/' + assertion.arn.extract('assumed-role/{role_name}/') : assertion.arn
+  ```
+
+- Use the [`split` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-split) to split a string on a specified separator. For example, to extract the attribute `username` from an email address attribute by splitting its value at the `@` symbol and using the first string, use the following attribute mapping:
+
+  ```
+  attribute.username=assertion.email.split("@")[0]
+  ```
+
+- Use the [`join` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-join) to join a list of strings on a specified separator. For example, to populate the custom attribute `department` by concatenating a list of strings with `.` as a separator, use the following attribute mapping:
+
+  ```
+  attribute.department=assertion.department.join(".")
+  ```
 
 When you use [X.509 client certificates](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates#mappings-and-conditions) , Workload Identity Federation maps `google.subject` to the client certificate subject common name ( `assertion.subject.dn.cn` ) by default:
 
-    google.subject=assertion.subject.dn.cn
+```
+google.subject=assertion.subject.dn.cn
+```
 
 You can also map additional attributes from the leaf and intermediate certificates.
 
 For [AWS](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions) , if you don't specify an attribute mapping, Google applies the following default mapping, which covers most common scenarios:
 
-    google.subject=assertion.arn
-    attribute.aws_role=assertion.arn.contains('assumed-role') ? assertion.arn.extract('{account_arn}assumed-role/') + 'assumed-role/' + assertion.arn.extract('assumed-role/{role_name}/') : assertion.arn
+```
+google.subject=assertion.arn
+attribute.aws_role=assertion.arn.contains('assumed-role') ? assertion.arn.extract('{account_arn}assumed-role/') + 'assumed-role/' + assertion.arn.extract('assumed-role/{role_name}/') : assertion.arn
+```
 
 This mapping sets `google.subject` to the caller's ARN and sets `attribute.aws_role` to the assumed role ARN (without the session name) if a role is assumed, or to the caller's ARN otherwise. You can also supply custom mappings.
 
@@ -120,15 +138,17 @@ You can use an attribute condition to restrict which identities can authenticate
 
 Attribute conditions are useful in scenarios such as the following:
 
-  - If your workload uses an IdP that's available to the general public, you can restrict access so only the identities you choose have access to your workload identity pool.
+- If your workload uses an IdP that's available to the general public, you can restrict access so only the identities you choose have access to your workload identity pool.
 
-  - If you're using an IdP with multiple cloud platforms, you can prevent credentials intended for use with another platform from being used with Google Cloud, and vice-versa. This helps avoid the [confused deputy problem](https://wikipedia.org/wiki/Confused_deputy_problem) .
+- If you're using an IdP with multiple cloud platforms, you can prevent credentials intended for use with another platform from being used with Google Cloud, and vice-versa. This helps avoid the [confused deputy problem](https://wikipedia.org/wiki/Confused_deputy_problem) .
 
 The attribute condition for a workload identity pool provider can use the `assertion` keyword, which refers to a map that represents the authentication credential issued by the IdP. You can use dot notation to access the map's values. For example, AWS credentials include an `arn` value, which you can access as `assertion.arn` . In addition, the attribute condition can use any attribute that is defined in the provider's [attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation#mapping) .
 
 The following example only allows requests from identities that have a specific AWS role:
 
-    attribute.aws_role == "ROLE_MAPPING"
+```
+attribute.aws_role == "ROLE_MAPPING"
+```
 
 For more details, see the API documentation for the [`attributeCondition` field](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers#WorkloadIdentityPoolProvider.FIELDS.attribute_condition) .
 
@@ -164,14 +184,14 @@ You grant access to principals or subsets thereof by using [principal types](htt
 
 The following table describes how to define principals as individuals and groups of identities:
 
-| Identities                                       | Identifier format                                                                                                                                                                                                          |
-| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Single identity                                  | ` principal://iam.googleapis.com/projects/         PROJECT_NUMBER        /locations/global/  workloadIdentityPools/         POOL_ID        /subject/         SUBJECT_ATTRIBUTE_VALUE        `                              |
-| All identities in a group                        | ` principalSet://iam.googleapis.com/projects/         PROJECT_NUMBER        /locations/global/  workloadIdentityPools/         POOL_ID        /group/         GROUP_ID        `                                            |
-| All identities with a specific *attribute value* | ` principalSet://iam.googleapis.com/projects/         PROJECT_NUMBER        /locations/global/  workloadIdentityPools/         POOL_ID        /attribute.         ATTRIBUTE_NAME        /         ATTRIBUTE_VALUE        ` |
+| Identities                                       | Identifier format                                                                                                                                                                |
+|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Single identity                                  | `principal://iam.googleapis.com/projects/ `` PROJECT_NUMBER `` /locations/global/ workloadIdentityPools/ `` POOL_ID `` /subject/ `` SUBJECT_ATTRIBUTE_VALUE`                     |
+| All identities in a group                        | `principalSet://iam.googleapis.com/projects/ `` PROJECT_NUMBER `` /locations/global/ workloadIdentityPools/ `` POOL_ID `` /group/ `` GROUP_ID`                                   |
+| All identities with a specific *attribute value* | `principalSet://iam.googleapis.com/projects/ `` PROJECT_NUMBER `` /locations/global/ workloadIdentityPools/ `` POOL_ID `` /attribute. `` ATTRIBUTE_NAME `` / `` ATTRIBUTE_VALUE` |
 
 ## What's next
 
-  - Use Workload Identity Federation to let your workloads access resources from [AWS or Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds) , [X.509 Certificates](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates) , [Active Directory](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory) , [Deployment pipelines](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines) , or [OIDC or SAML providers](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers) .
+- Use Workload Identity Federation to let your workloads access resources from [AWS or Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds) , [X.509 Certificates](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates) , [Active Directory](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory) , [Deployment pipelines](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines) , or [OIDC or SAML providers](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers) .
 
-  - Learn how to [manage workload identity pools](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers) using the Google Cloud CLI or the REST API.
+- Learn how to [manage workload identity pools](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers) using the Google Cloud CLI or the REST API.

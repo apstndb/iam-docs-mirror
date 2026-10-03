@@ -25,11 +25,13 @@ After you have completed these steps, the OAuth-based application can access Goo
 1.  You must have a Google Cloud organization set up.
 
 2.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI. After installation, [initialize](https://docs.cloud.google.com/sdk/docs/initializing) the Google Cloud CLI by running the following command:
-    
-        gcloud init
-    
+
+    ```
+    gcloud init
+    ```
+
     If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
-    
+
     > **Note:** If you installed the gcloud CLI previously, make sure you have the latest version by running `gcloud components update` .
 
 3.  You must have set up a workforce identity pool and provider in the organization in which you will register the OAuth application. Learn how to set up workforce identity federation for [Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id) , [Okta](https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta) , and [other OIDC and SAML 2.0 providers](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) .
@@ -50,43 +52,47 @@ To create an OAuth client, do the following:
 
 ### gcloud
 
-    gcloud iam oauth-clients create APP_OAUTH_CLIENT_ID \
-        --project=PROJECT_ID \
-        --location=global \
-        --client-type="CONFIDENTIAL_CLIENT" \
-        --display-name="My OAuth application" \
-        --description="An application registration for MyApp" \
-        --allowed-scopes="https://www.googleapis.com/auth/cloud-platform" \
-        --allowed-redirect-uris="REDIRECT_URI" \
-        --allowed-grant-types="authorization_code_grant"
+```
+gcloud iam oauth-clients create APP_OAUTH_CLIENT_ID \
+    --project=PROJECT_ID \
+    --location=global \
+    --client-type="CONFIDENTIAL_CLIENT" \
+    --display-name="My OAuth application" \
+    --description="An application registration for MyApp" \
+    --allowed-scopes="https://www.googleapis.com/auth/cloud-platform" \
+    --allowed-redirect-uris="REDIRECT_URI" \
+    --allowed-grant-types="authorization_code_grant"
+```
 
 Replace the following:
 
-  - `  APP_OAUTH_CLIENT_ID  ` : a client ID to represent this OAuth client.
-  - `  PROJECT_ID  ` : the ID of the project where you created your workforce identity pool and provider. The project must be created in the organization where your workforce pool and provider were created.
-  - `  REDIRECT_URI  ` : the redirect URI for the OAuth application—for example, `https://myapp.com/signin-callback` .
+- `APP_OAUTH_CLIENT_ID` : a client ID to represent this OAuth client.
+- `PROJECT_ID` : the ID of the project where you created your workforce identity pool and provider. The project must be created in the organization where your workforce pool and provider were created.
+- `REDIRECT_URI` : the redirect URI for the OAuth application—for example, `https://myapp.com/signin-callback` .
 
 ### REST
 
-    curl -X POST \
-      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-      -H "Content-Type: application/json" \
-      -H "X-Goog-User-Project: PROJECT_ID" \
-      -d "{ \
-            'allowedGrantTypes': ['AUTHORIZATION_CODE_GRANT'], \
-            'allowedRedirectUris': ['REDIRECT_URI'], \
-            'allowedScopes': ['https://www.googleapis.com/auth/cloud-platform'], \
-            'clientType': 'CONFIDENTIAL_CLIENT', \
-            'description': 'My OAuth client description', \
-            'disabled': false, \
-            'displayName': 'My OAuth client'}" \
-      https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients\?oauthClientId\=APP_OAUTH_CLIENT_ID
+```
+curl -X POST \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  -H "X-Goog-User-Project: PROJECT_ID" \
+  -d "{ \
+        'allowedGrantTypes': ['AUTHORIZATION_CODE_GRANT'], \
+        'allowedRedirectUris': ['REDIRECT_URI'], \
+        'allowedScopes': ['https://www.googleapis.com/auth/cloud-platform'], \
+        'clientType': 'CONFIDENTIAL_CLIENT', \
+        'description': 'My OAuth client description', \
+        'disabled': false, \
+        'displayName': 'My OAuth client'}" \
+  https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients\?oauthClientId\=APP_OAUTH_CLIENT_ID
+```
 
 Replace the following:
 
-  - `  PROJECT_ID  ` : the ID of the project where you created your workforce identity pool and provider. The project must be created in the organization where your workforce pool and provider were created.
-  - `  REDIRECT_URI  ` : the redirect URI for the OAuth application—for example, `https://myapp.com/signin-callback` .
-  - `  APP_OAUTH_CLIENT_ID  ` : a client ID to represent this OAuth client.
+- `PROJECT_ID` : the ID of the project where you created your workforce identity pool and provider. The project must be created in the organization where your workforce pool and provider were created.
+- `REDIRECT_URI` : the redirect URI for the OAuth application—for example, `https://myapp.com/signin-callback` .
+- `APP_OAUTH_CLIENT_ID` : a client ID to represent this OAuth client.
 
 After you register the application, you [create the OAuth client credential](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#create-credential) and obtain the secret that the OAuth application uses to access Google Cloud.
 
@@ -96,19 +102,23 @@ To list registered OAuth clients, run the following command:
 
 ### gcloud
 
-    gcloud iam oauth-clients list \
-        --project=PROJECT_ID \
-        --location=global
+```
+gcloud iam oauth-clients list \
+    --project=PROJECT_ID \
+    --location=global
+```
 
 ### REST
 
-    curl \
-      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-      -H "Content-Type: application/json" \
-      -H "X-Goog-User-Project: PROJECT_ID" \
-      https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients
+```
+curl \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  -H "X-Goog-User-Project: PROJECT_ID" \
+  https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients
+```
 
-Replace `  PROJECT_ID  ` with the ID of the project where your OAuth applications are registered.
+Replace `PROJECT_ID` with the ID of the project where your OAuth applications are registered.
 
 ### Describe an OAuth client
 
@@ -116,27 +126,31 @@ To describe an OAuth client, run the following command:
 
 ### gcloud
 
-    gcloud iam oauth-clients describe APP_OAUTH_CLIENT_ID \
-        --project PROJECT_ID \
-        --location global
+```
+gcloud iam oauth-clients describe APP_OAUTH_CLIENT_ID \
+    --project PROJECT_ID \
+    --location global
+```
 
 Replace the following:
 
-  - `  APP_OAUTH_CLIENT_ID  ` : the ID of the OAuth client that you want to to describe
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_ID` : the ID of the OAuth client that you want to to describe
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
 
 ### REST
 
-    curl \
-      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-      -H "Content-Type: application/json" \
-      -H "X-Goog-User-Project: PROJECT_ID" \
-      https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID
+```
+curl \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  -H "X-Goog-User-Project: PROJECT_ID" \
+  https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID
+```
 
 Replace the following:
 
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
-  - `  APP_OAUTH_CLIENT_ID  ` : the ID of the OAuth client that you want to to describe
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_ID` : the ID of the OAuth client that you want to to describe
 
 ### Update an OAuth client
 
@@ -144,32 +158,36 @@ To update an OAuth client, run the following command.
 
 ### gcloud
 
-    gcloud iam oauth-clients update APP_OAUTH_CLIENT_ID \
-        --project=PROJECT_ID \
-        --location=global \
-        --allowed-redirect-uris="REDIRECT_URI"
+```
+gcloud iam oauth-clients update APP_OAUTH_CLIENT_ID \
+    --project=PROJECT_ID \
+    --location=global \
+    --allowed-redirect-uris="REDIRECT_URI"
+```
 
 Replace the following:
 
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID for the OAuth client that you want to update
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
-  - `  REDIRECT_URI  ` : the redirect URI for the OAuth application
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID for the OAuth client that you want to update
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
+- `REDIRECT_URI` : the redirect URI for the OAuth application
 
 To update other fields, use flags listed in [`gcloud iam oauth-clients update`](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#create) .
 
 ### REST
 
-    curl -d'{"allowedRedirectUris":"REDIRECT_URI"}' \
-      -H "Content-Type: application/json" -X PATCH \
-      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-      -H "X-Goog-User-Project: PROJECT_ID" \
-      https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID?update_mask=allowed_redirect_uris
+```
+curl -d'{"allowedRedirectUris":"REDIRECT_URI"}' \
+  -H "Content-Type: application/json" -X PATCH \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "X-Goog-User-Project: PROJECT_ID" \
+  https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID?update_mask=allowed_redirect_uris
+```
 
 Replace the following:
 
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID for the OAuth client that you want to update
-  - `  REDIRECT_URI  ` : the redirect URI for the OAuth client
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID for the OAuth client that you want to update
+- `REDIRECT_URI` : the redirect URI for the OAuth client
 
 To update other fields, set `update_mask` to the field names listed in [`gcloud iam oauth-clients update`](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#create) .
 
@@ -179,27 +197,31 @@ To delete an OAuth client, run the following command:
 
 ### gcloud
 
-    gcloud iam oauth-clients delete APP_OAUTH_CLIENT_ID \
-        --project PROJECT_ID \
-        --location global
+```
+gcloud iam oauth-clients delete APP_OAUTH_CLIENT_ID \
+    --project PROJECT_ID \
+    --location global
+```
 
 Replace the following:
 
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID to delete
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID to delete
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
 
 ### REST
 
-    curl -X DELETE \
-      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-      -H "Content-Type: application/json" \
-      -H "X-Goog-User-Project: PROJECT_ID" \
-      https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID
+```
+curl -X DELETE \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  -H "X-Goog-User-Project: PROJECT_ID" \
+  https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID
+```
 
 Replace the following:
 
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID to delete
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID to delete
 
 ## Manage OAuth client credentials
 
@@ -211,30 +233,34 @@ To create an OAuth client credential, run the following command:
 
 ### gcloud
 
-    gcloud iam oauth-clients credentials create APP_OAUTH_CLIENT_CREDENTIAL_ID \
-        --oauth-client=APP_OAUTH_CLIENT_ID \
-        --display-name='My OAuth client credential' \
-        --location='global'
+```
+gcloud iam oauth-clients credentials create APP_OAUTH_CLIENT_CREDENTIAL_ID \
+    --oauth-client=APP_OAUTH_CLIENT_ID \
+    --display-name='My OAuth client credential' \
+    --location='global'
+```
 
 Replace the following:
 
-  - `  APP_OAUTH_CLIENT_CREDENTIAL_ID  ` : an ID that represents this client credential
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID you can obtain by [describing](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#describe) the registered OAuth client application
+- `APP_OAUTH_CLIENT_CREDENTIAL_ID` : an ID that represents this client credential
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID you can obtain by [describing](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#describe) the registered OAuth client application
 
 ### REST
 
-    curl -X POST \
-      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-      -H "Content-Type: application/json" \
-      -H "X-Goog-User-Project: PROJECT_ID" \
-      -d "{'disabled': false, 'displayName': 'My OAuth client credential'}" \
-      https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID/credentials\?oauthClientCredentialId=APP_OAUTH_CLIENT_CREDENTIAL_ID
+```
+curl -X POST \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  -H "X-Goog-User-Project: PROJECT_ID" \
+  -d "{'disabled': false, 'displayName': 'My OAuth client credential'}" \
+  https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID/credentials\?oauthClientCredentialId=APP_OAUTH_CLIENT_CREDENTIAL_ID
+```
 
 Replace the following:
 
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID you can obtain by [describing](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#describe) the registered OAuth client application
-  - `  APP_OAUTH_CLIENT_CREDENTIAL_ID  ` : an ID that represents this client credential
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID you can obtain by [describing](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#describe) the registered OAuth client application
+- `APP_OAUTH_CLIENT_CREDENTIAL_ID` : an ID that represents this client credential
 
 ### List OAuth client credentials
 
@@ -242,28 +268,32 @@ To list OAuth client credentials, run the following command:
 
 ### gcloud
 
-    gcloud iam oauth-clients credentials list \
-        --oauth-client=APP_OAUTH_CLIENT_ID \
-        --project=PROJECT_ID \
-        --location=global
+```
+gcloud iam oauth-clients credentials list \
+    --oauth-client=APP_OAUTH_CLIENT_ID \
+    --project=PROJECT_ID \
+    --location=global
+```
 
 Replace the following:
 
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID for which to list credentials
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID for which to list credentials
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
 
 ### REST
 
-    curl \
-      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-      -H "Content-Type: application/json" \
-      -H "X-Goog-User-Project: PROJECT_ID" \
-      https://iam.googleapis.com/v1/projects/$PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID/credentials
+```
+curl \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  -H "X-Goog-User-Project: PROJECT_ID" \
+  https://iam.googleapis.com/v1/projects/$PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID/credentials
+```
 
 Replace the following:
 
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID for which to list credentials
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID for which to list credentials
 
 ### Describe an OAuth client credential
 
@@ -271,28 +301,32 @@ To describe an OAuth client credential, run the following command. You can obtai
 
 ### gcloud
 
-    gcloud iam oauth-clients credentials describe APP_OAUTH_CLIENT_CREDENTIAL_ID \
-        --oauth-client=APP_OAUTH_CLIENT_ID \
-        --location='global'
+```
+gcloud iam oauth-clients credentials describe APP_OAUTH_CLIENT_CREDENTIAL_ID \
+    --oauth-client=APP_OAUTH_CLIENT_ID \
+    --location='global'
+```
 
 Replace the following:
 
-  - `  APP_OAUTH_CLIENT_CREDENTIAL_ID  ` : the redirect URI for the OAuth client
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID you can obtain by [describing](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#describe) the client application registration
+- `APP_OAUTH_CLIENT_CREDENTIAL_ID` : the redirect URI for the OAuth client
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID you can obtain by [describing](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#describe) the client application registration
 
 ### REST
 
-    curl \
-      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-      -H "Content-Type: application/json" \
-      -H "X-Goog-User-Project: PROJECT_ID" \
-    https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID/credentials/APP_OAUTH_CLIENT_CREDENTIAL_ID
+```
+curl \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  -H "X-Goog-User-Project: PROJECT_ID" \
+https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID/credentials/APP_OAUTH_CLIENT_CREDENTIAL_ID
+```
 
 Replace the following:
 
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
-  - `  APP_OAUTH_CLIENT_CREDENTIAL_ID  ` : the redirect URI for the OAuth client
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID you can obtain by [describing](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#describe) the client application registration
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_CREDENTIAL_ID` : the redirect URI for the OAuth client
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID you can obtain by [describing](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#describe) the client application registration
 
 In the output, `clientSecret` is the client secret. This is the secret that the OAuth application uses to access Google Cloud.
 
@@ -304,24 +338,28 @@ To update an OAuth client credential, run the following command:
 
 ### gcloud
 
-    gcloud iam oauth-clients credentials update APP_OAUTH_CLIENT_CREDENTIAL_ID \
-        --client-id=APP_OAUTH_CLIENT_ID \
-        --display-name="My new credential name" \
-        --location=global
+```
+gcloud iam oauth-clients credentials update APP_OAUTH_CLIENT_CREDENTIAL_ID \
+    --client-id=APP_OAUTH_CLIENT_ID \
+    --display-name="My new credential name" \
+    --location=global
+```
 
 ### REST
 
-    curl -d'{"displayName":"My new credential name"}' -X PATCH \
-      -H "Content-Type: application/json" \
-      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-      -H "X-Goog-User-Project: PROJECT_ID" \
-      https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID/credentials/APP_OAUTH_CLIENT_CREDENTIAL_ID?update_mask=display_name
+```
+curl -d'{"displayName":"My new credential name"}' -X PATCH \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "X-Goog-User-Project: PROJECT_ID" \
+  https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID/credentials/APP_OAUTH_CLIENT_CREDENTIAL_ID?update_mask=display_name
+```
 
 Replace the following:
 
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
-  - `  APP_OAUTH_CLIENT_CREDENTIAL_ID  ` : the redirect URI for the OAuth client
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID that you can obtain by [describing](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#describe) the client application registration
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_CREDENTIAL_ID` : the redirect URI for the OAuth client
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID that you can obtain by [describing](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#describe) the client application registration
 
 ### Disable an OAuth client credential
 
@@ -329,31 +367,35 @@ Before you can delete an OAuth client credential, you must disable it. To disabl
 
 ### gcloud
 
-    gcloud iam oauth-clients credentials update APP_OAUTH_CLIENT_CREDENTIAL_ID \
-        --oauth-client=APP_OAUTH_CLIENT_ID \
-        --disabled \
-        --project=PROJECT_ID \
-        --location=global
+```
+gcloud iam oauth-clients credentials update APP_OAUTH_CLIENT_CREDENTIAL_ID \
+    --oauth-client=APP_OAUTH_CLIENT_ID \
+    --disabled \
+    --project=PROJECT_ID \
+    --location=global
+```
 
 Replace the following:
 
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID
-  - `  APP_OAUTH_CLIENT_CREDENTIAL_ID  ` : the client credential ID to disable
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID
+- `APP_OAUTH_CLIENT_CREDENTIAL_ID` : the client credential ID to disable
 
 ### REST
 
-    curl -d'{"disabled":"true"}' \
-      -H "Content-Type: application/json" -X PATCH \
-      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-      -H "X-Goog-User-Project: PROJECT_ID" \
-      https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID/credentials/APP_OAUTH_CLIENT_CREDENTIAL_ID?update_mask=disabled
+```
+curl -d'{"disabled":"true"}' \
+  -H "Content-Type: application/json" -X PATCH \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "X-Goog-User-Project: PROJECT_ID" \
+  https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID/credentials/APP_OAUTH_CLIENT_CREDENTIAL_ID?update_mask=disabled
+```
 
 Replace the following:
 
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
-  - `  APP_OAUTH_CLIENT_ID  ` : the OAuth client ID
-  - `  APP_OAUTH_CLIENT_CREDENTIAL_ID  ` : the client credential ID to disable
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_ID` : the OAuth client ID
+- `APP_OAUTH_CLIENT_CREDENTIAL_ID` : the client credential ID to disable
 
 ### Delete an OAuth client credential
 
@@ -361,33 +403,37 @@ To delete an OAuth client credential, run the following command:
 
 ### gcloud
 
-    gcloud iam oauth-clients credentials delete APP_OAUTH_CLIENT_CREDENTIAL_ID \
-        --project=PROJECT_ID \
-        --oauth-client=APP_OAUTH_CLIENT_ID \
-        --location=global
+```
+gcloud iam oauth-clients credentials delete APP_OAUTH_CLIENT_CREDENTIAL_ID \
+    --project=PROJECT_ID \
+    --oauth-client=APP_OAUTH_CLIENT_ID \
+    --location=global
+```
 
 Replace the following:
 
-  - `  APP_OAUTH_CLIENT_CREDENTIAL_ID  ` : the OAuth client ID
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
-  - `  APP_OAUTH_CLIENT_ID  ` : the client credential ID
+- `APP_OAUTH_CLIENT_CREDENTIAL_ID` : the OAuth client ID
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_ID` : the client credential ID
 
 ### REST
 
-    curl -X DELETE \
-      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-      -H "Content-Type: application/json" \
-      -H "X-Goog-User-Project: PROJECT_ID" \
-      https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID/credentials/APP_OAUTH_CLIENT_CREDENTIAL_ID
+```
+curl -X DELETE \
+  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+  -H "Content-Type: application/json" \
+  -H "X-Goog-User-Project: PROJECT_ID" \
+  https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/oauthClients/APP_OAUTH_CLIENT_ID/credentials/APP_OAUTH_CLIENT_CREDENTIAL_ID
+```
 
 Replace the following:
 
-  - `  PROJECT_ID  ` : the ID of the project where you registered your OAuth application
-  - `  APP_OAUTH_CLIENT_ID  ` : the client credential ID
-  - `  APP_OAUTH_CLIENT_CREDENTIAL_ID  ` : the OAuth client ID
+- `PROJECT_ID` : the ID of the project where you registered your OAuth application
+- `APP_OAUTH_CLIENT_ID` : the client credential ID
+- `APP_OAUTH_CLIENT_CREDENTIAL_ID` : the OAuth client ID
 
 ## What's next
 
-  - [Exchange tokens with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-exchange-tokens)
-  - [Cloud OAuth API overview](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview)
-  - [Identity-Aware Proxy with workforce identity federation](https://docs.cloud.google.com/iap/docs/use-workforce-identity-federation)
+- [Exchange tokens with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-exchange-tokens)
+- [Cloud OAuth API overview](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview)
+- [Identity-Aware Proxy with workforce identity federation](https://docs.cloud.google.com/iap/docs/use-workforce-identity-federation)

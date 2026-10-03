@@ -6,15 +6,15 @@ description: A suite of tools to help you understand and manage your policies to
 data_source: docs.cloud.google.com
 ---
 
-  - [HTTP request](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#body.HTTP_TEMPLATE)
-  - [Path parameters](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#body.PATH_PARAMETERS)
-  - [Request body](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#body.request_body)
-  - [Response body](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#body.response_body)
-  - [Authorization scopes](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#body.aspect)
-  - [IAM Permissions](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#body.aspect_1)
-  - [Try it\!](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#try-it)
+- [HTTP request](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#body.HTTP_TEMPLATE)
+- [Path parameters](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#body.PATH_PARAMETERS)
+- [Request body](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#body.request_body)
+- [Response body](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#body.response_body)
+- [Authorization scopes](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#body.aspect)
+- [IAM Permissions](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#body.aspect_1)
+- [Try it!](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews/get#try-it)
 
-orgPolicyViolationsPreviews.get gets the specified `  OrgPolicyViolationsPreview  ` . Each `  OrgPolicyViolationsPreview  ` is available for at least 7 days.
+orgPolicyViolationsPreviews.get gets the specified [`OrgPolicyViolationsPreview`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews#OrgPolicyViolationsPreview) . Each [`OrgPolicyViolationsPreview`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews#OrgPolicyViolationsPreview) is available for at least 7 days.
 
 ### HTTP request
 
@@ -24,13 +24,9 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-Parameters
-
-`name`
-
-`string`
-
-Required. The name of the OrgPolicyViolationsPreview to get.
+| Parameters |                                                                       |
+|------------|-----------------------------------------------------------------------|
+| `name`     | `string` Required. The name of the OrgPolicyViolationsPreview to get. |
 
 ### Request body
 
@@ -38,13 +34,13 @@ The request body must be empty.
 
 ### Response body
 
-If successful, the response body contains an instance of `  OrgPolicyViolationsPreview  ` .
+If successful, the response body contains an instance of [`OrgPolicyViolationsPreview`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/organizations.locations.orgPolicyViolationsPreviews#OrgPolicyViolationsPreview) .
 
 ### Authorization scopes
 
 Requires the following OAuth scope:
 
-  - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/cloud-platform`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -52,6 +48,6 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 Requires the following [IAM](https://cloud.google.com/iam/docs) permission on the `name` resource:
 
-  - `policysimulator.orgPolicyViolationsPreviews.get`
+- `policysimulator.orgPolicyViolationsPreviews.get`
 
 For more information, see the [IAM documentation](https://cloud.google.com/iam/docs) .

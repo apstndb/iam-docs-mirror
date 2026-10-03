@@ -26,12 +26,12 @@ If you need to give principals a distinct set of permissions for each session, u
 
 A Credential Access Boundary is an object that contains a list of *access boundary rules* . Each rule contains the following information:
 
-  - The resource that the rule applies to.
-  - The upper bound of the permissions that are available on that resource.
-  - Optional: A condition that further restricts permissions. A condition includes the following:
-      - A condition expression that evaluates to `true` or `false` . If it evaluates to `true` , access is allowed; otherwise, access is denied.
-      - Optional: A title that identifies the condition.
-      - Optional: A description with more information about the condition.
+- The resource that the rule applies to.
+- The upper bound of the permissions that are available on that resource.
+- Optional: A condition that further restricts permissions. A condition includes the following:
+  - A condition expression that evaluates to `true` or `false` . If it evaluates to `true` , access is allowed; otherwise, access is denied.
+  - Optional: A title that identifies the condition.
+  - Optional: A description with more information about the condition.
 
 If you apply a Credential Access Boundary to a short-lived credential, then the credential can access only the resources in the Credential Access Boundary. No permissions are available on other resources.
 
@@ -39,65 +39,69 @@ A Credential Access Boundary can contain up to 10 access boundary rules. You can
 
 When represented as a JSON object, a Credential Access Boundary contains the following fields:
 
-Fields
-
-`accessBoundary`
-
-`object`
-
-A wrapper for the Credential Access Boundary.
-
-`accessBoundary.accessBoundaryRules[]`
-
-`object`
-
-A list of access boundary rules to apply to a short-lived credential.
-
-`accessBoundary.accessBoundaryRules[].availablePermissions[]`
-
-`string`
-
-A list that defines the upper bound on the available permissions for the resource.
-
-Each value is the identifier for an IAM [predefined role](https://docs.cloud.google.com/iam/docs/understanding-roles) or [custom role](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) , with the prefix `inRole:` . For example: `inRole:roles/storage.objectViewer` . Only the permissions in these roles will be available.
-
-> **Note:** You cannot specify the names of permissions directly. Instead, specify a role that the permission appears in. If necessary, [create a custom role](https://docs.cloud.google.com/iam/docs/creating-custom-roles) that includes only the permissions you need.
-
-`accessBoundary.accessBoundaryRules[].availableResource`
-
-`string`
-
-The full resource name of the Cloud Storage bucket that the rule applies to. Use the format ` //storage.googleapis.com/projects/_/buckets/ bucket-name  ` .
-
-`accessBoundary.accessBoundaryRules[].availabilityCondition`
-
-`object`
-
-Optional. A condition that restricts the availability of permissions to specific Cloud Storage objects.
-
-Use this field if you want to make permissions available for specific objects, rather than all objects in a Cloud Storage bucket.
-
-`accessBoundary.accessBoundaryRules[].availabilityCondition.expression`
-
-`string`
-
-A [condition expression](https://docs.cloud.google.com/iam/docs/conditions-overview#syntax_overview) that specifies the Cloud Storage objects where permissions are available.
-
-To learn how to refer to specific objects in a condition expression, see [`resource.name` attribute](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#resourcename_attribute) and [`api.getAttribute("storage.googleapis.com/objectListPrefix")` attribute](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#api-attributes-storage) .
-
-> **Note:** If any of your applications [list Cloud Storage objects](https://docs.cloud.google.com/storage/docs/json_api/v1/objects/list) and use the `prefix` parameter to filter the response, you must take extra steps to prevent a conflict between the IAM condition expression and the Cloud Storage filter. For details, see [Limit permissions when listing objects](https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials#example-object-prefix) on this page.
-
-`accessBoundary.accessBoundaryRules[].availabilityCondition.title`
-
-`string`
-
-Optional. A short string that identifies the purpose of the condition.
-
-`accessBoundary.accessBoundaryRules[].availabilityCondition.description`
-
-`string`
-
-Optional. Details about the purpose of the condition.
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fields</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>accessBoundary</code></td>
+<td><p><code>object</code></p>
+<p>A wrapper for the Credential Access Boundary.</p></td>
+</tr>
+<tr class="even">
+<td><code>accessBoundary.accessBoundaryRules[]</code></td>
+<td><p><code>object</code></p>
+<p>A list of access boundary rules to apply to a short-lived credential.</p></td>
+</tr>
+<tr class="odd">
+<td><code>accessBoundary.accessBoundaryRules[].availablePermissions[]</code></td>
+<td><p><code>string</code></p>
+<p>A list that defines the upper bound on the available permissions for the resource.</p>
+<p>Each value is the identifier for an IAM <a href="https://docs.cloud.google.com/iam/docs/understanding-roles">predefined role</a> or <a href="https://docs.cloud.google.com/iam/docs/understanding-custom-roles">custom role</a> , with the prefix <code>inRole:</code> . For example: <code>inRole:roles/storage.objectViewer</code> . Only the permissions in these roles will be available.</p>
+<blockquote>
+<strong>Note:</strong> You cannot specify the names of permissions directly. Instead, specify a role that the permission appears in. If necessary, <a href="https://docs.cloud.google.com/iam/docs/creating-custom-roles">create a custom role</a> that includes only the permissions you need.
+</blockquote></td>
+</tr>
+<tr class="even">
+<td><code>accessBoundary.accessBoundaryRules[].availableResource</code></td>
+<td><p><code>string</code></p>
+<p>The full resource name of the Cloud Storage bucket that the rule applies to. Use the format <code>//storage.googleapis.com/projects/_/buckets/ </code><var translate="no"> bucket-name</var> .</p></td>
+</tr>
+<tr class="odd">
+<td><code>accessBoundary.accessBoundaryRules[].availabilityCondition</code></td>
+<td><p><code>object</code></p>
+<p>Optional. A condition that restricts the availability of permissions to specific Cloud Storage objects.</p>
+<p>Use this field if you want to make permissions available for specific objects, rather than all objects in a Cloud Storage bucket.</p></td>
+</tr>
+<tr class="even">
+<td><code>accessBoundary.accessBoundaryRules[].availabilityCondition.expression</code></td>
+<td><p><code>string</code></p>
+<p>A <a href="https://docs.cloud.google.com/iam/docs/conditions-overview#syntax_overview">condition expression</a> that specifies the Cloud Storage objects where permissions are available.</p>
+<p>To learn how to refer to specific objects in a condition expression, see <a href="https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#resourcename_attribute"><code>resource.name</code> attribute</a> and <a href="https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#api-attributes-storage"><code>api.getAttribute("storage.googleapis.com/objectListPrefix")</code> attribute</a> .</p>
+<blockquote>
+<strong>Note:</strong> If any of your applications <a href="https://docs.cloud.google.com/storage/docs/json_api/v1/objects/list">list Cloud Storage objects</a> and use the <code>prefix</code> parameter to filter the response, you must take extra steps to prevent a conflict between the IAM condition expression and the Cloud Storage filter. For details, see <a href="https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials#example-object-prefix">Limit permissions when listing objects</a> on this page.
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td><code>accessBoundary.accessBoundaryRules[].availabilityCondition.title</code></td>
+<td><p><code>string</code></p>
+<p>Optional. A short string that identifies the purpose of the condition.</p></td>
+</tr>
+<tr class="even">
+<td><code>accessBoundary.accessBoundaryRules[].availabilityCondition.description</code></td>
+<td><p><code>string</code></p>
+<p>Optional. Details about the purpose of the condition.</p></td>
+</tr>
+</tbody>
+</table>
 
 For examples in JSON format, see [Examples of Credential Access Boundaries](https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials#examples) on this page.
 
@@ -109,66 +113,70 @@ The following sections show examples of Credential Access Boundaries for common 
 
 The following example shows a simple Credential Access Boundary. It applies to the Cloud Storage bucket `example-bucket` , and it sets the upper bound to the permissions included in the Storage Object Viewer role ( `roles/storage.objectViewer` ):
 
-    {
-      "accessBoundary": {
-        "accessBoundaryRules": [
-          {
-            "availablePermissions": [
-              "inRole:roles/storage.objectViewer"
-            ],
-            "availableResource": "//storage.googleapis.com/projects/_/buckets/example-bucket"
-          }
-        ]
+```
+{
+  "accessBoundary": {
+    "accessBoundaryRules": [
+      {
+        "availablePermissions": [
+          "inRole:roles/storage.objectViewer"
+        ],
+        "availableResource": "//storage.googleapis.com/projects/_/buckets/example-bucket"
       }
-    }
+    ]
+  }
+}
+```
 
 ### Limit permissions for multiple buckets
 
 The following example shows a Credential Access Boundary that includes rules for multiple buckets:
 
-  - The Cloud Storage bucket `example-bucket-1` : For this bucket, only the permissions in the Storage Object Viewer role ( `roles/storage.objectViewer` ) are available.
-  - The Cloud Storage bucket `example-bucket-2` : For this bucket, only the permissions in the Storage Object Creator role ( `roles/storage.objectCreator` ) are available.
+- The Cloud Storage bucket `example-bucket-1` : For this bucket, only the permissions in the Storage Object Viewer role ( `roles/storage.objectViewer` ) are available.
+- The Cloud Storage bucket `example-bucket-2` : For this bucket, only the permissions in the Storage Object Creator role ( `roles/storage.objectCreator` ) are available.
 
-<!-- end list -->
-
-    {
-      "accessBoundary": {
-        "accessBoundaryRules": [
-          {
-            "availablePermissions": [
-              "inRole:roles/storage.objectViewer"
-            ],
-            "availableResource": "//storage.googleapis.com/projects/_/buckets/example-bucket-1"
-          },
-          {
-            "availablePermissions": [
-              "inRole:roles/storage.objectCreator"
-            ],
-            "availableResource": "//storage.googleapis.com/projects/_/buckets/example-bucket-2"
-          }
-        ]
+```
+{
+  "accessBoundary": {
+    "accessBoundaryRules": [
+      {
+        "availablePermissions": [
+          "inRole:roles/storage.objectViewer"
+        ],
+        "availableResource": "//storage.googleapis.com/projects/_/buckets/example-bucket-1"
+      },
+      {
+        "availablePermissions": [
+          "inRole:roles/storage.objectCreator"
+        ],
+        "availableResource": "//storage.googleapis.com/projects/_/buckets/example-bucket-2"
       }
-    }
+    ]
+  }
+}
+```
 
 ### Limit permissions for specific objects
 
 You can also use [IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) to specify which Cloud Storage objects a principal can access. For example, you can add a condition that makes permissions available for objects whose name starts with `customer-a` :
 
-    {
-      "accessBoundary": {
-        "accessBoundaryRules": [
-          {
-            "availablePermissions": [
-              "inRole:roles/storage.objectViewer"
-            ],
-            "availableResource": "//storage.googleapis.com/projects/_/buckets/example-bucket",
-            "availabilityCondition": {
-              "expression" : "resource.name.startsWith('projects/_/buckets/example-bucket/objects/customer-a')"
-            }
-          }
-        ]
+```
+{
+  "accessBoundary": {
+    "accessBoundaryRules": [
+      {
+        "availablePermissions": [
+          "inRole:roles/storage.objectViewer"
+        ],
+        "availableResource": "//storage.googleapis.com/projects/_/buckets/example-bucket",
+        "availabilityCondition": {
+          "expression" : "resource.name.startsWith('projects/_/buckets/example-bucket/objects/customer-a')"
+        }
       }
-    }
+    ]
+  }
+}
+```
 
 ### Limit permissions when listing objects
 
@@ -178,12 +186,14 @@ This naming convention can lead to unexpected behavior when you list objects. Fo
 
 Incomplete: Condition that checks only the resource name
 
-    resource.name.startsWith('projects/_/buckets/example-bucket/objects/customer-a/invoices/')
+```
+resource.name.startsWith('projects/_/buckets/example-bucket/objects/customer-a/invoices/')
+```
 
 This condition works for reading objects, but not for listing objects:
 
-  - When a principal tries to read an object in `example-bucket` with the prefix `customer-a/invoices/` , the condition evaluates to `true` .
-  - When a principal tries to list objects with that prefix, the condition evaluates to `false` . The value of `resource.name` is `projects/_/buckets/example-bucket` , which does not start with `projects/_/buckets/example-bucket/objects/customer-a/invoices/` .
+- When a principal tries to read an object in `example-bucket` with the prefix `customer-a/invoices/` , the condition evaluates to `true` .
+- When a principal tries to list objects with that prefix, the condition evaluates to `false` . The value of `resource.name` is `projects/_/buckets/example-bucket` , which does not start with `projects/_/buckets/example-bucket/objects/customer-a/invoices/` .
 
 To prevent this issue, in addition to using `resource.name.startsWith()` , your condition can check an [API attribute](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#api) named `storage.googleapis.com/objectListPrefix` . This attribute contains the value of the `prefix` parameter that was used to filter the list of objects. As a result, you can write a condition that refers to the value of the `prefix` parameter.
 
@@ -193,28 +203,32 @@ The following example shows how to use the API attribute in a condition. It allo
 
 Complete: Condition that checks the resource name and the prefix
 
-    resource.name.startsWith('projects/_/buckets/example-bucket/objects/customer-a/invoices/')  ||
-        api.getAttribute('storage.googleapis.com/objectListPrefix', '')
-                         .startsWith('customer-a/invoices/')
+```
+resource.name.startsWith('projects/_/buckets/example-bucket/objects/customer-a/invoices/')  ||
+    api.getAttribute('storage.googleapis.com/objectListPrefix', '')
+                     .startsWith('customer-a/invoices/')
+```
 
 You can now use this condition in a Credential Access Boundary:
 
-    {
-      "accessBoundary": {
-        "accessBoundaryRules": [
-          {
-            "availablePermissions": [
-              "inRole:roles/storage.objectViewer"
-            ],
-            "availableResource": "//storage.googleapis.com/projects/_/buckets/example-bucket",
-            "availabilityCondition": {
-              "expression":
-                "resource.name.startsWith('projects/_/buckets/example-bucket/objects/customer-a/invoices/') || api.getAttribute('storage.googleapis.com/objectListPrefix', '').startsWith('customer-a/invoices/')"
-            }
-          }
-        ]
+```
+{
+  "accessBoundary": {
+    "accessBoundaryRules": [
+      {
+        "availablePermissions": [
+          "inRole:roles/storage.objectViewer"
+        ],
+        "availableResource": "//storage.googleapis.com/projects/_/buckets/example-bucket",
+        "availabilityCondition": {
+          "expression":
+            "resource.name.startsWith('projects/_/buckets/example-bucket/objects/customer-a/invoices/') || api.getAttribute('storage.googleapis.com/objectListPrefix', '').startsWith('customer-a/invoices/')"
+        }
       }
-    }
+    ]
+  }
+}
+```
 
 ### Limit permissions for folders
 
@@ -222,25 +236,27 @@ If a bucket has hierarchical namespace enabled, you can use IAM Conditions to sp
 
 The following example makes the permissions in the Storage Object User role ( `roles/storage.objectUser` ) available for a folder and the objects within it.
 
-    {
-      "accessBoundary": {
-        "accessBoundaryRules": [
-          {
-            "availablePermissions": [
-              "inRole:roles/storage.objectUser"
-            ],
-            "availableResource": "//storage.googleapis.com/projects/_/buckets/example-folder",
-            "availabilityCondition": {
-              "expression" : "resource.name.startsWith('projects/_/buckets/example-bucket/objects/example-folder') || resource.name.startsWith('projects/_/buckets/example-bucket/folders/example-folder') || api.getAttribute('storage.googleapis.com/objectListPrefix', '').startsWith('{example-folder}')"
-            }
-          }
-        ]
+```
+{
+  "accessBoundary": {
+    "accessBoundaryRules": [
+      {
+        "availablePermissions": [
+          "inRole:roles/storage.objectUser"
+        ],
+        "availableResource": "//storage.googleapis.com/projects/_/buckets/example-folder",
+        "availabilityCondition": {
+          "expression" : "resource.name.startsWith('projects/_/buckets/example-bucket/objects/example-folder') || resource.name.startsWith('projects/_/buckets/example-bucket/folders/example-folder') || api.getAttribute('storage.googleapis.com/objectListPrefix', '').startsWith('{example-folder}')"
+        }
       }
-    }
+    ]
+  }
+}
+```
 
 ## What's next
 
-  - Learn how to [create a downscoped short-lived credential](https://docs.cloud.google.com/iam/docs/create-downscoped-short-lived-credentials) .
-  - Learn about [access control for Cloud Storage](https://docs.cloud.google.com/storage/docs/access-control) .
-  - See the [permissions in each predefined role](https://docs.cloud.google.com/iam/docs/roles-permissions) .
-  - Learn about [custom roles](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) .
+- Learn how to [create a downscoped short-lived credential](https://docs.cloud.google.com/iam/docs/create-downscoped-short-lived-credentials) .
+- Learn about [access control for Cloud Storage](https://docs.cloud.google.com/storage/docs/access-control) .
+- See the [permissions in each predefined role](https://docs.cloud.google.com/iam/docs/roles-permissions) .
+- Learn about [custom roles](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) .

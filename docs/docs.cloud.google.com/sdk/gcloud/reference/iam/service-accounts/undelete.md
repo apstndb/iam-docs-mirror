@@ -12,7 +12,7 @@ gcloud iam service-accounts undelete - undelete a service account for a project
 
 SYNOPSIS
 
-`gcloud iam service-accounts undelete` `  ACCOUNT_ID  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam service-accounts undelete` [`ACCOUNT_ID`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/undelete#ACCOUNT_ID) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/undelete#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -24,18 +24,20 @@ EXAMPLES
 
 The following command undeletes a service account with unique id `103271949540120710052` :
 
-    gcloud iam service-accounts undelete 103271949540120710052
+```
+gcloud iam service-accounts undelete 103271949540120710052
+```
 
 POSITIONAL ARGUMENTS
 
-  - `  ACCOUNT_ID  `  
-    The deleted service account's unique ID must be provided when using the undelete command. Unique IDs are a 21 digit number, such as 103271949540120710052.
+`ACCOUNT_ID`  
+The deleted service account's unique ID must be provided when using the undelete command. Unique IDs are a 21 digit number, such as 103271949540120710052.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 API REFERENCE
 
@@ -45,6 +47,10 @@ NOTES
 
 These variants are also available:
 
-    gcloud alpha iam service-accounts undelete
+```
+gcloud alpha iam service-accounts undelete
+```
 
-    gcloud beta iam service-accounts undelete
+```
+gcloud beta iam service-accounts undelete
+```

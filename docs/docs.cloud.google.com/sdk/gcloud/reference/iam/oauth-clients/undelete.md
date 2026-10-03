@@ -12,7 +12,7 @@ gcloud iam oauth-clients undelete - undelete an OAuth client
 
 SYNOPSIS
 
-`gcloud iam oauth-clients undelete` ( `  OAUTH_CLIENT  ` : `  --location  ` = `  LOCATION  ` ) \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam oauth-clients undelete` ( [`OAUTH_CLIENT`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/oauth-clients/undelete#OAUTH_CLIENT) : [`--location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/oauth-clients/undelete#--location) = `LOCATION` ) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/oauth-clients/undelete#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -20,9 +20,11 @@ Undelete an OAuth client.
 
 EXAMPLES
 
-The following command undeletes the OAuth client with the ID `  my-oauth-client  ` in the default project:
+The following command undeletes the OAuth client with the ID `my-oauth-client` in the default project:
 
-    gcloud iam oauth-clients undelete my-oauth-client --location="global"
+```
+gcloud iam oauth-clients undelete my-oauth-client --location="global"
+```
 
 POSITIONAL ARGUMENTS
 
@@ -30,34 +32,34 @@ Oauth client resource - The OAuth client to undelete. The arguments in this grou
 
 To set the `project` attribute:
 
-  - provide the argument `oauth_client` on the command line with a fully specified name;
-  - provide the argument `--project` on the command line;
-  - set the property `core/project` .
+- provide the argument `oauth_client` on the command line with a fully specified name;
+- provide the argument `--project` on the command line;
+- set the property `core/project` .
 
 This must be specified.
 
-  - `  OAUTH_CLIENT  `  
-    ID of the oauth client or fully qualified identifier for the oauth client.
-    
-    To set the `oauth_client` attribute:
-    
-      - provide the argument `oauth_client` on the command line.
-    
-    This positional argument must be specified if any of the other arguments in this group are specified.
+`OAUTH_CLIENT`  
+ID of the oauth client or fully qualified identifier for the oauth client.
 
-  - `--location` = `  LOCATION  `  
-    The location name.
-    
-    To set the `location` attribute:
-    
-      - provide the argument `oauth_client` on the command line with a fully specified name;
-      - provide the argument `--location` on the command line.
+To set the `oauth_client` attribute:
+
+- provide the argument `oauth_client` on the command line.
+
+This positional argument must be specified if any of the other arguments in this group are specified.
+
+`--location` = `LOCATION`  
+The location name.
+
+To set the `location` attribute:
+
+- provide the argument `oauth_client` on the command line with a fully specified name;
+- provide the argument `--location` on the command line.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 API REFERENCE
 
@@ -67,4 +69,6 @@ NOTES
 
 This variant is also available:
 
-    gcloud alpha iam oauth-clients undelete
+```
+gcloud alpha iam oauth-clients undelete
+```

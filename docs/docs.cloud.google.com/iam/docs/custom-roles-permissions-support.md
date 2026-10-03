@@ -11,7 +11,7 @@ This page indicates which Identity and Access Management (IAM) permissions are s
 You can include many, but not all, IAM permissions in custom roles. Each permission has one of the following support levels for use in custom roles:
 
 | Support level   | Description                                                                                                                                                                                               |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `SUPPORTED`     | The permission is fully supported in custom roles.                                                                                                                                                        |
 | `TESTING`       | Google is testing the permission to check its compatibility with custom roles. You can include the permission in custom roles, but you might see unexpected behavior. Not recommended for production use. |
 | `NOT_SUPPORTED` | The permission is not supported in custom roles.                                                                                                                                                          |
@@ -25,7 +25,7 @@ The following table lists all IAM permissions and indicates which permissions ar
 Enter the desired permission name or support level in the text box below:
 
 | Permission name                                                                | Custom roles support level |
-| ------------------------------------------------------------------------------ | -------------------------- |
+|--------------------------------------------------------------------------------|----------------------------|
 | `accessapproval.requests.approve`                                              | `SUPPORTED`                |
 | `accessapproval.requests.dismiss`                                              | `SUPPORTED`                |
 | `accessapproval.requests.get`                                                  | `SUPPORTED`                |

@@ -10,13 +10,13 @@ This page describes the identity types that you can use to configure your worklo
 
 Google Cloud provides the following types of identities for workloads:
 
-  - [**Workload Identity Federation**](https://docs.cloud.google.com/iam/docs/workload-identity-federation) and [**Workload Identity Federation for GKE**](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/workload-identity) let your workloads access most Google Cloud services by using federated identities that are authenticated through an external identity provider (IdP). After Google Cloud authenticates the identity as a principal, the principal can access resources by using IAM roles that you grant.
+- [**Workload Identity Federation**](https://docs.cloud.google.com/iam/docs/workload-identity-federation) and [**Workload Identity Federation for GKE**](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/workload-identity) let your workloads access most Google Cloud services by using federated identities that are authenticated through an external identity provider (IdP). After Google Cloud authenticates the identity as a principal, the principal can access resources by using IAM roles that you grant.
 
-  - [**Google Cloud service accounts**](https://docs.cloud.google.com/iam/docs/service-account-overview) can act as identities for workloads in production environments. Instead of granting access to a workload directly, you grant access to a service account, then have the workload use the service account as its identity.
+- [**Google Cloud service accounts**](https://docs.cloud.google.com/iam/docs/service-account-overview) can act as identities for workloads in production environments. Instead of granting access to a workload directly, you grant access to a service account, then have the workload use the service account as its identity.
 
-  - [**Managed workload identities**](https://docs.cloud.google.com/iam/docs/managed-workload-identity) let you bind strongly attested identities to your Compute Engine and GKE workloads.
+- [**Managed workload identities**](https://docs.cloud.google.com/iam/docs/managed-workload-identity) let you bind strongly attested identities to your Compute Engine and GKE workloads.
 
-  - [**Agent identities**](https://docs.cloud.google.com/iam/docs/workload-identities#agent-identity) are Google-managed identities for agentic workloads. Agent identities are attested and tied to the lifecycle of the agents. This provides a more secure way to manage agent access to Google Cloud resources than using service accounts.
+- [**Agent identities**](https://docs.cloud.google.com/iam/docs/workload-identities#agent-identity) are Google-managed identities for agentic workloads. Agent identities are attested and tied to the lifecycle of the agents. This provides a more secure way to manage agent access to Google Cloud resources than using service accounts.
 
 The types of identities that you can use for workloads and the way that you configure them depends on where your workloads are running.
 
@@ -24,10 +24,10 @@ The types of identities that you can use for workloads and the way that you conf
 
 If you're running workloads on Google Cloud, you can use the following methods to configure identities for your workloads:
 
-  - Attached service accounts
-  - Workload Identity Federation for GKE (for workloads running on Google Kubernetes Engine only)
-  - Managed workload identities (for workloads that run on Compute Engine and GKE only)
-  - Service account keys
+- Attached service accounts
+- Workload Identity Federation for GKE (for workloads running on Google Kubernetes Engine only)
+- Managed workload identities (for workloads that run on Compute Engine and GKE only)
+- Service account keys
 
 ### Attached service accounts
 
@@ -65,8 +65,8 @@ To learn more about agent identities and how to use them, see [Use agent identit
 
 If you're running workloads outside of Google Cloud, you can use the following methods to configure identities for your workloads:
 
-  - Workload Identity Federation
-  - Service account keys
+- Workload Identity Federation
+- Service account keys
 
 ### Workload Identity Federation
 
@@ -83,7 +83,7 @@ To learn more about Workload Identity Federation, see [Workload Identity Federat
 A service account key lets a workload authenticate as a service account, then use the service account's identity for authorization.
 
 > **Note:** Service account keys are a security risk if not managed correctly. You should [choose a more secure alternative to service account keys](https://docs.cloud.google.com/docs/authentication#auth-decision-tree) whenever possible. If you must authenticate with a service account key, you are responsible for the security of the private key and for other operations described by [Best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) . If you are prevented from creating a service account key, service account key creation might be disabled for your organization. For more information, see [Managing secure-by-default organization resources](https://docs.cloud.google.com/resource-manager/docs/secure-by-default-organizations) .
-> 
+>
 > If you acquired the service account key from an external source, you must validate it before use. For more information, see [Security requirements for externally sourced credentials](https://docs.cloud.google.com/docs/authentication/external/externally-sourced-credentials) .
 
 ## Local development
@@ -92,6 +92,6 @@ If you're developing in a local environment, you can configure workloads to use 
 
 ## What's next
 
-  - Learn how to [set up authentication by using service accounts](https://docs.cloud.google.com/docs/authentication#service-accounts) .
-  - Learn how to [set up authentication for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) .
-  - Learn how to [grant service accounts access to resources](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+- Learn how to [set up authentication by using service accounts](https://docs.cloud.google.com/docs/authentication#service-accounts) .
+- Learn how to [set up authentication for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) .
+- Learn how to [grant service accounts access to resources](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .

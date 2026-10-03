@@ -21,7 +21,7 @@ Historical audit data is stored in Cloud Storage. The organization uses an appli
 The table below explains the IAM roles that need to be granted to the CTO, security team, and service account, as well as the resource level at which the roles are granted.
 
 | Role                                  | Resource     | Principal     | Description                                                                                                                              |
-| ------------------------------------- | ------------ | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+|---------------------------------------|--------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | **resourcemanager.organizationAdmin** | Organization | CTO           | The **resourcemanager.organizationAdmin** role gives the CTO the ability to assign permissions to the security team and service account. |
 | **logging.viewer**                    | Organization | Security team | The **logging.viewer** role gives the security admin team the ability to view the Admin Activity logs.                                   |
 | **logging.privateLogViewer**          | Organization | Security team | The **logging.privateLogViewer** role gives the ability to view the Data Access logs.                                                    |
@@ -29,50 +29,54 @@ The table below explains the IAM roles that need to be granted to the CTO, secur
 Once log entries have been exported, access to the exported copies is controlled entirely by IAM permissions and roles on any of the destinations: Cloud Storage, BigQuery, or Pub/Sub. In this scenario, Cloud Storage is the destination for long term storage of audit logs.
 
 | Role               | Resource     | Principal       | Description                                                                                               |
-| ------------------ | ------------ | --------------- | --------------------------------------------------------------------------------------------------------- |
+|--------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
 | **logging.viewer** | Organization | Service account | The **logging.viewer** role permits the service account to read the Admin Activity logs in Cloud Logging. |
 
 Data in the Data Access logs is deemed as personally identifiable information (PII) for this organization. Integrating the application with [Sensitive Data Protection](https://docs.cloud.google.com/sensitive-data-protection/docs) gives the ability to redact sensitive PII data when viewing Data Access logs whether they are in the Data Access logs or from the historical archive in Cloud Storage.
 
 | Role                     | Resource | Principal       | Description                                                                                             |
-| ------------------------ | -------- | --------------- | ------------------------------------------------------------------------------------------------------- |
+|--------------------------|----------|-----------------|---------------------------------------------------------------------------------------------------------|
 | **storage.objectViewer** | Bucket   | Service account | The **storage.objectViewer** role permits the service account to read the exported Admin Activity logs. |
 
 The allow policy bound to the organization resource for this scenario will look similar to the following:
 
+```
+{
+  "bindings": [{
+    "role": "roles/resourcemanager.organizationAdmin",
+      "members": [
+        "user:cto@example.com"
+      ]
+    },
     {
-      "bindings": [{
-        "role": "roles/resourcemanager.organizationAdmin",
-          "members": [
-            "user:cto@example.com"
-          ]
-        },
-        {
-          "role": "roles/logging.viewer",
-          "members": [
-            "group:security-team@example.com",
-            "serviceAccount:prod-logviewer@admin-resources.iam.gserviceaccount.com"
-          ]
-        },
-        {
-          "role": "roles/logging.privateLogViewer",
-          "members": [
-            "group:security-team@example.com"
-          ]
-        }
+      "role": "roles/logging.viewer",
+      "members": [
+        "group:security-team@example.com",
+        "serviceAccount:prod-logviewer@admin-resources.iam.gserviceaccount.com"
+      ]
+    },
+    {
+      "role": "roles/logging.privateLogViewer",
+      "members": [
+        "group:security-team@example.com"
       ]
     }
+  ]
+}
+```
 
 The allow policy bound at the bucket configured as the destination sink for this scenario will look similar to the following:
 
-    {
-      "bindings": [{
-        "role": "roles/storage.objectViewer",
-        "members": [
-          "serviceAccount:prod-logviewer@admin-resources.iam.gserviceaccount.com"
-        ]
-      }]
-    }
+```
+{
+  "bindings": [{
+    "role": "roles/storage.objectViewer",
+    "members": [
+      "serviceAccount:prod-logviewer@admin-resources.iam.gserviceaccount.com"
+    ]
+  }]
+}
+```
 
 ## Scenario: Development teams monitoring their audit logs
 
@@ -81,7 +85,7 @@ In this scenario, the organization's developers need to look at audit logs gener
 The table below explains the IAM roles that need to be granted to the security team, developers, and service account, as well as the resource level at which the roles are granted.
 
 | Role                         | Resource     | Principal      | Description                                                                                                                                                                                          |
-| ---------------------------- | ------------ | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|------------------------------|--------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **logging.viewer**           | Organization | Security team  | The **logging.viewer** role gives the security admin team the ability to view the Admin Activity logs.                                                                                               |
 | **logging.privateLogViewer** | Organization | Security team  | The **logging.privateLogViewer** role gives the ability to view the Data Access logs.                                                                                                                |
 | **logging.viewer**           | Folder       | Developer team | The **logging.viewer** role gives the developer team the ability to view the Admin Activity logs generated by the developer projects contained in a folder where all developer projects are located. |
@@ -90,53 +94,59 @@ The table below explains the IAM roles that need to be granted to the security t
 Access to the exported copies is controlled entirely by IAM permissions and roles on any of the destinations: Cloud Storage, BigQuery, or Pub/Sub. In this scenario, BigQuery is the destination for storage of audit logs.
 
 | Role                    | Resource         | Principal                 | Description                                                                                                                              |
-| ----------------------- | ---------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+|-------------------------|------------------|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | **bigquery.dataViewer** | BigQuery dataset | Dashboard service account | The **bigquery.dataViewer** role permits the service account used by the dashboard application to read the exported Admin Activity logs. |
 
 The allow policy bound to the development team's folder resource for this scenario will look similar to the following:
 
-    {
-      "bindings": [{
-        "role": "roles/logging.viewer",
-        "members": [
-          "group:developer-team@example.com"
-        ]
-      },
-      {
-        "role": "roles/logging.privateLogViewer",
-        "members": [
-          "group:developer-team@example.com"
-        ]
-      }]
-    }
+```
+{
+  "bindings": [{
+    "role": "roles/logging.viewer",
+    "members": [
+      "group:developer-team@example.com"
+    ]
+  },
+  {
+    "role": "roles/logging.privateLogViewer",
+    "members": [
+      "group:developer-team@example.com"
+    ]
+  }]
+}
+```
 
 The allow policy bound to the organization resource for this scenario will look similar to the following:
 
-    {
-      "bindings": [{
-        "role": "roles/logging.viewer",
-        "members": [
-          "group:security-team@example.com"
-        ]
-      },
-      {
-        "role": "roles/logging.privateLogViewer",
-        "members": [
-          "group:security-team@example.com"
-        ]
-      }]
-    }
+```
+{
+  "bindings": [{
+    "role": "roles/logging.viewer",
+    "members": [
+      "group:security-team@example.com"
+    ]
+  },
+  {
+    "role": "roles/logging.privateLogViewer",
+    "members": [
+      "group:security-team@example.com"
+    ]
+  }]
+}
+```
 
 The allow policy bound at the BigQuery dataset that is configured as the destination sink for this scenario will look similar to the following:
 
-    {
-      "bindings": [{
-        "role": "roles/bigquery.dataViewer",
-        "members": [
-          "serviceAccount:prod-project-dashboard@admin-resources.iam.gserviceaccount.com"
-        ]
-      }]
-    }
+```
+{
+  "bindings": [{
+    "role": "roles/bigquery.dataViewer",
+    "members": [
+      "serviceAccount:prod-project-dashboard@admin-resources.iam.gserviceaccount.com"
+    ]
+  }]
+}
+```
 
 ## Scenario: External auditors
 
@@ -151,28 +161,32 @@ Data is redacted using Sensitive Data Protection before being made accessible fo
 The table below explains IAM logging roles that an Organization Administrator can grant to the service account used by the dashboard, as well as the resource level at which the role is granted.
 
 | Role                    | Resource         | Principal                 | Description                                                                                                                              |
-| ----------------------- | ---------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+|-------------------------|------------------|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | **logging.viewer**      | Organization     | Dashboard service account | The **logging.viewer** role permits the service account to read the Admin Activity logs in Cloud Logging.                                |
 | **bigquery.dataViewer** | BigQuery dataset | Dashboard service account | The **bigquery.dataViewer** role permits the service account used by the dashboard application to read the exported Admin Activity logs. |
 
 The allow policy bound to the Organization resource for this scenario will look similar to the following:
 
-    {
-      "bindings": [{
-        "role": "roles/logging.viewer",
-        "members": [
-          "serviceAccount:prod-project-dashboard@admin-resources.iam.gserviceaccount.com"
-        ]
-      }]
-    }
+```
+{
+  "bindings": [{
+    "role": "roles/logging.viewer",
+    "members": [
+      "serviceAccount:prod-project-dashboard@admin-resources.iam.gserviceaccount.com"
+    ]
+  }]
+}
+```
 
 The allow policy bound at the BigQuery dataset that is configured as the destination sink for this scenario will look similar to the following:
 
-    {
-      "bindings": [{
-        "role": "roles/bigquery.dataViewer",
-        "members": [
-          "serviceAccount:prod-project-dashboard@admin-resources.iam.gserviceaccount.com"
-        ]
-      }]
-    }
+```
+{
+  "bindings": [{
+    "role": "roles/bigquery.dataViewer",
+    "members": [
+      "serviceAccount:prod-project-dashboard@admin-resources.iam.gserviceaccount.com"
+    ]
+  }]
+}
+```

@@ -31,8 +31,8 @@ The amount of time it takes for an access change to propagate depends on how you
 <p>Change a principal's access by editing an allow or deny policy.</p>
 <p>When making policy changes, you can't exceed the <a href="https://docs.cloud.google.com/iam/quotas#limits">limits on the number of principals allowed in a policy</a> .</p></td>
 <td><ul>
-<li>You edit your organization's allow policy to grant a principal the Organization Administrator role ( <code dir="ltr" translate="no">roles/resourcemanager.organizationAdmin</code> ).</li>
-<li>You edit an organization-level deny policy to deny a principal the <code dir="ltr" translate="no">cloudresourcemanager.googleapis.com/  projects.setIamPolicy</code> permission.</li>
+<li>You edit your organization's allow policy to grant a principal the Organization Administrator role ( <code>roles/resourcemanager.organizationAdmin</code> ).</li>
+<li>You edit an organization-level deny policy to deny a principal the <code>cloudresourcemanager.googleapis.com/ projects.setIamPolicy</code> permission.</li>
 <li>You edit an allow policy to add <a href="https://docs.cloud.google.com/iam/docs/conditions-overview">IAM Conditions</a> to a role binding.</li>
 </ul></td>
 <td>Typically 2 minutes, potentially 7 minutes or longer</td>
@@ -41,17 +41,17 @@ The amount of time it takes for an access change to propagate depends on how you
 <td><p><strong>Change a group's membership</strong></p>
 <p>Change a principal's access by adding or removing them from a Google group that's included in an allow or deny policy.</p></td>
 <td><ul>
-<li>You have a group, <code dir="ltr" translate="no">org-admins@example.com</code> , that is granted the Organization Administrator role on your organization. You add a principal to the group to give them the Organization Administrator role.</li>
-<li>You have a group, <code dir="ltr" translate="no">eng@example.com</code> , that is denied the <code dir="ltr" translate="no">cloudresourcemanager.googleapis.com/  projects.setIamPolicy</code> permission at the organization level. You add a principal to the group to deny them the <code dir="ltr" translate="no">cloudresourcemanager.googleapis.com/  projects.setIamPolicy</code> permission.</li>
+<li>You have a group, <code>org-admins@example.com</code> , that is granted the Organization Administrator role on your organization. You add a principal to the group to give them the Organization Administrator role.</li>
+<li>You have a group, <code>eng@example.com</code> , that is denied the <code>cloudresourcemanager.googleapis.com/ projects.setIamPolicy</code> permission at the organization level. You add a principal to the group to deny them the <code>cloudresourcemanager.googleapis.com/ projects.setIamPolicy</code> permission.</li>
 </ul></td>
 <td>Typically several minutes, potentially hours or longer</td>
 </tr>
 <tr class="odd">
 <td><p><strong>Change a nested group's membership</strong></p>
-<p>Change a principal's access by adding or removing them from a <a href="https://support.google.com/a/answer/167100" class="external">nested group</a> whose parent group is included in an allow or deny policy.</p></td>
+<p>Change a principal's access by adding or removing them from a <a href="https://support.google.com/a/answer/167100">nested group</a> whose parent group is included in an allow or deny policy.</p></td>
 <td><ul>
-<li>You have a group, <code dir="ltr" translate="no">admins@example.com</code> , that is granted the Tag Viewer role ( <code dir="ltr" translate="no">roles/resourcemanager.tagViewer</code> ) on your organization. This group's membership is made up of a number of other groups, including <code dir="ltr" translate="no">org-admins@example.com</code> . You add a principal to the <code dir="ltr" translate="no">org-admins@example.com</code> group to give them the Tag Viewer role.</li>
-<li>You have a group, <code dir="ltr" translate="no">eng@example.com</code> , that is denied the <code dir="ltr" translate="no">cloudresourcemanager.googleapis.com/  projects.setIamPolicy</code> permission at the organization level. This group's membership is made up of a number of other groups, including <code dir="ltr" translate="no">eng-prod@example.com</code> . You add a principal to the <code dir="ltr" translate="no">eng-prod@example.com</code> group to deny them the <code dir="ltr" translate="no">cloudresourcemanager.googleapis.com/  projects.setIamPolicy</code> permission.</li>
+<li>You have a group, <code>admins@example.com</code> , that is granted the Tag Viewer role ( <code>roles/resourcemanager.tagViewer</code> ) on your organization. This group's membership is made up of a number of other groups, including <code>org-admins@example.com</code> . You add a principal to the <code>org-admins@example.com</code> group to give them the Tag Viewer role.</li>
+<li>You have a group, <code>eng@example.com</code> , that is denied the <code>cloudresourcemanager.googleapis.com/ projects.setIamPolicy</code> permission at the organization level. This group's membership is made up of a number of other groups, including <code>eng-prod@example.com</code> . You add a principal to the <code>eng-prod@example.com</code> group to deny them the <code>cloudresourcemanager.googleapis.com/ projects.setIamPolicy</code> permission.</li>
 </ul></td>
 <td>Typically several minutes, potentially hours or longer</td>
 </tr>
@@ -60,7 +60,7 @@ The amount of time it takes for an access change to propagate depends on how you
 
 Also keep in mind the following details for how group membership changes propagate:
 
-  - In general, adding a principal to a group propagates faster than removing a principal from a group.
-  - In general, group membership changes propagate faster than nested group membership changes.
+- In general, adding a principal to a group propagates faster than removing a principal from a group.
+- In general, group membership changes propagate faster than nested group membership changes.
 
 You can use these propagation time estimates to inform the way you modify your principals' access.

@@ -25,14 +25,14 @@ GKE Dataplane Management offers the following service agent roles. Service agent
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="gkedataplanemanagement.warpRunServiceAgent" class="role-title add-link" data-text="Warp Run Service Agent" tabindex="-1">Warp Run Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  gkedataplanemanagement.warpRunServiceAgent</code> )</p>
+<td>Warp Run Service Agent
+<p>( <code>roles/ gkedataplanemanagement.warpRunServiceAgent</code> )</p>
 <p>Gives the Warp Run service agent access to Cloud Platform resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>

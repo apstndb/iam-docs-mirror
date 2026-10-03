@@ -25,20 +25,20 @@ Media Asset offers the following service agent roles. Service agent roles should
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="mediaasset.serviceAgent" class="role-title add-link" data-text="Media Asset Service Agent" tabindex="-1">Media Asset Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  mediaasset.serviceAgent</code> )</p>
+<td>Media Asset Service Agent
+<p>( <code>roles/ mediaasset.serviceAgent</code> )</p>
 <p>Downloads and uploads media files from and to customer Cloud Storage buckets.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">pubsub.topics.get</code></p>
-<p><code dir="ltr" translate="no">pubsub.topics.publish</code></p>
-<p><code dir="ltr" translate="no">storage.objects.create</code></p>
-<p><code dir="ltr" translate="no">storage.objects.delete</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">transcoder.jobs.create</code></p>
-<p><code dir="ltr" translate="no">transcoder.jobs.delete</code></p>
-<p><code dir="ltr" translate="no">transcoder.jobs.get</code></p></td>
+<td><p><code>pubsub.topics.get</code></p>
+<p><code>pubsub.topics.publish</code></p>
+<p><code>storage.objects.create</code></p>
+<p><code>storage.objects.delete</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>transcoder.jobs.create</code></p>
+<p><code>transcoder.jobs.delete</code></p>
+<p><code>transcoder.jobs.get</code></p></td>
 </tr>
 </tbody>
 </table>

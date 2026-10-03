@@ -6,36 +6,24 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-  - [JSON representation](https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/ListLocationsResponse#SCHEMA_REPRESENTATION)
+- [JSON representation](https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/ListLocationsResponse#SCHEMA_REPRESENTATION)
 
-The response message for `  Locations.ListLocations  ` .
+The response message for [`Locations.ListLocations`](https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations/list#google.cloud.location.Locations.ListLocations) .
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>JSON representation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre dir="ltr" data-is-upgraded="" style="border: 0;margin: 0;" translate="no"><code>{&quot;locations&quot;: [{object (Location)}],&quot;nextPageToken&quot;: string}</code></pre></td>
-</tr>
-</tbody>
-</table>
+**JSON representation**
 
-Fields
+```
+{
+  "locations": [
+    {
+      object (Location)
+    }
+  ],
+  "nextPageToken": string
+}
+```
 
-`locations[]`
-
-` object ( Location  ` )
-
-A list of locations that matches the specified filter in the request.
-
-`nextPageToken`
-
-`string`
-
-The standard List next-page token.
+| Fields          |                                                                                                                                                                                                         |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `locations[]`   | `object ( `[`Location`](https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/folders.locations#Location)` )` A list of locations that matches the specified filter in the request. |
+| `nextPageToken` | `string` The standard List next-page token.                                                                                                                                                             |

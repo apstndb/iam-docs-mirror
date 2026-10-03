@@ -14,7 +14,7 @@ This section shows you how to inspect the response from your identity provider (
 
 ### Browser-based sign-in
 
-To inspect the response returned by your IdP, generate a [HAR file](https://en.wikipedia.org/wiki/HAR_\(file_format\)) using a tool of your choice. For example, you can use [Google Admin Toolbox HAR Analyzer](https://toolbox.googleapps.com/apps/har_analyzer/) , which provides instructions for generating a HAR file and the tools to upload and analyze it.
+To inspect the response returned by your IdP, generate a [HAR file](https://en.wikipedia.org/wiki/HAR_(file_format)) using a tool of your choice. For example, you can use [Google Admin Toolbox HAR Analyzer](https://toolbox.googleapps.com/apps/har_analyzer/) , which provides instructions for generating a HAR file and the tools to upload and analyze it.
 
 > **Important:** If you are requesting the HAR file from your users, request that they clean up any personally identifiable information (PII) and cookies from the HAR file before sending it.
 
@@ -58,39 +58,39 @@ This section provides suggestions to fix common errors that you might encounter 
 
 To troubleshoot workforce identity pool provider attribute mapping issues, do the following:
 
-  - Inspect the attributes, otherwise known as claims, in your IdP configuration. Verify how your attribute mappings convert IdP attributes into Google Cloud attributes and how your conditions evaluate those attributes to allow or deny access in the Google Cloud console.
-    
-    1.  Ensure that you have the **IAM Workforce Pool Editor** ( `roles/iam.workforcePoolEditor` ) role.
-    
-    2.  To enable the browser-based sign-in flow for Workforce Identity Federation, add ` https://auth.cloud.google/signin-callback/locations/global/workforcePools/ POOL_ID /providers/ PROVIDER_ID  ` to your IdP's list of allowed redirect URIs.
-    
-    3.  In the Google Cloud console, go to **Workforce Identity Pools** .
-    
-    4.  From the list of pools, click the name of the pool you want to verify.
-    
-    5.  In the **Workforce pool details** page, click the name of the IdP you want to verify.
-    
-    6.  In the **Provider Details** page, click **Debug IdP token** .
-    
-    7.  In the **Sign in** dialog, sign in to your IdP as a test user.
-    
-    The **Validate your provider attributes** page displays the mapped attributes and the result of your attribute condition.
-    
-    The **Mapped attributes from your IdP token** section displays how Google attributes, such as `google.subject` , are populated from your IdP's token based on your mapping configuration. An error icon appears if a mapping is incorrect.
-    
-    The **Attribute condition** section shows the boolean result of your condition. If the condition evaluates to `false` , the sign-in is blocked.
-    
-    To view the full assertion token, click **View full token** . This shows the raw JSON object from your IdP. Reference a top-level property in your mappings using the format `assertion.PROPERTY_NAME` .
-    
-    To correct any errors, you can edit the configuration:
-    
-    1.  In the **Validate your provider attributes** page, click **edit Edit** .
-    2.  Make the necessary changes.
-    3.  To start a new test and see the updated results, click **Save and refetch token** .
+- Inspect the attributes, otherwise known as claims, in your IdP configuration. Verify how your attribute mappings convert IdP attributes into Google Cloud attributes and how your conditions evaluate those attributes to allow or deny access in the Google Cloud console.
 
-  - Inspect tokens that are generated from your IdP. To learn how to generate a token from your IdP, consult your IdP's documentation.
+  1.  Ensure that you have the **IAM Workforce Pool Editor** ( `roles/iam.workforcePoolEditor` ) role.
 
-  - Review Workforce Identity Federation detailed audit logging in Cloud Audit Logs.
+  2.  To enable the browser-based sign-in flow for Workforce Identity Federation, add `https://auth.cloud.google/signin-callback/locations/global/workforcePools/ `` POOL_ID `` /providers/ `` PROVIDER_ID` to your IdP's list of allowed redirect URIs.
+
+  3.  In the Google Cloud console, go to **Workforce Identity Pools** .
+
+  4.  From the list of pools, click the name of the pool you want to verify.
+
+  5.  In the **Workforce pool details** page, click the name of the IdP you want to verify.
+
+  6.  In the **Provider Details** page, click **Debug IdP token** .
+
+  7.  In the **Sign in** dialog, sign in to your IdP as a test user.
+
+  The **Validate your provider attributes** page displays the mapped attributes and the result of your attribute condition.
+
+  The **Mapped attributes from your IdP token** section displays how Google attributes, such as `google.subject` , are populated from your IdP's token based on your mapping configuration. An error icon appears if a mapping is incorrect.
+
+  The **Attribute condition** section shows the boolean result of your condition. If the condition evaluates to `false` , the sign-in is blocked.
+
+  To view the full assertion token, click **View full token** . This shows the raw JSON object from your IdP. Reference a top-level property in your mappings using the format `assertion.PROPERTY_NAME` .
+
+  To correct any errors, you can edit the configuration:
+
+  1.  In the **Validate your provider attributes** page, click **edit Edit** .
+  2.  Make the necessary changes.
+  3.  To start a new test and see the updated results, click **Save and refetch token** .
+
+- Inspect tokens that are generated from your IdP. To learn how to generate a token from your IdP, consult your IdP's documentation.
+
+- Review Workforce Identity Federation detailed audit logging in Cloud Audit Logs.
 
 Detailed audit logging logs authentication and authorization errors alongside claims that were received by Workforce Identity Federation.
 
@@ -100,11 +100,13 @@ You can enable detailed audit logging when you create your workforce identity po
 
 This error occurs when the user attempting to configure Workforce Identity Federation doesn't have the role IAM Workforce Pool Admin ( `roles/iam.workforcePoolAdmin` ).
 
-### INVALID\_ARGUMENT: Missing OIDC web single sign-on config
+### INVALID_ARGUMENT: Missing OIDC web single sign-on config
 
 The following error occurs when the `web-sso-response-type` and `web-sso-assertion-claims-behavior` fields are not set when creating an OIDC workforce identity pool provider:
 
-    ERROR: (gcloud.iam.workforce-pools.providers.create-oidc) INVALID_ARGUMENT: Missing OIDC web single sign-on config.
+```
+ERROR: (gcloud.iam.workforce-pools.providers.create-oidc) INVALID_ARGUMENT: Missing OIDC web single sign-on config.
+```
 
 To resolve this error, follow the steps in the [Create a provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#create_a_provider) section to set the fields appropriately when you create the OIDC workforce identity pool provider.
 
@@ -126,11 +128,15 @@ For example, consider the following attribute condition:
 
 ### SAML
 
-    'gcp-users' in assertion.attributes.groups
+```
+'gcp-users' in assertion.attributes.groups
+```
 
 ### OIDC
 
-    'gcp-users' in assertion.groups
+```
+'gcp-users' in assertion.groups
+```
 
 In this case, you see the error if the list of groups sent in the `groups` attribute by your IdP doesn't contain `gcp-users` .
 
@@ -148,36 +154,44 @@ This error occurs for a SAML workforce identity pool provider when the attribute
 
 For example, consider a SAML workforce identity pool provider that has the attribute mapping, `attribute.role=assertion.attributes.userRole` . In a SAML assertion, an `Attribute` can have multiple `AttributeValue` tags as shown in the example that follows. Thus, all SAML attributes are considered lists, so `assertion.attributes.userRole` is a list.
 
-    <saml:Attribute Name="userRole">
-        <saml:AttributeValue>
-          security-admin
-        </saml:AttributeValue>
-        <saml:AttributeValue>
-          user
-        </saml:AttributeValue>
-    </saml:Attribute>
+```
+<saml:Attribute Name="userRole">
+    <saml:AttributeValue>
+      security-admin
+    </saml:AttributeValue>
+    <saml:AttributeValue>
+      user
+    </saml:AttributeValue>
+</saml:Attribute>
+```
 
 In this example, you might see the following error:
 
-    The mapped attribute 'attribute.role' must be of type STRING
+```
+The mapped attribute 'attribute.role' must be of type STRING
+```
 
 To resolve this issue, perform the following steps:
 
 1.  [Describe the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#describe_a_provider) that was used to sign in, and identify the IdP attribute that is set in the `attributeMapping` . Check the attribute against the attribute presented in the error message. In the previous example, an IdP attribute called `userRole` is mapped to the `role` attribute and the `role` attribute appears in the error sample.
 
 2.  When updating the attribute mapping, consider the following:
-    
+
     > **Note:** Only `google.groups` accepts a list.
-    
-      - If the attribute that causes the error is list valued, identify an alternative, stable, string-valued attribute. Then, update the attribute mapping to use it by referencing its first item. For the previous example, if `myRole` was identified as the alternative single-valued IdP attribute, then the attribute mapping is the following:
-        
-            attribute.role=assertion.attributes.myRole[0]
-    
-      - Alternatively, if the attribute is known to be single-valued, update the attribute mapping to use the first item from the list. For the previous example, if `userRole` contains only one role, you can use the following mapping:
-        
-            attribute.role=assertion.attributes.userRole[0]
-    
-      - To derive a single-valued, stable identifier from the list, see [Language Definition](https://github.com/google/cel-spec/blob/master/doc/langdef.md) and update your attribute mapping accordingly.
+
+    - If the attribute that causes the error is list valued, identify an alternative, stable, string-valued attribute. Then, update the attribute mapping to use it by referencing its first item. For the previous example, if `myRole` was identified as the alternative single-valued IdP attribute, then the attribute mapping is the following:
+
+      ```
+      attribute.role=assertion.attributes.myRole[0]
+      ```
+
+    - Alternatively, if the attribute is known to be single-valued, update the attribute mapping to use the first item from the list. For the previous example, if `userRole` contains only one role, you can use the following mapping:
+
+      ```
+      attribute.role=assertion.attributes.userRole[0]
+      ```
+
+    - To derive a single-valued, stable identifier from the list, see [Language Definition](https://github.com/google/cel-spec/blob/master/doc/langdef.md) and update your attribute mapping accordingly.
 
 See the [inspect the IdP response](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#inspect-idp-response) section to see the response that is returned by the IdP.
 
@@ -190,7 +204,7 @@ To resolve this error, perform the following steps:
 1.  [Describe the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#describe_a_provider) , and inspect the `attributeMapping` . Identify the mapping that is configured for `google.subject` . If the mapping is not correct, update the workforce identity pool provider.
 
 2.  See the [inspect the IdP response](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#inspect-idp-response) section to see the response returned by the IdP. Inspect the value of the attribute from IdP response that is mapped to `google.subject` in your attribute mappings.
-    
+
     If the value is empty or incorrect, log in to your IdP's admin console, and inspect the configured attributes. For the attributes, check if your affected user has corresponding data in your IdP. Update your IdP configuration to correct the attributes or user information accordingly.
 
 3.  Retry sign-in.
@@ -199,7 +213,9 @@ To resolve this error, perform the following steps:
 
 The following error occurs when a federated user attempts to sign in:
 
-    The size of the entire mapped attributes exceeds the 16 KB limit.
+```
+The size of the entire mapped attributes exceeds the 16 KB limit.
+```
 
 To resolve this issue, ask your IdP administrator to reduce the number of attributes that your IdP emits. Your IdP only needs to emit attributes that are needed to federate users to Google Cloud. To learn more about attribute mapping limits, see [attribute mappings](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) .
 
@@ -209,19 +225,21 @@ For example, if your IdP emits a large number of `google.groups` that are mapped
 
 The following error occurs when a federated user attempts to sign in:
 
-    The current count of GROUPS_COUNT mapped attribute google.groups exceeds the GROUPS_COUNT_LIMIT count limit. Either modify your attribute mapping or the incoming assertion to produce a mapped attribute that has fewer than GROUPS_COUNT_LIMIT groups.
+```
+The current count of GROUPS_COUNT mapped attribute google.groups exceeds the GROUPS_COUNT_LIMIT count limit. Either modify your attribute mapping or the incoming assertion to produce a mapped attribute that has fewer than GROUPS_COUNT_LIMIT groups.
+```
 
 This error includes the following values:
 
-  - `  GROUPS_COUNT  ` : the count of groups that the IdP emits
+- `GROUPS_COUNT` : the count of groups that the IdP emits
 
-  - `  GROUPS_COUNT_LIMIT  ` : Google Cloud's count limit for groups
+- `GROUPS_COUNT_LIMIT` : Google Cloud's count limit for groups
 
 This error occurs when the number of groups emitted by the IdP exceeds Google Cloud's limit. Groups are mapped to Google Cloud using the attribute `google.groups` .
 
 To resolve this issue, ask your administrator to reduce the number of groups that your IdP emits. Your IdP only needs to emit groups that are used to federate users to Google Cloud. Learn more about groups-related limits in [attribute mappings](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) .
 
-#### 400\. That's an error
+#### 400. That's an error
 
 This error occurs when either the request wasn't received as expected or it was malformed.
 
@@ -264,24 +282,24 @@ To resolve this error, perform the following steps:
 1.  [Describe the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#describe_a_provider) , and inspect the configured `issuerUri` . Construct the discovery document URL by appending `/.well-known/openid-configuration` to your issuer URI. For example, if your `issuerUri` is `https://example.com` , the discovery document URL would be `https://example.com/.well-known/openid-configuration` .
 
 2.  Open the discovery document URL in an incognito browsing window.
-    
+
     1.  If the URL doesn't open or the browser displays a `404` error, consult your IdP's documentation to identify the correct issuer URI. If necessary, update the `issuerUri` in your workforce identity pool provider.
-        
+
         If your IdP is running on premises, consult your IdP's documentation to provision it for access over the internet.
-    
+
     2.  If the URL opens, check for the following conditions:
-        
+
         1.  Check that the URL doesn't redirect too many times before serving the discovery document. If it does, consult with your IdP's administrator to remedy the issue.
-        
+
         2.  Check the IdP response time. Consult with your IdP administrator to reduce the response latency.
-        
+
         3.  The opened discovery document should be in the [JSON](https://en.wikipedia.org/wiki/JSON) format.
-        
+
         4.  Look for a `jwks_uri` field in the JSON.
-            
+
             1.  Verify that the associated URL value also opens.
             2.  Verify that the URL satisfies the conditions as described earlier in this guide.
-    
+
     3.  Retry sign-in.
 
 ### SAML sign-in errors
@@ -312,7 +330,9 @@ Follow the steps in [inspect the IdP response](https://docs.cloud.google.com/iam
 
 For example, for the workforce identity pool provider `locations/global/workforcePools/example-pool/providers/example-provider` , the `Recipient` containing the redirect URL appears in the IdP's SAML response as follows:
 
-    <SubjectConfirmationData Recipient="https://auth.cloud.google/signin-callback/locations/global/workforcePools/example-pool/providers/example-provider"
+```
+<SubjectConfirmationData Recipient="https://auth.cloud.google/signin-callback/locations/global/workforcePools/example-pool/providers/example-provider"
+```
 
 #### SAMLResponse destination does not match RP callback URL
 
@@ -324,7 +344,9 @@ Follow the steps in [inspect the IdP response](https://docs.cloud.google.com/iam
 
 For example, for a workforce identity pool provider `locations/global/workforcePools/example-pool/providers/example-provider` , the `Destination` containing redirect URL would appear in the IdP's SAML response as follows:
 
-    <Response Destination="https://auth.cloud.google/signin-callback/locations/global/workforcePools/example-pool/providers/example-provider"
+```
+<Response Destination="https://auth.cloud.google/signin-callback/locations/global/workforcePools/example-pool/providers/example-provider"
+```
 
 #### Invalid assertion: missing or empty NameID
 
@@ -362,30 +384,30 @@ When this occurs, users get the following error when they try to sign in:
 
 To resolve this error, do the following for your identity provider:
 
-1.  Configure a SCIM tenant and token on Google Cloud ( [Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#configure-scim-tenant-token-gcp) | [Okta](https://docs.cloud.google.com/iam/docs/configure-scim-okta#configure-scim-tenant-token-gcp) ).
-2.  Link the provider to a SCIM tenant ( [Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#update-provider-enable-scim) | [Okta](https://docs.cloud.google.com/iam/docs/configure-scim-okta#update-provider-enable-scim) ).
+1.  Configure a SCIM tenant and token on Google Cloud ( [Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#configure-scim-tenant-token-gcp) \| [Okta](https://docs.cloud.google.com/iam/docs/configure-scim-okta#configure-scim-tenant-token-gcp) ).
+2.  Link the provider to a SCIM tenant ( [Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#update-provider-enable-scim) \| [Okta](https://docs.cloud.google.com/iam/docs/configure-scim-okta#update-provider-enable-scim) ).
 
 #### Sign-in fails when SCIM usage is enabled for users and groups ( [Preview](https://cloud.google.com/products#product-launch-stages) )
 
 When `--scim-usage` is set to `enabled-for-users-groups` , sign-in attempts might fail with specific error messages:
 
-  - **SCIM user not found or inactive:**
-    
-      - **Error:** `The workforce identity pool provider is configured to use identity information that is provided using SCIM, but a SCIM User could not be associated with the google.subject from the given credential.` or `... the SCIM User associated with the google.subject from the given credential is not active.`
-      - **Cause:** The user hasn't synced to Google Cloud by using SCIM, the mapped `google.subject` in the provider does not match the SCIM user mapping, or the user is marked `active: false` in the IdP.
-      - **Resolution:** In your IdP, verify that the user is provisioned by using SCIM, ensure their status is active, and verify that the provider attribute mapping and SCIM tenant claim mapping for `google.subject` refer to the same identity.
+- **SCIM user not found or inactive:**
 
-  - **CEL evaluation or claim mapping error:**
-    
-      - **Error:** `Failed to map attributes from the given credential with SCIM Tenant config.`
-      - **Cause:** A CEL expression in `--claim-mapping` is invalid or failed during evaluation.
-      - **Resolution:** Review your SCIM tenant's `--claim-mapping` expressions to ensure valid CEL syntax and supported attribute names.
+  - **Error:** `The workforce identity pool provider is configured to use identity information that is provided using SCIM, but a SCIM User could not be associated with the google.subject from the given credential.` or `... the SCIM User associated with the google.subject from the given credential is not active.`
+  - **Cause:** The user hasn't synced to Google Cloud by using SCIM, the mapped `google.subject` in the provider does not match the SCIM user mapping, or the user is marked `active: false` in the IdP.
+  - **Resolution:** In your IdP, verify that the user is provisioned by using SCIM, ensure their status is active, and verify that the provider attribute mapping and SCIM tenant claim mapping for `google.subject` refer to the same identity.
 
-  - **Mapped attribute size limits exceeded:**
-    
-      - **Error:** `The size of SCIM mapped attribute google.display_name exceeds the 100 bytes limit.` or `The size of entire SCIM mapped attributes exceeds the 16 kB limit.`
-      - **Cause:** An individual mapped attribute exceeded its size limit (for example, 100 bytes for `google.display_name` , 32 bytes for `google.posix_username` , 127 bytes for `google.subject` ), or the total serialized mapped claims exceeded 16 kB.
-      - **Resolution:** Adjust your SCIM tenant claim mappings or update IdP attribute values to remain within the allowed limits.
+- **CEL evaluation or claim mapping error:**
+
+  - **Error:** `Failed to map attributes from the given credential with SCIM Tenant config.`
+  - **Cause:** A CEL expression in `--claim-mapping` is invalid or failed during evaluation.
+  - **Resolution:** Review your SCIM tenant's `--claim-mapping` expressions to ensure valid CEL syntax and supported attribute names.
+
+- **Mapped attribute size limits exceeded:**
+
+  - **Error:** `The size of SCIM mapped attribute google.display_name exceeds the 100 bytes limit.` or `The size of entire SCIM mapped attributes exceeds the 16 kB limit.`
+  - **Cause:** An individual mapped attribute exceeded its size limit (for example, 100 bytes for `google.display_name` , 32 bytes for `google.posix_username` , 127 bytes for `google.subject` ), or the total serialized mapped claims exceeded 16 kB.
+  - **Resolution:** Adjust your SCIM tenant claim mappings or update IdP attribute values to remain within the allowed limits.
 
 ## SCIM provisioning and synchronization errors
 
@@ -395,31 +417,33 @@ This section describes how to resolve issues with SCIM provisioning and synchron
 
 This error occurs when identity provider (IdP) logs report authentication failures ( `HTTP 401 Unauthorized` or `HTTP 403 Forbidden` ). Common causes include the following:
 
-  - The SCIM token is missing, invalid, or expired.
-  - The SCIM token contains extra spaces.
-  - The request lacks the `Authorization: Bearer <TOKEN>` header.
-  - The SCIM token has insufficient permissions.
+- The SCIM token is missing, invalid, or expired.
+- The SCIM token contains extra spaces.
+- The request lacks the `Authorization: Bearer <TOKEN>` header.
+- The SCIM token has insufficient permissions.
 
 To resolve this issue, do the following:
 
 1.  In your IdP provisioning configuration, verify that the SCIM token matches the secret token generated in Google Cloud without extra whitespace.
 
 2.  If the token is lost or invalid, generate a new SCIM token:
-    
+
     > **Note:** Each SCIM tenant supports a maximum of two SCIM tokens. If you already have two tokens, you must delete an existing token before creating a new one. For more information, see [SCIM token creation fails](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#scim-token-creation-fails) .
-    
-        gcloud iam workforce-pools providers scim-tenants tokens create SCIM_TOKEN_ID \
-            --workforce-pool="WORKFORCE_POOL_ID" \
-            --provider="PROVIDER_ID" \
-            --scim-tenant="SCIM_TENANT_ID" \
-            --location="global"
-    
+
+    ```
+    gcloud iam workforce-pools providers scim-tenants tokens create SCIM_TOKEN_ID \
+        --workforce-pool="WORKFORCE_POOL_ID" \
+        --provider="PROVIDER_ID" \
+        --scim-tenant="SCIM_TENANT_ID" \
+        --location="global"
+    ```
+
     Replace the following:
-    
-      - `  SCIM_TOKEN_ID  ` : an ID for the new SCIM token.
-      - `  WORKFORCE_POOL_ID  ` : the ID of the workforce identity pool.
-      - `  PROVIDER_ID  ` : the ID of the workforce pool provider.
-      - `  SCIM_TENANT_ID  ` : the ID of the SCIM tenant.
+
+    - `SCIM_TOKEN_ID` : an ID for the new SCIM token.
+    - `WORKFORCE_POOL_ID` : the ID of the workforce identity pool.
+    - `PROVIDER_ID` : the ID of the workforce pool provider.
+    - `SCIM_TENANT_ID` : the ID of the SCIM tenant.
 
 3.  Update the secret token in your IdP configuration.
 
@@ -439,36 +463,40 @@ This error occurs when the `gcloud iam workforce-pools providers scim-tenants cr
 
 Common causes include the following:
 
-  - A SCIM tenant already exists in the workforce pool. Each workforce pool supports only one SCIM tenant.
-  - A recently deleted SCIM tenant is still in its 30-day soft-delete period.
-  - You don't have the IAM Workforce Pool Admin ( `roles/iam.workforcePoolAdmin` ) role.
-  - The `--claim-mapping` flag contains unsupported Common Expression Language (CEL) expressions.
+- A SCIM tenant already exists in the workforce pool. Each workforce pool supports only one SCIM tenant.
+- A recently deleted SCIM tenant is still in its 30-day soft-delete period.
+- You don't have the IAM Workforce Pool Admin ( `roles/iam.workforcePoolAdmin` ) role.
+- The `--claim-mapping` flag contains unsupported Common Expression Language (CEL) expressions.
 
 To resolve this issue, do the following:
 
 1.  Verify that you have the IAM Workforce Pool Admin ( `roles/iam.workforcePoolAdmin` ) role.
 
 2.  List existing SCIM tenants to check if a tenant already exists:
-    
-        gcloud iam workforce-pools providers scim-tenants list \
-            --workforce-pool="WORKFORCE_POOL_ID" \
-            --provider="PROVIDER_ID" \
-            --location="global"
-    
+
+    ```
+    gcloud iam workforce-pools providers scim-tenants list \
+        --workforce-pool="WORKFORCE_POOL_ID" \
+        --provider="PROVIDER_ID" \
+        --location="global"
+    ```
+
     Replace the following:
-    
-      - `  WORKFORCE_POOL_ID  ` : the ID of the workforce identity pool.
-      - `  PROVIDER_ID  ` : the ID of the workforce pool provider.
+
+    - `WORKFORCE_POOL_ID` : the ID of the workforce identity pool.
+    - `PROVIDER_ID` : the ID of the workforce pool provider.
 
 3.  If a previously deleted tenant is soft-deleted, permanently delete it using the `--hard-delete` flag:
-    
-        gcloud iam workforce-pools providers scim-tenants delete SCIM_TENANT_ID \
-            --workforce-pool="WORKFORCE_POOL_ID" \
-            --provider="PROVIDER_ID" \
-            --location="global" \
-            --hard-delete
-    
-    Replace `  SCIM_TENANT_ID  ` with the ID of the SCIM tenant.
+
+    ```
+    gcloud iam workforce-pools providers scim-tenants delete SCIM_TENANT_ID \
+        --workforce-pool="WORKFORCE_POOL_ID" \
+        --provider="PROVIDER_ID" \
+        --location="global" \
+        --hard-delete
+    ```
+
+    Replace `SCIM_TENANT_ID` with the ID of the SCIM tenant.
 
 4.  Ensure that `--claim-mapping` uses only supported CEL expressions. For more information, see [Claim mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim#mapping-examples) .
 
@@ -478,36 +506,40 @@ This error occurs when the `gcloud iam workforce-pools providers scim-tenants to
 
 Common causes include the following:
 
-  - The SCIM tenant already has the maximum of two SCIM tokens.
-  - You don't have the IAM Workforce Pool Admin ( `roles/iam.workforcePoolAdmin` ) role.
+- The SCIM tenant already has the maximum of two SCIM tokens.
+- You don't have the IAM Workforce Pool Admin ( `roles/iam.workforcePoolAdmin` ) role.
 
 To resolve this issue, do the following:
 
 1.  Verify that you have the IAM Workforce Pool Admin ( `roles/iam.workforcePoolAdmin` ) role.
 
 2.  List existing SCIM tokens to check if the limit of two tokens has been reached:
-    
-        gcloud iam workforce-pools providers scim-tenants tokens list \
-            --workforce-pool="WORKFORCE_POOL_ID" \
-            --provider="PROVIDER_ID" \
-            --scim-tenant="SCIM_TENANT_ID" \
-            --location="global"
-    
+
+    ```
+    gcloud iam workforce-pools providers scim-tenants tokens list \
+        --workforce-pool="WORKFORCE_POOL_ID" \
+        --provider="PROVIDER_ID" \
+        --scim-tenant="SCIM_TENANT_ID" \
+        --location="global"
+    ```
+
     Replace the following:
-    
-      - `  WORKFORCE_POOL_ID  ` : the ID of the workforce identity pool.
-      - `  PROVIDER_ID  ` : the ID of the workforce pool provider.
-      - `  SCIM_TENANT_ID  ` : the ID of the SCIM tenant.
+
+    - `WORKFORCE_POOL_ID` : the ID of the workforce identity pool.
+    - `PROVIDER_ID` : the ID of the workforce pool provider.
+    - `SCIM_TENANT_ID` : the ID of the SCIM tenant.
 
 3.  If the SCIM tenant already has two tokens, delete an unused or invalid token:
-    
-        gcloud iam workforce-pools providers scim-tenants tokens delete SCIM_TOKEN_ID \
-            --workforce-pool="WORKFORCE_POOL_ID" \
-            --provider="PROVIDER_ID" \
-            --scim-tenant="SCIM_TENANT_ID" \
-            --location="global"
-    
-    Replace `  SCIM_TOKEN_ID  ` with the ID of the SCIM token to delete.
+
+    ```
+    gcloud iam workforce-pools providers scim-tenants tokens delete SCIM_TOKEN_ID \
+        --workforce-pool="WORKFORCE_POOL_ID" \
+        --provider="PROVIDER_ID" \
+        --scim-tenant="SCIM_TENANT_ID" \
+        --location="global"
+    ```
+
+    Replace `SCIM_TOKEN_ID` with the ID of the SCIM token to delete.
 
 4.  After deleting the token, retry creating the new SCIM token.
 
@@ -529,10 +561,12 @@ To resolve this issue, do the following:
 1.  In Microsoft Entra ID, go to your enterprise application and select **Provisioning** \> **Manage provisioning** \> **Admin Credentials** .
 
 2.  In the **Tenant URL** field, append `?aadOptscim062020` to the base URI:
-    
-        https://iamscim.googleapis.com/v1alpha1/tenants/SCIM_TENANT_UID?aadOptscim062020
-    
-    Replace `  SCIM_TENANT_UID  ` with the unique ID of your SCIM tenant.
+
+    ```
+    https://iamscim.googleapis.com/v1alpha1/tenants/SCIM_TENANT_UID?aadOptscim062020
+    ```
+
+    Replace `SCIM_TENANT_UID` with the unique ID of your SCIM tenant.
 
 3.  Click **Test Connection** , and then save the configuration.
 
@@ -542,59 +576,67 @@ This issue occurs when synchronized users can't access Google Cloud resources, o
 
 Common causes include the following:
 
-  - Silent synchronization failures or delays from the IdP.
-  - Inconsistent claim mappings between the provider ( `--attribute-mapping` ) and the SCIM tenant ( `--claim-mapping` ).
-  - Changes in the IdP to attributes mapped to `google.subject` or `google.group` . Google Cloud expects values mapped to these attributes to be immutable.
-  - SCIM usage isn't enabled for groups on the provider.
+- Silent synchronization failures or delays from the IdP.
+- Inconsistent claim mappings between the provider ( `--attribute-mapping` ) and the SCIM tenant ( `--claim-mapping` ).
+- Changes in the IdP to attributes mapped to `google.subject` or `google.group` . Google Cloud expects values mapped to these attributes to be immutable.
+- SCIM usage isn't enabled for groups on the provider.
 
 To resolve this issue, do the following:
 
 1.  **Verify synchronization and membership** : Confirm that users, groups, and group memberships synced successfully to Google Cloud:
-    
-      - **Verify user sync** :
-        
-            curl -G -H "Authorization: Bearer SCIM_TOKEN" \
-              "https://iamscim.googleapis.com/v1alpha1/tenants/SCIM_TENANT_UID/Users" \
-              --data-urlencode 'filter=userName eq "USER_NAME"'
-    
-      - **Verify group sync** :
-        
-            curl -G -H "Authorization: Bearer SCIM_TOKEN" \
-              "https://iamscim.googleapis.com/v1alpha1/tenants/SCIM_TENANT_UID/Groups" \
-              --data-urlencode 'filter=displayName eq "GROUP_NAME"'
-    
-      - **Verify group membership** : Confirm that a user is a member of a group:
-        
-            curl -G -H "Authorization: Bearer SCIM_TOKEN" \
-              "https://iamscim.googleapis.com/v1alpha1/tenants/SCIM_TENANT_UID/Groups" \
-              --data-urlencode 'filter=id eq "GROUP_ID" and members eq "USER_ID"'
-        
-        If the user is a member of the group, the response returns `totalResults: 1` . If the user is not a member, the response returns `totalResults: 0` .
-    
+
+    - **Verify user sync** :
+
+      ```
+      curl -G -H "Authorization: Bearer SCIM_TOKEN" \
+        "https://iamscim.googleapis.com/v1alpha1/tenants/SCIM_TENANT_UID/Users" \
+        --data-urlencode 'filter=userName eq "USER_NAME"'
+      ```
+
+    - **Verify group sync** :
+
+      ```
+      curl -G -H "Authorization: Bearer SCIM_TOKEN" \
+        "https://iamscim.googleapis.com/v1alpha1/tenants/SCIM_TENANT_UID/Groups" \
+        --data-urlencode 'filter=displayName eq "GROUP_NAME"'
+      ```
+
+    - **Verify group membership** : Confirm that a user is a member of a group:
+
+      ```
+      curl -G -H "Authorization: Bearer SCIM_TOKEN" \
+        "https://iamscim.googleapis.com/v1alpha1/tenants/SCIM_TENANT_UID/Groups" \
+        --data-urlencode 'filter=id eq "GROUP_ID" and members eq "USER_ID"'
+      ```
+
+      If the user is a member of the group, the response returns `totalResults: 1` . If the user is not a member, the response returns `totalResults: 0` .
+
     Replace the following:
-    
-      - `  SCIM_TOKEN  ` : your SCIM secret token.
-      - `  SCIM_TENANT_UID  ` : the unique ID of your SCIM tenant.
-      - `  USER_NAME  ` : the username of the synchronized user.
-      - `  GROUP_NAME  ` : the display name of the synchronized group.
-      - `  GROUP_ID  ` : the SCIM ID of the synchronized group, returned in the `id` field of the group query response.
-      - `  USER_ID  ` : the SCIM ID of the synchronized user, returned in the `id` field of the user query response.
+
+    - `SCIM_TOKEN` : your SCIM secret token.
+    - `SCIM_TENANT_UID` : the unique ID of your SCIM tenant.
+    - `USER_NAME` : the username of the synchronized user.
+    - `GROUP_NAME` : the display name of the synchronized group.
+    - `GROUP_ID` : the SCIM ID of the synchronized group, returned in the `id` field of the group query response.
+    - `USER_ID` : the SCIM ID of the synchronized user, returned in the `id` field of the user query response.
 
 2.  **Check claim mappings** : Ensure that the attribute mapped to `google.subject` in the provider (for example, `google.subject=assertion.email.lowerAscii()` ) matches the identity mapped in the SCIM tenant (for example, `google.subject=user.emails[0].value.lowerAscii()` ). Because claim mappings are immutable, if mappings are inconsistent, you must [hard-delete the SCIM tenant](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim#considerations) and recreate it with the correct mapping.
 
 3.  **Ensure identifier immutability** : Verify that the IdP attributes mapped to `google.subject` and `google.group` haven't changed. Google Cloud treats values mapped to these attributes as [immutable identifiers](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim#behavior-limitations) . If an attribute value changed in your IdP, revert the change in your IdP, or permanently delete the affected user or group from your IdP and recreate it with the new value so that the identifier matches what Google Cloud expects.
 
 4.  **Enable SCIM group usage** : Update your provider to enable SCIM for groups:
-    
-        gcloud iam workforce-pools providers update-oidc PROVIDER_ID \
-            --workforce-pool="WORKFORCE_POOL_ID" \
-            --location="global" \
-            --scim-usage="enabled-for-groups"
-    
+
+    ```
+    gcloud iam workforce-pools providers update-oidc PROVIDER_ID \
+        --workforce-pool="WORKFORCE_POOL_ID" \
+        --location="global" \
+        --scim-usage="enabled-for-groups"
+    ```
+
     Replace the following:
-    
-      - `  PROVIDER_ID  ` : the ID of the workforce pool provider.
-      - `  WORKFORCE_POOL_ID  ` : the ID of the workforce identity pool.
+
+    - `PROVIDER_ID` : the ID of the workforce pool provider.
+    - `WORKFORCE_POOL_ID` : the ID of the workforce identity pool.
 
 ### Changes made in the IdP are delayed or not reflecting
 
@@ -625,8 +667,8 @@ To resolve this issue, configure your IdP or custom client to use HTTP `PATCH` f
 
 This error occurs when provider creation or update fails with one of the following messages:
 
-  - `Select one of scim_usage - ENABLED_FOR_USERS_GROUPS or extra_attributes_oauth2_client, but not both.`
-  - `Select one of scim_usage or extended_attributes_oauth2_client, but not both.`
+- `Select one of scim_usage - ENABLED_FOR_USERS_GROUPS or extra_attributes_oauth2_client, but not both.`
+- `Select one of scim_usage or extended_attributes_oauth2_client, but not both.`
 
 Setting `--scim-usage=enabled-for-users-groups` ( [Preview](https://cloud.google.com/products#product-launch-stages) ) is mutually exclusive with Extra Attributes ( `extra_attributes_oauth2_client` ) and Extended Attributes ( `extended_attributes_oauth2_client` ).
 
@@ -637,7 +679,7 @@ To resolve this issue, remove the conflicting Extra or Extended Attributes confi
 When a token exchange request fails, the Cloud OAuth API returns an HTTP `400 Bad Request` or `401 Unauthorized` status with an OAuth 2.0 error JSON response (RFC 6749). The `error` field indicates one of the following error codes:
 
 | Error code               | Description                                                                                                                                                                           | Remediation                                                                                                                                                                                                          |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `invalid_request`        | The request is missing a required parameter, includes an invalid parameter value, includes a parameter more than once, or is otherwise malformed.                                     | Verify that all required URL-encoded parameters ( `grant_type` , `code` or `refresh_token` , `redirect_uri` ) are provided.                                                                                          |
 | `invalid_client`         | Client authentication failed.                                                                                                                                                         | Verify that your registered OAuth `client_id` and `client_secret` match, that the OAuth client is enabled for your workforce identity pool, and that your `Authorization: Basic` header is Base64-encoded correctly. |
 | `invalid_grant`          | The provided authorization code or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client. | Ensure the code or token has not expired or been exchanged previously.                                                                                                                                               |
@@ -651,7 +693,7 @@ When a token exchange request fails, the Cloud OAuth API returns an HTTP `400 Ba
 When a request to the `/userinfo` or `/groups` endpoint fails, the Cloud OAuth API returns an HTTP `400 Bad Request` , `401 Unauthorized` , or `403 Forbidden` status with an OAuth 2.0 Bearer token error response (RFC 6750 / OpenID Connect Core). The `error` field indicates one of the following error codes:
 
 | Error code           | HTTP status                            | Description                                                                                                                                                  | Remediation                                                                                                         |
-| -------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| `invalid_request`    | `400 Bad Request` / `401 Unauthorized` | The request is missing the required `Authorization` header or the header is malformed (for example, it does not start with `Bearer` ).                       | Verify that the ` Authorization: Bearer         ACCESS_TOKEN        ` header is formatted correctly.                |
+|----------------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| `invalid_request`    | `400 Bad Request` / `401 Unauthorized` | The request is missing the required `Authorization` header or the header is malformed (for example, it does not start with `Bearer` ).                       | Verify that the `Authorization: Bearer `` ACCESS_TOKEN` header is formatted correctly.                              |
 | `invalid_token`      | `401 Unauthorized`                     | The provided access token is invalid, expired, or revoked.                                                                                                   | Refresh the access token using the `refresh_token` grant or repeat the authorization code flow.                     |
 | `insufficient_scope` | `403 Forbidden`                        | The access token lacks the required `openid` scope, or the token's tenant does not match the organization specified in the organization-scoped endpoint URL. | Verify that the token was requested with the required `openid` scope and that you are calling the correct endpoint. |

@@ -12,10 +12,10 @@ Using Workload Identity Federation can help you improve security by letting appl
 
 To use Workload Identity Federation securely, you must configure it in a way that protects you from the following threats:
 
-  - **Spoofing:** A bad actor might attempt to spoof another user's identity to gain unauthorized access to Google Cloud resources.
-  - **Privilege escalation:** A bad actor might take advantage of Workload Identity Federation to gain access to resources they otherwise wouldn't have access to.
-  - **Non-repudiation:** A bad actor might conceal their identity and actions by using external credentials that make it difficult to trace actions back to them.
-  - **Malicious credential configurations:** A bad actor could provide a malicious credential configuration to circumvent your security defenses.
+- **Spoofing:** A bad actor might attempt to spoof another user's identity to gain unauthorized access to Google Cloud resources.
+- **Privilege escalation:** A bad actor might take advantage of Workload Identity Federation to gain access to resources they otherwise wouldn't have access to.
+- **Non-repudiation:** A bad actor might conceal their identity and actions by using external credentials that make it difficult to trace actions back to them.
+- **Malicious credential configurations:** A bad actor could provide a malicious credential configuration to circumvent your security defenses.
 
 This guide presents best practices for deciding when to use Workload Identity Federation, and how to configure it in a way that helps you minimize risks.
 
@@ -31,9 +31,9 @@ This guide presents best practices for deciding when to use Workload Identity Fe
 
 Applications running on cloud providers other than Google Cloud often have access to ambient credentials. These are credentials that the application can obtain without having to perform any additional authentication. Examples include:
 
-  - On AWS, applications deployed on EC2 can use [instance profiles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html) to assume a role and obtain temporary credentials.
-  - On Azure, applications can use [managed identities](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview) to obtain access tokens.
-  - In GitHub Actions, workflows can [obtain ID tokens](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect) that reflect the deployment job's identity.
+- On AWS, applications deployed on EC2 can use [instance profiles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html) to assume a role and obtain temporary credentials.
+- On Azure, applications can use [managed identities](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview) to obtain access tokens.
+- In GitHub Actions, workflows can [obtain ID tokens](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect) that reflect the deployment job's identity.
 
 If the ambient credentials are OpenID Connect (OIDC) tokens, SAML assertions, or AWS credentials, you can [configure Workload Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workload-identity-federation) to let applications exchange these credentials for short-lived Google access tokens. If the ambient credentials use a different format, you might be able to [exchange them for an OIDC token or SAML assertion](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#additional-token-exchange) first, and then use them for Workload Identity Federation.
 
@@ -59,17 +59,17 @@ The first option requires two secrets, but the second option only requires one. 
 ### Use Workload Identity Federation with regional endpoints to address data residency requirements
 
 > **Preview**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 If you have data residency requirements and need to control the region in which token exchanges might occur, configure your workloads to use a regional endpoint of the Secure Token Service (STS).
 
-To generate a credential configuration file that uses a regional STS endpoint, use the `gcloud iam workload-identity create-cred-config` command and add the ` --sts-location= REGION  ` argument.
+To generate a credential configuration file that uses a regional STS endpoint, use the `gcloud iam workload-identity create-cred-config` command and add the `--sts-location= `` REGION` argument.
 
 To update an existing credential configuration file, do the following:
 
 1.  Open the credential configuration file.
-2.  In the `token_url` field, replace `https://sts.googleapis.com` with `https://sts. REGION .rep.googleapis.com` , or if you use mTLS, replace `https://sts.mtls.googleapis.com` with `https://sts. REGION .rep.mtls.googleapis.com` .
+2.  In the `token_url` field, replace `https://sts.googleapis.com` with `https://sts. `` REGION `` .rep.googleapis.com` , or if you use mTLS, replace `https://sts.mtls.googleapis.com` with `https://sts. `` REGION `` .rep.mtls.googleapis.com` .
 
 To use regional endpoints over Private Service Connect, see [About accessing regional endpoints through Private Service Connect endpoints](https://docs.cloud.google.com/vpc/docs/about-accessing-regional-google-apis-endpoints) .
 
@@ -110,9 +110,9 @@ To learn more, see [configure an attribute condition](https://docs.cloud.google.
 
 Instead of managing workload identity pools and providers across multiple projects, use a single, dedicated project to manage workload identity pools and providers. Using a dedicated project helps you to:
 
-  - Ensure that only trusted identity providers are used for Workload Identity Federation.
-  - Centrally control access to the configuration of workload identity pools and providers.
-  - Apply consistent attribute mappings and conditions across all projects and applications.
+- Ensure that only trusted identity providers are used for Workload Identity Federation.
+- Centrally control access to the configuration of workload identity pools and providers.
+- Apply consistent attribute mappings and conditions across all projects and applications.
 
 You can use organizational policy constraints to enforce the discipline of using a dedicated project to manage workload identity pools and providers.
 
@@ -120,7 +120,7 @@ You can use organizational policy constraints to enforce the discipline of using
 
 Users with the permission to create workload identity pool providers can create workload identity pools and providers that might be redundant to the ones you manage in a dedicated project.
 
-You can prevent the creation of new workload identity pool providers by using the `  constraints/iam.workloadIdentityPoolProviders  ` organizational policy constraint with a rule set to **Deny All** .
+You can prevent the creation of new workload identity pool providers by using the [`constraints/iam.workloadIdentityPoolProviders`](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#restrict) organizational policy constraint with a rule set to **Deny All** .
 
 [Apply these constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-policies#list_constraints) at the root of your organizational hierarchy to deny the creation of new workload identity pool providers by default. Create exceptions for the projects in which you want to allow the management of workload identity pools and providers by applying a policy constraint that permits certain, trusted AWS accounts or OIDC providers.
 
@@ -134,7 +134,7 @@ To avoid subject collisions, use a single provider per workload identity pool. I
 
 ### Avoid federating with the same identity provider twice
 
-You can federate with the same identity provider multiple times by creating multiple workload identity pool providers that use the same or similar configuration. If these providers belong to the same workload identity pool, then such a configuration can lead to [subject collisions](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#bookmark=id.2g76dzstdhoj) . If the providers belong to different workload identity pools, subject collisions can't occur and the same external identity is instead represented as different IAM principals.
+You can create multiple workload identity pool providers that refer to the same identity provider or AWS account. However, if these providers belong to the same workload identity pool, then such a configuration can lead to [subject collisions](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#avoid-subject-collisions) . If the providers belong to different workload identity pools, subject collisions can't occur and the same external identity is instead represented as different IAM principals.
 
 Mapping a single external identity to multiple IAM principals makes it more difficult to analyze which resources a particular external identity has access to. Such an ambiguity can also increase risk when trying to revoke access: An administrator might revoke access for one principal, but might be unaware of the existence of another principal, inadvertently causing the external identity to retain access.
 
@@ -154,7 +154,7 @@ To protect against JWKS swapping, ensure that your IdP is deployed in a way that
 
 When you federate with an OpenID Connect provider, Workload Identity Federation verifies that the audience of tokens (encoded in the `aud` claim) matches the allowed audience setting of the provider. Similarly, when you federate with a SAML provider, Workload Identity Federation checks that the SAML assertion specifies an *audience restriction* that matches the expected audience.
 
-By default, Workload Identity Federation expects the audience to match the URL ` https://iam.googleapis.com/projects/ PROJECT_NUMBER /locations/global/workloadIdentityPools/ POOL_ID /providers/ PROVIDER_ID  ` that uniquely identifies the workload identity pool provider. Requiring tokens and assertions to use this URL as the audience helps reduce the risk of a [confused deputy](https://en.wikipedia.org/wiki/Confused_deputy_problem) attack. In such an attack, a bad actor presents a token or SAML assertion to Workload Identity Federation that wasn't intended to be used for Workload Identity Federation, but for some other API.
+By default, Workload Identity Federation expects the audience to match the URL `https://iam.googleapis.com/projects/ `` PROJECT_NUMBER `` /locations/global/workloadIdentityPools/ `` POOL_ID `` /providers/ `` PROVIDER_ID` that uniquely identifies the workload identity pool provider. Requiring tokens and assertions to use this URL as the audience helps reduce the risk of a [confused deputy](https://en.wikipedia.org/wiki/Confused_deputy_problem) attack. In such an attack, a bad actor presents a token or SAML assertion to Workload Identity Federation that wasn't intended to be used for Workload Identity Federation, but for some other API.
 
 Requiring the token or assertion to contain the URL of the target workload identity pool provider helps you ensure that clients can only use tokens and assertions that were specifically issued for Workload Identity Federation.
 
@@ -184,8 +184,8 @@ Attribute mappings are also crucial to the security of using Workload Identity F
 
 Modifying attribute mappings requires the `iam.googleapis.com/workloadIdentityPoolProviders.update` permission. Roles containing this permission include:
 
-  - Owner ( `roles/owner` )
-  - IAM Workload Identity Pool Admin ( `roles/iam.workloadIdentityPoolAdmin` )
+- Owner ( `roles/owner` )
+- IAM Workload Identity Pool Admin ( `roles/iam.workloadIdentityPoolAdmin` )
 
 If a bad actor has permission to modify attribute mappings, they might be able to change the mapping rules in a way that allows them to spoof their identity and gain access to a service account. To prevent such malicious modifications, make sure only a few administrative users have the permission to modify attribute mappings.
 
@@ -238,9 +238,9 @@ Similarly, when an external identity was compromised and you need to find out wh
 
 When you [define the attribute mapping](https://docs.cloud.google.com/iam/docs/configuring-workload-identity-federation#mappings-and-conditions) for a workload identity pool provider, choose a unique mapping for `google.subject` so that:
 
-  - An external identity maps to exactly one `google.subject` value.
-  - A `google.subject` value maps to exactly one external identity.
-  - You can look up an external identity by its `google.subject` value.
+- An external identity maps to exactly one `google.subject` value.
+- A `google.subject` value maps to exactly one external identity.
+- You can look up an external identity by its `google.subject` value.
 
 Using an attribute mapping that satisfies these uniqueness criteria helps you ensure that you can look up external identities by their `google.subject` value, and `google.subject` values by their external identities.
 
@@ -248,8 +248,8 @@ Using an attribute mapping that satisfies these uniqueness criteria helps you en
 
 To apply the principle of least privilege when using Workload Identity Federation, you must:
 
-  - limit the number of external identities that can impersonate a service account
-  - limit the resources that a service account can access
+- limit the number of external identities that can impersonate a service account
+- limit the resources that a service account can access
 
 An overly permissive configuration can lead to a situation where a bad actor can use an external identity to escalate their privileges and access resources they shouldn't have access to.
 
@@ -287,5 +287,5 @@ By only granting the `roles/iam.workloadIdentityUser` role to specific external 
 
 ## What's next
 
-  - Learn about [best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .
-  - Read more about [best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .
+- Learn about [best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .
+- Read more about [best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .

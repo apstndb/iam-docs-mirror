@@ -10,10 +10,10 @@ This page describes the ways that you can configure identities for users in your
 
 For users to access Google Cloud, they need an identity that Google Cloud can recognize. There are several ways to configure identities so that Google Cloud can recognize them:
 
-  - Create [Cloud Identity or Google Workspace accounts](https://docs.cloud.google.com/iam/docs/user-identities#google-accounts)
-  - Set up one of the following federated identity strategies:
-      - [Federation using Cloud Identity or Google Workspace](https://docs.cloud.google.com/iam/docs/user-identities#synced-federation)
-      - [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/user-identities#workforce)
+- Create [Cloud Identity or Google Workspace accounts](https://docs.cloud.google.com/iam/docs/user-identities#google-accounts)
+- Set up one of the following federated identity strategies:
+  - [Federation using Cloud Identity or Google Workspace](https://docs.cloud.google.com/iam/docs/user-identities#synced-federation)
+  - [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/user-identities#workforce)
 
 ## Cloud Identity or Google Workspace accounts
 
@@ -25,9 +25,9 @@ Only Cloud Identity or Google Workspace managed Super Admin accounts can invite 
 
 To get started with Cloud Identity or Google Workspace, you can do the following:
 
-  - To learn more about using Cloud Identity and Google Workspace to create identities for your users, see [Google for organizations](https://docs.cloud.google.com/architecture/identity/overview-google-authentication#google_for_organizations) .
-  - Learn how to [set up Cloud Identity](https://support.google.com/cloudidentity/topic/7555414) .
-  - Learn how to [set up Google Workspace](https://support.google.com/a/answer/6365252) .
+- To learn more about using Cloud Identity and Google Workspace to create identities for your users, see [Google for organizations](https://docs.cloud.google.com/architecture/identity/overview-google-authentication#google_for_organizations) .
+- Learn how to [set up Cloud Identity](https://support.google.com/cloudidentity/topic/7555414) .
+- Learn how to [set up Google Workspace](https://support.google.com/a/answer/6365252) .
 
 ## Federated user identities
 
@@ -49,5 +49,5 @@ To learn more about Workforce Identity Federation, see [Workforce Identity Feder
 
 ## What's next
 
-  - Learn about the ways to [authenticate to Google APIs with user credentials](https://docs.cloud.google.com/docs/authentication#user-accounts) .
-  - Learn how to [grant users access to resources](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+- Learn about the ways to [authenticate to Google APIs with user credentials](https://docs.cloud.google.com/docs/authentication#user-accounts) .
+- Learn how to [grant users access to resources](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .

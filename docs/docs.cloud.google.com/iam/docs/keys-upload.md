@@ -12,13 +12,13 @@ This page explains how to upload a public key for a service account. After you u
 
 ## Before you begin
 
-  - Enable the IAM API, if it is not already enabled.
-    
-    **Roles required to enable APIs**
-    
-    To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+- Enable the IAM API, if it is not already enabled.
 
-  - Understand [service account credentials](https://docs.cloud.google.com/iam/docs/service-account-creds) .
+  **Roles required to enable APIs**
+
+  To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+
+- Understand [service account credentials](https://docs.cloud.google.com/iam/docs/service-account-creds) .
 
 ### Required roles
 
@@ -32,9 +32,9 @@ Depending on your organization policy configuration, you might also need to [all
 
 To get the permissions that you need to allow service account keys to be uploaded in a project, ask your administrator to grant you the following IAM roles on your organization:
 
-  - [Organization Policy Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/orgpolicy#orgpolicy.policyAdmin) ( `roles/orgpolicy.policyAdmin` )
-  - [Organization Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationViewer) ( `roles/resourcemanager.organizationViewer` )
-  - [Tag Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin) ( `roles/resourcemanager.tagAdmin` )
+- [Organization Policy Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/orgpolicy#orgpolicy.policyAdmin) ( `roles/orgpolicy.policyAdmin` )
+- [Organization Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationViewer) ( `roles/resourcemanager.organizationViewer` )
+- [Tag Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin) ( `roles/resourcemanager.tagAdmin` )
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -44,25 +44,25 @@ These predefined roles contain the permissions required to allow service account
 
 The following permissions are required to allow service account keys to be uploaded in a project:
 
-  - `orgpolicy.constraints.list`
-  - `orgpolicy.customConstraints.create`
-  - `orgpolicy.customConstraints.delete`
-  - `orgpolicy.customConstraints.get`
-  - `orgpolicy.customConstraints.list`
-  - `orgpolicy.customConstraints.update`
-  - `orgpolicy.policies.create`
-  - `orgpolicy.policies.delete`
-  - `orgpolicy.policies.list`
-  - `orgpolicy.policies.update`
-  - `orgpolicy.policy.get`
-  - `orgpolicy.policy.set`
-  - `resourcemanager.organizations.get`
-  - `resourcemanager.projects.listTagBindings`
-  - `resourcemanager.projects.listEffectiveTags`
-  - `resourcemanager.tagKeys.get`
-  - `resourcemanager.tagKeys.list`
-  - `resourcemanager.tagValues.list`
-  - `resourcemanager.tagValues.get`
+- `orgpolicy.constraints.list`
+- `orgpolicy.customConstraints.create`
+- `orgpolicy.customConstraints.delete`
+- `orgpolicy.customConstraints.get`
+- `orgpolicy.customConstraints.list`
+- `orgpolicy.customConstraints.update`
+- `orgpolicy.policies.create`
+- `orgpolicy.policies.delete`
+- `orgpolicy.policies.list`
+- `orgpolicy.policies.update`
+- `orgpolicy.policy.get`
+- `orgpolicy.policy.set`
+- `resourcemanager.organizations.get`
+- `resourcemanager.projects.listTagBindings`
+- `resourcemanager.projects.listEffectiveTags`
+- `resourcemanager.tagKeys.get`
+- `resourcemanager.tagKeys.list`
+- `resourcemanager.tagValues.list`
+- `resourcemanager.tagValues.get`
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -79,22 +79,24 @@ We recommend enforcing this constraint for most projects and only exempting proj
 To exempt a project from the `iam.disableServiceAccountKeyUpload` organization policy constraint, ask an organization policy administrator to do the following:
 
 1.  At the organization level, create a tag key and tag value that you will use to define whether a resource should be exempt from the organization policy. We recommend creating a tag with the key `disableServiceAccountKeyUpload` and the values `enforced` and `not_enforced` .
-    
+
     To learn how to create tag keys and tag values, see [Creating and defining a new tag](https://docs.cloud.google.com/resource-manager/docs/tags/tags-creating-and-managing#creating) .
 
 2.  Attach the `disableServiceAccountKeyUpload` tag to the organization and set its value to `enforced` . All resources in the organization inherit this tag value, unless it's overwritten with a different tag value.
-    
+
     To learn how to attach tags to resources, see [Attaching tags to resources](https://docs.cloud.google.com/resource-manager/docs/tags/tags-creating-and-managing#attaching) .
 
 3.  For each project or folder that you want to exempt from the organization policy, attach the `disableServiceAccountKeyUpload` tag and set its value to `not_enforced` . Setting a tag value for a project or folder in this way overrides the tag value inherited from the organization.
 
 4.  [Create or update the organization policy](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-policies) that prevents uploading service account keys so that it doesn't enforce the constraint for exempt resources. This policy should have the following rules:
-    
-      - Configure the `iam.disableServiceAccountKeyUpload` constraint to not be enforced on any resources with the `disableServiceAccountKeyUpload: not_enforced` tag. The condition in this rule should look like the following:
-        
-            "resource.matchTag('ORGANIZATION_ID/disableServiceAccountKeyUpload', 'not_enforced')"
-    
-      - Configure the `iam.disableServiceAccountKeyUpload` constraint to be enforced on all other resources.
+
+    - Configure the `iam.disableServiceAccountKeyUpload` constraint to not be enforced on any resources with the `disableServiceAccountKeyUpload: not_enforced` tag. The condition in this rule should look like the following:
+
+      ```
+      "resource.matchTag('ORGANIZATION_ID/disableServiceAccountKeyUpload', 'not_enforced')"
+      ```
+
+    - Configure the `iam.disableServiceAccountKeyUpload` constraint to be enforced on all other resources.
 
 ## Upload a public key for a service account
 
@@ -108,17 +110,19 @@ If the [`iam.serviceAccountKeyExpiryHours`](https://docs.cloud.google.com/resour
 
 For example, the following command generates a 2048-bit RSA key pair and wraps the public key in a self-signed certificate that is valid for 365 days:
 
-    openssl req -x509 -nodes -newkey rsa:2048 -days 365 \
-        -keyout /path/to/private_key.pem \
-        -out /path/to/public_key.pem \
-        -subj "/CN=unused"
+```
+openssl req -x509 -nodes -newkey rsa:2048 -days 365 \
+    -keyout /path/to/private_key.pem \
+    -out /path/to/public_key.pem \
+    -subj "/CN=unused"
+```
 
 You can then upload the `public_key.pem` file as the public key for a service account.
 
 ### Console
 
 1.  In the Google Cloud console, go to the **Service accounts** page.
-    
+
     The remaining steps appear in the Google Cloud console.
 
 2.  Select a project.
@@ -139,50 +143,58 @@ Execute the [`gcloud iam service-accounts keys upload`](https://docs.cloud.googl
 
 Replace the following values:
 
-  - `  KEY_FILE  ` : The path to the file containing the key data to upload—for example, `./public_key.pem` .
-  - `  SA_NAME  ` : The name of the service account to upload a key for.
-  - `  PROJECT_ID  ` : Your Google Cloud project ID.
+- `KEY_FILE` : The path to the file containing the key data to upload—for example, `./public_key.pem` .
+- `SA_NAME` : The name of the service account to upload a key for.
+- `PROJECT_ID` : Your Google Cloud project ID.
 
-<!-- end list -->
-
-    gcloud iam service-accounts keys upload KEY_FILE \
-        --iam-account=SA_NAME@PROJECT_ID.iam.gserviceaccount.com
+```
+gcloud iam service-accounts keys upload KEY_FILE \
+    --iam-account=SA_NAME@PROJECT_ID.iam.gserviceaccount.com
+```
 
 The output contains a unique identifier for the uploaded key:
 
-    Name: projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys/c7b74879da78e4cdcbe7e1bf5e129375c0bfa8d0
+```
+Name: projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys/c7b74879da78e4cdcbe7e1bf5e129375c0bfa8d0
+```
 
 To determine whether the command was successful, execute the [`gcloud iam service-accounts keys list`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/keys/list) command:
 
-    gcloud iam service-accounts keys list \
-        --iam-account=SA_NAME@PROJECT_ID.iam.gserviceaccount.com
+```
+gcloud iam service-accounts keys list \
+    --iam-account=SA_NAME@PROJECT_ID.iam.gserviceaccount.com
+```
 
 The output will contain the same unique identifier that was returned after the key was created:
 
 |                                          |                      |                      |          |
-| ---------------------------------------- | -------------------- | -------------------- | -------- |
-| KEY\_ID                                  | CREATED\_AT          | EXPIRES\_AT          | DISABLED |
+|------------------------------------------|----------------------|----------------------|----------|
+| KEY_ID                                   | CREATED_AT           | EXPIRES_AT           | DISABLED |
 | c7b74879da78e4cdcbe7e1bf5e129375c0bfa8d0 | 2019-06-26T21:01:42Z | 9999-12-31T23:59:59Z |          |
 
 ### REST
 
-The `  projects.serviceAccounts.keys.upload  ` method uploads the public key from a user-managed key pair, and adds this key to the service account.
+The [`projects.serviceAccounts.keys.upload`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/upload) method uploads the public key from a user-managed key pair, and adds this key to the service account.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
-  - `  SA_NAME  ` : The name of the service account to associate the key with.
-  - `  PUBLIC_KEY_DATA  ` : The public key data for the key pair. Must be an RSA public key that is wrapped in an X.509 v3 certificate. Encode the public key data in base64, including the first line, `-----BEGIN CERTIFICATE-----` , and the last line, `-----END CERTIFICATE-----` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `SA_NAME` : The name of the service account to associate the key with.
+- `PUBLIC_KEY_DATA` : The public key data for the key pair. Must be an RSA public key that is wrapped in an X.509 v3 certificate. Encode the public key data in base64, including the first line, `-----BEGIN CERTIFICATE-----` , and the last line, `-----END CERTIFICATE-----` .
 
 HTTP method and URL:
 
-    POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys:upload
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys:upload
+```
 
 Request JSON body:
 
-    {
-      "publicKeyData": "PUBLIC_KEY_DATA"
-    }
+```
+{
+  "publicKeyData": "PUBLIC_KEY_DATA"
+}
+```
 
 To send your request, expand one of these options:
 
@@ -192,11 +204,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys:upload"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys:upload"
+```
 
 #### PowerShell (Windows)
 
@@ -204,15 +218,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys:upload" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_NAME@PROJECT_ID.iam.gserviceaccount.com/keys:upload" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -220,14 +236,16 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 You should receive a JSON response similar to the following:
 
-    {
-      "name": "projects/my-project/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com/keys/c7b74879da78e4cdcbe7e1bf5e129375c0bfa8d0",
-      "validAfterTime": "2020-05-17T19:31:19Z",
-      "validBeforeTime": "2021-05-17T19:31:19Z",
-      "keyAlgorithm": "KEY_ALG_RSA_2048",
-      "keyOrigin": "USER_PROVIDED",
-      "keyType": "USER_MANAGED"
-    }
+```
+{
+  "name": "projects/my-project/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com/keys/c7b74879da78e4cdcbe7e1bf5e129375c0bfa8d0",
+  "validAfterTime": "2020-05-17T19:31:19Z",
+  "validBeforeTime": "2021-05-17T19:31:19Z",
+  "keyAlgorithm": "KEY_ALG_RSA_2048",
+  "keyOrigin": "USER_PROVIDED",
+  "keyType": "USER_MANAGED"
+}
+```
 
 ## Disable public key uploads
 
@@ -237,8 +255,8 @@ To disable the ability to upload keys for your project, see [Restricting service
 
 ## What's next
 
-  - Learn how to [create and delete service account keys](https://docs.cloud.google.com/iam/docs/keys-create-delete) .
-  - Learn how to [list and get service account keys](https://docs.cloud.google.com/iam/docs/keys-list-get) .
-  - Learn about [alternatives to service account keys for authentication](https://docs.cloud.google.com/docs/authentication#auth-decision-tree) .
-  - Learn how to use service account keys to [authenticate as a service account](https://docs.cloud.google.com/docs/authentication/set-up-adc-on-premises#wlif-key) .
-  - Understand the [best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .
+- Learn how to [create and delete service account keys](https://docs.cloud.google.com/iam/docs/keys-create-delete) .
+- Learn how to [list and get service account keys](https://docs.cloud.google.com/iam/docs/keys-list-get) .
+- Learn about [alternatives to service account keys for authentication](https://docs.cloud.google.com/docs/authentication#auth-decision-tree) .
+- Learn how to use service account keys to [authenticate as a service account](https://docs.cloud.google.com/docs/authentication/set-up-adc-on-premises#wlif-key) .
+- Understand the [best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .

@@ -10,36 +10,10 @@ This page lists the IAM roles and permissions for Google Cloud MCP servers. To s
 
 ## Google Cloud MCP servers roles
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Role</th>
-<th>Permissions</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="mcp.admin" class="role-title add-link" data-text="MCP Admin" tabindex="-1">MCP Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  mcp.admin</code> )</p>
-<p>Full access for interacting with Google-managed MCP servers.</p></td>
-<td><p><code dir="ltr" translate="no">mcp.tools.call</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
-</tr>
-<tr class="even">
-<td><h4 id="mcp.toolUser" class="role-title add-link" data-text="MCP Tool User" tabindex="-1">MCP Tool User</h4>
-<p>( <code dir="ltr" translate="no">roles/  mcp.toolUser</code> )</p>
-<p>Gives permission to call tools on any MCP server enabled by the parent project.</p></td>
-<td><p><code dir="ltr" translate="no">mcp.tools.call</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
-</tr>
-</tbody>
-</table>
+| Role                                                                                                                    | Permissions                                                                     |
+|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| MCP Admin ( `roles/ mcp.admin` ) Full access for interacting with Google-managed MCP servers.                           | `mcp.tools.call` `resourcemanager.projects.get` `resourcemanager.projects.list` |
+| MCP Tool User ( `roles/ mcp.toolUser` ) Gives permission to call tools on any MCP server enabled by the parent project. | `mcp.tools.call` `resourcemanager.projects.get` `resourcemanager.projects.list` |
 
 ## Google Cloud MCP servers permissions
 
@@ -56,22 +30,22 @@ This page lists the IAM roles and permissions for Google Cloud MCP servers. To s
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="mcp.tools.call" class="permission-name add-link" data-text="mcp.tools.call" tabindex="-1"><code dir="ltr" translate="no">mcp.tools.call</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mcp#mcp.admin">MCP Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mcp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mcp#mcp.toolUser">MCP Tool User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mcp.toolUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>mcp.tools.call</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mcp#mcp.admin">MCP Admin</a> ( <code>roles/ mcp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mcp#mcp.toolUser">MCP Tool User</a> ( <code>roles/ mcp.toolUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 </tbody>

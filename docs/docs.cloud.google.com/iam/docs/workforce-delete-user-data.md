@@ -14,7 +14,9 @@ This guide shows you how to delete workforce users (also known as principals) an
 
 To delete workforce users and data, you must initiate a delete request with a user resource ID that is formatted as follows:
 
-    principal://iam.googleapis.com/locations/LOCATION/workforcePools/WORKFORCE_POOL_ID/subject/SUBJECT_ID
+```
+principal://iam.googleapis.com/locations/LOCATION/workforcePools/WORKFORCE_POOL_ID/subject/SUBJECT_ID
+```
 
 The stages in the data-deletion pipeline are as follows:
 
@@ -28,8 +30,8 @@ This section details the IAM roles or permissions required to perform delete and
 
 The permissions are as follows:
 
-  - `iam.googleapis.com/workforcePoolSubjects.delete`
-  - `iam.googleapis.com/workforcePoolSubjects.undelete`
+- `iam.googleapis.com/workforcePoolSubjects.delete`
+- `iam.googleapis.com/workforcePoolSubjects.undelete`
 
 These permissions are included in the Workforce Pool Admin role ( `roles/iam.workforcePoolAdmin` ).
 
@@ -41,15 +43,17 @@ To delete users and data, do the following:
 
 Execute the following command:
 
-    gcloud iam workforce-pools subjects delete \
-        SUBJECT_ID \
-        --workforce-pool=WORKFORCE_POOL_ID \
-        --location=global
+```
+gcloud iam workforce-pools subjects delete \
+    SUBJECT_ID \
+    --workforce-pool=WORKFORCE_POOL_ID \
+    --location=global
+```
 
 Replace the following:
 
-  - `  SUBJECT_ID  ` : the user resource ID to delete.
-  - `  WORKFORCE_POOL_ID  ` : the workforce pool ID.
+- `SUBJECT_ID` : the user resource ID to delete.
+- `WORKFORCE_POOL_ID` : the workforce pool ID.
 
 ### Undelete users and data
 
@@ -61,11 +65,13 @@ To undelete a user, do the following:
 
 To undo a user deletion, execute the following command:
 
-    gcloud iam workforce-pools subjects undelete SUBJECT_ID \
-        --workforce-pool=WORKFORCE_POOL_ID \
-        --location=global
+```
+gcloud iam workforce-pools subjects undelete SUBJECT_ID \
+    --workforce-pool=WORKFORCE_POOL_ID \
+    --location=global
+```
 
 Replace the following:
 
-  - `  SUBJECT_ID  ` : the user resource ID for which to undo a previous delete.
-  - `  WORKFORCE_POOL_ID  ` : the workforce pool ID.
+- `SUBJECT_ID` : the user resource ID for which to undo a previous delete.
+- `WORKFORCE_POOL_ID` : the workforce pool ID.

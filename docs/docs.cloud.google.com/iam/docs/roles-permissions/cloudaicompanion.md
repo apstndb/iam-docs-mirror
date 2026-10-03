@@ -23,728 +23,728 @@ This page lists the IAM roles and permissions for Gemini for Google Cloud API. T
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.admin" class="role-title add-link" data-text="Gemini for Google Cloud Admin" tabindex="-1">Gemini for Google Cloud Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
+<td>Gemini for Google Cloud Admin
+<p>( <code>roles/ cloudaicompanion.admin</code> )</p>
 <p>Admin role for Gemini for Google Cloud</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.*</code></p>
+<td><p><code>cloudaicompanion. aiDevToolsSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  update</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. create</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. delete</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. get</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. list</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.*</code></p>
+<p><code>cloudaicompanion. codeRepositoryIndexes.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  update</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. create</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. delete</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. get</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. list</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.*</code></p>
+<p><code>cloudaicompanion. codeToolsSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  update</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. create</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. delete</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. get</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. list</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.companions.*</code></p>
+<p><code>cloudaicompanion.companions.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateChat</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateCode</code></li>
+<li><code>cloudaicompanion. companions. generateChat</code></li>
+<li><code>cloudaicompanion. companions. generateCode</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.*</code></p>
+<p><code>cloudaicompanion. dataSharingWithGoogleSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  update</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. create</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. delete</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. get</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. list</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.*</code></p>
+<p><code>cloudaicompanion. entitlements. get</code></p>
+<p><code>cloudaicompanion. geminiGcpEnablementSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  update</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. create</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. delete</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. get</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. list</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.*</code></p>
+<p><code>cloudaicompanion. gibqObservabilitySettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  update</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. create</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. delete</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. get</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. list</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.instances.*</code></p>
+<p><code>cloudaicompanion.instances.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeCode</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeTask</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  exportMetrics</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateCode</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateText</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSetting</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSettingBindings</code></li>
+<li><code>cloudaicompanion. instances. completeCode</code></li>
+<li><code>cloudaicompanion. instances. completeTask</code></li>
+<li><code>cloudaicompanion. instances. exportMetrics</code></li>
+<li><code>cloudaicompanion. instances. generateCode</code></li>
+<li><code>cloudaicompanion. instances. generateText</code></li>
+<li><code>cloudaicompanion. instances. queryEffectiveSetting</code></li>
+<li><code>cloudaicompanion. instances. queryEffectiveSettingBindings</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  licenses.  selfAssign</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.*</code></p>
+<p><code>cloudaicompanion. licenses. selfAssign</code></p>
+<p><code>cloudaicompanion. loggingSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  update</code></li>
+<li><code>cloudaicompanion. loggingSettings. create</code></li>
+<li><code>cloudaicompanion. loggingSettings. delete</code></li>
+<li><code>cloudaicompanion. loggingSettings. get</code></li>
+<li><code>cloudaicompanion. loggingSettings. list</code></li>
+<li><code>cloudaicompanion. loggingSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.operations.*</code></p>
+<p><code>cloudaicompanion.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  operations.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  operations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  operations.  list</code></li>
+<li><code>cloudaicompanion. operations. cancel</code></li>
+<li><code>cloudaicompanion. operations. delete</code></li>
+<li><code>cloudaicompanion. operations. get</code></li>
+<li><code>cloudaicompanion. operations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.*</code></p>
+<p><code>cloudaicompanion. releaseChannelSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  update</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. create</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. delete</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. get</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. list</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.*</code></p>
+<p><code>cloudaicompanion. repositoryGroups.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  update</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  use</code></li>
+<li><code>cloudaicompanion. repositoryGroups. create</code></li>
+<li><code>cloudaicompanion. repositoryGroups. delete</code></li>
+<li><code>cloudaicompanion. repositoryGroups. get</code></li>
+<li><code>cloudaicompanion. repositoryGroups. getIamPolicy</code></li>
+<li><code>cloudaicompanion. repositoryGroups. list</code></li>
+<li><code>cloudaicompanion. repositoryGroups. setIamPolicy</code></li>
+<li><code>cloudaicompanion. repositoryGroups. update</code></li>
+<li><code>cloudaicompanion. repositoryGroups. use</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.*</code></p>
+<p><code>cloudaicompanion. settingBindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsUse</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.topics.create</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.topics.get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  topics.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  topics.  setIamPolicy</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>cloudaicompanion.topics.create</code></p>
+<p><code>cloudaicompanion.topics.get</code></p>
+<p><code>cloudaicompanion. topics. getIamPolicy</code></p>
+<p><code>cloudaicompanion. topics. setIamPolicy</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.editor" class="role-title add-link" data-text="Gemini for Google Cloud Editor" tabindex="-1">Gemini for Google Cloud Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
+<td>Gemini for Google Cloud Editor
+<p>( <code>roles/ cloudaicompanion.editor</code> )</p>
 <p>Editor role for Gemini for Google Cloud</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.*</code></p>
+<td><p><code>cloudaicompanion. aiDevToolsSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  update</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. create</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. delete</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. get</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. list</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.*</code></p>
+<p><code>cloudaicompanion. codeRepositoryIndexes.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  update</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. create</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. delete</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. get</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. list</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.*</code></p>
+<p><code>cloudaicompanion. codeToolsSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  update</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. create</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. delete</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. get</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. list</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.companions.*</code></p>
+<p><code>cloudaicompanion.companions.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateChat</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateCode</code></li>
+<li><code>cloudaicompanion. companions. generateChat</code></li>
+<li><code>cloudaicompanion. companions. generateCode</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.*</code></p>
+<p><code>cloudaicompanion. dataSharingWithGoogleSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  update</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. create</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. delete</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. get</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. list</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.*</code></p>
+<p><code>cloudaicompanion. entitlements. get</code></p>
+<p><code>cloudaicompanion. geminiGcpEnablementSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  update</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. create</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. delete</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. get</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. list</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.*</code></p>
+<p><code>cloudaicompanion. gibqObservabilitySettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  update</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. create</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. delete</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. get</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. list</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.instances.*</code></p>
+<p><code>cloudaicompanion.instances.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeCode</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeTask</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  exportMetrics</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateCode</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateText</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSetting</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSettingBindings</code></li>
+<li><code>cloudaicompanion. instances. completeCode</code></li>
+<li><code>cloudaicompanion. instances. completeTask</code></li>
+<li><code>cloudaicompanion. instances. exportMetrics</code></li>
+<li><code>cloudaicompanion. instances. generateCode</code></li>
+<li><code>cloudaicompanion. instances. generateText</code></li>
+<li><code>cloudaicompanion. instances. queryEffectiveSetting</code></li>
+<li><code>cloudaicompanion. instances. queryEffectiveSettingBindings</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  licenses.  selfAssign</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.*</code></p>
+<p><code>cloudaicompanion. licenses. selfAssign</code></p>
+<p><code>cloudaicompanion. loggingSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  update</code></li>
+<li><code>cloudaicompanion. loggingSettings. create</code></li>
+<li><code>cloudaicompanion. loggingSettings. delete</code></li>
+<li><code>cloudaicompanion. loggingSettings. get</code></li>
+<li><code>cloudaicompanion. loggingSettings. list</code></li>
+<li><code>cloudaicompanion. loggingSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.operations.*</code></p>
+<p><code>cloudaicompanion.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  operations.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  operations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  operations.  list</code></li>
+<li><code>cloudaicompanion. operations. cancel</code></li>
+<li><code>cloudaicompanion. operations. delete</code></li>
+<li><code>cloudaicompanion. operations. get</code></li>
+<li><code>cloudaicompanion. operations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.*</code></p>
+<p><code>cloudaicompanion. releaseChannelSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  update</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. create</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. delete</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. get</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. list</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  create</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  delete</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  update</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  use</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.*</code></p>
+<p><code>cloudaicompanion. repositoryGroups. create</code></p>
+<p><code>cloudaicompanion. repositoryGroups. delete</code></p>
+<p><code>cloudaicompanion. repositoryGroups. get</code></p>
+<p><code>cloudaicompanion. repositoryGroups. getIamPolicy</code></p>
+<p><code>cloudaicompanion. repositoryGroups. list</code></p>
+<p><code>cloudaicompanion. repositoryGroups. update</code></p>
+<p><code>cloudaicompanion. repositoryGroups. use</code></p>
+<p><code>cloudaicompanion. settingBindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsUse</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.topics.create</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>cloudaicompanion.topics.create</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.topicAdmin" class="role-title add-link" data-text="Topic Admin Beta" tabindex="-1">Topic Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.topicAdmin</code> )</p>
+<td>Topic Admin <sup>Beta</sup>
+<p>( <code>roles/ cloudaicompanion.topicAdmin</code> )</p>
 <p>Grants read, write and permission management access to the Topic resource.</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.topics.delete</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.topics.get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  topics.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  topics.  setIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.topics.update</code></p></td>
+<td><p><code>cloudaicompanion.topics.delete</code></p>
+<p><code>cloudaicompanion.topics.get</code></p>
+<p><code>cloudaicompanion. topics. getIamPolicy</code></p>
+<p><code>cloudaicompanion. topics. setIamPolicy</code></p>
+<p><code>cloudaicompanion.topics.update</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.user" class="role-title add-link" data-text="Gemini for Google Cloud User" tabindex="-1">Gemini for Google Cloud User</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
+<td>Gemini for Google Cloud User
+<p>( <code>roles/ cloudaicompanion.user</code> )</p>
 <p>A user who can use Gemini for Google Cloud</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.companions.*</code></p>
+<td><p><code>cloudaicompanion.companions.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateChat</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateCode</code></li>
+<li><code>cloudaicompanion. companions. generateChat</code></li>
+<li><code>cloudaicompanion. companions. generateCode</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.instances.*</code></p>
+<p><code>cloudaicompanion. entitlements. get</code></p>
+<p><code>cloudaicompanion.instances.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeCode</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeTask</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  exportMetrics</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateCode</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateText</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSetting</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSettingBindings</code></li>
+<li><code>cloudaicompanion. instances. completeCode</code></li>
+<li><code>cloudaicompanion. instances. completeTask</code></li>
+<li><code>cloudaicompanion. instances. exportMetrics</code></li>
+<li><code>cloudaicompanion. instances. generateCode</code></li>
+<li><code>cloudaicompanion. instances. generateText</code></li>
+<li><code>cloudaicompanion. instances. queryEffectiveSetting</code></li>
+<li><code>cloudaicompanion. instances. queryEffectiveSettingBindings</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  licenses.  selfAssign</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  operations.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.topics.create</code></p>
-<p><code dir="ltr" translate="no">geminicloudassist.  agents.  invoke</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>cloudaicompanion. licenses. selfAssign</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
+<p><code>cloudaicompanion.topics.create</code></p>
+<p><code>geminicloudassist. agents. invoke</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.viewer" class="role-title add-link" data-text="Gemini for Google Cloud Viewer" tabindex="-1">Gemini for Google Cloud Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
+<td>Gemini for Google Cloud Viewer
+<p>( <code>roles/ cloudaicompanion.viewer</code> )</p>
 <p>Viewer role for Gemini for Google Cloud</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.companions.*</code></p>
+<td><p><code>cloudaicompanion. aiDevToolsSettings. get</code></p>
+<p><code>cloudaicompanion. aiDevToolsSettings. list</code></p>
+<p><code>cloudaicompanion. codeRepositoryIndexes. get</code></p>
+<p><code>cloudaicompanion. codeRepositoryIndexes. list</code></p>
+<p><code>cloudaicompanion. codeToolsSettings. get</code></p>
+<p><code>cloudaicompanion. codeToolsSettings. list</code></p>
+<p><code>cloudaicompanion.companions.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateChat</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateCode</code></li>
+<li><code>cloudaicompanion. companions. generateChat</code></li>
+<li><code>cloudaicompanion. companions. generateCode</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.instances.*</code></p>
+<p><code>cloudaicompanion. dataSharingWithGoogleSettings. get</code></p>
+<p><code>cloudaicompanion. dataSharingWithGoogleSettings. list</code></p>
+<p><code>cloudaicompanion. entitlements. get</code></p>
+<p><code>cloudaicompanion. geminiGcpEnablementSettings. get</code></p>
+<p><code>cloudaicompanion. geminiGcpEnablementSettings. list</code></p>
+<p><code>cloudaicompanion. gibqObservabilitySettings. get</code></p>
+<p><code>cloudaicompanion. gibqObservabilitySettings. list</code></p>
+<p><code>cloudaicompanion.instances.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeCode</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeTask</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  exportMetrics</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateCode</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateText</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSetting</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSettingBindings</code></li>
+<li><code>cloudaicompanion. instances. completeCode</code></li>
+<li><code>cloudaicompanion. instances. completeTask</code></li>
+<li><code>cloudaicompanion. instances. exportMetrics</code></li>
+<li><code>cloudaicompanion. instances. generateCode</code></li>
+<li><code>cloudaicompanion. instances. generateText</code></li>
+<li><code>cloudaicompanion. instances. queryEffectiveSetting</code></li>
+<li><code>cloudaicompanion. instances. queryEffectiveSettingBindings</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  operations.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  operations.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  use</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.topics.create</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>cloudaicompanion. loggingSettings. get</code></p>
+<p><code>cloudaicompanion. loggingSettings. list</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
+<p><code>cloudaicompanion. operations. list</code></p>
+<p><code>cloudaicompanion. releaseChannelSettings. get</code></p>
+<p><code>cloudaicompanion. releaseChannelSettings. list</code></p>
+<p><code>cloudaicompanion. repositoryGroups. get</code></p>
+<p><code>cloudaicompanion. repositoryGroups. getIamPolicy</code></p>
+<p><code>cloudaicompanion. repositoryGroups. list</code></p>
+<p><code>cloudaicompanion. repositoryGroups. use</code></p>
+<p><code>cloudaicompanion. settingBindings. aiDevToolsSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. aiDevToolsSettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. codeToolsSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. codeToolsSettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. loggingSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. loggingSettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. releaseChannelSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. releaseChannelSettingsList</code></p>
+<p><code>cloudaicompanion.topics.create</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.codeRepositoryIndexesAdmin" class="role-title add-link" data-text="Code Repository Indexes Admin" tabindex="-1">Code Repository Indexes Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<td>Code Repository Indexes Admin
+<p>( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
 <p>Grants full access to Code Repository Indexes resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.*</code></p>
+<td><p><code>cloudaicompanion. codeRepositoryIndexes.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  update</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. create</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. delete</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. get</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. list</code></li>
+<li><code>cloudaicompanion. codeRepositoryIndexes. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.operations.*</code></p>
+<p><code>cloudaicompanion.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  operations.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  operations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  operations.  list</code></li>
+<li><code>cloudaicompanion. operations. cancel</code></li>
+<li><code>cloudaicompanion. operations. delete</code></li>
+<li><code>cloudaicompanion. operations. get</code></li>
+<li><code>cloudaicompanion. operations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  create</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  delete</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  setIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  update</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>cloudaicompanion. repositoryGroups. create</code></p>
+<p><code>cloudaicompanion. repositoryGroups. delete</code></p>
+<p><code>cloudaicompanion. repositoryGroups. get</code></p>
+<p><code>cloudaicompanion. repositoryGroups. getIamPolicy</code></p>
+<p><code>cloudaicompanion. repositoryGroups. list</code></p>
+<p><code>cloudaicompanion. repositoryGroups. setIamPolicy</code></p>
+<p><code>cloudaicompanion. repositoryGroups. update</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.codeRepositoryIndexesViewer" class="role-title add-link" data-text="Code Repository Indexes Viewer" tabindex="-1">Code Repository Indexes Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
+<td>Code Repository Indexes Viewer
+<p>( <code>roles/ cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
 <p>Grants readonly access to Code Repository Indexes resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  operations.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  operations.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>cloudaicompanion. codeRepositoryIndexes. get</code></p>
+<p><code>cloudaicompanion. codeRepositoryIndexes. list</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
+<p><code>cloudaicompanion. operations. list</code></p>
+<p><code>cloudaicompanion. repositoryGroups. get</code></p>
+<p><code>cloudaicompanion. repositoryGroups. getIamPolicy</code></p>
+<p><code>cloudaicompanion. repositoryGroups. list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.codeToolsAdmin" class="role-title add-link" data-text="Gemini Code Assist Tools Admin Beta" tabindex="-1">Gemini Code Assist Tools Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsAdmin</code> )</p>
+<td>Gemini Code Assist Tools Admin <sup>Beta</sup>
+<p>( <code>roles/ cloudaicompanion.codeToolsAdmin</code> )</p>
 <p>Grants full access to Gemini Code Assist Tools resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.*</code></p>
+<td><p><code>cloudaicompanion. codeToolsSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  update</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. create</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. delete</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. get</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. list</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsCreate</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsDelete</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsUpdate</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsUse</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.*</code></p>
+<p><code>cloudaicompanion. settingBindings. codeToolsSettingsCreate</code></p>
+<p><code>cloudaicompanion. settingBindings. codeToolsSettingsDelete</code></p>
+<p><code>cloudaicompanion. settingBindings. codeToolsSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. codeToolsSettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. codeToolsSettingsUpdate</code></p>
+<p><code>cloudaicompanion. settingBindings. codeToolsSettingsUse</code></p>
+<p><code>developerconnect. accountConnectors.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  create</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  delete</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  fetchUserRepositories</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  get</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  gitProxyRead</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  gitProxyWrite</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  httpProxyRead</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  httpProxyWrite</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  list</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  update</code></li>
+<li><code>developerconnect. accountConnectors. create</code></li>
+<li><code>developerconnect. accountConnectors. delete</code></li>
+<li><code>developerconnect. accountConnectors. fetchUserRepositories</code></li>
+<li><code>developerconnect. accountConnectors. get</code></li>
+<li><code>developerconnect. accountConnectors. gitProxyRead</code></li>
+<li><code>developerconnect. accountConnectors. gitProxyWrite</code></li>
+<li><code>developerconnect. accountConnectors. httpProxyRead</code></li>
+<li><code>developerconnect. accountConnectors. httpProxyWrite</code></li>
+<li><code>developerconnect. accountConnectors. list</code></li>
+<li><code>developerconnect. accountConnectors. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">developerconnect.locations.*</code></p>
+<p><code>developerconnect.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">developerconnect.locations.get</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  locations.  list</code></li>
+<li><code>developerconnect.locations.get</code></li>
+<li><code>developerconnect. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">developerconnect.  operations.  get</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  operations.  list</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  providers.  list</code></p>
-<p><code dir="ltr" translate="no">developerconnect.users.*</code></p>
+<p><code>developerconnect. operations. get</code></p>
+<p><code>developerconnect. operations. list</code></p>
+<p><code>developerconnect. providers. list</code></p>
+<p><code>developerconnect.users.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">developerconnect.users.delete</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  users.  deleteSelf</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  users.  fetchAccessToken</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  users.  finishOAuth</code></li>
-<li><code dir="ltr" translate="no">developerconnect.users.getSelf</code></li>
-<li><code dir="ltr" translate="no">developerconnect.users.list</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  users.  startOAuth</code></li>
+<li><code>developerconnect.users.delete</code></li>
+<li><code>developerconnect. users. deleteSelf</code></li>
+<li><code>developerconnect. users. fetchAccessToken</code></li>
+<li><code>developerconnect. users. finishOAuth</code></li>
+<li><code>developerconnect.users.getSelf</code></li>
+<li><code>developerconnect.users.list</code></li>
+<li><code>developerconnect. users. startOAuth</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.codeToolsUser" class="role-title add-link" data-text="Gemini Code Assist Tools User Beta" tabindex="-1">Gemini Code Assist Tools User <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
+<td>Gemini Code Assist Tools User <sup>Beta</sup>
+<p>( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
 <p>Grants read access to Gemini Code Assist Tools resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.companions.*</code></p>
+<td><p><code>cloudaicompanion. codeToolsSettings. get</code></p>
+<p><code>cloudaicompanion. codeToolsSettings. list</code></p>
+<p><code>cloudaicompanion.companions.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateChat</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateCode</code></li>
+<li><code>cloudaicompanion. companions. generateChat</code></li>
+<li><code>cloudaicompanion. companions. generateCode</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.instances.*</code></p>
+<p><code>cloudaicompanion. entitlements. get</code></p>
+<p><code>cloudaicompanion.instances.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeCode</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeTask</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  exportMetrics</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateCode</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateText</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSetting</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSettingBindings</code></li>
+<li><code>cloudaicompanion. instances. completeCode</code></li>
+<li><code>cloudaicompanion. instances. completeTask</code></li>
+<li><code>cloudaicompanion. instances. exportMetrics</code></li>
+<li><code>cloudaicompanion. instances. generateCode</code></li>
+<li><code>cloudaicompanion. instances. generateText</code></li>
+<li><code>cloudaicompanion. instances. queryEffectiveSetting</code></li>
+<li><code>cloudaicompanion. instances. queryEffectiveSettingBindings</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  licenses.  selfAssign</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  operations.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.topics.create</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  fetchUserRepositories</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  get</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  gitProxyRead</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  gitProxyWrite</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  httpProxyRead</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  httpProxyWrite</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  list</code></p>
-<p><code dir="ltr" translate="no">developerconnect.locations.*</code></p>
+<p><code>cloudaicompanion. licenses. selfAssign</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
+<p><code>cloudaicompanion. settingBindings. codeToolsSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. codeToolsSettingsList</code></p>
+<p><code>cloudaicompanion.topics.create</code></p>
+<p><code>developerconnect. accountConnectors. fetchUserRepositories</code></p>
+<p><code>developerconnect. accountConnectors. get</code></p>
+<p><code>developerconnect. accountConnectors. gitProxyRead</code></p>
+<p><code>developerconnect. accountConnectors. gitProxyWrite</code></p>
+<p><code>developerconnect. accountConnectors. httpProxyRead</code></p>
+<p><code>developerconnect. accountConnectors. httpProxyWrite</code></p>
+<p><code>developerconnect. accountConnectors. list</code></p>
+<p><code>developerconnect.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">developerconnect.locations.get</code></li>
-<li><code dir="ltr" translate="no">developerconnect.  locations.  list</code></li>
+<li><code>developerconnect.locations.get</code></li>
+<li><code>developerconnect. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">developerconnect.  operations.  get</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  operations.  list</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  users.  deleteSelf</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  users.  fetchAccessToken</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  users.  finishOAuth</code></p>
-<p><code dir="ltr" translate="no">developerconnect.users.getSelf</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  users.  startOAuth</code></p>
-<p><code dir="ltr" translate="no">geminicloudassist.  agents.  invoke</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>developerconnect. operations. get</code></p>
+<p><code>developerconnect. operations. list</code></p>
+<p><code>developerconnect. users. deleteSelf</code></p>
+<p><code>developerconnect. users. fetchAccessToken</code></p>
+<p><code>developerconnect. users. finishOAuth</code></p>
+<p><code>developerconnect.users.getSelf</code></p>
+<p><code>developerconnect. users. startOAuth</code></p>
+<p><code>geminicloudassist. agents. invoke</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.individualUser" class="role-title add-link" data-text="Gemini for Google Cloud individual User" tabindex="-1">Gemini for Google Cloud individual User</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
+<td>Gemini for Google Cloud individual User
+<p>( <code>roles/ cloudaicompanion.individualUser</code> )</p>
 <p>An individual user who can use Gemini for Google Cloud</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.companions.*</code></p>
+<td><p><code>cloudaicompanion.companions.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateChat</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateCode</code></li>
+<li><code>cloudaicompanion. companions. generateChat</code></li>
+<li><code>cloudaicompanion. companions. generateCode</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.instances.*</code></p>
+<p><code>cloudaicompanion. entitlements. get</code></p>
+<p><code>cloudaicompanion.instances.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeCode</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeTask</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  exportMetrics</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateCode</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateText</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSetting</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSettingBindings</code></li>
+<li><code>cloudaicompanion. instances. completeCode</code></li>
+<li><code>cloudaicompanion. instances. completeTask</code></li>
+<li><code>cloudaicompanion. instances. exportMetrics</code></li>
+<li><code>cloudaicompanion. instances. generateCode</code></li>
+<li><code>cloudaicompanion. instances. generateText</code></li>
+<li><code>cloudaicompanion. instances. queryEffectiveSetting</code></li>
+<li><code>cloudaicompanion. instances. queryEffectiveSettingBindings</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  licenses.  selfAssign</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  operations.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.topics.create</code></p>
-<p><code dir="ltr" translate="no">geminicloudassist.  agents.  invoke</code></p></td>
+<p><code>cloudaicompanion. licenses. selfAssign</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
+<p><code>cloudaicompanion.topics.create</code></p>
+<p><code>geminicloudassist. agents. invoke</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.repositoryGroupsUser" class="role-title add-link" data-text="Repository Groups User" tabindex="-1">Repository Groups User</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.repositoryGroupsUser</code> )</p>
+<td>Repository Groups User
+<p>( <code>roles/ cloudaicompanion.repositoryGroupsUser</code> )</p>
 <p>Grants Read/Use access to the Code Repository Indexes Repository Group.</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  use</code></p></td>
+<td><p><code>cloudaicompanion. codeRepositoryIndexes. get</code></p>
+<p><code>cloudaicompanion. repositoryGroups. get</code></p>
+<p><code>cloudaicompanion. repositoryGroups. getIamPolicy</code></p>
+<p><code>cloudaicompanion. repositoryGroups. use</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingsAdmin" class="role-title add-link" data-text="Gemini for Google Cloud Settings Admin" tabindex="-1">Gemini for Google Cloud Settings Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
+<td>Gemini for Google Cloud Settings Admin
+<p>( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
 <p>Grants read and write access to the Gemini for Cloud setting and their bindings.</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.*</code></p>
+<td><p><code>cloudaicompanion. aiDevToolsSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  update</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. create</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. delete</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. get</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. list</code></li>
+<li><code>cloudaicompanion. aiDevToolsSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.*</code></p>
+<p><code>cloudaicompanion. codeToolsSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  update</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. create</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. delete</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. get</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. list</code></li>
+<li><code>cloudaicompanion. codeToolsSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.*</code></p>
+<p><code>cloudaicompanion. dataSharingWithGoogleSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  update</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. create</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. delete</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. get</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. list</code></li>
+<li><code>cloudaicompanion. dataSharingWithGoogleSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.*</code></p>
+<p><code>cloudaicompanion. geminiGcpEnablementSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  update</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. create</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. delete</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. get</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. list</code></li>
+<li><code>cloudaicompanion. geminiGcpEnablementSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.*</code></p>
+<p><code>cloudaicompanion. gibqObservabilitySettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  update</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. create</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. delete</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. get</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. list</code></li>
+<li><code>cloudaicompanion. gibqObservabilitySettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSetting</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSettingBindings</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.*</code></p>
+<p><code>cloudaicompanion. instances. queryEffectiveSetting</code></p>
+<p><code>cloudaicompanion. instances. queryEffectiveSettingBindings</code></p>
+<p><code>cloudaicompanion. loggingSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  update</code></li>
+<li><code>cloudaicompanion. loggingSettings. create</code></li>
+<li><code>cloudaicompanion. loggingSettings. delete</code></li>
+<li><code>cloudaicompanion. loggingSettings. get</code></li>
+<li><code>cloudaicompanion. loggingSettings. list</code></li>
+<li><code>cloudaicompanion. loggingSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.*</code></p>
+<p><code>cloudaicompanion. releaseChannelSettings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  create</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  get</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  list</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  update</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. create</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. delete</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. get</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. list</code></li>
+<li><code>cloudaicompanion. releaseChannelSettings. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.*</code></p>
+<p><code>cloudaicompanion. settingBindings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsUse</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsCreate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsDelete</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsGet</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsList</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsUpdate</code></li>
-<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. aiDevToolsSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. codeToolsSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. loggingSettingsUse</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsCreate</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsDelete</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsGet</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsList</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsUpdate</code></li>
+<li><code>cloudaicompanion. settingBindings. releaseChannelSettingsUse</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingsUser" class="role-title add-link" data-text="Gemini for Google Cloud Settings User" tabindex="-1">Gemini for Google Cloud Settings User</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
+<td>Gemini for Google Cloud Settings User
+<p>( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
 <p>Grants read access to the Gemini for Cloud setting and their bindings.</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsList</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsGet</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsList</code></p></td>
+<td><p><code>cloudaicompanion. aiDevToolsSettings. get</code></p>
+<p><code>cloudaicompanion. aiDevToolsSettings. list</code></p>
+<p><code>cloudaicompanion. dataSharingWithGoogleSettings. get</code></p>
+<p><code>cloudaicompanion. dataSharingWithGoogleSettings. list</code></p>
+<p><code>cloudaicompanion. geminiGcpEnablementSettings. get</code></p>
+<p><code>cloudaicompanion. geminiGcpEnablementSettings. list</code></p>
+<p><code>cloudaicompanion. gibqObservabilitySettings. get</code></p>
+<p><code>cloudaicompanion. gibqObservabilitySettings. list</code></p>
+<p><code>cloudaicompanion. loggingSettings. get</code></p>
+<p><code>cloudaicompanion. loggingSettings. list</code></p>
+<p><code>cloudaicompanion. releaseChannelSettings. get</code></p>
+<p><code>cloudaicompanion. releaseChannelSettings. list</code></p>
+<p><code>cloudaicompanion. settingBindings. aiDevToolsSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. aiDevToolsSettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. codeToolsSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. codeToolsSettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. loggingSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. loggingSettingsList</code></p>
+<p><code>cloudaicompanion. settingBindings. releaseChannelSettingsGet</code></p>
+<p><code>cloudaicompanion. settingBindings. releaseChannelSettingsList</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.topicReader" class="role-title add-link" data-text="Topic Reader Beta" tabindex="-1">Topic Reader <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.topicReader</code> )</p>
+<td>Topic Reader <sup>Beta</sup>
+<p>( <code>roles/ cloudaicompanion.topicReader</code> )</p>
 <p>Grants read-only access to topic resource.</p></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.topics.get</code></p></td>
+<td><p><code>cloudaicompanion.topics.get</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -766,44 +766,44 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.serviceAgent" class="role-title add-link" data-text="Gemini for Google Cloud Service Agent" tabindex="-1">Gemini for Google Cloud Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</p>
+<td>Gemini for Google Cloud Service Agent
+<p>( <code>roles/ cloudaicompanion.serviceAgent</code> )</p>
 <p>Gives Gemini for Google Cloud components the proper permissions to function.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  list</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  instances.  exportMetrics</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSetting</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSettingBindings</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  licenses.  selfAssign</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  get</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  list</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.connections.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  repositories.  accessReadToken</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.  repositories.  fetchGitRefs</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.get</code></p>
-<p><code dir="ltr" translate="no">cloudbuild.repositories.list</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  connections.  get</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  fetchGitRefs</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  fetchReadToken</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  get</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  gitProxyRead</code></p>
-<p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  list</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
-<p><code dir="ltr" translate="no">logging.logEntries.route</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  create</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  get</code></p>
-<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.*</code></p>
+<td><p><code>cloudaicompanion. codeRepositoryIndexes. get</code></p>
+<p><code>cloudaicompanion. codeRepositoryIndexes. list</code></p>
+<p><code>cloudaicompanion. instances. exportMetrics</code></p>
+<p><code>cloudaicompanion. instances. queryEffectiveSetting</code></p>
+<p><code>cloudaicompanion. instances. queryEffectiveSettingBindings</code></p>
+<p><code>cloudaicompanion. licenses. selfAssign</code></p>
+<p><code>cloudaicompanion. repositoryGroups. get</code></p>
+<p><code>cloudaicompanion. repositoryGroups. getIamPolicy</code></p>
+<p><code>cloudaicompanion. repositoryGroups. list</code></p>
+<p><code>cloudbuild.connections.get</code></p>
+<p><code>cloudbuild. repositories. accessReadToken</code></p>
+<p><code>cloudbuild. repositories. fetchGitRefs</code></p>
+<p><code>cloudbuild.repositories.get</code></p>
+<p><code>cloudbuild.repositories.list</code></p>
+<p><code>developerconnect. connections. get</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. get</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
+<p><code>developerconnect. gitRepositoryLinks. list</code></p>
+<p><code>logging.logEntries.create</code></p>
+<p><code>logging.logEntries.route</code></p>
+<p><code>monitoring. metricDescriptors. create</code></p>
+<p><code>monitoring. metricDescriptors. get</code></p>
+<p><code>monitoring. metricDescriptors. list</code></p>
+<p><code>monitoring. monitoredResourceDescriptors.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  get</code></li>
-<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></li>
+<li><code>monitoring. monitoredResourceDescriptors. get</code></li>
+<li><code>monitoring. monitoredResourceDescriptors. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.create</code></p>
-<p><code dir="ltr" translate="no">serviceusage.services.use</code></p></td>
+<p><code>monitoring.timeSeries.create</code></p>
+<p><code>serviceusage.services.use</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -823,1970 +823,1970 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.aiDevToolsSettings.create" class="permission-name add-link" data-text="cloudaicompanion.aiDevToolsSettings.create" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. aiDevToolsSettings. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.aiDevToolsSettings.delete" class="permission-name add-link" data-text="cloudaicompanion.aiDevToolsSettings.delete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. aiDevToolsSettings. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.aiDevToolsSettings.get" class="permission-name add-link" data-text="cloudaicompanion.aiDevToolsSettings.get" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. aiDevToolsSettings. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.aiDevToolsSettings.list" class="permission-name add-link" data-text="cloudaicompanion.aiDevToolsSettings.list" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. aiDevToolsSettings. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.aiDevToolsSettings.update" class="permission-name add-link" data-text="cloudaicompanion.aiDevToolsSettings.update" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  aiDevToolsSettings.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. aiDevToolsSettings. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.codeRepositoryIndexes.create" class="permission-name add-link" data-text="cloudaicompanion.codeRepositoryIndexes.create" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. codeRepositoryIndexes. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.codeRepositoryIndexes.delete" class="permission-name add-link" data-text="cloudaicompanion.codeRepositoryIndexes.delete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. codeRepositoryIndexes. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.codeRepositoryIndexes.get" class="permission-name add-link" data-text="cloudaicompanion.codeRepositoryIndexes.get" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.repositoryGroupsUser">Repository Groups User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.repositoryGroupsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. codeRepositoryIndexes. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.repositoryGroupsUser">Repository Groups User</a> ( <code>roles/ cloudaicompanion.repositoryGroupsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.codeRepositoryIndexes.list" class="permission-name add-link" data-text="cloudaicompanion.codeRepositoryIndexes.list" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. codeRepositoryIndexes. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.codeRepositoryIndexes.update" class="permission-name add-link" data-text="cloudaicompanion.codeRepositoryIndexes.update" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  codeRepositoryIndexes.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. codeRepositoryIndexes. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.codeToolsSettings.create" class="permission-name add-link" data-text="cloudaicompanion.codeToolsSettings.create" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. codeToolsSettings. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code>roles/ cloudaicompanion.codeToolsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.codeToolsSettings.delete" class="permission-name add-link" data-text="cloudaicompanion.codeToolsSettings.delete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. codeToolsSettings. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code>roles/ cloudaicompanion.codeToolsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.codeToolsSettings.get" class="permission-name add-link" data-text="cloudaicompanion.codeToolsSettings.get" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. codeToolsSettings. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code>roles/ cloudaicompanion.codeToolsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.codeToolsSettings.list" class="permission-name add-link" data-text="cloudaicompanion.codeToolsSettings.list" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. codeToolsSettings. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code>roles/ cloudaicompanion.codeToolsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.codeToolsSettings.update" class="permission-name add-link" data-text="cloudaicompanion.codeToolsSettings.update" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. codeToolsSettings. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code>roles/ cloudaicompanion.codeToolsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.companions.generateChat" class="permission-name add-link" data-text="cloudaicompanion.companions.generateChat" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateChat</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.studioUser">Cloud SQL Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. companions. generateChat</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code>roles/ cloudsql.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.studioUser">Cloud SQL Studio User</a> ( <code>roles/ cloudsql.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.companions.generateCode" class="permission-name add-link" data-text="cloudaicompanion.companions.generateCode" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  companions.  generateCode</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.studioUser">Cloud SQL Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. companions. generateCode</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code>roles/ cloudsql.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.studioUser">Cloud SQL Studio User</a> ( <code>roles/ cloudsql.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.dataSharingWithGoogleSettings.create" class="permission-name add-link" data-text="cloudaicompanion.dataSharingWithGoogleSettings.create" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. dataSharingWithGoogleSettings. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.dataSharingWithGoogleSettings.delete" class="permission-name add-link" data-text="cloudaicompanion.dataSharingWithGoogleSettings.delete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. dataSharingWithGoogleSettings. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.dataSharingWithGoogleSettings.get" class="permission-name add-link" data-text="cloudaicompanion.dataSharingWithGoogleSettings.get" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. dataSharingWithGoogleSettings. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.dataSharingWithGoogleSettings.list" class="permission-name add-link" data-text="cloudaicompanion.dataSharingWithGoogleSettings.list" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. dataSharingWithGoogleSettings. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.dataSharingWithGoogleSettings.update" class="permission-name add-link" data-text="cloudaicompanion.dataSharingWithGoogleSettings.update" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. dataSharingWithGoogleSettings. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.entitlements.get" class="permission-name add-link" data-text="cloudaicompanion.entitlements.get" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.admin">AlloyDB Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.editor">AlloyDB Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.viewer">AlloyDB Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.editor">Cloud SQL Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.viewer">Cloud SQL Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databasecenter#databasecenter.admin">Database Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databasecenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databasecenter#databasecenter.viewer">Database Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databasecenter.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. entitlements. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.admin">AlloyDB Admin</a> ( <code>roles/ alloydb.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.editor">AlloyDB Editor</a> ( <code>roles/ alloydb.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.viewer">AlloyDB Viewer</a> ( <code>roles/ alloydb.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code>roles/ cloudsql.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.editor">Cloud SQL Editor</a> ( <code>roles/ cloudsql.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.viewer">Cloud SQL Viewer</a> ( <code>roles/ cloudsql.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databasecenter#databasecenter.admin">Database Center Admin</a> ( <code>roles/ databasecenter.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databasecenter#databasecenter.viewer">Database Center Viewer</a> ( <code>roles/ databasecenter.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code>roles/ datamigration.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code>roles/ datamigration.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code>roles/ iam.siteReliabilityEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.geminiGcpEnablementSettings.create" class="permission-name add-link" data-text="cloudaicompanion.geminiGcpEnablementSettings.create" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. geminiGcpEnablementSettings. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.geminiGcpEnablementSettings.delete" class="permission-name add-link" data-text="cloudaicompanion.geminiGcpEnablementSettings.delete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. geminiGcpEnablementSettings. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.geminiGcpEnablementSettings.get" class="permission-name add-link" data-text="cloudaicompanion.geminiGcpEnablementSettings.get" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.viewer">Gemini Cloud Assist Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. geminiGcpEnablementSettings. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.viewer">Gemini Cloud Assist Viewer</a> ( <code>roles/ geminicloudassist.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.geminiGcpEnablementSettings.list" class="permission-name add-link" data-text="cloudaicompanion.geminiGcpEnablementSettings.list" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.viewer">Gemini Cloud Assist Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. geminiGcpEnablementSettings. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.viewer">Gemini Cloud Assist Viewer</a> ( <code>roles/ geminicloudassist.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.geminiGcpEnablementSettings.update" class="permission-name add-link" data-text="cloudaicompanion.geminiGcpEnablementSettings.update" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. geminiGcpEnablementSettings. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.gibqObservabilitySettings.create" class="permission-name add-link" data-text="cloudaicompanion.gibqObservabilitySettings.create" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. gibqObservabilitySettings. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.gibqObservabilitySettings.delete" class="permission-name add-link" data-text="cloudaicompanion.gibqObservabilitySettings.delete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. gibqObservabilitySettings. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.gibqObservabilitySettings.get" class="permission-name add-link" data-text="cloudaicompanion.gibqObservabilitySettings.get" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. gibqObservabilitySettings. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.gibqObservabilitySettings.list" class="permission-name add-link" data-text="cloudaicompanion.gibqObservabilitySettings.list" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. gibqObservabilitySettings. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.gibqObservabilitySettings.update" class="permission-name add-link" data-text="cloudaicompanion.gibqObservabilitySettings.update" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. gibqObservabilitySettings. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.instances.completeCode" class="permission-name add-link" data-text="cloudaicompanion.instances.completeCode" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeCode</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.studioUser">Cloud SQL Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. instances. completeCode</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code>roles/ cloudsql.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.studioUser">Cloud SQL Studio User</a> ( <code>roles/ cloudsql.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.instances.completeTask" class="permission-name add-link" data-text="cloudaicompanion.instances.completeTask" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeTask</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationOwner">Gemini Cloud Assist Investigation Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.admin">Storage Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  storage.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationAdmin">Gemini Cloud Assist Investigation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationCreator">Gemini Cloud Assist Investigation Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationEditor">Gemini Cloud Assist Investigation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationUser">Gemini Cloud Assist Investigation User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationViewer">Gemini Cloud Assist Investigation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.infrastructureAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. instances. completeTask</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationOwner">Gemini Cloud Assist Investigation Owner</a> ( <code>roles/ geminicloudassist.investigationOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.admin">Storage Admin</a> ( <code>roles/ storage.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationAdmin">Gemini Cloud Assist Investigation Admin</a> ( <code>roles/ geminicloudassist.investigationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationCreator">Gemini Cloud Assist Investigation Creator</a> ( <code>roles/ geminicloudassist.investigationCreator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationEditor">Gemini Cloud Assist Investigation Editor</a> ( <code>roles/ geminicloudassist.investigationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationUser">Gemini Cloud Assist Investigation User</a> ( <code>roles/ geminicloudassist.investigationUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationViewer">Gemini Cloud Assist Investigation Viewer</a> ( <code>roles/ geminicloudassist.investigationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code>roles/ iam.infrastructureAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.serviceAgent">Cloud Data Fusion API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datapipelines.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serviceAgent">Dataproc Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataproc.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.serviceAgent">DLP API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.serviceAgent">AI Platform Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code>roles/ dataflow.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.serviceAgent">Cloud Data Fusion API Service Agent</a> ( <code>roles/ datafusion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines#datapipelines.serviceAgent">Datapipelines Service Agent</a> ( <code>roles/ datapipelines.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code>roles/ dataplex.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serviceAgent">Dataproc Service Agent</a> ( <code>roles/ dataproc.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.serviceAgent">DLP API Service Agent</a> ( <code>roles/ dlp.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.serviceAgent">AI Platform Service Agent</a> ( <code>roles/ ml.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.instances.exportMetrics" class="permission-name add-link" data-text="cloudaicompanion.instances.exportMetrics" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  instances.  exportMetrics</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/businessaicode#businessaicode.user">User role for Business AI Code API</a> ( <code class="role-name" dir="ltr" translate="no">roles/  businessaicode.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. instances. exportMetrics</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/businessaicode#businessaicode.user">User role for Business AI Code API</a> ( <code>roles/ businessaicode.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.instances.generateCode" class="permission-name add-link" data-text="cloudaicompanion.instances.generateCode" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateCode</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.studioUser">Cloud SQL Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. instances. generateCode</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code>roles/ cloudsql.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.studioUser">Cloud SQL Studio User</a> ( <code>roles/ cloudsql.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.instances.generateText" class="permission-name add-link" data-text="cloudaicompanion.instances.generateText" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  instances.  generateText</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. instances. generateText</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.instances.queryEffectiveSetting" class="permission-name add-link" data-text="cloudaicompanion.instances.queryEffectiveSetting" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSetting</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationOwner">Gemini Cloud Assist Investigation Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/businessaicode#businessaicode.user">User role for Business AI Code API</a> ( <code class="role-name" dir="ltr" translate="no">roles/  businessaicode.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationAdmin">Gemini Cloud Assist Investigation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationCreator">Gemini Cloud Assist Investigation Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationEditor">Gemini Cloud Assist Investigation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationUser">Gemini Cloud Assist Investigation User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationViewer">Gemini Cloud Assist Investigation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. instances. queryEffectiveSetting</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationOwner">Gemini Cloud Assist Investigation Owner</a> ( <code>roles/ geminicloudassist.investigationOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/businessaicode#businessaicode.user">User role for Business AI Code API</a> ( <code>roles/ businessaicode.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationAdmin">Gemini Cloud Assist Investigation Admin</a> ( <code>roles/ geminicloudassist.investigationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationCreator">Gemini Cloud Assist Investigation Creator</a> ( <code>roles/ geminicloudassist.investigationCreator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationEditor">Gemini Cloud Assist Investigation Editor</a> ( <code>roles/ geminicloudassist.investigationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationUser">Gemini Cloud Assist Investigation User</a> ( <code>roles/ geminicloudassist.investigationUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationViewer">Gemini Cloud Assist Investigation Viewer</a> ( <code>roles/ geminicloudassist.investigationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.instances.queryEffectiveSettingBindings" class="permission-name add-link" data-text="cloudaicompanion.instances.queryEffectiveSettingBindings" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  instances.  queryEffectiveSettingBindings</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/businessaicode#businessaicode.user">User role for Business AI Code API</a> ( <code class="role-name" dir="ltr" translate="no">roles/  businessaicode.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. instances. queryEffectiveSettingBindings</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/businessaicode#businessaicode.user">User role for Business AI Code API</a> ( <code>roles/ businessaicode.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.licenses.selfAssign" class="permission-name add-link" data-text="cloudaicompanion.licenses.selfAssign" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  licenses.  selfAssign</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/businessaicode#businessaicode.user">User role for Business AI Code API</a> ( <code class="role-name" dir="ltr" translate="no">roles/  businessaicode.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. licenses. selfAssign</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/businessaicode#businessaicode.user">User role for Business AI Code API</a> ( <code>roles/ businessaicode.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.loggingSettings.create" class="permission-name add-link" data-text="cloudaicompanion.loggingSettings.create" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. loggingSettings. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.loggingSettings.delete" class="permission-name add-link" data-text="cloudaicompanion.loggingSettings.delete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. loggingSettings. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.loggingSettings.get" class="permission-name add-link" data-text="cloudaicompanion.loggingSettings.get" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. loggingSettings. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.loggingSettings.list" class="permission-name add-link" data-text="cloudaicompanion.loggingSettings.list" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. loggingSettings. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.loggingSettings.update" class="permission-name add-link" data-text="cloudaicompanion.loggingSettings.update" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. loggingSettings. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.operations.cancel" class="permission-name add-link" data-text="cloudaicompanion.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  operations.  cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. operations. cancel</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.operations.delete" class="permission-name add-link" data-text="cloudaicompanion.operations.delete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  operations.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. operations. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.operations.get" class="permission-name add-link" data-text="cloudaicompanion.operations.get" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  operations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. operations. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.operations.list" class="permission-name add-link" data-text="cloudaicompanion.operations.list" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  operations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. operations. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.releaseChannelSettings.create" class="permission-name add-link" data-text="cloudaicompanion.releaseChannelSettings.create" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. releaseChannelSettings. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.releaseChannelSettings.delete" class="permission-name add-link" data-text="cloudaicompanion.releaseChannelSettings.delete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. releaseChannelSettings. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.releaseChannelSettings.get" class="permission-name add-link" data-text="cloudaicompanion.releaseChannelSettings.get" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. releaseChannelSettings. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.releaseChannelSettings.list" class="permission-name add-link" data-text="cloudaicompanion.releaseChannelSettings.list" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. releaseChannelSettings. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.releaseChannelSettings.update" class="permission-name add-link" data-text="cloudaicompanion.releaseChannelSettings.update" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. releaseChannelSettings. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.repositoryGroups.create" class="permission-name add-link" data-text="cloudaicompanion.repositoryGroups.create" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. repositoryGroups. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.repositoryGroups.delete" class="permission-name add-link" data-text="cloudaicompanion.repositoryGroups.delete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. repositoryGroups. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.repositoryGroups.get" class="permission-name add-link" data-text="cloudaicompanion.repositoryGroups.get" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.repositoryGroupsUser">Repository Groups User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.repositoryGroupsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. repositoryGroups. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.repositoryGroupsUser">Repository Groups User</a> ( <code>roles/ cloudaicompanion.repositoryGroupsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.repositoryGroups.getIamPolicy" class="permission-name add-link" data-text="cloudaicompanion.repositoryGroups.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.repositoryGroupsUser">Repository Groups User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.repositoryGroupsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. repositoryGroups. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.repositoryGroupsUser">Repository Groups User</a> ( <code>roles/ cloudaicompanion.repositoryGroupsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.repositoryGroups.list" class="permission-name add-link" data-text="cloudaicompanion.repositoryGroups.list" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>cloudaicompanion. repositoryGroups. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesViewer">Code Repository Indexes Viewer</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code>roles/ cloudaicompanion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.repositoryGroups.setIamPolicy" class="permission-name add-link" data-text="cloudaicompanion.repositoryGroups.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p></td>
+<td><code>cloudaicompanion. repositoryGroups. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.repositoryGroups.update" class="permission-name add-link" data-text="cloudaicompanion.repositoryGroups.update" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. repositoryGroups. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeRepositoryIndexesAdmin">Code Repository Indexes Admin</a> ( <code>roles/ cloudaicompanion.codeRepositoryIndexesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.repositoryGroups.use" class="permission-name add-link" data-text="cloudaicompanion.repositoryGroups.use" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  repositoryGroups.  use</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.repositoryGroupsUser">Repository Groups User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.repositoryGroupsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. repositoryGroups. use</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.repositoryGroupsUser">Repository Groups User</a> ( <code>roles/ cloudaicompanion.repositoryGroupsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.aiDevToolsSettingsCreate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.aiDevToolsSettingsCreate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsCreate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. aiDevToolsSettingsCreate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.aiDevToolsSettingsDelete" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.aiDevToolsSettingsDelete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsDelete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. aiDevToolsSettingsDelete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.aiDevToolsSettingsGet" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.aiDevToolsSettingsGet" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsGet</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. aiDevToolsSettingsGet</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.aiDevToolsSettingsList" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.aiDevToolsSettingsList" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsList</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. aiDevToolsSettingsList</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.aiDevToolsSettingsUpdate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.aiDevToolsSettingsUpdate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsUpdate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. aiDevToolsSettingsUpdate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.aiDevToolsSettingsUse" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.aiDevToolsSettingsUse" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  aiDevToolsSettingsUse</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. aiDevToolsSettingsUse</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.codeToolsSettingsCreate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.codeToolsSettingsCreate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsCreate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. codeToolsSettingsCreate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code>roles/ cloudaicompanion.codeToolsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.codeToolsSettingsDelete" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.codeToolsSettingsDelete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsDelete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. codeToolsSettingsDelete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code>roles/ cloudaicompanion.codeToolsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.codeToolsSettingsGet" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.codeToolsSettingsGet" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsGet</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. codeToolsSettingsGet</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code>roles/ cloudaicompanion.codeToolsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.codeToolsSettingsList" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.codeToolsSettingsList" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsList</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. codeToolsSettingsList</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code>roles/ cloudaicompanion.codeToolsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.codeToolsSettingsUpdate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.codeToolsSettingsUpdate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsUpdate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. codeToolsSettingsUpdate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code>roles/ cloudaicompanion.codeToolsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.codeToolsSettingsUse" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.codeToolsSettingsUse" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsUse</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. codeToolsSettingsUse</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsAdmin">Gemini Code Assist Tools Admin</a> ( <code>roles/ cloudaicompanion.codeToolsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsCreate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsCreate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsCreate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsCreate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsDelete" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsDelete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsDelete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsDelete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsGet" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsGet" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsGet</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsGet</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsList" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsList" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsList</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsList</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsUpdate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsUpdate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsUpdate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsUpdate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsUse" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsUse" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsUse</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. dataSharingWithGoogleSettingsUse</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.geminiGcpEnablementSettingsCreate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.geminiGcpEnablementSettingsCreate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsCreate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsCreate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.geminiGcpEnablementSettingsDelete" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.geminiGcpEnablementSettingsDelete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsDelete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsDelete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.geminiGcpEnablementSettingsGet" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.geminiGcpEnablementSettingsGet" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsGet</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsGet</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.geminiGcpEnablementSettingsList" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.geminiGcpEnablementSettingsList" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsList</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsList</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.geminiGcpEnablementSettingsUpdate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.geminiGcpEnablementSettingsUpdate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsUpdate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsUpdate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.geminiGcpEnablementSettingsUse" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.geminiGcpEnablementSettingsUse" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsUse</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. geminiGcpEnablementSettingsUse</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.gibqObservabilitySettingsCreate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.gibqObservabilitySettingsCreate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsCreate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsCreate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.gibqObservabilitySettingsDelete" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.gibqObservabilitySettingsDelete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsDelete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsDelete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.gibqObservabilitySettingsGet" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.gibqObservabilitySettingsGet" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsGet</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsGet</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.gibqObservabilitySettingsList" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.gibqObservabilitySettingsList" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsList</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsList</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.gibqObservabilitySettingsUpdate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.gibqObservabilitySettingsUpdate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsUpdate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsUpdate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.gibqObservabilitySettingsUse" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.gibqObservabilitySettingsUse" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsUse</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. gibqObservabilitySettingsUse</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.loggingSettingsCreate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.loggingSettingsCreate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsCreate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. loggingSettingsCreate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.loggingSettingsDelete" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.loggingSettingsDelete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsDelete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. loggingSettingsDelete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.loggingSettingsGet" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.loggingSettingsGet" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsGet</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. loggingSettingsGet</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.loggingSettingsList" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.loggingSettingsList" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsList</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. loggingSettingsList</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.loggingSettingsUpdate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.loggingSettingsUpdate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsUpdate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. loggingSettingsUpdate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.loggingSettingsUse" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.loggingSettingsUse" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsUse</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. loggingSettingsUse</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.releaseChannelSettingsCreate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.releaseChannelSettingsCreate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsCreate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. releaseChannelSettingsCreate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.releaseChannelSettingsDelete" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.releaseChannelSettingsDelete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsDelete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. releaseChannelSettingsDelete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.releaseChannelSettingsGet" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.releaseChannelSettingsGet" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsGet</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. releaseChannelSettingsGet</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.releaseChannelSettingsList" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.releaseChannelSettingsList" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsList</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. releaseChannelSettingsList</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code>roles/ cloudaicompanion.settingsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.settingBindings.releaseChannelSettingsUpdate" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.releaseChannelSettingsUpdate" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsUpdate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. releaseChannelSettingsUpdate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.settingBindings.releaseChannelSettingsUse" class="permission-name add-link" data-text="cloudaicompanion.settingBindings.releaseChannelSettingsUse" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsUse</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion. settingBindings. releaseChannelSettingsUse</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code>roles/ cloudaicompanion.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.topics.create" class="permission-name add-link" data-text="cloudaicompanion.topics.create" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.topics.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.codeToolsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.individualUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>cloudaicompanion.topics.create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code>roles/ cloudaicompanion.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code>roles/ cloudaicompanion.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code>roles/ cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.codeToolsUser">Gemini Code Assist Tools User</a> ( <code>roles/ cloudaicompanion.codeToolsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.individualUser">Gemini for Google Cloud individual User</a> ( <code>roles/ cloudaicompanion.individualUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.topics.delete" class="permission-name add-link" data-text="cloudaicompanion.topics.delete" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.topics.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.topicAdmin">Topic Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.topicAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p></td>
+<td><code>cloudaicompanion.topics.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.topicAdmin">Topic Admin</a> ( <code>roles/ cloudaicompanion.topicAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.topics.get" class="permission-name add-link" data-text="cloudaicompanion.topics.get" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.topics.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.topicAdmin">Topic Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.topicAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.topicReader">Topic Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.topicReader</code> )</p></td>
+<td><code>cloudaicompanion.topics.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.topicAdmin">Topic Admin</a> ( <code>roles/ cloudaicompanion.topicAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.topicReader">Topic Reader</a> ( <code>roles/ cloudaicompanion.topicReader</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.topics.getIamPolicy" class="permission-name add-link" data-text="cloudaicompanion.topics.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  topics.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.topicAdmin">Topic Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.topicAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p></td>
+<td><code>cloudaicompanion. topics. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.topicAdmin">Topic Admin</a> ( <code>roles/ cloudaicompanion.topicAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudaicompanion.topics.setIamPolicy" class="permission-name add-link" data-text="cloudaicompanion.topics.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  topics.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.topicAdmin">Topic Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.topicAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>cloudaicompanion. topics. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.admin">Gemini for Google Cloud Admin</a> ( <code>roles/ cloudaicompanion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.topicAdmin">Topic Admin</a> ( <code>roles/ cloudaicompanion.topicAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudaicompanion.topics.update" class="permission-name add-link" data-text="cloudaicompanion.topics.update" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.topics.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.topicAdmin">Topic Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.topicAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p></td>
+<td><code>cloudaicompanion.topics.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.topicAdmin">Topic Admin</a> ( <code>roles/ cloudaicompanion.topicAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p></td>
 </tr>
 </tbody>
 </table>

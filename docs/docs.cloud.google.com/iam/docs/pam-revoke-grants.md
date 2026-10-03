@@ -22,7 +22,7 @@ To revoke a specific grant made against an entitlement, complete the following i
 
 3.  Click the **Grants** tab, followed by the **Grants for all users** tab. This contains all grants across all requesters, the grant statuses, and their associated entitlement details.
 
-4.  In the table, click more\_vert **More options** in the same row as a grant you want to revoke.
+4.  In the table, click more_vert **More options** in the same row as a grant you want to revoke.
 
 5.  To revoke an active grant, click **Revoke grant** .
 
@@ -32,7 +32,7 @@ To revoke all active grants made against an entitlement, complete the following 
 
 2.  Click the **Entitlements** tab, followed by the **Entitlements for all users** tab. Here you can find the available entitlements, the roles they grant, and their valid requesters and approvers.
 
-3.  In the table, click more\_vert **More options** in the same row as an entitlement you want to revoke the grants for.
+3.  In the table, click more_vert **More options** in the same row as an entitlement you want to revoke the grants for.
 
 4.  Click **Revoke all grants** .
 
@@ -44,77 +44,85 @@ The `gcloud pam grants revoke` command revokes an active grant.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  GRANT_ID  ` : The ID of the grant you want to revoke. You can retrieve the ID by [viewing grants](https://docs.cloud.google.com/iam/docs/pam-view-grants) .
-  - `  ENTITLEMENT_ID  ` : The ID of the entitlement that the grant belongs to.
-  - `  REVOKE_REASON  ` : Why the grant has been revoked.
-  - `  RESOURCE_TYPE  ` : Optional. The resource type that the entitlement belongs to. Use the value `organization` , `folder` , or `project` .
-  - `  RESOURCE_ID  ` : Used with `RESOURCE_TYPE` . The ID of the Google Cloud project, folder, or organization that you want to manage entitlements for. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+- `GRANT_ID` : The ID of the grant you want to revoke. You can retrieve the ID by [viewing grants](https://docs.cloud.google.com/iam/docs/pam-view-grants) .
+- `ENTITLEMENT_ID` : The ID of the entitlement that the grant belongs to.
+- `REVOKE_REASON` : Why the grant has been revoked.
+- `RESOURCE_TYPE` : Optional. The resource type that the entitlement belongs to. Use the value `organization` , `folder` , or `project` .
+- `RESOURCE_ID` : Used with ` ``RESOURCE_TYPE`` ` . The ID of the Google Cloud project, folder, or organization that you want to manage entitlements for. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
 Execute the following command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud pam grants revoke \
-         GRANT_ID \
-        --entitlement=ENTITLEMENT_ID \
-        --reason="REVOKE_REASON" \
-        --location=global \
-        --RESOURCE_TYPE=RESOURCE_ID
+```
+gcloud pam grants revoke \
+     GRANT_ID \
+    --entitlement=ENTITLEMENT_ID \
+    --reason="REVOKE_REASON" \
+    --location=global \
+    --RESOURCE_TYPE=RESOURCE_ID
+```
 
 #### Windows (PowerShell)
 
-    gcloud pam grants revoke `
-         GRANT_ID `
-        --entitlement=ENTITLEMENT_ID `
-        --reason="REVOKE_REASON" `
-        --location=global `
-        --RESOURCE_TYPE=RESOURCE_ID
+```
+gcloud pam grants revoke `
+     GRANT_ID `
+    --entitlement=ENTITLEMENT_ID `
+    --reason="REVOKE_REASON" `
+    --location=global `
+    --RESOURCE_TYPE=RESOURCE_ID
+```
 
 #### Windows (cmd.exe)
 
-    gcloud pam grants revoke ^
-         GRANT_ID ^
-        --entitlement=ENTITLEMENT_ID ^
-        --reason="REVOKE_REASON" ^
-        --location=global ^
-        --RESOURCE_TYPE=RESOURCE_ID
+```
+gcloud pam grants revoke ^
+     GRANT_ID ^
+    --entitlement=ENTITLEMENT_ID ^
+    --reason="REVOKE_REASON" ^
+    --location=global ^
+    --RESOURCE_TYPE=RESOURCE_ID
+```
 
 You should receive a response similar to the following:
 
-    auditTrail:
-      accessGrantTime: '2024-04-05T00:29:16.703069535Z'
-      accessRemoveTime: '2024-04-05T00:29:55.815041079Z'
-    createTime: '2024-04-05T00:27:43.822053968Z'
-    justification:
-      unstructuredJustification: Renaming a file to mitigate issue #312
-    name: projects/my-project/locations/global/entitlements/ENTITLEMENT_ID/grants/GRANT_ID
-    privilegedAccess:
-      gcpIamAccess:
-        resource: //cloudresourcemanager.googleapis.com/projects/my-project
-        resourceType: cloudresourcemanager.googleapis.com/Project
-        roleBindings:
-        - role: roles/storage.admin
-    requestedDuration: 2700s
-    requester: cruz@example.com
-    state: REVOKED
-    timeline:
-      events:
-      - eventTime: '2024-04-05T00:27:44.014277946Z'
-        requested:
-          expireTime: '2024-04-06T00:27:44.014277946Z'
-      - approved:
-          actor: alex@example.com
-          reason: Access allowed under existing policy
-        eventTime: '2024-04-05T00:29:14.921828714Z'
-      - eventTime: '2024-04-05T00:29:14.921763008Z'
-        scheduled:
-          scheduledActivationTime: '2024-04-05T00:29:14.921763008Z'
-      - activated: {}
-        eventTime: '2024-04-05T00:29:16.703069535Z'
-      - eventTime: '2024-04-05T00:29:55.815041079Z'
-        revoked:
-          actor: alex@example.com
-          reason: Revoking due to new access policy
+```
+auditTrail:
+  accessGrantTime: '2024-04-05T00:29:16.703069535Z'
+  accessRemoveTime: '2024-04-05T00:29:55.815041079Z'
+createTime: '2024-04-05T00:27:43.822053968Z'
+justification:
+  unstructuredJustification: Renaming a file to mitigate issue #312
+name: projects/my-project/locations/global/entitlements/ENTITLEMENT_ID/grants/GRANT_ID
+privilegedAccess:
+  gcpIamAccess:
+    resource: //cloudresourcemanager.googleapis.com/projects/my-project
+    resourceType: cloudresourcemanager.googleapis.com/Project
+    roleBindings:
+    - role: roles/storage.admin
+requestedDuration: 2700s
+requester: cruz@example.com
+state: REVOKED
+timeline:
+  events:
+  - eventTime: '2024-04-05T00:27:44.014277946Z'
+    requested:
+      expireTime: '2024-04-06T00:27:44.014277946Z'
+  - approved:
+      actor: alex@example.com
+      reason: Access allowed under existing policy
+    eventTime: '2024-04-05T00:29:14.921828714Z'
+  - eventTime: '2024-04-05T00:29:14.921763008Z'
+    scheduled:
+      scheduledActivationTime: '2024-04-05T00:29:14.921763008Z'
+  - activated: {}
+    eventTime: '2024-04-05T00:29:16.703069535Z'
+  - eventTime: '2024-04-05T00:29:55.815041079Z'
+    revoked:
+      actor: alex@example.com
+      reason: Revoking due to new access policy
+```
 
 ### REST
 
@@ -122,20 +130,24 @@ The Privileged Access Manager API's `revokeGrant` method revokes an active grant
 
 Before using any of the request data, make the following replacements:
 
-  - `  SCOPE  ` : The organization, folder, or project that the entitlement is in, in the format of ` organizations/ ORGANIZATION_ID  ` , ` folders/ FOLDER_ID  ` , or ` projects/ PROJECT_ID  ` . Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
-  - `  ENTITLEMENT_ID  ` : The ID of the entitlement that the grant belongs to.
-  - `  GRANT_ID  ` : The ID of the grant you want to revoke. You can retrieve the ID by [viewing grants](https://docs.cloud.google.com/iam/docs/pam-view-grants) .
-  - `  REVOKE_REASON  ` : The reason the grant was revoked.
+- `SCOPE` : The organization, folder, or project that the entitlement is in, in the format of `organizations/ `` ORGANIZATION_ID` , `folders/ `` FOLDER_ID` , or `projects/ `` PROJECT_ID` . Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+- `ENTITLEMENT_ID` : The ID of the entitlement that the grant belongs to.
+- `GRANT_ID` : The ID of the grant you want to revoke. You can retrieve the ID by [viewing grants](https://docs.cloud.google.com/iam/docs/pam-view-grants) .
+- `REVOKE_REASON` : The reason the grant was revoked.
 
 HTTP method and URL:
 
-    POST https://privilegedaccessmanager.googleapis.com/v1/SCOPE/locations/global/entitlements/ENTITLEMENT_ID/grants/GRANT_ID:revoke
+```
+POST https://privilegedaccessmanager.googleapis.com/v1/SCOPE/locations/global/entitlements/ENTITLEMENT_ID/grants/GRANT_ID:revoke
+```
 
 Request JSON body:
 
-    {
-      "reason": "REVOKE_REASON"
-    }
+```
+{
+  "reason": "REVOKE_REASON"
+}
+```
 
 To send your request, expand one of these options:
 
@@ -145,11 +157,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://privilegedaccessmanager.googleapis.com/v1/SCOPE/locations/global/entitlements/ENTITLEMENT_ID/grants/GRANT_ID:revoke"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://privilegedaccessmanager.googleapis.com/v1/SCOPE/locations/global/entitlements/ENTITLEMENT_ID/grants/GRANT_ID:revoke"
+```
 
 #### PowerShell (Windows)
 
@@ -157,35 +171,43 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://privilegedaccessmanager.googleapis.com/v1/SCOPE/locations/global/entitlements/ENTITLEMENT_ID/grants/GRANT_ID:revoke" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://privilegedaccessmanager.googleapis.com/v1/SCOPE/locations/global/entitlements/ENTITLEMENT_ID/grants/GRANT_ID:revoke" | Select-Object -Expand Content
+```
 
 You should receive a JSON response similar to the following:
 
-    {
-      "name": "projects/my-project/locations/global/operations/OPERATION_ID",
-      "metadata": {
-        "@type": "type.googleapis.com/google.cloud.privilegedaccessmanager.v1.OperationMetadata",
-        "createTime": "2024-03-06T23:07:48.716396505Z",
-        "target": "projects/my-project/locations/global/entitlements/ENTITLEMENT_ID/grants/GRANT_ID",
-        "verb": "update",
-        "requestedCancellation": false,
-        "apiVersion": "v1"
-      },
-      "done": false
-    }
+```
+{
+  "name": "projects/my-project/locations/global/operations/OPERATION_ID",
+  "metadata": {
+    "@type": "type.googleapis.com/google.cloud.privilegedaccessmanager.v1.OperationMetadata",
+    "createTime": "2024-03-06T23:07:48.716396505Z",
+    "target": "projects/my-project/locations/global/entitlements/ENTITLEMENT_ID/grants/GRANT_ID",
+    "verb": "update",
+    "requestedCancellation": false,
+    "apiVersion": "v1"
+  },
+  "done": false
+}
+```
 
 To check on the progress of a revoke operation, you can send a `GET` request to the following endpoint:
 
-    https://privilegedaccessmanager.googleapis.com/v1/SCOPE/locations/global/operations/OPERATION_ID
+```
+https://privilegedaccessmanager.googleapis.com/v1/SCOPE/locations/global/operations/OPERATION_ID
+```
 
 Send a `GET` request to the following endpoint to list all operations:
 
-    https://privilegedaccessmanager.googleapis.com/v1/SCOPE/locations/global/operations
+```
+https://privilegedaccessmanager.googleapis.com/v1/SCOPE/locations/global/operations
+```

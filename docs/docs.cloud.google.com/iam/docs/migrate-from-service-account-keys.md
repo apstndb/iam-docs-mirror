@@ -18,9 +18,9 @@ Removing service account keys from existing workloads requires careful planning 
 
 This migration plan includes three phases:
 
-  - **Assess:** In this phase, you assess your existing environment to understand where service account keys exist and whether the keys are in use.
-  - **Plan:** In this phase, you decide which controls you will eventually deploy and communicate the migration plan to stakeholders.
-  - **Deploy:** In this phase, you begin refactoring workloads to authenticate with more secure alternatives to service account keys. You also build additional capabilities to continuously monitor your environment and mitigate future risk.
+- **Assess:** In this phase, you assess your existing environment to understand where service account keys exist and whether the keys are in use.
+- **Plan:** In this phase, you decide which controls you will eventually deploy and communicate the migration plan to stakeholders.
+- **Deploy:** In this phase, you begin refactoring workloads to authenticate with more secure alternatives to service account keys. You also build additional capabilities to continuously monitor your environment and mitigate future risk.
 
 ## Assess service account key use
 
@@ -42,10 +42,10 @@ You can combine information from all of these tools to get a better picture of h
 
 The reference architecture deploys a data pipeline that queries Cloud Asset Inventory to identify service account keys in your organization. Then, the data pipeline combines that data with data about key usage and permission usage for the associated account. The resulting table, `sa_key_usage` , helps you answer questions like the following:
 
-  - **How many persistent keys have been created?** This number can be useful as a high-level metric to track progress as you migrate away from keys.
-  - **Which projects and service accounts use keys?** This information helps you identify the owners of workloads that use service account keys.
-  - **Which keys are inactive?** You can likely delete these keys without further assessment from workload owners.
-  - **Which keys are associated with service accounts that have recommendations about excess permissions?** If a service account key is associated with an overly privileged service account, especially one with an Owner, Editor, or Viewer role, the key might be particularly high-risk. Looking for service accounts that have [role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) can help you identify which service accounts are overly privileged. After you identify these service accounts, you might decide to prioritize these workloads for migration. You can also choose to apply the role recommendations to proactively reduce excess permissions.
+- **How many persistent keys have been created?** This number can be useful as a high-level metric to track progress as you migrate away from keys.
+- **Which projects and service accounts use keys?** This information helps you identify the owners of workloads that use service account keys.
+- **Which keys are inactive?** You can likely delete these keys without further assessment from workload owners.
+- **Which keys are associated with service accounts that have recommendations about excess permissions?** If a service account key is associated with an overly privileged service account, especially one with an Owner, Editor, or Viewer role, the key might be particularly high-risk. Looking for service accounts that have [role recommendations](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) can help you identify which service accounts are overly privileged. After you identify these service accounts, you might decide to prioritize these workloads for migration. You can also choose to apply the role recommendations to proactively reduce excess permissions.
 
 This data pipeline runs daily and writes to a date-partitioned BigQuery table. You can use this table to investigate specific service accounts or keys, or to track remediation progress using a dashboard tool like [Data Studio](https://support.google.com/looker-studio/answer/6283323) .
 
@@ -53,9 +53,9 @@ This data pipeline runs daily and writes to a date-partitioned BigQuery table. Y
 
 After you gather data about key usage, you can optionally enrich your data with additional data sources. We recommend adding data sources that you already use for tracking governance and provenance of resources. Depending on your existing governance, you might add additional data such as the following:
 
-  - Ownership information from a configuration management database (CMDB) or similar system.
-  - Governance information configured in [project labels](https://docs.cloud.google.com/resource-manager/docs/creating-managing-labels#common-uses) , like the team or cost center responsible for a project.
-  - Environment information about keys used for workloads in environments external to Google Cloud.
+- Ownership information from a configuration management database (CMDB) or similar system.
+- Governance information configured in [project labels](https://docs.cloud.google.com/resource-manager/docs/creating-managing-labels#common-uses) , like the team or cost center responsible for a project.
+- Environment information about keys used for workloads in environments external to Google Cloud.
 
 ## Create a plan for reducing service account key usage
 
@@ -73,9 +73,9 @@ Consider how to balance improvements to your existing security posture against t
 
 One possible approach is to enforce service account key controls for all existing and future workloads. This involves steps like the following:
 
-  - Collaborating with workload owners to evaluate their key usage for existing workloads.
-  - Requiring that workload owners migrate all existing workloads with key usage, unless they have been granted an exception.
-  - Preventing all future workloads from using service account keys, unless they have been granted an exception.
+- Collaborating with workload owners to evaluate their key usage for existing workloads.
+- Requiring that workload owners migrate all existing workloads with key usage, unless they have been granted an exception.
+- Preventing all future workloads from using service account keys, unless they have been granted an exception.
 
 This approach prioritizes improvements to your existing security posture but requires more effort from developers and workload owners in the short term. To successfully execute a plan like this, you must have commitment from workload owners to participate in workload review and refactoring.
 
@@ -115,11 +115,11 @@ After you've designed a plan, you need to clearly communicate that plan across y
 
 While the specific migration details will vary for your organization, consider including the following topics in your communication plan:
 
-  - The negative impact that insecure service account keys can have on the organization, and the motivations that drive your migration away from service account keys.
-  - The new security controls to prevent service account key creation and how this can impact existing processes.
-  - Guidance for developers to identify [more secure alternatives to service account keys](https://docs.cloud.google.com/iam/docs/migrate-from-service-account-keys#remediate-existing-workloads) .
-  - The process for teams to request an exception to allow service account keys, including how frequently this exception is re-evaluated.
-  - The timeline to enforce your proposed changes.
+- The negative impact that insecure service account keys can have on the organization, and the motivations that drive your migration away from service account keys.
+- The new security controls to prevent service account key creation and how this can impact existing processes.
+- Guidance for developers to identify [more secure alternatives to service account keys](https://docs.cloud.google.com/iam/docs/migrate-from-service-account-keys#remediate-existing-workloads) .
+- The process for teams to request an exception to allow service account keys, including how frequently this exception is re-evaluated.
+- The timeline to enforce your proposed changes.
 
 Work with workload owners to refine your plan and ensure that it works across your organization.
 
@@ -144,22 +144,24 @@ To prevent the creation of service account keys in all non-exempt projects and f
 1.  Ensure that you have the Tag Administrator role ( `roles/resourcemanager.tagAdmin` ) and the Organization Policy Administrator role ( `roles/orgpolicy.policyAdmin` ) at the organization level. To learn how to grant roles at the organization level, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
 2.  At the organization level, create a tag key and tag value that you will use to define whether a resource should be exempt from the organization policy. We recommend creating a tag with the key `disableServiceAccountKeyCreation` and the values `enforced` and `not_enforced` .
-    
+
     To learn how to create tag keys and tag values, see [Creating and defining a new tag](https://docs.cloud.google.com/resource-manager/docs/tags/tags-creating-and-managing#creating) .
 
 3.  Attach the `disableServiceAccountKeyCreation` tag to the organization and set its value to `enforced` . All resources in the organization inherit this tag value, unless it's overwritten with a different tag value.
-    
+
     To learn how to attach tags to resources, see [Attaching tags to resources](https://docs.cloud.google.com/resource-manager/docs/tags/tags-creating-and-managing#attaching) .
 
 4.  For each project or folder that you want to exempt from the organization policy, attach the `disableServiceAccountKeyCreation` tag and set its value to `not_enforced` . Setting a tag value for a project or folder in this way overrides the tag value inherited from the organization.
 
 5.  [Create an organization policy](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-policies) that prevents the creation of service account keys for all resources except the exempt resources. This policy should have the following rules:
-    
-      - Configure the `iam.disableServiceAccountKeyCreation` constraint to not be enforced on any resources with the `disableServiceAccountKeyCreation: not_enforced` tag. The condition in this rule should look like the following:
-        
-            "resource.matchTag('ORGANIZATION_ID/disableServiceAccountKeyCreation', 'not_enforced')"
-    
-      - Configure the `iam.disableServiceAccountKeyCreation` constraint to be enforced on all other resources.
+
+    - Configure the `iam.disableServiceAccountKeyCreation` constraint to not be enforced on any resources with the `disableServiceAccountKeyCreation: not_enforced` tag. The condition in this rule should look like the following:
+
+      ```
+      "resource.matchTag('ORGANIZATION_ID/disableServiceAccountKeyCreation', 'not_enforced')"
+      ```
+
+    - Configure the `iam.disableServiceAccountKeyCreation` constraint to be enforced on all other resources.
 
 ### Remediate existing workloads
 
@@ -172,36 +174,32 @@ When you access Google Cloud services by using the Google Cloud CLI, Cloud Clien
 This diagram guides you through the following questions:
 
 1.  Are you running code in a single-user development environment, such as your own workstation, Cloud Shell, or a virtual desktop interface?
-    
     1.  If yes, proceed to question 4.
     2.  If no, proceed to question 2.
 
 2.  Are you running code in Google Cloud?
-    
     1.  If yes, proceed to question 3.
     2.  If no, proceed to question 5.
 
 3.  Are you running containers in Google Kubernetes Engine?
-    
     1.  If yes, use [Workload Identity Federation for GKE](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/workload-identity#authenticating_to) to attach service accounts to Kubernetes pods.
     2.  If no, [attach a service account](https://docs.cloud.google.com/iam/docs/attach-service-accounts#attaching-to-resources) to the resource.
 
 4.  Does your use case require a service account?
-    
+
     For example, you want to configure authentication and authorization consistently for your application across all environments.
-    
+
     1.  If no, [authenticate with user credentials](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment#local-user-cred) .
     2.  If yes, [impersonate a service account with user credentials](https://docs.cloud.google.com/docs/authentication/use-service-account-impersonation) .
 
 5.  Does your workload authenticate with an external identity provider that supports [workload identity federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation#providers) ?
-    
     1.  If yes, [configure Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds) to let applications running on-premises or on other cloud providers use a service account.
     2.  If no, [create a service account key](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment#local-key) .
 
 In some cases, you might not be able to use any authentication method other than service account keys. Examples of where a service account key might be your only feasible option include the following:
 
-  - You're using commercial off-the-shelf products (COTS) or software-as-a-service (SaaS) applications that ask you to input a Google Cloud service account key directly into its user interface.
-  - Your workload is running outside of Google Cloud and isn't authenticated with an identity provider that can support [workload identity federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) .
+- You're using commercial off-the-shelf products (COTS) or software-as-a-service (SaaS) applications that ask you to input a Google Cloud service account key directly into its user interface.
+- Your workload is running outside of Google Cloud and isn't authenticated with an identity provider that can support [workload identity federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) .
 
 In cases where you must keep using service account keys, ensure that you're following the [best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .
 
@@ -211,11 +209,11 @@ You might also decide not to remediate certain workloads because you assess that
 
 If you are certain that a service account key isn't needed, you should delete the key. Unnecessary keys include the following:
 
-  - Keys with no recent usage or keys that are related to unused resources, which you identified in the [Identify quick wins](https://docs.cloud.google.com/iam/docs/migrate-from-service-account-keys#identify-quick-wins) section of this page.
+- Keys with no recent usage or keys that are related to unused resources, which you identified in the [Identify quick wins](https://docs.cloud.google.com/iam/docs/migrate-from-service-account-keys#identify-quick-wins) section of this page.
 
-  - Keys for workloads that have migrated to other authentication methods.
-    
-    After you delete all of the service account keys in a project, ensure that the `iam.disableServiceAccountKeyCreation` constraint is enforced for that project. If the project was previously exempt from this constraint, remove the tag that allowed for the exemption.
+- Keys for workloads that have migrated to other authentication methods.
+
+  After you delete all of the service account keys in a project, ensure that the `iam.disableServiceAccountKeyCreation` constraint is enforced for that project. If the project was previously exempt from this constraint, remove the tag that allowed for the exemption.
 
 To delete keys safely, we recommend that you [disable the key](https://docs.cloud.google.com/iam/docs/keys-disable-enable#disabling) before deleting it. Deleting is irreversible, but disabling it lets you quickly re-enable the key if you identify unexpected issues. After you disable the key, wait until you're sure that removing the key permanently won't cause issues, then [delete the key](https://docs.cloud.google.com/iam/docs/keys-create-delete#deleting) . If, after disabling the key, you identify unexpected issues, re-enable the key, resolve the issues, and then repeat the process until you can safely delete the key.
 
@@ -223,7 +221,7 @@ To delete keys safely, we recommend that you [disable the key](https://docs.clou
 
 Google Cloud offers tools and services to help you detect and respond to leaked service account keys. Consider using the following mechanisms to help you respond to leaked service account keys:
 
-  - The [Service Account Key Exposure Response constraint](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#disable-exposed-keys) lets you automatically disable exposed keys that Google Cloud detects.
+- The [Service Account Key Exposure Response constraint](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#disable-exposed-keys) lets you automatically disable exposed keys that Google Cloud detects.
 
 To learn about other best practices for managing compromised credentials, see [Handling compromised Google Cloud credentials](https://docs.cloud.google.com/docs/security/compromised-credentials) .
 
@@ -233,6 +231,6 @@ Wherever possible, implement [best practices for managing service account keys](
 
 ## What's next
 
-  - [Best practices for using service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts)
-  - [Best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys)
-  - [Build a collaborative incident management process](https://docs.cloud.google.com/architecture/framework/operational-excellence/manage-incidents-and-problems)
+- [Best practices for using service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts)
+- [Best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys)
+- [Build a collaborative incident management process](https://docs.cloud.google.com/architecture/framework/operational-excellence/manage-incidents-and-problems)

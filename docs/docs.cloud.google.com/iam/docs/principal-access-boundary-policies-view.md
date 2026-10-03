@@ -10,23 +10,27 @@ Principal Access Boundary (PAB) policies let you limit the resources that a set 
 
 ## Before you begin
 
-  - Set up authentication.
-    
-    Select the tab for how you plan to use the samples on this page:
-    
-    ### gcloud
-    
-    In the Google Cloud console, activate Cloud Shell.
-    
-    At the bottom of the Google Cloud console, a [Cloud Shell](https://docs.cloud.google.com/shell/docs/how-cloud-shell-works) session starts and displays a command-line prompt. Cloud Shell is a shell environment with the Google Cloud CLI already installed and with values already set for your current project. It can take a few seconds for the session to initialize.
-    
-    ### REST
-    
-    To use the REST API samples on this page in a local development environment, you use the credentials you provide to the gcloud CLI.
-    
-    For more information, see [Authenticate for using REST](https://docs.cloud.google.com/docs/authentication/rest) in the Google Cloud authentication documentation.
+- Set up authentication.
 
-  - Read the [overview of Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) .
+  Select the tab for how you plan to use the samples on this page:
+
+  ### gcloud
+
+  In the Google Cloud console, activate Cloud Shell.
+
+  At the bottom of the Google Cloud console, a [Cloud Shell](https://docs.cloud.google.com/shell/docs/how-cloud-shell-works) session starts and displays a command-line prompt. Cloud Shell is a shell environment with the Google Cloud CLI already installed and with values already set for your current project. It can take a few seconds for the session to initialize.
+
+  ### REST
+
+  To use the REST API samples on this page in a local development environment, you use the credentials you provide to the gcloud CLI.
+
+  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
+
+  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+  For more information, see [Authenticate for using REST](https://docs.cloud.google.com/docs/authentication/rest) in the Google Cloud authentication documentation.
+
+- Read the [overview of Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) .
 
 ### Roles required to view Principal Access Boundary policies
 
@@ -38,8 +42,8 @@ This predefined role contains the permissions required to view Principal Access 
 
 The following permissions are required to view Principal Access Boundary policies:
 
-  - View a single Principal Access Boundary policy: `iam.principalaccessboundarypolicies.get`
-  - List Principal Access Boundary policies in an organization: `iam.principalaccessboundarypolicies.list`
+- View a single Principal Access Boundary policy: `iam.principalaccessboundarypolicies.get`
+- List Principal Access Boundary policies in an organization: `iam.principalaccessboundarypolicies.list`
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -47,9 +51,9 @@ You might also be able to get these permissions with [custom roles](https://docs
 
 To get the permissions that you need to view policy bindings, ask your administrator to grant you the following IAM roles on the policy bindings' [parent resource](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) :
 
-  - View policy bindings in a project: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` )
-  - View policy bindings in a folder: [Folder IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin) ( `roles/resourcemanager.folderIamAdmin` )
-  - View policy bindings in an organization: [Organization Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` )
+- View policy bindings in a project: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` )
+- View policy bindings in a folder: [Folder IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin) ( `roles/resourcemanager.folderIamAdmin` )
+- View policy bindings in an organization: [Organization Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` )
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -59,8 +63,8 @@ These predefined roles contain the permissions required to view policy bindings.
 
 The following permissions are required to view policy bindings:
 
-  - View a single policy binding: `iam.policybindings.get`
-  - List policy bindings in a project, folder, or organization: `iam.policybindings.list`
+- View a single policy binding: `iam.policybindings.get`
+- List policy bindings in a project, folder, or organization: `iam.policybindings.list`
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -78,12 +82,12 @@ The permissions that you need in order to view all policy bindings for a princip
 
 To get the permissions that you need to view policy bindings, ask your administrator to grant you the following IAM roles:
 
-  - View policy bindings for Workforce Identity Federation pools: [IAM Workforce Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin) ( `roles/iam.workforcePoolAdmin` ) on the target Workforce Identity Federation pool
-  - View policy bindings for Workload Identity Federation pools: [IAM Workload Identity Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin) ( `roles/iam.workloadIdentityPoolAdmin` ) on the project that owns the target Workforce Identity Federation pool
-  - View policy bindings for a Google Workspace domain: [Workspace Pool IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workspacePoolAdmin) ( `roles/iam.workspacePoolAdmin` ) on the organization
-  - View policy bindings for a project's principal set: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` ) on the project
-  - View policy bindings for a folder's principal set: [Folder IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin) ( `roles/resourcemanager.folderIamAdmin` ) on the folder
-  - View policy bindings for an organization's principal set: [Organization Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` ) on the organization
+- View policy bindings for Workforce Identity Federation pools: [IAM Workforce Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin) ( `roles/iam.workforcePoolAdmin` ) on the target Workforce Identity Federation pool
+- View policy bindings for Workload Identity Federation pools: [IAM Workload Identity Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin) ( `roles/iam.workloadIdentityPoolAdmin` ) on the project that owns the target Workforce Identity Federation pool
+- View policy bindings for a Google Workspace domain: [Workspace Pool IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workspacePoolAdmin) ( `roles/iam.workspacePoolAdmin` ) on the organization
+- View policy bindings for a project's principal set: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` ) on the project
+- View policy bindings for a folder's principal set: [Folder IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin) ( `roles/resourcemanager.folderIamAdmin` ) on the folder
+- View policy bindings for an organization's principal set: [Organization Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` ) on the organization
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -93,12 +97,12 @@ These predefined roles contain the permissions required to view policy bindings.
 
 The following permissions are required to view policy bindings:
 
-  - View policy bindings for Workforce Identity Federation pools: `iam.workforcePools.searchPolicyBindings` on the target Workforce Identity Federation pool
-  - View policy bindings for Workload Identity Federation pools: `iam.workloadIdentityPools.searchPolicyBindings` on the project that owns the target Workforce Identity Federation pool
-  - View policy bindings for a Google Workspace domain: `iam.workspacePools.searchPolicyBindings` on the organization
-  - View policy bindings for a project's principal set: `resourcemanager.projects.searchPolicyBindings` on the project
-  - View policy bindings for a folder's principal set: `resourcemanager.folders.searchPolicyBindings` on the folder
-  - View policy bindings for an organization's principal set: `resourcemanager.organizations.searchPolicyBindings` on the organization
+- View policy bindings for Workforce Identity Federation pools: `iam.workforcePools.searchPolicyBindings` on the target Workforce Identity Federation pool
+- View policy bindings for Workload Identity Federation pools: `iam.workloadIdentityPools.searchPolicyBindings` on the project that owns the target Workforce Identity Federation pool
+- View policy bindings for a Google Workspace domain: `iam.workspacePools.searchPolicyBindings` on the organization
+- View policy bindings for a project's principal set: `resourcemanager.projects.searchPolicyBindings` on the project
+- View policy bindings for a folder's principal set: `resourcemanager.folders.searchPolicyBindings` on the folder
+- View policy bindings for an organization's principal set: `resourcemanager.organizations.searchPolicyBindings` on the organization
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -118,88 +122,98 @@ The Google Cloud console lists all policies in the organization that you select.
 
 ### gcloud
 
-The `  gcloud iam principal-access-boundary-policies list  ` command lists all Principal Access Boundary policies in an organization.
+The [`gcloud iam principal-access-boundary-policies list`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/principal-access-boundary-policies/list) command lists all Principal Access Boundary policies in an organization.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  ORG_ID  ` : The ID of the Google Cloud organization that you want to list Principal Access Boundary policies for. Organization IDs are numeric, like `123456789012` .
-  - `  FORMAT  ` : The format for the response. Use `json` or `yaml` .
+- `ORG_ID` : The ID of the Google Cloud organization that you want to list Principal Access Boundary policies for. Organization IDs are numeric, like `123456789012` .
+- `FORMAT` : The format for the response. Use `json` or `yaml` .
 
 Execute the following command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud iam principal-access-boundary-policies list --organization=ORG_ID \
-        --location=global  --format=FORMAT
+```
+gcloud iam principal-access-boundary-policies list --organization=ORG_ID \
+    --location=global  --format=FORMAT
+```
 
 #### Windows (PowerShell)
 
-    gcloud iam principal-access-boundary-policies list --organization=ORG_ID `
-        --location=global  --format=FORMAT
+```
+gcloud iam principal-access-boundary-policies list --organization=ORG_ID `
+    --location=global  --format=FORMAT
+```
 
 #### Windows (cmd.exe)
 
-    gcloud iam principal-access-boundary-policies list --organization=ORG_ID ^
-        --location=global  --format=FORMAT
+```
+gcloud iam principal-access-boundary-policies list --organization=ORG_ID ^
+    --location=global  --format=FORMAT
+```
 
 The response contains the Principal Access Boundary policies in the specified organization.
 
+```
+{
+  "principalAccessBoundaryPolicies": [
     {
-      "principalAccessBoundaryPolicies": [
-        {
-          "createTime": "2026-07-07T00:05:48.295209Z",
-          "details": {
-            "enforcementVersion": "4",
-            "rules": [
-              {
-                "description": "Make principals eligible to manage but not delete Compute resources in example.com",
-                "effect": "ALLOW",
-                "resources": [
-                  "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-                ]
-              }
+      "createTime": "2026-07-07T00:05:48.295209Z",
+      "details": {
+        "enforcementVersion": "4",
+        "rules": [
+          {
+            "description": "Make principals eligible to manage but not delete Compute resources in example.com",
+            "effect": "ALLOW",
+            "resources": [
+              "//cloudresourcemanager.googleapis.com/organizations/123456789012"
             ]
-          },
-          "displayName": "Example policy 1",
-          "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
-          "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy-1",
-          "uid": "puid_13364150419245236225",
-          "updateTime": "2026-07-07T00:05:48.295209Z"
-        },
-        {
-          "createTime": "2026-05-29T23:25:01.606730Z",
-          "details": {
-            "enforcementVersion": "4",
-            "rules": [
-              {
-                "description": "Make principals eligible to access resources in example-project",
-                "effect": "ALLOW",
-                "resources": [
-                  "//cloudresourcemanager.googleapis.com/projects/example-project"
-                ]
-              }
+          }
+        ]
+      },
+      "displayName": "Example policy 1",
+      "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
+      "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy-1",
+      "uid": "puid_13364150419245236225",
+      "updateTime": "2026-07-07T00:05:48.295209Z"
+    },
+    {
+      "createTime": "2026-05-29T23:25:01.606730Z",
+      "details": {
+        "enforcementVersion": "4",
+        "rules": [
+          {
+            "description": "Make principals eligible to access resources in example-project",
+            "effect": "ALLOW",
+            "resources": [
+              "//cloudresourcemanager.googleapis.com/projects/example-project"
             ]
-          },
-          "displayName": "Example policy 2",
-          "etag": "d6BJBTsk2+oDCygmr5ANxA==",
-          "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy-2",
-          "uid": "puid_13064942519001808897",
-          "updateTime": "2026-05-29T23:25:01.606730Z"
-        }
-      ]
+          }
+        ]
+      },
+      "displayName": "Example policy 2",
+      "etag": "d6BJBTsk2+oDCygmr5ANxA==",
+      "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy-2",
+      "uid": "puid_13064942519001808897",
+      "updateTime": "2026-05-29T23:25:01.606730Z"
     }
+  ]
+}
+```
 
 ### REST
 
-The `  principalAccessBoundaryPolicies.list  ` method lists all Principal Access Boundary policies in an organization.
+The [`principalAccessBoundaryPolicies.list`](https://docs.cloud.google.com/iam/docs/reference/rest/v3/organizations.locations.principalAccessBoundaryPolicies/list) method lists all Principal Access Boundary policies in an organization.
 
 Before using any of the request data, make the following replacements:
 
-  - `  ORG_ID  ` : The ID of the Google Cloud organization that you want to list Principal Access Boundary policies for. Organization IDs are numeric, like `123456789012` .
+- `ORG_ID` : The ID of the Google Cloud organization that you want to list Principal Access Boundary policies for. Organization IDs are numeric, like `123456789012` .
 
 HTTP method and URL:
 
-    GET https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies
+```
+GET https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies
+```
 
 To send your request, expand one of these options:
 
@@ -209,9 +223,11 @@ To send your request, expand one of these options:
 
 Execute the following command:
 
-    curl -X GET \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies"
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies"
+```
 
 #### PowerShell (Windows)
 
@@ -219,60 +235,64 @@ Execute the following command:
 
 Execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method GET `
-        -Headers $headers `
-        -Uri "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies" | Select-Object -Expand Content
+```
 
 The response contains the Principal Access Boundary policies in the specified organization.
 
+```
+{
+  "principalAccessBoundaryPolicies": [
     {
-      "principalAccessBoundaryPolicies": [
-        {
-          "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy-1",
-          "uid": "puid_13364150419245236225",
-          "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
-          "displayName": "Example policy 1",
-          "createTime": "2026-07-07T00:05:48.295209Z",
-          "updateTime": "2026-07-07T00:05:48.295209Z",
-          "details": {
-            "rules": [
-              {
-                "description": "Make principals eligible to access resources in example.com",
-                "resources": [
-                  "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-                ],
-                "effect": "ALLOW"
-              }
+      "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy-1",
+      "uid": "puid_13364150419245236225",
+      "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
+      "displayName": "Example policy 1",
+      "createTime": "2026-07-07T00:05:48.295209Z",
+      "updateTime": "2026-07-07T00:05:48.295209Z",
+      "details": {
+        "rules": [
+          {
+            "description": "Make principals eligible to access resources in example.com",
+            "resources": [
+              "//cloudresourcemanager.googleapis.com/organizations/123456789012"
             ],
-            "enforcementVersion": "4"
+            "effect": "ALLOW"
           }
-        },
-        {
-          "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy-2",
-          "uid": "puid_13064942519001808897",
-          "etag": "d6BJBTsk2+oDCygmr5ANxA==",
-          "displayName": "Example policy 2",
-          "createTime": "2026-05-29T23:25:01.606730Z",
-          "updateTime": "2026-05-29T23:25:01.606730Z",
-          "details": {
-            "rules": [
-              {
-                "description": "Make principals eligible to access resources in example-project",
-                "resources": [
-                  "//cloudresourcemanager.googleapis.com/projects/example-project"
-                ],
-                "effect": "ALLOW"
-              }
+        ],
+        "enforcementVersion": "4"
+      }
+    },
+    {
+      "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy-2",
+      "uid": "puid_13064942519001808897",
+      "etag": "d6BJBTsk2+oDCygmr5ANxA==",
+      "displayName": "Example policy 2",
+      "createTime": "2026-05-29T23:25:01.606730Z",
+      "updateTime": "2026-05-29T23:25:01.606730Z",
+      "details": {
+        "rules": [
+          {
+            "description": "Make principals eligible to access resources in example-project",
+            "resources": [
+              "//cloudresourcemanager.googleapis.com/projects/example-project"
             ],
-            "enforcementVersion": "4"
+            "effect": "ALLOW"
           }
-        }
-      ]
+        ],
+        "enforcementVersion": "4"
+      }
     }
+  ]
+}
+```
 
 ## Get a single Principal Access Boundary policy
 
@@ -292,69 +312,79 @@ The Google Cloud console shows the details of the Principal Access Boundary poli
 
 ### gcloud
 
-The `  gcloud iam principal-access-boundary-policies describe  ` command gets a single Principal Access Boundary policy.
+The [`gcloud iam principal-access-boundary-policies describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/principal-access-boundary-policies/describe) command gets a single Principal Access Boundary policy.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  PAB_POLICY_ID  ` : The ID of the Principal Access Boundary policy that you want to get—for example, `example-policy` .
-  - `  ORG_ID  ` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
-  - `  FORMAT  ` : The format for the response. Use `json` or `yaml` .
+- `PAB_POLICY_ID` : The ID of the Principal Access Boundary policy that you want to get—for example, `example-policy` .
+- `ORG_ID` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
+- `FORMAT` : The format for the response. Use `json` or `yaml` .
 
 Execute the following command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud iam principal-access-boundary-policies describe PAB_POLICY_ID \
-        --organization=ORG_ID --location=global \
-        --format=FORMAT
+```
+gcloud iam principal-access-boundary-policies describe PAB_POLICY_ID \
+    --organization=ORG_ID --location=global \
+    --format=FORMAT
+```
 
 #### Windows (PowerShell)
 
-    gcloud iam principal-access-boundary-policies describe PAB_POLICY_ID `
-        --organization=ORG_ID --location=global `
-        --format=FORMAT
+```
+gcloud iam principal-access-boundary-policies describe PAB_POLICY_ID `
+    --organization=ORG_ID --location=global `
+    --format=FORMAT
+```
 
 #### Windows (cmd.exe)
 
-    gcloud iam principal-access-boundary-policies describe PAB_POLICY_ID ^
-        --organization=ORG_ID --location=global ^
-        --format=FORMAT
+```
+gcloud iam principal-access-boundary-policies describe PAB_POLICY_ID ^
+    --organization=ORG_ID --location=global ^
+    --format=FORMAT
+```
 
 The response contains the Principal Access Boundary policy specified in the request.
 
-    {
-      "createTime": "2026-07-07T00:05:48.295209Z",
-      "details": {
-        "enforcementVersion": "4",
-        "rules": [
-          {
-            "description": "Make principals eligible to access resources in example.com",
-            "effect": "ALLOW",
-            "resources": [
-              "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-            ]
-          }
+```
+{
+  "createTime": "2026-07-07T00:05:48.295209Z",
+  "details": {
+    "enforcementVersion": "4",
+    "rules": [
+      {
+        "description": "Make principals eligible to access resources in example.com",
+        "effect": "ALLOW",
+        "resources": [
+          "//cloudresourcemanager.googleapis.com/organizations/123456789012"
         ]
-      },
-      "displayName": "Example policy",
-      "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
-      "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy",
-      "uid": "puid_13364150419245236225",
-      "updateTime": "2026-07-07T00:05:48.295209Z"
-    }
+      }
+    ]
+  },
+  "displayName": "Example policy",
+  "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
+  "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy",
+  "uid": "puid_13364150419245236225",
+  "updateTime": "2026-07-07T00:05:48.295209Z"
+}
+```
 
 ### REST
 
-The `  principalAccessBoundaryPolicies.get  ` method gets a single Principal Access Boundary policy.
+The [`principalAccessBoundaryPolicies.get`](https://docs.cloud.google.com/iam/docs/reference/rest/v3/organizations.locations.principalAccessBoundaryPolicies/get) method gets a single Principal Access Boundary policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  ORG_ID  ` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
-  - `  PAB_POLICY_ID  ` : The ID of the Principal Access Boundary policy that you want to get—for example, `example-policy` .
+- `ORG_ID` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
+- `PAB_POLICY_ID` : The ID of the Principal Access Boundary policy that you want to get—for example, `example-policy` .
 
 HTTP method and URL:
 
-    GET https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID
+```
+GET https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID
+```
 
 To send your request, expand one of these options:
 
@@ -364,9 +394,11 @@ To send your request, expand one of these options:
 
 Execute the following command:
 
-    curl -X GET \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID"
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID"
+```
 
 #### PowerShell (Windows)
 
@@ -374,44 +406,48 @@ Execute the following command:
 
 Execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method GET `
-        -Headers $headers `
-        -Uri "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID" | Select-Object -Expand Content
+```
 
 The response contains the Principal Access Boundary policy specified in the request.
 
-    {
-      "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy",
-      "uid": "puid_13364150419245236225",
-      "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
-      "displayName": "Example policy",
-      "createTime": "2026-07-07T00:05:48.295209Z",
-      "updateTime": "2026-07-07T00:05:48.295209Z",
-      "details": {
-        "rules": [
-          {
-            "description": "Make principals eligible to access resources in example.com",
-            "resources": [
-              "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-            ],
-            "effect": "ALLOW"
-          }
+```
+{
+  "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy",
+  "uid": "puid_13364150419245236225",
+  "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
+  "displayName": "Example policy",
+  "createTime": "2026-07-07T00:05:48.295209Z",
+  "updateTime": "2026-07-07T00:05:48.295209Z",
+  "details": {
+    "rules": [
+      {
+        "description": "Make principals eligible to access resources in example.com",
+        "resources": [
+          "//cloudresourcemanager.googleapis.com/organizations/123456789012"
         ],
-        "enforcementVersion": "4"
+        "effect": "ALLOW"
       }
-    }
+    ],
+    "enforcementVersion": "4"
+  }
+}
+```
 
 ## List policy bindings for Principal Access Boundary policies
 
 There are several ways that you can list policy bindings for Principal Access Boundary policies:
 
-  - [List policy bindings for a Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#search-policy-bindings)
-  - [List policy bindings for a principal set](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#search-target-bindings)
-  - [List policy bindings for a project, folder, or organization](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#list-policy-bindings-parent)
+- [List policy bindings for a Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#search-policy-bindings)
+- [List policy bindings for a principal set](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#search-target-bindings)
+- [List policy bindings for a project, folder, or organization](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#list-policy-bindings-parent)
 
 ### List policy bindings for a Principal Access Boundary policy
 
@@ -433,81 +469,91 @@ The **Bindings** tab lists all Principal Access Boundary policy bindings that in
 
 ### gcloud
 
-The `  gcloud iam principal-access-boundary-policies search-policy-bindings  ` command lists all policy bindings for the specified Principal Access Boundary policy.
+The [`gcloud iam principal-access-boundary-policies search-policy-bindings`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/principal-access-boundary-policies/search-policy-bindings) command lists all policy bindings for the specified Principal Access Boundary policy.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  PAB_POLICY_ID  ` : The ID of the Principal Access Boundary policy that you want to list policy bindings for—for example, `example-policy` .
-  - `  ORG_ID  ` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
-  - `  FORMAT  ` : The format for the response. Use `json` or `yaml` .
+- `PAB_POLICY_ID` : The ID of the Principal Access Boundary policy that you want to list policy bindings for—for example, `example-policy` .
+- `ORG_ID` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
+- `FORMAT` : The format for the response. Use `json` or `yaml` .
 
 Execute the following command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud iam principal-access-boundary-policies search-policy-bindings PAB_POLICY_ID \
-        --organization=ORG_ID --location=global \
-        --format=FORMAT
+```
+gcloud iam principal-access-boundary-policies search-policy-bindings PAB_POLICY_ID \
+    --organization=ORG_ID --location=global \
+    --format=FORMAT
+```
 
 #### Windows (PowerShell)
 
-    gcloud iam principal-access-boundary-policies search-policy-bindings PAB_POLICY_ID `
-        --organization=ORG_ID --location=global `
-        --format=FORMAT
+```
+gcloud iam principal-access-boundary-policies search-policy-bindings PAB_POLICY_ID `
+    --organization=ORG_ID --location=global `
+    --format=FORMAT
+```
 
 #### Windows (cmd.exe)
 
-    gcloud iam principal-access-boundary-policies search-policy-bindings PAB_POLICY_ID ^
-        --organization=ORG_ID --location=global ^
-        --format=FORMAT
+```
+gcloud iam principal-access-boundary-policies search-policy-bindings PAB_POLICY_ID ^
+    --organization=ORG_ID --location=global ^
+    --format=FORMAT
+```
 
 The response contains the policy bindings for the specified Principal Access Boundary policy.
 
+```
+{
+  "policyBindings": [
     {
-      "policyBindings": [
-        {
-          "createTime": "2024-05-06T18:08:24.729843Z",
-          "displayName": "Example binding 1",
-          "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
-          "name": "organizations/123456789012/locations/global/policyBindings/example-binding1",
-          "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy",
-          "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-          "policyUid": "puid_9519202237377675265",
-          "target": {
-            "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-          },
-          "uid": "buid_9904260005517852673", 
-          "updateTime": "2024-05-06T18:08:24.729843Z"
-        },
-        {
-          "createTime": "2024-05-07T07:05:06.203861Z",
-          "displayName": "Example binding 2",
-          "etag": "W/\"cRMdDXbT82aLuZlvoL9Gqg==\"",
-          "name": "organizations/123456789012/locations/global/policyBindings/example-binding2",
-          "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy",
-          "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-          "policyUid": "puid_9519202237377675265",
-          "target": {
-            "principalSet": "//cloudresourcemanager.googleapis.com/projects/example-project"
-          },
-          "uid": "buid_4331055466646863873", 
-          "updateTime": "2024-05-07T07:05:06.203861Z"
-        }
-      ]
+      "createTime": "2024-05-06T18:08:24.729843Z",
+      "displayName": "Example binding 1",
+      "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
+      "name": "organizations/123456789012/locations/global/policyBindings/example-binding1",
+      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy",
+      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+      "policyUid": "puid_9519202237377675265",
+      "target": {
+        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
+      },
+      "uid": "buid_9904260005517852673", 
+      "updateTime": "2024-05-06T18:08:24.729843Z"
+    },
+    {
+      "createTime": "2024-05-07T07:05:06.203861Z",
+      "displayName": "Example binding 2",
+      "etag": "W/\"cRMdDXbT82aLuZlvoL9Gqg==\"",
+      "name": "organizations/123456789012/locations/global/policyBindings/example-binding2",
+      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy",
+      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+      "policyUid": "puid_9519202237377675265",
+      "target": {
+        "principalSet": "//cloudresourcemanager.googleapis.com/projects/example-project"
+      },
+      "uid": "buid_4331055466646863873", 
+      "updateTime": "2024-05-07T07:05:06.203861Z"
     }
+  ]
+}
+```
 
 ### REST
 
-The `  principalAccessBoundaryPolicies.searchPolicyBindings  ` method lists all policy bindings for the specified Principal Access Boundary policy.
+The [`principalAccessBoundaryPolicies.searchPolicyBindings`](https://docs.cloud.google.com/iam/docs/reference/rest/v3/organizations.locations.principalAccessBoundaryPolicies/searchPolicyBindings) method lists all policy bindings for the specified Principal Access Boundary policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  ORG_ID  ` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
-  - `  PAB_POLICY_ID  ` : The ID of the Principal Access Boundary policy that you want to list policy bindings for—for example, `example-policy` .
+- `ORG_ID` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
+- `PAB_POLICY_ID` : The ID of the Principal Access Boundary policy that you want to list policy bindings for—for example, `example-policy` .
 
 HTTP method and URL:
 
-    GET https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID:searchPolicyBindings
+```
+GET https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID:searchPolicyBindings
+```
 
 To send your request, expand one of these options:
 
@@ -517,9 +563,11 @@ To send your request, expand one of these options:
 
 Execute the following command:
 
-    curl -X GET \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID:searchPolicyBindings"
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID:searchPolicyBindings"
+```
 
 #### PowerShell (Windows)
 
@@ -527,48 +575,52 @@ Execute the following command:
 
 Execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method GET `
-        -Headers $headers `
-        -Uri "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID:searchPolicyBindings" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID:searchPolicyBindings" | Select-Object -Expand Content
+```
 
 The response contains the policy bindings for the specified Principal Access Boundary policy.
 
+```
+{
+  "policyBindings": [
     {
-      "policyBindings": [
-        {
-          "name": "organizations/123456789012/locations/global/policyBindings/example-binding1",
-          "uid": "buid_9904260005517852673", 
-          "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
-          "displayName": "Example binding 1",
-          "target": {
-            "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-          },
-          "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-          "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy",
-          "policyUid": "puid_9519202237377675265",
-          "createTime": "2024-05-06T18:08:24.729843Z",
-          "updateTime": "2024-05-06T18:08:24.729843Z"
-        },
-        {
-          "name": "organizations/123456789012/locations/global/policyBindings/example-binding2",
-          "uid": "buid_4331055466646863873", 
-          "etag": "W/\"cRMdDXbT82aLuZlvoL9Gqg==\"",
-          "displayName": "Example binding 2",
-          "target": {
-            "principalSet": "//cloudresourcemanager.googleapis.com/projects/example-project"
-          },
-          "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-          "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy",
-          "policyUid": "puid_9519202237377675265",
-          "createTime": "2024-05-07T07:05:06.203861Z",
-          "updateTime": "2024-05-07T07:05:06.203861Z"
-        }
-      ]
+      "name": "organizations/123456789012/locations/global/policyBindings/example-binding1",
+      "uid": "buid_9904260005517852673", 
+      "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
+      "displayName": "Example binding 1",
+      "target": {
+        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
+      },
+      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy",
+      "policyUid": "puid_9519202237377675265",
+      "createTime": "2024-05-06T18:08:24.729843Z",
+      "updateTime": "2024-05-06T18:08:24.729843Z"
+    },
+    {
+      "name": "organizations/123456789012/locations/global/policyBindings/example-binding2",
+      "uid": "buid_4331055466646863873", 
+      "etag": "W/\"cRMdDXbT82aLuZlvoL9Gqg==\"",
+      "displayName": "Example binding 2",
+      "target": {
+        "principalSet": "//cloudresourcemanager.googleapis.com/projects/example-project"
+      },
+      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy",
+      "policyUid": "puid_9519202237377675265",
+      "createTime": "2024-05-07T07:05:06.203861Z",
+      "updateTime": "2024-05-07T07:05:06.203861Z"
     }
+  ]
+}
+```
 
 ### List policy bindings for a principal set
 
@@ -580,95 +632,105 @@ You can view all policy bindings for a principal set using the gcloud CLI or the
 
 ### gcloud
 
-The `  gcloud iam policy-bindings search-target-policy-bindings  ` command gets all Principal Access Boundary policies bound to a principal set.
+The [`gcloud iam policy-bindings search-target-policy-bindings`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/search-target-policy-bindings) command gets all Principal Access Boundary policies bound to a principal set.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  RESOURCE_TYPE  ` : The type of the Resource Manager resource (project, folder, or organization) that the target principal set is a child of. Use the value `project` , `folder` , or `organization`
-    
-    The resource type depends on the type of principal set you want to list the policy bindings of. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the target principal set is a child of. Use the value `project` , `folder` , or `organization`
 
-  - `  RESOURCE_ID  ` : The ID of the project, folder, or organization that the target principal set is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+  The resource type depends on the type of principal set you want to list the policy bindings of. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
-  - `  PRINCIPAL_SET  ` : The principal set whose Principal Access Boundary policy bindings you want to view. For a list of valid principal types, see [Supported principal sets](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+- `RESOURCE_ID` : The ID of the project, folder, or organization that the target principal set is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
-  - `  FORMAT  ` : The format for the response. Use `json` or `yaml` .
+- `PRINCIPAL_SET` : The principal set whose Principal Access Boundary policy bindings you want to view. For a list of valid principal types, see [Supported principal sets](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+
+- `FORMAT` : The format for the response. Use `json` or `yaml` .
 
 Execute the following command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud iam policy-bindings search-target-policy-bindings \
-        --RESOURCE_TYPE=RESOURCE_ID \
-        --target=PRINCPAL_SET \
-        --format=FORMAT
+```
+gcloud iam policy-bindings search-target-policy-bindings \
+    --RESOURCE_TYPE=RESOURCE_ID \
+    --target=PRINCPAL_SET \
+    --format=FORMAT
+```
 
 #### Windows (PowerShell)
 
-    gcloud iam policy-bindings search-target-policy-bindings `
-        --RESOURCE_TYPE=RESOURCE_ID `
-        --target=PRINCPAL_SET `
-        --format=FORMAT
+```
+gcloud iam policy-bindings search-target-policy-bindings `
+    --RESOURCE_TYPE=RESOURCE_ID `
+    --target=PRINCPAL_SET `
+    --format=FORMAT
+```
 
 #### Windows (cmd.exe)
 
-    gcloud iam policy-bindings search-target-policy-bindings ^
-        --RESOURCE_TYPE=RESOURCE_ID ^
-        --target=PRINCPAL_SET ^
-        --format=FORMAT
+```
+gcloud iam policy-bindings search-target-policy-bindings ^
+    --RESOURCE_TYPE=RESOURCE_ID ^
+    --target=PRINCPAL_SET ^
+    --format=FORMAT
+```
 
 The response contains all policy binidngs that are bound to the target principal set.
 
+```
+{
+  "policyBindings": [
     {
-      "policyBindings": [
-        {
-          "createTime": "2024-05-06T18:08:24.729843Z",
-          "displayName": "Example binding 1",
-          "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
-          "name": "organizations/123456789012/locations/global/policyBindings/example-binding1",
-          "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy1",
-          "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-          "policyUid": "puid_9519202237377675265",
-          "target": {
-            "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-          },
-          "uid": "buid_9904260005517852673", 
-          "updateTime": "2024-05-06T18:11:16.798841Z"
-        },
-        {
-          "createTime": "2024-05-06T18:08:24.729843Z",
-          "displayName": "Example binding 2",
-          "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
-          "name": "organizations/123456789012/locations/global/policyBindings/example-binding2",
-          "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy2",
-          "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-          "policyUid": "puid_10358560617928851457",
-          "target": {
-            "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-          },
-          "uid": "buid_4331055466646863873", 
-          "updateTime": "2024-05-06T18:11:16.798841Z"
-        }
-      ]
+      "createTime": "2024-05-06T18:08:24.729843Z",
+      "displayName": "Example binding 1",
+      "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
+      "name": "organizations/123456789012/locations/global/policyBindings/example-binding1",
+      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy1",
+      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+      "policyUid": "puid_9519202237377675265",
+      "target": {
+        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
+      },
+      "uid": "buid_9904260005517852673", 
+      "updateTime": "2024-05-06T18:11:16.798841Z"
+    },
+    {
+      "createTime": "2024-05-06T18:08:24.729843Z",
+      "displayName": "Example binding 2",
+      "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
+      "name": "organizations/123456789012/locations/global/policyBindings/example-binding2",
+      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy2",
+      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+      "policyUid": "puid_10358560617928851457",
+      "target": {
+        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
+      },
+      "uid": "buid_4331055466646863873", 
+      "updateTime": "2024-05-06T18:11:16.798841Z"
     }
+  ]
+}
+```
 
 ### REST
 
-The `  SearchTargetPolicyBindings.search  ` method gets all Principal Access Boundary policies bound to a principal set.
+The [`SearchTargetPolicyBindings.search`](https://docs.cloud.google.com/iam/docs/reference/rest/v3/organizations.locations.policyBindings/searchTargetPolicyBindings) method gets all Principal Access Boundary policies bound to a principal set.
 
 Before using any of the request data, make the following replacements:
 
-  - `  RESOURCE_TYPE  ` : The type of the Resource Manager resource (project, folder, or organization) that the target principal set is a child of. Use the value `projects` , `folders` , or `organizations`
-    
-    The resource type depends on the type of principal set you want to list the policy bindings of. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the target principal set is a child of. Use the value `projects` , `folders` , or `organizations`
 
-  - `  RESOURCE_ID  ` : The ID of the project, folder, or organization that the target principal set is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+  The resource type depends on the type of principal set you want to list the policy bindings of. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
-  - `  PRINCIPAL_SET  ` : The principal set whose Principal Access Boundary policy bindings you want to view. For a list of valid principal types, see [Supported principal sets](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+- `RESOURCE_ID` : The ID of the project, folder, or organization that the target principal set is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+
+- `PRINCIPAL_SET` : The principal set whose Principal Access Boundary policy bindings you want to view. For a list of valid principal types, see [Supported principal sets](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
 HTTP method and URL:
 
-    GET https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings:searchTargetPolicyBindings?target=PRINCPAL_SET
+```
+GET https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings:searchTargetPolicyBindings?target=PRINCPAL_SET
+```
 
 To send your request, expand one of these options:
 
@@ -678,9 +740,11 @@ To send your request, expand one of these options:
 
 Execute the following command:
 
-    curl -X GET \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings:searchTargetPolicyBindings?target=PRINCPAL_SET"
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings:searchTargetPolicyBindings?target=PRINCPAL_SET"
+```
 
 #### PowerShell (Windows)
 
@@ -688,48 +752,52 @@ Execute the following command:
 
 Execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method GET `
-        -Headers $headers `
-        -Uri "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings:searchTargetPolicyBindings?target=PRINCPAL_SET" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings:searchTargetPolicyBindings?target=PRINCPAL_SET" | Select-Object -Expand Content
+```
 
 The response contains all policy binidngs that are bound to the target principal set.
 
+```
+{
+  "policyBindings": [
     {
-      "policyBindings": [
-        {
-          "name": "organizations/123456789012/locations/global/policyBindings/example-binding1",
-          "uid": "buid_9904260005517852673", 
-          "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
-          "displayName": "Example binding 1",
-          "target": {
-            "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-          },
-          "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy1",
-          "createTime": "2024-05-06T18:08:24.729843Z",
-          "updateTime": "2024-05-06T18:11:16.798841Z",
-          "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-          "policyUid": "puid_9519202237377675265"
-        },
-        {
-          "name": "organizations/123456789012/locations/global/policyBindings/example-binding2",
-          "uid": "buid_4331055466646863873", 
-          "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
-          "displayName": "Example binding 2",
-          "target": {
-            "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-          },
-          "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy2",
-          "createTime": "2024-05-06T18:08:24.729843Z",
-          "updateTime": "2024-05-06T18:11:16.798841Z",
-          "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-          "policyUid": "puid_10358560617928851457"
-        }
-      ]
+      "name": "organizations/123456789012/locations/global/policyBindings/example-binding1",
+      "uid": "buid_9904260005517852673", 
+      "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
+      "displayName": "Example binding 1",
+      "target": {
+        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
+      },
+      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy1",
+      "createTime": "2024-05-06T18:08:24.729843Z",
+      "updateTime": "2024-05-06T18:11:16.798841Z",
+      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+      "policyUid": "puid_9519202237377675265"
+    },
+    {
+      "name": "organizations/123456789012/locations/global/policyBindings/example-binding2",
+      "uid": "buid_4331055466646863873", 
+      "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
+      "displayName": "Example binding 2",
+      "target": {
+        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
+      },
+      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy2",
+      "createTime": "2024-05-06T18:08:24.729843Z",
+      "updateTime": "2024-05-06T18:11:16.798841Z",
+      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+      "policyUid": "puid_10358560617928851457"
     }
+  ]
+}
+```
 
 ### List policy bindings for a project, folder, or organization
 
@@ -741,91 +809,101 @@ You can view all policy bindings for a project, folder, or organization using th
 
 ### gcloud
 
-The `  gcloud iam policy-bindings list  ` command lists all policy binding that are children of a certain resource.
+The [`gcloud iam policy-bindings list`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/list) command lists all policy binding that are children of a certain resource.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  RESOURCE_TYPE  ` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization`
-    
-    The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization`
 
-  - `  RESOURCE_ID  ` : The ID of the project, folder, or organization that the policy binding is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+  The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
-  - `  FORMAT  ` : The format for the response. Use `json` or `yaml` .
+- `RESOURCE_ID` : The ID of the project, folder, or organization that the policy binding is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+
+- `FORMAT` : The format for the response. Use `json` or `yaml` .
 
 Execute the following command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID \
-        --location=global \
-        --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
-        --format=FORMAT
+```
+gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID \
+    --location=global \
+    --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
+    --format=FORMAT
+```
 
 #### Windows (PowerShell)
 
-    gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID `
-        --location=global `
-        --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
-        --format=FORMAT
+```
+gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID `
+    --location=global `
+    --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
+    --format=FORMAT
+```
 
 #### Windows (cmd.exe)
 
-    gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID ^
-        --location=global ^
-        --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
-        --format=FORMAT
+```
+gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID ^
+    --location=global ^
+    --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
+    --format=FORMAT
+```
 
 The response contains the policy bindings that are children of the resource in the command.
 
+```
+{
+  "policyBindings": [
     {
-      "policyBindings": [
-        {
-          "createTime": "2024-05-06T18:08:24.729843Z",
-          "displayName": "Example binding 1",
-          "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
-          "name": "organizations/123456789012/locations/global/policyBindings/example-binding-1",
-          "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy-1",
-          "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-          "policyUid": "puid_9519202237377675265",
-          "target": {
-            "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-          },
-          "uid": "buid_9904260005517852673", 
-          "updateTime": "2024-05-06T18:08:24.729843Z"
-        },
-        {
-          "createTime": "2024-05-07T07:05:06.203861Z",
-          "displayName": "Example binding 2",
-          "etag": "W/\"cRMdDXbT82aLuZlvoL9Gqg==\"",
-          "name": "organizations/123456789012/locations/global/policyBindings/example-binding-2",
-          "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy-2",
-          "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-          "policyUid": "puid_1566408245394800641",
-          "target": {
-            "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-          },
-          "uid": "buid_4331055466646863873", 
-          "updateTime": "2024-05-07T07:05:06.203861Z"
-        }
-      ]
+      "createTime": "2024-05-06T18:08:24.729843Z",
+      "displayName": "Example binding 1",
+      "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
+      "name": "organizations/123456789012/locations/global/policyBindings/example-binding-1",
+      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy-1",
+      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+      "policyUid": "puid_9519202237377675265",
+      "target": {
+        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
+      },
+      "uid": "buid_9904260005517852673", 
+      "updateTime": "2024-05-06T18:08:24.729843Z"
+    },
+    {
+      "createTime": "2024-05-07T07:05:06.203861Z",
+      "displayName": "Example binding 2",
+      "etag": "W/\"cRMdDXbT82aLuZlvoL9Gqg==\"",
+      "name": "organizations/123456789012/locations/global/policyBindings/example-binding-2",
+      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy-2",
+      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+      "policyUid": "puid_1566408245394800641",
+      "target": {
+        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
+      },
+      "uid": "buid_4331055466646863873", 
+      "updateTime": "2024-05-07T07:05:06.203861Z"
     }
+  ]
+}
+```
 
 ### REST
 
-The `  policyBindings.list  ` method lists all policy binding that are children of a certain resource.
+The [`policyBindings.list`](https://docs.cloud.google.com/iam/docs/reference/rest/v3/organizations.locations.policyBindings/list) method lists all policy binding that are children of a certain resource.
 
 Before using any of the request data, make the following replacements:
 
-  - `  RESOURCE_TYPE  ` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations`
-    
-    The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations`
 
-  - `  RESOURCE_ID  ` : The ID of the project, folder, or organization that the policy binding is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+  The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+
+- `RESOURCE_ID` : The ID of the project, folder, or organization that the policy binding is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
 HTTP method and URL:
 
-    GET https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings?filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
+```
+GET https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings?filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
+```
 
 To send your request, expand one of these options:
 
@@ -835,9 +913,11 @@ To send your request, expand one of these options:
 
 Execute the following command:
 
-    curl -X GET \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings?filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY"
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings?filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY"
+```
 
 #### PowerShell (Windows)
 
@@ -845,48 +925,52 @@ Execute the following command:
 
 Execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method GET `
-        -Headers $headers `
-        -Uri "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings?filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings?filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY" | Select-Object -Expand Content
+```
 
 The response contains the policy bindings that are children of the resource in the request.
 
+```
+{
+  "policyBindings": [
     {
-      "policyBindings": [
-        {
-          "name": "organizations/123456789012/locations/global/policyBindings/example-binding-1",
-          "uid": "buid_9904260005517852673", 
-          "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
-          "displayName": "Example binding 1",
-          "target": {
-            "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-          },
-          "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-          "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy-1",
-          "policyUid": "puid_9519202237377675265",
-          "createTime": "2024-05-06T18:08:24.729843Z",
-          "updateTime": "2024-05-06T18:08:24.729843Z"
-        },
-        {
-          "name": "organizations/123456789012/locations/global/policyBindings/example-binding-2",
-          "uid": "buid_4331055466646863873", 
-          "etag": "W/\"cRMdDXbT82aLuZlvoL9Gqg==\"",
-          "displayName": "Example binding 2",
-          "target": {
-            "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-          },
-          "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-          "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy-2",
-          "policyUid": "puid_1566408245394800641",
-          "createTime": "2024-05-07T07:05:06.203861Z",
-          "updateTime": "2024-05-07T07:05:06.203861Z"
-        }
-      ]
+      "name": "organizations/123456789012/locations/global/policyBindings/example-binding-1",
+      "uid": "buid_9904260005517852673", 
+      "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
+      "displayName": "Example binding 1",
+      "target": {
+        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
+      },
+      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy-1",
+      "policyUid": "puid_9519202237377675265",
+      "createTime": "2024-05-06T18:08:24.729843Z",
+      "updateTime": "2024-05-06T18:08:24.729843Z"
+    },
+    {
+      "name": "organizations/123456789012/locations/global/policyBindings/example-binding-2",
+      "uid": "buid_4331055466646863873", 
+      "etag": "W/\"cRMdDXbT82aLuZlvoL9Gqg==\"",
+      "displayName": "Example binding 2",
+      "target": {
+        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
+      },
+      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy-2",
+      "policyUid": "puid_1566408245394800641",
+      "createTime": "2024-05-07T07:05:06.203861Z",
+      "updateTime": "2024-05-07T07:05:06.203861Z"
     }
+  ]
+}
+```
 
 ## Get a policy binding for a Principal Access Boundary policy
 
@@ -896,74 +980,84 @@ You can get a policy binding using the gcloud CLI or the IAM REST API.
 
 ### gcloud
 
-The `  gcloud iam policy-bindings describe  ` command gets a policy binding.
+The [`gcloud iam policy-bindings describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/describe) command gets a policy binding.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  BINDING_ID  ` : The ID of the policy binding that you want to get—for example, `example-binding` .
+- `BINDING_ID` : The ID of the policy binding that you want to get—for example, `example-binding` .
 
-  - `  RESOURCE_TYPE  ` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization`
-    
-    The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization`
 
-  - `  RESOURCE_ID  ` : The ID of the project, folder, or organization that the policy binding is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+  The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
-  - `  FORMAT  ` : The format for the response. Use `json` or `yaml` .
+- `RESOURCE_ID` : The ID of the project, folder, or organization that the policy binding is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+
+- `FORMAT` : The format for the response. Use `json` or `yaml` .
 
 Execute the following command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud iam policy-bindings describe BINDING_ID \
-        --RESOURCE_TYPE=RESOURCE_ID --location=global \
-        --format=FORMAT
+```
+gcloud iam policy-bindings describe BINDING_ID \
+    --RESOURCE_TYPE=RESOURCE_ID --location=global \
+    --format=FORMAT
+```
 
 #### Windows (PowerShell)
 
-    gcloud iam policy-bindings describe BINDING_ID `
-        --RESOURCE_TYPE=RESOURCE_ID --location=global `
-        --format=FORMAT
+```
+gcloud iam policy-bindings describe BINDING_ID `
+    --RESOURCE_TYPE=RESOURCE_ID --location=global `
+    --format=FORMAT
+```
 
 #### Windows (cmd.exe)
 
-    gcloud iam policy-bindings describe BINDING_ID ^
-        --RESOURCE_TYPE=RESOURCE_ID --location=global ^
-        --format=FORMAT
+```
+gcloud iam policy-bindings describe BINDING_ID ^
+    --RESOURCE_TYPE=RESOURCE_ID --location=global ^
+    --format=FORMAT
+```
 
 The response contains the policy binding.
 
-    {
-      "createTime": "2024-05-06T18:08:24.729843Z",
-      "displayName": "Example binding",
-      "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
-      "name": "organizations/123456789012/locations/global/policyBindings/example-binding",
-      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy",
-      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-      "policyUid": "puid_9519202237377675265",
-      "target": {
-        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-      },
-      "uid": "buid_9904260005517852673", 
-      "updateTime": "2024-05-06T18:08:24.729843Z"
-    }
+```
+{
+  "createTime": "2024-05-06T18:08:24.729843Z",
+  "displayName": "Example binding",
+  "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
+  "name": "organizations/123456789012/locations/global/policyBindings/example-binding",
+  "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy",
+  "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+  "policyUid": "puid_9519202237377675265",
+  "target": {
+    "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
+  },
+  "uid": "buid_9904260005517852673", 
+  "updateTime": "2024-05-06T18:08:24.729843Z"
+}
+```
 
 ### REST
 
-The `  policyBindings.get  ` method gets a policy binding.
+The [`policyBindings.get`](https://docs.cloud.google.com/iam/docs/reference/rest/v3/organizations.locations.policyBindings/get) method gets a policy binding.
 
 Before using any of the request data, make the following replacements:
 
-  - `  RESOURCE_TYPE  ` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations`
-    
-    The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations`
 
-  - `  RESOURCE_ID  ` : The ID of the project, folder, or organization that the policy binding is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+  The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
-  - `  BINDING_ID  ` : The ID of the policy binding that you want to get—for example, `example-binding` .
+- `RESOURCE_ID` : The ID of the project, folder, or organization that the policy binding is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+
+- `BINDING_ID` : The ID of the policy binding that you want to get—for example, `example-binding` .
 
 HTTP method and URL:
 
-    GET https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings/BINDING_ID
+```
+GET https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings/BINDING_ID
+```
 
 To send your request, expand one of these options:
 
@@ -973,9 +1067,11 @@ To send your request, expand one of these options:
 
 Execute the following command:
 
-    curl -X GET \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings/BINDING_ID"
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings/BINDING_ID"
+```
 
 #### PowerShell (Windows)
 
@@ -983,33 +1079,37 @@ Execute the following command:
 
 Execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method GET `
-        -Headers $headers `
-        -Uri "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings/BINDING_ID" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings/BINDING_ID" | Select-Object -Expand Content
+```
 
 The response contains the policy binding.
 
-    {
-      "name": "organizations/123456789012/locations/global/policyBindings/example-binding",
-      "uid": "buid_9904260005517852673", 
-      "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
-      "displayName": "Example binding",
-      "target": {
-        "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-      },
-      "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
-      "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy",
-      "policyUid": "puid_9519202237377675265",
-      "createTime": "2024-05-06T18:08:24.729843Z",
-      "updateTime": "2024-05-06T18:08:24.729843Z"
-    }
+```
+{
+  "name": "organizations/123456789012/locations/global/policyBindings/example-binding",
+  "uid": "buid_9904260005517852673", 
+  "etag": "W/\"xkdnPfTxoxyVqOwhQSJbMg==\"",
+  "displayName": "Example binding",
+  "target": {
+    "principalSet": "//cloudresourcemanager.googleapis.com/organizations/123456789012"
+  },
+  "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
+  "policy": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-pab-policy",
+  "policyUid": "puid_9519202237377675265",
+  "createTime": "2024-05-06T18:08:24.729843Z",
+  "updateTime": "2024-05-06T18:08:24.729843Z"
+}
+```
 
 ## What's next
 
-  - [Create and apply Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create)
-  - [Edit Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit)
-  - [Remove Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove)
+- [Create and apply Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create)
+- [Edit Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit)
+- [Remove Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove)

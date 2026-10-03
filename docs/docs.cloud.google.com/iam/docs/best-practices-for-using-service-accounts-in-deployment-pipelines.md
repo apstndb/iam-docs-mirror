@@ -12,9 +12,9 @@ Deployment pipelines differ from interactive tools like the Google Cloud console
 
 Before Google Cloud lets you access a resource, it performs an access check. To perform this check, IAM typically considers:
 
-  - Your identity and any associated Principal Access Boundary policies
-  - The resource you're trying to access and its IAM allow and deny policies
-  - The context of your request (possibly including time and location)
+- Your identity and any associated Principal Access Boundary policies
+- The resource you're trying to access and its IAM allow and deny policies
+- The context of your request (possibly including time and location)
 
 In a deployment pipeline, you rarely call Google Cloud APIs directly. Instead, you use tools to access Google Cloud resources. Tools like the Google Cloud console or the gcloud CLI require that you first *authorize* the tool to access resources on your behalf. By providing this authorization, you give the tool permission to use *your* identity when making API calls.
 
@@ -23,12 +23,12 @@ Like the Google Cloud console or the gcloud CLI, a deployment pipeline acts *on 
 1.  As a user, you typically don't interact with a deployment pipeline directly. Instead, you interact with a source control system (SCM) by pushing code changes to a source repository, or approving code reviews.
 
 2.  The deployment pipeline reads submitted code changes from the SCM system and deploys them to Google Cloud.
-    
+
     To perform the deployment, the deployment pipeline typically can't use your identity because:
-    
+
     1.  The source code and its metadata might not indicate that you were the author, or the author information isn't tamper-proof (as in the case of unsigned Git commits)
     2.  The identity you used to submit source code might be different from your identity for Google Cloud, and the two identities can't be mapped
-    
+
     Most deployment pipelines therefore perform deployments under their own identity by using a service account.
 
 3.  When the deployment pipeline accesses Google Cloud, IAM allows or denies access solely based on the identity of the service account used by the pipeline, not the identity of your user account.
@@ -37,16 +37,16 @@ Like the Google Cloud console or the gcloud CLI, a deployment pipeline acts *on 
 
 Letting a deployment pipeline use a service account to access Google Cloud has some advantages:
 
-  - The lifecycle of a service account is disconnected from the lifecycle of user accounts. By configuring a pipeline to use a service account, you ensure that code can be deployed even if the author of the code is no longer with your organization.
-  - When you manage resources by using a deployment pipeline, you don't need to grant users any access to the resources, or you can limit permissions to read-only access. This approach can make it easier to manage IAM allow and deny policies and lets you force users to use the deployment pipeline to perform all modifications.
+- The lifecycle of a service account is disconnected from the lifecycle of user accounts. By configuring a pipeline to use a service account, you ensure that code can be deployed even if the author of the code is no longer with your organization.
+- When you manage resources by using a deployment pipeline, you don't need to grant users any access to the resources, or you can limit permissions to read-only access. This approach can make it easier to manage IAM allow and deny policies and lets you force users to use the deployment pipeline to perform all modifications.
 
 However, using a service account also introduces new threats. These include:
 
-  - **Spoofing:** A bad actor could try to spoof the identity of the deployment pipeline or steal its credentials to gain access to resources.
-  - **Privilege escalation** : The pipeline could be tricked into performing actions that it's not supposed to perform, effectively becoming a [*confused deputy*](https://wikipedia.org/wiki/Confused_deputy_problem) .
-  - **Non-repudiation:** After a pipeline has performed an operation, it might become difficult to reconstruct *why* it was done, and which developer or code change it was triggered by.
-  - **Tampering:** A pipeline could be abused for undermining the integrity or security controls of your cloud environments.
-  - **Information disclosure:** Bad actors might attempt to use the deployment pipeline for exfiltrating confidential data.
+- **Spoofing:** A bad actor could try to spoof the identity of the deployment pipeline or steal its credentials to gain access to resources.
+- **Privilege escalation** : The pipeline could be tricked into performing actions that it's not supposed to perform, effectively becoming a [*confused deputy*](https://wikipedia.org/wiki/Confused_deputy_problem) .
+- **Non-repudiation:** After a pipeline has performed an operation, it might become difficult to reconstruct *why* it was done, and which developer or code change it was triggered by.
+- **Tampering:** A pipeline could be abused for undermining the integrity or security controls of your cloud environments.
+- **Information disclosure:** Bad actors might attempt to use the deployment pipeline for exfiltrating confidential data.
 
 ## Protect against spoofing threats
 
@@ -79,8 +79,8 @@ When you let multiple deployment pipelines use the same service account, IAM can
 
 To avoid such ambiguity, maintain a 1:1 relationship between deployment pipelines and service accounts. Create a dedicated service account for each deployment pipeline and make sure to do the following:
 
-  - Incorporate the name or ID of the deployment pipeline into the service account's email address. Following a consistent naming scheme helps you determine which service accounts are connected to which deployment pipelines.
-  - Only grant the service account access to the resources the specific deployment pipeline needs.
+- Incorporate the name or ID of the deployment pipeline into the service account's email address. Following a consistent naming scheme helps you determine which service accounts are connected to which deployment pipelines.
+- Only grant the service account access to the resources the specific deployment pipeline needs.
 
 ### Use Workload Identity Federation whenever possible
 
@@ -96,8 +96,8 @@ By default, IAM doesn't take the geolocation, source IP address, or origin Googl
 
 You can impose restrictions on the sources from where your Google Cloud resources can be accessed by placing your projects in a [VPC service perimeter](https://docs.cloud.google.com/vpc-service-controls) and using [ingress rules](https://docs.cloud.google.com/vpc-service-controls/docs/ingress-egress-rules) :
 
-  - If your deployment pipeline runs on Google Cloud, you can configure an ingress rule to only allow access from the project that contains your CI/CD system.
-  - If your deployment pipeline runs outside of Google Cloud, you can create an [access level](https://docs.cloud.google.com/access-context-manager/docs/create-basic-access-level) that only permits access from certain geo-locations or IP ranges. Then create an ingress rule that allows access for clients that satisfy this access level.
+- If your deployment pipeline runs on Google Cloud, you can configure an ingress rule to only allow access from the project that contains your CI/CD system.
+- If your deployment pipeline runs outside of Google Cloud, you can create an [access level](https://docs.cloud.google.com/access-context-manager/docs/create-basic-access-level) that only permits access from certain geo-locations or IP ranges. Then create an ingress rule that allows access for clients that satisfy this access level.
 
 > **Note:** Restricting access by IP range might be less effective or infeasible if you're using a Software as a Service (SaaS)-based system to run your deployment pipelines. This is because the source IP addresses used by SaaS providers may not be known in advance, or they might be shared across all their customers.
 
@@ -119,9 +119,9 @@ The following section describes best practices that can help you reduce the risk
 
 To ensure the security and integrity of your data and resources on Google Cloud, you use security controls such as:
 
-  - Allow policies and deny policies
-  - Organization policy constraints
-  - VPC Service Controls perimeters, access levels, and ingress policies
+- Allow policies and deny policies
+- Organization policy constraints
+- VPC Service Controls perimeters, access levels, and ingress policies
 
 These security controls are resources by themselves. Tampering with security controls endangers the integrity of the resources that the security controls apply to. As a result, you must consider the integrity of security controls to be at least as important as the integrity of the resources they apply to.
 
@@ -129,8 +129,8 @@ If you let a deployment pipeline manage security controls, then it's up to the d
 
 You can limit a deployment pipeline's impact on the integrity of your resources by doing the following:
 
-  - Not granting deployment pipelines access to allow policies, deny policies, and other security controls, and restricting their access to other resources
-  - Granting access to selected security controls only, such as the allow policies and deny policies of a specific resource or project, while not granting access to broader controls that affect multiple resources or projects
+- Not granting deployment pipelines access to allow policies, deny policies, and other security controls, and restricting their access to other resources
+- Granting access to selected security controls only, such as the allow policies and deny policies of a specific resource or project, while not granting access to broader controls that affect multiple resources or projects
 
 If your deployment pipeline, its components, and underlying infrastructure can't meet the integrity demands of certain security controls, it's best to avoid letting deployment pipelines manage these security controls.
 
@@ -153,14 +153,14 @@ Cloud Audit Logs contain timestamps and information about the user that initiate
 
 You can enrich Cloud Audit Logs to contain more information in multiple ways, including:
 
-  - When you use Terraform, specify a [request reason](https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/provider_reference#request_reason) that indicates CI/CD pipeline run.
-  - Add an `X-Goog-Request-Reason` [HTTP header](https://docs.cloud.google.com/apis/docs/system-parameters#definitions) to API requests and pass the ID of the deployment pipeline run.
-  - Use a custom `User-Agent` that embeds the ID of the deployment pipeline run.
+- When you use Terraform, specify a [request reason](https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/provider_reference#request_reason) that indicates CI/CD pipeline run.
+- Add an `X-Goog-Request-Reason` [HTTP header](https://docs.cloud.google.com/apis/docs/system-parameters#definitions) to API requests and pass the ID of the deployment pipeline run.
+- Use a custom `User-Agent` that embeds the ID of the deployment pipeline run.
 
 You can also enrich the logs emitted by your deployment pipeline:
 
-  - Log API requests performed by each CI/CD pipeline run.
-  - Whenever the API returns an operation ID, record the ID in the CI/CD system's logs.
+- Log API requests performed by each CI/CD pipeline run.
+- Whenever the API returns an operation ID, record the ID in the CI/CD system's logs.
 
 ### Align the retention periods of deployment pipeline logs and Cloud Audit Logs
 
@@ -181,13 +181,13 @@ If necessary, [customize the retention period](https://docs.cloud.google.com/log
 
 When a deployment pipeline's service account has access to confidential data, then a bad actor might attempt to use the deployment pipeline to exfiltrate that data. A deployment pipeline's access to data can be direct or indirect:
 
-  - **Direct** : The deployment pipeline's service account might have permission to read confidential data from Cloud Storage, BigQuery, or other locations. This access might have been granted intentionally, but it might also be an accidental result of granting too much access.
-    
-    If a bad actor gains access to a deployment pipeline with direct access to confidential data, they might try to use the service account's access token to access and exfiltrate the data.
+- **Direct** : The deployment pipeline's service account might have permission to read confidential data from Cloud Storage, BigQuery, or other locations. This access might have been granted intentionally, but it might also be an accidental result of granting too much access.
 
-  - **Indirect** : To deploy configuration or new software versions, a deployment pipeline's service account might have permission to create or redeploy compute resources, such as Compute Engine VM instances. Some of these resources might have an attached service account that grants access to confidential data.
-    
-    In this situation, a bad actor might attempt to compromise the deployment pipeline so that it deploys malicious code to one of the compute resources, and let this code exfiltrate confidential data.
+  If a bad actor gains access to a deployment pipeline with direct access to confidential data, they might try to use the service account's access token to access and exfiltrate the data.
+
+- **Indirect** : To deploy configuration or new software versions, a deployment pipeline's service account might have permission to create or redeploy compute resources, such as Compute Engine VM instances. Some of these resources might have an attached service account that grants access to confidential data.
+
+  In this situation, a bad actor might attempt to compromise the deployment pipeline so that it deploys malicious code to one of the compute resources, and let this code exfiltrate confidential data.
 
 This section contains best practices that can help you limit the risk of disclosing confidential data.
 
@@ -197,9 +197,9 @@ To deploy infrastructure, configuration, or new software versions, a deployment 
 
 Ways to minimize access to existing, potentially confidential data include:
 
-  - Instead of granting a deployment pipeline's service account access to an entire project, only grant access to specific resources.
-  - Grant create access without allowing read access. For example, by granting the *Storage Object Creator* role ( `roles/storage.objectCreator` ), you can allow a service account to upload new objects to a Cloud Storage bucket without granting permission to read existing data.
-  - Limit infrastructure-as-code (IaC) to less-confidential resources—for example, use IaC for managing VM instances or networks, but not for managing confidential BigQuery datasets.
+- Instead of granting a deployment pipeline's service account access to an entire project, only grant access to specific resources.
+- Grant create access without allowing read access. For example, by granting the *Storage Object Creator* role ( `roles/storage.objectCreator` ), you can allow a service account to upload new objects to a Cloud Storage bucket without granting permission to read existing data.
+- Limit infrastructure-as-code (IaC) to less-confidential resources—for example, use IaC for managing VM instances or networks, but not for managing confidential BigQuery datasets.
 
 ### Use VPC Service Controls to help prevent data exfiltration
 
@@ -223,45 +223,45 @@ This section contains best practices that can help you reduce the risk of your d
 
 Most deployment pipelines use a source code repository as their main source of input and might trigger automatically as soon as they detect a code change in certain branches (for example, the `main` branch). Deployment pipelines typically can't verify whether the code and configuration they find in the source code repository is authentic and trustworthy. The security of this architecture therefore depends on:
 
-  - Controlling who can submit code and configuration to the repository and branches used by the deployment pipeline.
-  - Enforcing criteria that must be met before changes can be committed—for example, successful code reviews, static analysis, or automated tests.
+- Controlling who can submit code and configuration to the repository and branches used by the deployment pipeline.
+- Enforcing criteria that must be met before changes can be committed—for example, successful code reviews, static analysis, or automated tests.
 
 For these controls to be effective, you must also ensure that bad actors can't sidestep them by:
 
-  - Modifying the configuration of the source code repository or the deployment pipeline.
-  - Tampering with the infrastructure (such as VMs and storage) that underlies the deployment pipeline.
-  - Modifying or replacing inputs outside of the source code repository, such as packages, container images, or libraries.
+- Modifying the configuration of the source code repository or the deployment pipeline.
+- Tampering with the infrastructure (such as VMs and storage) that underlies the deployment pipeline.
+- Modifying or replacing inputs outside of the source code repository, such as packages, container images, or libraries.
 
 When managed by a deployment pipeline, your resources on Google Cloud can only be as secure as your deployment pipeline, its configuration, infrastructure, and inputs. Therefore, you must protect these components as well as you want your Google Cloud resources to be protected.
 
 ### Avoid letting a deployment pipeline modify policies
 
-For most types of resources, IAM defines a `  RESOURCE_TYPE .setIamPolicy ` permission. This permission enables a user to modify a resource's allow policy, either to grant other users access or to modify and extend their own access. Unless constrained by a deny policy, granting a user or service account a `*.setIamPolicy` permission has the effect of granting them full access to the resource.
+For most types of resources, IAM defines a `RESOURCE_TYPE `` .setIamPolicy` permission. This permission enables a user to modify a resource's allow policy, either to grant other users access or to modify and extend their own access. Unless constrained by a deny policy, granting a user or service account a `*.setIamPolicy` permission has the effect of granting them full access to the resource.
 
 Whenever possible, avoid letting a deployment pipeline modify access to resources. When granting the pipeline's service account access to Google Cloud resources, use roles that don't include any `*.setIamPolicy` permission and avoid using the basic roles *Editor* and *Owner* .
 
 For some deployment pipelines, granting permission to modify allow policies or deny policies might be unavoidable: For example, a deployment pipeline's purpose might be to create new resources or manage access to existing resources. In these scenarios, you can still limit the extent to which the deployment can modify access by:
 
-  - Only granting `*.setIamPolicy` permission for specific resources, and not for the entire project.
-  - Using [IAM deny policies](https://docs.cloud.google.com/iam/docs/deny-overview) to constrain the set of permissions that can be granted, or to limit which principals they can be granted to.
-  - Using IAM Conditions [to restrict which roles the pipeline is allowed to grant](https://docs.cloud.google.com/iam/docs/setting-limits-on-granting-roles) , and only allowing roles that don't include `*.setIamPolicy` permissions.
+- Only granting `*.setIamPolicy` permission for specific resources, and not for the entire project.
+- Using [IAM deny policies](https://docs.cloud.google.com/iam/docs/deny-overview) to constrain the set of permissions that can be granted, or to limit which principals they can be granted to.
+- Using IAM Conditions [to restrict which roles the pipeline is allowed to grant](https://docs.cloud.google.com/iam/docs/setting-limits-on-granting-roles) , and only allowing roles that don't include `*.setIamPolicy` permissions.
 
 ### Don't reveal service account credentials in logs
 
 The logs generated by a deployment pipeline are often accessible to a larger group of users, including users that don't have permission to modify the pipeline's configuration. It's possible that these logs accidentally reveal credentials by echoing the following:
 
-  - Contents of environment variables
-  - Command line arguments
-  - Diagnostics output
+- Contents of environment variables
+- Command line arguments
+- Diagnostics output
 
 If logs accidentally reveal credentials such as access tokens, then these credentials could be abused by bad actors to escalate their privileges. Ways to prevent logs from revealing credentials include the following:
 
-  - Avoid passing access tokens or other credentials as command line arguments
-  - Avoid storing credentials in environment variables
-  - Configure your CI/CD system to automatically detect and mask tokens and other credentials if possible
+- Avoid passing access tokens or other credentials as command line arguments
+- Avoid storing credentials in environment variables
+- Configure your CI/CD system to automatically detect and mask tokens and other credentials if possible
 
 ## What's next
 
-  - Learn more about [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) and [best practices for using Workload Identity Federation](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation) .
-  - Review our [enterprise foundations blueprint](https://docs.cloud.google.com/architecture/security-foundations) and guidance on [authentication and authorization](https://docs.cloud.google.com/architecture/security-foundations/authentication-authorization) .
-  - Learn more about [best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .
+- Learn more about [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) and [best practices for using Workload Identity Federation](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation) .
+- Review our [enterprise foundations blueprint](https://docs.cloud.google.com/architecture/security-foundations) and guidance on [authentication and authorization](https://docs.cloud.google.com/architecture/security-foundations/authentication-authorization) .
+- Learn more about [best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) .

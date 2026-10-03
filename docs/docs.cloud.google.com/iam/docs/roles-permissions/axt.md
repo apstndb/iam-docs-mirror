@@ -23,21 +23,21 @@ This page lists the IAM roles and permissions for Access Transparency. To search
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="axt.admin" class="role-title add-link" data-text="Access Transparency Admin" tabindex="-1">Access Transparency Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  axt.admin</code> )</p>
+<td>Access Transparency Admin
+<p>( <code>roles/ axt.admin</code> )</p>
 <p>Enable Access Transparency for Organization</p>
 <p>Lowest-level resources where you can grant this role:</p>
 <ul>
 <li>Project</li>
 </ul></td>
-<td><p><code dir="ltr" translate="no">axt.*</code></p>
+<td><p><code>axt.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">axt.labels.get</code></li>
-<li><code dir="ltr" translate="no">axt.labels.set</code></li>
+<li><code>axt.labels.get</code></li>
+<li><code>axt.labels.set</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -57,21 +57,21 @@ This page lists the IAM roles and permissions for Access Transparency. To search
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="axt.labels.get" class="permission-name add-link" data-text="axt.labels.get" tabindex="-1"><code dir="ltr" translate="no">axt.labels.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/axt#axt.admin">Access Transparency Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  axt.admin</code> )</p>
+<td><code>axt.labels.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/axt#axt.admin">Access Transparency Admin</a> ( <code>roles/ axt.admin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="axt.labels.set" class="permission-name add-link" data-text="axt.labels.set" tabindex="-1"><code dir="ltr" translate="no">axt.labels.set</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/axt#axt.admin">Access Transparency Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  axt.admin</code> )</p></td>
+<td><code>axt.labels.set</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code>roles/ assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code>roles/ assuredworkloads.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/axt#axt.admin">Access Transparency Admin</a> ( <code>roles/ axt.admin</code> )</p></td>
 </tr>
 </tbody>
 </table>

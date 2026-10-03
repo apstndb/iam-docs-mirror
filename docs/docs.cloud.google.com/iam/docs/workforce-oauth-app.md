@@ -24,24 +24,24 @@ To configure an application to access Google Cloud, you [register](https://docs.
 
 You must secure access to the IAM APIs and the client ID and secret. If the client ID and secret is leaked, security issues can result. These issues include the following:
 
-  - Impersonation: A malicious user with your client ID and secret can create an application that masquerades as your legitimate application. They can then do the following:
-    
-      - Gain unauthorized access to the user data and permissions that your application is entitled to.
-      - Perform actions on the user's behalf, such as posting content, making API calls, or modifying user settings.
-      - Perform phishing attacks, wherein the malicious user creates a fake login page that resembles the OAuth provider. The page can then trick users into entering their credentials, which gives the credentials to the malicious user who can then access their accounts.
+- Impersonation: A malicious user with your client ID and secret can create an application that masquerades as your legitimate application. They can then do the following:
 
-  - Reputational damage: A security breach can harm the reputation of your application and organization, causing users to lose trust.
+  - Gain unauthorized access to the user data and permissions that your application is entitled to.
+  - Perform actions on the user's behalf, such as posting content, making API calls, or modifying user settings.
+  - Perform phishing attacks, wherein the malicious user creates a fake login page that resembles the OAuth provider. The page can then trick users into entering their credentials, which gives the credentials to the malicious user who can then access their accounts.
+
+- Reputational damage: A security breach can harm the reputation of your application and organization, causing users to lose trust.
 
 In the event of a breach, to mitigate these and other risks, assess the nature of the breach and do the following:
 
-  - Ensure that only trusted users have IAM access to the [OAuth client and credential API](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app) .
+- Ensure that only trusted users have IAM access to the [OAuth client and credential API](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app) .
 
-  - Rotate the client secret immediately, by rotating the client credential, as follows:
-    
-    1.  [Create a new client credential](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#create-credential) for the OAuth client.
-    2.  [Disable the old client credential](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#disable-credential) .
-    3.  [Delete the old client credential](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#delete-credential) .
+- Rotate the client secret immediately, by rotating the client credential, as follows:
+
+  1.  [Create a new client credential](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#create-credential) for the OAuth client.
+  2.  [Disable the old client credential](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#disable-credential) .
+  3.  [Delete the old client credential](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#delete-credential) .
 
 # What's next
 
-  - Learn how to [Manage OAuth applications](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app) .
+- Learn how to [Manage OAuth applications](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app) .

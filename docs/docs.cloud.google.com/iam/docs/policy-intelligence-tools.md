@@ -10,9 +10,9 @@ Policy Intelligence is a suite of tools designed to help you manage security pol
 
 Some Policy Intelligence tools are specifically designed to help manage and optimize Identity and Access Management (IAM) policies. With these tools, you can do tasks like the following:
 
-  - Analyze existing IAM policies to understand who has access to what Google Cloud resources
-  - Troubleshoot access issues
-  - Identify and remove excess permissions from principals
-  - Test changes to IAM allow policies
+- Analyze existing IAM policies to understand who has access to what Google Cloud resources
+- Troubleshoot access issues
+- Identify and remove excess permissions from principals
+- Test changes to IAM allow policies
 
 To learn more about these tools and other Policy Intelligence tools, see [Policy Intelligence overview](https://docs.cloud.google.com/policy-intelligence/docs/overview) .

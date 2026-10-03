@@ -14,26 +14,24 @@ This guide describes best practices for securely managing, using, and protecting
 
 Service accounts differ from user accounts in multiple ways:
 
-  - They don't have a password and can't be used for browser-based sign-in.
-  - They're created and managed as a resource that belongs to a Google Cloud project. In contrast, users are managed in a Cloud Identity or Google Workspace account.
-  - They're specific to Google Cloud. In contrast, the users managed in Cloud Identity or Google Workspace work across a multitude of Google products and services.
-  - They're both a resource and a [principal](https://docs.cloud.google.com/docs/authentication#principal) :
-      - As a principal, a service account can be granted access to resources, like a Cloud Storage bucket.
-      - As a resource, a service account can be accessed and possibly [impersonated](https://docs.cloud.google.com/iam/docs/service-account-impersonation) by other principals, like a user or group.
+- They don't have a password and can't be used for browser-based sign-in.
+- They're created and managed as a resource that belongs to a Google Cloud project. In contrast, users are managed in a Cloud Identity or Google Workspace account.
+- They're specific to Google Cloud. In contrast, the users managed in Cloud Identity or Google Workspace work across a multitude of Google products and services.
+- They're both a resource and a [principal](https://docs.cloud.google.com/docs/authentication#principal) :
+  - As a principal, a service account can be granted access to resources, like a Cloud Storage bucket.
+  - As a resource, a service account can be accessed and possibly [impersonated](https://docs.cloud.google.com/iam/docs/service-account-impersonation) by other principals, like a user or group.
 
 Although service accounts are a useful tool, there are several ways in which a service account can be abused:
 
-  - **Privilege escalation:** A bad actor might gain access to resources they otherwise wouldn't have access to by impersonating the service account.
-  - **Spoofing:** A bad actor might use service account impersonation to obscure their identity.
-  - **Non-repudiation:** A bad actor might conceal their identity and actions by using a service account to carry out operations on their behalf. In some cases, it might not be possible to trace these actions to the bad actor.
-  - **Information disclosure:** A bad actor might derive information about your infrastructure, applications, or processes from the existence of certain service accounts.
+- **Privilege escalation:** A bad actor might gain access to resources they otherwise wouldn't have access to by impersonating the service account.
+- **Spoofing:** A bad actor might use service account impersonation to obscure their identity.
+- **Non-repudiation:** A bad actor might conceal their identity and actions by using a service account to carry out operations on their behalf. In some cases, it might not be possible to trace these actions to the bad actor.
+- **Information disclosure:** A bad actor might derive information about your infrastructure, applications, or processes from the existence of certain service accounts.
 
 To help secure service accounts, consider their dual nature:
 
-  - Because a service account is a principal, you must limit its privileges to reduce the potential harm that can be done by a compromised service account.
-  - Because a service account is a resource, you must protect it from being compromised.
-
-<span id="authenticate-service-accounts"></span> <span id="choosing_when_to_use_service_accounts"></span> <span id="using_service_accounts"></span>
+- Because a service account is a principal, you must limit its privileges to reduce the potential harm that can be done by a compromised service account.
+- Because a service account is a resource, you must protect it from being compromised.
 
 ## Choose when to use service accounts
 
@@ -46,33 +44,27 @@ When you access Google Cloud services by using the Google Cloud CLI, Cloud Clien
 This diagram guides you through the following questions:
 
 1.  Are you running code in a single-user development environment, such as your own workstation, Cloud Shell, or a virtual desktop interface?
-    
     1.  If yes, proceed to question 4.
     2.  If no, proceed to question 2.
 
 2.  Are you running code in Google Cloud?
-    
     1.  If yes, proceed to question 3.
     2.  If no, proceed to question 5.
 
 3.  Are you running containers in Google Kubernetes Engine?
-    
     1.  If yes, use [Workload Identity Federation for GKE](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/workload-identity#authenticating_to) to attach service accounts to Kubernetes pods.
     2.  If no, [attach a service account](https://docs.cloud.google.com/iam/docs/attach-service-accounts#attaching-to-resources) to the resource.
 
 4.  Does your use case require a service account?
-    
+
     For example, you want to configure authentication and authorization consistently for your application across all environments.
-    
+
     1.  If no, [authenticate with user credentials](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment#local-user-cred) .
     2.  If yes, [impersonate a service account with user credentials](https://docs.cloud.google.com/docs/authentication/use-service-account-impersonation) .
 
 5.  Does your workload authenticate with an external identity provider that supports [workload identity federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation#providers) ?
-    
     1.  If yes, [configure Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds) to let applications running on-premises or on other cloud providers use a service account.
     2.  If no, [create a service account key](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment#local-key) .
-
-<span id="managing_service_accounts"></span>
 
 ## Manage service accounts
 
@@ -98,29 +90,29 @@ To effectively manage service accounts, don't look at service accounts in isolat
 
 Sharing a single service account across multiple applications can complicate the management of the service account:
 
-  - The applications might have different life cycles. If an application is decommissioned, it might not be clear whether the service account can be decommissioned as well or whether it's still needed.
-  - Over time, the access requirements of applications might diverge. If applications use the same service account, then you might need to grant the service account access to an increasing number of resources, which in turn increases the overall risk.
-  - Cloud Audit Logs include the name of the service account that performed a change or accessed data, but they don't show the name of the application that used the service account. If multiple applications share a service account, you might not be able to trace activity back to the correct application.
+- The applications might have different life cycles. If an application is decommissioned, it might not be clear whether the service account can be decommissioned as well or whether it's still needed.
+- Over time, the access requirements of applications might diverge. If applications use the same service account, then you might need to grant the service account access to an increasing number of resources, which in turn increases the overall risk.
+- Cloud Audit Logs include the name of the service account that performed a change or accessed data, but they don't show the name of the application that used the service account. If multiple applications share a service account, you might not be able to trace activity back to the correct application.
 
 In particular, some Google Cloud services, including App Engine and Compute Engine, create a [default service account](https://docs.cloud.google.com/iam/docs/service-account-types#default) that has the Editor role ( `roles/editor` ) on the project by default. When you create a resource such as a Compute Engine virtual machine (VM) instance, and you don't specify a service account, the resource can automatically use the default service account. Although the default service account makes it easier for you to get started, it's very risky to share such a powerful service account across multiple applications.
 
 You can take several steps to avoid these complications:
 
-  - Create dedicated service accounts for each application, and avoid using default service accounts.
-  - [Don't use automatic role grants for default service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts#automatic-role-grants) .
-  - Use Google's [tools to understand service account usage](https://docs.cloud.google.com/iam/docs/service-account-usage-tools) , which can help you monitor usage and prevent service accounts from being shared across multiple applications.
+- Create dedicated service accounts for each application, and avoid using default service accounts.
+- [Don't use automatic role grants for default service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts#automatic-role-grants) .
+- Use Google's [tools to understand service account usage](https://docs.cloud.google.com/iam/docs/service-account-usage-tools) , which can help you monitor usage and prevent service accounts from being shared across multiple applications.
 
 ### Follow a naming and documentation convention
 
 To help track the association between a service and an application or resource, follow a naming convention when creating new service accounts:
 
-  - Add a prefix to the service account email address that identifies how the account is used. For example:
-      - `vm-` for service accounts attached to a VM instance.
-      - `wlifgke-` for service accounts used by Workload Identity Federation for GKE.
-      - `wlif-` for service accounts used by Workload Identity Federation.
-      - `onprem-` for service accounts used by on-premises applications.
-  - Embed the name of the application in the service account email address, for example: `vm-travelexpenses@` if the VM runs a travel expenses application.
-  - Use the description field to add a contact person, links to relevant documentation, or other notes.
+- Add a prefix to the service account email address that identifies how the account is used. For example:
+  - `vm-` for service accounts attached to a VM instance.
+  - `wlifgke-` for service accounts used by Workload Identity Federation for GKE.
+  - `wlif-` for service accounts used by Workload Identity Federation.
+  - `onprem-` for service accounts used by on-premises applications.
+- Embed the name of the application in the service account email address, for example: `vm-travelexpenses@` if the VM runs a travel expenses application.
+- Use the description field to add a contact person, links to relevant documentation, or other notes.
 
 Don't embed sensitive information or terms in the email address of a service account.
 
@@ -140,12 +132,10 @@ To avoid inadvertently losing IAM bindings, it's best to not delete service acco
 
 You can delete default service accounts such as the [App Engine default service account](https://docs.cloud.google.com/appengine/docs/standard/python3/service-account) or the [Compute Engine default service account](https://docs.cloud.google.com/compute/docs/access/service-accounts#default_service_account) . However, keep the following things in mind when deciding whether to delete a default service account:
 
-  - Deleting a default service account can improve the security of your deployment. However, without a default service account, the corresponding service can't automatically deploy jobs that access other Google Cloud unless you manually configure a new service account and grant it the appropriate roles.
-  - You can't recreate default service accounts after deleting them. If there's a chance that you might use the default service accounts in the future, we recommend leaving them disabled instead of deleting them.
+- Deleting a default service account can improve the security of your deployment. However, without a default service account, the corresponding service can't automatically deploy jobs that access other Google Cloud unless you manually configure a new service account and grant it the appropriate roles.
+- You can't recreate default service accounts after deleting them. If there's a chance that you might use the default service accounts in the future, we recommend leaving them disabled instead of deleting them.
 
 Before you delete a default service account, we recommend verifying whether you use it in your deployment. For more information about the tools you can use to verify service account usage, see [Tools to understand service account usage](https://docs.cloud.google.com/iam/docs/service-account-usage-tools) .
-
-<span id="limiting_service_account_privileges"></span>
 
 ## Limit service account privileges
 
@@ -199,17 +189,17 @@ Note that service accounts cannot directly own assets in Google Workspace. If yo
 
 Some applications only require access to certain resources at specific times or under specific circumstances. For example:
 
-  - An application might require access to configuration data during startup, but might not require that access once it's initialized.
-  - A supervisor application might periodically start background jobs where each job has different access requirements.
+- An application might require access to configuration data during startup, but might not require that access once it's initialized.
+- A supervisor application might periodically start background jobs where each job has different access requirements.
 
 In such scenarios, using a single service account and granting it access to all resources goes against the principle of least privilege. This is because, at any point in time, the application is likely to have access to more resources than it actually needs.
 
 To help ensure that the different parts of your application only have access to the resources they need, use the Service Account Credentials API for temporary privilege elevation:
 
-  - Create dedicated service accounts for each part of the application or use case and only grant the service account access to the necessary resources.
-  - Create another service account that acts as the supervisor. Grant the supervisor service account the [Service Account Token Creator role](https://docs.cloud.google.com/iam/docs/service-account-permissions#token-creator-role) on the other service accounts so that it can request short-lived access tokens for these service accounts.
-  - Split your application so that one part of the application serves as token broker and only let this part of the application use the supervisor service accounts.
-  - Use the token broker to issue short-lived service accounts to the other parts of the application.
+- Create dedicated service accounts for each part of the application or use case and only grant the service account access to the necessary resources.
+- Create another service account that acts as the supervisor. Grant the supervisor service account the [Service Account Token Creator role](https://docs.cloud.google.com/iam/docs/service-account-permissions#token-creator-role) on the other service accounts so that it can request short-lived access tokens for these service accounts.
+- Split your application so that one part of the application serves as token broker and only let this part of the application use the supervisor service accounts.
+- Use the token broker to issue short-lived service accounts to the other parts of the application.
 
 For help with creating short-lived credentials, see [Create short-lived credentials for a service account](https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct) .
 
@@ -251,13 +241,13 @@ As an example, consider a service account that has full access to a Cloud Storag
 
 Privilege-escalation techniques involving service accounts typically fall into these categories:
 
-  - **Authenticating as the service account:** You might inadvertently grant a user permission to [impersonate](https://docs.cloud.google.com/iam/docs/service-account-impersonation) a service account or to [create a service account key](https://docs.cloud.google.com/iam/docs/creating-managing-service-account-keys) for a service account. If the service account is more privileged than the user themselves, then the user can authenticate as the service account to escalate their privileges and gain access to resources they otherwise couldn't access.
+- **Authenticating as the service account:** You might inadvertently grant a user permission to [impersonate](https://docs.cloud.google.com/iam/docs/service-account-impersonation) a service account or to [create a service account key](https://docs.cloud.google.com/iam/docs/creating-managing-service-account-keys) for a service account. If the service account is more privileged than the user themselves, then the user can authenticate as the service account to escalate their privileges and gain access to resources they otherwise couldn't access.
 
-  - **Using resources that have an attached service account:** If a user has permission to access and modify CI/CD pipelines, VM instances, or other automation systems that have attached service accounts, then they might be able to perform actions using those resources' attached service accounts. As a result, even though they don't have permission to impersonate the service account, they might still be able to use the service account's permissions to perform actions that they wouldn't be allowed to perform themselves.
-    
-    For example, if a user has SSH access to a Compute Engine VM instance, then they can run code on the instance to access any resource that the instance's attached service account can access.
+- **Using resources that have an attached service account:** If a user has permission to access and modify CI/CD pipelines, VM instances, or other automation systems that have attached service accounts, then they might be able to perform actions using those resources' attached service accounts. As a result, even though they don't have permission to impersonate the service account, they might still be able to use the service account's permissions to perform actions that they wouldn't be allowed to perform themselves.
 
-  - **Allow policy, group, or custom role modifications:** A user who doesn't have access to a privileged service account might still have permission to modify the allow policies of the service account, enclosing Google Cloud project, or folder. The user could then extend one of these allow policies to grant themselves permission to (directly or indirectly) authenticate as the service account.
+  For example, if a user has SSH access to a Compute Engine VM instance, then they can run code on the instance to access any resource that the instance's attached service account can access.
+
+- **Allow policy, group, or custom role modifications:** A user who doesn't have access to a privileged service account might still have permission to modify the allow policies of the service account, enclosing Google Cloud project, or folder. The user could then extend one of these allow policies to grant themselves permission to (directly or indirectly) authenticate as the service account.
 
 The following sections provide best practices for protecting service accounts from privilege-escalation threats.
 
@@ -281,33 +271,33 @@ Users can also indirectly gain a service account's permissions by [attaching it 
 
 Permissions that enable a user to impersonate a service account or attach a service account to a resource include the following:
 
-  - `iam.serviceAccounts.getAccessToken`
-  - `iam.serviceAccounts.getOpenIdToken`
-  - `iam.serviceAccounts.actAs`
-  - `iam.serviceAccounts.implicitDelegation`
-  - `iam.serviceAccounts.signBlob`
-  - `iam.serviceAccounts.signJwt`
-  - `iam.serviceAccountKeys.create`
-  - `deploymentmanager.deployments.create`
-  - `cloudbuild.builds.create`
+- `iam.serviceAccounts.getAccessToken`
+- `iam.serviceAccounts.getOpenIdToken`
+- `iam.serviceAccounts.actAs`
+- `iam.serviceAccounts.implicitDelegation`
+- `iam.serviceAccounts.signBlob`
+- `iam.serviceAccounts.signJwt`
+- `iam.serviceAccountKeys.create`
+- `deploymentmanager.deployments.create`
+- `cloudbuild.builds.create`
 
 Roles that contain some of these permissions include (but aren't limited to):
 
-  - Owner ( `roles/owner` )
-  - Editor ( `roles/editor` )
-  - Service Account User ( `roles/iam.serviceAccountUser` )
-  - Service Account Token Creator ( `roles/iam.serviceAccountTokenCreator` )
-  - Service Account Key Admin ( `roles/iam.serviceAccountKeyAdmin` )
-  - Service Account Admin ( `roles/iam.serviceAccountAdmin` )
-  - Workload Identity User ( `roles/iam.workloadIdentityUser` )
-  - Deployment Manager Editor ( `roles/deploymentmanager.editor` )
-  - Cloud Build Editor ( `roles/cloudbuild.builds.editor` )
+- Owner ( `roles/owner` )
+- Editor ( `roles/editor` )
+- Service Account User ( `roles/iam.serviceAccountUser` )
+- Service Account Token Creator ( `roles/iam.serviceAccountTokenCreator` )
+- Service Account Key Admin ( `roles/iam.serviceAccountKeyAdmin` )
+- Service Account Admin ( `roles/iam.serviceAccountAdmin` )
+- Workload Identity User ( `roles/iam.workloadIdentityUser` )
+- Deployment Manager Editor ( `roles/deploymentmanager.editor` )
+- Cloud Build Editor ( `roles/cloudbuild.builds.editor` )
 
 Before you assign any of these roles to a user, ask yourself:
 
-  - Which resources inside and outside the current Google Cloud project could the user gain access to by impersonating the service account?
-  - Is this level of access justified?
-  - Are there sufficient protections in place that control under which circumstances the user can impersonate the service account?
+- Which resources inside and outside the current Google Cloud project could the user gain access to by impersonating the service account?
+- Is this level of access justified?
+- Are there sufficient protections in place that control under which circumstances the user can impersonate the service account?
 
 Don't assign the role if you can't confirm all questions. Instead, consider giving the user a different, less privileged service account.
 
@@ -315,14 +305,14 @@ Don't assign the role if you can't confirm all questions. Instead, consider givi
 
 Which users are allowed to use or impersonate a service account is captured by the service account's allow policy. The allow policy can be modified or extended by users who have the `iam.serviceAccounts.setIamPolicy` permission on the particular service account. Roles that contain that permission include:
 
-  - Owner ( `roles/owner` )
-  - Security Admin ( `roles/iam.securityAdmin` )
-  - Service Account Admin ( `roles/iam.serviceAccountAdmin` )
+- Owner ( `roles/owner` )
+- Security Admin ( `roles/iam.securityAdmin` )
+- Service Account Admin ( `roles/iam.serviceAccountAdmin` )
 
 Roles that include the `iam.serviceAccounts.setIamPolicy` permission give a user full control over a service account:
 
-  - The user can grant themselves permission to impersonate the service account, which gives the user the ability to access the same resources as the service account.
-  - The user can grant other users the same or a similar level of access to the service account.
+- The user can grant themselves permission to impersonate the service account, which gives the user the ability to access the same resources as the service account.
+- The user can grant other users the same or a similar level of access to the service account.
 
 Before you assign any of these roles to a user, ask yourself which resources inside and outside the current Google Cloud project the user could gain access to by impersonating the service account. Don't let a user [change the allow policy](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) of a service account if the service account has more privileges than the user.
 
@@ -344,10 +334,10 @@ If your Google Cloud project doesn't require service account keys at all, apply 
 
 Service accounts are resources and part of the [resource hierarchy](https://docs.cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy) . You can therefore manage access to service accounts at any of the following levels:
 
-  - The individual service account
-  - The enclosing Google Cloud project
-  - A folder in the Google Cloud project's ancestry
-  - The organization node
+- The individual service account
+- The enclosing Google Cloud project
+- A folder in the Google Cloud project's ancestry
+- The organization node
 
 Managing access at the Google Cloud project level or a higher level of the resource hierarchy can help reduce administrative overhead, but can also lead to over-granting of privileges. For example, if you grant a user the Service Account Token Creator role in a Google Cloud project, the user can impersonate any service account in the Google Cloud project. Being able to impersonate any service account implies that the user can potentially gain access to all resources that those service accounts can access, including resources outside that Google Cloud project.
 
@@ -359,11 +349,11 @@ When you attach a service account to a compute resource, such as a VM instance, 
 
 By default, access to the metadata server isn't restricted to specific processes or users. Instead, any code that is executed on the compute resource can access the metadata server and obtain an access token. Such code might include:
 
-  - The code of your application.
-  - Code submitted by end users, if your application permits any server-side script evaluation.
-  - Code read from a remote source repository, if the compute resource is part of a CI/CD system.
-  - [Startup and shutdown scripts](https://docs.cloud.google.com/compute/docs/startupscript) served by a Cloud Storage bucket.
-  - [Guest policies](https://docs.cloud.google.com/compute/docs/os-config-management/create-guest-policy) distributed by VM Manager.
+- The code of your application.
+- Code submitted by end users, if your application permits any server-side script evaluation.
+- Code read from a remote source repository, if the compute resource is part of a CI/CD system.
+- [Startup and shutdown scripts](https://docs.cloud.google.com/compute/docs/startupscript) served by a Cloud Storage bucket.
+- [Guest policies](https://docs.cloud.google.com/compute/docs/os-config-management/create-guest-policy) distributed by VM Manager.
 
 If code is submitted by users or is read from a remote storage location, you must ensure that it's trustworthy and that the remote storage locations are at least as well secured as the attached service account. If a remote storage location is less well protected than the service account, a bad actor might be able to escalate their privileges. They could do so by injecting malicious code that uses the service account's privileges into that location.
 
@@ -371,8 +361,8 @@ If code is submitted by users or is read from a remote storage location, you mus
 
 Some compute resources support interactive access and allow users to obtain shell access to the system. For example:
 
-  - Compute Engine lets you use SSH or RDP to log in to a VM instance.
-  - Google Kubernetes Engine lets you use [kubectl exec](https://kubernetes.io/docs/tasks/debug/debug-application/get-shell-running-container/) to run a command or start a shell in a Kubernetes container.
+- Compute Engine lets you use SSH or RDP to log in to a VM instance.
+- Google Kubernetes Engine lets you use [kubectl exec](https://kubernetes.io/docs/tasks/debug/debug-application/get-shell-running-container/) to run a command or start a shell in a Kubernetes container.
 
 If a VM instance has a privileged service account attached, then any user with shell access to the system can authenticate and access resources as the service account. To prevent users from abusing this capability to escalate their privileges, you must ensure that shell access is at least as well secured as the attached service account.
 
@@ -439,8 +429,8 @@ To help you identify and understand service account impersonation scenarios, ser
 
 Not all services include impersonation details in their Cloud Audit Logs. To record all impersonation events, you must also [enable data access logs](https://docs.cloud.google.com/logging/docs/audit/configure-data-access) for the following APIs:
 
-  - **Identity and Access Management (IAM) API** in all Google Cloud projects that contain service accounts
-  - **Security Token Service API** in all Google Cloud projects that contain workload identity pools
+- **Identity and Access Management (IAM) API** in all Google Cloud projects that contain service accounts
+- **Security Token Service API** in all Google Cloud projects that contain workload identity pools
 
 By enabling these logs, you make sure that an entry is added to the Cloud Audit Logs whenever a user requests an access token or an ID token for a service account.
 
@@ -454,13 +444,13 @@ To establish a consistent audit trail across your CI/CD system and Google Cloud,
 
 Ways to establish a correlation between Cloud Audit Logs records and events in the CI/CD system's history include:
 
-  - Log API requests performed by each CI/CD pipeline run.
+- Log API requests performed by each CI/CD pipeline run.
 
-  - Whenever the API returns an operation ID, record the ID in the CI/CD system's logs.
+- Whenever the API returns an operation ID, record the ID in the CI/CD system's logs.
 
-  - Add a `X-Goog-Request-Reason` [HTTP header](https://docs.cloud.google.com/apis/docs/system-parameters#definitions) to API requests and pass the ID of the CI/CD pipeline run. Terraform can automatically add this header if you specify a [request reason](https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/provider_reference#request_reason) .
-    
-    Alternatively, embed the information in the `User-Agent` header so that it is captured in Cloud Audit Logs.
+- Add a `X-Goog-Request-Reason` [HTTP header](https://docs.cloud.google.com/apis/docs/system-parameters#definitions) to API requests and pass the ID of the CI/CD pipeline run. Terraform can automatically add this header if you specify a [request reason](https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/provider_reference#request_reason) .
+
+  Alternatively, embed the information in the `User-Agent` header so that it is captured in Cloud Audit Logs.
 
 To help ensure non-repudiability, configure log files and commit histories so that they are immutable and a bad actor can't retroactively conceal their traces.
 
@@ -472,6 +462,6 @@ To help trace that access back to the user, design application logic to write a 
 
 ## What's next
 
-  - Understand [best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .
-  - Review our [best practices for using service accounts in deployment pipelines](https://docs.cloud.google.com/iam/docs/best-practices-for-using-service-accounts-in-deployment-pipelines) .
-  - Learn about [best practices for using Workload Identity Federation](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation) .
+- Understand [best practices for managing service account keys](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .
+- Review our [best practices for using service accounts in deployment pipelines](https://docs.cloud.google.com/iam/docs/best-practices-for-using-service-accounts-in-deployment-pipelines) .
+- Learn about [best practices for using Workload Identity Federation](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation) .

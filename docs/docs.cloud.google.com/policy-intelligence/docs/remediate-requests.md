@@ -26,9 +26,9 @@ You can get more information about the policies that are blocking the user's acc
 
 Click **Remediate** to view options for remediating that user's access issues. To learn the different ways that you can resolve permission errors caused by each of the different policy types using the Google Cloud console, see the following:
 
-  - [Remediate allow policy permission errors](https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests#remediate-allow)
-  - [Remediate deny policy permission errors](https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests#remediate-deny)
-  - [Remediate Principal Access Boundary permission errors](https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests#remediate-pab)
+- [Remediate allow policy permission errors](https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests#remediate-allow)
+- [Remediate deny policy permission errors](https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests#remediate-deny)
+- [Remediate Principal Access Boundary permission errors](https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests#remediate-pab)
 
 ## Remediate allow policy
 
@@ -54,9 +54,9 @@ To create a new Privileged Access Manager entitlement, do the following:
 2.  Click the applicable role to grant to view details about that role.
 
 3.  Click **Create entitlement.**
-    
+
     In the **Create a new entitlement** pane, enter the details for the entitlement:
-    
+
     1.  Enter a name for the new entitlement.
     2.  Select the maximum duration of the grant.
     3.  Click **Next** .
@@ -85,13 +85,13 @@ The **Remediate deny policy** page shows the deny policy that prevents the user 
 
 The suggested methods for remediating access requests related to deny policies include the following:
 
-  - [Exempt the user](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#deny-add-exception) from the deny policy.
+- [Exempt the user](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#deny-add-exception) from the deny policy.
 
-  - [Remove the permission](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#deny-remove-permission) from the deny policy.
+- [Remove the permission](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#deny-remove-permission) from the deny policy.
 
-  - [Add the user to an existing exemption group](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#deny-add-exception) .
+- [Add the user to an existing exemption group](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#deny-add-exception) .
 
-  - [Create a tag](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#deny-exclude-resource) to exclude the resource from the deny policy.
+- [Create a tag](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#deny-exclude-resource) to exclude the resource from the deny policy.
 
 ## Remediate Principal Access Boundary
 
@@ -105,13 +105,13 @@ The **Remediate Principal Access Boundary** page shows the Principal Access Boun
 
 The suggested methods for remediating access requests related to Principal Access Boundary policies include the following:
 
-  - [Add the resource to an existing Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-new-policy) attached to a broader set of identities.
+- [Add the resource to an existing Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-new-policy) attached to a broader set of identities.
 
-  - [Add the resource to a Principal Access Boundary policy that's attached to the user who needs access](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-new-policy) .
+- [Add the resource to a Principal Access Boundary policy that's attached to the user who needs access](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-new-policy) .
 
-  - Not recommended: [exempt the identity](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-condition) from Principal Access Boundary enforcement.
+- Not recommended: [exempt the identity](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-condition) from Principal Access Boundary enforcement.
 
 ## What's next
 
-  - Use the [permissions reference](https://docs.cloud.google.com/iam/docs/permissions-reference) or the [predefined roles reference](https://docs.cloud.google.com/iam/docs/roles-permissions) to determine which role to grant to a user who is missing permissions.
-  - Read about the other [Policy Intelligence tools](https://docs.cloud.google.com/policy-intelligence/docs/overview) , which help you understand and manage your policies to proactively improve your security configuration.
+- Use the [permissions reference](https://docs.cloud.google.com/iam/docs/permissions-reference) or the [predefined roles reference](https://docs.cloud.google.com/iam/docs/roles-permissions) to determine which role to grant to a user who is missing permissions.
+- Read about the other [Policy Intelligence tools](https://docs.cloud.google.com/policy-intelligence/docs/overview) , which help you understand and manage your policies to proactively improve your security configuration.

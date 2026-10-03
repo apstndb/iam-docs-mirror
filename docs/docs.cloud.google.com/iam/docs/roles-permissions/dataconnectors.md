@@ -23,104 +23,104 @@ This page lists the IAM roles and permissions for Data Connectors. To search thr
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="dataconnectors.admin" class="role-title add-link" data-text="Data Connectors Admin Beta" tabindex="-1">Data Connectors Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
+<td>Data Connectors Admin <sup>Beta</sup>
+<p>( <code>roles/ dataconnectors.admin</code> )</p>
 <p>Admin role for Data Connectors</p></td>
-<td><p><code dir="ltr" translate="no">dataconnectors.*</code></p>
+<td><p><code>dataconnectors.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">dataconnectors.  connectors.  create</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  connectors.  delete</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.connectors.get</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  connectors.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.connectors.list</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  connectors.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  connectors.  update</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.connectors.use</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.locations.get</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.locations.list</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  operations.  delete</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.operations.get</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.operations.list</code></li>
+<li><code>dataconnectors. connectors. create</code></li>
+<li><code>dataconnectors. connectors. delete</code></li>
+<li><code>dataconnectors.connectors.get</code></li>
+<li><code>dataconnectors. connectors. getIamPolicy</code></li>
+<li><code>dataconnectors.connectors.list</code></li>
+<li><code>dataconnectors. connectors. setIamPolicy</code></li>
+<li><code>dataconnectors. connectors. update</code></li>
+<li><code>dataconnectors.connectors.use</code></li>
+<li><code>dataconnectors.locations.get</code></li>
+<li><code>dataconnectors.locations.list</code></li>
+<li><code>dataconnectors. operations. cancel</code></li>
+<li><code>dataconnectors. operations. delete</code></li>
+<li><code>dataconnectors.operations.get</code></li>
+<li><code>dataconnectors.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="dataconnectors.editor" class="role-title add-link" data-text="Data Connectors Editor Beta" tabindex="-1">Data Connectors Editor <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
+<td>Data Connectors Editor <sup>Beta</sup>
+<p>( <code>roles/ dataconnectors.editor</code> )</p>
 <p>Editor role for Data Connectors</p></td>
-<td><p><code dir="ltr" translate="no">dataconnectors.  connectors.  create</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.  connectors.  delete</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.connectors.get</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.  connectors.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.connectors.list</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.  connectors.  update</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.connectors.use</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.locations.*</code></p>
+<td><p><code>dataconnectors. connectors. create</code></p>
+<p><code>dataconnectors. connectors. delete</code></p>
+<p><code>dataconnectors.connectors.get</code></p>
+<p><code>dataconnectors. connectors. getIamPolicy</code></p>
+<p><code>dataconnectors.connectors.list</code></p>
+<p><code>dataconnectors. connectors. update</code></p>
+<p><code>dataconnectors.connectors.use</code></p>
+<p><code>dataconnectors.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">dataconnectors.locations.get</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.locations.list</code></li>
+<li><code>dataconnectors.locations.get</code></li>
+<li><code>dataconnectors.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">dataconnectors.operations.*</code></p>
+<p><code>dataconnectors.operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">dataconnectors.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  operations.  delete</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.operations.get</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.operations.list</code></li>
+<li><code>dataconnectors. operations. cancel</code></li>
+<li><code>dataconnectors. operations. delete</code></li>
+<li><code>dataconnectors.operations.get</code></li>
+<li><code>dataconnectors.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="dataconnectors.viewer" class="role-title add-link" data-text="Data Connectors Viewer Beta" tabindex="-1">Data Connectors Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  dataconnectors.viewer</code> )</p>
+<td>Data Connectors Viewer <sup>Beta</sup>
+<p>( <code>roles/ dataconnectors.viewer</code> )</p>
 <p>Viewer role for Data Connectors</p></td>
-<td><p><code dir="ltr" translate="no">dataconnectors.connectors.get</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.  connectors.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.connectors.list</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.locations.*</code></p>
+<td><p><code>dataconnectors.connectors.get</code></p>
+<p><code>dataconnectors. connectors. getIamPolicy</code></p>
+<p><code>dataconnectors.connectors.list</code></p>
+<p><code>dataconnectors.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">dataconnectors.locations.get</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.locations.list</code></li>
+<li><code>dataconnectors.locations.get</code></li>
+<li><code>dataconnectors.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">dataconnectors.operations.get</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.operations.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>dataconnectors.operations.get</code></p>
+<p><code>dataconnectors.operations.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="dataconnectors.connectorAdmin" class="role-title add-link" data-text="Connector Admin Beta" tabindex="-1">Connector Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
+<td>Connector Admin <sup>Beta</sup>
+<p>( <code>roles/ dataconnectors.connectorAdmin</code> )</p>
 <p>Full access to Data Connectors.</p></td>
-<td><p><code dir="ltr" translate="no">dataconnectors.*</code></p>
+<td><p><code>dataconnectors.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">dataconnectors.  connectors.  create</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  connectors.  delete</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.connectors.get</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  connectors.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.connectors.list</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  connectors.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  connectors.  update</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.connectors.use</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.locations.get</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.locations.list</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.  operations.  delete</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.operations.get</code></li>
-<li><code dir="ltr" translate="no">dataconnectors.operations.list</code></li>
+<li><code>dataconnectors. connectors. create</code></li>
+<li><code>dataconnectors. connectors. delete</code></li>
+<li><code>dataconnectors.connectors.get</code></li>
+<li><code>dataconnectors. connectors. getIamPolicy</code></li>
+<li><code>dataconnectors.connectors.list</code></li>
+<li><code>dataconnectors. connectors. setIamPolicy</code></li>
+<li><code>dataconnectors. connectors. update</code></li>
+<li><code>dataconnectors.connectors.use</code></li>
+<li><code>dataconnectors.locations.get</code></li>
+<li><code>dataconnectors.locations.list</code></li>
+<li><code>dataconnectors. operations. cancel</code></li>
+<li><code>dataconnectors. operations. delete</code></li>
+<li><code>dataconnectors.operations.get</code></li>
+<li><code>dataconnectors.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="dataconnectors.connectorUser" class="role-title add-link" data-text="Data Connector User Beta" tabindex="-1">Data Connector User <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  dataconnectors.connectorUser</code> )</p>
+<td>Data Connector User <sup>Beta</sup>
+<p>( <code>roles/ dataconnectors.connectorUser</code> )</p>
 <p>Access to use Data Connectors.</p></td>
-<td><p><code dir="ltr" translate="no">dataconnectors.connectors.get</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.  connectors.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.connectors.list</code></p>
-<p><code dir="ltr" translate="no">dataconnectors.connectors.use</code></p></td>
+<td><p><code>dataconnectors.connectors.get</code></p>
+<p><code>dataconnectors. connectors. getIamPolicy</code></p>
+<p><code>dataconnectors.connectors.list</code></p>
+<p><code>dataconnectors.connectors.use</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -142,214 +142,34 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="dataconnectors.serviceAgent" class="role-title add-link" data-text="Data Connectors Service Agent" tabindex="-1">Data Connectors Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  dataconnectors.serviceAgent</code> )</p>
+<td>Data Connectors Service Agent
+<p>( <code>roles/ dataconnectors.serviceAgent</code> )</p>
 <p>Gives Data Connectors service agent permission to access the virtual private cloud</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">compute.globalOperations.get</code></p>
-<p><code dir="ltr" translate="no">compute.networks.access</code></p>
-<p><code dir="ltr" translate="no">vpcaccess.connectors.get</code></p></td>
+<td><p><code>compute.globalOperations.get</code></p>
+<p><code>compute.networks.access</code></p>
+<p><code>vpcaccess.connectors.get</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Data Connectors permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="dataconnectors.connectors.create" class="permission-name add-link" data-text="dataconnectors.connectors.create" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.  connectors.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="dataconnectors.connectors.delete" class="permission-name add-link" data-text="dataconnectors.connectors.delete" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.  connectors.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="dataconnectors.connectors.get" class="permission-name add-link" data-text="dataconnectors.connectors.get" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.connectors.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer">Data Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorUser">Data Connector User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="dataconnectors.connectors.getIamPolicy" class="permission-name add-link" data-text="dataconnectors.connectors.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.  connectors.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer">Data Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorUser">Data Connector User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="dataconnectors.connectors.list" class="permission-name add-link" data-text="dataconnectors.connectors.list" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.connectors.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer">Data Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorUser">Data Connector User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="dataconnectors.connectors.setIamPolicy" class="permission-name add-link" data-text="dataconnectors.connectors.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.  connectors.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="dataconnectors.connectors.update" class="permission-name add-link" data-text="dataconnectors.connectors.update" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.  connectors.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="dataconnectors.connectors.use" class="permission-name add-link" data-text="dataconnectors.connectors.use" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.connectors.use</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorUser">Data Connector User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="dataconnectors.locations.get" class="permission-name add-link" data-text="dataconnectors.locations.get" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer">Data Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="dataconnectors.locations.list" class="permission-name add-link" data-text="dataconnectors.locations.list" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.locations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer">Data Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="dataconnectors.operations.cancel" class="permission-name add-link" data-text="dataconnectors.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.  operations.  cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="dataconnectors.operations.delete" class="permission-name add-link" data-text="dataconnectors.operations.delete" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.  operations.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="dataconnectors.operations.get" class="permission-name add-link" data-text="dataconnectors.operations.get" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer">Data Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="dataconnectors.operations.list" class="permission-name add-link" data-text="dataconnectors.operations.list" tabindex="-1"><code dir="ltr" translate="no">dataconnectors.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin">Data Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor">Data Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer">Data Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.connectorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                 | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `dataconnectors. connectors. create`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| `dataconnectors. connectors. delete`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| `dataconnectors.connectors.get`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Data Connectors Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer) ( `roles/ dataconnectors.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Data Connector User](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorUser) ( `roles/ dataconnectors.connectorUser` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `dataconnectors. connectors. getIamPolicy` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Data Connectors Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer) ( `roles/ dataconnectors.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Data Connector User](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorUser) ( `roles/ dataconnectors.connectorUser` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `dataconnectors.connectors.list`           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Data Connectors Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer) ( `roles/ dataconnectors.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Data Connector User](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorUser) ( `roles/ dataconnectors.connectorUser` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `dataconnectors. connectors. setIamPolicy` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `dataconnectors. connectors. update`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| `dataconnectors.connectors.use`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Data Connector User](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorUser) ( `roles/ dataconnectors.connectorUser` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| `dataconnectors.locations.get`             | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Data Connectors Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer) ( `roles/ dataconnectors.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `dataconnectors.locations.list`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Data Connectors Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer) ( `roles/ dataconnectors.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                       |
+| `dataconnectors. operations. cancel`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| `dataconnectors. operations. delete`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| `dataconnectors.operations.get`            | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Data Connectors Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer) ( `roles/ dataconnectors.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `dataconnectors.operations.list`           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Data Connectors Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.admin) ( `roles/ dataconnectors.admin` ) [Data Connectors Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.editor) ( `roles/ dataconnectors.editor` ) [Data Connectors Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.viewer) ( `roles/ dataconnectors.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Connector Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.connectorAdmin) ( `roles/ dataconnectors.connectorAdmin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                       |

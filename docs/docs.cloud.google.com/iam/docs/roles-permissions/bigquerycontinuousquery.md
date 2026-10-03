@@ -25,13 +25,13 @@ BigQuery Continuous Query offers the following service agent roles. Service agen
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="bigquerycontinuousquery.serviceAgent" class="role-title add-link" data-text="BigQuery Continuous Query Service Agent" tabindex="-1">BigQuery Continuous Query Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  bigquerycontinuousquery.serviceAgent</code> )</p>
+<td>BigQuery Continuous Query Service Agent
+<p>( <code>roles/ bigquerycontinuousquery.serviceAgent</code> )</p>
 <p>Gives BigQuery Continuous Query access to the service accounts in the user project.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">iam.  serviceAccounts.  getAccessToken</code></p></td>
+<td><p><code>iam. serviceAccounts. getAccessToken</code></p></td>
 </tr>
 </tbody>
 </table>

@@ -23,144 +23,50 @@ This page lists the IAM roles and permissions for Cloud Location Finder. To sear
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudlocationfinder.admin" class="role-title add-link" data-text="Cloud Location Finder Admin Beta" tabindex="-1">Cloud Location Finder Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudlocationfinder.admin</code> )</p>
+<td>Cloud Location Finder Admin <sup>Beta</sup>
+<p>( <code>roles/ cloudlocationfinder.admin</code> )</p>
 <p>Full access to Cloud Location Finder resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudlocationfinder.*</code></p>
+<td><p><code>cloudlocationfinder.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  create</code></li>
-<li><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  delete</code></li>
-<li><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  list</code></li>
-<li><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  search</code></li>
-<li><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  update</code></li>
-<li><code dir="ltr" translate="no">cloudlocationfinder.  locations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudlocationfinder.  locations.  list</code></li>
+<li><code>cloudlocationfinder. cloudLocations. create</code></li>
+<li><code>cloudlocationfinder. cloudLocations. delete</code></li>
+<li><code>cloudlocationfinder. cloudLocations. get</code></li>
+<li><code>cloudlocationfinder. cloudLocations. list</code></li>
+<li><code>cloudlocationfinder. cloudLocations. search</code></li>
+<li><code>cloudlocationfinder. cloudLocations. update</code></li>
+<li><code>cloudlocationfinder. locations. get</code></li>
+<li><code>cloudlocationfinder. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudlocationfinder.viewer" class="role-title add-link" data-text="Cloud Location Finder Viewer Beta" tabindex="-1">Cloud Location Finder Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  cloudlocationfinder.viewer</code> )</p>
+<td>Cloud Location Finder Viewer <sup>Beta</sup>
+<p>( <code>roles/ cloudlocationfinder.viewer</code> )</p>
 <p>Readonly access to Cloud Location Finder resources.</p></td>
-<td><p><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  get</code></p>
-<p><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  list</code></p>
-<p><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  search</code></p>
-<p><code dir="ltr" translate="no">cloudlocationfinder.  locations.*</code></p>
+<td><p><code>cloudlocationfinder. cloudLocations. get</code></p>
+<p><code>cloudlocationfinder. cloudLocations. list</code></p>
+<p><code>cloudlocationfinder. cloudLocations. search</code></p>
+<p><code>cloudlocationfinder. locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">cloudlocationfinder.  locations.  get</code></li>
-<li><code dir="ltr" translate="no">cloudlocationfinder.  locations.  list</code></li>
+<li><code>cloudlocationfinder. locations. get</code></li>
+<li><code>cloudlocationfinder. locations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Cloud Location Finder permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="cloudlocationfinder.cloudLocations.create" class="permission-name add-link" data-text="cloudlocationfinder.cloudLocations.create" tabindex="-1"><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin">Cloud Location Finder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudlocationfinder.cloudLocations.delete" class="permission-name add-link" data-text="cloudlocationfinder.cloudLocations.delete" tabindex="-1"><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin">Cloud Location Finder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudlocationfinder.cloudLocations.get" class="permission-name add-link" data-text="cloudlocationfinder.cloudLocations.get" tabindex="-1"><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin">Cloud Location Finder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.viewer">Cloud Location Finder Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudlocationfinder.cloudLocations.list" class="permission-name add-link" data-text="cloudlocationfinder.cloudLocations.list" tabindex="-1"><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin">Cloud Location Finder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.viewer">Cloud Location Finder Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudlocationfinder.cloudLocations.search" class="permission-name add-link" data-text="cloudlocationfinder.cloudLocations.search" tabindex="-1"><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  search</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin">Cloud Location Finder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.viewer">Cloud Location Finder Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudlocationfinder.cloudLocations.update" class="permission-name add-link" data-text="cloudlocationfinder.cloudLocations.update" tabindex="-1"><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin">Cloud Location Finder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="cloudlocationfinder.locations.get" class="permission-name add-link" data-text="cloudlocationfinder.locations.get" tabindex="-1"><code dir="ltr" translate="no">cloudlocationfinder.  locations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin">Cloud Location Finder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.viewer">Cloud Location Finder Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="cloudlocationfinder.locations.list" class="permission-name add-link" data-text="cloudlocationfinder.locations.list" tabindex="-1"><code dir="ltr" translate="no">cloudlocationfinder.  locations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin">Cloud Location Finder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.viewer">Cloud Location Finder Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                    | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `cloudlocationfinder. cloudLocations. create` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Location Finder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin) ( `roles/ cloudlocationfinder.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `cloudlocationfinder. cloudLocations. delete` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Location Finder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin) ( `roles/ cloudlocationfinder.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `cloudlocationfinder. cloudLocations. get`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Location Finder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin) ( `roles/ cloudlocationfinder.admin` ) [Cloud Location Finder Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.viewer) ( `roles/ cloudlocationfinder.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `cloudlocationfinder. cloudLocations. list`   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Location Finder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin) ( `roles/ cloudlocationfinder.admin` ) [Cloud Location Finder Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.viewer) ( `roles/ cloudlocationfinder.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `cloudlocationfinder. cloudLocations. search` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Location Finder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin) ( `roles/ cloudlocationfinder.admin` ) [Cloud Location Finder Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.viewer) ( `roles/ cloudlocationfinder.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `cloudlocationfinder. cloudLocations. update` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Cloud Location Finder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin) ( `roles/ cloudlocationfinder.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `cloudlocationfinder. locations. get`         | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Location Finder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin) ( `roles/ cloudlocationfinder.admin` ) [Cloud Location Finder Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.viewer) ( `roles/ cloudlocationfinder.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `cloudlocationfinder. locations. list`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Cloud Location Finder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin) ( `roles/ cloudlocationfinder.admin` ) [Cloud Location Finder Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.viewer) ( `roles/ cloudlocationfinder.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |

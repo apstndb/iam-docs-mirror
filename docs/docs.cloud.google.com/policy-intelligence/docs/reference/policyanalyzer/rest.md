@@ -6,7 +6,7 @@ description: A suite of tools to help you understand and manage your policies to
 data_source: docs.cloud.google.com
 ---
 
-  - [REST Resource: v1.projects.locations.activityTypes.activities](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest#v1.projects.locations.activityTypes.activities)
+- [REST Resource: v1.projects.locations.activityTypes.activities](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest#v1.projects.locations.activityTypes.activities)
 
 ## Service: policyanalyzer.googleapis.com
 
@@ -14,19 +14,16 @@ data_source: docs.cloud.google.com
 
 A [Discovery Document](https://developers.google.com/discovery/v1/reference/apis) is a machine-readable specification for describing and consuming REST APIs. It is used to build client libraries, IDE plugins, and other tools that interact with Google APIs. One service may provide multiple discovery documents. This service provides the following discovery document:
 
-  - <https://policyanalyzer.googleapis.com/$discovery/rest?version=v1>
+- <https://policyanalyzer.googleapis.com/$discovery/rest?version=v1>
 
 ### Service endpoint
 
 A [service endpoint](https://cloud.google.com/apis/design/glossary#api_service_endpoint) is a base URL that specifies the network address of an API service. One service might have multiple service endpoints. This service has the following service endpoint and all URIs below are relative to this service endpoint:
 
-  - `https://policyanalyzer.googleapis.com`
+- `https://policyanalyzer.googleapis.com`
 
 ## REST Resource: [v1.projects.locations.activityTypes.activities](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest/v1/projects.locations.activityTypes.activities)
 
-Methods
-
-`  query  `
-
-`GET /v1/{parent=projects/*/locations/*/activityTypes/*}/activities:query`  
-Queries policy activities on Google Cloud resources.
+| Methods                                                                                                                                              |                                                                                                                                 |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| [`query`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest/v1/projects.locations.activityTypes.activities/query) | `GET /v1/{parent=projects/*/locations/*/activityTypes/*}/activities:query` Queries policy activities on Google Cloud resources. |

@@ -12,10 +12,10 @@ When generative AI agents interact with external tools, APIs, or services (such 
 
 The auth manager provides the following benefits for agent development:
 
-  - **Centralized credential vault** : Stores API keys, OAuth client secrets, and user tokens in a Google-managed vault, helping to avoid hardcoded secrets and custom database storage.
-  - **Automated OAuth 2.0** : Handles multi-step OAuth 2.0 flows, such as user consent, authorization code exchange, and token refreshes, without custom backend code.
-  - **Seamless ADK integration** : Integrates natively with the Agent Development Kit (ADK) to retrieve and inject outbound authentication headers, such as `Authorization` or `X-Goog-Api-Key` , into tool and Model Context Protocol (MCP) server invocations.
-  - **Granular SPIFFE ID access control** : Uses SPIFFE-based agent identities to define precise Identity and Access Management (IAM) policies, helping to ensure only authorized agent principals and developers can access specific auth providers.
+- **Centralized credential vault** : Stores API keys, OAuth client secrets, and user tokens in a Google-managed vault, helping to avoid hardcoded secrets and custom database storage.
+- **Automated OAuth 2.0** : Handles multi-step OAuth 2.0 flows, such as user consent, authorization code exchange, and token refreshes, without custom backend code.
+- **Seamless ADK integration** : Integrates natively with the Agent Development Kit (ADK) to retrieve and inject outbound authentication headers, such as `Authorization` or `X-Goog-Api-Key` , into tool and Model Context Protocol (MCP) server invocations.
+- **Granular SPIFFE ID access control** : Uses SPIFFE-based agent identities to define precise Identity and Access Management (IAM) policies, helping to ensure only authorized agent principals and developers can access specific auth providers.
 
 ## How the auth manager works
 
@@ -41,7 +41,7 @@ The following table lists some verified third-party services, their supported au
 > **Note:** This list is not exhaustive.
 
 | Service        | Supported authentication methods                                                                                                                        | Credential setup documentation                                                                                                                        |
-| :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Atlassian Jira | [3-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2) , [API key](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)      | [Jira OAuth 2.0 guide](https://developer.atlassian.com/cloud/jira/software/oauth-2-3lo-apps/)                                                         |
 | Dropbox        | [3-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)                                                                               | [Dropbox OAuth guide](https://developers.dropbox.com/oauth-guide)                                                                                     |
 | GitHub         | [3-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2) \*                                                                            | [GitHub OAuth Apps](https://docs.github.com/en/apps/oauth-apps)                                                                                       |
@@ -54,8 +54,8 @@ The following table lists some verified third-party services, their supported au
 
 ### Service-specific considerations
 
-  - **GitHub and Microsoft** : The auth manager supports single-scope integrations for GitHub and Microsoft. The auth manager doesn't support requesting multiple scopes. For more information, see [GitHub or Microsoft multiple scopes error](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager#multiple-scopes-error) .
-  - **ServiceNow** : In ServiceNow, administrators configure allowed scopes at the application level. Regardless of what an agent requests, ServiceNow grants only these configured scopes. If an agent requires a scope that isn't configured, authentication might fail or enter a request loop. Ensure that the ServiceNow application configuration includes all of the scopes that your agent requires. For more information, see [ServiceNow authentication loop or unexpected scopes](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager#servicenow-scopes) .
+- **GitHub and Microsoft** : The auth manager supports single-scope integrations for GitHub and Microsoft. The auth manager doesn't support requesting multiple scopes. For more information, see [GitHub or Microsoft multiple scopes error](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager#multiple-scopes-error) .
+- **ServiceNow** : In ServiceNow, administrators configure allowed scopes at the application level. Regardless of what an agent requests, ServiceNow grants only these configured scopes. If an agent requires a scope that isn't configured, authentication might fail or enter a request loop. Ensure that the ServiceNow application configuration includes all of the scopes that your agent requires. For more information, see [ServiceNow authentication loop or unexpected scopes](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager#servicenow-scopes) .
 
 ## Locations
 
@@ -63,10 +63,10 @@ The Agent Identity auth manager is available in regions across the Americas, Eur
 
 ## What's next
 
-  - [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
-  - [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
-  - [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)
-  - [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
-  - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)
-  - [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations)
-  - [Troubleshoot Agent Identity auth manager](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager)
+- [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
+- [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
+- [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)
+- [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
+- [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)
+- [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations)
+- [Troubleshoot Agent Identity auth manager](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager)

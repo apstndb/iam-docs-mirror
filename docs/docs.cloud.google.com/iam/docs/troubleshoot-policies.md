@@ -26,10 +26,10 @@ You might also be able to get the required permissions through [custom roles](ht
 
 In Google Cloud, the following allow and deny policies affect access to a resource:
 
-  - The resource's allow policy
-  - The resource's deny policies, if any
-  - The allow policies of the resource's parent project, folder, and organization, if any
-  - The deny policies of the resource's parent project, folder, and organization, if any
+- The resource's allow policy
+- The resource's deny policies, if any
+- The allow policies of the resource's parent project, folder, and organization, if any
+- The deny policies of the resource's parent project, folder, and organization, if any
 
 The allow and deny policies of parent projects, folders, and organizations affect access to a resource because of [policy inheritance](https://docs.cloud.google.com/iam/docs/policies#inheritance) . When you attach an allow or deny policy to a project, folder, or organization, that policy also applies for all resources inside that project, folder, or organization.
 
@@ -45,99 +45,107 @@ In Google Cloud, you can get a list of all of the allow and deny policies that a
 
 Before using any of the command data below, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
 
 Execute the [`gcloud beta projects get-ancestors-iam-policy`](https://docs.cloud.google.com/sdk/gcloud/reference/beta/projects/get-ancestors-iam-policy) command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud beta projects get-ancestors-iam-policy PROJECT_ID --include-deny --format=json
+```
+gcloud beta projects get-ancestors-iam-policy PROJECT_ID --include-deny --format=json
+```
 
 #### Windows (PowerShell)
 
-    gcloud beta projects get-ancestors-iam-policy PROJECT_ID --include-deny --format=json
+```
+gcloud beta projects get-ancestors-iam-policy PROJECT_ID --include-deny --format=json
+```
 
 #### Windows (cmd.exe)
 
-    gcloud beta projects get-ancestors-iam-policy PROJECT_ID --include-deny --format=json
+```
+gcloud beta projects get-ancestors-iam-policy PROJECT_ID --include-deny --format=json
+```
 
 The response contains the allow and deny policies for the project; any folders that are ancestors of the project; and the organization. The following example shows allow policies for the organization `1234567890123` and the project `my-project` , as well as a deny policy for the project `my-project` :
 
-    [
-      {
-        "id": "1234567890123",
-        "policy": {
-          "bindings": [
-            {
-              "members": [
-                "group:cloud-admins@example.com"
-              ],
-              "role": "roles/iam.denyAdmin"
-            },
-            {
-              "members": [
-                "user:raha@example.com"
-              ],
-              "role": "roles/iam.serviceAccountAdmin"
-            }
+```
+[
+  {
+    "id": "1234567890123",
+    "policy": {
+      "bindings": [
+        {
+          "members": [
+            "group:cloud-admins@example.com"
           ],
-          "etag": "BwXW6Eab7TI=",
-          "version": 1
+          "role": "roles/iam.denyAdmin"
         },
-        "type": "organization"
-      },
-      {
-        "id": "my-project",
-        "policy": {
-          "bindings": [
-            {
-              "members": [
-                "group:cloud-admins@example.com"
-              ],
-              "role": "roles/owner"
-            }
+        {
+          "members": [
+            "user:raha@example.com"
           ],
-          "etag": "BwXXjOM7L6M=",
-          "type": "project"
+          "role": "roles/iam.serviceAccountAdmin"
         }
-      },
-      {
-        "id": "my-project",
-        "policy": {
-          "createTime": "2022-02-14T21:46:35.865279Z",
-          "displayName": "My deny policy",
-          "etag": "MTgyMzg2ODcwNTEyMjMxMTM3Mjg=",
-          "kind": "DenyPolicy",
-          "name": "policies/cloudresourcemanager.googleapis.com%2Fprojects%2F123456789012/denypolicies/my-deny-policy",
-          "rules": [
-            {
-              "denyRule": {
-                "deniedPermissions": [
-                  "iam.googleapis.com/serviceAccounts.create"
-                ],
-                "deniedPrincipals": [
-                  "user:raha@example.com"
-                ]
-              },
-              "description": "Prevent service account creation"
-            }
+      ],
+      "etag": "BwXW6Eab7TI=",
+      "version": 1
+    },
+    "type": "organization"
+  },
+  {
+    "id": "my-project",
+    "policy": {
+      "bindings": [
+        {
+          "members": [
+            "group:cloud-admins@example.com"
           ],
-          "uid": "c83e3dc3-d8a6-6f51-4018-814e9f200b05",
-          "updateTime": "2022-02-14T21:46:35.865279Z"
-        },
-        "type": "project"
-      }
-    ]
+          "role": "roles/owner"
+        }
+      ],
+      "etag": "BwXXjOM7L6M=",
+      "type": "project"
+    }
+  },
+  {
+    "id": "my-project",
+    "policy": {
+      "createTime": "2022-02-14T21:46:35.865279Z",
+      "displayName": "My deny policy",
+      "etag": "MTgyMzg2ODcwNTEyMjMxMTM3Mjg=",
+      "kind": "DenyPolicy",
+      "name": "policies/cloudresourcemanager.googleapis.com%2Fprojects%2F123456789012/denypolicies/my-deny-policy",
+      "rules": [
+        {
+          "denyRule": {
+            "deniedPermissions": [
+              "iam.googleapis.com/serviceAccounts.create"
+            ],
+            "deniedPrincipals": [
+              "user:raha@example.com"
+            ]
+          },
+          "description": "Prevent service account creation"
+        }
+      ],
+      "uid": "c83e3dc3-d8a6-6f51-4018-814e9f200b05",
+      "updateTime": "2022-02-14T21:46:35.865279Z"
+    },
+    "type": "project"
+  }
+]
+```
 
 In this example, Raha is granted the Service Account Admin role ( `roles/iam.serviceAccountAdmin` ) on the organization, but the project has a deny policy that prevents Raha from using the permission `iam.googleapis.com/serviceAccounts.create` . As a result, if Raha tries to create a service account in the project `my-project` , the request will be denied.
 
 In some cases, you might only need to view the effective allow policy for a resource—for example, if your organization doesn't use deny policies. In these cases, you can use the following methods to view the effective allow policy:
 
-  - View the resource's IAM allow policy in the Google Cloud console. The Google Cloud console automatically shows each resource's effective policy.
-    
-    To learn how to view a resource's IAM allow policy in the Google Cloud console, see [View current access](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#view-access) .
+- View the resource's IAM allow policy in the Google Cloud console. The Google Cloud console automatically shows each resource's effective policy.
 
-  - Use the Cloud Asset API to get the resource's effective allow policy. To learn more, see [Viewing effective IAM policies](https://docs.cloud.google.com/asset-inventory/docs/view-effective-iam-policies) .
+  To learn how to view a resource's IAM allow policy in the Google Cloud console, see [View current access](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#view-access) .
+
+- Use the Cloud Asset API to get the resource's effective allow policy. To learn more, see [Viewing effective IAM policies](https://docs.cloud.google.com/asset-inventory/docs/view-effective-iam-policies) .
 
 ## Search allow policies
 
@@ -145,11 +153,11 @@ If you need to locate a specific role binding in an allow policy, you can search
 
 Cloud Asset Inventory lets you search allow policies for role bindings that match the specified parameters. You can use a variety of search parameters, including the following:
 
-  - Resource type
-  - Principal type
-  - Role
-  - Project
-  - Folder
-  - Organization
+- Resource type
+- Principal type
+- Role
+- Project
+- Folder
+- Organization
 
 For more information, see [Searching IAM allow policies](https://docs.cloud.google.com/asset-inventory/docs/searching-iam-policies) .

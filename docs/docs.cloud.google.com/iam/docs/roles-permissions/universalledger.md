@@ -23,83 +23,83 @@ This page lists the IAM roles and permissions for Universal Ledger. To search th
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="universalledger.admin" class="role-title add-link" data-text="Universal Ledger Admin Beta" tabindex="-1">Universal Ledger Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  universalledger.admin</code> )</p>
+<td>Universal Ledger Admin <sup>Beta</sup>
+<p>( <code>roles/ universalledger.admin</code> )</p>
 <p>Grants access to endpoints and networks, including the ability to submit transactions. Currently, this role has the same permissions as the Universal Ledger Editor role.</p></td>
-<td><p><code dir="ltr" translate="no">universalledger.*</code></p>
+<td><p><code>universalledger.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">universalledger.endpoints.get</code></li>
-<li><code dir="ltr" translate="no">universalledger.endpoints.list</code></li>
-<li><code dir="ltr" translate="no">universalledger.  endpoints.  readNetwork</code></li>
-<li><code dir="ltr" translate="no">universalledger.  endpoints.  submit</code></li>
-<li><code dir="ltr" translate="no">universalledger.locations.get</code></li>
-<li><code dir="ltr" translate="no">universalledger.locations.list</code></li>
+<li><code>universalledger.endpoints.get</code></li>
+<li><code>universalledger.endpoints.list</code></li>
+<li><code>universalledger. endpoints. readNetwork</code></li>
+<li><code>universalledger. endpoints. submit</code></li>
+<li><code>universalledger.locations.get</code></li>
+<li><code>universalledger.locations.list</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="universalledger.editor" class="role-title add-link" data-text="Universal Ledger Editor Beta" tabindex="-1">Universal Ledger Editor <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  universalledger.editor</code> )</p>
+<td>Universal Ledger Editor <sup>Beta</sup>
+<p>( <code>roles/ universalledger.editor</code> )</p>
 <p>Grants access to endpoints and networks, including the ability to submit transactions.</p></td>
-<td><p><code dir="ltr" translate="no">universalledger.*</code></p>
+<td><p><code>universalledger.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">universalledger.endpoints.get</code></li>
-<li><code dir="ltr" translate="no">universalledger.endpoints.list</code></li>
-<li><code dir="ltr" translate="no">universalledger.  endpoints.  readNetwork</code></li>
-<li><code dir="ltr" translate="no">universalledger.  endpoints.  submit</code></li>
-<li><code dir="ltr" translate="no">universalledger.locations.get</code></li>
-<li><code dir="ltr" translate="no">universalledger.locations.list</code></li>
+<li><code>universalledger.endpoints.get</code></li>
+<li><code>universalledger.endpoints.list</code></li>
+<li><code>universalledger. endpoints. readNetwork</code></li>
+<li><code>universalledger. endpoints. submit</code></li>
+<li><code>universalledger.locations.get</code></li>
+<li><code>universalledger.locations.list</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="universalledger.viewer" class="role-title add-link" data-text="Universal Ledger Viewer Beta" tabindex="-1">Universal Ledger Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  universalledger.viewer</code> )</p>
+<td>Universal Ledger Viewer <sup>Beta</sup>
+<p>( <code>roles/ universalledger.viewer</code> )</p>
 <p>Grants the ability to view endpoints, and query the network via an endpoint.</p></td>
-<td><p><code dir="ltr" translate="no">universalledger.endpoints.get</code></p>
-<p><code dir="ltr" translate="no">universalledger.endpoints.list</code></p>
-<p><code dir="ltr" translate="no">universalledger.  endpoints.  readNetwork</code></p>
-<p><code dir="ltr" translate="no">universalledger.locations.*</code></p>
+<td><p><code>universalledger.endpoints.get</code></p>
+<p><code>universalledger.endpoints.list</code></p>
+<p><code>universalledger. endpoints. readNetwork</code></p>
+<p><code>universalledger.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">universalledger.locations.get</code></li>
-<li><code dir="ltr" translate="no">universalledger.locations.list</code></li>
+<li><code>universalledger.locations.get</code></li>
+<li><code>universalledger.locations.list</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="universalledger.endpointViewer" class="role-title add-link" data-text="Universal Ledger Endpoint Viewer Beta" tabindex="-1">Universal Ledger Endpoint Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  universalledger.endpointViewer</code> )</p>
+<td>Universal Ledger Endpoint Viewer <sup>Beta</sup>
+<p>( <code>roles/ universalledger.endpointViewer</code> )</p>
 <p>Grants the ability to read the endpoints for a given project.</p></td>
-<td><p><code dir="ltr" translate="no">universalledger.endpoints.get</code></p>
-<p><code dir="ltr" translate="no">universalledger.endpoints.list</code></p>
-<p><code dir="ltr" translate="no">universalledger.locations.*</code></p>
+<td><p><code>universalledger.endpoints.get</code></p>
+<p><code>universalledger.endpoints.list</code></p>
+<p><code>universalledger.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">universalledger.locations.get</code></li>
-<li><code dir="ltr" translate="no">universalledger.locations.list</code></li>
+<li><code>universalledger.locations.get</code></li>
+<li><code>universalledger.locations.list</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="universalledger.networkUser" class="role-title add-link" data-text="Universal Ledger Network User Beta" tabindex="-1">Universal Ledger Network User <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  universalledger.networkUser</code> )</p>
+<td>Universal Ledger Network User <sup>Beta</sup>
+<p>( <code>roles/ universalledger.networkUser</code> )</p>
 <p>Grants full access to the GCUL Network, including the ability to send transactions.</p></td>
-<td><p><code dir="ltr" translate="no">universalledger.*</code></p>
+<td><p><code>universalledger.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">universalledger.endpoints.get</code></li>
-<li><code dir="ltr" translate="no">universalledger.endpoints.list</code></li>
-<li><code dir="ltr" translate="no">universalledger.  endpoints.  readNetwork</code></li>
-<li><code dir="ltr" translate="no">universalledger.  endpoints.  submit</code></li>
-<li><code dir="ltr" translate="no">universalledger.locations.get</code></li>
-<li><code dir="ltr" translate="no">universalledger.locations.list</code></li>
+<li><code>universalledger.endpoints.get</code></li>
+<li><code>universalledger.endpoints.list</code></li>
+<li><code>universalledger. endpoints. readNetwork</code></li>
+<li><code>universalledger. endpoints. submit</code></li>
+<li><code>universalledger.locations.get</code></li>
+<li><code>universalledger.locations.list</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="universalledger.networkViewer" class="role-title add-link" data-text="Universal Ledger Network Viewer Beta" tabindex="-1">Universal Ledger Network Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  universalledger.networkViewer</code> )</p>
+<td>Universal Ledger Network Viewer <sup>Beta</sup>
+<p>( <code>roles/ universalledger.networkViewer</code> )</p>
 <p>Grants the ability to retrieve a specific endpoint and query the network with it.</p></td>
-<td><p><code dir="ltr" translate="no">universalledger.endpoints.get</code></p>
-<p><code dir="ltr" translate="no">universalledger.endpoints.list</code></p>
-<p><code dir="ltr" translate="no">universalledger.  endpoints.  readNetwork</code></p>
-<p><code dir="ltr" translate="no">universalledger.locations.*</code></p>
+<td><p><code>universalledger.endpoints.get</code></p>
+<p><code>universalledger.endpoints.list</code></p>
+<p><code>universalledger. endpoints. readNetwork</code></p>
+<p><code>universalledger.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">universalledger.locations.get</code></li>
-<li><code dir="ltr" translate="no">universalledger.locations.list</code></li>
+<li><code>universalledger.locations.get</code></li>
+<li><code>universalledger.locations.list</code></li>
 </ul></td>
 </tr>
 </tbody>
@@ -107,112 +107,11 @@ This page lists the IAM roles and permissions for Universal Ledger. To search th
 
 ## Universal Ledger permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="universalledger.endpoints.get" class="permission-name add-link" data-text="universalledger.endpoints.get" tabindex="-1"><code dir="ltr" translate="no">universalledger.endpoints.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.admin">Universal Ledger Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.editor">Universal Ledger Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.viewer">Universal Ledger Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.endpointViewer">Universal Ledger Endpoint Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.endpointViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkUser">Universal Ledger Network User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.networkUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkViewer">Universal Ledger Network Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.networkViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="universalledger.endpoints.list" class="permission-name add-link" data-text="universalledger.endpoints.list" tabindex="-1"><code dir="ltr" translate="no">universalledger.endpoints.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.admin">Universal Ledger Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.editor">Universal Ledger Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.viewer">Universal Ledger Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.endpointViewer">Universal Ledger Endpoint Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.endpointViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkUser">Universal Ledger Network User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.networkUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkViewer">Universal Ledger Network Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.networkViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="universalledger.endpoints.readNetwork" class="permission-name add-link" data-text="universalledger.endpoints.readNetwork" tabindex="-1"><code dir="ltr" translate="no">universalledger.  endpoints.  readNetwork</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.admin">Universal Ledger Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.editor">Universal Ledger Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.viewer">Universal Ledger Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkUser">Universal Ledger Network User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.networkUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkViewer">Universal Ledger Network Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.networkViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="universalledger.endpoints.submit" class="permission-name add-link" data-text="universalledger.endpoints.submit" tabindex="-1"><code dir="ltr" translate="no">universalledger.  endpoints.  submit</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.admin">Universal Ledger Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.editor">Universal Ledger Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkUser">Universal Ledger Network User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.networkUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="universalledger.locations.get" class="permission-name add-link" data-text="universalledger.locations.get" tabindex="-1"><code dir="ltr" translate="no">universalledger.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.admin">Universal Ledger Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.editor">Universal Ledger Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.viewer">Universal Ledger Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.endpointViewer">Universal Ledger Endpoint Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.endpointViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkUser">Universal Ledger Network User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.networkUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkViewer">Universal Ledger Network Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.networkViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="universalledger.locations.list" class="permission-name add-link" data-text="universalledger.locations.list" tabindex="-1"><code dir="ltr" translate="no">universalledger.locations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.admin">Universal Ledger Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.editor">Universal Ledger Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.viewer">Universal Ledger Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.endpointViewer">Universal Ledger Endpoint Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.endpointViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkUser">Universal Ledger Network User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.networkUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkViewer">Universal Ledger Network Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  universalledger.networkViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `universalledger.endpoints.get`           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Universal Ledger Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.admin) ( `roles/ universalledger.admin` ) [Universal Ledger Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.editor) ( `roles/ universalledger.editor` ) [Universal Ledger Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.viewer) ( `roles/ universalledger.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Universal Ledger Endpoint Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.endpointViewer) ( `roles/ universalledger.endpointViewer` ) [Universal Ledger Network User](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkUser) ( `roles/ universalledger.networkUser` ) [Universal Ledger Network Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkViewer) ( `roles/ universalledger.networkViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `universalledger.endpoints.list`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Universal Ledger Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.admin) ( `roles/ universalledger.admin` ) [Universal Ledger Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.editor) ( `roles/ universalledger.editor` ) [Universal Ledger Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.viewer) ( `roles/ universalledger.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Universal Ledger Endpoint Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.endpointViewer) ( `roles/ universalledger.endpointViewer` ) [Universal Ledger Network User](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkUser) ( `roles/ universalledger.networkUser` ) [Universal Ledger Network Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkViewer) ( `roles/ universalledger.networkViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `universalledger. endpoints. readNetwork` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Universal Ledger Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.admin) ( `roles/ universalledger.admin` ) [Universal Ledger Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.editor) ( `roles/ universalledger.editor` ) [Universal Ledger Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.viewer) ( `roles/ universalledger.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Universal Ledger Network User](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkUser) ( `roles/ universalledger.networkUser` ) [Universal Ledger Network Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkViewer) ( `roles/ universalledger.networkViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| `universalledger. endpoints. submit`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Universal Ledger Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.admin) ( `roles/ universalledger.admin` ) [Universal Ledger Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.editor) ( `roles/ universalledger.editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Universal Ledger Network User](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkUser) ( `roles/ universalledger.networkUser` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| `universalledger.locations.get`           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Universal Ledger Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.admin) ( `roles/ universalledger.admin` ) [Universal Ledger Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.editor) ( `roles/ universalledger.editor` ) [Universal Ledger Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.viewer) ( `roles/ universalledger.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Universal Ledger Endpoint Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.endpointViewer) ( `roles/ universalledger.endpointViewer` ) [Universal Ledger Network User](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkUser) ( `roles/ universalledger.networkUser` ) [Universal Ledger Network Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkViewer) ( `roles/ universalledger.networkViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `universalledger.locations.list`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Universal Ledger Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.admin) ( `roles/ universalledger.admin` ) [Universal Ledger Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.editor) ( `roles/ universalledger.editor` ) [Universal Ledger Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.viewer) ( `roles/ universalledger.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Universal Ledger Endpoint Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.endpointViewer) ( `roles/ universalledger.endpointViewer` ) [Universal Ledger Network User](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkUser) ( `roles/ universalledger.networkUser` ) [Universal Ledger Network Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/universalledger#universalledger.networkViewer) ( `roles/ universalledger.networkViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |

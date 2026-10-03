@@ -14,8 +14,8 @@ In Identity and Access Management (IAM), access is managed through *allow polici
 
 Service accounts are both resources that other principals can be granted access to, and principals that can be granted access to other resources. This page treats service accounts as resources and describes how to grant other principals access to them. To learn how to grant a service account access to other resources, the following guides:
 
-  - To grant a service account access to a project, folder, or organization, see [Managing access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
-  - To grant a service account access to other resources, see [Managing access to other resources](https://docs.cloud.google.com/iam/docs/manage-access-other-resources) .
+- To grant a service account access to a project, folder, or organization, see [Managing access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+- To grant a service account access to other resources, see [Managing access to other resources](https://docs.cloud.google.com/iam/docs/manage-access-other-resources) .
 
 > **Note:** Granting roles on service accounts can allow principals to impersonate service accounts. See [Roles for service account authentication](https://docs.cloud.google.com/iam/docs/service-account-permissions) for more information.
 
@@ -25,8 +25,8 @@ This page describes how to manage access to service accounts using the Google Cl
 
 ## Before you begin
 
-  - Learn about [service accounts](https://docs.cloud.google.com/iam/docs/service-accounts) .
-  - Ensure that you have the [required IAM roles](https://docs.cloud.google.com/iam/docs/manage-access-service-accounts#required-permissions) .
+- Learn about [service accounts](https://docs.cloud.google.com/iam/docs/service-accounts) .
+- Ensure that you have the [required IAM roles](https://docs.cloud.google.com/iam/docs/manage-access-service-accounts#required-permissions) .
 
 ### Required roles
 
@@ -38,10 +38,10 @@ This predefined role contains the permissions required to manage access to a ser
 
 The following permissions are required to manage access to a service account:
 
-  - `iam.serviceAccounts.get`
-  - `iam.serviceAccounts.list`
-  - `iam.serviceAccounts.getIamPolicy`
-  - `iam.serviceAccounts.setIamPolicy`
+- `iam.serviceAccounts.get`
+- `iam.serviceAccounts.list`
+- `iam.serviceAccounts.getIamPolicy`
+- `iam.serviceAccounts.setIamPolicy`
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -62,7 +62,7 @@ The following section shows you how to use the Google Cloud console, the gcloud 
 3.  Click the email address of the service account.
 
 4.  Go to the **Principals with access** tab. The table lists all the principals who have been granted a role on the service account.
-    
+
     This list includes principals whose access comes from roles that are granted on parent resources. For more information about policy inheritance, see [Policy inheritance and the resource hierarchy](https://docs.cloud.google.com/iam/docs/allow-policies#inheritance) .
 
 5.  Optional: To view role grants for [service agents](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox.
@@ -75,21 +75,25 @@ To see who has access to your service account, get the allow policy for the serv
 
 To get the allow policy for the service account, run the [`get-iam-policy`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/get-iam-policy) command for the service account:
 
-    gcloud iam service-accounts get-iam-policy SA_ID --format=FORMAT > PATH
+```
+gcloud iam service-accounts get-iam-policy SA_ID --format=FORMAT > PATH
+```
 
 Provide the following values:
 
-  - `  SA_ID  ` : The ID of your service account. This can either be the service account's email address in the form `  SA_NAME @ PROJECT_ID .iam.gserviceaccount.com ` , or the service account's unique numeric ID.
-    
-    > **Note:** If you want to identify a service account just after it is created, use the numeric ID rather than the email address to ensure that it is reliably identified.
+- `SA_ID` : The ID of your service account. This can either be the service account's email address in the form `SA_NAME `` @ `` PROJECT_ID `` .iam.gserviceaccount.com` , or the service account's unique numeric ID.
 
-  - `  FORMAT  ` : The format for the policy. Use `json` or `yaml` .
+  > **Note:** If you want to identify a service account just after it is created, use the numeric ID rather than the email address to ensure that it is reliably identified.
 
-  - `  PATH  ` : The path to a new output file for the policy.
+- `FORMAT` : The format for the policy. Use `json` or `yaml` .
+
+- `PATH` : The path to a new output file for the policy.
 
 For example, the following command gets the policy for the service account `my-service-account` and saves it to your home directory in JSON format:
 
-    gcloud iam service-accounts get-iam-policy my-service-account --format json > ~/policy.json
+```
+gcloud iam service-accounts get-iam-policy my-service-account --format json > ~/policy.json
+```
 
 ### REST
 
@@ -97,29 +101,33 @@ To see who has access to your service account, get the allow policy for the serv
 
 > **Note:** A resource's allow policy does not show any roles gained through [policy inheritance](https://docs.cloud.google.com/iam/docs/allow-policies#inheritance) . To view inherited roles, use the Google Cloud console, or follow the instructions on [Viewing effective IAM policies](https://docs.cloud.google.com/asset-inventory/docs/view-effective-iam-policies) .
 
-The `  serviceAccounts.getIamPolicy  ` method gets a service account's allow policy.
+The [`serviceAccounts.getIamPolicy`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts/getIamPolicy) method gets a service account's allow policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
 
-  - `  SA_ID  ` : The ID of your service account. This can either be the service account's email address in the form `  SA_NAME @ PROJECT_ID .iam.gserviceaccount.com ` , or the service account's unique numeric ID.
-    
-    > **Note:** To identify a service account just after it is created, use its numeric ID rather than its email address.
+- `SA_ID` : The ID of your service account. This can either be the service account's email address in the form `SA_NAME `` @ `` PROJECT_ID `` .iam.gserviceaccount.com` , or the service account's unique numeric ID.
 
-  - `  POLICY_VERSION  ` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
+  > **Note:** To identify a service account just after it is created, use its numeric ID rather than its email address.
+
+- `POLICY_VERSION` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
 
 HTTP method and URL:
 
-    POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:getIamPolicy
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:getIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "options": {
-        "requestedPolicyVersion": POLICY_VERSION
-      }
-    }
+```
+{
+  "options": {
+    "requestedPolicyVersion": POLICY_VERSION
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -129,11 +137,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:getIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:getIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -141,15 +151,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:getIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:getIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -157,18 +169,20 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 The response contains the service account's allow policy. For example:
 
+```
+{
+  "version": 1,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 1,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/serviceAccountAdmin",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        }
+      "role": "roles/serviceAccountAdmin",
+      "members": [
+        "user:my-user@example.com"
       ]
     }
+  ]
+}
+```
 
 ## Grant or revoke a single IAM role
 
@@ -195,22 +209,22 @@ To grant a single role to a principal, do the following:
 4.  Go to the **Permissions** tab and find the section **Principals with access to this service account** .
 
 5.  Select a principal to grant a role to:
-    
-      - To grant a role to a principal who already has other roles on the service account, find a row containing the principal, then click edit **Edit principal** in that row, then click add **Add another role** .
-        
-        To grant a role to a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
-        
-        > **Note:** You cannot edit inherited roles when managing access to service accounts. To edit inherited roles, go to the resource where the role was granted.
-    
-      - To grant a role to a principal who doesn't have any existing roles on the service account, click person\_add **Grant access** , then enter an identifier for the principal—for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
+
+    - To grant a role to a principal who already has other roles on the service account, find a row containing the principal, then click edit **Edit principal** in that row, then click add **Add another role** .
+
+      To grant a role to a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
+
+      > **Note:** You cannot edit inherited roles when managing access to service accounts. To edit inherited roles, go to the resource where the role was granted.
+
+    - To grant a role to a principal who doesn't have any existing roles on the service account, click person_add **Grant access** , then enter an identifier for the principal—for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
 
 6.  Click **Select a role** , then search for a role to grant based on the following:
-    
-      - The role name
-      - The Google Cloud product that you want to grant access to
-      - The permission that you want to give
-      - The job function to perform
-    
+
+    - The role name
+    - The Google Cloud product that you want to grant access to
+    - The permission that you want to give
+    - The job function to perform
+
     To follow the principle of least privilege, [choose a role](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) that includes only the permissions that your principal needs.
 
 7.  Optional: Add a [condition](https://docs.cloud.google.com/iam/docs/conditions-overview) to the role.
@@ -221,34 +235,38 @@ To grant a single role to a principal, do the following:
 
 To quickly grant a role to a principal, run the [`add-iam-policy-binding`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/add-iam-policy-binding) command:
 
-    gcloud iam service-accounts add-iam-policy-binding SA_ID \
-        --member=PRINCIPAL --role=ROLE_NAME \
-        --condition=CONDITION
+```
+gcloud iam service-accounts add-iam-policy-binding SA_ID \
+    --member=PRINCIPAL --role=ROLE_NAME \
+    --condition=CONDITION
+```
 
 Provide the following values:
 
-  - `  SA_ID  ` : The ID of your service account. This can either be the service account's email address in the form `  SA_NAME @ PROJECT_ID .iam.gserviceaccount.com ` , or the service account's unique numeric ID.
-    
-    > **Note:** If you want to identify a service account just after it is created, use the numeric ID rather than the email address to ensure that it is reliably identified.
+- `SA_ID` : The ID of your service account. This can either be the service account's email address in the form `SA_NAME `` @ `` PROJECT_ID `` .iam.gserviceaccount.com` , or the service account's unique numeric ID.
 
-  - `  PRINCIPAL  ` : An identifier for the principal, or member, which usually has the following form: `  PRINCIPAL-TYPE : ID  ` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` . For a full list of the values that `  PRINCIPAL  ` can have, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
-    
-    For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
+  > **Note:** If you want to identify a service account just after it is created, use the numeric ID rather than the email address to ensure that it is reliably identified.
 
-  - `  ROLE_NAME  ` : The name of the role that you want to grant. Use one of the following formats:
-    
-      - Predefined roles: ` roles/ SERVICE . IDENTIFIER  `
-      - Project-level custom roles: ` projects/ PROJECT_ID /roles/ IDENTIFIER  `
-      - Organization-level custom roles: ` organizations/ ORG_ID /roles/ IDENTIFIER  `
-    
-    For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
+- `PRINCIPAL` : An identifier for the principal, or member, which usually has the following form: `PRINCIPAL-TYPE `` : `` ID` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` . For a full list of the values that `PRINCIPAL` can have, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
-  - `  CONDITION  ` : Optional. The condition to add to the role binding. For more information about conditions, see the [conditions overview](https://docs.cloud.google.com/iam/docs/conditions-overview) .
+  For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
+
+- `ROLE_NAME` : The name of the role that you want to grant. Use one of the following formats:
+
+  - Predefined roles: `roles/ `` SERVICE `` . `` IDENTIFIER`
+  - Project-level custom roles: `projects/ `` PROJECT_ID `` /roles/ `` IDENTIFIER`
+  - Organization-level custom roles: `organizations/ `` ORG_ID `` /roles/ `` IDENTIFIER`
+
+  For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
+
+- `CONDITION` : Optional. The condition to add to the role binding. For more information about conditions, see the [conditions overview](https://docs.cloud.google.com/iam/docs/conditions-overview) .
 
 For example, to grant the Service Account User role to the user my-user@example.com for the service account `my-service-account@my-project.iam.gserviceaccount.com` :
 
-    gcloud iam service-accounts add-iam-policy-binding my-service-account@my-project.iam.gserviceaccount.com \
-        --member=user:my-user@example.com --role=roles/iam.serviceAccountUser
+```
+gcloud iam service-accounts add-iam-policy-binding my-service-account@my-project.iam.gserviceaccount.com \
+    --member=user:my-user@example.com --role=roles/iam.serviceAccountUser
+```
 
 > **Note:** If you grant access to a user's email alias or a secondary domain, then the values in your allow policy might not match the values that you initially entered. If you grant access to an email alias, then the allow policy displays the user's primary email address. If you grant access to a secondary domain, then the allow policy displays the primary domain.
 
@@ -267,7 +285,7 @@ To revoke a single role from a principal, do the following:
 4.  Go to the **Permissions** tab and find the section **Principals with access to this service account** .
 
 5.  Find the row containing the principal whose access you want to revoke. Then, click edit **Edit principal** in that row.
-    
+
     > **Note:** You cannot edit inherited roles when managing access to service accounts. To edit inherited roles, go to the resource where the role was granted.
 
 6.  Click the **Delete** delete button for the role that you want to revoke, and then click **Save** .
@@ -276,31 +294,35 @@ To revoke a single role from a principal, do the following:
 
 To quickly revoke a role from a user, run the [`remove-iam-policy-binding`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/remove-iam-policy-binding) command:
 
-    gcloud iam service-accounts remove-iam-policy-binding SA_ID \
-        --member=PRINCIPAL --role=ROLE_NAME
+```
+gcloud iam service-accounts remove-iam-policy-binding SA_ID \
+    --member=PRINCIPAL --role=ROLE_NAME
+```
 
 Provide the following values:
 
-  - `  SA_ID  ` : The ID of your service account. This can either be the service account's email address in the form `  SA_NAME @ PROJECT_ID .iam.gserviceaccount.com ` , or the service account's unique numeric ID.
-    
-    > **Note:** If you want to identify a service account just after it is created, use the numeric ID rather than the email address to ensure that it is reliably identified.
+- `SA_ID` : The ID of your service account. This can either be the service account's email address in the form `SA_NAME `` @ `` PROJECT_ID `` .iam.gserviceaccount.com` , or the service account's unique numeric ID.
 
-  - `  PRINCIPAL  ` : An identifier for the principal, or member, which usually has the following form: `  PRINCIPAL-TYPE : ID  ` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` . For a full list of the values that `  PRINCIPAL  ` can have, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
-    
-    For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
+  > **Note:** If you want to identify a service account just after it is created, use the numeric ID rather than the email address to ensure that it is reliably identified.
 
-  - `  ROLE_NAME  ` : The name of the role that you want to revoke. Use one of the following formats:
-    
-      - Predefined roles: ` roles/ SERVICE . IDENTIFIER  `
-      - Project-level custom roles: ` projects/ PROJECT_ID /roles/ IDENTIFIER  `
-      - Organization-level custom roles: ` organizations/ ORG_ID /roles/ IDENTIFIER  `
-    
-    For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
+- `PRINCIPAL` : An identifier for the principal, or member, which usually has the following form: `PRINCIPAL-TYPE `` : `` ID` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` . For a full list of the values that `PRINCIPAL` can have, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
+
+  For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
+
+- `ROLE_NAME` : The name of the role that you want to revoke. Use one of the following formats:
+
+  - Predefined roles: `roles/ `` SERVICE `` . `` IDENTIFIER`
+  - Project-level custom roles: `projects/ `` PROJECT_ID `` /roles/ `` IDENTIFIER`
+  - Organization-level custom roles: `organizations/ `` ORG_ID `` /roles/ `` IDENTIFIER`
+
+  For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
 
 For example, to revoke the Service Account User role from the user my-user@example.com for the service account `my-service-account@my-project.iam.gserviceaccount.com` :
 
-    gcloud iam service-accounts remove-iam-policy-binding my-service-account@my-project.iam.gserviceaccount.com \
-        --member=user:my-user@example.com --role=roles/iam.serviceAccountUser
+```
+gcloud iam service-accounts remove-iam-policy-binding my-service-account@my-project.iam.gserviceaccount.com \
+    --member=user:my-user@example.com --role=roles/iam.serviceAccountUser
+```
 
 ## Grant or revoke multiple IAM roles using the Google Cloud console
 
@@ -315,29 +337,27 @@ You can use the Google Cloud console to grant and revoke multiple roles for a si
 4.  Go to the **Permissions** tab and find the section **Principals with access to this service account** .
 
 5.  Select the principal whose roles you want to modify:
-    
-      - To modify roles for a principal who already has roles on the service account, find a row containing the principal, then click edit **Edit principal** in that row, then click add **Add another role** .
-        
-        To modify roles for a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
-        
-        > **Note:** You cannot edit inherited roles when managing access to service accounts. To edit inherited roles, go to the resource where the role was granted.
-    
-      - To grant roles to a principal who doesn't have any existing roles on the service account, click person\_add **Grant access** , then enter the principal's email address or other identifier.
+
+    - To modify roles for a principal who already has roles on the service account, find a row containing the principal, then click edit **Edit principal** in that row, then click add **Add another role** .
+
+      To modify roles for a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
+
+      > **Note:** You cannot edit inherited roles when managing access to service accounts. To edit inherited roles, go to the resource where the role was granted.
+
+    - To grant roles to a principal who doesn't have any existing roles on the service account, click person_add **Grant access** , then enter the principal's email address or other identifier.
 
 6.  Modify the principal's roles:
-    
-      - To grant a role to a principal who doesn't have any existing roles on the resource, click **Select a role** , then search for a role to grant.
-      - To grant an additional role to the principal, click **Add another role** , then search for a role to grant.
-      - To replace one of the principal's roles with a different role, click the existing role, then search for a different role to grant.
-      - To revoke one of the principal's roles, click the **Delete** delete button for each role that you want to revoke.
-    
+
+    - To grant a role to a principal who doesn't have any existing roles on the resource, click **Select a role** , then search for a role to grant.
+    - To grant an additional role to the principal, click **Add another role** , then search for a role to grant.
+    - To replace one of the principal's roles with a different role, click the existing role, then search for a different role to grant.
+    - To revoke one of the principal's roles, click the **Delete** delete button for each role that you want to revoke.
+
     You can also [add a condition](https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings#add) to a role, [modify a role's condition](https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings#modify) , or [remove a role's condition](https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings#removing) .
 
 7.  Click **Save** .
 
 > **Note:** If you grant access to a user's email alias or a secondary domain, then the values in your allow policy might not match the values that you initially entered. If you grant access to an email alias, then the allow policy displays the user's primary email address. If you grant access to a secondary domain, then the allow policy displays the primary domain.
-
-<span id="multiple-roles"></span>
 
 ## Grant or revoke multiple IAM roles programmatically
 
@@ -359,47 +379,55 @@ In general, policy changes take effect within 2 minutes. However, in some cases,
 
 To get the allow policy for the service account, run the [`get-iam-policy`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/get-iam-policy) command for the service account:
 
-    gcloud iam service-accounts get-iam-policy SA_ID --format=FORMAT > PATH
+```
+gcloud iam service-accounts get-iam-policy SA_ID --format=FORMAT > PATH
+```
 
 Provide the following values:
 
-  - `  SA_ID  ` : The ID of your service account. This can either be the service account's email address in the form `  SA_NAME @ PROJECT_ID .iam.gserviceaccount.com ` , or the service account's unique numeric ID.
-    
-    > **Note:** If you want to identify a service account just after it is created, use the numeric ID rather than the email address to ensure that it is reliably identified.
+- `SA_ID` : The ID of your service account. This can either be the service account's email address in the form `SA_NAME `` @ `` PROJECT_ID `` .iam.gserviceaccount.com` , or the service account's unique numeric ID.
 
-  - `  FORMAT  ` : The format for the allow policy. Use `json` or `yaml` .
+  > **Note:** If you want to identify a service account just after it is created, use the numeric ID rather than the email address to ensure that it is reliably identified.
 
-  - `  PATH  ` : The path to a new output file for the allow policy.
+- `FORMAT` : The format for the allow policy. Use `json` or `yaml` .
+
+- `PATH` : The path to a new output file for the allow policy.
 
 For example, the following command gets the allow policy for the service account `my-service-account` and saves it to your home directory in JSON format:
 
-    gcloud iam service-accounts get-iam-policy my-service-account --format json > ~/policy.json
+```
+gcloud iam service-accounts get-iam-policy my-service-account --format json > ~/policy.json
+```
 
 ### REST
 
-The `  serviceAccounts.getIamPolicy  ` method gets a service account's allow policy.
+The [`serviceAccounts.getIamPolicy`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts/getIamPolicy) method gets a service account's allow policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
 
-  - `  SA_ID  ` : The ID of your service account. This can either be the service account's email address in the form `  SA_NAME @ PROJECT_ID .iam.gserviceaccount.com ` , or the service account's unique numeric ID.
-    
-    > **Note:** To identify a service account just after it is created, use its numeric ID rather than its email address.
+- `SA_ID` : The ID of your service account. This can either be the service account's email address in the form `SA_NAME `` @ `` PROJECT_ID `` .iam.gserviceaccount.com` , or the service account's unique numeric ID.
 
-  - `  POLICY_VERSION  ` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
+  > **Note:** To identify a service account just after it is created, use its numeric ID rather than its email address.
+
+- `POLICY_VERSION` : The policy version to be returned. Requests should specify the most recent policy version, which is policy version 3. See [Specifying a policy version when getting a policy](https://docs.cloud.google.com/iam/docs/allow-policies#specifying-version-get) for details.
 
 HTTP method and URL:
 
-    POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:getIamPolicy
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:getIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "options": {
-        "requestedPolicyVersion": POLICY_VERSION
-      }
-    }
+```
+{
+  "options": {
+    "requestedPolicyVersion": POLICY_VERSION
+  }
+}
+```
 
 To send your request, expand one of these options:
 
@@ -409,11 +437,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:getIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:getIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -421,15 +451,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:getIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:getIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -437,18 +469,20 @@ Copy the request body and open the [method reference page](https://docs.cloud.go
 
 The response contains the service account's allow policy. For example:
 
+```
+{
+  "version": 1,
+  "etag": "BwWKmjvelug=",
+  "bindings": [
     {
-      "version": 1,
-      "etag": "BwWKmjvelug=",
-      "bindings": [
-        {
-          "role": "roles/serviceAccountAdmin",
-          "members": [
-            "user:my-user@example.com"
-          ]
-        }
+      "role": "roles/serviceAccountAdmin",
+      "members": [
+        "user:my-user@example.com"
       ]
     }
+  ]
+}
+```
 
 Save the response in a file of the appropriate type ( `json` or `yaml` ).
 
@@ -458,42 +492,44 @@ To learn how to install and use the client library for IAM, see [IAM client libr
 
 To authenticate to IAM, set up Application Default Credentials. For more information, see [Set up authentication for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) .
 
-    import com.google.cloud.iam.admin.v1.IAMClient;
-    import com.google.iam.admin.v1.ServiceAccountName;
-    import com.google.iam.v1.GetIamPolicyRequest;
-    import com.google.iam.v1.Policy;
-    import java.io.IOException;
-    
-    public class GetServiceAccountPolicy {
-      public static void main(String[] args) throws IOException {
-        // TODO(developer): Replace the variables before running the sample.
-        // TODO: Replace with your project ID.
-        String projectId = "your-project-id";
-        // TODO: Replace with your service account name.
-        String serviceAccount = "your-service-account";
-        getPolicy(projectId, serviceAccount);
-      }
-    
-      // Gets a service account's IAM policy.
-      public static Policy getPolicy(String projectId, String serviceAccount) throws IOException {
-    
-        // Construct the service account email.
-        // You can modify the ".iam.gserviceaccount.com" to match the name of the service account
-        // whose allow policy you want to get.
-        String serviceAccountEmail = serviceAccount + "@" + projectId + ".iam.gserviceaccount.com";
-    
-        // Initialize client that will be used to send requests.
-        // This client only needs to be created once, and can be reused for multiple requests.
-        try (IAMClient iamClient = IAMClient.create()) {
-          GetIamPolicyRequest request = GetIamPolicyRequest.newBuilder()
-                  .setResource(ServiceAccountName.of(projectId, serviceAccountEmail).toString())
-                  .build();
-          Policy policy = iamClient.getIamPolicy(request);
-          System.out.println("Policy retrieved: " + policy.toString());
-          return policy;
-        }
-      }
+```java
+import com.google.cloud.iam.admin.v1.IAMClient;
+import com.google.iam.admin.v1.ServiceAccountName;
+import com.google.iam.v1.GetIamPolicyRequest;
+import com.google.iam.v1.Policy;
+import java.io.IOException;
+
+public class GetServiceAccountPolicy {
+  public static void main(String[] args) throws IOException {
+    // TODO(developer): Replace the variables before running the sample.
+    // TODO: Replace with your project ID.
+    String projectId = "your-project-id";
+    // TODO: Replace with your service account name.
+    String serviceAccount = "your-service-account";
+    getPolicy(projectId, serviceAccount);
+  }
+
+  // Gets a service account's IAM policy.
+  public static Policy getPolicy(String projectId, String serviceAccount) throws IOException {
+
+    // Construct the service account email.
+    // You can modify the ".iam.gserviceaccount.com" to match the name of the service account
+    // whose allow policy you want to get.
+    String serviceAccountEmail = serviceAccount + "@" + projectId + ".iam.gserviceaccount.com";
+
+    // Initialize client that will be used to send requests.
+    // This client only needs to be created once, and can be reused for multiple requests.
+    try (IAMClient iamClient = IAMClient.create()) {
+      GetIamPolicyRequest request = GetIamPolicyRequest.newBuilder()
+              .setResource(ServiceAccountName.of(projectId, serviceAccountEmail).toString())
+              .build();
+      Policy policy = iamClient.getIamPolicy(request);
+      System.out.println("Policy retrieved: " + policy.toString());
+      return policy;
     }
+  }
+}
+```
 
 ### Python
 
@@ -501,23 +537,25 @@ To learn how to install and use the client library for IAM, see [IAM client libr
 
 To authenticate to IAM, set up Application Default Credentials. For more information, see [Set up authentication for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) .
 
-    from google.cloud import iam_admin_v1
-    from google.iam.v1 import iam_policy_pb2, policy_pb2
-    
-    
-    def get_service_account_iam_policy(project_id: str, account: str) -> policy_pb2.Policy:
-        """Get policy for service account.
-    
-        project_id: ID or number of the Google Cloud project you want to use.
-        account: ID or email which is unique identifier of the service account.
-        """
-    
-        iam_client = iam_admin_v1.IAMClient()
-        request = iam_policy_pb2.GetIamPolicyRequest()
-        request.resource = f"projects/{project_id}/serviceAccounts/{account}"
-    
-        policy = iam_client.get_iam_policy(request)
-        return policy
+```python
+from google.cloud import iam_admin_v1
+from google.iam.v1 import iam_policy_pb2, policy_pb2
+
+
+def get_service_account_iam_policy(project_id: str, account: str) -> policy_pb2.Policy:
+    """Get policy for service account.
+
+    project_id: ID or number of the Google Cloud project you want to use.
+    account: ID or email which is unique identifier of the service account.
+    """
+
+    iam_client = iam_admin_v1.IAMClient()
+    request = iam_policy_pb2.GetIamPolicyRequest()
+    request.resource = f"projects/{project_id}/serviceAccounts/{account}"
+
+    policy = iam_client.get_iam_policy(request)
+    return policy
+```
 
 ### Modify the allow policy
 
@@ -529,36 +567,38 @@ To ensure that you don't overwrite other changes, don't edit or remove the allow
 
 To edit the roles that an allow policy grants, you need to edit the role bindings in the allow policy. Role bindings have the following format:
 
-    {
-      "role": "ROLE_NAME",
-      "members": [
-        "PRINCIPAL_1",
-        "PRINCIPAL_2",
-        ...
-        "PRINCIPAL_N"
-      ],
-      "conditions:" {
-        CONDITIONS
-      }
-    }
+```
+{
+  "role": "ROLE_NAME",
+  "members": [
+    "PRINCIPAL_1",
+    "PRINCIPAL_2",
+    ...
+    "PRINCIPAL_N"
+  ],
+  "conditions:" {
+    CONDITIONS
+  }
+}
+```
 
 The placeholders have the following values:
 
-  - `  ROLE_NAME  ` : The name of the role that you want to grant. Use one of the following formats:
-    
-      - Predefined roles: ` roles/ SERVICE . IDENTIFIER  `
-      - Project-level custom roles: ` projects/ PROJECT_ID /roles/ IDENTIFIER  `
-      - Organization-level custom roles: ` organizations/ ORG_ID /roles/ IDENTIFIER  `
-    
-    For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
+- `ROLE_NAME` : The name of the role that you want to grant. Use one of the following formats:
 
-  - `  PRINCIPAL_1  ` , `  PRINCIPAL_2  ` , ` ... PRINCIPAL_N  ` : Identifiers for the principals that you want to grant the role to.
-    
-    Principal identifiers usually have the following form: `  PRINCIPAL-TYPE : ID  ` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` . For a full list of the values that `  PRINCIPAL  ` can have, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
-    
-    For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
+  - Predefined roles: `roles/ `` SERVICE `` . `` IDENTIFIER`
+  - Project-level custom roles: `projects/ `` PROJECT_ID `` /roles/ `` IDENTIFIER`
+  - Organization-level custom roles: `organizations/ `` ORG_ID `` /roles/ `` IDENTIFIER`
 
-  - `  CONDITIONS  ` : Optional. Any [conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) that specify when access will be granted.
+  For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
+
+- `PRINCIPAL_1` , `PRINCIPAL_2` , `... `` PRINCIPAL_N` : Identifiers for the principals that you want to grant the role to.
+
+  Principal identifiers usually have the following form: `PRINCIPAL-TYPE `` : `` ID` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` . For a full list of the values that `PRINCIPAL` can have, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
+
+  For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
+
+- `CONDITIONS` : Optional. Any [conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) that specify when access will be granted.
 
 #### Grant a role
 
@@ -574,22 +614,26 @@ Edit the allow policy by adding the principal to an existing role binding. Note 
 
 For example, imagine the allow policy contains the following role binding, which grants the Service Account User role ( `roles/iam.serviceAccountUser` ) to Kai:
 
-    {
-      "role": "roles/iam.serviceAccountUser",
-      "members": [
-        "user:kai@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/iam.serviceAccountUser",
+  "members": [
+    "user:kai@example.com"
+  ]
+}
+```
 
 To grant that same role to Raha, add Raha to the existing role binding:
 
-    {
-      "role": "roles/iam.serviceAccountUser",
-      "members": [
-        "user:kai@example.com",
-        "user:raha@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/iam.serviceAccountUser",
+  "members": [
+    "user:kai@example.com",
+    "user:raha@example.com"
+  ]
+}
+```
 
 ### REST
 
@@ -597,22 +641,26 @@ Edit the allow policy by adding the principal to an existing role binding. Note 
 
 For example, imagine the allow policy contains the following role binding, which grants the Service Account User role ( `roles/iam.serviceAccountUser` ) to Kai:
 
-    {
-      "role": "roles/iam.serviceAccountUser",
-      "members": [
-        "user:kai@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/iam.serviceAccountUser",
+  "members": [
+    "user:kai@example.com"
+  ]
+}
+```
 
 To grant that same role to Raha, add Raha to the existing role binding:
 
-    {
-      "role": "roles/iam.serviceAccountUser",
-      "members": [
-        "user:kai@example.com",
-        "user:raha@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/iam.serviceAccountUser",
+  "members": [
+    "user:kai@example.com",
+    "user:raha@example.com"
+  ]
+}
+```
 
 To grant a role that is not yet included in the allow policy, add a new role binding:
 
@@ -622,12 +670,14 @@ Edit the allow policy by adding a new role binding that grants the role to the p
 
 For example, to grant the Service Account Token Creator role ( `roles/iam.serviceAccountTokenCreator` ) to Raha, add the following role binding to the `bindings` array for the allow policy:
 
-    {
-      "role": "roles/iam.serviceAccountTokenCreator",
-      "members": [
-        "user:raha@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/iam.serviceAccountTokenCreator",
+  "members": [
+    "user:raha@example.com"
+  ]
+}
+```
 
 ### REST
 
@@ -635,12 +685,14 @@ Edit the allow policy by adding a new role binding that grants the role to the p
 
 For example, to grant the Service Account Token Creator role ( `roles/iam.serviceAccountTokenCreator` ) to Raha, add the following role binding to the `bindings` array for the allow policy:
 
-    {
-      "role": "roles/iam.serviceAccountTokenCreator",
-      "members": [
-        "user:raha@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/iam.serviceAccountTokenCreator",
+  "members": [
+    "user:raha@example.com"
+  ]
+}
+```
 
 #### Revoke a role
 
@@ -654,22 +706,26 @@ Edit the allow policy by removing the principal or the entire role binding. This
 
 For example, imagine the allow policy contains the following role binding, which grants Kai and Raha the Service Account User role ( `roles/iam.serviceAccountUser` ):
 
-    {
-      "role": "roles/iam.serviceAccountUser",
-      "members": [
-        "user:kai@example.com",
-        "user:raha@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/iam.serviceAccountUser",
+  "members": [
+    "user:kai@example.com",
+    "user:raha@example.com"
+  ]
+}
+```
 
 To revoke the role from Kai, remove Kai's principal identifier from the role binding:
 
-    {
-      "role": "roles/iam.serviceAccountUser",
-      "members": [
-        user:raha@example.com
-      ]
-    }
+```
+{
+  "role": "roles/iam.serviceAccountUser",
+  "members": [
+    user:raha@example.com
+  ]
+}
+```
 
 To revoke the role from both Kai and Raha, remove the role binding from the allow policy.
 
@@ -679,22 +735,26 @@ Edit the allow policy by removing the principal or the entire role binding. This
 
 For example, imagine the allow policy contains the following role binding, which grants Kai and Raha the Service Account User role ( `roles/iam.serviceAccountUser` ):
 
-    {
-      "role": "roles/iam.serviceAccountUser",
-      "members": [
-        "user:kai@example.com",
-        "user:raha@example.com"
-      ]
-    }
+```
+{
+  "role": "roles/iam.serviceAccountUser",
+  "members": [
+    "user:kai@example.com",
+    "user:raha@example.com"
+  ]
+}
+```
 
 To revoke the role from Kai, remove Kai's principal identifier from the role binding:
 
-    {
-      "role": "roles/iam.serviceAccountUser",
-      "members": [
-        user:raha@example.com
-      ]
-    }
+```
+{
+  "role": "roles/iam.serviceAccountUser",
+  "members": [
+    user:raha@example.com
+  ]
+}
+```
 
 To revoke the role from both Kai and Raha, remove the role binding from the allow policy.
 
@@ -708,69 +768,79 @@ After you modify the allow policy to grant and revoke roles, call `setIamPolicy(
 
 To set the allow policy for the resource, run the [`set-iam-policy`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/get-iam-policy) command for the service account:
 
-    gcloud iam service-accounts set-iam-policy SA_ID PATH
+```
+gcloud iam service-accounts set-iam-policy SA_ID PATH
+```
 
 Provide the following values:
 
-  - `  SA_ID  ` : The ID of your service account. This can either be the service account's email address in the form `  SA_NAME @ PROJECT_ID .iam.gserviceaccount.com ` , or the service account's unique numeric ID.
-    
-    > **Note:** If you want to identify a service account just after it is created, use the numeric ID rather than the email address to ensure that it is reliably identified.
+- `SA_ID` : The ID of your service account. This can either be the service account's email address in the form `SA_NAME `` @ `` PROJECT_ID `` .iam.gserviceaccount.com` , or the service account's unique numeric ID.
 
-  - `  PATH  ` : The path to a file that contains the new allow policy.
+  > **Note:** If you want to identify a service account just after it is created, use the numeric ID rather than the email address to ensure that it is reliably identified.
+
+- `PATH` : The path to a file that contains the new allow policy.
 
 The response contains the updated allow policy.
 
 For example, the following command sets the allow policy stored in `policy.json` as the allow policy for the service account `my-service-account@my-project.iam.gserviceaccount.com` :
 
-    gcloud iam service-accounts set-iam-policy my-service-account@my-project.iam.gserviceaccount.com \
-        ~/policy.json
+```
+gcloud iam service-accounts set-iam-policy my-service-account@my-project.iam.gserviceaccount.com \
+    ~/policy.json
+```
 
 > **Note:** If you treat policies as code and store them in a version-control system, you should store the policy that is returned, not the policy that you sent in the request.
 
 ### REST
 
-The `  serviceAccounts.setIamPolicy  ` method sets an updated allow policy for the service account.
+The [`serviceAccounts.setIamPolicy`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts/setIamPolicy) method sets an updated allow policy for the service account.
 
 Before using any of the request data, make the following replacements:
 
-  - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
 
-  - `  SA_ID  ` : The ID of your service account. This can either be the service account's email address in the form `  SA_NAME @ PROJECT_ID .iam.gserviceaccount.com ` , or the service account's unique numeric ID.
-    
-    > **Note:** To identify a service account just after it is created, use its numeric ID rather than its email address.
+- `SA_ID` : The ID of your service account. This can either be the service account's email address in the form `SA_NAME `` @ `` PROJECT_ID `` .iam.gserviceaccount.com` , or the service account's unique numeric ID.
 
-  - `  POLICY  ` : A JSON representation of the policy that you want to set. For more information about the format of a policy, see the [Policy reference](https://docs.cloud.google.com/iam/docs/reference/rest/v1/Policy) .
-    
-    For example, to set the allow policy shown in the previous step, replace `  policy  ` with the following:
-    
-        {
-          "version": 1,
-          "etag": "BwUqLaVeua8=",
-          "bindings": [
-            {
-              "role": "roles/iam.serviceAccountUser",
-              "members": [
-                "group:my-group@example.com"
-              ]
-            },
-            {
-              "role": "roles/serviceAccountAdmin",
-              "members": [
-                "user:my-user@example.com"
-              ]
-            }
-          ]
-        }
+  > **Note:** To identify a service account just after it is created, use its numeric ID rather than its email address.
+
+- `POLICY` : A JSON representation of the policy that you want to set. For more information about the format of a policy, see the [Policy reference](https://docs.cloud.google.com/iam/docs/reference/rest/v1/Policy) .
+
+  For example, to set the allow policy shown in the previous step, replace `policy` with the following:
+
+  ```
+  {
+    "version": 1,
+    "etag": "BwUqLaVeua8=",
+    "bindings": [
+      {
+        "role": "roles/iam.serviceAccountUser",
+        "members": [
+          "group:my-group@example.com"
+        ]
+      },
+      {
+        "role": "roles/serviceAccountAdmin",
+        "members": [
+          "user:my-user@example.com"
+        ]
+      }
+    ]
+  }
+  ```
 
 HTTP method and URL:
 
-    POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:setIamPolicy
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:setIamPolicy
+```
 
 Request JSON body:
 
-    {
-      "policy": POLICY
-    }
+```
+{
+  "policy": POLICY
+}
+```
 
 To send your request, expand one of these options:
 
@@ -780,11 +850,13 @@ To send your request, expand one of these options:
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    curl -X POST \
-         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         -H "Content-Type: application/json; charset=utf-8" \
-         -d @request.json \
-         "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:setIamPolicy"
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:setIamPolicy"
+```
 
 #### PowerShell (Windows)
 
@@ -792,15 +864,17 @@ Save the request body in a file named `request.json` , and execute the following
 
 Save the request body in a file named `request.json` , and execute the following command:
 
-    $cred = gcloud auth print-access-token
-    $headers = @{ "Authorization" = "Bearer $cred" }
-    
-    Invoke-WebRequest `
-        -Method POST `
-        -Headers $headers `
-        -ContentType: "application/json; charset=utf-8" `
-        -InFile request.json `
-        -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:setIamPolicy" | Select-Object -Expand Content
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/serviceAccounts/SA_ID:setIamPolicy" | Select-Object -Expand Content
+```
 
 #### APIs Explorer (browser)
 
@@ -816,55 +890,57 @@ To learn how to install and use the client library for IAM, see [IAM client libr
 
 To authenticate to IAM, set up Application Default Credentials. For more information, see [Set up authentication for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) .
 
-    import com.google.cloud.iam.admin.v1.IAMClient;
-    import com.google.iam.admin.v1.ServiceAccountName;
-    import com.google.iam.v1.Policy;
-    import com.google.iam.v1.SetIamPolicyRequest;
-    import com.google.protobuf.FieldMask;
-    import java.io.IOException;
-    import java.util.Arrays;
-    import java.util.List;
-    
-    public class SetServiceAccountPolicy {
-      public static void main(String[] args) throws IOException {
-        // TODO(developer): Replace the variables before running the sample.
-        // TODO: Replace with your project ID.
-        String projectId = "your-project-id";
-        // TODO: Replace with your service account name.
-        String serviceAccount = "your-service-account";
-        // TODO: Replace with your policy, GetPolicy.getPolicy(projectId, serviceAccount).
-        Policy policy = Policy.newBuilder().build();
-    
-        setServiceAccountPolicy(policy, projectId, serviceAccount);
-      }
-    
-      // Sets a service account's policy.
-      public static Policy setServiceAccountPolicy(Policy policy, String projectId,
-                                                   String serviceAccount) throws IOException {
-    
-        // Construct the service account email.
-        // You can modify the ".iam.gserviceaccount.com" to match the name of the service account
-        // whose allow policy you want to set.
-        String accountEmail = String.format("%s@%s.iam.gserviceaccount.com", serviceAccount, projectId);
-    
-        // Initialize client that will be used to send requests.
-        // This client only needs to be created once, and can be reused for multiple requests.
-        try (IAMClient iamClient = IAMClient.create()) {
-          List<String> paths = Arrays.asList("bindings", "etag");
-          SetIamPolicyRequest request = SetIamPolicyRequest.newBuilder()
-                  .setResource(ServiceAccountName.of(projectId, accountEmail).toString())
-                  .setPolicy(policy)
-                  // A FieldMask specifying which fields of the policy to modify. Only
-                  // the fields in the mask will be modified. If no mask is provided, the
-                  // following default mask is used:
-                  // `paths: "bindings, etag"`
-                  .setUpdateMask(FieldMask.newBuilder().addAllPaths(paths).build())
-                  .build();
-    
-          return iamClient.setIamPolicy(request);
-        }
-      }
+```java
+import com.google.cloud.iam.admin.v1.IAMClient;
+import com.google.iam.admin.v1.ServiceAccountName;
+import com.google.iam.v1.Policy;
+import com.google.iam.v1.SetIamPolicyRequest;
+import com.google.protobuf.FieldMask;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
+
+public class SetServiceAccountPolicy {
+  public static void main(String[] args) throws IOException {
+    // TODO(developer): Replace the variables before running the sample.
+    // TODO: Replace with your project ID.
+    String projectId = "your-project-id";
+    // TODO: Replace with your service account name.
+    String serviceAccount = "your-service-account";
+    // TODO: Replace with your policy, GetPolicy.getPolicy(projectId, serviceAccount).
+    Policy policy = Policy.newBuilder().build();
+
+    setServiceAccountPolicy(policy, projectId, serviceAccount);
+  }
+
+  // Sets a service account's policy.
+  public static Policy setServiceAccountPolicy(Policy policy, String projectId,
+                                               String serviceAccount) throws IOException {
+
+    // Construct the service account email.
+    // You can modify the ".iam.gserviceaccount.com" to match the name of the service account
+    // whose allow policy you want to set.
+    String accountEmail = String.format("%s@%s.iam.gserviceaccount.com", serviceAccount, projectId);
+
+    // Initialize client that will be used to send requests.
+    // This client only needs to be created once, and can be reused for multiple requests.
+    try (IAMClient iamClient = IAMClient.create()) {
+      List<String> paths = Arrays.asList("bindings", "etag");
+      SetIamPolicyRequest request = SetIamPolicyRequest.newBuilder()
+              .setResource(ServiceAccountName.of(projectId, accountEmail).toString())
+              .setPolicy(policy)
+              // A FieldMask specifying which fields of the policy to modify. Only
+              // the fields in the mask will be modified. If no mask is provided, the
+              // following default mask is used:
+              // `paths: "bindings, etag"`
+              .setUpdateMask(FieldMask.newBuilder().addAllPaths(paths).build())
+              .build();
+
+      return iamClient.setIamPolicy(request);
     }
+  }
+}
+```
 
 ### Python
 
@@ -872,48 +948,50 @@ To learn how to install and use the client library for IAM, see [IAM client libr
 
 To authenticate to IAM, set up Application Default Credentials. For more information, see [Set up authentication for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) .
 
-    from google.cloud import iam_admin_v1
-    from google.iam.v1 import iam_policy_pb2, policy_pb2
-    
-    
-    def set_service_account_iam_policy(
-        project_id: str, account: str, policy: policy_pb2.Policy
-    ) -> policy_pb2.Policy:
-        """Set policy for service account.
-    
-        Pay attention that previous state will be completely rewritten.
-        If you want to update only part of the policy follow the approach
-        read->modify->write.
-        For more details about policies check out
-        https://cloud.google.com/iam/docs/policies
-    
-        project_id: ID or number of the Google Cloud project you want to use.
-        account: ID or email which is unique identifier of the service account.
-        policy: Policy which has to be set.
-        """
-    
-        # Same approach as for policies on project level,
-        # but client stub is different.
-        iam_client = iam_admin_v1.IAMClient()
-        request = iam_policy_pb2.SetIamPolicyRequest()
-        request.resource = f"projects/{project_id}/serviceAccounts/{account}"
-    
-        # request.etag field also will be merged which means
-        # you are secured from collision, but it means that request
-        # may fail and you need to leverage exponential retries approach
-        # to be sure policy has been updated.
-        request.policy.MergeFrom(policy)
-    
-        policy = iam_client.set_iam_policy(request)
-        return policy
+```python
+from google.cloud import iam_admin_v1
+from google.iam.v1 import iam_policy_pb2, policy_pb2
+
+
+def set_service_account_iam_policy(
+    project_id: str, account: str, policy: policy_pb2.Policy
+) -> policy_pb2.Policy:
+    """Set policy for service account.
+
+    Pay attention that previous state will be completely rewritten.
+    If you want to update only part of the policy follow the approach
+    read->modify->write.
+    For more details about policies check out
+    https://cloud.google.com/iam/docs/policies
+
+    project_id: ID or number of the Google Cloud project you want to use.
+    account: ID or email which is unique identifier of the service account.
+    policy: Policy which has to be set.
+    """
+
+    # Same approach as for policies on project level,
+    # but client stub is different.
+    iam_client = iam_admin_v1.IAMClient()
+    request = iam_policy_pb2.SetIamPolicyRequest()
+    request.resource = f"projects/{project_id}/serviceAccounts/{account}"
+
+    # request.etag field also will be merged which means
+    # you are secured from collision, but it means that request
+    # may fail and you need to leverage exponential retries approach
+    # to be sure policy has been updated.
+    request.policy.MergeFrom(policy)
+
+    policy = iam_client.set_iam_policy(request)
+    return policy
+```
 
 > **Note:** If you grant access to a user's email alias or a secondary domain, then the values in your allow policy might not match the values that you initially entered. If you grant access to an email alias, then the allow policy displays the user's primary email address. If you grant access to a secondary domain, then the allow policy displays the primary domain.
 
 ## What's next
 
-  - Learn which roles to grant to allow principals to [authenticate as service accounts](https://docs.cloud.google.com/iam/docs/service-account-permissions) .
-  - Find out how to [choose the most appropriate predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
-  - Review [Best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) to learn how to use service accounts securely.
-  - Learn how to [manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
-  - Learn the general steps for [managing access to other resources](https://docs.cloud.google.com/iam/docs/manage-access-other-resources) .
-  - Learn how to make a principal's access conditional with [conditional role bindings](https://docs.cloud.google.com/iam/docs/conditions-overview) .
+- Learn which roles to grant to allow principals to [authenticate as service accounts](https://docs.cloud.google.com/iam/docs/service-account-permissions) .
+- Find out how to [choose the most appropriate predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) .
+- Review [Best practices for working with service accounts](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts) to learn how to use service accounts securely.
+- Learn how to [manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+- Learn the general steps for [managing access to other resources](https://docs.cloud.google.com/iam/docs/manage-access-other-resources) .
+- Learn how to make a principal's access conditional with [conditional role bindings](https://docs.cloud.google.com/iam/docs/conditions-overview) .

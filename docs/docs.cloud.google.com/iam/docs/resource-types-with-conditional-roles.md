@@ -16,73 +16,73 @@ If you need to grant conditional access to a resource that doesn't allow conditi
 
 You can add conditions to allow policies for resources from the following services:
 
-  - [Cloud Bigtable Admin API](https://docs.cloud.google.com/bigtable/docs)
+- [Cloud Bigtable Admin API](https://docs.cloud.google.com/bigtable/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Binary Authorization](https://docs.cloud.google.com/binary-authorization/docs)
+- [Binary Authorization](https://docs.cloud.google.com/binary-authorization/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [BigQuery](https://docs.cloud.google.com/bigquery/docs)
+- [BigQuery](https://docs.cloud.google.com/bigquery/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Certificate Authority Service](https://docs.cloud.google.com/certificate-authority-service/docs)
+- [Certificate Authority Service](https://docs.cloud.google.com/certificate-authority-service/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Chrome Enterprise Premium](https://docs.cloud.google.com/chrome-enterprise-premium/docs)
+- [Chrome Enterprise Premium](https://docs.cloud.google.com/chrome-enterprise-premium/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Cloud Deploy](https://docs.cloud.google.com/deploy/docs)
+- [Cloud Deploy](https://docs.cloud.google.com/deploy/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Cloud DNS](https://docs.cloud.google.com/dns/docs)
+- [Cloud DNS](https://docs.cloud.google.com/dns/docs)
 
-  - [Cloud Key Management Service (Cloud KMS)](https://docs.cloud.google.com/kms/docs)
+- [Cloud Key Management Service (Cloud KMS)](https://docs.cloud.google.com/kms/docs)
 
-  - [Cloud Logging](https://docs.cloud.google.com/logging/docs)
+- [Cloud Logging](https://docs.cloud.google.com/logging/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Cloud Run](https://docs.cloud.google.com/run/docs)
+- [Cloud Run](https://docs.cloud.google.com/run/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Cloud Storage](https://docs.cloud.google.com/storage/docs)
+- [Cloud Storage](https://docs.cloud.google.com/storage/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Cloud Workstations](https://docs.cloud.google.com/workstations/docs)
+- [Cloud Workstations](https://docs.cloud.google.com/workstations/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Compute Engine](https://docs.cloud.google.com/compute/docs)
+- [Compute Engine](https://docs.cloud.google.com/compute/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Managed Service for Apache Spark](https://docs.cloud.google.com/dataproc/docs)
+- [Managed Service for Apache Spark](https://docs.cloud.google.com/dataproc/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Identity-Aware Proxy (IAP)](https://docs.cloud.google.com/iap/docs)
+- [Identity-Aware Proxy (IAP)](https://docs.cloud.google.com/iap/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Identity and Access Management (IAM)](https://docs.cloud.google.com/iam/docs)
-  - [Resource Manager](https://docs.cloud.google.com/resource-manager/docs)
+- [Identity and Access Management (IAM)](https://docs.cloud.google.com/iam/docs)
+- [Resource Manager](https://docs.cloud.google.com/resource-manager/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Secret Manager](https://docs.cloud.google.com/secret-manager/docs)
+- [Secret Manager](https://docs.cloud.google.com/secret-manager/docs)
 
-<!-- end list -->
+<!-- -->
 
-  - [Service Management](https://docs.cloud.google.com/service-infrastructure/docs/service-management/getting-started)
+- [Service Management](https://docs.cloud.google.com/service-infrastructure/docs/service-management/getting-started)
 
-<!-- end list -->
+<!-- -->
 
-  - [Spanner](https://docs.cloud.google.com/spanner/docs)
+- [Spanner](https://docs.cloud.google.com/spanner/docs)

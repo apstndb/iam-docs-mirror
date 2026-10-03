@@ -23,241 +23,79 @@ This page lists the IAM roles and permissions for Policy Simulator. To search th
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="policysimulator.admin" class="role-title add-link" data-text="Simulator Admin Beta" tabindex="-1">Simulator Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  policysimulator.admin</code> )</p>
+<td>Simulator Admin <sup>Beta</sup>
+<p>( <code>roles/ policysimulator.admin</code> )</p>
 <p>Admin user that can run and access replays.</p></td>
-<td><p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulationResults.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.*</code></p>
+<td><p><code>policysimulator. accessPolicySimulationResults. list</code></p>
+<p><code>policysimulator. accessPolicySimulations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  create</code></li>
-<li><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  get</code></li>
-<li><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  list</code></li>
+<li><code>policysimulator. accessPolicySimulations. create</code></li>
+<li><code>policysimulator. accessPolicySimulations. get</code></li>
+<li><code>policysimulator. accessPolicySimulations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">policysimulator.  replayResults.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.replays.*</code></p>
+<p><code>policysimulator. replayResults. list</code></p>
+<p><code>policysimulator.replays.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">policysimulator.replays.create</code></li>
-<li><code dir="ltr" translate="no">policysimulator.replays.get</code></li>
-<li><code dir="ltr" translate="no">policysimulator.replays.list</code></li>
-<li><code dir="ltr" translate="no">policysimulator.replays.run</code></li>
+<li><code>policysimulator.replays.create</code></li>
+<li><code>policysimulator.replays.get</code></li>
+<li><code>policysimulator.replays.list</code></li>
+<li><code>policysimulator.replays.run</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="policysimulator.orgPolicyAdmin" class="role-title add-link" data-text="OrgPolicy Simulator Admin Beta" tabindex="-1">OrgPolicy Simulator Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  policysimulator.orgPolicyAdmin</code> )</p>
+<td>OrgPolicy Simulator Admin <sup>Beta</sup>
+<p>( <code>roles/ policysimulator.orgPolicyAdmin</code> )</p>
 <p>OrgPolicy Admin that can run and access simulations.</p></td>
-<td><p><code dir="ltr" translate="no">cloudasset.  assets.  analyzeOrgPolicy</code></p>
-<p><code dir="ltr" translate="no">cloudasset.  assets.  exportResource</code></p>
-<p><code dir="ltr" translate="no">cloudasset.assets.listResource</code></p>
-<p><code dir="ltr" translate="no">cloudasset.  assets.  searchAllResources</code></p>
-<p><code dir="ltr" translate="no">orgpolicy.  customConstraints.  get</code></p>
-<p><code dir="ltr" translate="no">orgpolicy.  customConstraints.  list</code></p>
-<p><code dir="ltr" translate="no">orgpolicy.policies.list</code></p>
-<p><code dir="ltr" translate="no">orgpolicy.policy.get</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolations.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.*</code></p>
+<td><p><code>cloudasset. assets. analyzeOrgPolicy</code></p>
+<p><code>cloudasset. assets. exportResource</code></p>
+<p><code>cloudasset.assets.listResource</code></p>
+<p><code>cloudasset. assets. searchAllResources</code></p>
+<p><code>orgpolicy. customConstraints. get</code></p>
+<p><code>orgpolicy. customConstraints. list</code></p>
+<p><code>orgpolicy.policies.list</code></p>
+<p><code>orgpolicy.policy.get</code></p>
+<p><code>policysimulator. orgPolicyViolations. list</code></p>
+<p><code>policysimulator. orgPolicyViolationsPreviews.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  create</code></li>
-<li><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  get</code></li>
-<li><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  list</code></li>
+<li><code>policysimulator. orgPolicyViolationsPreviews. create</code></li>
+<li><code>policysimulator. orgPolicyViolationsPreviews. get</code></li>
+<li><code>policysimulator. orgPolicyViolationsPreviews. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p></td>
+<p><code>resourcemanager. organizations. get</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="policysimulator.viewer" class="role-title add-link" data-text="Policysimulator Viewer Beta" tabindex="-1">Policysimulator Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  policysimulator.viewer</code> )</p>
+<td>Policysimulator Viewer <sup>Beta</sup>
+<p>( <code>roles/ policysimulator.viewer</code> )</p>
 <p>Viewer role for policysimulator</p></td>
-<td><p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulationResults.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  get</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolations.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  get</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  replayResults.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.replays.get</code></p>
-<p><code dir="ltr" translate="no">policysimulator.replays.list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>policysimulator. accessPolicySimulationResults. list</code></p>
+<p><code>policysimulator. accessPolicySimulations. get</code></p>
+<p><code>policysimulator. accessPolicySimulations. list</code></p>
+<p><code>policysimulator. orgPolicyViolations. list</code></p>
+<p><code>policysimulator. orgPolicyViolationsPreviews. get</code></p>
+<p><code>policysimulator. orgPolicyViolationsPreviews. list</code></p>
+<p><code>policysimulator. replayResults. list</code></p>
+<p><code>policysimulator.replays.get</code></p>
+<p><code>policysimulator.replays.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Policy Simulator permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="policysimulator.accessPolicySimulationResults.list" class="permission-name add-link" data-text="policysimulator.accessPolicySimulationResults.list" tabindex="-1"><code dir="ltr" translate="no">policysimulator.  accessPolicySimulationResults.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin">Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer">Policysimulator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyAdmin">Deny Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.denyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="policysimulator.accessPolicySimulations.create" class="permission-name add-link" data-text="policysimulator.accessPolicySimulations.create" tabindex="-1"><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin">Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyAdmin">Deny Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.denyAdmin</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="policysimulator.accessPolicySimulations.get" class="permission-name add-link" data-text="policysimulator.accessPolicySimulations.get" tabindex="-1"><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin">Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer">Policysimulator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyAdmin">Deny Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.denyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="policysimulator.accessPolicySimulations.list" class="permission-name add-link" data-text="policysimulator.accessPolicySimulations.list" tabindex="-1"><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin">Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer">Policysimulator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyAdmin">Deny Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.denyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="policysimulator.orgPolicyViolations.list" class="permission-name add-link" data-text="policysimulator.orgPolicyViolations.list" tabindex="-1"><code dir="ltr" translate="no">policysimulator.  orgPolicyViolations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/orgpolicy#orgpolicy.policyAdmin">Organization Policy Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  orgpolicy.policyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.orgPolicyAdmin">OrgPolicy Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.orgPolicyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer">Policysimulator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="policysimulator.orgPolicyViolationsPreviews.create" class="permission-name add-link" data-text="policysimulator.orgPolicyViolationsPreviews.create" tabindex="-1"><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/orgpolicy#orgpolicy.policyAdmin">Organization Policy Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  orgpolicy.policyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.orgPolicyAdmin">OrgPolicy Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.orgPolicyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="policysimulator.orgPolicyViolationsPreviews.get" class="permission-name add-link" data-text="policysimulator.orgPolicyViolationsPreviews.get" tabindex="-1"><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/orgpolicy#orgpolicy.policyAdmin">Organization Policy Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  orgpolicy.policyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.orgPolicyAdmin">OrgPolicy Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.orgPolicyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer">Policysimulator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="policysimulator.orgPolicyViolationsPreviews.list" class="permission-name add-link" data-text="policysimulator.orgPolicyViolationsPreviews.list" tabindex="-1"><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/orgpolicy#orgpolicy.policyAdmin">Organization Policy Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  orgpolicy.policyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.orgPolicyAdmin">OrgPolicy Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.orgPolicyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer">Policysimulator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="policysimulator.replayResults.list" class="permission-name add-link" data-text="policysimulator.replayResults.list" tabindex="-1"><code dir="ltr" translate="no">policysimulator.  replayResults.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin">Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer">Policysimulator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="policysimulator.replays.create" class="permission-name add-link" data-text="policysimulator.replays.create" tabindex="-1"><code dir="ltr" translate="no">policysimulator.replays.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin">Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="policysimulator.replays.get" class="permission-name add-link" data-text="policysimulator.replays.get" tabindex="-1"><code dir="ltr" translate="no">policysimulator.replays.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin">Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer">Policysimulator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="policysimulator.replays.list" class="permission-name add-link" data-text="policysimulator.replays.list" tabindex="-1"><code dir="ltr" translate="no">policysimulator.replays.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin">Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer">Policysimulator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="policysimulator.replays.run" class="permission-name add-link" data-text="policysimulator.replays.run" tabindex="-1"><code dir="ltr" translate="no">policysimulator.replays.run</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin">Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                             | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `policysimulator. accessPolicySimulationResults. list` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin) ( `roles/ policysimulator.admin` ) [Policysimulator Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer) ( `roles/ policysimulator.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Deny Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyAdmin) ( `roles/ iam.denyAdmin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                          |
+| `policysimulator. accessPolicySimulations. create`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin) ( `roles/ policysimulator.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Deny Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyAdmin) ( `roles/ iam.denyAdmin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| `policysimulator. accessPolicySimulations. get`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin) ( `roles/ policysimulator.admin` ) [Policysimulator Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer) ( `roles/ policysimulator.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Deny Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyAdmin) ( `roles/ iam.denyAdmin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `policysimulator. accessPolicySimulations. list`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin) ( `roles/ policysimulator.admin` ) [Policysimulator Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer) ( `roles/ policysimulator.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Deny Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyAdmin) ( `roles/ iam.denyAdmin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                          |
+| `policysimulator. orgPolicyViolations. list`           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Organization Policy Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/orgpolicy#orgpolicy.policyAdmin) ( `roles/ orgpolicy.policyAdmin` ) [OrgPolicy Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.orgPolicyAdmin) ( `roles/ policysimulator.orgPolicyAdmin` ) [Policysimulator Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer) ( `roles/ policysimulator.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `policysimulator. orgPolicyViolationsPreviews. create` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Organization Policy Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/orgpolicy#orgpolicy.policyAdmin) ( `roles/ orgpolicy.policyAdmin` ) [OrgPolicy Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.orgPolicyAdmin) ( `roles/ policysimulator.orgPolicyAdmin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| `policysimulator. orgPolicyViolationsPreviews. get`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Organization Policy Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/orgpolicy#orgpolicy.policyAdmin) ( `roles/ orgpolicy.policyAdmin` ) [OrgPolicy Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.orgPolicyAdmin) ( `roles/ policysimulator.orgPolicyAdmin` ) [Policysimulator Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer) ( `roles/ policysimulator.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `policysimulator. orgPolicyViolationsPreviews. list`   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Organization Policy Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/orgpolicy#orgpolicy.policyAdmin) ( `roles/ orgpolicy.policyAdmin` ) [OrgPolicy Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.orgPolicyAdmin) ( `roles/ policysimulator.orgPolicyAdmin` ) [Policysimulator Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer) ( `roles/ policysimulator.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `policysimulator. replayResults. list`                 | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin) ( `roles/ policysimulator.admin` ) [Policysimulator Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer) ( `roles/ policysimulator.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                              |
+| `policysimulator.replays.create`                       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin) ( `roles/ policysimulator.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| `policysimulator.replays.get`                          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin) ( `roles/ policysimulator.admin` ) [Policysimulator Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer) ( `roles/ policysimulator.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| `policysimulator.replays.list`                         | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin) ( `roles/ policysimulator.admin` ) [Policysimulator Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.viewer) ( `roles/ policysimulator.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                              |
+| `policysimulator.replays.run`                          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Simulator Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.admin) ( `roles/ policysimulator.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |

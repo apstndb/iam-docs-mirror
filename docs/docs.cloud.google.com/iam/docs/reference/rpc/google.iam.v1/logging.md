@@ -8,16 +8,12 @@ data_source: docs.cloud.google.com
 
 ## Index
 
-  - `  AuditData  ` (message)
+- [`AuditData`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1/logging#google.iam.v1.logging.AuditData) (message)
 
 ## AuditData
 
 Audit log information specific to Cloud IAM. This message is serialized as an `Any` type in the `ServiceData` message of an `AuditLog` message.
 
-Fields
-
-`policy_delta`
-
-`  PolicyDelta  `
-
-Policy delta between the original policy and the newly set policy.
+| Fields         |                                                                                                                                                                                  |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `policy_delta` | [`PolicyDelta`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.PolicyDelta) Policy delta between the original policy and the newly set policy. |

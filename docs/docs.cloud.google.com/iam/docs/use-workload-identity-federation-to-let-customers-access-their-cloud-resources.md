@@ -10,9 +10,9 @@ This document describes requirements and best practices that you can follow to l
 
 If you offer a product or operate a service that lets customers analyze or manage data or resources, then your customers might want to access data or other resources in their Google Cloud environment. Examples for such products and services include the following:
 
-  - **Data analytics products** : Your customers might want to use such products to analyze their data in BigQuery.
-  - **CI/CD products and services** : Your customers might use such services to deploy infrastructure and applications to their Google Cloud projects.
-  - **Robotic process automation (RPA)** : Your customers might use RPA for workflows such as creating projects, managing access, or automating administrative tasks in Google Cloud.
+- **Data analytics products** : Your customers might want to use such products to analyze their data in BigQuery.
+- **CI/CD products and services** : Your customers might use such services to deploy infrastructure and applications to their Google Cloud projects.
+- **Robotic process automation (RPA)** : Your customers might use RPA for workflows such as creating projects, managing access, or automating administrative tasks in Google Cloud.
 
 To authenticate on-premises or software-as-a-service (SaaS) products to Google Cloud, customers have conventionally relied on service account keys, but these keys can be [challenging to manage and store securely](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .
 
@@ -26,34 +26,34 @@ The intent of Workload Identity Federation is to remove the need for service acc
 
 To let your customers use Workload Identity Federation, your product or service must implement a subset of OpenID Connect. In particular, you must allow workloads to obtain an ID token that meets the following criteria:
 
-  - The token identifies the workload within your product or platform
-  - The token identifies the instance, tenant, or installation of your product or platform
-  - The token contains a cryptographic signature that Workload Identity Federation can use to verify the token's authenticity
+- The token identifies the workload within your product or platform
+- The token identifies the instance, tenant, or installation of your product or platform
+- The token contains a cryptographic signature that Workload Identity Federation can use to verify the token's authenticity
 
 ## Requirements
 
 To support Workload Identity Federation, you must ensure that your product or service meets the following requirements:
 
 1.  Workloads have access to a valid ID token.
-    
+
     At any time during their lifecycle, a workload must have access to an ID token that asserts the identity of the workload and complies with the [requirements defined by OpenID Connect 1.0](https://openid.net/specs/openid-connect-core-1_0.html#IDToken) .
-    
+
     Because ID tokens have a limited lifespan, you must ensure that an ID token either outlives its workload, or that workloads can periodically obtain new ID tokens.
 
 2.  ID tokens uniquely identify the workload.
-    
+
     The ID token must contain at least one claim that uniquely identifies the workload. The workload identifier must be immutable.
-    
+
     For products or services that support multi-tenancy, the token must also contain at least one claim that uniquely identifies the tenant. The tenant identifier must also be immutable.
 
 3.  ID tokens are signed, but not encrypted.
 
 4.  OpenID provider metadata is publicly accessible and can be discovered from ID tokens.
-    
+
     You must provide an OpenID provider configuration document on a publicly accessible endpoint that can be discovered using the [OpenID issuer discovery protocol](https://openid.net/specs/openid-connect-discovery-1_0.html#IssuerDiscovery) . For example, if ID tokens contain an `iss` claim with the value `https://service.example.com/v1/` , then you must provide an OpenID provider configuration document on `https://service.example.com/v1/.well-known/openid-configuration` , and the endpoint must be publicly accessible over the internet from any IP address.
 
 5.  Signing keys are publicly accessible and can be discovered from OpenID provider metadata.
-    
+
     You must provide a [JSON Web Key Set (JWKS)](https://datatracker.ietf.org/doc/html/rfc7517) document on a publicly accessible endpoint that can be discovered from the `jwks_uri` field in the OpenID provider metadata.
 
 ## Best practices
@@ -82,8 +82,8 @@ If your product or service uses access tokens for purposes such as letting workl
 
 The Google Cloud client libraries can automatically obtain ID tokens from multiple sources, including the following:
 
-  - An HTTP endpoint (URL-sourced credentials)
-  - A local file (file-sourced credentials)
+- An HTTP endpoint (URL-sourced credentials)
+- A local file (file-sourced credentials)
 
 To obtain ID tokens from other sources, your customers might need to modify their code, or deploy additional tools or libraries. By exposing ID tokens in a way that's compatible with client libraries, you can avoid such extra complexity, and make it easier for your customers to adopt Workload Identity Federation.
 
@@ -121,9 +121,9 @@ Instead of granting workloads unconditional access to Google Cloud resources, cu
 
 To let customers configure such restrictions, include additional claims in the ID token that contain context information. Examples for context information include:
 
-  - information about the user that owns or started the workload
-  - the reason and way the workload was started
-  - the request that is currently being handled by the workload
+- information about the user that owns or started the workload
+- the reason and way the workload was started
+- the request that is currently being handled by the workload
 
 Customers can use these claims to configure [attribute conditions](https://docs.cloud.google.com/iam/docs/workload-identity-federation#conditions) or in [principal identifiers](https://docs.cloud.google.com/iam/docs/workload-identity-federation#impersonation) .
 
@@ -135,5 +135,5 @@ Using ID tokens that are valid for longer than one hour has no effect on Workloa
 
 ## What's next
 
-  - Read more about [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) .
-  - Learn about [best practices for using Workload Identity Federation](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation) .
+- Read more about [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) .
+- Learn about [best practices for using Workload Identity Federation](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation) .

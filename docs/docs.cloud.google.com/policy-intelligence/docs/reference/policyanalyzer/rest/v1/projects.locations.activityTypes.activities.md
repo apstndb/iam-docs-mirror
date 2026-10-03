@@ -6,15 +6,13 @@ description: A suite of tools to help you understand and manage your policies to
 data_source: docs.cloud.google.com
 ---
 
-  - [Resource](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest/v1/projects.locations.activityTypes.activities#RESOURCE_REPRESENTATION)
-  - [Methods](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest/v1/projects.locations.activityTypes.activities#METHODS_SUMMARY)
+- [Resource](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest/v1/projects.locations.activityTypes.activities#RESOURCE_REPRESENTATION)
+- [Methods](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest/v1/projects.locations.activityTypes.activities#METHODS_SUMMARY)
 
 ## Resource
 
 There is no persistent data associated with this resource.
 
-## Methods
-
-### `            query           `
-
-Queries policy activities on Google Cloud resources.
+| Methods                                                                                                                                              |                                                      |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`query`](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest/v1/projects.locations.activityTypes.activities/query) | Queries policy activities on Google Cloud resources. |

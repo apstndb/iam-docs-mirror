@@ -25,26 +25,26 @@ GKE Identity Service offers the following service agent roles. Service agent rol
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="anthosidentityservice.serviceAgent" class="role-title add-link" data-text="Anthos Identity Service Agent" tabindex="-1">Anthos Identity Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  anthosidentityservice.serviceAgent</code> )</p>
+<td>Anthos Identity Service Agent
+<p>( <code>roles/ anthosidentityservice.serviceAgent</code> )</p>
 <p>Gives the Anthos Identity service agent access to Google Cloud resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">gkehub.features.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.delete</code></p>
-<p><code dir="ltr" translate="no">gkehub.  gateway.  generateCredentials</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.patch</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.post</code></p>
-<p><code dir="ltr" translate="no">gkehub.gateway.put</code></p>
-<p><code dir="ltr" translate="no">gkehub.locations.*</code></p>
+<td><p><code>gkehub.features.get</code></p>
+<p><code>gkehub.gateway.delete</code></p>
+<p><code>gkehub. gateway. generateCredentials</code></p>
+<p><code>gkehub.gateway.get</code></p>
+<p><code>gkehub.gateway.patch</code></p>
+<p><code>gkehub.gateway.post</code></p>
+<p><code>gkehub.gateway.put</code></p>
+<p><code>gkehub.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">gkehub.locations.get</code></li>
-<li><code dir="ltr" translate="no">gkehub.locations.list</code></li>
+<li><code>gkehub.locations.get</code></li>
+<li><code>gkehub.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
-<p><code dir="ltr" translate="no">gkehub.memberships.list</code></p></td>
+<p><code>gkehub.memberships.get</code></p>
+<p><code>gkehub.memberships.list</code></p></td>
 </tr>
 </tbody>
 </table>

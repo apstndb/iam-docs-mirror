@@ -23,115 +23,115 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.admin" class="role-title add-link" data-text="Gemini Data Analytics Admin" tabindex="-1">Gemini Data Analytics Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
+<td>Gemini Data Analytics Admin
+<p>( <code>roles/ geminidataanalytics.admin</code> )</p>
 <p>Admin role for Gemini Data Analytics</p></td>
-<td><p><code dir="ltr" translate="no">geminidataanalytics.*</code></p>
+<td><p><code>geminidataanalytics.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  chat</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  create</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  delete</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  get</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  list</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  update</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  get</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  list</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  useDataEngineeringAgent</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  operations.  delete</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  operations.  get</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  operations.  list</code></li>
+<li><code>geminidataanalytics. dataAgents. chat</code></li>
+<li><code>geminidataanalytics. dataAgents. create</code></li>
+<li><code>geminidataanalytics. dataAgents. delete</code></li>
+<li><code>geminidataanalytics. dataAgents. get</code></li>
+<li><code>geminidataanalytics. dataAgents. getIamPolicy</code></li>
+<li><code>geminidataanalytics. dataAgents. list</code></li>
+<li><code>geminidataanalytics. dataAgents. setIamPolicy</code></li>
+<li><code>geminidataanalytics. dataAgents. update</code></li>
+<li><code>geminidataanalytics. locations. chat</code></li>
+<li><code>geminidataanalytics. locations. get</code></li>
+<li><code>geminidataanalytics. locations. list</code></li>
+<li><code>geminidataanalytics. locations. useDataEngineeringAgent</code></li>
+<li><code>geminidataanalytics. operations. cancel</code></li>
+<li><code>geminidataanalytics. operations. delete</code></li>
+<li><code>geminidataanalytics. operations. get</code></li>
+<li><code>geminidataanalytics. operations. list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="geminidataanalytics.viewer" class="role-title add-link" data-text="Gemini Data Analytics Viewer" tabindex="-1">Gemini Data Analytics Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
+<td>Gemini Data Analytics Viewer
+<p>( <code>roles/ geminidataanalytics.viewer</code> )</p>
 <p>Viewer role for Gemini Data Analytics</p></td>
-<td><p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  chat</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  get</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  list</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  locations.*</code></p>
+<td><p><code>geminidataanalytics. dataAgents. chat</code></p>
+<p><code>geminidataanalytics. dataAgents. get</code></p>
+<p><code>geminidataanalytics. dataAgents. getIamPolicy</code></p>
+<p><code>geminidataanalytics. dataAgents. list</code></p>
+<p><code>geminidataanalytics. locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  get</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  list</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  useDataEngineeringAgent</code></li>
+<li><code>geminidataanalytics. locations. chat</code></li>
+<li><code>geminidataanalytics. locations. get</code></li>
+<li><code>geminidataanalytics. locations. list</code></li>
+<li><code>geminidataanalytics. locations. useDataEngineeringAgent</code></li>
 </ul>
-<p><code dir="ltr" translate="no">geminidataanalytics.  operations.  get</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  operations.  list</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>geminidataanalytics. operations. get</code></p>
+<p><code>geminidataanalytics. operations. list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.dataAgentCreator" class="role-title add-link" data-text="Gemini Data Analytics Data Agent Creator" tabindex="-1">Gemini Data Analytics Data Agent Creator</h4>
-<p>( <code dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentCreator</code> )</p>
+<td>Gemini Data Analytics Data Agent Creator
+<p>( <code>roles/ geminidataanalytics.dataAgentCreator</code> )</p>
 <p>Create access to Gemini Data Analytics resources.</p></td>
-<td><p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  create</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  operations.  get</code></p></td>
+<td><p><code>geminidataanalytics. dataAgents. create</code></p>
+<p><code>geminidataanalytics. locations. chat</code></p>
+<p><code>geminidataanalytics. operations. get</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="geminidataanalytics.dataAgentEditor" class="role-title add-link" data-text="Gemini Data Analytics Data Agent Editor" tabindex="-1">Gemini Data Analytics Data Agent Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentEditor</code> )</p>
+<td>Gemini Data Analytics Data Agent Editor
+<p>( <code>roles/ geminidataanalytics.dataAgentEditor</code> )</p>
 <p>Chat and Edit access to Gemini Data Analytics resources.</p></td>
-<td><p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  chat</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  get</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  list</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  update</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  operations.  get</code></p></td>
+<td><p><code>geminidataanalytics. dataAgents. chat</code></p>
+<p><code>geminidataanalytics. dataAgents. get</code></p>
+<p><code>geminidataanalytics. dataAgents. list</code></p>
+<p><code>geminidataanalytics. dataAgents. update</code></p>
+<p><code>geminidataanalytics. operations. get</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.dataAgentOwner" class="role-title add-link" data-text="Gemini Data Analytics Data Agent Owner" tabindex="-1">Gemini Data Analytics Data Agent Owner</h4>
-<p>( <code dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
+<td>Gemini Data Analytics Data Agent Owner
+<p>( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
 <p>Full access to existing Gemini Data Analytics resources.</p></td>
-<td><p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  chat</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  delete</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  get</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  list</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  setIamPolicy</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  update</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  locations.  get</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  locations.  list</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  operations.*</code></p>
+<td><p><code>geminidataanalytics. dataAgents. chat</code></p>
+<p><code>geminidataanalytics. dataAgents. delete</code></p>
+<p><code>geminidataanalytics. dataAgents. get</code></p>
+<p><code>geminidataanalytics. dataAgents. getIamPolicy</code></p>
+<p><code>geminidataanalytics. dataAgents. list</code></p>
+<p><code>geminidataanalytics. dataAgents. setIamPolicy</code></p>
+<p><code>geminidataanalytics. dataAgents. update</code></p>
+<p><code>geminidataanalytics. locations. get</code></p>
+<p><code>geminidataanalytics. locations. list</code></p>
+<p><code>geminidataanalytics. operations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">geminidataanalytics.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  operations.  delete</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  operations.  get</code></li>
-<li><code dir="ltr" translate="no">geminidataanalytics.  operations.  list</code></li>
+<li><code>geminidataanalytics. operations. cancel</code></li>
+<li><code>geminidataanalytics. operations. delete</code></li>
+<li><code>geminidataanalytics. operations. get</code></li>
+<li><code>geminidataanalytics. operations. list</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="geminidataanalytics.dataAgentStatelessUser" class="role-title add-link" data-text="Gemini Data Analytics Stateless Chat User" tabindex="-1">Gemini Data Analytics Stateless Chat User</h4>
-<p>( <code dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentStatelessUser</code> )</p>
+<td>Gemini Data Analytics Stateless Chat User
+<p>( <code>roles/ geminidataanalytics.dataAgentStatelessUser</code> )</p>
 <p>Stateless access to Gemini Data Analytics chat.</p></td>
-<td><p><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  locations.  useDataEngineeringAgent</code></p></td>
+<td><p><code>geminidataanalytics. locations. chat</code></p>
+<p><code>geminidataanalytics. locations. useDataEngineeringAgent</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.dataAgentUser" class="role-title add-link" data-text="Gemini Data Analytics Data Agent User" tabindex="-1">Gemini Data Analytics Data Agent User</h4>
-<p>( <code dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentUser</code> )</p>
+<td>Gemini Data Analytics Data Agent User
+<p>( <code>roles/ geminidataanalytics.dataAgentUser</code> )</p>
 <p>Chat and View access to Gemini Data Analytics resources.</p></td>
-<td><p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  chat</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  get</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  list</code></p></td>
+<td><p><code>geminidataanalytics. dataAgents. chat</code></p>
+<p><code>geminidataanalytics. dataAgents. get</code></p>
+<p><code>geminidataanalytics. dataAgents. list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="geminidataanalytics.dataAgentViewer" class="role-title add-link" data-text="Gemini Data Analytics Data Agent Viewer" tabindex="-1">Gemini Data Analytics Data Agent Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentViewer</code> )</p>
+<td>Gemini Data Analytics Data Agent Viewer
+<p>( <code>roles/ geminidataanalytics.dataAgentViewer</code> )</p>
 <p>Readonly access to Gemini Data Analytics resources.</p></td>
-<td><p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  get</code></p>
-<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  list</code></p></td>
+<td><p><code>geminidataanalytics. dataAgents. get</code></p>
+<p><code>geminidataanalytics. dataAgents. list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.queryDataUser" class="role-title add-link" data-text="Gemini Data Analytics Query Data User Beta" tabindex="-1">Gemini Data Analytics Query Data User <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  geminidataanalytics.queryDataUser</code> )</p>
+<td>Gemini Data Analytics Query Data User <sup>Beta</sup>
+<p>( <code>roles/ geminidataanalytics.queryDataUser</code> )</p>
 <p>Access to use Gemini Data Analytics query data.</p></td>
 <td></td>
 </tr>
@@ -153,249 +153,249 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.dataAgents.chat" class="permission-name add-link" data-text="geminidataanalytics.dataAgents.chat" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  chat</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentUser">Gemini Data Analytics Data Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. dataAgents. chat</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code>roles/ geminidataanalytics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code>roles/ geminidataanalytics.dataAgentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentUser">Gemini Data Analytics Data Agent User</a> ( <code>roles/ geminidataanalytics.dataAgentUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="geminidataanalytics.dataAgents.create" class="permission-name add-link" data-text="geminidataanalytics.dataAgents.create" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentCreator">Gemini Data Analytics Data Agent Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. dataAgents. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentCreator">Gemini Data Analytics Data Agent Creator</a> ( <code>roles/ geminidataanalytics.dataAgentCreator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.dataAgents.delete" class="permission-name add-link" data-text="geminidataanalytics.dataAgents.delete" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. dataAgents. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="geminidataanalytics.dataAgents.get" class="permission-name add-link" data-text="geminidataanalytics.dataAgents.get" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentUser">Gemini Data Analytics Data Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentViewer">Gemini Data Analytics Data Agent Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. dataAgents. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code>roles/ geminidataanalytics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code>roles/ geminidataanalytics.dataAgentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentUser">Gemini Data Analytics Data Agent User</a> ( <code>roles/ geminidataanalytics.dataAgentUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentViewer">Gemini Data Analytics Data Agent Viewer</a> ( <code>roles/ geminidataanalytics.dataAgentViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.dataAgents.getIamPolicy" class="permission-name add-link" data-text="geminidataanalytics.dataAgents.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. dataAgents. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code>roles/ geminidataanalytics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="geminidataanalytics.dataAgents.list" class="permission-name add-link" data-text="geminidataanalytics.dataAgents.list" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentUser">Gemini Data Analytics Data Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentViewer">Gemini Data Analytics Data Agent Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. dataAgents. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code>roles/ geminidataanalytics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code>roles/ geminidataanalytics.dataAgentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentUser">Gemini Data Analytics Data Agent User</a> ( <code>roles/ geminidataanalytics.dataAgentUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentViewer">Gemini Data Analytics Data Agent Viewer</a> ( <code>roles/ geminidataanalytics.dataAgentViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.dataAgents.setIamPolicy" class="permission-name add-link" data-text="geminidataanalytics.dataAgents.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  setIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p></td>
+<td><code>geminidataanalytics. dataAgents. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="geminidataanalytics.dataAgents.update" class="permission-name add-link" data-text="geminidataanalytics.dataAgents.update" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. dataAgents. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code>roles/ geminidataanalytics.dataAgentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.locations.chat" class="permission-name add-link" data-text="geminidataanalytics.locations.chat" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.jobUser">BigQuery Job User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.jobUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentCreator">Gemini Data Analytics Data Agent Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentStatelessUser">Gemini Data Analytics Stateless Chat User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentStatelessUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>geminidataanalytics. locations. chat</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.jobUser">BigQuery Job User</a> ( <code>roles/ bigquery.jobUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code>roles/ geminidataanalytics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentCreator">Gemini Data Analytics Data Agent Creator</a> ( <code>roles/ geminidataanalytics.dataAgentCreator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentStatelessUser">Gemini Data Analytics Stateless Chat User</a> ( <code>roles/ geminidataanalytics.dataAgentStatelessUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.serviceAgent">Cloud Data Fusion API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.serviceAgent">DLP API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.serviceAgent">Enterprise Knowledge Graph Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.serviceAgent">FleetEngine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code>roles/ bigquerydatatransfer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.serviceAgent">Cloud Data Fusion API Service Agent</a> ( <code>roles/ datafusion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.serviceAgent">DLP API Service Agent</a> ( <code>roles/ dlp.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.serviceAgent">Enterprise Knowledge Graph Service Agent</a> ( <code>roles/ enterpriseknowledgegraph.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.serviceAgent">FleetEngine Service Agent</a> ( <code>roles/ fleetengine.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="geminidataanalytics.locations.get" class="permission-name add-link" data-text="geminidataanalytics.locations.get" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  locations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. locations. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code>roles/ geminidataanalytics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.locations.list" class="permission-name add-link" data-text="geminidataanalytics.locations.list" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  locations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. locations. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code>roles/ geminidataanalytics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="geminidataanalytics.locations.useDataEngineeringAgent" class="permission-name add-link" data-text="geminidataanalytics.locations.useDataEngineeringAgent" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  locations.  useDataEngineeringAgent</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentStatelessUser">Gemini Data Analytics Stateless Chat User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentStatelessUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. locations. useDataEngineeringAgent</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code>roles/ geminidataanalytics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentStatelessUser">Gemini Data Analytics Stateless Chat User</a> ( <code>roles/ geminidataanalytics.dataAgentStatelessUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.operations.cancel" class="permission-name add-link" data-text="geminidataanalytics.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  operations.  cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. operations. cancel</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="geminidataanalytics.operations.delete" class="permission-name add-link" data-text="geminidataanalytics.operations.delete" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  operations.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. operations. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="geminidataanalytics.operations.get" class="permission-name add-link" data-text="geminidataanalytics.operations.get" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  operations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentCreator">Gemini Data Analytics Data Agent Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. operations. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code>roles/ geminidataanalytics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentCreator">Gemini Data Analytics Data Agent Creator</a> ( <code>roles/ geminidataanalytics.dataAgentCreator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code>roles/ geminidataanalytics.dataAgentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="geminidataanalytics.operations.list" class="permission-name add-link" data-text="geminidataanalytics.operations.list" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  operations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>geminidataanalytics. operations. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code>roles/ geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code>roles/ geminidataanalytics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code>roles/ geminidataanalytics.dataAgentOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

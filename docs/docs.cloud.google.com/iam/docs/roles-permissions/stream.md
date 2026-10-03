@@ -23,93 +23,93 @@ This page lists the IAM roles and permissions for Stream. To search through all 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="stream.admin" class="role-title add-link" data-text="Stream Admin" tabindex="-1">Stream Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  stream.admin</code> )</p>
+<td>Stream Admin
+<p>( <code>roles/ stream.admin</code> )</p>
 <p>Full access to Stream all resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">stream.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>stream.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">stream.locations.get</code></li>
-<li><code dir="ltr" translate="no">stream.locations.list</code></li>
-<li><code dir="ltr" translate="no">stream.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">stream.operations.delete</code></li>
-<li><code dir="ltr" translate="no">stream.operations.get</code></li>
-<li><code dir="ltr" translate="no">stream.operations.list</code></li>
-<li><code dir="ltr" translate="no">stream.streamContents.build</code></li>
-<li><code dir="ltr" translate="no">stream.streamContents.create</code></li>
-<li><code dir="ltr" translate="no">stream.streamContents.delete</code></li>
-<li><code dir="ltr" translate="no">stream.streamContents.get</code></li>
-<li><code dir="ltr" translate="no">stream.streamContents.list</code></li>
-<li><code dir="ltr" translate="no">stream.streamContents.update</code></li>
-<li><code dir="ltr" translate="no">stream.streamInstances.create</code></li>
-<li><code dir="ltr" translate="no">stream.streamInstances.delete</code></li>
-<li><code dir="ltr" translate="no">stream.streamInstances.get</code></li>
-<li><code dir="ltr" translate="no">stream.streamInstances.list</code></li>
-<li><code dir="ltr" translate="no">stream.streamInstances.rollout</code></li>
-<li><code dir="ltr" translate="no">stream.streamInstances.update</code></li>
+<li><code>stream.locations.get</code></li>
+<li><code>stream.locations.list</code></li>
+<li><code>stream.operations.cancel</code></li>
+<li><code>stream.operations.delete</code></li>
+<li><code>stream.operations.get</code></li>
+<li><code>stream.operations.list</code></li>
+<li><code>stream.streamContents.build</code></li>
+<li><code>stream.streamContents.create</code></li>
+<li><code>stream.streamContents.delete</code></li>
+<li><code>stream.streamContents.get</code></li>
+<li><code>stream.streamContents.list</code></li>
+<li><code>stream.streamContents.update</code></li>
+<li><code>stream.streamInstances.create</code></li>
+<li><code>stream.streamInstances.delete</code></li>
+<li><code>stream.streamInstances.get</code></li>
+<li><code>stream.streamInstances.list</code></li>
+<li><code>stream.streamInstances.rollout</code></li>
+<li><code>stream.streamInstances.update</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="stream.viewer" class="role-title add-link" data-text="Stream Viewer" tabindex="-1">Stream Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  stream.viewer</code> )</p>
+<td>Stream Viewer
+<p>( <code>roles/ stream.viewer</code> )</p>
 <p>Read-only access to Stream all resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">stream.locations.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>stream.locations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">stream.locations.get</code></li>
-<li><code dir="ltr" translate="no">stream.locations.list</code></li>
+<li><code>stream.locations.get</code></li>
+<li><code>stream.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">stream.operations.get</code></p>
-<p><code dir="ltr" translate="no">stream.operations.list</code></p>
-<p><code dir="ltr" translate="no">stream.streamContents.get</code></p>
-<p><code dir="ltr" translate="no">stream.streamContents.list</code></p>
-<p><code dir="ltr" translate="no">stream.streamInstances.get</code></p>
-<p><code dir="ltr" translate="no">stream.streamInstances.list</code></p></td>
+<p><code>stream.operations.get</code></p>
+<p><code>stream.operations.list</code></p>
+<p><code>stream.streamContents.get</code></p>
+<p><code>stream.streamContents.list</code></p>
+<p><code>stream.streamInstances.get</code></p>
+<p><code>stream.streamInstances.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="stream.contentAdmin" class="role-title add-link" data-text="Stream Content Admin" tabindex="-1">Stream Content Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  stream.contentAdmin</code> )</p>
+<td>Stream Content Admin
+<p>( <code>roles/ stream.contentAdmin</code> )</p>
 <p>Full access to all StreamContent resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">stream.streamContents.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>stream.streamContents.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">stream.streamContents.build</code></li>
-<li><code dir="ltr" translate="no">stream.streamContents.create</code></li>
-<li><code dir="ltr" translate="no">stream.streamContents.delete</code></li>
-<li><code dir="ltr" translate="no">stream.streamContents.get</code></li>
-<li><code dir="ltr" translate="no">stream.streamContents.list</code></li>
-<li><code dir="ltr" translate="no">stream.streamContents.update</code></li>
+<li><code>stream.streamContents.build</code></li>
+<li><code>stream.streamContents.create</code></li>
+<li><code>stream.streamContents.delete</code></li>
+<li><code>stream.streamContents.get</code></li>
+<li><code>stream.streamContents.list</code></li>
+<li><code>stream.streamContents.update</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="stream.contentBuilder" class="role-title add-link" data-text="Stream Content Builder" tabindex="-1">Stream Content Builder</h4>
-<p>( <code dir="ltr" translate="no">roles/  stream.contentBuilder</code> )</p>
+<td>Stream Content Builder
+<p>( <code>roles/ stream.contentBuilder</code> )</p>
 <p>Read and build access to StreamContent resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">stream.streamContents.build</code></p>
-<p><code dir="ltr" translate="no">stream.streamContents.get</code></p>
-<p><code dir="ltr" translate="no">stream.streamContents.list</code></p></td>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>stream.streamContents.build</code></p>
+<p><code>stream.streamContents.get</code></p>
+<p><code>stream.streamContents.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="stream.instanceAdmin" class="role-title add-link" data-text="Stream Instance Admin" tabindex="-1">Stream Instance Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  stream.instanceAdmin</code> )</p>
+<td>Stream Instance Admin
+<p>( <code>roles/ stream.instanceAdmin</code> )</p>
 <p>Full access to all StreamInstance resources and Read access to all StreamContent resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">stream.streamContents.get</code></p>
-<p><code dir="ltr" translate="no">stream.streamContents.list</code></p>
-<p><code dir="ltr" translate="no">stream.streamInstances.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>stream.streamContents.get</code></p>
+<p><code>stream.streamContents.list</code></p>
+<p><code>stream.streamInstances.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">stream.streamInstances.create</code></li>
-<li><code dir="ltr" translate="no">stream.streamInstances.delete</code></li>
-<li><code dir="ltr" translate="no">stream.streamInstances.get</code></li>
-<li><code dir="ltr" translate="no">stream.streamInstances.list</code></li>
-<li><code dir="ltr" translate="no">stream.streamInstances.rollout</code></li>
-<li><code dir="ltr" translate="no">stream.streamInstances.update</code></li>
+<li><code>stream.streamInstances.create</code></li>
+<li><code>stream.streamInstances.delete</code></li>
+<li><code>stream.streamInstances.get</code></li>
+<li><code>stream.streamInstances.list</code></li>
+<li><code>stream.streamInstances.rollout</code></li>
+<li><code>stream.streamInstances.update</code></li>
 </ul></td>
 </tr>
 </tbody>
@@ -132,241 +132,42 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="stream.serviceAgent" class="role-title add-link" data-text="Stream Service Agent" tabindex="-1">Stream Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  stream.serviceAgent</code> )</p>
+<td>Stream Service Agent
+<p>( <code>roles/ stream.serviceAgent</code> )</p>
 <p>Gives Immersive Stream for XR access to the required resources.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.create</code></p>
-<p><code dir="ltr" translate="no">storage.buckets.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.create</code></p>
-<p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.list</code></p></td>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>storage.buckets.create</code></p>
+<p><code>storage.buckets.get</code></p>
+<p><code>storage.objects.create</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.list</code></p></td>
 </tr>
 </tbody>
 </table>
 
 ## Stream permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="stream.locations.get" class="permission-name add-link" data-text="stream.locations.get" tabindex="-1"><code dir="ltr" translate="no">stream.locations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer">Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="stream.locations.list" class="permission-name add-link" data-text="stream.locations.list" tabindex="-1"><code dir="ltr" translate="no">stream.locations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer">Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="stream.operations.cancel" class="permission-name add-link" data-text="stream.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">stream.operations.cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="stream.operations.delete" class="permission-name add-link" data-text="stream.operations.delete" tabindex="-1"><code dir="ltr" translate="no">stream.operations.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="stream.operations.get" class="permission-name add-link" data-text="stream.operations.get" tabindex="-1"><code dir="ltr" translate="no">stream.operations.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer">Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="stream.operations.list" class="permission-name add-link" data-text="stream.operations.list" tabindex="-1"><code dir="ltr" translate="no">stream.operations.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer">Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="stream.streamContents.build" class="permission-name add-link" data-text="stream.streamContents.build" tabindex="-1"><code dir="ltr" translate="no">stream.streamContents.build</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentAdmin">Stream Content Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.contentAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentBuilder">Stream Content Builder</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.contentBuilder</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="stream.streamContents.create" class="permission-name add-link" data-text="stream.streamContents.create" tabindex="-1"><code dir="ltr" translate="no">stream.streamContents.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentAdmin">Stream Content Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.contentAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="stream.streamContents.delete" class="permission-name add-link" data-text="stream.streamContents.delete" tabindex="-1"><code dir="ltr" translate="no">stream.streamContents.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentAdmin">Stream Content Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.contentAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="stream.streamContents.get" class="permission-name add-link" data-text="stream.streamContents.get" tabindex="-1"><code dir="ltr" translate="no">stream.streamContents.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer">Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentAdmin">Stream Content Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.contentAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentBuilder">Stream Content Builder</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.contentBuilder</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin">Stream Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.instanceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="stream.streamContents.list" class="permission-name add-link" data-text="stream.streamContents.list" tabindex="-1"><code dir="ltr" translate="no">stream.streamContents.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer">Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentAdmin">Stream Content Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.contentAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentBuilder">Stream Content Builder</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.contentBuilder</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin">Stream Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.instanceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="stream.streamContents.update" class="permission-name add-link" data-text="stream.streamContents.update" tabindex="-1"><code dir="ltr" translate="no">stream.streamContents.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentAdmin">Stream Content Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.contentAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="stream.streamInstances.create" class="permission-name add-link" data-text="stream.streamInstances.create" tabindex="-1"><code dir="ltr" translate="no">stream.streamInstances.create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin">Stream Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.instanceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="stream.streamInstances.delete" class="permission-name add-link" data-text="stream.streamInstances.delete" tabindex="-1"><code dir="ltr" translate="no">stream.streamInstances.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin">Stream Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.instanceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="stream.streamInstances.get" class="permission-name add-link" data-text="stream.streamInstances.get" tabindex="-1"><code dir="ltr" translate="no">stream.streamInstances.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer">Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin">Stream Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.instanceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="stream.streamInstances.list" class="permission-name add-link" data-text="stream.streamInstances.list" tabindex="-1"><code dir="ltr" translate="no">stream.streamInstances.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer">Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin">Stream Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.instanceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="stream.streamInstances.rollout" class="permission-name add-link" data-text="stream.streamInstances.rollout" tabindex="-1"><code dir="ltr" translate="no">stream.streamInstances.rollout</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin">Stream Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.instanceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="stream.streamInstances.update" class="permission-name add-link" data-text="stream.streamInstances.update" tabindex="-1"><code dir="ltr" translate="no">stream.streamInstances.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin">Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin">Stream Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  stream.instanceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                       | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `stream.locations.get`           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Stream Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer) ( `roles/ stream.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `stream.locations.list`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Stream Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer) ( `roles/ stream.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| `stream.operations.cancel`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `stream.operations.delete`       | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `stream.operations.get`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Stream Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer) ( `roles/ stream.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `stream.operations.list`         | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Stream Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer) ( `roles/ stream.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| `stream.streamContents.build`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Stream Content Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentAdmin) ( `roles/ stream.contentAdmin` ) [Stream Content Builder](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentBuilder) ( `roles/ stream.contentBuilder` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `stream.streamContents.create`   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Stream Content Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentAdmin) ( `roles/ stream.contentAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| `stream.streamContents.delete`   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Stream Content Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentAdmin) ( `roles/ stream.contentAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| `stream.streamContents.get`      | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Stream Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer) ( `roles/ stream.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Stream Content Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentAdmin) ( `roles/ stream.contentAdmin` ) [Stream Content Builder](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentBuilder) ( `roles/ stream.contentBuilder` ) [Stream Instance Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin) ( `roles/ stream.instanceAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `stream.streamContents.list`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Stream Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer) ( `roles/ stream.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Stream Content Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentAdmin) ( `roles/ stream.contentAdmin` ) [Stream Content Builder](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentBuilder) ( `roles/ stream.contentBuilder` ) [Stream Instance Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin) ( `roles/ stream.instanceAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `stream.streamContents.update`   | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Stream Content Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.contentAdmin) ( `roles/ stream.contentAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| `stream.streamInstances.create`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Stream Instance Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin) ( `roles/ stream.instanceAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `stream.streamInstances.delete`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Stream Instance Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin) ( `roles/ stream.instanceAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `stream.streamInstances.get`     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Stream Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer) ( `roles/ stream.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Stream Instance Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin) ( `roles/ stream.instanceAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `stream.streamInstances.list`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Stream Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.viewer) ( `roles/ stream.viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Stream Instance Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin) ( `roles/ stream.instanceAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                 |
+| `stream.streamInstances.rollout` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Stream Instance Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin) ( `roles/ stream.instanceAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `stream.streamInstances.update`  | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Stream Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.admin) ( `roles/ stream.admin` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Stream Instance Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.instanceAdmin) ( `roles/ stream.instanceAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |

@@ -16,8 +16,6 @@ You can create and manage groups for your organization in the Google Cloud conso
 
 You need the following permissions to manage groups in the Google Cloud console.
 
-<span id="cloudid-permissions"></span>
-
 ### Group permissions
 
 To create, view, edit, and delete groups, in the Google Cloud console or elsewhere, you need the appropriate group permissions. These permissions are managed by Google Workspace, not IAM. To gain these permissions, contact your Google Workspace administrator.
@@ -28,8 +26,8 @@ To learn about group permissions, see [Administrator privilege definitions](http
 
 To get the permissions that you need to use the Google Cloud console to manage groups, ask your administrator to grant you the following IAM roles on the organization:
 
-  - [Organization Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationViewer) ( `roles/resourcemanager.organizationViewer` )
-  - To view group membership change logs: [Logs Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/logging#logging.viewer) ( `roles/logging.viewer` )
+- [Organization Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationViewer) ( `roles/resourcemanager.organizationViewer` )
+- To view group membership change logs: [Logs Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/logging#logging.viewer) ( `roles/logging.viewer` )
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
@@ -53,12 +51,12 @@ To create a group, follow these steps:
 
 1.  In the Google Cloud console, go to the **Groups** page.
 
-2.  Click add\_box **Create** .
+2.  Click add_box **Create** .
 
 3.  Fill in your group's details, including the group's name, email address, and an optional description.
 
 4.  To add members to the group, click add **Add member** , then enter the member's email and choose their [Google Groups role](https://support.google.com/groups/answer/2464975?ref_topic=2458761) .
-    
+
     > **Note:** When you add a member to a Google group, they inherit all IAM roles granted to that group, regardless of their Google Groups role.
 
 5.  When you are finished, click **Submit** to create the group.
@@ -69,17 +67,17 @@ To view and edit the details of a group, including the group name, description, 
 
 1.  In the Google Cloud console, go to the **Groups** page.
 
-2.  Find the group whose details you want to view, click the **More** more\_vert button in that row, and then click **View group details** .
+2.  Find the group whose details you want to view, click the **More** more_vert button in that row, and then click **View group details** .
 
 3.  To edit the group name or description, type your new name or description in the **Group name** or **Group description** field and click **Save** .
 
 4.  To edit the group's membership, do the following:
-    
-      - **To add members** : Click person **Add members** at the top of the page. Enter the names of the members you want to add, choose their [Google Groups roles](https://support.google.com/groups/answer/2464975?ref_topic=2458761) , then click **Add** to add them to the group.
-        
-        > **Note:** When you add a member to a Google group, they inherit all IAM roles granted to that group, regardless of their Google Groups role.
-    
-      - **To remove members** : Select the checkboxes next to the names of the members you want to remove, then click delete **Remove members** at the top of the page.
+
+    - **To add members** : Click person **Add members** at the top of the page. Enter the names of the members you want to add, choose their [Google Groups roles](https://support.google.com/groups/answer/2464975?ref_topic=2458761) , then click **Add** to add them to the group.
+
+      > **Note:** When you add a member to a Google group, they inherit all IAM roles granted to that group, regardless of their Google Groups role.
+
+    - **To remove members** : Select the checkboxes next to the names of the members you want to remove, then click delete **Remove members** at the top of the page.
 
 ## Managing a group in Google Groups
 
@@ -89,7 +87,7 @@ To open a group in Google Groups, follow these steps:
 
 1.  In the Google Cloud console, go to the **Groups** page.
 
-2.  Find the group that you want to manage, click the **More** more\_vert button in that row, and then click **View in Google Groups** launch .
+2.  Find the group that you want to manage, click the **More** more_vert button in that row, and then click **View in Google Groups** launch .
 
 This action opens the group in Google Groups, where you can manage all of your group's features. For more information, see the [Google Groups help page](https://support.google.com/groups/) .
 
@@ -101,7 +99,7 @@ To delete a group, follow these steps:
 
 1.  In the Google Cloud console, go to the **Groups** page.
 
-2.  Find the group that you want to delete, click the **More** more\_vert button in that row, and then click **Delete group** .
+2.  Find the group that you want to delete, click the **More** more_vert button in that row, and then click **Delete group** .
 
 3.  Confirm that you want to delete the group by clicking **Confirm** in the confirmation dialog.
 
@@ -113,5 +111,5 @@ To learn how to enable data sharing and how to view and manage Google Workspace 
 
 ## What's next
 
-  - Learn how to [grant, change, and revoke access for principals](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) , including Google groups.
-  - Review other ways to [create groups](https://support.google.com/a/answer/33343) .
+- Learn how to [grant, change, and revoke access for principals](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) , including Google groups.
+- Review other ways to [create groups](https://support.google.com/a/answer/33343) .

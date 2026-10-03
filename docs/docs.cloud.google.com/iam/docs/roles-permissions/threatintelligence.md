@@ -23,113 +23,113 @@ This page lists the IAM roles and permissions for Google Threat Intelligence. To
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="threatintelligence.alertAdmin" class="role-title add-link" data-text="GTI Alert Admin Beta" tabindex="-1">GTI Alert Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  threatintelligence.alertAdmin</code> )</p>
+<td>GTI Alert Admin <sup>Beta</sup>
+<p>( <code>roles/ threatintelligence.alertAdmin</code> )</p>
 <p>This role can view and edit all properties of resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>threatintelligence.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">threatintelligence.  alertdocuments.  get</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.alerts.get</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.alerts.list</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  alerts.  update</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  configurations.  get</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  configurations.  list</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  configurations.  listRevisions</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  configurations.  update</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  findings.  get</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  findings.  list</code></li>
+<li><code>threatintelligence. alertdocuments. get</code></li>
+<li><code>threatintelligence.alerts.get</code></li>
+<li><code>threatintelligence.alerts.list</code></li>
+<li><code>threatintelligence. alerts. update</code></li>
+<li><code>threatintelligence. configurations. get</code></li>
+<li><code>threatintelligence. configurations. list</code></li>
+<li><code>threatintelligence. configurations. listRevisions</code></li>
+<li><code>threatintelligence. configurations. update</code></li>
+<li><code>threatintelligence. findings. get</code></li>
+<li><code>threatintelligence. findings. list</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="threatintelligence.alertUser" class="role-title add-link" data-text="GTI Alert User Beta" tabindex="-1">GTI Alert User <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  threatintelligence.alertUser</code> )</p>
+<td>GTI Alert User <sup>Beta</sup>
+<p>( <code>roles/ threatintelligence.alertUser</code> )</p>
 <p>This role can view and edit properties of resources, except for editing configurations and exporting alerts.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.  alertdocuments.  get</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.alerts.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>threatintelligence. alertdocuments. get</code></p>
+<p><code>threatintelligence.alerts.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">threatintelligence.alerts.get</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.alerts.list</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  alerts.  update</code></li>
+<li><code>threatintelligence.alerts.get</code></li>
+<li><code>threatintelligence.alerts.list</code></li>
+<li><code>threatintelligence. alerts. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">threatintelligence.  configurations.  get</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.  configurations.  list</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.  configurations.  listRevisions</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.findings.*</code></p>
+<p><code>threatintelligence. configurations. get</code></p>
+<p><code>threatintelligence. configurations. list</code></p>
+<p><code>threatintelligence. configurations. listRevisions</code></p>
+<p><code>threatintelligence.findings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">threatintelligence.  findings.  get</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  findings.  list</code></li>
+<li><code>threatintelligence. findings. get</code></li>
+<li><code>threatintelligence. findings. list</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="threatintelligence.ctemAdmin" class="role-title add-link" data-text="CTEM Admin Beta" tabindex="-1">CTEM Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  threatintelligence.ctemAdmin</code> )</p>
+<td>CTEM Admin <sup>Beta</sup>
+<p>( <code>roles/ threatintelligence.ctemAdmin</code> )</p>
 <p>This role can view and edit all properties of resources along with the Projects.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.  configurations.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>threatintelligence. configurations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">threatintelligence.  configurations.  get</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  configurations.  list</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  configurations.  listRevisions</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  configurations.  update</code></li>
+<li><code>threatintelligence. configurations. get</code></li>
+<li><code>threatintelligence. configurations. list</code></li>
+<li><code>threatintelligence. configurations. listRevisions</code></li>
+<li><code>threatintelligence. configurations. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">threatintelligence.findings.*</code></p>
+<p><code>threatintelligence.findings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">threatintelligence.  findings.  get</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  findings.  list</code></li>
+<li><code>threatintelligence. findings. get</code></li>
+<li><code>threatintelligence. findings. list</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="threatintelligence.ctemEditor" class="role-title add-link" data-text="CTEM Editor Beta" tabindex="-1">CTEM Editor <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  threatintelligence.ctemEditor</code> )</p>
+<td>CTEM Editor <sup>Beta</sup>
+<p>( <code>roles/ threatintelligence.ctemEditor</code> )</p>
 <p>This role can view and edit all properties of resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.  configurations.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>threatintelligence. configurations.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">threatintelligence.  configurations.  get</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  configurations.  list</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  configurations.  listRevisions</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  configurations.  update</code></li>
+<li><code>threatintelligence. configurations. get</code></li>
+<li><code>threatintelligence. configurations. list</code></li>
+<li><code>threatintelligence. configurations. listRevisions</code></li>
+<li><code>threatintelligence. configurations. update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">threatintelligence.findings.*</code></p>
+<p><code>threatintelligence.findings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">threatintelligence.  findings.  get</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  findings.  list</code></li>
+<li><code>threatintelligence. findings. get</code></li>
+<li><code>threatintelligence. findings. list</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="threatintelligence.ctemProjectAdmin" class="role-title add-link" data-text="CTEM Project Admin Beta" tabindex="-1">CTEM Project Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  threatintelligence.ctemProjectAdmin</code> )</p>
+<td>CTEM Project Admin <sup>Beta</sup>
+<p>( <code>roles/ threatintelligence.ctemProjectAdmin</code> )</p>
 <p>CTEM Project Admin</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.  configurations.  get</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.  configurations.  list</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.  configurations.  update</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.findings.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>threatintelligence. configurations. get</code></p>
+<p><code>threatintelligence. configurations. list</code></p>
+<p><code>threatintelligence. configurations. update</code></p>
+<p><code>threatintelligence.findings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">threatintelligence.  findings.  get</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  findings.  list</code></li>
+<li><code>threatintelligence. findings. get</code></li>
+<li><code>threatintelligence. findings. list</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="threatintelligence.ctemViewer" class="role-title add-link" data-text="CTEM Viewer Beta" tabindex="-1">CTEM Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  threatintelligence.ctemViewer</code> )</p>
+<td>CTEM Viewer <sup>Beta</sup>
+<p>( <code>roles/ threatintelligence.ctemViewer</code> )</p>
 <p>This role can view all resources.</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.  configurations.  get</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.  configurations.  list</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.  configurations.  listRevisions</code></p>
-<p><code dir="ltr" translate="no">threatintelligence.findings.*</code></p>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>threatintelligence. configurations. get</code></p>
+<p><code>threatintelligence. configurations. list</code></p>
+<p><code>threatintelligence. configurations. listRevisions</code></p>
+<p><code>threatintelligence.findings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">threatintelligence.  findings.  get</code></li>
-<li><code dir="ltr" translate="no">threatintelligence.  findings.  list</code></li>
+<li><code>threatintelligence. findings. get</code></li>
+<li><code>threatintelligence. findings. list</code></li>
 </ul></td>
 </tr>
 </tbody>
@@ -137,161 +137,15 @@ This page lists the IAM roles and permissions for Google Threat Intelligence. To
 
 ## Google Threat Intelligence permissions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Permission</th>
-<th>Included in roles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><h4 id="threatintelligence.alertdocuments.get" class="permission-name add-link" data-text="threatintelligence.alertdocuments.get" tabindex="-1"><code dir="ltr" translate="no">threatintelligence.  alertdocuments.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin">GTI Alert Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser">GTI Alert User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="threatintelligence.alerts.get" class="permission-name add-link" data-text="threatintelligence.alerts.get" tabindex="-1"><code dir="ltr" translate="no">threatintelligence.alerts.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin">GTI Alert Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser">GTI Alert User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="threatintelligence.alerts.list" class="permission-name add-link" data-text="threatintelligence.alerts.list" tabindex="-1"><code dir="ltr" translate="no">threatintelligence.alerts.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin">GTI Alert Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser">GTI Alert User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="threatintelligence.alerts.update" class="permission-name add-link" data-text="threatintelligence.alerts.update" tabindex="-1"><code dir="ltr" translate="no">threatintelligence.  alerts.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin">GTI Alert Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser">GTI Alert User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="threatintelligence.configurations.get" class="permission-name add-link" data-text="threatintelligence.configurations.get" tabindex="-1"><code dir="ltr" translate="no">threatintelligence.  configurations.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin">GTI Alert Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser">GTI Alert User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemAdmin">CTEM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemEditor">CTEM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemProjectAdmin">CTEM Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemProjectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemViewer">CTEM Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="threatintelligence.configurations.list" class="permission-name add-link" data-text="threatintelligence.configurations.list" tabindex="-1"><code dir="ltr" translate="no">threatintelligence.  configurations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin">GTI Alert Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser">GTI Alert User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemAdmin">CTEM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemEditor">CTEM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemProjectAdmin">CTEM Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemProjectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemViewer">CTEM Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="threatintelligence.configurations.listRevisions" class="permission-name add-link" data-text="threatintelligence.configurations.listRevisions" tabindex="-1"><code dir="ltr" translate="no">threatintelligence.  configurations.  listRevisions</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin">GTI Alert Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser">GTI Alert User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemAdmin">CTEM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemEditor">CTEM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemViewer">CTEM Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="threatintelligence.configurations.update" class="permission-name add-link" data-text="threatintelligence.configurations.update" tabindex="-1"><code dir="ltr" translate="no">threatintelligence.  configurations.  update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin">GTI Alert Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemAdmin">CTEM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemEditor">CTEM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemProjectAdmin">CTEM Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemProjectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="threatintelligence.findings.get" class="permission-name add-link" data-text="threatintelligence.findings.get" tabindex="-1"><code dir="ltr" translate="no">threatintelligence.  findings.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin">GTI Alert Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser">GTI Alert User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemAdmin">CTEM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemEditor">CTEM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemProjectAdmin">CTEM Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemProjectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemViewer">CTEM Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="threatintelligence.findings.list" class="permission-name add-link" data-text="threatintelligence.findings.list" tabindex="-1"><code dir="ltr" translate="no">threatintelligence.  findings.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin">GTI Alert Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser">GTI Alert User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.alertUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemAdmin">CTEM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemEditor">CTEM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemProjectAdmin">CTEM Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemProjectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemViewer">CTEM Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  threatintelligence.ctemViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
-</tr>
-</tbody>
-</table>
+| Permission                                          | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `threatintelligence. alertdocuments. get`           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [GTI Alert Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin) ( `roles/ threatintelligence.alertAdmin` ) [GTI Alert User](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser) ( `roles/ threatintelligence.alertUser` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `threatintelligence.alerts.get`                     | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [GTI Alert Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin) ( `roles/ threatintelligence.alertAdmin` ) [GTI Alert User](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser) ( `roles/ threatintelligence.alertUser` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `threatintelligence.alerts.list`                    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [GTI Alert Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin) ( `roles/ threatintelligence.alertAdmin` ) [GTI Alert User](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser) ( `roles/ threatintelligence.alertUser` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| `threatintelligence. alerts. update`                | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [GTI Alert Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin) ( `roles/ threatintelligence.alertAdmin` ) [GTI Alert User](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser) ( `roles/ threatintelligence.alertUser` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `threatintelligence. configurations. get`           | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [GTI Alert Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin) ( `roles/ threatintelligence.alertAdmin` ) [GTI Alert User](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser) ( `roles/ threatintelligence.alertUser` ) [CTEM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemAdmin) ( `roles/ threatintelligence.ctemAdmin` ) [CTEM Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemEditor) ( `roles/ threatintelligence.ctemEditor` ) [CTEM Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemProjectAdmin) ( `roles/ threatintelligence.ctemProjectAdmin` ) [CTEM Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemViewer) ( `roles/ threatintelligence.ctemViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `threatintelligence. configurations. list`          | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [GTI Alert Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin) ( `roles/ threatintelligence.alertAdmin` ) [GTI Alert User](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser) ( `roles/ threatintelligence.alertUser` ) [CTEM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemAdmin) ( `roles/ threatintelligence.ctemAdmin` ) [CTEM Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemEditor) ( `roles/ threatintelligence.ctemEditor` ) [CTEM Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemProjectAdmin) ( `roles/ threatintelligence.ctemProjectAdmin` ) [CTEM Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemViewer) ( `roles/ threatintelligence.ctemViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
+| `threatintelligence. configurations. listRevisions` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [GTI Alert Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin) ( `roles/ threatintelligence.alertAdmin` ) [GTI Alert User](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser) ( `roles/ threatintelligence.alertUser` ) [CTEM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemAdmin) ( `roles/ threatintelligence.ctemAdmin` ) [CTEM Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemEditor) ( `roles/ threatintelligence.ctemEditor` ) [CTEM Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemViewer) ( `roles/ threatintelligence.ctemViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `threatintelligence. configurations. update`        | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [GTI Alert Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin) ( `roles/ threatintelligence.alertAdmin` ) [CTEM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemAdmin) ( `roles/ threatintelligence.ctemAdmin` ) [CTEM Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemEditor) ( `roles/ threatintelligence.ctemEditor` ) [CTEM Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemProjectAdmin) ( `roles/ threatintelligence.ctemProjectAdmin` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `threatintelligence. findings. get`                 | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [GTI Alert Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin) ( `roles/ threatintelligence.alertAdmin` ) [GTI Alert User](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser) ( `roles/ threatintelligence.alertUser` ) [CTEM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemAdmin) ( `roles/ threatintelligence.ctemAdmin` ) [CTEM Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemEditor) ( `roles/ threatintelligence.ctemEditor` ) [CTEM Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemProjectAdmin) ( `roles/ threatintelligence.ctemProjectAdmin` ) [CTEM Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemViewer) ( `roles/ threatintelligence.ctemViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| `threatintelligence. findings. list`                | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [GTI Alert Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertAdmin) ( `roles/ threatintelligence.alertAdmin` ) [GTI Alert User](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.alertUser) ( `roles/ threatintelligence.alertUser` ) [CTEM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemAdmin) ( `roles/ threatintelligence.ctemAdmin` ) [CTEM Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemEditor) ( `roles/ threatintelligence.ctemEditor` ) [CTEM Project Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemProjectAdmin) ( `roles/ threatintelligence.ctemProjectAdmin` ) [CTEM Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence#threatintelligence.ctemViewer) ( `roles/ threatintelligence.ctemViewer` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |

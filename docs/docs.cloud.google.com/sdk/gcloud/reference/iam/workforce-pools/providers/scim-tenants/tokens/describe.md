@@ -12,7 +12,7 @@ gcloud iam workforce-pools providers scim-tenants tokens describe - describe an 
 
 SYNOPSIS
 
-`gcloud iam workforce-pools providers scim-tenants tokens describe` ( `  TOKEN  ` : `  --location  ` = `  LOCATION  ` `  --provider  ` = `  PROVIDER  ` `  --scim-tenant  ` = `  SCIM_TENANT  ` `  --workforce-pool  ` = `  WORKFORCE_POOL  ` ) \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam workforce-pools providers scim-tenants tokens describe` ( [`TOKEN`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/tokens/describe#TOKEN) : [`--location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/tokens/describe#--location) = `LOCATION` [`--provider`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/tokens/describe#--provider) = `PROVIDER` [`--scim-tenant`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/tokens/describe#--scim-tenant) = `SCIM_TENANT` [`--workforce-pool`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/tokens/describe#--workforce-pool) = `WORKFORCE_POOL` ) \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/scim-tenants/tokens/describe#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -22,7 +22,9 @@ EXAMPLES
 
 To describe a SCIM token with ID `my-token` under tenant `my-tenant` provider `my-provider` in pool `my-pool` located in `global` :
 
-    gcloud iam workforce-pools providers scim-tenants tokens describe my-token --location=global --workforce-pool=my-pool --provider=my-provider --scim-tenant=my-tenant
+```
+gcloud iam workforce-pools providers scim-tenants tokens describe my-token --location=global --workforce-pool=my-pool --provider=my-provider --scim-tenant=my-tenant
+```
 
 POSITIONAL ARGUMENTS
 
@@ -30,46 +32,46 @@ Workforce pool provider scim token resource - The SCIM token to describe. The ar
 
 This must be specified.
 
-  - `  TOKEN  `  
-    ID of the workforce pool provider scim token or fully qualified identifier for the workforce pool provider scim token.
-    
-    To set the `token` attribute:
-    
-      - provide the argument `token` on the command line.
-    
-    This positional argument must be specified if any of the other arguments in this group are specified.
+`TOKEN`  
+ID of the workforce pool provider scim token or fully qualified identifier for the workforce pool provider scim token.
 
-  - `--location` = `  LOCATION  `  
-    The location for the workforce pool.
-    
-    To set the `location` attribute:
-    
-      - provide the argument `token` on the command line with a fully specified name;
-      - provide the argument `--location` on the command line.
+To set the `token` attribute:
 
-  - `--provider` = `  PROVIDER  `  
-    The ID to use for the workforce pool provider, which becomes the final component of the resource name. This value must be unique within the workforce pool, 4-32 characters in length, and may contain the characters \[a-z0-9-\]. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `provider` attribute:
-    
-      - provide the argument `token` on the command line with a fully specified name;
-      - provide the argument `--provider` on the command line.
+- provide the argument `token` on the command line.
 
-  - `--scim-tenant` = `  SCIM_TENANT  `  
-    The ID for the SCIM tenant, which becomes the final component of the resource name. This value must be 4-32 characters, alphanumeric (\[a-z0-9-\]), and cannot start with gcp-. To set the `scim-tenant` attribute:
-    
-      - provide the argument `token` on the command line with a fully specified name;
-      - provide the argument `--scim-tenant` on the command line.
+This positional argument must be specified if any of the other arguments in this group are specified.
 
-  - `--workforce-pool` = `  WORKFORCE_POOL  `  
-    The ID to use for the workforce pool, which becomes the final component of the resource name. This value must be a globally unique string of 6 to 63 lowercase letters, digits, or hyphens. It must start with a letter, and cannot have a trailing hyphen. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `workforce-pool` attribute:
-    
-      - provide the argument `token` on the command line with a fully specified name;
-      - provide the argument `--workforce-pool` on the command line.
+`--location` = `LOCATION`  
+The location for the workforce pool.
+
+To set the `location` attribute:
+
+- provide the argument `token` on the command line with a fully specified name;
+- provide the argument `--location` on the command line.
+
+`--provider` = `PROVIDER`  
+The ID to use for the workforce pool provider, which becomes the final component of the resource name. This value must be unique within the workforce pool, 4-32 characters in length, and may contain the characters \[a-z0-9-\]. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `provider` attribute:
+
+- provide the argument `token` on the command line with a fully specified name;
+- provide the argument `--provider` on the command line.
+
+`--scim-tenant` = `SCIM_TENANT`  
+The ID for the SCIM tenant, which becomes the final component of the resource name. This value must be 4-32 characters, alphanumeric (\[a-z0-9-\]), and cannot start with gcp-. To set the `scim-tenant` attribute:
+
+- provide the argument `token` on the command line with a fully specified name;
+- provide the argument `--scim-tenant` on the command line.
+
+`--workforce-pool` = `WORKFORCE_POOL`  
+The ID to use for the workforce pool, which becomes the final component of the resource name. This value must be a globally unique string of 6 to 63 lowercase letters, digits, or hyphens. It must start with a letter, and cannot have a trailing hyphen. The prefix `gcp-` is reserved for use by Google, and may not be specified. To set the `workforce-pool` attribute:
+
+- provide the argument `token` on the command line with a fully specified name;
+- provide the argument `--workforce-pool` on the command line.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 API REFERENCE
 
@@ -79,6 +81,10 @@ NOTES
 
 These variants are also available:
 
-    gcloud alpha iam workforce-pools providers scim-tenants tokens describe
+```
+gcloud alpha iam workforce-pools providers scim-tenants tokens describe
+```
 
-    gcloud beta iam workforce-pools providers scim-tenants tokens describe
+```
+gcloud beta iam workforce-pools providers scim-tenants tokens describe
+```

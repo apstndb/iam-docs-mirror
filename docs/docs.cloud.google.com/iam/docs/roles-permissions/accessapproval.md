@@ -23,86 +23,86 @@ This page lists the IAM roles and permissions for Access Approval. To search thr
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="accessapproval.admin" class="role-title add-link" data-text="Access Approval Admin" tabindex="-1">Access Approval Admin</h4>
-<p>( <code dir="ltr" translate="no">roles/  accessapproval.admin</code> )</p>
+<td>Access Approval Admin
+<p>( <code>roles/ accessapproval.admin</code> )</p>
 <p>Admin role for Access Approval</p></td>
-<td><p><code dir="ltr" translate="no">accessapproval.*</code></p>
+<td><p><code>accessapproval.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">accessapproval.  requests.  approve</code></li>
-<li><code dir="ltr" translate="no">accessapproval.  requests.  dismiss</code></li>
-<li><code dir="ltr" translate="no">accessapproval.requests.get</code></li>
-<li><code dir="ltr" translate="no">accessapproval.  requests.  invalidate</code></li>
-<li><code dir="ltr" translate="no">accessapproval.requests.list</code></li>
-<li><code dir="ltr" translate="no">accessapproval.  serviceAccounts.  get</code></li>
-<li><code dir="ltr" translate="no">accessapproval.settings.delete</code></li>
-<li><code dir="ltr" translate="no">accessapproval.settings.get</code></li>
-<li><code dir="ltr" translate="no">accessapproval.settings.update</code></li>
+<li><code>accessapproval. requests. approve</code></li>
+<li><code>accessapproval. requests. dismiss</code></li>
+<li><code>accessapproval.requests.get</code></li>
+<li><code>accessapproval. requests. invalidate</code></li>
+<li><code>accessapproval.requests.list</code></li>
+<li><code>accessapproval. serviceAccounts. get</code></li>
+<li><code>accessapproval.settings.delete</code></li>
+<li><code>accessapproval.settings.get</code></li>
+<li><code>accessapproval.settings.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="accessapproval.editor" class="role-title add-link" data-text="Access Approval Editor" tabindex="-1">Access Approval Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  accessapproval.editor</code> )</p>
+<td>Access Approval Editor
+<p>( <code>roles/ accessapproval.editor</code> )</p>
 <p>Editor role for Access Approval</p></td>
-<td><p><code dir="ltr" translate="no">accessapproval.requests.get</code></p>
-<p><code dir="ltr" translate="no">accessapproval.requests.list</code></p>
-<p><code dir="ltr" translate="no">accessapproval.  serviceAccounts.  get</code></p>
-<p><code dir="ltr" translate="no">accessapproval.settings.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>accessapproval.requests.get</code></p>
+<p><code>accessapproval.requests.list</code></p>
+<p><code>accessapproval. serviceAccounts. get</code></p>
+<p><code>accessapproval.settings.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="accessapproval.viewer" class="role-title add-link" data-text="Access Approval Viewer" tabindex="-1">Access Approval Viewer</h4>
-<p>( <code dir="ltr" translate="no">roles/  accessapproval.viewer</code> )</p>
+<td>Access Approval Viewer
+<p>( <code>roles/ accessapproval.viewer</code> )</p>
 <p>Ability to view access approval requests and configuration</p></td>
-<td><p><code dir="ltr" translate="no">accessapproval.requests.get</code></p>
-<p><code dir="ltr" translate="no">accessapproval.requests.list</code></p>
-<p><code dir="ltr" translate="no">accessapproval.  serviceAccounts.  get</code></p>
-<p><code dir="ltr" translate="no">accessapproval.settings.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>accessapproval.requests.get</code></p>
+<p><code>accessapproval.requests.list</code></p>
+<p><code>accessapproval. serviceAccounts. get</code></p>
+<p><code>accessapproval.settings.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="accessapproval.approver" class="role-title add-link" data-text="Access Approval Approver" tabindex="-1">Access Approval Approver</h4>
-<p>( <code dir="ltr" translate="no">roles/  accessapproval.approver</code> )</p>
+<td>Access Approval Approver
+<p>( <code>roles/ accessapproval.approver</code> )</p>
 <p>Ability to view or act on access approval requests and view configuration.</p></td>
-<td><p><code dir="ltr" translate="no">accessapproval.requests.*</code></p>
+<td><p><code>accessapproval.requests.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">accessapproval.  requests.  approve</code></li>
-<li><code dir="ltr" translate="no">accessapproval.  requests.  dismiss</code></li>
-<li><code dir="ltr" translate="no">accessapproval.requests.get</code></li>
-<li><code dir="ltr" translate="no">accessapproval.  requests.  invalidate</code></li>
-<li><code dir="ltr" translate="no">accessapproval.requests.list</code></li>
+<li><code>accessapproval. requests. approve</code></li>
+<li><code>accessapproval. requests. dismiss</code></li>
+<li><code>accessapproval.requests.get</code></li>
+<li><code>accessapproval. requests. invalidate</code></li>
+<li><code>accessapproval.requests.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">accessapproval.  serviceAccounts.  get</code></p>
-<p><code dir="ltr" translate="no">accessapproval.settings.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>accessapproval. serviceAccounts. get</code></p>
+<p><code>accessapproval.settings.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="accessapproval.configEditor" class="role-title add-link" data-text="Access Approval Config Editor" tabindex="-1">Access Approval Config Editor</h4>
-<p>( <code dir="ltr" translate="no">roles/  accessapproval.configEditor</code> )</p>
+<td>Access Approval Config Editor
+<p>( <code>roles/ accessapproval.configEditor</code> )</p>
 <p>Ability to update the Access Approval configuration</p></td>
-<td><p><code dir="ltr" translate="no">accessapproval.  serviceAccounts.  get</code></p>
-<p><code dir="ltr" translate="no">accessapproval.settings.*</code></p>
+<td><p><code>accessapproval. serviceAccounts. get</code></p>
+<p><code>accessapproval.settings.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">accessapproval.settings.delete</code></li>
-<li><code dir="ltr" translate="no">accessapproval.settings.get</code></li>
-<li><code dir="ltr" translate="no">accessapproval.settings.update</code></li>
+<li><code>accessapproval.settings.delete</code></li>
+<li><code>accessapproval.settings.get</code></li>
+<li><code>accessapproval.settings.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="accessapproval.invalidator" class="role-title add-link" data-text="Access Approval Invalidator" tabindex="-1">Access Approval Invalidator</h4>
-<p>( <code dir="ltr" translate="no">roles/  accessapproval.invalidator</code> )</p>
+<td>Access Approval Invalidator
+<p>( <code>roles/ accessapproval.invalidator</code> )</p>
 <p>Ability to invalidate existing approved approval requests</p></td>
-<td><p><code dir="ltr" translate="no">accessapproval.  requests.  invalidate</code></p>
-<p><code dir="ltr" translate="no">accessapproval.  serviceAccounts.  get</code></p>
-<p><code dir="ltr" translate="no">accessapproval.settings.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<td><p><code>accessapproval. requests. invalidate</code></p>
+<p><code>accessapproval. serviceAccounts. get</code></p>
+<p><code>accessapproval.settings.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -122,125 +122,125 @@ This page lists the IAM roles and permissions for Access Approval. To search thr
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="accessapproval.requests.approve" class="permission-name add-link" data-text="accessapproval.requests.approve" tabindex="-1"><code dir="ltr" translate="no">accessapproval.  requests.  approve</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>accessapproval. requests. approve</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code>roles/ accessapproval.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code>roles/ accessapproval.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="accessapproval.requests.dismiss" class="permission-name add-link" data-text="accessapproval.requests.dismiss" tabindex="-1"><code dir="ltr" translate="no">accessapproval.  requests.  dismiss</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>accessapproval. requests. dismiss</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code>roles/ accessapproval.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code>roles/ accessapproval.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="accessapproval.requests.get" class="permission-name add-link" data-text="accessapproval.requests.get" tabindex="-1"><code dir="ltr" translate="no">accessapproval.requests.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.editor">Access Approval Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.viewer">Access Approval Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>accessapproval.requests.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code>roles/ accessapproval.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.editor">Access Approval Editor</a> ( <code>roles/ accessapproval.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.viewer">Access Approval Viewer</a> ( <code>roles/ accessapproval.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code>roles/ accessapproval.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.accessApprovalServiceAgent">Cloud Controls Partner Access Approval Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.accessApprovalServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.accessApprovalServiceAgent">Cloud Controls Partner Access Approval Service Agent</a> ( <code>roles/ cloudcontrolspartner.accessApprovalServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="accessapproval.requests.invalidate" class="permission-name add-link" data-text="accessapproval.requests.invalidate" tabindex="-1"><code dir="ltr" translate="no">accessapproval.  requests.  invalidate</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.invalidator">Access Approval Invalidator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.invalidator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>accessapproval. requests. invalidate</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code>roles/ accessapproval.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code>roles/ accessapproval.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.invalidator">Access Approval Invalidator</a> ( <code>roles/ accessapproval.invalidator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="accessapproval.requests.list" class="permission-name add-link" data-text="accessapproval.requests.list" tabindex="-1"><code dir="ltr" translate="no">accessapproval.requests.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.editor">Access Approval Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.viewer">Access Approval Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>accessapproval.requests.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code>roles/ accessapproval.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.editor">Access Approval Editor</a> ( <code>roles/ accessapproval.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.viewer">Access Approval Viewer</a> ( <code>roles/ accessapproval.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code>roles/ accessapproval.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.accessApprovalServiceAgent">Cloud Controls Partner Access Approval Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.accessApprovalServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.accessApprovalServiceAgent">Cloud Controls Partner Access Approval Service Agent</a> ( <code>roles/ cloudcontrolspartner.accessApprovalServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="accessapproval.serviceAccounts.get" class="permission-name add-link" data-text="accessapproval.serviceAccounts.get" tabindex="-1"><code dir="ltr" translate="no">accessapproval.  serviceAccounts.  get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.editor">Access Approval Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.viewer">Access Approval Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.configEditor">Access Approval Config Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.configEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.invalidator">Access Approval Invalidator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.invalidator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<td><code>accessapproval. serviceAccounts. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code>roles/ accessapproval.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.editor">Access Approval Editor</a> ( <code>roles/ accessapproval.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.viewer">Access Approval Viewer</a> ( <code>roles/ accessapproval.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code>roles/ accessapproval.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.configEditor">Access Approval Config Editor</a> ( <code>roles/ accessapproval.configEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.invalidator">Access Approval Invalidator</a> ( <code>roles/ accessapproval.invalidator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="accessapproval.settings.delete" class="permission-name add-link" data-text="accessapproval.settings.delete" tabindex="-1"><code dir="ltr" translate="no">accessapproval.settings.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.configEditor">Access Approval Config Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.configEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>accessapproval.settings.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code>roles/ accessapproval.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.configEditor">Access Approval Config Editor</a> ( <code>roles/ accessapproval.configEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="accessapproval.settings.get" class="permission-name add-link" data-text="accessapproval.settings.get" tabindex="-1"><code dir="ltr" translate="no">accessapproval.settings.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.editor">Access Approval Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.viewer">Access Approval Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.approver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.configEditor">Access Approval Config Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.configEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.invalidator">Access Approval Invalidator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.invalidator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<td><code>accessapproval.settings.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code>roles/ accessapproval.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.editor">Access Approval Editor</a> ( <code>roles/ accessapproval.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.viewer">Access Approval Viewer</a> ( <code>roles/ accessapproval.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.approver">Access Approval Approver</a> ( <code>roles/ accessapproval.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.configEditor">Access Approval Config Editor</a> ( <code>roles/ accessapproval.configEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.invalidator">Access Approval Invalidator</a> ( <code>roles/ accessapproval.invalidator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="accessapproval.settings.update" class="permission-name add-link" data-text="accessapproval.settings.update" tabindex="-1"><code dir="ltr" translate="no">accessapproval.settings.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.configEditor">Access Approval Config Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accessapproval.configEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
+<td><code>accessapproval.settings.update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.admin">Access Approval Admin</a> ( <code>roles/ accessapproval.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accessapproval#accessapproval.configEditor">Access Approval Config Editor</a> ( <code>roles/ accessapproval.configEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p></td>
 </tr>
 </tbody>
 </table>

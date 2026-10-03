@@ -12,7 +12,7 @@ gcloud iam workload-identity-pools create-cred-config - create a configuration f
 
 SYNOPSIS
 
-`gcloud iam workload-identity-pools create-cred-config` `  AUDIENCE  ` `  --output-file  ` = `  OUTPUT_FILE  ` ( `  --aws  ` | `  --azure  ` | `  --credential-cert-path  ` = `  CREDENTIAL_CERT_PATH  ` | `  --credential-source-file  ` = `  CREDENTIAL_SOURCE_FILE  ` | `  --credential-source-url  ` = `  CREDENTIAL_SOURCE_URL  ` | `  --executable-command  ` = `  EXECUTABLE_COMMAND  ` ) \[ `  --app-id-uri  ` = `  APP_ID_URI  ` \] \[ `  --credential-source-field-name  ` = `  CREDENTIAL_SOURCE_FIELD_NAME  ` \] \[ `  --credential-source-headers  ` =\[ `  key  ` = `  value  ` , …\]\] \[ `  --credential-source-type  ` = `  CREDENTIAL_SOURCE_TYPE  ` \] \[ `  --enable-imdsv2  ` \] \[ `  --sts-location  ` = `  STS_LOCATION  ` \] \[ `  --subject-token-type  ` = `  SUBJECT_TOKEN_TYPE  ` \] \[ `  --credential-cert-private-key-path  ` = `  CREDENTIAL_CERT_PRIVATE_KEY_PATH  ` : `  --credential-cert-configuration-output-file  ` = `  CREDENTIAL_CERT_CONFIGURATION_OUTPUT_FILE  ` `  --credential-cert-trust-chain-path  ` = `  CREDENTIAL_CERT_TRUST_CHAIN_PATH  ` \] \[ `  --executable-output-file  ` = `  EXECUTABLE_OUTPUT_FILE  ` `  --executable-timeout-millis  ` = `  EXECUTABLE_TIMEOUT_MILLIS  ` \] \[ `  --service-account  ` = `  SERVICE_ACCOUNT  ` : `  --service-account-token-lifetime-seconds  ` = `  SERVICE_ACCOUNT_TOKEN_LIFETIME_SECONDS  ` \] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam workload-identity-pools create-cred-config` [`AUDIENCE`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#AUDIENCE) [`--output-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--output-file) = `OUTPUT_FILE` ( [`--aws`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--aws) \| [`--azure`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--azure) \| [`--credential-cert-path`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-cert-path) = `CREDENTIAL_CERT_PATH` \| [`--credential-source-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-file) = `CREDENTIAL_SOURCE_FILE` \| [`--credential-source-url`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-url) = `CREDENTIAL_SOURCE_URL` \| [`--executable-command`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--executable-command) = `EXECUTABLE_COMMAND` ) \[ [`--app-id-uri`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--app-id-uri) = `APP_ID_URI` \] \[ [`--credential-source-field-name`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-field-name) = `CREDENTIAL_SOURCE_FIELD_NAME` \] \[ [`--credential-source-headers`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-headers) =\[ `key` = `value` , …\]\] \[ [`--credential-source-type`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-type) = `CREDENTIAL_SOURCE_TYPE` \] \[ [`--enable-imdsv2`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--enable-imdsv2) \] \[ [`--sts-location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--sts-location) = `STS_LOCATION` \] \[ [`--subject-token-type`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--subject-token-type) = `SUBJECT_TOKEN_TYPE` \] \[ [`--credential-cert-private-key-path`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-cert-private-key-path) = `CREDENTIAL_CERT_PRIVATE_KEY_PATH` : [`--credential-cert-configuration-output-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-cert-configuration-output-file) = `CREDENTIAL_CERT_CONFIGURATION_OUTPUT_FILE` [`--credential-cert-trust-chain-path`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-cert-trust-chain-path) = `CREDENTIAL_CERT_TRUST_CHAIN_PATH` \] \[ [`--executable-output-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--executable-output-file) = `EXECUTABLE_OUTPUT_FILE` [`--executable-timeout-millis`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--executable-timeout-millis) = `EXECUTABLE_TIMEOUT_MILLIS` \] \[ [`--service-account`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--service-account) = `SERVICE_ACCOUNT` : [`--service-account-token-lifetime-seconds`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--service-account-token-lifetime-seconds) = `SERVICE_ACCOUNT_TOKEN_LIFETIME_SECONDS` \] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -22,38 +22,50 @@ EXAMPLES
 
 To create a file-sourced credential configuration for your project, run:
 
-    gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --service-account=$EMAIL --credential-source-file=$PATH_TO_OIDC_ID_TOKEN --output-file=credentials.json
+```
+gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --service-account=$EMAIL --credential-source-file=$PATH_TO_OIDC_ID_TOKEN --output-file=credentials.json
+```
 
 To create a URL-sourced credential configuration for your project, run:
 
-    gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --service-account=$EMAIL --credential-source-url=$URL_FOR_OIDC_TOKEN --credential-source-headers=Key=Value --output-file=credentials.json
+```
+gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --service-account=$EMAIL --credential-source-url=$URL_FOR_OIDC_TOKEN --credential-source-headers=Key=Value --output-file=credentials.json
+```
 
 To create an executable-source credential configuration for your project, run the following command:
 
-    gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --executable-command=$EXECUTABLE_COMMAND --executable-timeout-millis=30000 --executable-output-file=$CACHE_FILE --output-file=credentials.json
+```
+gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --executable-command=$EXECUTABLE_COMMAND --executable-timeout-millis=30000 --executable-output-file=$CACHE_FILE --output-file=credentials.json
+```
 
 To create an AWS-based credential configuration for your project, run:
 
-    gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --service-account=$EMAIL --aws --enable-imdsv2 --output-file=credentials.json
+```
+gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --service-account=$EMAIL --aws --enable-imdsv2 --output-file=credentials.json
+```
 
 To create an Azure-based credential configuration for your project, run:
 
-    gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --service-account=$EMAIL --azure --app-id-uri=$URI_FOR_AZURE_APP_ID --output-file=credentials.json
+```
+gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --service-account=$EMAIL --azure --app-id-uri=$URI_FOR_AZURE_APP_ID --output-file=credentials.json
+```
 
 To create an X.509 certificate-based credential configuration for your project, run:
 
-    gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --service-account=$EMAIL --credential-cert-path=$PATH_TO_CERTIFICATE_FILE --credential-cert-private-key-path=$PATH_TO_PRIVATE_KEY_FILE --output-file=credentials.json
+```
+gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --service-account=$EMAIL --credential-cert-path=$PATH_TO_CERTIFICATE_FILE --credential-cert-private-key-path=$PATH_TO_PRIVATE_KEY_FILE --output-file=credentials.json
+```
 
-To use the resulting file for any of these commands, set the GOOGLE\_APPLICATION\_CREDENTIALS environment variable to point to the generated file
+To use the resulting file for any of these commands, set the GOOGLE_APPLICATION_CREDENTIALS environment variable to point to the generated file
 
 POSITIONAL ARGUMENTS
 
-  - `  AUDIENCE  `  
-    The workload identity pool provider fully qualified identifier.
+`AUDIENCE`  
+The workload identity pool provider fully qualified identifier.
 
 REQUIRED FLAGS
 
-`--output-file` = `  OUTPUT_FILE  `
+`--output-file` = `OUTPUT_FILE`
 
 Location to store the generated credential configuration file.
 
@@ -61,80 +73,89 @@ Credential types.
 
 Exactly one of these must be specified:
 
-  - `--aws`  
-    Use AWS.
-  - `--azure`  
-    Use Azure.
-  - `--credential-cert-path` = `  CREDENTIAL_CERT_PATH  `  
-    Path of the X.509 certificate file.
-  - `--credential-source-file` = `  CREDENTIAL_SOURCE_FILE  `  
-    Location of the credential source file.
-  - `--credential-source-url` = `  CREDENTIAL_SOURCE_URL  `  
-    URL to obtain the credential from.
-  - `--executable-command` = `  EXECUTABLE_COMMAND  `  
-    The full command to run to retrieve the credential. Must be an absolute path for the program including arguments.
+`--aws`  
+Use AWS.
+
+`--azure`  
+Use Azure.
+
+`--credential-cert-path` = `CREDENTIAL_CERT_PATH`  
+Path of the X.509 certificate file.
+
+`--credential-source-file` = `CREDENTIAL_SOURCE_FILE`  
+Location of the credential source file.
+
+`--credential-source-url` = `CREDENTIAL_SOURCE_URL`  
+URL to obtain the credential from.
+
+`--executable-command` = `EXECUTABLE_COMMAND`  
+The full command to run to retrieve the credential. Must be an absolute path for the program including arguments.
 
 OPTIONAL FLAGS
 
-  - `--app-id-uri` = `  APP_ID_URI  `  
-    The custom Application ID URI for the Azure access token.
+`--app-id-uri` = `APP_ID_URI`  
+The custom Application ID URI for the Azure access token.
 
-  - `--credential-source-field-name` = `  CREDENTIAL_SOURCE_FIELD_NAME  `  
-    Subject token field name (key) in a JSON credential source.
+`--credential-source-field-name` = `CREDENTIAL_SOURCE_FIELD_NAME`  
+Subject token field name (key) in a JSON credential source.
 
-  - `--credential-source-headers` =\[ `  key  ` = `  value  ` ,…\]  
-    Headers to use when querying the credential-source-url.
+`--credential-source-headers` =\[ `key` = `value` ,…\]  
+Headers to use when querying the credential-source-url.
 
-  - `--credential-source-type` = `  CREDENTIAL_SOURCE_TYPE  `  
-    Format of the credential source (JSON or text).
+`--credential-source-type` = `CREDENTIAL_SOURCE_TYPE`  
+Format of the credential source (JSON or text).
 
-  - `--enable-imdsv2`  
-    Adds the AWS IMDSv2 session token Url to the credential source to enforce the AWS IMDSv2 flow.
+`--enable-imdsv2`  
+Adds the AWS IMDSv2 session token Url to the credential source to enforce the AWS IMDSv2 flow.
 
-  - `--sts-location` = `  STS_LOCATION  `  
-    The location to use for the Security Token Service token endpoint. For example, specifying `us-central1` will configure the client to use the regional endpoint `sts.us-central1.rep.googleapis.com` . If not specified, the global endpoint `sts.googleapis.com` is used.
+`--sts-location` = `STS_LOCATION`  
+The location to use for the Security Token Service token endpoint. For example, specifying `us-central1` will configure the client to use the regional endpoint `sts.us-central1.rep.googleapis.com` . If not specified, the global endpoint `sts.googleapis.com` is used.
 
-  - `--subject-token-type` = `  SUBJECT_TOKEN_TYPE  `  
-    The type of token being used for authorization. This defaults to urn:ietf:params:oauth:token-type:jwt.
+`--subject-token-type` = `SUBJECT_TOKEN_TYPE`  
+The type of token being used for authorization. This defaults to urn:ietf:params:oauth:token-type:jwt.
 
-  - Arguments for an X.509 certificate type credential source.  
-    `--credential-cert-private-key-path` = `  CREDENTIAL_CERT_PRIVATE_KEY_PATH  `  
-    Path of the X.509 private key file.
-    
-    This flag argument must be specified if any of the other arguments in this group are specified.
+Arguments for an X.509 certificate type credential source.  
+`--credential-cert-private-key-path` = `CREDENTIAL_CERT_PRIVATE_KEY_PATH`  
+Path of the X.509 private key file.
 
-  - `--credential-cert-configuration-output-file` = `  CREDENTIAL_CERT_CONFIGURATION_OUTPUT_FILE  `  
-    Path for the certificate configuration file. If specified, a certificate configuration file will be created at the specified path. If not specified, the certificate configuration will be created at the default gcloud location.
+This flag argument must be specified if any of the other arguments in this group are specified.
 
-  - `--credential-cert-trust-chain-path` = `  CREDENTIAL_CERT_TRUST_CHAIN_PATH  `  
-    Path for the trust chain file. A trust chain file is required if there are intermediate certificates in the certificate chain in between the root certificate stored in the workload identity pool provider trust store. This trust chain file should be a list of PEM certificates, with the leaf certificate at the top.
+`--credential-cert-configuration-output-file` = `CREDENTIAL_CERT_CONFIGURATION_OUTPUT_FILE`  
+Path for the certificate configuration file. If specified, a certificate configuration file will be created at the specified path. If not specified, the certificate configuration will be created at the default gcloud location.
 
-  - Arguments for an executable type credential source.  
-    `--executable-output-file` = `  EXECUTABLE_OUTPUT_FILE  `  
-    Absolute path to the file storing the executable response.
+`--credential-cert-trust-chain-path` = `CREDENTIAL_CERT_TRUST_CHAIN_PATH`  
+Path for the trust chain file. A trust chain file is required if there are intermediate certificates in the certificate chain in between the root certificate stored in the workload identity pool provider trust store. This trust chain file should be a list of PEM certificates, with the leaf certificate at the top.
 
-  - `--executable-timeout-millis` = `  EXECUTABLE_TIMEOUT_MILLIS  `  
-    Timeout duration, in milliseconds, to wait for the executable to finish.
+Arguments for an executable type credential source.  
+`--executable-output-file` = `EXECUTABLE_OUTPUT_FILE`  
+Absolute path to the file storing the executable response.
 
-  - Service account impersonation options.  
-    `--service-account` = `  SERVICE_ACCOUNT  `  
-    Email of the service account to impersonate.
-    
-    This flag argument must be specified if any of the other arguments in this group are specified.
+`--executable-timeout-millis` = `EXECUTABLE_TIMEOUT_MILLIS`  
+Timeout duration, in milliseconds, to wait for the executable to finish.
 
-  - `--service-account-token-lifetime-seconds` = `  SERVICE_ACCOUNT_TOKEN_LIFETIME_SECONDS  `  
-    Lifetime duration of the service account access token in seconds. Defaults to one hour if not specified. If a lifetime greater than one hour is required, the service account must be added as an allowed value in an Organization Policy that enforces the `constraints/iam.allowServiceAccountCredentialLifetimeExtension` constraint.
+Service account impersonation options.  
+`--service-account` = `SERVICE_ACCOUNT`  
+Email of the service account to impersonate.
+
+This flag argument must be specified if any of the other arguments in this group are specified.
+
+`--service-account-token-lifetime-seconds` = `SERVICE_ACCOUNT_TOKEN_LIFETIME_SECONDS`  
+Lifetime duration of the service account access token in seconds. Defaults to one hour if not specified. If a lifetime greater than one hour is required, the service account must be added as an allowed value in an Organization Policy that enforces the `constraints/iam.allowServiceAccountCredentialLifetimeExtension` constraint.
 
 GCLOUD WIDE FLAGS
 
-These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+These flags are available to all commands: [`--access-token-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--access-token-file) , [`--account`](https://docs.cloud.google.com/sdk/gcloud/reference#--account) , [`--billing-project`](https://docs.cloud.google.com/sdk/gcloud/reference#--billing-project) , [`--configuration`](https://docs.cloud.google.com/sdk/gcloud/reference#--configuration) , [`--flags-file`](https://docs.cloud.google.com/sdk/gcloud/reference#--flags-file) , [`--flatten`](https://docs.cloud.google.com/sdk/gcloud/reference#--flatten) , [`--format`](https://docs.cloud.google.com/sdk/gcloud/reference#--format) , [`--help`](https://docs.cloud.google.com/sdk/gcloud/reference#--help) , [`--impersonate-service-account`](https://docs.cloud.google.com/sdk/gcloud/reference#--impersonate-service-account) , [`--log-http`](https://docs.cloud.google.com/sdk/gcloud/reference#--log-http) , [`--project`](https://docs.cloud.google.com/sdk/gcloud/reference#--project) , [`--quiet`](https://docs.cloud.google.com/sdk/gcloud/reference#--quiet) , [`--trace-token`](https://docs.cloud.google.com/sdk/gcloud/reference#--trace-token) , [`--user-output-enabled`](https://docs.cloud.google.com/sdk/gcloud/reference#--user-output-enabled) , [`--verbosity`](https://docs.cloud.google.com/sdk/gcloud/reference#--verbosity) .
 
-Run ` $ gcloud help  ` for details.
+Run `$ `[`gcloud help`](https://docs.cloud.google.com/sdk/gcloud/reference) for details.
 
 NOTES
 
 These variants are also available:
 
-    gcloud alpha iam workload-identity-pools create-cred-config
+```
+gcloud alpha iam workload-identity-pools create-cred-config
+```
 
-    gcloud beta iam workload-identity-pools create-cred-config
+```
+gcloud beta iam workload-identity-pools create-cred-config
+```

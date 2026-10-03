@@ -24,10 +24,10 @@ This feature is in [Preview](https://cloud.google.com/products#product-launch-st
 
 For more information, see the following:
 
-  - [SCIM provisioning for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim)
-  - [Configure SCIM with Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra)
-  - [Configure SCIM with Okta](https://docs.cloud.google.com/iam/docs/configure-scim-okta)
-  - [Troubleshoot SCIM provisioning and synchronization](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#scim-signin-users-groups-fail)
+- [SCIM provisioning for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim)
+- [Configure SCIM with Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra)
+- [Configure SCIM with Okta](https://docs.cloud.google.com/iam/docs/configure-scim-okta)
+- [Troubleshoot SCIM provisioning and synchronization](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#scim-signin-users-groups-fail)
 
 ## September 16, 2026
 
@@ -39,10 +39,10 @@ The Cloud OAuth API provides dedicated OAuth 2.0 and OpenID Connect (OIDC) token
 
 For more information, see the following documentation:
 
-  - [Cloud OAuth API overview](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview)
-  - [Exchange tokens with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-exchange-tokens)
-  - [Retrieve user info with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-userinfo)
-  - [Retrieve enterprise groups with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-groups)
+- [Cloud OAuth API overview](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview)
+- [Exchange tokens with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-exchange-tokens)
+- [Retrieve user info with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-userinfo)
+- [Retrieve enterprise groups with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-groups)
 
 ## September 10, 2026
 
@@ -52,8 +52,8 @@ The Identity and Access Management (IAM) Model Context Protocol (MCP) server is 
 
 For more information, see the following documentation:
 
-  - [Use the IAM remote MCP server](https://docs.cloud.google.com/iam/docs/use-iam-mcp)
-  - [IAM MCP reference](https://docs.cloud.google.com/iam/docs/reference/mcp)
+- [Use the IAM remote MCP server](https://docs.cloud.google.com/iam/docs/use-iam-mcp)
+- [IAM MCP reference](https://docs.cloud.google.com/iam/docs/reference/mcp)
 
 ## September 09, 2026
 
@@ -63,8 +63,8 @@ You can get IAM role suggestions from Gemini programmatically by using the Polic
 
 For more information, see the following documentation:
 
-  - [Get predefined role suggestions with Gemini assistance](https://docs.cloud.google.com/iam/docs/role-picker-gemini)
-  - [Policy Assist REST reference](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest)
+- [Get predefined role suggestions with Gemini assistance](https://docs.cloud.google.com/iam/docs/role-picker-gemini)
+- [Policy Assist REST reference](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest)
 
 ## August 22, 2026
 
@@ -76,10 +76,10 @@ Agent Identity auth manager provides a centralized credentials vault and authent
 
 For more information, see the following documentation:
 
-  - [Agent Identity auth manager overview](https://docs.cloud.google.com/iam/docs/auth-manager-overview)
-  - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)
-  - [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
-  - [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations)
+- [Agent Identity auth manager overview](https://docs.cloud.google.com/iam/docs/auth-manager-overview)
+- [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)
+- [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
+- [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations)
 
 ## August 14, 2026
 
@@ -237,12 +237,12 @@ Feature
 
 [Privileged Access Manager (PAM)](https://docs.cloud.google.com/iam/docs/pam-overview) offers the following features in [preview](https://cloud.google.com/products#product-launch-stages) :
 
-  - [Multi-level and multi-party approvals](https://docs.cloud.google.com/iam/docs/pam-overview#mp-approvals)
-  - [Scope customization](https://docs.cloud.google.com/iam/docs/pam-overview#customize-scope)
-  - [Service account approvals](https://docs.cloud.google.com/iam/docs/pam-overview#ser-acc-approvals)
-  - [Inheritance support](https://docs.cloud.google.com/iam/docs/pam-overview#inheritance-support)
-  - [Notification preferences customization](https://docs.cloud.google.com/iam/docs/pam-overview#customize-settings)
-  - [Grant withdrawal](https://docs.cloud.google.com/iam/docs/pam-overview#grant-withdrawal)
+- [Multi-level and multi-party approvals](https://docs.cloud.google.com/iam/docs/pam-overview#mp-approvals)
+- [Scope customization](https://docs.cloud.google.com/iam/docs/pam-overview#customize-scope)
+- [Service account approvals](https://docs.cloud.google.com/iam/docs/pam-overview#ser-acc-approvals)
+- [Inheritance support](https://docs.cloud.google.com/iam/docs/pam-overview#inheritance-support)
+- [Notification preferences customization](https://docs.cloud.google.com/iam/docs/pam-overview#customize-settings)
+- [Grant withdrawal](https://docs.cloud.google.com/iam/docs/pam-overview#grant-withdrawal)
 
 Change
 
@@ -332,9 +332,9 @@ Feature
 
 [Privileged Access Manager (PAM)](https://docs.cloud.google.com/iam/docs/pam-overview) is now released to General Availability. The following features have been added:
 
-  - [Alerting on any external modifications](https://docs.cloud.google.com/iam/docs/pam-view-grants#modified-through-iam) to access grants outside of PAM.
-  - [VPC Service Controls integration for PAM](https://docs.cloud.google.com/iam/docs/secure-iam-vpc-sc#pam) , which allows customers to enforce authorized network access or require specific access context while using PAM.
-  - [Pub/Sub integration](https://docs.cloud.google.com/iam/docs/pam-overview#pubsub-notifications) for custom alerting and monitoring.
+- [Alerting on any external modifications](https://docs.cloud.google.com/iam/docs/pam-view-grants#modified-through-iam) to access grants outside of PAM.
+- [VPC Service Controls integration for PAM](https://docs.cloud.google.com/iam/docs/secure-iam-vpc-sc#pam) , which allows customers to enforce authorized network access or require specific access context while using PAM.
+- [Pub/Sub integration](https://docs.cloud.google.com/iam/docs/pam-overview#pubsub-notifications) for custom alerting and monitoring.
 
 ## September 12, 2024
 
@@ -372,10 +372,10 @@ Change
 
 As of May 3, 2024, when you create a new organization, it enforces the following organization policy constraints by default:
 
-  - `iam.disableServiceAccountKeyCreation`
-  - `iam.disableServiceAccountKeyUpload`
-  - `iam.automaticGrantsForDefaultServiceAccounts`
-  - `iam.allowedPolicyMemberDomains`
+- `iam.disableServiceAccountKeyCreation`
+- `iam.disableServiceAccountKeyUpload`
+- `iam.automaticGrantsForDefaultServiceAccounts`
+- `iam.allowedPolicyMemberDomains`
 
 For more information, see [Restricting service account usage](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts) and [Restricting identities by domain](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-domains) .
 
@@ -463,8 +463,8 @@ Change
 
 The IAM documentation has been reorganized. We made the following changes:
 
-  - Reorganized the left-hand navigation for the **Guides** tab.
-  - Removed the **Support** tab and relocated its documents to the **Resources** and **Guides** tabs.
+- Reorganized the left-hand navigation for the **Guides** tab.
+- Removed the **Support** tab and relocated its documents to the **Resources** and **Guides** tabs.
 
 ## February 10, 2023
 
@@ -520,10 +520,10 @@ Fixed
 
 In June 2022, IAM had an issue that resulted in excess [usage metrics for service accounts and service account keys](https://docs.cloud.google.com/iam/docs/service-account-monitoring) when any of the following actions were performed:
 
-  - [Listing service account keys](https://docs.cloud.google.com/iam/docs/creating-managing-service-account-keys#list-keys)
-  - [Getting a service account key](https://docs.cloud.google.com/iam/docs/creating-managing-service-account-keys#get-key)
-  - [Disabling a service account key](https://docs.cloud.google.com/iam/docs/creating-managing-service-account-keys#disabling)
-  - [Enabling a service account key](https://docs.cloud.google.com/iam/docs/creating-managing-service-account-keys#enabling)
+- [Listing service account keys](https://docs.cloud.google.com/iam/docs/creating-managing-service-account-keys#list-keys)
+- [Getting a service account key](https://docs.cloud.google.com/iam/docs/creating-managing-service-account-keys#get-key)
+- [Disabling a service account key](https://docs.cloud.google.com/iam/docs/creating-managing-service-account-keys#disabling)
+- [Enabling a service account key](https://docs.cloud.google.com/iam/docs/creating-managing-service-account-keys#enabling)
 
 Each time you took any of these actions, Cloud Monitoring recorded an authentication usage metric for the parent service account, and for each of its service account keys, regardless of whether you used the service account or its keys to authenticate. These excess metrics were visible in [Cloud Monitoring](https://docs.cloud.google.com/iam/docs/service-account-monitoring#view-metrics-all) , and in the [metrics for individual service accounts and keys](https://docs.cloud.google.com/iam/docs/service-account-monitoring#view-metrics-single-sa) , from June 7, 2022, through June 17, 2022.
 
@@ -667,9 +667,9 @@ Feature
 
 You can now use the Google Cloud Console to manage [workload identity federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) . For details, see the documentation for your identity provider:
 
-  - [Access resources from AWS](https://docs.cloud.google.com/iam/docs/access-resources-aws)
-  - [Access resources from Microsoft Azure](https://docs.cloud.google.com/iam/docs/access-resources-azure)
-  - [Access resources from an OIDC identity provider](https://docs.cloud.google.com/iam/docs/access-resources-oidc)
+- [Access resources from AWS](https://docs.cloud.google.com/iam/docs/access-resources-aws)
+- [Access resources from Microsoft Azure](https://docs.cloud.google.com/iam/docs/access-resources-azure)
+- [Access resources from an OIDC identity provider](https://docs.cloud.google.com/iam/docs/access-resources-oidc)
 
 ## May 10, 2021
 
@@ -709,9 +709,9 @@ For [workload identity federation](https://docs.cloud.google.com/iam/docs/worklo
 
 For details, see the documentation for your identity provider:
 
-  - [Generating Google credentials on AWS](https://docs.cloud.google.com/iam/docs/access-resources-aws#generate)
-  - [Generating Google credentials on Azure](https://docs.cloud.google.com/iam/docs/access-resources-azure#generate)
-  - [Generating Google credentials with other providers](https://docs.cloud.google.com/iam/docs/access-resources-oidc#generate)
+- [Generating Google credentials on AWS](https://docs.cloud.google.com/iam/docs/access-resources-aws#generate)
+- [Generating Google credentials on Azure](https://docs.cloud.google.com/iam/docs/access-resources-azure#generate)
+- [Generating Google credentials with other providers](https://docs.cloud.google.com/iam/docs/access-resources-oidc#generate)
 
 ## February 24, 2021
 
@@ -823,9 +823,9 @@ Feature
 
 New features are available for [Credential Access Boundaries](https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials) , currently in beta:
 
-  - You can now manage permissions for Cloud Storage objects, in addition to buckets.
-  - You can now use IAM Conditions to control which permissions are available in a short-lived OAuth 2.0 access token. For an example, see [Limit permissions for specific objects](https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials#example-object-startswith) .
-  - You can now use Credential Access Boundaries with a Cloud Storage bucket that does not use [uniform bucket-level access](https://docs.cloud.google.com/storage/docs/uniform-bucket-level-access) .
+- You can now manage permissions for Cloud Storage objects, in addition to buckets.
+- You can now use IAM Conditions to control which permissions are available in a short-lived OAuth 2.0 access token. For an example, see [Limit permissions for specific objects](https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials#example-object-startswith) .
+- You can now use Credential Access Boundaries with a Cloud Storage bucket that does not use [uniform bucket-level access](https://docs.cloud.google.com/storage/docs/uniform-bucket-level-access) .
 
 Change
 
@@ -889,7 +889,7 @@ To resolve this issue, see our guidance on [updating policies that contain delet
 
 Change
 
-Starting on July 27, 2020, IAM policies will identify deleted members that are bound to a role. Deleted members have the prefix `deleted:` and the suffix ` ?uid= numeric-id  ` .
+Starting on July 27, 2020, IAM policies will identify deleted members that are bound to a role. Deleted members have the prefix `deleted:` and the suffix `?uid= `` numeric-id` .
 
 For example, if you delete the account for the user `tamika@example.com` , and a policy binds that user to a role, the policy shows an identifier similar to `deleted:user:tamika@example.com?uid=123456789012345678901` .
 
@@ -903,8 +903,8 @@ Deprecated
 
 Using the IAM API to sign JSON Web Tokens (JWTs) or binary blobs is now deprecated.
 
-  - If you use the IAM API or its client libraries to sign JWTs or binary blobs, you must [migrate to the Service Account Credentials API](https://docs.cloud.google.com/iam/docs/migrating-to-credentials-api) before July 1, 2021.
-  - If you use the `gcloud` command-line tool to sign JWTs, you must [prepare for changes to the `gcloud` tool](https://docs.cloud.google.com/iam/docs/migrating-to-credentials-api#gcloud) before July 1, 2021.
+- If you use the IAM API or its client libraries to sign JWTs or binary blobs, you must [migrate to the Service Account Credentials API](https://docs.cloud.google.com/iam/docs/migrating-to-credentials-api) before July 1, 2021.
+- If you use the `gcloud` command-line tool to sign JWTs, you must [prepare for changes to the `gcloud` tool](https://docs.cloud.google.com/iam/docs/migrating-to-credentials-api#gcloud) before July 1, 2021.
 
 ## May 19, 2020
 
@@ -994,7 +994,7 @@ Feature
 
 Change
 
-IAM policies now identify deleted members that are bound to a role. Deleted members have the prefix `deleted:` and the suffix ` ?uid= [NUMERIC_ID]  ` .
+IAM policies now identify deleted members that are bound to a role. Deleted members have the prefix `deleted:` and the suffix `?uid= `` [NUMERIC_ID]` .
 
 For example, if you delete the account for the user `bob@example.com` , and a policy binds that user to a role, the policy shows an identifier similar to `deleted:user:bob@example.com?uid=123456789012345678901` .
 
@@ -1048,10 +1048,10 @@ Change
 
 For more information, see the following topics:
 
-  - [Understanding custom roles](https://docs.cloud.google.com/iam/docs/understanding-custom-roles)
-  - [Creating and managing custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles)
-  - [Maintaining custom roles with Deployment Manager](https://docs.cloud.google.com/iam/docs/maintain-custom-roles-deployment-manager)
-  - [Support level for permissions in custom roles](https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support)
+- [Understanding custom roles](https://docs.cloud.google.com/iam/docs/understanding-custom-roles)
+- [Creating and managing custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles)
+- [Maintaining custom roles with Deployment Manager](https://docs.cloud.google.com/iam/docs/maintain-custom-roles-deployment-manager)
+- [Support level for permissions in custom roles](https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support)
 
 ## September 27, 2017
 

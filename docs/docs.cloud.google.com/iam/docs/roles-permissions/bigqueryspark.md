@@ -25,13 +25,13 @@ Spark connector for BigQuery offers the following service agent roles. Service a
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="bigqueryspark.serviceAgent" class="role-title add-link" data-text="BigQuery Spark Service Agent" tabindex="-1">BigQuery Spark Service Agent</h4>
-<p>( <code dir="ltr" translate="no">roles/  bigqueryspark.serviceAgent</code> )</p>
+<td>BigQuery Spark Service Agent
+<p>( <code>roles/ bigqueryspark.serviceAgent</code> )</p>
 <p>Gives BigQuery Spark access to the service accounts in the user project.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">iam.  serviceAccounts.  getAccessToken</code></p></td>
+<td><p><code>iam. serviceAccounts. getAccessToken</code></p></td>
 </tr>
 </tbody>
 </table>

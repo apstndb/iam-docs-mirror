@@ -10,24 +10,24 @@ With VPC Service Controls, you can create *perimeters* , which are boundaries ar
 
 You can use VPC Service Controls to help secure the following Policy Intelligence APIs:
 
-  - Policy Troubleshooter API
-  - Policy Simulator API
+- Policy Troubleshooter API
+- Policy Simulator API
 
 ## Help secure the Policy Troubleshooter API
 
 > **Preview — Securing the Policy Troubleshooter API with VPC Service Controls**
-> 
+>
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 You can help secure policy troubleshooting by using VPC Service Controls.
 
 When you restrict the Policy Troubleshooter API with a perimeter, principals can troubleshoot IAM policies only if all resources involved in the request are in the same perimeter. There are usually two resources involved in a troubleshooting request:
 
-  - **The resource you're troubleshooting access for.** This resource can be any type. You explicitly specify this resource when you troubleshoot an IAM policy.
+- **The resource you're troubleshooting access for.** This resource can be any type. You explicitly specify this resource when you troubleshoot an IAM policy.
 
-  - **The resource you're using to troubleshoot access.** This resource must be a project, folder, or organization. In the Google Cloud console and gcloud CLI, this resource is inferred based on the project, folder, or organization that you have selected. In the REST API, you specify this resource using the `x-goog-user-project` header.
-    
-    This resource can be the same as the resource that you're troubleshooting access for, but it doesn't need to be.
+- **The resource you're using to troubleshoot access.** This resource must be a project, folder, or organization. In the Google Cloud console and gcloud CLI, this resource is inferred based on the project, folder, or organization that you have selected. In the REST API, you specify this resource using the `x-goog-user-project` header.
+
+  This resource can be the same as the resource that you're troubleshooting access for, but it doesn't need to be.
 
 If these resources aren't in the same perimeter, the request fails.
 
@@ -43,19 +43,19 @@ VPC Service Controls doesn't support adding folder or organization resources to 
 
 Principals can simulate allow policies only if certain resources involved in the simulation are in the same perimeter. There are several resources involved in an allow policy simulation:
 
-  - **The resource whose allow policy you're simulating.** This resource is also called the *target resource* . In the Google Cloud console, this is the resource whose allow policy you're editing. In the gcloud CLI and REST API, you explicitly specify this resource when you simulate an allow policy.
+- **The resource whose allow policy you're simulating.** This resource is also called the *target resource* . In the Google Cloud console, this is the resource whose allow policy you're editing. In the gcloud CLI and REST API, you explicitly specify this resource when you simulate an allow policy.
 
-  - **The project, folder, or organization that creates and runs the simulation.** This resource is also called the *host resource* . In the Google Cloud console and gcloud CLI, this resource is inferred based on the project, folder, or organization you have selected. In the REST API, you specify this resource using the `x-goog-user-project` header.
-    
-    This resource can be the same as the target resource, but it doesn't need to be.
+- **The project, folder, or organization that creates and runs the simulation.** This resource is also called the *host resource* . In the Google Cloud console and gcloud CLI, this resource is inferred based on the project, folder, or organization you have selected. In the REST API, you specify this resource using the `x-goog-user-project` header.
 
-  - **The resource that provides access logs for the simulation.** In a simulation, there is always one resource that provides access logs for the simulation. This resource varies depending on the target resource type:
-    
-      - If you are simulating an allow policy for a project or organization, Policy Simulator retrieves the access logs for that project or organization.
-      - If you are simulating an allow policy for a different type of resource, Policy Simulator retrieves the access logs for that resource's parent project or organization.
-      - If you are simulating multiple resources' allow policies at once, Policy Simulator retrieves the access logs for the resources' nearest common project or organization.
+  This resource can be the same as the target resource, but it doesn't need to be.
 
-  - **All supported resources with relevant allow policies.** When Policy Simulator runs a simulation, it considers all allow policies that might impact the user's access, including allow policies on the target resource's ancestor and descendant resources. As a result, these ancestor and descendant resources are also involved in simulations.
+- **The resource that provides access logs for the simulation.** In a simulation, there is always one resource that provides access logs for the simulation. This resource varies depending on the target resource type:
+
+  - If you are simulating an allow policy for a project or organization, Policy Simulator retrieves the access logs for that project or organization.
+  - If you are simulating an allow policy for a different type of resource, Policy Simulator retrieves the access logs for that resource's parent project or organization.
+  - If you are simulating multiple resources' allow policies at once, Policy Simulator retrieves the access logs for the resources' nearest common project or organization.
+
+- **All supported resources with relevant allow policies.** When Policy Simulator runs a simulation, it considers all allow policies that might impact the user's access, including allow policies on the target resource's ancestor and descendant resources. As a result, these ancestor and descendant resources are also involved in simulations.
 
 If the target resource and the host resource aren't in the same perimeter, the request fails.
 
@@ -67,4 +67,4 @@ For more details about how VPC Service Controls works with Policy Simulator, see
 
 ## What's next
 
-  - Learn how to [create a service perimeter](https://docs.cloud.google.com/vpc-service-controls/docs/create-service-perimeters) .
+- Learn how to [create a service perimeter](https://docs.cloud.google.com/vpc-service-controls/docs/create-service-perimeters) .

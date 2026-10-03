@@ -14,53 +14,53 @@ The types of groups listed here are one way to think about, use, and manage Goog
 
 This document uses the following types of groups:
 
-  - **Organizational groups**
-    
-    Organizational groups represent subsets of an organization's structure, and are typically sourced from human resources data. They might be based on department, reporting structure, geographic location, or other organizational groupings.
-    
-    The members of an organizational group change when an employee joins the organization, moves to a different department, or leaves the organization.
-    
-    The overall structure of organizational groups can change when the business reorganizes. A reorganization might lead to new groups being created, or existing groups being retired.
-    
-    Some examples of organizational groups include `org.marketing-fte` , `org.finance-all` , `org.msmith-reports` , `org.apac-all` , and `org.summer-interns` .
-    
-    Organizational groups are typically used for email communication.
+- **Organizational groups**
 
-  - **Collaboration groups**
-    
-    Collaboration groups represent workgroups, project members, or users that want to collaborate on a project or discuss a specific topic.
-    
-    The structure of collaboration groups isn't linked to any organizational structure. They are often created on an ad hoc, self-service basis.
-    
-    Membership in collaboration groups can be unrestricted, allowing anybody in the organization to join. Alternatively, a collaboration group can be self-managed, meaning that certain members can decide who else to include in the group.
-    
-    Some examples of collaboration groups include `collab.security-discuss` and `collab.website-relaunch` .
-    
-    Collaboration groups are typically used for email communication.
+  Organizational groups represent subsets of an organization's structure, and are typically sourced from human resources data. They might be based on department, reporting structure, geographic location, or other organizational groupings.
 
-  - **Access groups**
-    
-    Access groups are used for the sole purpose of providing access. They represent job functions and are used to simplify the assignment of roles required to perform these job functions. Instead of granting roles to individual principals, you grant roles to the group, and then manage group membership.
-    
-    The structure of access groups is influenced by the structure of the resources or workloads in your organization. The deployment of a new resource or workload might require the creation of new access groups.
-    
-    Membership in access groups is generally controlled by one or more group owners, who either invite users to the group or approve users' requests to join the group.
-    
-    Some examples of access groups include `access.prod-firewall-admins` , `access.finance-datamart-viewers` , and `access.billing-dashboard-users` .
-    
-    Access groups are used only to provide access. They are not used for communication purposes.
+  The members of an organizational group change when an employee joins the organization, moves to a different department, or leaves the organization.
 
-  - **Enforcement groups**
-    
-    Enforcement groups are similar to access groups, except that they're used to enforce access restriction policies rather than providing access.
-    
-    The structure of enforcement groups is typically influenced by a combination of compliance requirements and organizational structure.
-    
-    Membership in an enforcement group is typically determined by a set of predefined rules that look at a user's clearance level, location, or role in the organization.
-    
-    Some examples of enforcement groups include `enforcement.users-in-restricted-locations` , `enforcement.fedramp-low` , and `enforcement.sso-users` .
-    
-    Enforcement groups are used only to enforce access restriction policies. They are not used for communication purposes.
+  The overall structure of organizational groups can change when the business reorganizes. A reorganization might lead to new groups being created, or existing groups being retired.
+
+  Some examples of organizational groups include `org.marketing-fte` , `org.finance-all` , `org.msmith-reports` , `org.apac-all` , and `org.summer-interns` .
+
+  Organizational groups are typically used for email communication.
+
+- **Collaboration groups**
+
+  Collaboration groups represent workgroups, project members, or users that want to collaborate on a project or discuss a specific topic.
+
+  The structure of collaboration groups isn't linked to any organizational structure. They are often created on an ad hoc, self-service basis.
+
+  Membership in collaboration groups can be unrestricted, allowing anybody in the organization to join. Alternatively, a collaboration group can be self-managed, meaning that certain members can decide who else to include in the group.
+
+  Some examples of collaboration groups include `collab.security-discuss` and `collab.website-relaunch` .
+
+  Collaboration groups are typically used for email communication.
+
+- **Access groups**
+
+  Access groups are used for the sole purpose of providing access. They represent job functions and are used to simplify the assignment of roles required to perform these job functions. Instead of granting roles to individual principals, you grant roles to the group, and then manage group membership.
+
+  The structure of access groups is influenced by the structure of the resources or workloads in your organization. The deployment of a new resource or workload might require the creation of new access groups.
+
+  Membership in access groups is generally controlled by one or more group owners, who either invite users to the group or approve users' requests to join the group.
+
+  Some examples of access groups include `access.prod-firewall-admins` , `access.finance-datamart-viewers` , and `access.billing-dashboard-users` .
+
+  Access groups are used only to provide access. They are not used for communication purposes.
+
+- **Enforcement groups**
+
+  Enforcement groups are similar to access groups, except that they're used to enforce access restriction policies rather than providing access.
+
+  The structure of enforcement groups is typically influenced by a combination of compliance requirements and organizational structure.
+
+  Membership in an enforcement group is typically determined by a set of predefined rules that look at a user's clearance level, location, or role in the organization.
+
+  Some examples of enforcement groups include `enforcement.users-in-restricted-locations` , `enforcement.fedramp-low` , and `enforcement.sso-users` .
+
+  Enforcement groups are used only to enforce access restriction policies. They are not used for communication purposes.
 
 ## Name your groups to reflect their type
 
@@ -70,13 +70,13 @@ To help you follow the best practices in the rest of this document, use group na
 
 Here is one example of a naming convention to make the group type visible:
 
-  - Organizational groups: `org. GROUP_NAME @example.com` . For example, `org.finance-all@example.com` .
+- Organizational groups: `org. `` GROUP_NAME `` @example.com` . For example, `org.finance-all@example.com` .
 
-  - Collaboration groups: `collab. TEAM_NAME @example.com` . For example, `collab.msmiths-team@example.com` .
+- Collaboration groups: `collab. `` TEAM_NAME `` @example.com` . For example, `collab.msmiths-team@example.com` .
 
-  - Access groups: `access. JOB_FUNCTION @example.com` . For example, `access.billing-dashboard-users@example.com` .
+- Access groups: `access. `` JOB_FUNCTION `` @example.com` . For example, `access.billing-dashboard-users@example.com` .
 
-  - Enforcement groups: `enforcement. GROUP_DESCRIPTION @example.com` . For example, `enforcement.sso-users@example.com` .
+- Enforcement groups: `enforcement. `` GROUP_DESCRIPTION `` @example.com` . For example, `enforcement.sso-users@example.com` .
 
 Adopt the convention that works for your organization and is supported by your group management software. Using a prefix alphabetizes your groups by function, but some group management systems, such as [Groups for Business](https://support.google.com/a/answer/9689189) , support only suffixes. If you can't use prefixes, you can use suffixes or secondary domains.
 
@@ -178,17 +178,17 @@ Use the following best practices to manage your access groups.
 
 Because access groups are managed by workload owners, use a tool suited to self-service. Your tool should let users find existing access groups, and enforce security guardrails that apply the following controls:
 
-  - Who (members of which organizational group) is eligible to join an access group
+- Who (members of which organizational group) is eligible to join an access group
 
-  - What requirements must be met for a user to join a group
-    
-    For example, do users need to provide justification?
+- What requirements must be met for a user to join a group
 
-  - Maximum lifetime for group membership
+  For example, do users need to provide justification?
 
-  - If membership must be approved, and by who
+- Maximum lifetime for group membership
 
-  - Audit trail support
+- If membership must be approved, and by who
+
+- Audit trail support
 
 One tool that fits these requirements is [JIT Groups](https://googlecloudplatform.github.io/jit-groups/) .
 
@@ -228,7 +228,7 @@ Don't make access groups visible in the Groups directory. (They *should* be disc
 
 Because [domain-restricted sharing (DRS) policy constraints](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-domains) apply to groups, but not to group members, access groups that allow external members can create a loophole that undermines DRS.
 
-Use [Cloud Identity security groups](https://docs.cloud.google.com/identity/docs/how-to/update-group-to-security-group) and [group restrictions](https://support.google.com/a/answer/11192679) to allow or disallow external members for access groups. In addition, consider using a special naming convention, such as `external.access. GROUP_NAME @example.com` , for access groups that allow external members.
+Use [Cloud Identity security groups](https://docs.cloud.google.com/identity/docs/how-to/update-group-to-security-group) and [group restrictions](https://support.google.com/a/answer/11192679) to allow or disallow external members for access groups. In addition, consider using a special naming convention, such as `external.access. `` GROUP_NAME `` @example.com` , for access groups that allow external members.
 
 ## Manage enforcement groups
 
@@ -246,10 +246,10 @@ If you can't use dynamic groups, consider using Terraform or some other Infrastr
 
 Use enforcement groups to enforce [mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) . Google Cloud supports mandatory access control with a number of services and tools, including the following:
 
-  - [IAM deny policies](https://docs.cloud.google.com/iam/docs/deny-overview)
-  - [IAM principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies)
-  - [Chrome Enterprise Premium access bindings](https://docs.cloud.google.com/chrome-enterprise-premium/docs/securing-console-and-apis#create-access-binding)
-  - [Google Workspace service turn off](https://support.google.com/a/answer/182442)
+- [IAM deny policies](https://docs.cloud.google.com/iam/docs/deny-overview)
+- [IAM principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies)
+- [Chrome Enterprise Premium access bindings](https://docs.cloud.google.com/chrome-enterprise-premium/docs/securing-console-and-apis#create-access-binding)
+- [Google Workspace service turn off](https://support.google.com/a/answer/182442)
 
 Enforcement groups are also used to apply authentication controls such as SAML profile assignment or 2-Step Verification (2SV).
 
@@ -267,15 +267,15 @@ If you're using an external IdP for authentication, then it can be useful to als
 
 It's possible to manage access groups in the external IdP and provision them to Cloud Identity, but there are several disadvantages to this approach:
 
-  - Provisioning delays
-    
-    It can take up to several hours for changes made in the external IdP to be reflected in the access group.
+- Provisioning delays
 
-  - Risk of divergence
-    
-    Some IdPs don't take authoritative control of groups. For example, they might not delete a group in Cloud Identity after it's deleted externally, or actively delete group members that exist in Cloud Identity but not in the IdP.
-    
-    Divergence can cause users to retain access they don't need, and gives them incorrect information about who has access. It can also [add friction to creating access groups](https://docs.cloud.google.com/iam/docs/groups-best-practices#easy-create-access) .
+  It can take up to several hours for changes made in the external IdP to be reflected in the access group.
+
+- Risk of divergence
+
+  Some IdPs don't take authoritative control of groups. For example, they might not delete a group in Cloud Identity after it's deleted externally, or actively delete group members that exist in Cloud Identity but not in the IdP.
+
+  Divergence can cause users to retain access they don't need, and gives them incorrect information about who has access. It can also [add friction to creating access groups](https://docs.cloud.google.com/iam/docs/groups-best-practices#easy-create-access) .
 
 To avoid these pitfalls, use external IdPs to provision only organizational and enforcement groups, and use a tool such as [JIT Groups](https://googlecloudplatform.github.io/jit-groups/) to manage access groups *directly* in Cloud Identity.
 
@@ -296,7 +296,7 @@ You can restrict the access given to a pipeline by creating a service account wi
 The following steps outline this approach:
 
 1.  [Create a custom admin role](https://support.google.com/a/answer/2406043) that includes only the Admin API group create permission.
-    
+
     Give this role a descriptive name, such as Group Creator.
 
 2.  Create a service account and assign it the Group Creator role.
