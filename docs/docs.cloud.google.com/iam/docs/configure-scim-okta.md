@@ -343,7 +343,7 @@ As described in [Supported attributes for claim mapping](https://docs.cloud.goog
 >
 > In extended session length (ESL) workflows lasting up to 90 days, a deactivated user might retain access until the next successful sync or session expiration. To prevent unauthorized access, continuously monitor and audit your SCIM synchronization health.
 
-After configuring SCIM, you can use `curl` to verify that users and groups are syncing correctly to Google Cloud. These commands require a valid SCIM token and your SCIM tenant ID.
+After configuring SCIM, you can use `curl` to query the IAM SCIM service endpoint ( `iamscim.googleapis.com` ) and verify that users and groups are syncing to Google Cloud. These commands require a valid SCIM token and your SCIM tenant UID. The `iamscim.googleapis.com` service implements the [SCIM 2.0 protocol (RFC 7644)](https://datatracker.ietf.org/doc/html/rfc7644) . For details about supported endpoints, query filters, and limitations, see [Supported and unsupported endpoints](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim#endpoints) and [Protocol feature limitations](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim#protocol-limitations) .
 
 ### Verify user sync
 

@@ -146,7 +146,15 @@ As described in [Supported attributes for claim mapping](https://docs.cloud.goog
 
 ## Supported and unsupported endpoints
 
-The following standard SCIM protocol endpoints are supported:
+The IAM SCIM service ( `iamscim.googleapis.com` ) implements the [SCIM 2.0 protocol (RFC 7644)](https://datatracker.ietf.org/doc/html/rfc7644) and serves requests at your SCIM tenant's `baseUri` :
+
+```
+https://iamscim.googleapis.com/v1alpha1/tenants/SCIM_TENANT_UID
+```
+
+In this URI, `SCIM_TENANT_UID` is the unique identifier of your SCIM tenant.
+
+The IAM SCIM service supports the following standard SCIM protocol endpoints relative to the tenant `baseUri` :
 
 - `/Users` : manage user resources. Supported operations: `Create` , `Get` , `Update` , `Delete` , `Patch` , and `Put` .
 

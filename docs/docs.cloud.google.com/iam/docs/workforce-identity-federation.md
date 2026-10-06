@@ -69,6 +69,8 @@ Workforce Identity Federation follows the [OAuth 2.0 Token Exchange specificatio
 
 For OIDC providers, Workforce Identity Federation supports both [authorization code flow](https://openid.net/specs/openid-connect-core-1_0.html#CodeFlowAuth) and [implicit flow](https://openid.net/specs/openid-connect-core-1_0.html#ImplicitFlowAuth) . Authorization code flow is considered to be the most secure, because tokens are returned from the IdP in a separate, secure backend transaction, directly from the IdP to Google Cloud, after users authenticate. As a result, code flow transactions can retrieve tokens of any size, so you can have more claims to use for attribute mapping and attribute condition. In implicit flow, by comparison, the ID Token is returned from the IdP to the browser. Tokens are subject to individual browser URL size limits.
 
+When you use the authorization code flow, you can configure the provider to either merge claims from the OIDC `UserInfo` endpoint with ID token claims ( `merge-user-info-over-id-token-claims` ) or include only ID token claims ( `only-id-token-claims` ). The implicit flow supports only ID token claims ( `only-id-token-claims` ).
+
 ### Google Cloud Workforce Identity Federation console
 
 Users in a [workforce identity pool](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#workforce-identity-pools) can [access the Google Cloud Workforce Identity Federation console, also known as the console (federated)](https://docs.cloud.google.com/iam/docs/workforce-console-sso) . The console provides these users with UI access to Google Cloud [products that support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) .
@@ -191,7 +193,7 @@ The workforce pool provider can access [JSON web keys (JWKs)](https://www.rfc-ed
 
 If your IdP supports the [System for Cross-domain Identity Management (SCIM)](https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management) , you can configure your IdP to provision and manage groups in Google Cloud.
 
-For more information, see [SCIM provisioning for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim) .
+For more information, see [SCIM provisioning for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim) and [Configure your identity provider for Gemini Enterprise](https://docs.cloud.google.com/gemini/enterprise/docs/configure-identity-provider) .
 
 ## Workforce principal identifiers for allow policies
 

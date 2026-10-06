@@ -315,6 +315,11 @@ To create a workforce identity pool provider for your Microsoft Entra ID applica
 
           To disable detailed audit logging for a workforce identity pool provider, omit the `--detailed-audit-logging` flag when you run `gcloud iam workforce-pools providers create` . To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
 
+        The `--web-sso-assertion-claims-behavior` flag controls how OIDC claims are included in the `assertion` object used for attribute mappings and attribute conditions. For the authorization code flow ( `--web-sso-response-type="code"` ), you can set this flag to one of the following values:
+
+        - `merge-user-info-over-id-token-claims` : Merges claims from the OIDC `UserInfo` endpoint with claims from the ID token. If both contain the same claim name, the `UserInfo` claim value takes precedence. Use this value when your IdP returns additional user attributes or group claims from the `UserInfo` endpoint.
+        - `only-id-token-claims` : Includes only claims from the ID token. Use this value when all claims required for your attribute mappings and conditions are already present in the ID token.
+
         In the command response, ` POOL_RESOURCE_NAME ` is the name of the pool; for example, `locations/global/workforcePools/enterprise-example-organization-employees` .
 
     ### Implicit flow
@@ -384,6 +389,8 @@ To create a workforce identity pool provider for your Microsoft Entra ID applica
 
           To disable detailed audit logging for a workforce identity pool provider, omit the `--detailed-audit-logging` flag when you run `gcloud iam workforce-pools providers create` . To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
 
+        For the implicit flow ( `--web-sso-response-type="id-token"` ), you must set the `--web-sso-assertion-claims-behavior` flag to `only-id-token-claims` , which includes only claims from the ID token in the `assertion` object. The implicit flow doesn't support the `merge-user-info-over-id-token-claims` value.
+
         In the command response, ` POOL_RESOURCE_NAME ` is the name of the pool; for example, `locations/global/workforcePools/enterprise-example-organization-employees` .
 
     ### Console
@@ -436,9 +443,9 @@ To create a workforce identity pool provider for your Microsoft Entra ID applica
 
     9.  In the **Configure OIDC Web Sign-in** section, do the following:
         1.  In the **Flow type** list, select **Code** .
-        2.  In the **Assertion claims behavior** list, select either of the following:
-            - **User info and ID token**
-            - **Only ID token**
+        2.  In the **Assertion claims behavior** list, select one of the following options:
+            - **User info and ID token** : merges claims from the `UserInfo` endpoint with claims from the ID token, preferring `UserInfo` claim values for the same claim name. Select this option when your IdP returns additional user attributes or group claims from the `UserInfo` endpoint.
+            - **Only ID token** : includes only claims from the ID token. Select this option when all claims required for your attribute mappings and conditions are already present in the ID token.
         3.  In the **Client secret** field, enter the client secret from your IdP.
 
     10. Click **Continue** .

@@ -6,7 +6,7 @@ description: Manage workload identity pools and providers. Create, list, get, up
 data_source: docs.cloud.google.com
 ---
 
-This page explains how to manage your existing [workload identity pools](https://docs.cloud.google.com/iam/docs/workload-identity-federation) and their identity providers (IdPs).
+This page explains how to manage your existing [workload identity pools](https://docs.cloud.google.com/iam/docs/workload-identity-federation) and their identity providers (IdPs) for Workload Identity Federation.
 
 You can manage pools and providers using the Google Cloud console, the [Google Cloud CLI](https://docs.cloud.google.com/sdk/gcloud) , or the [REST API](https://docs.cloud.google.com/iam/docs/reference/rest) .
 
@@ -58,7 +58,21 @@ To create workload identity pools in a project, do the following:
 
 ### Console
 
-In the Google Cloud console, go to the **Workload Identity Pools** page.
+1.  In the Google Cloud console, go to the **New workload provider and pool** page.
+
+2.  In the **Create an identity pool** section, enter a name for the pool.
+
+    The Google Cloud console uses the name to create a pool ID. To change the pool ID, click **Edit** . You can't change the pool ID later.
+
+3.  Optional: In the **Description** field, enter a description for the pool.
+
+4.  Optional: To create the pool in a disabled state, click the **Enabled pool** toggle.
+
+5.  Click **Continue** .
+
+6.  In the **Add a provider to pool** and **Configure provider attributes** sections, configure an identity provider for the pool. For instructions, see [Create a provider](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#create-provider) .
+
+7.  Click **Save** .
 
 ### gcloud
 
@@ -74,7 +88,11 @@ To list all the workload identity pools in a project, do the following:
 
 ### Console
 
-In the Google Cloud console, go to the **Workload Identity Pools** page.
+1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
+
+2.  In the table, view the list of workload identity pools.
+
+3.  Optional: To include deleted pools and providers in the list, click the **Show deleted pools and providers** toggle.
 
 ### gcloud
 
@@ -92,7 +110,7 @@ To get details for a specific workload identity pool, do the following:
 
 1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-2.  Find the workload identity pool that you want to view, then click its edit **Edit** icon. The Google Cloud console shows details about the workload identity pool.
+2.  Find the workload identity pool that you want to view, and then click its display name. The Google Cloud console shows details about the workload identity pool.
 
 ### gcloud
 
@@ -114,14 +132,12 @@ To update an existing workload identity pool, do the following:
 
 2.  Find the workload identity pool that you want to edit.
 
-3.  Click the workload identity pool's **Display name** .
+3.  Click the workload identity pool's display name.
 
 4.  To edit the workload identity pool's display name, do the following:
 
     1.  In the **Pool details** page, next to the display name, click the edit **Edit** icon.
-
     2.  In the **Edit pool display name** dialog that appears, update the display name.
-
     3.  Click **Save** .
 
 5.  To disable or enable the workload identity pool, click the **Status** toggle, then click **Disable** or **Enable** .
@@ -129,9 +145,7 @@ To update an existing workload identity pool, do the following:
 6.  To edit the description, do the following:
 
     1.  In **Description** , next to your description text, click edit **Edit** .
-
     2.  Update the description.
-
     3.  Click **Save** .
 
 ### gcloud
@@ -156,7 +170,7 @@ To delete a workload identity pool and its IdPs, do the following:
 
 1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-2.  Find the workload identity pool that you want to delete, then click its edit **Edit** icon.
+2.  Find the workload identity pool that you want to delete, and then click its display name.
 
 3.  Click delete **Delete pool** , then click **Delete** . The workload identity pool and its IdPs are deleted.
 
@@ -204,7 +218,7 @@ To create a workload identity pool provider in an existing workload identity poo
 
 1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-2.  Find the workload identity pool that you want to add a provider to, then click its edit **Edit** icon.
+2.  Find the workload identity pool that you want to add a provider to, and then click its **Display name** .
 
 3.  Click add_box **Add provider** .
 
@@ -215,7 +229,7 @@ To create a workload identity pool provider in an existing workload identity poo
 
 5.  Enter a name for the provider.
 
-    The Google Cloud console uses the name to create a provider ID. To change the provider ID, click **Edit** . You cannot change the provider ID later.
+    The Google Cloud console uses the name to create a provider ID. To change the provider ID, click **Edit** . You can't change the provider ID later.
 
 6.  Complete the remaining fields for your provider:
 
@@ -326,7 +340,7 @@ To delete a workload identity pool provider, do the following:
 
 1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-2.  Find the workload identity pool that contains the provider, then click its edit **Edit** icon.
+2.  Find the workload identity pool that contains the provider, and then click its **Display name** .
 
 3.  In the **Providers** pane, find the provider that you want to delete, then click its delete **Delete** icon.
 
