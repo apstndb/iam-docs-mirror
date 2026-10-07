@@ -38,5 +38,8 @@ COMMANDS
 [`delete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/subjects/delete)  
 Delete a workforce pool subject.
 
+[`revoke-sessions`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/subjects/revoke-sessions)  
+Revoke all sessions for a workforce pool subject.
+
 [`undelete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/subjects/undelete)  
 Undelete a workforce pool subject.

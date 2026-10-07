@@ -299,6 +299,7 @@ When you use the Google Cloud console to create or manage workforce identity poo
 - [Obtain short-lived tokens for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials)
 - [Manage workforce pools providers](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers)
 - [Delete Workforce Identity Federation users and their data](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data)
+- [Revoke Workforce Identity Federation user sessions](https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions)
 - [View Workforce Identity Federation audit logs](https://docs.cloud.google.com/iam/docs/audit-logging/examples-workforce-identity)
 - [View products that support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services)
 - [Set up user access to console (federated)](https://docs.cloud.google.com/iam/docs/workforce-console-sso)

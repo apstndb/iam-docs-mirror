@@ -47,7 +47,7 @@ You might also be able to get this permission with [custom roles](https://docs.c
 
 ### Roles required to delete Principal Access Boundary policy bindings
 
-The permissions that you need in order to delete policy bindings for Principal Access Boundary policies depends on the principal set that's bound to the policy.
+The permissions that you need in order to delete policy bindings for Principal Access Boundary policies depend on the principal set that's bound to the policy.
 
 To get the permissions that you need to delete policy bindings for Principal Access Boundary policies, ask your administrator to grant you the following IAM roles:
 
@@ -190,7 +190,7 @@ gcloud iam policy-bindings delete BINDING_ID ^
     --RESOURCE_TYPE=RESOURCE_ID --location=global
 ```
 
-The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#get-lro) on this page.
+The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#check-lro) on this page.
 
 ```
 Delete request issued for: [example-binding]
@@ -248,7 +248,7 @@ Invoke-WebRequest `
     -Uri "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings/BINDING_ID" | Select-Object -Expand Content
 ```
 
-The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#get-lro) on this page.
+The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#check-lro) on this page.
 
 ```
 {
@@ -279,7 +279,7 @@ You can delete a Principal Access Boundary policy using the Google Cloud console
 
 1.  In the Google Cloud console, go to the **Principal Access Boundary policies** page.
 
-2.  Select the organization that owns the Principal Access Boundary policy whose binding you want to delete.
+2.  Select the organization that owns the Principal Access Boundary policy that you want to delete.
 
 3.  Find the ID of the policy that you want to delete. In that policy's row, click more_vert **Actions** , then click **Delete policy** .
 
@@ -321,7 +321,7 @@ gcloud iam principal-access-boundary-policies delete PAB_POLICY_ID ^
     --organization=ORG_ID --location=global FORCE_FLAG
 ```
 
-The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#get-lro) on this page.
+The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#check-lro) on this page.
 
 ```
 Delete request issued for: [example-policy]
@@ -376,7 +376,7 @@ Invoke-WebRequest `
     -Uri "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID?FORCE_DELETE" | Select-Object -Expand Content
 ```
 
-The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#get-lro) on this page.
+The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#check-lro) on this page.
 
 ```
 {
@@ -395,9 +395,9 @@ The response contains a long-running operation representing your request. To lea
 
 ## Check the status of a long-running operation
 
-When you use the REST API or the client libraries, any method that changes a Principal Access Boundary policy or binding returns a long-running operation (LRO). The long-running operation tracks the status of the request and indicates whether the change to the policy or binding is complete.
+When you use the REST API or the client libraries, any method that changes a policy or binding returns a long-running operation (LRO). The long-running operation tracks the status of the request and indicates whether the change to the policy or binding is complete.
 
-> **Note** : When you modify a Principal Access Boundary policy or binding using the gcloud CLI, the gcloud CLI shows a message saying that it's waiting for an operation to complete. However, you must use the REST API or the client libraries to get the operation's status.
+> **Note** : When you modify a policy or binding using the gcloud CLI, the gcloud CLI shows a message saying that it's waiting for an operation to complete. However, you must use the REST API or the client libraries to get the operation's status.
 
 ### REST
 
@@ -462,14 +462,14 @@ You should receive a JSON response similar to the following:
     "@type": "type.googleapis.com/google.iam.v3.OperationMetadata",
     "createTime": "2024-11-28T00:05:12.006289686Z",
     "endTime": "2024-11-28T00:05:12.192141801Z",
-    "target": "organizations/314340013352/locations/global/principalAccessBoundaryPolicies/example-policy",
+    "target": "organizations/314340013352/locations/global/POLICY_TYPE/POLICY_ID",
     "verb": "create",
     "requestedCancellation": false,
     "apiVersion": "v3"
   },
   "done": true,
   "response": {
-    PAB_POLICY
+    POLICY
   }
 }
 ```

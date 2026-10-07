@@ -52,7 +52,7 @@ To get the permissions that you need to apply Principal Access Boundary policies
 
 - [Principal Access Boundary User](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryUser) ( `roles/iam.principalAccessBoundaryUser` ) on the organization
 - Apply Principal Access Boundary policies to workforce identity pools: [IAM Workforce Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin) ( `roles/iam.workforcePoolAdmin` ) on the target workforce identity pool
-- Apply Principal Access Boundary policies to workload identity pools: [IAM Workload Identity Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin) ( `roles/iam.workloadIdentityPoolAdmin` ) on the project that owns the target workload identity pool
+- Apply Principal Access Boundary policies to workload identity pools: [IAM Workload Identity Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin) ( `roles/iam.workloadIdentityPoolAdmin` ) on the project that owns the target Workload Identity Federation pool
 - Get the status of a long-running operation for applying a Principal Access Boundary policy to a workload identity pool: [IAM Operation Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.operationViewer) ( `roles/iam.operationViewer` ) on the project that owns the target workload identity pool
 - Apply Principal Access Boundary policies to a Google Workspace domain: [Workspace Pool IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workspacePoolAdmin) ( `roles/iam.workspacePoolAdmin` ) on the organization
 - Apply Principal Access Boundary policies to a project's principal set: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` ) on the project
@@ -70,7 +70,7 @@ The following permissions are required to apply Principal Access Boundary polici
 
 - `iam.principalaccessboundarypolicies.bind` on the organization
 - Apply Principal Access Boundary policies to Workforce Identity Federation pools: `iam.workforcePools.createPolicyBinding` on the target Workforce Identity Federation pool
-- Apply Principal Access Boundary policies to Workload Identity Federation pools: `iam.workloadIdentityPools.createPolicyBinding` on the project that owns the target Workforce Identity Federation pool
+- Apply Principal Access Boundary policies to Workload Identity Federation pools: `iam.workloadIdentityPools.createPolicyBinding` on the project that owns the target Workload Identity Federation pool
 - Get the status of a long-running operation for applying a Principal Access Boundary policy to a workload identity pool: `iam.operations.get` on the project that owns the target workload identity pool
 - Apply Principal Access Boundary policies to a Google Workspace domain: `iam.workspacePools.createPolicyBinding` on the organization
 - Apply Principal Access Boundary policies to a project's principal set: `resourcemanager.projects.createPolicyBinding` on the project
@@ -181,7 +181,7 @@ gcloud iam principal-access-boundary-policies create PAB_POLICY_ID ^
     --details-enforcement-version=ENFORCEMENT_VERSION
 ```
 
-The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#get-lro) on this page.
+The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#check-lro) on this page.
 
 ```
 Create request issued for: [example-policy]
@@ -281,7 +281,7 @@ Invoke-WebRequest `
     -Uri "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global?principalAccessBoundaryPolicyId=PAB_POLICY_ID" | Select-Object -Expand Content
 ```
 
-The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#get-lro) on this page.
+The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#check-lro) on this page.
 
 ```
 {
@@ -329,10 +329,10 @@ You can create a policy binding using the Google Cloud console, the gcloud CLI, 
     1.  Click add **Add condition** .
     2.  In the **Title** field, enter a brief summary of the purpose of the condition.
     3.  Optional: In the **Description** field, enter a longer description of the condition.
-    4.  In the **Expression** field, enter condition expression that uses the [Common Expression Language (CEL) syntax](https://github.com/google/cel-spec/blob/master/doc/langdef.md) . The expression must reference the [`principal.type` or `principal.subject` attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#principals) . Other attributes are not supported.
+    4.  In the **Expression** field, enter a condition expression that uses the [Common Expression Language (CEL) syntax](https://github.com/google/cel-spec/blob/master/doc/langdef.md) . The expression must reference the [`principal.type` or `principal.subject` attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#principals) . Other attributes are not supported.
     5.  Click **Save** .
 
-7.  Optional: To test your changes to the Principal Access Boundary policy with Policy Simulator, click **Test changes** . Review the [simulation results](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies#view-results) and update the policy if necessary.
+7.  Optional: To test your changes to the Principal Access Boundary policy binding with Policy Simulator, click **Test changes** . Review the [simulation results](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies#view-results) and update the policy binding if necessary.
 
     To learn more about testing Principal Access Boundary policies with Policy Simulator, see [Policy Simulator for Principal Access Boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview) .
 
@@ -378,7 +378,7 @@ Execute the following command:
 gcloud iam policy-bindings create BINDING_ID \
     --RESOURCE_TYPE=RESOURCE_ID --location=global \
     --policy="organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID" \
-    --target-principal-set=PRINCIPAL_SET_ID \
+    --target-principal-set=PRINCIPAL_SET \
     --display-name=DISPLAY_NAME \
     CONDITION_DETAILS
 ```
@@ -389,7 +389,7 @@ gcloud iam policy-bindings create BINDING_ID \
 gcloud iam policy-bindings create BINDING_ID `
     --RESOURCE_TYPE=RESOURCE_ID --location=global `
     --policy="organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID" `
-    --target-principal-set=PRINCIPAL_SET_ID `
+    --target-principal-set=PRINCIPAL_SET `
     --display-name=DISPLAY_NAME `
     CONDITION_DETAILS
 ```
@@ -400,12 +400,12 @@ gcloud iam policy-bindings create BINDING_ID `
 gcloud iam policy-bindings create BINDING_ID ^
     --RESOURCE_TYPE=RESOURCE_ID --location=global ^
     --policy="organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID" ^
-    --target-principal-set=PRINCIPAL_SET_ID ^
+    --target-principal-set=PRINCIPAL_SET ^
     --display-name=DISPLAY_NAME ^
     CONDITION_DETAILS
 ```
 
-The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#get-lro) on this page.
+The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#check-lro) on this page.
 
 ```
 Create request issued for: [example-binding]
@@ -455,9 +455,9 @@ Request JSON body:
 
 ```
 {
-  "displayName": DISPLAY_NAME,
+  "displayName": "DISPLAY_NAME",
   "target": {
-    "principalSet": PRINCIPAL_SET
+    "principalSet": "PRINCIPAL_SET"
   },
   "policyKind": "PRINCIPAL_ACCESS_BOUNDARY",
   "policy": "organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID",
@@ -501,7 +501,7 @@ Invoke-WebRequest `
     -Uri "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings?policyBindingId=BINDING_ID" | Select-Object -Expand Content
 ```
 
-The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#get-lro) on this page.
+The response contains a long-running operation representing your request. To learn how to get the status of a long-running operation, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#check-lro) on this page.
 
 ```
 {
@@ -520,9 +520,9 @@ The response contains a long-running operation representing your request. To lea
 
 ## Check the status of a long-running operation
 
-When you use the REST API or the client libraries, any method that changes a Principal Access Boundary policy or binding returns a long-running operation (LRO). The long-running operation tracks the status of the request and indicates whether the change to the policy or binding is complete.
+When you use the REST API or the client libraries, any method that changes a policy or binding returns a long-running operation (LRO). The long-running operation tracks the status of the request and indicates whether the change to the policy or binding is complete.
 
-> **Note** : When you modify a Principal Access Boundary policy or binding using the gcloud CLI, the gcloud CLI shows a message saying that it's waiting for an operation to complete. However, you must use the REST API or the client libraries to get the operation's status.
+> **Note** : When you modify a policy or binding using the gcloud CLI, the gcloud CLI shows a message saying that it's waiting for an operation to complete. However, you must use the REST API or the client libraries to get the operation's status.
 
 ### REST
 
@@ -587,14 +587,14 @@ You should receive a JSON response similar to the following:
     "@type": "type.googleapis.com/google.iam.v3.OperationMetadata",
     "createTime": "2024-11-28T00:05:12.006289686Z",
     "endTime": "2024-11-28T00:05:12.192141801Z",
-    "target": "organizations/314340013352/locations/global/principalAccessBoundaryPolicies/example-policy",
+    "target": "organizations/314340013352/locations/global/POLICY_TYPE/POLICY_ID",
     "verb": "create",
     "requestedCancellation": false,
     "apiVersion": "v3"
   },
   "done": true,
   "response": {
-    PAB_POLICY
+    POLICY
   }
 }
 ```

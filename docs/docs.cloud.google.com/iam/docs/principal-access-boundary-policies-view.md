@@ -83,7 +83,7 @@ The permissions that you need in order to view all policy bindings for a princip
 To get the permissions that you need to view policy bindings, ask your administrator to grant you the following IAM roles:
 
 - View policy bindings for Workforce Identity Federation pools: [IAM Workforce Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin) ( `roles/iam.workforcePoolAdmin` ) on the target Workforce Identity Federation pool
-- View policy bindings for Workload Identity Federation pools: [IAM Workload Identity Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin) ( `roles/iam.workloadIdentityPoolAdmin` ) on the project that owns the target Workforce Identity Federation pool
+- View policy bindings for Workload Identity Federation pools: [IAM Workload Identity Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin) ( `roles/iam.workloadIdentityPoolAdmin` ) on the project that owns the target Workload Identity Federation pool
 - View policy bindings for a Google Workspace domain: [Workspace Pool IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workspacePoolAdmin) ( `roles/iam.workspacePoolAdmin` ) on the organization
 - View policy bindings for a project's principal set: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` ) on the project
 - View policy bindings for a folder's principal set: [Folder IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin) ( `roles/resourcemanager.folderIamAdmin` ) on the folder
@@ -98,7 +98,7 @@ These predefined roles contain the permissions required to view policy bindings.
 The following permissions are required to view policy bindings:
 
 - View policy bindings for Workforce Identity Federation pools: `iam.workforcePools.searchPolicyBindings` on the target Workforce Identity Federation pool
-- View policy bindings for Workload Identity Federation pools: `iam.workloadIdentityPools.searchPolicyBindings` on the project that owns the target Workforce Identity Federation pool
+- View policy bindings for Workload Identity Federation pools: `iam.workloadIdentityPools.searchPolicyBindings` on the project that owns the target Workload Identity Federation pool
 - View policy bindings for a Google Workspace domain: `iam.workspacePools.searchPolicyBindings` on the organization
 - View policy bindings for a project's principal set: `resourcemanager.projects.searchPolicyBindings` on the project
 - View policy bindings for a folder's principal set: `resourcemanager.folders.searchPolicyBindings` on the folder
@@ -110,13 +110,13 @@ You might also be able to get these permissions with [custom roles](https://docs
 
 To view all Principal Access Boundary policies created in an organization, list the Principal Access Boundary policies in the organization.
 
-You can list the Principal Access Boundary policies in an organization using the Google Cloud console, the gcloud CLI or the IAM REST API.
+You can list the Principal Access Boundary policies in an organization using the Google Cloud console, the gcloud CLI, or the IAM REST API.
 
 ### Console
 
 1.  In the Google Cloud console, go to the **Principal Access Boundary policies** page.
 
-2.  Select the organization that you want to create Principal Access Boundary policies for.
+2.  Select the organization that you want to view Principal Access Boundary policies for.
 
 The Google Cloud console lists all policies in the organization that you select.
 
@@ -298,13 +298,13 @@ The response contains the Principal Access Boundary policies in the specified or
 
 To view the details of a single Principal Access Boundary policy, use the policy's ID to get the policy.
 
-You can get a Principal Access Boundary policy using the Google Cloud console, the gcloud CLI or the IAM REST API.
+You can get a Principal Access Boundary policy using the Google Cloud console, the gcloud CLI, or the IAM REST API.
 
 ### Console
 
 1.  In the Google Cloud console, go to the **Principal Access Boundary policies** page.
 
-2.  Select the organization that you want to create Principal Access Boundary policies for.
+2.  Select the organization that you want to view Principal Access Boundary policies for.
 
 3.  Click the policy ID of the Principal Access Boundary policy that you want to view.
 
@@ -453,7 +453,7 @@ There are several ways that you can list policy bindings for Principal Access Bo
 
 To view all policy bindings that include a certain Principal Access Boundary policy, search the bindings for the Principal Access Boundary policy.
 
-You can view all policy bindings for a Principal Access Boundary policy using the Google Cloud console, the gcloud CLI or the IAM REST API.
+You can view all policy bindings for a Principal Access Boundary policy using the Google Cloud console, the gcloud CLI, or the IAM REST API.
 
 ### Console
 
@@ -632,13 +632,13 @@ You can view all policy bindings for a principal set using the gcloud CLI or the
 
 ### gcloud
 
-The [`gcloud iam policy-bindings search-target-policy-bindings`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/search-target-policy-bindings) command gets all Principal Access Boundary policies bound to a principal set.
+The [`gcloud iam policy-bindings search-target-policy-bindings`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/search-target-policy-bindings) command gets all Principal Access Boundary policy bindings for a principal set.
 
 Before using any of the command data below, make the following replacements:
 
-- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the target principal set is a child of. Use the value `project` , `folder` , or `organization`
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the target principal set is a child of. Use the value `project` , `folder` , or `organization` .
 
-  The resource type depends on the type of principal set you want to list the policy bindings of. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+  The resource type depends on the type of principal set you want to list the policy bindings of. To see which resource type to use, see [Supported principal sets](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
 - `RESOURCE_ID` : The ID of the project, folder, or organization that the target principal set is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
@@ -653,7 +653,7 @@ Execute the following command:
 ```
 gcloud iam policy-bindings search-target-policy-bindings \
     --RESOURCE_TYPE=RESOURCE_ID \
-    --target=PRINCPAL_SET \
+    --target=PRINCIPAL_SET \
     --format=FORMAT
 ```
 
@@ -662,7 +662,7 @@ gcloud iam policy-bindings search-target-policy-bindings \
 ```
 gcloud iam policy-bindings search-target-policy-bindings `
     --RESOURCE_TYPE=RESOURCE_ID `
-    --target=PRINCPAL_SET `
+    --target=PRINCIPAL_SET `
     --format=FORMAT
 ```
 
@@ -671,11 +671,11 @@ gcloud iam policy-bindings search-target-policy-bindings `
 ```
 gcloud iam policy-bindings search-target-policy-bindings ^
     --RESOURCE_TYPE=RESOURCE_ID ^
-    --target=PRINCPAL_SET ^
+    --target=PRINCIPAL_SET ^
     --format=FORMAT
 ```
 
-The response contains all policy binidngs that are bound to the target principal set.
+The response contains all policy bindings that include the target principal set.
 
 ```
 {
@@ -714,13 +714,13 @@ The response contains all policy binidngs that are bound to the target principal
 
 ### REST
 
-The [`SearchTargetPolicyBindings.search`](https://docs.cloud.google.com/iam/docs/reference/rest/v3/organizations.locations.policyBindings/searchTargetPolicyBindings) method gets all Principal Access Boundary policies bound to a principal set.
+The [`SearchTargetPolicyBindings.search`](https://docs.cloud.google.com/iam/docs/reference/rest/v3/organizations.locations.policyBindings/searchTargetPolicyBindings) method gets all Principal Access Boundary policy bindings for a principal set.
 
 Before using any of the request data, make the following replacements:
 
-- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the target principal set is a child of. Use the value `projects` , `folders` , or `organizations`
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the target principal set is a child of. Use the value `projects` , `folders` , or `organizations` .
 
-  The resource type depends on the type of principal set you want to list the policy bindings of. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+  The resource type depends on the type of principal set you want to list the policy bindings of. To see which resource type to use, see [Supported principal sets](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
 - `RESOURCE_ID` : The ID of the project, folder, or organization that the target principal set is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
@@ -729,7 +729,7 @@ Before using any of the request data, make the following replacements:
 HTTP method and URL:
 
 ```
-GET https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings:searchTargetPolicyBindings?target=PRINCPAL_SET
+GET https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings:searchTargetPolicyBindings?target=PRINCIPAL_SET
 ```
 
 To send your request, expand one of these options:
@@ -743,7 +743,7 @@ Execute the following command:
 ```
 curl -X GET \
      -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-     "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings:searchTargetPolicyBindings?target=PRINCPAL_SET"
+     "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings:searchTargetPolicyBindings?target=PRINCIPAL_SET"
 ```
 
 #### PowerShell (Windows)
@@ -759,10 +759,10 @@ $headers = @{ "Authorization" = "Bearer $cred" }
 Invoke-WebRequest `
     -Method GET `
     -Headers $headers `
-    -Uri "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings:searchTargetPolicyBindings?target=PRINCPAL_SET" | Select-Object -Expand Content
+    -Uri "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings:searchTargetPolicyBindings?target=PRINCIPAL_SET" | Select-Object -Expand Content
 ```
 
-The response contains all policy binidngs that are bound to the target principal set.
+The response contains all policy bindings that include the target principal set.
 
 ```
 {
@@ -809,7 +809,7 @@ You can view all policy bindings for a project, folder, or organization using th
 
 ### gcloud
 
-The [`gcloud iam policy-bindings list`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/list) command lists all policy binding that are children of a certain resource.
+The [`gcloud iam policy-bindings list`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/policy-bindings/list) command lists all policy bindings that are children of a certain resource.
 
 Before using any of the command data below, make the following replacements:
 
@@ -828,7 +828,7 @@ Execute the following command:
 ```
 gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID \
     --location=global \
-    --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
+    --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY \
     --format=FORMAT
 ```
 
@@ -837,7 +837,7 @@ gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID \
 ```
 gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID `
     --location=global `
-    --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
+    --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY `
     --format=FORMAT
 ```
 
@@ -846,7 +846,7 @@ gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID `
 ```
 gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID ^
     --location=global ^
-    --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
+    --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY ^
     --format=FORMAT
 ```
 
@@ -889,7 +889,7 @@ The response contains the policy bindings that are children of the resource in t
 
 ### REST
 
-The [`policyBindings.list`](https://docs.cloud.google.com/iam/docs/reference/rest/v3/organizations.locations.policyBindings/list) method lists all policy binding that are children of a certain resource.
+The [`policyBindings.list`](https://docs.cloud.google.com/iam/docs/reference/rest/v3/organizations.locations.policyBindings/list) method lists all policy bindings that are children of a certain resource.
 
 Before using any of the request data, make the following replacements:
 

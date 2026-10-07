@@ -380,10 +380,11 @@ A [service endpoint](https://cloud.google.com/apis/design/glossary#api_service_e
 
 ## REST Resource: [v1.locations.workforcePools.subjects](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects)
 
-| Methods                                                                                                           |                                                                                                                                                           |
-|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/delete)     | `DELETE /v1/{name=locations/*/workforcePools/*/subjects/*}` Deletes a `WorkforcePoolSubject` .                                                            |
-| [`undelete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/undelete) | `POST /v1/{name=locations/*/workforcePools/*/subjects/*}:undelete` Undeletes a `WorkforcePoolSubject` , as long as it was deleted fewer than 30 days ago. |
+| Methods                                                                                                                       |                                                                                                                                                           |
+|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/delete)                 | `DELETE /v1/{name=locations/*/workforcePools/*/subjects/*}` Deletes a `WorkforcePoolSubject` .                                                            |
+| [`revokeSessions`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/revokeSessions) | `POST /v1/{name=locations/*/workforcePools/*/subjects/*}:revokeSessions` Revokes all sessions for the specified `WorkforcePoolSubject` .                  |
+| [`undelete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/undelete)             | `POST /v1/{name=locations/*/workforcePools/*/subjects/*}:undelete` Undeletes a `WorkforcePoolSubject` , as long as it was deleted fewer than 30 days ago. |
 
 ## REST Resource: [v1.organizations.roles](https://docs.cloud.google.com/iam/docs/reference/rest/v1/organizations.roles)
 

@@ -13,7 +13,8 @@ data_source: docs.cloud.google.com
 
 There is no persistent data associated with this resource.
 
-| Methods                                                                                                           |                                                                                        |
-|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [`delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/delete)     | Deletes a `WorkforcePoolSubject` .                                                     |
-| [`undelete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/undelete) | Undeletes a `WorkforcePoolSubject` , as long as it was deleted fewer than 30 days ago. |
+| Methods                                                                                                                       |                                                                                        |
+|-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/delete)                 | Deletes a `WorkforcePoolSubject` .                                                     |
+| [`revokeSessions`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/revokeSessions) | Revokes all sessions for the specified `WorkforcePoolSubject` .                        |
+| [`undelete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.subjects/undelete)             | Undeletes a `WorkforcePoolSubject` , as long as it was deleted fewer than 30 days ago. |

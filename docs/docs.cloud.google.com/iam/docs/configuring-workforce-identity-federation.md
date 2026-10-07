@@ -795,6 +795,8 @@ For more information about the principal format, see [Principal identifiers](htt
 
 Workforce Identity Federation creates user metadata and resources for federated user identities. If you choose to delete users in your IdP you must also explicitly delete these resources in Google Cloud. To do so, see [Delete Workforce Identity Federation users and their data](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data) .
 
+To immediately terminate a user's active sessions, you can revoke their sessions. For more information, see [Revoke Workforce Identity Federation user sessions](https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions) .
+
 You might see resources continue to be associated with a user that was deleted. This is because deleting user metadata and resources requires a long-running operation. After you initiate a deletion of a user's identity, processes that the user initiated before the deletion can continue to run until the processes complete or are canceled.
 
 ## What's next
@@ -802,5 +804,6 @@ You might see resources continue to be associated with a user that was deleted. 
 - [Obtain short-lived credentials for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials)
 - [Manage workforce identity pool providers](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers)
 - [Delete Workforce Identity Federation users and their data](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data)
+- [Revoke Workforce Identity Federation user sessions](https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions)
 - Learn which Google Cloud products [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services)
 - [Set up user access to console (federated)](https://docs.cloud.google.com/iam/docs/workforce-console-sso)

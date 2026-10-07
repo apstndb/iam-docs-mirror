@@ -603,6 +603,7 @@ A session remains valid until one of the following occurs:
 - The session length reaches the limit defined by the [workforce identity pool](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools#WorkforcePool:) .
 - The session length reaches the limit defined in the `SessionNotOnOrAfter` attribute in the user's SAML assertion, if present.
 - The user signs out.
+- An administrator [revokes the user's sessions](https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions) .
 
 Allowing sessions to stay valid for extended periods increases the risk of token theft and can cause group membership information to become stale:
 
@@ -645,3 +646,4 @@ To track other authentication-related activity, we recommend that you enable and
 
 - Review the [Workforce Identity Federation Overview](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) .
 - Learn to [Manage pools and providers](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers) .
+- Learn how to [revoke Workforce Identity Federation user sessions](https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions) .

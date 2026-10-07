@@ -16312,10102 +16312,10166 @@ Enter the desired service or permission name in the text box to search:
 <td></td>
 </tr>
 <tr class="odd">
+<td><p><code>compute.googleapis.com/instances.performMaintenance</code></p></td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.pscInterfaceCreate</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.removeResourcePolicies</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.reset</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.resume</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.sendDiagnosticInterrupt</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.setDeletionProtection</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.setDiskAutoDelete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.setLabels</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.setMachineResources</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.setMachineType</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.setMetadata</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.setMinCpuPlatform</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.setName</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.setScheduling</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.setSecurityPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.setServiceAccount</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.setShieldedInstanceIntegrityPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.setShieldedVmIntegrityPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.setTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.simulateMaintenanceEvent</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.start</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.startWithEncryptionKey</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.stop</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.suspend</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.troubleshoot</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.updateAccessConfig</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.updateDisplayDevice</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.updateNetworkInterface</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.updateSecurity</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.updateShieldedInstanceConfig</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.updateShieldedVmConfig</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instances.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instances.useReadOnly</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instantSnapshotGroups.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instantSnapshotGroups.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instantSnapshotGroups.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instantSnapshotGroups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instantSnapshotGroups.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instantSnapshotGroups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instantSnapshotGroups.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instantSnapshotGroups.useReadOnly</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instantSnapshots.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instantSnapshots.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instantSnapshots.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instantSnapshots.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instantSnapshots.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instantSnapshots.export</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instantSnapshots.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instantSnapshots.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instantSnapshots.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instantSnapshots.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instantSnapshots.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instantSnapshots.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/instantSnapshots.setLabels</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/instantSnapshots.useReadOnly</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectAttachmentGroups.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectAttachmentGroups.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectAttachmentGroups.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectAttachmentGroups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectAttachmentGroups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectAttachmentGroups.patch</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectAttachments.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectAttachments.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectAttachments.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectAttachments.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectAttachments.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectAttachments.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectAttachments.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectAttachments.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectAttachments.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectAttachments.setLabels</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectAttachments.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectAttachments.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectGroups.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectGroups.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectGroups.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectGroups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectGroups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectGroups.patch</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectLocations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectLocations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectRemoteLocations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnectRemoteLocations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnectRemoteLocations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnects.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnects.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnects.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnects.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnects.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnects.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnects.getMacsecConfig</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnects.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnects.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnects.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnects.setLabels</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnects.setName</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/interconnects.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/interconnects.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/licenseCodes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/licenseCodes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/licenseCodes.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/licenseCodes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/licenseCodes.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/licenses.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/licenses.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/licenses.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/licenses.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/licenses.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/licenses.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/licenses.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/licenses.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/licenses.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/licenses.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/licenses.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/licenses.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/machineImages.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/machineImages.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/machineImages.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/machineImages.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/machineImages.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/machineImages.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/machineImages.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/machineImages.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/machineImages.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/machineImages.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/machineImages.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/machineImages.setLabels</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/machineImages.useReadOnly</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/machineTypes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/machineTypes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/machineTypes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/managedRulesets.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/managedRulesets.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/managedRulesets.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/multiMig.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/multiMig.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/multiMig.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/multiMig.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/multiMig.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/multiMigMembers.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/multiMigMembers.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/multiMigMembers.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkAttachments.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkAttachments.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkAttachments.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkAttachments.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkAttachments.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkAttachments.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkAttachments.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkAttachments.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkAttachments.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkAttachments.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkAttachments.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkAttachments.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkEdgeSecurityServices.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkEdgeSecurityServices.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkEdgeSecurityServices.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkEdgeSecurityServices.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkEdgeSecurityServices.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkEdgeSecurityServices.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkEdgeSecurityServices.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkEdgeSecurityServices.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkEdgeSecurityServices.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkEdgeSecurityServices.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkEndpointGroups.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkEndpointGroups.attachNetworkEndpoints</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkEndpointGroups.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkEndpointGroups.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkEndpointGroups.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkEndpointGroups.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkEndpointGroups.detachNetworkEndpoints</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkEndpointGroups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkEndpointGroups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkEndpointGroups.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkEndpointGroups.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkEndpointGroups.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkProfiles.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networkProfiles.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networkProfiles.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networks.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networks.access</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networks.addPeering</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networks.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networks.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networks.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networks.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networks.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networks.getEffectiveFirewalls</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networks.getRegionEffectiveFirewalls</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networks.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networks.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networks.listPeeringRoutes</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networks.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networks.mirror</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networks.removePeering</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networks.setFirewallPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networks.setNetworkPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networks.switchToCustomMode</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networks.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networks.updatePeering</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networks.updatePolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/networks.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/networks.useExternalIp</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/nodeGroups.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/nodeGroups.addNodes</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/nodeGroups.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/nodeGroups.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/nodeGroups.deleteNodes</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/nodeGroups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/nodeGroups.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/nodeGroups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/nodeGroups.performMaintenance</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/nodeGroups.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/nodeGroups.setNodeTemplate</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/nodeGroups.simulateMaintenanceEvent</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/nodeGroups.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/nodeTemplates.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/nodeTemplates.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/nodeTemplates.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/nodeTemplates.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/nodeTemplates.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/nodeTemplates.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/nodeTemplates.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/nodeTypes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/nodeTypes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/nodeTypes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/organizations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/organizations.disableXpnHost</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/organizations.disableXpnResource</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/organizations.enableXpnHost</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/organizations.enableXpnResource</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/organizations.listAssociations</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/organizations.setFirewallPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/organizations.setSecurityPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/oslogin.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/oslogin.updateExternalUser</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/packetMirrorings.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/packetMirrorings.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/packetMirrorings.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/packetMirrorings.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/packetMirrorings.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/packetMirrorings.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/packetMirrorings.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/packetMirrorings.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/packetMirrorings.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/previewFeatures.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/previewFeatures.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/previewFeatures.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/previewFeatures.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/projects.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/projects.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/projects.setCloudArmorTier</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/projects.setCommonInstanceMetadata</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/projects.setDefaultNetworkTier</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/projects.setDefaultServiceAccount</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/projects.setManagedProtectionTier</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/projects.setUsageExportBucket</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/publicAdvertisedPrefixes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/publicAdvertisedPrefixes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/publicAdvertisedPrefixes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/publicAdvertisedPrefixes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/publicAdvertisedPrefixes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/publicAdvertisedPrefixes.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/publicAdvertisedPrefixes.updatePolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.announce</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.updatePolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/publicDelegatedPrefixes.withdraw</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/recoverableSnapshots.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/recoverableSnapshots.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/recoverableSnapshots.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/recoverableSnapshots.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/recoverableSnapshots.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/recoverableSnapshots.recover</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/recoverableSnapshots.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendBuckets.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendServices.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendServices.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendServices.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendServices.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendServices.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendServices.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendServices.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendServices.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendServices.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendServices.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendServices.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendServices.setSecurityPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionBackendServices.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionBackendServices.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionCompositeHealthChecks.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionCompositeHealthChecks.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionCompositeHealthChecks.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionCompositeHealthChecks.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionCompositeHealthChecks.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionCompositeHealthChecks.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.cloneRules</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionFirewallPolicies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthAggregationPolicies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthAggregationPolicies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthAggregationPolicies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthAggregationPolicies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthAggregationPolicies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthAggregationPolicies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthCheckServices.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthCheckServices.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthCheckServices.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthCheckServices.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthCheckServices.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthCheckServices.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthCheckServices.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthChecks.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthChecks.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthChecks.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthChecks.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthChecks.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthChecks.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthChecks.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthChecks.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthChecks.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthChecks.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthChecks.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthChecks.useReadOnly</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthSources.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthSources.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthSources.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthSources.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionHealthSources.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionHealthSources.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNetworkEndpointGroups.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionNetworkEndpointGroups.attachNetworkEndpoints</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNetworkEndpointGroups.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionNetworkEndpointGroups.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNetworkEndpointGroups.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionNetworkEndpointGroups.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNetworkEndpointGroups.detachNetworkEndpoints</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionNetworkEndpointGroups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNetworkEndpointGroups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionNetworkEndpointGroups.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNetworkEndpointGroups.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionNetworkEndpointGroups.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNetworkPolicies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionNetworkPolicies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNetworkPolicies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionNetworkPolicies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNetworkPolicies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionNetworkPolicies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNetworkPolicies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionNotificationEndpoints.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNotificationEndpoints.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionNotificationEndpoints.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNotificationEndpoints.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionNotificationEndpoints.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionNotificationEndpoints.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionOperations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionOperations.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionOperations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionOperations.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSecurityPolicies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSecurityPolicies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSecurityPolicies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSecurityPolicies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSecurityPolicies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSecurityPolicies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSecurityPolicies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSecurityPolicies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSecurityPolicies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSecurityPolicies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSecurityPolicies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSslCertificates.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSslCertificates.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSslCertificates.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSslCertificates.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSslCertificates.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSslCertificates.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSslCertificates.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSslCertificates.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSslCertificates.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSslPolicies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSslPolicies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSslPolicies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSslPolicies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSslPolicies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSslPolicies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSslPolicies.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSslPolicies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSslPolicies.listAvailableFeatures</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSslPolicies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSslPolicies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSslPolicies.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionSslPolicies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionSslPolicies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetHttpProxies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetHttpProxies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetHttpProxies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetHttpProxies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetHttpProxies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetHttpProxies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetHttpProxies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetHttpProxies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetHttpProxies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetHttpProxies.setUrlMap</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetHttpProxies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.setSslCertificates</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.setUrlMap</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetHttpsProxies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetTcpProxies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetTcpProxies.attach</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetTcpProxies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetTcpProxies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetTcpProxies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetTcpProxies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetTcpProxies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetTcpProxies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetTcpProxies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionTargetTcpProxies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionTargetTcpProxies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionUrlMaps.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionUrlMaps.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionUrlMaps.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionUrlMaps.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionUrlMaps.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionUrlMaps.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionUrlMaps.invalidateCache</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionUrlMaps.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionUrlMaps.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionUrlMaps.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionUrlMaps.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regionUrlMaps.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regionUrlMaps.validate</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/regions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/regions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reliabilityRisks.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reliabilityRisks.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reliabilityRisks.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservationBlocks.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservationBlocks.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservationBlocks.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservationBlocks.performMaintenance</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservationConsumedInstances.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservationConsumedInstances.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservationSlots.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservationSlots.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservationSlots.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservationSlots.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservationSubBlocks.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservationSubBlocks.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservationSubBlocks.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservationSubBlocks.performMaintenance</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservationSubBlocks.reportFaulty</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservations.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservations.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservations.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservations.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservations.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservations.performMaintenance</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/reservations.resize</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/reservations.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/resourcePolicies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/resourcePolicies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/resourcePolicies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/resourcePolicies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/resourcePolicies.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/resourcePolicies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/resourcePolicies.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/resourcePolicies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/resourcePolicies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/resourcePolicies.useReadOnly</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routers.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/routers.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routers.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/routers.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routers.deleteRoutePolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/routers.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routers.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/routers.getRoutePolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routers.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/routers.listBgpRoutes</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routers.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/routers.listRoutePolicies</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routers.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/routers.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routers.updateRoutePolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/routers.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/routes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routes.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/routes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routes.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/routes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/routes.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/routes.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/securityPolicies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/securityPolicies.addAssociation</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/securityPolicies.copyRules</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/securityPolicies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/securityPolicies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/securityPolicies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/securityPolicies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/securityPolicies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/securityPolicies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/securityPolicies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/securityPolicies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/securityPolicies.move</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/securityPolicies.removeAssociation</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/securityPolicies.setLabels</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/securityPolicies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/securityPolicies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/serviceAttachments.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/serviceAttachments.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/serviceAttachments.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/serviceAttachments.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/serviceAttachments.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/serviceAttachments.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/serviceAttachments.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/serviceAttachments.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/serviceAttachments.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/serviceAttachments.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/serviceAttachments.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/serviceAttachments.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/serviceAttachments.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshotGroups.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshotGroups.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshotGroups.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshotGroups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshotGroups.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshotGroups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshotGroups.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshotGroups.useReadOnly</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshotRecycleBinPolicy.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshotRecycleBinPolicy.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshotRecycleBinPolicy.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshotSettings.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshotSettings.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshotSettings.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshots.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshots.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshots.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshots.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshots.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshots.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshots.getEffectiveRecycleBinRule</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshots.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshots.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshots.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshots.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshots.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshots.setLabels</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/snapshots.updateKmsKey</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/snapshots.useReadOnly</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/spotAssistants.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/spotAssistants.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/sslCertificates.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/sslCertificates.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/sslCertificates.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/sslCertificates.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/sslCertificates.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/sslCertificates.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/sslCertificates.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/sslCertificates.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/sslCertificates.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/sslPolicies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/sslPolicies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/sslPolicies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/sslPolicies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/sslPolicies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/sslPolicies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/sslPolicies.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/sslPolicies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/sslPolicies.listAvailableFeatures</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/sslPolicies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/sslPolicies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/sslPolicies.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/sslPolicies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/sslPolicies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/storagePools.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/storagePools.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/storagePools.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/storagePools.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/storagePools.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/storagePools.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/storagePools.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/storagePools.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/storagePools.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/storagePools.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/storagePools.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/storagePools.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/storagePools.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/subnetworks.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/subnetworks.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/subnetworks.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/subnetworks.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/subnetworks.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/subnetworks.expandIpCidrRange</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/subnetworks.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/subnetworks.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/subnetworks.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/subnetworks.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/subnetworks.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/subnetworks.mirror</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/subnetworks.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/subnetworks.setPrivateIpGoogleAccess</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/subnetworks.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/subnetworks.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/subnetworks.useExternalIp</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/subnetworks.usePeerMigration</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetGrpcProxies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetGrpcProxies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetGrpcProxies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetGrpcProxies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetGrpcProxies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetGrpcProxies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetGrpcProxies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetGrpcProxies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetGrpcProxies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetGrpcProxies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetGrpcProxies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpProxies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpProxies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpProxies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpProxies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpProxies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpProxies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpProxies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpProxies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpProxies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpProxies.setUrlMap</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpProxies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpProxies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.setCertificateMap</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.setQuicOverride</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.setSslCertificates</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.setSslPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.setUrlMap</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetHttpsProxies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetInstances.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetInstances.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetInstances.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetInstances.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetInstances.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetInstances.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetInstances.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetInstances.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetInstances.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetInstances.setSecurityPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetInstances.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetPools.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetPools.addHealthCheck</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetPools.addInstance</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetPools.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetPools.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetPools.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetPools.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetPools.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetPools.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetPools.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetPools.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetPools.removeHealthCheck</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetPools.removeInstance</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetPools.setSecurityPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetPools.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetPools.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetSslProxies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetSslProxies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetSslProxies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetSslProxies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetSslProxies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetSslProxies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetSslProxies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetSslProxies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetSslProxies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetSslProxies.setBackendService</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetSslProxies.setCertificateMap</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetSslProxies.setProxyHeader</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetSslProxies.setSslCertificates</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetSslProxies.setSslPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetSslProxies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetSslProxies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetTcpProxies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetTcpProxies.attach</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetTcpProxies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetTcpProxies.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetTcpProxies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetTcpProxies.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetTcpProxies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetTcpProxies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetTcpProxies.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetTcpProxies.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetTcpProxies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetTcpProxies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetVpnGateways.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetVpnGateways.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetVpnGateways.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetVpnGateways.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetVpnGateways.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetVpnGateways.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetVpnGateways.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetVpnGateways.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetVpnGateways.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/targetVpnGateways.setLabels</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/targetVpnGateways.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/urlMaps.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/urlMaps.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/urlMaps.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/urlMaps.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/urlMaps.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/urlMaps.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/urlMaps.invalidateCache</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/urlMaps.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/urlMaps.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/urlMaps.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/urlMaps.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/urlMaps.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/urlMaps.validate</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vmExtensionPolicies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vmExtensionPolicies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vmExtensionPolicies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vmExtensionPolicies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vmExtensionPolicies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vmExtensionPolicies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vpnGateways.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vpnGateways.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vpnGateways.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vpnGateways.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vpnGateways.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vpnGateways.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vpnGateways.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vpnGateways.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vpnGateways.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vpnGateways.setLabels</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vpnGateways.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vpnTunnels.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vpnTunnels.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vpnTunnels.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vpnTunnels.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vpnTunnels.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vpnTunnels.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vpnTunnels.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/vpnTunnels.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/vpnTunnels.setLabels</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/wireGroups.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/wireGroups.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/wireGroups.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/wireGroups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/wireGroups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/wireGroups.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/zoneOperations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/zoneOperations.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/zoneOperations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/zoneOperations.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/zones.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>compute.googleapis.com/zones.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>compute.googleapis.com/zones.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Confidential Computing</td>
 <td><p><code>confidentialcomputing.googleapis.com/*.*</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>confidentialcomputing.googleapis.com/challenges.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>confidentialcomputing.googleapis.com/challenges.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>confidentialcomputing.googleapis.com/challenges.verify</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>confidentialcomputing.googleapis.com/challenges.verifygke</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>confidentialcomputing.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>confidentialcomputing.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>confidentialcomputing.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Infrastructure Manager</td>
 <td><p><code>config.googleapis.com/automigrationconfig.*</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/automigrationconfig.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/automigrationconfig.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deploymentgrouprevisions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deploymentgrouprevisions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deploymentgrouprevisions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deploymentgroups.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deploymentgroups.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deploymentgroups.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deploymentgroups.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deploymentgroups.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deploymentgroups.deprovision</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deploymentgroups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deploymentgroups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deploymentgroups.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deploymentgroups.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deploymentgroups.provision</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deploymentgroups.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deployments.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deployments.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deployments.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deployments.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deployments.deleteState</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deployments.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deployments.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deployments.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deployments.getLock</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deployments.getState</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deployments.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deployments.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deployments.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deployments.lock</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deployments.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deployments.unlock</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/deployments.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/deployments.updateState</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/previews.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/previews.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/previews.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/previews.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/previews.export</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/previews.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/previews.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/previews.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/previews.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/resourcechanges.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/resourcechanges.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/resourcechanges.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/resourcedrifts.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/resourcedrifts.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/resourcedrifts.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/resources.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/resources.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/resources.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/revisions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/revisions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/revisions.getState</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/revisions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/terraformversions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>config.googleapis.com/terraformversions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>config.googleapis.com/terraformversions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Config Delivery</td>
 <td><p><code>configdelivery.googleapis.com/fleetPackages.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/fleetPackages.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/fleetPackages.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/fleetPackages.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/fleetPackages.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/fleetPackages.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/releases.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/releases.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/releases.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/releases.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/releases.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/releases.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/resourceBundles.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/resourceBundles.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/resourceBundles.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/resourceBundles.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/resourceBundles.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/resourceBundles.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/rollouts.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/rollouts.abort</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/rollouts.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/rollouts.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/rollouts.resume</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/rollouts.suspend</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/variants.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/variants.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/variants.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/variants.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>configdelivery.googleapis.com/variants.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>configdelivery.googleapis.com/variants.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Connectors</td>
 <td><p><code>connectors.googleapis.com/actions.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/actions.execute</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/actions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/connections.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/connections.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/connections.executeSqlQuery</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/connections.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/connections.getConnectionSchemaMetadata</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/connections.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/connections.getRuntimeActionSchema</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/connections.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/connections.listenEvent</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/connections.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/connectors.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/connectors.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/connectors.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/customConnectorVersions.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/customConnectorVersions.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/customConnectorVersions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/customConnectorVersions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/customConnectorVersions.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/customConnectors.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/customConnectors.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/customConnectors.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/customConnectors.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/endpointAttachments.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/endpointAttachments.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/endpointAttachments.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/endpointAttachments.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/endpointAttachments.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/entities.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/entities.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/entities.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/entities.deleteEntitiesWithConditions</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/entities.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/entities.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/entities.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/entities.updateEntitiesWithConditions</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/entityTypes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/entityTypes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/eventSubscriptions.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/eventSubscriptions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/eventSubscriptions.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/eventtypes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/eventtypes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/eventtypes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/managedZones.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/managedZones.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/managedZones.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/managedZones.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/managedZones.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/providers.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/providers.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/providers.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/regionalSettings.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/regionalSettings.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/regionalSettings.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/runtimeconfig.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/runtimeconfig.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/schemaMetadata.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/schemaMetadata.refresh</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/settings.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/versions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>connectors.googleapis.com/versions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>connectors.googleapis.com/versions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Cloud Commerce Consumer Procurement</td>
 <td><p><code>consumerprocurement.googleapis.com/accounts.*</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/accounts.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/accounts.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/accounts.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/accounts.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/consents.check</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/consents.grant</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/consents.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/consents.revoke</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/entitlements.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/entitlements.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/entitlements.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/events.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/freeTrials.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/freeTrials.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/freeTrials.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/freeTrials.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/licensePools.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/licensePools.assign</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/licensePools.enumerateLicensedUsers</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/licensePools.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/licensePools.unassign</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/licensePools.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/orderAttributions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/orderAttributions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/orderAttributions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/orderAttributions.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/orders.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/orders.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/orders.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/orders.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>consumerprocurement.googleapis.com/orders.modify</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>consumerprocurement.googleapis.com/orders.place</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Google Cloud Contact Center as a Service</td>
 <td><p><code>contactcenteraiplatform.googleapis.com/contactCenters.create</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenteraiplatform.googleapis.com/contactCenters.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenteraiplatform.googleapis.com/contactCenters.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenteraiplatform.googleapis.com/contactCenters.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenteraiplatform.googleapis.com/contactCenters.queryQuota</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenteraiplatform.googleapis.com/contactCenters.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenteraiplatform.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenteraiplatform.googleapis.com/locations.generateShifts</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenteraiplatform.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenteraiplatform.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenteraiplatform.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenteraiplatform.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenteraiplatform.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenteraiplatform.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenteraiplatform.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Customer Experience Insights</td>
 <td><p><code>contactcenterinsights.googleapis.com/analyses.*</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/analyses.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/analyses.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/analyses.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/analyses.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/analysisRules.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/analysisRules.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/analysisRules.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/analysisRules.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/analysisRules.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/analysisRules.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/assessmentRules.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/assessmentRules.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/assessmentRules.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/assessmentRules.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/assessmentRules.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/assessmentRules.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/assessments.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/assessments.appeal</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/assessments.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/assessments.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/assessments.finalize</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/assessments.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/assessments.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/assessments.publish</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAnalyses.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAnalyses.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAnalyses.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAnalyses.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAnalyses.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAssessments.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAssessments.appeal</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAssessments.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAssessments.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAssessments.finalize</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAssessments.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAssessments.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedAssessments.publish</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedConversations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedConversations.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedConversations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedConversations.generateSignedAudio</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedConversations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedConversations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedConversations.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedConversations.upload</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedFeedbackLabels.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedFeedbackLabels.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedFeedbackLabels.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedFeedbackLabels.download</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedFeedbackLabels.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedFeedbackLabels.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedFeedbackLabels.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedFeedbackLabels.upload</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedNotes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedNotes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedNotes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedNotes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedNotes.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedOperations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedOperations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedOperations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViewSets.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViewSets.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViewSets.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViewSets.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViewSets.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViewSets.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViews.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViews.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViews.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViews.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViews.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViews.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViews.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/authorizedViews.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/conversations.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/conversations.generateSignedAudio</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/conversations.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/conversations.upload</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasetAnalyses.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasetAnalyses.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasetAnalyses.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasetAnalyses.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasetAnalyses.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasetConversations.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasetConversations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasetConversations.generateSignedAudio</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasetConversations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasetConversations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasetConversations.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasetConversations.upload</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasetFeedbackLabels.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasetFeedbackLabels.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasetFeedbackLabels.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasetFeedbackLabels.download</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasetFeedbackLabels.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasetFeedbackLabels.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasetFeedbackLabels.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasetFeedbackLabels.upload</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasets.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasets.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasets.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasets.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/datasets.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/datasets.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/diagnostics.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/diagnostics.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/diagnostics.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/diagnostics.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/diagnostics.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/discoveries.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/discoveries.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/discoveries.generate</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/discoveries.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/discoveries.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/discoveries.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryResults.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryResults.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryResults.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryRevisions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryRevisions.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryRevisions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryRevisions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryWorkspaces.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryWorkspaces.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryWorkspaces.deploy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryWorkspaces.fetchTree</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryWorkspaces.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryWorkspaces.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/discoveryWorkspaces.undeploy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/encryptionSpecs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/encryptionSpecs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/encryptionSpecs.initialize</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/faqEntries.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/faqEntries.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/faqEntries.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/faqEntries.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/faqEntries.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/faqModels.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/faqModels.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/faqModels.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/faqModels.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/faqModels.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/faqModels.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/feedbackLabels.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/feedbackLabels.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/feedbackLabels.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/feedbackLabels.download</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/feedbackLabels.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/feedbackLabels.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/feedbackLabels.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/feedbackLabels.upload</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/issueModels.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/issueModels.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/issueModels.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/issueModels.deploy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/issueModels.export</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/issueModels.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/issueModels.import</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/issueModels.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/issueModels.undeploy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/issueModels.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/issues.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/issues.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/issues.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/issues.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/issues.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/issues.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/notes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/notes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/notes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/notes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/notes.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/phraseMatchers.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/phraseMatchers.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/phraseMatchers.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/phraseMatchers.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/phraseMatchers.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/phraseMatchers.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaQuestionTags.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaQuestionTags.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaQuestionTags.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaQuestionTags.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaQuestionTags.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaQuestionTags.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaQuestions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaQuestions.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaQuestions.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaQuestions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaQuestions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaQuestions.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecardRevisions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecardRevisions.bulkUpdateQaQuestions</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecardRevisions.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecardRevisions.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecardRevisions.deploy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecardRevisions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecardRevisions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecardRevisions.tune</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecardRevisions.undeploy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecards.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecards.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecards.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecards.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecards.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/qaScorecards.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/settings.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/settings.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/settings.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/views.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/views.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/views.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/views.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/views.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/views.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>contactcenterinsights.googleapis.com/visibilityLabels.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>contactcenterinsights.googleapis.com/visibilityLabels.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Google Kubernetes Engine</td>
 <td><p><code>container.googleapis.com/clusters.create</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>container.googleapis.com/clusters.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>container.googleapis.com/clusters.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>container.googleapis.com/clusters.getCredentials</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>container.googleapis.com/clusters.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>container.googleapis.com/clusters.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>container.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>container.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>container.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Artifact Analysis</td>
 <td><p><code>containeranalysis.googleapis.com/notes.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>containeranalysis.googleapis.com/notes.attachOccurrence</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>containeranalysis.googleapis.com/notes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>containeranalysis.googleapis.com/notes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>containeranalysis.googleapis.com/notes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>containeranalysis.googleapis.com/notes.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>containeranalysis.googleapis.com/notes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>containeranalysis.googleapis.com/notes.listOccurrences</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>containeranalysis.googleapis.com/notes.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>containeranalysis.googleapis.com/notes.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>containeranalysis.googleapis.com/occurrences.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>containeranalysis.googleapis.com/occurrences.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>containeranalysis.googleapis.com/occurrences.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>containeranalysis.googleapis.com/occurrences.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>containeranalysis.googleapis.com/occurrences.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>containeranalysis.googleapis.com/occurrences.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>containeranalysis.googleapis.com/occurrences.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>containeranalysis.googleapis.com/occurrences.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Database Center</td>
 <td><p><code>databasecenter.googleapis.com/databaseGroups.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databasecenter.googleapis.com/databaseGroups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databasecenter.googleapis.com/fleetHealthStats.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databasecenter.googleapis.com/fleetHealthStats.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databasecenter.googleapis.com/fleetInsights.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databasecenter.googleapis.com/fleetInsights.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databasecenter.googleapis.com/fleetStats.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databasecenter.googleapis.com/fleetStats.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databasecenter.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databasecenter.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databasecenter.googleapis.com/products.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databasecenter.googleapis.com/products.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databasecenter.googleapis.com/queryStats.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databasecenter.googleapis.com/queryStats.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databasecenter.googleapis.com/reportConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databasecenter.googleapis.com/reportConfigs.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databasecenter.googleapis.com/reportConfigs.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databasecenter.googleapis.com/reportConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databasecenter.googleapis.com/reportConfigs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databasecenter.googleapis.com/reportConfigs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databasecenter.googleapis.com/userLabels.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databasecenter.googleapis.com/userLabels.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databasecenter.googleapis.com/userTags.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databasecenter.googleapis.com/userTags.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Database Insights</td>
 <td><p><code>databaseinsights.googleapis.com/activeQueries.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/activeQueries.fetch</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/activeQuery.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/activeQuery.terminate</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/activitySummary.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/activitySummary.fetch</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/aggregatedEvents.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/aggregatedEvents.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/aggregatedStats.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/aggregatedStats.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/clusterEvents.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/clusterEvents.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/databaseIssues.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/databaseIssues.troubleshoot</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/dbCenter.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/dbCenter.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/dbPerformance.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/dbPerformance.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/indexRecommendations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/indexRecommendations.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/instanceEvents.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/instanceEvents.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/performanceIssues.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/performanceIssues.detect</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/performanceIssues.investigate</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/queryMetrics.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/queryMetrics.fetch</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/queryStats.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/queryStats.fetch</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/queryTimeSeries.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/queryTimeSeries.fetch</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/recommendations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/recommendations.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/resourceRecommendations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/resourceRecommendations.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/systemMetrics.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/systemMetrics.fetch</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/timeSeries.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/timeSeries.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/virtualDbxAgent.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/virtualDbxAgent.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/waitEventStats.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/waitEventStats.fetch</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/waitEventTimeSeries.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/waitEventTimeSeries.fetch</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>databaseinsights.googleapis.com/workloadRecommendations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>databaseinsights.googleapis.com/workloadRecommendations.fetch</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Dataflow</td>
 <td><p><code>dataflow.googleapis.com/jobs.create</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataflow.googleapis.com/jobs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataflow.googleapis.com/jobs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Dataform</td>
 <td><p><code>dataform.googleapis.com/compilationResults.*</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/compilationResults.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/compilationResults.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/compilationResults.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/compilationResults.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/config.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/config.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/config.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/folders.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/folders.addContents</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/folders.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/folders.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/folders.deleteTree</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/folders.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/folders.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/folders.move</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/folders.queryContents</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/folders.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/folders.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/releaseConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/releaseConfigs.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/releaseConfigs.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/releaseConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/releaseConfigs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/releaseConfigs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/repositories.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/repositories.commit</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/repositories.computeAccessTokenStatus</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/repositories.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/repositories.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/repositories.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/repositories.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/repositories.fetchHistory</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/repositories.fetchRemoteBranches</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/repositories.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/repositories.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/repositories.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/repositories.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/repositories.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/repositories.move</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/repositories.queryDirectoryContents</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/repositories.readFile</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/repositories.scheduleRelease</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/repositories.scheduleWorkflow</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/repositories.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/repositories.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/teamFolders.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/teamFolders.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/teamFolders.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/teamFolders.deleteTree</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/teamFolders.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/teamFolders.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/teamFolders.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/teamFolders.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workflowConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workflowConfigs.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workflowConfigs.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workflowConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workflowConfigs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workflowConfigs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workflowInvocations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workflowInvocations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workflowInvocations.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workflowInvocations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workflowInvocations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workflowInvocations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workflowInvocations.query</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workspaces.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workspaces.commit</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workspaces.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workspaces.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workspaces.fetchFileDiff</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workspaces.fetchFileGitStatuses</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workspaces.fetchGitAheadBehind</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workspaces.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workspaces.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workspaces.installNpmPackages</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workspaces.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workspaces.makeDirectory</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workspaces.moveDirectory</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workspaces.moveFile</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workspaces.pull</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workspaces.push</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workspaces.queryDirectoryContents</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workspaces.readFile</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workspaces.removeDirectory</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workspaces.removeFile</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workspaces.reset</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workspaces.searchFiles</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataform.googleapis.com/workspaces.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataform.googleapis.com/workspaces.writeFile</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Cloud Data Fusion</td>
 <td><p><code>datafusion.googleapis.com/instances.create</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datafusion.googleapis.com/instances.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datafusion.googleapis.com/instances.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datafusion.googleapis.com/instances.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datafusion.googleapis.com/instances.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datafusion.googleapis.com/instances.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datafusion.googleapis.com/instances.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datafusion.googleapis.com/instances.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datafusion.googleapis.com/instances.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datafusion.googleapis.com/instances.restart</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datafusion.googleapis.com/instances.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datafusion.googleapis.com/instances.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datafusion.googleapis.com/instances.upgrade</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datafusion.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datafusion.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datafusion.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datafusion.googleapis.com/namespaces.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datafusion.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datafusion.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datafusion.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datafusion.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datafusion.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Lineage API</td>
 <td><p><code>datalineage.googleapis.com/configs.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/configs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/configs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/events.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/events.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/events.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/events.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/events.getFields</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/events.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/locations.processOpenLineageMessage</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/locations.searchLinks</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/processRevisions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/processRevisions.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/processRevisions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/processRevisions.insert</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/processRevisions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/processes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/processes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/processes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/processes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/processes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/processes.markAsDeleted</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/processes.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/runs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/runs.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/runs.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/runs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datalineage.googleapis.com/runs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datalineage.googleapis.com/runs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Database Migration Service</td>
 <td><p><code>datamigration.googleapis.com/connectionprofiles.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/connectionprofiles.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/connectionprofiles.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/connectionprofiles.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/connectionprofiles.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/connectionprofiles.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/connectionprofiles.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/connectionprofiles.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/connectionprofiles.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/connectionprofiles.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/connectionprofiles.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/connectionprofiles.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.apply</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.commit</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.convert</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.rollback</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.seed</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/conversionworkspaces.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/locations.fetchStaticIps</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/migrationjobs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/migrationjobs.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/migrationjobs.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/migrationjobs.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/migrationjobs.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/migrationjobs.demoteDestination</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/migrationjobs.fetchSourceObjects</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/migrationjobs.generateSshScript</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/migrationjobs.generateTcpProxyScript</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/migrationjobs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/migrationjobs.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/migrationjobs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/migrationjobs.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/migrationjobs.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/migrationjobs.promote</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/migrationjobs.restart</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/migrationjobs.resume</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/migrationjobs.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/migrationjobs.start</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/migrationjobs.stop</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/migrationjobs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/migrationjobs.verify</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/objects.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/objects.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/objects.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/privateconnections.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/privateconnections.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/privateconnections.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/privateconnections.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/privateconnections.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/privateconnections.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/privateconnections.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/privateconnections.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/privateconnections.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datamigration.googleapis.com/privateconnections.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datamigration.googleapis.com/privateconnections.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Knowledge Catalog</td>
 <td><p><code>dataplex.googleapis.com/aspectTypes.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/aspectTypes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/aspectTypes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/aspectTypes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/aspectTypes.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/aspectTypes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/aspectTypes.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/aspectTypes.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/aspectTypes.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/changeRequests.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/changeRequests.adminDelete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/changeRequests.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/changeRequests.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/changeRequests.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/changeRequests.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/changeRequests.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/changeRequests.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/changeRequests.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataAssets.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataAssets.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataAssets.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataAssets.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataAssets.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataAssets.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataDomainBindings.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataDomainBindings.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataDomainBindings.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataDomainBindings.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataDomainBindings.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataDomains.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataDomains.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataDomains.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataDomains.discover</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataDomains.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataDomains.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataDomains.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataDomains.lookupEntry</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataDomains.modifyEntry</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataDomains.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataDomains.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataProducts.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataProducts.approve</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataProducts.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataProducts.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataProducts.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataProducts.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataProducts.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/dataProducts.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/dataProducts.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/datascans.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/datascans.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/datascans.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/datascans.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/datascans.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/datascans.getData</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/datascans.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/datascans.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/datascans.run</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/datascans.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/datascans.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entries.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entries.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entries.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entries.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entries.getData</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entries.link</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entries.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entries.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.import</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.requestChanges</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useContactsAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useContextAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useContextEntry</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useContextEntryLink</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useDataProfileAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useDataQualityRuleTemplateAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useDataQualityRuleTemplateEntry</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useDataQualityScorecardAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useDataRulesAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useDatabaseDataPolicyAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useDefinitionEntryLink</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useDescriptionsAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useGenericAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useGenericEntry</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useGraphProfileAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useManagedConnectorTypes</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useMySQLConnectorTypes</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useOracleConnectorTypes</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useOverviewAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.usePostgreSQLConnectorTypes</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useQueriesAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useRefreshCadenceAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useRelatedEntryLink</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useSQLAccessAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useSQLServerConnectorTypes</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useSQLTriggersAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useSchemaAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useSchemaJoinAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useSchemaJoinEntryLink</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useSecondaryIndexesAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryGroups.useStorageAspect</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryGroups.useSynonymEntryLink</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryLinkTypes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryLinkTypes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryLinkTypes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryLinkTypes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryLinkTypes.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryLinkTypes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryLinkTypes.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryLinkTypes.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryLinkTypes.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryLinks.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryLinks.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryLinks.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryLinks.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryLinks.reference</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryLinks.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryTypes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryTypes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryTypes.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryTypes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryTypes.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryTypes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryTypes.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryTypes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryTypes.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryTypes.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryTypes.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/entryTypes.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/entryTypes.use</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/glossaries.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/glossaries.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/glossaries.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/glossaries.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/glossaries.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/glossaries.import</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/glossaries.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/glossaries.requestChanges</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/glossaries.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/glossaries.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/glossaryCategories.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/glossaryCategories.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/glossaryCategories.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/glossaryCategories.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/glossaryCategories.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/glossaryCategories.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/glossaryTerms.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/glossaryTerms.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/glossaryTerms.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/glossaryTerms.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/glossaryTerms.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/glossaryTerms.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/glossaryTerms.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/governanceRules.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/governanceRules.createTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/governanceRules.deleteTagBinding</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/governanceRules.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/governanceRules.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/metadataFeeds.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/metadataFeeds.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/metadataFeeds.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/metadataFeeds.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/metadataFeeds.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/metadataFeeds.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/metadataJobs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/metadataJobs.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/metadataJobs.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/metadataJobs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/metadataJobs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataplex.googleapis.com/projects.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataplex.googleapis.com/projects.search</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Managed Service for Apache Spark</td>
 <td><p><code>dataproc.googleapis.com/autoscalingPolicies.*</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/autoscalingPolicies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/autoscalingPolicies.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/autoscalingPolicies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/autoscalingPolicies.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/autoscalingPolicies.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/autoscalingPolicies.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/autoscalingPolicies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/autoscalingPolicies.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/batches.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/batches.computeTuningConfig</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/batches.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/batches.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/batches.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/batches.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/batches.sparkApplicationRead</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/batches.sparkApplicationWrite</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/clusters.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/clusters.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/clusters.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/clusters.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/clusters.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/clusters.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/clusters.repair</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/clusters.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/clusters.start</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/clusters.stop</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/clusters.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/clusters.use</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/jobs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/jobs.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/jobs.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/jobs.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/jobs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/jobs.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/jobs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/jobs.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/jobs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/nodeGroups.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/nodeGroups.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/nodeGroups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/nodeGroups.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/operations.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/operations.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/sessionTemplates.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/sessionTemplates.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/sessionTemplates.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/sessionTemplates.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/sessionTemplates.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/sessionTemplates.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/sessions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/sessions.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/sessions.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/sessions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/sessions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/sessions.sparkApplicationRead</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/sessions.sparkApplicationWrite</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/sessions.terminate</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/workflowTemplates.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/workflowTemplates.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/workflowTemplates.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/workflowTemplates.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/workflowTemplates.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/workflowTemplates.instantiate</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/workflowTemplates.instantiateInline</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/workflowTemplates.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dataproc.googleapis.com/workflowTemplates.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dataproc.googleapis.com/workflowTemplates.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Firestore</td>
 <td><p><code>datastore.googleapis.com/backupSchedules.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/backupSchedules.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/backupSchedules.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/backupSchedules.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/backupSchedules.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/backupSchedules.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/backups.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/backups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/backups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/databases.bulkDelete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/databases.clone</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/databases.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/databases.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/databases.export</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/databases.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/databases.getMetadata</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/databases.import</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/databases.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/databases.listEffectiveTags</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/databases.listTagBindings</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/databases.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/entities.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/entities.allocateIds</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/entities.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/entities.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/entities.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/entities.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/entities.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/insights.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/insights.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/keyVisualizerScans.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/keyVisualizerScans.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/keyVisualizerScans.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/namespaces.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/namespaces.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/namespaces.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/schemas.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/schemas.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/schemas.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/schemas.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/schemas.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/schemas.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/statistics.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/statistics.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/statistics.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/userCreds.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/userCreds.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/userCreds.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/userCreds.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastore.googleapis.com/userCreds.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastore.googleapis.com/userCreds.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Datastream</td>
 <td><p><code>datastream.googleapis.com/connectionProfiles.create</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/connectionProfiles.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/connectionProfiles.deriveDestinationSchema</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/connectionProfiles.discover</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/connectionProfiles.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/connectionProfiles.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/connectionProfiles.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/locations.fetchStaticIps</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/objects.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/objects.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/objects.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/objects.startBackfillJob</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/objects.stopBackfillJob</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/privateConnections.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/privateConnections.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/privateConnections.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/privateConnections.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/routes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/routes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/routes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/routes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/streams.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/streams.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/streams.fetchErrors</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/streams.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>datastream.googleapis.com/streams.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastream.googleapis.com/streams.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Data Studio</td>
 <td><p><code>datastudio.googleapis.com/pro.*</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>datastudio.googleapis.com/pro.manage</code></p>
 <blockquote>
 <strong>Note:</strong> In the IAM v1 API, this permission is named <code>lookerstudio.pro.manage</code> .
 </blockquote></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Application Design Center</td>
 <td><p><code>designcenter.googleapis.com/applicationTemplateRevisions.*</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/applicationTemplateRevisions.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/applicationTemplateRevisions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/applicationTemplateRevisions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/applicationTemplates.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/applicationTemplates.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/applicationTemplates.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/applicationTemplates.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/applicationTemplates.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/applicationTemplates.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/applications.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/applications.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/applications.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/applications.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/applications.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/applications.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/catalogTemplateRevisions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/catalogTemplateRevisions.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/catalogTemplateRevisions.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/catalogTemplateRevisions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/catalogTemplateRevisions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/catalogTemplates.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/catalogTemplates.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/catalogTemplates.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/catalogTemplates.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/catalogTemplates.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/catalogTemplates.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/catalogs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/catalogs.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/catalogs.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/catalogs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/catalogs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/catalogs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/components.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/components.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/components.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/components.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/components.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/components.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/connections.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/connections.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/connections.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/connections.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/connections.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/connections.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/sharedTemplateRevisions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/sharedTemplateRevisions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/sharedTemplateRevisions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/sharedTemplates.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/sharedTemplates.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/sharedTemplates.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/shares.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/shares.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/shares.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/shares.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/shares.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/spaces.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/spaces.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/spaces.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>designcenter.googleapis.com/spaces.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>designcenter.googleapis.com/spaces.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Developer Connect</td>
 <td><p><code>developerconnect.googleapis.com/accountConnectors.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/accountConnectors.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/accountConnectors.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/accountConnectors.fetchUserRepositories</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/accountConnectors.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/accountConnectors.gitProxyRead</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/accountConnectors.gitProxyWrite</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/accountConnectors.httpProxyRead</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/accountConnectors.httpProxyWrite</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/accountConnectors.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/accountConnectors.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/connections.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/connections.constructGitHubAppManifest</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/connections.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/connections.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/connections.fetchGitHubInstallations</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/connections.fetchLinkableGitRepositories</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/connections.generateGitHubStateToken</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/connections.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/connections.httpProxyRead</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/connections.httpProxyWrite</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/connections.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/connections.processGitHubAppCreationCallback</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/connections.processGitHubOAuthCallback</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/connections.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/deploymentEvents.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/deploymentEvents.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/deploymentEvents.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/gitRepositoryLinks.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/gitRepositoryLinks.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/gitRepositoryLinks.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/gitRepositoryLinks.fetchGitRefs</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/gitRepositoryLinks.fetchReadToken</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/gitRepositoryLinks.fetchReadWriteToken</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/gitRepositoryLinks.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/gitRepositoryLinks.gitProxyRead</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/gitRepositoryLinks.gitProxyWrite</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/gitRepositoryLinks.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/insightsConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/insightsConfigs.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/insightsConfigs.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/insightsConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/insightsConfigs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/insightsConfigs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/providers.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/providers.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/users.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/users.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/users.deleteSelf</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/users.fetchAccessToken</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/users.finishOAuth</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/users.getSelf</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>developerconnect.googleapis.com/users.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>developerconnect.googleapis.com/users.startOAuth</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Device Run</td>
 <td><p><code>devicerun.googleapis.com/*.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicerun.googleapis.com/devices.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>devicerun.googleapis.com/devices.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicerun.googleapis.com/devices.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>devicerun.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicerun.googleapis.com/locations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>devicerun.googleapis.com/locations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicerun.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>devicerun.googleapis.com/operations.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicerun.googleapis.com/operations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>devicerun.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicerun.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>devicerun.googleapis.com/sessions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicerun.googleapis.com/sessions.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>devicerun.googleapis.com/sessions.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicerun.googleapis.com/sessions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>devicerun.googleapis.com/sessions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicerun.googleapis.com/softwareVersions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>devicerun.googleapis.com/softwareVersions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicerun.googleapis.com/softwareVersions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Device Streaming API</td>
 <td><p><code>devicestreaming.googleapis.com/*.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicestreaming.googleapis.com/deviceSessions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>devicestreaming.googleapis.com/deviceSessions.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicestreaming.googleapis.com/deviceSessions.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>devicestreaming.googleapis.com/deviceSessions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>devicestreaming.googleapis.com/deviceSessions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>devicestreaming.googleapis.com/deviceSessions.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Dialogflow</td>
 <td><p><code>dialogflow.googleapis.com/agents.create</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/agents.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/agents.export</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/agents.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/agents.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/agents.restore</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/agents.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/agents.validate</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/companionAgents.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/companionAgents.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/companionAgents.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/companionAgents.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/companionAgents.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/companionAgents.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/entityTypes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/entityTypes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/entityTypes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/entityTypes.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/entityTypes.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/flows.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/flows.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/flows.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/flows.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/flows.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/flows.train</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/flows.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/flows.validate</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/integrations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/integrations.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/integrations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/integrations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/integrations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/integrations.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/intents.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/intents.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/intents.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/intents.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/intents.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/intents.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/pages.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/pages.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/pages.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/pages.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/pages.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/pages.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/securitySettings.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/securitySettings.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/securitySettings.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/securitySettings.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/securitySettings.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/securitySettings.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/transitionRouteGroups.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/transitionRouteGroups.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/transitionRouteGroups.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/transitionRouteGroups.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/transitionRouteGroups.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/transitionRouteGroups.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/webhooks.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/webhooks.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/webhooks.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/webhooks.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dialogflow.googleapis.com/webhooks.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dialogflow.googleapis.com/webhooks.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Discovery Engine</td>
 <td><p><code>discoveryengine.googleapis.com/accounts.*</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/accounts.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/aclConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/aclConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/aclConfigs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/agentFiles.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/agentFiles.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/agentFiles.download</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/agentFiles.import</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/agentFiles.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/agentFiles.upload</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/agentIamProposals.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/agentIamProposals.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/agentIamProposals.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/agentIamProposals.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/agentIamProposals.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/agents.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/agents.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/agents.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/agents.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/agents.getAgentView</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/agents.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/agents.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/agents.listAvailableAgentViews</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/agents.manage</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/agents.requestReview</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/agents.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/agents.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/alertPolicies.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/alertPolicies.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/alertPolicies.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/alertPolicies.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/analytics.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/analytics.acquireDashboardSession</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/analytics.refreshDashboardSessionTokens</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/answers.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/answers.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/assistAnswers.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/assistAnswers.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/assistants.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/assistants.assist</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/assistants.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/assistants.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/assistants.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/assistants.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/assistants.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/audioOverviews.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/audioOverviews.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/audioOverviews.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/audioOverviews.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/audioOverviews.getIceConfig</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/audioOverviews.sendSdpOffer</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/authorizations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/authorizations.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/authorizations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/authorizations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/authorizations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/authorizations.storeUserAuthorization</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/authorizations.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/billingAccountLicenseConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/billingAccountLicenseConfigs.distribute</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/billingAccountLicenseConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/billingAccountLicenseConfigs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/billingAccountLicenseConfigs.retract</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/branches.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/branches.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/branches.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/cannedQueries.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/cannedQueries.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/cannedQueries.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/cannedQueries.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/cannedQueries.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/cannedQueries.listActiveCannedQueryUserViews</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/cannedQueries.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/cmekConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/cmekConfigs.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/cmekConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/cmekConfigs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/cmekConfigs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/collections.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/collections.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/collections.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/collections.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/collections.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/collections.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/completionConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/completionConfigs.completeQuery</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/completionConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/completionConfigs.removeSuggestion</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/completionConfigs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/completionSuggestions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/completionSuggestions.import</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/completionSuggestions.purge</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/connectorRuns.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/connectorRuns.cancel</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/connectorRuns.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/controls.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/controls.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/controls.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/controls.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/controls.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/controls.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/conversations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/conversations.converse</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/conversations.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/conversations.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/conversations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/conversations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/conversations.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/dataConnectors.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/dataConnectors.acquireAccessToken</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/dataConnectors.acquireAndStoreRefreshToken</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/dataConnectors.buildActionInvocation</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/dataConnectors.checkRefreshToken</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/dataConnectors.executeAction</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/dataConnectors.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/dataConnectors.queryAvailableActions</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/dataConnectors.startConnectorRun</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/dataConnectors.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/dataStores.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/dataStores.completeQuery</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/dataStores.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/dataStores.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/dataStores.enrollSolutions</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/dataStores.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/dataStores.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/dataStores.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/dataStores.listCustomModels</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/dataStores.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/dataStores.trainCustomModel</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/dataStores.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/devToolsConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/devToolsConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/devToolsConfigs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/documentProcessingConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/documentProcessingConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/documentProcessingConfigs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/documents.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/documents.batchGetDocumentsMetadata</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/documents.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/documents.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/documents.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/documents.import</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/documents.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/documents.purge</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/documents.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/engines.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/engines.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/engines.createEngineUserData</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/engines.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/engines.generateMemories</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/engines.generatePersonalContext</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/engines.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/engines.getEngineUserData</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/engines.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/engines.getPersonalContext</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/engines.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/engines.pause</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/engines.resume</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/engines.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/engines.tune</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/engines.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/engines.updateEngineUserData</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/evaluations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/evaluations.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/evaluations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/evaluations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/groundingConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/groundingConfigs.check</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/homepageDataConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/homepageDataConfigs.fetchDocuments</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/ideaForgeIdeas.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/ideaForgeIdeas.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/ideaForgeIdeas.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/ideaForgeInstances.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/ideaForgeInstances.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/ideaForgeInstances.start</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/ideaForgeInstances.stop</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/identityMappingStores.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/identityMappingStores.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/identityMappingStores.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/identityMappingStores.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/identityMappingStores.importIdentityMappings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/identityMappingStores.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/identityMappingStores.listIdentityMappings</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/identityMappingStores.purgeIdentityMappings</code></p></td>
 <td></td>
 </tr>
+<tr class="odd">
+<td><p><code>discoveryengine.googleapis.com/immersiveArtifacts.*</code></p></td>
+<td></td>
+</tr>
 <tr class="even">
+<td><p><code>discoveryengine.googleapis.com/immersiveArtifacts.create</code></p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><code>discoveryengine.googleapis.com/immersiveArtifacts.delete</code></p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p><code>discoveryengine.googleapis.com/immersiveArtifacts.export</code></p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><code>discoveryengine.googleapis.com/immersiveArtifacts.get</code></p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p><code>discoveryengine.googleapis.com/immersiveArtifacts.list</code></p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><code>discoveryengine.googleapis.com/immersiveArtifacts.navigate</code></p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p><code>discoveryengine.googleapis.com/immersiveArtifacts.update</code></p></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/licenseConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/licenseConfigs.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/licenseConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/licenseConfigs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/licenseConfigs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/locations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/locations.buildAuthorizationUrl</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/locations.completeExternalIdentities</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/locations.estimateDataSize</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/locations.exchangeAuthCredentials</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/locations.fetchAgentCards</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/locations.getConnectorSource</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/locations.listConnectorSources</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/locations.setUpDataConnector</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/memories.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/memories.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/memories.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/memories.retrieve</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/memories.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/models.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/models.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/models.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/models.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/models.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/models.pause</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/models.resume</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/models.tune</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/models.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/notebooks.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/notebooks.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/notebooks.generateGuide</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/notebooks.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/notebooks.getAnalytics</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/notebooks.getIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/notebooks.interactSources</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/notebooks.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/notebooks.removeSelf</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/notebooks.setIamPolicy</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/notebooks.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/notes.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/notes.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/notes.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/notes.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/notes.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/notificationMessages.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/notificationMessages.ackAll</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/notificationMessages.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/notificationMessages.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/operations.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/operations.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/operations.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/podcasts.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/podcasts.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/projectOverageConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/projectOverageConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/projects.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/projects.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/projects.provision</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/projects.reportConsentChange</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/projects.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/rankingConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/rankingConfigs.rank</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sampleQueries.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sampleQueries.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sampleQueries.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sampleQueries.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sampleQueries.import</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sampleQueries.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sampleQueries.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sampleQuerySets.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sampleQuerySets.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sampleQuerySets.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sampleQuerySets.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sampleQuerySets.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sampleQuerySets.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/schemas.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/schemas.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/schemas.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/schemas.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/schemas.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/schemas.preview</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/schemas.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/schemas.validate</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/servingConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/servingConfigs.answer</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/servingConfigs.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/servingConfigs.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/servingConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/servingConfigs.list</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/servingConfigs.recommend</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/servingConfigs.search</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/servingConfigs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sessions.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sessions.addContextFile</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sessions.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sessions.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sessions.downloadFile</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sessions.generateSummary</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sessions.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sessions.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sessions.listSessionFileMetadata</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sessions.recommendQuestions</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sessions.removeContextFile</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sessions.search</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sessions.selectContextFiles</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sessions.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sessions.uploadFile</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sharedContents.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sharedContents.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sharedContents.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sharedContents.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sharedContents.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/siteSearchEngines.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/siteSearchEngines.batchVerifyTargetSites</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/siteSearchEngines.disableAdvancedSiteSearch</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/siteSearchEngines.enableAdvancedSiteSearch</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/siteSearchEngines.fetchDomainVerificationStatus</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/siteSearchEngines.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/siteSearchEngines.recrawlUris</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sitemaps.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sitemaps.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sitemaps.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sitemaps.fetch</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sources.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sources.checkFreshness</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sources.create</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sources.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sources.generateDocumentGuide</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sources.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/sources.refresh</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/sources.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/suggestionDenyListEntries.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/suggestionDenyListEntries.import</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/suggestionDenyListEntries.purge</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/targetSites.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/targetSites.batchCreate</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/targetSites.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/targetSites.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/targetSites.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/targetSites.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/targetSites.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/userEvents.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/userEvents.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/userEvents.fetchStats</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/userEvents.import</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/userEvents.purge</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/userStores.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/userStores.batchUpdateUserLicenses</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/userStores.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/userStores.listUserLicenses</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/userStores.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/users.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/users.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/users.update</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/widgetConfigs.*</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>discoveryengine.googleapis.com/widgetConfigs.get</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>discoveryengine.googleapis.com/widgetConfigs.update</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Sensitive Data Protection</td>
 <td><p><code>dlp.googleapis.com/charts.*</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dlp.googleapis.com/charts.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dlp.googleapis.com/columnDataProfiles.*</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dlp.googleapis.com/columnDataProfiles.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dlp.googleapis.com/columnDataProfiles.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dlp.googleapis.com/connections.create</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dlp.googleapis.com/connections.delete</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dlp.googleapis.com/connections.get</code></p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>dlp.googleapis.com/connections.list</code></p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>dlp.googleapis.com/connections.search</code></p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p><code>dlp.googleapis.com/contentPolicies.*</code></p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><code>dlp.googleapis.com/contentPolicies.apply</code></p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p><code>dlp.googleapis.com/contentPolicies.create</code></p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><code>dlp.googleapis.com/contentPolicies.delete</code></p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p><code>dlp.googleapis.com/contentPolicies.get</code></p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><code>dlp.googleapis.com/contentPolicies.list</code></p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p><code>dlp.googleapis.com/contentPolicies.update</code></p></td>
 <td></td>
 </tr>
 <tr class="odd">

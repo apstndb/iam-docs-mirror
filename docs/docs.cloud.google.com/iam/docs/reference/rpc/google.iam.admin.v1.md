@@ -93,6 +93,8 @@ data_source: docs.cloud.google.com
 - [`QueryGrantableRolesResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.QueryGrantableRolesResponse) (message)
 - [`QueryTestablePermissionsRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.QueryTestablePermissionsRequest) (message)
 - [`QueryTestablePermissionsResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.QueryTestablePermissionsResponse) (message)
+- [`RevokeWorkforcePoolSubjectSessionsRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.RevokeWorkforcePoolSubjectSessionsRequest) (message)
+- [`RevokeWorkforcePoolSubjectSessionsResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.RevokeWorkforcePoolSubjectSessionsResponse) (message)
 - [`Role`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.Role) (message)
 - [`Role.RoleLaunchStage`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.Role.RoleLaunchStage) (enum)
 - [`RoleView`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.RoleView) (enum)
@@ -1159,6 +1161,20 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 `rpc ListWorkforcePools( `[`ListWorkforcePoolsRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.ListWorkforcePoolsRequest)` ) returns ( `[`ListWorkforcePoolsResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.ListWorkforcePoolsResponse)` )`
 
 Lists all non-deleted [`WorkforcePool`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePool) s under the specified parent. If `show_deleted` is set to `true` , then deleted pools are also listed.
+
+Authorization scopes  
+Requires one of the following OAuth scopes:
+
+- `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
+
+For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
+
+**RevokeWorkforcePoolSubjectSessions**
+
+`rpc RevokeWorkforcePoolSubjectSessions( `[`RevokeWorkforcePoolSubjectSessionsRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.RevokeWorkforcePoolSubjectSessionsRequest)` ) returns ( `[`Operation`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.longrunning#google.longrunning.Operation)` )`
+
+Revokes all sessions for the specified [`WorkforcePoolSubject`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolSubject) . Revoking sessions invalidates all active sessions and previously issued credentials for the subject, requiring the user to re-authenticate with the identity provider.
 
 Authorization scopes  
 Requires one of the following OAuth scopes:
@@ -2806,6 +2822,20 @@ The response containing permissions which can be tested on a resource.
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `permissions[]`   | [`Permission`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.Permission) The Permissions testable on the requested resource. |
 | `next_page_token` | `string` To retrieve the next page of results, set `QueryTestableRolesRequest.page_token` to this value.                                                                    |
+
+## RevokeWorkforcePoolSubjectSessionsRequest
+
+Request message for \[RevokeWorkforcePoolSubjectSessions\]\[\].
+
+| Fields |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name` | `string` Required. The resource name of the [`WorkforcePoolSubject`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolSubject) . Special characters, such as `/` and `:` , must be escaped, because all URLs must conform to the "When to Escape and Unescape" section of [RFC 3986](https://www.rfc-editor.org/info/rfc3986/) . Format: `locations/{location}/workforcePools/{workforce_pool_id}/subjects/{subject_id}` |
+
+## RevokeWorkforcePoolSubjectSessionsResponse
+
+This type has no fields.
+
+Response message for \[RevokeWorkforcePoolSubjectSessions\]\[\].
 
 ## Role
 

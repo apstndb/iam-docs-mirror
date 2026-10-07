@@ -881,6 +881,8 @@ You can terminate your session by executing the following command:
 gcloud auth revoke
 ```
 
+To revoke all active sessions and short-lived credentials for a workforce pool subject across all clients as an administrator, follow the instructions on [Revoke Workforce Identity Federation user sessions](https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions) .
+
 `gcloud` supports multiple user sessions. To get the list of sessions, including the session that is currently active, execute the following command:
 
 ```
@@ -905,5 +907,6 @@ gcloud config set account principal://iam.googleapis.com/locations/global/workfo
 ## What's next
 
 - [Delete Workforce Identity Federation users and their data](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data)
+- [Revoke Workforce Identity Federation user sessions](https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions)
 - Learn which Google Cloud products [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services)
 - [Set up user access to console (federated)](https://docs.cloud.google.com/iam/docs/workforce-console-sso)

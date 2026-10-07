@@ -490,5 +490,6 @@ To force delete a SCIM tenant, do the following:
 
 - [Troubleshoot SCIM provisioning](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#scim-provisioning-errors)
 - [Delete Workforce Identity Federation users and their data](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data)
+- [Revoke Workforce Identity Federation user sessions](https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions)
 - Learn which Google Cloud products [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services)
 - [Set up user access to console (federated)](https://docs.cloud.google.com/iam/docs/workforce-console-sso)

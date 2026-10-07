@@ -68,7 +68,7 @@ By default, service agents aren't listed in the **IAM** page in the Google Cloud
 
 Google Cloud has the following types of service agents:
 
-- [Service-specific service agents](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents)
+- [Service-specific service agents](https://docs.cloud.google.com/iam/docs/service-account-types#service-specific)
 - [Google APIs Service Agent](https://docs.cloud.google.com/iam/docs/service-account-types#google-apis-service-agent)
 - [Role manager for service agents](https://docs.cloud.google.com/iam/docs/service-account-types#role-manager)
 

@@ -328,4 +328,5 @@ You can now use data from BigQuery in Power BI Web.
 ## What's next
 
 - To delete Workforce Identity Federation users and their data, see [Delete Workforce Identity Federation users and their data](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data)
+- To revoke Workforce Identity Federation user sessions, see [Revoke Workforce Identity Federation user sessions](https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions)
 - To learn about Google Cloud products' support for Workforce Identity Federation, see [Identity federation: supported products and limitations](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services)
