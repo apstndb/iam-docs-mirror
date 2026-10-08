@@ -10,15 +10,48 @@ This page lists the IAM roles and permissions for Apigee Connect. To search thro
 
 ## Apigee Connect roles
 
-| Role                                                                                                                               | Permissions                                                                                     |
-|------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Apigee Connect Admin ( `roles/ apigeeconnect.Admin` ) Admin of Apigee Connect                                                      | `apigeeconnect.connections.list`                                                                |
-| Apigeeconnect Viewer ( `roles/ apigeeconnect.viewer` ) Viewer role for apigeeconnect                                               | `apigeeconnect.connections.list` `resourcemanager.projects.get` `resourcemanager.projects.list` |
-| Apigee Connect Agent ( `roles/ apigeeconnect.Agent` ) Ability to set up Apigee Connect agent between external clusters and Google. | `apigeeconnect. endpoints. connect`                                                             |
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Role</th>
+<th>Permissions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Apigee Connect Admin
+<p>( <code>roles/ apigeeconnect.Admin</code> )</p>
+<p>Admin of Apigee Connect</p></td>
+<td><p><code>apigeeconnect.*</code></p>
+<ul>
+<li><code>apigeeconnect.connections.list</code></li>
+<li><code>apigeeconnect. endpoints. connect</code></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Apigeeconnect Viewer
+<p>( <code>roles/ apigeeconnect.viewer</code> )</p>
+<p>Viewer role for apigeeconnect</p></td>
+<td><p><code>apigeeconnect.connections.list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="odd">
+<td>Apigee Connect Agent
+<p>( <code>roles/ apigeeconnect.Agent</code> )</p>
+<p>Ability to set up Apigee Connect agent between external clusters and Google.</p></td>
+<td><p><code>apigeeconnect. endpoints. connect</code></p></td>
+</tr>
+</tbody>
+</table>
 
 ## Apigee Connect permissions
 
 | Permission                          | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `apigeeconnect.connections.list`    | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Apigee Connect Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeconnect#apigeeconnect.Admin) ( `roles/ apigeeconnect.Admin` ) [Apigeeconnect Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeconnect#apigeeconnect.viewer) ( `roles/ apigeeconnect.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) |
-| `apigeeconnect. endpoints. connect` | [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Apigee Connect Agent](https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeconnect#apigeeconnect.Agent) ( `roles/ apigeeconnect.Agent` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| `apigeeconnect.connections.list`    | [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Reader](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ reader` ) [Viewer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ viewer` ) [Apigee Connect Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeconnect#apigeeconnect.Admin) ( `roles/ apigeeconnect.Admin` ) [Apigeeconnect Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeconnect#apigeeconnect.viewer) ( `roles/ apigeeconnect.viewer` ) [Security Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin) ( `roles/ iam.securityAdmin` ) [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/ iam.securityReviewer` ) [Security Auditor](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor) ( `roles/ iam.securityAuditor` ) [Support User](https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser) ( `roles/ iam.supportUser` ) |
+| `apigeeconnect. endpoints. connect` | [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Apigee Connect Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeconnect#apigeeconnect.Admin) ( `roles/ apigeeconnect.Admin` ) [Apigee Connect Agent](https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeconnect#apigeeconnect.Agent) ( `roles/ apigeeconnect.Agent` )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |

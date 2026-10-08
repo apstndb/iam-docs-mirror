@@ -67,9 +67,19 @@ Spectrum Access System (SAS) offers the following service agent roles. Service a
 <p><code>pubsub.topics.update</code></p>
 <p><code>pubsub.topics.updateTag</code></p>
 <p><code>resourcemanager.projects.get</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
+<ul>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
+</ul>
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
-<p><code>serviceusage.services.list</code></p></td>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>
 </table>

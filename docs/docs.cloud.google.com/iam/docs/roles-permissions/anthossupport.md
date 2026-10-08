@@ -51,6 +51,7 @@ Anthos Support offers the following service agent roles. Service agent roles sho
 <p><code>gkehub.memberships.get</code></p>
 <p><code>gkehub. memberships. getIamPolicy</code></p>
 <p><code>gkehub.memberships.list</code></p>
+<p><code>gkehub.memberships.update</code></p>
 <p><code>gkehub.namespaces.get</code></p>
 <p><code>gkehub.namespaces.list</code></p>
 <p><code>gkehub.operations.get</code></p>
@@ -58,6 +59,7 @@ Anthos Support offers the following service agent roles. Service agent roles sho
 <p><code>gkehub.rbacrolebindings.get</code></p>
 <p><code>gkehub.rbacrolebindings.list</code></p>
 <p><code>gkehub.scopes.get</code></p>
+<p><code>gkehub.scopes.getIamPolicy</code></p>
 <p><code>gkehub.scopes.list</code></p>
 <p><code>gkehub. scopes. listBoundMemberships</code></p>
 <p><code>resourcemanager.projects.get</code></p>

@@ -627,6 +627,7 @@ Game Servers offers the following service agent roles. Service agent roles shoul
 <p><code>gkehub.rbacrolebindings.get</code></p>
 <p><code>gkehub.rbacrolebindings.list</code></p>
 <p><code>gkehub.scopes.get</code></p>
+<p><code>gkehub.scopes.getIamPolicy</code></p>
 <p><code>gkehub.scopes.list</code></p>
 <p><code>gkehub. scopes. listBoundMemberships</code></p>
 <p><code>iam.serviceAccounts.actAs</code></p>

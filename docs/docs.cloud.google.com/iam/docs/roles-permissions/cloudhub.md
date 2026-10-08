@@ -670,6 +670,8 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 <p><code>cloudasset. othercloudconnections. get</code></p>
 <p><code>cloudasset. othercloudconnections. list</code></p>
 <p><code>cloudasset. othercloudconnections. verify</code></p>
+<p><code>cloudasset.savedqueries.get</code></p>
+<p><code>cloudasset.savedqueries.list</code></p>
 <p><code>cloudnotifications. activities. list</code></p>
 <p><code>cloudquotas.quotas.get</code></p>
 <p><code>cloudsecuritycompliance. auditReports. get</code></p>
@@ -816,6 +818,8 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 <p><code>errorreporting.groups.list</code></p>
 <p><code>logging.buckets.get</code></p>
 <p><code>logging.buckets.list</code></p>
+<p><code>logging. buckets. listEffectiveTags</code></p>
+<p><code>logging. buckets. listTagBindings</code></p>
 <p><code>logging.exclusions.get</code></p>
 <p><code>logging.exclusions.list</code></p>
 <p><code>logging.links.get</code></p>
@@ -840,10 +844,12 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 <p><code>logging.queries.getShared</code></p>
 <p><code>logging.queries.listShared</code></p>
 <p><code>logging.queries.usePrivate</code></p>
+<p><code>logging.settings.get</code></p>
 <p><code>logging.sinks.get</code></p>
 <p><code>logging.sinks.list</code></p>
 <p><code>logging.usage.get</code></p>
 <p><code>logging.views.get</code></p>
+<p><code>logging.views.getIamPolicy</code></p>
 <p><code>logging.views.list</code></p>
 <p><code>maintenance.*</code></p>
 <ul>
@@ -1051,6 +1057,11 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 <p><code>recommender. containerDiagnosisRecommendations. list</code></p>
 <p><code>recommender.costInsights.get</code></p>
 <p><code>recommender.costInsights.list</code></p>
+<p><code>recommender. costRecommendations.*</code></p>
+<ul>
+<li><code>recommender. costRecommendations. listAll</code></li>
+<li><code>recommender. costRecommendations. summarizeAll</code></li>
+</ul>
 <p><code>recommender. dataflowDiagnosticsInsights. get</code></p>
 <p><code>recommender. dataflowDiagnosticsInsights. list</code></p>
 <p><code>recommender. errorReportingInsights. get</code></p>

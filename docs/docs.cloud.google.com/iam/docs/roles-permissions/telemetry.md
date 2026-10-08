@@ -124,59 +124,59 @@ This page lists the IAM roles and permissions for Telemetry API. To search throu
 <tbody>
 <tr class="odd">
 <td><code>telemetry. consumers. getIamPolicy</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.admin">Telemetry Admin</a> ( <code>roles/ telemetry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.consumerAdmin">Consumer Admin</a> ( <code>roles/ telemetry.consumerAdmin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>telemetry. consumers. setIamPolicy</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.admin">Telemetry Admin</a> ( <code>roles/ telemetry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.consumerAdmin">Consumer Admin</a> ( <code>roles/ telemetry.consumerAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>telemetry.consumers.writeLogs</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.admin">Telemetry Admin</a> ( <code>roles/ telemetry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.serviceLogsWriter">Integrated Service Telemetry Logs Writer</a> ( <code>roles/ telemetry.serviceLogsWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.serviceTelemetryWriter">Integrated Service Telemetry Writer</a> ( <code>roles/ telemetry.serviceTelemetryWriter</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>telemetry. consumers. writeMetrics</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.admin">Telemetry Admin</a> ( <code>roles/ telemetry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.serviceMetricsWriter">Integrated Service Telemetry Metrics Writer</a> ( <code>roles/ telemetry.serviceMetricsWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.serviceTelemetryWriter">Integrated Service Telemetry Writer</a> ( <code>roles/ telemetry.serviceTelemetryWriter</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>telemetry. consumers. writeTraces</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.admin">Telemetry Admin</a> ( <code>roles/ telemetry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.serviceTelemetryWriter">Integrated Service Telemetry Writer</a> ( <code>roles/ telemetry.serviceTelemetryWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.serviceTracesWriter">Integrated Service Telemetry Traces Writer</a> ( <code>roles/ telemetry.serviceTracesWriter</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>telemetry.traces.write</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtrace#cloudtrace.admin">Cloud Trace Admin</a> ( <code>roles/ cloudtrace.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.admin">Telemetry Admin</a> ( <code>roles/ telemetry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.editor">Telemetry Editor</a> ( <code>roles/ telemetry.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtrace#cloudtrace.agent">Cloud Trace Agent</a> ( <code>roles/ cloudtrace.agent</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.computeRunner">Firebase App Hosting Compute Runner</a> ( <code>roles/ firebaseapphosting.computeRunner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.tracesWriter">Cloud Telemetry Traces Writer</a> ( <code>roles/ telemetry.tracesWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.writer">Cloud Telemetry Writer</a> ( <code>roles/ telemetry.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .

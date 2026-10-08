@@ -197,7 +197,21 @@ App Engine flexible environment offers the following service agent roles. Servic
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager. projects. getIamPolicy</code></p>
 <p><code>resourcemanager. projects. setIamPolicy</code></p>
+<p><code>serviceusage.consumerpolicy.*</code></p>
+<ul>
+<li><code>serviceusage. consumerpolicy. analyze</code></li>
+<li><code>serviceusage. consumerpolicy. get</code></li>
+<li><code>serviceusage. consumerpolicy. update</code></li>
+</ul>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
+<ul>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
+</ul>
 <p><code>serviceusage.services.enable</code></p>
+<p><code>serviceusage.values.test</code></p>
 <p><code>storage.buckets.create</code></p>
 <p><code>storage.buckets.delete</code></p>
 <p><code>storage.buckets.get</code></p>

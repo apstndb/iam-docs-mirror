@@ -1,6 +1,6 @@
 ---
-name: documents/docs.cloud.google.com/iam/docs/create-managed-workload-identities
-uri: https://docs.cloud.google.com/iam/docs/create-managed-workload-identities
+name: documents/docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute
+uri: https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute
 title: Configure managed workload identity authentication for Compute Engine
 description: Learn how to configure managed workload identities with mTLS and set up certificate provisioning for Compute Engine instances.
 data_source: docs.cloud.google.com
@@ -80,10 +80,10 @@ To use managed workload identities for your applications, you must perform the f
 
 1.  **Security Administrator** :
 
-    - [Create a workload identity pool](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities#create_workload_id_pool) .
-    - [Configure a CA](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities#configure-ca-options) (to choose a CA option, configure CAs, and update the pool).
-    - [Create managed workload identities](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities#configure_identities) in the workload identity pool.
-    - [Define a workload attestation policy](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities#define_a_workload_attestation_policy) and create a service account.
+    - [Create a workload identity pool](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute#create_workload_id_pool) .
+    - [Configure a CA](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute#configure-ca-options) (to choose a CA option, configure CAs, and update the pool).
+    - [Create managed workload identities](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute#configure_identities) in the workload identity pool.
+    - [Define a workload attestation policy](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute#define_a_workload_attestation_policy) and create a service account.
 
 2.  **Compute Administrator** :
 
@@ -151,9 +151,9 @@ Replace the following:
 
 To configure managed workload identities by using a custom CA, complete the following steps:
 
-1.  [Configure CA Service to issue certificates for managed workload identities](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities#configure_ca) .
-2.  [Bind the CAs to the workload identity pool](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities#bind-cas) .
-3.  [Authorize managed workload identities to request certificates from the CA pool](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities#grant-role-ca-pool) .
+1.  [Configure CA Service to issue certificates for managed workload identities](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute#configure_ca) .
+2.  [Bind the CAs to the workload identity pool](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute#bind-cas) .
+3.  [Authorize managed workload identities to request certificates from the CA pool](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute#grant-role-ca-pool) .
 
 ### Configure CA Service to issue certificates for managed workload identities
 

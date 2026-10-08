@@ -975,8 +975,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dataplex.operations.get</code></p>
 <p><code>dataplex.operations.list</code></p>
 <p><code>dataplex.projects.search</code></p>
+<p><code>dataproc.agents.get</code></p>
+<p><code>dataproc.agents.list</code></p>
 <p><code>dataproc. autoscalingPolicies. get</code></p>
+<p><code>dataproc. autoscalingPolicies. getIamPolicy</code></p>
 <p><code>dataproc. autoscalingPolicies. list</code></p>
+<p><code>dataproc. autoscalingPolicies. use</code></p>
 <p><code>dataproc.batches.analyze</code></p>
 <p><code>dataproc.batches.cancel</code></p>
 <p><code>dataproc.batches.create</code></p>
@@ -986,14 +990,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dataproc. batches. sparkApplicationRead</code></p>
 <p><code>dataproc. batches. sparkApplicationWrite</code></p>
 <p><code>dataproc.clusters.get</code></p>
+<p><code>dataproc.clusters.getIamPolicy</code></p>
 <p><code>dataproc.clusters.list</code></p>
 <p><code>dataproc.jobs.create</code></p>
 <p><code>dataproc.jobs.get</code></p>
+<p><code>dataproc.jobs.getIamPolicy</code></p>
 <p><code>dataproc.jobs.list</code></p>
 <p><code>dataproc.nodeGroups.get</code></p>
 <p><code>dataproc.operations.cancel</code></p>
 <p><code>dataproc.operations.delete</code></p>
 <p><code>dataproc.operations.get</code></p>
+<p><code>dataproc. operations. getIamPolicy</code></p>
 <p><code>dataproc.operations.list</code></p>
 <p><code>dataproc.sessionTemplates.*</code></p>
 <ul>
@@ -1013,7 +1020,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>dataproc. sessions. sparkApplicationWrite</code></li>
 <li><code>dataproc.sessions.terminate</code></li>
 </ul>
+<p><code>dataproc. tasks. listInvalidatedLeases</code></p>
 <p><code>dataproc.workflowTemplates.get</code></p>
+<p><code>dataproc. workflowTemplates. getIamPolicy</code></p>
 <p><code>dataproc. workflowTemplates. list</code></p>
 <p><code>dataprocrm.nodePools.*</code></p>
 <ul>
@@ -1038,17 +1047,30 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>dataprocrm.workloads.get</code></li>
 <li><code>dataprocrm.workloads.list</code></li>
 </ul>
+<p><code>datastore.backupSchedules.get</code></p>
+<p><code>datastore.backupSchedules.list</code></p>
+<p><code>datastore.backups.get</code></p>
+<p><code>datastore.backups.list</code></p>
 <p><code>datastore.databases.get</code></p>
 <p><code>datastore. databases. getMetadata</code></p>
 <p><code>datastore.databases.list</code></p>
+<p><code>datastore. databases. listEffectiveTags</code></p>
+<p><code>datastore. databases. listTagBindings</code></p>
 <p><code>datastore.entities.get</code></p>
 <p><code>datastore.entities.list</code></p>
 <p><code>datastore.insights.get</code></p>
+<p><code>datastore.keyVisualizerScans.*</code></p>
+<ul>
+<li><code>datastore. keyVisualizerScans. get</code></li>
+<li><code>datastore. keyVisualizerScans. list</code></li>
+</ul>
 <p><code>datastore.namespaces.*</code></p>
 <ul>
 <li><code>datastore.namespaces.get</code></li>
 <li><code>datastore.namespaces.list</code></li>
 </ul>
+<p><code>datastore.operations.get</code></p>
+<p><code>datastore.operations.list</code></p>
 <p><code>datastore.schemas.get</code></p>
 <p><code>datastore.schemas.list</code></p>
 <p><code>datastore.statistics.*</code></p>
@@ -1056,6 +1078,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>datastore.statistics.get</code></li>
 <li><code>datastore.statistics.list</code></li>
 </ul>
+<p><code>datastore.userCreds.get</code></p>
+<p><code>datastore.userCreds.list</code></p>
 <p><code>eventarc. channelConnections. create</code></p>
 <p><code>eventarc. channelConnections. createTagBinding</code></p>
 <p><code>eventarc. channelConnections. delete</code></p>
@@ -1145,6 +1169,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>iam.serviceAccounts.list</code></p>
 <p><code>logging.buckets.get</code></p>
 <p><code>logging.buckets.list</code></p>
+<p><code>logging. buckets. listEffectiveTags</code></p>
+<p><code>logging. buckets. listTagBindings</code></p>
 <p><code>logging.exclusions.get</code></p>
 <p><code>logging.exclusions.list</code></p>
 <p><code>logging.links.get</code></p>
@@ -1162,15 +1188,19 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>logging.logServiceIndexes.list</code></p>
 <p><code>logging.logServices.list</code></p>
 <p><code>logging.logs.list</code></p>
+<p><code>logging.notificationRules.get</code></p>
+<p><code>logging.notificationRules.list</code></p>
 <p><code>logging.operations.get</code></p>
 <p><code>logging.operations.list</code></p>
 <p><code>logging.queries.getShared</code></p>
 <p><code>logging.queries.listShared</code></p>
 <p><code>logging.queries.usePrivate</code></p>
+<p><code>logging.settings.get</code></p>
 <p><code>logging.sinks.get</code></p>
 <p><code>logging.sinks.list</code></p>
 <p><code>logging.usage.get</code></p>
 <p><code>logging.views.get</code></p>
+<p><code>logging.views.getIamPolicy</code></p>
 <p><code>logging.views.list</code></p>
 <p><code>memcache.instances.get</code></p>
 <p><code>memcache.instances.list</code></p>
@@ -1985,12 +2015,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudkms.cryptoKeyVersions.get</code></p>
 <p><code>cloudkms. cryptoKeyVersions. list</code></p>
 <p><code>cloudkms.cryptoKeys.get</code></p>
+<p><code>cloudkms. cryptoKeys. getIamPolicy</code></p>
 <p><code>cloudkms.cryptoKeys.list</code></p>
 <p><code>cloudkms.ekmConfigs.get</code></p>
+<p><code>cloudkms. ekmConfigs. getIamPolicy</code></p>
 <p><code>cloudkms.ekmConnections.get</code></p>
+<p><code>cloudkms. ekmConnections. getIamPolicy</code></p>
 <p><code>cloudkms.ekmConnections.list</code></p>
+<p><code>cloudkms. ekmConnections. verifyConnectivity</code></p>
 <p><code>cloudkms. folders. showEffectiveAutokeyConfig</code></p>
 <p><code>cloudkms.importJobs.get</code></p>
+<p><code>cloudkms. importJobs. getIamPolicy</code></p>
 <p><code>cloudkms.importJobs.list</code></p>
 <p><code>cloudkms.kajPolicyConfigs.get</code></p>
 <p><code>cloudkms.keyHandles.*</code></p>
@@ -2000,12 +2035,22 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>cloudkms.keyHandles.list</code></li>
 </ul>
 <p><code>cloudkms.keyRings.get</code></p>
+<p><code>cloudkms.keyRings.getIamPolicy</code></p>
 <p><code>cloudkms.keyRings.list</code></p>
+<p><code>cloudkms. keyRings. listEffectiveTags</code></p>
+<p><code>cloudkms. keyRings. listTagBindings</code></p>
+<p><code>cloudkms. locations. generateRandomBytes</code></p>
 <p><code>cloudkms.locations.get</code></p>
 <p><code>cloudkms.locations.list</code></p>
 <p><code>cloudkms.operations.get</code></p>
-<p><code>cloudkms. projects. showEffectiveAutokeyConfig</code></p>
+<p><code>cloudkms.projects.*</code></p>
+<ul>
+<li><code>cloudkms. projects. showEffectiveAutokeyConfig</code></li>
+<li><code>cloudkms. projects. showEffectiveKajEnrollmentConfig</code></li>
+<li><code>cloudkms. projects. showEffectiveKajPolicyConfig</code></li>
+</ul>
 <p><code>cloudkms. protectableResources. list</code></p>
+<p><code>cloudkms. protectedResources. search</code></p>
 <p><code>cloudkms.retiredResources.*</code></p>
 <ul>
 <li><code>cloudkms.retiredResources.get</code></li>
@@ -2737,6 +2782,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>iam.serviceAccounts.list</code></p>
 <p><code>logging.buckets.get</code></p>
 <p><code>logging.buckets.list</code></p>
+<p><code>logging. buckets. listEffectiveTags</code></p>
+<p><code>logging. buckets. listTagBindings</code></p>
 <p><code>logging.exclusions.get</code></p>
 <p><code>logging.exclusions.list</code></p>
 <p><code>logging.links.get</code></p>
@@ -2754,15 +2801,19 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>logging.logServiceIndexes.list</code></p>
 <p><code>logging.logServices.list</code></p>
 <p><code>logging.logs.list</code></p>
+<p><code>logging.notificationRules.get</code></p>
+<p><code>logging.notificationRules.list</code></p>
 <p><code>logging.operations.get</code></p>
 <p><code>logging.operations.list</code></p>
 <p><code>logging.queries.getShared</code></p>
 <p><code>logging.queries.listShared</code></p>
 <p><code>logging.queries.usePrivate</code></p>
+<p><code>logging.settings.get</code></p>
 <p><code>logging.sinks.get</code></p>
 <p><code>logging.sinks.list</code></p>
 <p><code>logging.usage.get</code></p>
 <p><code>logging.views.get</code></p>
+<p><code>logging.views.getIamPolicy</code></p>
 <p><code>logging.views.list</code></p>
 <p><code>memcache.*</code></p>
 <ul>
@@ -3612,6 +3663,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudsql. instances. addServerCertificate</code></p>
 <p><code>cloudsql. instances. cancelAgentSession</code></p>
 <p><code>cloudsql.instances.connect</code></p>
+<p><code>cloudsql. instances. demoteMaster</code></p>
 <p><code>cloudsql.instances.export</code></p>
 <p><code>cloudsql.instances.failover</code></p>
 <p><code>cloudsql.instances.get</code></p>
@@ -3627,15 +3679,20 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudsql.instances.migrate</code></p>
 <p><code>cloudsql. instances. performDiskShrink</code></p>
 <p><code>cloudsql. instances. preCheckMajorVersionUpgrade</code></p>
+<p><code>cloudsql. instances. promoteReplica</code></p>
 <p><code>cloudsql.instances.reencrypt</code></p>
 <p><code>cloudsql. instances. resetReplicaSize</code></p>
 <p><code>cloudsql.instances.restart</code></p>
 <p><code>cloudsql. instances. rotateEntraIdCertificate</code></p>
 <p><code>cloudsql. instances. rotateServerCa</code></p>
 <p><code>cloudsql. instances. rotateServerCertificate</code></p>
+<p><code>cloudsql. instances. startReplica</code></p>
+<p><code>cloudsql.instances.stopReplica</code></p>
 <p><code>cloudsql.instances.truncateLog</code></p>
 <p><code>cloudsql.instances.update</code></p>
+<p><code>cloudsql. instances. updateBackupDrConfig</code></p>
 <p><code>cloudsql.schemas.view</code></p>
+<p><code>cloudsql.sslCerts.create</code></p>
 <p><code>cloudsql.sslCerts.get</code></p>
 <p><code>cloudsql.sslCerts.list</code></p>
 <p><code>cloudsql.users.get</code></p>
@@ -4031,6 +4088,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>pubsub.schemas.create</code></p>
 <p><code>pubsub.schemas.delete</code></p>
 <p><code>pubsub.schemas.get</code></p>
+<p><code>pubsub.schemas.getIamPolicy</code></p>
 <p><code>pubsub.schemas.list</code></p>
 <p><code>pubsub.schemas.listRevisions</code></p>
 <p><code>pubsub.schemas.rollback</code></p>
@@ -4733,6 +4791,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute. instances. listVmExtensionStates</code></li>
 <li><code>compute.instances.osAdminLogin</code></li>
 <li><code>compute.instances.osLogin</code></li>
+<li><code>compute. instances. performMaintenance</code></li>
 <li><code>compute. instances. pscInterfaceCreate</code></li>
 <li><code>compute. instances. removeResourcePolicies</code></li>
 <li><code>compute.instances.reset</code></li>
@@ -7298,12 +7357,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudkms.cryptoKeyVersions.get</code></p>
 <p><code>cloudkms. cryptoKeyVersions. list</code></p>
 <p><code>cloudkms.cryptoKeys.get</code></p>
+<p><code>cloudkms. cryptoKeys. getIamPolicy</code></p>
 <p><code>cloudkms.cryptoKeys.list</code></p>
 <p><code>cloudkms.ekmConfigs.get</code></p>
+<p><code>cloudkms. ekmConfigs. getIamPolicy</code></p>
 <p><code>cloudkms.ekmConnections.get</code></p>
+<p><code>cloudkms. ekmConnections. getIamPolicy</code></p>
 <p><code>cloudkms.ekmConnections.list</code></p>
+<p><code>cloudkms. ekmConnections. verifyConnectivity</code></p>
 <p><code>cloudkms. folders. showEffectiveAutokeyConfig</code></p>
 <p><code>cloudkms.importJobs.get</code></p>
+<p><code>cloudkms. importJobs. getIamPolicy</code></p>
 <p><code>cloudkms.importJobs.list</code></p>
 <p><code>cloudkms.kajPolicyConfigs.get</code></p>
 <p><code>cloudkms.keyHandles.*</code></p>
@@ -7313,12 +7377,22 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>cloudkms.keyHandles.list</code></li>
 </ul>
 <p><code>cloudkms.keyRings.get</code></p>
+<p><code>cloudkms.keyRings.getIamPolicy</code></p>
 <p><code>cloudkms.keyRings.list</code></p>
+<p><code>cloudkms. keyRings. listEffectiveTags</code></p>
+<p><code>cloudkms. keyRings. listTagBindings</code></p>
+<p><code>cloudkms. locations. generateRandomBytes</code></p>
 <p><code>cloudkms.locations.get</code></p>
 <p><code>cloudkms.locations.list</code></p>
 <p><code>cloudkms.operations.get</code></p>
-<p><code>cloudkms. projects. showEffectiveAutokeyConfig</code></p>
+<p><code>cloudkms.projects.*</code></p>
+<ul>
+<li><code>cloudkms. projects. showEffectiveAutokeyConfig</code></li>
+<li><code>cloudkms. projects. showEffectiveKajEnrollmentConfig</code></li>
+<li><code>cloudkms. projects. showEffectiveKajPolicyConfig</code></li>
+</ul>
 <p><code>cloudkms. protectableResources. list</code></p>
+<p><code>cloudkms. protectedResources. search</code></p>
 <p><code>cloudkms.retiredResources.*</code></p>
 <ul>
 <li><code>cloudkms.retiredResources.get</code></li>
@@ -8006,9 +8080,18 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>dataplex.operations.get</code></p>
 <p><code>dataplex.operations.list</code></p>
+<p><code>dataproc.agents.*</code></p>
+<ul>
+<li><code>dataproc.agents.create</code></li>
+<li><code>dataproc.agents.delete</code></li>
+<li><code>dataproc.agents.get</code></li>
+<li><code>dataproc.agents.list</code></li>
+<li><code>dataproc.agents.update</code></li>
+</ul>
 <p><code>dataproc. autoscalingPolicies. create</code></p>
 <p><code>dataproc. autoscalingPolicies. delete</code></p>
 <p><code>dataproc. autoscalingPolicies. get</code></p>
+<p><code>dataproc. autoscalingPolicies. getIamPolicy</code></p>
 <p><code>dataproc. autoscalingPolicies. list</code></p>
 <p><code>dataproc. autoscalingPolicies. update</code></p>
 <p><code>dataproc. autoscalingPolicies. use</code></p>
@@ -8023,6 +8106,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dataproc.clusters.create</code></p>
 <p><code>dataproc.clusters.delete</code></p>
 <p><code>dataproc.clusters.get</code></p>
+<p><code>dataproc.clusters.getIamPolicy</code></p>
 <p><code>dataproc.clusters.list</code></p>
 <p><code>dataproc.clusters.repair</code></p>
 <p><code>dataproc.clusters.start</code></p>
@@ -8033,6 +8117,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dataproc.jobs.create</code></p>
 <p><code>dataproc.jobs.delete</code></p>
 <p><code>dataproc.jobs.get</code></p>
+<p><code>dataproc.jobs.getIamPolicy</code></p>
 <p><code>dataproc.jobs.list</code></p>
 <p><code>dataproc.jobs.update</code></p>
 <p><code>dataproc.nodeGroups.*</code></p>
@@ -8044,6 +8129,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dataproc.operations.cancel</code></p>
 <p><code>dataproc.operations.delete</code></p>
 <p><code>dataproc.operations.get</code></p>
+<p><code>dataproc. operations. getIamPolicy</code></p>
 <p><code>dataproc.operations.list</code></p>
 <p><code>dataproc.sessionTemplates.*</code></p>
 <ul>
@@ -8063,9 +8149,16 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>dataproc. sessions. sparkApplicationWrite</code></li>
 <li><code>dataproc.sessions.terminate</code></li>
 </ul>
+<p><code>dataproc.tasks.*</code></p>
+<ul>
+<li><code>dataproc.tasks.lease</code></li>
+<li><code>dataproc. tasks. listInvalidatedLeases</code></li>
+<li><code>dataproc.tasks.reportStatus</code></li>
+</ul>
 <p><code>dataproc. workflowTemplates. create</code></p>
 <p><code>dataproc. workflowTemplates. delete</code></p>
 <p><code>dataproc.workflowTemplates.get</code></p>
+<p><code>dataproc. workflowTemplates. getIamPolicy</code></p>
 <p><code>dataproc. workflowTemplates. instantiate</code></p>
 <p><code>dataproc. workflowTemplates. instantiateInline</code></p>
 <p><code>dataproc. workflowTemplates. list</code></p>
@@ -8095,6 +8188,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>logging.buckets.get</code></p>
 <p><code>logging.buckets.list</code></p>
+<p><code>logging. buckets. listEffectiveTags</code></p>
+<p><code>logging. buckets. listTagBindings</code></p>
 <p><code>logging.exclusions.get</code></p>
 <p><code>logging.exclusions.list</code></p>
 <p><code>logging.links.get</code></p>
@@ -8112,15 +8207,19 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>logging.logServiceIndexes.list</code></p>
 <p><code>logging.logServices.list</code></p>
 <p><code>logging.logs.list</code></p>
+<p><code>logging.notificationRules.get</code></p>
+<p><code>logging.notificationRules.list</code></p>
 <p><code>logging.operations.get</code></p>
 <p><code>logging.operations.list</code></p>
 <p><code>logging.queries.getShared</code></p>
 <p><code>logging.queries.listShared</code></p>
 <p><code>logging.queries.usePrivate</code></p>
+<p><code>logging.settings.get</code></p>
 <p><code>logging.sinks.get</code></p>
 <p><code>logging.sinks.list</code></p>
 <p><code>logging.usage.get</code></p>
 <p><code>logging.views.get</code></p>
+<p><code>logging.views.getIamPolicy</code></p>
 <p><code>logging.views.list</code></p>
 <p><code>monitoring.alertPolicies.get</code></p>
 <p><code>monitoring.alertPolicies.list</code></p>
@@ -8716,6 +8815,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute. instances. listVmExtensionStates</code></li>
 <li><code>compute.instances.osAdminLogin</code></li>
 <li><code>compute.instances.osLogin</code></li>
+<li><code>compute. instances. performMaintenance</code></li>
 <li><code>compute. instances. pscInterfaceCreate</code></li>
 <li><code>compute. instances. removeResourcePolicies</code></li>
 <li><code>compute.instances.reset</code></li>
@@ -9473,43 +9573,29 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute.zones.get</code></li>
 <li><code>compute.zones.list</code></li>
 </ul>
-<p><code>dns.changes.*</code></p>
+<p><code>dns.*</code></p>
 <ul>
 <li><code>dns.changes.create</code></li>
 <li><code>dns.changes.get</code></li>
 <li><code>dns.changes.list</code></li>
-</ul>
-<p><code>dns.dnsKeys.*</code></p>
-<ul>
 <li><code>dns.dnsKeys.get</code></li>
 <li><code>dns.dnsKeys.list</code></li>
-</ul>
-<p><code>dns.gkeClusters.*</code></p>
-<ul>
 <li><code>dns. gkeClusters. bindDNSResponsePolicy</code></li>
 <li><code>dns. gkeClusters. bindPrivateDNSZone</code></li>
-</ul>
-<p><code>dns.managedZoneOperations.*</code></p>
-<ul>
 <li><code>dns.managedZoneOperations.get</code></li>
 <li><code>dns.managedZoneOperations.list</code></li>
-</ul>
-<p><code>dns.managedZones.create</code></p>
-<p><code>dns.managedZones.delete</code></p>
-<p><code>dns.managedZones.get</code></p>
-<p><code>dns.managedZones.getIamPolicy</code></p>
-<p><code>dns.managedZones.list</code></p>
-<p><code>dns.managedZones.update</code></p>
-<p><code>dns.networks.*</code></p>
-<ul>
+<li><code>dns.managedZones.create</code></li>
+<li><code>dns.managedZones.delete</code></li>
+<li><code>dns.managedZones.get</code></li>
+<li><code>dns.managedZones.getIamPolicy</code></li>
+<li><code>dns.managedZones.list</code></li>
+<li><code>dns.managedZones.setIamPolicy</code></li>
+<li><code>dns.managedZones.update</code></li>
 <li><code>dns. networks. bindDNSResponsePolicy</code></li>
 <li><code>dns. networks. bindPrivateDNSPolicy</code></li>
 <li><code>dns. networks. bindPrivateDNSZone</code></li>
 <li><code>dns. networks. targetWithPeeringZone</code></li>
 <li><code>dns.networks.useHealthSignals</code></li>
-</ul>
-<p><code>dns.policies.*</code></p>
-<ul>
 <li><code>dns.policies.create</code></li>
 <li><code>dns.policies.createTagBinding</code></li>
 <li><code>dns.policies.delete</code></li>
@@ -9519,26 +9605,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>dns.policies.listEffectiveTags</code></li>
 <li><code>dns.policies.listTagBindings</code></li>
 <li><code>dns.policies.update</code></li>
-</ul>
-<p><code>dns.projects.get</code></p>
-<p><code>dns.resourceRecordSets.*</code></p>
-<ul>
+<li><code>dns.projects.get</code></li>
 <li><code>dns.resourceRecordSets.create</code></li>
 <li><code>dns.resourceRecordSets.delete</code></li>
 <li><code>dns.resourceRecordSets.get</code></li>
 <li><code>dns.resourceRecordSets.list</code></li>
 <li><code>dns.resourceRecordSets.update</code></li>
-</ul>
-<p><code>dns.responsePolicies.*</code></p>
-<ul>
 <li><code>dns.responsePolicies.create</code></li>
 <li><code>dns.responsePolicies.delete</code></li>
 <li><code>dns.responsePolicies.get</code></li>
 <li><code>dns.responsePolicies.list</code></li>
 <li><code>dns.responsePolicies.update</code></li>
-</ul>
-<p><code>dns.responsePolicyRules.*</code></p>
-<ul>
 <li><code>dns.responsePolicyRules.create</code></li>
 <li><code>dns.responsePolicyRules.delete</code></li>
 <li><code>dns.responsePolicyRules.get</code></li>
@@ -11577,6 +11654,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudasset. othercloudconnections. get</code></p>
 <p><code>cloudasset. othercloudconnections. list</code></p>
 <p><code>cloudasset. othercloudconnections. verify</code></p>
+<p><code>cloudasset.savedqueries.get</code></p>
 <p><code>cloudasset.savedqueries.list</code></p>
 <p><code>cloudbuild.builds.list</code></p>
 <p><code>cloudbuild. connections. getIamPolicy</code></p>
@@ -11627,6 +11705,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudkms.ekmConnections.get</code></p>
 <p><code>cloudkms. ekmConnections. getIamPolicy</code></p>
 <p><code>cloudkms.ekmConnections.list</code></p>
+<p><code>cloudkms. ekmConnections. verifyConnectivity</code></p>
 <p><code>cloudkms. folders. showEffectiveAutokeyConfig</code></p>
 <p><code>cloudkms.importJobs.get</code></p>
 <p><code>cloudkms. importJobs. getIamPolicy</code></p>
@@ -11639,11 +11718,18 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudkms.keyRings.list</code></p>
 <p><code>cloudkms. keyRings. listEffectiveTags</code></p>
 <p><code>cloudkms. keyRings. listTagBindings</code></p>
+<p><code>cloudkms. locations. generateRandomBytes</code></p>
 <p><code>cloudkms.locations.get</code></p>
 <p><code>cloudkms.locations.list</code></p>
 <p><code>cloudkms.operations.get</code></p>
-<p><code>cloudkms. projects. showEffectiveAutokeyConfig</code></p>
+<p><code>cloudkms.projects.*</code></p>
+<ul>
+<li><code>cloudkms. projects. showEffectiveAutokeyConfig</code></li>
+<li><code>cloudkms. projects. showEffectiveKajEnrollmentConfig</code></li>
+<li><code>cloudkms. projects. showEffectiveKajPolicyConfig</code></li>
+</ul>
 <p><code>cloudkms. protectableResources. list</code></p>
+<p><code>cloudkms. protectedResources. search</code></p>
 <p><code>cloudkms.retiredResources.*</code></p>
 <ul>
 <li><code>cloudkms.retiredResources.get</code></li>
@@ -12697,10 +12783,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dataplex.zoneActions.list</code></p>
 <p><code>dataplex.zones.getIamPolicy</code></p>
 <p><code>dataplex.zones.list</code></p>
+<p><code>dataproc.agents.get</code></p>
 <p><code>dataproc.agents.list</code></p>
 <p><code>dataproc. autoscalingPolicies. get</code></p>
 <p><code>dataproc. autoscalingPolicies. getIamPolicy</code></p>
 <p><code>dataproc. autoscalingPolicies. list</code></p>
+<p><code>dataproc. autoscalingPolicies. use</code></p>
 <p><code>dataproc.batches.analyze</code></p>
 <p><code>dataproc.batches.get</code></p>
 <p><code>dataproc.batches.list</code></p>
@@ -12720,6 +12808,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dataproc.sessions.get</code></p>
 <p><code>dataproc.sessions.list</code></p>
 <p><code>dataproc. sessions. sparkApplicationRead</code></p>
+<p><code>dataproc. tasks. listInvalidatedLeases</code></p>
 <p><code>dataproc.workflowTemplates.get</code></p>
 <p><code>dataproc. workflowTemplates. getIamPolicy</code></p>
 <p><code>dataproc. workflowTemplates. list</code></p>
@@ -12860,6 +12949,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>discoveryengine.engines.list</code></p>
 <p><code>discoveryengine. evaluations. list</code></p>
 <p><code>discoveryengine. identityMappingStores. list</code></p>
+<p><code>discoveryengine. immersiveArtifacts. list</code></p>
 <p><code>discoveryengine. licenseConfigs. list</code></p>
 <p><code>discoveryengine.memories.list</code></p>
 <p><code>discoveryengine.models.list</code></p>
@@ -12882,6 +12972,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>dlp.columnDataProfiles.list</code></li>
 </ul>
 <p><code>dlp.connections.list</code></p>
+<p><code>dlp.contentPolicies.list</code></p>
 <p><code>dlp.deidentifyTemplates.list</code></p>
 <p><code>dlp.estimates.list</code></p>
 <p><code>dlp.fileStoreProfiles.get</code></p>
@@ -13340,6 +13431,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>logging.logServiceIndexes.list</code></p>
 <p><code>logging.logServices.list</code></p>
 <p><code>logging.logs.list</code></p>
+<p><code>logging.notificationRules.get</code></p>
 <p><code>logging.notificationRules.list</code></p>
 <p><code>logging.operations.get</code></p>
 <p><code>logging.operations.list</code></p>
@@ -13347,6 +13439,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>logging.queries.getShared</code></p>
 <p><code>logging.queries.listShared</code></p>
 <p><code>logging.queries.usePrivate</code></p>
+<p><code>logging.settings.get</code></p>
 <p><code>logging.sinks.get</code></p>
 <p><code>logging.sinks.list</code></p>
 <p><code>logging.usage.get</code></p>
@@ -14246,7 +14339,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. list</code></p>
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. simulate</code></p>
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. test</code></p>
-<p><code>securityposture.locations.list</code></p>
+<p><code>securityposture.locations.*</code></p>
+<ul>
+<li><code>securityposture.locations.get</code></li>
+<li><code>securityposture.locations.list</code></li>
+</ul>
 <p><code>securityposture.operations.get</code></p>
 <p><code>securityposture. operations. list</code></p>
 <p><code>securityposture. postureDeployments. get</code></p>
@@ -14258,6 +14355,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>securityposture.postures.get</code></p>
 <p><code>securityposture.postures.list</code></p>
+<p><code>securityposture.reports.get</code></p>
 <p><code>securityposture.reports.list</code></p>
 <p><code>servicebroker. bindingoperations. list</code></p>
 <p><code>servicebroker. bindings. getIamPolicy</code></p>
@@ -14535,6 +14633,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>workloadmanager. operations. list</code></p>
 <p><code>workloadmanager.results.list</code></p>
 <p><code>workloadmanager.rules.list</code></p>
+<p><code>workloadmanager.workloads.list</code></p>
 <p><code>workstations.operations.list</code></p>
 <p><code>workstations. workstationClusters. list</code></p>
 <p><code>workstations. workstationClusters. listEffectiveTags</code></p>
@@ -14606,28 +14705,37 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>bigtable.appProfiles.get</code></p>
 <p><code>bigtable.appProfiles.list</code></p>
 <p><code>bigtable.authorizedViews.get</code></p>
+<p><code>bigtable. authorizedViews. getIamPolicy</code></p>
 <p><code>bigtable.authorizedViews.list</code></p>
+<p><code>bigtable. authorizedViews. listEffectiveTags</code></p>
+<p><code>bigtable. authorizedViews. listTagBindings</code></p>
 <p><code>bigtable.backups.get</code></p>
+<p><code>bigtable.backups.getIamPolicy</code></p>
 <p><code>bigtable.backups.list</code></p>
 <p><code>bigtable.clusters.get</code></p>
 <p><code>bigtable.clusters.list</code></p>
 <p><code>bigtable.hotTablets.list</code></p>
 <p><code>bigtable.instances.get</code></p>
+<p><code>bigtable. instances. getIamPolicy</code></p>
 <p><code>bigtable.instances.list</code></p>
 <p><code>bigtable. instances. listEffectiveTags</code></p>
 <p><code>bigtable. instances. listTagBindings</code></p>
 <p><code>bigtable.locations.list</code></p>
 <p><code>bigtable.logicalViews.get</code></p>
+<p><code>bigtable. logicalViews. getIamPolicy</code></p>
 <p><code>bigtable.logicalViews.list</code></p>
 <p><code>bigtable.materializedViews.get</code></p>
+<p><code>bigtable. materializedViews. getIamPolicy</code></p>
 <p><code>bigtable. materializedViews. list</code></p>
 <p><code>bigtable.memoryLayers.get</code></p>
 <p><code>bigtable.memoryLayers.list</code></p>
 <p><code>bigtable.schemaBundles.get</code></p>
+<p><code>bigtable. schemaBundles. getIamPolicy</code></p>
 <p><code>bigtable.schemaBundles.list</code></p>
 <p><code>bigtable. tables. checkConsistency</code></p>
 <p><code>bigtable. tables. generateConsistencyToken</code></p>
 <p><code>bigtable.tables.get</code></p>
+<p><code>bigtable.tables.getIamPolicy</code></p>
 <p><code>bigtable.tables.list</code></p>
 <p><code>cloudaicompanion. entitlements. get</code></p>
 <p><code>cloudasset. assets. analyzeIamPolicy</code></p>
@@ -15193,6 +15301,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudasset. othercloudconnections. get</code></p>
 <p><code>cloudasset. othercloudconnections. list</code></p>
 <p><code>cloudasset. othercloudconnections. verify</code></p>
+<p><code>cloudasset.savedqueries.get</code></p>
+<p><code>cloudasset.savedqueries.list</code></p>
 <p><code>cloudbuild.builds.get</code></p>
 <p><code>cloudbuild.builds.list</code></p>
 <p><code>cloudbuild.locations.*</code></p>
@@ -15218,12 +15328,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudkms.cryptoKeyVersions.get</code></p>
 <p><code>cloudkms. cryptoKeyVersions. list</code></p>
 <p><code>cloudkms.cryptoKeys.get</code></p>
+<p><code>cloudkms. cryptoKeys. getIamPolicy</code></p>
 <p><code>cloudkms.cryptoKeys.list</code></p>
 <p><code>cloudkms.ekmConfigs.get</code></p>
+<p><code>cloudkms. ekmConfigs. getIamPolicy</code></p>
 <p><code>cloudkms.ekmConnections.get</code></p>
+<p><code>cloudkms. ekmConnections. getIamPolicy</code></p>
 <p><code>cloudkms.ekmConnections.list</code></p>
+<p><code>cloudkms. ekmConnections. verifyConnectivity</code></p>
 <p><code>cloudkms. folders. showEffectiveAutokeyConfig</code></p>
 <p><code>cloudkms.importJobs.get</code></p>
+<p><code>cloudkms. importJobs. getIamPolicy</code></p>
 <p><code>cloudkms.importJobs.list</code></p>
 <p><code>cloudkms.kajPolicyConfigs.get</code></p>
 <p><code>cloudkms.keyHandles.*</code></p>
@@ -15233,12 +15348,22 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>cloudkms.keyHandles.list</code></li>
 </ul>
 <p><code>cloudkms.keyRings.get</code></p>
+<p><code>cloudkms.keyRings.getIamPolicy</code></p>
 <p><code>cloudkms.keyRings.list</code></p>
+<p><code>cloudkms. keyRings. listEffectiveTags</code></p>
+<p><code>cloudkms. keyRings. listTagBindings</code></p>
+<p><code>cloudkms. locations. generateRandomBytes</code></p>
 <p><code>cloudkms.locations.get</code></p>
 <p><code>cloudkms.locations.list</code></p>
 <p><code>cloudkms.operations.get</code></p>
-<p><code>cloudkms. projects. showEffectiveAutokeyConfig</code></p>
+<p><code>cloudkms.projects.*</code></p>
+<ul>
+<li><code>cloudkms. projects. showEffectiveAutokeyConfig</code></li>
+<li><code>cloudkms. projects. showEffectiveKajEnrollmentConfig</code></li>
+<li><code>cloudkms. projects. showEffectiveKajPolicyConfig</code></li>
+</ul>
 <p><code>cloudkms. protectableResources. list</code></p>
+<p><code>cloudkms. protectedResources. search</code></p>
 <p><code>cloudkms.retiredResources.*</code></p>
 <ul>
 <li><code>cloudkms.retiredResources.get</code></li>
@@ -15522,6 +15647,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute. instances. listVmExtensionStates</code></li>
 <li><code>compute.instances.osAdminLogin</code></li>
 <li><code>compute.instances.osLogin</code></li>
+<li><code>compute. instances. performMaintenance</code></li>
 <li><code>compute. instances. pscInterfaceCreate</code></li>
 <li><code>compute. instances. removeResourcePolicies</code></li>
 <li><code>compute.instances.reset</code></li>
@@ -16209,6 +16335,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>eventarc. triggers. listTagBindings</code></p>
 <p><code>logging.buckets.get</code></p>
 <p><code>logging.buckets.list</code></p>
+<p><code>logging. buckets. listEffectiveTags</code></p>
+<p><code>logging. buckets. listTagBindings</code></p>
 <p><code>logging.exclusions.get</code></p>
 <p><code>logging.exclusions.list</code></p>
 <p><code>logging.links.get</code></p>
@@ -16233,10 +16361,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>logging.queries.getShared</code></p>
 <p><code>logging.queries.listShared</code></p>
 <p><code>logging.queries.usePrivate</code></p>
+<p><code>logging.settings.get</code></p>
 <p><code>logging.sinks.get</code></p>
 <p><code>logging.sinks.list</code></p>
 <p><code>logging.usage.get</code></p>
 <p><code>logging.views.get</code></p>
+<p><code>logging.views.getIamPolicy</code></p>
 <p><code>logging.views.list</code></p>
 <p><code>monitoring.*</code></p>
 <ul>
@@ -20797,6 +20927,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>discoveryengine. identityMappingStores. get</code></p>
 <p><code>discoveryengine. identityMappingStores. list</code></p>
 <p><code>discoveryengine. identityMappingStores. listIdentityMappings</code></p>
+<p><code>discoveryengine. immersiveArtifacts. export</code></p>
+<p><code>discoveryengine. immersiveArtifacts. get</code></p>
+<p><code>discoveryengine. immersiveArtifacts. list</code></p>
 <p><code>discoveryengine. licenseConfigs. get</code></p>
 <p><code>discoveryengine. licenseConfigs. list</code></p>
 <p><code>discoveryengine. locations. buildAuthorizationUrl</code></p>
@@ -20870,6 +21003,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dlp.connections.get</code></p>
 <p><code>dlp.connections.list</code></p>
 <p><code>dlp.connections.search</code></p>
+<p><code>dlp.contentPolicies.get</code></p>
+<p><code>dlp.contentPolicies.list</code></p>
 <p><code>dlp.deidentifyTemplates.get</code></p>
 <p><code>dlp.deidentifyTemplates.list</code></p>
 <p><code>dlp.estimates.get</code></p>
@@ -24146,6 +24281,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>workloadmanager. operations. list</code></p>
 <p><code>workloadmanager.results.list</code></p>
 <p><code>workloadmanager.rules.list</code></p>
+<p><code>workloadmanager.workloads.*</code></p>
+<ul>
+<li><code>workloadmanager.workloads.get</code></li>
+<li><code>workloadmanager.workloads.list</code></li>
+</ul>
 <p><code>workspacemarketplace. appConfiguration. view</code></p>
 <p><code>workstations.operations.*</code></p>
 <ul>

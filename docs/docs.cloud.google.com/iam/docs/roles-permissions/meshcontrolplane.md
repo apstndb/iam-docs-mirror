@@ -672,6 +672,7 @@ Cloud Service Mesh control plane offers the following service agent roles. Servi
 <p><code>gkehub.rbacrolebindings.get</code></p>
 <p><code>gkehub.rbacrolebindings.list</code></p>
 <p><code>gkehub.scopes.get</code></p>
+<p><code>gkehub.scopes.getIamPolicy</code></p>
 <p><code>gkehub.scopes.list</code></p>
 <p><code>gkehub. scopes. listBoundMemberships</code></p>
 <p><code>logging.logEntries.create</code></p>
