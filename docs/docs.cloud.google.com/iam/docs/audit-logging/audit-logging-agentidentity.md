@@ -495,6 +495,7 @@ The following methods don't produce audit logs:
 - `google.cloud.agentidentity.v1beta.AuthProviderService.DeleteAuthorization`
 - `google.cloud.location.Locations.GetLocation`
 - `google.cloud.location.Locations.ListLocations`
+- `google.iam.v1.IAMPolicy.SetIamPolicy`
 
 This document lists the audited methods for Agent Identity Credentials API. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
 
