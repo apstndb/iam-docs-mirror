@@ -811,8 +811,8 @@ The limitations table is organized in the following way:
 <tr class="odd">
 <td>Console (federated):</td>
 <td><ul>
-<li>Workforce Identity Federation users can create _technical support_ cases using the _email channel_ only, but can't use the live chat support channel. When creating _billing support_ cases, all channels are available, including self-service, email, and live chat, although users might be required to re-verify their email address. Contact details (for example, email address) cannot be changed for Workforce Identity Federation users once interaction with the support team has started.</li>
-<li>The Premium Support Event Management Service is unavailable to federated users.</li>
+<li>When creating <strong>billing support</strong> cases, users might be required to re-verify their email address. Contact details (for example, email addresses) cannot be changed for Workforce Identity Federation users after interaction with the support team has started.</li>
+<li>The Premium Support Event Management Service is unavailable to Workforce Identity Federation users.</li>
 </ul></td>
 </tr>
 <tr class="even">
