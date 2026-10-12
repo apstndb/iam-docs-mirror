@@ -1145,7 +1145,7 @@ https://docs.cloud.google.com/iam/docs/tags-access-control	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/temporary-elevated-access	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/test-policy-changes	2026-09-25T07:59:36Z
 https://docs.cloud.google.com/iam/docs/testing-permissions	2026-10-02T06:11:46Z
-https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager	2026-10-02T14:36:14Z
+https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager	2026-10-11T14:02:15Z
 https://docs.cloud.google.com/iam/docs/troubleshoot-managed-workload-identities-gke	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/troubleshoot-org-policies	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/troubleshoot-policies	2026-10-02T06:11:46Z
