@@ -18,14 +18,13 @@ The amount of time it takes for an access change to propagate depends on how you
 <col style="width: 33%" />
 <col style="width: 33%" />
 </colgroup>
-<thead>
+<tbody>
 <tr class="header">
 <th>Method</th>
 <th>Examples</th>
 <th>Propagation time</th>
 </tr>
-</thead>
-<tbody>
+
 <tr class="odd">
 <td><p><strong>Change a policy</strong></p>
 <p>Change a principal's access by editing an allow or deny policy.</p>

@@ -33,13 +33,12 @@ There are a few notable differences between the log entries that each API genera
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
+<tbody>
 <tr class="header">
 <th>Differences for audit log entries</th>
 <th></th>
 </tr>
-</thead>
-<tbody>
+
 <tr class="odd">
 <td>Method name</td>
 <td><p><strong>IAM API</strong></p>
@@ -95,13 +94,12 @@ The following table shows the differences between [signing a JWT with the IAM RE
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
+<tbody>
 <tr class="header">
 <th>Differences for signing a JWT</th>
 <th></th>
 </tr>
-</thead>
-<tbody>
+
 <tr class="odd">
 <td>HTTP endpoints</td>
 <td><p><strong>IAM API</strong></p>
@@ -295,13 +293,12 @@ The following table shows the differences between [signing a binary blob with th
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
+<tbody>
 <tr class="header">
 <th>Differences for signing a binary blob</th>
 <th></th>
 </tr>
-</thead>
-<tbody>
+
 <tr class="odd">
 <td>HTTP endpoints</td>
 <td><p><strong>IAM API</strong></p>

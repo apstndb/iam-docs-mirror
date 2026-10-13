@@ -446,14 +446,13 @@ The following table lists the principal types that you can enter and a descripti
 <col style="width: 33%" />
 <col style="width: 33%" />
 </colgroup>
-<thead>
+<tbody>
 <tr class="header">
 <th>Principal type</th>
 <th>Description</th>
 <th>Principal identifiers</th>
 </tr>
-</thead>
-<tbody>
+
 <tr class="odd">
 <td><code>iam.googleapis.com/ ConsumerPrincipal</code></td>
 <td>A <a href="https://docs.cloud.google.com/architecture/identity/overview-google-authentication#google_for_consumers">consumer Google Account</a> . The email addresses for these accounts typically end in <code>gmail.com</code> .</td>

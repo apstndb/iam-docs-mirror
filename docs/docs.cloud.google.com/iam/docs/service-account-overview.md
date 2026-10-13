@@ -90,13 +90,12 @@ You can manage access for individual service accounts or for all service account
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
+<tbody>
 <tr class="header">
 <th>Principal type</th>
 <th>Principal identifier</th>
 </tr>
-</thead>
-<tbody>
+
 <tr class="odd">
 <td>An individual service account</td>
 <td><p><code>serviceAccount: </code><var translate="no"> SA_EMAIL_ADDRESS</var></p>

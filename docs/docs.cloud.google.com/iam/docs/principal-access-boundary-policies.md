@@ -151,14 +151,13 @@ The following table lists the types of principal sets that you can bind Principa
 <col style="width: 33%" />
 <col style="width: 33%" />
 </colgroup>
-<thead>
+<tbody>
 <tr class="header">
 <th>Principal set</th>
 <th>Details</th>
 <th>Policy bindings' parent resource</th>
 </tr>
-</thead>
-<tbody>
+
 <tr class="odd">
 <td>Workforce identity pool</td>
 <td><p>Contains all identities in the specified <a href="https://docs.cloud.google.com/iam/docs/workforce-identity-federation#workforce-identity-pools">workforce identity pool</a> .</p>

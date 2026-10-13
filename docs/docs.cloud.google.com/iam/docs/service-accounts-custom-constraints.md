@@ -303,13 +303,12 @@ For more information about CEL macros available for use in custom constraint con
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
+<tbody>
 <tr class="header">
 <th>Description</th>
 <th>Constraint syntax</th>
 </tr>
-</thead>
-<tbody>
+
 <tr class="odd">
 <td>Disable service account creation.</td>
 <td><pre data-fenced=""><code>name: organizations/ORGANIZATION_ID/customConstraints/custom.disableServiceAccountCreation

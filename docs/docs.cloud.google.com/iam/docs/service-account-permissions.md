@@ -149,13 +149,12 @@ The following table shows the operations enabled by these permissions:
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
-<thead>
+<tbody>
 <tr class="header">
 <th>Permission</th>
 <th>Enabled operations</th>
 </tr>
-</thead>
-<tbody>
+
 <tr class="odd">
 <td><code>iam.serviceAccounts.getAccessToken</code></td>
 <td>Get an access token for the service account</td>

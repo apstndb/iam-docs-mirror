@@ -1422,14 +1422,13 @@ Policy Simulator generates the following types of errors:
 <col style="width: 33%" />
 <col style="width: 33%" />
 </colgroup>
-<thead>
+<tbody>
 <tr class="header">
 <th>Error</th>
 <th>Error code</th>
 <th>Details</th>
 </tr>
-</thead>
-<tbody>
+
 <tr class="odd">
 <td><code>GENERIC_INTERNAL_ERROR</code></td>
 <td>13</td>
@@ -1539,14 +1538,13 @@ Policy Simulator generates the following types of errors:
 <col style="width: 33%" />
 <col style="width: 33%" />
 </colgroup>
-<thead>
+<tbody>
 <tr class="header">
 <th>Error</th>
 <th>Error code</th>
 <th>Details</th>
 </tr>
-</thead>
-<tbody>
+
 <tr class="odd">
 <td><code>GENERIC_INTERNAL_ERROR</code></td>
 <td>13</td>

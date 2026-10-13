@@ -250,15 +250,14 @@ As described previously, a validation unit is an individual lint type that evalu
 <col style="width: 25%" />
 <col style="width: 25%" />
 </colgroup>
-<thead>
+<tbody>
 <tr class="header">
 <th>Validation unit</th>
 <th><a href="https://docs.cloud.google.com/iam/reference/rest/v1/iamPolicies/lintPolicy#Level">Lint level</a></th>
 <th><a href="https://docs.cloud.google.com/iam/reference/rest/v1/iamPolicies/lintPolicy#Severity">Severity</a></th>
 <th>Description</th>
 </tr>
-</thead>
-<tbody>
+
 <tr class="odd">
 <td><code>ConditionCompileCheck</code></td>
 <td><code>CONDITION</code></td>
