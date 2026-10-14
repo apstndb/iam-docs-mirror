@@ -10,7 +10,7 @@ data_source: docs.cloud.google.com
 >
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-Agents hosted on Google Cloud can use their own identity to authenticate to tools and services hosted on Google Cloud runtimes, such as Cloud Run or Google Kubernetes Engine (GKE), by requesting an OpenID Connect (OIDC) ID token from Agent Identity. Agents can also use these ID tokens to authenticate to third-party cloud platforms (such as Amazon Web Services (AWS) and Microsoft Azure), custom APIs, API gateways, and on-premises backends.
+Agents hosted on Google Cloud can use their own identity to authenticate to tools and services hosted on Google Cloud runtimes, such as Cloud Run or Google Kubernetes Engine (GKE), by requesting an OpenID Connect (OIDC) ID token from Agent Identity. Agents can also use these ID tokens to authenticate to third-party cloud platforms, such as Amazon Web Services (AWS) and Microsoft Azure, custom APIs, API gateways, and on-premises backends.
 
 When an agent acts on its own authority to access an external service, Agent Identity issues an OpenID Connect (OIDC) ID token. This JSON Web Token (JWT) asserts the agent's [SPIFFE identity](https://docs.cloud.google.com/iam/docs/agent-identity-overview#spiffe-identity) and is signed by the issuer keys for the agent's trust domain (managed workload identity pool). External systems can verify these tokens without Google Cloud credentials or SDKs through public endpoints hosted by the Google Cloud Security Token Service:
 
@@ -98,7 +98,9 @@ Enable Agent Identity when you deploy your agent:
 
 In your agent's application code, use the Google Auth client library to request an OIDC ID token for your target external audience. The client library handles token generation, local caching, and automatic renewal from the metadata server.
 
-By default, OIDC ID tokens issued for external audiences aren't bound to the runtime certificate.
+By default, supported Google Auth client libraries cryptographically bind OIDC ID tokens to the agent's unique X.509 certificate by including the certificate fingerprint in the token's `cnf` ( `x5t#S256` ) claim. Receiving services can optionally validate this claim against the client certificate presented during a mutual TLS (mTLS) handshake, or ignore the claim if they don't enforce certificate binding.
+
+Cloud Run automatically enforces certificate binding when the `cnf` claim is present in an ID token. If your agent calls a Cloud Run service using a bound ID token, you must call its mTLS endpoint ( `*.mtls.run.app` ) over an mTLS connection. To keep calling a standard `*.run.app` URL instead, opt out of certificate binding per request (for example, by setting `bind_id_token=False` in Python) or across the runtime environment with `GOOGLE_API_ENABLE_RUNTIME_BOUND_TOKEN=false` . For supported library versions and examples, see [Opt out of certificate-bound tokens](https://docs.cloud.google.com/iam/docs/auth-agent-own-identity#opt-out-caa) .
 
 The following example uses the `google-auth` library to request an OIDC ID token and attach it as a `Bearer` token in an outgoing request:
 
@@ -113,7 +115,8 @@ from google.oauth2 import id_token
 target_audience = "https://EXTERNAL_SERVICE_AUDIENCE"
 
 # 2. Create ID token credentials and an AuthorizedSession, which handles
-# local token caching, automatic renewal before expiry, and the Bearer header.
+# local token caching, automatic renewal before expiry, and the
+# Bearer header.
 credentials = id_token.fetch_id_token_credentials(audience=target_audience)
 authed_session = AuthorizedSession(credentials)
 
@@ -129,7 +132,7 @@ Replace the following:
 - `EXTERNAL_SERVICE_AUDIENCE` : The audience URI expected by your receiving service (for example, `bedrock.us-east-1.amazonaws.com` or `api.example.com` ).
 - `EXTERNAL_SERVICE_ENDPOINT` : The URL of the external API or backend endpoint that your agent calls.
 
-For client library instructions and examples in other programming languages (including Go, Node.js, and Java), see [Get an ID token](https://docs.cloud.google.com/docs/authentication/get-id-token) . Current client library versions for these languages support `--identity-type=agent-identity` , but don't use bound tokens by default.
+For client library instructions and examples in other languages, such as Go, Node.js, and Java, see [Get an ID token](https://docs.cloud.google.com/docs/authentication/get-id-token) . Client libraries for these languages support `--identity-type=agent-identity` . Libraries that support certificate-bound ID tokens bind tokens by default and let you opt out for individual requests.
 
 ## Verify Agent Identity ID tokens
 

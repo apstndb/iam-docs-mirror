@@ -119,13 +119,26 @@ def analyze_image_from_gcs(gcs_uri: str) -> dict:
     return {"status": "success", "labels": [label.description for label in labels]}
 ```
 
-## Optional: Opt out of Context-Aware Access
+## Optional: Opt out of certificate-bound tokens
 
-A default Google-managed Context-Aware Access policy helps to secure Agent Identity credentials. Beyond the Agent Gateway, the policy enforces Demonstrating Proof of Possession (DPoP) by authenticating the agent's access token. The policy also requires mutual TLS (mTLS) to access the Agent Gateway. This requirement ensures that certificate-bound tokens can only be used from their intended, trusted runtime environment (for example, a Cloud Run container). This security baseline makes stolen credentials unreplayable, helping to protect against credential theft and account takeover (ATO).
+A default Google-managed Context-Aware Access policy helps secure Agent Identity credentials. Beyond the Agent Gateway, the policy enforces Demonstrating Proof of Possession (DPoP) by authenticating the agent's access token. The policy also requires mutual TLS (mTLS) to access the Agent Gateway. This requirement helps ensure that only the intended, trusted runtime environment, such as a Cloud Run container or a Google Kubernetes Engine (GKE) Pod, can use the certificate-bound tokens. This security baseline makes stolen credentials unreplayable, helping protect against credential theft and account takeover (ATO).
 
-In rare cases, such as specific token-sharing requirements among agents, if you need to inject the token directly in the header, or if your agent can't authenticate with a [401 UNAUTHENTICATED error](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager#401-error) , you can opt out of the default Context-Aware Access policy. Opting out removes the protection of token binding, making these short-lived access tokens vulnerable to theft or replay attacks. Therefore, opting out **isn't recommended** .
+Certificate binding helps protect two types of [agent credentials](https://docs.cloud.google.com/iam/docs/agent-identity-overview#agent-credentials) :
 
-To opt out, set the following environment variable when you deploy your agent:
+- **Google Cloud access tokens** : Short-lived OAuth 2.0 access tokens that authenticate requests to Google Cloud APIs and other resources ( `*.googleapis.com` ).
+- **OpenID Connect (OIDC) ID tokens** : JSON Web Tokens (JWTs) that authenticate requests to [external services](https://docs.cloud.google.com/iam/docs/auth-agent-own-identity-external) and to tools and services hosted on Google Cloud runtimes, such as Cloud Run ( `*.mtls.run.app` ) or GKE.
+
+### Opt out of binding for all access and ID tokens
+
+Opting out of the default Context-Aware Access policy and certificate-bound tokens across the runtime environment **isn't recommended** . Setting `GOOGLE_API_ENABLE_RUNTIME_BOUND_TOKEN=false` removes token-binding protection for both Google Cloud access tokens and OIDC ID tokens, making these short-lived tokens vulnerable to theft or replay attacks.
+
+However, you can opt out across the runtime environment in the following rare cases:
+
+- You have specific token-sharing requirements among agents.
+- You must inject the token directly into the request header.
+- Your agent can't authenticate and returns a [`401 UNAUTHENTICATED` error](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager#401-error) .
+
+To opt out across the runtime environment, set the following environment variable when you [deploy your agent](https://docs.cloud.google.com/iam/docs/auth-agent-own-identity#deploy-agent) :
 
 ```
 config={
@@ -134,6 +147,41 @@ config={
   }
 }
 ```
+
+### Opt out for individual ID token requests
+
+By default, supported Google Auth client libraries cryptographically bind OIDC ID tokens to the agent's unique X.509 certificate by including the certificate fingerprint in the token's `cnf` ( `x5t#S256` ) claim.
+
+Some services, such as Cloud Run, enforce certificate binding when the `cnf` claim is present. If your agent calls these services over a non-mTLS endpoint, such as a standard `*.run.app` URL, or if a target endpoint doesn't require certificate binding, you can opt out for individual ID token requests. This setting affects only that request and doesn't disable certificate binding for Google Cloud access tokens.
+
+### Python
+
+In the Python `google-auth` library ( `2.61.0` or later on GKE and `2.62.0` or later on Cloud Run), set `bind_id_token=False` :
+
+```
+from google.auth.transport.requests import AuthorizedSession
+from google.auth.transport.requests import Request
+from google.oauth2 import id_token
+
+target_audience = "https://TARGET_SERVICE_URL"
+
+# Option 1: Use AuthorizedSession with IDTokenCredentials
+credentials = id_token.fetch_id_token_credentials(
+    audience=target_audience,
+    bind_id_token=False,
+)
+authed_session = AuthorizedSession(credentials)
+response = authed_session.get(target_audience)
+
+# Option 2: Fetch a raw ID token directly
+token = id_token.fetch_id_token(
+    Request(),
+    audience=target_audience,
+    bind_id_token=False,
+)
+```
+
+Replace `TARGET_SERVICE_URL` with the audience URI or URL of the receiving service that your agent calls.
 
 ## Deploy the agent
 

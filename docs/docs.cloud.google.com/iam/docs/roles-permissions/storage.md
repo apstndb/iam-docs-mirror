@@ -199,14 +199,22 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <tr class="even">
 <td>Storage Bucket Viewer <sup>Beta</sup>
 <p>( <code>roles/ storage.bucketViewer</code> )</p>
-<p>Grants permission to view buckets and their metadata, excluding IAM policies.</p></td>
+<p>Grants permission to view buckets and their metadata, excluding IAM policies.</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Bucket</li>
+</ul></td>
 <td><p><code>storage.buckets.get</code></p>
 <p><code>storage.buckets.list</code></p></td>
 </tr>
 <tr class="odd">
 <td>Storage Editor
 <p>( <code>roles/ storage.editor</code> )</p>
-<p>Editor role for storage</p></td>
+<p>Editor role for storage</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Managed folder</li>
+</ul></td>
 <td><p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
 <p><code>storage.buckets.create</code></p>
@@ -245,7 +253,11 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <tr class="even">
 <td>Storage Folder Admin
 <p>( <code>roles/ storage.folderAdmin</code> )</p>
-<p>Grants full control over folders and objects, including listing, creating, viewing, and deleting objects.</p></td>
+<p>Grants full control over folders and objects, including listing, creating, viewing, and deleting objects.</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Managed folder</li>
+</ul></td>
 <td><p><code>orgpolicy.policy.get</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
@@ -424,7 +436,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p>Grants permission to view and edit objects and their metadata, including ACLs.</p>
 <p>Lowest-level resources where you can grant this role:</p>
 <ul>
-<li>Bucket</li>
+<li>Managed folder</li>
 </ul></td>
 <td><p><code>storage.objects.createContext</code></p>
 <p><code>storage.objects.deleteContext</code></p>
@@ -442,7 +454,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p>Grants permission to view objects and their metadata, excluding ACLs.</p>
 <p>Lowest-level resources where you can grant this role:</p>
 <ul>
-<li>Bucket</li>
+<li>Managed folder</li>
 </ul></td>
 <td><p><code>storage.objects.get</code></p></td>
 </tr>
@@ -452,7 +464,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p>Grants full control of objects, including listing, creating, viewing, and deleting objects.</p>
 <p>Lowest-level resources where you can grant this role:</p>
 <ul>
-<li>Bucket</li>
+<li>Managed folder</li>
 </ul></td>
 <td><p><code>monitoring.timeSeries.create</code></p>
 <p><code>orgpolicy.policy.get</code></p>
@@ -502,7 +514,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p>Allows users to create objects. Does not give permission to view, delete, or overwrite objects.</p>
 <p>Lowest-level resources where you can grant this role:</p>
 <ul>
-<li>Bucket</li>
+<li>Managed folder</li>
 </ul></td>
 <td><p><code>orgpolicy.policy.get</code></p>
 <p><code>resourcemanager.projects.get</code></p>
@@ -518,7 +530,11 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <tr class="even">
 <td>Storage Object User
 <p>( <code>roles/ storage.objectUser</code> )</p>
-<p>Access to create, read, update and delete objects and multipart uploads in GCS.</p></td>
+<p>Access to create, read, update and delete objects and multipart uploads.</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Managed folder</li>
+</ul></td>
 <td><p><code>monitoring.timeSeries.create</code></p>
 <p><code>orgpolicy.policy.get</code></p>
 <p><code>resourcemanager.projects.get</code></p>
@@ -560,7 +576,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p>Grants access to view objects and their metadata, excluding ACLs. Can also list the objects in a bucket.</p>
 <p>Lowest-level resources where you can grant this role:</p>
 <ul>
-<li>Bucket</li>
+<li>Managed folder</li>
 </ul></td>
 <td><p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
@@ -574,7 +590,11 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <tr class="even">
 <td>Storage Viewer
 <p>( <code>roles/ storage.viewer</code> )</p>
-<p>Viewer role for storage</p></td>
+<p>Viewer role for storage</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Managed folder</li>
+</ul></td>
 <td><p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
 <p><code>storage.buckets.list</code></p>
@@ -593,7 +613,11 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <tr class="odd">
 <td>Storage Annotation Generator Service <sup>Beta</sup>
 <p>( <code>roles/ storage.annotationGeneratorService</code> )</p>
-<p>Grants all permissions needed to generate annotations for objects in a bucket.</p></td>
+<p>Grants all permissions needed to generate annotations for objects in a bucket.</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Managed folder</li>
+</ul></td>
 <td><p><code>storage.objects.createContext</code></p>
 <p><code>storage.objects.deleteContext</code></p>
 <p><code>storage.objects.get</code></p>
@@ -604,7 +628,11 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <tr class="even">
 <td>Storage Express Mode Service Input <sup>Beta</sup>
 <p>( <code>roles/ storage.expressModeServiceInput</code> )</p>
-<p>Grants permission to Express Mode service accounts at a managed folder so they can create objects but not read them on input folders.</p></td>
+<p>Grants permission to Express Mode service accounts at a managed folder so they can create objects but not read them on input folders.</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Managed folder</li>
+</ul></td>
 <td><p><code>storage.objects.create</code></p>
 <p><code>storage.objects.delete</code></p>
 <p><code>storage.objects.list</code></p>
@@ -613,7 +641,11 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <tr class="odd">
 <td>Storage Express Mode Service Output <sup>Beta</sup>
 <p>( <code>roles/ storage.expressModeServiceOutput</code> )</p>
-<p>Grants permission to Express Mode service accounts at a managed folder so they can read objects but not write them on output folders.</p></td>
+<p>Grants permission to Express Mode service accounts at a managed folder so they can read objects but not write them on output folders.</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Managed folder</li>
+</ul></td>
 <td><p><code>storage.objects.delete</code></p>
 <p><code>storage.objects.get</code></p>
 <p><code>storage.objects.list</code></p></td>
@@ -621,7 +653,11 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <tr class="even">
 <td>Storage Express Mode User Access <sup>Beta</sup>
 <p>( <code>roles/ storage.expressModeUserAccess</code> )</p>
-<p>Grants permission to Express Mode accounts at the project level so they can read, list, create and delete any object in any of their buckets in Express Mode.</p></td>
+<p>Grants permission to Express Mode accounts at the project level so they can read, list, create and delete any object in any of their buckets in Express Mode.</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Project</li>
+</ul></td>
 <td><p><code>orgpolicy.policy.get</code></p>
 <p><code>storage.buckets.get</code></p>
 <p><code>storage.buckets.list</code></p>
@@ -642,7 +678,11 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <tr class="odd">
 <td>Storage HMAC Key Admin
 <p>( <code>roles/ storage.hmacKeyAdmin</code> )</p>
-<p>Full control of Cloud Storage HMAC keys.</p></td>
+<p>Full control of Cloud Storage HMAC keys.</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Project</li>
+</ul></td>
 <td><p><code>firebase.projects.get</code></p>
 <p><code>orgpolicy.policy.get</code></p>
 <p><code>resourcemanager.projects.get</code></p>
@@ -659,7 +699,11 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <tr class="even">
 <td>Storage Insights Collector Service
 <p>( <code>roles/ storage.insightsCollectorService</code> )</p>
-<p>Read-only access to Cloud Storage Inventory metadata for Storage Insights.</p></td>
+<p>Read-only access to Cloud Storage Inventory metadata for Storage Insights.</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Bucket</li>
+</ul></td>
 <td><p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
 <p><code>storage.buckets.get</code></p>

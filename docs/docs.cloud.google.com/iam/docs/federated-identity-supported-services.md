@@ -3200,17 +3200,24 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.cloud.google.com/vertex-ai/docs">Vertex AI</a></td>
+<td><a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform">Agent Platform</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
 <tbody>
 <tr class="odd">
 <td>Console (federated):</td>
-<td>When Workforce Identity Federation users create a new model monitoring job, Vertex AI doesn't prefill the alert email input with their email address.</td>
+<td><ul>
+<li>When Workforce Identity Federation users create a new model monitoring job, Agent Platform doesn't prefill the alert email input with their email address.</li>
+<li>Vertex AI Pipelines doesn't support Workforce Identity Federation in the console (federated). Instead, use the Vertex AI SDK for Python or the Vertex AI API.</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td>Vertex AI doesn't send email messages to Workforce Identity Federation users.</td>
+<td>Agent Platform doesn't send email messages to Workforce Identity Federation users.</td>
 </tr>
 <tr class="odd">
 <td>Other:</td>
