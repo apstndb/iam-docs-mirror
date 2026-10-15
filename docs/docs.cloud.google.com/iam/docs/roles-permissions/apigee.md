@@ -3562,6 +3562,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceContentViewer">Apigee Space Content Viewer</a> ( <code>roles/ apigee.spaceContentViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -4213,6 +4214,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceConsoleUser">Apigee Space Console User</a> ( <code>roles/ apigee.spaceConsoleUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -4284,6 +4286,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceConsoleUser">Apigee Space Console User</a> ( <code>roles/ apigee.spaceConsoleUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -4343,6 +4346,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceConsoleUser">Apigee Space Console User</a> ( <code>roles/ apigee.spaceConsoleUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.synchronizerManager">Apigee Synchronizer Manager</a> ( <code>roles/ apigee.synchronizerManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -4434,7 +4438,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.securityViewer">Apigee Security Viewer</a> ( <code>roles/ apigee.securityViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceConsoleUser">Apigee Space Console User</a> ( <code>roles/ apigee.spaceConsoleUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>apigee. environments. manageRuntime</code></td>
@@ -5324,6 +5329,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.securityViewer">Apigee Security Viewer</a> ( <code>roles/ apigee.securityViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceConsoleUser">Apigee Space Console User</a> ( <code>roles/ apigee.spaceConsoleUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -5360,7 +5366,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.securityViewer">Apigee Security Viewer</a> ( <code>roles/ apigee.securityViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceConsoleUser">Apigee Space Console User</a> ( <code>roles/ apigee.spaceConsoleUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>apigee.organizations.update</code></td>
@@ -5568,7 +5575,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceContentEditor">Apigee Space Content Editor</a> ( <code>roles/ apigee.spaceContentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceContentViewer">Apigee Space Content Viewer</a> ( <code>roles/ apigee.spaceContentViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>apigee.proxies.update</code></td>
@@ -5623,6 +5631,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceContentEditor">Apigee Space Content Editor</a> ( <code>roles/ apigee.spaceContentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceContentViewer">Apigee Space Content Viewer</a> ( <code>roles/ apigee.spaceContentViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -5653,7 +5662,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceContentEditor">Apigee Space Content Editor</a> ( <code>roles/ apigee.spaceContentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.spaceContentViewer">Apigee Space Content Viewer</a> ( <code>roles/ apigee.spaceContentViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>apigee.proxyrevisions.undeploy</code></td>

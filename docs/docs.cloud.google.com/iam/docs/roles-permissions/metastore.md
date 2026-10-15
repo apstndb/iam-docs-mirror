@@ -1180,7 +1180,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOperator">Dataproc Metastore Metadata Operator</a> ( <code>roles/ metastore.metadataOperator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.metadataOwner">Dataproc Metastore Data Owner</a> ( <code>roles/ metastore.metadataOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/metastore#metastore.user">Dataproc Metastore Viewer</a> ( <code>roles/ metastore.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>metastore. services. listEffectiveTags</code></td>

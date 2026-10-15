@@ -333,19 +333,14 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <p><code>iam.serviceAccountKeys.create</code></p>
 <p><code>iam.serviceAccounts.create</code></p>
 <p><code>iam.serviceAccounts.get</code></p>
-<p><code>modelarmor.floorSettings.*</code></p>
+<p><code>modelarmor.*</code></p>
 <ul>
+<li><code>modelarmor.callouts.invoke</code></li>
 <li><code>modelarmor. floorSettings. computeEffectiveFloorSetting</code></li>
 <li><code>modelarmor.floorSettings.get</code></li>
 <li><code>modelarmor. floorSettings. update</code></li>
-</ul>
-<p><code>modelarmor.locations.*</code></p>
-<ul>
 <li><code>modelarmor.locations.get</code></li>
 <li><code>modelarmor.locations.list</code></li>
-</ul>
-<p><code>modelarmor.templates.*</code></p>
-<ul>
 <li><code>modelarmor.templates.create</code></li>
 <li><code>modelarmor.templates.delete</code></li>
 <li><code>modelarmor.templates.get</code></li>
@@ -357,15 +352,6 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <li><code>modelarmor. templates. useToSanitizeUserPrompt</code></li>
 <li><code>modelarmor. templates. useToStreamSanitizeModelResponse</code></li>
 <li><code>modelarmor. templates. useToStreamSanitizeUserPrompt</code></li>
-</ul>
-<p><code>modelarmor.topics.*</code></p>
-<ul>
-<li><code>modelarmor.topics.create</code></li>
-<li><code>modelarmor.topics.delete</code></li>
-<li><code>modelarmor.topics.get</code></li>
-<li><code>modelarmor.topics.list</code></li>
-<li><code>modelarmor.topics.test</code></li>
-<li><code>modelarmor.topics.update</code></li>
 </ul>
 <p><code>monitoring.alertPolicies.get</code></p>
 <p><code>monitoring.alertPolicies.list</code></p>
@@ -1023,6 +1009,7 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <p><code>securitycentermanagement. securityCenterServices. get</code></p>
 <p><code>securitycentermanagement. securityCenterServices. list</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. checkActivationOperation</code></p>
+<p><code>securitycentermanagement. securityCommandCenter. checkEligibility</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. checkOnboardingStatus</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. generateServiceAccounts</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. get</code></p>
@@ -1428,6 +1415,7 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <p><code>securitycentermanagement. securityCenterServices. get</code></p>
 <p><code>securitycentermanagement. securityCenterServices. list</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. checkActivationOperation</code></p>
+<p><code>securitycentermanagement. securityCommandCenter. checkEligibility</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. checkOnboardingStatus</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. get</code></p>
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. get</code></p>
@@ -2184,6 +2172,7 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <p><code>securitycentermanagement. securityCenterServices. get</code></p>
 <p><code>securitycentermanagement. securityCenterServices. list</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. checkActivationOperation</code></p>
+<p><code>securitycentermanagement. securityCommandCenter. checkEligibility</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. checkOnboardingStatus</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. get</code></p>
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. get</code></p>
@@ -4913,6 +4902,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code>roles/ securitycenter.adminViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.findingsEditor">Security Center Findings Editor</a> ( <code>roles/ securitycenter.findingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.findingsViewer">Security Center Findings Viewer</a> ( <code>roles/ securitycenter.findingsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .

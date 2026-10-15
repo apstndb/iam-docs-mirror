@@ -595,10 +595,15 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>aiplatform. edgeDeviceDebugInfo. get</code></p>
 <p><code>aiplatform.edgeDevices.get</code></p>
 <p><code>aiplatform.edgeDevices.list</code></p>
+<p><code>aiplatform.endpoints.explain</code></p>
 <p><code>aiplatform.endpoints.get</code></p>
+<p><code>aiplatform. endpoints. getIamPolicy</code></p>
 <p><code>aiplatform.endpoints.list</code></p>
 <p><code>aiplatform.entityTypes.get</code></p>
+<p><code>aiplatform. entityTypes. getIamPolicy</code></p>
 <p><code>aiplatform.entityTypes.list</code></p>
+<p><code>aiplatform. entityTypes. readFeatureValues</code></p>
+<p><code>aiplatform. entityTypes. streamingReadFeatureValues</code></p>
 <p><code>aiplatform. evaluationExperiments. get</code></p>
 <p><code>aiplatform. evaluationExperiments. list</code></p>
 <p><code>aiplatform.evaluationItems.get</code></p>
@@ -618,12 +623,14 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>aiplatform.extensions.get</code></p>
 <p><code>aiplatform.extensions.list</code></p>
 <p><code>aiplatform.featureGroups.get</code></p>
+<p><code>aiplatform. featureGroups. getIamPolicy</code></p>
 <p><code>aiplatform.featureGroups.list</code></p>
 <p><code>aiplatform. featureMonitorJobs. get</code></p>
 <p><code>aiplatform. featureMonitorJobs. list</code></p>
 <p><code>aiplatform.featureMonitors.get</code></p>
 <p><code>aiplatform. featureMonitors. list</code></p>
 <p><code>aiplatform. featureOnlineStores. get</code></p>
+<p><code>aiplatform. featureOnlineStores. getIamPolicy</code></p>
 <p><code>aiplatform. featureOnlineStores. list</code></p>
 <p><code>aiplatform.featureViewSyncs.*</code></p>
 <ul>
@@ -632,14 +639,18 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 </ul>
 <p><code>aiplatform. featureViews. fetchFeatureValues</code></p>
 <p><code>aiplatform.featureViews.get</code></p>
+<p><code>aiplatform. featureViews. getIamPolicy</code></p>
 <p><code>aiplatform.featureViews.list</code></p>
 <p><code>aiplatform. featureViews. searchNearestEntities</code></p>
 <p><code>aiplatform.features.get</code></p>
 <p><code>aiplatform.features.list</code></p>
 <p><code>aiplatform.featurestores.get</code></p>
+<p><code>aiplatform. featurestores. getIamPolicy</code></p>
 <p><code>aiplatform.featurestores.list</code></p>
+<p><code>aiplatform. featurestores. readFeatures</code></p>
 <p><code>aiplatform.humanInTheLoops.get</code></p>
 <p><code>aiplatform. humanInTheLoops. list</code></p>
+<p><code>aiplatform. humanInTheLoops. queryAnnotationStats</code></p>
 <p><code>aiplatform. hyperparameterTuningJobs. get</code></p>
 <p><code>aiplatform. hyperparameterTuningJobs. list</code></p>
 <p><code>aiplatform.indexEndpoints.get</code></p>
@@ -649,8 +660,12 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>aiplatform.indexes.list</code></p>
 <p><code>aiplatform.interactions.get</code></p>
 <p><code>aiplatform.interactions.list</code></p>
-<p><code>aiplatform.locations.get</code></p>
-<p><code>aiplatform.locations.list</code></p>
+<p><code>aiplatform.locations.*</code></p>
+<ul>
+<li><code>aiplatform. locations. evaluateInstances</code></li>
+<li><code>aiplatform.locations.get</code></li>
+<li><code>aiplatform.locations.list</code></li>
+</ul>
 <p><code>aiplatform.memories.get</code></p>
 <p><code>aiplatform.memories.list</code></p>
 <p><code>aiplatform.memoryRevisions.get</code></p>
@@ -659,6 +674,7 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>aiplatform. metadataSchemas. list</code></p>
 <p><code>aiplatform.metadataStores.get</code></p>
 <p><code>aiplatform.metadataStores.list</code></p>
+<p><code>aiplatform. migratableResources. search</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs. get</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs. list</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs. searchStatsAnomalies</code></p>
@@ -685,7 +701,9 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 </ul>
 <p><code>aiplatform. notebookExecutionJobs. get</code></p>
 <p><code>aiplatform. notebookExecutionJobs. list</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. apply</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. get</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. getIamPolicy</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. list</code></p>
 <p><code>aiplatform. notebookRuntimes. get</code></p>
 <p><code>aiplatform. notebookRuntimes. list</code></p>
@@ -1852,6 +1870,14 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>datamigration. privateconnections. deleteTagBinding</code></p>
 <p><code>datamigration. privateconnections. listEffectiveTags</code></p>
 <p><code>datamigration. privateconnections. listTagBindings</code></p>
+<p><code>dataplex.agentTasks.create</code></p>
+<p><code>dataplex.agentTasks.delete</code></p>
+<p><code>dataplex.agentTasks.get</code></p>
+<p><code>dataplex.agentTasks.getData</code></p>
+<p><code>dataplex. agentTasks. getIamPolicy</code></p>
+<p><code>dataplex.agentTasks.list</code></p>
+<p><code>dataplex.agentTasks.run</code></p>
+<p><code>dataplex.agentTasks.update</code></p>
 <p><code>dataplex.aspectTypes.create</code></p>
 <p><code>dataplex.aspectTypes.get</code></p>
 <p><code>dataplex.aspectTypes.list</code></p>
@@ -2369,10 +2395,15 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>aiplatform. edgeDeviceDebugInfo. get</code></p>
 <p><code>aiplatform.edgeDevices.get</code></p>
 <p><code>aiplatform.edgeDevices.list</code></p>
+<p><code>aiplatform.endpoints.explain</code></p>
 <p><code>aiplatform.endpoints.get</code></p>
+<p><code>aiplatform. endpoints. getIamPolicy</code></p>
 <p><code>aiplatform.endpoints.list</code></p>
 <p><code>aiplatform.entityTypes.get</code></p>
+<p><code>aiplatform. entityTypes. getIamPolicy</code></p>
 <p><code>aiplatform.entityTypes.list</code></p>
+<p><code>aiplatform. entityTypes. readFeatureValues</code></p>
+<p><code>aiplatform. entityTypes. streamingReadFeatureValues</code></p>
 <p><code>aiplatform. evaluationExperiments. get</code></p>
 <p><code>aiplatform. evaluationExperiments. list</code></p>
 <p><code>aiplatform.evaluationItems.get</code></p>
@@ -2392,12 +2423,14 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>aiplatform.extensions.get</code></p>
 <p><code>aiplatform.extensions.list</code></p>
 <p><code>aiplatform.featureGroups.get</code></p>
+<p><code>aiplatform. featureGroups. getIamPolicy</code></p>
 <p><code>aiplatform.featureGroups.list</code></p>
 <p><code>aiplatform. featureMonitorJobs. get</code></p>
 <p><code>aiplatform. featureMonitorJobs. list</code></p>
 <p><code>aiplatform.featureMonitors.get</code></p>
 <p><code>aiplatform. featureMonitors. list</code></p>
 <p><code>aiplatform. featureOnlineStores. get</code></p>
+<p><code>aiplatform. featureOnlineStores. getIamPolicy</code></p>
 <p><code>aiplatform. featureOnlineStores. list</code></p>
 <p><code>aiplatform.featureViewSyncs.*</code></p>
 <ul>
@@ -2406,14 +2439,18 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 </ul>
 <p><code>aiplatform. featureViews. fetchFeatureValues</code></p>
 <p><code>aiplatform.featureViews.get</code></p>
+<p><code>aiplatform. featureViews. getIamPolicy</code></p>
 <p><code>aiplatform.featureViews.list</code></p>
 <p><code>aiplatform. featureViews. searchNearestEntities</code></p>
 <p><code>aiplatform.features.get</code></p>
 <p><code>aiplatform.features.list</code></p>
 <p><code>aiplatform.featurestores.get</code></p>
+<p><code>aiplatform. featurestores. getIamPolicy</code></p>
 <p><code>aiplatform.featurestores.list</code></p>
+<p><code>aiplatform. featurestores. readFeatures</code></p>
 <p><code>aiplatform.humanInTheLoops.get</code></p>
 <p><code>aiplatform. humanInTheLoops. list</code></p>
+<p><code>aiplatform. humanInTheLoops. queryAnnotationStats</code></p>
 <p><code>aiplatform. hyperparameterTuningJobs. get</code></p>
 <p><code>aiplatform. hyperparameterTuningJobs. list</code></p>
 <p><code>aiplatform.indexEndpoints.get</code></p>
@@ -2423,8 +2460,12 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>aiplatform.indexes.list</code></p>
 <p><code>aiplatform.interactions.get</code></p>
 <p><code>aiplatform.interactions.list</code></p>
-<p><code>aiplatform.locations.get</code></p>
-<p><code>aiplatform.locations.list</code></p>
+<p><code>aiplatform.locations.*</code></p>
+<ul>
+<li><code>aiplatform. locations. evaluateInstances</code></li>
+<li><code>aiplatform.locations.get</code></li>
+<li><code>aiplatform.locations.list</code></li>
+</ul>
 <p><code>aiplatform.memories.get</code></p>
 <p><code>aiplatform.memories.list</code></p>
 <p><code>aiplatform.memoryRevisions.get</code></p>
@@ -2433,6 +2474,7 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>aiplatform. metadataSchemas. list</code></p>
 <p><code>aiplatform.metadataStores.get</code></p>
 <p><code>aiplatform.metadataStores.list</code></p>
+<p><code>aiplatform. migratableResources. search</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs. get</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs. list</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs. searchStatsAnomalies</code></p>
@@ -2459,7 +2501,9 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 </ul>
 <p><code>aiplatform. notebookExecutionJobs. get</code></p>
 <p><code>aiplatform. notebookExecutionJobs. list</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. apply</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. get</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. getIamPolicy</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. list</code></p>
 <p><code>aiplatform. notebookRuntimes. get</code></p>
 <p><code>aiplatform. notebookRuntimes. list</code></p>
@@ -3626,6 +3670,14 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>datamigration. privateconnections. deleteTagBinding</code></p>
 <p><code>datamigration. privateconnections. listEffectiveTags</code></p>
 <p><code>datamigration. privateconnections. listTagBindings</code></p>
+<p><code>dataplex.agentTasks.create</code></p>
+<p><code>dataplex.agentTasks.delete</code></p>
+<p><code>dataplex.agentTasks.get</code></p>
+<p><code>dataplex.agentTasks.getData</code></p>
+<p><code>dataplex. agentTasks. getIamPolicy</code></p>
+<p><code>dataplex.agentTasks.list</code></p>
+<p><code>dataplex.agentTasks.run</code></p>
+<p><code>dataplex.agentTasks.update</code></p>
 <p><code>dataplex.aspectTypes.create</code></p>
 <p><code>dataplex.aspectTypes.get</code></p>
 <p><code>dataplex.aspectTypes.list</code></p>
@@ -4324,6 +4376,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>dataform.repositories.create</code></p>
 <p><code>dataform.repositories.list</code></p>
+<p><code>dataplex.agentTasks.*</code></p>
+<ul>
+<li><code>dataplex.agentTasks.create</code></li>
+<li><code>dataplex.agentTasks.delete</code></li>
+<li><code>dataplex.agentTasks.get</code></li>
+<li><code>dataplex.agentTasks.getData</code></li>
+<li><code>dataplex. agentTasks. getIamPolicy</code></li>
+<li><code>dataplex.agentTasks.list</code></li>
+<li><code>dataplex.agentTasks.run</code></li>
+<li><code>dataplex. agentTasks. setIamPolicy</code></li>
+<li><code>dataplex.agentTasks.update</code></li>
+</ul>
 <p><code>dataplex.aspectTypes.*</code></p>
 <ul>
 <li><code>dataplex.aspectTypes.create</code></li>
@@ -5469,6 +5533,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.reader">DLP Reader</a> ( <code>roles/ dlp.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .

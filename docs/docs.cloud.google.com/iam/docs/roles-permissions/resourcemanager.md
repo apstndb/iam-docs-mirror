@@ -1805,6 +1805,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.settingsAdmin">Security Center Settings Admin</a> ( <code>roles/ securitycenter.settingsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.settingsEditor">Security Center Settings Editor</a> ( <code>roles/ securitycenter.settingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.settingsViewer">Security Center Settings Viewer</a> ( <code>roles/ securitycenter.settingsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1834,6 +1835,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderEditor">Folder Editor</a> ( <code>roles/ resourcemanager.folderEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin">Folder IAM Admin</a> ( <code>roles/ resourcemanager.folderIamAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1886,6 +1888,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.settingsAdmin">Security Center Settings Admin</a> ( <code>roles/ securitycenter.settingsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.settingsEditor">Security Center Settings Editor</a> ( <code>roles/ securitycenter.settingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.settingsViewer">Security Center Settings Viewer</a> ( <code>roles/ securitycenter.settingsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2188,6 +2191,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securityposture#securityposture.postureDeploymentsViewer">Security Posture Deployments Viewer</a> ( <code>roles/ securityposture.postureDeploymentsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securityposture#securityposture.postureViewer">Security Posture Resource Viewer</a> ( <code>roles/ securityposture.postureViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicemanagement#servicemanagement.quotaAdmin">Quota Administrator</a> ( <code>roles/ servicemanagement.quotaAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2218,6 +2222,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.organizationRoleViewer">Organization Role Viewer</a> ( <code>roles/ iam.organizationRoleViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2587,6 +2592,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contentwarehouse#contentwarehouse.admin">Content Warehouse Admin</a> ( <code>roles/ contentwarehouse.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databasecenter#databasecenter.admin">Database Center Admin</a> ( <code>roles/ databasecenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databasecenter#databasecenter.viewer">Database Center Viewer</a> ( <code>roles/ databasecenter.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databasesconsole#databasesconsole.editor">Databasesconsole Editor</a> ( <code>roles/ databasesconsole.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databasesconsole#databasesconsole.viewer">Databasesconsole Viewer</a> ( <code>roles/ databasesconsole.viewer</code> )</p>
@@ -3117,6 +3124,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code>roles/ batch.resourceAllowancesEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesViewer">Batch ResourceAllowance Viewer</a> ( <code>roles/ batch.resourceAllowancesViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.metadataViewer">BigLake Metadata Viewer</a> ( <code>roles/ biglake.metadataViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.securityAdmin">BigQuery Security Admin</a> ( <code>roles/ bigquery.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigtable#bigtable.reader">Bigtable Reader</a> ( <code>roles/ bigtable.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/binaryauthorization#binaryauthorization.attestorsAdmin">Binary Authorization Attestor Admin</a> ( <code>roles/ binaryauthorization.attestorsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/binaryauthorization#binaryauthorization.attestorsEditor">Binary Authorization Attestor Editor</a> ( <code>roles/ binaryauthorization.attestorsEditor</code> )</p>
@@ -3780,6 +3788,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vmwareengine#vmwareengine.vmwareengineAdmin">VMware Engine Service Admin</a> ( <code>roles/ vmwareengine.vmwareengineAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vmwareengine#vmwareengine.vmwareenginePrivilegedUser">VMware Engine Service Privileged User</a> ( <code>roles/ vmwareengine.vmwareenginePrivilegedUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vmwareengine#vmwareengine.vmwareengineViewer">VMware Engine Service Viewer</a> ( <code>roles/ vmwareengine.vmwareengineViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.workloadScanner">Wiz Workload Scanner</a> ( <code>roles/ wiz.workloadScanner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workflows#workflows.invoker">Workflows Invoker</a> ( <code>roles/ workflows.invoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.registrationAdmin">Workload Certificate Registration Admin</a> ( <code>roles/ workloadcertificate.registrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.registrationViewer">Workload Certificate Registration Viewer</a> ( <code>roles/ workloadcertificate.registrationViewer</code> )</p>
@@ -3944,6 +3954,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code>roles/ lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.deploymentAdmin">Workload Manager Deployment Admin</a> ( <code>roles/ workloadmanager.deploymentAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -4204,6 +4215,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contentwarehouse#contentwarehouse.admin">Content Warehouse Admin</a> ( <code>roles/ contentwarehouse.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databasecenter#databasecenter.admin">Database Center Admin</a> ( <code>roles/ databasecenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databasecenter#databasecenter.viewer">Database Center Viewer</a> ( <code>roles/ databasecenter.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databasesconsole#databasesconsole.editor">Databasesconsole Editor</a> ( <code>roles/ databasesconsole.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databasesconsole#databasesconsole.viewer">Databasesconsole Viewer</a> ( <code>roles/ databasesconsole.viewer</code> )</p>
@@ -4711,6 +4724,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code>roles/ batch.resourceAllowancesEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesViewer">Batch ResourceAllowance Viewer</a> ( <code>roles/ batch.resourceAllowancesViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.metadataViewer">BigLake Metadata Viewer</a> ( <code>roles/ biglake.metadataViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.securityAdmin">BigQuery Security Admin</a> ( <code>roles/ bigquery.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/binaryauthorization#binaryauthorization.attestorsAdmin">Binary Authorization Attestor Admin</a> ( <code>roles/ binaryauthorization.attestorsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/binaryauthorization#binaryauthorization.attestorsEditor">Binary Authorization Attestor Editor</a> ( <code>roles/ binaryauthorization.attestorsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/binaryauthorization#binaryauthorization.attestorsVerifier">Binary Authorization Attestor Image Verifier</a> ( <code>roles/ binaryauthorization.attestorsVerifier</code> )</p>
@@ -5346,6 +5360,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vmwareengine#vmwareengine.vmwareengineAdmin">VMware Engine Service Admin</a> ( <code>roles/ vmwareengine.vmwareengineAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vmwareengine#vmwareengine.vmwareenginePrivilegedUser">VMware Engine Service Privileged User</a> ( <code>roles/ vmwareengine.vmwareenginePrivilegedUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vmwareengine#vmwareengine.vmwareengineViewer">VMware Engine Service Viewer</a> ( <code>roles/ vmwareengine.vmwareengineViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workflows#workflows.invoker">Workflows Invoker</a> ( <code>roles/ workflows.invoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.registrationAdmin">Workload Certificate Registration Admin</a> ( <code>roles/ workloadcertificate.registrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadcertificate#workloadcertificate.registrationViewer">Workload Certificate Registration Viewer</a> ( <code>roles/ workloadcertificate.registrationViewer</code> )</p>
@@ -5709,6 +5724,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -5902,6 +5918,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .

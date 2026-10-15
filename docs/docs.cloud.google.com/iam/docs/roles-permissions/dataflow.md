@@ -1682,6 +1682,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>dataform. workspaces. setIamPolicy</code></li>
 <li><code>dataform.workspaces.writeFile</code></li>
 </ul>
+<p><code>dataplex.agentTasks.*</code></p>
+<ul>
+<li><code>dataplex.agentTasks.create</code></li>
+<li><code>dataplex.agentTasks.delete</code></li>
+<li><code>dataplex.agentTasks.get</code></li>
+<li><code>dataplex.agentTasks.getData</code></li>
+<li><code>dataplex. agentTasks. getIamPolicy</code></li>
+<li><code>dataplex.agentTasks.list</code></li>
+<li><code>dataplex.agentTasks.run</code></li>
+<li><code>dataplex. agentTasks. setIamPolicy</code></li>
+<li><code>dataplex.agentTasks.update</code></li>
+</ul>
 <p><code>dataplex.datascans.*</code></p>
 <ul>
 <li><code>dataplex.datascans.cancel</code></li>
@@ -2529,6 +2541,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.worker">Dataflow Worker</a> ( <code>roles/ dataflow.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2558,6 +2571,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .

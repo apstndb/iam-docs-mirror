@@ -39,14 +39,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform.agentExamples.list</code></li>
 <li><code>aiplatform. agentExamples. update</code></li>
 </ul>
-<p><code>aiplatform.agents.*</code></p>
-<ul>
-<li><code>aiplatform.agents.create</code></li>
-<li><code>aiplatform.agents.delete</code></li>
-<li><code>aiplatform.agents.get</code></li>
-<li><code>aiplatform.agents.list</code></li>
-<li><code>aiplatform.agents.update</code></li>
-</ul>
+<p><code>aiplatform.agents.create</code></p>
+<p><code>aiplatform.agents.delete</code></p>
+<p><code>aiplatform.agents.get</code></p>
+<p><code>aiplatform.agents.list</code></p>
+<p><code>aiplatform.agents.update</code></p>
 <p><code>aiplatform. analyzedInvocations.*</code></p>
 <ul>
 <li><code>aiplatform. analyzedInvocations. get</code></li>
@@ -191,6 +188,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>aiplatform.endpoints.deploy</code></p>
 <p><code>aiplatform.endpoints.explain</code></p>
 <p><code>aiplatform.endpoints.get</code></p>
+<p><code>aiplatform. endpoints. getIamPolicy</code></p>
 <p><code>aiplatform.endpoints.list</code></p>
 <p><code>aiplatform.endpoints.predict</code></p>
 <p><code>aiplatform.endpoints.undeploy</code></p>
@@ -200,6 +198,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>aiplatform. entityTypes. deleteFeatureValues</code></p>
 <p><code>aiplatform. entityTypes. exportFeatureValues</code></p>
 <p><code>aiplatform.entityTypes.get</code></p>
+<p><code>aiplatform. entityTypes. getIamPolicy</code></p>
 <p><code>aiplatform. entityTypes. importFeatureValues</code></p>
 <p><code>aiplatform.entityTypes.list</code></p>
 <p><code>aiplatform. entityTypes. readFeatureValues</code></p>
@@ -280,6 +279,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>aiplatform. featureGroups. create</code></p>
 <p><code>aiplatform. featureGroups. delete</code></p>
 <p><code>aiplatform.featureGroups.get</code></p>
+<p><code>aiplatform. featureGroups. getIamPolicy</code></p>
 <p><code>aiplatform.featureGroups.list</code></p>
 <p><code>aiplatform. featureGroups. update</code></p>
 <p><code>aiplatform. featureMonitorJobs.*</code></p>
@@ -299,6 +299,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>aiplatform. featureOnlineStores. create</code></p>
 <p><code>aiplatform. featureOnlineStores. delete</code></p>
 <p><code>aiplatform. featureOnlineStores. get</code></p>
+<p><code>aiplatform. featureOnlineStores. getIamPolicy</code></p>
 <p><code>aiplatform. featureOnlineStores. list</code></p>
 <p><code>aiplatform. featureOnlineStores. update</code></p>
 <p><code>aiplatform.featureViewSyncs.*</code></p>
@@ -311,6 +312,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>aiplatform. featureViews. directWrite</code></p>
 <p><code>aiplatform. featureViews. fetchFeatureValues</code></p>
 <p><code>aiplatform.featureViews.get</code></p>
+<p><code>aiplatform. featureViews. getIamPolicy</code></p>
 <p><code>aiplatform.featureViews.list</code></p>
 <p><code>aiplatform. featureViews. searchNearestEntities</code></p>
 <p><code>aiplatform.featureViews.sync</code></p>
@@ -328,6 +330,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>aiplatform. featurestores. delete</code></p>
 <p><code>aiplatform. featurestores. exportFeatures</code></p>
 <p><code>aiplatform.featurestores.get</code></p>
+<p><code>aiplatform. featurestores. getIamPolicy</code></p>
 <p><code>aiplatform. featurestores. importFeatures</code></p>
 <p><code>aiplatform.featurestores.list</code></p>
 <p><code>aiplatform. featurestores. readFeatures</code></p>
@@ -415,6 +418,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform.metadataStores.get</code></li>
 <li><code>aiplatform.metadataStores.list</code></li>
 </ul>
+<p><code>aiplatform. migratableResources. search</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs.*</code></p>
 <ul>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. create</code></li>
@@ -963,6 +967,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>dataform.repositories.create</code></p>
 <p><code>dataform.repositories.list</code></p>
+<p><code>dataplex.agentTasks.create</code></p>
+<p><code>dataplex.agentTasks.delete</code></p>
+<p><code>dataplex.agentTasks.get</code></p>
+<p><code>dataplex.agentTasks.getData</code></p>
+<p><code>dataplex. agentTasks. getIamPolicy</code></p>
+<p><code>dataplex.agentTasks.list</code></p>
+<p><code>dataplex.agentTasks.run</code></p>
+<p><code>dataplex.agentTasks.update</code></p>
 <p><code>dataplex.datascans.cancel</code></p>
 <p><code>dataplex.datascans.create</code></p>
 <p><code>dataplex.datascans.delete</code></p>
@@ -2194,6 +2206,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute. folderVmExtensionPolicies. get</code></p>
+<p><code>compute. folderVmExtensionPolicies. list</code></p>
+<p><code>compute.folderVmExtensions.*</code></p>
+<ul>
+<li><code>compute.folderVmExtensions.get</code></li>
+<li><code>compute. folderVmExtensions. list</code></li>
+</ul>
 <p><code>compute.forwardingRules.get</code></p>
 <p><code>compute.forwardingRules.list</code></p>
 <p><code>compute. forwardingRules. listEffectiveTags</code></p>
@@ -2372,6 +2391,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.orgRolloutPlans.list</code></p>
 <p><code>compute.orgRollouts.get</code></p>
 <p><code>compute.orgRollouts.list</code></p>
+<p><code>compute. orgVmExtensionPolicies. get</code></p>
+<p><code>compute. orgVmExtensionPolicies. list</code></p>
+<p><code>compute.orgVmExtensions.*</code></p>
+<ul>
+<li><code>compute.orgVmExtensions.get</code></li>
+<li><code>compute.orgVmExtensions.list</code></li>
+</ul>
 <p><code>compute. organizations. listAssociations</code></p>
 <p><code>compute.packetMirrorings.get</code></p>
 <p><code>compute.packetMirrorings.list</code></p>
@@ -2577,6 +2603,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.urlMaps.validate</code></p>
 <p><code>compute. vmExtensionPolicies. get</code></p>
 <p><code>compute. vmExtensionPolicies. list</code></p>
+<p><code>compute.vmExtensions.*</code></p>
+<ul>
+<li><code>compute.vmExtensions.get</code></li>
+<li><code>compute.vmExtensions.list</code></li>
+</ul>
 <p><code>compute.vpnGateways.get</code></p>
 <p><code>compute.vpnGateways.list</code></p>
 <p><code>compute. vpnGateways. listEffectiveTags</code></p>
@@ -2715,6 +2746,18 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>dataform. workspaces. searchFiles</code></li>
 <li><code>dataform. workspaces. setIamPolicy</code></li>
 <li><code>dataform.workspaces.writeFile</code></li>
+</ul>
+<p><code>dataplex.agentTasks.*</code></p>
+<ul>
+<li><code>dataplex.agentTasks.create</code></li>
+<li><code>dataplex.agentTasks.delete</code></li>
+<li><code>dataplex.agentTasks.get</code></li>
+<li><code>dataplex.agentTasks.getData</code></li>
+<li><code>dataplex. agentTasks. getIamPolicy</code></li>
+<li><code>dataplex.agentTasks.list</code></li>
+<li><code>dataplex.agentTasks.run</code></li>
+<li><code>dataplex. agentTasks. setIamPolicy</code></li>
+<li><code>dataplex.agentTasks.update</code></li>
 </ul>
 <p><code>dataplex.datascans.*</code></p>
 <ul>
@@ -4606,6 +4649,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute. firewalls. listEffectiveTags</code></li>
 <li><code>compute. firewalls. listTagBindings</code></li>
 <li><code>compute.firewalls.update</code></li>
+<li><code>compute. folderVmExtensionPolicies. create</code></li>
+<li><code>compute. folderVmExtensionPolicies. delete</code></li>
+<li><code>compute. folderVmExtensionPolicies. get</code></li>
+<li><code>compute. folderVmExtensionPolicies. list</code></li>
+<li><code>compute. folderVmExtensionPolicies. update</code></li>
+<li><code>compute.folderVmExtensions.get</code></li>
+<li><code>compute. folderVmExtensions. list</code></li>
 <li><code>compute.forwardingRules.create</code></li>
 <li><code>compute. forwardingRules. createTagBinding</code></li>
 <li><code>compute.forwardingRules.delete</code></li>
@@ -5009,6 +5059,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute.orgRollouts.list</code></li>
 <li><code>compute.orgRollouts.pause</code></li>
 <li><code>compute.orgRollouts.resume</code></li>
+<li><code>compute. orgVmExtensionPolicies. create</code></li>
+<li><code>compute. orgVmExtensionPolicies. delete</code></li>
+<li><code>compute. orgVmExtensionPolicies. get</code></li>
+<li><code>compute. orgVmExtensionPolicies. list</code></li>
+<li><code>compute. orgVmExtensionPolicies. update</code></li>
+<li><code>compute.orgVmExtensions.get</code></li>
+<li><code>compute.orgVmExtensions.list</code></li>
 <li><code>compute. organizations. disableXpnHost</code></li>
 <li><code>compute. organizations. disableXpnResource</code></li>
 <li><code>compute. organizations. enableXpnHost</code></li>
@@ -5517,6 +5574,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute. vmExtensionPolicies. get</code></li>
 <li><code>compute. vmExtensionPolicies. list</code></li>
 <li><code>compute. vmExtensionPolicies. update</code></li>
+<li><code>compute.vmExtensions.get</code></li>
+<li><code>compute.vmExtensions.list</code></li>
 <li><code>compute.vpnGateways.create</code></li>
 <li><code>compute. vpnGateways. createTagBinding</code></li>
 <li><code>compute.vpnGateways.delete</code></li>
@@ -6782,61 +6841,97 @@ This page lists the predefined roles that are designed to be granted to users wi
 <td>ML Engineer
 <p>( <code>roles/ iam.mlEngineer</code> )</p>
 <p>Enables an ML engineer as a power user for using GCP for building and deploying AI based applications.</p></td>
-<td><p><code>aiplatform.*</code></p>
+<td><p><code>aiplatform. agentAnomalyDetectionScopes.*</code></p>
 <ul>
 <li><code>aiplatform. agentAnomalyDetectionScopes. create</code></li>
 <li><code>aiplatform. agentAnomalyDetectionScopes. delete</code></li>
 <li><code>aiplatform. agentAnomalyDetectionScopes. get</code></li>
 <li><code>aiplatform. agentAnomalyDetectionScopes. list</code></li>
+</ul>
+<p><code>aiplatform.agentExamples.*</code></p>
+<ul>
 <li><code>aiplatform. agentExamples. create</code></li>
 <li><code>aiplatform. agentExamples. delete</code></li>
 <li><code>aiplatform.agentExamples.get</code></li>
 <li><code>aiplatform.agentExamples.list</code></li>
 <li><code>aiplatform. agentExamples. update</code></li>
-<li><code>aiplatform.agents.create</code></li>
-<li><code>aiplatform.agents.delete</code></li>
-<li><code>aiplatform.agents.get</code></li>
-<li><code>aiplatform.agents.list</code></li>
-<li><code>aiplatform.agents.update</code></li>
+</ul>
+<p><code>aiplatform.agents.create</code></p>
+<p><code>aiplatform.agents.delete</code></p>
+<p><code>aiplatform.agents.get</code></p>
+<p><code>aiplatform.agents.list</code></p>
+<p><code>aiplatform.agents.update</code></p>
+<p><code>aiplatform. analyzedInvocations.*</code></p>
+<ul>
 <li><code>aiplatform. analyzedInvocations. get</code></li>
 <li><code>aiplatform. analyzedInvocations. list</code></li>
+</ul>
+<p><code>aiplatform.analyzedSessions.*</code></p>
+<ul>
 <li><code>aiplatform. analyzedSessions. aggregate</code></li>
 <li><code>aiplatform. analyzedSessions. get</code></li>
 <li><code>aiplatform. analyzedSessions. list</code></li>
+</ul>
+<p><code>aiplatform.annotationSpecs.*</code></p>
+<ul>
 <li><code>aiplatform. annotationSpecs. create</code></li>
 <li><code>aiplatform. annotationSpecs. delete</code></li>
 <li><code>aiplatform.annotationSpecs.get</code></li>
 <li><code>aiplatform. annotationSpecs. list</code></li>
 <li><code>aiplatform. annotationSpecs. update</code></li>
+</ul>
+<p><code>aiplatform.annotations.*</code></p>
+<ul>
 <li><code>aiplatform.annotations.create</code></li>
 <li><code>aiplatform.annotations.delete</code></li>
 <li><code>aiplatform.annotations.get</code></li>
 <li><code>aiplatform.annotations.list</code></li>
 <li><code>aiplatform.annotations.update</code></li>
+</ul>
+<p><code>aiplatform.apps.*</code></p>
+<ul>
 <li><code>aiplatform.apps.create</code></li>
 <li><code>aiplatform.apps.delete</code></li>
 <li><code>aiplatform.apps.get</code></li>
 <li><code>aiplatform.apps.list</code></li>
 <li><code>aiplatform.apps.update</code></li>
+</ul>
+<p><code>aiplatform.artifacts.*</code></p>
+<ul>
 <li><code>aiplatform.artifacts.create</code></li>
 <li><code>aiplatform.artifacts.delete</code></li>
 <li><code>aiplatform.artifacts.get</code></li>
 <li><code>aiplatform.artifacts.list</code></li>
 <li><code>aiplatform.artifacts.update</code></li>
+</ul>
+<p><code>aiplatform. batchPredictionJobs.*</code></p>
+<ul>
 <li><code>aiplatform. batchPredictionJobs. cancel</code></li>
 <li><code>aiplatform. batchPredictionJobs. create</code></li>
 <li><code>aiplatform. batchPredictionJobs. delete</code></li>
 <li><code>aiplatform. batchPredictionJobs. get</code></li>
 <li><code>aiplatform. batchPredictionJobs. list</code></li>
+</ul>
+<p><code>aiplatform.cacheConfigs.*</code></p>
+<ul>
 <li><code>aiplatform.cacheConfigs.get</code></li>
 <li><code>aiplatform.cacheConfigs.update</code></li>
+</ul>
+<p><code>aiplatform.cachedContents.*</code></p>
+<ul>
 <li><code>aiplatform. cachedContents. create</code></li>
 <li><code>aiplatform. cachedContents. delete</code></li>
 <li><code>aiplatform.cachedContents.get</code></li>
 <li><code>aiplatform.cachedContents.list</code></li>
 <li><code>aiplatform. cachedContents. update</code></li>
+</ul>
+<p><code>aiplatform.consents.*</code></p>
+<ul>
 <li><code>aiplatform.consents.get</code></li>
 <li><code>aiplatform.consents.update</code></li>
+</ul>
+<p><code>aiplatform.contexts.*</code></p>
+<ul>
 <li><code>aiplatform. contexts. addContextArtifactsAndExecutions</code></li>
 <li><code>aiplatform. contexts. addContextChildren</code></li>
 <li><code>aiplatform.contexts.create</code></li>
@@ -6845,26 +6940,41 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform.contexts.list</code></li>
 <li><code>aiplatform. contexts. queryContextLineageSubgraph</code></li>
 <li><code>aiplatform.contexts.update</code></li>
+</ul>
+<p><code>aiplatform.customJobs.*</code></p>
+<ul>
 <li><code>aiplatform.customJobs.cancel</code></li>
 <li><code>aiplatform.customJobs.create</code></li>
 <li><code>aiplatform.customJobs.delete</code></li>
 <li><code>aiplatform.customJobs.get</code></li>
 <li><code>aiplatform.customJobs.list</code></li>
+</ul>
+<p><code>aiplatform.dataItems.*</code></p>
+<ul>
 <li><code>aiplatform.dataItems.create</code></li>
 <li><code>aiplatform.dataItems.delete</code></li>
 <li><code>aiplatform.dataItems.get</code></li>
 <li><code>aiplatform.dataItems.list</code></li>
 <li><code>aiplatform.dataItems.update</code></li>
+</ul>
+<p><code>aiplatform.dataLabelingJobs.*</code></p>
+<ul>
 <li><code>aiplatform. dataLabelingJobs. cancel</code></li>
 <li><code>aiplatform. dataLabelingJobs. create</code></li>
 <li><code>aiplatform. dataLabelingJobs. delete</code></li>
 <li><code>aiplatform. dataLabelingJobs. get</code></li>
 <li><code>aiplatform. dataLabelingJobs. list</code></li>
+</ul>
+<p><code>aiplatform.datasetVersions.*</code></p>
+<ul>
 <li><code>aiplatform. datasetVersions. create</code></li>
 <li><code>aiplatform. datasetVersions. delete</code></li>
 <li><code>aiplatform.datasetVersions.get</code></li>
 <li><code>aiplatform. datasetVersions. list</code></li>
 <li><code>aiplatform. datasetVersions. restore</code></li>
+</ul>
+<p><code>aiplatform.datasets.*</code></p>
+<ul>
 <li><code>aiplatform.datasets.create</code></li>
 <li><code>aiplatform.datasets.delete</code></li>
 <li><code>aiplatform.datasets.export</code></li>
@@ -6872,22 +6982,34 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform.datasets.import</code></li>
 <li><code>aiplatform.datasets.list</code></li>
 <li><code>aiplatform.datasets.update</code></li>
+</ul>
+<p><code>aiplatform. deploymentResourcePools.*</code></p>
+<ul>
 <li><code>aiplatform. deploymentResourcePools. create</code></li>
 <li><code>aiplatform. deploymentResourcePools. delete</code></li>
 <li><code>aiplatform. deploymentResourcePools. get</code></li>
 <li><code>aiplatform. deploymentResourcePools. list</code></li>
 <li><code>aiplatform. deploymentResourcePools. queryDeployedModels</code></li>
 <li><code>aiplatform. deploymentResourcePools. update</code></li>
+</ul>
+<p><code>aiplatform. edgeDeploymentJobs.*</code></p>
+<ul>
 <li><code>aiplatform. edgeDeploymentJobs. create</code></li>
 <li><code>aiplatform. edgeDeploymentJobs. delete</code></li>
 <li><code>aiplatform. edgeDeploymentJobs. get</code></li>
 <li><code>aiplatform. edgeDeploymentJobs. list</code></li>
-<li><code>aiplatform. edgeDeviceDebugInfo. get</code></li>
+</ul>
+<p><code>aiplatform. edgeDeviceDebugInfo. get</code></p>
+<p><code>aiplatform.edgeDevices.*</code></p>
+<ul>
 <li><code>aiplatform.edgeDevices.create</code></li>
 <li><code>aiplatform.edgeDevices.delete</code></li>
 <li><code>aiplatform.edgeDevices.get</code></li>
 <li><code>aiplatform.edgeDevices.list</code></li>
 <li><code>aiplatform.edgeDevices.update</code></li>
+</ul>
+<p><code>aiplatform.endpoints.*</code></p>
+<ul>
 <li><code>aiplatform.endpoints.create</code></li>
 <li><code>aiplatform.endpoints.delete</code></li>
 <li><code>aiplatform.endpoints.deploy</code></li>
@@ -6899,6 +7021,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. endpoints. setIamPolicy</code></li>
 <li><code>aiplatform.endpoints.undeploy</code></li>
 <li><code>aiplatform.endpoints.update</code></li>
+</ul>
+<p><code>aiplatform.entityTypes.*</code></p>
+<ul>
 <li><code>aiplatform.entityTypes.create</code></li>
 <li><code>aiplatform.entityTypes.delete</code></li>
 <li><code>aiplatform. entityTypes. deleteFeatureValues</code></li>
@@ -6912,20 +7037,32 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. entityTypes. streamingReadFeatureValues</code></li>
 <li><code>aiplatform.entityTypes.update</code></li>
 <li><code>aiplatform. entityTypes. writeFeatureValues</code></li>
+</ul>
+<p><code>aiplatform. evaluationExperiments.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationExperiments. create</code></li>
 <li><code>aiplatform. evaluationExperiments. delete</code></li>
 <li><code>aiplatform. evaluationExperiments. get</code></li>
 <li><code>aiplatform. evaluationExperiments. list</code></li>
 <li><code>aiplatform. evaluationExperiments. update</code></li>
+</ul>
+<p><code>aiplatform.evaluationItems.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationItems. create</code></li>
 <li><code>aiplatform. evaluationItems. delete</code></li>
 <li><code>aiplatform.evaluationItems.get</code></li>
 <li><code>aiplatform. evaluationItems. list</code></li>
 <li><code>aiplatform. evaluationItems. update</code></li>
+</ul>
+<p><code>aiplatform.evaluationMetrics.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationMetrics. create</code></li>
 <li><code>aiplatform. evaluationMetrics. delete</code></li>
 <li><code>aiplatform. evaluationMetrics. get</code></li>
 <li><code>aiplatform. evaluationMetrics. list</code></li>
+</ul>
+<p><code>aiplatform.evaluationRuns.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationRuns. cancel</code></li>
 <li><code>aiplatform. evaluationRuns. create</code></li>
 <li><code>aiplatform. evaluationRuns. delete</code></li>
@@ -6933,12 +7070,18 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform.evaluationRuns.get</code></li>
 <li><code>aiplatform.evaluationRuns.list</code></li>
 <li><code>aiplatform. evaluationRuns. update</code></li>
+</ul>
+<p><code>aiplatform.evaluationSets.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationSets. create</code></li>
 <li><code>aiplatform. evaluationSets. delete</code></li>
 <li><code>aiplatform.evaluationSets.get</code></li>
 <li><code>aiplatform. evaluationSets. import</code></li>
 <li><code>aiplatform.evaluationSets.list</code></li>
 <li><code>aiplatform. evaluationSets. update</code></li>
+</ul>
+<p><code>aiplatform.exampleStores.*</code></p>
+<ul>
 <li><code>aiplatform. exampleStores. create</code></li>
 <li><code>aiplatform. exampleStores. delete</code></li>
 <li><code>aiplatform.exampleStores.get</code></li>
@@ -6946,6 +7089,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. exampleStores. readExample</code></li>
 <li><code>aiplatform. exampleStores. update</code></li>
 <li><code>aiplatform. exampleStores. writeExample</code></li>
+</ul>
+<p><code>aiplatform.executions.*</code></p>
+<ul>
 <li><code>aiplatform. executions. addExecutionEvents</code></li>
 <li><code>aiplatform.executions.create</code></li>
 <li><code>aiplatform.executions.delete</code></li>
@@ -6953,12 +7099,18 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform.executions.list</code></li>
 <li><code>aiplatform. executions. queryExecutionInputsAndOutputs</code></li>
 <li><code>aiplatform.executions.update</code></li>
+</ul>
+<p><code>aiplatform.extensions.*</code></p>
+<ul>
 <li><code>aiplatform.extensions.delete</code></li>
 <li><code>aiplatform.extensions.execute</code></li>
 <li><code>aiplatform.extensions.get</code></li>
 <li><code>aiplatform.extensions.import</code></li>
 <li><code>aiplatform.extensions.list</code></li>
 <li><code>aiplatform.extensions.update</code></li>
+</ul>
+<p><code>aiplatform.featureGroups.*</code></p>
+<ul>
 <li><code>aiplatform. featureGroups. create</code></li>
 <li><code>aiplatform. featureGroups. delete</code></li>
 <li><code>aiplatform.featureGroups.get</code></li>
@@ -6966,14 +7118,23 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform.featureGroups.list</code></li>
 <li><code>aiplatform. featureGroups. setIamPolicy</code></li>
 <li><code>aiplatform. featureGroups. update</code></li>
+</ul>
+<p><code>aiplatform. featureMonitorJobs.*</code></p>
+<ul>
 <li><code>aiplatform. featureMonitorJobs. create</code></li>
 <li><code>aiplatform. featureMonitorJobs. get</code></li>
 <li><code>aiplatform. featureMonitorJobs. list</code></li>
+</ul>
+<p><code>aiplatform.featureMonitors.*</code></p>
+<ul>
 <li><code>aiplatform. featureMonitors. create</code></li>
 <li><code>aiplatform. featureMonitors. delete</code></li>
 <li><code>aiplatform.featureMonitors.get</code></li>
 <li><code>aiplatform. featureMonitors. list</code></li>
 <li><code>aiplatform. featureMonitors. update</code></li>
+</ul>
+<p><code>aiplatform. featureOnlineStores.*</code></p>
+<ul>
 <li><code>aiplatform. featureOnlineStores. create</code></li>
 <li><code>aiplatform. featureOnlineStores. delete</code></li>
 <li><code>aiplatform. featureOnlineStores. get</code></li>
@@ -6981,8 +7142,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. featureOnlineStores. list</code></li>
 <li><code>aiplatform. featureOnlineStores. setIamPolicy</code></li>
 <li><code>aiplatform. featureOnlineStores. update</code></li>
+</ul>
+<p><code>aiplatform.featureViewSyncs.*</code></p>
+<ul>
 <li><code>aiplatform. featureViewSyncs. get</code></li>
 <li><code>aiplatform. featureViewSyncs. list</code></li>
+</ul>
+<p><code>aiplatform.featureViews.*</code></p>
+<ul>
 <li><code>aiplatform.featureViews.create</code></li>
 <li><code>aiplatform.featureViews.delete</code></li>
 <li><code>aiplatform. featureViews. directWrite</code></li>
@@ -6994,11 +7161,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. featureViews. setIamPolicy</code></li>
 <li><code>aiplatform.featureViews.sync</code></li>
 <li><code>aiplatform.featureViews.update</code></li>
+</ul>
+<p><code>aiplatform.features.*</code></p>
+<ul>
 <li><code>aiplatform.features.create</code></li>
 <li><code>aiplatform.features.delete</code></li>
 <li><code>aiplatform.features.get</code></li>
 <li><code>aiplatform.features.list</code></li>
 <li><code>aiplatform.features.update</code></li>
+</ul>
+<p><code>aiplatform.featurestores.*</code></p>
+<ul>
 <li><code>aiplatform. featurestores. batchReadFeatureValues</code></li>
 <li><code>aiplatform. featurestores. create</code></li>
 <li><code>aiplatform. featurestores. delete</code></li>
@@ -7011,6 +7184,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. featurestores. setIamPolicy</code></li>
 <li><code>aiplatform. featurestores. update</code></li>
 <li><code>aiplatform. featurestores. writeFeatures</code></li>
+</ul>
+<p><code>aiplatform.humanInTheLoops.*</code></p>
+<ul>
 <li><code>aiplatform. humanInTheLoops. cancel</code></li>
 <li><code>aiplatform. humanInTheLoops. create</code></li>
 <li><code>aiplatform. humanInTheLoops. delete</code></li>
@@ -7019,11 +7195,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. humanInTheLoops. queryAnnotationStats</code></li>
 <li><code>aiplatform. humanInTheLoops. send</code></li>
 <li><code>aiplatform. humanInTheLoops. update</code></li>
+</ul>
+<p><code>aiplatform. hyperparameterTuningJobs.*</code></p>
+<ul>
 <li><code>aiplatform. hyperparameterTuningJobs. cancel</code></li>
 <li><code>aiplatform. hyperparameterTuningJobs. create</code></li>
 <li><code>aiplatform. hyperparameterTuningJobs. delete</code></li>
 <li><code>aiplatform. hyperparameterTuningJobs. get</code></li>
 <li><code>aiplatform. hyperparameterTuningJobs. list</code></li>
+</ul>
+<p><code>aiplatform.indexEndpoints.*</code></p>
+<ul>
 <li><code>aiplatform. indexEndpoints. create</code></li>
 <li><code>aiplatform. indexEndpoints. delete</code></li>
 <li><code>aiplatform. indexEndpoints. deploy</code></li>
@@ -7032,19 +7214,31 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. indexEndpoints. queryVectors</code></li>
 <li><code>aiplatform. indexEndpoints. undeploy</code></li>
 <li><code>aiplatform. indexEndpoints. update</code></li>
+</ul>
+<p><code>aiplatform.indexes.*</code></p>
+<ul>
 <li><code>aiplatform.indexes.create</code></li>
 <li><code>aiplatform.indexes.delete</code></li>
 <li><code>aiplatform.indexes.get</code></li>
 <li><code>aiplatform.indexes.list</code></li>
 <li><code>aiplatform.indexes.update</code></li>
+</ul>
+<p><code>aiplatform.interactions.*</code></p>
+<ul>
 <li><code>aiplatform.interactions.cancel</code></li>
 <li><code>aiplatform.interactions.create</code></li>
 <li><code>aiplatform.interactions.delete</code></li>
 <li><code>aiplatform.interactions.get</code></li>
 <li><code>aiplatform.interactions.list</code></li>
+</ul>
+<p><code>aiplatform.locations.*</code></p>
+<ul>
 <li><code>aiplatform. locations. evaluateInstances</code></li>
 <li><code>aiplatform.locations.get</code></li>
 <li><code>aiplatform.locations.list</code></li>
+</ul>
+<p><code>aiplatform.memories.*</code></p>
+<ul>
 <li><code>aiplatform.memories.create</code></li>
 <li><code>aiplatform.memories.delete</code></li>
 <li><code>aiplatform.memories.generate</code></li>
@@ -7052,19 +7246,34 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform.memories.list</code></li>
 <li><code>aiplatform.memories.retrieve</code></li>
 <li><code>aiplatform.memories.update</code></li>
+</ul>
+<p><code>aiplatform.memoryRevisions.*</code></p>
+<ul>
 <li><code>aiplatform.memoryRevisions.get</code></li>
 <li><code>aiplatform. memoryRevisions. list</code></li>
 <li><code>aiplatform. memoryRevisions. rollback</code></li>
+</ul>
+<p><code>aiplatform.metadataSchemas.*</code></p>
+<ul>
 <li><code>aiplatform. metadataSchemas. create</code></li>
 <li><code>aiplatform. metadataSchemas. delete</code></li>
 <li><code>aiplatform.metadataSchemas.get</code></li>
 <li><code>aiplatform. metadataSchemas. list</code></li>
+</ul>
+<p><code>aiplatform.metadataStores.*</code></p>
+<ul>
 <li><code>aiplatform. metadataStores. create</code></li>
 <li><code>aiplatform. metadataStores. delete</code></li>
 <li><code>aiplatform.metadataStores.get</code></li>
 <li><code>aiplatform.metadataStores.list</code></li>
+</ul>
+<p><code>aiplatform. migratableResources.*</code></p>
+<ul>
 <li><code>aiplatform. migratableResources. migrate</code></li>
 <li><code>aiplatform. migratableResources. search</code></li>
+</ul>
+<p><code>aiplatform. modelDeploymentMonitoringJobs.*</code></p>
+<ul>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. create</code></li>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. delete</code></li>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. get</code></li>
@@ -7073,17 +7282,29 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. modelDeploymentMonitoringJobs. resume</code></li>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. searchStatsAnomalies</code></li>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. update</code></li>
+</ul>
+<p><code>aiplatform. modelEvaluationSlices.*</code></p>
+<ul>
 <li><code>aiplatform. modelEvaluationSlices. get</code></li>
 <li><code>aiplatform. modelEvaluationSlices. import</code></li>
 <li><code>aiplatform. modelEvaluationSlices. list</code></li>
+</ul>
+<p><code>aiplatform.modelEvaluations.*</code></p>
+<ul>
 <li><code>aiplatform. modelEvaluations. exportEvaluatedDataItems</code></li>
 <li><code>aiplatform. modelEvaluations. get</code></li>
 <li><code>aiplatform. modelEvaluations. import</code></li>
 <li><code>aiplatform. modelEvaluations. list</code></li>
+</ul>
+<p><code>aiplatform. modelMonitoringJobs.*</code></p>
+<ul>
 <li><code>aiplatform. modelMonitoringJobs. create</code></li>
 <li><code>aiplatform. modelMonitoringJobs. delete</code></li>
 <li><code>aiplatform. modelMonitoringJobs. get</code></li>
 <li><code>aiplatform. modelMonitoringJobs. list</code></li>
+</ul>
+<p><code>aiplatform.modelMonitors.*</code></p>
+<ul>
 <li><code>aiplatform. modelMonitors. create</code></li>
 <li><code>aiplatform. modelMonitors. delete</code></li>
 <li><code>aiplatform.modelMonitors.get</code></li>
@@ -7091,28 +7312,46 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. modelMonitors. searchModelMonitoringAlerts</code></li>
 <li><code>aiplatform. modelMonitors. searchModelMonitoringStats</code></li>
 <li><code>aiplatform. modelMonitors. update</code></li>
+</ul>
+<p><code>aiplatform.models.*</code></p>
+<ul>
 <li><code>aiplatform.models.delete</code></li>
 <li><code>aiplatform.models.export</code></li>
 <li><code>aiplatform.models.get</code></li>
 <li><code>aiplatform.models.list</code></li>
 <li><code>aiplatform.models.update</code></li>
 <li><code>aiplatform.models.upload</code></li>
+</ul>
+<p><code>aiplatform.monitoredAgents.*</code></p>
+<ul>
 <li><code>aiplatform. monitoredAgents. clearTrainingData</code></li>
 <li><code>aiplatform. monitoredAgents. disable</code></li>
 <li><code>aiplatform. monitoredAgents. enable</code></li>
 <li><code>aiplatform.monitoredAgents.get</code></li>
 <li><code>aiplatform. monitoredAgents. list</code></li>
+</ul>
+<p><code>aiplatform.nasJobs.*</code></p>
+<ul>
 <li><code>aiplatform.nasJobs.cancel</code></li>
 <li><code>aiplatform.nasJobs.create</code></li>
 <li><code>aiplatform.nasJobs.delete</code></li>
 <li><code>aiplatform.nasJobs.get</code></li>
 <li><code>aiplatform.nasJobs.list</code></li>
+</ul>
+<p><code>aiplatform.nasTrialDetails.*</code></p>
+<ul>
 <li><code>aiplatform.nasTrialDetails.get</code></li>
 <li><code>aiplatform. nasTrialDetails. list</code></li>
+</ul>
+<p><code>aiplatform. notebookExecutionJobs.*</code></p>
+<ul>
 <li><code>aiplatform. notebookExecutionJobs. create</code></li>
 <li><code>aiplatform. notebookExecutionJobs. delete</code></li>
 <li><code>aiplatform. notebookExecutionJobs. get</code></li>
 <li><code>aiplatform. notebookExecutionJobs. list</code></li>
+</ul>
+<p><code>aiplatform. notebookRuntimeTemplates.*</code></p>
+<ul>
 <li><code>aiplatform. notebookRuntimeTemplates. apply</code></li>
 <li><code>aiplatform. notebookRuntimeTemplates. create</code></li>
 <li><code>aiplatform. notebookRuntimeTemplates. delete</code></li>
@@ -7122,6 +7361,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. notebookRuntimeTemplates. setDefault</code></li>
 <li><code>aiplatform. notebookRuntimeTemplates. setIamPolicy</code></li>
 <li><code>aiplatform. notebookRuntimeTemplates. update</code></li>
+</ul>
+<p><code>aiplatform.notebookRuntimes.*</code></p>
+<ul>
 <li><code>aiplatform. notebookRuntimes. assign</code></li>
 <li><code>aiplatform. notebookRuntimes. delete</code></li>
 <li><code>aiplatform. notebookRuntimes. get</code></li>
@@ -7129,23 +7371,38 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. notebookRuntimes. start</code></li>
 <li><code>aiplatform. notebookRuntimes. update</code></li>
 <li><code>aiplatform. notebookRuntimes. upgrade</code></li>
+</ul>
+<p><code>aiplatform.onlineEvaluators.*</code></p>
+<ul>
 <li><code>aiplatform. onlineEvaluators. create</code></li>
 <li><code>aiplatform. onlineEvaluators. delete</code></li>
 <li><code>aiplatform. onlineEvaluators. get</code></li>
 <li><code>aiplatform. onlineEvaluators. list</code></li>
 <li><code>aiplatform. onlineEvaluators. update</code></li>
-<li><code>aiplatform.operations.list</code></li>
+</ul>
+<p><code>aiplatform.operations.list</code></p>
+<p><code>aiplatform. persistentResources.*</code></p>
+<ul>
 <li><code>aiplatform. persistentResources. create</code></li>
 <li><code>aiplatform. persistentResources. delete</code></li>
 <li><code>aiplatform. persistentResources. get</code></li>
 <li><code>aiplatform. persistentResources. list</code></li>
+</ul>
+<p><code>aiplatform.pipelineJobs.*</code></p>
+<ul>
 <li><code>aiplatform.pipelineJobs.cancel</code></li>
 <li><code>aiplatform.pipelineJobs.create</code></li>
 <li><code>aiplatform.pipelineJobs.delete</code></li>
 <li><code>aiplatform.pipelineJobs.get</code></li>
 <li><code>aiplatform.pipelineJobs.list</code></li>
+</ul>
+<p><code>aiplatform. provisionedThroughputRevisions.*</code></p>
+<ul>
 <li><code>aiplatform. provisionedThroughputRevisions. get</code></li>
 <li><code>aiplatform. provisionedThroughputRevisions. list</code></li>
+</ul>
+<p><code>aiplatform. provisionedThroughputs.*</code></p>
+<ul>
 <li><code>aiplatform. provisionedThroughputs. cancel</code></li>
 <li><code>aiplatform. provisionedThroughputs. changeScope</code></li>
 <li><code>aiplatform. provisionedThroughputs. create</code></li>
@@ -7153,23 +7410,38 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. provisionedThroughputs. list</code></li>
 <li><code>aiplatform. provisionedThroughputs. split</code></li>
 <li><code>aiplatform. provisionedThroughputs. update</code></li>
+</ul>
+<p><code>aiplatform.ragCorpora.*</code></p>
+<ul>
 <li><code>aiplatform.ragCorpora.create</code></li>
 <li><code>aiplatform.ragCorpora.delete</code></li>
 <li><code>aiplatform.ragCorpora.get</code></li>
 <li><code>aiplatform.ragCorpora.list</code></li>
 <li><code>aiplatform.ragCorpora.query</code></li>
 <li><code>aiplatform.ragCorpora.update</code></li>
+</ul>
+<p><code>aiplatform.ragEngineConfigs.*</code></p>
+<ul>
 <li><code>aiplatform. ragEngineConfigs. get</code></li>
 <li><code>aiplatform. ragEngineConfigs. update</code></li>
+</ul>
+<p><code>aiplatform.ragFiles.*</code></p>
+<ul>
 <li><code>aiplatform.ragFiles.delete</code></li>
 <li><code>aiplatform.ragFiles.get</code></li>
 <li><code>aiplatform.ragFiles.import</code></li>
 <li><code>aiplatform.ragFiles.list</code></li>
 <li><code>aiplatform.ragFiles.upload</code></li>
+</ul>
+<p><code>aiplatform. reasoningEngineRuntimeRevisions.*</code></p>
+<ul>
 <li><code>aiplatform. reasoningEngineRuntimeRevisions. delete</code></li>
 <li><code>aiplatform. reasoningEngineRuntimeRevisions. get</code></li>
 <li><code>aiplatform. reasoningEngineRuntimeRevisions. list</code></li>
 <li><code>aiplatform. reasoningEngineRuntimeRevisions. query</code></li>
+</ul>
+<p><code>aiplatform.reasoningEngines.*</code></p>
+<ul>
 <li><code>aiplatform. reasoningEngines. create</code></li>
 <li><code>aiplatform. reasoningEngines. delete</code></li>
 <li><code>aiplatform. reasoningEngines. get</code></li>
@@ -7178,53 +7450,86 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. reasoningEngines. query</code></li>
 <li><code>aiplatform. reasoningEngines. setIamPolicy</code></li>
 <li><code>aiplatform. reasoningEngines. update</code></li>
+</ul>
+<p><code>aiplatform. sandboxEnvironments.*</code></p>
+<ul>
 <li><code>aiplatform. sandboxEnvironments. create</code></li>
 <li><code>aiplatform. sandboxEnvironments. delete</code></li>
 <li><code>aiplatform. sandboxEnvironments. execute</code></li>
 <li><code>aiplatform. sandboxEnvironments. get</code></li>
 <li><code>aiplatform. sandboxEnvironments. list</code></li>
+</ul>
+<p><code>aiplatform.schedules.*</code></p>
+<ul>
 <li><code>aiplatform.schedules.create</code></li>
 <li><code>aiplatform.schedules.delete</code></li>
 <li><code>aiplatform.schedules.get</code></li>
 <li><code>aiplatform.schedules.list</code></li>
 <li><code>aiplatform.schedules.update</code></li>
+</ul>
+<p><code>aiplatform. semanticGovernancePolicies.*</code></p>
+<ul>
 <li><code>aiplatform. semanticGovernancePolicies. create</code></li>
 <li><code>aiplatform. semanticGovernancePolicies. delete</code></li>
 <li><code>aiplatform. semanticGovernancePolicies. get</code></li>
 <li><code>aiplatform. semanticGovernancePolicies. list</code></li>
 <li><code>aiplatform. semanticGovernancePolicies. update</code></li>
+</ul>
+<p><code>aiplatform. semanticGovernancePolicyEngine.*</code></p>
+<ul>
 <li><code>aiplatform. semanticGovernancePolicyEngine. get</code></li>
 <li><code>aiplatform. semanticGovernancePolicyEngine. update</code></li>
+</ul>
+<p><code>aiplatform.sessionEvents.*</code></p>
+<ul>
 <li><code>aiplatform. sessionEvents. append</code></li>
 <li><code>aiplatform.sessionEvents.list</code></li>
+</ul>
+<p><code>aiplatform.sessions.*</code></p>
+<ul>
 <li><code>aiplatform.sessions.create</code></li>
 <li><code>aiplatform.sessions.delete</code></li>
 <li><code>aiplatform.sessions.get</code></li>
 <li><code>aiplatform.sessions.list</code></li>
 <li><code>aiplatform.sessions.run</code></li>
 <li><code>aiplatform.sessions.update</code></li>
+</ul>
+<p><code>aiplatform.specialistPools.*</code></p>
+<ul>
 <li><code>aiplatform. specialistPools. create</code></li>
 <li><code>aiplatform. specialistPools. delete</code></li>
 <li><code>aiplatform.specialistPools.get</code></li>
 <li><code>aiplatform. specialistPools. list</code></li>
 <li><code>aiplatform. specialistPools. update</code></li>
+</ul>
+<p><code>aiplatform.studies.*</code></p>
+<ul>
 <li><code>aiplatform.studies.create</code></li>
 <li><code>aiplatform.studies.delete</code></li>
 <li><code>aiplatform.studies.get</code></li>
 <li><code>aiplatform.studies.list</code></li>
 <li><code>aiplatform.studies.update</code></li>
+</ul>
+<p><code>aiplatform.tasks.*</code></p>
+<ul>
 <li><code>aiplatform.tasks.cancel</code></li>
 <li><code>aiplatform.tasks.create</code></li>
 <li><code>aiplatform.tasks.delete</code></li>
 <li><code>aiplatform.tasks.get</code></li>
 <li><code>aiplatform.tasks.list</code></li>
 <li><code>aiplatform.tasks.update</code></li>
+</ul>
+<p><code>aiplatform. tensorboardExperiments.*</code></p>
+<ul>
 <li><code>aiplatform. tensorboardExperiments. create</code></li>
 <li><code>aiplatform. tensorboardExperiments. delete</code></li>
 <li><code>aiplatform. tensorboardExperiments. get</code></li>
 <li><code>aiplatform. tensorboardExperiments. list</code></li>
 <li><code>aiplatform. tensorboardExperiments. update</code></li>
 <li><code>aiplatform. tensorboardExperiments. write</code></li>
+</ul>
+<p><code>aiplatform.tensorboardRuns.*</code></p>
+<ul>
 <li><code>aiplatform. tensorboardRuns. batchCreate</code></li>
 <li><code>aiplatform. tensorboardRuns. create</code></li>
 <li><code>aiplatform. tensorboardRuns. delete</code></li>
@@ -7232,6 +7537,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. tensorboardRuns. list</code></li>
 <li><code>aiplatform. tensorboardRuns. update</code></li>
 <li><code>aiplatform. tensorboardRuns. write</code></li>
+</ul>
+<p><code>aiplatform. tensorboardTimeSeries.*</code></p>
+<ul>
 <li><code>aiplatform. tensorboardTimeSeries. batchCreate</code></li>
 <li><code>aiplatform. tensorboardTimeSeries. batchRead</code></li>
 <li><code>aiplatform. tensorboardTimeSeries. create</code></li>
@@ -7240,22 +7548,34 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. tensorboardTimeSeries. list</code></li>
 <li><code>aiplatform. tensorboardTimeSeries. read</code></li>
 <li><code>aiplatform. tensorboardTimeSeries. update</code></li>
+</ul>
+<p><code>aiplatform.tensorboards.*</code></p>
+<ul>
 <li><code>aiplatform.tensorboards.create</code></li>
 <li><code>aiplatform.tensorboards.delete</code></li>
 <li><code>aiplatform.tensorboards.get</code></li>
 <li><code>aiplatform.tensorboards.list</code></li>
 <li><code>aiplatform. tensorboards. recordAccess</code></li>
 <li><code>aiplatform.tensorboards.update</code></li>
+</ul>
+<p><code>aiplatform.trainingPipelines.*</code></p>
+<ul>
 <li><code>aiplatform. trainingPipelines. cancel</code></li>
 <li><code>aiplatform. trainingPipelines. create</code></li>
 <li><code>aiplatform. trainingPipelines. delete</code></li>
 <li><code>aiplatform. trainingPipelines. get</code></li>
 <li><code>aiplatform. trainingPipelines. list</code></li>
+</ul>
+<p><code>aiplatform.trials.*</code></p>
+<ul>
 <li><code>aiplatform.trials.create</code></li>
 <li><code>aiplatform.trials.delete</code></li>
 <li><code>aiplatform.trials.get</code></li>
 <li><code>aiplatform.trials.list</code></li>
 <li><code>aiplatform.trials.update</code></li>
+</ul>
+<p><code>aiplatform.tuningJobs.*</code></p>
+<ul>
 <li><code>aiplatform.tuningJobs.cancel</code></li>
 <li><code>aiplatform.tuningJobs.create</code></li>
 <li><code>aiplatform.tuningJobs.delete</code></li>
@@ -8065,6 +8385,18 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>dataform. workspaces. setIamPolicy</code></li>
 <li><code>dataform.workspaces.writeFile</code></li>
 </ul>
+<p><code>dataplex.agentTasks.*</code></p>
+<ul>
+<li><code>dataplex.agentTasks.create</code></li>
+<li><code>dataplex.agentTasks.delete</code></li>
+<li><code>dataplex.agentTasks.get</code></li>
+<li><code>dataplex.agentTasks.getData</code></li>
+<li><code>dataplex. agentTasks. getIamPolicy</code></li>
+<li><code>dataplex.agentTasks.list</code></li>
+<li><code>dataplex.agentTasks.run</code></li>
+<li><code>dataplex. agentTasks. setIamPolicy</code></li>
+<li><code>dataplex.agentTasks.update</code></li>
+</ul>
 <p><code>dataplex.datascans.*</code></p>
 <ul>
 <li><code>dataplex.datascans.cancel</code></li>
@@ -8630,6 +8962,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute. firewalls. listEffectiveTags</code></li>
 <li><code>compute. firewalls. listTagBindings</code></li>
 <li><code>compute.firewalls.update</code></li>
+<li><code>compute. folderVmExtensionPolicies. create</code></li>
+<li><code>compute. folderVmExtensionPolicies. delete</code></li>
+<li><code>compute. folderVmExtensionPolicies. get</code></li>
+<li><code>compute. folderVmExtensionPolicies. list</code></li>
+<li><code>compute. folderVmExtensionPolicies. update</code></li>
+<li><code>compute.folderVmExtensions.get</code></li>
+<li><code>compute. folderVmExtensions. list</code></li>
 <li><code>compute.forwardingRules.create</code></li>
 <li><code>compute. forwardingRules. createTagBinding</code></li>
 <li><code>compute.forwardingRules.delete</code></li>
@@ -9033,6 +9372,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute.orgRollouts.list</code></li>
 <li><code>compute.orgRollouts.pause</code></li>
 <li><code>compute.orgRollouts.resume</code></li>
+<li><code>compute. orgVmExtensionPolicies. create</code></li>
+<li><code>compute. orgVmExtensionPolicies. delete</code></li>
+<li><code>compute. orgVmExtensionPolicies. get</code></li>
+<li><code>compute. orgVmExtensionPolicies. list</code></li>
+<li><code>compute. orgVmExtensionPolicies. update</code></li>
+<li><code>compute.orgVmExtensions.get</code></li>
+<li><code>compute.orgVmExtensions.list</code></li>
 <li><code>compute. organizations. disableXpnHost</code></li>
 <li><code>compute. organizations. disableXpnResource</code></li>
 <li><code>compute. organizations. enableXpnHost</code></li>
@@ -9541,6 +9887,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute. vmExtensionPolicies. get</code></li>
 <li><code>compute. vmExtensionPolicies. list</code></li>
 <li><code>compute. vmExtensionPolicies. update</code></li>
+<li><code>compute.vmExtensions.get</code></li>
+<li><code>compute.vmExtensions.list</code></li>
 <li><code>compute.vpnGateways.create</code></li>
 <li><code>compute. vpnGateways. createTagBinding</code></li>
 <li><code>compute.vpnGateways.delete</code></li>
@@ -9964,6 +10312,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>networkconnectivity. spokes. listTagBindings</code></li>
 <li><code>networkconnectivity. spokes. setIamPolicy</code></li>
 <li><code>networkconnectivity. spokes. update</code></li>
+<li><code>networkconnectivity.spokes.use</code></li>
 </ul>
 <p><code>networkmanagement.*</code></p>
 <ul>
@@ -10411,6 +10760,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>agentregistry.skills.list</code></p>
 <p><code>aiplatform. agentAnomalyDetectionScopes. list</code></p>
 <p><code>aiplatform.agentExamples.list</code></p>
+<p><code>aiplatform.agentMemories.list</code></p>
+<p><code>aiplatform.agents.getIamPolicy</code></p>
 <p><code>aiplatform.agents.list</code></p>
 <p><code>aiplatform. analyzedInvocations. list</code></p>
 <p><code>aiplatform. analyzedSessions. list</code></p>
@@ -11957,6 +12308,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute. folderVmExtensionPolicies. get</code></p>
+<p><code>compute. folderVmExtensionPolicies. list</code></p>
+<p><code>compute.folderVmExtensions.*</code></p>
+<ul>
+<li><code>compute.folderVmExtensions.get</code></li>
+<li><code>compute. folderVmExtensions. list</code></li>
+</ul>
 <p><code>compute.forwardingRules.get</code></p>
 <p><code>compute.forwardingRules.list</code></p>
 <p><code>compute. forwardingRules. listEffectiveTags</code></p>
@@ -12135,6 +12493,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.orgRolloutPlans.list</code></p>
 <p><code>compute.orgRollouts.get</code></p>
 <p><code>compute.orgRollouts.list</code></p>
+<p><code>compute. orgVmExtensionPolicies. get</code></p>
+<p><code>compute. orgVmExtensionPolicies. list</code></p>
+<p><code>compute.orgVmExtensions.*</code></p>
+<ul>
+<li><code>compute.orgVmExtensions.get</code></li>
+<li><code>compute.orgVmExtensions.list</code></li>
+</ul>
 <p><code>compute. organizations. listAssociations</code></p>
 <p><code>compute.packetMirrorings.get</code></p>
 <p><code>compute.packetMirrorings.list</code></p>
@@ -12341,6 +12706,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.urlMaps.validate</code></p>
 <p><code>compute. vmExtensionPolicies. get</code></p>
 <p><code>compute. vmExtensionPolicies. list</code></p>
+<p><code>compute.vmExtensions.*</code></p>
+<ul>
+<li><code>compute.vmExtensions.get</code></li>
+<li><code>compute.vmExtensions.list</code></li>
+</ul>
 <p><code>compute.vpnGateways.get</code></p>
 <p><code>compute.vpnGateways.list</code></p>
 <p><code>compute. vpnGateways. listEffectiveTags</code></p>
@@ -12725,6 +13095,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>datamigration. privateconnections. listTagBindings</code></p>
 <p><code>datapipelines.jobs.list</code></p>
 <p><code>datapipelines.pipelines.list</code></p>
+<p><code>dataplex. agentTasks. getIamPolicy</code></p>
+<p><code>dataplex.agentTasks.list</code></p>
 <p><code>dataplex. aspectTypes. getIamPolicy</code></p>
 <p><code>dataplex.aspectTypes.list</code></p>
 <p><code>dataplex.assetActions.list</code></p>
@@ -13553,7 +13925,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>ml.versions.list</code></p>
 <p><code>modelarmor.locations.list</code></p>
 <p><code>modelarmor.templates.list</code></p>
-<p><code>modelarmor.topics.list</code></p>
 <p><code>monitoring.alertPolicies.get</code></p>
 <p><code>monitoring.alertPolicies.list</code></p>
 <p><code>monitoring. alertPolicies. listEffectiveTags</code></p>
@@ -13804,6 +14175,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>oracledatabase. cloudExadataInfrastructures. list</code></p>
 <p><code>oracledatabase. cloudVmClusters. list</code></p>
 <p><code>oracledatabase. databaseCharacterSets. list</code></p>
+<p><code>oracledatabase. databaseConnections. list</code></p>
 <p><code>oracledatabase.databases.list</code></p>
 <p><code>oracledatabase.dbNodes.list</code></p>
 <p><code>oracledatabase.dbServers.list</code></p>
@@ -14333,6 +14705,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>securitycentermanagement. securityCenterServices. get</code></p>
 <p><code>securitycentermanagement. securityCenterServices. list</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. checkActivationOperation</code></p>
+<p><code>securitycentermanagement. securityCommandCenter. checkEligibility</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. checkOnboardingStatus</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. get</code></p>
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. get</code></p>
@@ -15503,6 +15876,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute. folderVmExtensionPolicies. get</code></p>
+<p><code>compute. folderVmExtensionPolicies. list</code></p>
+<p><code>compute.folderVmExtensions.*</code></p>
+<ul>
+<li><code>compute.folderVmExtensions.get</code></li>
+<li><code>compute. folderVmExtensions. list</code></li>
+</ul>
 <p><code>compute.forwardingRules.get</code></p>
 <p><code>compute.forwardingRules.list</code></p>
 <p><code>compute. forwardingRules. listEffectiveTags</code></p>
@@ -15842,6 +16222,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.orgRolloutPlans.list</code></p>
 <p><code>compute.orgRollouts.get</code></p>
 <p><code>compute.orgRollouts.list</code></p>
+<p><code>compute. orgVmExtensionPolicies. get</code></p>
+<p><code>compute. orgVmExtensionPolicies. list</code></p>
+<p><code>compute.orgVmExtensions.*</code></p>
+<ul>
+<li><code>compute.orgVmExtensions.get</code></li>
+<li><code>compute.orgVmExtensions.list</code></li>
+</ul>
 <p><code>compute. organizations. listAssociations</code></p>
 <p><code>compute.packetMirrorings.get</code></p>
 <p><code>compute.packetMirrorings.list</code></p>
@@ -16098,6 +16485,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.urlMaps.validate</code></p>
 <p><code>compute. vmExtensionPolicies. get</code></p>
 <p><code>compute. vmExtensionPolicies. list</code></p>
+<p><code>compute.vmExtensions.*</code></p>
+<ul>
+<li><code>compute.vmExtensions.get</code></li>
+<li><code>compute.vmExtensions.list</code></li>
+</ul>
 <p><code>compute.vpnGateways.get</code></p>
 <p><code>compute.vpnGateways.list</code></p>
 <p><code>compute. vpnGateways. listEffectiveTags</code></p>
@@ -16280,6 +16672,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>container. volumeSnapshotContents. list</code></p>
 <p><code>container.volumeSnapshots.get</code></p>
 <p><code>container.volumeSnapshots.list</code></p>
+<p><code>dataplex.agentTasks.get</code></p>
+<p><code>dataplex.agentTasks.getData</code></p>
+<p><code>dataplex. agentTasks. getIamPolicy</code></p>
+<p><code>dataplex.agentTasks.list</code></p>
 <p><code>dataplex.datascans.get</code></p>
 <p><code>dataplex.datascans.getData</code></p>
 <p><code>dataplex. datascans. getIamPolicy</code></p>
@@ -16570,13 +16966,35 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
 <p><code>serviceusage.values.test</code></p>
+<p><code>spanner.backupOperations.get</code></p>
+<p><code>spanner.backupOperations.list</code></p>
+<p><code>spanner.backupSchedules.get</code></p>
+<p><code>spanner. backupSchedules. getIamPolicy</code></p>
+<p><code>spanner.backupSchedules.list</code></p>
+<p><code>spanner.backups.get</code></p>
+<p><code>spanner.backups.getIamPolicy</code></p>
+<p><code>spanner.backups.list</code></p>
+<p><code>spanner.databaseOperations.get</code></p>
+<p><code>spanner. databaseOperations. list</code></p>
+<p><code>spanner.databaseRoles.list</code></p>
+<p><code>spanner. databases. beginReadOnlyTransaction</code></p>
 <p><code>spanner.databases.get</code></p>
+<p><code>spanner.databases.getDdl</code></p>
+<p><code>spanner.databases.getIamPolicy</code></p>
 <p><code>spanner.databases.list</code></p>
+<p><code>spanner.databases.useDataBoost</code></p>
+<p><code>spanner. instanceConfigOperations. get</code></p>
+<p><code>spanner. instanceConfigOperations. list</code></p>
 <p><code>spanner.instanceConfigs.get</code></p>
 <p><code>spanner.instanceConfigs.list</code></p>
+<p><code>spanner.instanceOperations.get</code></p>
+<p><code>spanner. instanceOperations. list</code></p>
+<p><code>spanner. instancePartitionOperations. get</code></p>
+<p><code>spanner. instancePartitionOperations. list</code></p>
 <p><code>spanner.instancePartitions.get</code></p>
 <p><code>spanner. instancePartitions. list</code></p>
 <p><code>spanner.instances.get</code></p>
+<p><code>spanner.instances.getIamPolicy</code></p>
 <p><code>spanner.instances.list</code></p>
 <p><code>spanner. instances. listEffectiveTags</code></p>
 <p><code>spanner. instances. listTagBindings</code></p>
@@ -16677,6 +17095,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>aiplatform.agentExamples.get</code></p>
 <p><code>aiplatform.agentExamples.list</code></p>
 <p><code>aiplatform.agents.get</code></p>
+<p><code>aiplatform.agents.getIamPolicy</code></p>
 <p><code>aiplatform.agents.list</code></p>
 <p><code>aiplatform. analyzedInvocations.*</code></p>
 <ul>
@@ -17782,6 +18201,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>capacityplanner. capacityPlans. get</code></p>
 <p><code>capacityplanner. capacityPlans. list</code></p>
 <p><code>capacityplanner.forecasts.list</code></p>
+<p><code>capacityplanner. messages. generate</code></p>
 <p><code>capacityplanner.operations.get</code></p>
 <p><code>capacityplanner. planAlertInsights. list</code></p>
 <p><code>capacityplanner. usageAlertInsights. list</code></p>
@@ -19374,6 +19794,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute. folderVmExtensionPolicies. get</code></p>
+<p><code>compute. folderVmExtensionPolicies. list</code></p>
+<p><code>compute.folderVmExtensions.*</code></p>
+<ul>
+<li><code>compute.folderVmExtensions.get</code></li>
+<li><code>compute. folderVmExtensions. list</code></li>
+</ul>
 <p><code>compute.forwardingRules.get</code></p>
 <p><code>compute.forwardingRules.list</code></p>
 <p><code>compute. forwardingRules. listEffectiveTags</code></p>
@@ -19557,6 +19984,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.orgRolloutPlans.list</code></p>
 <p><code>compute.orgRollouts.get</code></p>
 <p><code>compute.orgRollouts.list</code></p>
+<p><code>compute. orgVmExtensionPolicies. get</code></p>
+<p><code>compute. orgVmExtensionPolicies. list</code></p>
+<p><code>compute.orgVmExtensions.*</code></p>
+<ul>
+<li><code>compute.orgVmExtensions.get</code></li>
+<li><code>compute.orgVmExtensions.list</code></li>
+</ul>
 <p><code>compute. organizations. listAssociations</code></p>
 <p><code>compute.packetMirrorings.get</code></p>
 <p><code>compute.packetMirrorings.list</code></p>
@@ -19764,6 +20198,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.urlMaps.validate</code></p>
 <p><code>compute. vmExtensionPolicies. get</code></p>
 <p><code>compute. vmExtensionPolicies. list</code></p>
+<p><code>compute.vmExtensions.*</code></p>
+<ul>
+<li><code>compute.vmExtensions.get</code></li>
+<li><code>compute.vmExtensions.list</code></li>
+</ul>
 <p><code>compute.vpnGateways.get</code></p>
 <p><code>compute.vpnGateways.list</code></p>
 <p><code>compute. vpnGateways. listEffectiveTags</code></p>
@@ -20216,13 +20655,22 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>databasecenter.userLabels.list</code></p>
 <p><code>databasecenter.userTags.list</code></p>
 <p><code>databaseinsights. activeQueries. fetch</code></p>
+<p><code>databaseinsights. activeSessionHistory. query</code></p>
 <p><code>databaseinsights. activitySummary. fetch</code></p>
+<p><code>databaseinsights. agentPolicies. getAgentPolicy</code></p>
 <p><code>databaseinsights. aggregatedEvents. query</code></p>
 <p><code>databaseinsights. aggregatedStats. query</code></p>
 <p><code>databaseinsights. clusterEvents. query</code></p>
 <p><code>databaseinsights. databaseIssues. troubleshoot</code></p>
 <p><code>databaseinsights. dbCenter. query</code></p>
 <p><code>databaseinsights. dbPerformance. query</code></p>
+<p><code>databaseinsights. genUiAgent. getBlueprint</code></p>
+<p><code>databaseinsights. genUiAgent. listBlueprints</code></p>
+<p><code>databaseinsights. genUiAgent. query</code></p>
+<p><code>databaseinsights.goals.getGoal</code></p>
+<p><code>databaseinsights.goals.getTask</code></p>
+<p><code>databaseinsights. goals. listGoals</code></p>
+<p><code>databaseinsights. goals. listTasks</code></p>
 <p><code>databaseinsights. indexRecommendations. query</code></p>
 <p><code>databaseinsights. instanceEvents. query</code></p>
 <p><code>databaseinsights.locations.*</code></p>
@@ -20230,6 +20678,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>databaseinsights.locations.get</code></li>
 <li><code>databaseinsights. locations. list</code></li>
 </ul>
+<p><code>databaseinsights.logs.fetch</code></p>
+<p><code>databaseinsights. operations. get</code></p>
 <p><code>databaseinsights. performanceIssues.*</code></p>
 <ul>
 <li><code>databaseinsights. performanceIssues. detect</code></li>
@@ -20239,9 +20689,20 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>databaseinsights. queryStats. fetch</code></p>
 <p><code>databaseinsights. queryTimeSeries. fetch</code></p>
 <p><code>databaseinsights. recommendations. query</code></p>
+<p><code>databaseinsights. resourceMetadata. fetch</code></p>
 <p><code>databaseinsights. resourceRecommendations. query</code></p>
 <p><code>databaseinsights. systemMetrics. fetch</code></p>
+<p><code>databaseinsights. telemetryConfig. fetch</code></p>
 <p><code>databaseinsights. timeSeries. query</code></p>
+<p><code>databaseinsights.traces.fetch</code></p>
+<p><code>databaseinsights. virtualDbaAgent. fetchContextService</code></p>
+<p><code>databaseinsights. virtualDbaAgent. getAgentPolicy</code></p>
+<p><code>databaseinsights. virtualDbaAgent. getGoal</code></p>
+<p><code>databaseinsights. virtualDbaAgent. getTask</code></p>
+<p><code>databaseinsights. virtualDbaAgent. listGoals</code></p>
+<p><code>databaseinsights. virtualDbaAgent. listTasks</code></p>
+<p><code>databaseinsights. virtualDbaAgent. listTodos</code></p>
+<p><code>databaseinsights. virtualDbaAgent. query</code></p>
 <p><code>databaseinsights. virtualDbxAgent. query</code></p>
 <p><code>databaseinsights. waitEventStats. fetch</code></p>
 <p><code>databaseinsights. waitEventTimeSeries. fetch</code></p>
@@ -20429,6 +20890,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>datapipelines.jobs.list</code></p>
 <p><code>datapipelines.pipelines.get</code></p>
 <p><code>datapipelines.pipelines.list</code></p>
+<p><code>dataplex.agentTasks.get</code></p>
+<p><code>dataplex.agentTasks.getData</code></p>
+<p><code>dataplex. agentTasks. getIamPolicy</code></p>
+<p><code>dataplex.agentTasks.list</code></p>
 <p><code>dataplex.aspectTypes.get</code></p>
 <p><code>dataplex. aspectTypes. getIamPolicy</code></p>
 <p><code>dataplex.aspectTypes.list</code></p>
@@ -22303,8 +22768,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>modelarmor.templates.get</code></p>
 <p><code>modelarmor.templates.list</code></p>
-<p><code>modelarmor.topics.get</code></p>
-<p><code>modelarmor.topics.list</code></p>
 <p><code>monitoring.alertPolicies.get</code></p>
 <p><code>monitoring.alertPolicies.list</code></p>
 <p><code>monitoring. alertPolicies. listEffectiveTags</code></p>
@@ -22672,6 +23135,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>oracledatabase. cloudVmClusters. get</code></p>
 <p><code>oracledatabase. cloudVmClusters. list</code></p>
 <p><code>oracledatabase. databaseCharacterSets. list</code></p>
+<p><code>oracledatabase. databaseConnections. get</code></p>
+<p><code>oracledatabase. databaseConnections. list</code></p>
 <p><code>oracledatabase.databases.*</code></p>
 <ul>
 <li><code>oracledatabase.databases.get</code></li>
@@ -23811,7 +24276,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>storage.managedFolders.get</code></p>
 <p><code>storage. managedFolders. getIamPolicy</code></p>
 <p><code>storage.managedFolders.list</code></p>
-<p><code>storage. multipartUploads. listParts</code></p>
 <p><code>storage.objects.get</code></p>
 <p><code>storage.objects.getIamPolicy</code></p>
 <p><code>storage.objects.list</code></p>

@@ -154,6 +154,7 @@ This page lists the IAM roles and permissions for Network Connectivity Center. T
 <p><code>networkconnectivity. spokes. listEffectiveTags</code></p>
 <p><code>networkconnectivity. spokes. listTagBindings</code></p>
 <p><code>networkconnectivity. spokes. update</code></p>
+<p><code>networkconnectivity.spokes.use</code></p>
 <p><code>networkconnectivity. transports.*</code></p>
 <ul>
 <li><code>networkconnectivity. transports. create</code></li>
@@ -316,6 +317,7 @@ This page lists the IAM roles and permissions for Network Connectivity Center. T
 <li><code>networkconnectivity. spokes. listTagBindings</code></li>
 <li><code>networkconnectivity. spokes. setIamPolicy</code></li>
 <li><code>networkconnectivity. spokes. update</code></li>
+<li><code>networkconnectivity.spokes.use</code></li>
 </ul>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
@@ -552,6 +554,7 @@ This page lists the IAM roles and permissions for Network Connectivity Center. T
 <li><code>networkconnectivity. spokes. listTagBindings</code></li>
 <li><code>networkconnectivity. spokes. setIamPolicy</code></li>
 <li><code>networkconnectivity. spokes. update</code></li>
+<li><code>networkconnectivity.spokes.use</code></li>
 </ul>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
@@ -2647,6 +2650,25 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.spokeAdmin">Spoke Admin</a> ( <code>roles/ networkconnectivity.spokeAdmin</code> )</p></td>
 </tr>
 <tr class="even">
+<td><code>networkconnectivity.spokes.use</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.editor">Network Connectivity Editor</a> ( <code>roles/ networkconnectivity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code>roles/ container.hostServiceAgentUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code>roles/ iam.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.hubAdmin">Hub &amp; Spoke Admin</a> ( <code>roles/ networkconnectivity.hubAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.spokeAdmin">Spoke Admin</a> ( <code>roles/ networkconnectivity.spokeAdmin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code>roles/ container.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><code>networkconnectivity. transports. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -2655,7 +2677,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.editor">Network Connectivity Editor</a> ( <code>roles/ networkconnectivity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.transportAdmin">Transport Admin</a> ( <code>roles/ networkconnectivity.transportAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>networkconnectivity. transports. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -2664,7 +2686,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.editor">Network Connectivity Editor</a> ( <code>roles/ networkconnectivity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.transportAdmin">Transport Admin</a> ( <code>roles/ networkconnectivity.transportAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>networkconnectivity. transports. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -2677,7 +2699,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.transportAdmin">Transport Admin</a> ( <code>roles/ networkconnectivity.transportAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.transportViewer">Transport Viewer</a> ( <code>roles/ networkconnectivity.transportViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>networkconnectivity. transports. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -2693,7 +2715,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.transportAdmin">Transport Admin</a> ( <code>roles/ networkconnectivity.transportAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.transportViewer">Transport Viewer</a> ( <code>roles/ networkconnectivity.transportViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>networkconnectivity. transports. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>

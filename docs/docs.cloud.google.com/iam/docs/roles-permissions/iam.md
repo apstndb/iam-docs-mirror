@@ -408,6 +408,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>agentregistry. skills. setIamPolicy</code></p>
 <p><code>aiplatform. agentAnomalyDetectionScopes. list</code></p>
 <p><code>aiplatform.agentExamples.list</code></p>
+<p><code>aiplatform.agentMemories.list</code></p>
+<p><code>aiplatform.agents.getIamPolicy</code></p>
 <p><code>aiplatform.agents.list</code></p>
 <p><code>aiplatform. analyzedInvocations. list</code></p>
 <p><code>aiplatform. analyzedSessions. list</code></p>
@@ -1203,6 +1205,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>compute.firewallPolicies.list</code></p>
 <p><code>compute. firewallPolicies. setIamPolicy</code></p>
 <p><code>compute.firewalls.list</code></p>
+<p><code>compute. folderVmExtensionPolicies. list</code></p>
+<p><code>compute. folderVmExtensions. list</code></p>
 <p><code>compute.forwardingRules.list</code></p>
 <p><code>compute. futureReservations. getIamPolicy</code></p>
 <p><code>compute. futureReservations. list</code></p>
@@ -1270,6 +1274,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>compute.nodeTypes.list</code></p>
 <p><code>compute.orgRolloutPlans.list</code></p>
 <p><code>compute.orgRollouts.list</code></p>
+<p><code>compute. orgVmExtensionPolicies. list</code></p>
+<p><code>compute.orgVmExtensions.list</code></p>
 <p><code>compute.packetMirrorings.list</code></p>
 <p><code>compute.previewFeatures.list</code></p>
 <p><code>compute. publicAdvertisedPrefixes. list</code></p>
@@ -1350,6 +1356,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>compute.targetVpnGateways.list</code></p>
 <p><code>compute.urlMaps.list</code></p>
 <p><code>compute. vmExtensionPolicies. list</code></p>
+<p><code>compute.vmExtensions.list</code></p>
 <p><code>compute.vpnGateways.list</code></p>
 <p><code>compute.vpnTunnels.list</code></p>
 <p><code>compute.wireGroups.list</code></p>
@@ -1632,6 +1639,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>datamigration. privateconnections. setIamPolicy</code></p>
 <p><code>datapipelines.jobs.list</code></p>
 <p><code>datapipelines.pipelines.list</code></p>
+<p><code>dataplex. agentTasks. getIamPolicy</code></p>
+<p><code>dataplex.agentTasks.list</code></p>
+<p><code>dataplex. agentTasks. setIamPolicy</code></p>
 <p><code>dataplex. aspectTypes. getIamPolicy</code></p>
 <p><code>dataplex.aspectTypes.list</code></p>
 <p><code>dataplex. aspectTypes. setIamPolicy</code></p>
@@ -2435,7 +2445,6 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>ml.versions.list</code></p>
 <p><code>modelarmor.locations.list</code></p>
 <p><code>modelarmor.templates.list</code></p>
-<p><code>modelarmor.topics.list</code></p>
 <p><code>monitoring.alertPolicies.list</code></p>
 <p><code>monitoring.alerts.list</code></p>
 <p><code>monitoring.dashboards.list</code></p>
@@ -2601,6 +2610,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>oracledatabase. cloudExadataInfrastructures. list</code></p>
 <p><code>oracledatabase. cloudVmClusters. list</code></p>
 <p><code>oracledatabase. databaseCharacterSets. list</code></p>
+<p><code>oracledatabase. databaseConnections. list</code></p>
 <p><code>oracledatabase.databases.list</code></p>
 <p><code>oracledatabase.dbNodes.list</code></p>
 <p><code>oracledatabase.dbServers.list</code></p>
@@ -3303,6 +3313,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>agentregistry.skills.list</code></p>
 <p><code>aiplatform. agentAnomalyDetectionScopes. list</code></p>
 <p><code>aiplatform.agentExamples.list</code></p>
+<p><code>aiplatform.agentMemories.list</code></p>
+<p><code>aiplatform.agents.getIamPolicy</code></p>
 <p><code>aiplatform.agents.list</code></p>
 <p><code>aiplatform. analyzedInvocations. list</code></p>
 <p><code>aiplatform. analyzedSessions. list</code></p>
@@ -4023,6 +4035,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>compute. firewallPolicies. getIamPolicy</code></p>
 <p><code>compute.firewallPolicies.list</code></p>
 <p><code>compute.firewalls.list</code></p>
+<p><code>compute. folderVmExtensionPolicies. list</code></p>
+<p><code>compute. folderVmExtensions. list</code></p>
 <p><code>compute.forwardingRules.list</code></p>
 <p><code>compute. futureReservations. getIamPolicy</code></p>
 <p><code>compute. futureReservations. list</code></p>
@@ -4077,6 +4091,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>compute.nodeTypes.list</code></p>
 <p><code>compute.orgRolloutPlans.list</code></p>
 <p><code>compute.orgRollouts.list</code></p>
+<p><code>compute. orgVmExtensionPolicies. list</code></p>
+<p><code>compute.orgVmExtensions.list</code></p>
 <p><code>compute.packetMirrorings.list</code></p>
 <p><code>compute.previewFeatures.list</code></p>
 <p><code>compute. publicAdvertisedPrefixes. list</code></p>
@@ -4144,6 +4160,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>compute.targetVpnGateways.list</code></p>
 <p><code>compute.urlMaps.list</code></p>
 <p><code>compute. vmExtensionPolicies. list</code></p>
+<p><code>compute.vmExtensions.list</code></p>
 <p><code>compute.vpnGateways.list</code></p>
 <p><code>compute.vpnTunnels.list</code></p>
 <p><code>compute.wireGroups.list</code></p>
@@ -4398,6 +4415,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>datamigration. privateconnections. list</code></p>
 <p><code>datapipelines.jobs.list</code></p>
 <p><code>datapipelines.pipelines.list</code></p>
+<p><code>dataplex. agentTasks. getIamPolicy</code></p>
+<p><code>dataplex.agentTasks.list</code></p>
 <p><code>dataplex. aspectTypes. getIamPolicy</code></p>
 <p><code>dataplex.aspectTypes.list</code></p>
 <p><code>dataplex.assetActions.list</code></p>
@@ -5087,7 +5106,6 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>ml.versions.list</code></p>
 <p><code>modelarmor.locations.list</code></p>
 <p><code>modelarmor.templates.list</code></p>
-<p><code>modelarmor.topics.list</code></p>
 <p><code>monitoring.alertPolicies.list</code></p>
 <p><code>monitoring.alerts.list</code></p>
 <p><code>monitoring.dashboards.list</code></p>
@@ -5234,6 +5252,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>oracledatabase. cloudExadataInfrastructures. list</code></p>
 <p><code>oracledatabase. cloudVmClusters. list</code></p>
 <p><code>oracledatabase. databaseCharacterSets. list</code></p>
+<p><code>oracledatabase. databaseConnections. list</code></p>
 <p><code>oracledatabase.databases.list</code></p>
 <p><code>oracledatabase.dbNodes.list</code></p>
 <p><code>oracledatabase.dbServers.list</code></p>
@@ -6793,7 +6812,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.viewer">Iam Viewer</a> ( <code>roles/ iam.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.scimSyncer">SCIM Data Syncer</a> ( <code>roles/ iam.scimSyncer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code>roles/ iam.workforcePoolAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code>roles/ iam.workforcePoolAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>iam.googleapis. com/workforcePoolProviderScimGroups. list</code></td>
@@ -6811,7 +6831,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.scimSyncer">SCIM Data Syncer</a> ( <code>roles/ iam.scimSyncer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code>roles/ iam.workforcePoolAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code>roles/ iam.workforcePoolAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>iam.googleapis. com/workforcePoolProviderScimGroups. patch</code></td>
@@ -6858,7 +6879,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.viewer">Iam Viewer</a> ( <code>roles/ iam.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.scimSyncer">SCIM Data Syncer</a> ( <code>roles/ iam.scimSyncer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code>roles/ iam.workforcePoolAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code>roles/ iam.workforcePoolAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>iam.googleapis. com/workforcePoolProviderScimUsers. list</code></td>
@@ -6876,7 +6898,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.scimSyncer">SCIM Data Syncer</a> ( <code>roles/ iam.scimSyncer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code>roles/ iam.workforcePoolAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code>roles/ iam.workforcePoolAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>iam.googleapis. com/workforcePoolProviderScimUsers. patch</code></td>
@@ -6959,7 +6982,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code>roles/ iam.workforcePoolAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolEditor">IAM Workforce Pool Editor</a> ( <code>roles/ iam.workforcePoolEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolViewer">IAM Workforce Pool Viewer</a> ( <code>roles/ iam.workforcePoolViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolViewer">IAM Workforce Pool Viewer</a> ( <code>roles/ iam.workforcePoolViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>iam.googleapis. com/workforcePoolProviders. undelete</code></td>
@@ -7076,7 +7100,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code>roles/ iam.workforcePoolAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolEditor">IAM Workforce Pool Editor</a> ( <code>roles/ iam.workforcePoolEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolViewer">IAM Workforce Pool Viewer</a> ( <code>roles/ iam.workforcePoolViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolViewer">IAM Workforce Pool Viewer</a> ( <code>roles/ iam.workforcePoolViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>iam.googleapis. com/workforcePools. searchPolicyBindings</code></td>
@@ -7311,7 +7336,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code>roles/ iam.workloadIdentityPoolAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolViewer">IAM Workload Identity Pool Viewer</a> ( <code>roles/ iam.workloadIdentityPoolViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolViewer">IAM Workload Identity Pool Viewer</a> ( <code>roles/ iam.workloadIdentityPoolViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>iam.googleapis. com/workloadIdentityPoolProviderKeys. undelete</code></td>
@@ -7366,6 +7392,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code>roles/ iam.workloadIdentityPoolAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolViewer">IAM Workload Identity Pool Viewer</a> ( <code>roles/ iam.workloadIdentityPoolViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -7468,6 +7495,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code>roles/ iam.workloadIdentityPoolAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolViewer">IAM Workload Identity Pool Viewer</a> ( <code>roles/ iam.workloadIdentityPoolViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -7733,6 +7761,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.organizationRoleViewer">Organization Role Viewer</a> ( <code>roles/ iam.organizationRoleViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -7766,6 +7795,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.organizationRoleViewer">Organization Role Viewer</a> ( <code>roles/ iam.organizationRoleViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -7967,6 +7997,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.viewer">Iam Viewer</a> ( <code>roles/ iam.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -8163,6 +8194,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.serviceAccountDeleter">Delete Service Accounts</a> ( <code>roles/ iam.serviceAccountDeleter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -8252,6 +8284,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -8340,6 +8373,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.serviceAccountDeleter">Delete Service Accounts</a> ( <code>roles/ iam.serviceAccountDeleter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.deploymentAdmin">Workload Manager Deployment Admin</a> ( <code>roles/ workloadmanager.deploymentAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>

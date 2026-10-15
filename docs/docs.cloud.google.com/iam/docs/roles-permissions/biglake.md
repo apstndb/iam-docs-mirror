@@ -80,6 +80,21 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><code>biglake.catalogs.getIamPolicy</code></p>
 <p><code>biglake.catalogs.list</code></p>
 <p><code>biglake.catalogs.update</code></p>
+<p><code>biglake.databases.*</code></p>
+<ul>
+<li><code>biglake.databases.create</code></li>
+<li><code>biglake.databases.delete</code></li>
+<li><code>biglake.databases.get</code></li>
+<li><code>biglake.databases.list</code></li>
+<li><code>biglake.databases.update</code></li>
+</ul>
+<p><code>biglake.locks.*</code></p>
+<ul>
+<li><code>biglake.locks.check</code></li>
+<li><code>biglake.locks.create</code></li>
+<li><code>biglake.locks.delete</code></li>
+<li><code>biglake.locks.list</code></li>
+</ul>
 <p><code>biglake.namespaces.create</code></p>
 <p><code>biglake.namespaces.delete</code></p>
 <p><code>biglake.namespaces.get</code></p>
@@ -95,6 +110,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><code>biglake.tables.getIamPolicy</code></p>
 <p><code>biglake.tables.list</code></p>
 <p><code>biglake.tables.listPartitions</code></p>
+<p><code>biglake.tables.lock</code></p>
 <p><code>biglake.tables.update</code></p>
 <p><code>biglake.tables.updateData</code></p>
 <p><code>biglake. tables. updatePartitions</code></p>
@@ -260,6 +276,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.admin">BigLake Admin</a> ( <code>roles/ biglake.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.editor">BigLake Editor</a> ( <code>roles/ biglake.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -269,6 +286,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.admin">BigLake Admin</a> ( <code>roles/ biglake.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.editor">BigLake Editor</a> ( <code>roles/ biglake.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -280,6 +298,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.admin">BigLake Admin</a> ( <code>roles/ biglake.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.editor">BigLake Editor</a> ( <code>roles/ biglake.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.viewer">BigLake Viewer</a> ( <code>roles/ biglake.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
@@ -293,6 +312,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.admin">BigLake Admin</a> ( <code>roles/ biglake.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.editor">BigLake Editor</a> ( <code>roles/ biglake.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.viewer">BigLake Viewer</a> ( <code>roles/ biglake.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
@@ -307,6 +327,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.admin">BigLake Admin</a> ( <code>roles/ biglake.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.editor">BigLake Editor</a> ( <code>roles/ biglake.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -316,6 +337,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.admin">BigLake Admin</a> ( <code>roles/ biglake.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.editor">BigLake Editor</a> ( <code>roles/ biglake.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -325,6 +347,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.admin">BigLake Admin</a> ( <code>roles/ biglake.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.editor">BigLake Editor</a> ( <code>roles/ biglake.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -334,6 +357,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.admin">BigLake Admin</a> ( <code>roles/ biglake.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.editor">BigLake Editor</a> ( <code>roles/ biglake.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -345,6 +369,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.admin">BigLake Admin</a> ( <code>roles/ biglake.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.editor">BigLake Editor</a> ( <code>roles/ biglake.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.viewer">BigLake Viewer</a> ( <code>roles/ biglake.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
@@ -596,6 +621,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.admin">BigLake Admin</a> ( <code>roles/ biglake.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.editor">BigLake Editor</a> ( <code>roles/ biglake.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p></td>
 </tr>
 <tr class="even">

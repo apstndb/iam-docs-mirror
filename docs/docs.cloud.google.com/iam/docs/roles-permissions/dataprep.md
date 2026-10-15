@@ -229,6 +229,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute. folderVmExtensionPolicies. get</code></p>
+<p><code>compute. folderVmExtensionPolicies. list</code></p>
+<p><code>compute.folderVmExtensions.*</code></p>
+<ul>
+<li><code>compute.folderVmExtensions.get</code></li>
+<li><code>compute. folderVmExtensions. list</code></li>
+</ul>
 <p><code>compute.forwardingRules.get</code></p>
 <p><code>compute.forwardingRules.list</code></p>
 <p><code>compute. forwardingRules. listEffectiveTags</code></p>
@@ -407,6 +414,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>compute.orgRolloutPlans.list</code></p>
 <p><code>compute.orgRollouts.get</code></p>
 <p><code>compute.orgRollouts.list</code></p>
+<p><code>compute. orgVmExtensionPolicies. get</code></p>
+<p><code>compute. orgVmExtensionPolicies. list</code></p>
+<p><code>compute.orgVmExtensions.*</code></p>
+<ul>
+<li><code>compute.orgVmExtensions.get</code></li>
+<li><code>compute.orgVmExtensions.list</code></li>
+</ul>
 <p><code>compute. organizations. listAssociations</code></p>
 <p><code>compute.packetMirrorings.get</code></p>
 <p><code>compute.packetMirrorings.list</code></p>
@@ -612,6 +626,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>compute.urlMaps.validate</code></p>
 <p><code>compute. vmExtensionPolicies. get</code></p>
 <p><code>compute. vmExtensionPolicies. list</code></p>
+<p><code>compute.vmExtensions.*</code></p>
+<ul>
+<li><code>compute.vmExtensions.get</code></li>
+<li><code>compute.vmExtensions.list</code></li>
+</ul>
 <p><code>compute.vpnGateways.get</code></p>
 <p><code>compute.vpnGateways.list</code></p>
 <p><code>compute. vpnGateways. listEffectiveTags</code></p>
@@ -655,6 +674,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>dataform.repositories.create</code></p>
 <p><code>dataform.repositories.list</code></p>
+<p><code>dataplex.agentTasks.create</code></p>
+<p><code>dataplex.agentTasks.delete</code></p>
+<p><code>dataplex.agentTasks.get</code></p>
+<p><code>dataplex.agentTasks.getData</code></p>
+<p><code>dataplex. agentTasks. getIamPolicy</code></p>
+<p><code>dataplex.agentTasks.list</code></p>
+<p><code>dataplex.agentTasks.run</code></p>
+<p><code>dataplex.agentTasks.update</code></p>
 <p><code>dataplex.datascans.cancel</code></p>
 <p><code>dataplex.datascans.create</code></p>
 <p><code>dataplex.datascans.delete</code></p>

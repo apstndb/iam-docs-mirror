@@ -26,7 +26,11 @@ This page lists the IAM roles and permissions for Google Workspace add-ons. To s
 <td>Google Workspace Add-ons Admin
 <p>( <code>roles/ gsuiteaddons.admin</code> )</p>
 <p>Admin role for Google Workspace Add-ons</p></td>
-<td><p><code>chat.bots.get</code></p>
+<td><p><code>chat.*</code></p>
+<ul>
+<li><code>chat.bots.get</code></li>
+<li><code>chat.bots.update</code></li>
+</ul>
 <p><code>gsuiteaddons.*</code></p>
 <ul>
 <li><code>gsuiteaddons. authorizations. get</code></li>

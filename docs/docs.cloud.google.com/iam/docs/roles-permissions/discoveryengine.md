@@ -1222,8 +1222,27 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 </ul>
 <p><code>discoveryengine. widgetConfigs. get</code></p>
 <p><code>geminicloudassist. agents. invoke</code></p>
+<p><code>monitoring.timeSeries.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
-<p><code>resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. contentsecuritypolicy. get</code></p>
+<p><code>serviceusage. effectivemcppolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
+<ul>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
+</ul>
+<p><code>serviceusage.mcppolicy.get</code></p>
+<p><code>serviceusage.operations.get</code></p>
+<p><code>serviceusage.quotas.get</code></p>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.use</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
 <td>Discovery Engine Viewer
@@ -2551,8 +2570,27 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 </ul>
 <p><code>discoveryengine. widgetConfigs. get</code></p>
 <p><code>geminicloudassist. agents. invoke</code></p>
+<p><code>monitoring.timeSeries.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
-<p><code>resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. contentsecuritypolicy. get</code></p>
+<p><code>serviceusage. effectivemcppolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
+<ul>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
+</ul>
+<p><code>serviceusage.mcppolicy.get</code></p>
+<p><code>serviceusage.operations.get</code></p>
+<p><code>serviceusage.quotas.get</code></p>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.use</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
 <td>Gemini Enterprise Viewer
@@ -2987,8 +3025,27 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 </ul>
 <p><code>discoveryengine. widgetConfigs. get</code></p>
 <p><code>geminicloudassist. agents. invoke</code></p>
+<p><code>monitoring.timeSeries.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
-<p><code>resourcemanager.projects.list</code></p></td>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. consumerpolicy. analyze</code></p>
+<p><code>serviceusage. consumerpolicy. get</code></p>
+<p><code>serviceusage. contentsecuritypolicy. get</code></p>
+<p><code>serviceusage. effectivemcppolicy. get</code></p>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
+<ul>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
+</ul>
+<p><code>serviceusage.mcppolicy.get</code></p>
+<p><code>serviceusage.operations.get</code></p>
+<p><code>serviceusage.quotas.get</code></p>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.use</code></p>
+<p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -3126,6 +3183,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>integrations.testCases.invoke</code></p>
 <p><code>integrations.testCases.list</code></p>
 <p><code>logging.logEntries.create</code></p>
+<p><code>modelarmor.templates.create</code></p>
+<p><code>modelarmor.templates.delete</code></p>
+<p><code>modelarmor.templates.get</code></p>
+<p><code>modelarmor.templates.list</code></p>
+<p><code>modelarmor.templates.update</code></p>
 <p><code>modelarmor. templates. useToSanitizeModelResponse</code></p>
 <p><code>modelarmor. templates. useToSanitizeUserPrompt</code></p>
 <p><code>monitoring. metricDescriptors. create</code></p>

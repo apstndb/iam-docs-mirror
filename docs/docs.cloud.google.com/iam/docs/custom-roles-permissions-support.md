@@ -4913,6 +4913,7 @@ Enter the desired permission name or support level in the text box below:
 | `compute.instances.listVmExtensionStates`                                      | `SUPPORTED`                |
 | `compute.instances.osAdminLogin`                                               | `SUPPORTED`                |
 | `compute.instances.osLogin`                                                    | `SUPPORTED`                |
+| `compute.instances.performMaintenance`                                         | `SUPPORTED`                |
 | `compute.instances.pscInterfaceCreate`                                         | `SUPPORTED`                |
 | `compute.instances.removeResourcePolicies`                                     | `SUPPORTED`                |
 | `compute.instances.reset`                                                      | `SUPPORTED`                |
@@ -7132,6 +7133,8 @@ Enter the desired permission name or support level in the text box below:
 | `dataplex.entryGroups.useDatabaseDataPolicyAspect`                             | `SUPPORTED`                |
 | `dataplex.entryGroups.useDefinitionEntryLink`                                  | `SUPPORTED`                |
 | `dataplex.entryGroups.useDescriptionsAspect`                                   | `SUPPORTED`                |
+| `dataplex.entryGroups.useDocumentAspect`                                       | `SUPPORTED`                |
+| `dataplex.entryGroups.useDocumentEntry`                                        | `SUPPORTED`                |
 | `dataplex.entryGroups.useGenericAspect`                                        | `SUPPORTED`                |
 | `dataplex.entryGroups.useGenericEntry`                                         | `SUPPORTED`                |
 | `dataplex.entryGroups.useGraphProfileAspect`                                   | `SUPPORTED`                |
@@ -7141,6 +7144,7 @@ Enter the desired permission name or support level in the text box below:
 | `dataplex.entryGroups.useOverviewAspect`                                       | `SUPPORTED`                |
 | `dataplex.entryGroups.usePostgreSQLConnectorTypes`                             | `SUPPORTED`                |
 | `dataplex.entryGroups.useQueriesAspect`                                        | `SUPPORTED`                |
+| `dataplex.entryGroups.useReferenceEntryLink`                                   | `SUPPORTED`                |
 | `dataplex.entryGroups.useRefreshCadenceAspect`                                 | `SUPPORTED`                |
 | `dataplex.entryGroups.useRelatedEntryLink`                                     | `SUPPORTED`                |
 | `dataplex.entryGroups.useSQLAccessAspect`                                      | `SUPPORTED`                |
@@ -8016,6 +8020,13 @@ Enter the desired permission name or support level in the text box below:
 | `discoveryengine.identityMappingStores.list`                                   | `SUPPORTED`                |
 | `discoveryengine.identityMappingStores.listIdentityMappings`                   | `SUPPORTED`                |
 | `discoveryengine.identityMappingStores.purgeIdentityMappings`                  | `SUPPORTED`                |
+| `discoveryengine.immersiveArtifacts.create`                                    | `SUPPORTED`                |
+| `discoveryengine.immersiveArtifacts.delete`                                    | `SUPPORTED`                |
+| `discoveryengine.immersiveArtifacts.export`                                    | `SUPPORTED`                |
+| `discoveryengine.immersiveArtifacts.get`                                       | `SUPPORTED`                |
+| `discoveryengine.immersiveArtifacts.list`                                      | `SUPPORTED`                |
+| `discoveryengine.immersiveArtifacts.navigate`                                  | `SUPPORTED`                |
+| `discoveryengine.immersiveArtifacts.update`                                    | `SUPPORTED`                |
 | `discoveryengine.licenseConfigs.create`                                        | `SUPPORTED`                |
 | `discoveryengine.licenseConfigs.get`                                           | `SUPPORTED`                |
 | `discoveryengine.licenseConfigs.list`                                          | `SUPPORTED`                |
@@ -8160,6 +8171,12 @@ Enter the desired permission name or support level in the text box below:
 | `dlp.connections.list`                                                         | `SUPPORTED`                |
 | `dlp.connections.search`                                                       | `SUPPORTED`                |
 | `dlp.connections.update`                                                       | `SUPPORTED`                |
+| `dlp.contentPolicies.apply`                                                    | `SUPPORTED`                |
+| `dlp.contentPolicies.create`                                                   | `SUPPORTED`                |
+| `dlp.contentPolicies.delete`                                                   | `SUPPORTED`                |
+| `dlp.contentPolicies.get`                                                      | `SUPPORTED`                |
+| `dlp.contentPolicies.list`                                                     | `SUPPORTED`                |
+| `dlp.contentPolicies.update`                                                   | `SUPPORTED`                |
 | `dlp.deidentifyTemplates.create`                                               | `SUPPORTED`                |
 | `dlp.deidentifyTemplates.delete`                                               | `SUPPORTED`                |
 | `dlp.deidentifyTemplates.get`                                                  | `SUPPORTED`                |
@@ -14094,6 +14111,8 @@ Enter the desired permission name or support level in the text box below:
 | `workloadmanager.operations.list`                                              | `SUPPORTED`                |
 | `workloadmanager.results.list`                                                 | `SUPPORTED`                |
 | `workloadmanager.rules.list`                                                   | `SUPPORTED`                |
+| `workloadmanager.workloads.get`                                                | `SUPPORTED`                |
+| `workloadmanager.workloads.list`                                               | `SUPPORTED`                |
 | `workspacemarketplace.appConfiguration.update`                                 | `SUPPORTED`                |
 | `workspacemarketplace.appConfiguration.view`                                   | `SUPPORTED`                |
 | `workstations.operations.get`                                                  | `SUPPORTED`                |

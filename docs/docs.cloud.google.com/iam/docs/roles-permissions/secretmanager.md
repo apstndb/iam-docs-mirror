@@ -281,7 +281,8 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.editor">Secret Manager Editor</a> ( <code>roles/ secretmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.viewer">Secret Manager Viewer</a> ( <code>roles/ secretmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>secretmanager.secrets.list</code></td>
@@ -298,6 +299,7 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.viewer">Secret Manager Viewer</a> ( <code>roles/ secretmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -447,7 +449,8 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.viewer">Secret Manager Viewer</a> ( <code>roles/ secretmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.secretVersionManager">Secret Manager Secret Version Manager</a> ( <code>roles/ secretmanager.secretVersionManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.secretVersionManager">Secret Manager Secret Version Manager</a> ( <code>roles/ secretmanager.secretVersionManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 </tbody>
 </table>

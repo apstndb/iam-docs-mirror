@@ -807,6 +807,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>securitycentermanagement. securityCenterServices. get</code></p>
 <p><code>securitycentermanagement. securityCenterServices. list</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. checkActivationOperation</code></p>
+<p><code>securitycentermanagement. securityCommandCenter. checkEligibility</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. checkOnboardingStatus</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. get</code></p>
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. get</code></p>

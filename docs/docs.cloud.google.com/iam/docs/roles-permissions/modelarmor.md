@@ -26,7 +26,8 @@ This page lists the IAM roles and permissions for Model Armor. To search through
 <td>Model Armor Admin
 <p>( <code>roles/ modelarmor.admin</code> )</p>
 <p>Grants full access to all modelarmor resources. Intended for administrators &amp; owners.</p></td>
-<td><p><code>modelarmor.locations.*</code></p>
+<td><p><code>modelarmor.callouts.invoke</code></p>
+<p><code>modelarmor.locations.*</code></p>
 <ul>
 <li><code>modelarmor.locations.get</code></li>
 <li><code>modelarmor.locations.list</code></li>
@@ -44,15 +45,6 @@ This page lists the IAM roles and permissions for Model Armor. To search through
 <li><code>modelarmor. templates. useToSanitizeUserPrompt</code></li>
 <li><code>modelarmor. templates. useToStreamSanitizeModelResponse</code></li>
 <li><code>modelarmor. templates. useToStreamSanitizeUserPrompt</code></li>
-</ul>
-<p><code>modelarmor.topics.*</code></p>
-<ul>
-<li><code>modelarmor.topics.create</code></li>
-<li><code>modelarmor.topics.delete</code></li>
-<li><code>modelarmor.topics.get</code></li>
-<li><code>modelarmor.topics.list</code></li>
-<li><code>modelarmor.topics.test</code></li>
-<li><code>modelarmor.topics.update</code></li>
 </ul>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
@@ -83,15 +75,6 @@ This page lists the IAM roles and permissions for Model Armor. To search through
 <li><code>modelarmor. templates. useToStreamSanitizeModelResponse</code></li>
 <li><code>modelarmor. templates. useToStreamSanitizeUserPrompt</code></li>
 </ul>
-<p><code>modelarmor.topics.*</code></p>
-<ul>
-<li><code>modelarmor.topics.create</code></li>
-<li><code>modelarmor.topics.delete</code></li>
-<li><code>modelarmor.topics.get</code></li>
-<li><code>modelarmor.topics.list</code></li>
-<li><code>modelarmor.topics.test</code></li>
-<li><code>modelarmor.topics.update</code></li>
-</ul>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>
@@ -106,8 +89,6 @@ This page lists the IAM roles and permissions for Model Armor. To search through
 </ul>
 <p><code>modelarmor.templates.get</code></p>
 <p><code>modelarmor.templates.list</code></p>
-<p><code>modelarmor.topics.get</code></p>
-<p><code>modelarmor.topics.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>
@@ -164,8 +145,9 @@ This page lists the IAM roles and permissions for Model Armor. To search through
 <tr class="odd">
 <td>Model Armor User
 <p>( <code>roles/ modelarmor.user</code> )</p>
-<p>Grants access to sanitize APIs for templates and to use and test topics. Intended for users &amp; applications which plan to use a template or topic for sanitization.</p></td>
-<td><p><code>modelarmor.locations.*</code></p>
+<p>Grants access to sanitize APIs for templates, to use and test topics, and to use Model Armor Callout service. Intended for users &amp; applications which plan to use a template, topic, or callout service for sanitization.</p></td>
+<td><p><code>modelarmor.callouts.invoke</code></p>
+<p><code>modelarmor.locations.*</code></p>
 <ul>
 <li><code>modelarmor.locations.get</code></li>
 <li><code>modelarmor.locations.list</code></li>
@@ -176,7 +158,6 @@ This page lists the IAM roles and permissions for Model Armor. To search through
 <p><code>modelarmor. templates. useToSanitizeUserPrompt</code></p>
 <p><code>modelarmor. templates. useToStreamSanitizeModelResponse</code></p>
 <p><code>modelarmor. templates. useToStreamSanitizeUserPrompt</code></p>
-<p><code>modelarmor.topics.test</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>
@@ -250,8 +231,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.admin">Model Armor Admin</a> ( <code>roles/ modelarmor.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.editor">Model Armor Editor</a> ( <code>roles/ modelarmor.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.calloutUser">Model Armor Callout User</a> ( <code>roles/ modelarmor.calloutUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.user">Model Armor User</a> ( <code>roles/ modelarmor.user</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -355,7 +339,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.admin">Model Armor Admin</a> ( <code>roles/ modelarmor.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.editor">Model Armor Editor</a> ( <code>roles/ modelarmor.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><code>modelarmor.templates.delete</code></td>
@@ -365,7 +356,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.admin">Model Armor Admin</a> ( <code>roles/ modelarmor.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.editor">Model Armor Editor</a> ( <code>roles/ modelarmor.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><code>modelarmor.templates.get</code></td>
@@ -379,7 +377,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.editor">Model Armor Editor</a> ( <code>roles/ modelarmor.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.viewer">Model Armor Viewer</a> ( <code>roles/ modelarmor.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><code>modelarmor.templates.list</code></td>
@@ -396,7 +401,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.viewer">Model Armor Viewer</a> ( <code>roles/ modelarmor.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><code>modelarmor.templates.update</code></td>
@@ -406,7 +418,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.admin">Model Armor Admin</a> ( <code>roles/ modelarmor.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.editor">Model Armor Editor</a> ( <code>roles/ modelarmor.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><code>modelarmor. templates. useToSanitizeInput</code></td>
@@ -503,78 +522,6 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.editor">Model Armor Editor</a> ( <code>roles/ modelarmor.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.user">Model Armor User</a> ( <code>roles/ modelarmor.user</code> )</p></td>
-</tr>
-<tr class="even">
-<td><code>modelarmor.topics.create</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.admin">Model Armor Admin</a> ( <code>roles/ modelarmor.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.editor">Model Armor Editor</a> ( <code>roles/ modelarmor.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><code>modelarmor.topics.delete</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.admin">Model Armor Admin</a> ( <code>roles/ modelarmor.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.editor">Model Armor Editor</a> ( <code>roles/ modelarmor.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p></td>
-</tr>
-<tr class="even">
-<td><code>modelarmor.topics.get</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.admin">Model Armor Admin</a> ( <code>roles/ modelarmor.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.editor">Model Armor Editor</a> ( <code>roles/ modelarmor.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.viewer">Model Armor Viewer</a> ( <code>roles/ modelarmor.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><code>modelarmor.topics.list</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.admin">Model Armor Admin</a> ( <code>roles/ modelarmor.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.editor">Model Armor Editor</a> ( <code>roles/ modelarmor.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.viewer">Model Armor Viewer</a> ( <code>roles/ modelarmor.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
-</tr>
-<tr class="even">
-<td><code>modelarmor.topics.test</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.admin">Model Armor Admin</a> ( <code>roles/ modelarmor.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.editor">Model Armor Editor</a> ( <code>roles/ modelarmor.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.user">Model Armor User</a> ( <code>roles/ modelarmor.user</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><code>modelarmor.topics.update</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.admin">Model Armor Admin</a> ( <code>roles/ modelarmor.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.editor">Model Armor Editor</a> ( <code>roles/ modelarmor.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p></td>
 </tr>
 </tbody>
 </table>

@@ -184,6 +184,7 @@ This page lists the IAM roles and permissions for Security Center Management API
 <p><code>securitycentermanagement. securityCenterServices. get</code></p>
 <p><code>securitycentermanagement. securityCenterServices. list</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. checkActivationOperation</code></p>
+<p><code>securitycentermanagement. securityCommandCenter. checkEligibility</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. checkOnboardingStatus</code></p>
 <p><code>securitycentermanagement. securityCommandCenter. get</code></p>
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. get</code></p>
@@ -1170,11 +1171,23 @@ This page lists the IAM roles and permissions for Security Center Management API
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code>roles/ securitycenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycentermanagement#securitycentermanagement.admin">Security Center Management Admin</a> ( <code>roles/ securitycentermanagement.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycentermanagement#securitycentermanagement.editor">Security Center Management Editor</a> ( <code>roles/ securitycentermanagement.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycentermanagement#securitycentermanagement.viewer">Security Center Management Viewer</a> ( <code>roles/ securitycentermanagement.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/recommender#recommender.iamAdmin">IAM Recommender Admin</a> ( <code>roles/ recommender.iamAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code>roles/ securitycenter.adminEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code>roles/ securitycenter.adminViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.settingsAdmin">Security Center Settings Admin</a> ( <code>roles/ securitycenter.settingsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.settingsEditor">Security Center Settings Editor</a> ( <code>roles/ securitycenter.settingsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycentermanagement#securitycentermanagement.settingsEditor">Security Center Management Settings Editor</a> ( <code>roles/ securitycentermanagement.settingsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.settingsViewer">Security Center Settings Viewer</a> ( <code>roles/ securitycenter.settingsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycentermanagement#securitycentermanagement.settingsEditor">Security Center Management Settings Editor</a> ( <code>roles/ securitycentermanagement.settingsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.serviceAgent">Risk Manager Service Agent</a> ( <code>roles/ riskmanager.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><code>securitycentermanagement. securityCommandCenter. checkOnboardingStatus</code></td>

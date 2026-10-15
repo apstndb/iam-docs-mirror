@@ -48,6 +48,28 @@ This page lists the IAM roles and permissions for Assured Workloads. To search t
 </ul>
 <p><code>axt.labels.set</code></p>
 <p><code>bigquery.config.update</code></p>
+<p><code>cloudsecuritycompliance. cloudControlPredictions.*</code></p>
+<ul>
+<li><code>cloudsecuritycompliance. cloudControlPredictions. create</code></li>
+<li><code>cloudsecuritycompliance. cloudControlPredictions. get</code></li>
+<li><code>cloudsecuritycompliance. cloudControlPredictions. list</code></li>
+</ul>
+<p><code>cloudsecuritycompliance. cloudControls.*</code></p>
+<ul>
+<li><code>cloudsecuritycompliance. cloudControls. create</code></li>
+<li><code>cloudsecuritycompliance. cloudControls. delete</code></li>
+<li><code>cloudsecuritycompliance. cloudControls. get</code></li>
+<li><code>cloudsecuritycompliance. cloudControls. list</code></li>
+<li><code>cloudsecuritycompliance. cloudControls. update</code></li>
+</ul>
+<p><code>cloudsecuritycompliance. frameworks.*</code></p>
+<ul>
+<li><code>cloudsecuritycompliance. frameworks. create</code></li>
+<li><code>cloudsecuritycompliance. frameworks. delete</code></li>
+<li><code>cloudsecuritycompliance. frameworks. get</code></li>
+<li><code>cloudsecuritycompliance. frameworks. list</code></li>
+<li><code>cloudsecuritycompliance. frameworks. update</code></li>
+</ul>
 <p><code>logging.settings.update</code></p>
 <p><code>orgpolicy.policies.*</code></p>
 <ul>
@@ -95,6 +117,28 @@ This page lists the IAM roles and permissions for Assured Workloads. To search t
 </ul>
 <p><code>axt.labels.set</code></p>
 <p><code>bigquery.config.update</code></p>
+<p><code>cloudsecuritycompliance. cloudControlPredictions.*</code></p>
+<ul>
+<li><code>cloudsecuritycompliance. cloudControlPredictions. create</code></li>
+<li><code>cloudsecuritycompliance. cloudControlPredictions. get</code></li>
+<li><code>cloudsecuritycompliance. cloudControlPredictions. list</code></li>
+</ul>
+<p><code>cloudsecuritycompliance. cloudControls.*</code></p>
+<ul>
+<li><code>cloudsecuritycompliance. cloudControls. create</code></li>
+<li><code>cloudsecuritycompliance. cloudControls. delete</code></li>
+<li><code>cloudsecuritycompliance. cloudControls. get</code></li>
+<li><code>cloudsecuritycompliance. cloudControls. list</code></li>
+<li><code>cloudsecuritycompliance. cloudControls. update</code></li>
+</ul>
+<p><code>cloudsecuritycompliance. frameworks.*</code></p>
+<ul>
+<li><code>cloudsecuritycompliance. frameworks. create</code></li>
+<li><code>cloudsecuritycompliance. frameworks. delete</code></li>
+<li><code>cloudsecuritycompliance. frameworks. get</code></li>
+<li><code>cloudsecuritycompliance. frameworks. list</code></li>
+<li><code>cloudsecuritycompliance. frameworks. update</code></li>
+</ul>
 <p><code>logging.settings.update</code></p>
 <p><code>orgpolicy.policies.*</code></p>
 <ul>
@@ -138,6 +182,12 @@ This page lists the IAM roles and permissions for Assured Workloads. To search t
 <p><code>assuredworkloads. violations. list</code></p>
 <p><code>assuredworkloads.workload.get</code></p>
 <p><code>assuredworkloads.workload.list</code></p>
+<p><code>cloudsecuritycompliance. cloudControlPredictions. get</code></p>
+<p><code>cloudsecuritycompliance. cloudControlPredictions. list</code></p>
+<p><code>cloudsecuritycompliance. cloudControls. get</code></p>
+<p><code>cloudsecuritycompliance. cloudControls. list</code></p>
+<p><code>cloudsecuritycompliance. frameworks. get</code></p>
+<p><code>cloudsecuritycompliance. frameworks. list</code></p>
 <p><code>orgpolicy.policies.list</code></p>
 <p><code>orgpolicy.policy.get</code></p>
 <p><code>resourcemanager.folders.get</code></p>
@@ -168,6 +218,12 @@ This page lists the IAM roles and permissions for Assured Workloads. To search t
 <p><code>assuredworkloads. violations. list</code></p>
 <p><code>assuredworkloads.workload.get</code></p>
 <p><code>assuredworkloads.workload.list</code></p>
+<p><code>cloudsecuritycompliance. cloudControlPredictions. get</code></p>
+<p><code>cloudsecuritycompliance. cloudControlPredictions. list</code></p>
+<p><code>cloudsecuritycompliance. cloudControls. get</code></p>
+<p><code>cloudsecuritycompliance. cloudControls. list</code></p>
+<p><code>cloudsecuritycompliance. frameworks. get</code></p>
+<p><code>cloudsecuritycompliance. frameworks. list</code></p>
 <p><code>orgpolicy.policies.list</code></p>
 <p><code>orgpolicy.policy.get</code></p>
 <p><code>resourcemanager.folders.get</code></p>

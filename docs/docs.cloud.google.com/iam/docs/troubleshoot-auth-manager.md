@@ -22,7 +22,7 @@ To resolve this issue, find the generated redirect URI by viewing the auth provi
 
 ```
 gcloud alpha agent-identity authProviders describe AUTH_PROVIDER_NAME \
-    --location=&quot;LOCATION"
+    --location="LOCATION"
 ```
 
 ## Missing user role

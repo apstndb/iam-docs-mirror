@@ -191,6 +191,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <li><code>dataplex. entryGroups. useSecondaryIndexesAspect</code></li>
 <li><code>dataplex. entryGroups. useStorageAspect</code></li>
 <li><code>dataplex. entryGroups. useSynonymEntryLink</code></li>
+<li><code>dataplex. entryGroups. useUsageAspect</code></li>
 </ul>
 <p><code>dataplex.entryLinkTypes.*</code></p>
 <ul>
@@ -604,6 +605,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <li><code>dataplex. entryGroups. useSecondaryIndexesAspect</code></li>
 <li><code>dataplex. entryGroups. useStorageAspect</code></li>
 <li><code>dataplex. entryGroups. useSynonymEntryLink</code></li>
+<li><code>dataplex. entryGroups. useUsageAspect</code></li>
 </ul>
 <p><code>dataplex.entryLinkTypes.get</code></p>
 <p><code>dataplex.entryLinkTypes.list</code></p>
@@ -704,6 +706,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code>dataplex. entryGroups. useSecondaryIndexesAspect</code></p>
 <p><code>dataplex. entryGroups. useStorageAspect</code></p>
 <p><code>dataplex. entryGroups. useSynonymEntryLink</code></p>
+<p><code>dataplex. entryGroups. useUsageAspect</code></p>
 <p><code>dataplex.entryLinkTypes.get</code></p>
 <p><code>dataplex.entryLinkTypes.list</code></p>
 <p><code>dataplex.entryLinkTypes.use</code></p>

@@ -26,61 +26,97 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <td>Agent Platform Administrator
 <p>( <code>roles/ aiplatform.admin</code> )</p>
 <p>Grants full access to all resources in Agent Platform.</p></td>
-<td><p><code>aiplatform.*</code></p>
+<td><p><code>aiplatform. agentAnomalyDetectionScopes.*</code></p>
 <ul>
 <li><code>aiplatform. agentAnomalyDetectionScopes. create</code></li>
 <li><code>aiplatform. agentAnomalyDetectionScopes. delete</code></li>
 <li><code>aiplatform. agentAnomalyDetectionScopes. get</code></li>
 <li><code>aiplatform. agentAnomalyDetectionScopes. list</code></li>
+</ul>
+<p><code>aiplatform.agentExamples.*</code></p>
+<ul>
 <li><code>aiplatform. agentExamples. create</code></li>
 <li><code>aiplatform. agentExamples. delete</code></li>
 <li><code>aiplatform.agentExamples.get</code></li>
 <li><code>aiplatform.agentExamples.list</code></li>
 <li><code>aiplatform. agentExamples. update</code></li>
-<li><code>aiplatform.agents.create</code></li>
-<li><code>aiplatform.agents.delete</code></li>
-<li><code>aiplatform.agents.get</code></li>
-<li><code>aiplatform.agents.list</code></li>
-<li><code>aiplatform.agents.update</code></li>
+</ul>
+<p><code>aiplatform.agents.create</code></p>
+<p><code>aiplatform.agents.delete</code></p>
+<p><code>aiplatform.agents.get</code></p>
+<p><code>aiplatform.agents.list</code></p>
+<p><code>aiplatform.agents.update</code></p>
+<p><code>aiplatform. analyzedInvocations.*</code></p>
+<ul>
 <li><code>aiplatform. analyzedInvocations. get</code></li>
 <li><code>aiplatform. analyzedInvocations. list</code></li>
+</ul>
+<p><code>aiplatform.analyzedSessions.*</code></p>
+<ul>
 <li><code>aiplatform. analyzedSessions. aggregate</code></li>
 <li><code>aiplatform. analyzedSessions. get</code></li>
 <li><code>aiplatform. analyzedSessions. list</code></li>
+</ul>
+<p><code>aiplatform.annotationSpecs.*</code></p>
+<ul>
 <li><code>aiplatform. annotationSpecs. create</code></li>
 <li><code>aiplatform. annotationSpecs. delete</code></li>
 <li><code>aiplatform.annotationSpecs.get</code></li>
 <li><code>aiplatform. annotationSpecs. list</code></li>
 <li><code>aiplatform. annotationSpecs. update</code></li>
+</ul>
+<p><code>aiplatform.annotations.*</code></p>
+<ul>
 <li><code>aiplatform.annotations.create</code></li>
 <li><code>aiplatform.annotations.delete</code></li>
 <li><code>aiplatform.annotations.get</code></li>
 <li><code>aiplatform.annotations.list</code></li>
 <li><code>aiplatform.annotations.update</code></li>
+</ul>
+<p><code>aiplatform.apps.*</code></p>
+<ul>
 <li><code>aiplatform.apps.create</code></li>
 <li><code>aiplatform.apps.delete</code></li>
 <li><code>aiplatform.apps.get</code></li>
 <li><code>aiplatform.apps.list</code></li>
 <li><code>aiplatform.apps.update</code></li>
+</ul>
+<p><code>aiplatform.artifacts.*</code></p>
+<ul>
 <li><code>aiplatform.artifacts.create</code></li>
 <li><code>aiplatform.artifacts.delete</code></li>
 <li><code>aiplatform.artifacts.get</code></li>
 <li><code>aiplatform.artifacts.list</code></li>
 <li><code>aiplatform.artifacts.update</code></li>
+</ul>
+<p><code>aiplatform. batchPredictionJobs.*</code></p>
+<ul>
 <li><code>aiplatform. batchPredictionJobs. cancel</code></li>
 <li><code>aiplatform. batchPredictionJobs. create</code></li>
 <li><code>aiplatform. batchPredictionJobs. delete</code></li>
 <li><code>aiplatform. batchPredictionJobs. get</code></li>
 <li><code>aiplatform. batchPredictionJobs. list</code></li>
+</ul>
+<p><code>aiplatform.cacheConfigs.*</code></p>
+<ul>
 <li><code>aiplatform.cacheConfigs.get</code></li>
 <li><code>aiplatform.cacheConfigs.update</code></li>
+</ul>
+<p><code>aiplatform.cachedContents.*</code></p>
+<ul>
 <li><code>aiplatform. cachedContents. create</code></li>
 <li><code>aiplatform. cachedContents. delete</code></li>
 <li><code>aiplatform.cachedContents.get</code></li>
 <li><code>aiplatform.cachedContents.list</code></li>
 <li><code>aiplatform. cachedContents. update</code></li>
+</ul>
+<p><code>aiplatform.consents.*</code></p>
+<ul>
 <li><code>aiplatform.consents.get</code></li>
 <li><code>aiplatform.consents.update</code></li>
+</ul>
+<p><code>aiplatform.contexts.*</code></p>
+<ul>
 <li><code>aiplatform. contexts. addContextArtifactsAndExecutions</code></li>
 <li><code>aiplatform. contexts. addContextChildren</code></li>
 <li><code>aiplatform.contexts.create</code></li>
@@ -89,26 +125,41 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform.contexts.list</code></li>
 <li><code>aiplatform. contexts. queryContextLineageSubgraph</code></li>
 <li><code>aiplatform.contexts.update</code></li>
+</ul>
+<p><code>aiplatform.customJobs.*</code></p>
+<ul>
 <li><code>aiplatform.customJobs.cancel</code></li>
 <li><code>aiplatform.customJobs.create</code></li>
 <li><code>aiplatform.customJobs.delete</code></li>
 <li><code>aiplatform.customJobs.get</code></li>
 <li><code>aiplatform.customJobs.list</code></li>
+</ul>
+<p><code>aiplatform.dataItems.*</code></p>
+<ul>
 <li><code>aiplatform.dataItems.create</code></li>
 <li><code>aiplatform.dataItems.delete</code></li>
 <li><code>aiplatform.dataItems.get</code></li>
 <li><code>aiplatform.dataItems.list</code></li>
 <li><code>aiplatform.dataItems.update</code></li>
+</ul>
+<p><code>aiplatform.dataLabelingJobs.*</code></p>
+<ul>
 <li><code>aiplatform. dataLabelingJobs. cancel</code></li>
 <li><code>aiplatform. dataLabelingJobs. create</code></li>
 <li><code>aiplatform. dataLabelingJobs. delete</code></li>
 <li><code>aiplatform. dataLabelingJobs. get</code></li>
 <li><code>aiplatform. dataLabelingJobs. list</code></li>
+</ul>
+<p><code>aiplatform.datasetVersions.*</code></p>
+<ul>
 <li><code>aiplatform. datasetVersions. create</code></li>
 <li><code>aiplatform. datasetVersions. delete</code></li>
 <li><code>aiplatform.datasetVersions.get</code></li>
 <li><code>aiplatform. datasetVersions. list</code></li>
 <li><code>aiplatform. datasetVersions. restore</code></li>
+</ul>
+<p><code>aiplatform.datasets.*</code></p>
+<ul>
 <li><code>aiplatform.datasets.create</code></li>
 <li><code>aiplatform.datasets.delete</code></li>
 <li><code>aiplatform.datasets.export</code></li>
@@ -116,22 +167,34 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform.datasets.import</code></li>
 <li><code>aiplatform.datasets.list</code></li>
 <li><code>aiplatform.datasets.update</code></li>
+</ul>
+<p><code>aiplatform. deploymentResourcePools.*</code></p>
+<ul>
 <li><code>aiplatform. deploymentResourcePools. create</code></li>
 <li><code>aiplatform. deploymentResourcePools. delete</code></li>
 <li><code>aiplatform. deploymentResourcePools. get</code></li>
 <li><code>aiplatform. deploymentResourcePools. list</code></li>
 <li><code>aiplatform. deploymentResourcePools. queryDeployedModels</code></li>
 <li><code>aiplatform. deploymentResourcePools. update</code></li>
+</ul>
+<p><code>aiplatform. edgeDeploymentJobs.*</code></p>
+<ul>
 <li><code>aiplatform. edgeDeploymentJobs. create</code></li>
 <li><code>aiplatform. edgeDeploymentJobs. delete</code></li>
 <li><code>aiplatform. edgeDeploymentJobs. get</code></li>
 <li><code>aiplatform. edgeDeploymentJobs. list</code></li>
-<li><code>aiplatform. edgeDeviceDebugInfo. get</code></li>
+</ul>
+<p><code>aiplatform. edgeDeviceDebugInfo. get</code></p>
+<p><code>aiplatform.edgeDevices.*</code></p>
+<ul>
 <li><code>aiplatform.edgeDevices.create</code></li>
 <li><code>aiplatform.edgeDevices.delete</code></li>
 <li><code>aiplatform.edgeDevices.get</code></li>
 <li><code>aiplatform.edgeDevices.list</code></li>
 <li><code>aiplatform.edgeDevices.update</code></li>
+</ul>
+<p><code>aiplatform.endpoints.*</code></p>
+<ul>
 <li><code>aiplatform.endpoints.create</code></li>
 <li><code>aiplatform.endpoints.delete</code></li>
 <li><code>aiplatform.endpoints.deploy</code></li>
@@ -143,6 +206,9 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. endpoints. setIamPolicy</code></li>
 <li><code>aiplatform.endpoints.undeploy</code></li>
 <li><code>aiplatform.endpoints.update</code></li>
+</ul>
+<p><code>aiplatform.entityTypes.*</code></p>
+<ul>
 <li><code>aiplatform.entityTypes.create</code></li>
 <li><code>aiplatform.entityTypes.delete</code></li>
 <li><code>aiplatform. entityTypes. deleteFeatureValues</code></li>
@@ -156,20 +222,32 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. entityTypes. streamingReadFeatureValues</code></li>
 <li><code>aiplatform.entityTypes.update</code></li>
 <li><code>aiplatform. entityTypes. writeFeatureValues</code></li>
+</ul>
+<p><code>aiplatform. evaluationExperiments.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationExperiments. create</code></li>
 <li><code>aiplatform. evaluationExperiments. delete</code></li>
 <li><code>aiplatform. evaluationExperiments. get</code></li>
 <li><code>aiplatform. evaluationExperiments. list</code></li>
 <li><code>aiplatform. evaluationExperiments. update</code></li>
+</ul>
+<p><code>aiplatform.evaluationItems.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationItems. create</code></li>
 <li><code>aiplatform. evaluationItems. delete</code></li>
 <li><code>aiplatform.evaluationItems.get</code></li>
 <li><code>aiplatform. evaluationItems. list</code></li>
 <li><code>aiplatform. evaluationItems. update</code></li>
+</ul>
+<p><code>aiplatform.evaluationMetrics.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationMetrics. create</code></li>
 <li><code>aiplatform. evaluationMetrics. delete</code></li>
 <li><code>aiplatform. evaluationMetrics. get</code></li>
 <li><code>aiplatform. evaluationMetrics. list</code></li>
+</ul>
+<p><code>aiplatform.evaluationRuns.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationRuns. cancel</code></li>
 <li><code>aiplatform. evaluationRuns. create</code></li>
 <li><code>aiplatform. evaluationRuns. delete</code></li>
@@ -177,12 +255,18 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform.evaluationRuns.get</code></li>
 <li><code>aiplatform.evaluationRuns.list</code></li>
 <li><code>aiplatform. evaluationRuns. update</code></li>
+</ul>
+<p><code>aiplatform.evaluationSets.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationSets. create</code></li>
 <li><code>aiplatform. evaluationSets. delete</code></li>
 <li><code>aiplatform.evaluationSets.get</code></li>
 <li><code>aiplatform. evaluationSets. import</code></li>
 <li><code>aiplatform.evaluationSets.list</code></li>
 <li><code>aiplatform. evaluationSets. update</code></li>
+</ul>
+<p><code>aiplatform.exampleStores.*</code></p>
+<ul>
 <li><code>aiplatform. exampleStores. create</code></li>
 <li><code>aiplatform. exampleStores. delete</code></li>
 <li><code>aiplatform.exampleStores.get</code></li>
@@ -190,6 +274,9 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. exampleStores. readExample</code></li>
 <li><code>aiplatform. exampleStores. update</code></li>
 <li><code>aiplatform. exampleStores. writeExample</code></li>
+</ul>
+<p><code>aiplatform.executions.*</code></p>
+<ul>
 <li><code>aiplatform. executions. addExecutionEvents</code></li>
 <li><code>aiplatform.executions.create</code></li>
 <li><code>aiplatform.executions.delete</code></li>
@@ -197,12 +284,18 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform.executions.list</code></li>
 <li><code>aiplatform. executions. queryExecutionInputsAndOutputs</code></li>
 <li><code>aiplatform.executions.update</code></li>
+</ul>
+<p><code>aiplatform.extensions.*</code></p>
+<ul>
 <li><code>aiplatform.extensions.delete</code></li>
 <li><code>aiplatform.extensions.execute</code></li>
 <li><code>aiplatform.extensions.get</code></li>
 <li><code>aiplatform.extensions.import</code></li>
 <li><code>aiplatform.extensions.list</code></li>
 <li><code>aiplatform.extensions.update</code></li>
+</ul>
+<p><code>aiplatform.featureGroups.*</code></p>
+<ul>
 <li><code>aiplatform. featureGroups. create</code></li>
 <li><code>aiplatform. featureGroups. delete</code></li>
 <li><code>aiplatform.featureGroups.get</code></li>
@@ -210,14 +303,23 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform.featureGroups.list</code></li>
 <li><code>aiplatform. featureGroups. setIamPolicy</code></li>
 <li><code>aiplatform. featureGroups. update</code></li>
+</ul>
+<p><code>aiplatform. featureMonitorJobs.*</code></p>
+<ul>
 <li><code>aiplatform. featureMonitorJobs. create</code></li>
 <li><code>aiplatform. featureMonitorJobs. get</code></li>
 <li><code>aiplatform. featureMonitorJobs. list</code></li>
+</ul>
+<p><code>aiplatform.featureMonitors.*</code></p>
+<ul>
 <li><code>aiplatform. featureMonitors. create</code></li>
 <li><code>aiplatform. featureMonitors. delete</code></li>
 <li><code>aiplatform.featureMonitors.get</code></li>
 <li><code>aiplatform. featureMonitors. list</code></li>
 <li><code>aiplatform. featureMonitors. update</code></li>
+</ul>
+<p><code>aiplatform. featureOnlineStores.*</code></p>
+<ul>
 <li><code>aiplatform. featureOnlineStores. create</code></li>
 <li><code>aiplatform. featureOnlineStores. delete</code></li>
 <li><code>aiplatform. featureOnlineStores. get</code></li>
@@ -225,8 +327,14 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. featureOnlineStores. list</code></li>
 <li><code>aiplatform. featureOnlineStores. setIamPolicy</code></li>
 <li><code>aiplatform. featureOnlineStores. update</code></li>
+</ul>
+<p><code>aiplatform.featureViewSyncs.*</code></p>
+<ul>
 <li><code>aiplatform. featureViewSyncs. get</code></li>
 <li><code>aiplatform. featureViewSyncs. list</code></li>
+</ul>
+<p><code>aiplatform.featureViews.*</code></p>
+<ul>
 <li><code>aiplatform.featureViews.create</code></li>
 <li><code>aiplatform.featureViews.delete</code></li>
 <li><code>aiplatform. featureViews. directWrite</code></li>
@@ -238,11 +346,17 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. featureViews. setIamPolicy</code></li>
 <li><code>aiplatform.featureViews.sync</code></li>
 <li><code>aiplatform.featureViews.update</code></li>
+</ul>
+<p><code>aiplatform.features.*</code></p>
+<ul>
 <li><code>aiplatform.features.create</code></li>
 <li><code>aiplatform.features.delete</code></li>
 <li><code>aiplatform.features.get</code></li>
 <li><code>aiplatform.features.list</code></li>
 <li><code>aiplatform.features.update</code></li>
+</ul>
+<p><code>aiplatform.featurestores.*</code></p>
+<ul>
 <li><code>aiplatform. featurestores. batchReadFeatureValues</code></li>
 <li><code>aiplatform. featurestores. create</code></li>
 <li><code>aiplatform. featurestores. delete</code></li>
@@ -255,6 +369,9 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. featurestores. setIamPolicy</code></li>
 <li><code>aiplatform. featurestores. update</code></li>
 <li><code>aiplatform. featurestores. writeFeatures</code></li>
+</ul>
+<p><code>aiplatform.humanInTheLoops.*</code></p>
+<ul>
 <li><code>aiplatform. humanInTheLoops. cancel</code></li>
 <li><code>aiplatform. humanInTheLoops. create</code></li>
 <li><code>aiplatform. humanInTheLoops. delete</code></li>
@@ -263,11 +380,17 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. humanInTheLoops. queryAnnotationStats</code></li>
 <li><code>aiplatform. humanInTheLoops. send</code></li>
 <li><code>aiplatform. humanInTheLoops. update</code></li>
+</ul>
+<p><code>aiplatform. hyperparameterTuningJobs.*</code></p>
+<ul>
 <li><code>aiplatform. hyperparameterTuningJobs. cancel</code></li>
 <li><code>aiplatform. hyperparameterTuningJobs. create</code></li>
 <li><code>aiplatform. hyperparameterTuningJobs. delete</code></li>
 <li><code>aiplatform. hyperparameterTuningJobs. get</code></li>
 <li><code>aiplatform. hyperparameterTuningJobs. list</code></li>
+</ul>
+<p><code>aiplatform.indexEndpoints.*</code></p>
+<ul>
 <li><code>aiplatform. indexEndpoints. create</code></li>
 <li><code>aiplatform. indexEndpoints. delete</code></li>
 <li><code>aiplatform. indexEndpoints. deploy</code></li>
@@ -276,19 +399,31 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. indexEndpoints. queryVectors</code></li>
 <li><code>aiplatform. indexEndpoints. undeploy</code></li>
 <li><code>aiplatform. indexEndpoints. update</code></li>
+</ul>
+<p><code>aiplatform.indexes.*</code></p>
+<ul>
 <li><code>aiplatform.indexes.create</code></li>
 <li><code>aiplatform.indexes.delete</code></li>
 <li><code>aiplatform.indexes.get</code></li>
 <li><code>aiplatform.indexes.list</code></li>
 <li><code>aiplatform.indexes.update</code></li>
+</ul>
+<p><code>aiplatform.interactions.*</code></p>
+<ul>
 <li><code>aiplatform.interactions.cancel</code></li>
 <li><code>aiplatform.interactions.create</code></li>
 <li><code>aiplatform.interactions.delete</code></li>
 <li><code>aiplatform.interactions.get</code></li>
 <li><code>aiplatform.interactions.list</code></li>
+</ul>
+<p><code>aiplatform.locations.*</code></p>
+<ul>
 <li><code>aiplatform. locations. evaluateInstances</code></li>
 <li><code>aiplatform.locations.get</code></li>
 <li><code>aiplatform.locations.list</code></li>
+</ul>
+<p><code>aiplatform.memories.*</code></p>
+<ul>
 <li><code>aiplatform.memories.create</code></li>
 <li><code>aiplatform.memories.delete</code></li>
 <li><code>aiplatform.memories.generate</code></li>
@@ -296,19 +431,34 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform.memories.list</code></li>
 <li><code>aiplatform.memories.retrieve</code></li>
 <li><code>aiplatform.memories.update</code></li>
+</ul>
+<p><code>aiplatform.memoryRevisions.*</code></p>
+<ul>
 <li><code>aiplatform.memoryRevisions.get</code></li>
 <li><code>aiplatform. memoryRevisions. list</code></li>
 <li><code>aiplatform. memoryRevisions. rollback</code></li>
+</ul>
+<p><code>aiplatform.metadataSchemas.*</code></p>
+<ul>
 <li><code>aiplatform. metadataSchemas. create</code></li>
 <li><code>aiplatform. metadataSchemas. delete</code></li>
 <li><code>aiplatform.metadataSchemas.get</code></li>
 <li><code>aiplatform. metadataSchemas. list</code></li>
+</ul>
+<p><code>aiplatform.metadataStores.*</code></p>
+<ul>
 <li><code>aiplatform. metadataStores. create</code></li>
 <li><code>aiplatform. metadataStores. delete</code></li>
 <li><code>aiplatform.metadataStores.get</code></li>
 <li><code>aiplatform.metadataStores.list</code></li>
+</ul>
+<p><code>aiplatform. migratableResources.*</code></p>
+<ul>
 <li><code>aiplatform. migratableResources. migrate</code></li>
 <li><code>aiplatform. migratableResources. search</code></li>
+</ul>
+<p><code>aiplatform. modelDeploymentMonitoringJobs.*</code></p>
+<ul>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. create</code></li>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. delete</code></li>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. get</code></li>
@@ -317,17 +467,29 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. modelDeploymentMonitoringJobs. resume</code></li>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. searchStatsAnomalies</code></li>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. update</code></li>
+</ul>
+<p><code>aiplatform. modelEvaluationSlices.*</code></p>
+<ul>
 <li><code>aiplatform. modelEvaluationSlices. get</code></li>
 <li><code>aiplatform. modelEvaluationSlices. import</code></li>
 <li><code>aiplatform. modelEvaluationSlices. list</code></li>
+</ul>
+<p><code>aiplatform.modelEvaluations.*</code></p>
+<ul>
 <li><code>aiplatform. modelEvaluations. exportEvaluatedDataItems</code></li>
 <li><code>aiplatform. modelEvaluations. get</code></li>
 <li><code>aiplatform. modelEvaluations. import</code></li>
 <li><code>aiplatform. modelEvaluations. list</code></li>
+</ul>
+<p><code>aiplatform. modelMonitoringJobs.*</code></p>
+<ul>
 <li><code>aiplatform. modelMonitoringJobs. create</code></li>
 <li><code>aiplatform. modelMonitoringJobs. delete</code></li>
 <li><code>aiplatform. modelMonitoringJobs. get</code></li>
 <li><code>aiplatform. modelMonitoringJobs. list</code></li>
+</ul>
+<p><code>aiplatform.modelMonitors.*</code></p>
+<ul>
 <li><code>aiplatform. modelMonitors. create</code></li>
 <li><code>aiplatform. modelMonitors. delete</code></li>
 <li><code>aiplatform.modelMonitors.get</code></li>
@@ -335,28 +497,46 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. modelMonitors. searchModelMonitoringAlerts</code></li>
 <li><code>aiplatform. modelMonitors. searchModelMonitoringStats</code></li>
 <li><code>aiplatform. modelMonitors. update</code></li>
+</ul>
+<p><code>aiplatform.models.*</code></p>
+<ul>
 <li><code>aiplatform.models.delete</code></li>
 <li><code>aiplatform.models.export</code></li>
 <li><code>aiplatform.models.get</code></li>
 <li><code>aiplatform.models.list</code></li>
 <li><code>aiplatform.models.update</code></li>
 <li><code>aiplatform.models.upload</code></li>
+</ul>
+<p><code>aiplatform.monitoredAgents.*</code></p>
+<ul>
 <li><code>aiplatform. monitoredAgents. clearTrainingData</code></li>
 <li><code>aiplatform. monitoredAgents. disable</code></li>
 <li><code>aiplatform. monitoredAgents. enable</code></li>
 <li><code>aiplatform.monitoredAgents.get</code></li>
 <li><code>aiplatform. monitoredAgents. list</code></li>
+</ul>
+<p><code>aiplatform.nasJobs.*</code></p>
+<ul>
 <li><code>aiplatform.nasJobs.cancel</code></li>
 <li><code>aiplatform.nasJobs.create</code></li>
 <li><code>aiplatform.nasJobs.delete</code></li>
 <li><code>aiplatform.nasJobs.get</code></li>
 <li><code>aiplatform.nasJobs.list</code></li>
+</ul>
+<p><code>aiplatform.nasTrialDetails.*</code></p>
+<ul>
 <li><code>aiplatform.nasTrialDetails.get</code></li>
 <li><code>aiplatform. nasTrialDetails. list</code></li>
+</ul>
+<p><code>aiplatform. notebookExecutionJobs.*</code></p>
+<ul>
 <li><code>aiplatform. notebookExecutionJobs. create</code></li>
 <li><code>aiplatform. notebookExecutionJobs. delete</code></li>
 <li><code>aiplatform. notebookExecutionJobs. get</code></li>
 <li><code>aiplatform. notebookExecutionJobs. list</code></li>
+</ul>
+<p><code>aiplatform. notebookRuntimeTemplates.*</code></p>
+<ul>
 <li><code>aiplatform. notebookRuntimeTemplates. apply</code></li>
 <li><code>aiplatform. notebookRuntimeTemplates. create</code></li>
 <li><code>aiplatform. notebookRuntimeTemplates. delete</code></li>
@@ -366,6 +546,9 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. notebookRuntimeTemplates. setDefault</code></li>
 <li><code>aiplatform. notebookRuntimeTemplates. setIamPolicy</code></li>
 <li><code>aiplatform. notebookRuntimeTemplates. update</code></li>
+</ul>
+<p><code>aiplatform.notebookRuntimes.*</code></p>
+<ul>
 <li><code>aiplatform. notebookRuntimes. assign</code></li>
 <li><code>aiplatform. notebookRuntimes. delete</code></li>
 <li><code>aiplatform. notebookRuntimes. get</code></li>
@@ -373,23 +556,38 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. notebookRuntimes. start</code></li>
 <li><code>aiplatform. notebookRuntimes. update</code></li>
 <li><code>aiplatform. notebookRuntimes. upgrade</code></li>
+</ul>
+<p><code>aiplatform.onlineEvaluators.*</code></p>
+<ul>
 <li><code>aiplatform. onlineEvaluators. create</code></li>
 <li><code>aiplatform. onlineEvaluators. delete</code></li>
 <li><code>aiplatform. onlineEvaluators. get</code></li>
 <li><code>aiplatform. onlineEvaluators. list</code></li>
 <li><code>aiplatform. onlineEvaluators. update</code></li>
-<li><code>aiplatform.operations.list</code></li>
+</ul>
+<p><code>aiplatform.operations.list</code></p>
+<p><code>aiplatform. persistentResources.*</code></p>
+<ul>
 <li><code>aiplatform. persistentResources. create</code></li>
 <li><code>aiplatform. persistentResources. delete</code></li>
 <li><code>aiplatform. persistentResources. get</code></li>
 <li><code>aiplatform. persistentResources. list</code></li>
+</ul>
+<p><code>aiplatform.pipelineJobs.*</code></p>
+<ul>
 <li><code>aiplatform.pipelineJobs.cancel</code></li>
 <li><code>aiplatform.pipelineJobs.create</code></li>
 <li><code>aiplatform.pipelineJobs.delete</code></li>
 <li><code>aiplatform.pipelineJobs.get</code></li>
 <li><code>aiplatform.pipelineJobs.list</code></li>
+</ul>
+<p><code>aiplatform. provisionedThroughputRevisions.*</code></p>
+<ul>
 <li><code>aiplatform. provisionedThroughputRevisions. get</code></li>
 <li><code>aiplatform. provisionedThroughputRevisions. list</code></li>
+</ul>
+<p><code>aiplatform. provisionedThroughputs.*</code></p>
+<ul>
 <li><code>aiplatform. provisionedThroughputs. cancel</code></li>
 <li><code>aiplatform. provisionedThroughputs. changeScope</code></li>
 <li><code>aiplatform. provisionedThroughputs. create</code></li>
@@ -397,23 +595,38 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. provisionedThroughputs. list</code></li>
 <li><code>aiplatform. provisionedThroughputs. split</code></li>
 <li><code>aiplatform. provisionedThroughputs. update</code></li>
+</ul>
+<p><code>aiplatform.ragCorpora.*</code></p>
+<ul>
 <li><code>aiplatform.ragCorpora.create</code></li>
 <li><code>aiplatform.ragCorpora.delete</code></li>
 <li><code>aiplatform.ragCorpora.get</code></li>
 <li><code>aiplatform.ragCorpora.list</code></li>
 <li><code>aiplatform.ragCorpora.query</code></li>
 <li><code>aiplatform.ragCorpora.update</code></li>
+</ul>
+<p><code>aiplatform.ragEngineConfigs.*</code></p>
+<ul>
 <li><code>aiplatform. ragEngineConfigs. get</code></li>
 <li><code>aiplatform. ragEngineConfigs. update</code></li>
+</ul>
+<p><code>aiplatform.ragFiles.*</code></p>
+<ul>
 <li><code>aiplatform.ragFiles.delete</code></li>
 <li><code>aiplatform.ragFiles.get</code></li>
 <li><code>aiplatform.ragFiles.import</code></li>
 <li><code>aiplatform.ragFiles.list</code></li>
 <li><code>aiplatform.ragFiles.upload</code></li>
+</ul>
+<p><code>aiplatform. reasoningEngineRuntimeRevisions.*</code></p>
+<ul>
 <li><code>aiplatform. reasoningEngineRuntimeRevisions. delete</code></li>
 <li><code>aiplatform. reasoningEngineRuntimeRevisions. get</code></li>
 <li><code>aiplatform. reasoningEngineRuntimeRevisions. list</code></li>
 <li><code>aiplatform. reasoningEngineRuntimeRevisions. query</code></li>
+</ul>
+<p><code>aiplatform.reasoningEngines.*</code></p>
+<ul>
 <li><code>aiplatform. reasoningEngines. create</code></li>
 <li><code>aiplatform. reasoningEngines. delete</code></li>
 <li><code>aiplatform. reasoningEngines. get</code></li>
@@ -422,53 +635,86 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. reasoningEngines. query</code></li>
 <li><code>aiplatform. reasoningEngines. setIamPolicy</code></li>
 <li><code>aiplatform. reasoningEngines. update</code></li>
+</ul>
+<p><code>aiplatform. sandboxEnvironments.*</code></p>
+<ul>
 <li><code>aiplatform. sandboxEnvironments. create</code></li>
 <li><code>aiplatform. sandboxEnvironments. delete</code></li>
 <li><code>aiplatform. sandboxEnvironments. execute</code></li>
 <li><code>aiplatform. sandboxEnvironments. get</code></li>
 <li><code>aiplatform. sandboxEnvironments. list</code></li>
+</ul>
+<p><code>aiplatform.schedules.*</code></p>
+<ul>
 <li><code>aiplatform.schedules.create</code></li>
 <li><code>aiplatform.schedules.delete</code></li>
 <li><code>aiplatform.schedules.get</code></li>
 <li><code>aiplatform.schedules.list</code></li>
 <li><code>aiplatform.schedules.update</code></li>
+</ul>
+<p><code>aiplatform. semanticGovernancePolicies.*</code></p>
+<ul>
 <li><code>aiplatform. semanticGovernancePolicies. create</code></li>
 <li><code>aiplatform. semanticGovernancePolicies. delete</code></li>
 <li><code>aiplatform. semanticGovernancePolicies. get</code></li>
 <li><code>aiplatform. semanticGovernancePolicies. list</code></li>
 <li><code>aiplatform. semanticGovernancePolicies. update</code></li>
+</ul>
+<p><code>aiplatform. semanticGovernancePolicyEngine.*</code></p>
+<ul>
 <li><code>aiplatform. semanticGovernancePolicyEngine. get</code></li>
 <li><code>aiplatform. semanticGovernancePolicyEngine. update</code></li>
+</ul>
+<p><code>aiplatform.sessionEvents.*</code></p>
+<ul>
 <li><code>aiplatform. sessionEvents. append</code></li>
 <li><code>aiplatform.sessionEvents.list</code></li>
+</ul>
+<p><code>aiplatform.sessions.*</code></p>
+<ul>
 <li><code>aiplatform.sessions.create</code></li>
 <li><code>aiplatform.sessions.delete</code></li>
 <li><code>aiplatform.sessions.get</code></li>
 <li><code>aiplatform.sessions.list</code></li>
 <li><code>aiplatform.sessions.run</code></li>
 <li><code>aiplatform.sessions.update</code></li>
+</ul>
+<p><code>aiplatform.specialistPools.*</code></p>
+<ul>
 <li><code>aiplatform. specialistPools. create</code></li>
 <li><code>aiplatform. specialistPools. delete</code></li>
 <li><code>aiplatform.specialistPools.get</code></li>
 <li><code>aiplatform. specialistPools. list</code></li>
 <li><code>aiplatform. specialistPools. update</code></li>
+</ul>
+<p><code>aiplatform.studies.*</code></p>
+<ul>
 <li><code>aiplatform.studies.create</code></li>
 <li><code>aiplatform.studies.delete</code></li>
 <li><code>aiplatform.studies.get</code></li>
 <li><code>aiplatform.studies.list</code></li>
 <li><code>aiplatform.studies.update</code></li>
+</ul>
+<p><code>aiplatform.tasks.*</code></p>
+<ul>
 <li><code>aiplatform.tasks.cancel</code></li>
 <li><code>aiplatform.tasks.create</code></li>
 <li><code>aiplatform.tasks.delete</code></li>
 <li><code>aiplatform.tasks.get</code></li>
 <li><code>aiplatform.tasks.list</code></li>
 <li><code>aiplatform.tasks.update</code></li>
+</ul>
+<p><code>aiplatform. tensorboardExperiments.*</code></p>
+<ul>
 <li><code>aiplatform. tensorboardExperiments. create</code></li>
 <li><code>aiplatform. tensorboardExperiments. delete</code></li>
 <li><code>aiplatform. tensorboardExperiments. get</code></li>
 <li><code>aiplatform. tensorboardExperiments. list</code></li>
 <li><code>aiplatform. tensorboardExperiments. update</code></li>
 <li><code>aiplatform. tensorboardExperiments. write</code></li>
+</ul>
+<p><code>aiplatform.tensorboardRuns.*</code></p>
+<ul>
 <li><code>aiplatform. tensorboardRuns. batchCreate</code></li>
 <li><code>aiplatform. tensorboardRuns. create</code></li>
 <li><code>aiplatform. tensorboardRuns. delete</code></li>
@@ -476,6 +722,9 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. tensorboardRuns. list</code></li>
 <li><code>aiplatform. tensorboardRuns. update</code></li>
 <li><code>aiplatform. tensorboardRuns. write</code></li>
+</ul>
+<p><code>aiplatform. tensorboardTimeSeries.*</code></p>
+<ul>
 <li><code>aiplatform. tensorboardTimeSeries. batchCreate</code></li>
 <li><code>aiplatform. tensorboardTimeSeries. batchRead</code></li>
 <li><code>aiplatform. tensorboardTimeSeries. create</code></li>
@@ -484,22 +733,34 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. tensorboardTimeSeries. list</code></li>
 <li><code>aiplatform. tensorboardTimeSeries. read</code></li>
 <li><code>aiplatform. tensorboardTimeSeries. update</code></li>
+</ul>
+<p><code>aiplatform.tensorboards.*</code></p>
+<ul>
 <li><code>aiplatform.tensorboards.create</code></li>
 <li><code>aiplatform.tensorboards.delete</code></li>
 <li><code>aiplatform.tensorboards.get</code></li>
 <li><code>aiplatform.tensorboards.list</code></li>
 <li><code>aiplatform. tensorboards. recordAccess</code></li>
 <li><code>aiplatform.tensorboards.update</code></li>
+</ul>
+<p><code>aiplatform.trainingPipelines.*</code></p>
+<ul>
 <li><code>aiplatform. trainingPipelines. cancel</code></li>
 <li><code>aiplatform. trainingPipelines. create</code></li>
 <li><code>aiplatform. trainingPipelines. delete</code></li>
 <li><code>aiplatform. trainingPipelines. get</code></li>
 <li><code>aiplatform. trainingPipelines. list</code></li>
+</ul>
+<p><code>aiplatform.trials.*</code></p>
+<ul>
 <li><code>aiplatform.trials.create</code></li>
 <li><code>aiplatform.trials.delete</code></li>
 <li><code>aiplatform.trials.get</code></li>
 <li><code>aiplatform.trials.list</code></li>
 <li><code>aiplatform.trials.update</code></li>
+</ul>
+<p><code>aiplatform.tuningJobs.*</code></p>
+<ul>
 <li><code>aiplatform.tuningJobs.cancel</code></li>
 <li><code>aiplatform.tuningJobs.create</code></li>
 <li><code>aiplatform.tuningJobs.delete</code></li>
@@ -531,14 +792,12 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform.agentExamples.list</code></li>
 <li><code>aiplatform. agentExamples. update</code></li>
 </ul>
-<p><code>aiplatform.agents.*</code></p>
-<ul>
-<li><code>aiplatform.agents.create</code></li>
-<li><code>aiplatform.agents.delete</code></li>
-<li><code>aiplatform.agents.get</code></li>
-<li><code>aiplatform.agents.list</code></li>
-<li><code>aiplatform.agents.update</code></li>
-</ul>
+<p><code>aiplatform.agents.create</code></p>
+<p><code>aiplatform.agents.delete</code></p>
+<p><code>aiplatform.agents.get</code></p>
+<p><code>aiplatform.agents.getIamPolicy</code></p>
+<p><code>aiplatform.agents.list</code></p>
+<p><code>aiplatform.agents.update</code></p>
 <p><code>aiplatform. analyzedInvocations.*</code></p>
 <ul>
 <li><code>aiplatform. analyzedInvocations. get</code></li>
@@ -1304,14 +1563,11 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform.agentExamples.list</code></li>
 <li><code>aiplatform. agentExamples. update</code></li>
 </ul>
-<p><code>aiplatform.agents.*</code></p>
-<ul>
-<li><code>aiplatform.agents.create</code></li>
-<li><code>aiplatform.agents.delete</code></li>
-<li><code>aiplatform.agents.get</code></li>
-<li><code>aiplatform.agents.list</code></li>
-<li><code>aiplatform.agents.update</code></li>
-</ul>
+<p><code>aiplatform.agents.create</code></p>
+<p><code>aiplatform.agents.delete</code></p>
+<p><code>aiplatform.agents.get</code></p>
+<p><code>aiplatform.agents.list</code></p>
+<p><code>aiplatform.agents.update</code></p>
 <p><code>aiplatform. analyzedInvocations.*</code></p>
 <ul>
 <li><code>aiplatform. analyzedInvocations. get</code></li>
@@ -1456,6 +1712,7 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform.endpoints.deploy</code></p>
 <p><code>aiplatform.endpoints.explain</code></p>
 <p><code>aiplatform.endpoints.get</code></p>
+<p><code>aiplatform. endpoints. getIamPolicy</code></p>
 <p><code>aiplatform.endpoints.list</code></p>
 <p><code>aiplatform.endpoints.predict</code></p>
 <p><code>aiplatform.endpoints.undeploy</code></p>
@@ -1465,6 +1722,7 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform. entityTypes. deleteFeatureValues</code></p>
 <p><code>aiplatform. entityTypes. exportFeatureValues</code></p>
 <p><code>aiplatform.entityTypes.get</code></p>
+<p><code>aiplatform. entityTypes. getIamPolicy</code></p>
 <p><code>aiplatform. entityTypes. importFeatureValues</code></p>
 <p><code>aiplatform.entityTypes.list</code></p>
 <p><code>aiplatform. entityTypes. readFeatureValues</code></p>
@@ -1545,6 +1803,7 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform. featureGroups. create</code></p>
 <p><code>aiplatform. featureGroups. delete</code></p>
 <p><code>aiplatform.featureGroups.get</code></p>
+<p><code>aiplatform. featureGroups. getIamPolicy</code></p>
 <p><code>aiplatform.featureGroups.list</code></p>
 <p><code>aiplatform. featureGroups. update</code></p>
 <p><code>aiplatform. featureMonitorJobs.*</code></p>
@@ -1564,6 +1823,7 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform. featureOnlineStores. create</code></p>
 <p><code>aiplatform. featureOnlineStores. delete</code></p>
 <p><code>aiplatform. featureOnlineStores. get</code></p>
+<p><code>aiplatform. featureOnlineStores. getIamPolicy</code></p>
 <p><code>aiplatform. featureOnlineStores. list</code></p>
 <p><code>aiplatform. featureOnlineStores. update</code></p>
 <p><code>aiplatform.featureViewSyncs.*</code></p>
@@ -1576,6 +1836,7 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform. featureViews. directWrite</code></p>
 <p><code>aiplatform. featureViews. fetchFeatureValues</code></p>
 <p><code>aiplatform.featureViews.get</code></p>
+<p><code>aiplatform. featureViews. getIamPolicy</code></p>
 <p><code>aiplatform.featureViews.list</code></p>
 <p><code>aiplatform. featureViews. searchNearestEntities</code></p>
 <p><code>aiplatform.featureViews.sync</code></p>
@@ -1593,6 +1854,7 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform. featurestores. delete</code></p>
 <p><code>aiplatform. featurestores. exportFeatures</code></p>
 <p><code>aiplatform.featurestores.get</code></p>
+<p><code>aiplatform. featurestores. getIamPolicy</code></p>
 <p><code>aiplatform. featurestores. importFeatures</code></p>
 <p><code>aiplatform.featurestores.list</code></p>
 <p><code>aiplatform. featurestores. readFeatures</code></p>
@@ -1680,6 +1942,7 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform.metadataStores.get</code></li>
 <li><code>aiplatform.metadataStores.list</code></li>
 </ul>
+<p><code>aiplatform. migratableResources. search</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs.*</code></p>
 <ul>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. create</code></li>
@@ -1758,6 +2021,7 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform. notebookRuntimeTemplates. create</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. delete</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. get</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. getIamPolicy</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. list</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. update</code></p>
 <p><code>aiplatform.notebookRuntimes.*</code></p>
@@ -2016,10 +2280,15 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform. edgeDeviceDebugInfo. get</code></p>
 <p><code>aiplatform.edgeDevices.get</code></p>
 <p><code>aiplatform.edgeDevices.list</code></p>
+<p><code>aiplatform.endpoints.explain</code></p>
 <p><code>aiplatform.endpoints.get</code></p>
+<p><code>aiplatform. endpoints. getIamPolicy</code></p>
 <p><code>aiplatform.endpoints.list</code></p>
 <p><code>aiplatform.entityTypes.get</code></p>
+<p><code>aiplatform. entityTypes. getIamPolicy</code></p>
 <p><code>aiplatform.entityTypes.list</code></p>
+<p><code>aiplatform. entityTypes. readFeatureValues</code></p>
+<p><code>aiplatform. entityTypes. streamingReadFeatureValues</code></p>
 <p><code>aiplatform. evaluationExperiments. get</code></p>
 <p><code>aiplatform. evaluationExperiments. list</code></p>
 <p><code>aiplatform.evaluationItems.get</code></p>
@@ -2039,12 +2308,14 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform.extensions.get</code></p>
 <p><code>aiplatform.extensions.list</code></p>
 <p><code>aiplatform.featureGroups.get</code></p>
+<p><code>aiplatform. featureGroups. getIamPolicy</code></p>
 <p><code>aiplatform.featureGroups.list</code></p>
 <p><code>aiplatform. featureMonitorJobs. get</code></p>
 <p><code>aiplatform. featureMonitorJobs. list</code></p>
 <p><code>aiplatform.featureMonitors.get</code></p>
 <p><code>aiplatform. featureMonitors. list</code></p>
 <p><code>aiplatform. featureOnlineStores. get</code></p>
+<p><code>aiplatform. featureOnlineStores. getIamPolicy</code></p>
 <p><code>aiplatform. featureOnlineStores. list</code></p>
 <p><code>aiplatform.featureViewSyncs.*</code></p>
 <ul>
@@ -2053,14 +2324,18 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 </ul>
 <p><code>aiplatform. featureViews. fetchFeatureValues</code></p>
 <p><code>aiplatform.featureViews.get</code></p>
+<p><code>aiplatform. featureViews. getIamPolicy</code></p>
 <p><code>aiplatform.featureViews.list</code></p>
 <p><code>aiplatform. featureViews. searchNearestEntities</code></p>
 <p><code>aiplatform.features.get</code></p>
 <p><code>aiplatform.features.list</code></p>
 <p><code>aiplatform.featurestores.get</code></p>
+<p><code>aiplatform. featurestores. getIamPolicy</code></p>
 <p><code>aiplatform.featurestores.list</code></p>
+<p><code>aiplatform. featurestores. readFeatures</code></p>
 <p><code>aiplatform.humanInTheLoops.get</code></p>
 <p><code>aiplatform. humanInTheLoops. list</code></p>
+<p><code>aiplatform. humanInTheLoops. queryAnnotationStats</code></p>
 <p><code>aiplatform. hyperparameterTuningJobs. get</code></p>
 <p><code>aiplatform. hyperparameterTuningJobs. list</code></p>
 <p><code>aiplatform.indexEndpoints.get</code></p>
@@ -2070,8 +2345,12 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform.indexes.list</code></p>
 <p><code>aiplatform.interactions.get</code></p>
 <p><code>aiplatform.interactions.list</code></p>
-<p><code>aiplatform.locations.get</code></p>
-<p><code>aiplatform.locations.list</code></p>
+<p><code>aiplatform.locations.*</code></p>
+<ul>
+<li><code>aiplatform. locations. evaluateInstances</code></li>
+<li><code>aiplatform.locations.get</code></li>
+<li><code>aiplatform.locations.list</code></li>
+</ul>
 <p><code>aiplatform.memories.get</code></p>
 <p><code>aiplatform.memories.list</code></p>
 <p><code>aiplatform.memoryRevisions.get</code></p>
@@ -2080,6 +2359,7 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform. metadataSchemas. list</code></p>
 <p><code>aiplatform.metadataStores.get</code></p>
 <p><code>aiplatform.metadataStores.list</code></p>
+<p><code>aiplatform. migratableResources. search</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs. get</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs. list</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs. searchStatsAnomalies</code></p>
@@ -2106,7 +2386,9 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 </ul>
 <p><code>aiplatform. notebookExecutionJobs. get</code></p>
 <p><code>aiplatform. notebookExecutionJobs. list</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. apply</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. get</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. getIamPolicy</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. list</code></p>
 <p><code>aiplatform. notebookRuntimes. get</code></p>
 <p><code>aiplatform. notebookRuntimes. list</code></p>
@@ -2170,6 +2452,57 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform.tuningJobs.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="even">
+<td>Agent Platform Agents Admin Role <sup>Beta</sup>
+<p>( <code>roles/ aiplatform.agentsAdmin</code> )</p>
+<p>Grants full administrative access to Agent Platform agents, including reading and managing their memories and their access control policies.</p></td>
+<td><p><code>aiplatform.agentMemories.*</code></p>
+<ul>
+<li><code>aiplatform. agentMemories. delete</code></li>
+<li><code>aiplatform.agentMemories.get</code></li>
+<li><code>aiplatform.agentMemories.list</code></li>
+<li><code>aiplatform. agentMemories. undelete</code></li>
+<li><code>aiplatform. agentMemories. update</code></li>
+</ul>
+<p><code>aiplatform.agents.*</code></p>
+<ul>
+<li><code>aiplatform.agents.create</code></li>
+<li><code>aiplatform.agents.delete</code></li>
+<li><code>aiplatform.agents.get</code></li>
+<li><code>aiplatform.agents.getIamPolicy</code></li>
+<li><code>aiplatform.agents.list</code></li>
+<li><code>aiplatform.agents.suspend</code></li>
+<li><code>aiplatform.agents.unsuspend</code></li>
+<li><code>aiplatform.agents.update</code></li>
+</ul>
+<p><code>aiplatform.tasks.delete</code></p></td>
+</tr>
+<tr class="odd">
+<td>Agent Platform Agents Creator Role <sup>Beta</sup>
+<p>( <code>roles/ aiplatform.agentsCreator</code> )</p>
+<p>Grants access to create and discover Agent Platform agents and their auth providers.</p></td>
+<td><p><code>aiplatform.agents.create</code></p>
+<p><code>aiplatform.agents.list</code></p></td>
+</tr>
+<tr class="even">
+<td>Agent Platform Agents User Role <sup>Beta</sup>
+<p>( <code>roles/ aiplatform.agentsUser</code> )</p>
+<p>Grants access to view agents and to create, update, and delete their tasks.</p></td>
+<td><p><code>aiplatform.agents.get</code></p>
+<p><code>aiplatform.agents.list</code></p>
+<p><code>aiplatform.tasks.create</code></p>
+<p><code>aiplatform.tasks.delete</code></p>
+<p><code>aiplatform.tasks.get</code></p>
+<p><code>aiplatform.tasks.list</code></p>
+<p><code>aiplatform.tasks.update</code></p></td>
+</tr>
+<tr class="odd">
+<td>Agent Platform Agents Viewer Role <sup>Beta</sup>
+<p>( <code>roles/ aiplatform.agentsViewer</code> )</p>
+<p>Grants read-only access to Agent Platform agents.</p></td>
+<td><p><code>aiplatform.agents.get</code></p>
+<p><code>aiplatform.agents.list</code></p></td>
 </tr>
 <tr class="even">
 <td>Colab Enterprise Admin
@@ -3081,14 +3414,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.agentExamples.list</code></li>
 <li><code>aiplatform. agentExamples. update</code></li>
 </ul>
-<p><code>aiplatform.agents.*</code></p>
-<ul>
-<li><code>aiplatform.agents.create</code></li>
-<li><code>aiplatform.agents.delete</code></li>
-<li><code>aiplatform.agents.get</code></li>
-<li><code>aiplatform.agents.list</code></li>
-<li><code>aiplatform.agents.update</code></li>
-</ul>
+<p><code>aiplatform.agents.create</code></p>
+<p><code>aiplatform.agents.delete</code></p>
+<p><code>aiplatform.agents.get</code></p>
+<p><code>aiplatform.agents.list</code></p>
+<p><code>aiplatform.agents.update</code></p>
 <p><code>aiplatform. analyzedInvocations.*</code></p>
 <ul>
 <li><code>aiplatform. analyzedInvocations. get</code></li>
@@ -3233,6 +3563,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform.endpoints.deploy</code></p>
 <p><code>aiplatform.endpoints.explain</code></p>
 <p><code>aiplatform.endpoints.get</code></p>
+<p><code>aiplatform. endpoints. getIamPolicy</code></p>
 <p><code>aiplatform.endpoints.list</code></p>
 <p><code>aiplatform.endpoints.predict</code></p>
 <p><code>aiplatform.endpoints.undeploy</code></p>
@@ -3242,6 +3573,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform. entityTypes. deleteFeatureValues</code></p>
 <p><code>aiplatform. entityTypes. exportFeatureValues</code></p>
 <p><code>aiplatform.entityTypes.get</code></p>
+<p><code>aiplatform. entityTypes. getIamPolicy</code></p>
 <p><code>aiplatform. entityTypes. importFeatureValues</code></p>
 <p><code>aiplatform.entityTypes.list</code></p>
 <p><code>aiplatform. entityTypes. readFeatureValues</code></p>
@@ -3322,6 +3654,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform. featureGroups. create</code></p>
 <p><code>aiplatform. featureGroups. delete</code></p>
 <p><code>aiplatform.featureGroups.get</code></p>
+<p><code>aiplatform. featureGroups. getIamPolicy</code></p>
 <p><code>aiplatform.featureGroups.list</code></p>
 <p><code>aiplatform. featureGroups. update</code></p>
 <p><code>aiplatform. featureMonitorJobs.*</code></p>
@@ -3341,6 +3674,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform. featureOnlineStores. create</code></p>
 <p><code>aiplatform. featureOnlineStores. delete</code></p>
 <p><code>aiplatform. featureOnlineStores. get</code></p>
+<p><code>aiplatform. featureOnlineStores. getIamPolicy</code></p>
 <p><code>aiplatform. featureOnlineStores. list</code></p>
 <p><code>aiplatform. featureOnlineStores. update</code></p>
 <p><code>aiplatform.featureViewSyncs.*</code></p>
@@ -3353,6 +3687,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform. featureViews. directWrite</code></p>
 <p><code>aiplatform. featureViews. fetchFeatureValues</code></p>
 <p><code>aiplatform.featureViews.get</code></p>
+<p><code>aiplatform. featureViews. getIamPolicy</code></p>
 <p><code>aiplatform.featureViews.list</code></p>
 <p><code>aiplatform. featureViews. searchNearestEntities</code></p>
 <p><code>aiplatform.featureViews.sync</code></p>
@@ -3370,6 +3705,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform. featurestores. delete</code></p>
 <p><code>aiplatform. featurestores. exportFeatures</code></p>
 <p><code>aiplatform.featurestores.get</code></p>
+<p><code>aiplatform. featurestores. getIamPolicy</code></p>
 <p><code>aiplatform. featurestores. importFeatures</code></p>
 <p><code>aiplatform.featurestores.list</code></p>
 <p><code>aiplatform. featurestores. readFeatures</code></p>
@@ -3457,6 +3793,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.metadataStores.get</code></li>
 <li><code>aiplatform.metadataStores.list</code></li>
 </ul>
+<p><code>aiplatform. migratableResources. search</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs.*</code></p>
 <ul>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. create</code></li>
@@ -3535,6 +3872,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform. notebookRuntimeTemplates. create</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. delete</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. get</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. getIamPolicy</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. list</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. update</code></p>
 <p><code>aiplatform.notebookRuntimes.*</code></p>
@@ -4158,14 +4496,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.agentExamples.list</code></li>
 <li><code>aiplatform. agentExamples. update</code></li>
 </ul>
-<p><code>aiplatform.agents.*</code></p>
-<ul>
-<li><code>aiplatform.agents.create</code></li>
-<li><code>aiplatform.agents.delete</code></li>
-<li><code>aiplatform.agents.get</code></li>
-<li><code>aiplatform.agents.list</code></li>
-<li><code>aiplatform.agents.update</code></li>
-</ul>
+<p><code>aiplatform.agents.create</code></p>
+<p><code>aiplatform.agents.delete</code></p>
+<p><code>aiplatform.agents.get</code></p>
+<p><code>aiplatform.agents.list</code></p>
+<p><code>aiplatform.agents.update</code></p>
 <p><code>aiplatform. analyzedInvocations.*</code></p>
 <ul>
 <li><code>aiplatform. analyzedInvocations. get</code></li>
@@ -4310,6 +4645,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform.endpoints.deploy</code></p>
 <p><code>aiplatform.endpoints.explain</code></p>
 <p><code>aiplatform.endpoints.get</code></p>
+<p><code>aiplatform. endpoints. getIamPolicy</code></p>
 <p><code>aiplatform.endpoints.list</code></p>
 <p><code>aiplatform.endpoints.predict</code></p>
 <p><code>aiplatform.endpoints.undeploy</code></p>
@@ -4319,6 +4655,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform. entityTypes. deleteFeatureValues</code></p>
 <p><code>aiplatform. entityTypes. exportFeatureValues</code></p>
 <p><code>aiplatform.entityTypes.get</code></p>
+<p><code>aiplatform. entityTypes. getIamPolicy</code></p>
 <p><code>aiplatform. entityTypes. importFeatureValues</code></p>
 <p><code>aiplatform.entityTypes.list</code></p>
 <p><code>aiplatform. entityTypes. readFeatureValues</code></p>
@@ -4399,6 +4736,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform. featureGroups. create</code></p>
 <p><code>aiplatform. featureGroups. delete</code></p>
 <p><code>aiplatform.featureGroups.get</code></p>
+<p><code>aiplatform. featureGroups. getIamPolicy</code></p>
 <p><code>aiplatform.featureGroups.list</code></p>
 <p><code>aiplatform. featureGroups. update</code></p>
 <p><code>aiplatform. featureMonitorJobs.*</code></p>
@@ -4418,6 +4756,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform. featureOnlineStores. create</code></p>
 <p><code>aiplatform. featureOnlineStores. delete</code></p>
 <p><code>aiplatform. featureOnlineStores. get</code></p>
+<p><code>aiplatform. featureOnlineStores. getIamPolicy</code></p>
 <p><code>aiplatform. featureOnlineStores. list</code></p>
 <p><code>aiplatform. featureOnlineStores. update</code></p>
 <p><code>aiplatform.featureViewSyncs.*</code></p>
@@ -4430,6 +4769,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform. featureViews. directWrite</code></p>
 <p><code>aiplatform. featureViews. fetchFeatureValues</code></p>
 <p><code>aiplatform.featureViews.get</code></p>
+<p><code>aiplatform. featureViews. getIamPolicy</code></p>
 <p><code>aiplatform.featureViews.list</code></p>
 <p><code>aiplatform. featureViews. searchNearestEntities</code></p>
 <p><code>aiplatform.featureViews.sync</code></p>
@@ -4447,6 +4787,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform. featurestores. delete</code></p>
 <p><code>aiplatform. featurestores. exportFeatures</code></p>
 <p><code>aiplatform.featurestores.get</code></p>
+<p><code>aiplatform. featurestores. getIamPolicy</code></p>
 <p><code>aiplatform. featurestores. importFeatures</code></p>
 <p><code>aiplatform.featurestores.list</code></p>
 <p><code>aiplatform. featurestores. readFeatures</code></p>
@@ -4534,6 +4875,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.metadataStores.get</code></li>
 <li><code>aiplatform.metadataStores.list</code></li>
 </ul>
+<p><code>aiplatform. migratableResources. search</code></p>
 <p><code>aiplatform. modelDeploymentMonitoringJobs.*</code></p>
 <ul>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. create</code></li>
@@ -4612,6 +4954,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>aiplatform. notebookRuntimeTemplates. create</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. delete</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. get</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. getIamPolicy</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. list</code></p>
 <p><code>aiplatform. notebookRuntimeTemplates. update</code></p>
 <p><code>aiplatform.notebookRuntimes.*</code></p>
@@ -5402,6 +5745,39 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><code>aiplatform. agentMemories. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>aiplatform.agentMemories.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>aiplatform.agentMemories.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>aiplatform. agentMemories. undelete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>aiplatform. agentMemories. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><code>aiplatform.agents.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -5410,27 +5786,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
-<p>Service agent roles</p>
-<blockquote>
-<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
-</blockquote>
-<ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><code>aiplatform.agents.delete</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsCreator">Agent Platform Agents Creator Role</a> ( <code>roles/ aiplatform.agentsCreator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p>Service agent roles</p>
@@ -5444,6 +5802,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><code>aiplatform.agents.delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><code>aiplatform.agents.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -5455,6 +5836,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsUser">Agent Platform Agents User Role</a> ( <code>roles/ aiplatform.agentsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsViewer">Agent Platform Agents Viewer Role</a> ( <code>roles/ aiplatform.agentsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
@@ -5470,6 +5855,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="even">
+<td><code>aiplatform.agents.getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>aiplatform.agents.list</code></td>
@@ -5483,14 +5883,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsCreator">Agent Platform Agents Creator Role</a> ( <code>roles/ aiplatform.agentsCreator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsUser">Agent Platform Agents User Role</a> ( <code>roles/ aiplatform.agentsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsViewer">Agent Platform Agents Viewer Role</a> ( <code>roles/ aiplatform.agentsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -5503,6 +5909,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><code>aiplatform.agents.suspend</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>aiplatform.agents.unsuspend</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p></td>
+</tr>
+<tr class="even">
 <td><code>aiplatform.agents.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -5511,6 +5929,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p>Service agent roles</p>
@@ -6286,6 +6706,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code>roles/ securitycenter.adminEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code>roles/ securitycenter.adminViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -6314,6 +6735,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -6824,6 +7246,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code>roles/ securitycenter.adminEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code>roles/ securitycenter.adminViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -7357,6 +7780,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code>roles/ securitycenter.adminEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code>roles/ securitycenter.adminViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -7866,6 +8290,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -7929,8 +8356,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -7939,6 +8371,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -7965,6 +8399,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code>roles/ securitycenter.adminEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code>roles/ securitycenter.adminViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -8226,11 +8661,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.entityTypeOwner">Agent Platform Feature Store EntityType owner</a> ( <code>roles/ aiplatform.entityTypeOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreAdmin">Agent Platform Feature Store Admin</a> ( <code>roles/ aiplatform.featurestoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreUser">Agent Platform Feature Store User</a> ( <code>roles/ aiplatform.featurestoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -8239,6 +8679,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -8312,11 +8754,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.entityTypeOwner">Agent Platform Feature Store EntityType owner</a> ( <code>roles/ aiplatform.entityTypeOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreAdmin">Agent Platform Feature Store Admin</a> ( <code>roles/ aiplatform.featurestoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreDataViewer">Agent Platform Feature Store Data Viewer</a> ( <code>roles/ aiplatform.featurestoreDataViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreDataWriter">Agent Platform Feature Store Data Writer</a> ( <code>roles/ aiplatform.featurestoreDataWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreUser">Agent Platform Feature Store User</a> ( <code>roles/ aiplatform.featurestoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -8359,11 +8804,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.entityTypeOwner">Agent Platform Feature Store EntityType owner</a> ( <code>roles/ aiplatform.entityTypeOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreAdmin">Agent Platform Feature Store Admin</a> ( <code>roles/ aiplatform.featurestoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreDataViewer">Agent Platform Feature Store Data Viewer</a> ( <code>roles/ aiplatform.featurestoreDataViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreDataWriter">Agent Platform Feature Store Data Writer</a> ( <code>roles/ aiplatform.featurestoreDataWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreUser">Agent Platform Feature Store User</a> ( <code>roles/ aiplatform.featurestoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -9654,9 +10102,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreAdmin">Agent Platform Feature Store Admin</a> ( <code>roles/ aiplatform.featurestoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -9665,6 +10118,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -9693,6 +10148,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -10049,9 +10505,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreAdmin">Agent Platform Feature Store Admin</a> ( <code>roles/ aiplatform.featurestoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -10060,6 +10521,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -10088,6 +10551,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -10343,9 +10807,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreAdmin">Agent Platform Feature Store Admin</a> ( <code>roles/ aiplatform.featurestoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -10354,6 +10823,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -10769,10 +11240,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreAdmin">Agent Platform Feature Store Admin</a> ( <code>roles/ aiplatform.featurestoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreUser">Agent Platform Feature Store User</a> ( <code>roles/ aiplatform.featurestoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -10781,6 +11257,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -10831,6 +11309,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -10853,8 +11332,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreAdmin">Agent Platform Feature Store Admin</a> ( <code>roles/ aiplatform.featurestoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.featurestoreUser">Agent Platform Feature Store User</a> ( <code>roles/ aiplatform.featurestoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -11063,6 +11545,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -11229,6 +11714,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -11323,6 +11809,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -11354,6 +11841,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -11529,6 +12017,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -11580,6 +12069,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseml#firebaseml.serviceAgent">Firebase AI Logic Service Agent</a> ( <code>roles/ firebaseml.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -11602,6 +12092,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/flow#aisandbox.serviceAgent">FlowService Service Agent</a> ( <code>roles/ aisandbox.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseml#firebaseml.serviceAgent">Firebase AI Logic Service Agent</a> ( <code>roles/ firebaseml.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/flow#flow.serviceAgent">Flow Service Agent</a> ( <code>roles/ flow.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
@@ -11624,6 +12115,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseml#firebaseml.serviceAgent">Firebase AI Logic Service Agent</a> ( <code>roles/ firebaseml.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -11652,6 +12144,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/flow#aisandbox.serviceAgent">FlowService Service Agent</a> ( <code>roles/ aisandbox.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseml#firebaseml.serviceAgent">Firebase AI Logic Service Agent</a> ( <code>roles/ firebaseml.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/flow#flow.serviceAgent">Flow Service Agent</a> ( <code>roles/ flow.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
@@ -11683,6 +12176,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseml#firebaseml.serviceAgent">Firebase AI Logic Service Agent</a> ( <code>roles/ firebaseml.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -11698,7 +12192,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.expressUser">Agent Platform Express User</a> ( <code>roles/ aiplatform.expressUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.expressAdmin">Agent Platform Express Admin</a> ( <code>roles/ aiplatform.expressAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -11771,6 +12268,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -12263,6 +12761,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -12303,7 +12802,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.migrator">Agent Platform Migration Service User</a> ( <code>roles/ aiplatform.migrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -12311,6 +12815,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -13058,6 +13564,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminEditor">Security Center Admin Editor</a> ( <code>roles/ securitycenter.adminEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.adminViewer">Security Center Admin Viewer</a> ( <code>roles/ securitycenter.adminViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -13343,6 +13850,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -13549,12 +14057,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.colabEnterpriseAdmin">Colab Enterprise Admin</a> ( <code>roles/ aiplatform.colabEnterpriseAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.colabEnterpriseUser">Colab Enterprise User</a> ( <code>roles/ aiplatform.colabEnterpriseUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.notebookRuntimeAdmin">Notebook Runtime Admin</a> ( <code>roles/ aiplatform.notebookRuntimeAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.notebookRuntimeUser">Notebook Runtime User</a> ( <code>roles/ aiplatform.notebookRuntimeUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -13660,6 +14171,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code>roles/ bigquery.studioAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code>roles/ bigquery.studioUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
@@ -13668,6 +14181,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.colabEnterpriseUser">Colab Enterprise User</a> ( <code>roles/ aiplatform.colabEnterpriseUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.notebookRuntimeAdmin">Notebook Runtime Admin</a> ( <code>roles/ aiplatform.notebookRuntimeAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.notebookRuntimeUser">Notebook Runtime User</a> ( <code>roles/ aiplatform.notebookRuntimeUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
@@ -13677,6 +14192,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -13706,6 +14223,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -14347,6 +14865,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -14660,6 +15179,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -14863,6 +15383,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -15122,6 +15643,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -16159,6 +16681,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsUser">Agent Platform Agents User Role</a> ( <code>roles/ aiplatform.agentsUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p>Service agent roles</p>
@@ -16180,6 +16704,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsAdmin">Agent Platform Agents Admin Role</a> ( <code>roles/ aiplatform.agentsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsUser">Agent Platform Agents User Role</a> ( <code>roles/ aiplatform.agentsUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p>Service agent roles</p>
@@ -16204,6 +16731,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsUser">Agent Platform Agents User Role</a> ( <code>roles/ aiplatform.agentsUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
@@ -16231,8 +16760,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsUser">Agent Platform Agents User Role</a> ( <code>roles/ aiplatform.agentsUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
@@ -16258,6 +16789,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentsUser">Agent Platform Agents User Role</a> ( <code>roles/ aiplatform.agentsUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p>Service agent roles</p>
@@ -16882,6 +17415,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -17042,6 +17576,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .

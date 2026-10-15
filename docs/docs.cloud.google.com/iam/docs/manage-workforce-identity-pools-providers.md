@@ -32,7 +32,7 @@ This section shows you how to manage workforce identity pools.
 
 ### Create a pool
 
-To create a workforce pool, execute the following command:
+To create a workforce pool, run the following command:
 
 ### gcloud
 
@@ -75,11 +75,11 @@ To create the workforce identity pool, do the following:
 
 The workforce identity pool's session duration defaults to one hour (3600s). The session duration determines how long the Google Cloud access tokens, [console (federated)](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#console-federated) , and gcloud CLI sign-in sessions from this workforce pool are valid. After you create the pool, you can [update the pool](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-pool) to set a custom session duration. The session duration must be from 15 minutes (900s) to 12 hours (43200s).
 
-### Describe a pool
+### View pool details
 
 ### gcloud
 
-To describe a specific workforce pool using the gcloud CLI, execute the following command:
+To view the details of a specific workforce pool using the gcloud CLI, run the following command:
 
 ```
 gcloud iam workforce-pools describe WORKFORCE_POOL_ID \
@@ -90,17 +90,19 @@ Replace `WORKFORCE_POOL_ID` with the workforce pool ID that you chose when you c
 
 ### Console
 
-To describe a specific workforce pool using the Google Cloud console, do the following:
+To view the details of a specific workforce pool using the Google Cloud console, do the following:
 
-1.  Go to the **Workforce Identity Pools** page:
+1.  In the Google Cloud console, go to the **Workforce Identity Pools** page:
 
-2.  In **Workforce pools** , select the pool
+2.  In **Workforce pools** , select the pool.
+
+    The Google Cloud console displays the pool's details, including its ID, description, status, Identity and Access Management (IAM) principal, logs, and configured providers.
 
 ### List pools
 
 ### gcloud
 
-To list the workforce pools in the organization, execute the following command:
+To list the workforce pools in the organization, run the following command:
 
 ```
 gcloud iam workforce-pools list \
@@ -108,13 +110,13 @@ gcloud iam workforce-pools list \
     --location=global
 ```
 
-Replace ` ORGANIZATION_ID ` with your organization ID.
+Replace `ORGANIZATION_ID` with your organization ID.
 
 ### Console
 
 To list workforce pools using the Google Cloud console, do the following:
 
-1.  Go to the **Workforce Identity Pools** page:
+1.  In the Google Cloud console, go to the **Workforce Identity Pools** page:
 
 2.  In the table, view the list of pools.
 
@@ -122,11 +124,11 @@ To list workforce pools using the Google Cloud console, do the following:
 
 ### gcloud
 
-To update a specific workforce pool, execute the following command:
+To update a specific workforce pool, run the following command:
 
 ```
 gcloud iam workforce-pools update WORKFORCE_POOL_ID \
-    --description=DESCRIPTION \
+    --description="DESCRIPTION" \
     --location=global
 ```
 
@@ -139,19 +141,17 @@ Replace the following:
 
 To update a specific workforce pool using the Google Cloud console, do the following:
 
-1.  Go to the **Workforce Identity Pools** page:
+1.  In the Google Cloud console, go to the **Workforce Identity Pools** page:
 
 2.  In the table, select the pool.
 
-3.  Update the pool parameters.
-
-4.  Click **Save Pool** .
+3.  Click edit **Edit** , update the pool parameters, and then click **Save** .
 
 ### Delete a pool
 
 ### gcloud
 
-To delete a workforce identity pool, execute the following command:
+To delete a workforce identity pool, run the following command:
 
 ```
 gcloud iam workforce-pools delete WORKFORCE_POOL_ID \
@@ -164,9 +164,9 @@ Replace `WORKFORCE_POOL_ID` with the workforce pool ID.
 
 To delete a specific workforce pool using the Google Cloud console, do the following:
 
-1.  Go to the **Workforce Identity Pools** page:
+1.  In the Google Cloud console, go to the **Workforce Identity Pools** page:
 
-2.  In **Workforce pools** , click more_vert **Delete** on the pool you want to delete.
+2.  In **Workforce pools** , click more_vert **Delete** on the pool that you want to delete.
 
 3.  Follow additional instructions.
 
@@ -174,7 +174,7 @@ To delete a specific workforce pool using the Google Cloud console, do the follo
 
 You can undelete a workforce identity pool that was deleted within the last 30 days.
 
-To undelete a pool, execute the following command:
+To undelete a pool, run the following command:
 
 ```
 gcloud iam workforce-pools undelete WORKFORCE_POOL_ID \
@@ -185,7 +185,7 @@ Replace `WORKFORCE_POOL_ID` with the workforce pool ID.
 
 ## Configure a provider within the workforce pool
 
-This section explains how you can use `gcloud` commands to configure workforce identity pool providers:
+This section explains how you can configure workforce identity pool providers using the gcloud CLI and the Google Cloud console.
 
 ### Create an OIDC provider
 
@@ -562,11 +562,11 @@ To configure attribute mappings and conditions, do the following:
 3.  To validate your mappings, click **Save and refetch token** .
 4.  To complete the setup, click **Save and exit** .
 
-### Describe a provider
+### View provider details
 
 ### gcloud
 
-To describe a provider, run the following command:
+To view the details of a provider, run the following command:
 
 ```
 gcloud iam workforce-pools providers describe PROVIDER_ID \
@@ -581,21 +581,25 @@ Replace the following:
 
 ### Console
 
-To view a provider, do the following:
+To view the details of a provider and validate its token attribute mappings, do the following:
 
-1.  Go to the **Workforce Identity Pools** page:
+1.  In the Google Cloud console, go to the **Workforce Identity Pools** page:
 
-<!-- -->
+2.  In the table, select the pool for which you want to view the provider.
 
-1.  In the table, select the pool for which you want to view the provider.
+3.  In the **Providers** table, select the provider.
 
-2.  In the **Providers** table, select the provider.
+    The **Provider details** pane opens and displays the provider's configuration and **Attributes** summary.
+
+4.  Optional: For an enabled provider, to inspect evaluated claims, attribute mappings, and **Entra ID extra attributes** for Microsoft Entra ID, click **Debug IdP token** , and then sign in to your external IdP when prompted.
+
+    > **Note:** If System for Cross-domain Identity Management (SCIM) provisioning is enabled for the provider, the Google Cloud console evaluates the attribute mapping results from your IdP token and doesn't reflect user claims or group memberships synchronized through SCIM.
 
 ### List providers
 
 ### gcloud
 
-To list providers, execute the following command:
+To list providers, run the following command:
 
 ```
 gcloud iam workforce-pools providers list \
@@ -607,21 +611,19 @@ Replace `WORKFORCE_POOL_ID` with the workforce pool ID.
 
 ### Console
 
-To view a provider, do the following:
+To view a list of providers, do the following:
 
-1.  Go to the **Workforce Identity Pools** page:
+1.  In the Google Cloud console, go to the **Workforce Identity Pools** page:
 
-<!-- -->
+2.  In the table, select the pool for which you want to list the providers.
 
-1.  In the table, select the pool for which you want to list the providers.
-
-2.  In the **Providers** table you can see a list of providers.
+3.  In the **Providers** table, view the list of providers.
 
 ### Update a provider
 
 ### gcloud
 
-To update an OIDC provider after creation, execute the following command:
+To update an OIDC provider after creation, run the following command:
 
 ```
 gcloud iam workforce-pools providers update-oidc PROVIDER_ID \
@@ -642,29 +644,37 @@ Replace the following:
 
 To update a provider, do the following:
 
-1.  Go to the **Workforce Identity Pools** page:
+1.  In the Google Cloud console, go to the **Workforce Identity Pools** page:
 
-<!-- -->
+2.  In the table, select the pool for which you want to update the provider.
 
-1.  In the table, select the pool for which you want to update the provider.
+3.  In the **Providers** table, click more_vert **Edit provider** next to the provider that you want to update.
 
-2.  In the **Providers** table, click more_vert **Edit** next to the provider you want to update.
+4.  Update the provider's display name, description, status, or OIDC settings such as **Issuer (URL)** , **Client ID** , **Response type** , or the client secret (by clicking **Edit client secret** ), and then click **Save** .
 
-3.  Modify the provider's display name, description, status, or redirect URIs, and then click **Save** .
-
-4.  Optional: To view or edit attribute mappings and conditions:
+5.  Optional: To view or edit attribute mappings and conditions, do the following:
 
     1.  In the **Provider attributes** section, click **Configure attributes** .
+
     2.  When prompted, sign in to your external IdP.
+
     3.  On the provider attributes page, view and edit the mappings, extra attributes, or conditions:
+
         - To add or edit mappings, click **Add mapping** and enter the keys and values. For details, see [attribute mappings](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) .
-        - To add or edit conditions, click **Add condition** and enter a CEL expression. For details, see [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) . For complete instructions, see [Configure Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) .
+
+        - To add or edit conditions, click **Add condition** and enter a CEL expression. For details, see [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) .
+
+        For complete instructions, see [Configure Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) .
+
     4.  To validate the mappings, click **Save and refetch token** .
+
     5.  To complete the update, click **Save and exit** .
 
 ### Delete a provider
 
-To delete a provider, execute the following command:
+### gcloud
+
+To delete a provider, run the following command:
 
 ```
 gcloud iam workforce-pools providers delete PROVIDER_ID \
@@ -677,9 +687,19 @@ Replace the following:
 - `PROVIDER_ID` : the provider ID
 - `WORKFORCE_POOL_ID` : the workforce pool ID
 
+### Console
+
+To delete a provider, do the following:
+
+1.  In the Google Cloud console, go to the **Workforce Identity Pools** page:
+
+2.  In the table, select the pool that contains the provider that you want to delete.
+
+3.  In the **Providers** table, click more_vert **Delete provider** next to the provider that you want to delete, and then follow the confirmation prompts.
+
 ### Undelete a provider
 
-To undelete a provider deleted within the last 30 days, execute the following command:
+To undelete a provider that was deleted within the last 30 days, run the following command:
 
 ```
 gcloud iam workforce-pools providers undelete PROVIDER_ID \
@@ -700,19 +720,19 @@ This section shows you how to manage OIDC JWKs in workforce pool providers.
 
 To create OIDC JWKs, see [JWT, JWS, JWE, JWK, and JWA Implementations](https://openid.net/developers/jwt/) .
 
-To upload an OIDC JWK file when you create a workforce pool provider, run the [gcloud iam workforce-pools providers create-oidc](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#create-oidc-provider) command with `--jwk-json-path=" `` JWK_JSON_PATH `` "` . Replace `JWK_JSON_PATH` with the path to the JWKs JSON file.
+To upload an OIDC JWK file when you create a workforce pool provider, run the [`gcloud iam workforce-pools providers create-oidc`](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#create-oidc-provider) command with `--jwk-json-path=" `` JWK_JSON_PATH `` "` . Replace `JWK_JSON_PATH` with the path to the JWKs JSON file.
 
 This operation uploads the keys from the file.
 
 ### Update OIDC JWKs
 
-To update OIDC JWKs, run the [gcloud iam workforce-pools providers update-oidc](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) command with `--jwk-json-path=" `` JWK_JSON_PATH `` "` . Replace `JWK_JSON_PATH` with the path to the JWKs JSON file.
+To update OIDC JWKs, run the [`gcloud iam workforce-pools providers update-oidc`](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) command with `--jwk-json-path=" `` JWK_JSON_PATH `` "` . Replace `JWK_JSON_PATH` with the path to the JWKs JSON file.
 
 This operation replaces any existing uploaded keys with the ones in the file.
 
 ### Delete all uploaded OIDC JWKs
 
-To delete all of the uploaded OIDC JWKs and instead use the issuer URI to fetch the keys, run the [gcloud iam workforce-pools providers update-oidc](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/update-oidc) command with `--jwk-json-path=" `` JWK_JSON_PATH `` "` . Replace `JWK_JSON_PATH` with the path to an empty file. Use the `--issuer-uri` flag to set the issuer URI.
+To delete all of the uploaded OIDC JWKs and instead use the issuer URI to fetch the keys, run the [`gcloud iam workforce-pools providers update-oidc`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers/update-oidc) command with `--jwk-json-path=" `` JWK_JSON_PATH `` "` . Replace `JWK_JSON_PATH` with the path to an empty file. Use the `--issuer-uri` flag to set the issuer URI.
 
 This operation deletes all of your existing uploaded keys.
 

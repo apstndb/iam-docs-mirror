@@ -530,7 +530,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <tr class="even">
 <td>Storage Object User
 <p>( <code>roles/ storage.objectUser</code> )</p>
-<p>Access to create, read, update and delete objects and multipart uploads.</p>
+<p>Access to create, read, update and delete objects and multipart uploads in GCS.</p>
 <p>Lowest-level resources where you can grant this role:</p>
 <ul>
 <li>Managed folder</li>
@@ -1007,6 +1007,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code>roles/ iam.infrastructureAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code>roles/ privateca.caManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.dataSecurityScanner">Wiz Data Security Manager</a> ( <code>roles/ wiz.dataSecurityScanner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1099,6 +1100,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code>roles/ iam.infrastructureAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.dataSecurityScanner">Wiz Data Security Manager</a> ( <code>roles/ wiz.dataSecurityScanner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1223,6 +1225,8 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.bqdwProjectRemediator">SLZ BQDW Blueprint Project Level Remediator</a> ( <code>roles/ securedlandingzone.bqdwProjectRemediator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeUserAccess">Storage Express Mode User Access</a> ( <code>roles/ storage.expressModeUserAccess</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.insightsCollectorService">Storage Insights Collector Service</a> ( <code>roles/ storage.insightsCollectorService</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.dataSecurityScanner">Wiz Data Security Manager</a> ( <code>roles/ wiz.dataSecurityScanner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1318,6 +1322,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.bqdwProjectRemediator">SLZ BQDW Blueprint Project Level Remediator</a> ( <code>roles/ securedlandingzone.bqdwProjectRemediator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1387,6 +1392,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code>roles/ iam.infrastructureAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.insightsCollectorService">Storage Insights Collector Service</a> ( <code>roles/ storage.insightsCollectorService</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.dataSecurityScanner">Wiz Data Security Manager</a> ( <code>roles/ wiz.dataSecurityScanner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1434,6 +1440,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.bqdwProjectRemediator">SLZ BQDW Blueprint Project Level Remediator</a> ( <code>roles/ securedlandingzone.bqdwProjectRemediator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeUserAccess">Storage Express Mode User Access</a> ( <code>roles/ storage.expressModeUserAccess</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.deploymentAdmin">Workload Manager Deployment Admin</a> ( <code>roles/ workloadmanager.deploymentAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -1679,6 +1686,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code>roles/ iam.infrastructureAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.bqdwProjectRemediator">SLZ BQDW Blueprint Project Level Remediator</a> ( <code>roles/ securedlandingzone.bqdwProjectRemediator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.dataSecurityScanner">Wiz Data Security Manager</a> ( <code>roles/ wiz.dataSecurityScanner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2741,6 +2749,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <tr class="even">
 <td><code>storage.multipartUploads.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.admin">Application Design Center Admin</a> ( <code>roles/ designcenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
@@ -2791,7 +2800,6 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <td><code>storage. multipartUploads. listParts</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.admin">Application Design Center Admin</a> ( <code>roles/ designcenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
@@ -2815,7 +2823,6 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code>roles/ iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code>roles/ iam.infrastructureAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeUserAccess">Storage Express Mode User Access</a> ( <code>roles/ storage.expressModeUserAccess</code> )</p>
 <p>Service agent roles</p>
@@ -2876,6 +2883,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeServiceInput">Storage Express Mode Service Input</a> ( <code>roles/ storage.expressModeServiceInput</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeUserAccess">Storage Express Mode User Access</a> ( <code>roles/ storage.expressModeUserAccess</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.dataSecurityScanner">Wiz Data Security Manager</a> ( <code>roles/ wiz.dataSecurityScanner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3024,6 +3032,7 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeServiceInput">Storage Express Mode Service Input</a> ( <code>roles/ storage.expressModeServiceInput</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeServiceOutput">Storage Express Mode Service Output</a> ( <code>roles/ storage.expressModeServiceOutput</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeUserAccess">Storage Express Mode User Access</a> ( <code>roles/ storage.expressModeUserAccess</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.dataSecurityScanner">Wiz Data Security Manager</a> ( <code>roles/ wiz.dataSecurityScanner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3188,6 +3197,9 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.annotationGeneratorService">Storage Annotation Generator Service</a> ( <code>roles/ storage.annotationGeneratorService</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeServiceOutput">Storage Express Mode Service Output</a> ( <code>roles/ storage.expressModeServiceOutput</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeUserAccess">Storage Express Mode User Access</a> ( <code>roles/ storage.expressModeUserAccess</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.dataSecurityScanner">Wiz Data Security Manager</a> ( <code>roles/ wiz.dataSecurityScanner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.serverlessImageRegistryScanner">Wiz Serverless &amp; Container Image Registry Scanner</a> ( <code>roles/ wiz.serverlessImageRegistryScanner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3391,6 +3403,9 @@ This page lists the IAM roles and permissions for Cloud Storage. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeServiceInput">Storage Express Mode Service Input</a> ( <code>roles/ storage.expressModeServiceInput</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeServiceOutput">Storage Express Mode Service Output</a> ( <code>roles/ storage.expressModeServiceOutput</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.expressModeUserAccess">Storage Express Mode User Access</a> ( <code>roles/ storage.expressModeUserAccess</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.dataSecurityScanner">Wiz Data Security Manager</a> ( <code>roles/ wiz.dataSecurityScanner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.serverlessImageRegistryScanner">Wiz Serverless &amp; Container Image Registry Scanner</a> ( <code>roles/ wiz.serverlessImageRegistryScanner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.deploymentAdmin">Workload Manager Deployment Admin</a> ( <code>roles/ workloadmanager.deploymentAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>

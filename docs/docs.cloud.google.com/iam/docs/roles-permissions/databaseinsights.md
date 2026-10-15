@@ -23,17 +23,188 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 </thead>
 <tbody>
 <tr class="odd">
+<td>Database Insights Admin
+<p>( <code>roles/ databaseinsights.admin</code> )</p>
+<p>Admin role for Database Insights</p></td>
+<td><p><code>databaseinsights.*</code></p>
+<ul>
+<li><code>databaseinsights. activeQueries. fetch</code></li>
+<li><code>databaseinsights. activeQuery. terminate</code></li>
+<li><code>databaseinsights. activeSessionHistory. query</code></li>
+<li><code>databaseinsights. activitySummary. fetch</code></li>
+<li><code>databaseinsights. agentPolicies. createAgentPolicy</code></li>
+<li><code>databaseinsights. agentPolicies. deleteAgentPolicy</code></li>
+<li><code>databaseinsights. agentPolicies. getAgentPolicy</code></li>
+<li><code>databaseinsights. agentPolicies. updateAgentPolicy</code></li>
+<li><code>databaseinsights. aggregatedEvents. query</code></li>
+<li><code>databaseinsights. aggregatedStats. query</code></li>
+<li><code>databaseinsights. clusterEvents. query</code></li>
+<li><code>databaseinsights. databaseIssues. troubleshoot</code></li>
+<li><code>databaseinsights. dbCenter. query</code></li>
+<li><code>databaseinsights. dbPerformance. query</code></li>
+<li><code>databaseinsights. genUiAgent. deleteBlueprint</code></li>
+<li><code>databaseinsights. genUiAgent. getBlueprint</code></li>
+<li><code>databaseinsights. genUiAgent. listBlueprints</code></li>
+<li><code>databaseinsights. genUiAgent. query</code></li>
+<li><code>databaseinsights. genUiAgent. saveBlueprint</code></li>
+<li><code>databaseinsights. goals. applyTaskRemediation</code></li>
+<li><code>databaseinsights. goals. createGoal</code></li>
+<li><code>databaseinsights. goals. deleteGoal</code></li>
+<li><code>databaseinsights. goals. dismissTask</code></li>
+<li><code>databaseinsights.goals.fixTask</code></li>
+<li><code>databaseinsights.goals.getGoal</code></li>
+<li><code>databaseinsights.goals.getTask</code></li>
+<li><code>databaseinsights. goals. listGoals</code></li>
+<li><code>databaseinsights. goals. listTasks</code></li>
+<li><code>databaseinsights. goals. markTaskAsDone</code></li>
+<li><code>databaseinsights. goals. restoreTask</code></li>
+<li><code>databaseinsights. goals. updateGoal</code></li>
+<li><code>databaseinsights. indexRecommendations. query</code></li>
+<li><code>databaseinsights. instanceEvents. query</code></li>
+<li><code>databaseinsights.locations.get</code></li>
+<li><code>databaseinsights. locations. list</code></li>
+<li><code>databaseinsights.logs.fetch</code></li>
+<li><code>databaseinsights. operations. get</code></li>
+<li><code>databaseinsights. performanceIssues. detect</code></li>
+<li><code>databaseinsights. performanceIssues. investigate</code></li>
+<li><code>databaseinsights. queryMetrics. fetch</code></li>
+<li><code>databaseinsights. queryStats. fetch</code></li>
+<li><code>databaseinsights. queryTimeSeries. fetch</code></li>
+<li><code>databaseinsights. recommendations. query</code></li>
+<li><code>databaseinsights. resourceMetadata. fetch</code></li>
+<li><code>databaseinsights. resourceRecommendations. query</code></li>
+<li><code>databaseinsights. systemMetrics. fetch</code></li>
+<li><code>databaseinsights. telemetryConfig. fetch</code></li>
+<li><code>databaseinsights. timeSeries. query</code></li>
+<li><code>databaseinsights.traces.fetch</code></li>
+<li><code>databaseinsights. virtualDbaAgent. createAgentPolicy</code></li>
+<li><code>databaseinsights. virtualDbaAgent. createContextService</code></li>
+<li><code>databaseinsights. virtualDbaAgent. createGoal</code></li>
+<li><code>databaseinsights. virtualDbaAgent. deleteAgentPolicy</code></li>
+<li><code>databaseinsights. virtualDbaAgent. deleteContextService</code></li>
+<li><code>databaseinsights. virtualDbaAgent. deleteGoal</code></li>
+<li><code>databaseinsights. virtualDbaAgent. disable</code></li>
+<li><code>databaseinsights. virtualDbaAgent. enable</code></li>
+<li><code>databaseinsights. virtualDbaAgent. fetchContextService</code></li>
+<li><code>databaseinsights. virtualDbaAgent. getAgentPolicy</code></li>
+<li><code>databaseinsights. virtualDbaAgent. getGoal</code></li>
+<li><code>databaseinsights. virtualDbaAgent. getTask</code></li>
+<li><code>databaseinsights. virtualDbaAgent. listGoals</code></li>
+<li><code>databaseinsights. virtualDbaAgent. listTasks</code></li>
+<li><code>databaseinsights. virtualDbaAgent. listTodos</code></li>
+<li><code>databaseinsights. virtualDbaAgent. query</code></li>
+<li><code>databaseinsights. virtualDbaAgent. updateAgentPolicy</code></li>
+<li><code>databaseinsights. virtualDbaAgent. updateContextService</code></li>
+<li><code>databaseinsights. virtualDbaAgent. updateGoal</code></li>
+<li><code>databaseinsights. virtualDbxAgent. query</code></li>
+<li><code>databaseinsights. waitEventStats. fetch</code></li>
+<li><code>databaseinsights. waitEventTimeSeries. fetch</code></li>
+<li><code>databaseinsights. workloadRecommendations. fetch</code></li>
+</ul>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="even">
+<td>Database Insights Editor
+<p>( <code>roles/ databaseinsights.editor</code> )</p>
+<p>Editor role for Database Insights</p></td>
+<td><p><code>databaseinsights.*</code></p>
+<ul>
+<li><code>databaseinsights. activeQueries. fetch</code></li>
+<li><code>databaseinsights. activeQuery. terminate</code></li>
+<li><code>databaseinsights. activeSessionHistory. query</code></li>
+<li><code>databaseinsights. activitySummary. fetch</code></li>
+<li><code>databaseinsights. agentPolicies. createAgentPolicy</code></li>
+<li><code>databaseinsights. agentPolicies. deleteAgentPolicy</code></li>
+<li><code>databaseinsights. agentPolicies. getAgentPolicy</code></li>
+<li><code>databaseinsights. agentPolicies. updateAgentPolicy</code></li>
+<li><code>databaseinsights. aggregatedEvents. query</code></li>
+<li><code>databaseinsights. aggregatedStats. query</code></li>
+<li><code>databaseinsights. clusterEvents. query</code></li>
+<li><code>databaseinsights. databaseIssues. troubleshoot</code></li>
+<li><code>databaseinsights. dbCenter. query</code></li>
+<li><code>databaseinsights. dbPerformance. query</code></li>
+<li><code>databaseinsights. genUiAgent. deleteBlueprint</code></li>
+<li><code>databaseinsights. genUiAgent. getBlueprint</code></li>
+<li><code>databaseinsights. genUiAgent. listBlueprints</code></li>
+<li><code>databaseinsights. genUiAgent. query</code></li>
+<li><code>databaseinsights. genUiAgent. saveBlueprint</code></li>
+<li><code>databaseinsights. goals. applyTaskRemediation</code></li>
+<li><code>databaseinsights. goals. createGoal</code></li>
+<li><code>databaseinsights. goals. deleteGoal</code></li>
+<li><code>databaseinsights. goals. dismissTask</code></li>
+<li><code>databaseinsights.goals.fixTask</code></li>
+<li><code>databaseinsights.goals.getGoal</code></li>
+<li><code>databaseinsights.goals.getTask</code></li>
+<li><code>databaseinsights. goals. listGoals</code></li>
+<li><code>databaseinsights. goals. listTasks</code></li>
+<li><code>databaseinsights. goals. markTaskAsDone</code></li>
+<li><code>databaseinsights. goals. restoreTask</code></li>
+<li><code>databaseinsights. goals. updateGoal</code></li>
+<li><code>databaseinsights. indexRecommendations. query</code></li>
+<li><code>databaseinsights. instanceEvents. query</code></li>
+<li><code>databaseinsights.locations.get</code></li>
+<li><code>databaseinsights. locations. list</code></li>
+<li><code>databaseinsights.logs.fetch</code></li>
+<li><code>databaseinsights. operations. get</code></li>
+<li><code>databaseinsights. performanceIssues. detect</code></li>
+<li><code>databaseinsights. performanceIssues. investigate</code></li>
+<li><code>databaseinsights. queryMetrics. fetch</code></li>
+<li><code>databaseinsights. queryStats. fetch</code></li>
+<li><code>databaseinsights. queryTimeSeries. fetch</code></li>
+<li><code>databaseinsights. recommendations. query</code></li>
+<li><code>databaseinsights. resourceMetadata. fetch</code></li>
+<li><code>databaseinsights. resourceRecommendations. query</code></li>
+<li><code>databaseinsights. systemMetrics. fetch</code></li>
+<li><code>databaseinsights. telemetryConfig. fetch</code></li>
+<li><code>databaseinsights. timeSeries. query</code></li>
+<li><code>databaseinsights.traces.fetch</code></li>
+<li><code>databaseinsights. virtualDbaAgent. createAgentPolicy</code></li>
+<li><code>databaseinsights. virtualDbaAgent. createContextService</code></li>
+<li><code>databaseinsights. virtualDbaAgent. createGoal</code></li>
+<li><code>databaseinsights. virtualDbaAgent. deleteAgentPolicy</code></li>
+<li><code>databaseinsights. virtualDbaAgent. deleteContextService</code></li>
+<li><code>databaseinsights. virtualDbaAgent. deleteGoal</code></li>
+<li><code>databaseinsights. virtualDbaAgent. disable</code></li>
+<li><code>databaseinsights. virtualDbaAgent. enable</code></li>
+<li><code>databaseinsights. virtualDbaAgent. fetchContextService</code></li>
+<li><code>databaseinsights. virtualDbaAgent. getAgentPolicy</code></li>
+<li><code>databaseinsights. virtualDbaAgent. getGoal</code></li>
+<li><code>databaseinsights. virtualDbaAgent. getTask</code></li>
+<li><code>databaseinsights. virtualDbaAgent. listGoals</code></li>
+<li><code>databaseinsights. virtualDbaAgent. listTasks</code></li>
+<li><code>databaseinsights. virtualDbaAgent. listTodos</code></li>
+<li><code>databaseinsights. virtualDbaAgent. query</code></li>
+<li><code>databaseinsights. virtualDbaAgent. updateAgentPolicy</code></li>
+<li><code>databaseinsights. virtualDbaAgent. updateContextService</code></li>
+<li><code>databaseinsights. virtualDbaAgent. updateGoal</code></li>
+<li><code>databaseinsights. virtualDbxAgent. query</code></li>
+<li><code>databaseinsights. waitEventStats. fetch</code></li>
+<li><code>databaseinsights. waitEventTimeSeries. fetch</code></li>
+<li><code>databaseinsights. workloadRecommendations. fetch</code></li>
+</ul>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="odd">
 <td>Database Insights Viewer
 <p>( <code>roles/ databaseinsights.viewer</code> )</p>
 <p>Viewer role for Database Insights data</p></td>
 <td><p><code>databaseinsights. activeQueries. fetch</code></p>
+<p><code>databaseinsights. activeSessionHistory. query</code></p>
 <p><code>databaseinsights. activitySummary. fetch</code></p>
+<p><code>databaseinsights. agentPolicies. getAgentPolicy</code></p>
 <p><code>databaseinsights. aggregatedEvents. query</code></p>
 <p><code>databaseinsights. aggregatedStats. query</code></p>
 <p><code>databaseinsights. clusterEvents. query</code></p>
 <p><code>databaseinsights. databaseIssues. troubleshoot</code></p>
 <p><code>databaseinsights. dbCenter. query</code></p>
 <p><code>databaseinsights. dbPerformance. query</code></p>
+<p><code>databaseinsights. genUiAgent. query</code></p>
+<p><code>databaseinsights.goals.getGoal</code></p>
+<p><code>databaseinsights.goals.getTask</code></p>
+<p><code>databaseinsights. goals. listGoals</code></p>
+<p><code>databaseinsights. goals. listTasks</code></p>
 <p><code>databaseinsights. indexRecommendations. query</code></p>
 <p><code>databaseinsights. instanceEvents. query</code></p>
 <p><code>databaseinsights.locations.*</code></p>
@@ -41,6 +212,8 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <li><code>databaseinsights.locations.get</code></li>
 <li><code>databaseinsights. locations. list</code></li>
 </ul>
+<p><code>databaseinsights.logs.fetch</code></p>
+<p><code>databaseinsights. operations. get</code></p>
 <p><code>databaseinsights. performanceIssues.*</code></p>
 <ul>
 <li><code>databaseinsights. performanceIssues. detect</code></li>
@@ -50,9 +223,17 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><code>databaseinsights. queryStats. fetch</code></p>
 <p><code>databaseinsights. queryTimeSeries. fetch</code></p>
 <p><code>databaseinsights. recommendations. query</code></p>
+<p><code>databaseinsights. resourceMetadata. fetch</code></p>
 <p><code>databaseinsights. resourceRecommendations. query</code></p>
 <p><code>databaseinsights. systemMetrics. fetch</code></p>
 <p><code>databaseinsights. timeSeries. query</code></p>
+<p><code>databaseinsights.traces.fetch</code></p>
+<p><code>databaseinsights. virtualDbaAgent. fetchContextService</code></p>
+<p><code>databaseinsights. virtualDbaAgent. getAgentPolicy</code></p>
+<p><code>databaseinsights. virtualDbaAgent. getGoal</code></p>
+<p><code>databaseinsights. virtualDbaAgent. listGoals</code></p>
+<p><code>databaseinsights. virtualDbaAgent. listTodos</code></p>
+<p><code>databaseinsights. virtualDbaAgent. query</code></p>
 <p><code>databaseinsights. virtualDbxAgent. query</code></p>
 <p><code>databaseinsights. waitEventStats. fetch</code></p>
 <p><code>databaseinsights. waitEventTimeSeries. fetch</code></p>
@@ -86,10 +267,13 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><code>databaseinsights. dbCenter. query</code></p>
 <p><code>databaseinsights. dbPerformance. query</code></p>
 <p><code>databaseinsights. indexRecommendations. query</code></p>
+<p><code>databaseinsights.logs.fetch</code></p>
 <p><code>databaseinsights. queryMetrics. fetch</code></p>
 <p><code>databaseinsights. queryStats. fetch</code></p>
 <p><code>databaseinsights. queryTimeSeries. fetch</code></p>
+<p><code>databaseinsights. resourceMetadata. fetch</code></p>
 <p><code>databaseinsights. systemMetrics. fetch</code></p>
+<p><code>databaseinsights.traces.fetch</code></p>
 <p><code>databaseinsights. waitEventStats. fetch</code></p>
 <p><code>databaseinsights. waitEventTimeSeries. fetch</code></p></td>
 </tr>
@@ -98,6 +282,7 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p>( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
 <p>Viewer role for Database Insights monitoring data</p></td>
 <td><p><code>databaseinsights. activeQueries. fetch</code></p>
+<p><code>databaseinsights. activeSessionHistory. query</code></p>
 <p><code>databaseinsights. activitySummary. fetch</code></p>
 <p><code>databaseinsights. aggregatedStats. query</code></p>
 <p><code>databaseinsights.locations.*</code></p>
@@ -118,7 +303,10 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <td>Database Insights performing operations
 <p>( <code>roles/ databaseinsights.operationsAdmin</code> )</p>
 <p>Admin role for performing Database Insights operations</p></td>
-<td><p><code>databaseinsights. activeQuery. terminate</code></p></td>
+<td><p><code>databaseinsights. activeQuery. terminate</code></p>
+<p><code>databaseinsights. operations. get</code></p>
+<p><code>databaseinsights. virtualDbaAgent. disable</code></p>
+<p><code>databaseinsights. virtualDbaAgent. enable</code></p></td>
 </tr>
 <tr class="odd">
 <td>Database Insights recommendation viewer
@@ -137,6 +325,12 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
+<td>Telemetry Config Fetcher <sup>Beta</sup>
+<p>( <code>roles/ databaseinsights.telemetryConfigFetcher</code> )</p>
+<p>Role used to fetch telemetry configuration.</p></td>
+<td><p><code>databaseinsights. telemetryConfig. fetch</code></p></td>
+</tr>
+<tr class="odd">
 <td>Database Insights virtual Dbx viewer <sup>Beta</sup>
 <p>( <code>roles/ databaseinsights.virtualDbxViewer</code> )</p>
 <p>Viewer role for Database Insights virtual Dbx data</p></td>
@@ -204,10 +398,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>databaseinsights. dbCenter. query</code></p>
 <p><code>databaseinsights. dbPerformance. query</code></p>
 <p><code>databaseinsights. indexRecommendations. query</code></p>
+<p><code>databaseinsights.logs.fetch</code></p>
 <p><code>databaseinsights. queryMetrics. fetch</code></p>
 <p><code>databaseinsights. queryStats. fetch</code></p>
 <p><code>databaseinsights. queryTimeSeries. fetch</code></p>
+<p><code>databaseinsights. resourceMetadata. fetch</code></p>
 <p><code>databaseinsights. systemMetrics. fetch</code></p>
+<p><code>databaseinsights.traces.fetch</code></p>
+<p><code>databaseinsights. virtualDbaAgent. query</code></p>
 <p><code>databaseinsights. virtualDbxAgent. query</code></p>
 <p><code>databaseinsights. waitEventStats. fetch</code></p>
 <p><code>databaseinsights. waitEventTimeSeries. fetch</code></p>
@@ -268,6 +466,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
@@ -278,9 +478,25 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.operationsAdmin">Database Insights performing operations</a> ( <code>roles/ databaseinsights.operationsAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><code>databaseinsights. activeSessionHistory. query</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
 <td><code>databaseinsights. activitySummary. fetch</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -288,11 +504,53 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
+<tr class="odd">
+<td><code>databaseinsights. agentPolicies. createAgentPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
 <tr class="even">
+<td><code>databaseinsights. agentPolicies. deleteAgentPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. agentPolicies. getAgentPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. agentPolicies. updateAgentPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><code>databaseinsights. aggregatedEvents. query</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -300,11 +558,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.eventsViewer">Events Service viewer</a> ( <code>roles/ databaseinsights.eventsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>databaseinsights. aggregatedStats. query</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -312,11 +572,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>databaseinsights. clusterEvents. query</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -324,11 +586,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.eventsViewer">Events Service viewer</a> ( <code>roles/ databaseinsights.eventsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>databaseinsights. databaseIssues. troubleshoot</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -336,6 +600,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code>roles/ databaseinsights.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. dbCenter. query</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -348,13 +635,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
-<td><code>databaseinsights. dbCenter. query</code></td>
+<td><code>databaseinsights. dbPerformance. query</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -367,23 +656,183 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
-<td><code>databaseinsights. dbPerformance. query</code></td>
+<td><code>databaseinsights. genUiAgent. deleteBlueprint</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. genUiAgent. getBlueprint</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. genUiAgent. listBlueprints</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. genUiAgent. query</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
-<p>Service agent roles</p>
-<blockquote>
-<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
-</blockquote>
-<ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code>roles/ databaseinsights.serviceAgent</code> )</li>
-</ul></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. genUiAgent. saveBlueprint</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. goals. applyTaskRemediation</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. goals. createGoal</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. goals. deleteGoal</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. goals. dismissTask</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights.goals.fixTask</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights.goals.getGoal</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights.goals.getTask</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. goals. listGoals</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. goals. listTasks</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. goals. markTaskAsDone</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. goals. restoreTask</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. goals. updateGoal</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>databaseinsights. indexRecommendations. query</code></td>
@@ -393,6 +842,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.recommendationViewer">Database Insights recommendation viewer</a> ( <code>roles/ databaseinsights.recommendationViewer</code> )</p>
@@ -413,6 +864,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.eventsViewer">Events Service viewer</a> ( <code>roles/ databaseinsights.eventsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
@@ -425,6 +878,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.recommendationViewer">Database Insights recommendation viewer</a> ( <code>roles/ databaseinsights.recommendationViewer</code> )</p>
@@ -438,12 +893,49 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.recommendationViewer">Database Insights recommendation viewer</a> ( <code>roles/ databaseinsights.recommendationViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights.logs.fetch</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code>roles/ databaseinsights.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. operations. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.operationsAdmin">Database Insights performing operations</a> ( <code>roles/ databaseinsights.operationsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
 <tr class="even">
@@ -454,6 +946,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.assistantViewer">Database Insights assistant viewer</a> ( <code>roles/ databaseinsights.assistantViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
@@ -466,6 +960,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.assistantViewer">Database Insights assistant viewer</a> ( <code>roles/ databaseinsights.assistantViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
@@ -478,6 +974,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -497,6 +995,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
@@ -517,6 +1017,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
@@ -537,11 +1039,34 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.recommendationViewer">Database Insights recommendation viewer</a> ( <code>roles/ databaseinsights.recommendationViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
 <tr class="even">
+<td><code>databaseinsights. resourceMetadata. fetch</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code>roles/ databaseinsights.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><code>databaseinsights. resourceRecommendations. query</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -549,11 +1074,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.recommendationViewer">Database Insights recommendation viewer</a> ( <code>roles/ databaseinsights.recommendationViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>databaseinsights. systemMetrics. fetch</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
@@ -561,6 +1088,56 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code>roles/ databaseinsights.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. telemetryConfig. fetch</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.telemetryConfigFetcher">Telemetry Config Fetcher</a> ( <code>roles/ databaseinsights.telemetryConfigFetcher</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. timeSeries. query</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights.traces.fetch</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -573,16 +1150,214 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
-<td><code>databaseinsights. timeSeries. query</code></td>
+<td><code>databaseinsights. virtualDbaAgent. createAgentPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. virtualDbaAgent. createContextService</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. virtualDbaAgent. createGoal</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. virtualDbaAgent. deleteAgentPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. virtualDbaAgent. deleteContextService</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. virtualDbaAgent. deleteGoal</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. virtualDbaAgent. disable</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.operationsAdmin">Database Insights performing operations</a> ( <code>roles/ databaseinsights.operationsAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. virtualDbaAgent. enable</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.operationsAdmin">Database Insights performing operations</a> ( <code>roles/ databaseinsights.operationsAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. virtualDbaAgent. fetchContextService</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. virtualDbaAgent. getAgentPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. virtualDbaAgent. getGoal</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. virtualDbaAgent. getTask</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. virtualDbaAgent. listGoals</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. virtualDbaAgent. listTasks</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. virtualDbaAgent. listTodos</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. virtualDbaAgent. query</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code>roles/ databaseinsights.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. virtualDbaAgent. updateAgentPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>databaseinsights. virtualDbaAgent. updateContextService</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>databaseinsights. virtualDbaAgent. updateGoal</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>databaseinsights. virtualDbxAgent. query</code></td>
@@ -592,6 +1367,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.virtualDbxViewer">Database Insights virtual Dbx viewer</a> ( <code>roles/ databaseinsights.virtualDbxViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
@@ -611,6 +1388,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
@@ -631,6 +1410,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code>roles/ databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
@@ -651,6 +1432,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.admin">Database Insights Admin</a> ( <code>roles/ databaseinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.editor">Database Insights Editor</a> ( <code>roles/ databaseinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.viewer">Database Insights Viewer</a> ( <code>roles/ databaseinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code>roles/ databaseinsights.monitoringViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.recommendationViewer">Database Insights recommendation viewer</a> ( <code>roles/ databaseinsights.recommendationViewer</code> )</p>

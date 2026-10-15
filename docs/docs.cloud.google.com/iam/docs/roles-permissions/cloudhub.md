@@ -95,6 +95,7 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 <p><code>capacityplanner. capacityPlans. get</code></p>
 <p><code>capacityplanner. capacityPlans. list</code></p>
 <p><code>capacityplanner.forecasts.list</code></p>
+<p><code>capacityplanner. messages. generate</code></p>
 <p><code>capacityplanner.operations.get</code></p>
 <p><code>capacityplanner. planAlertInsights. list</code></p>
 <p><code>capacityplanner. usageAlertInsights. list</code></p>

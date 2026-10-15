@@ -215,61 +215,97 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code>aiplatform.*</code></p>
+<td><p><code>aiplatform. agentAnomalyDetectionScopes.*</code></p>
 <ul>
 <li><code>aiplatform. agentAnomalyDetectionScopes. create</code></li>
 <li><code>aiplatform. agentAnomalyDetectionScopes. delete</code></li>
 <li><code>aiplatform. agentAnomalyDetectionScopes. get</code></li>
 <li><code>aiplatform. agentAnomalyDetectionScopes. list</code></li>
+</ul>
+<p><code>aiplatform.agentExamples.*</code></p>
+<ul>
 <li><code>aiplatform. agentExamples. create</code></li>
 <li><code>aiplatform. agentExamples. delete</code></li>
 <li><code>aiplatform.agentExamples.get</code></li>
 <li><code>aiplatform.agentExamples.list</code></li>
 <li><code>aiplatform. agentExamples. update</code></li>
-<li><code>aiplatform.agents.create</code></li>
-<li><code>aiplatform.agents.delete</code></li>
-<li><code>aiplatform.agents.get</code></li>
-<li><code>aiplatform.agents.list</code></li>
-<li><code>aiplatform.agents.update</code></li>
+</ul>
+<p><code>aiplatform.agents.create</code></p>
+<p><code>aiplatform.agents.delete</code></p>
+<p><code>aiplatform.agents.get</code></p>
+<p><code>aiplatform.agents.list</code></p>
+<p><code>aiplatform.agents.update</code></p>
+<p><code>aiplatform. analyzedInvocations.*</code></p>
+<ul>
 <li><code>aiplatform. analyzedInvocations. get</code></li>
 <li><code>aiplatform. analyzedInvocations. list</code></li>
+</ul>
+<p><code>aiplatform.analyzedSessions.*</code></p>
+<ul>
 <li><code>aiplatform. analyzedSessions. aggregate</code></li>
 <li><code>aiplatform. analyzedSessions. get</code></li>
 <li><code>aiplatform. analyzedSessions. list</code></li>
+</ul>
+<p><code>aiplatform.annotationSpecs.*</code></p>
+<ul>
 <li><code>aiplatform. annotationSpecs. create</code></li>
 <li><code>aiplatform. annotationSpecs. delete</code></li>
 <li><code>aiplatform.annotationSpecs.get</code></li>
 <li><code>aiplatform. annotationSpecs. list</code></li>
 <li><code>aiplatform. annotationSpecs. update</code></li>
+</ul>
+<p><code>aiplatform.annotations.*</code></p>
+<ul>
 <li><code>aiplatform.annotations.create</code></li>
 <li><code>aiplatform.annotations.delete</code></li>
 <li><code>aiplatform.annotations.get</code></li>
 <li><code>aiplatform.annotations.list</code></li>
 <li><code>aiplatform.annotations.update</code></li>
+</ul>
+<p><code>aiplatform.apps.*</code></p>
+<ul>
 <li><code>aiplatform.apps.create</code></li>
 <li><code>aiplatform.apps.delete</code></li>
 <li><code>aiplatform.apps.get</code></li>
 <li><code>aiplatform.apps.list</code></li>
 <li><code>aiplatform.apps.update</code></li>
+</ul>
+<p><code>aiplatform.artifacts.*</code></p>
+<ul>
 <li><code>aiplatform.artifacts.create</code></li>
 <li><code>aiplatform.artifacts.delete</code></li>
 <li><code>aiplatform.artifacts.get</code></li>
 <li><code>aiplatform.artifacts.list</code></li>
 <li><code>aiplatform.artifacts.update</code></li>
+</ul>
+<p><code>aiplatform. batchPredictionJobs.*</code></p>
+<ul>
 <li><code>aiplatform. batchPredictionJobs. cancel</code></li>
 <li><code>aiplatform. batchPredictionJobs. create</code></li>
 <li><code>aiplatform. batchPredictionJobs. delete</code></li>
 <li><code>aiplatform. batchPredictionJobs. get</code></li>
 <li><code>aiplatform. batchPredictionJobs. list</code></li>
+</ul>
+<p><code>aiplatform.cacheConfigs.*</code></p>
+<ul>
 <li><code>aiplatform.cacheConfigs.get</code></li>
 <li><code>aiplatform.cacheConfigs.update</code></li>
+</ul>
+<p><code>aiplatform.cachedContents.*</code></p>
+<ul>
 <li><code>aiplatform. cachedContents. create</code></li>
 <li><code>aiplatform. cachedContents. delete</code></li>
 <li><code>aiplatform.cachedContents.get</code></li>
 <li><code>aiplatform.cachedContents.list</code></li>
 <li><code>aiplatform. cachedContents. update</code></li>
+</ul>
+<p><code>aiplatform.consents.*</code></p>
+<ul>
 <li><code>aiplatform.consents.get</code></li>
 <li><code>aiplatform.consents.update</code></li>
+</ul>
+<p><code>aiplatform.contexts.*</code></p>
+<ul>
 <li><code>aiplatform. contexts. addContextArtifactsAndExecutions</code></li>
 <li><code>aiplatform. contexts. addContextChildren</code></li>
 <li><code>aiplatform.contexts.create</code></li>
@@ -278,26 +314,41 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.contexts.list</code></li>
 <li><code>aiplatform. contexts. queryContextLineageSubgraph</code></li>
 <li><code>aiplatform.contexts.update</code></li>
+</ul>
+<p><code>aiplatform.customJobs.*</code></p>
+<ul>
 <li><code>aiplatform.customJobs.cancel</code></li>
 <li><code>aiplatform.customJobs.create</code></li>
 <li><code>aiplatform.customJobs.delete</code></li>
 <li><code>aiplatform.customJobs.get</code></li>
 <li><code>aiplatform.customJobs.list</code></li>
+</ul>
+<p><code>aiplatform.dataItems.*</code></p>
+<ul>
 <li><code>aiplatform.dataItems.create</code></li>
 <li><code>aiplatform.dataItems.delete</code></li>
 <li><code>aiplatform.dataItems.get</code></li>
 <li><code>aiplatform.dataItems.list</code></li>
 <li><code>aiplatform.dataItems.update</code></li>
+</ul>
+<p><code>aiplatform.dataLabelingJobs.*</code></p>
+<ul>
 <li><code>aiplatform. dataLabelingJobs. cancel</code></li>
 <li><code>aiplatform. dataLabelingJobs. create</code></li>
 <li><code>aiplatform. dataLabelingJobs. delete</code></li>
 <li><code>aiplatform. dataLabelingJobs. get</code></li>
 <li><code>aiplatform. dataLabelingJobs. list</code></li>
+</ul>
+<p><code>aiplatform.datasetVersions.*</code></p>
+<ul>
 <li><code>aiplatform. datasetVersions. create</code></li>
 <li><code>aiplatform. datasetVersions. delete</code></li>
 <li><code>aiplatform.datasetVersions.get</code></li>
 <li><code>aiplatform. datasetVersions. list</code></li>
 <li><code>aiplatform. datasetVersions. restore</code></li>
+</ul>
+<p><code>aiplatform.datasets.*</code></p>
+<ul>
 <li><code>aiplatform.datasets.create</code></li>
 <li><code>aiplatform.datasets.delete</code></li>
 <li><code>aiplatform.datasets.export</code></li>
@@ -305,22 +356,34 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.datasets.import</code></li>
 <li><code>aiplatform.datasets.list</code></li>
 <li><code>aiplatform.datasets.update</code></li>
+</ul>
+<p><code>aiplatform. deploymentResourcePools.*</code></p>
+<ul>
 <li><code>aiplatform. deploymentResourcePools. create</code></li>
 <li><code>aiplatform. deploymentResourcePools. delete</code></li>
 <li><code>aiplatform. deploymentResourcePools. get</code></li>
 <li><code>aiplatform. deploymentResourcePools. list</code></li>
 <li><code>aiplatform. deploymentResourcePools. queryDeployedModels</code></li>
 <li><code>aiplatform. deploymentResourcePools. update</code></li>
+</ul>
+<p><code>aiplatform. edgeDeploymentJobs.*</code></p>
+<ul>
 <li><code>aiplatform. edgeDeploymentJobs. create</code></li>
 <li><code>aiplatform. edgeDeploymentJobs. delete</code></li>
 <li><code>aiplatform. edgeDeploymentJobs. get</code></li>
 <li><code>aiplatform. edgeDeploymentJobs. list</code></li>
-<li><code>aiplatform. edgeDeviceDebugInfo. get</code></li>
+</ul>
+<p><code>aiplatform. edgeDeviceDebugInfo. get</code></p>
+<p><code>aiplatform.edgeDevices.*</code></p>
+<ul>
 <li><code>aiplatform.edgeDevices.create</code></li>
 <li><code>aiplatform.edgeDevices.delete</code></li>
 <li><code>aiplatform.edgeDevices.get</code></li>
 <li><code>aiplatform.edgeDevices.list</code></li>
 <li><code>aiplatform.edgeDevices.update</code></li>
+</ul>
+<p><code>aiplatform.endpoints.*</code></p>
+<ul>
 <li><code>aiplatform.endpoints.create</code></li>
 <li><code>aiplatform.endpoints.delete</code></li>
 <li><code>aiplatform.endpoints.deploy</code></li>
@@ -332,6 +395,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. endpoints. setIamPolicy</code></li>
 <li><code>aiplatform.endpoints.undeploy</code></li>
 <li><code>aiplatform.endpoints.update</code></li>
+</ul>
+<p><code>aiplatform.entityTypes.*</code></p>
+<ul>
 <li><code>aiplatform.entityTypes.create</code></li>
 <li><code>aiplatform.entityTypes.delete</code></li>
 <li><code>aiplatform. entityTypes. deleteFeatureValues</code></li>
@@ -345,20 +411,32 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. entityTypes. streamingReadFeatureValues</code></li>
 <li><code>aiplatform.entityTypes.update</code></li>
 <li><code>aiplatform. entityTypes. writeFeatureValues</code></li>
+</ul>
+<p><code>aiplatform. evaluationExperiments.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationExperiments. create</code></li>
 <li><code>aiplatform. evaluationExperiments. delete</code></li>
 <li><code>aiplatform. evaluationExperiments. get</code></li>
 <li><code>aiplatform. evaluationExperiments. list</code></li>
 <li><code>aiplatform. evaluationExperiments. update</code></li>
+</ul>
+<p><code>aiplatform.evaluationItems.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationItems. create</code></li>
 <li><code>aiplatform. evaluationItems. delete</code></li>
 <li><code>aiplatform.evaluationItems.get</code></li>
 <li><code>aiplatform. evaluationItems. list</code></li>
 <li><code>aiplatform. evaluationItems. update</code></li>
+</ul>
+<p><code>aiplatform.evaluationMetrics.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationMetrics. create</code></li>
 <li><code>aiplatform. evaluationMetrics. delete</code></li>
 <li><code>aiplatform. evaluationMetrics. get</code></li>
 <li><code>aiplatform. evaluationMetrics. list</code></li>
+</ul>
+<p><code>aiplatform.evaluationRuns.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationRuns. cancel</code></li>
 <li><code>aiplatform. evaluationRuns. create</code></li>
 <li><code>aiplatform. evaluationRuns. delete</code></li>
@@ -366,12 +444,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.evaluationRuns.get</code></li>
 <li><code>aiplatform.evaluationRuns.list</code></li>
 <li><code>aiplatform. evaluationRuns. update</code></li>
+</ul>
+<p><code>aiplatform.evaluationSets.*</code></p>
+<ul>
 <li><code>aiplatform. evaluationSets. create</code></li>
 <li><code>aiplatform. evaluationSets. delete</code></li>
 <li><code>aiplatform.evaluationSets.get</code></li>
 <li><code>aiplatform. evaluationSets. import</code></li>
 <li><code>aiplatform.evaluationSets.list</code></li>
 <li><code>aiplatform. evaluationSets. update</code></li>
+</ul>
+<p><code>aiplatform.exampleStores.*</code></p>
+<ul>
 <li><code>aiplatform. exampleStores. create</code></li>
 <li><code>aiplatform. exampleStores. delete</code></li>
 <li><code>aiplatform.exampleStores.get</code></li>
@@ -379,6 +463,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. exampleStores. readExample</code></li>
 <li><code>aiplatform. exampleStores. update</code></li>
 <li><code>aiplatform. exampleStores. writeExample</code></li>
+</ul>
+<p><code>aiplatform.executions.*</code></p>
+<ul>
 <li><code>aiplatform. executions. addExecutionEvents</code></li>
 <li><code>aiplatform.executions.create</code></li>
 <li><code>aiplatform.executions.delete</code></li>
@@ -386,12 +473,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.executions.list</code></li>
 <li><code>aiplatform. executions. queryExecutionInputsAndOutputs</code></li>
 <li><code>aiplatform.executions.update</code></li>
+</ul>
+<p><code>aiplatform.extensions.*</code></p>
+<ul>
 <li><code>aiplatform.extensions.delete</code></li>
 <li><code>aiplatform.extensions.execute</code></li>
 <li><code>aiplatform.extensions.get</code></li>
 <li><code>aiplatform.extensions.import</code></li>
 <li><code>aiplatform.extensions.list</code></li>
 <li><code>aiplatform.extensions.update</code></li>
+</ul>
+<p><code>aiplatform.featureGroups.*</code></p>
+<ul>
 <li><code>aiplatform. featureGroups. create</code></li>
 <li><code>aiplatform. featureGroups. delete</code></li>
 <li><code>aiplatform.featureGroups.get</code></li>
@@ -399,14 +492,23 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.featureGroups.list</code></li>
 <li><code>aiplatform. featureGroups. setIamPolicy</code></li>
 <li><code>aiplatform. featureGroups. update</code></li>
+</ul>
+<p><code>aiplatform. featureMonitorJobs.*</code></p>
+<ul>
 <li><code>aiplatform. featureMonitorJobs. create</code></li>
 <li><code>aiplatform. featureMonitorJobs. get</code></li>
 <li><code>aiplatform. featureMonitorJobs. list</code></li>
+</ul>
+<p><code>aiplatform.featureMonitors.*</code></p>
+<ul>
 <li><code>aiplatform. featureMonitors. create</code></li>
 <li><code>aiplatform. featureMonitors. delete</code></li>
 <li><code>aiplatform.featureMonitors.get</code></li>
 <li><code>aiplatform. featureMonitors. list</code></li>
 <li><code>aiplatform. featureMonitors. update</code></li>
+</ul>
+<p><code>aiplatform. featureOnlineStores.*</code></p>
+<ul>
 <li><code>aiplatform. featureOnlineStores. create</code></li>
 <li><code>aiplatform. featureOnlineStores. delete</code></li>
 <li><code>aiplatform. featureOnlineStores. get</code></li>
@@ -414,8 +516,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. featureOnlineStores. list</code></li>
 <li><code>aiplatform. featureOnlineStores. setIamPolicy</code></li>
 <li><code>aiplatform. featureOnlineStores. update</code></li>
+</ul>
+<p><code>aiplatform.featureViewSyncs.*</code></p>
+<ul>
 <li><code>aiplatform. featureViewSyncs. get</code></li>
 <li><code>aiplatform. featureViewSyncs. list</code></li>
+</ul>
+<p><code>aiplatform.featureViews.*</code></p>
+<ul>
 <li><code>aiplatform.featureViews.create</code></li>
 <li><code>aiplatform.featureViews.delete</code></li>
 <li><code>aiplatform. featureViews. directWrite</code></li>
@@ -427,11 +535,17 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. featureViews. setIamPolicy</code></li>
 <li><code>aiplatform.featureViews.sync</code></li>
 <li><code>aiplatform.featureViews.update</code></li>
+</ul>
+<p><code>aiplatform.features.*</code></p>
+<ul>
 <li><code>aiplatform.features.create</code></li>
 <li><code>aiplatform.features.delete</code></li>
 <li><code>aiplatform.features.get</code></li>
 <li><code>aiplatform.features.list</code></li>
 <li><code>aiplatform.features.update</code></li>
+</ul>
+<p><code>aiplatform.featurestores.*</code></p>
+<ul>
 <li><code>aiplatform. featurestores. batchReadFeatureValues</code></li>
 <li><code>aiplatform. featurestores. create</code></li>
 <li><code>aiplatform. featurestores. delete</code></li>
@@ -444,6 +558,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. featurestores. setIamPolicy</code></li>
 <li><code>aiplatform. featurestores. update</code></li>
 <li><code>aiplatform. featurestores. writeFeatures</code></li>
+</ul>
+<p><code>aiplatform.humanInTheLoops.*</code></p>
+<ul>
 <li><code>aiplatform. humanInTheLoops. cancel</code></li>
 <li><code>aiplatform. humanInTheLoops. create</code></li>
 <li><code>aiplatform. humanInTheLoops. delete</code></li>
@@ -452,11 +569,17 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. humanInTheLoops. queryAnnotationStats</code></li>
 <li><code>aiplatform. humanInTheLoops. send</code></li>
 <li><code>aiplatform. humanInTheLoops. update</code></li>
+</ul>
+<p><code>aiplatform. hyperparameterTuningJobs.*</code></p>
+<ul>
 <li><code>aiplatform. hyperparameterTuningJobs. cancel</code></li>
 <li><code>aiplatform. hyperparameterTuningJobs. create</code></li>
 <li><code>aiplatform. hyperparameterTuningJobs. delete</code></li>
 <li><code>aiplatform. hyperparameterTuningJobs. get</code></li>
 <li><code>aiplatform. hyperparameterTuningJobs. list</code></li>
+</ul>
+<p><code>aiplatform.indexEndpoints.*</code></p>
+<ul>
 <li><code>aiplatform. indexEndpoints. create</code></li>
 <li><code>aiplatform. indexEndpoints. delete</code></li>
 <li><code>aiplatform. indexEndpoints. deploy</code></li>
@@ -465,19 +588,31 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. indexEndpoints. queryVectors</code></li>
 <li><code>aiplatform. indexEndpoints. undeploy</code></li>
 <li><code>aiplatform. indexEndpoints. update</code></li>
+</ul>
+<p><code>aiplatform.indexes.*</code></p>
+<ul>
 <li><code>aiplatform.indexes.create</code></li>
 <li><code>aiplatform.indexes.delete</code></li>
 <li><code>aiplatform.indexes.get</code></li>
 <li><code>aiplatform.indexes.list</code></li>
 <li><code>aiplatform.indexes.update</code></li>
+</ul>
+<p><code>aiplatform.interactions.*</code></p>
+<ul>
 <li><code>aiplatform.interactions.cancel</code></li>
 <li><code>aiplatform.interactions.create</code></li>
 <li><code>aiplatform.interactions.delete</code></li>
 <li><code>aiplatform.interactions.get</code></li>
 <li><code>aiplatform.interactions.list</code></li>
+</ul>
+<p><code>aiplatform.locations.*</code></p>
+<ul>
 <li><code>aiplatform. locations. evaluateInstances</code></li>
 <li><code>aiplatform.locations.get</code></li>
 <li><code>aiplatform.locations.list</code></li>
+</ul>
+<p><code>aiplatform.memories.*</code></p>
+<ul>
 <li><code>aiplatform.memories.create</code></li>
 <li><code>aiplatform.memories.delete</code></li>
 <li><code>aiplatform.memories.generate</code></li>
@@ -485,19 +620,34 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.memories.list</code></li>
 <li><code>aiplatform.memories.retrieve</code></li>
 <li><code>aiplatform.memories.update</code></li>
+</ul>
+<p><code>aiplatform.memoryRevisions.*</code></p>
+<ul>
 <li><code>aiplatform.memoryRevisions.get</code></li>
 <li><code>aiplatform. memoryRevisions. list</code></li>
 <li><code>aiplatform. memoryRevisions. rollback</code></li>
+</ul>
+<p><code>aiplatform.metadataSchemas.*</code></p>
+<ul>
 <li><code>aiplatform. metadataSchemas. create</code></li>
 <li><code>aiplatform. metadataSchemas. delete</code></li>
 <li><code>aiplatform.metadataSchemas.get</code></li>
 <li><code>aiplatform. metadataSchemas. list</code></li>
+</ul>
+<p><code>aiplatform.metadataStores.*</code></p>
+<ul>
 <li><code>aiplatform. metadataStores. create</code></li>
 <li><code>aiplatform. metadataStores. delete</code></li>
 <li><code>aiplatform.metadataStores.get</code></li>
 <li><code>aiplatform.metadataStores.list</code></li>
+</ul>
+<p><code>aiplatform. migratableResources.*</code></p>
+<ul>
 <li><code>aiplatform. migratableResources. migrate</code></li>
 <li><code>aiplatform. migratableResources. search</code></li>
+</ul>
+<p><code>aiplatform. modelDeploymentMonitoringJobs.*</code></p>
+<ul>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. create</code></li>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. delete</code></li>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. get</code></li>
@@ -506,17 +656,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. modelDeploymentMonitoringJobs. resume</code></li>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. searchStatsAnomalies</code></li>
 <li><code>aiplatform. modelDeploymentMonitoringJobs. update</code></li>
+</ul>
+<p><code>aiplatform. modelEvaluationSlices.*</code></p>
+<ul>
 <li><code>aiplatform. modelEvaluationSlices. get</code></li>
 <li><code>aiplatform. modelEvaluationSlices. import</code></li>
 <li><code>aiplatform. modelEvaluationSlices. list</code></li>
+</ul>
+<p><code>aiplatform.modelEvaluations.*</code></p>
+<ul>
 <li><code>aiplatform. modelEvaluations. exportEvaluatedDataItems</code></li>
 <li><code>aiplatform. modelEvaluations. get</code></li>
 <li><code>aiplatform. modelEvaluations. import</code></li>
 <li><code>aiplatform. modelEvaluations. list</code></li>
+</ul>
+<p><code>aiplatform. modelMonitoringJobs.*</code></p>
+<ul>
 <li><code>aiplatform. modelMonitoringJobs. create</code></li>
 <li><code>aiplatform. modelMonitoringJobs. delete</code></li>
 <li><code>aiplatform. modelMonitoringJobs. get</code></li>
 <li><code>aiplatform. modelMonitoringJobs. list</code></li>
+</ul>
+<p><code>aiplatform.modelMonitors.*</code></p>
+<ul>
 <li><code>aiplatform. modelMonitors. create</code></li>
 <li><code>aiplatform. modelMonitors. delete</code></li>
 <li><code>aiplatform.modelMonitors.get</code></li>
@@ -524,28 +686,46 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. modelMonitors. searchModelMonitoringAlerts</code></li>
 <li><code>aiplatform. modelMonitors. searchModelMonitoringStats</code></li>
 <li><code>aiplatform. modelMonitors. update</code></li>
+</ul>
+<p><code>aiplatform.models.*</code></p>
+<ul>
 <li><code>aiplatform.models.delete</code></li>
 <li><code>aiplatform.models.export</code></li>
 <li><code>aiplatform.models.get</code></li>
 <li><code>aiplatform.models.list</code></li>
 <li><code>aiplatform.models.update</code></li>
 <li><code>aiplatform.models.upload</code></li>
+</ul>
+<p><code>aiplatform.monitoredAgents.*</code></p>
+<ul>
 <li><code>aiplatform. monitoredAgents. clearTrainingData</code></li>
 <li><code>aiplatform. monitoredAgents. disable</code></li>
 <li><code>aiplatform. monitoredAgents. enable</code></li>
 <li><code>aiplatform.monitoredAgents.get</code></li>
 <li><code>aiplatform. monitoredAgents. list</code></li>
+</ul>
+<p><code>aiplatform.nasJobs.*</code></p>
+<ul>
 <li><code>aiplatform.nasJobs.cancel</code></li>
 <li><code>aiplatform.nasJobs.create</code></li>
 <li><code>aiplatform.nasJobs.delete</code></li>
 <li><code>aiplatform.nasJobs.get</code></li>
 <li><code>aiplatform.nasJobs.list</code></li>
+</ul>
+<p><code>aiplatform.nasTrialDetails.*</code></p>
+<ul>
 <li><code>aiplatform.nasTrialDetails.get</code></li>
 <li><code>aiplatform. nasTrialDetails. list</code></li>
+</ul>
+<p><code>aiplatform. notebookExecutionJobs.*</code></p>
+<ul>
 <li><code>aiplatform. notebookExecutionJobs. create</code></li>
 <li><code>aiplatform. notebookExecutionJobs. delete</code></li>
 <li><code>aiplatform. notebookExecutionJobs. get</code></li>
 <li><code>aiplatform. notebookExecutionJobs. list</code></li>
+</ul>
+<p><code>aiplatform. notebookRuntimeTemplates.*</code></p>
+<ul>
 <li><code>aiplatform. notebookRuntimeTemplates. apply</code></li>
 <li><code>aiplatform. notebookRuntimeTemplates. create</code></li>
 <li><code>aiplatform. notebookRuntimeTemplates. delete</code></li>
@@ -555,6 +735,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. notebookRuntimeTemplates. setDefault</code></li>
 <li><code>aiplatform. notebookRuntimeTemplates. setIamPolicy</code></li>
 <li><code>aiplatform. notebookRuntimeTemplates. update</code></li>
+</ul>
+<p><code>aiplatform.notebookRuntimes.*</code></p>
+<ul>
 <li><code>aiplatform. notebookRuntimes. assign</code></li>
 <li><code>aiplatform. notebookRuntimes. delete</code></li>
 <li><code>aiplatform. notebookRuntimes. get</code></li>
@@ -562,23 +745,38 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. notebookRuntimes. start</code></li>
 <li><code>aiplatform. notebookRuntimes. update</code></li>
 <li><code>aiplatform. notebookRuntimes. upgrade</code></li>
+</ul>
+<p><code>aiplatform.onlineEvaluators.*</code></p>
+<ul>
 <li><code>aiplatform. onlineEvaluators. create</code></li>
 <li><code>aiplatform. onlineEvaluators. delete</code></li>
 <li><code>aiplatform. onlineEvaluators. get</code></li>
 <li><code>aiplatform. onlineEvaluators. list</code></li>
 <li><code>aiplatform. onlineEvaluators. update</code></li>
-<li><code>aiplatform.operations.list</code></li>
+</ul>
+<p><code>aiplatform.operations.list</code></p>
+<p><code>aiplatform. persistentResources.*</code></p>
+<ul>
 <li><code>aiplatform. persistentResources. create</code></li>
 <li><code>aiplatform. persistentResources. delete</code></li>
 <li><code>aiplatform. persistentResources. get</code></li>
 <li><code>aiplatform. persistentResources. list</code></li>
+</ul>
+<p><code>aiplatform.pipelineJobs.*</code></p>
+<ul>
 <li><code>aiplatform.pipelineJobs.cancel</code></li>
 <li><code>aiplatform.pipelineJobs.create</code></li>
 <li><code>aiplatform.pipelineJobs.delete</code></li>
 <li><code>aiplatform.pipelineJobs.get</code></li>
 <li><code>aiplatform.pipelineJobs.list</code></li>
+</ul>
+<p><code>aiplatform. provisionedThroughputRevisions.*</code></p>
+<ul>
 <li><code>aiplatform. provisionedThroughputRevisions. get</code></li>
 <li><code>aiplatform. provisionedThroughputRevisions. list</code></li>
+</ul>
+<p><code>aiplatform. provisionedThroughputs.*</code></p>
+<ul>
 <li><code>aiplatform. provisionedThroughputs. cancel</code></li>
 <li><code>aiplatform. provisionedThroughputs. changeScope</code></li>
 <li><code>aiplatform. provisionedThroughputs. create</code></li>
@@ -586,23 +784,38 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. provisionedThroughputs. list</code></li>
 <li><code>aiplatform. provisionedThroughputs. split</code></li>
 <li><code>aiplatform. provisionedThroughputs. update</code></li>
+</ul>
+<p><code>aiplatform.ragCorpora.*</code></p>
+<ul>
 <li><code>aiplatform.ragCorpora.create</code></li>
 <li><code>aiplatform.ragCorpora.delete</code></li>
 <li><code>aiplatform.ragCorpora.get</code></li>
 <li><code>aiplatform.ragCorpora.list</code></li>
 <li><code>aiplatform.ragCorpora.query</code></li>
 <li><code>aiplatform.ragCorpora.update</code></li>
+</ul>
+<p><code>aiplatform.ragEngineConfigs.*</code></p>
+<ul>
 <li><code>aiplatform. ragEngineConfigs. get</code></li>
 <li><code>aiplatform. ragEngineConfigs. update</code></li>
+</ul>
+<p><code>aiplatform.ragFiles.*</code></p>
+<ul>
 <li><code>aiplatform.ragFiles.delete</code></li>
 <li><code>aiplatform.ragFiles.get</code></li>
 <li><code>aiplatform.ragFiles.import</code></li>
 <li><code>aiplatform.ragFiles.list</code></li>
 <li><code>aiplatform.ragFiles.upload</code></li>
+</ul>
+<p><code>aiplatform. reasoningEngineRuntimeRevisions.*</code></p>
+<ul>
 <li><code>aiplatform. reasoningEngineRuntimeRevisions. delete</code></li>
 <li><code>aiplatform. reasoningEngineRuntimeRevisions. get</code></li>
 <li><code>aiplatform. reasoningEngineRuntimeRevisions. list</code></li>
 <li><code>aiplatform. reasoningEngineRuntimeRevisions. query</code></li>
+</ul>
+<p><code>aiplatform.reasoningEngines.*</code></p>
+<ul>
 <li><code>aiplatform. reasoningEngines. create</code></li>
 <li><code>aiplatform. reasoningEngines. delete</code></li>
 <li><code>aiplatform. reasoningEngines. get</code></li>
@@ -611,53 +824,86 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. reasoningEngines. query</code></li>
 <li><code>aiplatform. reasoningEngines. setIamPolicy</code></li>
 <li><code>aiplatform. reasoningEngines. update</code></li>
+</ul>
+<p><code>aiplatform. sandboxEnvironments.*</code></p>
+<ul>
 <li><code>aiplatform. sandboxEnvironments. create</code></li>
 <li><code>aiplatform. sandboxEnvironments. delete</code></li>
 <li><code>aiplatform. sandboxEnvironments. execute</code></li>
 <li><code>aiplatform. sandboxEnvironments. get</code></li>
 <li><code>aiplatform. sandboxEnvironments. list</code></li>
+</ul>
+<p><code>aiplatform.schedules.*</code></p>
+<ul>
 <li><code>aiplatform.schedules.create</code></li>
 <li><code>aiplatform.schedules.delete</code></li>
 <li><code>aiplatform.schedules.get</code></li>
 <li><code>aiplatform.schedules.list</code></li>
 <li><code>aiplatform.schedules.update</code></li>
+</ul>
+<p><code>aiplatform. semanticGovernancePolicies.*</code></p>
+<ul>
 <li><code>aiplatform. semanticGovernancePolicies. create</code></li>
 <li><code>aiplatform. semanticGovernancePolicies. delete</code></li>
 <li><code>aiplatform. semanticGovernancePolicies. get</code></li>
 <li><code>aiplatform. semanticGovernancePolicies. list</code></li>
 <li><code>aiplatform. semanticGovernancePolicies. update</code></li>
+</ul>
+<p><code>aiplatform. semanticGovernancePolicyEngine.*</code></p>
+<ul>
 <li><code>aiplatform. semanticGovernancePolicyEngine. get</code></li>
 <li><code>aiplatform. semanticGovernancePolicyEngine. update</code></li>
+</ul>
+<p><code>aiplatform.sessionEvents.*</code></p>
+<ul>
 <li><code>aiplatform. sessionEvents. append</code></li>
 <li><code>aiplatform.sessionEvents.list</code></li>
+</ul>
+<p><code>aiplatform.sessions.*</code></p>
+<ul>
 <li><code>aiplatform.sessions.create</code></li>
 <li><code>aiplatform.sessions.delete</code></li>
 <li><code>aiplatform.sessions.get</code></li>
 <li><code>aiplatform.sessions.list</code></li>
 <li><code>aiplatform.sessions.run</code></li>
 <li><code>aiplatform.sessions.update</code></li>
+</ul>
+<p><code>aiplatform.specialistPools.*</code></p>
+<ul>
 <li><code>aiplatform. specialistPools. create</code></li>
 <li><code>aiplatform. specialistPools. delete</code></li>
 <li><code>aiplatform.specialistPools.get</code></li>
 <li><code>aiplatform. specialistPools. list</code></li>
 <li><code>aiplatform. specialistPools. update</code></li>
+</ul>
+<p><code>aiplatform.studies.*</code></p>
+<ul>
 <li><code>aiplatform.studies.create</code></li>
 <li><code>aiplatform.studies.delete</code></li>
 <li><code>aiplatform.studies.get</code></li>
 <li><code>aiplatform.studies.list</code></li>
 <li><code>aiplatform.studies.update</code></li>
+</ul>
+<p><code>aiplatform.tasks.*</code></p>
+<ul>
 <li><code>aiplatform.tasks.cancel</code></li>
 <li><code>aiplatform.tasks.create</code></li>
 <li><code>aiplatform.tasks.delete</code></li>
 <li><code>aiplatform.tasks.get</code></li>
 <li><code>aiplatform.tasks.list</code></li>
 <li><code>aiplatform.tasks.update</code></li>
+</ul>
+<p><code>aiplatform. tensorboardExperiments.*</code></p>
+<ul>
 <li><code>aiplatform. tensorboardExperiments. create</code></li>
 <li><code>aiplatform. tensorboardExperiments. delete</code></li>
 <li><code>aiplatform. tensorboardExperiments. get</code></li>
 <li><code>aiplatform. tensorboardExperiments. list</code></li>
 <li><code>aiplatform. tensorboardExperiments. update</code></li>
 <li><code>aiplatform. tensorboardExperiments. write</code></li>
+</ul>
+<p><code>aiplatform.tensorboardRuns.*</code></p>
+<ul>
 <li><code>aiplatform. tensorboardRuns. batchCreate</code></li>
 <li><code>aiplatform. tensorboardRuns. create</code></li>
 <li><code>aiplatform. tensorboardRuns. delete</code></li>
@@ -665,6 +911,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. tensorboardRuns. list</code></li>
 <li><code>aiplatform. tensorboardRuns. update</code></li>
 <li><code>aiplatform. tensorboardRuns. write</code></li>
+</ul>
+<p><code>aiplatform. tensorboardTimeSeries.*</code></p>
+<ul>
 <li><code>aiplatform. tensorboardTimeSeries. batchCreate</code></li>
 <li><code>aiplatform. tensorboardTimeSeries. batchRead</code></li>
 <li><code>aiplatform. tensorboardTimeSeries. create</code></li>
@@ -673,22 +922,34 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. tensorboardTimeSeries. list</code></li>
 <li><code>aiplatform. tensorboardTimeSeries. read</code></li>
 <li><code>aiplatform. tensorboardTimeSeries. update</code></li>
+</ul>
+<p><code>aiplatform.tensorboards.*</code></p>
+<ul>
 <li><code>aiplatform.tensorboards.create</code></li>
 <li><code>aiplatform.tensorboards.delete</code></li>
 <li><code>aiplatform.tensorboards.get</code></li>
 <li><code>aiplatform.tensorboards.list</code></li>
 <li><code>aiplatform. tensorboards. recordAccess</code></li>
 <li><code>aiplatform.tensorboards.update</code></li>
+</ul>
+<p><code>aiplatform.trainingPipelines.*</code></p>
+<ul>
 <li><code>aiplatform. trainingPipelines. cancel</code></li>
 <li><code>aiplatform. trainingPipelines. create</code></li>
 <li><code>aiplatform. trainingPipelines. delete</code></li>
 <li><code>aiplatform. trainingPipelines. get</code></li>
 <li><code>aiplatform. trainingPipelines. list</code></li>
+</ul>
+<p><code>aiplatform.trials.*</code></p>
+<ul>
 <li><code>aiplatform.trials.create</code></li>
 <li><code>aiplatform.trials.delete</code></li>
 <li><code>aiplatform.trials.get</code></li>
 <li><code>aiplatform.trials.list</code></li>
 <li><code>aiplatform.trials.update</code></li>
+</ul>
+<p><code>aiplatform.tuningJobs.*</code></p>
+<ul>
 <li><code>aiplatform.tuningJobs.cancel</code></li>
 <li><code>aiplatform.tuningJobs.create</code></li>
 <li><code>aiplatform.tuningJobs.delete</code></li>
