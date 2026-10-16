@@ -265,6 +265,7 @@ To create a workforce identity pool provider for your Microsoft Entra ID applica
             --issuer-uri="ISSUER_URI" \
             --client-id="OIDC_CLIENT_ID" \
             --client-secret-value="OIDC_CLIENT_SECRET" \
+            --vendor-type="entra-id" \
             --web-sso-response-type="code" \
             --web-sso-assertion-claims-behavior="merge-user-info-over-id-token-claims" \
             --web-sso-additional-scopes="WEB_SSO_ADDITIONAL_SCOPES" \
@@ -341,6 +342,7 @@ To create a workforce identity pool provider for your Microsoft Entra ID applica
             --description="DESCRIPTION" \
             --issuer-uri="ISSUER_URI" \
             --client-id="OIDC_CLIENT_ID" \
+            --vendor-type="entra-id" \
             --web-sso-response-type="id-token" \
             --web-sso-assertion-claims-behavior="only-id-token-claims" \
             --web-sso-additional-scopes="WEB_SSO_ADDITIONAL_SCOPES" \
@@ -651,6 +653,7 @@ gcloud iam workforce-pools providers create-saml WORKFORCE_PROVIDER_ID \
     --idp-metadata-path="XML_METADATA_PATH" \
     --attribute-mapping="ATTRIBUTE_MAPPING" \
     --attribute-condition="ATTRIBUTE_CONDITION" \
+    --vendor-type="entra-id" \
     --detailed-audit-logging \
     --location=global
 ```

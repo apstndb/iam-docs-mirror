@@ -298,6 +298,7 @@ To create a workforce identity pool provider for your Okta app integration, usin
         --issuer-uri="ISSUER_URI" \
         --client-id="OIDC_CLIENT_ID" \
         --client-secret-value="OIDC_CLIENT_SECRET" \
+        --vendor-type="okta" \
         --web-sso-response-type="code" \
         --web-sso-assertion-claims-behavior="merge-user-info-over-id-token-claims" \
         --web-sso-additional-scopes="WEB_SSO_ADDITIONAL_SCOPES" \
@@ -366,6 +367,7 @@ To create a workforce identity pool provider for your Okta app integration, usin
         --description="DESCRIPTION" \
         --issuer-uri="ISSUER_URI" \
         --client-id="OIDC_CLIENT_ID" \
+        --vendor-type="okta" \
         --web-sso-response-type="id-token" \
         --web-sso-assertion-claims-behavior="only-id-token-claims" \
         --web-sso-additional-scopes="WEB_SSO_ADDITIONAL_SCOPES" \
@@ -614,6 +616,7 @@ To create a workforce identity pool provider for your Okta app integration, usin
         --workforce-pool="WORKFORCE_POOL_ID" \
         --attribute-mapping="ATTRIBUTE_MAPPING" \
         --attribute-condition="ATTRIBUTE_CONDITION" \
+        --vendor-type="okta" \
         --idp-metadata-path="XML_METADATA_PATH" \
         --detailed-audit-logging \
         --location="global"

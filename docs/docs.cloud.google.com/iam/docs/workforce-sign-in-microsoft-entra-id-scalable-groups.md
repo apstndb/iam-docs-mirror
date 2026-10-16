@@ -294,6 +294,7 @@ gcloud iam workforce-pools providers create-oidc PROVIDER_ID \
     --web-sso-response-type=id-token \
     --web-sso-assertion-claims-behavior=only-id-token-claims \
     --extra-attributes-issuer-uri=EXTRA_ATTRIBUTES_ISSUER_URI \
+    --vendor-type="entra-id" \
     --extra-attributes-client-id=EXTRA_ATTRIBUTES_CLIENT_ID \
     --extra-attributes-client-secret-value=EXTRA_ATTRIBUTES_CLIENT_SECRET \
     --extra-attributes-type=EXTRA_ATTRIBUTES_TYPE  \
@@ -546,6 +547,7 @@ gcloud iam workforce-pools providers create-oidc PROVIDER_ID \
     --web-sso-response-type=code \
     --web-sso-assertion-claims-behavior=merge-user-info-over-id-token-claims \
     --extra-attributes-issuer-uri=EXTRA_ATTRIBUTES_ISSUER_URI \
+    --vendor-type="entra-id" \
     --extra-attributes-client-id=EXTRA_ATTRIBUTES_CLIENT_ID \
     --extra-attributes-client-secret-value=EXTRA_ATTRIBUTES_CLIENT_SECRET \
     --extra-attributes-type=EXTRA_ATTRIBUTES_TYPE  \
@@ -799,6 +801,7 @@ gcloud iam workforce-pools providers create-saml PROVIDER_ID \
     --idp-metadata-path=XML_METADATA_PATH \
     --attribute-mapping=ATTRIBUTE_MAPPING \
     --extra-attributes-issuer-uri=EXTRA_ATTRIBUTES_ISSUER_URI \
+    --vendor-type="entra-id" \
     --extra-attributes-client-id=EXTRA_ATTRIBUTES_CLIENT_ID \
     --extra-attributes-client-secret-value=EXTRA_ATTRIBUTES_CLIENT_SECRET \
     --extra-attributes-type=EXTRA_ATTRIBUTES_TYPE  \
