@@ -42,8 +42,8 @@ https://docs.cloud.google.com/iam/docs/cloud-oauth-userinfo	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/conditions-attribute-reference	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/conditions-overview	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/conditions-resource-attributes	2026-10-02T06:13:11Z
-https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra	2026-10-07T05:03:27Z
-https://docs.cloud.google.com/iam/docs/configure-scim-okta	2026-10-07T05:03:27Z
+https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra	2026-10-16T14:29:56Z
+https://docs.cloud.google.com/iam/docs/configure-scim-okta	2026-10-16T14:29:56Z
 https://docs.cloud.google.com/iam/docs/configuring-resource-based-access	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/configuring-temporary-access	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation	2026-10-07T05:03:27Z
@@ -112,7 +112,7 @@ https://docs.cloud.google.com/iam/docs/pam-view-grants	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/pam-view-update-delete-entitlements	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/pam-withdraw-grants	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/permission-error-messages	2026-10-02T06:14:42Z
-https://docs.cloud.google.com/iam/docs/permissions-change-log	2026-10-15T06:28:11Z
+https://docs.cloud.google.com/iam/docs/permissions-change-log	2026-10-17T06:18:11Z
 https://docs.cloud.google.com/iam/docs/permissions-change-log-archive	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/policy-intelligence-tools	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/policy-types	2026-10-02T06:14:42Z
@@ -643,7 +643,7 @@ https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/ListAccessPoliciesR
 https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/ListPolicyBindingsResponse	2025-10-17T21:14:05Z
 https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/SearchAccessPolicyBindingsResponse	2025-11-12T19:43:06Z
 https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/SearchTargetPolicyBindingsResponse	2025-10-17T21:14:27Z
-https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies	2025-11-12T19:43:06Z
+https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies	2026-10-17T09:00:10Z
 https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies/create	2025-11-12T19:43:06Z
 https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies/delete	2025-11-12T19:43:06Z
 https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies/get	2025-11-12T19:43:06Z
@@ -708,7 +708,7 @@ https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1beta	2026-09-1
 https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v2	2025-10-17T21:14:05Z
 https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v2beta	2025-10-17T21:14:13Z
 https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3	2026-09-30T18:33:46Z
-https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta	2026-09-30T18:33:46Z
+https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta	2026-10-17T09:00:10Z
 https://docs.cloud.google.com/iam/docs/reference/rpc/google.longrunning	2025-10-17T21:14:05Z
 https://docs.cloud.google.com/iam/docs/reference/rpc/google.rpc	2025-10-17T21:14:05Z
 https://docs.cloud.google.com/iam/docs/reference/rpc/google.type	2025-10-17T21:13:59Z
@@ -866,7 +866,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/cloudscheduler	2026-10-
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance	2026-10-14T22:01:44Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecurityscanner	2026-10-08T00:08:28Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql	2026-10-14T22:01:44Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsupport	2026-10-08T00:09:20Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsupport	2026-10-15T06:26:30Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtasks	2026-10-14T22:01:44Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtestservice	2026-10-08T00:08:28Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtoolresults	2026-10-08T00:08:28Z
@@ -1154,7 +1154,7 @@ https://docs.cloud.google.com/iam/docs/troubleshooting-withcond	2026-10-02T06:11
 https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/troubleshooting-workload-identity-federation	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/tutorial-cloud-run-workload-id-federation	2026-10-02T06:11:46Z
-https://docs.cloud.google.com/iam/docs/use-iam-mcp	2026-10-02T06:11:46Z
+https://docs.cloud.google.com/iam/docs/use-iam-mcp	2026-10-16T14:03:40Z
 https://docs.cloud.google.com/iam/docs/use-workload-identity-federation-to-let-customers-access-their-cloud-resources	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/user-identities	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/using-iam-securely	2026-10-02T06:11:46Z
@@ -1363,7 +1363,7 @@ https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies	202
 https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies	2026-09-30T19:36:48Z
 https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access	2026-09-30T19:36:48Z
 https://docs.cloud.google.com/policy-intelligence/docs/use-policy-analyzer-mcp	2026-09-30T19:36:48Z
-https://docs.cloud.google.com/policy-intelligence/docs/use-policy-assist-mcp	2026-09-30T19:36:48Z
+https://docs.cloud.google.com/policy-intelligence/docs/use-policy-assist-mcp	2026-10-16T14:03:40Z
 https://docs.cloud.google.com/policy-intelligence/docs/use-policy-troubleshooter-mcp	2026-09-30T19:36:48Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam	2026-08-04T14:40:37Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies	2026-08-04T14:41:12Z

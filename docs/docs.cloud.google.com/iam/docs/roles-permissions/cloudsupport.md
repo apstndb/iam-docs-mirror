@@ -25,7 +25,7 @@ This page lists the IAM roles and permissions for Google Cloud Support. To searc
 <tr class="odd">
 <td>Support Administrator
 <p>( <code>roles/ cloudsupport.admin</code> )</p>
-<p>Allows management of a support account without giving access to support cases. See the <a href="https://docs.cloud.google.com/support/docs/access-control#support_account_admin">Cloud Support documentation</a> for more information.</p>
+<p>Allows management of a support account and support cases. See the <a href="https://docs.cloud.google.com/support/docs/access-control#support_account_admin">Cloud Support documentation</a> for more information.</p>
 <p>Lowest-level resources where you can grant this role:</p>
 <ul>
 <li>Organization</li>
@@ -72,7 +72,7 @@ This page lists the IAM roles and permissions for Google Cloud Support. To searc
 <tr class="odd">
 <td>Advisory Support Editor
 <p>( <code>roles/ cloudsupport.advisorySupportEditor</code> )</p>
-<p>Full read-write access to advisory support cases applicable for GCP Customer Care.</p></td>
+<p>Full read-write access to advisory support cases applicable for Cloud Customer Care.</p></td>
 <td><p><code>cloudasset. assets. searchAllResources</code></p>
 <p><code>cloudsupport.properties.get</code></p>
 <p><code>resourcemanager.projects.get</code></p>
@@ -81,7 +81,7 @@ This page lists the IAM roles and permissions for Google Cloud Support. To searc
 <tr class="even">
 <td>Advisory Support Viewer
 <p>( <code>roles/ cloudsupport.advisorySupportViewer</code> )</p>
-<p>Read-only access to advisory support cases applicable for GCP Customer Care.</p></td>
+<p>Read-only access to advisory support cases applicable for Cloud Customer Care.</p></td>
 <td><p><code>cloudsupport.properties.get</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
@@ -101,7 +101,7 @@ This page lists the IAM roles and permissions for Google Cloud Support. To searc
 <tr class="odd">
 <td>Tech Support Editor
 <p>( <code>roles/ cloudsupport.techSupportEditor</code> )</p>
-<p>Full read-write access to technical support cases (applicable for GCP Customer Care and Maps support). See the <a href="https://docs.cloud.google.com/support/docs/access-control#tech_support_editor">Cloud Support documentation</a> for more information.</p></td>
+<p>Full read-write access to technical support cases (applicable for Cloud Customer Care and Maps support). See the <a href="https://docs.cloud.google.com/support/docs/access-control#tech_support_editor">Cloud Support documentation</a> for more information.</p></td>
 <td><p><code>billing. resourceAssociations. list</code></p>
 <p><code>cloudasset. assets. searchAllResources</code></p>
 <p><code>cloudsupport.properties.get</code></p>
@@ -119,7 +119,7 @@ This page lists the IAM roles and permissions for Google Cloud Support. To searc
 <tr class="even">
 <td>Tech Support Viewer
 <p>( <code>roles/ cloudsupport.techSupportViewer</code> )</p>
-<p>Read-only access to technical support cases (applicable for GCP Customer Care and Maps support). See the <a href="https://docs.cloud.google.com/support/docs/access-control#tech_support_viewer">Cloud Support documentation</a> for more information.</p></td>
+<p>Read-only access to technical support cases (applicable for Cloud Customer Care and Maps support). See the <a href="https://docs.cloud.google.com/support/docs/access-control#tech_support_viewer">Cloud Support documentation</a> for more information.</p></td>
 <td><p><code>cloudsupport.properties.get</code></p>
 <p><code>cloudsupport.techCases.get</code></p>
 <p><code>cloudsupport.techCases.list</code></p>

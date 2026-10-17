@@ -497,6 +497,7 @@ Access Policy Rule that determines the behavior of the policy.
 <ul>
 <li><p><code>eventarc.googleapis.com</code> : Can use <code>CEL</code> functions that evaluate resource fields.</p></li>
 <li><p><code>iam.googleapis.com</code> : Can use <code>CEL</code> functions that evaluate <a href="https://cloud.google.com/iam/help/conditions/resource-tags">resource tags</a> and combine them using boolean and logical operators. Other functions and operators are not supported.</p></li>
+<li><p><code>iap.googleapis.com</code> : Can use <code>CEL</code> functions and <a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/policies/cel-attributes-uap">attributes</a> that evaluate destination resources for requests that use the <code>iap.googleapis.com/resources.egressViaIAP</code> permission.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -544,6 +545,7 @@ Attributes that are used to determine whether this rule applies to a request.
 <p>Optional. The permissions that are explicitly affected by this rule. Each permission uses the format <code>{service_fqdn}/{resource}.{verb}</code> , where <code>{service_fqdn}</code> is the fully qualified domain name for the service. Currently supported permissions are as follows:</p>
 <ul>
 <li><code>eventarc.googleapis.com/messageBuses.publish</code> .</li>
+<li><code>iap.googleapis.com/resources.egressViaIAP</code> .</li>
 </ul></td>
 </tr>
 <tr class="even">

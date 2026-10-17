@@ -105,7 +105,7 @@ In your AI application, look for a way to add or connect to a remote MCP server.
 
 - **Server name** : Identity and Access Management MCP server
 - **Server URL** or **Endpoint** : `https://iam.googleapis.com/mcp`
-- **Transport** : HTTP
+- **Transport** : [Streamable HTTP](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http)
 - **Authentication details** : Depending on how you want to authenticate, you can enter your Google Cloud credentials, your OAuth Client ID and secret, or an agent identity and credentials. For more information about authentication, see [Authenticate to MCP servers](https://docs.cloud.google.com/mcp/authenticate-mcp) .
 - **OAuth scope** : To access the Identity and Access Management MCP server, use the `https://www.googleapis.com/auth/cloud-platform` or `https://www.googleapis.com/auth/iam` [OAuth 2.0 scopes](https://developers.google.com/identity/protocols/oauth2/scopes) .
 
@@ -129,15 +129,34 @@ To view details of available MCP tools and their descriptions for the Identity a
 Use the [MCP inspector](https://modelcontextprotocol.io/docs/tools/inspector) to list tools, or send a `tools/list` HTTP request directly to the Identity and Access Management remote MCP server. The `tools/list` method doesn't require authentication.
 
 ```
-POST /mcp HTTP/1.1
-Host: iam.googleapis.com
-Content-Type: application/json
-
-{
-  "jsonrpc": "2.0",
-  "method": "tools/list",
-}
+curl -X POST https://iam.googleapis.com/TOOLSET_ENDPOINT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -H 'MCP-Protocol-Version: MCP_PROTOCOL_VERSION' \
+    -H 'Mcp-Method: tools/list' \
+    -d '{
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "tools/list",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "MCP_PROTOCOL_VERSION",
+          "io.modelcontextprotocol/clientCapabilities": {
+            "extensions": {
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": ["text/html;profile=mcp-app"]
+              }
+            }
+          }
+        }
+      }
+    }'
 ```
+
+Replace the following:
+
+- ` ``TOOLSET_ENDPOINT`` ` : the remainder of the MCP endpoint after the service name. For Identity and Access Management, this is `mcp` .
+- ` ``MCP_PROTOCOL_VERSION`` ` : the MCP protocol version. For example, `2026-07-28` .
 
 ## Example use cases
 

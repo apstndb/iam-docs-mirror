@@ -177,7 +177,7 @@ To enable SCIM for a provider, set the `--scim-usage` flag based on your product
 ```
       gcloud iam workforce-pools providers update-oidc PROVIDER_ID \
           --workforce-pool=WORKFORCE_POOL_ID \
-          --location=LOCATION \
+          --location=global \
           --scim-usage=enabled-for-groups
     
 ```
@@ -186,14 +186,13 @@ Replace the following:
 
 - `PROVIDER_ID` : the ID of the workforce identity pool provider
 - `WORKFORCE_POOL_ID` : the ID of the workforce pool
-- `LOCATION` : the location of the workforce pool
 
 #### SAML
 
 ```
       gcloud iam workforce-pools providers update-saml PROVIDER_ID \
           --workforce-pool=WORKFORCE_POOL_ID \
-          --location=LOCATION \
+          --location=global \
           --scim-usage=enabled-for-groups
     
 ```
@@ -202,7 +201,6 @@ Replace the following:
 
 - `PROVIDER_ID` : the ID of the workforce identity pool provider
 - `WORKFORCE_POOL_ID` : the ID of the workforce pool
-- `LOCATION` : the location of the workforce pool
 
 ### Enable SCIM for users and groups (Looker) ( [Preview](https://cloud.google.com/products#product-launch-stages) )
 
@@ -211,7 +209,7 @@ Replace the following:
 ```
       gcloud iam workforce-pools providers update-oidc PROVIDER_ID \
           --workforce-pool=WORKFORCE_POOL_ID \
-          --location=LOCATION \
+          --location=global \
           --scim-usage=enabled-for-users-groups
     
 ```
@@ -220,14 +218,13 @@ Replace the following:
 
 - `PROVIDER_ID` : the ID of the workforce identity pool provider
 - `WORKFORCE_POOL_ID` : the ID of the workforce pool
-- `LOCATION` : the location of the workforce pool
 
 #### SAML
 
 ```
       gcloud iam workforce-pools providers update-saml PROVIDER_ID \
           --workforce-pool=WORKFORCE_POOL_ID \
-          --location=LOCATION \
+          --location=global \
           --scim-usage=enabled-for-users-groups
     
 ```
@@ -236,7 +233,6 @@ Replace the following:
 
 - `PROVIDER_ID` : the ID of the workforce identity pool provider
 - `WORKFORCE_POOL_ID` : the ID of the workforce pool
-- `LOCATION` : the location of the workforce pool
 
 To verify SCIM synchronization, see [Verify SCIM synchronization](https://docs.cloud.google.com/iam/docs/configure-scim-okta#verify-sync) .
 
@@ -443,7 +439,7 @@ To force delete a SCIM tenant, do the following:
     ```
     gcloud iam workforce-pools providers update-oidc PROVIDER_ID \
         --workforce-pool=WORKFORCE_POOL_ID \
-        --location=LOCATION \
+        --location=global \
         --scim-usage=SCIM_USAGE_UNSPECIFIED
     ```
 
@@ -451,14 +447,13 @@ To force delete a SCIM tenant, do the following:
 
     - `PROVIDER_ID` : the ID of the workforce identity pool provider
     - `WORKFORCE_POOL_ID` : the ID of the workforce pool
-    - `LOCATION` : the location of the workforce pool
 
     ### SAML
 
     ```
     gcloud iam workforce-pools providers update-saml PROVIDER_ID \
         --workforce-pool=WORKFORCE_POOL_ID \
-        --location=LOCATION \
+        --location=global \
         --scim-usage=SCIM_USAGE_UNSPECIFIED
     ```
 
@@ -466,7 +461,6 @@ To force delete a SCIM tenant, do the following:
 
     - `PROVIDER_ID` : the ID of the workforce identity pool provider
     - `WORKFORCE_POOL_ID` : the ID of the workforce pool
-    - `LOCATION` : the location of the workforce pool
 
 2.  Delete the SCIM tenant:
 
