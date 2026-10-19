@@ -982,7 +982,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup	2026-10-14T22
 https://docs.cloud.google.com/iam/docs/roles-permissions/gkedataplanemanagement	2026-10-02T06:11:51Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/gkehub	2026-10-08T00:08:56Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/gkemulticloud	2026-10-08T00:08:56Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem	2026-10-08T00:08:56Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/gkeonprem	2026-10-15T06:27:51Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/gsuiteaddons	2026-10-13T21:52:52Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/health	2026-10-08T00:08:28Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare	2026-10-08T00:08:28Z
@@ -1183,7 +1183,7 @@ https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deploym
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-kubernetes	2026-10-02T06:12:00Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds	2026-10-02T06:12:00Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers	2026-09-25T07:59:25Z
-https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates	2026-10-02T06:12:00Z
+https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates	2026-10-19T08:14:58Z
 https://docs.cloud.google.com/iam/docs/write-policy-client-libraries	2026-10-02T06:12:00Z
 https://docs.cloud.google.com/iam/quotas	2026-10-02T06:11:42Z
 https://docs.cloud.google.com/policy-intelligence/docs	2026-09-30T19:36:39Z

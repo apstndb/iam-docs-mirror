@@ -145,7 +145,7 @@ To generate a root certificate and a signed intermediate certificate with valid 
     ```
     openssl x509 -req \
         -CAkey int.key -CA int.cert \
-        -set_serial 1 -days 3650 \
+        -set_serial 1 -days 1 \
         -extfile example.cnf \
         -extensions leaf_exts \
         -in leaf.req -out leaf.cert
