@@ -117,6 +117,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>bigquery.tables.list</code></p>
 <p><code>bigquery.tables.update</code></p>
 <p><code>bigquery.tables.updateData</code></p>
+<p><code>cloudaicompanion.topics.create</code></p>
 <p><code>dataform.folders.create</code></p>
 <p><code>dataform.locations.*</code></p>
 <ul>

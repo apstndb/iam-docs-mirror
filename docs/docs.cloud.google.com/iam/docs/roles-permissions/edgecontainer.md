@@ -609,6 +609,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -630,6 +631,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p>
 <p><code>stackdriver.resourceMetadata.*</code></p>
@@ -701,6 +704,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>gkehub.operations.get</code></li>
 <li><code>gkehub.operations.list</code></li>
 </ul>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -712,6 +716,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>

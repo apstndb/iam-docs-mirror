@@ -253,6 +253,7 @@ This page lists the IAM roles and permissions for GKE Hub. To search through all
 <li><code>gkehub.gateway.stream</code></li>
 </ul>
 <p><code>gkehub.memberships.get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -263,6 +264,8 @@ This page lists the IAM roles and permissions for GKE Hub. To search through all
 <li><code>serviceusage. groups. listMembers</code></li>
 </ul>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
@@ -276,6 +279,7 @@ This page lists the IAM roles and permissions for GKE Hub. To search through all
 <p><code>gkehub.gateway.post</code></p>
 <p><code>gkehub.gateway.put</code></p>
 <p><code>gkehub.memberships.get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -286,6 +290,8 @@ This page lists the IAM roles and permissions for GKE Hub. To search through all
 <li><code>serviceusage. groups. listMembers</code></li>
 </ul>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
@@ -295,6 +301,7 @@ This page lists the IAM roles and permissions for GKE Hub. To search through all
 <td><p><code>gkehub. gateway. generateCredentials</code></p>
 <p><code>gkehub.gateway.get</code></p>
 <p><code>gkehub.memberships.get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -305,6 +312,8 @@ This page lists the IAM roles and permissions for GKE Hub. To search through all
 <li><code>serviceusage. groups. listMembers</code></li>
 </ul>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
@@ -357,6 +366,7 @@ This page lists the IAM roles and permissions for GKE Hub. To search through all
 <p><code>monitoring.timeSeries.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -367,6 +377,8 @@ This page lists the IAM roles and permissions for GKE Hub. To search through all
 <li><code>serviceusage. groups. listMembers</code></li>
 </ul>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
@@ -391,6 +403,7 @@ This page lists the IAM roles and permissions for GKE Hub. To search through all
 <p><code>monitoring.timeSeries.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -401,6 +414,8 @@ This page lists the IAM roles and permissions for GKE Hub. To search through all
 <li><code>serviceusage. groups. listMembers</code></li>
 </ul>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>
@@ -528,6 +543,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>monitoring.metricsScopes.link</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -539,6 +555,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>

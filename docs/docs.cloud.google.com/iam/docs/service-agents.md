@@ -1526,58 +1526,65 @@ Google Cloud can introduce new service agents at any time, both for existing ser
 <p>Granted on the project.</p></td>
 </tr>
 <tr class="odd">
+<td>Infrastructure Manager Worker Service Account Service agent for <code>config.googleapis.com</code> .
+<p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-config-worker.iam.gserviceaccount.com</code></p></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/config#config.agent">Cloud Infrastructure Manager Agent</a><br />
+( <code>roles/config.agent</code> )</p>
+<p>Granted on the project.</p></td>
+</tr>
+<tr class="even">
 <td>Integrated Vulnerability Scanner Service Account Service agent for <code>securitycenter.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-ivs.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Internal Cloud Firestore Spanner Service Agent Service agent for <code>firestore.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-fs-spanner.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>KRM API Hosting Service Account Service agent for <code>krmapihosting.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-krmapihosting.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.serviceAgent">KRM API Hosting Service Agent</a><br />
 ( <code>roles/krmapihosting.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>KRM API Hosting Service Account Service agent for <code>krmapihosting.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-krmapihosting-dataplane.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/krmapihosting#krmapihosting.anthosApiEndpointServiceAgent">KRM API Hosting AnthosApiEndpoint Service Agent</a><br />
 ( <code>roles/krmapihosting.anthosApiEndpointServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Kubernetes Engine Node Service Agent Service agent for <code>container.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-gkenode.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.defaultNodeServiceAgent">Kubernetes Engine Default Node Service Agent</a><br />
 ( <code>roles/container.defaultNodeServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Kubernetes Engine Service Agent <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>container.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @container-engine-robot.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a><br />
 ( <code>roles/container.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Legacy Cloud Build service account Service agent for <code>cloudbuild.googleapis.com</code> .
 <p><var translate="no">PROJECT_NUMBER </var><code> @cloudbuild.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a><br />
 ( <code>roles/cloudbuild.builds.builder</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Livestream Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>livestream.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-livestream.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.serviceAgent">Live Stream Service Agent</a><br />
 ( <code>roles/livestream.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Logging Service Agent Service agent for <code>logging.googleapis.com</code> .
 <p>For the project:</p>
 <ul>
@@ -1593,130 +1600,130 @@ Google Cloud can introduce new service agents at any time, both for existing ser
 </ul></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Looker Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>looker.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-looker.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/looker#looker.restrictedServiceAgent">Looker Service Agent</a><br />
 ( <code>roles/looker.restrictedServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Lustre Service Agent <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>lustre.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-lustre.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Managed Flink Service Agent <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>managedflink.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-managedflink.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.serviceAgent">Managed Flink Service Agent</a><br />
 ( <code>roles/managedflink.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Managed Kafka Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>managedkafka.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-managedkafka.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedkafka#managedkafka.serviceAgent">Managed Kafka Service Agent</a><br />
 ( <code>roles/managedkafka.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Memory Bank Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-memory.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Memorystore Service Agent <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>memorystore.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-memorystore.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memorystore#memorystore.serviceAgent">Cloud Memorystore Service Agent</a><br />
 ( <code>roles/memorystore.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Mesh Config Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>meshconfig.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-meshconfig.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#meshconfig.serviceAgent">Mesh Config Service Agent</a><br />
 ( <code>roles/meshconfig.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Model Armor Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>modelarmor.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-modelarmor.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.serviceAgent">Model Armor Service Agent</a><br />
 ( <code>roles/modelarmor.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Monitoring Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>monitoring.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-monitoring-notification.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/monitoring#monitoring.notificationServiceAgent">Monitoring Service Agent</a><br />
 ( <code>roles/monitoring.notificationServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Multi Cluster Ingress Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>multiclusteringress.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-multiclusteringress.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a><br />
 ( <code>roles/multiclusteringress.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Multi cluster metering Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>multiclustermetering.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-mcmetering.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclustermetering#multiclustermetering.serviceAgent">Multi-cluster metering Service Agent</a><br />
 ( <code>roles/multiclustermetering.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Multi-cluster Service Discovery Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>multiclusterservicediscovery.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-mcsd.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a><br />
 ( <code>roles/multiclusterservicediscovery.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Network Actions Service Account Service agent for <code>networkservices.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-networkactions.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#networkactions.serviceAgent">Network Actions Service Agent</a><br />
 ( <code>roles/networkactions.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Network Connectivity Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>networkconnectivity.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-networkconnectivity.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.serviceAgent">Network Connectivity Service Agent</a><br />
 ( <code>roles/networkconnectivity.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Network Security Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>networksecurity.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-networksecurity.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>On-Demand Scanning Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>ondemandscanning.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-ondemandscanning.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Oracle Database@Google Cloud Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>oracledatabase.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-oci.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oci#oci.serviceAgent">Oracle Database@Google Cloud Service Agent</a><br />
 ( <code>roles/oci.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Parallelstore Service Agent <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>parallelstore.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-parallelstore.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parallelstore#parallelstore.serviceAgent">Parallelstore Service Agent</a><br />
 ( <code>roles/parallelstore.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Parameter Manager Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>parametermanager.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-pm.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Playbook Runner Service Agent Service agent for <code>integrations.googleapis.com</code> .
 <p>For the project:</p>
 <ul>
@@ -1732,17 +1739,17 @@ Google Cloud can introduce new service agents at any time, both for existing ser
 </ul></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Policy Remediator Service Agent (prod) Service agent for <code>policyremediator.googleapis.com</code> .
 <p><code>service-org- </code><var translate="no"> ORGANIZATION_NUMBER </var><code> @gcp-sa-v1-remediator.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Private CA Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>privateca.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-privateca.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Privileged Access Manager Service Agent Service agent for <code>privilegedaccessmanager.googleapis.com</code> .
 <p>For the project:</p>
 <ul>
@@ -1758,14 +1765,14 @@ Google Cloud can introduce new service agents at any time, both for existing ser
 </ul></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Progressive Rollout Service Agent <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>progressiverollout.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-progrollout.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/progressiverollout#progressiverollout.serviceAgent">Progressive Rollout Service Agent</a><br />
 ( <code>roles/progressiverollout.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Progressive Rollout Service Agent Service agent for <code>progressiverollout.googleapis.com</code> .
 <p>For the folder:</p>
 <ul>
@@ -1777,327 +1784,327 @@ Google Cloud can introduce new service agents at any time, both for existing ser
 </ul></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Pub/Sub Lite Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>pubsublite.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-pubsublite.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsublite#pubsublite.serviceAgent">Pub/Sub Lite Service Agent</a><br />
 ( <code>roles/pubsublite.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Rapid Migration Assessment Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>rapidmigrationassessment.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-rma.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rapidmigrationassessment.serviceAgent">RMA Service Agent</a><br />
 ( <code>roles/rapidmigrationassessment.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Remote Build Execution Service Agent <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>remotebuildexecution.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-rbe.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Remote Build Execution Service Agent Service agent for <code>remotebuildexecution.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @remotebuildexecution.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.serviceAgent">Remote Build Execution Service Agent</a><br />
 ( <code>roles/remotebuildexecution.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Remote Build Execution Service Agent Service agent for <code>remotebuildexecution.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-remotebuild.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.serviceAgent">Remote Build Execution Service Agent</a><br />
 ( <code>roles/remotebuildexecution.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Retail Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>retail.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-retail.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.serviceAgent">Retail Service Agent</a><br />
 ( <code>roles/retail.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>SCC CMEK Spanner Service Agent (PROD) Service agent for <code>securitycenter.googleapis.com</code> .
 <p><code>service-org- </code><var translate="no"> ORGANIZATION_NUMBER </var><code> @gcp-sa-sccspanner.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>SaaS Service Management Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>saasservicemgmt.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-saasservicemgmt.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.serviceAgent">SaaS Service Management Service Agent</a><br />
 ( <code>roles/saasservicemgmt.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Secret Manager Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>secretmanager.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-secretmanager.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Secure Source Manager Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>securesourcemanager.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-sourcemanager.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager#securesourcemanager.serviceAgent">Secure Source Manager Service Agent</a><br />
 ( <code>roles/securesourcemanager.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Secure Web Proxy Service Account Service agent for <code>networkservices.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-securewebproxy.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Serverless Integrations Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>runapps.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-runapps.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.serviceAgent">Serverless Integrations Service Agent</a><br />
 ( <code>roles/runapps.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Serverless VPC Access Service Agent <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>vpcaccess.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vpcaccess.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vpcaccess#vpcaccess.serviceAgent">Serverless VPC Access Service Agent</a><br />
 ( <code>roles/vpcaccess.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Service Agent Manager Service agent used internally by Google Cloud.
 <p><code>service-agent-manager@system.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Service Consumer Management Service Agent <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>serviceconsumermanagement.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @service-consumer-management.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Service Directory Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>servicedirectory.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-servicedirectory.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicedirectory#servicedirectory.serviceAgent">Service Directory Service Agent</a><br />
 ( <code>roles/servicedirectory.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Service Networking Service Agent <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>servicenetworking.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @service-networking.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicenetworking#servicenetworking.serviceAgent">Service Networking Service Agent</a><br />
 ( <code>roles/servicenetworking.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Skill Registry Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-skills.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Spectrum SAS Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>sasportal.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-spectrumsas.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spectrumsas#spectrumsas.serviceAgent">Spectrum SAS Service Agent</a><br />
 ( <code>roles/spectrumsas.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Speech-to-Text Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>speech.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-speech.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.serviceAgent">Cloud Speech-to-Text Service Agent</a><br />
 ( <code>roles/speech.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Storage Insights Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>storageinsights.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-storageinsights.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/storageinsights#storageinsights.serviceAgent">StorageInsights Service Agent</a><br />
 ( <code>roles/storageinsights.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Storage Transfer Service Service Agent Service agent for <code>storagetransfer.googleapis.com</code> .
 <p><code>project- </code><var translate="no"> PROJECT_NUMBER </var><code> @storage-transfer-service.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Stream Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>stream.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-stream.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/stream#stream.serviceAgent">Stream Service Agent</a><br />
 ( <code>roles/stream.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>TPU Service Agent <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>tpu.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @cloud-tpu.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.serviceAgent">Cloud TPU API Service Agent</a><br />
 ( <code>roles/tpu.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>TPU Service Agent (v2) Service agent for <code>tpu.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-tpu.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#cloudtpu.serviceAgent">Cloud TPU V2 API Service Agent</a><br />
 ( <code>roles/cloudtpu.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Transcoder Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>transcoder.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-transcoder.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/transcoder#transcoder.serviceAgent">Transcoder Service Agent</a><br />
 ( <code>roles/transcoder.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Transfer Appliance Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>transferappliance.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-transferappliance.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>VMwareEngine Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>vmwareengine.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vmwareengine.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vmwareengine#vmwareengine.serviceAgent">VMware Engine Service Agent</a><br />
 ( <code>roles/vmwareengine.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vector Search Cmek Service Account Service agent for <code>vectorsearch.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vs-cmek.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vector Search Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>vectorsearch.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vectorsearch.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.serviceAgent">Vector Search Service Agent</a><br />
 ( <code>roles/vectorsearch.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex AI Agent Sandbox Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-sandbox.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentSandboxServiceAgent">Vertex AI Agent Sandbox Service Agent</a><br />
 ( <code>roles/aiplatform.agentSandboxServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex AI Ancillary Secure Fine Tuning Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-shtune.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a><br />
 ( <code>roles/aiplatform.user</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex AI Batch Prediction Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-bp.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.batchPredictionServiceAgent">Vertex AI Batch Prediction Service Agent</a><br />
 ( <code>roles/aiplatform.batchPredictionServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex AI Colab Service Account Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-nb.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.colabServiceAgent">Vertex AI Colab Service Agent</a><br />
 ( <code>roles/aiplatform.colabServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex AI Extension Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-ex.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.extensionServiceAgent">Vertex AI Extension Service Agent</a><br />
 ( <code>roles/aiplatform.extensionServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex AI Extension Service Agent for Custom Code Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-ex-cc.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.extensionCustomCodeServiceAgent">Vertex AI Extension Custom Code Service Agent</a><br />
 ( <code>roles/aiplatform.extensionCustomCodeServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex AI Logging Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-logging.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex AI Managed OSS Fine Tuning Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-moss-ft.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.tuningServiceAgent">Vertex AI Tuning Service Agent</a><br />
 ( <code>roles/aiplatform.tuningServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex AI Model Monitoring Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-mm.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.modelMonitoringServiceAgent">Vertex AI Model Monitoring Service Agent</a><br />
 ( <code>roles/aiplatform.modelMonitoringServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex AI Notebook Service Account Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-aiplatform-vm.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.notebookServiceAgent">Vertex AI Notebook Service Agent</a><br />
 ( <code>roles/aiplatform.notebookServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex AI Online Prediction Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-op.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a><br />
 ( <code>roles/aiplatform.onlinePredictionServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex AI Secure Fine Tuning Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-tune.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.tuningServiceAgent">Vertex AI Tuning Service Agent</a><br />
 ( <code>roles/aiplatform.tuningServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex AI Session Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-session.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex AI Telemetry Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-telemetry.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.telemetryServiceAgent">Vertex AI Telemetry Service Agent</a><br />
 ( <code>roles/aiplatform.telemetryServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex AI Training Cluster Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-vtc.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex Agent Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-agent.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex RAG Data Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-rag.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a><br />
 ( <code>roles/aiplatform.ragServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Virtual Machine Threat Detection Service Account Service agent for <code>securitycenter.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-scc-vmtd.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vision AI Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>visionai.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-visionai.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visionai#visionai.serviceAgent">Cloud Vision AI Service Agent</a><br />
 ( <code>roles/visionai.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Workload Manager Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>workloadmanager.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-workloadmanager.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.serviceAgent">Workload Manager Service Agent</a><br />
 ( <code>roles/workloadmanager.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Workstations VM Default Service Account Service agent for <code>workstations.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-workstationsvm.iam.gserviceaccount.com</code></p></td>
 <td>None</td>

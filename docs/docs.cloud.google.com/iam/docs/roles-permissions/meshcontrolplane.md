@@ -688,6 +688,7 @@ Cloud Service Mesh control plane offers the following service agent roles. Servi
 <p><code>monitoring.timeSeries.create</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -698,6 +699,8 @@ Cloud Service Mesh control plane offers the following service agent roles. Servi
 <li><code>serviceusage. groups. listMembers</code></li>
 </ul>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>trafficdirector.*</code></p>

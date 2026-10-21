@@ -257,6 +257,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>pubsub.topics.updateTag</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -269,6 +270,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.objects.get</code></p>
 <p><code>storage.objects.list</code></p></td>

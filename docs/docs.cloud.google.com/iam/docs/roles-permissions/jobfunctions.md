@@ -1092,6 +1092,34 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>datastore.userCreds.get</code></p>
 <p><code>datastore.userCreds.list</code></p>
+<p><code>developerconnect. accountConnectors. fetchUserRepositories</code></p>
+<p><code>developerconnect. accountConnectors. get</code></p>
+<p><code>developerconnect. accountConnectors. gitProxyRead</code></p>
+<p><code>developerconnect. accountConnectors. gitProxyWrite</code></p>
+<p><code>developerconnect. accountConnectors. httpProxyRead</code></p>
+<p><code>developerconnect. accountConnectors. httpProxyWrite</code></p>
+<p><code>developerconnect. accountConnectors. list</code></p>
+<p><code>developerconnect. connections. fetchGitHubInstallations</code></p>
+<p><code>developerconnect. connections. fetchLinkableGitRepositories</code></p>
+<p><code>developerconnect. connections. get</code></p>
+<p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. get</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></p>
+<p><code>developerconnect. gitRepositoryLinks. list</code></p>
+<p><code>developerconnect.locations.*</code></p>
+<ul>
+<li><code>developerconnect.locations.get</code></li>
+<li><code>developerconnect. locations. list</code></li>
+</ul>
+<p><code>developerconnect. operations. get</code></p>
+<p><code>developerconnect. operations. list</code></p>
+<p><code>developerconnect. users. deleteSelf</code></p>
+<p><code>developerconnect. users. fetchAccessToken</code></p>
+<p><code>developerconnect. users. finishOAuth</code></p>
+<p><code>developerconnect.users.getSelf</code></p>
+<p><code>developerconnect. users. startOAuth</code></p>
 <p><code>eventarc. channelConnections. create</code></p>
 <p><code>eventarc. channelConnections. createTagBinding</code></p>
 <p><code>eventarc. channelConnections. delete</code></p>
@@ -1528,6 +1556,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>run.workerpools.sshRead</code></p>
 <p><code>run.workerpools.sshRoot</code></p>
 <p><code>run.workerpools.update</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -1545,6 +1574,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>spanner. databases. beginReadOnlyTransaction</code></p>
@@ -2206,6 +2237,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute.folderRolloutPlans.get</code></p>
+<p><code>compute. folderRolloutPlans. list</code></p>
+<p><code>compute.folderRollouts.get</code></p>
+<p><code>compute.folderRollouts.list</code></p>
 <p><code>compute. folderVmExtensionPolicies. get</code></p>
 <p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute.folderVmExtensions.*</code></p>
@@ -2815,6 +2850,65 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>datastore.userCreds.list</code></li>
 <li><code>datastore.userCreds.update</code></li>
 </ul>
+<p><code>developerconnect. accountConnectors.*</code></p>
+<ul>
+<li><code>developerconnect. accountConnectors. create</code></li>
+<li><code>developerconnect. accountConnectors. delete</code></li>
+<li><code>developerconnect. accountConnectors. fetchUserRepositories</code></li>
+<li><code>developerconnect. accountConnectors. get</code></li>
+<li><code>developerconnect. accountConnectors. gitProxyRead</code></li>
+<li><code>developerconnect. accountConnectors. gitProxyWrite</code></li>
+<li><code>developerconnect. accountConnectors. httpProxyRead</code></li>
+<li><code>developerconnect. accountConnectors. httpProxyWrite</code></li>
+<li><code>developerconnect. accountConnectors. list</code></li>
+<li><code>developerconnect. accountConnectors. update</code></li>
+</ul>
+<p><code>developerconnect. connections. constructGitHubAppManifest</code></p>
+<p><code>developerconnect. connections. create</code></p>
+<p><code>developerconnect. connections. delete</code></p>
+<p><code>developerconnect. connections. fetchGitHubInstallations</code></p>
+<p><code>developerconnect. connections. fetchLinkableGitRepositories</code></p>
+<p><code>developerconnect. connections. generateGitHubStateToken</code></p>
+<p><code>developerconnect. connections. get</code></p>
+<p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. connections. processGitHubAppCreationCallback</code></p>
+<p><code>developerconnect. connections. processGitHubOAuthCallback</code></p>
+<p><code>developerconnect. connections. update</code></p>
+<p><code>developerconnect. gitRepositoryLinks.*</code></p>
+<ul>
+<li><code>developerconnect. gitRepositoryLinks. create</code></li>
+<li><code>developerconnect. gitRepositoryLinks. delete</code></li>
+<li><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></li>
+<li><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></li>
+<li><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></li>
+<li><code>developerconnect. gitRepositoryLinks. get</code></li>
+<li><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></li>
+<li><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></li>
+<li><code>developerconnect. gitRepositoryLinks. list</code></li>
+</ul>
+<p><code>developerconnect.locations.*</code></p>
+<ul>
+<li><code>developerconnect.locations.get</code></li>
+<li><code>developerconnect. locations. list</code></li>
+</ul>
+<p><code>developerconnect.operations.*</code></p>
+<ul>
+<li><code>developerconnect. operations. cancel</code></li>
+<li><code>developerconnect. operations. delete</code></li>
+<li><code>developerconnect. operations. get</code></li>
+<li><code>developerconnect. operations. list</code></li>
+</ul>
+<p><code>developerconnect. providers. list</code></p>
+<p><code>developerconnect.users.*</code></p>
+<ul>
+<li><code>developerconnect.users.delete</code></li>
+<li><code>developerconnect. users. deleteSelf</code></li>
+<li><code>developerconnect. users. fetchAccessToken</code></li>
+<li><code>developerconnect. users. finishOAuth</code></li>
+<li><code>developerconnect.users.getSelf</code></li>
+<li><code>developerconnect.users.list</code></li>
+<li><code>developerconnect. users. startOAuth</code></li>
+</ul>
 <p><code>firebase.projects.get</code></p>
 <p><code>iam.roles.get</code></p>
 <p><code>iam.roles.list</code></p>
@@ -3246,6 +3340,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager. projects. getIamPolicy</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -3263,6 +3358,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>spanner.*</code></p>
@@ -4409,6 +4506,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>run.workerpools.sshRead</code></p>
 <p><code>run.workerpools.sshRoot</code></p>
 <p><code>run.workerpools.update</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -4426,6 +4524,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>source.*</code></p>
 <ul>
@@ -4649,6 +4749,16 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute. firewalls. listEffectiveTags</code></li>
 <li><code>compute. firewalls. listTagBindings</code></li>
 <li><code>compute.firewalls.update</code></li>
+<li><code>compute. folderRolloutPlans. create</code></li>
+<li><code>compute. folderRolloutPlans. delete</code></li>
+<li><code>compute.folderRolloutPlans.get</code></li>
+<li><code>compute. folderRolloutPlans. list</code></li>
+<li><code>compute.folderRollouts.cancel</code></li>
+<li><code>compute.folderRollouts.delete</code></li>
+<li><code>compute.folderRollouts.get</code></li>
+<li><code>compute.folderRollouts.list</code></li>
+<li><code>compute.folderRollouts.pause</code></li>
+<li><code>compute.folderRollouts.resume</code></li>
 <li><code>compute. folderVmExtensionPolicies. create</code></li>
 <li><code>compute. folderVmExtensionPolicies. delete</code></li>
 <li><code>compute. folderVmExtensionPolicies. get</code></li>
@@ -6697,6 +6807,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>servicenetworking.services.get</code></p>
 <p><code>servicenetworking. services. getVpcServiceControls</code></p>
 <p><code>servicenetworking. services. listPeeredDnsDomains</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -6714,6 +6825,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.*</code></p>
 <ul>
@@ -8518,6 +8631,41 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>dataprocrm.workloads.get</code></li>
 <li><code>dataprocrm.workloads.list</code></li>
 </ul>
+<p><code>developerconnect. connections. constructGitHubAppManifest</code></p>
+<p><code>developerconnect. connections. create</code></p>
+<p><code>developerconnect. connections. delete</code></p>
+<p><code>developerconnect. connections. fetchGitHubInstallations</code></p>
+<p><code>developerconnect. connections. fetchLinkableGitRepositories</code></p>
+<p><code>developerconnect. connections. generateGitHubStateToken</code></p>
+<p><code>developerconnect. connections. get</code></p>
+<p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. connections. processGitHubAppCreationCallback</code></p>
+<p><code>developerconnect. connections. processGitHubOAuthCallback</code></p>
+<p><code>developerconnect. connections. update</code></p>
+<p><code>developerconnect. gitRepositoryLinks.*</code></p>
+<ul>
+<li><code>developerconnect. gitRepositoryLinks. create</code></li>
+<li><code>developerconnect. gitRepositoryLinks. delete</code></li>
+<li><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></li>
+<li><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></li>
+<li><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></li>
+<li><code>developerconnect. gitRepositoryLinks. get</code></li>
+<li><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></li>
+<li><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></li>
+<li><code>developerconnect. gitRepositoryLinks. list</code></li>
+</ul>
+<p><code>developerconnect.locations.*</code></p>
+<ul>
+<li><code>developerconnect.locations.get</code></li>
+<li><code>developerconnect. locations. list</code></li>
+</ul>
+<p><code>developerconnect.operations.*</code></p>
+<ul>
+<li><code>developerconnect. operations. cancel</code></li>
+<li><code>developerconnect. operations. delete</code></li>
+<li><code>developerconnect. operations. get</code></li>
+<li><code>developerconnect. operations. list</code></li>
+</ul>
 <p><code>logging.buckets.get</code></p>
 <p><code>logging.buckets.list</code></p>
 <p><code>logging. buckets. listEffectiveTags</code></p>
@@ -8962,6 +9110,16 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute. firewalls. listEffectiveTags</code></li>
 <li><code>compute. firewalls. listTagBindings</code></li>
 <li><code>compute.firewalls.update</code></li>
+<li><code>compute. folderRolloutPlans. create</code></li>
+<li><code>compute. folderRolloutPlans. delete</code></li>
+<li><code>compute.folderRolloutPlans.get</code></li>
+<li><code>compute. folderRolloutPlans. list</code></li>
+<li><code>compute.folderRollouts.cancel</code></li>
+<li><code>compute.folderRollouts.delete</code></li>
+<li><code>compute.folderRollouts.get</code></li>
+<li><code>compute.folderRollouts.list</code></li>
+<li><code>compute.folderRollouts.pause</code></li>
+<li><code>compute.folderRollouts.resume</code></li>
 <li><code>compute. folderVmExtensionPolicies. create</code></li>
 <li><code>compute. folderVmExtensionPolicies. delete</code></li>
 <li><code>compute. folderVmExtensionPolicies. get</code></li>
@@ -10690,6 +10848,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>servicenetworking.services.get</code></p>
 <p><code>servicenetworking. services. getVpcServiceControls</code></p>
 <p><code>servicenetworking. services. listPeeredDnsDomains</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -10707,6 +10866,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.*</code></p>
 <ul>
@@ -10745,6 +10906,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>agentidentity. accessSummaries. list</code></p>
 <p><code>agentidentity. authProviders. getIamPolicy</code></p>
 <p><code>agentidentity. authProviders. list</code></p>
+<p><code>agentidentity. authorizations. getIamPolicy</code></p>
 <p><code>agentidentity. authorizations. list</code></p>
 <p><code>agentidentity.locations.list</code></p>
 <p><code>agentregistry.agents.list</code></p>
@@ -12237,6 +12399,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>commerceprice.events.list</code></p>
 <p><code>commerceprice. privateoffers. list</code></p>
 <p><code>commerceproducer. analyticsHubListingProductConfigs. list</code></p>
+<p><code>commerceproducer. consumerEnforcementActions. list</code></p>
 <p><code>commerceproducer. locations. list</code></p>
 <p><code>commerceproducer. privateOfferDocuments. list</code></p>
 <p><code>commerceproducer. privateOffers. list</code></p>
@@ -12308,6 +12471,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute.folderRolloutPlans.get</code></p>
+<p><code>compute. folderRolloutPlans. list</code></p>
+<p><code>compute.folderRollouts.get</code></p>
+<p><code>compute.folderRollouts.list</code></p>
 <p><code>compute. folderVmExtensionPolicies. get</code></p>
 <p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute.folderVmExtensions.*</code></p>
@@ -14198,10 +14365,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>oracledatabase. goldenGateDeployments. list</code></p>
 <p><code>oracledatabase.locations.list</code></p>
 <p><code>oracledatabase. minorVersions. list</code></p>
+<p><code>oracledatabase. odbDnsZones. list</code></p>
 <p><code>oracledatabase. odbNetworks. list</code></p>
 <p><code>oracledatabase.odbSubnets.list</code></p>
 <p><code>oracledatabase.operations.list</code></p>
 <p><code>oracledatabase. pluggableDatabases. list</code></p>
+<p><code>oracledatabase. serviceIntegrations. list</code></p>
 <p><code>oracledatabase. systemVersions. list</code></p>
 <p><code>orgpolicy.constraints.list</code></p>
 <p><code>orgpolicy. customConstraints. get</code></p>
@@ -14760,6 +14929,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>servicesecurityinsights. clusterSecurityInfo. list</code></p>
 <p><code>servicesecurityinsights. securityInfo. list</code></p>
 <p><code>servicesecurityinsights. workloadPolicies. list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -14772,6 +14942,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>source.repos.getIamPolicy</code></p>
 <p><code>source.repos.list</code></p>
@@ -15876,6 +16048,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute.folderRolloutPlans.get</code></p>
+<p><code>compute. folderRolloutPlans. list</code></p>
+<p><code>compute.folderRollouts.get</code></p>
+<p><code>compute.folderRollouts.list</code></p>
 <p><code>compute. folderVmExtensionPolicies. get</code></p>
 <p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute.folderVmExtensions.*</code></p>
@@ -16948,6 +17124,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>run.workerpools.get</code></p>
 <p><code>run.workerpools.getIamPolicy</code></p>
 <p><code>run.workerpools.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -16965,6 +17142,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>spanner.backupOperations.get</code></p>
 <p><code>spanner.backupOperations.list</code></p>
@@ -17044,6 +17223,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>agentidentity. authProviders. list</code></p>
 <p><code>agentidentity. authProviders. queryWorkloads</code></p>
 <p><code>agentidentity. authorizations. get</code></p>
+<p><code>agentidentity. authorizations. getIamPolicy</code></p>
 <p><code>agentidentity. authorizations. list</code></p>
 <p><code>agentidentity.locations.*</code></p>
 <ul>
@@ -18258,6 +18438,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>ces.apps.export</code></p>
 <p><code>ces.apps.get</code></p>
 <p><code>ces.apps.list</code></p>
+<p><code>ces.arcSessions.get</code></p>
 <p><code>ces.assistantSessions.get</code></p>
 <p><code>ces.assistantSessions.list</code></p>
 <p><code>ces.changelogs.*</code></p>
@@ -19693,6 +19874,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>commerceprice. privateoffers. list</code></p>
 <p><code>commerceproducer. analyticsHubListingProductConfigs. get</code></p>
 <p><code>commerceproducer. analyticsHubListingProductConfigs. list</code></p>
+<p><code>commerceproducer. consumerEnforcementActions. get</code></p>
+<p><code>commerceproducer. consumerEnforcementActions. list</code></p>
 <p><code>commerceproducer.locations.*</code></p>
 <ul>
 <li><code>commerceproducer.locations.get</code></li>
@@ -19794,6 +19977,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute.folderRolloutPlans.get</code></p>
+<p><code>compute. folderRolloutPlans. list</code></p>
+<p><code>compute.folderRollouts.get</code></p>
+<p><code>compute.folderRollouts.list</code></p>
 <p><code>compute. folderVmExtensionPolicies. get</code></p>
 <p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute.folderVmExtensions.*</code></p>
@@ -22159,6 +22346,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>gkeonprem. vmwareNodePools. getIamPolicy</code></p>
 <p><code>gkeonprem.vmwareNodePools.list</code></p>
 <p><code>gsuiteaddons. authorizations. get</code></p>
+<p><code>gsuiteaddons. chatAppConfigs. get</code></p>
 <p><code>gsuiteaddons.deployments.get</code></p>
 <p><code>gsuiteaddons.deployments.list</code></p>
 <p><code>health.subscribers.list</code></p>
@@ -23173,6 +23361,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>oracledatabase.locations.list</code></li>
 </ul>
 <p><code>oracledatabase. minorVersions. list</code></p>
+<p><code>oracledatabase.odbDnsZones.get</code></p>
+<p><code>oracledatabase. odbDnsZones. list</code></p>
 <p><code>oracledatabase.odbNetworks.get</code></p>
 <p><code>oracledatabase. odbNetworks. list</code></p>
 <p><code>oracledatabase.odbSubnets.get</code></p>
@@ -23184,6 +23374,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>oracledatabase. pluggableDatabases. get</code></li>
 <li><code>oracledatabase. pluggableDatabases. list</code></li>
 </ul>
+<p><code>oracledatabase. serviceIntegrations. get</code></p>
+<p><code>oracledatabase. serviceIntegrations. list</code></p>
 <p><code>oracledatabase. systemVersions. list</code></p>
 <p><code>orgpolicy.constraints.list</code></p>
 <p><code>orgpolicy. customConstraints. get</code></p>
@@ -24173,6 +24365,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>servicesecurityinsights. workloadPolicies. list</code></li>
 <li><code>servicesecurityinsights. workloadSecurityInfo. get</code></li>
 </ul>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -24189,6 +24382,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>source.repos.get</code></p>
 <p><code>source.repos.getIamPolicy</code></p>

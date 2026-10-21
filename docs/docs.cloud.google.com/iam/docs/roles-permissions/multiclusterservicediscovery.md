@@ -164,6 +164,7 @@ Multi-Cluster Service Discovery offers the following service agent roles. Servic
 <li><code>compute.regions.get</code></li>
 <li><code>compute.regions.list</code></li>
 </ul>
+<p><code>compute.subnetworks.get</code></p>
 <p><code>compute.targetHttpProxies.*</code></p>
 <ul>
 <li><code>compute. targetHttpProxies. create</code></li>

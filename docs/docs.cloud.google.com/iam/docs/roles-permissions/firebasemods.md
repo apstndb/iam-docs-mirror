@@ -116,6 +116,7 @@ Firebase Mods offers the following service agent roles. Service agent roles shou
 <p><code>resourcemanager. projects. updateLiens</code></p>
 <p><code>run.services.getIamPolicy</code></p>
 <p><code>run.services.setIamPolicy</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -133,6 +134,8 @@ Firebase Mods offers the following service agent roles. Service agent roles shou
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>

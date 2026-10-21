@@ -41,12 +41,12 @@ This page lists the IAM roles and permissions for IAM Connectors. To search thro
 <p><code>agentidentity. authProviders. setIamPolicy</code></p>
 <p><code>agentidentity. authProviders. undelete</code></p>
 <p><code>agentidentity. authProviders. update</code></p>
-<p><code>agentidentity.authorizations.*</code></p>
-<ul>
-<li><code>agentidentity. authorizations. delete</code></li>
-<li><code>agentidentity. authorizations. get</code></li>
-<li><code>agentidentity. authorizations. list</code></li>
-</ul>
+<p><code>agentidentity. authorizations. create</code></p>
+<p><code>agentidentity. authorizations. delete</code></p>
+<p><code>agentidentity. authorizations. get</code></p>
+<p><code>agentidentity. authorizations. getIamPolicy</code></p>
+<p><code>agentidentity. authorizations. list</code></p>
+<p><code>agentidentity. authorizations. setIamPolicy</code></p>
 <p><code>agentidentity.locations.*</code></p>
 <ul>
 <li><code>agentidentity.locations.get</code></li>
@@ -104,12 +104,11 @@ This page lists the IAM roles and permissions for IAM Connectors. To search thro
 <p><code>agentidentity. authProviders. revokeAuthorizations</code></p>
 <p><code>agentidentity. authProviders. undelete</code></p>
 <p><code>agentidentity. authProviders. update</code></p>
-<p><code>agentidentity.authorizations.*</code></p>
-<ul>
-<li><code>agentidentity. authorizations. delete</code></li>
-<li><code>agentidentity. authorizations. get</code></li>
-<li><code>agentidentity. authorizations. list</code></li>
-</ul>
+<p><code>agentidentity. authorizations. create</code></p>
+<p><code>agentidentity. authorizations. delete</code></p>
+<p><code>agentidentity. authorizations. get</code></p>
+<p><code>agentidentity. authorizations. getIamPolicy</code></p>
+<p><code>agentidentity. authorizations. list</code></p>
 <p><code>agentidentity.locations.*</code></p>
 <ul>
 <li><code>agentidentity.locations.get</code></li>
@@ -162,6 +161,7 @@ This page lists the IAM roles and permissions for IAM Connectors. To search thro
 <p><code>agentidentity. authProviders. list</code></p>
 <p><code>agentidentity. authProviders. queryWorkloads</code></p>
 <p><code>agentidentity. authorizations. get</code></p>
+<p><code>agentidentity. authorizations. getIamPolicy</code></p>
 <p><code>agentidentity. authorizations. list</code></p>
 <p><code>agentidentity.locations.*</code></p>
 <ul>
@@ -191,7 +191,10 @@ This page lists the IAM roles and permissions for IAM Connectors. To search thro
 <td>Connector User <sup>Beta</sup>
 <p>( <code>roles/ iamconnectors.user</code> )</p>
 <p>Grants access to retrieve credentials from connectors.</p></td>
-<td><p><code>agentidentity. authProviders. retrieveCredentials</code></p>
+<td><p><code>agentidentity. authProviders. exchangeCredentials</code></p>
+<p><code>agentidentity. authProviders. retrieveCredentials</code></p>
+<p><code>agentidentity. authorizations. exchangeCredentials</code></p>
+<p><code>agentidentity. authorizations. retrieveCredentials</code></p>
 <p><code>iamconnectors. connectors. retrieveCredentials</code></p></td>
 </tr>
 </tbody>

@@ -359,6 +359,7 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>servicedirectory.services.list</code></p>
 <p><code>servicemanagement.services.get</code></p>
 <p><code>servicemanagement. services. list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -369,6 +370,8 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <li><code>serviceusage. groups. listMembers</code></li>
 </ul>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>spanner.backupSchedules.list</code></p>
 <p><code>spanner.backups.list</code></p>

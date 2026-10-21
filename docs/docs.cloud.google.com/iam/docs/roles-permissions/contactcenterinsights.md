@@ -318,6 +318,7 @@ This page lists the IAM roles and permissions for Customer Experience Insights. 
 <p><code>contactcenterinsights. authorizedViews. create</code></p>
 <p><code>contactcenterinsights. authorizedViews. delete</code></p>
 <p><code>contactcenterinsights. authorizedViews. get</code></p>
+<p><code>contactcenterinsights. authorizedViews. getIamPolicy</code></p>
 <p><code>contactcenterinsights. authorizedViews. list</code></p>
 <p><code>contactcenterinsights. authorizedViews. update</code></p>
 <p><code>contactcenterinsights. conversations.*</code></p>
@@ -553,6 +554,7 @@ This page lists the IAM roles and permissions for Customer Experience Insights. 
 <p><code>contactcenterinsights. authorizedViewSets. get</code></p>
 <p><code>contactcenterinsights. authorizedViewSets. list</code></p>
 <p><code>contactcenterinsights. authorizedViews. get</code></p>
+<p><code>contactcenterinsights. authorizedViews. getIamPolicy</code></p>
 <p><code>contactcenterinsights. authorizedViews. list</code></p>
 <p><code>contactcenterinsights. conversations. generateSignedAudio</code></p>
 <p><code>contactcenterinsights. conversations. get</code></p>
@@ -1860,9 +1862,19 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code>roles/ ces.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.viewer">Gemini Enterprise for Customer Experience Viewer</a> ( <code>roles/ ces.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code>roles/ contactcenterinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code>roles/ contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code>roles/ contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code>roles/ ces.agentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code>roles/ ces.appEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code>roles/ ces.deploymentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code>roles/ ces.evalsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code>roles/ ces.guardrailsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code>roles/ ces.securitySettingsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code>roles/ ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>

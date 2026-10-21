@@ -27,6 +27,7 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 <p>( <code>roles/ cloudhub.operator</code> )</p>
 <p>Allows users to view and interact with Cloud Hub.</p></td>
 <td><p><code>apphub.applications.get</code></p>
+<p><code>apphub. applications. getIamPolicy</code></p>
 <p><code>apphub.applications.list</code></p>
 <p><code>apphub.boundaries.get</code></p>
 <p><code>apphub.discoveredServices.get</code></p>
@@ -45,6 +46,8 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 </ul>
 <p><code>apphub.operations.get</code></p>
 <p><code>apphub.operations.list</code></p>
+<p><code>apphub. serviceProjectAttachments. get</code></p>
+<p><code>apphub. serviceProjectAttachments. list</code></p>
 <p><code>apphub. serviceProjectAttachments. lookup</code></p>
 <p><code>apphub.services.get</code></p>
 <p><code>apphub.services.list</code></p>
@@ -1248,6 +1251,7 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 <li><code>servicehealth. organizationImpacts. list</code></li>
 <li><code>servicehealth.statuses.get</code></li>
 </ul>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -1260,6 +1264,8 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p>
 <p><code>stackdriver. resourceMetadata. list</code></p>

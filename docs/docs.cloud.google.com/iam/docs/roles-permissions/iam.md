@@ -392,7 +392,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>agentidentity. authProviders. getIamPolicy</code></p>
 <p><code>agentidentity. authProviders. list</code></p>
 <p><code>agentidentity. authProviders. setIamPolicy</code></p>
+<p><code>agentidentity. authorizations. getIamPolicy</code></p>
 <p><code>agentidentity. authorizations. list</code></p>
+<p><code>agentidentity. authorizations. setIamPolicy</code></p>
 <p><code>agentidentity.locations.list</code></p>
 <p><code>agentregistry.agents.list</code></p>
 <p><code>agentregistry.bindings.list</code></p>
@@ -1170,6 +1172,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>commerceprice.events.list</code></p>
 <p><code>commerceprice. privateoffers. list</code></p>
 <p><code>commerceproducer. analyticsHubListingProductConfigs. list</code></p>
+<p><code>commerceproducer. consumerEnforcementActions. list</code></p>
 <p><code>commerceproducer. locations. list</code></p>
 <p><code>commerceproducer. privateOfferDocuments. list</code></p>
 <p><code>commerceproducer. privateOffers. list</code></p>
@@ -1205,6 +1208,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>compute.firewallPolicies.list</code></p>
 <p><code>compute. firewallPolicies. setIamPolicy</code></p>
 <p><code>compute.firewalls.list</code></p>
+<p><code>compute. folderRolloutPlans. list</code></p>
+<p><code>compute.folderRollouts.list</code></p>
 <p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute. folderVmExtensions. list</code></p>
 <p><code>compute.forwardingRules.list</code></p>
@@ -2633,10 +2638,12 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>oracledatabase. goldenGateDeployments. list</code></p>
 <p><code>oracledatabase.locations.list</code></p>
 <p><code>oracledatabase. minorVersions. list</code></p>
+<p><code>oracledatabase. odbDnsZones. list</code></p>
 <p><code>oracledatabase. odbNetworks. list</code></p>
 <p><code>oracledatabase.odbSubnets.list</code></p>
 <p><code>oracledatabase.operations.list</code></p>
 <p><code>oracledatabase. pluggableDatabases. list</code></p>
+<p><code>oracledatabase. serviceIntegrations. list</code></p>
 <p><code>oracledatabase. systemVersions. list</code></p>
 <p><code>orgpolicy.constraints.list</code></p>
 <p><code>orgpolicy. customConstraints. list</code></p>
@@ -3298,6 +3305,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>agentidentity. accessSummaries. list</code></p>
 <p><code>agentidentity. authProviders. getIamPolicy</code></p>
 <p><code>agentidentity. authProviders. list</code></p>
+<p><code>agentidentity. authorizations. getIamPolicy</code></p>
 <p><code>agentidentity. authorizations. list</code></p>
 <p><code>agentidentity.locations.list</code></p>
 <p><code>agentregistry.agents.list</code></p>
@@ -4004,6 +4012,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>commerceprice.events.list</code></p>
 <p><code>commerceprice. privateoffers. list</code></p>
 <p><code>commerceproducer. analyticsHubListingProductConfigs. list</code></p>
+<p><code>commerceproducer. consumerEnforcementActions. list</code></p>
 <p><code>commerceproducer. locations. list</code></p>
 <p><code>commerceproducer. privateOfferDocuments. list</code></p>
 <p><code>commerceproducer. privateOffers. list</code></p>
@@ -4035,6 +4044,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>compute. firewallPolicies. getIamPolicy</code></p>
 <p><code>compute.firewallPolicies.list</code></p>
 <p><code>compute.firewalls.list</code></p>
+<p><code>compute. folderRolloutPlans. list</code></p>
+<p><code>compute.folderRollouts.list</code></p>
 <p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute. folderVmExtensions. list</code></p>
 <p><code>compute.forwardingRules.list</code></p>
@@ -5275,10 +5286,12 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>oracledatabase. goldenGateDeployments. list</code></p>
 <p><code>oracledatabase.locations.list</code></p>
 <p><code>oracledatabase. minorVersions. list</code></p>
+<p><code>oracledatabase. odbDnsZones. list</code></p>
 <p><code>oracledatabase. odbNetworks. list</code></p>
 <p><code>oracledatabase.odbSubnets.list</code></p>
 <p><code>oracledatabase.operations.list</code></p>
 <p><code>oracledatabase. pluggableDatabases. list</code></p>
+<p><code>oracledatabase. serviceIntegrations. list</code></p>
 <p><code>oracledatabase. systemVersions. list</code></p>
 <p><code>orgpolicy.constraints.list</code></p>
 <p><code>orgpolicy. customConstraints. list</code></p>

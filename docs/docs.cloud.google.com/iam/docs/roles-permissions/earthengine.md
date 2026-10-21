@@ -143,6 +143,7 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><code>iam. serviceAccounts. getIamPolicy</code></p>
 <p><code>iam. serviceAccounts. setIamPolicy</code></p>
 <p><code>resourcemanager.projects.get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -153,6 +154,8 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <li><code>serviceusage. groups. listMembers</code></li>
 </ul>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">

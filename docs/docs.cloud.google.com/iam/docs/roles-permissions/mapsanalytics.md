@@ -48,6 +48,7 @@ This page lists the IAM roles and permissions for Maps Analytics. To search thro
 <p><code>serviceusage.groups.list</code></p>
 <p><code>serviceusage. groups. listMembers</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">

@@ -576,6 +576,7 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <p><code>securityposture.postures.list</code></p>
 <p><code>securityposture.reports.get</code></p>
 <p><code>securityposture.reports.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -589,6 +590,8 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p>
@@ -1036,6 +1039,7 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <p><code>securityposture.postures.list</code></p>
 <p><code>securityposture.reports.get</code></p>
 <p><code>securityposture.reports.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -1048,6 +1052,8 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p>
 <p><code>stackdriver. resourceMetadata. list</code></p></td>
@@ -1440,6 +1446,7 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <p><code>securityposture.postures.list</code></p>
 <p><code>securityposture.reports.get</code></p>
 <p><code>securityposture.reports.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -1452,6 +1459,8 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p>
 <p><code>stackdriver. resourceMetadata. list</code></p></td>
@@ -2291,6 +2300,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager. projects. getIamPolicy</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -2306,6 +2316,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
@@ -2952,6 +2964,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. list</code></p>
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. simulate</code></p>
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. update</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -2971,6 +2984,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p>
 <p><code>storage.buckets.get</code></p>
@@ -3599,6 +3614,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
 <p><code>securitycenter. organizationsettings. get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -3611,6 +3627,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p></td>
 </tr>
@@ -4277,6 +4295,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. list</code></p>
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. simulate</code></p>
 <p><code>securitycentermanagement. securityHealthAnalyticsCustomModules. update</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -4296,6 +4315,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p>
 <p><code>storage.buckets.get</code></p>

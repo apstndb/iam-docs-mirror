@@ -482,6 +482,7 @@ Multi-Cluster Ingress offers the following service agent roles. Service agent ro
 <li><code>networkservices. wasmPlugins. update</code></li>
 <li><code>networkservices. wasmPlugins. use</code></li>
 </ul>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -493,6 +494,8 @@ Multi-Cluster Ingress offers the following service agent roles. Service agent ro
 </ul>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>

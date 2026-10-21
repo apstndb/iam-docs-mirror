@@ -96,6 +96,7 @@ This page lists the IAM roles and permissions for Pub/Sub. To search through all
 <li><code>pubsub.topics.updateTag</code></li>
 </ul>
 <p><code>resourcemanager.projects.get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -108,6 +109,8 @@ This page lists the IAM roles and permissions for Pub/Sub. To search through all
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
@@ -174,6 +177,7 @@ This page lists the IAM roles and permissions for Pub/Sub. To search through all
 <p><code>pubsub.topics.update</code></p>
 <p><code>pubsub.topics.updateTag</code></p>
 <p><code>resourcemanager.projects.get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -186,6 +190,8 @@ This page lists the IAM roles and permissions for Pub/Sub. To search through all
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
@@ -241,6 +247,7 @@ This page lists the IAM roles and permissions for Pub/Sub. To search through all
 <p><code>pubsub. topics. listEffectiveTags</code></p>
 <p><code>pubsub.topics.listTagBindings</code></p>
 <p><code>resourcemanager.projects.get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -253,6 +260,8 @@ This page lists the IAM roles and permissions for Pub/Sub. To search through all
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>

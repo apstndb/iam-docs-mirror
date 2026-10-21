@@ -23,7 +23,7 @@ This page lists the IAM roles and permissions for Google Earth. To search throug
 </thead>
 <tbody>
 <tr class="odd">
-<td>Earth Admin <sup>Beta</sup>
+<td>Earth Admin
 <p>( <code>roles/ earth.admin</code> )</p>
 <p>Admin role for earth</p></td>
 <td><p><code>earth.*</code></p>
@@ -35,7 +35,7 @@ This page lists the IAM roles and permissions for Google Earth. To search throug
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td>Earth Viewer <sup>Beta</sup>
+<td>Earth Viewer
 <p>( <code>roles/ earth.viewer</code> )</p>
 <p>Viewer role for earth</p></td>
 <td><p><code>earth.subscriptions.get</code></p>
@@ -43,7 +43,7 @@ This page lists the IAM roles and permissions for Google Earth. To search throug
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td>Earth Subscriptions Administrator <sup>Beta</sup>
+<td>Earth Subscriptions Administrator
 <p>( <code>roles/ earth.subscriptionsAdmin</code> )</p>
 <p>Provides access to see and configure Earth subscriptions.</p></td>
 <td><p><code>earth.*</code></p>
@@ -55,7 +55,7 @@ This page lists the IAM roles and permissions for Google Earth. To search throug
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td>Earth Subscriptions Viewer <sup>Beta</sup>
+<td>Earth Subscriptions Viewer
 <p>( <code>roles/ earth.subscriptionsViewer</code> )</p>
 <p>Provides read-only access to Earth subscriptions.</p></td>
 <td><p><code>earth.subscriptions.get</code></p>

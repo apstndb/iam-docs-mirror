@@ -100,6 +100,10 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute.folderRolloutPlans.get</code></p>
+<p><code>compute. folderRolloutPlans. list</code></p>
+<p><code>compute.folderRollouts.get</code></p>
+<p><code>compute.folderRollouts.list</code></p>
 <p><code>compute. folderVmExtensionPolicies. get</code></p>
 <p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute.folderVmExtensions.*</code></p>
@@ -586,6 +590,7 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 </ul>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -598,6 +603,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
@@ -661,6 +668,10 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute.folderRolloutPlans.get</code></p>
+<p><code>compute. folderRolloutPlans. list</code></p>
+<p><code>compute.folderRollouts.get</code></p>
+<p><code>compute.folderRollouts.list</code></p>
 <p><code>compute. folderVmExtensionPolicies. get</code></p>
 <p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute.folderVmExtensions.*</code></p>
@@ -1143,6 +1154,7 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>notebooks.schedules.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -1155,6 +1167,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
@@ -1222,6 +1236,10 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute.folderRolloutPlans.get</code></p>
+<p><code>compute. folderRolloutPlans. list</code></p>
+<p><code>compute.folderRollouts.get</code></p>
+<p><code>compute.folderRollouts.list</code></p>
 <p><code>compute. folderVmExtensionPolicies. get</code></p>
 <p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute.folderVmExtensions.*</code></p>
@@ -1670,6 +1688,7 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>notebooks.schedules.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -1682,6 +1701,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
@@ -1846,6 +1867,16 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <li><code>compute. firewalls. listEffectiveTags</code></li>
 <li><code>compute. firewalls. listTagBindings</code></li>
 <li><code>compute.firewalls.update</code></li>
+<li><code>compute. folderRolloutPlans. create</code></li>
+<li><code>compute. folderRolloutPlans. delete</code></li>
+<li><code>compute.folderRolloutPlans.get</code></li>
+<li><code>compute. folderRolloutPlans. list</code></li>
+<li><code>compute.folderRollouts.cancel</code></li>
+<li><code>compute.folderRollouts.delete</code></li>
+<li><code>compute.folderRollouts.get</code></li>
+<li><code>compute.folderRollouts.list</code></li>
+<li><code>compute.folderRollouts.pause</code></li>
+<li><code>compute.folderRollouts.resume</code></li>
 <li><code>compute. folderVmExtensionPolicies. create</code></li>
 <li><code>compute. folderVmExtensionPolicies. delete</code></li>
 <li><code>compute. folderVmExtensionPolicies. get</code></li>
@@ -2871,6 +2902,7 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 </ul>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -2883,6 +2915,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
@@ -2942,6 +2976,10 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute.folderRolloutPlans.get</code></p>
+<p><code>compute. folderRolloutPlans. list</code></p>
+<p><code>compute.folderRollouts.get</code></p>
+<p><code>compute.folderRollouts.list</code></p>
 <p><code>compute. folderVmExtensionPolicies. get</code></p>
 <p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute.folderVmExtensions.*</code></p>
@@ -3390,6 +3428,7 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>notebooks.schedules.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -3402,6 +3441,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
@@ -3478,6 +3519,10 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute.folderRolloutPlans.get</code></p>
+<p><code>compute. folderRolloutPlans. list</code></p>
+<p><code>compute.folderRollouts.get</code></p>
+<p><code>compute.folderRollouts.list</code></p>
 <p><code>compute. folderVmExtensionPolicies. get</code></p>
 <p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute.folderVmExtensions.*</code></p>
@@ -3930,6 +3975,7 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>notebooks.schedules.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -3942,6 +3988,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>
@@ -4096,6 +4144,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>compute.firewalls.list</code></p>
 <p><code>compute. firewalls. listEffectiveTags</code></p>
 <p><code>compute. firewalls. listTagBindings</code></p>
+<p><code>compute.folderRolloutPlans.get</code></p>
+<p><code>compute. folderRolloutPlans. list</code></p>
+<p><code>compute.folderRollouts.get</code></p>
+<p><code>compute.folderRollouts.list</code></p>
 <p><code>compute. folderVmExtensionPolicies. get</code></p>
 <p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute.folderVmExtensions.*</code></p>
@@ -4807,6 +4859,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -4819,6 +4872,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>

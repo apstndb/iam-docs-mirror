@@ -80,6 +80,7 @@ This page lists the IAM roles and permissions for App Hub. To search through all
 <td><p><code>apphub.applications.create</code></p>
 <p><code>apphub.applications.delete</code></p>
 <p><code>apphub.applications.get</code></p>
+<p><code>apphub. applications. getIamPolicy</code></p>
 <p><code>apphub.applications.list</code></p>
 <p><code>apphub.applications.update</code></p>
 <p><code>apphub.boundaries.get</code></p>
@@ -112,6 +113,10 @@ This page lists the IAM roles and permissions for App Hub. To search through all
 <li><code>apphub.operations.get</code></li>
 <li><code>apphub.operations.list</code></li>
 </ul>
+<p><code>apphub. serviceProjectAttachments. create</code></p>
+<p><code>apphub. serviceProjectAttachments. delete</code></p>
+<p><code>apphub. serviceProjectAttachments. get</code></p>
+<p><code>apphub. serviceProjectAttachments. list</code></p>
 <p><code>apphub. serviceProjectAttachments. lookup</code></p>
 <p><code>apphub.services.*</code></p>
 <ul>
@@ -137,6 +142,7 @@ This page lists the IAM roles and permissions for App Hub. To search through all
 <p>( <code>roles/ apphub.viewer</code> )</p>
 <p>View access to App Hub resources.</p></td>
 <td><p><code>apphub.applications.get</code></p>
+<p><code>apphub. applications. getIamPolicy</code></p>
 <p><code>apphub.applications.list</code></p>
 <p><code>apphub.boundaries.get</code></p>
 <p><code>apphub.discoveredServices.get</code></p>
@@ -155,6 +161,8 @@ This page lists the IAM roles and permissions for App Hub. To search through all
 </ul>
 <p><code>apphub.operations.get</code></p>
 <p><code>apphub.operations.list</code></p>
+<p><code>apphub. serviceProjectAttachments. get</code></p>
+<p><code>apphub. serviceProjectAttachments. list</code></p>
 <p><code>apphub. serviceProjectAttachments. lookup</code></p>
 <p><code>apphub.services.get</code></p>
 <p><code>apphub.services.list</code></p>
@@ -168,6 +176,7 @@ This page lists the IAM roles and permissions for App Hub. To search through all
 <p>( <code>roles/ apphub.appManagementViewer</code> )</p>
 <p>This role, an aggregation of read permissions across multiple app centric products.</p></td>
 <td><p><code>apphub.applications.get</code></p>
+<p><code>apphub. applications. getIamPolicy</code></p>
 <p><code>apphub.applications.list</code></p>
 <p><code>apphub.boundaries.get</code></p>
 <p><code>apphub.discoveredServices.get</code></p>
@@ -186,6 +195,8 @@ This page lists the IAM roles and permissions for App Hub. To search through all
 </ul>
 <p><code>apphub.operations.get</code></p>
 <p><code>apphub.operations.list</code></p>
+<p><code>apphub. serviceProjectAttachments. get</code></p>
+<p><code>apphub. serviceProjectAttachments. list</code></p>
 <p><code>apphub. serviceProjectAttachments. lookup</code></p>
 <p><code>apphub.services.get</code></p>
 <p><code>apphub.services.list</code></p>
@@ -1384,8 +1395,12 @@ This page lists the IAM roles and permissions for App Hub. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.admin">App Hub Admin</a> ( <code>roles/ apphub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.editor">App Hub Editor</a> ( <code>roles/ apphub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.viewer">App Hub Viewer</a> ( <code>roles/ apphub.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.appManagementViewer">App Management Viewer</a> ( <code>roles/ apphub.appManagementViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code>roles/ cloudhub.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
@@ -1784,7 +1799,8 @@ This page lists the IAM roles and permissions for App Hub. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.admin">App Hub Admin</a> ( <code>roles/ apphub.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.admin">App Hub Admin</a> ( <code>roles/ apphub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.editor">App Hub Editor</a> ( <code>roles/ apphub.editor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>apphub. serviceProjectAttachments. delete</code></td>
@@ -1792,7 +1808,8 @@ This page lists the IAM roles and permissions for App Hub. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.admin">App Hub Admin</a> ( <code>roles/ apphub.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.admin">App Hub Admin</a> ( <code>roles/ apphub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.editor">App Hub Editor</a> ( <code>roles/ apphub.editor</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>apphub. serviceProjectAttachments. detach</code></td>
@@ -1809,6 +1826,10 @@ This page lists the IAM roles and permissions for App Hub. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.admin">App Hub Admin</a> ( <code>roles/ apphub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.editor">App Hub Editor</a> ( <code>roles/ apphub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.viewer">App Hub Viewer</a> ( <code>roles/ apphub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.appManagementViewer">App Management Viewer</a> ( <code>roles/ apphub.appManagementViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code>roles/ cloudhub.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -1827,12 +1848,16 @@ This page lists the IAM roles and permissions for App Hub. To search through all
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.admin">App Hub Admin</a> ( <code>roles/ apphub.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.editor">App Hub Editor</a> ( <code>roles/ apphub.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.viewer">App Hub Viewer</a> ( <code>roles/ apphub.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.admin">Application Design Center Admin</a> ( <code>roles/ designcenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code>roles/ geminicloudassist.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.editor">Gemini Cloud Assist Editor</a> ( <code>roles/ geminicloudassist.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.user">Gemini Cloud Assist User</a> ( <code>roles/ geminicloudassist.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.appManagementViewer">App Management Viewer</a> ( <code>roles/ apphub.appManagementViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code>roles/ cloudhub.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.applicationAdmin">Application Admin</a> ( <code>roles/ designcenter.applicationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.applicationEditor">Application Editor</a> ( <code>roles/ designcenter.applicationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.user">Application Design Center User</a> ( <code>roles/ designcenter.user</code> )</p>

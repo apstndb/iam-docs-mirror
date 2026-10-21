@@ -143,6 +143,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>cloudsql.instances.connect</code></p>
 <p><code>cloudsql.instances.create</code></p>
 <p><code>cloudsql.instances.get</code></p>
+<p><code>cloudsql.instances.list</code></p>
 <p><code>cloudsql.instances.login</code></p>
 <p><code>cloudsql.instances.update</code></p>
 <p><code>cloudsql.users.create</code></p>

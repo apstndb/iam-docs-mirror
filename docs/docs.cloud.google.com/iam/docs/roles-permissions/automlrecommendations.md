@@ -91,6 +91,7 @@ This page lists the IAM roles and permissions for Recommendations. To search thr
 <li><code>retail.userEvents.purge</code></li>
 <li><code>retail.userEvents.rejoin</code></li>
 </ul>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -102,6 +103,8 @@ This page lists the IAM roles and permissions for Recommendations. To search thr
 </ul>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
@@ -160,6 +163,7 @@ This page lists the IAM roles and permissions for Recommendations. To search thr
 <p><code>retail.retailProjects.get</code></p>
 <p><code>retail.userEvents.create</code></p>
 <p><code>retail.userEvents.import</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -171,6 +175,8 @@ This page lists the IAM roles and permissions for Recommendations. To search thr
 </ul>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
@@ -208,6 +214,7 @@ This page lists the IAM roles and permissions for Recommendations. To search thr
 <p><code>retail.products.get</code></p>
 <p><code>retail.products.list</code></p>
 <p><code>retail.retailProjects.get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -219,6 +226,8 @@ This page lists the IAM roles and permissions for Recommendations. To search thr
 </ul>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
@@ -257,6 +266,7 @@ This page lists the IAM roles and permissions for Recommendations. To search thr
 <p><code>retail.products.get</code></p>
 <p><code>retail.products.list</code></p>
 <p><code>retail.retailProjects.get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -268,6 +278,8 @@ This page lists the IAM roles and permissions for Recommendations. To search thr
 </ul>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>

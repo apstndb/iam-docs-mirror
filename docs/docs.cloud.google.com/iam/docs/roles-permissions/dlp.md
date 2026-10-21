@@ -959,6 +959,7 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>certificatemanager. trustconfigs. listEffectiveTags</code></p>
 <p><code>certificatemanager. trustconfigs. listTagBindings</code></p>
 <p><code>cloudaicompanion. entitlements. get</code></p>
+<p><code>cloudaicompanion.topics.create</code></p>
 <p><code>cloudasset. assets. analyzeIamPolicy</code></p>
 <p><code>cloudasset.assets.analyzeMove</code></p>
 <p><code>cloudasset. assets. analyzeOrgPolicy</code></p>
@@ -2759,6 +2760,7 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>certificatemanager. trustconfigs. listEffectiveTags</code></p>
 <p><code>certificatemanager. trustconfigs. listTagBindings</code></p>
 <p><code>cloudaicompanion. entitlements. get</code></p>
+<p><code>cloudaicompanion.topics.create</code></p>
 <p><code>cloudasset. assets. analyzeIamPolicy</code></p>
 <p><code>cloudasset.assets.analyzeMove</code></p>
 <p><code>cloudasset. assets. analyzeOrgPolicy</code></p>
@@ -4340,6 +4342,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>bigquery.tables.updateTag</code></li>
 </ul>
 <p><code>cloudaicompanion. instances. completeTask</code></p>
+<p><code>cloudaicompanion.topics.create</code></p>
 <p><code>cloudasset. assets. analyzeIamPolicy</code></p>
 <p><code>cloudasset. assets. exportResource</code></p>
 <p><code>cloudasset. assets. searchAllIamPolicies</code></p>
@@ -4555,6 +4558,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>resourcemanager. hierarchyNodes. listEffectiveTags</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -4567,6 +4571,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p>

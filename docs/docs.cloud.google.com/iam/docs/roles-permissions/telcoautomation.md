@@ -69,6 +69,7 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><code>monitoring.timeSeries.list</code></p>
 <p><code>observability.scopes.get</code></p>
 <p><code>resourcemanager.projects.get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -105,6 +106,8 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <li><code>serviceusage.services.enable</code></li>
 <li><code>serviceusage.services.get</code></li>
 <li><code>serviceusage.services.list</code></li>
+<li><code>serviceusage.services.listApis</code></li>
+<li><code>serviceusage. services. listDependentServices</code></li>
 <li><code>serviceusage.services.use</code></li>
 </ul>
 <p><code>serviceusage.values.test</code></p>

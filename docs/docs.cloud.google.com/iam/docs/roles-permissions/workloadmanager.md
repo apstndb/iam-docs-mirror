@@ -41,6 +41,7 @@ This page lists the IAM roles and permissions for Workload Manager. To search th
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager. projects. getIamPolicy</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -52,6 +53,8 @@ This page lists the IAM roles and permissions for Workload Manager. To search th
 </ul>
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.buckets.list</code></p>
 <p><code>storage.objects.list</code></p>
@@ -138,6 +141,7 @@ This page lists the IAM roles and permissions for Workload Manager. To search th
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager. projects. getIamPolicy</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -149,6 +153,8 @@ This page lists the IAM roles and permissions for Workload Manager. To search th
 </ul>
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.buckets.list</code></p>
 <p><code>storage.objects.list</code></p>
@@ -310,6 +316,7 @@ This page lists the IAM roles and permissions for Workload Manager. To search th
 <p>The role used to view the workload related data.</p></td>
 <td><p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -321,6 +328,8 @@ This page lists the IAM roles and permissions for Workload Manager. To search th
 </ul>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>workloadmanager. discoveredprofiles.*</code></p>
 <ul>

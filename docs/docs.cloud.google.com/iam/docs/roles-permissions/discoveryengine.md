@@ -1225,6 +1225,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code>monitoring.timeSeries.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -1241,6 +1242,8 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
@@ -2573,6 +2576,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code>monitoring.timeSeries.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -2589,6 +2593,8 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
@@ -3028,6 +3034,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code>monitoring.timeSeries.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -3044,6 +3051,8 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>

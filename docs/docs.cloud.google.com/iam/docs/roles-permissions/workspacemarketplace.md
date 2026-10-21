@@ -34,6 +34,7 @@ This page lists the IAM roles and permissions for Google Workspace Marketplace. 
 <p><code>gsuiteaddons. deployments. update</code></p>
 <p><code>oauthconfig.verification.get</code></p>
 <p><code>resourcemanager.projects.get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -44,6 +45,8 @@ This page lists the IAM roles and permissions for Google Workspace Marketplace. 
 <li><code>serviceusage. groups. listMembers</code></li>
 </ul>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>workspacemarketplace.*</code></p>
 <ul>

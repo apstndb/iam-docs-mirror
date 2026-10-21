@@ -34,6 +34,7 @@ BigQuery Data Transfer Service offers the following service agent roles. Service
 <td><p><code>bigquery.config.get</code></p>
 <p><code>bigquery.connections.delegate</code></p>
 <p><code>bigquery.jobs.create</code></p>
+<p><code>cloudaicompanion.topics.create</code></p>
 <p><code>compute.networkAttachments.get</code></p>
 <p><code>compute. networkAttachments. update</code></p>
 <p><code>compute.regionOperations.get</code></p>

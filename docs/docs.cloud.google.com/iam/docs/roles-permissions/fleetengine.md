@@ -234,6 +234,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>bigquery.datasets.get</code></p>
 <p><code>bigquery.jobs.create</code></p>
 <p><code>bigquery.tables.getData</code></p>
+<p><code>cloudaicompanion.topics.create</code></p>
 <p><code>dataform.folders.create</code></p>
 <p><code>dataform.locations.*</code></p>
 <ul>
@@ -245,6 +246,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>geminidataanalytics. locations. chat</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -259,6 +261,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>serviceusage. groups. listMembers</code></li>
 </ul>
 <p><code>serviceusage.services.enable</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>

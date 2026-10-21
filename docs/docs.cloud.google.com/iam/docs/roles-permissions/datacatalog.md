@@ -133,29 +133,40 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code>dataplex.entries.*</code></p>
 <ul>
 <li><code>dataplex.entries.create</code></li>
+<li><code>dataplex.entries.createContext</code></li>
 <li><code>dataplex.entries.delete</code></li>
+<li><code>dataplex.entries.deleteContext</code></li>
 <li><code>dataplex.entries.get</code></li>
+<li><code>dataplex.entries.getContext</code></li>
 <li><code>dataplex.entries.getData</code></li>
 <li><code>dataplex.entries.link</code></li>
 <li><code>dataplex.entries.list</code></li>
+<li><code>dataplex.entries.listContext</code></li>
 <li><code>dataplex.entries.update</code></li>
+<li><code>dataplex.entries.updateContext</code></li>
 </ul>
 <p><code>dataplex.entryGroups.*</code></p>
 <ul>
 <li><code>dataplex.entryGroups.create</code></li>
+<li><code>dataplex. entryGroups. createContextSet</code></li>
 <li><code>dataplex. entryGroups. createTagBinding</code></li>
 <li><code>dataplex.entryGroups.delete</code></li>
+<li><code>dataplex. entryGroups. deleteContextSet</code></li>
 <li><code>dataplex. entryGroups. deleteTagBinding</code></li>
 <li><code>dataplex.entryGroups.export</code></li>
 <li><code>dataplex.entryGroups.get</code></li>
+<li><code>dataplex. entryGroups. getContextSet</code></li>
 <li><code>dataplex. entryGroups. getIamPolicy</code></li>
 <li><code>dataplex.entryGroups.import</code></li>
 <li><code>dataplex.entryGroups.list</code></li>
 <li><code>dataplex. entryGroups. listEffectiveTags</code></li>
 <li><code>dataplex. entryGroups. listTagBindings</code></li>
 <li><code>dataplex. entryGroups. requestChanges</code></li>
+<li><code>dataplex. entryGroups. requestContextChanges</code></li>
 <li><code>dataplex. entryGroups. setIamPolicy</code></li>
 <li><code>dataplex.entryGroups.update</code></li>
+<li><code>dataplex. entryGroups. updateContextSet</code></li>
+<li><code>dataplex. entryGroups. useCertificationAspect</code></li>
 <li><code>dataplex. entryGroups. useContactsAspect</code></li>
 <li><code>dataplex. entryGroups. useContextAspect</code></li>
 <li><code>dataplex. entryGroups. useContextEntry</code></li>
@@ -179,6 +190,8 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <li><code>dataplex. entryGroups. useOverviewAspect</code></li>
 <li><code>dataplex. entryGroups. usePostgreSQLConnectorTypes</code></li>
 <li><code>dataplex. entryGroups. useQueriesAspect</code></li>
+<li><code>dataplex. entryGroups. useQueryTemplateAspect</code></li>
+<li><code>dataplex. entryGroups. useQueryTemplateEntry</code></li>
 <li><code>dataplex. entryGroups. useReferenceEntryLink</code></li>
 <li><code>dataplex. entryGroups. useRefreshCadenceAspect</code></li>
 <li><code>dataplex. entryGroups. useRelatedEntryLink</code></li>
@@ -547,29 +560,40 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code>dataplex.entries.*</code></p>
 <ul>
 <li><code>dataplex.entries.create</code></li>
+<li><code>dataplex.entries.createContext</code></li>
 <li><code>dataplex.entries.delete</code></li>
+<li><code>dataplex.entries.deleteContext</code></li>
 <li><code>dataplex.entries.get</code></li>
+<li><code>dataplex.entries.getContext</code></li>
 <li><code>dataplex.entries.getData</code></li>
 <li><code>dataplex.entries.link</code></li>
 <li><code>dataplex.entries.list</code></li>
+<li><code>dataplex.entries.listContext</code></li>
 <li><code>dataplex.entries.update</code></li>
+<li><code>dataplex.entries.updateContext</code></li>
 </ul>
 <p><code>dataplex.entryGroups.*</code></p>
 <ul>
 <li><code>dataplex.entryGroups.create</code></li>
+<li><code>dataplex. entryGroups. createContextSet</code></li>
 <li><code>dataplex. entryGroups. createTagBinding</code></li>
 <li><code>dataplex.entryGroups.delete</code></li>
+<li><code>dataplex. entryGroups. deleteContextSet</code></li>
 <li><code>dataplex. entryGroups. deleteTagBinding</code></li>
 <li><code>dataplex.entryGroups.export</code></li>
 <li><code>dataplex.entryGroups.get</code></li>
+<li><code>dataplex. entryGroups. getContextSet</code></li>
 <li><code>dataplex. entryGroups. getIamPolicy</code></li>
 <li><code>dataplex.entryGroups.import</code></li>
 <li><code>dataplex.entryGroups.list</code></li>
 <li><code>dataplex. entryGroups. listEffectiveTags</code></li>
 <li><code>dataplex. entryGroups. listTagBindings</code></li>
 <li><code>dataplex. entryGroups. requestChanges</code></li>
+<li><code>dataplex. entryGroups. requestContextChanges</code></li>
 <li><code>dataplex. entryGroups. setIamPolicy</code></li>
 <li><code>dataplex.entryGroups.update</code></li>
+<li><code>dataplex. entryGroups. updateContextSet</code></li>
+<li><code>dataplex. entryGroups. useCertificationAspect</code></li>
 <li><code>dataplex. entryGroups. useContactsAspect</code></li>
 <li><code>dataplex. entryGroups. useContextAspect</code></li>
 <li><code>dataplex. entryGroups. useContextEntry</code></li>
@@ -593,6 +617,8 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <li><code>dataplex. entryGroups. useOverviewAspect</code></li>
 <li><code>dataplex. entryGroups. usePostgreSQLConnectorTypes</code></li>
 <li><code>dataplex. entryGroups. useQueriesAspect</code></li>
+<li><code>dataplex. entryGroups. useQueryTemplateAspect</code></li>
+<li><code>dataplex. entryGroups. useQueryTemplateEntry</code></li>
 <li><code>dataplex. entryGroups. useReferenceEntryLink</code></li>
 <li><code>dataplex. entryGroups. useRefreshCadenceAspect</code></li>
 <li><code>dataplex. entryGroups. useRelatedEntryLink</code></li>
@@ -663,14 +689,20 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code>dataplex.entries.*</code></p>
 <ul>
 <li><code>dataplex.entries.create</code></li>
+<li><code>dataplex.entries.createContext</code></li>
 <li><code>dataplex.entries.delete</code></li>
+<li><code>dataplex.entries.deleteContext</code></li>
 <li><code>dataplex.entries.get</code></li>
+<li><code>dataplex.entries.getContext</code></li>
 <li><code>dataplex.entries.getData</code></li>
 <li><code>dataplex.entries.link</code></li>
 <li><code>dataplex.entries.list</code></li>
+<li><code>dataplex.entries.listContext</code></li>
 <li><code>dataplex.entries.update</code></li>
+<li><code>dataplex.entries.updateContext</code></li>
 </ul>
 <p><code>dataplex.entryGroups.get</code></p>
+<p><code>dataplex. entryGroups. useCertificationAspect</code></p>
 <p><code>dataplex. entryGroups. useContactsAspect</code></p>
 <p><code>dataplex. entryGroups. useContextAspect</code></p>
 <p><code>dataplex. entryGroups. useContextEntry</code></p>
@@ -694,6 +726,8 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code>dataplex. entryGroups. useOverviewAspect</code></p>
 <p><code>dataplex. entryGroups. usePostgreSQLConnectorTypes</code></p>
 <p><code>dataplex. entryGroups. useQueriesAspect</code></p>
+<p><code>dataplex. entryGroups. useQueryTemplateAspect</code></p>
+<p><code>dataplex. entryGroups. useQueryTemplateEntry</code></p>
 <p><code>dataplex. entryGroups. useReferenceEntryLink</code></p>
 <p><code>dataplex. entryGroups. useRefreshCadenceAspect</code></p>
 <p><code>dataplex. entryGroups. useRelatedEntryLink</code></p>

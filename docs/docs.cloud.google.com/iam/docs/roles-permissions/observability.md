@@ -23,7 +23,7 @@ This page lists the IAM roles and permissions for Google Cloud Observability. To
 </thead>
 <tbody>
 <tr class="odd">
-<td>Observability Admin <sup>Beta</sup>
+<td>Observability Admin
 <p>( <code>roles/ observability.admin</code> )</p>
 <p>Full access to Observability resources.</p></td>
 <td><p><code>observability.*</code></p>
@@ -74,7 +74,7 @@ This page lists the IAM roles and permissions for Google Cloud Observability. To
 </ul></td>
 </tr>
 <tr class="even">
-<td>Observability Editor <sup>Beta</sup>
+<td>Observability Editor
 <p>( <code>roles/ observability.editor</code> )</p>
 <p>Edit access to Observability resources.</p></td>
 <td><p><code>observability.analyticsViews.*</code></p>
@@ -138,7 +138,7 @@ This page lists the IAM roles and permissions for Google Cloud Observability. To
 <p><code>observability.views.update</code></p></td>
 </tr>
 <tr class="odd">
-<td>Observability Viewer <sup>Beta</sup>
+<td>Observability Viewer
 <p>( <code>roles/ observability.viewer</code> )</p>
 <p>Read only access to Observability resources.</p></td>
 <td><p><code>observability. analyticsViews. get</code></p>
@@ -164,7 +164,7 @@ This page lists the IAM roles and permissions for Google Cloud Observability. To
 <p><code>observability.views.list</code></p></td>
 </tr>
 <tr class="even">
-<td>Observability Analytics User <sup>Beta</sup>
+<td>Observability Analytics User
 <p>( <code>roles/ observability.analyticsUser</code> )</p>
 <p>Grants permissions to use Cloud Observability Analytics.</p></td>
 <td><p><code>logging.queries.getShared</code></p>
@@ -199,7 +199,7 @@ This page lists the IAM roles and permissions for Google Cloud Observability. To
 <p><code>observability.views.list</code></p></td>
 </tr>
 <tr class="odd">
-<td>Observability Scopes Editor <sup>Beta</sup>
+<td>Observability Scopes Editor
 <p>( <code>roles/ observability.scopesEditor</code> )</p>
 <p>Grants permission to view and edit Observability, Logging, Trace, and Monitoring scopes</p></td>
 <td><p><code>logging.logScopes.*</code></p>
@@ -226,7 +226,7 @@ This page lists the IAM roles and permissions for Google Cloud Observability. To
 </ul></td>
 </tr>
 <tr class="even">
-<td>Observability View Accessor <sup>Beta</sup>
+<td>Observability View Accessor
 <p>( <code>roles/ observability.viewAccessor</code> )</p>
 <p>Read only access to data defined by an Observability View.</p></td>
 <td><p><code>observability.views.access</code></p></td>

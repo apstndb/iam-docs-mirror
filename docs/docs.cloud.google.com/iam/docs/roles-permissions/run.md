@@ -905,6 +905,7 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code>run.workerpools.sshRead</code></p>
 <p><code>run.workerpools.sshRoot</code></p>
 <p><code>run.workerpools.update</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -917,6 +918,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.buckets.create</code></p>
@@ -1076,6 +1079,7 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code>run.workerpools.get</code></p>
 <p><code>run.workerpools.getIamPolicy</code></p>
 <p><code>run.workerpools.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -1088,6 +1092,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.folders.get</code></p>
 <p><code>storage.folders.list</code></p>
@@ -1215,6 +1221,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>resourcemanager. projects. getIamPolicy</code></p>
 <p><code>resourcemanager.projects.list</code></p>
 <p><code>run.routes.invoke</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -1225,6 +1232,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>serviceusage. groups. listMembers</code></li>
 </ul>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.buckets.create</code></p>

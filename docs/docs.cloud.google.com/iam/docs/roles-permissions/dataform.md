@@ -127,6 +127,41 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <li><code>dataform. workspaces. setIamPolicy</code></li>
 <li><code>dataform.workspaces.writeFile</code></li>
 </ul>
+<p><code>developerconnect. connections. constructGitHubAppManifest</code></p>
+<p><code>developerconnect. connections. create</code></p>
+<p><code>developerconnect. connections. delete</code></p>
+<p><code>developerconnect. connections. fetchGitHubInstallations</code></p>
+<p><code>developerconnect. connections. fetchLinkableGitRepositories</code></p>
+<p><code>developerconnect. connections. generateGitHubStateToken</code></p>
+<p><code>developerconnect. connections. get</code></p>
+<p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. connections. processGitHubAppCreationCallback</code></p>
+<p><code>developerconnect. connections. processGitHubOAuthCallback</code></p>
+<p><code>developerconnect. connections. update</code></p>
+<p><code>developerconnect. gitRepositoryLinks.*</code></p>
+<ul>
+<li><code>developerconnect. gitRepositoryLinks. create</code></li>
+<li><code>developerconnect. gitRepositoryLinks. delete</code></li>
+<li><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></li>
+<li><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></li>
+<li><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></li>
+<li><code>developerconnect. gitRepositoryLinks. get</code></li>
+<li><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></li>
+<li><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></li>
+<li><code>developerconnect. gitRepositoryLinks. list</code></li>
+</ul>
+<p><code>developerconnect.locations.*</code></p>
+<ul>
+<li><code>developerconnect.locations.get</code></li>
+<li><code>developerconnect. locations. list</code></li>
+</ul>
+<p><code>developerconnect.operations.*</code></p>
+<ul>
+<li><code>developerconnect. operations. cancel</code></li>
+<li><code>developerconnect. operations. delete</code></li>
+<li><code>developerconnect. operations. get</code></li>
+<li><code>developerconnect. operations. list</code></li>
+</ul>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>
@@ -253,6 +288,22 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <p><code>dataform.workspaces.reset</code></p>
 <p><code>dataform. workspaces. searchFiles</code></p>
 <p><code>dataform.workspaces.writeFile</code></p>
+<p><code>developerconnect. connections. get</code></p>
+<p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. get</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></p>
+<p><code>developerconnect. gitRepositoryLinks. list</code></p>
+<p><code>developerconnect.locations.*</code></p>
+<ul>
+<li><code>developerconnect.locations.get</code></li>
+<li><code>developerconnect. locations. list</code></li>
+</ul>
+<p><code>developerconnect. operations. get</code></p>
+<p><code>developerconnect. operations. list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>
@@ -306,6 +357,19 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <p><code>dataform. workspaces. queryDirectoryContents</code></p>
 <p><code>dataform.workspaces.readFile</code></p>
 <p><code>dataform. workspaces. searchFiles</code></p>
+<p><code>developerconnect. connections. get</code></p>
+<p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. get</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
+<p><code>developerconnect. gitRepositoryLinks. list</code></p>
+<p><code>developerconnect.locations.*</code></p>
+<ul>
+<li><code>developerconnect.locations.get</code></li>
+<li><code>developerconnect. locations. list</code></li>
+</ul>
+<p><code>developerconnect. operations. get</code></p>
+<p><code>developerconnect. operations. list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>

@@ -347,6 +347,7 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
@@ -671,6 +672,7 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
@@ -828,6 +830,7 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
@@ -1152,6 +1155,7 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>
@@ -1504,6 +1508,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>run.workerpools.sshRead</code></p>
 <p><code>run.workerpools.sshRoot</code></p>
 <p><code>run.workerpools.update</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -1521,6 +1526,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>serviceusage.services.disable</code></p>
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>source.repos.get</code></p>

@@ -69,6 +69,7 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <li><code>composer. userworkloadssecrets. list</code></li>
 <li><code>composer. userworkloadssecrets. update</code></li>
 </ul>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -81,6 +82,8 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
@@ -152,6 +155,7 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code>composer. userworkloadsconfigmaps. list</code></p>
 <p><code>composer. userworkloadssecrets. get</code></p>
 <p><code>composer. userworkloadssecrets. list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -164,6 +168,8 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
@@ -245,6 +251,7 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code>orgpolicy.policy.get</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -257,6 +264,8 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.folders.*</code></p>
 <ul>
@@ -318,6 +327,7 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code>composer. userworkloadssecrets. list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -330,6 +340,8 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.folders.get</code></p>
 <p><code>storage.folders.list</code></p>
@@ -364,6 +376,7 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code>composer. userworkloadssecrets. list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -376,6 +389,8 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.folders.get</code></p>
 <p><code>storage.folders.list</code></p>
@@ -1043,6 +1058,7 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code>remotebuildexecution.blobs.get</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -1055,6 +1071,8 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>source.repos.get</code></p>
 <p><code>source.repos.list</code></p>
@@ -3638,6 +3656,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>servicenetworking.services.get</code></p>
 <p><code>servicenetworking. services. getVpcServiceControls</code></p>
 <p><code>servicenetworking. services. listPeeredDnsDomains</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -3650,6 +3669,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p>
 <p><code>stackdriver. resourceMetadata. list</code></p>

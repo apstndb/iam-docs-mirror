@@ -893,6 +893,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>runtimeconfig.waiters.get</code></p>
 <p><code>runtimeconfig.waiters.list</code></p>
 <p><code>runtimeconfig.waiters.update</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -909,6 +910,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p>
 <p><code>stackdriver. resourceMetadata. list</code></p>
@@ -1463,6 +1466,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>run.workerpools.get</code></p>
 <p><code>run.workerpools.getIamPolicy</code></p>
 <p><code>run.workerpools.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -1479,6 +1483,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.buckets.get</code></p>
 <p><code>storage.buckets.getIamPolicy</code></p>
@@ -1798,6 +1804,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>run.workerpools.get</code></p>
 <p><code>run.workerpools.getIamPolicy</code></p>
 <p><code>run.workerpools.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -1814,6 +1821,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.buckets.get</code></p>
 <p><code>storage.buckets.getIamPolicy</code></p>
@@ -2579,6 +2588,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>runtimeconfig.waiters.get</code></p>
 <p><code>runtimeconfig.waiters.list</code></p>
 <p><code>runtimeconfig.waiters.update</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -2595,6 +2605,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p>
 <p><code>stackdriver. resourceMetadata. list</code></p>
@@ -2973,6 +2985,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>run.workerpools.get</code></p>
 <p><code>run.workerpools.getIamPolicy</code></p>
 <p><code>run.workerpools.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -2989,6 +3002,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.buckets.get</code></p>
 <p><code>storage.buckets.getIamPolicy</code></p>
@@ -3089,6 +3104,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager. projects. getIamPolicy</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -3105,6 +3121,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
@@ -3147,6 +3165,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager. projects. getIamPolicy</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -3163,6 +3182,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="even">
@@ -3223,6 +3244,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager. projects. getIamPolicy</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -3239,6 +3261,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 <tr class="odd">
@@ -3276,6 +3300,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager. projects. getIamPolicy</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. contentsecuritypolicy. get</code></p>
@@ -3292,6 +3317,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>
@@ -3449,6 +3476,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>resourcemanager. projects. setIamPolicy</code></p>
 <p><code>resourcemanager. projects. update</code></p>
 <p><code>servicemanagement. services. bind</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -3465,6 +3493,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.bucketOperations.get</code></p>
@@ -3756,6 +3786,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>cloudmessaging.messages.create</code></p>
 <p><code>firebase.clients.create</code></p>
 <p><code>servicemanagement. services. bind</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -3771,6 +3802,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
 </tbody>

@@ -1710,6 +1710,65 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>dataplex.operations.get</code></p>
 <p><code>dataplex.operations.list</code></p>
 <p><code>dataplex.projects.search</code></p>
+<p><code>developerconnect. accountConnectors.*</code></p>
+<ul>
+<li><code>developerconnect. accountConnectors. create</code></li>
+<li><code>developerconnect. accountConnectors. delete</code></li>
+<li><code>developerconnect. accountConnectors. fetchUserRepositories</code></li>
+<li><code>developerconnect. accountConnectors. get</code></li>
+<li><code>developerconnect. accountConnectors. gitProxyRead</code></li>
+<li><code>developerconnect. accountConnectors. gitProxyWrite</code></li>
+<li><code>developerconnect. accountConnectors. httpProxyRead</code></li>
+<li><code>developerconnect. accountConnectors. httpProxyWrite</code></li>
+<li><code>developerconnect. accountConnectors. list</code></li>
+<li><code>developerconnect. accountConnectors. update</code></li>
+</ul>
+<p><code>developerconnect. connections. constructGitHubAppManifest</code></p>
+<p><code>developerconnect. connections. create</code></p>
+<p><code>developerconnect. connections. delete</code></p>
+<p><code>developerconnect. connections. fetchGitHubInstallations</code></p>
+<p><code>developerconnect. connections. fetchLinkableGitRepositories</code></p>
+<p><code>developerconnect. connections. generateGitHubStateToken</code></p>
+<p><code>developerconnect. connections. get</code></p>
+<p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. connections. processGitHubAppCreationCallback</code></p>
+<p><code>developerconnect. connections. processGitHubOAuthCallback</code></p>
+<p><code>developerconnect. connections. update</code></p>
+<p><code>developerconnect. gitRepositoryLinks.*</code></p>
+<ul>
+<li><code>developerconnect. gitRepositoryLinks. create</code></li>
+<li><code>developerconnect. gitRepositoryLinks. delete</code></li>
+<li><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></li>
+<li><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></li>
+<li><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></li>
+<li><code>developerconnect. gitRepositoryLinks. get</code></li>
+<li><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></li>
+<li><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></li>
+<li><code>developerconnect. gitRepositoryLinks. list</code></li>
+</ul>
+<p><code>developerconnect.locations.*</code></p>
+<ul>
+<li><code>developerconnect.locations.get</code></li>
+<li><code>developerconnect. locations. list</code></li>
+</ul>
+<p><code>developerconnect.operations.*</code></p>
+<ul>
+<li><code>developerconnect. operations. cancel</code></li>
+<li><code>developerconnect. operations. delete</code></li>
+<li><code>developerconnect. operations. get</code></li>
+<li><code>developerconnect. operations. list</code></li>
+</ul>
+<p><code>developerconnect. providers. list</code></p>
+<p><code>developerconnect.users.*</code></p>
+<ul>
+<li><code>developerconnect.users.delete</code></li>
+<li><code>developerconnect. users. deleteSelf</code></li>
+<li><code>developerconnect. users. fetchAccessToken</code></li>
+<li><code>developerconnect. users. finishOAuth</code></li>
+<li><code>developerconnect.users.getSelf</code></li>
+<li><code>developerconnect.users.list</code></li>
+<li><code>developerconnect. users. startOAuth</code></li>
+</ul>
 <p><code>dns. networks. targetWithPeeringZone</code></p>
 <p><code>firebase.projects.get</code></p>
 <p><code>iam.serviceAccounts.actAs</code></p>
@@ -2337,6 +2396,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>servicenetworking.services.get</code></p>
 <p><code>servicenetworking. services. getVpcServiceControls</code></p>
 <p><code>servicenetworking. services. listPeeredDnsDomains</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>
 <p><code>serviceusage. effectivepolicy. get</code></p>
@@ -2349,6 +2409,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>serviceusage.quotas.get</code></p>
 <p><code>serviceusage.services.get</code></p>
 <p><code>serviceusage.services.list</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>stackdriver.projects.get</code></p>

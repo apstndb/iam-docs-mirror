@@ -275,6 +275,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>cloudkms.keyRings.create</code></p>
 <p><code>orgpolicy.policies.list</code></p>
 <p><code>orgpolicy.policy.get</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage.consumerpolicy.*</code></p>
 <ul>
 <li><code>serviceusage. consumerpolicy. analyze</code></li>
@@ -290,6 +291,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>serviceusage.services.enable</code></p>
 <p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
 <p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p></td>
 </tr>
