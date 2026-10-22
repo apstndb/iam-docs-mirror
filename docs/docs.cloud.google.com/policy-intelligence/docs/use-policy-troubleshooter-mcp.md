@@ -6,7 +6,7 @@ description: Learn how to use the Policy Troubleshooter remote MCP servers.
 data_source: docs.cloud.google.com
 ---
 
-This document shows you how to use the Policy Troubleshooter remote Model Context Protocol (MCP) server to connect with AI applications including Gemini CLI, ChatGPT, Claude, and custom applications you are developing. The Policy Troubleshooter remote MCP server provides your agents direct access to tools that can help troubleshoot Identity and Access Management issues and errors. The Policy Troubleshooter remote MCP server is enabled when you enable the Policy Troubleshooter API.
+This document shows you how to use the Policy Troubleshooter remote Model Context Protocol (MCP) server to connect with AI applications including Antigravity, ChatGPT, Claude, and custom applications you are developing. The Policy Troubleshooter remote MCP server provides your agents direct access to tools that can help troubleshoot Identity and Access Management issues and errors. The Policy Troubleshooter remote MCP server is enabled when you enable the Policy Troubleshooter API.
 
 [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro) (MCP) standardizes how large language models (LLMs) and AI applications or agents connect to external data sources. MCP servers let you use their tools, resources, and prompts to take actions and get updated data from their backend service.
 

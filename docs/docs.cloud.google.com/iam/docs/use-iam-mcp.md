@@ -6,7 +6,7 @@ description: Learn how to use the Identity and Access Management remote MCP serv
 data_source: docs.cloud.google.com
 ---
 
-This document shows you how to use the Identity and Access Management remote Model Context Protocol (MCP) server to connect with AI applications including Gemini CLI, ChatGPT, Claude, and custom applications you are developing. The IAM remote MCP server lets you inspect and manage custom roles and deny policy configurations across your resources. The Identity and Access Management remote MCP server is enabled when you enable the Identity and Access Management API.
+This document shows you how to use the Identity and Access Management remote Model Context Protocol (MCP) server to connect with AI applications including Antigravity, ChatGPT, Claude, and custom applications you are developing. The IAM remote MCP server lets you inspect and manage custom roles and deny policy configurations across your resources. The Identity and Access Management remote MCP server is enabled when you enable the Identity and Access Management API.
 
 [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro) (MCP) standardizes how large language models (LLMs) and AI applications or agents connect to external data sources. MCP servers let you use their tools, resources, and prompts to take actions and get updated data from their backend service.
 

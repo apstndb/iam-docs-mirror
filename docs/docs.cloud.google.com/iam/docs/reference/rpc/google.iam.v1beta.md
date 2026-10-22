@@ -559,7 +559,7 @@ A configuration for an external identity provider.
 <li><code>google</code> : The Google attributes mapped from the assertion in the <code>attribute_mappings</code> .</li>
 <li><code>attribute</code> : The custom attributes mapped from the assertion in the <code>attribute_mappings</code> .</li>
 </ul>
-<p>The maximum length of the <code>attribute_condition</code> expression is 4,096 characters. If unspecified, all valid authentication credentials are accepted. However, multi-tenant identity providers (such as GitHub or Terraform Cloud) require an <code>attribute_condition</code> to prevent token spoofing.</p>
+<p>The maximum length of the <code>attribute_condition</code> expression is 4,096 characters; longer expressions will result in an error. If unspecified, all valid authentication credentials are accepted. However, multi-tenant identity providers (such as GitHub or Terraform Cloud) require an <code>attribute_condition</code> to prevent token spoofing.</p>
 <p>The following example shows how to only allow credentials with a mapped <code>google.groups</code> value of <code>admins</code> :</p>
 <pre data-fenced=""><code>&quot;&#39;admins&#39; in google.groups&quot;</code></pre></td>
 </tr>

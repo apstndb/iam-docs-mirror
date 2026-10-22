@@ -65,19 +65,21 @@ A single rule in a `Policy` .
 {
   "description": string,
 
-  // Union field kind can be only one of the following:
+  // The following is a list of mutually exclusive fields. At most one of the
+  // fields will be set in a response:
   "denyRule": {
     object (DenyRule)
   }
-  // End of list of possible types for union field kind.
+  // End of mutually exclusive fields.
 }
 ```
 
-| Fields                                                        |                                                                                                                                   |
-|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| `description`                                                 | `string` A user-specified description of the rule. This value can be up to 256 characters.                                        |
-| Union field `kind` . `kind` can be only one of the following: |                                                                                                                                   |
-| `denyRule`                                                    | `object ( `[`DenyRule`](https://docs.cloud.google.com/iam/docs/reference/rest/v2/policies#DenyRule)` )` A rule for a deny policy. |
+| Fields                                                                                                     |                                                                                                                                   |
+|------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| `description`                                                                                              | `string` A user-specified description of the rule. This value can be up to 256 characters.                                        |
+| The following is a list of mutually exclusive fields. At most one of the fields will be set in a response: |                                                                                                                                   |
+| `denyRule`                                                                                                 | `object ( `[`DenyRule`](https://docs.cloud.google.com/iam/docs/reference/rest/v2/policies#DenyRule)` )` A rule for a deny policy. |
+| End of mutually exclusive fields.                                                                          |                                                                                                                                   |
 
 ## DenyRule
 

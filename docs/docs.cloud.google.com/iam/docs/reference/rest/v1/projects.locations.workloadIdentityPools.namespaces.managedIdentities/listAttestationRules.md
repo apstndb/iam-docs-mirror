@@ -11,7 +11,6 @@ data_source: docs.cloud.google.com
 - [Query parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/listAttestationRules#body.QUERY_PARAMETERS)
 - [Request body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/listAttestationRules#body.request_body)
 - [Response body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/listAttestationRules#body.response_body)
-  - [JSON representation](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/listAttestationRules#body.ListAttestationRulesResponse.SCHEMA_REPRESENTATION)
 - [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/listAttestationRules#body.aspect)
 - [IAM Permissions](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/listAttestationRules#body.aspect_1)
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.namespaces.managedIdentities/listAttestationRules#examples)
@@ -72,27 +71,7 @@ The request body must be empty.
 
 ### Response body
 
-Response message for managedIdentities.listAttestationRules.
-
-If successful, the response body contains data with the following structure:
-
-**JSON representation**
-
-```
-{
-  "attestationRules": [
-    {
-      object (AttestationRule)
-    }
-  ],
-  "nextPageToken": string
-}
-```
-
-| Fields               |                                                                                                                                                  |
-|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| `attestationRules[]` | `object ( `[`AttestationRule`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/AttestationRule)` )` A list of AttestationRules.         |
-| `nextPageToken`      | `string` Optional. A token, which can be sent as `pageToken` to retrieve the next page. If this field is omitted, there are no subsequent pages. |
+If successful, the response body contains an instance of [`ListAttestationRulesResponse`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/ListAttestationRulesResponse) .
 
 ### Authorization scopes
 

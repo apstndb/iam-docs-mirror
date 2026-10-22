@@ -26,9 +26,9 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-| Parameters                          |                                                          |
-|-------------------------------------|----------------------------------------------------------|
-| `workloadIdentityPoolProvider.name` | `string` Output only. The resource name of the provider. |
+| Parameters                          |                                                         |
+|-------------------------------------|---------------------------------------------------------|
+| `workloadIdentityPoolProvider.name` | `string` Identifier. The resource name of the provider. |
 
 ### Query parameters
 

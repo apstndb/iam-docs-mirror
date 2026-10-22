@@ -1473,10 +1473,11 @@ Response message for `TestIamPermissions` method.
 
 Trust store that contains trust anchors and optional intermediate CAs used in PKI to build a trust chain(trust hierarchy) and verify a client's identity.
 
-| Fields               |                                                                                                                                                                                                                                                                                                                                |
-|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `trust_anchors[]`    | [`TrustAnchor`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.TrustStore.TrustAnchor) Required. List of trust anchors to be used while performing validation against a given TrustStore. The incoming end entity's certificate must be in the trust chain of one of the trust anchors here. |
-| `intermediate_cas[]` | [`IntermediateCA`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.TrustStore.IntermediateCA) Optional. Set of intermediate CA certificates used for building the trust chain to the trust anchor. Important: Intermediate CAs are only supported for X.509 federation.                       |
+| Fields                    |                                                                                                                                                                                                                                                                                                                                |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `trust_anchors[]`         | [`TrustAnchor`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.TrustStore.TrustAnchor) Required. List of trust anchors to be used while performing validation against a given TrustStore. The incoming end entity's certificate must be in the trust chain of one of the trust anchors here. |
+| `intermediate_cas[]`      | [`IntermediateCA`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.TrustStore.IntermediateCA) Optional. Set of intermediate CA certificates used for building the trust chain to the trust anchor. Important: Intermediate CAs are only supported for X.509 federation.                       |
+| `trust_default_shared_ca` | `bool` Optional. Determines whether the trust bundle includes the private CA managed identity regional root public certificates. Important: `trust_default_shared_ca` is only supported for managed identity trust domain resource.                                                                                            |
 
 ## IntermediateCA
 
@@ -1578,7 +1579,7 @@ Represents a collection of workload identities. You can define IAM policies to g
 
 | Fields                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name`                                                                                                                                                                                       | `string` Output only. The resource name of the pool.                                                                                                                                                                                                                                                                            |
+| `name`                                                                                                                                                                                       | `string` Identifier. The resource name of the pool.                                                                                                                                                                                                                                                                             |
 | `display_name`                                                                                                                                                                               | `string` Optional. A display name for the pool. Cannot exceed 32 characters.                                                                                                                                                                                                                                                    |
 | `description`                                                                                                                                                                                | `string` Optional. A description of the pool. Cannot exceed 256 characters.                                                                                                                                                                                                                                                     |
 | `state`                                                                                                                                                                                      | [`State`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPool.State) Output only. The state of the pool.                                                                                                                                                                      |
@@ -1617,16 +1618,22 @@ Represents configuration for generating mutual TLS (mTLS) certificates for the i
 </ul></td>
 </tr>
 <tr class="even">
+<td><code>use_default_shared_ca</code></td>
+<td><p><code>bool</code></p>
+<p>Optional. Determines whether the trust domain utilizes the Google Cloud-provisioned default CA. A default CA in the same region as the workload will be selected to issue the certificate. Enabling this will clear any existing <code>ca_pools</code> configuration to provision the certificates.</p>
+<p>NOTE: This field is mutually exclusive with <code>ca_pools</code> . If this flag is enabled, certificates will be automatically provisioned from the default shared CAs. This flag should not be set if you want to use your own CA pools to provision the certificates.</p></td>
+</tr>
+<tr class="odd">
 <td><code>lifetime</code></td>
 <td><p><a href="https://protobuf.dev/reference/protobuf/google.protobuf/#duration"><code>Duration</code></a></p>
 <p>Optional. Lifetime of the workload certificates issued by the CA pool. Must be between 24 hours and 30 days. If not specified, this will be defaulted to 24 hours.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>key_algorithm</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPool.InlineCertificateIssuanceConfig.KeyAlgorithm"><code>KeyAlgorithm</code></a></p>
 <p>Optional. Key algorithm to use when generating the key pair. This key pair will be used to create the certificate. If not specified, this will default to ECDSA_P256.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>rotation_window_percentage</code></td>
 <td><p><code>int32</code></p>
 <p>Optional. Rotation window percentage, the percentage of remaining lifetime after which certificate rotation is initiated. Must be between 50 and 80. If no value is specified, rotation window percentage is defaulted to 50.</p></td>
@@ -1659,11 +1666,41 @@ Defines configuration for extending trust to additional trust domains. By establ
 
 Represents the mode for the pool.
 
-| Enums              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `MODE_UNSPECIFIED` | State unspecified. New pools should not use this mode. Pools with an unspecified mode will operate as if they are in federation-only mode.                                                                                                                                                                                                                                                                                                                                                                                                  |
-| `FEDERATION_ONLY`  | Federation-only mode. Federation-only pools can only be used for federating external workload identities into Google Cloud. Unless otherwise noted, no structure or format constraints are applied to workload identities in a federation-only pool, and you cannot create any resources within the pool besides providers.                                                                                                                                                                                                                 |
-| `TRUST_DOMAIN`     | Trust-domain mode. Trust-domain pools can be used to assign identities to Google Cloud workloads. All identities within a trust-domain pool must consist of a single namespace and individual workload identifier. The subject identifier for all identities must conform to the following format: `ns/<namespace>/sa/<workload_identifier>` [`WorkloadIdentityPoolProvider`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolProvider) s cannot be created within trust-domain pools. |
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Enums</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>MODE_UNSPECIFIED</code></td>
+<td>State unspecified. New pools should not use this mode. Pools with an unspecified mode will operate as if they are in federation-only mode.</td>
+</tr>
+<tr class="even">
+<td><code>FEDERATION_ONLY</code></td>
+<td>Federation-only mode. FEDERATION_ONLY mode pools can only be used for federating external workload identities into Google Cloud. Unless otherwise noted, no structure or format constraints are applied to workload identities in a FEDERATION_ONLY mode pool, and you cannot create any resources within the pool besides providers.</td>
+</tr>
+<tr class="odd">
+<td><code>TRUST_DOMAIN</code></td>
+<td><p>Trust-domain mode. TRUST_DOMAIN mode pools can be used to assign identities to Google Cloud workloads. Identities within a TRUST_DOMAIN mode pool share the same root of trust.</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolProvider"><code>WorkloadIdentityPoolProvider</code></a> s cannot be created within trust-domain pools.</p></td>
+</tr>
+<tr class="even">
+<td><code>SYSTEM_TRUST_DOMAIN</code></td>
+<td><p>SYSTEM_TRUST_DOMAIN mode pools are managed by Google Cloud services. Neither <a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolNamespace"><code>WorkloadIdentityPoolNamespace</code></a> s nor <a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolProvider"><code>WorkloadIdentityPoolProvider</code></a> s can be created within SYSTEM_TRUST_DOMAIN mode pools. All identities within a SYSTEM_TRUST_DOMAIN mode pool are in one of the following formats:</p>
+<ul>
+<li><code>spiffe://&lt;trust-domain&gt;/ns/&lt;kubernetes-namespace&gt;/sa/&lt;kubernetes-service-account&gt;</code></li>
+<li><code>spiffe://&lt;trust-domain&gt;/resources/&lt;resource-scope&gt;/&lt;resource-name&gt;</code></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 ## State
 
@@ -1681,7 +1718,7 @@ Represents a managed identity for a workload identity pool namespace.
 
 | Fields        |                                                                                                                                                                                                      |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name`        | `string` Output only. The resource name of the managed identity.                                                                                                                                     |
+| `name`        | `string` Identifier. The resource name of the managed identity.                                                                                                                                      |
 | `description` | `string` Optional. A description of the managed identity. Cannot exceed 256 characters.                                                                                                              |
 | `state`       | [`State`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolManagedIdentity.State) Output only. The state of the managed identity.                |
 | `disabled`    | `bool` Optional. Whether the managed identity is disabled. If disabled, credentials may no longer be issued for the identity, however existing credentials will still be accepted until they expire. |
@@ -1709,7 +1746,7 @@ Represents a namespace for a workload identity pool. Namespaces are used to segm
 
 | Fields                                                                                                                                                                                 |                                                                                                                                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name`                                                                                                                                                                                 | `string` Output only. The resource name of the namespace.                                                                                                                                                         |
+| `name`                                                                                                                                                                                 | `string` Identifier. The resource name of the namespace.                                                                                                                                                          |
 | `description`                                                                                                                                                                          | `string` Optional. A description of the namespace. Cannot exceed 256 characters.                                                                                                                                  |
 | `state`                                                                                                                                                                                | [`State`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolNamespace.State) Output only. The state of the namespace.                                          |
 | `disabled`                                                                                                                                                                             | `bool` Optional. Whether the namespace is disabled. If disabled, credentials may no longer be issued for identities within this namespace, however existing credentials will still be accepted until they expire. |
@@ -1766,7 +1803,7 @@ A configuration for an external identity provider.
 <tr class="odd">
 <td><code>name</code></td>
 <td><p><code>string</code></p>
-<p>Output only. The resource name of the provider.</p></td>
+<p>Identifier. The resource name of the provider.</p></td>
 </tr>
 <tr class="even">
 <td><code>display_name</code></td>
@@ -1833,7 +1870,7 @@ A configuration for an external identity provider.
 <li><code>google</code> : The Google attributes mapped from the assertion in the <code>attribute_mappings</code> .</li>
 <li><code>attribute</code> : The custom attributes mapped from the assertion in the <code>attribute_mappings</code> .</li>
 </ul>
-<p>The maximum length of the <code>attribute_condition</code> expression is 4,096 characters. If unspecified, all valid authentication credentials are accepted. However, multi-tenant identity providers (such as GitHub or Terraform Cloud) require an <code>attribute_condition</code> to prevent token spoofing.</p>
+<p>The maximum length of the <code>attribute_condition</code> expression is 4,096 characters. Providing a condition longer than this will result in an error. If unspecified, all valid authentication credentials are accepted. However, multi-tenant identity providers (such as GitHub or Terraform Cloud) require an <code>attribute_condition</code> to prevent token spoofing.</p>
 <p>The following example shows how to only allow credentials with a mapped <code>google.groups</code> value of <code>admins</code> :</p>
 <pre data-fenced=""><code>&quot;&#39;admins&#39; in google.groups&quot;</code></pre></td>
 </tr>
@@ -1843,25 +1880,30 @@ A configuration for an external identity provider.
 <p>Output only. Time after which the workload identity pool provider will be permanently purged and cannot be recovered.</p></td>
 </tr>
 <tr class="odd">
+<td><code>actor_providers[]</code></td>
+<td><p><code>string</code></p>
+<p>Optional. A list of the resource names of <a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolProvider"><code>WorkloadIdentityPoolProvider</code></a> s in the same pool that are authorized to issue actor tokens for this provider. An actor token represents the identity of the acting party to whom authority is delegated. At most 3 actor providers can be specified.</p></td>
+</tr>
+<tr class="even">
 <td>Union field <code>provider_config</code> . Identity provider configuration types. <code>provider_config</code> can be only one of the following:</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aws</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolProvider.Aws"><code>Aws</code></a></p>
 <p>An Amazon Web Services identity provider.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>oidc</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolProvider.Oidc"><code>Oidc</code></a></p>
 <p>An OpenId Connect 1.0 identity provider.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>saml</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolProvider.Saml"><code>Saml</code></a></p>
 <p>An SAML 2.0 identity provider.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>x509</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolProvider.X509"><code>X509</code></a></p>
 <p>An X.509-type identity provider.</p></td>
@@ -1896,7 +1938,7 @@ Represents an OpenId Connect 1.0 identity provider.
 <tr class="odd">
 <td><code>issuer_uri</code></td>
 <td><p><code>string</code></p>
-<p>Required. The OIDC issuer URL. Must be an HTTPS endpoint. Per OpenID Connect Discovery 1.0 spec, the OIDC issuer URL is used to locate the provider's public keys (via <code>jwks_uri</code> ) for verifying tokens like the OIDC ID token. These public key types must be 'EC' or 'RSA'.</p></td>
+<p>Required. The OIDC <code>issuer_uri</code> . Must be an HTTPS endpoint. Per OpenID Connect Discovery 1.0 spec, the OIDC issuer URL is used to locate the provider's public keys (via <code>jwks_uri</code> ) for verifying tokens like the OIDC ID token. These public key types must be 'EC' or 'RSA'.</p></td>
 </tr>
 <tr class="even">
 <td><code>allowed_audiences[]</code></td>
@@ -1910,6 +1952,12 @@ https://iam.googleapis.com/projects/&lt;project-number&gt;/locations/&lt;locatio
 <td><code>jwks_json</code></td>
 <td><p><code>string</code></p>
 <p>Optional. OIDC JWKs in JSON String format. For details on the definition of a JWK, see <a href="https://tools.ietf.org/html/rfc7517">https://tools.ietf.org/html/rfc7517</a> . If not set, the <code>jwks_uri</code> from the discovery document(fetched from the .well-known path of the <code>issuer_uri</code> ) will be used. Currently, RSA and EC asymmetric keys are supported. The JWK must use following format and include only the following fields: { "keys": [ { "kty": "RSA/EC", "alg": " ", "use": "sig", "kid": " ", "n": "", "e": "", "x": "", "y": "", "crv": "" } ] }</p></td>
+</tr>
+<tr class="even">
+<td><code>discovery_uri</code></td>
+<td><p><code>string</code></p>
+<p>Optional. The URL to fetch the OIDC discovery document from, overriding the default URL derived from <code>issuer_uri</code> . If not set, <code>discovery_uri</code> defaults to <code>issuer_uri</code> with <code>/.well-known/openid-configuration</code> appended, as per the OpenID Connect Discovery 1.0 specification.</p>
+<p>If set, <code>discovery_uri</code> must meet the following requirements: - Must start with <code>https://</code> . - Must not exceed 2000 characters. - The scheme, host, and port must match <code>issuer_uri</code> . - The path must contain <code>/.well-known/&lt;suffix&gt;</code> (where <code>&lt;suffix&gt;</code> is not empty, such as <code>openid-configuration</code> ) and conform to the <code>issuer_uri</code> topology: - The well-known path segment is inserted before the issuer path (for example, <code>https://example.com/.well-known/openid-configuration/tenant1</code> for issuer <code>https://example.com/tenant1</code> ), or - The well-known path segment is appended under the issuer path (for example, <code>https://example.com/tenant1/.well-known/openid-configuration</code> for issuer <code>https://example.com/tenant1</code> ).</p></td>
 </tr>
 </tbody>
 </table>
@@ -1979,7 +2027,7 @@ Represents a public key configuration for your workload identity pool provider. 
 
 | Fields        |                                                                                                                                                                                                                                                                                        |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name`        | `string` Output only. The resource name of the key.                                                                                                                                                                                                                                    |
+| `name`        | `string` Identifier. The resource name of the key.                                                                                                                                                                                                                                     |
 | `key_data`    | [`KeyData`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.KeyData) Immutable. Public half of the asymmetric key.                                                                                                                        |
 | `state`       | [`State`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolProviderKey.State) Output only. The state of the key.                                                                                                                   |
 | `use`         | [`KeyUse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPoolProviderKey.KeyUse) Required. The purpose of the key.                                                                                                                  |

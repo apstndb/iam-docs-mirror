@@ -15,13 +15,15 @@ Defines which workloads can receive an identity within a pool. When an Attestati
 ```
 {
 
-  // Union field workload_descriptor can be only one of the following:
+  // The following is a list of mutually exclusive fields. At most one of the
+  // fields will be set in a response:
   "googleCloudResource": string
-  // End of list of possible types for union field workload_descriptor.
+  // End of mutually exclusive fields.
 }
 ```
 
-| Fields                                                                                                                   |                                                                                                                                                                |
-|--------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Union field `workload_descriptor` . Descriptor for the workload. `workload_descriptor` can be only one of the following: |                                                                                                                                                                |
-| `googleCloudResource`                                                                                                    | `string` Optional. A single workload operating on Google Cloud. For example: `//compute.googleapis.com/projects/123/uid/zones/us-central1-a/instances/12345` . |
+| Fields                                                                                                                                  |                                                                                                                                                                |
+|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descriptor for the workload. The following is a list of mutually exclusive fields. At most one of the fields will be set in a response: |                                                                                                                                                                |
+| `googleCloudResource`                                                                                                                   | `string` Optional. A single workload operating on Google Cloud. For example: `//compute.googleapis.com/projects/123/uid/zones/us-central1-a/instances/12345` . |
+| End of mutually exclusive fields.                                                                                                       |                                                                                                                                                                |

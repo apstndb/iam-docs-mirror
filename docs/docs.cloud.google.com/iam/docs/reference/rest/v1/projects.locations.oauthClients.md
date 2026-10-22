@@ -94,7 +94,7 @@ Represents an [`OauthClient`](https://docs.cloud.google.com/iam/docs/reference/r
 <tr class="even">
 <td><code>allowedGrantTypes[]</code></td>
 <td><p><code>enum ( </code><a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.oauthClients#GrantType"><code>GrantType</code></a><code> )</code></p>
-<p>Required. The list of OAuth grant types is allowed for the <a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.oauthClients#OauthClient"><code>OauthClient</code></a> .</p></td>
+<p>Optional. The list of OAuth grant types is allowed for the <a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.oauthClients#OauthClient"><code>OauthClient</code></a> .</p></td>
 </tr>
 <tr class="odd">
 <td><code>allowedScopes[]</code></td>

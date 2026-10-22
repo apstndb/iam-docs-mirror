@@ -43,11 +43,10 @@ Gemini Enterprise only. The current state of the SCIM token.
 | `ACTIVE`            | Gemini Enterprise only. The token is active and may be used to provision users and groups.                                  |
 | `DELETED`           | Gemini Enterprise only. The token is soft-deleted. Soft-deleted tokens are permanently deleted after approximately 30 days. |
 
-| Methods                                                                                                                               |                         |
-|---------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| [`create`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create)     | Gemini Enterprise only. |
-| [`delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/delete)     | Gemini Enterprise only. |
-| [`get`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/get)           | Gemini Enterprise only. |
-| [`list`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/list)         | Gemini Enterprise only. |
-| [`patch`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/patch)       | Gemini Enterprise only. |
-| [`undelete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/undelete) | Gemini Enterprise only. |
+| Methods                                                                                                                           |                         |
+|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+| [`create`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create) | Gemini Enterprise only. |
+| [`delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/delete) | Gemini Enterprise only. |
+| [`get`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/get)       | Gemini Enterprise only. |
+| [`list`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/list)     | Gemini Enterprise only. |
+| [`patch`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/patch)   | Gemini Enterprise only. |

@@ -118,7 +118,6 @@ data_source: docs.cloud.google.com
 - [`UndeleteWorkforcePoolProviderKeyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.UndeleteWorkforcePoolProviderKeyRequest) (message)
 - [`UndeleteWorkforcePoolProviderRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.UndeleteWorkforcePoolProviderRequest) (message)
 - [`UndeleteWorkforcePoolProviderScimTenantRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.UndeleteWorkforcePoolProviderScimTenantRequest) (message)
-- [`UndeleteWorkforcePoolProviderScimTokenRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.UndeleteWorkforcePoolProviderScimTokenRequest) (message)
 - [`UndeleteWorkforcePoolRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.UndeleteWorkforcePoolRequest) (message)
 - [`UndeleteWorkforcePoolSubjectRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.UndeleteWorkforcePoolSubjectRequest) (message)
 - [`UpdateOauthClientCredentialRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.UpdateOauthClientCredentialRequest) (message)
@@ -147,6 +146,7 @@ data_source: docs.cloud.google.com
 - [`WorkforcePoolProvider.Saml`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider.Saml) (message)
 - [`WorkforcePoolProvider.ScimUsage`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider.ScimUsage) (enum)
 - [`WorkforcePoolProvider.State`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider.State) (enum)
+- [`WorkforcePoolProvider.VendorType`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider.VendorType) (enum)
 - [`WorkforcePoolProviderKey`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderKey) (message)
 - [`WorkforcePoolProviderKey.KeyUse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderKey.KeyUse) (enum)
 - [`WorkforcePoolProviderKey.State`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderKey.State) (enum)
@@ -1030,6 +1030,15 @@ Requires one of the following OAuth scopes:
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
+<!-- -->
+
+IAM Permissions  
+Requires the following [IAM](https://cloud.google.com/iam/docs) permission on the `resource` resource:
+
+- `CALLBACK`
+
+For more information, see the [IAM documentation](https://cloud.google.com/iam/docs) .
+
 **GetWorkforcePool**
 
 `rpc GetWorkforcePool( `[`GetWorkforcePoolRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.GetWorkforcePoolRequest)` ) returns ( `[`WorkforcePool`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePool)` )`
@@ -1198,6 +1207,15 @@ Requires one of the following OAuth scopes:
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
+<!-- -->
+
+IAM Permissions  
+Requires the following [IAM](https://cloud.google.com/iam/docs) permission on the `resource` resource:
+
+- `CALLBACK`
+
+For more information, see the [IAM documentation](https://cloud.google.com/iam/docs) .
+
 **TestIamPermissions**
 
 `rpc TestIamPermissions( `[`TestIamPermissionsRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.TestIamPermissionsRequest)` ) returns ( `[`TestIamPermissionsResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.TestIamPermissionsResponse)` )`
@@ -1259,20 +1277,6 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 `rpc UndeleteWorkforcePoolProviderScimTenant( `[`UndeleteWorkforcePoolProviderScimTenantRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.UndeleteWorkforcePoolProviderScimTenantRequest)` ) returns ( `[`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant)` )`
 
 Gemini Enterprise only. Undeletes a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) , that was deleted fewer than 30 days ago.
-
-Authorization scopes  
-Requires one of the following OAuth scopes:
-
-- `https://www.googleapis.com/auth/cloud-platform`
-- `https://www.googleapis.com/auth/iam`
-
-For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
-
-**UndeleteWorkforcePoolProviderScimToken**
-
-`rpc UndeleteWorkforcePoolProviderScimToken( `[`UndeleteWorkforcePoolProviderScimTokenRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.UndeleteWorkforcePoolProviderScimTokenRequest)` ) returns ( `[`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken)` )`
-
-Gemini Enterprise only. Undeletes a [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) ,that was deleted fewer than 30 days ago.
 
 Authorization scopes  
 Requires one of the following OAuth scopes:
@@ -1786,16 +1790,6 @@ The service account key disable request.
 <ul>
 <li><code>iam.serviceAccountKeys.disable</code></li>
 </ul></td>
-</tr>
-<tr class="even">
-<td><code>service_account_key_disable_reason</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.ServiceAccountKeyDisableReason"><code>ServiceAccountKeyDisableReason</code></a></p>
-<p>Optional. Describes the reason this key is being disabled. If unspecified, the default value of SERVICE_ACCOUNT_KEY_DISABLE_REASON_USER_INITIATED will be used.</p></td>
-</tr>
-<tr class="odd">
-<td><code>extended_status_message</code></td>
-<td><p><code>string</code></p>
-<p>Optional. Usable by internal google services only. An extended_status_message can be used to include additional information about the key, such as its private key data being exposed on a public repository like GitHub.</p></td>
 </tr>
 </tbody>
 </table>
@@ -2577,7 +2571,7 @@ Represents an [`OauthClient`](https://docs.cloud.google.com/iam/docs/reference/r
 <tr class="even">
 <td><code>allowed_grant_types[]</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.OauthClient.GrantType"><code>GrantType</code></a></p>
-<p>Required. The list of OAuth grant types is allowed for the <a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.OauthClient"><code>OauthClient</code></a> .</p></td>
+<p>Optional. The list of OAuth grant types is allowed for the <a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.OauthClient"><code>OauthClient</code></a> .</p></td>
 </tr>
 <tr class="odd">
 <td><code>allowed_scopes[]</code></td>
@@ -2792,7 +2786,7 @@ The grantable role query request.
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `full_resource_name` | `string` Required. Required. The full resource name to query from the list of grantable roles. The name follows the Google Cloud Platform resource format. For example, a Cloud Platform project with id `my-project` will be named `//cloudresourcemanager.googleapis.com/projects/my-project` . |
 | `view`               | [`RoleView`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.RoleView)                                                                                                                                                                               |
-| `page_size`          | `int32` Optional limit on the number of roles to include in the response. The default is 300, and the maximum is 2,000.                                                                                                                                                                           |
+| `page_size`          | `int32` Optional limit on the number of roles to include in the response. The default is 300, and the maximum is 3,000.                                                                                                                                                                           |
 | `page_token`         | `string` Optional pagination token returned in an earlier QueryGrantableRolesResponse.                                                                                                                                                                                                            |
 
 ## QueryGrantableRolesResponse
@@ -2960,11 +2954,11 @@ When you create a service account, you specify the project ID that owns the serv
 
 Represents a service account key.
 
-A service account has two sets of key-pairs: user-managed, and system-managed.
+A service account has two sets of key-pairs: user-managed and system-managed. System-managed keys are also called *Google-owned and managed keys* .
 
 User-managed key-pairs can be created and deleted by users. Users are responsible for rotating these keys periodically to ensure security of their service accounts. Users retain the private key of these key-pairs, and Google retains ONLY the public key.
 
-System-managed keys are automatically rotated by Google, and are used for signing for a maximum of two weeks. The rotation process is probabilistic, and usage of the new key will gradually ramp up and down over the key's lifetime.
+System-managed keys that are actively used for signing are rotated regularly according to [security best practices](https://docs.cloud.google.com/iam/docs/key-rotation#timing) . The rotation process is probabilistic, and usage of the new key will gradually ramp up and down over the key's lifetime.
 
 If you cache the public key set for a service account, we recommend that you update the cache every 15 minutes. User-managed keys can be added and removed at any time, so it is important to update the cache frequently. For Google-managed keys, Google will publish a key at least 6 hours before it is first used for signing and will keep publishing it for at least 6 hours after it was last used for signing.
 
@@ -3358,14 +3352,6 @@ Gemini Enterprise only. Request message for UndeleteWorkforcePoolProviderScimTen
 |--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `name` | `string` Required. Gemini Enterprise only. The name of the SCIM tenant to undelete. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}` |
 
-## UndeleteWorkforcePoolProviderScimTokenRequest
-
-Gemini Enterprise only. Request message for UndeleteWorkforcePoolProviderScimToken.
-
-| Fields |                                                                                                                                                                                                                 |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name` | `string` Required. Gemini Enterprise only. The name of the SCIM token to undelete. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}/tokens/{token}` |
-
 ## UndeleteWorkforcePoolRequest
 
 Request message for UndeleteWorkforcePool.
@@ -3664,7 +3650,7 @@ A configuration for an external identity provider.
 <tr class="odd">
 <td><code>extra_attributes_oauth2_client</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider.ExtraAttributesOAuth2Client"><code>ExtraAttributesOAuth2Client</code></a></p>
-<p>Optional. The configuration for OAuth 2.0 client used to get the additional user attributes. This should be used when users can't get the desired claims in authentication credentials. Currently, this configuration is only supported with OIDC protocol.</p></td>
+<p>Optional. Defines the configuration for the OAuth 2.0 client that is used to get the additional user attributes in a separate backchannel call to the identity provider. This should be used when users can't get the required claims in authentication credentials. Currently, the OAuth 2.0 protocol is the only supported authorization method for this backchannel call.</p></td>
 </tr>
 <tr class="even">
 <td><code>detailed_audit_logging</code></td>
@@ -3684,16 +3670,21 @@ A configuration for an external identity provider.
 <p>The <code>scim_usage</code> and <code>extended_attributes_oauth2_client</code> fields are mutually exclusive. A request that enables both fields on the same workforce identity pool provider will produce an error.</p></td>
 </tr>
 <tr class="odd">
+<td><code>vendor_type</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider.VendorType"><code>VendorType</code></a></p>
+<p>Optional. The vendor type of the third-party identity provider.</p></td>
+</tr>
+<tr class="even">
 <td><p>Union field <code>provider_config</code> .</p>
 <p><code>provider_config</code> can be only one of the following:</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>saml</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider.Saml"><code>Saml</code></a></p>
 <p>A SAML identity provider configuration.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>oidc</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider.Oidc"><code>Oidc</code></a></p>
 <p>An OpenID Connect 1.0 identity provider configuration.</p></td>
@@ -3735,7 +3726,7 @@ Represents the IdP and type of claims that should be fetched.
 </tr>
 <tr class="even">
 <td><code>AZURE_AD_GROUPS_MAIL</code></td>
-<td><p>Used to get the user's group claims from the Microsoft Entra ID identity provider using the configuration provided in <code>ExtraAttributesOAuth2Client</code> . The <code>mail</code> property of the <code>microsoft.graph.group</code> object is used for claim mapping. For more information about <code>microsoft.graph.group</code> properties, see <a href="https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties">https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties</a> . The group mail addresses of the user's groups that are returned from Microsoft Entra ID can be mapped by using the following attributes:</p>
+<td><p>Used to get the user's group claims from the Microsoft Entra ID identity provider using the configuration provided in <code>ExtraAttributesOAuth2Client</code> . The <code>mail</code> property of the <code>microsoft.graph.group</code> object is used for claim mapping. See <a href="https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties">https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties</a> for more details on <code>microsoft.graph.group</code> properties. The group mail addresses of the user's groups that are returned from Microsoft Entra ID can be mapped by using the following attributes:</p>
 <ul>
 <li>OIDC: <code>assertion.groups</code></li>
 <li>SAML: <code>assertion.attributes.groups</code></li>
@@ -3743,7 +3734,7 @@ Represents the IdP and type of claims that should be fetched.
 </tr>
 <tr class="odd">
 <td><code>AZURE_AD_GROUPS_ID</code></td>
-<td><p>Used to get the user's group claims from the Microsoft Entra ID identity provider using the configuration provided in <code>ExtraAttributesOAuth2Client</code> . The <code>id</code> property of the <code>microsoft.graph.group</code> object is used for claim mapping. For more information about <code>microsoft.graph.group</code> properties, see <a href="https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties">https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties</a> . The group IDs of the user's groups that are returned from Microsoft Entra ID can be mapped by using the following attributes:</p>
+<td><p>Used to get the user's group claims from the Microsoft Entra ID identity provider using the configuration provided in <code>ExtraAttributesOAuth2Client</code> . The <code>id</code> property of the <code>microsoft.graph.group</code> object is used for claim mapping. See <a href="https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties">https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties</a> for more details on <code>microsoft.graph.group</code> properties. The group IDs of the user's groups that are returned from Microsoft Entra ID can be mapped by using the following attributes:</p>
 <ul>
 <li>OIDC: <code>assertion.groups</code></li>
 <li>SAML: <code>assertion.attributes.groups</code></li>
@@ -3751,7 +3742,7 @@ Represents the IdP and type of claims that should be fetched.
 </tr>
 <tr class="even">
 <td><code>AZURE_AD_GROUPS_DISPLAY_NAME</code></td>
-<td><p>Used to get the user's group claims from the Microsoft Entra ID identity provider using the configuration provided in <code>ExtraAttributesOAuth2Client</code> . The <code>displayName</code> property of the <code>microsoft.graph.group</code> object is used for claim mapping. For more information about <code>microsoft.graph.group</code> properties, see <a href="https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties">https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties</a> . The group displayNames of the user's groups that are returned from Microsoft Entra ID can be mapped by using the following attributes:</p>
+<td><p>Used to get the user's group claims from the Microsoft Entra ID identity provider using the configuration provided in <code>ExtraAttributesOAuth2Client</code> . The <code>displayName</code> property of the <code>microsoft.graph.group</code> object is used for claim mapping. See <a href="https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties">https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties</a> for more details on <code>microsoft.graph.group</code> properties. The display names of the user's groups that are returned from Microsoft Entra ID can be mapped by using the following attributes:</p>
 <ul>
 <li>OIDC: <code>assertion.groups</code></li>
 <li>SAML: <code>assertion.attributes.groups</code></li>
@@ -3784,7 +3775,6 @@ Represents the parameters to control which claims are fetched from an IdP.
 <ul>
 <li><code>AZURE_AD_GROUPS_MAIL</code> : <code>mailEnabled</code> and <code>securityEnabled</code> filters are applied.</li>
 <li><code>AZURE_AD_GROUPS_ID</code> : <code>securityEnabled</code> filter is applied.</li>
-<li><code>AZURE_AD_GROUPS_DISPLAY_NAME</code> : <code>securityEnabled</code> filter is applied.</li>
 </ul></td>
 </tr>
 </tbody>
@@ -3861,12 +3851,13 @@ Represents a SAML identity provider.
 
 ## ScimUsage
 
-Gemini Enterprise only. Specifies whether the workforce identity pool provider uses SCIM-managed groups.
+Gemini Enterprise and Looker only. Specifies whether the workforce identity pool provider uses SCIM-managed groups, or users and groups.
 
-| Enums                    |                                                                                                         |
-|--------------------------|---------------------------------------------------------------------------------------------------------|
-| `SCIM_USAGE_UNSPECIFIED` | Gemini Enterprise only. Do not use SCIM data.                                                           |
-| `ENABLED_FOR_GROUPS`     | Gemini Enterprise only. SCIM sync is enabled and SCIM-managed groups are used for authorization checks. |
+| Enums                      |                                                                                                               |
+|----------------------------|---------------------------------------------------------------------------------------------------------------|
+| `SCIM_USAGE_UNSPECIFIED`   | Indicates that SCIM data is not used.                                                                         |
+| `ENABLED_FOR_GROUPS`       | Gemini Enterprise only. SCIM sync is enabled and SCIM-managed groups are used for authorization checks.       |
+| `ENABLED_FOR_USERS_GROUPS` | Looker only. SCIM sync is enabled, and SCIM-managed user claims and groups are used for authorization checks. |
 
 ## State
 
@@ -3877,6 +3868,23 @@ The current state of the provider.
 | `STATE_UNSPECIFIED` | State unspecified.                                                                                                                                                                                                                                                                                                                     |
 | `ACTIVE`            | The provider is active and may be used to validate authentication credentials.                                                                                                                                                                                                                                                         |
 | `DELETED`           | The provider is soft-deleted. Soft-deleted providers are permanently deleted after approximately 30 days. You can restore a soft-deleted provider using [`UndeleteWorkforcePoolProvider`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePools.UndeleteWorkforcePoolProvider) . |
+
+## VendorType
+
+The external identity provider vendor.
+
+| Enums                     |                                                                       |
+|---------------------------|-----------------------------------------------------------------------|
+| `VENDOR_TYPE_UNSPECIFIED` | Default value, no vendor specified, backfilled to existing providers. |
+| `ENTRA_ID`                | Microsoft Entra ID                                                    |
+| `OKTA`                    | Okta                                                                  |
+| `PING_FEDERATE`           | Ping Federate                                                         |
+| `ADFS`                    | Microsoft Active Directory Federation Services                        |
+| `KEYCLOAK`                | Keycloak                                                              |
+| `FORGE_ROCK`              | ForgeRock                                                             |
+| `JUMP_CLOUD`              | JumpCloud                                                             |
+| `ONE_LOGIN`               | OneLogin                                                              |
+| `GENERIC`                 | Other Generic Identity Providers                                      |
 
 ## WorkforcePoolProviderKey
 

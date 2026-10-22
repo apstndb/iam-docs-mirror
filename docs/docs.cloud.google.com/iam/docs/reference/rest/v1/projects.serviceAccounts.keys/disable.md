@@ -9,7 +9,6 @@ data_source: docs.cloud.google.com
 - [HTTP request](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/disable#body.HTTP_TEMPLATE)
 - [Path parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/disable#body.PATH_PARAMETERS)
 - [Request body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/disable#body.request_body)
-  - [JSON representation](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/disable#body.request_body.SCHEMA_REPRESENTATION)
 - [Response body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/disable#body.response_body)
 - [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/disable#body.aspect)
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/disable#examples)
@@ -62,21 +61,7 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Request body
 
-The request body contains data with the following structure:
-
-**JSON representation**
-
-```
-{
-  "serviceAccountKeyDisableReason": enum (ServiceAccountKeyDisableReason),
-  "extendedStatusMessage": string
-}
-```
-
-| Fields                           |                                                                                                                                                                                                                                                                                                                                        |
-|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `serviceAccountKeyDisableReason` | `enum ( `[`ServiceAccountKeyDisableReason`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys#ServiceAccountKeyDisableReason)` )` Optional. Describes the reason this key is being disabled. If unspecified, the default value of SERVICE_ACCOUNT_KEY_DISABLE_REASON_USER_INITIATED will be used. |
-| `extendedStatusMessage`          | `string` Optional. Usable by internal google services only. An extendedStatusMessage can be used to include additional information about the key, such as its private key data being exposed on a public repository like GitHub.                                                                                                       |
+The request body must be empty.
 
 ### Response body
 

@@ -12,6 +12,7 @@ data_source: docs.cloud.google.com
   - [JSON representation](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools/getIamPolicy#body.request_body.SCHEMA_REPRESENTATION)
 - [Response body](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools/getIamPolicy#body.response_body)
 - [Authorization scopes](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools/getIamPolicy#body.aspect)
+- [IAM Permissions](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools/getIamPolicy#body.aspect_1)
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools/getIamPolicy#examples)
 - [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools/getIamPolicy#try-it)
 
@@ -59,3 +60,11 @@ Requires one of the following OAuth scopes:
 - `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
+
+### IAM Permissions
+
+Requires the following [IAM](https://cloud.google.com/iam/docs) permission on the `resource` resource:
+
+- `CALLBACK`
+
+For more information, see the [IAM documentation](https://cloud.google.com/iam/docs) .

@@ -35,14 +35,15 @@ A configuration for an external identity provider.
   "attributeCondition": string,
   "expireTime": string,
 
-  // Union field provider_config can be only one of the following:
+  // The following is a list of mutually exclusive fields. At most one of the
+  // fields will be set in a response:
   "aws": {
     object (Aws)
   },
   "oidc": {
     object (Oidc)
   }
-  // End of list of possible types for union field provider_config.
+  // End of mutually exclusive fields.
 }
 ```
 
@@ -129,7 +130,7 @@ A configuration for an external identity provider.
 <li><code>google</code> : The Google attributes mapped from the assertion in the <code>attribute_mappings</code> .</li>
 <li><code>attribute</code> : The custom attributes mapped from the assertion in the <code>attribute_mappings</code> .</li>
 </ul>
-<p>The maximum length of the <code>attributeCondition</code> expression is 4,096 characters. If unspecified, all valid authentication credentials are accepted. However, multi-tenant identity providers (such as GitHub or Terraform Cloud) require an <code>attributeCondition</code> to prevent token spoofing.</p>
+<p>The maximum length of the <code>attributeCondition</code> expression is 4,096 characters; longer expressions will result in an error. If unspecified, all valid authentication credentials are accepted. However, multi-tenant identity providers (such as GitHub or Terraform Cloud) require an <code>attributeCondition</code> to prevent token spoofing.</p>
 <p>The following example shows how to only allow credentials with a mapped <code>google.groups</code> value of <code>admins</code> :</p>
 <pre data-fenced=""><code>&quot;&#39;admins&#39; in google.groups&quot;</code></pre></td>
 </tr>
@@ -140,7 +141,7 @@ A configuration for an external identity provider.
 <p>Uses RFC 3339, where generated output will always be Z-normalized and use 0, 3, 6 or 9 fractional digits. Offsets other than "Z" are also accepted. Examples: <code>"2014-10-02T15:01:23Z"</code> , <code>"2014-10-02T15:01:23.045123456Z"</code> or <code>"2014-10-02T15:01:23+05:30"</code> .</p></td>
 </tr>
 <tr class="odd">
-<td>Union field <code>provider_config</code> . Identity provider configuration types. <code>provider_config</code> can be only one of the following:</td>
+<td>Identity provider configuration types. The following is a list of mutually exclusive fields. At most one of the fields will be set in a response:</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -152,6 +153,10 @@ A configuration for an external identity provider.
 <td><code>oidc</code></td>
 <td><p><code>object ( </code><a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1beta/projects.locations.workloadIdentityPools.providers#Oidc"><code>Oidc</code></a><code> )</code></p>
 <p>An OpenId Connect 1.0 identity provider.</p></td>
+</tr>
+<tr class="even">
+<td>End of mutually exclusive fields.</td>
+<td></td>
 </tr>
 </tbody>
 </table>

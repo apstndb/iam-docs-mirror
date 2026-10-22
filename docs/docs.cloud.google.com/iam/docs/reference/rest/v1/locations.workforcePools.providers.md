@@ -27,6 +27,7 @@ data_source: docs.cloud.google.com
 - [QueryParameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#QueryParameters)
   - [JSON representation](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#QueryParameters.SCHEMA_REPRESENTATION)
 - [ScimUsage](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#ScimUsage)
+- [VendorType](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#VendorType)
 - [Methods](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#METHODS_SUMMARY)
 
 ## Resource: WorkforcePoolProvider
@@ -56,15 +57,17 @@ A configuration for an external identity provider.
     object (ExtraAttributesOAuth2Client)
   },
   "scimUsage": enum (ScimUsage),
+  "vendorType": enum (VendorType),
 
-  // Union field provider_config can be only one of the following:
+  // The following is a list of mutually exclusive fields. At most one of the
+  // fields will be set in a response:
   "saml": {
     object (Saml)
   },
   "oidc": {
     object (Oidc)
   }
-  // End of list of possible types for union field provider_config.
+  // End of mutually exclusive fields.
 }
 ```
 
@@ -158,7 +161,7 @@ A configuration for an external identity provider.
 <tr class="odd">
 <td><code>extraAttributesOauth2Client</code></td>
 <td><p><code>object ( </code><a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#ExtraAttributesOAuth2Client"><code>ExtraAttributesOAuth2Client</code></a><code> )</code></p>
-<p>Optional. The configuration for OAuth 2.0 client used to get the additional user attributes. This should be used when users can't get the desired claims in authentication credentials. Currently, this configuration is only supported with OIDC protocol.</p></td>
+<p>Optional. Defines the configuration for the OAuth 2.0 client that is used to get the additional user attributes in a separate backchannel call to the identity provider. This should be used when users can't get the required claims in authentication credentials. Currently, the OAuth 2.0 protocol is the only supported authorization method for this backchannel call.</p></td>
 </tr>
 <tr class="even">
 <td><code>detailedAuditLogging</code></td>
@@ -178,19 +181,27 @@ A configuration for an external identity provider.
 <p>The <code>scimUsage</code> and <code>extendedAttributesOauth2Client</code> fields are mutually exclusive. A request that enables both fields on the same workforce identity pool provider will produce an error.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Union field <code>provider_config</code> .</p>
-<p><code>provider_config</code> can be only one of the following:</p></td>
-<td></td>
+<td><code>vendorType</code></td>
+<td><p><code>enum ( </code><a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#VendorType"><code>VendorType</code></a><code> )</code></p>
+<p>Optional. The vendor type of the third-party identity provider.</p></td>
 </tr>
 <tr class="even">
+<td>The following is a list of mutually exclusive fields. At most one of the fields will be set in a response:</td>
+<td></td>
+</tr>
+<tr class="odd">
 <td><code>saml</code></td>
 <td><p><code>object ( </code><a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#Saml"><code>Saml</code></a><code> )</code></p>
 <p>A SAML identity provider configuration.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>oidc</code></td>
 <td><p><code>object ( </code><a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#Oidc"><code>Oidc</code></a><code> )</code></p>
 <p>An OpenID Connect 1.0 identity provider configuration.</p></td>
+</tr>
+<tr class="odd">
+<td>End of mutually exclusive fields.</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -214,16 +225,18 @@ Represents a SAML identity provider.
 ```
 {
 
-  // Union field identity_provider can be only one of the following:
+  // The following is a list of mutually exclusive fields. At most one of the
+  // fields will be set in a response:
   "idpMetadataXml": string
-  // End of list of possible types for union field identity_provider.
+  // End of mutually exclusive fields.
 }
 ```
 
-| Fields                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Union field `identity_provider` . `identity_provider` can be only one of the following: |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `idpMetadataXml`                                                                        | `string` Required. SAML Identity provider configuration metadata xml doc. The xml document should comply with [SAML 2.0 specification](https://docs.oasis-open.org/security/saml/v2.0/saml-metadata-2.0-os.pdf) . The max size of the acceptable xml document will be bounded to 128k characters. The metadata xml document should satisfy the following constraints: 1) Must contain an Identity Provider Entity ID. 2) Must contain at least one non-expired signing key certificate. 3) For each signing key: a) Valid from should be no more than 7 days from now. b) Valid to should be no more than 25 years in the future. 4) Up to 3 IdP signing keys are allowed in the metadata xml. When updating the provider's metadata xml, at least one non-expired signing key must overlap with the existing metadata. This requirement is skipped if there are no non-expired signing keys present in the existing metadata. |
+| Fields                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| The following is a list of mutually exclusive fields. At most one of the fields will be set in a response: |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| `idpMetadataXml`                                                                                           | `string` Required. SAML Identity provider configuration metadata xml doc. The xml document should comply with [SAML 2.0 specification](https://docs.oasis-open.org/security/saml/v2.0/saml-metadata-2.0-os.pdf) . The max size of the acceptable xml document will be bounded to 128k characters. The metadata xml document should satisfy the following constraints: 1) Must contain an Identity Provider Entity ID. 2) Must contain at least one non-expired signing key certificate. 3) For each signing key: a) Valid from should be no more than 7 days from now. b) Valid to should be no more than 25 years in the future. 4) Up to 3 IdP signing keys are allowed in the metadata xml. When updating the provider's metadata xml, at least one non-expired signing key must overlap with the existing metadata. This requirement is skipped if there are no non-expired signing keys present in the existing metadata. |
+| End of mutually exclusive fields.                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 ## Oidc
 
@@ -262,18 +275,20 @@ Representation of a client secret configured for the OIDC provider.
 ```
 {
 
-  // Union field source can be only one of the following:
+  // The following is a list of mutually exclusive fields. At most one of the
+  // fields will be set in a response:
   "value": {
     object (Value)
   }
-  // End of list of possible types for union field source.
+  // End of mutually exclusive fields.
 }
 ```
 
-| Fields                                                            |                                                                                                                                                             |
-|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Union field `source` . `source` can be only one of the following: |                                                                                                                                                             |
-| `value`                                                           | `object ( `[`Value`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#Value)` )` The value of the client secret. |
+| Fields                                                                                                     |                                                                                                                                                             |
+|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| The following is a list of mutually exclusive fields. At most one of the fields will be set in a response: |                                                                                                                                                             |
+| `value`                                                                                                    | `object ( `[`Value`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#Value)` )` The value of the client secret. |
+| End of mutually exclusive fields.                                                                          |                                                                                                                                                             |
 
 ## Value
 
@@ -385,7 +400,7 @@ Represents the IdP and type of claims that should be fetched.
 </tr>
 <tr class="even">
 <td><code>AZURE_AD_GROUPS_MAIL</code></td>
-<td><p>Used to get the user's group claims from the Microsoft Entra ID identity provider using the configuration provided in <code>ExtraAttributesOAuth2Client</code> . The <code>mail</code> property of the <code>microsoft.graph.group</code> object is used for claim mapping. For more information about <code>microsoft.graph.group</code> properties, see <a href="https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties">https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties</a> . The group mail addresses of the user's groups that are returned from Microsoft Entra ID can be mapped by using the following attributes:</p>
+<td><p>Used to get the user's group claims from the Microsoft Entra ID identity provider using the configuration provided in <code>ExtraAttributesOAuth2Client</code> . The <code>mail</code> property of the <code>microsoft.graph.group</code> object is used for claim mapping. See <a href="https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties">https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties</a> for more details on <code>microsoft.graph.group</code> properties. The group mail addresses of the user's groups that are returned from Microsoft Entra ID can be mapped by using the following attributes:</p>
 <ul>
 <li>OIDC: <code>assertion.groups</code></li>
 <li>SAML: <code>assertion.attributes.groups</code></li>
@@ -393,7 +408,7 @@ Represents the IdP and type of claims that should be fetched.
 </tr>
 <tr class="odd">
 <td><code>AZURE_AD_GROUPS_ID</code></td>
-<td><p>Used to get the user's group claims from the Microsoft Entra ID identity provider using the configuration provided in <code>ExtraAttributesOAuth2Client</code> . The <code>id</code> property of the <code>microsoft.graph.group</code> object is used for claim mapping. For more information about <code>microsoft.graph.group</code> properties, see <a href="https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties">https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties</a> . The group IDs of the user's groups that are returned from Microsoft Entra ID can be mapped by using the following attributes:</p>
+<td><p>Used to get the user's group claims from the Microsoft Entra ID identity provider using the configuration provided in <code>ExtraAttributesOAuth2Client</code> . The <code>id</code> property of the <code>microsoft.graph.group</code> object is used for claim mapping. See <a href="https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties">https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties</a> for more details on <code>microsoft.graph.group</code> properties. The group IDs of the user's groups that are returned from Microsoft Entra ID can be mapped by using the following attributes:</p>
 <ul>
 <li>OIDC: <code>assertion.groups</code></li>
 <li>SAML: <code>assertion.attributes.groups</code></li>
@@ -401,7 +416,7 @@ Represents the IdP and type of claims that should be fetched.
 </tr>
 <tr class="even">
 <td><code>AZURE_AD_GROUPS_DISPLAY_NAME</code></td>
-<td><p>Used to get the user's group claims from the Microsoft Entra ID identity provider using the configuration provided in <code>ExtraAttributesOAuth2Client</code> . The <code>displayName</code> property of the <code>microsoft.graph.group</code> object is used for claim mapping. For more information about <code>microsoft.graph.group</code> properties, see <a href="https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties">https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties</a> . The group displayNames of the user's groups that are returned from Microsoft Entra ID can be mapped by using the following attributes:</p>
+<td><p>Used to get the user's group claims from the Microsoft Entra ID identity provider using the configuration provided in <code>ExtraAttributesOAuth2Client</code> . The <code>displayName</code> property of the <code>microsoft.graph.group</code> object is used for claim mapping. See <a href="https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties">https://learn.microsoft.com/en-us/graph/api/resources/group?view=graph-rest-1.0#properties</a> for more details on <code>microsoft.graph.group</code> properties. The display names of the user's groups that are returned from Microsoft Entra ID can be mapped by using the following attributes:</p>
 <ul>
 <li>OIDC: <code>assertion.groups</code></li>
 <li>SAML: <code>assertion.attributes.groups</code></li>
@@ -442,7 +457,6 @@ Represents the parameters to control which claims are fetched from an IdP.
 <ul>
 <li><code>AZURE_AD_GROUPS_MAIL</code> : <code>mailEnabled</code> and <code>securityEnabled</code> filters are applied.</li>
 <li><code>AZURE_AD_GROUPS_ID</code> : <code>securityEnabled</code> filter is applied.</li>
-<li><code>AZURE_AD_GROUPS_DISPLAY_NAME</code> : <code>securityEnabled</code> filter is applied.</li>
 </ul></td>
 </tr>
 </tbody>
@@ -450,12 +464,30 @@ Represents the parameters to control which claims are fetched from an IdP.
 
 ## ScimUsage
 
-Gemini Enterprise only. Specifies whether the workforce identity pool provider uses SCIM-managed groups.
+Gemini Enterprise and Looker only. Specifies whether the workforce identity pool provider uses SCIM-managed groups, or users and groups.
 
-| Enums                    |                                                                                                         |
-|--------------------------|---------------------------------------------------------------------------------------------------------|
-| `SCIM_USAGE_UNSPECIFIED` | Gemini Enterprise only. Do not use SCIM data.                                                           |
-| `ENABLED_FOR_GROUPS`     | Gemini Enterprise only. SCIM sync is enabled and SCIM-managed groups are used for authorization checks. |
+| Enums                      |                                                                                                               |
+|----------------------------|---------------------------------------------------------------------------------------------------------------|
+| `SCIM_USAGE_UNSPECIFIED`   | Indicates that SCIM data is not used.                                                                         |
+| `ENABLED_FOR_GROUPS`       | Gemini Enterprise only. SCIM sync is enabled and SCIM-managed groups are used for authorization checks.       |
+| `ENABLED_FOR_USERS_GROUPS` | Looker only. SCIM sync is enabled, and SCIM-managed user claims and groups are used for authorization checks. |
+
+## VendorType
+
+The external identity provider vendor.
+
+| Enums                     |                                                                       |
+|---------------------------|-----------------------------------------------------------------------|
+| `VENDOR_TYPE_UNSPECIFIED` | Default value, no vendor specified, backfilled to existing providers. |
+| `ENTRA_ID`                | Microsoft Entra ID                                                    |
+| `OKTA`                    | Okta                                                                  |
+| `PING_FEDERATE`           | Ping Federate                                                         |
+| `ADFS`                    | Microsoft Active Directory Federation Services                        |
+| `KEYCLOAK`                | Keycloak                                                              |
+| `FORGE_ROCK`              | ForgeRock                                                             |
+| `JUMP_CLOUD`              | JumpCloud                                                             |
+| `ONE_LOGIN`               | OneLogin                                                              |
+| `GENERIC`                 | Other Generic Identity Providers                                      |
 
 | Methods                                                                                                            |                                                                                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

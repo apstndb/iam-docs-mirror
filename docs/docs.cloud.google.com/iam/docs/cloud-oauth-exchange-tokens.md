@@ -10,7 +10,7 @@ data_source: docs.cloud.google.com
 >
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-This guide describes how to exchange external credentials, authorization codes, or refresh tokens for Google Cloud access tokens by using the Cloud OAuth API ( `cloudoauth.googleapis.com` ) in [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) integrations.
+You can use the Cloud OAuth API ( `cloudoauth.googleapis.com` ) to exchange authorization codes or refresh tokens for short-lived Google Cloud OAuth 2.0 access tokens and OpenID Connect (OIDC) ID tokens. In [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) integrations, your applications can then verify the returned ID tokens using your organization's public keys and use the access tokens to call Google Cloud APIs on behalf of federated users.
 
 ## Before you begin
 
@@ -26,9 +26,9 @@ This guide describes how to exchange external credentials, authorization codes, 
 
 ## Authentication methods
 
-The Cloud OAuth API supports two client authentication methods:
+To authenticate your OAuth client with the Cloud OAuth API, pass your client ID and client secret in one of the following ways:
 
-- **HTTP Basic authentication (recommended)** : Pass the Base64-encoded client ID and client secret in the `Authorization` header:
+- **HTTP Basic authentication (recommended)** : Pass the base64-encoded client ID and client secret in the `Authorization` header:
 
   ```
   -H "Authorization: Basic $(echo -n 'CLIENT_ID:CLIENT_SECRET' | base64)"
@@ -36,13 +36,13 @@ The Cloud OAuth API supports two client authentication methods:
 
 - **Request body parameters** : Pass the `client_id` and `client_secret` parameters in the request body.
 
-> **Note:** Use only one authentication method per request. Combining multiple authentication methods returns an error. JWT bearer token client assertions ( `client_assertion` ) are not supported.
+> **Note:** Use only one authentication method per request. Combining multiple authentication methods returns an error. The Cloud OAuth API doesn't support JSON Web Token (JWT) bearer token client assertions ( `client_assertion` ).
 
 ## Exchange an authorization code for tokens
 
-To exchange a Google Cloud authorization code for an access token and a refresh token, send an HTTP `POST` request:
+After a federated user signs in with their identity provider (IdP) at Google Cloud's unified authorization endpoint ( `https://auth.cloud.google/authorize` ), the authorization endpoint redirects the user to your application's redirect URI with an authorization code. To exchange this authorization code for an access token, a refresh token, and an OIDC ID token, send an HTTP `POST` request to the organization-scoped (single-tenant) endpoint:
 
-- **Organization-scoped (single-tenant) endpoint**
+- **HTTP Basic authentication (recommended)** :
 
   ```
   curl -X POST https://cloudoauth.googleapis.com/v1/organizations/ORGANIZATION_ID/token \
@@ -53,7 +53,7 @@ To exchange a Google Cloud authorization code for an access token and a refresh 
   --data-urlencode "redirect_uri=REDIRECT_URI"
   ```
 
-  **Request body credentials**
+- **Request body parameters** :
 
   ```
   curl -X POST https://cloudoauth.googleapis.com/v1/organizations/ORGANIZATION_ID/token \
@@ -67,29 +67,32 @@ To exchange a Google Cloud authorization code for an access token and a refresh 
 
 Replace the following:
 
-- `BASE64_ENCODED_CREDENTIALS` : the Base64-encoded string of `CLIENT_ID `` : `` CLIENT_SECRET` .
-- `AUTHORIZATION_CODE` : the authorization code issued by Google Cloud.
-- `REDIRECT_URI` : the redirect URI configured on your OAuth client.
 - `ORGANIZATION_ID` : your numeric Google Cloud organization ID.
+- `BASE64_ENCODED_CREDENTIALS` : the base64-encoded string of `CLIENT_ID `` : `` CLIENT_SECRET` .
+- `AUTHORIZATION_CODE` : the authorization code returned by Google Cloud's unified authorization endpoint ( `https://auth.cloud.google/authorize` ).
+- `REDIRECT_URI` : the redirect URI configured on your OAuth client.
 - `CLIENT_ID` : your registered OAuth client ID.
 - `CLIENT_SECRET` : your OAuth client secret.
 
 ## Refresh an access token
 
-When an access token expires, use the `refresh_token` grant type to obtain a new short-lived access token:
+When an access token expires, use the `refresh_token` grant type to obtain a new short-lived access token from the organization-scoped (single-tenant) endpoint:
 
-- **Organization-scoped (single-tenant) endpoint**
-
-  ```
-  curl -X POST https://cloudoauth.googleapis.com/v1/organizations/ORGANIZATION_ID/token \
+```
+curl -X POST https://cloudoauth.googleapis.com/v1/organizations/ORGANIZATION_ID/token \
   -H "Authorization: Basic BASE64_ENCODED_CREDENTIALS" \
   -H "Content-Type: application/x-www-form-urlencoded" \
   --data-urlencode "grant_type=refresh_token" \
   --data-urlencode "refresh_token=REFRESH_TOKEN" \
   --data-urlencode "redirect_uri=REDIRECT_URI"
-  ```
+```
 
-Replace `REFRESH_TOKEN` with the refresh token that the token endpoint previously returned.
+Replace the following:
+
+- `ORGANIZATION_ID` : your numeric Google Cloud organization ID.
+- `BASE64_ENCODED_CREDENTIALS` : the base64-encoded string of `CLIENT_ID `` : `` CLIENT_SECRET` .
+- `REFRESH_TOKEN` : the refresh token that the token endpoint previously returned.
+- `REDIRECT_URI` : the redirect URI configured on your OAuth client.
 
 ## Token response fields
 
@@ -101,10 +104,23 @@ When a token exchange succeeds, the Cloud OAuth API returns an HTTP `200 OK` sta
 | `refresh_token` | `string`  | The refresh token used to obtain new access tokens when the current token expires.  |
 | `expires_in`    | `integer` | The remaining lifetime of the access token in seconds (typically `3599` ).          |
 | `token_type`    | `string`  | The token type (for example, `Bearer` ).                                            |
-| `scope`         | `string`  | The list of scopes associated with the token.                                       |
+| `scope`         | `string`  | A list of the scopes associated with the token.                                     |
 | `id_token`      | `string`  | The OIDC ID token containing authenticated identity claims.                         |
 
 For information about error responses returned by the Cloud OAuth API, see [Cloud OAuth API token exchange errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#cloud-oauth-api-errors) .
+
+## Verify the OIDC ID token
+
+For Looker OIDC integrations, you can verify the cryptographic signature of the `id_token` returned by the Cloud OAuth API by using your organization's public JSON Web Keys (JWKs).
+
+> **Important:** The `/.well-known/openid-configuration` and `/.well-known/jwks.json` endpoints are available only for Looker.
+
+Retrieve the organization's public JWKs in one of the following ways:
+
+- **Query the JSON Web Key Set (JWKS) endpoint directly** : Send an HTTP `GET` request to `https://cloudoauth.googleapis.com/v1/organizations/ `` ORGANIZATION_ID `` /.well-known/jwks.json` .
+- **Use the OIDC discovery document** : Send an HTTP `GET` request to the [OIDC discovery endpoint](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview#oidc-discovery-jwks) ( `https://auth.cloud.google/oidc/organizations/ `` ORGANIZATION_ID `` /.well-known/openid-configuration` ) to retrieve the JWKS endpoint URL from the `jwks_uri` field.
+
+In both endpoint URLs, replace `ORGANIZATION_ID` with your numeric Google Cloud organization ID.
 
 ## What's next
 

@@ -6,7 +6,7 @@ description: Learn how to use the Policy Analyzer remote MCP server.
 data_source: docs.cloud.google.com
 ---
 
-This document shows you how to use the Policy Analyzer remote Model Context Protocol (MCP) server to connect with AI applications including Gemini CLI, ChatGPT, Claude, and custom applications you are developing. The Policy Analyzer remote MCP server provides your agents direct access to tools that can help analyze and audit Identity and Access Management configurations. The Policy Analyzer remote MCP server is enabled when you enable the Policy Analyzer API.
+This document shows you how to use the Policy Analyzer remote Model Context Protocol (MCP) server to connect with AI applications including Antigravity, ChatGPT, Claude, and custom applications you are developing. The Policy Analyzer remote MCP server provides your agents direct access to tools that can help analyze and audit Identity and Access Management configurations. The Policy Analyzer remote MCP server is enabled when you enable the Policy Analyzer API.
 
 [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro) (MCP) standardizes how large language models (LLMs) and AI applications or agents connect to external data sources. MCP servers let you use their tools, resources, and prompts to take actions and get updated data from their backend service.
 

@@ -38,8 +38,12 @@ A configuration for an external identity provider.
   },
   "attributeCondition": string,
   "expireTime": string,
+  "actorProviders": [
+    string
+  ],
 
-  // Union field provider_config can be only one of the following:
+  // The following is a list of mutually exclusive fields. At most one of the
+  // fields will be set in a response:
   "aws": {
     object (Aws)
   },
@@ -52,7 +56,7 @@ A configuration for an external identity provider.
   "x509": {
     object (X509)
   }
-  // End of list of possible types for union field provider_config.
+  // End of mutually exclusive fields.
 }
 ```
 
@@ -71,7 +75,7 @@ A configuration for an external identity provider.
 <tr class="odd">
 <td><code>name</code></td>
 <td><p><code>string</code></p>
-<p>Output only. The resource name of the provider.</p></td>
+<p>Identifier. The resource name of the provider.</p></td>
 </tr>
 <tr class="even">
 <td><code>displayName</code></td>
@@ -139,7 +143,7 @@ A configuration for an external identity provider.
 <li><code>google</code> : The Google attributes mapped from the assertion in the <code>attribute_mappings</code> .</li>
 <li><code>attribute</code> : The custom attributes mapped from the assertion in the <code>attribute_mappings</code> .</li>
 </ul>
-<p>The maximum length of the <code>attributeCondition</code> expression is 4,096 characters. If unspecified, all valid authentication credentials are accepted. However, multi-tenant identity providers (such as GitHub or Terraform Cloud) require an <code>attributeCondition</code> to prevent token spoofing.</p>
+<p>The maximum length of the <code>attributeCondition</code> expression is 4,096 characters. Providing a condition longer than this will result in an error. If unspecified, all valid authentication credentials are accepted. However, multi-tenant identity providers (such as GitHub or Terraform Cloud) require an <code>attributeCondition</code> to prevent token spoofing.</p>
 <p>The following example shows how to only allow credentials with a mapped <code>google.groups</code> value of <code>admins</code> :</p>
 <pre data-fenced=""><code>&quot;&#39;admins&#39; in google.groups&quot;</code></pre></td>
 </tr>
@@ -150,28 +154,37 @@ A configuration for an external identity provider.
 <p>Uses RFC 3339, where generated output will always be Z-normalized and use 0, 3, 6 or 9 fractional digits. Offsets other than "Z" are also accepted. Examples: <code>"2014-10-02T15:01:23Z"</code> , <code>"2014-10-02T15:01:23.045123456Z"</code> or <code>"2014-10-02T15:01:23+05:30"</code> .</p></td>
 </tr>
 <tr class="odd">
-<td>Union field <code>provider_config</code> . Identity provider configuration types. <code>provider_config</code> can be only one of the following:</td>
-<td></td>
+<td><code>actorProviders[]</code></td>
+<td><p><code>string</code></p>
+<p>Optional. A list of the resource names of <a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers#WorkloadIdentityPoolProvider"><code>WorkloadIdentityPoolProvider</code></a> s in the same pool that are authorized to issue actor tokens for this provider. An actor token represents the identity of the acting party to whom authority is delegated. At most 3 actor providers can be specified.</p></td>
 </tr>
 <tr class="even">
+<td>Identity provider configuration types. The following is a list of mutually exclusive fields. At most one of the fields will be set in a response:</td>
+<td></td>
+</tr>
+<tr class="odd">
 <td><code>aws</code></td>
 <td><p><code>object ( </code><a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers#Aws"><code>Aws</code></a><code> )</code></p>
 <p>An Amazon Web Services identity provider.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>oidc</code></td>
 <td><p><code>object ( </code><a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers#Oidc"><code>Oidc</code></a><code> )</code></p>
 <p>An OpenId Connect 1.0 identity provider.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>saml</code></td>
 <td><p><code>object ( </code><a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers#Saml"><code>Saml</code></a><code> )</code></p>
 <p>An SAML 2.0 identity provider.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>x509</code></td>
 <td><p><code>object ( </code><a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers#X509"><code>X509</code></a><code> )</code></p>
 <p>An X.509-type identity provider.</p></td>
+</tr>
+<tr class="odd">
+<td>End of mutually exclusive fields.</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -214,7 +227,8 @@ Represents an OpenId Connect 1.0 identity provider.
   "allowedAudiences": [
     string
   ],
-  "jwksJson": string
+  "jwksJson": string,
+  "discoveryUri": string
 }
 ```
 
@@ -233,7 +247,7 @@ Represents an OpenId Connect 1.0 identity provider.
 <tr class="odd">
 <td><code>issuerUri</code></td>
 <td><p><code>string</code></p>
-<p>Required. The OIDC issuer URL. Must be an HTTPS endpoint. Per OpenID Connect Discovery 1.0 spec, the OIDC issuer URL is used to locate the provider's public keys (via <code>jwksUri</code> ) for verifying tokens like the OIDC ID token. These public key types must be 'EC' or 'RSA'.</p></td>
+<p>Required. The OIDC <code>issuerUri</code> . Must be an HTTPS endpoint. Per OpenID Connect Discovery 1.0 spec, the OIDC issuer URL is used to locate the provider's public keys (via <code>jwksUri</code> ) for verifying tokens like the OIDC ID token. These public key types must be 'EC' or 'RSA'.</p></td>
 </tr>
 <tr class="even">
 <td><code>allowedAudiences[]</code></td>
@@ -248,6 +262,12 @@ https://iam.googleapis.com/projects/&lt;project-number&gt;/locations/&lt;locatio
 <td><p><code>string</code></p>
 <p>Optional. OIDC JWKs in JSON String format. For details on the definition of a JWK, see <a href="https://tools.ietf.org/html/rfc7517">https://tools.ietf.org/html/rfc7517</a> . If not set, the <code>jwksUri</code> from the discovery document(fetched from the .well-known path of the <code>issuerUri</code> ) will be used. Currently, RSA and EC asymmetric keys are supported. The JWK must use following format and include only the following fields: { "keys": [ { "kty": "RSA/EC", "alg": " ", "use": "sig", "kid": " ", "n": "", "e": "", "x": "", "y": "", "crv": "" } ] }</p></td>
 </tr>
+<tr class="even">
+<td><code>discoveryUri</code></td>
+<td><p><code>string</code></p>
+<p>Optional. The URL to fetch the OIDC discovery document from, overriding the default URL derived from <code>issuerUri</code> . If not set, <code>discoveryUri</code> defaults to <code>issuerUri</code> with <code>/.well-known/openid-configuration</code> appended, as per the OpenID Connect Discovery 1.0 specification.</p>
+<p>If set, <code>discoveryUri</code> must meet the following requirements: - Must start with <code>https://</code> . - Must not exceed 2000 characters. - The scheme, host, and port must match <code>issuerUri</code> . - The path must contain <code>/.well-known/&lt;suffix&gt;</code> (where <code>&lt;suffix&gt;</code> is not empty, such as <code>openid-configuration</code> ) and conform to the <code>issuerUri</code> topology: - The well-known path segment is inserted before the issuer path (for example, <code>https://example.com/.well-known/openid-configuration/tenant1</code> for issuer <code>https://example.com/tenant1</code> ), or - The well-known path segment is appended under the issuer path (for example, <code>https://example.com/tenant1/.well-known/openid-configuration</code> for issuer <code>https://example.com/tenant1</code> ).</p></td>
+</tr>
 </tbody>
 </table>
 
@@ -260,9 +280,10 @@ Represents an SAML 2.0 identity provider.
 ```
 {
 
-  // Union field identity_provider can be only one of the following:
+  // The following is a list of mutually exclusive fields. At most one of the
+  // fields will be set in a response:
   "idpMetadataXml": string
-  // End of list of possible types for union field identity_provider.
+  // End of mutually exclusive fields.
 }
 ```
 
@@ -279,8 +300,7 @@ Represents an SAML 2.0 identity provider.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Union field <code>identity_provider</code> .</p>
-<p><code>identity_provider</code> can be only one of the following:</p></td>
+<td>The following is a list of mutually exclusive fields. At most one of the fields will be set in a response:</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -299,6 +319,10 @@ Represents an SAML 2.0 identity provider.
 <li>Up to three IdP signing keys are allowed.</li>
 </ul>
 <p>When updating the provider's metadata XML, at least one non-expired signing key must overlap with the existing metadata. This requirement is skipped if there are no non-expired signing keys present in the existing metadata.</p></td>
+</tr>
+<tr class="odd">
+<td>End of mutually exclusive fields.</td>
+<td></td>
 </tr>
 </tbody>
 </table>

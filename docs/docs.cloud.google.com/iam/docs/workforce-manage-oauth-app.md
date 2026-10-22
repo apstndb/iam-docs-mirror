@@ -6,7 +6,7 @@ description: Manage OAuth clients and credentials for {{dynamic_data.site_values
 data_source: docs.cloud.google.com
 ---
 
-This guide shows you how to manage OAuth-based application integrations with Google Cloud.
+You can create, view, update, and delete OAuth clients and client credentials to integrate your OAuth-based applications with Google Cloud. Registering an OAuth client lets federated workforce users sign in to your applications and access Google Cloud resources.
 
 > **Important:** OAuth application integration works only with Identity-Aware Proxy.
 
@@ -18,7 +18,7 @@ At a high level, to integrate an OAuth-based application, you do the following:
 2.  [Create an OAuth client credential](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#create-credential) .
 3.  In the OAuth client credential, obtain the client secret. To learn about risks associated with storing and accessing the client secret and strategies that can help mitigate them, see [OAuth client and credential security risks and mitigations](https://docs.cloud.google.com/iam/docs/workforce-oauth-app#security) .
 
-After you have completed these steps, the OAuth-based application can access Google Cloud products and data. You can use the registered OAuth client credentials to exchange authorization codes or refresh tokens with the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) .
+After you complete these steps, the OAuth-based application can access Google Cloud products and data. You can redirect users to the authorization endpoint ( `https://auth.cloud.google/authorize` ) to obtain an authorization code, and then use the registered OAuth client credentials to exchange authorization codes or refresh tokens with the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) .
 
 ## Before you begin
 
@@ -134,7 +134,7 @@ gcloud iam oauth-clients describe APP_OAUTH_CLIENT_ID \
 
 Replace the following:
 
-- `APP_OAUTH_CLIENT_ID` : the ID of the OAuth client that you want to to describe
+- `APP_OAUTH_CLIENT_ID` : the ID of the OAuth client that you want to describe
 - `PROJECT_ID` : the ID of the project where you registered your OAuth application
 
 ### REST
@@ -150,7 +150,7 @@ curl \
 Replace the following:
 
 - `PROJECT_ID` : the ID of the project where you registered your OAuth application
-- `APP_OAUTH_CLIENT_ID` : the ID of the OAuth client that you want to to describe
+- `APP_OAUTH_CLIENT_ID` : the ID of the OAuth client that you want to describe
 
 ### Update an OAuth client
 
