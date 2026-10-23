@@ -21,9 +21,9 @@ https://docs.cloud.google.com/iam/docs/audit-logging/examples-workload-identity	
 https://docs.cloud.google.com/iam/docs/auth-agent-own-identity	2026-10-13T05:39:11Z
 https://docs.cloud.google.com/iam/docs/auth-agent-own-identity-external	2026-10-16T04:50:20Z
 https://docs.cloud.google.com/iam/docs/auth-manager-overview	2026-10-02T06:11:42Z
-https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2	2026-10-02T06:11:42Z
-https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2	2026-10-02T06:11:42Z
-https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2	2026-10-02T06:11:42Z
+https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2	2026-10-22T15:32:34Z
+https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2	2026-10-22T15:32:34Z
+https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2	2026-10-22T15:32:34Z
 https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries	2026-10-02T06:11:42Z
 https://docs.cloud.google.com/iam/docs/authentication	2026-10-02T06:11:42Z
 https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys	2026-10-15T06:26:09Z
@@ -91,7 +91,7 @@ https://docs.cloud.google.com/iam/docs/managed-workload-identity	2026-10-02T06:1
 https://docs.cloud.google.com/iam/docs/managed-workload-identity-custom-constraints	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/migrate-from-service-account-keys	2026-10-02T06:14:42Z
-https://docs.cloud.google.com/iam/docs/migrate-to-agent-identity-api	2026-10-02T06:14:42Z
+https://docs.cloud.google.com/iam/docs/migrate-to-agent-identity-api	2026-10-22T15:32:34Z
 https://docs.cloud.google.com/iam/docs/migrating-to-credentials-api	2026-10-11T07:20:05Z
 https://docs.cloud.google.com/iam/docs/org-policy-custom-constraints	2026-10-11T07:20:05Z
 https://docs.cloud.google.com/iam/docs/overview	2026-10-02T06:14:42Z

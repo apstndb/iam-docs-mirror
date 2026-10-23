@@ -113,7 +113,7 @@ If you are connecting to Google Cloud services (such as Cloud Translation or Goo
 
 Create an auth provider to define the configuration and credentials for third-party applications.
 
-To create an API key auth provider, use the Google Cloud console or the Google Cloud CLI.
+To create an API key auth provider, use the Google Cloud console, the Google Cloud CLI, or the REST API.
 
 ### Console
 
@@ -194,6 +194,183 @@ Replace the following:
 - `PROJECT_NUMBER` : Your Google Cloud project number.
 - `ENGINE_ID` : The ID of your deployed reasoning engine agent.
 - `USER_EMAIL` : Your personal user account email address.
+
+### REST
+
+1.  Create the auth provider:
+
+    The Agent Identity API's [`authProviders.create`](https://docs.cloud.google.com/iam/docs/reference/agentidentity/rest/v1/projects.locations.authProviders/create) method creates an API key auth provider in a project and location.
+
+    Before using any of the request data, make the following replacements:
+
+    - `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+    - `LOCATION` : The location where your auth provider and agent are deployed (for example, `us-west1` ).
+    - `AUTH_PROVIDER_NAME` : The name for your auth provider (for example, `maps-api-key-authprovider` ). The name can contain only lowercase letters, numbers, or hyphens, cannot end with a hyphen, and must start with a lowercase letter.
+    - `API_KEY` : The API key that you generated from the third-party service.
+
+    HTTP method and URL:
+
+    ```
+    POST https://agentidentity.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/authProviders?authProviderId=AUTH_PROVIDER_NAME
+    ```
+
+    Request JSON body:
+
+    ```
+    {
+      "authProviderTypeParams": {
+        "apiKey": {
+          "apiKey": "API_KEY"
+        }
+      }
+    }
+    ```
+
+    To send your request, expand one of these options:
+
+    #### curl (Linux, macOS, or Cloud Shell)
+
+    > **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+    Save the request body in a file named `request.json` , and execute the following command:
+
+    ```
+    curl -X POST \
+         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+         -H "Content-Type: application/json; charset=utf-8" \
+         -d @request.json \
+         "https://agentidentity.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/authProviders?authProviderId=AUTH_PROVIDER_NAME"
+    ```
+
+    #### PowerShell (Windows)
+
+    > **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+    Save the request body in a file named `request.json` , and execute the following command:
+
+    ```
+    $cred = gcloud auth print-access-token
+    $headers = @{ "Authorization" = "Bearer $cred" }
+
+    Invoke-WebRequest `
+        -Method POST `
+        -Headers $headers `
+        -ContentType: "application/json; charset=utf-8" `
+        -InFile request.json `
+        -Uri "https://agentidentity.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/authProviders?authProviderId=AUTH_PROVIDER_NAME" | Select-Object -Expand Content
+    ```
+
+    #### APIs Explorer (browser)
+
+    Copy the request body and open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/agentidentity/rest/v1/projects.locations.authProviders/create) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Paste the request body in this tool, complete any other required fields, and click **Execute** .
+
+    You should receive a JSON response similar to the following:
+
+    ```
+    {
+      "name": "projects/my-project/locations/us-west1/authProviders/maps-api-key-authprovider",
+      "createTime": "2026-04-03T21:15:41.367155Z",
+      "updateTime": "2026-04-03T21:15:41.367155Z",
+      "authProviderTypeParams": {
+        "apiKey": {}
+      },
+      "state": "ENABLED"
+    }
+    ```
+
+2.  To allow your deployed agent and your personal user account to retrieve credentials from the auth provider, grant the **Agent Identity User** ( `roles/agentidentity.user` ) role on the auth provider resource:
+
+    The Agent Identity API's [`authProviders.setIamPolicy`](https://docs.cloud.google.com/iam/docs/reference/agentidentity/rest/v1/projects.locations.authProviders/setIamPolicy) method sets the allow policy on the auth provider resource.
+
+    Before using any of the request data, make the following replacements:
+
+    - `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+    - `LOCATION` : The location where your auth provider and agent are deployed (for example, `us-west1` ).
+    - `AUTH_PROVIDER_NAME` : The name for your auth provider.
+    - `ORGANIZATION_ID` : Your Google Cloud organization ID.
+    - `PROJECT_NUMBER` : The numeric Google Cloud project number of the project where your agent is deployed (for example, `987654321098` ).
+    - `ENGINE_ID` : The ID of your deployed Reasoning Engine agent.
+    - `USER_EMAIL` : Your personal user account email address.
+
+    HTTP method and URL:
+
+    ```
+    POST https://agentidentity.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME:setIamPolicy
+    ```
+
+    Request JSON body:
+
+    ```
+    {
+      "policy": {
+        "bindings": [
+          {
+            "role": "roles/agentidentity.user",
+            "members": [
+              "principal://agents.global.org-ORGANIZATION_ID.system.id.goog/resources/aiplatform/projects/PROJECT_NUMBER/locations/LOCATION/reasoningEngines/ENGINE_ID",
+              "user:USER_EMAIL"
+            ]
+          }
+        ]
+      }
+    }
+    ```
+
+    To send your request, expand one of these options:
+
+    #### curl (Linux, macOS, or Cloud Shell)
+
+    > **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+    Save the request body in a file named `request.json` , and execute the following command:
+
+    ```
+    curl -X POST \
+         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+         -H "Content-Type: application/json; charset=utf-8" \
+         -d @request.json \
+         "https://agentidentity.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME:setIamPolicy"
+    ```
+
+    #### PowerShell (Windows)
+
+    > **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+    Save the request body in a file named `request.json` , and execute the following command:
+
+    ```
+    $cred = gcloud auth print-access-token
+    $headers = @{ "Authorization" = "Bearer $cred" }
+
+    Invoke-WebRequest `
+        -Method POST `
+        -Headers $headers `
+        -ContentType: "application/json; charset=utf-8" `
+        -InFile request.json `
+        -Uri "https://agentidentity.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME:setIamPolicy" | Select-Object -Expand Content
+    ```
+
+    #### APIs Explorer (browser)
+
+    Copy the request body and open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/agentidentity/rest/v1/projects.locations.authProviders/setIamPolicy) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Paste the request body in this tool, complete any other required fields, and click **Execute** .
+
+    You should receive a JSON response similar to the following:
+
+    ```
+    {
+      "version": 1,
+      "etag": "BwYKmjvelug=",
+      "bindings": [
+        {
+          "role": "roles/agentidentity.user",
+          "members": [
+            "principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/987654321098/locations/us-west1/reasoningEngines/112233445566778899",
+            "user:alex@example.com"
+          ]
+        }
+      ]
+    }
+    ```
 
 ## Authenticate in your agent code
 

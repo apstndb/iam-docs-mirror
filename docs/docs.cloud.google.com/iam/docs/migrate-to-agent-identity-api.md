@@ -31,7 +31,7 @@ When you enable the Agent Identity API, the Agent Registry page in the Google Cl
 
 - **You don't need to recreate your auth providers.** The new API mirrors each legacy auth provider (for example, `projects/ `` PROJECT_ID `` /locations/ `` LOCATION `` / `**`connectors`**` / `` AUTH_PROVIDER_NAME` ) as an **`authProviders`** resource ( `projects/ `` PROJECT_ID `` /locations/ `` LOCATION `` / `**`authProviders`**` / `` AUTH_PROVIDER_NAME` ).
 
-- A newly created auth provider using the Google Cloud console or the gcloud CLI appears as an `authProviders/` resource and isn't visible in the legacy API.
+- An auth provider that you create by using the Google Cloud console, the gcloud CLI, or the REST API appears as an `authProviders/` resource and isn't visible in the legacy API.
 
 - The active agents using legacy `connectors/` strings continue to work during the migration window.
 
