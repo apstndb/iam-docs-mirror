@@ -1680,6 +1680,7 @@ The limitations table is organized in the following way:
 <li><a href="https://docs.cloud.google.com/dataplex/docs/explore-data">Dataplex Explore workbench</a> doesn't support Workforce Identity Federation.</li>
 <li><a href="https://docs.cloud.google.com/dataplex/docs/schedule-queries-notebooks">Scheduled scripts and notebooks through explore workbench</a> don't support Workforce Identity Federation.</li>
 <li><a href="https://docs.cloud.google.com/dataplex/docs/lake-security#secure-view">Secure view</a> doesn't support Workforce Identity Federation.</li>
+<li>Reading Google Docs ( <code>@ReadDocs</code> ) in <a href="https://docs.cloud.google.com/knowledge-catalog/docs/explore-data-assets">Knowledge Studio</a> doesn't support Workforce Identity Federation.</li>
 </ul></td>
 </tr>
 <tr class="even">
