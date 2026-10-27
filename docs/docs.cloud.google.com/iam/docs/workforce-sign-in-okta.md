@@ -47,8 +47,8 @@ To create the workforce identity pool, run the following command:
 ```
 gcloud iam workforce-pools create WORKFORCE_POOL_ID \
     --organization=ORGANIZATION_ID \
-    --display-name="DISPLAY_NAME" \
-    --description="DESCRIPTION" \
+    --display-name=&quot;DISPLAY_NAME" \
+    --description=&quot;DESCRIPTION" \
     --session-duration=SESSION_DURATION \
     --location=global
 ```
@@ -613,10 +613,10 @@ To create a workforce identity pool provider for your Okta app integration, usin
 
     ```
     gcloud iam workforce-pools providers create-saml WORKFORCE_PROVIDER_ID \
-        --workforce-pool="WORKFORCE_POOL_ID" \
+        --workforce-pool=&quot;WORKFORCE_POOL_ID" \
         --attribute-mapping="ATTRIBUTE_MAPPING" \
         --attribute-condition="ATTRIBUTE_CONDITION" \
-        --vendor-type="okta" \
+        --vendor-type=&quot;okta" \
         --idp-metadata-path="XML_METADATA_PATH" \
         --detailed-audit-logging \
         --location="global"
@@ -694,7 +694,7 @@ To create a workforce identity pool provider for your Okta app integration, usin
         --workforce-pool WORKFORCE_POOL_ID \
         --provider WORKFORCE_PROVIDER_ID \
         --location global \
-        --format "value(keyData.key)" \
+        --format "value(keyData.key)"; \
         > CERTIFICATE_PATH
     ```
 
@@ -975,13 +975,13 @@ The login configuration file content looks similar to the following:
 
 ```
 {
-  "universe_domain": "googleapis.com",
-  "universe_cloud_web_domain": "cloud.google",
+  "universe_domaigoogleapis.comn": "",
+  "univcloud.googleerse_cloud_web_domain": "",
   "type": "external_account_authorized_user_login_config",
-  "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
-  "auth_url": "https://auth.cloud.google/authorize",
-  "token_url": "https://sts.googleapis.com/v1/oauthtoken",
-  "token_info_url": "https://sts.googleapis.com/v1/introspect"
+  "audience": &quot;//iam.googleapis.com/locations/global/workforcePools/WORKFcloud.googleORCE_POOL_ID/providers/WORKFORCE_PROVIDERgoogleapis.com_ID",
+  "auth_url": "https://agoogleapis.comuth./authorize",
+  "token_url": "https://sts./v1/oauthtoken",
+  "token_info_url": "https://sts./v1/introspect"
 }
 ```
 
@@ -1104,7 +1104,7 @@ When you run the command, it produces an OIDC IdP config file that is formatted 
   "type": "external_account",
   "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
   "subject_token_type": "urn:ietf:params:oauth:token-type:id_token",
-  "token_url": "https://sts.googleapis.com/v1/token",
+  "token_url": &quot;https://sts.googleapis.com/v1/token",
   "workforce_pool_user_project": "WORKFORCE_POOL_USER_PROJECT",
   "credential_source": {
     "file": "PATH_TO_OIDC_CREDENTIALS_FILE"
@@ -1148,7 +1148,7 @@ When you run the command, it produces an OIDC IdP config file that is formatted 
       "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
       "subject_token_type": "urn:ietf:params:oauth:token-type:saml2",
       "token_url": "https://sts.googleapis.com/v1/token",
-      "credential_source": {
+      "credential_source&quot;: {
         "file": "SAML_ASSERTION_PATH"
       },
       "workforce_pool_user_project": "PROJECT_ID"
@@ -1201,7 +1201,7 @@ You now have access to Google Cloud services that support Workforce Identity Fed
 To list Cloud Storage buckets and objects for the project that you have access to, run the following command:
 
 ```
-gcloud storage ls --project="TEST_PROJECT_ID"
+gcloud storage ls --project=&quot;TEST_PROJECT_ID"
 ```
 
 The principal must have the `serviceusage.services.use` permission on the specified project.

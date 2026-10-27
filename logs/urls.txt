@@ -23,7 +23,7 @@ https://docs.cloud.google.com/iam/docs/auth-agent-own-identity-external	2026-10-
 https://docs.cloud.google.com/iam/docs/auth-manager-overview	2026-10-02T06:11:42Z
 https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2	2026-10-22T15:32:34Z
 https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2	2026-10-22T15:32:34Z
-https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2	2026-10-24T05:50:17Z
+https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2	2026-10-27T06:13:03Z
 https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries	2026-10-02T06:11:42Z
 https://docs.cloud.google.com/iam/docs/authentication	2026-10-02T06:11:42Z
 https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys	2026-10-15T06:26:09Z
@@ -63,7 +63,7 @@ https://docs.cloud.google.com/iam/docs/deny-overview	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-10-20T20:32:25Z
 https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/federated-identity-architectures	2026-10-02T06:13:11Z
-https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-10-26T08:38:48Z
+https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-10-26T23:48:25Z
 https://docs.cloud.google.com/iam/docs/full-resource-names	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/getting-support	2026-09-25T07:59:04Z
 https://docs.cloud.google.com/iam/docs/google-identities	2026-10-02T06:13:11Z
@@ -1178,7 +1178,7 @@ https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentia
 https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions	2026-10-07T05:03:27Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id	2026-10-15T19:33:05Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups	2026-10-15T19:33:05Z
-https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta	2026-10-15T19:33:05Z
+https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta	2026-10-27T06:14:07Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-pingfederate	2026-10-07T05:03:27Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-pingone	2026-10-07T05:03:27Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-power-bi	2026-10-07T05:03:27Z

@@ -1586,26 +1586,6 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.cloud.google.com/data-catalog/docs">Data Catalog</a></td>
-<td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
-<td><table>
-<tbody>
-<tr class="odd">
-<td>Console (federated):</td>
-<td>In the edit <a href="https://docs.cloud.google.com/data-catalog/docs/concepts/metadata#types_of_business_metadata">steward</a> dialog on the entry details page, contact suggestions aren't shown.</td>
-</tr>
-<tr class="even">
-<td>Google Cloud API:</td>
-<td>No known limitations</td>
-</tr>
-<tr class="odd">
-<td>Other:</td>
-<td>No known limitations</td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-<tr class="even">
 <td><a href="https://docs.cloud.google.com/database-migration/docs">Database Migration Service</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1625,7 +1605,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/dataflow/docs">Dataflow</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1645,7 +1625,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/dataform/docs">Dataform</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1665,7 +1645,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/dataplex/docs">Knowledge Catalog</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1694,7 +1674,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/dataproc/docs">Managed Service for Apache Spark</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1728,7 +1708,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/dataproc-metastore/docs">Dataproc Metastore</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1748,7 +1728,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/datastore/docs">Datastore</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1768,7 +1748,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/datastream/docs">Datastream</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1788,7 +1768,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/dialogflow/docs">Dialogflow</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1808,7 +1788,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/document-ai/docs">Document AI</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1828,7 +1808,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/endpoint-verification/docs">Endpoint Verification</a></td>
 <td>Unsupported</td>
 <td><table>
@@ -1840,7 +1820,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/enterprise-knowledge-graph/docs/overview">Enterprise Knowledge Graph</a></td>
 <td>Unsupported</td>
 <td><table>
@@ -1852,7 +1832,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/error-reporting/docs">Error Reporting</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1872,7 +1852,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/eventarc/docs">Eventarc</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1892,7 +1872,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/filestore/docs">Filestore</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1912,7 +1892,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/firestore/docs">Firestore</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1932,7 +1912,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/duet-ai/docs">Gemini</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1952,7 +1932,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://antigravity.google/docs/enterprise">Google Antigravity</a></td>
 <td>Unsupported</td>
 <td><table>
@@ -1964,7 +1944,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/armor/docs">Google Cloud Armor</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -1984,7 +1964,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/contact-center/ccai-platform/docs">Google Cloud Contact Center as a Service</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2004,7 +1984,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/managed-service-for-apache-kafka/docs">Google Cloud Managed Service for Apache Kafka</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2024,7 +2004,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/marketplace/docs">Google Cloud Marketplace</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2055,7 +2035,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/migration-center/docs">Google Cloud Migration Center</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">Preview</a></td>
 <td><table>
@@ -2082,7 +2062,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/netapp/volumes/docs/discover/overview/">Google Cloud NetApp Volumes</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2102,7 +2082,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/sdk/docs">Google Cloud SDK</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2122,7 +2102,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag">Google Distributed Cloud air-gapped</a></td>
 <td>Unsupported</td>
 <td><table>
@@ -2134,7 +2114,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/overview">Google Distributed Cloud connected</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2154,7 +2134,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal">Google Distributed Cloud software only</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2174,7 +2154,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://cloud.google.com/earth-engine">Google Earth Engine</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2201,7 +2181,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/kubernetes-engine/docs">Google Kubernetes Engine</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2228,7 +2208,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/chronicle">Google Security Operations</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2248,7 +2228,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/hybrid-connectivity">Hybrid Connectivity</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2268,7 +2248,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/iam/docs">Identity and Access Management</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2296,7 +2276,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/iap/docs">Identity-Aware Proxy</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2325,7 +2305,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/identity-platform/docs">Identity Platform</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2345,7 +2325,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/integration-connectors/docs">Integration Connectors</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2365,7 +2345,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/assured-workloads/key-access-justifications/docs">Key Access Justifications</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2385,7 +2365,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/anthos/run/docs">Knative serving</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2412,7 +2392,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/livestream/docs">Live Stream API</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2432,7 +2412,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/looker/docs">Looker (Google Cloud core)</a></td>
 <td>Unsupported</td>
 <td><table>
@@ -2444,7 +2424,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/looker/docs/studio">Data Studio</a></td>
 <td>Unsupported</td>
 <td><table>
@@ -2456,7 +2436,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/managed-microsoft-ad/docs">Managed Service for Microsoft Active Directory</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2476,7 +2456,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/media-cdn/docs">Media CDN</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2496,7 +2476,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/memorystore/docs/redis/">Memorystore</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2526,7 +2506,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="https://docs.cloud.google.com/migrate/containers/docs">Migrate to Containers</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -2546,29 +2526,9 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="https://docs.cloud.google.com/migrate/virtual-machines/docs">Migrate to Virtual Machines</a></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
-<td><table>
-<tbody>
-<tr class="odd">
-<td>Console (federated):</td>
-<td>No known limitations</td>
-</tr>
-<tr class="even">
-<td>Google Cloud API:</td>
-<td>No known limitations</td>
-</tr>
-<tr class="odd">
-<td>Other:</td>
-<td>No known limitations</td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-<tr class="even">
-<td><a href="https://docs.cloud.google.com/multi-party-compute">Multi-party Compute</a></td>
-<td><a href="https://cloud.google.com/products/#product-launch-stages">Preview</a></td>
 <td><table>
 <tbody>
 <tr class="odd">
