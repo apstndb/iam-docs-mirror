@@ -6,7 +6,9 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This document lists the audited methods for Service Account Credentials. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
+Cloud Audit Logs for Service Account Credentials let you track administrative and data-access operations on your resources to help you monitor access and configuration changes. You can query these logs in the Logs Explorer and check which Service Account Credentials API methods generate Cloud Audit Logs.
+
+For more information about Cloud Audit Logs, see the following documents:
 
 - [Types of audit logs](https://docs.cloud.google.com/logging/docs/audit#types)
 - [Audit log entry structure](https://docs.cloud.google.com/logging/docs/audit#audit_log_entry_structure)
@@ -36,10 +38,9 @@ Each IAM permission has a `type` property, whose value is an enum that can be on
 
 API methods in the following list that are marked with (LRO) are long-running operations (LROs). These methods usually generate two audit log entries: one when the operation starts and another when it ends. For more information see [Audit logs for long-running operations](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro) .
 
-| Permission type | Methods                                                  |
-|-----------------|----------------------------------------------------------|
-| `ADMIN_READ`    | `GenerateAccessToken` (LRO) `SignJwt` (LRO)              |
-| `DATA_READ`     | `GenerateIdToken` (LRO) `SignBlob` (LRO) `SignJwt` (LRO) |
+| Permission type | Methods                                                      |
+|-----------------|--------------------------------------------------------------|
+| `DATA_READ`     | `GenerateAccessToken` `GenerateIdToken` `SignBlob` `SignJwt` |
 
 ## API interface audit logs
 
@@ -54,7 +55,7 @@ The following audit logs are associated with methods belonging to `google.iam.cr
 - **Method** : `GenerateAccessToken`  
 - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
 - **Permissions** :
-  - `iam.serviceAccounts.getAccessToken - ADMIN_READ`
+  - `iam.serviceAccounts.getAccessToken - DATA_READ`
 - **Method is a long-running or streaming operation** : No.  
 - **Filter for this method** : `protoPayload.methodName="GenerateAccessToken"`  
 

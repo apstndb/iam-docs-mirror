@@ -6,7 +6,9 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This document describes audit logging for Security Token Service. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
+Cloud Audit Logs for Security Token Service let you track administrative and data-access operations on your resources to help you monitor access and configuration changes. You can query these logs in the Logs Explorer and check which Security Token Service API methods generate Cloud Audit Logs.
+
+For more information about Cloud Audit Logs, see the following documents:
 
 - [Types of audit logs](https://docs.cloud.google.com/logging/docs/audit#types)
 - [Audit log entry structure](https://docs.cloud.google.com/logging/docs/audit#audit_log_entry_structure)
@@ -16,11 +18,15 @@ This document describes audit logging for Security Token Service. Google Cloud s
 
 ## Service name
 
-Security Token Service audit logs use the service name `sts.googleapis.com` . Filter for this service:
+To view the Security Token Service audit logs, do the following:
 
-```
-protoPayload.serviceName="sts.googleapis.com"
-```
+1.  In the Google Cloud console, go to the Logs Explorer page:
+
+2.  Copy and paste the following query into the **Query** field of the Logs Explorer, and then click **Run query** .
+
+    ```
+    protoPayload.serviceName="sts.googleapis.com"
+    ```
 
 ## Methods by permission type
 

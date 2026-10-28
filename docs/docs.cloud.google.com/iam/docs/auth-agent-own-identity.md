@@ -28,7 +28,6 @@ To get the permissions that you need to grant an agent access to Google Cloud se
 - Recommended roles for the agent identity:
   - [Agent Context Editor](https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentContextEditor) ( `roles/aiplatform.agentContextEditor` )
   - [Agent Default Access](https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.agentDefaultAccess) ( `roles/aiplatform.agentDefaultAccess` )
-  - [Vertex AI User](https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user) ( `roles/aiplatform.user` )
   - [Service Usage Consumer](https://docs.cloud.google.com/iam/docs/roles-permissions/serviceusage#serviceusage.serviceUsageConsumer) ( `roles/serviceusage.serviceUsageConsumer` )
   - [Browser](https://docs.cloud.google.com/iam/docs/roles-permissions/browser#browser) ( `roles/browser` )
   - [Storage Object Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.objectViewer) ( `roles/storage.objectViewer` )

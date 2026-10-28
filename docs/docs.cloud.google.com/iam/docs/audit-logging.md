@@ -6,7 +6,9 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This document lists the audited methods for Identity and Access Management. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
+Cloud Audit Logs for Identity and Access Management let you track administrative and data-access operations on your resources to help you monitor access and configuration changes. You can query these logs in the Logs Explorer and check which Identity and Access Management API methods generate Cloud Audit Logs.
+
+For more information about Cloud Audit Logs, see the following documents:
 
 - [Types of audit logs](https://docs.cloud.google.com/logging/docs/audit#types)
 - [Audit log entry structure](https://docs.cloud.google.com/logging/docs/audit#audit_log_entry_structure)
@@ -56,7 +58,6 @@ The following audit logs are associated with methods belonging to `google.iam.ad
 - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
 - **Permissions** :
   - `iam.roles.create - ADMIN_WRITE`
-  - `iam.roles.list - ADMIN_READ`
 - **Method is a long-running or streaming operation** : No.  
 - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.CreateRole"`  
 
@@ -84,6 +85,7 @@ The following audit logs are associated with methods belonging to `google.iam.ad
 - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
 - **Permissions** :
   - `iam.roles.delete - ADMIN_WRITE`
+  - `iam.roles.list - ADMIN_READ`
 - **Method is a long-running or streaming operation** : No.  
 - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.DeleteRole"`  
 
@@ -846,7 +848,6 @@ The following audit logs are associated with methods belonging to `google.iam.v1
 - **Method** : [`google.iam.v1.WorkloadIdentityPools.ListAttestationRules`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v1#google.iam.v1.WorkloadIdentityPools.ListAttestationRules)  
 - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
 - **Permissions** :
-  - `iam.workloadIdentityPoolManagedIdentities.getAttestationRules - ADMIN_READ`
   - `iam.workloadIdentityPools.getAttestationRules - ADMIN_READ`
 - **Method is a long-running or streaming operation** : No.  
 - **Filter for this method** : `protoPayload.methodName="google.iam.v1.WorkloadIdentityPools.ListAttestationRules"`  
@@ -1497,6 +1498,7 @@ The following audit logs are associated with methods belonging to `google.iam.v3
   - `cloudresourcemanager.googleapis.com/folders.searchPolicyBindings - ADMIN_READ`
   - `cloudresourcemanager.googleapis.com/organizations.searchPolicyBindings - ADMIN_READ`
   - `cloudresourcemanager.googleapis.com/projects.searchPolicyBindings - ADMIN_READ`
+  - `iam.googleapis.com/workloadIdentityPools.searchPolicyBindings - ADMIN_READ`
   - `iam.googleapis.com/workspacePools.searchPolicyBindings - ADMIN_READ`
 - **Method is a long-running or streaming operation** : No.  
 - **Filter for this method** : `protoPayload.methodName="google.iam.v3beta.PolicyBindings.SearchTargetPolicyBindings"`  
@@ -1508,6 +1510,7 @@ The following audit logs are associated with methods belonging to `google.iam.v3
 - **Permissions** :
   - `cloudresourcemanager.googleapis.com/projects.updatePolicyBinding - ADMIN_WRITE`
   - `iam.googleapis.com/principalaccessboundarypolicies.bind - ADMIN_WRITE`
+  - `iam.googleapis.com/workloadIdentityPools.updatePolicyBinding - ADMIN_WRITE`
 - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
 - **Filter for this method** : `protoPayload.methodName="google.iam.v3beta.PolicyBindings.UpdatePolicyBinding"`  
 

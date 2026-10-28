@@ -12,7 +12,7 @@ gcloud iam workload-identity-pools providers create-oidc - create a new OIDC wor
 
 SYNOPSIS
 
-`gcloud iam workload-identity-pools providers create-oidc` ( [`PROVIDER`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#PROVIDER) : [`--location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--location) = `LOCATION` [`--workload-identity-pool`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--workload-identity-pool) = `WORKLOAD_IDENTITY_POOL` ) [`--attribute-mapping`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--attribute-mapping) = \[ `KEY` = `VALUE` , …\] [`--issuer-uri`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--issuer-uri) = `ISSUER_URI` \[ [`--allowed-audiences`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--allowed-audiences) =\[ `ALLOWED_AUDIENCES` , …\]\] \[ [`--attribute-condition`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--attribute-condition) = `ATTRIBUTE_CONDITION` \] \[ [`--description`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--description) = `DESCRIPTION` \] \[ [`--disabled`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--disabled) \] \[ [`--display-name`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--display-name) = `DISPLAY_NAME` \] \[ [`--jwk-json-path`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--jwk-json-path) = `PATH_TO_FILE` \] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#GCLOUD-WIDE-FLAGS)` …` \]
+`gcloud iam workload-identity-pools providers create-oidc` ( [`PROVIDER`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#PROVIDER) : [`--location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--location) = `LOCATION` [`--workload-identity-pool`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--workload-identity-pool) = `WORKLOAD_IDENTITY_POOL` ) [`--attribute-mapping`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--attribute-mapping) = \[ `KEY` = `VALUE` , …\] [`--issuer-uri`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--issuer-uri) = `ISSUER_URI` \[ [`--actor-providers`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--actor-providers) =\[ `ACTOR_PROVIDERS` , …\]\] \[ [`--allowed-audiences`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--allowed-audiences) =\[ `ALLOWED_AUDIENCES` , …\]\] \[ [`--attribute-condition`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--attribute-condition) = `ATTRIBUTE_CONDITION` \] \[ [`--description`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--description) = `DESCRIPTION` \] \[ [`--disabled`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--disabled) \] \[ [`--discovery-uri`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--discovery-uri) = `DISCOVERY_URI` \] \[ [`--display-name`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--display-name) = `DISPLAY_NAME` \] \[ [`--jwk-json-path`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#--jwk-json-path) = `PATH_TO_FILE` \] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -23,8 +23,7 @@ EXAMPLES
 The following command creates a disabled OIDC workload identity pool provider in the default project with the ID `my-workload-identity-pool` . Explicit values for all required and optional parameters are provided.
 
 ```
-gcloud iam workload-identity-pools providers create-oidc my-workload-identity-pool-provider --location="global" --workload-identity-pool="my-workload-identity-pool" --display-name="My workload pool provider" --description="My workload pool provider description" --disabled --attribute-mapping="google.subject=assertion.sub" --attribute-condition="true" --issuer-uri="https://test-idp.com" --allowed-audiences=https://test-audience-1.com,https://\
-test-audience-2.com --jwk-json-path="path/to/jwk.json"
+gcloud iam workload-identity-pools providers create-oidc my-workload-identity-pool-provider --location="global" --workload-identity-pool="my-workload-identity-pool" --display-name="My workload pool provider" --description="My workload pool provider description" --disabled --attribute-mapping="google.subject=assertion.sub" --attribute-condition="true" --issuer-uri="https://test-idp.com" --discovery-uri=https://test-idp.com/.well-known/custom-openid-configuration --allowed-audiences="https://test-audience-1.com","https://test-audience-2.com" --jwk-json-path="path/to/jwk.json" --actor-providers=projects/123/locations/global/workloadIdentityPools/my-workload-identity-pool/providers/actor-provider-1,projects/123/locations/global/workloadIdentityPools/my-workload-identity-pool/providers/actor-provider-2
 ```
 
 POSITIONAL ARGUMENTS
@@ -122,6 +121,15 @@ The OIDC issuer URL.
 
 OPTIONAL FLAGS
 
+`--actor-providers` =\[ `ACTOR_PROVIDERS` ,…\]  
+List of the resource names of workload identity pool providers in the same pool that are authorized to issue actor tokens for this provider. An actor token represents the identity of the acting party to whom authority is delegated. At most three actor providers can be specified.
+
+For example:
+
+```
+projects/<project-number>/locations/global/workloadIdentityPools/<pool-id>/providers/<actor-provider-id-1>,projects/<project-number>/locations/global/workloadIdentityPools/<pool-id>/providers/<actor-provider-id-2>
+```
+
 `--allowed-audiences` =\[ `ALLOWED_AUDIENCES` ,…\]  
 Acceptable values for the `aud` field (audience) in the OIDC token. Token exchange requests are rejected if the token audience does not match one of the configured values. Each audience may be at most 256 characters. A maximum of 10 audiences may be configured.
 
@@ -156,6 +164,18 @@ A description for the provider. Cannot exceed 256 characters.
 
 `--disabled`  
 Whether the provider is disabled. You cannot use a disabled provider to exchange tokens. However, existing tokens still grant access.
+
+`--discovery-uri` = `DISCOVERY_URI`  
+URL to fetch the OIDC discovery document from, overriding the default URL derived from `--issuer-uri` . If not set, `--discovery-uri` defaults to `--issuer-uri` with `/.well-known/openid-configuration` appended, according to the OpenID Connect Discovery 1.0 specification.
+
+If set, `--discovery-uri` must meet the following requirements:
+
+- Start with `https://` .
+- Not exceed 2000 characters.
+- Match the scheme, host, and port of `--issuer-uri` .
+- Contain a path with `/.well-known/<suffix>` (where `<suffix>` is not empty, such as `custom-openid-configuration` ) and conform to the `--issuer-uri` topology:
+  - The well-known path segment is inserted before the issuer path (for example, `https://example.com/.well-known/custom-openid-configuration/tenant1` for issuer `https://example.com/tenant1` ), or
+  - The well-known path segment is appended under the issuer path (for example, `https://example.com/tenant1/.well-known/custom-openid-configuration` for issuer `https://example.com/tenant1` ).
 
 `--display-name` = `DISPLAY_NAME`  
 A display name for the provider. Cannot exceed 32 characters.

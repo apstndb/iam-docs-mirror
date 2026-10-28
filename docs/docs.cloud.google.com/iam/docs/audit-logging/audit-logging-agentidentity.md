@@ -6,7 +6,9 @@ description: Lists the audited methods for the Agent Identity API and Agent Iden
 data_source: docs.cloud.google.com
 ---
 
-This document lists the audited methods for Agent Identity API. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
+Cloud Audit Logs for Agent Identity API let you track administrative and data-access operations on your resources to help you monitor access and configuration changes. You can query these logs in the Logs Explorer and check which Agent Identity API API methods generate Cloud Audit Logs.
+
+For more information about Cloud Audit Logs, see the following documents:
 
 - [Types of audit logs](https://docs.cloud.google.com/logging/docs/audit#types)
 - [Audit log entry structure](https://docs.cloud.google.com/logging/docs/audit#audit_log_entry_structure)
@@ -468,6 +470,7 @@ The following audit logs are associated with methods belonging to `google.iam.v1
 - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
 - **Permissions** :
   - `agentidentity.authProviders.getIamPolicy - ADMIN_READ`
+  - `agentidentity.authorizations.getIamPolicy - ADMIN_READ`
 - **Method is a long-running or streaming operation** : No.  
 - **Filter for this method** : `protoPayload.methodName="GetIamPolicy"`  
 
@@ -477,6 +480,7 @@ The following audit logs are associated with methods belonging to `google.iam.v1
 - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
 - **Permissions** :
   - `agentidentity.authProviders.setIamPolicy - ADMIN_WRITE`
+  - `agentidentity.authorizations.setIamPolicy - ADMIN_WRITE`
 - **Method is a long-running or streaming operation** : No.  
 - **Filter for this method** : `protoPayload.methodName="SetIamPolicy"`  
 
@@ -490,14 +494,13 @@ A method might not produce audit logs for one or more of the following reasons:
 
 The following methods don't produce audit logs:
 
-- `google.cloud.agentidentity.v1.AuthProviderService.DeleteAuthorization`
-- `google.cloud.agentidentity.v1alpha.AuthProviderService.DeleteAuthorization`
-- `google.cloud.agentidentity.v1beta.AuthProviderService.DeleteAuthorization`
 - `google.cloud.location.Locations.GetLocation`
 - `google.cloud.location.Locations.ListLocations`
 - `google.iam.v1.IAMPolicy.SetIamPolicy`
 
-This document lists the audited methods for Agent Identity Credentials API. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
+Cloud Audit Logs for Agent Identity Credentials API let you track administrative and data-access operations on your resources to help you monitor access and configuration changes. You can query these logs in the Logs Explorer and check which Agent Identity Credentials API API methods generate Cloud Audit Logs.
+
+For more information about Cloud Audit Logs, see the following documents:
 
 - [Types of audit logs](https://docs.cloud.google.com/logging/docs/audit#types)
 - [Audit log entry structure](https://docs.cloud.google.com/logging/docs/audit#audit_log_entry_structure)
