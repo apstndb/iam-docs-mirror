@@ -1542,6 +1542,375 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>storage.objects.list</code></p>
 <p><code>vpcaccess.connectors.get</code></p></td>
 </tr>
+<tr class="even">
+<td>Cloud Functions Service Agent
+<p>( <code>roles/ cloudfunctions.standardServiceAgent</code> )</p>
+<p>Gives Cloud Functions service account access to managed resources.</p>
+<blockquote>
+<strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote></td>
+<td><p><code>artifactregistry. aptartifacts. create</code></p>
+<p><code>artifactregistry. attachments. create</code></p>
+<p><code>artifactregistry. attachments. get</code></p>
+<p><code>artifactregistry. attachments. list</code></p>
+<p><code>artifactregistry. dockerimages.*</code></p>
+<ul>
+<li><code>artifactregistry. dockerimages. get</code></li>
+<li><code>artifactregistry. dockerimages. list</code></li>
+</ul>
+<p><code>artifactregistry. files. download</code></p>
+<p><code>artifactregistry.files.get</code></p>
+<p><code>artifactregistry.files.list</code></p>
+<p><code>artifactregistry.files.update</code></p>
+<p><code>artifactregistry.files.upload</code></p>
+<p><code>artifactregistry. kfpartifacts. create</code></p>
+<p><code>artifactregistry.locations.*</code></p>
+<ul>
+<li><code>artifactregistry.locations.get</code></li>
+<li><code>artifactregistry. locations. list</code></li>
+</ul>
+<p><code>artifactregistry. mavenartifacts.*</code></p>
+<ul>
+<li><code>artifactregistry. mavenartifacts. get</code></li>
+<li><code>artifactregistry. mavenartifacts. list</code></li>
+</ul>
+<p><code>artifactregistry.npmpackages.*</code></p>
+<ul>
+<li><code>artifactregistry. npmpackages. get</code></li>
+<li><code>artifactregistry. npmpackages. list</code></li>
+</ul>
+<p><code>artifactregistry.packages.*</code></p>
+<ul>
+<li><code>artifactregistry. packages. delete</code></li>
+<li><code>artifactregistry.packages.get</code></li>
+<li><code>artifactregistry.packages.list</code></li>
+<li><code>artifactregistry. packages. update</code></li>
+</ul>
+<p><code>artifactregistry. projectconfigs.*</code></p>
+<ul>
+<li><code>artifactregistry. projectconfigs. get</code></li>
+<li><code>artifactregistry. projectconfigs. update</code></li>
+</ul>
+<p><code>artifactregistry. projectsettings. get</code></p>
+<p><code>artifactregistry. pythonpackages.*</code></p>
+<ul>
+<li><code>artifactregistry. pythonpackages. get</code></li>
+<li><code>artifactregistry. pythonpackages. list</code></li>
+</ul>
+<p><code>artifactregistry. repositories. create</code></p>
+<p><code>artifactregistry. repositories. createOnPush</code></p>
+<p><code>artifactregistry. repositories. createTagBinding</code></p>
+<p><code>artifactregistry. repositories. downloadArtifacts</code></p>
+<p><code>artifactregistry. repositories. exportArtifacts</code></p>
+<p><code>artifactregistry. repositories. get</code></p>
+<p><code>artifactregistry. repositories. list</code></p>
+<p><code>artifactregistry. repositories. listEffectiveTags</code></p>
+<p><code>artifactregistry. repositories. listTagBindings</code></p>
+<p><code>artifactregistry. repositories. readViaVirtualRepository</code></p>
+<p><code>artifactregistry. repositories. update</code></p>
+<p><code>artifactregistry. repositories. uploadArtifacts</code></p>
+<p><code>artifactregistry.rules.get</code></p>
+<p><code>artifactregistry.rules.list</code></p>
+<p><code>artifactregistry.tags.create</code></p>
+<p><code>artifactregistry.tags.get</code></p>
+<p><code>artifactregistry.tags.list</code></p>
+<p><code>artifactregistry.tags.update</code></p>
+<p><code>artifactregistry. versions. delete</code></p>
+<p><code>artifactregistry.versions.get</code></p>
+<p><code>artifactregistry.versions.list</code></p>
+<p><code>artifactregistry. yumartifacts. create</code></p>
+<p><code>clientauthconfig.clients.list</code></p>
+<p><code>cloudbuild.builds.create</code></p>
+<p><code>cloudbuild.builds.get</code></p>
+<p><code>cloudbuild.builds.list</code></p>
+<p><code>cloudbuild.builds.update</code></p>
+<p><code>cloudbuild.locations.*</code></p>
+<ul>
+<li><code>cloudbuild.locations.get</code></li>
+<li><code>cloudbuild.locations.list</code></li>
+</ul>
+<p><code>cloudbuild.operations.*</code></p>
+<ul>
+<li><code>cloudbuild.operations.get</code></li>
+<li><code>cloudbuild.operations.list</code></li>
+</ul>
+<p><code>cloudbuild.workerpools.use</code></p>
+<p><code>cloudfunctions.functions.get</code></p>
+<p><code>cloudfunctions. functions. invoke</code></p>
+<p><code>cloudfunctions.functions.list</code></p>
+<p><code>cloudfunctions.operations.*</code></p>
+<ul>
+<li><code>cloudfunctions.operations.get</code></li>
+<li><code>cloudfunctions.operations.list</code></li>
+</ul>
+<p><code>compute.globalOperations.get</code></p>
+<p><code>compute.networks.access</code></p>
+<p><code>eventarc. channelConnections. create</code></p>
+<p><code>eventarc. channelConnections. delete</code></p>
+<p><code>eventarc. channelConnections. get</code></p>
+<p><code>eventarc. channelConnections. getIamPolicy</code></p>
+<p><code>eventarc. channelConnections. list</code></p>
+<p><code>eventarc. channelConnections. listEffectiveTags</code></p>
+<p><code>eventarc. channelConnections. listTagBindings</code></p>
+<p><code>eventarc. channelConnections. publish</code></p>
+<p><code>eventarc.channels.attach</code></p>
+<p><code>eventarc.channels.create</code></p>
+<p><code>eventarc.channels.delete</code></p>
+<p><code>eventarc.channels.get</code></p>
+<p><code>eventarc.channels.getIamPolicy</code></p>
+<p><code>eventarc.channels.list</code></p>
+<p><code>eventarc. channels. listEffectiveTags</code></p>
+<p><code>eventarc. channels. listTagBindings</code></p>
+<p><code>eventarc.channels.publish</code></p>
+<p><code>eventarc.channels.undelete</code></p>
+<p><code>eventarc.channels.update</code></p>
+<p><code>eventarc.enrollments.create</code></p>
+<p><code>eventarc.enrollments.delete</code></p>
+<p><code>eventarc.enrollments.get</code></p>
+<p><code>eventarc. enrollments. getIamPolicy</code></p>
+<p><code>eventarc.enrollments.list</code></p>
+<p><code>eventarc.enrollments.update</code></p>
+<p><code>eventarc. googleApiSources. create</code></p>
+<p><code>eventarc. googleApiSources. delete</code></p>
+<p><code>eventarc.googleApiSources.get</code></p>
+<p><code>eventarc. googleApiSources. getIamPolicy</code></p>
+<p><code>eventarc.googleApiSources.list</code></p>
+<p><code>eventarc. googleApiSources. update</code></p>
+<p><code>eventarc. googleChannelConfigs.*</code></p>
+<ul>
+<li><code>eventarc. googleChannelConfigs. get</code></li>
+<li><code>eventarc. googleChannelConfigs. update</code></li>
+</ul>
+<p><code>eventarc.kafkaSources.create</code></p>
+<p><code>eventarc.kafkaSources.delete</code></p>
+<p><code>eventarc.kafkaSources.get</code></p>
+<p><code>eventarc. kafkaSources. getIamPolicy</code></p>
+<p><code>eventarc.kafkaSources.list</code></p>
+<p><code>eventarc.locations.*</code></p>
+<ul>
+<li><code>eventarc.locations.get</code></li>
+<li><code>eventarc.locations.list</code></li>
+</ul>
+<p><code>eventarc.operations.*</code></p>
+<ul>
+<li><code>eventarc.operations.cancel</code></li>
+<li><code>eventarc.operations.delete</code></li>
+<li><code>eventarc.operations.get</code></li>
+<li><code>eventarc.operations.list</code></li>
+</ul>
+<p><code>eventarc.pipelines.create</code></p>
+<p><code>eventarc.pipelines.delete</code></p>
+<p><code>eventarc.pipelines.get</code></p>
+<p><code>eventarc. pipelines. getIamPolicy</code></p>
+<p><code>eventarc.pipelines.list</code></p>
+<p><code>eventarc.pipelines.update</code></p>
+<p><code>eventarc.providers.*</code></p>
+<ul>
+<li><code>eventarc.providers.get</code></li>
+<li><code>eventarc.providers.list</code></li>
+</ul>
+<p><code>eventarc.triggers.create</code></p>
+<p><code>eventarc.triggers.delete</code></p>
+<p><code>eventarc.triggers.get</code></p>
+<p><code>eventarc.triggers.getIamPolicy</code></p>
+<p><code>eventarc.triggers.list</code></p>
+<p><code>eventarc. triggers. listEffectiveTags</code></p>
+<p><code>eventarc. triggers. listTagBindings</code></p>
+<p><code>eventarc.triggers.undelete</code></p>
+<p><code>eventarc.triggers.update</code></p>
+<p><code>firebasedatabase.instances.get</code></p>
+<p><code>firebasedatabase. instances. update</code></p>
+<p><code>iam.serviceAccounts.actAs</code></p>
+<p><code>iam. serviceAccounts. getAccessToken</code></p>
+<p><code>iam. serviceAccounts. getOpenIdToken</code></p>
+<p><code>iam.serviceAccounts.signBlob</code></p>
+<p><code>pubsub.subscriptions.consume</code></p>
+<p><code>pubsub.subscriptions.create</code></p>
+<p><code>pubsub.subscriptions.delete</code></p>
+<p><code>pubsub.subscriptions.get</code></p>
+<p><code>pubsub. subscriptions. getIamPolicy</code></p>
+<p><code>pubsub.subscriptions.list</code></p>
+<p><code>pubsub. subscriptions. listEffectiveTags</code></p>
+<p><code>pubsub. subscriptions. listTagBindings</code></p>
+<p><code>pubsub. subscriptions. setIamPolicy</code></p>
+<p><code>pubsub.subscriptions.update</code></p>
+<p><code>pubsub. topics. attachSubscription</code></p>
+<p><code>pubsub.topics.create</code></p>
+<p><code>pubsub.topics.get</code></p>
+<p><code>pubsub.topics.list</code></p>
+<p><code>recommender.locations.*</code></p>
+<ul>
+<li><code>recommender.locations.get</code></li>
+<li><code>recommender.locations.list</code></li>
+</ul>
+<p><code>recommender. runServiceCostInsights.*</code></p>
+<ul>
+<li><code>recommender. runServiceCostInsights. get</code></li>
+<li><code>recommender. runServiceCostInsights. list</code></li>
+<li><code>recommender. runServiceCostInsights. update</code></li>
+</ul>
+<p><code>recommender. runServiceCostRecommendations.*</code></p>
+<ul>
+<li><code>recommender. runServiceCostRecommendations. get</code></li>
+<li><code>recommender. runServiceCostRecommendations. list</code></li>
+<li><code>recommender. runServiceCostRecommendations. update</code></li>
+</ul>
+<p><code>recommender. runServiceIdentityInsights.*</code></p>
+<ul>
+<li><code>recommender. runServiceIdentityInsights. get</code></li>
+<li><code>recommender. runServiceIdentityInsights. list</code></li>
+<li><code>recommender. runServiceIdentityInsights. update</code></li>
+</ul>
+<p><code>recommender. runServiceIdentityRecommendations.*</code></p>
+<ul>
+<li><code>recommender. runServiceIdentityRecommendations. get</code></li>
+<li><code>recommender. runServiceIdentityRecommendations. list</code></li>
+<li><code>recommender. runServiceIdentityRecommendations. update</code></li>
+</ul>
+<p><code>recommender. runServicePerformanceInsights.*</code></p>
+<ul>
+<li><code>recommender. runServicePerformanceInsights. get</code></li>
+<li><code>recommender. runServicePerformanceInsights. list</code></li>
+<li><code>recommender. runServicePerformanceInsights. update</code></li>
+</ul>
+<p><code>recommender. runServicePerformanceRecommendations.*</code></p>
+<ul>
+<li><code>recommender. runServicePerformanceRecommendations. get</code></li>
+<li><code>recommender. runServicePerformanceRecommendations. list</code></li>
+<li><code>recommender. runServicePerformanceRecommendations. update</code></li>
+</ul>
+<p><code>recommender. runServiceSecurityInsights.*</code></p>
+<ul>
+<li><code>recommender. runServiceSecurityInsights. get</code></li>
+<li><code>recommender. runServiceSecurityInsights. list</code></li>
+<li><code>recommender. runServiceSecurityInsights. update</code></li>
+</ul>
+<p><code>recommender. runServiceSecurityRecommendations.*</code></p>
+<ul>
+<li><code>recommender. runServiceSecurityRecommendations. get</code></li>
+<li><code>recommender. runServiceSecurityRecommendations. list</code></li>
+<li><code>recommender. runServiceSecurityRecommendations. update</code></li>
+</ul>
+<p><code>remotebuildexecution.blobs.get</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager. projects. getIamPolicy</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>run.configurations.*</code></p>
+<ul>
+<li><code>run.configurations.get</code></li>
+<li><code>run.configurations.list</code></li>
+</ul>
+<p><code>run.executions.*</code></p>
+<ul>
+<li><code>run.executions.cancel</code></li>
+<li><code>run.executions.delete</code></li>
+<li><code>run.executions.get</code></li>
+<li><code>run.executions.list</code></li>
+</ul>
+<p><code>run.instances.create</code></p>
+<p><code>run.instances.delete</code></p>
+<p><code>run.instances.get</code></p>
+<p><code>run.instances.getIamPolicy</code></p>
+<p><code>run.instances.invoke</code></p>
+<p><code>run.instances.list</code></p>
+<p><code>run.instances.sshRead</code></p>
+<p><code>run.instances.sshRoot</code></p>
+<p><code>run.instances.start</code></p>
+<p><code>run.instances.stop</code></p>
+<p><code>run.instances.update</code></p>
+<p><code>run.jobs.create</code></p>
+<p><code>run.jobs.delete</code></p>
+<p><code>run.jobs.get</code></p>
+<p><code>run.jobs.getIamPolicy</code></p>
+<p><code>run.jobs.list</code></p>
+<p><code>run.jobs.listEffectiveTags</code></p>
+<p><code>run.jobs.listTagBindings</code></p>
+<p><code>run.jobs.run</code></p>
+<p><code>run.jobs.runWithOverrides</code></p>
+<p><code>run.jobs.sshRead</code></p>
+<p><code>run.jobs.sshRoot</code></p>
+<p><code>run.jobs.update</code></p>
+<p><code>run.locations.*</code></p>
+<ul>
+<li><code>run.locations.list</code></li>
+<li><code>run.locations.uploadSource</code></li>
+</ul>
+<p><code>run.operations.*</code></p>
+<ul>
+<li><code>run.operations.delete</code></li>
+<li><code>run.operations.get</code></li>
+<li><code>run.operations.list</code></li>
+</ul>
+<p><code>run.prompts.get</code></p>
+<p><code>run.revisions.*</code></p>
+<ul>
+<li><code>run.revisions.delete</code></li>
+<li><code>run.revisions.get</code></li>
+<li><code>run.revisions.list</code></li>
+</ul>
+<p><code>run.routes.*</code></p>
+<ul>
+<li><code>run.routes.get</code></li>
+<li><code>run.routes.invoke</code></li>
+<li><code>run.routes.list</code></li>
+</ul>
+<p><code>run.services.create</code></p>
+<p><code>run.services.delete</code></p>
+<p><code>run.services.get</code></p>
+<p><code>run.services.getIamPolicy</code></p>
+<p><code>run.services.list</code></p>
+<p><code>run.services.listEffectiveTags</code></p>
+<p><code>run.services.listTagBindings</code></p>
+<p><code>run.services.sshRead</code></p>
+<p><code>run.services.sshRoot</code></p>
+<p><code>run.services.update</code></p>
+<p><code>run.tasks.*</code></p>
+<ul>
+<li><code>run.tasks.get</code></li>
+<li><code>run.tasks.list</code></li>
+</ul>
+<p><code>run.workerpools.create</code></p>
+<p><code>run.workerpools.delete</code></p>
+<p><code>run.workerpools.get</code></p>
+<p><code>run.workerpools.getIamPolicy</code></p>
+<p><code>run.workerpools.list</code></p>
+<p><code>run.workerpools.sshRead</code></p>
+<p><code>run.workerpools.sshRoot</code></p>
+<p><code>run.workerpools.update</code></p>
+<p><code>serviceusage. catalogs. listMembers</code></p>
+<p><code>serviceusage.consumerpolicy.*</code></p>
+<ul>
+<li><code>serviceusage. consumerpolicy. analyze</code></li>
+<li><code>serviceusage. consumerpolicy. get</code></li>
+<li><code>serviceusage. consumerpolicy. update</code></li>
+</ul>
+<p><code>serviceusage. effectivepolicy. get</code></p>
+<p><code>serviceusage.groups.*</code></p>
+<ul>
+<li><code>serviceusage.groups.list</code></li>
+<li><code>serviceusage. groups. listExpandedMembers</code></li>
+<li><code>serviceusage. groups. listMembers</code></li>
+</ul>
+<p><code>serviceusage.quotas.get</code></p>
+<p><code>serviceusage.services.disable</code></p>
+<p><code>serviceusage.services.enable</code></p>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.listApis</code></p>
+<p><code>serviceusage. services. listDependentServices</code></p>
+<p><code>serviceusage.services.use</code></p>
+<p><code>serviceusage.values.test</code></p>
+<p><code>source.repos.get</code></p>
+<p><code>source.repos.list</code></p>
+<p><code>storage.buckets.create</code></p>
+<p><code>storage.buckets.delete</code></p>
+<p><code>storage.buckets.get</code></p>
+<p><code>storage.buckets.update</code></p>
+<p><code>storage.objects.create</code></p>
+<p><code>storage.objects.delete</code></p>
+<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.list</code></p>
+<p><code>vpcaccess.connectors.get</code></p></td>
+</tr>
 </tbody>
 </table>
 
@@ -1562,9 +1931,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="odd">
 <td><code>cloudfunctions.functions.call</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
@@ -1583,9 +1952,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="even">
 <td><code>cloudfunctions. functions. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
@@ -1604,9 +1973,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="odd">
 <td><code>cloudfunctions. functions. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
@@ -1625,9 +1994,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="even">
 <td><code>cloudfunctions. functions. generationUpgrade</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
@@ -1639,11 +2008,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="odd">
 <td><code>cloudfunctions.functions.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code>roles/ cloudfunctions.viewer</code> )</p>
@@ -1666,6 +2035,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code>roles/ clouddeploymentmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.standardServiceAgent">Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.standardServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/monitoring#monitoring.notificationServiceAgent">Monitoring Service Agent</a> ( <code>roles/ monitoring.notificationServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visionai#visionai.serviceAgent">Cloud Vision AI Service Agent</a> ( <code>roles/ visionai.serviceAgent</code> )</li>
 </ul></td>
@@ -1673,11 +2043,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="even">
 <td><code>cloudfunctions. functions. getIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code>roles/ cloudfunctions.viewer</code> )</p>
@@ -1704,9 +2074,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="odd">
 <td><code>cloudfunctions. functions. invoke</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.invoker">Cloud Functions Invoker</a> ( <code>roles/ cloudfunctions.invoker</code> )</p>
@@ -1722,6 +2092,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code>roles/ ces.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.standardServiceAgent">Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.standardServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contentwarehouse#contentwarehouse.serviceAgent">Content Warehouse Service Agent</a> ( <code>roles/ contentwarehouse.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dialogflow#dialogflow.serviceAgent">Dialogflow Service Agent</a> ( <code>roles/ dialogflow.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/identitytoolkit#identitytoolkit.serviceAgent">Identity Platform Service Agent</a> ( <code>roles/ identitytoolkit.serviceAgent</code> )</li>
@@ -1732,11 +2103,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="even">
 <td><code>cloudfunctions.functions.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code>roles/ cloudfunctions.viewer</code> )</p>
@@ -1761,13 +2132,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code>roles/ clouddeploymentmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.standardServiceAgent">Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.standardServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visionai#visionai.serviceAgent">Cloud Vision AI Service Agent</a> ( <code>roles/ visionai.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><code>cloudfunctions. functions. setIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
@@ -1783,11 +2155,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="even">
 <td><code>cloudfunctions. functions. sourceCodeGet</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
@@ -1802,9 +2174,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="odd">
 <td><code>cloudfunctions. functions. sourceCodeSet</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
@@ -1816,9 +2188,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="even">
 <td><code>cloudfunctions. functions. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
@@ -1837,11 +2209,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="odd">
 <td><code>cloudfunctions.locations.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code>roles/ cloudfunctions.viewer</code> )</p>
@@ -1862,11 +2234,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="even">
 <td><code>cloudfunctions.operations.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code>roles/ cloudfunctions.viewer</code> )</p>
@@ -1887,16 +2259,17 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code>roles/ clouddeploymentmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.standardServiceAgent">Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.standardServiceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><code>cloudfunctions.operations.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code>roles/ cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code>roles/ cloudfunctions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.viewer">Cloud Functions Viewer</a> ( <code>roles/ cloudfunctions.viewer</code> )</p>
@@ -1919,6 +2292,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.standardServiceAgent">Cloud Functions Service Agent</a> ( <code>roles/ cloudfunctions.standardServiceAgent</code> )</li>
 </ul></td>
 </tr>
 </tbody>

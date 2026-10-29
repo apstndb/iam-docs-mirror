@@ -211,6 +211,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>compute. commitments. listTagBindings</code></p>
 <p><code>compute.crossSiteNetworks.get</code></p>
 <p><code>compute.crossSiteNetworks.list</code></p>
+<p><code>compute.dhcpOptionsConfigs.get</code></p>
+<p><code>compute. dhcpOptionsConfigs. list</code></p>
 <p><code>compute.diskSettings.get</code></p>
 <p><code>compute.diskTypes.*</code></p>
 <ul>
@@ -659,23 +661,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>compute.zones.get</code></li>
 <li><code>compute.zones.list</code></li>
 </ul>
-<p><code>dataflow.jobs.*</code></p>
-<ul>
-<li><code>dataflow.jobs.cancel</code></li>
-<li><code>dataflow.jobs.create</code></li>
-<li><code>dataflow.jobs.get</code></li>
-<li><code>dataflow.jobs.list</code></li>
-<li><code>dataflow.jobs.snapshot</code></li>
-<li><code>dataflow.jobs.updateContents</code></li>
-</ul>
+<p><code>dataflow.jobs.cancel</code></p>
+<p><code>dataflow.jobs.create</code></p>
+<p><code>dataflow.jobs.get</code></p>
+<p><code>dataflow.jobs.list</code></p>
+<p><code>dataflow. jobs. listEffectiveTags</code></p>
+<p><code>dataflow.jobs.listTagBindings</code></p>
+<p><code>dataflow.jobs.snapshot</code></p>
+<p><code>dataflow.jobs.updateContents</code></p>
 <p><code>dataflow.messages.list</code></p>
 <p><code>dataflow.metrics.get</code></p>
-<p><code>dataflow.snapshots.*</code></p>
-<ul>
-<li><code>dataflow.snapshots.delete</code></li>
-<li><code>dataflow.snapshots.get</code></li>
-<li><code>dataflow.snapshots.list</code></li>
-</ul>
+<p><code>dataflow.snapshots.delete</code></p>
+<p><code>dataflow.snapshots.get</code></p>
+<p><code>dataflow.snapshots.list</code></p>
+<p><code>dataflow. snapshots. listEffectiveTags</code></p>
+<p><code>dataflow. snapshots. listTagBindings</code></p>
 <p><code>dataform.folders.create</code></p>
 <p><code>dataform.locations.*</code></p>
 <ul>
@@ -779,6 +779,6 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 
 ## Dataprep by Trifacta permissions
 
-| Permission              | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `dataprep.projects.use` | [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Owner](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) [Editor](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Dataprep Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.admin) ( `roles/ dataprep.admin` ) [Dataprep User](https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.projects.user) ( `roles/ dataprep.projects.user` ) |
+| Permission              | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `dataprep.projects.use` | [Admin](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ admin` ) [Owner (Legacy)](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ owner` ) [Writer](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ writer` ) [Editor (Legacy)](https://docs.cloud.google.com/iam/docs/roles-overview#basic) ( `roles/ editor` ) [Dataprep Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.admin) ( `roles/ dataprep.admin` ) [Dataprep User](https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.projects.user) ( `roles/ dataprep.projects.user` ) |

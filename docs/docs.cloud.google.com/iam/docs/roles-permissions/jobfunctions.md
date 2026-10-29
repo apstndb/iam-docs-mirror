@@ -2155,6 +2155,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>cloudsql. instances. performDiskShrink</code></li>
 <li><code>cloudsql. instances. preCheckMajorVersionUpgrade</code></li>
 <li><code>cloudsql. instances. promoteReplica</code></li>
+<li><code>cloudsql. instances. reconcileNetworking</code></li>
 <li><code>cloudsql.instances.reencrypt</code></li>
 <li><code>cloudsql. instances. resetReplicaSize</code></li>
 <li><code>cloudsql. instances. resetSslConfig</code></li>
@@ -2213,6 +2214,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute. commitments. listTagBindings</code></p>
 <p><code>compute.crossSiteNetworks.get</code></p>
 <p><code>compute.crossSiteNetworks.list</code></p>
+<p><code>compute.dhcpOptionsConfigs.get</code></p>
+<p><code>compute. dhcpOptionsConfigs. list</code></p>
 <p><code>compute.diskSettings.get</code></p>
 <p><code>compute.diskTypes.*</code></p>
 <ul>
@@ -2677,10 +2680,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>dataflow.jobs.get</code></p>
 <p><code>dataflow.jobs.list</code></p>
+<p><code>dataflow. jobs. listEffectiveTags</code></p>
+<p><code>dataflow.jobs.listTagBindings</code></p>
 <p><code>dataflow.messages.list</code></p>
 <p><code>dataflow.metrics.get</code></p>
 <p><code>dataflow.snapshots.get</code></p>
 <p><code>dataflow.snapshots.list</code></p>
+<p><code>dataflow. snapshots. listEffectiveTags</code></p>
+<p><code>dataflow. snapshots. listTagBindings</code></p>
 <p><code>dataform.*</code></p>
 <ul>
 <li><code>dataform.commentThreads.create</code></li>
@@ -3820,6 +3827,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudsql. instances. performDiskShrink</code></p>
 <p><code>cloudsql. instances. preCheckMajorVersionUpgrade</code></p>
 <p><code>cloudsql. instances. promoteReplica</code></p>
+<p><code>cloudsql. instances. reconcileNetworking</code></p>
 <p><code>cloudsql.instances.reencrypt</code></p>
 <p><code>cloudsql. instances. resetReplicaSize</code></p>
 <p><code>cloudsql.instances.restart</code></p>
@@ -4689,6 +4697,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute.crossSiteNetworks.get</code></li>
 <li><code>compute.crossSiteNetworks.list</code></li>
 <li><code>compute. crossSiteNetworks. update</code></li>
+<li><code>compute. dhcpOptionsConfigs. create</code></li>
+<li><code>compute. dhcpOptionsConfigs. delete</code></li>
+<li><code>compute.dhcpOptionsConfigs.get</code></li>
+<li><code>compute. dhcpOptionsConfigs. list</code></li>
+<li><code>compute. dhcpOptionsConfigs. update</code></li>
+<li><code>compute.dhcpOptionsConfigs.use</code></li>
 <li><code>compute.diskSettings.get</code></li>
 <li><code>compute.diskSettings.update</code></li>
 <li><code>compute.diskTypes.get</code></li>
@@ -9050,6 +9064,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute.crossSiteNetworks.get</code></li>
 <li><code>compute.crossSiteNetworks.list</code></li>
 <li><code>compute. crossSiteNetworks. update</code></li>
+<li><code>compute. dhcpOptionsConfigs. create</code></li>
+<li><code>compute. dhcpOptionsConfigs. delete</code></li>
+<li><code>compute.dhcpOptionsConfigs.get</code></li>
+<li><code>compute. dhcpOptionsConfigs. list</code></li>
+<li><code>compute. dhcpOptionsConfigs. update</code></li>
+<li><code>compute.dhcpOptionsConfigs.use</code></li>
 <li><code>compute.diskSettings.get</code></li>
 <li><code>compute.diskSettings.update</code></li>
 <li><code>compute.diskTypes.get</code></li>
@@ -11147,6 +11167,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>apihub. discoveredApiObservations. list</code></p>
 <p><code>apihub. discoveredApiOperations. list</code></p>
 <p><code>apihub.externalApis.list</code></p>
+<p><code>apihub.generatedSpecApis.list</code></p>
 <p><code>apihub. hostProjectRegistrations. list</code></p>
 <p><code>apihub.llmEnablements.list</code></p>
 <p><code>apihub.operations.list</code></p>
@@ -12446,6 +12467,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute. commitments. listTagBindings</code></p>
 <p><code>compute.crossSiteNetworks.get</code></p>
 <p><code>compute.crossSiteNetworks.list</code></p>
+<p><code>compute.dhcpOptionsConfigs.get</code></p>
+<p><code>compute. dhcpOptionsConfigs. list</code></p>
 <p><code>compute.diskSettings.get</code></p>
 <p><code>compute.diskTypes.*</code></p>
 <ul>
@@ -13200,8 +13223,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dataconnectors.locations.list</code></p>
 <p><code>dataconnectors.operations.list</code></p>
 <p><code>dataflow.jobs.list</code></p>
+<p><code>dataflow. jobs. listEffectiveTags</code></p>
+<p><code>dataflow.jobs.listTagBindings</code></p>
 <p><code>dataflow.messages.list</code></p>
 <p><code>dataflow.snapshots.list</code></p>
+<p><code>dataflow. snapshots. listEffectiveTags</code></p>
+<p><code>dataflow. snapshots. listTagBindings</code></p>
 <p><code>dataform.commentThreads.list</code></p>
 <p><code>dataform.comments.list</code></p>
 <p><code>dataform. compilationResults. list</code></p>
@@ -13556,7 +13583,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dns.responsePolicies.list</code></p>
 <p><code>dns.responsePolicyRules.get</code></p>
 <p><code>dns.responsePolicyRules.list</code></p>
-<p><code>documentai. dataLabelingJobs. list</code></p>
 <p><code>documentai.evaluations.list</code></p>
 <p><code>documentai.labelerPools.list</code></p>
 <p><code>documentai.locations.list</code></p>
@@ -16004,6 +16030,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute. commitments. listTagBindings</code></p>
 <p><code>compute.crossSiteNetworks.get</code></p>
 <p><code>compute.crossSiteNetworks.list</code></p>
+<p><code>compute.dhcpOptionsConfigs.get</code></p>
+<p><code>compute. dhcpOptionsConfigs. list</code></p>
 <p><code>compute.diskSettings.get</code></p>
 <p><code>compute.diskTypes.*</code></p>
 <ul>
@@ -17762,6 +17790,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>apihub.externalApis.get</code></p>
 <p><code>apihub.externalApis.list</code></p>
+<p><code>apihub.generatedSpecApis.get</code></p>
+<p><code>apihub.generatedSpecApis.list</code></p>
+<p><code>apihub. generatedSpecApis. retrieveBoostedSpecView</code></p>
+<p><code>apihub. generatedSpecApis. retrieveGeneratedSpecView</code></p>
 <p><code>apihub. hostProjectRegistrations. get</code></p>
 <p><code>apihub. hostProjectRegistrations. list</code></p>
 <p><code>apihub.llmEnablements.get</code></p>
@@ -19952,6 +19984,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute. commitments. listTagBindings</code></p>
 <p><code>compute.crossSiteNetworks.get</code></p>
 <p><code>compute.crossSiteNetworks.list</code></p>
+<p><code>compute.dhcpOptionsConfigs.get</code></p>
+<p><code>compute. dhcpOptionsConfigs. list</code></p>
 <p><code>compute.diskSettings.get</code></p>
 <p><code>compute.diskTypes.*</code></p>
 <ul>
@@ -20932,10 +20966,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dataconnectors.operations.list</code></p>
 <p><code>dataflow.jobs.get</code></p>
 <p><code>dataflow.jobs.list</code></p>
+<p><code>dataflow. jobs. listEffectiveTags</code></p>
+<p><code>dataflow.jobs.listTagBindings</code></p>
 <p><code>dataflow.messages.list</code></p>
 <p><code>dataflow.metrics.get</code></p>
 <p><code>dataflow.snapshots.get</code></p>
 <p><code>dataflow.snapshots.list</code></p>
+<p><code>dataflow. snapshots. listEffectiveTags</code></p>
+<p><code>dataflow. snapshots. listTagBindings</code></p>
 <p><code>dataform.commentThreads.get</code></p>
 <p><code>dataform.commentThreads.list</code></p>
 <p><code>dataform.comments.get</code></p>
@@ -21712,7 +21750,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dns.responsePolicies.list</code></p>
 <p><code>dns.responsePolicyRules.get</code></p>
 <p><code>dns.responsePolicyRules.list</code></p>
-<p><code>documentai. dataLabelingJobs. list</code></p>
 <p><code>documentai.datasetSchemas.get</code></p>
 <p><code>documentai.datasets.get</code></p>
 <p><code>documentai. datasets. getDocuments</code></p>
