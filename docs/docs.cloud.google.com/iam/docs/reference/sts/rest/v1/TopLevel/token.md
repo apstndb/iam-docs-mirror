@@ -21,9 +21,14 @@ When you call this method, do not send the `Authorization` HTTP header in the re
 
 ### HTTP request
 
+Choose an endpoint:
+
+global africa-south1 asia-east1 asia-east2 asia-northeast1 asia-northeast2 asia-northeast3 asia-south1 asia-south2 asia-southeast1 asia-southeast2 asia-southeast3 asia-southeast4 australia-southeast1 australia-southeast2 europe-central2 europe-north1 europe-north2 europe-southwest1 europe-west1 europe-west10 europe-west12 europe-west15 europe-west2 europe-west3 europe-west4 europe-west6 europe-west8 europe-west9 me-central1 me-central2 me-west1 northamerica-northeast1 northamerica-northeast2 northamerica-south1 southamerica-east1 southamerica-west1 us-central1 us-central2 us-east1 us-east4 us-east5 us-east7 us-south1 us-west1 us-west2 us-west3 us-west4 us-west8
+
+  
 `POST https://sts.googleapis.com/v1/token`
 
-The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
+The URLs use [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Request body
 
@@ -39,7 +44,9 @@ The request body contains data with the following structure:
   "requestedTokenType": string,
   "subjectToken": string,
   "subjectTokenType": string,
-  "options": string
+  "options": string,
+  "actorToken": string,
+  "actorTokenType": string
 }
 ```
 
@@ -132,6 +139,16 @@ The request body contains data with the following structure:
 <td><p><code>string</code></p>
 <p>A set of features that Security Token Service supports, in addition to the standard OAuth 2.0 token exchange, formatted as a serialized JSON object of <a href="https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/Options"><code>Options</code></a> .</p>
 <p>The size of the parameter value must not exceed 4 * 1024 * 1024 characters (4 MB).</p></td>
+</tr>
+<tr class="even">
+<td><code>actorToken</code></td>
+<td><p><code>string</code></p>
+<p>Optional. A security token that represents the identity of the acting party. Typically, this is the party that is authorized to use the requested security token and act on behalf of the subject.</p></td>
+</tr>
+<tr class="odd">
+<td><code>actorTokenType</code></td>
+<td><p><code>string</code></p>
+<p>Optional. An identifier that indicates the type of the security token in the <code>actorToken</code> parameter. Required when the <code>actorToken</code> parameter is set. Supported values are <code>urn:ietf:params:oauth:token-type:jwt</code> , <code>urn:ietf:params:oauth:token-type:idToken</code> .</p></td>
 </tr>
 </tbody>
 </table>

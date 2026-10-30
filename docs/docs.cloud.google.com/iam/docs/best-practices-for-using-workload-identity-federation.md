@@ -58,10 +58,6 @@ The first option requires two secrets, but the second option only requires one. 
 
 ### Use Workload Identity Federation with regional endpoints to address data residency requirements
 
-> **Preview**
->
-> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
-
 If you have data residency requirements and need to control the region in which token exchanges might occur, configure your workloads to use a regional endpoint of the Secure Token Service (STS).
 
 To generate a credential configuration file that uses a regional STS endpoint, use the `gcloud iam workload-identity create-cred-config` command and add the `--sts-location= `` REGION` argument.

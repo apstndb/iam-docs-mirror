@@ -76,15 +76,13 @@ Each role has the following components:
 
 ## Basic roles
 
-> **Preview — the Reader, Writer, and Admin basic roles**
->
-> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
-
 Basic roles are highly permissive roles that give broad access to Google Cloud resources.
 
-> **Caution:** Basic roles include thousands of permissions across all Google Cloud services. In production environments, do not grant basic roles unless there is no alternative. Instead, grant the most limited [predefined roles](https://docs.cloud.google.com/iam/docs/roles-permissions) or [custom roles](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) that meet your needs.
-
 The basic roles in IAM are Admin ( `roles/admin` ), Writer ( `roles/writer` ), and Reader ( `roles/reader` ). IAM also has three legacy basic roles that existed prior to the introduction of IAM: Owner ( `roles/owner` ), Editor ( `roles/editor` ), and Viewer ( `roles/viewer` ). To learn more about these roles, see [Legacy basic roles](https://docs.cloud.google.com/iam/docs/roles-overview#legacy-basic) on this page.
+
+Basic roles include thousands of permissions across all Google Cloud services. In production environments, do not grant basic roles unless there is no alternative. Instead, grant the most limited [predefined roles](https://docs.cloud.google.com/iam/docs/roles-permissions) or [custom roles](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) that meet your needs.
+
+In staging or test environments, prefer the Admin, Writer, and Reader roles over the legacy basic roles. Although both sets of roles are actively maintained, the Admin, Writer, and Reader roles support additional features, such as the use of [IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) .
 
 The following table summarizes the permissions that the Admin, Writer, and Reader give principals across all Google Cloud services:
 
@@ -136,6 +134,8 @@ For instructions, see [Granting, changing, and revoking access](https://docs.clo
 Legacy basic roles existed prior to the introduction of IAM. They were originally known as *primitive roles* . Unlike with other basic roles, you can't add [conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) to role bindings for legacy basic roles.
 
 The legacy basic roles are Owner ( `roles/owner` ), Editor ( `roles/editor` ), and Viewer ( `roles/viewer` ).
+
+Legacy basic roles are still actively maintained and available for use. They're also used in certain automated workflows. For example, when a user creates a project, they're automatically granted the Owner role on that project. However, if you need to grant a basic role, we recommend granting the Admin, Writer, or Reader role instead of a legacy basic role. This is because the newer roles support additional features, such as the use of [IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) .
 
 When you grant a legacy basic role to a principal, the principal gets all of the permissions in the role. The principal also gets any permissions that services provide to principals with legacy basic roles—for example, permissions gained through [Cloud Storage convenience values](https://docs.cloud.google.com/storage/docs/access-control/iam#convenience-values) and [BigQuery special group membership](https://docs.cloud.google.com/bigquery/docs/access-control-basic-roles) .
 

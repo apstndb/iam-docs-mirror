@@ -10,6 +10,10 @@ The Security Token Service exchanges Google or third-party credentials for a sho
 
 - [REST Resource: v1beta](https://docs.cloud.google.com/iam/docs/reference/sts/rest#v1beta)
 - [REST Resource: v1](https://docs.cloud.google.com/iam/docs/reference/sts/rest#v1)
+- [REST Resource: v1.organizations.locations.workloadIdentityPools.openid](https://docs.cloud.google.com/iam/docs/reference/sts/rest#v1.organizations.locations.workloadIdentityPools.openid)
+- [REST Resource: v1.organizations.locations.workloadIdentityPools.well-known](https://docs.cloud.google.com/iam/docs/reference/sts/rest#v1.organizations.locations.workloadIdentityPools.well-known)
+- [REST Resource: v1.projects.locations.workloadIdentityPools.openid](https://docs.cloud.google.com/iam/docs/reference/sts/rest#v1.projects.locations.workloadIdentityPools.openid)
+- [REST Resource: v1.projects.locations.workloadIdentityPools.well-known](https://docs.cloud.google.com/iam/docs/reference/sts/rest#v1.projects.locations.workloadIdentityPools.well-known)
 
 ## Service: sts.googleapis.com
 
@@ -26,6 +30,14 @@ A [service endpoint](https://cloud.google.com/apis/design/glossary#api_service_e
 
 - `https://sts.googleapis.com`
 
+### Regional service endpoint
+
+A regional service endpoint is a base URL that specifies the network address of an API service in a single region. A service that is available in multiple regions might have multiple regional endpoints. Select a location to see its regional service endpoint for this service.
+
+  
+
+`https://sts.googleapis.com`
+
 ## REST Resource: [v1beta](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1beta/TopLevel/token)
 
 | Methods                                                                                    |                                                                                  |
@@ -37,3 +49,27 @@ A [service endpoint](https://cloud.google.com/apis/design/glossary#api_service_e
 | Methods                                                                                |                                                                              |
 |----------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | [`token`](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/TopLevel/token) | `POST /v1/token` Exchanges a credential for a Google OAuth 2.0 access token. |
+
+## REST Resource: [v1.organizations.locations.workloadIdentityPools.openid](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/organizations.locations.workloadIdentityPools.openid)
+
+| Methods                                                                                                                                |                                                                                                                                                                                                                                                             |
+|----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`getJwks`](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/organizations.locations.workloadIdentityPools.openid/getJwks) | `GET /v1/{name=organizations/*/locations/*/workloadIdentityPools/*}/openid/jwks` Fetches the signing keys for an agentic or managed workload identity pool and returns them in JWK Set format, defined in [RFC 7517](https://tools.ietf.org/html/rfc7517) . |
+
+## REST Resource: [v1.organizations.locations.workloadIdentityPools.well-known](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/organizations.locations.workloadIdentityPools.well-known)
+
+| Methods                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                          |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`getOpenid-configuration`](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/organizations.locations.workloadIdentityPools.well-known/getOpenid-configuration) | `GET /v1/{name=organizations/*/locations/*/workloadIdentityPools/*}/.well-known/openid-configuration` Gets the OIDC provider configuration for an agentic or managed workload identity pool following [the OIDC 1.0 discovery specification](https://openid.net/specs/openid-connect-discovery-1_0.html#ProviderConfigurationResponse) . |
+
+## REST Resource: [v1.projects.locations.workloadIdentityPools.openid](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/projects.locations.workloadIdentityPools.openid)
+
+| Methods                                                                                                                           |                                                                                                                                                                                                                                                        |
+|-----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`getJwks`](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/projects.locations.workloadIdentityPools.openid/getJwks) | `GET /v1/{name=projects/*/locations/*/workloadIdentityPools/*}/openid/jwks` Fetches the signing keys for an agentic or managed workload identity pool and returns them in JWK Set format, defined in [RFC 7517](https://tools.ietf.org/html/rfc7517) . |
+
+## REST Resource: [v1.projects.locations.workloadIdentityPools.well-known](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/projects.locations.workloadIdentityPools.well-known)
+
+| Methods                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                     |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`getOpenid-configuration`](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/projects.locations.workloadIdentityPools.well-known/getOpenid-configuration) | `GET /v1/{name=projects/*/locations/*/workloadIdentityPools/*}/.well-known/openid-configuration` Gets the OIDC provider configuration for an agentic or managed workload identity pool following [the OIDC 1.0 discovery specification](https://openid.net/specs/openid-connect-discovery-1_0.html#ProviderConfigurationResponse) . |

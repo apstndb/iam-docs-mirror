@@ -26,7 +26,11 @@ This page lists the IAM roles and permissions for Cloud Scheduler. To search thr
 <td>Cloud Scheduler Admin
 <p>( <code>roles/ cloudscheduler.admin</code> )</p>
 <p>Full access to jobs and executions.</p>
-<p>Note that a Cloud Scheduler Admin (or any custom role with the permission cloudscheduler.jobs.create) can create jobs that publish to any Pub/Sub topics within the project.</p></td>
+<p>Note that a Cloud Scheduler Admin (or any custom role with the permission cloudscheduler.jobs.create) can create jobs that publish to any Pub/Sub topics within the project.</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Project</li>
+</ul></td>
 <td><p><code>appengine.applications.get</code></p>
 <p><code>cloudscheduler.*</code></p>
 <ul>
@@ -63,7 +67,11 @@ This page lists the IAM roles and permissions for Cloud Scheduler. To search thr
 <tr class="even">
 <td>Cloud Scheduler Viewer
 <p>( <code>roles/ cloudscheduler.viewer</code> )</p>
-<p>Get and list access to jobs, executions, and locations.</p></td>
+<p>Get and list access to jobs, executions, and locations.</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Project</li>
+</ul></td>
 <td><p><code>appengine.applications.get</code></p>
 <p><code>cloudscheduler.jobs.fullView</code></p>
 <p><code>cloudscheduler.jobs.get</code></p>
@@ -94,7 +102,11 @@ This page lists the IAM roles and permissions for Cloud Scheduler. To search thr
 <tr class="odd">
 <td>Cloud Scheduler Job Runner
 <p>( <code>roles/ cloudscheduler.jobRunner</code> )</p>
-<p>Access to run jobs.</p></td>
+<p>Access to run jobs.</p>
+<p>Lowest-level resources where you can grant this role:</p>
+<ul>
+<li>Project</li>
+</ul></td>
 <td><p><code>appengine.applications.get</code></p>
 <p><code>cloudscheduler.jobs.fullView</code></p>
 <p><code>cloudscheduler.jobs.run</code></p>
