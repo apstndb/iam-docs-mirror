@@ -773,7 +773,7 @@ https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projec
 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations.serviceProducers/generateServiceAgents	2026-06-04T17:50:02Z
 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations/get	2026-06-03T17:54:01Z
 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations/list	2026-06-03T17:54:01Z
-https://docs.cloud.google.com/iam/docs/release-notes	2026-10-08T07:26:19Z
+https://docs.cloud.google.com/iam/docs/release-notes	2026-10-30T18:31:42Z
 https://docs.cloud.google.com/iam/docs/request-missing-permissions	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/resolve-permission-errors	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/resource-hierarchy-access-control	2026-10-02T06:14:42Z

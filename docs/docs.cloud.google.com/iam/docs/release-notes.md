@@ -14,6 +14,14 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/feeds/iam-release-notes.xml) directly.
 
+## October 29, 2026
+
+Feature
+
+The Admin ( `roles/admin` ), Writer ( `roles/writer` ), and Reader ( `roles/reader` ) basic roles are generally available ( [GA](https://cloud.google.com/products#product-launch-stages) ). For more information, see [Basic roles](https://docs.cloud.google.com/iam/docs/roles-overview#basic) .
+
+The legacy basic roles—Owner ( `roles/owner` ), Editor ( `roles/editor` ), and Viewer ( `roles/viewer` )—are still available for use and are being actively maintained. However, if you need to grant a basic role, we recommend granting the Admin, Writer, or Reader role instead of a legacy basic role. This is because the newer roles support additional features, such as the use of [IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) .
+
 ## October 06, 2026
 
 Feature
