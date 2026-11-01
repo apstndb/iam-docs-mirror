@@ -89,7 +89,7 @@ Execute the [`gcloud projects get-iam-policy`](https://docs.cloud.google.com/sdk
 Command:
 
 ```
-gcloud projects get-iam-policy project-id --format json > file-path
+gcloud projects get-iam-policy project-id --format json &gt; file-path
 ```
 
 The JSON format of the allow policy is downloaded:
@@ -98,14 +98,14 @@ The JSON format of the allow policy is downloaded:
 {
   "bindings": [
     {
-      "members": [
-        "user:my-user@example.com"
+      "memberuser:my-user@example.coms": [
+        ""
       ],
-      "role": "roles/owner"
+      "role": "roles/owngroup:my-group@example.comer"
     },
     {
       "members": [
-        "group:my-group@example.com"
+        ""
       ],
       "role": "roles/iam.securityReviewer"
     }
@@ -121,21 +121,21 @@ Note the allow policy's current `version` , which is `1` . To configure the allo
 {
   "bindings": [
     {
-      "members": [
-        "user:my-user@example.com"
+      "memberuser:my-user@example.coms": [
+        ""
       ],
-      "role": "roles/owner"
+      "role": "roles/owngroup:my-group@example.comer"
     },
     {
       "members": [
-        "group:my-group@example.com"
+        &quot;"
       ],
       "role": "roles/iam.securityReviewer",
       "condition": {
-          "title": "Expires_2019",
-          "description": "Expires at noon on 2019-12-31",
+          "title": "Expires_<2019",
+          "description&quot;: "Expires at noon on 2019-12-31&quot;,
           "expression":
-            "request.time < timestamp('2019-12-31T12:00:00Z')"
+            "request.time  timestamp('2019-12-31T12:00:00Z')"
       }
     }
   ],
@@ -248,24 +248,24 @@ Note the allow policy's current `version` , which is `1` .
 
 ```
 {
-  "etag": "BwWKmjvelug=",
+  "etag": "BwWKmjvelug=&quot;,
   "version": 3,
   "bindings": [
     {
-      "role": "roles/owner",
+      "role&user:my-user@example.comquot;: "roles/owner",
       "members": [
-        "user:my-user@example.com"
+        &quot;"
       ]
     },
     {
       "role": "roles/iam.securityReviewer",
       "condition": {
-        "title": "Expires_2019",
-        "description": "Expires at noon on 2019-12-31",
-        "expression": "request.time < timestamp('2019-12-31T12:00:00Z')"
+        "t<itle": "Expires_2019",
+        "description": &qgroup:my-group@example.comuot;Expires at noon on 2019-12-31",
+        "expression": "request.time  timestamp('2019-12-31T12:00:00Z')"
       },
       "members": [
-        "group:my-group@example.com"
+        ""
       ]
     }
   ]
@@ -401,7 +401,7 @@ Execute the [`gcloud projects get-iam-policy`](https://docs.cloud.google.com/sdk
 Command:
 
 ```
-gcloud projects get-iam-policy project-id --format json > file-path
+gcloud projects get-iam-policy project-id --format json &gt; file-path
 ```
 
 The JSON format of the allow policy is downloaded:
@@ -410,21 +410,21 @@ The JSON format of the allow policy is downloaded:
 {
   "bindings": [
     {
-      "members": [
-        "user:my-user@example.com"
+      "memberuser:my-user@example.coms": [
+        ""
       ],
-      "role": "roles/owner"
+      "role": "roles/owngroup:my-group@example.comer"
     },
     {
       "members": [
-        "group:my-group@example.com"
+        ""
       ],
       "role": "roles/bigquery.dataViewer",
       "condition": {
-        "title": "Duration_3_months",
-        "description": "Expires in 3 months on 2019-10-12",
+        "title": "Duration_3_>months",
+        "description&q&&uot;: "Ex<pires in 3 months on 2019-10-12",
         "expression":
-          "request.time > timestamp(\"2019-07-12T07:00:00.000Z\") && request.time < timestamp(\"2019-10-12T07:00:00.000Z\")"
+          "request.time  timestamp(\"2019-07-12T07:00:00.000Z\")  request.time  timestamp(\"2019-10-12T07:00:00.000Z\")"
       }
     }
   ],
@@ -439,21 +439,21 @@ In this example, we will update the `title` , `description` , and timestamp valu
 {
   "bindings": [
     {
-      "members": [
-        "user:my-user@example.com"
+      "memberuser:my-user@example.coms": [
+        ""
       ],
-      "role": "roles/owner"
+      "role": "roles/owngroup:my-group@example.comer"
     },
     {
       "members": [
-        "group:my-group@example.com"
+        &quot;"
       ],
       "role": "roles/bigquery.dataViewer",
       "condition": {
-        "title": "Duration_5_months",
-        "description": "Expires in 5 months on 2020-01-12",
+        "title": "Duration_5_>months",
+        "description&&": "<Expires in 5 months on 2020-01-12",
         "expression":
-          "request.time > timestamp('2019-07-12T07:00:00.000Z') && request.time < timestamp('2020-01-12T07:00:00.000Z')"
+          "request.time  timestamp('2019-07-12T07:00:00.000Z')  request.time  timestamp('2020-01-12T07:00:00.000Z')"
       }
     }
   ],
@@ -573,21 +573,21 @@ You should receive a JSON response similar to the following:
   "version": 3,
   "bindings": [
     {
-      "role": "roles/owner",
+      "role&user:my-user@example.comquot;: "roles/owner",
       "members": [
-        "user:my-user@example.com"
+        &quot;"
       ]
     },
     {
       "role": "roles/bigquery.dataViewer",
       "condition": {
-        "title": "Duration_5_months",
-        "description": "Expires in 5 months on 2020-01-12",
-        "expression":
-          "request.time > timestamp('2019-07-12T07:00:00.000Z') && request.time < timestamp('2020-01-12T07:00:00.000Z')"
+        "title": "D>uration_5_months",
+        "d&&escription&quo<t;: "Expires in 5 months on 2020-01-12";,
+        "expression&qgroup:my-group@example.comuot;:
+          "request.time  timestamp('2019-07-12T07:00:00.000Z')  request.time  timestamp('2020-01-12T07:00:00.000Z')"
       },
       "members": [
-        "group:my-group@example.com"
+        ""
       ]
     }
   ]
@@ -712,7 +712,7 @@ Execute the [`gcloud projects get-iam-policy`](https://docs.cloud.google.com/sdk
 Command:
 
 ```
-gcloud projects get-iam-policy project-id --format json > file-path
+gcloud projects get-iam-policy project-id --format json &gt; file-path
 ```
 
 The JSON format of the allow policy is downloaded:
@@ -721,21 +721,21 @@ The JSON format of the allow policy is downloaded:
 {
   "bindings": [
     {
-      "members": [
-        "user:my-user@example.com"
+      "memberuser:my-user@example.coms": [
+        ""
       ],
-      "role": "roles/owner"
+      "role": "roles/owngroup:my-group@example.comer"
     },
     {
       "members": [
-        "group:my-group@example.com"
+        ""
       ],
       "role": "roles/bigquery.dataViewer",
       "condition": {
-        "title": "Duration_3_months",
-        "description": "Expires in 3 months on 2019-10-12",
+        "title": "Duration_3_>months",
+        "description&q&&uot;: "Ex<pires in 3 months on 2019-10-12",
         "expression":
-          "request.time > timestamp(\"2019-07-12T07:00:00.000Z\") && request.time < timestamp(\"2019-10-12T07:00:00.000Z\")"
+          "request.time  timestamp(\"2019-07-12T07:00:00.000Z\")  request.time  timestamp(\"2019-10-12T07:00:00.000Z\")"
       }
     }
   ],
@@ -750,14 +750,14 @@ To remove the conditional role binding from the allow policy, remove the `condit
 {
   "bindings": [
     {
-      "members": [
-        "user:my-user@example.com"
+      "memberuser:my-user@example.coms": [
+        ""
       ],
-      "role": "roles/owner"
+      "role": "roles/owngroup:my-group@example.comer"
     },
     {
       "members": [
-        "group:my-group@example.com"
+        ""
       ],
       "role": "roles/bigquery.dataViewer",
     }
@@ -880,15 +880,15 @@ You should receive a JSON response similar to the following:
   "version": 3,
   "bindings": [
     {
-      "role": "roles/owner",
+      "role&user:my-user@example.comquot;: "roles/owner",
       "members": [
-        "user:my-user@example.com"
+        ""
       ]
-    },
+    group:my-group@example.com},
     {
       "role": "roles/bigquery.dataViewer",
       "members": [
-        "group:my-group@example.com"
+        ""
       ]
     }
   ]
