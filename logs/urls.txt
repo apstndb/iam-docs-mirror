@@ -7,7 +7,7 @@ https://docs.cloud.google.com/iam/docs/agent-identity-overview	2026-10-27T21:12:
 https://docs.cloud.google.com/iam/docs/allow-policies	2026-10-02T06:11:42Z
 https://docs.cloud.google.com/iam/docs/analyze-access	2026-10-02T06:11:42Z
 https://docs.cloud.google.com/iam/docs/apis	2026-10-02T06:11:42Z
-https://docs.cloud.google.com/iam/docs/attach-service-accounts	2026-11-01T03:47:12Z
+https://docs.cloud.google.com/iam/docs/attach-service-accounts	2026-11-02T05:36:49Z
 https://docs.cloud.google.com/iam/docs/audit-logging	2026-10-27T13:05:39Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-agentidentity	2026-10-27T13:05:39Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamcreds	2026-10-27T13:05:39Z
@@ -90,7 +90,7 @@ https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers
 https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers	2026-10-06T03:25:05Z
 https://docs.cloud.google.com/iam/docs/managed-workload-identity	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/managed-workload-identity-custom-constraints	2026-10-29T20:02:30Z
-https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings	2026-11-01T03:47:12Z
+https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings	2026-11-02T05:37:00Z
 https://docs.cloud.google.com/iam/docs/migrate-from-service-account-keys	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/migrate-to-agent-identity-api	2026-10-22T15:32:34Z
 https://docs.cloud.google.com/iam/docs/migrating-to-credentials-api	2026-10-11T07:20:05Z
@@ -103,7 +103,7 @@ https://docs.cloud.google.com/iam/docs/pam-best-practices	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/pam-configure-settings	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/pam-create-entitlements	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/pam-custom-constraints	2026-10-29T20:02:30Z
-https://docs.cloud.google.com/iam/docs/pam-overview	2026-10-02T06:14:42Z
+https://docs.cloud.google.com/iam/docs/pam-overview	2026-11-02T05:33:38Z
 https://docs.cloud.google.com/iam/docs/pam-permissions-and-setup	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/pam-remediate-iam-recommendations	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/pam-request-temporary-elevated-access	2026-10-02T06:14:42Z

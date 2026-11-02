@@ -228,7 +228,7 @@ Privileged Access Manager sends emails to these email addresses for the followin
 
 ### Pub/Sub notifications
 
-Privileged Access Manager is integrated with [Cloud Asset Inventory](https://docs.cloud.google.com/asset-inventory/docs/overview) . You can use [Cloud Asset Inventory feeds](https://docs.cloud.google.com/asset-inventory/docs/monitoring-asset-changes) feature to receive notifications about all grant changes through Pub/Sub. The asset type to use for grants is `privilegedaccessmanager.googleapis.com/Grant` .
+To receive notifications about grant changes through Pub/Sub, we recommend [routing Cloud Audit Logs to Pub/Sub using a Cloud Logging sink](https://docs.cloud.google.com/logging/docs/export/configure_export_v2) . For more information about the available audit events, see [Privileged Access Manager audit logging](https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-pam) .
 
 ## What's next
 

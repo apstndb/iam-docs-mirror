@@ -203,9 +203,9 @@ Before you attach a service account to a resource in another project, do the fol
           ]
         },
         {
-          &quot;role": ";roles/iam.siam.gserviceaccount.comerviceAccountUser",
+          "role": "roles/iam.serviceAccountUser",
           "members": [
-            "serviceAccount:SERVICE_ACCOUNT_NAME@PROJECT_ID."
+            "serviceAccount:SERVICE_ACCOUNT_NAME@PROJECT_ID.iam.gserviceaccount.com"
           ]
         }
       ]
