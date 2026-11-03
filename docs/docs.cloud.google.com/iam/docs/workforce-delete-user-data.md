@@ -6,7 +6,9 @@ description: Delete workforce users and their data. Understand soft-deletion, pu
 data_source: docs.cloud.google.com
 ---
 
-This guide shows you how to delete workforce users (also known as principals) and data that they exclusively own, collectively "users and data". To learn more about how Google Cloud deletes data, see [Data deletion on Google Cloud](https://docs.cloud.google.com/docs/security/deletion) .
+Workforce Identity Federation lets you delete workforce users (also known as principals) and their exclusively owned Google Cloud data and resources, collectively referred to as *users and data* . After you remove a user from your identity provider (IdP), deleting their metadata and exclusively owned resources helps you complete offboarding and meet data privacy requirements.
+
+To learn more about how Google Cloud deletes data, see [Data deletion on Google Cloud](https://docs.cloud.google.com/docs/security/deletion) .
 
 ## Delete Workforce Identity Federation user data
 
@@ -20,7 +22,7 @@ principal://iam.googleapis.com/locations/LOCATION/workforcePools/WORKFORCE_POOL_
 
 The stages in the data-deletion pipeline are as follows:
 
-**Stage-1: Soft-deletion state:** After you initiate a delete request, the users and data are immediately marked for deletion and enter a 30-day soft- deletion state. In that state, the data can be deleted at anytime. After it is deleted, it cannot be accessed unless it is first recovered. You can *usually* recover data that is in this state.
+**Stage-1: Soft-deletion state:** After you initiate a delete request, the users and data are immediately marked for deletion and enter a 30-day soft- deletion state. In that state, the data can be deleted at any time. After it is deleted, it cannot be accessed unless it is first recovered. You can *usually* recover data that is in this state.
 
 **Stage-2: Purged state:** Users and data that remain deleted longer than 30 days are in the purged state, meaning they are permanently deleted and cannot be recovered. After the data enters the purged state, the user identifier can be reused and assigned to another user. This is because the identifier is processed as a new entity in Identity and Access Management (IAM).
 

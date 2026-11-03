@@ -6,7 +6,7 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This document describes how to sign in to the Google Cloud CLI with your federated identity by using a browser-based sign in.
+Workforce Identity Federation lets you sign in to the Google Cloud CLI by using credentials from an external identity provider (IdP). You can use a browser-based sign-in flow to access Google Cloud resources from the command line without managing separate Google Accounts.
 
 ## Before you begin
 

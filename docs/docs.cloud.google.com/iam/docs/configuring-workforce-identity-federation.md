@@ -6,12 +6,9 @@ description: Configure workforce identity federation with OIDC or SAML 2.0 ident
 data_source: docs.cloud.google.com
 ---
 
-This guide describes how to configure Workforce Identity Federation with an identity provider (IdP) that supports [OIDC](https://openid.net/connect/) or [SAML 2.0](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html) .
+Workforce Identity Federation lets your workforce use an external identity provider (IdP) to access Google Cloud services and resources. You can configure federation with any IdP that supports [OpenID Connect (OIDC)](https://openid.net/connect/) or [Security Assertion Markup Language (SAML) 2.0](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html) .
 
-For IdP-specific instructions, see the following:
-
-- [Configure Microsoft Entra ID-based Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id)
-- [Configure Okta-based Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta)
+For provider-specific instructions, see [Configure Microsoft Entra ID-based Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id) or [Configure Okta-based Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta) .
 
 ## Before you begin
 

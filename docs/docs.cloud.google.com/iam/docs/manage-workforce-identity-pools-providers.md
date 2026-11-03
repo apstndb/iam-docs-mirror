@@ -6,11 +6,9 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This guide describes how you can perform common operations with Workforce Identity Federation. To set up Workforce Identity Federation, see the following guides:
+Workforce Identity Federation lets you connect external identity providers (IdPs) to Google Cloud so your workforce can authenticate and access resources. As your directory evolves, you can update pools and providers to modify IdP settings, refine attribute mappings and conditions, and manage locally uploaded OpenID Connect (OIDC) JSON Web Keys (JWKs).
 
-- [Configure Workforce Identity Federation with Microsoft Entra ID and sign in users](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id)
-- [Configure Workforce Identity Federation with Okta and sign in users](https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta)
-- [Configure Workforce Identity Federation on an IdP that supports OIDC or SAML](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation)
+To set up federation before managing your pools and providers, configure Workforce Identity Federation with [Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id) , [Okta](https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta) , or [an IdP that supports OIDC or SAML](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) .
 
 ## Before you begin
 

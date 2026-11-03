@@ -46,7 +46,7 @@ https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra	2026-10-16T14:29:
 https://docs.cloud.google.com/iam/docs/configure-scim-okta	2026-10-16T14:29:56Z
 https://docs.cloud.google.com/iam/docs/configuring-resource-based-access	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/configuring-temporary-access	2026-10-02T06:13:11Z
-https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation	2026-10-07T05:03:27Z
+https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation	2026-11-02T18:54:37Z
 https://docs.cloud.google.com/iam/docs/create-and-deploy-agent	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/create-downscoped-short-lived-credentials	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute	2026-10-08T05:16:03Z
@@ -86,7 +86,7 @@ https://docs.cloud.google.com/iam/docs/linting-policies	2026-10-11T07:20:05Z
 https://docs.cloud.google.com/iam/docs/manage-access-other-resources	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/manage-access-service-accounts	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2	2026-10-02T06:13:11Z
-https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers	2026-10-13T23:59:30Z
+https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers	2026-11-02T18:54:37Z
 https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers	2026-10-06T03:25:05Z
 https://docs.cloud.google.com/iam/docs/managed-workload-identity	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/managed-workload-identity-custom-constraints	2026-10-29T20:02:30Z
@@ -1178,11 +1178,11 @@ https://docs.cloud.google.com/iam/docs/use-workload-identity-federation-to-let-c
 https://docs.cloud.google.com/iam/docs/user-identities	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/using-iam-securely	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/viewing-grantable-roles	2026-10-02T06:11:46Z
-https://docs.cloud.google.com/iam/docs/workforce-console-sso	2026-10-02T06:11:46Z
-https://docs.cloud.google.com/iam/docs/workforce-delete-user-data	2026-10-02T06:11:46Z
+https://docs.cloud.google.com/iam/docs/workforce-console-sso	2026-11-02T21:44:52Z
+https://docs.cloud.google.com/iam/docs/workforce-delete-user-data	2026-11-02T22:32:08Z
 https://docs.cloud.google.com/iam/docs/workforce-identity-federation	2026-10-07T05:03:27Z
 https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim	2026-10-05T05:59:34Z
-https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud	2026-10-02T06:11:46Z
+https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud	2026-11-02T21:44:52Z
 https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app	2026-10-22T06:41:29Z
 https://docs.cloud.google.com/iam/docs/workforce-oauth-app	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials	2026-10-22T06:41:29Z
@@ -1379,7 +1379,7 @@ https://docs.cloud.google.com/policy-intelligence/docs/service-account-usage-too
 https://docs.cloud.google.com/policy-intelligence/docs/simulate-deny-policies	2026-09-30T19:36:48Z
 https://docs.cloud.google.com/policy-intelligence/docs/simulate-iam-policies	2026-10-10T15:00:53Z
 https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies	2026-09-30T19:36:48Z
-https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies	2026-11-01T03:47:45Z
+https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies	2026-11-02T18:35:15Z
 https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access	2026-09-30T19:36:48Z
 https://docs.cloud.google.com/policy-intelligence/docs/use-policy-analyzer-mcp	2026-10-21T18:06:40Z
 https://docs.cloud.google.com/policy-intelligence/docs/use-policy-assist-mcp	2026-10-21T18:06:40Z

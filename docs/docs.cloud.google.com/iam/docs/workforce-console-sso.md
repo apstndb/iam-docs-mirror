@@ -6,7 +6,7 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This guide shows you how to set up access to the Google Cloud Workforce Identity Federation console, also known as the console (federated), from your identity provider (IdP) and shows you how to provide access instructions to your users.
+The Google Cloud Workforce Identity Federation console, also known as the console (federated) lets workforce members access Google Cloud resources by using their existing identity provider (IdP) credentials. You can configure redirect URLs in your IdP to establish access and distribute sign-in instructions to your users.
 
 ## Before you begin
 

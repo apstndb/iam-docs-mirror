@@ -128,7 +128,7 @@ The **Simulation history** page appears, with a list of simulations performed by
     methodTypes:
     - METHOD1
     - METHOD2
-    condition: &quot;CONDITION"
+    condition: "CONDITION"
     actionType: ACTION
     displayName: DISPLAY_NAME
     description: DESCRIPTION
