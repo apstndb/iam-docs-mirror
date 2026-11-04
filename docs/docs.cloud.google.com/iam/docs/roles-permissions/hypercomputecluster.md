@@ -349,6 +349,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>monitoring.timeSeries.list</code></li>
 </ul>
 <p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager. tagValueBindings.*</code></p>
+<ul>
+<li><code>resourcemanager. tagValueBindings. create</code></li>
+<li><code>resourcemanager. tagValueBindings. delete</code></li>
+</ul>
 <p><code>servicemanagement. services. report</code></p>
 <p><code>servicenetworking. operations. get</code></p>
 <p><code>servicenetworking. services. addPeering</code></p>

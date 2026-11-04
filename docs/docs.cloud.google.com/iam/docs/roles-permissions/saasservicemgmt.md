@@ -205,6 +205,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
 <td><p><code>apphub.applications.create</code></p>
+<p><code>apphub.applications.delete</code></p>
 <p><code>apphub.applications.get</code></p>
 <p><code>apphub.discoveredServices.list</code></p>
 <p><code>apphub. discoveredServices. register</code></p>
@@ -212,7 +213,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>apphub. discoveredWorkloads. register</code></p>
 <p><code>apphub.operations.get</code></p>
 <p><code>apphub.services.create</code></p>
+<p><code>apphub.services.delete</code></p>
+<p><code>apphub.services.list</code></p>
 <p><code>apphub.workloads.create</code></p>
+<p><code>apphub.workloads.delete</code></p>
+<p><code>apphub.workloads.list</code></p>
 <p><code>artifactregistry. repositories. create</code></p>
 <p><code>artifactregistry. repositories. downloadArtifacts</code></p>
 <p><code>artifactregistry. repositories. get</code></p>

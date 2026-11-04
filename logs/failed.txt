@@ -1,1 +1,6 @@
-
+200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/Jwks
+200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/RevokeTokenResponse
+200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/common.well-known
+200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/common/revoke
+200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/organizations.well-known
+200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/organizations/revoke

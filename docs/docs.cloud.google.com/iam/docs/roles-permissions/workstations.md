@@ -282,12 +282,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>compute.instances.get</code></p>
 <p><code>compute. instances. getGuestAttributes</code></p>
 <p><code>compute. instances. getSerialPortOutput</code></p>
+<p><code>compute. instances. pscInterfaceCreate</code></p>
 <p><code>compute.instances.resume</code></p>
 <p><code>compute.instances.setLabels</code></p>
 <p><code>compute.instances.setMetadata</code></p>
 <p><code>compute. instances. setServiceAccount</code></p>
 <p><code>compute.instances.setTags</code></p>
 <p><code>compute.instances.suspend</code></p>
+<p><code>compute.networkAttachments.use</code></p>
 <p><code>compute.networks.addPeering</code></p>
 <p><code>compute.networks.get</code></p>
 <p><code>compute.networks.removePeering</code></p>

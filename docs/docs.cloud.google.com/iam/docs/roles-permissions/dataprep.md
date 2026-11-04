@@ -168,6 +168,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>bigquery.tables.updateTag</code></p>
 <p><code>bigquery.transfers.get</code></p>
 <p><code>bigquerymigration. translation. translate</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
+<p><code>cloudaicompanion.topics.create</code></p>
 <p><code>cloudbuild.builds.create</code></p>
 <p><code>cloudbuild.builds.get</code></p>
 <p><code>cloudbuild.builds.list</code></p>
@@ -182,6 +184,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>cloudbuild.operations.get</code></li>
 <li><code>cloudbuild.operations.list</code></li>
 </ul>
+<p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. get</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorInterconnects. queryFormability</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -704,6 +710,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>dataplex.operations.get</code></p>
 <p><code>dataplex.operations.list</code></p>
 <p><code>dataplex.projects.search</code></p>
+<p><code>geminidataanalytics. locations. chat</code></p>
 <p><code>iam.serviceAccounts.actAs</code></p>
 <p><code>iam.serviceAccounts.get</code></p>
 <p><code>iam.serviceAccounts.list</code></p>

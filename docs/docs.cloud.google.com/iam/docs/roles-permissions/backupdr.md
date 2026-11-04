@@ -54,32 +54,38 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. backupPlanAssociations. createForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. createForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. createForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. createForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. deleteForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. fetchForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. getForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. getForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. getForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. getForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. getForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. getForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. list</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. triggerBackupForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. updateForNetappVolumes</code></li>
 </ul>
 <p><code>backupdr.backupPlanRevisions.*</code></p>
 <ul>
@@ -98,6 +104,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. backupPlans. useForComputeDisk</code></li>
 <li><code>backupdr. backupPlans. useForComputeInstance</code></li>
 <li><code>backupdr. backupPlans. useForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlans. useForNetappVolumes</code></li>
 </ul>
 <p><code>backupdr.backupVaults.*</code></p>
 <ul>
@@ -119,6 +126,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. bvbackups. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. bvbackups. fetchForComputeDisk</code></li>
 <li><code>backupdr. bvbackups. fetchForComputeInstance</code></li>
+<li><code>backupdr. bvbackups. fetchForNetappVolumes</code></li>
 <li><code>backupdr.bvbackups.get</code></li>
 <li><code>backupdr.bvbackups.list</code></li>
 <li><code>backupdr.bvbackups.restore</code></li>
@@ -126,6 +134,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. bvbackups. useReadOnlyForAlloydbCluster</code></li>
 <li><code>backupdr. bvbackups. useReadOnlyForCloudSqlInstance</code></li>
 <li><code>backupdr. bvbackups. useReadOnlyForFilestoreInstance</code></li>
+<li><code>backupdr. bvbackups. useReadOnlyForNetappVolumes</code></li>
 </ul>
 <p><code>backupdr.bvdataSources.*</code></p>
 <ul>
@@ -147,9 +156,11 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. dataSourceReferences. fetchForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. fetchForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. getForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. getForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. getForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. getForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. list</code></li>
 </ul>
 <p><code>backupdr.locations.*</code></p>
@@ -263,32 +274,38 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. backupPlanAssociations. createForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. createForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. createForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. createForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. deleteForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. fetchForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. getForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. getForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. getForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. getForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. getForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. getForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. list</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. triggerBackupForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. updateForNetappVolumes</code></li>
 </ul>
 <p><code>backupdr.backupPlanRevisions.*</code></p>
 <ul>
@@ -307,6 +324,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. backupPlans. useForComputeDisk</code></li>
 <li><code>backupdr. backupPlans. useForComputeInstance</code></li>
 <li><code>backupdr. backupPlans. useForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlans. useForNetappVolumes</code></li>
 </ul>
 <p><code>backupdr. backupVaults. associate</code></p>
 <p><code>backupdr.backupVaults.create</code></p>
@@ -323,6 +341,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. bvbackups. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. bvbackups. fetchForComputeDisk</code></li>
 <li><code>backupdr. bvbackups. fetchForComputeInstance</code></li>
+<li><code>backupdr. bvbackups. fetchForNetappVolumes</code></li>
 <li><code>backupdr.bvbackups.get</code></li>
 <li><code>backupdr.bvbackups.list</code></li>
 <li><code>backupdr.bvbackups.restore</code></li>
@@ -330,6 +349,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. bvbackups. useReadOnlyForAlloydbCluster</code></li>
 <li><code>backupdr. bvbackups. useReadOnlyForCloudSqlInstance</code></li>
 <li><code>backupdr. bvbackups. useReadOnlyForFilestoreInstance</code></li>
+<li><code>backupdr. bvbackups. useReadOnlyForNetappVolumes</code></li>
 </ul>
 <p><code>backupdr.bvdataSources.*</code></p>
 <ul>
@@ -351,9 +371,11 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. dataSourceReferences. fetchForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. fetchForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. getForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. getForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. getForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. getForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. list</code></li>
 </ul>
 <p><code>backupdr.locations.*</code></p>
@@ -435,11 +457,13 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <p><code>backupdr. backupPlanAssociations. fetchForComputeDisk</code></p>
 <p><code>backupdr. backupPlanAssociations. fetchForComputeInstance</code></p>
 <p><code>backupdr. backupPlanAssociations. fetchForFilestoreInstance</code></p>
+<p><code>backupdr. backupPlanAssociations. fetchForNetappVolumes</code></p>
 <p><code>backupdr. backupPlanAssociations. getForAlloydbCluster</code></p>
 <p><code>backupdr. backupPlanAssociations. getForCloudSqlInstance</code></p>
 <p><code>backupdr. backupPlanAssociations. getForComputeDisk</code></p>
 <p><code>backupdr. backupPlanAssociations. getForComputeInstance</code></p>
 <p><code>backupdr. backupPlanAssociations. getForFilestoreInstance</code></p>
+<p><code>backupdr. backupPlanAssociations. getForNetappVolumes</code></p>
 <p><code>backupdr. backupPlanAssociations. list</code></p>
 <p><code>backupdr.backupPlanRevisions.*</code></p>
 <ul>
@@ -456,6 +480,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <p><code>backupdr. bvbackups. fetchForCloudSqlInstance</code></p>
 <p><code>backupdr. bvbackups. fetchForComputeDisk</code></p>
 <p><code>backupdr. bvbackups. fetchForComputeInstance</code></p>
+<p><code>backupdr. bvbackups. fetchForNetappVolumes</code></p>
 <p><code>backupdr.bvbackups.get</code></p>
 <p><code>backupdr.bvbackups.list</code></p>
 <p><code>backupdr.bvdataSources.get</code></p>
@@ -465,9 +490,11 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. dataSourceReferences. fetchForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. fetchForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. getForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. getForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. getForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. getForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. list</code></li>
 </ul>
 <p><code>backupdr.locations.*</code></p>
@@ -525,32 +552,38 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. backupPlanAssociations. createForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. createForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. createForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. createForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. deleteForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. fetchForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. getForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. getForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. getForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. getForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. getForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. getForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. list</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. triggerBackupForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. updateForNetappVolumes</code></li>
 </ul>
 <p><code>backupdr.backupPlanRevisions.*</code></p>
 <ul>
@@ -564,11 +597,13 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <p><code>backupdr. backupPlans. useForComputeDisk</code></p>
 <p><code>backupdr. backupPlans. useForComputeInstance</code></p>
 <p><code>backupdr. backupPlans. useForFilestoreInstance</code></p>
+<p><code>backupdr. backupPlans. useForNetappVolumes</code></p>
 <p><code>backupdr.backupVaults.get</code></p>
 <p><code>backupdr.backupVaults.list</code></p>
 <p><code>backupdr. bvbackups. fetchForCloudSqlInstance</code></p>
 <p><code>backupdr. bvbackups. fetchForComputeDisk</code></p>
 <p><code>backupdr. bvbackups. fetchForComputeInstance</code></p>
+<p><code>backupdr. bvbackups. fetchForNetappVolumes</code></p>
 <p><code>backupdr.bvbackups.get</code></p>
 <p><code>backupdr.bvbackups.list</code></p>
 <p><code>backupdr.bvdataSources.get</code></p>
@@ -578,9 +613,11 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. dataSourceReferences. fetchForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. fetchForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. getForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. getForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. getForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. getForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. list</code></li>
 </ul>
 <p><code>backupdr.locations.*</code></p>
@@ -869,12 +906,14 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <p><code>backupdr. bvbackups. fetchForCloudSqlInstance</code></p>
 <p><code>backupdr. bvbackups. fetchForComputeDisk</code></p>
 <p><code>backupdr. bvbackups. fetchForComputeInstance</code></p>
+<p><code>backupdr. bvbackups. fetchForNetappVolumes</code></p>
 <p><code>backupdr.bvbackups.get</code></p>
 <p><code>backupdr.bvbackups.list</code></p>
 <p><code>backupdr.bvbackups.restore</code></p>
 <p><code>backupdr. bvbackups. useReadOnlyForAlloydbCluster</code></p>
 <p><code>backupdr. bvbackups. useReadOnlyForCloudSqlInstance</code></p>
 <p><code>backupdr. bvbackups. useReadOnlyForFilestoreInstance</code></p>
+<p><code>backupdr. bvbackups. useReadOnlyForNetappVolumes</code></p>
 <p><code>backupdr.bvdataSources.get</code></p>
 <p><code>backupdr.bvdataSources.list</code></p>
 <p><code>backupdr. bvdataSources. useReadOnlyForAlloydbCluster</code></p>
@@ -885,9 +924,11 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. dataSourceReferences. fetchForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. fetchForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. getForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. getForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. getForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. getForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. list</code></li>
 </ul>
 <p><code>backupdr.locations.*</code></p>
@@ -969,32 +1010,38 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. backupPlanAssociations. createForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. createForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. createForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. createForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. deleteForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. deleteForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. fetchForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. fetchForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. getForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. getForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. getForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. getForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. getForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. getForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. list</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. triggerBackupForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. triggerBackupForNetappVolumes</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForAlloydbCluster</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForCloudSqlInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForComputeDisk</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForComputeInstance</code></li>
 <li><code>backupdr. backupPlanAssociations. updateForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlanAssociations. updateForNetappVolumes</code></li>
 </ul>
 <p><code>backupdr.backupPlanRevisions.*</code></p>
 <ul>
@@ -1013,6 +1060,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. backupPlans. useForComputeDisk</code></li>
 <li><code>backupdr. backupPlans. useForComputeInstance</code></li>
 <li><code>backupdr. backupPlans. useForFilestoreInstance</code></li>
+<li><code>backupdr. backupPlans. useForNetappVolumes</code></li>
 </ul>
 <p><code>backupdr. backupVaults. associate</code></p>
 <p><code>backupdr.backupVaults.get</code></p>
@@ -1023,12 +1071,14 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <p><code>backupdr. bvbackups. fetchForCloudSqlInstance</code></p>
 <p><code>backupdr. bvbackups. fetchForComputeDisk</code></p>
 <p><code>backupdr. bvbackups. fetchForComputeInstance</code></p>
+<p><code>backupdr. bvbackups. fetchForNetappVolumes</code></p>
 <p><code>backupdr.bvbackups.get</code></p>
 <p><code>backupdr.bvbackups.list</code></p>
 <p><code>backupdr.bvbackups.restore</code></p>
 <p><code>backupdr. bvbackups. useReadOnlyForAlloydbCluster</code></p>
 <p><code>backupdr. bvbackups. useReadOnlyForCloudSqlInstance</code></p>
 <p><code>backupdr. bvbackups. useReadOnlyForFilestoreInstance</code></p>
+<p><code>backupdr. bvbackups. useReadOnlyForNetappVolumes</code></p>
 <p><code>backupdr.bvdataSources.get</code></p>
 <p><code>backupdr.bvdataSources.list</code></p>
 <p><code>backupdr. bvdataSources. useReadOnlyForAlloydbCluster</code></p>
@@ -1039,9 +1089,11 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code>backupdr. dataSourceReferences. fetchForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. fetchForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. getForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. getForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. getForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. getForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. list</code></li>
 </ul>
 <p><code>backupdr.locations.*</code></p>
@@ -1501,6 +1553,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><code>backupdr. backupPlanAssociations. createForNetappVolumes</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code>roles/ netapp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><code>backupdr. backupPlanAssociations. deleteForAlloydbCluster</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -1514,7 +1578,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. backupPlanAssociations. deleteForCloudSqlInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -1534,7 +1598,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. backupPlanAssociations. deleteForComputeDisk</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -1569,7 +1633,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. backupPlanAssociations. deleteForComputeInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -1604,7 +1668,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. backupPlanAssociations. deleteForFilestoreInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -1623,6 +1687,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code>roles/ container.serviceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. backupPlanAssociations. deleteForNetappVolumes</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code>roles/ netapp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>backupdr. backupPlanAssociations. fetchForAlloydbCluster</code></td>
@@ -1745,6 +1821,23 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><code>backupdr. backupPlanAssociations. fetchForNetappVolumes</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code>roles/ netapp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.viewer">Google Cloud NetApp Volumes Viewer</a> ( <code>roles/ netapp.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><code>backupdr. backupPlanAssociations. getForAlloydbCluster</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -1762,7 +1855,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. backupPlanAssociations. getForCloudSqlInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -1786,7 +1879,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. backupPlanAssociations. getForComputeDisk</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -1824,7 +1917,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. backupPlanAssociations. getForComputeInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -1839,7 +1932,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. backupPlanAssociations. getForFilestoreInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -1863,6 +1956,23 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code>roles/ container.serviceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. backupPlanAssociations. getForNetappVolumes</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code>roles/ netapp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.viewer">Google Cloud NetApp Volumes Viewer</a> ( <code>roles/ netapp.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>backupdr. backupPlanAssociations. list</code></td>
@@ -2027,6 +2137,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
+<td><code>backupdr. backupPlanAssociations. triggerBackupForNetappVolumes</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code>roles/ netapp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
 <td><code>backupdr. backupPlanAssociations. updateForAlloydbCluster</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2040,7 +2162,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. backupPlanAssociations. updateForCloudSqlInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2060,7 +2182,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. backupPlanAssociations. updateForComputeDisk</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2095,7 +2217,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. backupPlanAssociations. updateForComputeInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2130,7 +2252,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. backupPlanAssociations. updateForFilestoreInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2149,6 +2271,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code>roles/ container.serviceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. backupPlanAssociations. updateForNetappVolumes</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code>roles/ netapp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>backupdr. backupPlanRevisions. get</code></td>
@@ -2427,6 +2561,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><code>backupdr. backupPlans. useForNetappVolumes</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code>roles/ netapp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><code>backupdr. backupVaults. associate</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2437,7 +2583,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAdmin">Backup and DR Backup Vault Admin</a> ( <code>roles/ backupdr.backupvaultAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.backupVaults.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2447,7 +2593,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAdmin">Backup and DR Backup Vault Admin</a> ( <code>roles/ backupdr.backupvaultAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. backupVaults. createTagBinding</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2457,7 +2603,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.backupVaults.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2467,7 +2613,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAdmin">Backup and DR Backup Vault Admin</a> ( <code>roles/ backupdr.backupvaultAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. backupVaults. deleteTagBinding</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2477,7 +2623,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.backupVaults.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2525,7 +2671,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr.backupVaults.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2578,7 +2724,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. backupVaults. listEffectiveTags</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2598,7 +2744,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. backupVaults. listTagBindings</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2618,7 +2764,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.backupVaults.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2628,7 +2774,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAdmin">Backup and DR Backup Vault Admin</a> ( <code>roles/ backupdr.backupvaultAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. bindingMatchingResources. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2645,7 +2791,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.bvbackups.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2656,7 +2802,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAccessor">Backup and DR Backup Vault Accessor</a> ( <code>roles/ backupdr.backupvaultAccessor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAdmin">Backup and DR Backup Vault Admin</a> ( <code>roles/ backupdr.backupvaultAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. bvbackups. fetchForCloudSqlInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2681,7 +2827,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. bvbackups. fetchForComputeDisk</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2697,7 +2843,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. bvbackups. fetchForComputeInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2708,6 +2854,24 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. bvbackups. fetchForNetappVolumes</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code>roles/ netapp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.viewer">Google Cloud NetApp Volumes Viewer</a> ( <code>roles/ netapp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
@@ -2849,6 +3013,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><code>backupdr. bvbackups. useReadOnlyForNetappVolumes</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code>roles/ netapp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><code>backupdr. bvdataSources. abandonBackup</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2858,7 +3034,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAccessor">Backup and DR Backup Vault Accessor</a> ( <code>roles/ backupdr.backupvaultAccessor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. bvdataSources. fetchAccessToken</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2868,7 +3044,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAccessor">Backup and DR Backup Vault Accessor</a> ( <code>roles/ backupdr.backupvaultAccessor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. bvdataSources. finalizeBackup</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2878,7 +3054,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAccessor">Backup and DR Backup Vault Accessor</a> ( <code>roles/ backupdr.backupvaultAccessor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.bvdataSources.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2904,7 +3080,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.serviceAgent">Backup and DR Service Agent</a> ( <code>roles/ backupdr.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. bvdataSources. initiateBackup</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2914,7 +3090,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAccessor">Backup and DR Backup Vault Accessor</a> ( <code>roles/ backupdr.backupvaultAccessor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.bvdataSources.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2937,7 +3113,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr.bvdataSources.remove</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2947,7 +3123,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAccessor">Backup and DR Backup Vault Accessor</a> ( <code>roles/ backupdr.backupvaultAccessor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. bvdataSources. setInternalStatus</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2957,7 +3133,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAccessor">Backup and DR Backup Vault Accessor</a> ( <code>roles/ backupdr.backupvaultAccessor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr.bvdataSources.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2968,7 +3144,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAccessor">Backup and DR Backup Vault Accessor</a> ( <code>roles/ backupdr.backupvaultAccessor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAdmin">Backup and DR Backup Vault Admin</a> ( <code>roles/ backupdr.backupvaultAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. bvdataSources. useReadOnlyForAlloydbCluster</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -2982,7 +3158,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. bvdataSources. useReadOnlyForCloudSqlInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3003,7 +3179,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. compute. restoreFromBackupVault</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3015,7 +3191,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. dataSourceReferences. fetchForAlloydbCluster</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3034,7 +3210,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code>roles/ iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. dataSourceReferences. fetchForCloudSqlInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3059,7 +3235,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. dataSourceReferences. fetchForFilestoreInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3084,6 +3260,24 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code>roles/ container.serviceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. dataSourceReferences. fetchForNetappVolumes</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code>roles/ netapp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.viewer">Google Cloud NetApp Volumes Viewer</a> ( <code>roles/ netapp.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>backupdr. dataSourceReferences. getForAlloydbCluster</code></td>
@@ -3156,6 +3350,24 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><code>backupdr. dataSourceReferences. getForNetappVolumes</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code>roles/ netapp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.viewer">Google Cloud NetApp Volumes Viewer</a> ( <code>roles/ netapp.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><code>backupdr. dataSourceReferences. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3175,7 +3387,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.locations.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3193,7 +3405,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr.locations.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3245,7 +3457,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. access</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3263,7 +3475,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. accessSensitiveData</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3272,7 +3484,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. assignBackupPlans</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3283,7 +3495,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. backupAccess</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3298,7 +3510,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3307,7 +3519,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. createConnection</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3318,7 +3530,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.computeEngineOperator">Backup and DR Compute Engine Operator</a> ( <code>roles/ backupdr.computeEngineOperator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.managementServerAccessor">Backup and DR Management Server Accessor</a> ( <code>roles/ backupdr.managementServerAccessor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. createDynamicProtection</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3329,7 +3541,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. createTagBinding</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3338,7 +3550,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3347,7 +3559,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. deleteDynamicProtection</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3358,7 +3570,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. deleteTagBinding</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3367,7 +3579,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr.managementServers.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3385,7 +3597,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. getDynamicProtection</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3403,7 +3615,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. getIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3421,7 +3633,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3443,7 +3655,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. listDynamicProtection</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3461,7 +3673,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. listEffectiveTags</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3484,7 +3696,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. listTagBindings</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3507,7 +3719,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. manageApplications</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3520,7 +3732,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. manageBackupPlans</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3530,7 +3742,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. manageBackupServers</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3539,7 +3751,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. manageBackups</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3550,7 +3762,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupUser">Backup and DR Backup User</a> ( <code>roles/ backupdr.backupUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. manageClones</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3562,7 +3774,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. manageExpiration</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3571,7 +3783,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. manageHosts</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3584,7 +3796,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. manageInternalACL</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3593,7 +3805,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. manageJobs</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3603,7 +3815,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. manageLiveClones</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3615,7 +3827,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. manageMigrations</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3626,7 +3838,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. manageMirroring</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3638,7 +3850,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. manageMounts</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3650,7 +3862,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. manageRestores</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3661,13 +3873,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. manageSensitiveData</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. manageStorage</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3676,7 +3888,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. manageSystem</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3685,7 +3897,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. manageWorkflows</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3697,7 +3909,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. refreshWorkflows</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3709,7 +3921,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. runWorkflows</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3721,14 +3933,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. setIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. testFailOvers</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3739,7 +3951,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. viewBackupPlans</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3757,7 +3969,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. viewBackupServers</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3772,7 +3984,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. viewReports</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3790,7 +4002,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. viewStorage</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3808,7 +4020,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. managementServers. viewSystem</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3826,7 +4038,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. managementServers. viewWorkflows</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3843,7 +4055,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.operations.cancel</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3854,7 +4066,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAccessor">Backup and DR Backup Vault Accessor</a> ( <code>roles/ backupdr.backupvaultAccessor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAdmin">Backup and DR Backup Vault Admin</a> ( <code>roles/ backupdr.backupvaultAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr.operations.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3865,7 +4077,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAccessor">Backup and DR Backup Vault Accessor</a> ( <code>roles/ backupdr.backupvaultAccessor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAdmin">Backup and DR Backup Vault Admin</a> ( <code>roles/ backupdr.backupvaultAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.operations.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3916,7 +4128,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr.operations.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3962,7 +4174,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. resourceBackupConfigs. fetch</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3973,7 +4185,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupConfigViewer">Backup and DR Backup Config Viewer</a> ( <code>roles/ backupdr.backupConfigViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. resourceBackupConfigs. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3984,7 +4196,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupConfigViewer">Backup and DR Backup Config Viewer</a> ( <code>roles/ backupdr.backupConfigViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr. resourceBackupConfigs. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3998,7 +4210,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr. serviceConfig. initialize</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -4036,7 +4248,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.trial.end</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -4045,7 +4257,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr.trial.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -4060,7 +4272,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.trial.subscribe</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>

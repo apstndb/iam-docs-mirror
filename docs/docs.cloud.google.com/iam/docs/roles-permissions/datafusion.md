@@ -472,6 +472,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>bigtable.tables.update</code></li>
 </ul>
 <p><code>cloudaicompanion. instances. completeTask</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
 <p><code>cloudaicompanion.topics.create</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>

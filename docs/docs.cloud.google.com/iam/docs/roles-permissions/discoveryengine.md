@@ -3098,6 +3098,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>agentregistry.agents.list</code></li>
 <li><code>agentregistry.agents.search</code></li>
 </ul>
+<p><code>agentregistry. aiApplications. get</code></p>
+<p><code>agentregistry. aiApplications. list</code></p>
 <p><code>agentregistry.bindings.create</code></p>
 <p><code>agentregistry.bindings.delete</code></p>
 <p><code>agentregistry. bindings. fetchAvailable</code></p>
@@ -3187,6 +3189,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>discoveryengine. completionConfigs. completeQuery</code></p>
 <p><code>discoveryengine. conversations. converse</code></p>
 <p><code>discoveryengine. conversations. create</code></p>
+<p><code>discoveryengine. dataConnectors. get</code></p>
 <p><code>discoveryengine. dataStores. completeQuery</code></p>
 <p><code>discoveryengine. servingConfigs. answer</code></p>
 <p><code>discoveryengine. servingConfigs. search</code></p>
@@ -4679,6 +4682,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code>roles/ databaseinsights.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">

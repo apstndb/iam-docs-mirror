@@ -193,6 +193,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>dns. gkeClusters. bindDNSResponsePolicy</code></li>
 <li><code>dns. gkeClusters. bindPrivateDNSZone</code></li>
 </ul>
+<p><code>dns.locations.*</code></p>
+<ul>
+<li><code>dns.locations.get</code></li>
+<li><code>dns.locations.list</code></li>
+</ul>
 <p><code>dns.managedZoneOperations.*</code></p>
 <ul>
 <li><code>dns.managedZoneOperations.get</code></li>
@@ -211,6 +216,23 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>dns. networks. bindPrivateDNSZone</code></li>
 <li><code>dns. networks. targetWithPeeringZone</code></li>
 <li><code>dns.networks.useHealthSignals</code></li>
+</ul>
+<p><code>dns.operations.*</code></p>
+<ul>
+<li><code>dns.operations.cancel</code></li>
+<li><code>dns.operations.delete</code></li>
+<li><code>dns.operations.get</code></li>
+<li><code>dns.operations.list</code></li>
+</ul>
+<p><code>dns.outboundEndpoints.*</code></p>
+<ul>
+<li><code>dns. outboundEndpoints. bindPrivateDNSPolicy</code></li>
+<li><code>dns. outboundEndpoints. bindPrivateDNSZone</code></li>
+<li><code>dns.outboundEndpoints.create</code></li>
+<li><code>dns.outboundEndpoints.delete</code></li>
+<li><code>dns.outboundEndpoints.get</code></li>
+<li><code>dns.outboundEndpoints.list</code></li>
+<li><code>dns.outboundEndpoints.update</code></li>
 </ul>
 <p><code>dns.policies.create</code></p>
 <p><code>dns.policies.delete</code></p>

@@ -710,6 +710,10 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code>datastream. streams. deleteTagBinding</code></p>
 <p><code>datastream. streams. listEffectiveTags</code></p>
 <p><code>datastream. streams. listTagBindings</code></p>
+<p><code>developerconnect. connections. createTagBinding</code></p>
+<p><code>developerconnect. connections. deleteTagBinding</code></p>
+<p><code>developerconnect. connections. listEffectiveTags</code></p>
+<p><code>developerconnect. connections. listTagBindings</code></p>
 <p><code>dns.policies.createTagBinding</code></p>
 <p><code>dns.policies.deleteTagBinding</code></p>
 <p><code>dns.policies.listEffectiveTags</code></p>
@@ -749,6 +753,37 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code>financialservices. v1instances. deleteTagBinding</code></p>
 <p><code>financialservices. v1instances. listEffectiveTags</code></p>
 <p><code>financialservices. v1instances. listTagBindings</code></p>
+<p><code>firebaseapphosting. backends. createTagBinding</code></p>
+<p><code>firebaseapphosting. backends. deleteTagBinding</code></p>
+<p><code>firebaseapphosting. backends. listEffectiveTags</code></p>
+<p><code>firebaseapphosting. backends. listTagBindings</code></p>
+<p><code>firebasedataconnect. services. createTagBinding</code></p>
+<p><code>firebasedataconnect. services. deleteTagBinding</code></p>
+<p><code>firebasedataconnect. services. listEffectiveTags</code></p>
+<p><code>firebasedataconnect. services. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. hardware. createTagBinding</code></p>
+<p><code>gdchardwaremanagement. hardware. deleteTagBinding</code></p>
+<p><code>gdchardwaremanagement. hardware. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. hardware. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. orders. createTagBinding</code></p>
+<p><code>gdchardwaremanagement. orders. deleteTagBinding</code></p>
+<p><code>gdchardwaremanagement. orders. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. orders. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. sites. createTagBinding</code></p>
+<p><code>gdchardwaremanagement. sites. deleteTagBinding</code></p>
+<p><code>gdchardwaremanagement. sites. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. sites. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. zoneOperations.*</code></p>
+<ul>
+<li><code>gdchardwaremanagement. zoneOperations. createTagBinding</code></li>
+<li><code>gdchardwaremanagement. zoneOperations. deleteTagBinding</code></li>
+<li><code>gdchardwaremanagement. zoneOperations. listEffectiveTags</code></li>
+<li><code>gdchardwaremanagement. zoneOperations. listTagBindings</code></li>
+</ul>
+<p><code>gdchardwaremanagement. zones. createTagBinding</code></p>
+<p><code>gdchardwaremanagement. zones. deleteTagBinding</code></p>
+<p><code>gdchardwaremanagement. zones. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. zones. listTagBindings</code></p>
 <p><code>gkemulticloud. attachedClusters. createTagBinding</code></p>
 <p><code>gkemulticloud. attachedClusters. deleteTagBinding</code></p>
 <p><code>gkemulticloud. attachedClusters. listEffectiveTags</code></p>
@@ -809,6 +844,14 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code>memcache. instances. deleteTagBinding</code></p>
 <p><code>memcache. instances. listEffectiveTags</code></p>
 <p><code>memcache. instances. listTagBindings</code></p>
+<p><code>memorystore. backupCollections. createTagBinding</code></p>
+<p><code>memorystore. backupCollections. deleteTagBinding</code></p>
+<p><code>memorystore. backupCollections. listEffectiveTags</code></p>
+<p><code>memorystore. backupCollections. listTagBindings</code></p>
+<p><code>memorystore. instances. createTagBinding</code></p>
+<p><code>memorystore. instances. deleteTagBinding</code></p>
+<p><code>memorystore. instances. listEffectiveTags</code></p>
+<p><code>memorystore. instances. listTagBindings</code></p>
 <p><code>metastore. federations. createTagBinding</code></p>
 <p><code>metastore. federations. deleteTagBinding</code></p>
 <p><code>metastore. federations. listEffectiveTags</code></p>
@@ -872,6 +915,26 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code>notebooks. instances. deleteTagBinding</code></p>
 <p><code>notebooks. instances. listEffectiveTags</code></p>
 <p><code>notebooks. instances. listTagBindings</code></p>
+<p><code>oracledatabase. autonomousDatabases. createTagBinding</code></p>
+<p><code>oracledatabase. autonomousDatabases. deleteTagBinding</code></p>
+<p><code>oracledatabase. autonomousDatabases. listEffectiveTags</code></p>
+<p><code>oracledatabase. autonomousDatabases. listTagBindings</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. createTagBinding</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. deleteTagBinding</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. listEffectiveTags</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. listTagBindings</code></p>
+<p><code>oracledatabase. cloudVmClusters. createTagBinding</code></p>
+<p><code>oracledatabase. cloudVmClusters. deleteTagBinding</code></p>
+<p><code>oracledatabase. cloudVmClusters. listEffectiveTags</code></p>
+<p><code>oracledatabase. cloudVmClusters. listTagBindings</code></p>
+<p><code>oracledatabase. dbSystems. createTagBinding</code></p>
+<p><code>oracledatabase. dbSystems. deleteTagBinding</code></p>
+<p><code>oracledatabase. dbSystems. listEffectiveTags</code></p>
+<p><code>oracledatabase. dbSystems. listTagBindings</code></p>
+<p><code>oracledatabase. entitlements. createTagBinding</code></p>
+<p><code>oracledatabase. entitlements. deleteTagBinding</code></p>
+<p><code>oracledatabase. entitlements. listEffectiveTags</code></p>
+<p><code>oracledatabase. entitlements. listTagBindings</code></p>
 <p><code>parametermanager. parameters. createTagBinding</code></p>
 <p><code>parametermanager. parameters. deleteTagBinding</code></p>
 <p><code>parametermanager. parameters. listEffectiveTags</code></p>
@@ -1232,6 +1295,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code>datastream. privateConnections. listTagBindings</code></p>
 <p><code>datastream. streams. listEffectiveTags</code></p>
 <p><code>datastream. streams. listTagBindings</code></p>
+<p><code>developerconnect. connections. listEffectiveTags</code></p>
+<p><code>developerconnect. connections. listTagBindings</code></p>
 <p><code>dns.policies.listEffectiveTags</code></p>
 <p><code>dns.policies.listTagBindings</code></p>
 <p><code>domains. registrations. listEffectiveTags</code></p>
@@ -1250,6 +1315,20 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code>file.snapshots.listTagBindings</code></p>
 <p><code>financialservices. v1instances. listEffectiveTags</code></p>
 <p><code>financialservices. v1instances. listTagBindings</code></p>
+<p><code>firebaseapphosting. backends. listEffectiveTags</code></p>
+<p><code>firebaseapphosting. backends. listTagBindings</code></p>
+<p><code>firebasedataconnect. services. listEffectiveTags</code></p>
+<p><code>firebasedataconnect. services. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. hardware. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. hardware. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. orders. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. orders. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. sites. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. sites. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. zoneOperations. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. zoneOperations. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. zones. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. zones. listTagBindings</code></p>
 <p><code>gkemulticloud. attachedClusters. listEffectiveTags</code></p>
 <p><code>gkemulticloud. attachedClusters. listTagBindings</code></p>
 <p><code>gkeonprem. bareMetalAdminClusters. listEffectiveTags</code></p>
@@ -1280,6 +1359,10 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code>managedidentities. domains. listTagBindings</code></p>
 <p><code>memcache. instances. listEffectiveTags</code></p>
 <p><code>memcache. instances. listTagBindings</code></p>
+<p><code>memorystore. backupCollections. listEffectiveTags</code></p>
+<p><code>memorystore. backupCollections. listTagBindings</code></p>
+<p><code>memorystore. instances. listEffectiveTags</code></p>
+<p><code>memorystore. instances. listTagBindings</code></p>
 <p><code>metastore. federations. listEffectiveTags</code></p>
 <p><code>metastore. federations. listTagBindings</code></p>
 <p><code>metastore. services. listEffectiveTags</code></p>
@@ -1310,6 +1393,16 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code>networkservices. meshes. listTagBindings</code></p>
 <p><code>notebooks. instances. listEffectiveTags</code></p>
 <p><code>notebooks. instances. listTagBindings</code></p>
+<p><code>oracledatabase. autonomousDatabases. listEffectiveTags</code></p>
+<p><code>oracledatabase. autonomousDatabases. listTagBindings</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. listEffectiveTags</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. listTagBindings</code></p>
+<p><code>oracledatabase. cloudVmClusters. listEffectiveTags</code></p>
+<p><code>oracledatabase. cloudVmClusters. listTagBindings</code></p>
+<p><code>oracledatabase. dbSystems. listEffectiveTags</code></p>
+<p><code>oracledatabase. dbSystems. listTagBindings</code></p>
+<p><code>oracledatabase. entitlements. listEffectiveTags</code></p>
+<p><code>oracledatabase. entitlements. listTagBindings</code></p>
 <p><code>parametermanager. parameters. listEffectiveTags</code></p>
 <p><code>parametermanager. parameters. listTagBindings</code></p>
 <p><code>privateca. caPools. listEffectiveTags</code></p>
@@ -2917,7 +3010,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code>roles/ privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code>roles/ privateca.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code>roles/ privilegedaccessmanager.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code>roles/ privilegedaccessmanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privileged Access Manager Editor</a> ( <code>roles/ privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.viewer">Privileged Access Manager Viewer</a> ( <code>roles/ privilegedaccessmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Beacon Admin</a> ( <code>roles/ proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Beacon Editor</a> ( <code>roles/ proximitybeacon.editor</code> )</p>
@@ -4541,7 +4634,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code>roles/ privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code>roles/ privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code>roles/ privateca.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code>roles/ privilegedaccessmanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privileged Access Manager Editor</a> ( <code>roles/ privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Beacon Admin</a> ( <code>roles/ proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Beacon Editor</a> ( <code>roles/ proximitybeacon.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.viewer">Beacon Viewer</a> ( <code>roles/ proximitybeacon.viewer</code> )</p>
@@ -5817,6 +5910,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code>roles/ container.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serviceAgent">Dataproc Service Agent</a> ( <code>roles/ dataproc.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dspm#dspm.serviceAgent">DSPM Service Agent</a> ( <code>roles/ dspm.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.serviceAgent">Cluster Director Service Agent</a> ( <code>roles/ hypercomputecluster.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workstations#workstations.serviceAgent">Workstations Service Agent</a> ( <code>roles/ workstations.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -5838,6 +5932,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.instanceGroupManagerServiceAgent">Instance Group Manager Service Agent</a> ( <code>roles/ compute.instanceGroupManagerServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serviceAgent">Dataproc Service Agent</a> ( <code>roles/ dataproc.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dspm#dspm.serviceAgent">DSPM Service Agent</a> ( <code>roles/ dspm.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.serviceAgent">Cluster Director Service Agent</a> ( <code>roles/ hypercomputecluster.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workstations#workstations.serviceAgent">Workstations Service Agent</a> ( <code>roles/ workstations.serviceAgent</code> )</li>
 </ul></td>
 </tr>

@@ -397,6 +397,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>agentidentity. authorizations. setIamPolicy</code></p>
 <p><code>agentidentity.locations.list</code></p>
 <p><code>agentregistry.agents.list</code></p>
+<p><code>agentregistry. aiApplications. getIamPolicy</code></p>
+<p><code>agentregistry. aiApplications. list</code></p>
+<p><code>agentregistry. aiApplications. setIamPolicy</code></p>
 <p><code>agentregistry.bindings.list</code></p>
 <p><code>agentregistry.endpoints.list</code></p>
 <p><code>agentregistry.locations.list</code></p>
@@ -428,6 +431,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>aiplatform. datasetVersions. list</code></p>
 <p><code>aiplatform.datasets.list</code></p>
 <p><code>aiplatform. deploymentResourcePools. list</code></p>
+<p><code>aiplatform.detectors.list</code></p>
 <p><code>aiplatform. edgeDeploymentJobs. list</code></p>
 <p><code>aiplatform.edgeDevices.list</code></p>
 <p><code>aiplatform. endpoints. getIamPolicy</code></p>
@@ -1189,6 +1193,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>composer.operations.list</code></p>
 <p><code>composer. userworkloadsconfigmaps. list</code></p>
 <p><code>composer. userworkloadssecrets. list</code></p>
+<p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute.acceleratorTypes.list</code></p>
 <p><code>compute.addresses.list</code></p>
 <p><code>compute.autoscalers.list</code></p>
@@ -1913,10 +1919,13 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>dlp.tableDataProfiles.list</code></p>
 <p><code>dns.changes.list</code></p>
 <p><code>dns.dnsKeys.list</code></p>
+<p><code>dns.locations.list</code></p>
 <p><code>dns.managedZoneOperations.list</code></p>
 <p><code>dns.managedZones.getIamPolicy</code></p>
 <p><code>dns.managedZones.list</code></p>
 <p><code>dns.managedZones.setIamPolicy</code></p>
+<p><code>dns.operations.list</code></p>
+<p><code>dns.outboundEndpoints.list</code></p>
 <p><code>dns.policies.list</code></p>
 <p><code>dns.resourceRecordSets.list</code></p>
 <p><code>dns.responsePolicies.list</code></p>
@@ -2398,11 +2407,15 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>memcache.instances.list</code></p>
 <p><code>memcache.locations.list</code></p>
 <p><code>memcache.operations.list</code></p>
+<p><code>memorystore.aclPolicies.list</code></p>
+<p><code>memorystore. aclPolicyRevisions. list</code></p>
+<p><code>memorystore.authTokens.list</code></p>
 <p><code>memorystore. backupCollections. list</code></p>
 <p><code>memorystore.backups.list</code></p>
 <p><code>memorystore.instances.list</code></p>
 <p><code>memorystore.locations.list</code></p>
 <p><code>memorystore.operations.list</code></p>
+<p><code>memorystore. tokenAuthUsers. list</code></p>
 <p><code>metastore.backups.getIamPolicy</code></p>
 <p><code>metastore.backups.list</code></p>
 <p><code>metastore.backups.setIamPolicy</code></p>
@@ -2977,7 +2990,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>saasservicemgmt.unitKinds.list</code></p>
 <p><code>saasservicemgmt. unitOperations. list</code></p>
 <p><code>saasservicemgmt.units.list</code></p>
+<p><code>secretmanager.backups.list</code></p>
 <p><code>secretmanager.locations.list</code></p>
+<p><code>secretmanager.operations.list</code></p>
 <p><code>secretmanager. secrets. getIamPolicy</code></p>
 <p><code>secretmanager.secrets.list</code></p>
 <p><code>secretmanager. secrets. setIamPolicy</code></p>
@@ -3227,6 +3242,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>vmmigration.sources.list</code></p>
 <p><code>vmmigration.targets.list</code></p>
 <p><code>vmmigration. utilizationReports. list</code></p>
+<p><code>vmwareengine. capacityAllocations. list</code></p>
 <p><code>vmwareengine. clusters. getIamPolicy</code></p>
 <p><code>vmwareengine.clusters.list</code></p>
 <p><code>vmwareengine. clusters. setIamPolicy</code></p>
@@ -3310,6 +3326,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>agentidentity. authorizations. list</code></p>
 <p><code>agentidentity.locations.list</code></p>
 <p><code>agentregistry.agents.list</code></p>
+<p><code>agentregistry. aiApplications. getIamPolicy</code></p>
+<p><code>agentregistry. aiApplications. list</code></p>
 <p><code>agentregistry.bindings.list</code></p>
 <p><code>agentregistry.endpoints.list</code></p>
 <p><code>agentregistry.locations.list</code></p>
@@ -3340,6 +3358,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>aiplatform. datasetVersions. list</code></p>
 <p><code>aiplatform.datasets.list</code></p>
 <p><code>aiplatform. deploymentResourcePools. list</code></p>
+<p><code>aiplatform.detectors.list</code></p>
 <p><code>aiplatform. edgeDeploymentJobs. list</code></p>
 <p><code>aiplatform.edgeDevices.list</code></p>
 <p><code>aiplatform. endpoints. getIamPolicy</code></p>
@@ -4030,6 +4049,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>composer.operations.list</code></p>
 <p><code>composer. userworkloadsconfigmaps. list</code></p>
 <p><code>composer. userworkloadssecrets. list</code></p>
+<p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute.acceleratorTypes.list</code></p>
 <p><code>compute.addresses.list</code></p>
 <p><code>compute.autoscalers.list</code></p>
@@ -4658,9 +4679,12 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>dlp.tableDataProfiles.list</code></p>
 <p><code>dns.changes.list</code></p>
 <p><code>dns.dnsKeys.list</code></p>
+<p><code>dns.locations.list</code></p>
 <p><code>dns.managedZoneOperations.list</code></p>
 <p><code>dns.managedZones.getIamPolicy</code></p>
 <p><code>dns.managedZones.list</code></p>
+<p><code>dns.operations.list</code></p>
+<p><code>dns.outboundEndpoints.list</code></p>
 <p><code>dns.policies.list</code></p>
 <p><code>dns.resourceRecordSets.list</code></p>
 <p><code>dns.responsePolicies.list</code></p>
@@ -5074,11 +5098,15 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>memcache.instances.list</code></p>
 <p><code>memcache.locations.list</code></p>
 <p><code>memcache.operations.list</code></p>
+<p><code>memorystore.aclPolicies.list</code></p>
+<p><code>memorystore. aclPolicyRevisions. list</code></p>
+<p><code>memorystore.authTokens.list</code></p>
 <p><code>memorystore. backupCollections. list</code></p>
 <p><code>memorystore.backups.list</code></p>
 <p><code>memorystore.instances.list</code></p>
 <p><code>memorystore.locations.list</code></p>
 <p><code>memorystore.operations.list</code></p>
+<p><code>memorystore. tokenAuthUsers. list</code></p>
 <p><code>metastore.backups.getIamPolicy</code></p>
 <p><code>metastore.backups.list</code></p>
 <p><code>metastore. databases. getIamPolicy</code></p>
@@ -5595,7 +5623,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>saasservicemgmt.unitKinds.list</code></p>
 <p><code>saasservicemgmt. unitOperations. list</code></p>
 <p><code>saasservicemgmt.units.list</code></p>
+<p><code>secretmanager.backups.list</code></p>
 <p><code>secretmanager.locations.list</code></p>
+<p><code>secretmanager.operations.list</code></p>
 <p><code>secretmanager. secrets. getIamPolicy</code></p>
 <p><code>secretmanager.secrets.list</code></p>
 <p><code>secretmanager.versions.list</code></p>
@@ -5819,6 +5849,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>vmmigration.sources.list</code></p>
 <p><code>vmmigration.targets.list</code></p>
 <p><code>vmmigration. utilizationReports. list</code></p>
+<p><code>vmwareengine. capacityAllocations. list</code></p>
 <p><code>vmwareengine. clusters. getIamPolicy</code></p>
 <p><code>vmwareengine.clusters.list</code></p>
 <p><code>vmwareengine. datastores. getIamPolicy</code></p>
@@ -7458,7 +7489,14 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.viewer">IAM Viewer</a> ( <code>roles/ iam.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code>roles/ iam.workloadIdentityPoolAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolViewer">IAM Workload Identity Pool Viewer</a> ( <code>roles/ iam.workloadIdentityPoolViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolViewer">IAM Workload Identity Pool Viewer</a> ( <code>roles/ iam.workloadIdentityPoolViewer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/anthosservicemesh#anthosservicemesh.serviceAgent">Anthos Service Mesh Service Agent</a> ( <code>roles/ anthosservicemesh.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><code>iam.googleapis. com/workloadIdentityPools. getAttestationRules</code></td>

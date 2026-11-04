@@ -62,6 +62,7 @@ Oracle Database@Google Cloud service agent offers the following service agent ro
 <p><code>compute. interconnects. setLabels</code></p>
 <p><code>compute.interconnects.update</code></p>
 <p><code>compute.interconnects.use</code></p>
+<p><code>compute.networkAttachments.get</code></p>
 <p><code>compute.networks.get</code></p>
 <p><code>compute.networks.list</code></p>
 <p><code>compute.networks.updatePolicy</code></p>
@@ -157,6 +158,10 @@ Oracle Database@Google Cloud service agent offers the following service agent ro
 <p><code>networkconnectivity. internalRanges. update</code></p>
 <p><code>networkconnectivity. operations. get</code></p>
 <p><code>networkconnectivity. operations. list</code></p>
+<p><code>oracledatabase. cloudVmClusters. disableIdentityConnector</code></p>
+<p><code>oracledatabase. cloudVmClusters. enableIdentityConnector</code></p>
+<p><code>oracledatabase. exadbVmClusters. disableIdentityConnector</code></p>
+<p><code>oracledatabase. exadbVmClusters. enableIdentityConnector</code></p>
 <p><code>oracledatabase. odbNetworks. create</code></p>
 <p><code>oracledatabase.odbNetworks.get</code></p>
 <p><code>oracledatabase. odbNetworks. list</code></p>

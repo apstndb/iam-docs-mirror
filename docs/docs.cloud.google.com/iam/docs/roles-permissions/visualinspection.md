@@ -366,6 +366,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. deploymentResourcePools. queryDeployedModels</code></li>
 <li><code>aiplatform. deploymentResourcePools. update</code></li>
 </ul>
+<p><code>aiplatform.detectors.*</code></p>
+<ul>
+<li><code>aiplatform.detectors.create</code></li>
+<li><code>aiplatform.detectors.delete</code></li>
+<li><code>aiplatform.detectors.disable</code></li>
+<li><code>aiplatform.detectors.enable</code></li>
+<li><code>aiplatform.detectors.get</code></li>
+<li><code>aiplatform.detectors.list</code></li>
+<li><code>aiplatform.detectors.update</code></li>
+</ul>
 <p><code>aiplatform. edgeDeploymentJobs.*</code></p>
 <ul>
 <li><code>aiplatform. edgeDeploymentJobs. create</code></li>

@@ -1771,6 +1771,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>run.jobs.run</code></p>
 <p><code>run.routes.invoke</code></p>
 <p><code>serviceusage.services.use</code></p>
+<p><code>storage.buckets.create</code></p>
 <p><code>storage.objects.create</code></p>
 <p><code>storage.objects.delete</code></p>
 <p><code>storage.objects.get</code></p>

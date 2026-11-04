@@ -450,7 +450,7 @@ You can configure an existing Microsoft Entra ID application or create a new one
     1.  Go to **API permissions** .
     2.  Click **Add a permission** .
     3.  Select **Microsoft Graph** .
-    4.  Select **Application permissions** .
+    4.  Select **Delegated permissions** .
     5.  In the search field, enter `User.ReadBasic.All` .
     6.  Select `User.ReadBasic.All` , and then click **Add permissions** .
 
@@ -460,7 +460,7 @@ You can configure an existing Microsoft Entra ID application or create a new one
 
     1.  In **API permissions** , click **Add a permission** .
     2.  Select **Microsoft Graph** .
-    3.  Select **Application permissions** .
+    3.  Select **Delegated permissions** .
     4.  In the search field, enter `GroupMember.Read.All` .
     5.  Select `GroupMember.Read.All` , and then click **Add permissions** .
 

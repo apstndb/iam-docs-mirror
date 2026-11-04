@@ -23,7 +23,7 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 </thead>
 <tbody>
 <tr class="odd">
-<td>Agent Registry API Admin <sup>Beta</sup>
+<td>Agent Registry API Admin
 <p>( <code>roles/ agentregistry.admin</code> )</p>
 <p>Full access to Agent Registry API resources.</p></td>
 <td><p><code>agentregistry.*</code></p>
@@ -31,6 +31,10 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <li><code>agentregistry.agents.get</code></li>
 <li><code>agentregistry.agents.list</code></li>
 <li><code>agentregistry.agents.search</code></li>
+<li><code>agentregistry. aiApplications. get</code></li>
+<li><code>agentregistry. aiApplications. getIamPolicy</code></li>
+<li><code>agentregistry. aiApplications. list</code></li>
+<li><code>agentregistry. aiApplications. setIamPolicy</code></li>
 <li><code>agentregistry.bindings.create</code></li>
 <li><code>agentregistry.bindings.delete</code></li>
 <li><code>agentregistry. bindings. fetchAvailable</code></li>
@@ -70,7 +74,7 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 </ul></td>
 </tr>
 <tr class="even">
-<td>Agent Registry API Editor <sup>Beta</sup>
+<td>Agent Registry API Editor
 <p>( <code>roles/ agentregistry.editor</code> )</p>
 <p>Edit access to Agent Registry API resources.</p></td>
 <td><p><code>agentregistry.agents.*</code></p>
@@ -79,6 +83,8 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <li><code>agentregistry.agents.list</code></li>
 <li><code>agentregistry.agents.search</code></li>
 </ul>
+<p><code>agentregistry. aiApplications. get</code></p>
+<p><code>agentregistry. aiApplications. list</code></p>
 <p><code>agentregistry. bindings. fetchAvailable</code></p>
 <p><code>agentregistry.bindings.get</code></p>
 <p><code>agentregistry.bindings.list</code></p>
@@ -133,7 +139,7 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <p><code>agentregistry.skills.update</code></p></td>
 </tr>
 <tr class="odd">
-<td>Agent Registry API Viewer <sup>Beta</sup>
+<td>Agent Registry API Viewer
 <p>( <code>roles/ agentregistry.viewer</code> )</p>
 <p>Readonly access to Agent Registry API resources.</p></td>
 <td><p><code>agentregistry.agents.*</code></p>
@@ -142,6 +148,8 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <li><code>agentregistry.agents.list</code></li>
 <li><code>agentregistry.agents.search</code></li>
 </ul>
+<p><code>agentregistry. aiApplications. get</code></p>
+<p><code>agentregistry. aiApplications. list</code></p>
 <p><code>agentregistry. bindings. fetchAvailable</code></p>
 <p><code>agentregistry.bindings.get</code></p>
 <p><code>agentregistry.bindings.list</code></p>
@@ -186,6 +194,8 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <li><code>agentregistry.agents.list</code></li>
 <li><code>agentregistry.agents.search</code></li>
 </ul>
+<p><code>agentregistry. aiApplications. get</code></p>
+<p><code>agentregistry. aiApplications. list</code></p>
 <p><code>agentregistry. bindings. fetchAvailable</code></p>
 <p><code>agentregistry.bindings.get</code></p>
 <p><code>agentregistry.bindings.list</code></p>
@@ -312,6 +322,74 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="even">
+<td><code>agentregistry. aiApplications. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.admin">Agent Registry API Admin</a> ( <code>roles/ agentregistry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.editor">Agent Registry API Editor</a> ( <code>roles/ agentregistry.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.viewer">Agent Registry API Viewer</a> ( <code>roles/ agentregistry.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.user">Agent Registry User</a> ( <code>roles/ agentregistry.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>agentregistry. aiApplications. getIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.admin">Agent Registry API Admin</a> ( <code>roles/ agentregistry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>agentregistry. aiApplications. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.admin">Agent Registry API Admin</a> ( <code>roles/ agentregistry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.editor">Agent Registry API Editor</a> ( <code>roles/ agentregistry.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.viewer">Agent Registry API Viewer</a> ( <code>roles/ agentregistry.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.user">Agent Registry User</a> ( <code>roles/ agentregistry.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>agentregistry. aiApplications. setIamPolicy</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.admin">Agent Registry API Admin</a> ( <code>roles/ agentregistry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>agentregistry.bindings.create</code></td>

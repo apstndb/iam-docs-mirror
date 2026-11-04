@@ -462,9 +462,13 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>firebaseapphosting.*</code></p>
 <ul>
 <li><code>firebaseapphosting. backends. create</code></li>
+<li><code>firebaseapphosting. backends. createTagBinding</code></li>
 <li><code>firebaseapphosting. backends. delete</code></li>
+<li><code>firebaseapphosting. backends. deleteTagBinding</code></li>
 <li><code>firebaseapphosting. backends. get</code></li>
 <li><code>firebaseapphosting. backends. list</code></li>
+<li><code>firebaseapphosting. backends. listEffectiveTags</code></li>
+<li><code>firebaseapphosting. backends. listTagBindings</code></li>
 <li><code>firebaseapphosting. backends. update</code></li>
 <li><code>firebaseapphosting. builds. create</code></li>
 <li><code>firebaseapphosting. builds. delete</code></li>
@@ -558,7 +562,9 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code>firebasedataconnect. schemas. migrate</code></li>
 <li><code>firebasedataconnect. schemas. update</code></li>
 <li><code>firebasedataconnect. services. create</code></li>
+<li><code>firebasedataconnect. services. createTagBinding</code></li>
 <li><code>firebasedataconnect. services. delete</code></li>
+<li><code>firebasedataconnect. services. deleteTagBinding</code></li>
 <li><code>firebasedataconnect. services. executeGraphql</code></li>
 <li><code>firebasedataconnect. services. executeGraphqlRead</code></li>
 <li><code>firebasedataconnect. services. generateQuery</code></li>
@@ -566,6 +572,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code>firebasedataconnect. services. get</code></li>
 <li><code>firebasedataconnect. services. introspectGraphql</code></li>
 <li><code>firebasedataconnect. services. list</code></li>
+<li><code>firebasedataconnect. services. listEffectiveTags</code></li>
+<li><code>firebasedataconnect. services. listTagBindings</code></li>
 <li><code>firebasedataconnect. services. postgrestCallFunction</code></li>
 <li><code>firebasedataconnect. services. postgrestDelete</code></li>
 <li><code>firebasedataconnect. services. postgrestInsert</code></li>
@@ -1242,6 +1250,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 </ul>
 <p><code>firebaseapphosting. backends. get</code></p>
 <p><code>firebaseapphosting. backends. list</code></p>
+<p><code>firebaseapphosting. backends. listEffectiveTags</code></p>
+<p><code>firebaseapphosting. backends. listTagBindings</code></p>
 <p><code>firebaseapphosting.builds.get</code></p>
 <p><code>firebaseapphosting.builds.list</code></p>
 <p><code>firebaseapphosting.domains.get</code></p>
@@ -1316,6 +1326,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>firebasedataconnect. services. get</code></p>
 <p><code>firebasedataconnect. services. introspectGraphql</code></p>
 <p><code>firebasedataconnect. services. list</code></p>
+<p><code>firebasedataconnect. services. listEffectiveTags</code></p>
+<p><code>firebasedataconnect. services. listTagBindings</code></p>
 <p><code>firebasedynamiclinks. destinations. list</code></p>
 <p><code>firebasedynamiclinks. domains. create</code></p>
 <p><code>firebasedynamiclinks. domains. get</code></p>
@@ -1661,6 +1673,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>firebaseappdistro.testers.list</code></p>
 <p><code>firebaseapphosting. backends. get</code></p>
 <p><code>firebaseapphosting. backends. list</code></p>
+<p><code>firebaseapphosting. backends. listEffectiveTags</code></p>
+<p><code>firebaseapphosting. backends. listTagBindings</code></p>
 <p><code>firebaseapphosting.builds.get</code></p>
 <p><code>firebaseapphosting.builds.list</code></p>
 <p><code>firebaseapphosting.domains.get</code></p>
@@ -1705,6 +1719,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>firebasedataconnect. services. get</code></p>
 <p><code>firebasedataconnect. services. introspectGraphql</code></p>
 <p><code>firebasedataconnect. services. list</code></p>
+<p><code>firebasedataconnect. services. listEffectiveTags</code></p>
+<p><code>firebasedataconnect. services. listTagBindings</code></p>
 <p><code>firebasedynamiclinks. destinations. list</code></p>
 <p><code>firebasedynamiclinks. domains. get</code></p>
 <p><code>firebasedynamiclinks. domains. list</code></p>
@@ -2243,9 +2259,13 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>firebaseapphosting.*</code></p>
 <ul>
 <li><code>firebaseapphosting. backends. create</code></li>
+<li><code>firebaseapphosting. backends. createTagBinding</code></li>
 <li><code>firebaseapphosting. backends. delete</code></li>
+<li><code>firebaseapphosting. backends. deleteTagBinding</code></li>
 <li><code>firebaseapphosting. backends. get</code></li>
 <li><code>firebaseapphosting. backends. list</code></li>
+<li><code>firebaseapphosting. backends. listEffectiveTags</code></li>
+<li><code>firebaseapphosting. backends. listTagBindings</code></li>
 <li><code>firebaseapphosting. backends. update</code></li>
 <li><code>firebaseapphosting. builds. create</code></li>
 <li><code>firebaseapphosting. builds. delete</code></li>
@@ -2324,7 +2344,9 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code>firebasedataconnect. schemas. migrate</code></li>
 <li><code>firebasedataconnect. schemas. update</code></li>
 <li><code>firebasedataconnect. services. create</code></li>
+<li><code>firebasedataconnect. services. createTagBinding</code></li>
 <li><code>firebasedataconnect. services. delete</code></li>
+<li><code>firebasedataconnect. services. deleteTagBinding</code></li>
 <li><code>firebasedataconnect. services. executeGraphql</code></li>
 <li><code>firebasedataconnect. services. executeGraphqlRead</code></li>
 <li><code>firebasedataconnect. services. generateQuery</code></li>
@@ -2332,6 +2354,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code>firebasedataconnect. services. get</code></li>
 <li><code>firebasedataconnect. services. introspectGraphql</code></li>
 <li><code>firebasedataconnect. services. list</code></li>
+<li><code>firebasedataconnect. services. listEffectiveTags</code></li>
+<li><code>firebasedataconnect. services. listTagBindings</code></li>
 <li><code>firebasedataconnect. services. postgrestCallFunction</code></li>
 <li><code>firebasedataconnect. services. postgrestDelete</code></li>
 <li><code>firebasedataconnect. services. postgrestInsert</code></li>
@@ -2875,6 +2899,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>firebaseappcheck.services.get</code></p>
 <p><code>firebaseapphosting. backends. get</code></p>
 <p><code>firebaseapphosting. backends. list</code></p>
+<p><code>firebaseapphosting. backends. listEffectiveTags</code></p>
+<p><code>firebaseapphosting. backends. listTagBindings</code></p>
 <p><code>firebaseapphosting.builds.get</code></p>
 <p><code>firebaseapphosting.builds.list</code></p>
 <p><code>firebaseapphosting.domains.get</code></p>
@@ -2913,6 +2939,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>firebasedataconnect. services. get</code></p>
 <p><code>firebasedataconnect. services. introspectGraphql</code></p>
 <p><code>firebasedataconnect. services. list</code></p>
+<p><code>firebasedataconnect. services. listEffectiveTags</code></p>
+<p><code>firebasedataconnect. services. listTagBindings</code></p>
 <p><code>firebaseextensions. configs. list</code></p>
 <p><code>firebasehosting.sites.get</code></p>
 <p><code>firebasehosting.sites.list</code></p>

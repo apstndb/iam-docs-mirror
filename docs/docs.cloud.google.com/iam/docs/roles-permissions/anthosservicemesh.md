@@ -240,6 +240,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>gkehub.memberships.get</code></p>
 <p><code>gkehub.memberships.list</code></p>
+<p><code>iam.googleapis. com/workloadIdentityPools. get</code></p>
 <p><code>logging.logEntries.create</code></p>
 <p><code>meshconfig.projects.init</code></p>
 <p><code>monitoring. metricDescriptors. create</code></p>

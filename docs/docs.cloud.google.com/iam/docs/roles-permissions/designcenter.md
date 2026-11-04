@@ -208,22 +208,36 @@ This page lists the IAM roles and permissions for Application Design Center. To 
 </ul>
 <p><code>developerconnect. connections. constructGitHubAppManifest</code></p>
 <p><code>developerconnect. connections. create</code></p>
+<p><code>developerconnect. connections. createTagBinding</code></p>
 <p><code>developerconnect. connections. delete</code></p>
+<p><code>developerconnect. connections. deleteTagBinding</code></p>
 <p><code>developerconnect. connections. fetchGitHubInstallations</code></p>
 <p><code>developerconnect. connections. fetchLinkableGitRepositories</code></p>
 <p><code>developerconnect. connections. generateGitHubStateToken</code></p>
 <p><code>developerconnect. connections. get</code></p>
 <p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. connections. listEffectiveTags</code></p>
+<p><code>developerconnect. connections. listTagBindings</code></p>
 <p><code>developerconnect. connections. processGitHubAppCreationCallback</code></p>
 <p><code>developerconnect. connections. processGitHubOAuthCallback</code></p>
 <p><code>developerconnect. connections. update</code></p>
+<p><code>developerconnect. gitRepositoryLinks. addPullRequestComment</code></p>
+<p><code>developerconnect. gitRepositoryLinks. addPullRequestReviewComment</code></p>
 <p><code>developerconnect. gitRepositoryLinks. create</code></p>
 <p><code>developerconnect. gitRepositoryLinks. delete</code></p>
+<p><code>developerconnect. gitRepositoryLinks. diffCommit</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchCommit</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchCommitList</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchFileBlame</code></p>
 <p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchPullRequest</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchPullRequestList</code></p>
 <p><code>developerconnect. gitRepositoryLinks. get</code></p>
 <p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
 <p><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></p>
 <p><code>developerconnect. gitRepositoryLinks. list</code></p>
+<p><code>developerconnect. gitRepositoryLinks. modifyPullRequest</code></p>
+<p><code>developerconnect. gitRepositoryLinks. openPullRequest</code></p>
 <p><code>developerconnect.locations.*</code></p>
 <ul>
 <li><code>developerconnect.locations.get</code></li>
@@ -710,22 +724,36 @@ This page lists the IAM roles and permissions for Application Design Center. To 
 <p><code>designcenter.spaces.list</code></p>
 <p><code>developerconnect. connections. constructGitHubAppManifest</code></p>
 <p><code>developerconnect. connections. create</code></p>
+<p><code>developerconnect. connections. createTagBinding</code></p>
 <p><code>developerconnect. connections. delete</code></p>
+<p><code>developerconnect. connections. deleteTagBinding</code></p>
 <p><code>developerconnect. connections. fetchGitHubInstallations</code></p>
 <p><code>developerconnect. connections. fetchLinkableGitRepositories</code></p>
 <p><code>developerconnect. connections. generateGitHubStateToken</code></p>
 <p><code>developerconnect. connections. get</code></p>
 <p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. connections. listEffectiveTags</code></p>
+<p><code>developerconnect. connections. listTagBindings</code></p>
 <p><code>developerconnect. connections. processGitHubAppCreationCallback</code></p>
 <p><code>developerconnect. connections. processGitHubOAuthCallback</code></p>
 <p><code>developerconnect. connections. update</code></p>
+<p><code>developerconnect. gitRepositoryLinks. addPullRequestComment</code></p>
+<p><code>developerconnect. gitRepositoryLinks. addPullRequestReviewComment</code></p>
 <p><code>developerconnect. gitRepositoryLinks. create</code></p>
 <p><code>developerconnect. gitRepositoryLinks. delete</code></p>
+<p><code>developerconnect. gitRepositoryLinks. diffCommit</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchCommit</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchCommitList</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchFileBlame</code></p>
 <p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchPullRequest</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchPullRequestList</code></p>
 <p><code>developerconnect. gitRepositoryLinks. get</code></p>
 <p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
 <p><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></p>
 <p><code>developerconnect. gitRepositoryLinks. list</code></p>
+<p><code>developerconnect. gitRepositoryLinks. modifyPullRequest</code></p>
+<p><code>developerconnect. gitRepositoryLinks. openPullRequest</code></p>
 <p><code>developerconnect.locations.*</code></p>
 <ul>
 <li><code>developerconnect.locations.get</code></li>

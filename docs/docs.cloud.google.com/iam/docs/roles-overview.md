@@ -125,9 +125,9 @@ The following table summarizes the permissions that the Admin, Writer, and Reade
 </tbody>
 </table>
 
-You can't use the Google Cloud console to grant the Reader, Writer, or Admin roles. Instead, use the API or the gcloud CLI. You can also create entitlements for these roles using [Privileged Access Manager](https://docs.cloud.google.com/iam/docs/pam-overview) .
+You can use the Google Cloud console, the API, or the gcloud CLI to grant the Reader, Writer, or Admin roles. For instructions, see [Granting, changing, and revoking access](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
-For instructions, see [Granting, changing, and revoking access](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+You can also create entitlements for these roles using [Privileged Access Manager](https://docs.cloud.google.com/iam/docs/pam-overview) .
 
 ### Legacy basic roles
 

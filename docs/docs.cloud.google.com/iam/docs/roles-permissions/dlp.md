@@ -590,6 +590,8 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>aiplatform. deploymentResourcePools. get</code></p>
 <p><code>aiplatform. deploymentResourcePools. list</code></p>
 <p><code>aiplatform. deploymentResourcePools. queryDeployedModels</code></p>
+<p><code>aiplatform.detectors.get</code></p>
+<p><code>aiplatform.detectors.list</code></p>
 <p><code>aiplatform. edgeDeploymentJobs. get</code></p>
 <p><code>aiplatform. edgeDeploymentJobs. list</code></p>
 <p><code>aiplatform. edgeDeviceDebugInfo. get</code></p>
@@ -959,6 +961,7 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>certificatemanager. trustconfigs. listEffectiveTags</code></p>
 <p><code>certificatemanager. trustconfigs. listTagBindings</code></p>
 <p><code>cloudaicompanion. entitlements. get</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
 <p><code>cloudaicompanion.topics.create</code></p>
 <p><code>cloudasset. assets. analyzeIamPolicy</code></p>
 <p><code>cloudasset.assets.analyzeMove</code></p>
@@ -1937,6 +1940,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>datastream. streams. deleteTagBinding</code></p>
 <p><code>datastream. streams. listEffectiveTags</code></p>
 <p><code>datastream. streams. listTagBindings</code></p>
+<p><code>developerconnect. connections. createTagBinding</code></p>
+<p><code>developerconnect. connections. deleteTagBinding</code></p>
+<p><code>developerconnect. connections. listEffectiveTags</code></p>
+<p><code>developerconnect. connections. listTagBindings</code></p>
 <p><code>dlp.*</code></p>
 <ul>
 <li><code>dlp. analyzeRiskTemplates. create</code></li>
@@ -2048,6 +2055,37 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>financialservices. v1instances. deleteTagBinding</code></p>
 <p><code>financialservices. v1instances. listEffectiveTags</code></p>
 <p><code>financialservices. v1instances. listTagBindings</code></p>
+<p><code>firebaseapphosting. backends. createTagBinding</code></p>
+<p><code>firebaseapphosting. backends. deleteTagBinding</code></p>
+<p><code>firebaseapphosting. backends. listEffectiveTags</code></p>
+<p><code>firebaseapphosting. backends. listTagBindings</code></p>
+<p><code>firebasedataconnect. services. createTagBinding</code></p>
+<p><code>firebasedataconnect. services. deleteTagBinding</code></p>
+<p><code>firebasedataconnect. services. listEffectiveTags</code></p>
+<p><code>firebasedataconnect. services. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. hardware. createTagBinding</code></p>
+<p><code>gdchardwaremanagement. hardware. deleteTagBinding</code></p>
+<p><code>gdchardwaremanagement. hardware. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. hardware. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. orders. createTagBinding</code></p>
+<p><code>gdchardwaremanagement. orders. deleteTagBinding</code></p>
+<p><code>gdchardwaremanagement. orders. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. orders. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. sites. createTagBinding</code></p>
+<p><code>gdchardwaremanagement. sites. deleteTagBinding</code></p>
+<p><code>gdchardwaremanagement. sites. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. sites. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. zoneOperations.*</code></p>
+<ul>
+<li><code>gdchardwaremanagement. zoneOperations. createTagBinding</code></li>
+<li><code>gdchardwaremanagement. zoneOperations. deleteTagBinding</code></li>
+<li><code>gdchardwaremanagement. zoneOperations. listEffectiveTags</code></li>
+<li><code>gdchardwaremanagement. zoneOperations. listTagBindings</code></li>
+</ul>
+<p><code>gdchardwaremanagement. zones. createTagBinding</code></p>
+<p><code>gdchardwaremanagement. zones. deleteTagBinding</code></p>
+<p><code>gdchardwaremanagement. zones. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. zones. listTagBindings</code></p>
 <p><code>geminidataanalytics. locations. chat</code></p>
 <p><code>gkemulticloud. attachedClusters. createTagBinding</code></p>
 <p><code>gkemulticloud. attachedClusters. deleteTagBinding</code></p>
@@ -2109,6 +2147,14 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>memcache. instances. deleteTagBinding</code></p>
 <p><code>memcache. instances. listEffectiveTags</code></p>
 <p><code>memcache. instances. listTagBindings</code></p>
+<p><code>memorystore. backupCollections. createTagBinding</code></p>
+<p><code>memorystore. backupCollections. deleteTagBinding</code></p>
+<p><code>memorystore. backupCollections. listEffectiveTags</code></p>
+<p><code>memorystore. backupCollections. listTagBindings</code></p>
+<p><code>memorystore. instances. createTagBinding</code></p>
+<p><code>memorystore. instances. deleteTagBinding</code></p>
+<p><code>memorystore. instances. listEffectiveTags</code></p>
+<p><code>memorystore. instances. listTagBindings</code></p>
 <p><code>metastore. federations. createTagBinding</code></p>
 <p><code>metastore. federations. deleteTagBinding</code></p>
 <p><code>metastore. federations. listEffectiveTags</code></p>
@@ -2173,6 +2219,26 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>notebooks. instances. deleteTagBinding</code></p>
 <p><code>notebooks. instances. listEffectiveTags</code></p>
 <p><code>notebooks. instances. listTagBindings</code></p>
+<p><code>oracledatabase. autonomousDatabases. createTagBinding</code></p>
+<p><code>oracledatabase. autonomousDatabases. deleteTagBinding</code></p>
+<p><code>oracledatabase. autonomousDatabases. listEffectiveTags</code></p>
+<p><code>oracledatabase. autonomousDatabases. listTagBindings</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. createTagBinding</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. deleteTagBinding</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. listEffectiveTags</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. listTagBindings</code></p>
+<p><code>oracledatabase. cloudVmClusters. createTagBinding</code></p>
+<p><code>oracledatabase. cloudVmClusters. deleteTagBinding</code></p>
+<p><code>oracledatabase. cloudVmClusters. listEffectiveTags</code></p>
+<p><code>oracledatabase. cloudVmClusters. listTagBindings</code></p>
+<p><code>oracledatabase. dbSystems. createTagBinding</code></p>
+<p><code>oracledatabase. dbSystems. deleteTagBinding</code></p>
+<p><code>oracledatabase. dbSystems. listEffectiveTags</code></p>
+<p><code>oracledatabase. dbSystems. listTagBindings</code></p>
+<p><code>oracledatabase. entitlements. createTagBinding</code></p>
+<p><code>oracledatabase. entitlements. deleteTagBinding</code></p>
+<p><code>oracledatabase. entitlements. listEffectiveTags</code></p>
+<p><code>oracledatabase. entitlements. listTagBindings</code></p>
 <p><code>parametermanager. parameters. createTagBinding</code></p>
 <p><code>parametermanager. parameters. deleteTagBinding</code></p>
 <p><code>parametermanager. parameters. listEffectiveTags</code></p>
@@ -2399,6 +2465,8 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>aiplatform. deploymentResourcePools. get</code></p>
 <p><code>aiplatform. deploymentResourcePools. list</code></p>
 <p><code>aiplatform. deploymentResourcePools. queryDeployedModels</code></p>
+<p><code>aiplatform.detectors.get</code></p>
+<p><code>aiplatform.detectors.list</code></p>
 <p><code>aiplatform. edgeDeploymentJobs. get</code></p>
 <p><code>aiplatform. edgeDeploymentJobs. list</code></p>
 <p><code>aiplatform. edgeDeviceDebugInfo. get</code></p>
@@ -2768,6 +2836,7 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>certificatemanager. trustconfigs. listEffectiveTags</code></p>
 <p><code>certificatemanager. trustconfigs. listTagBindings</code></p>
 <p><code>cloudaicompanion. entitlements. get</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
 <p><code>cloudaicompanion.topics.create</code></p>
 <p><code>cloudasset. assets. analyzeIamPolicy</code></p>
 <p><code>cloudasset.assets.analyzeMove</code></p>
@@ -3746,6 +3815,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>datastream. streams. deleteTagBinding</code></p>
 <p><code>datastream. streams. listEffectiveTags</code></p>
 <p><code>datastream. streams. listTagBindings</code></p>
+<p><code>developerconnect. connections. createTagBinding</code></p>
+<p><code>developerconnect. connections. deleteTagBinding</code></p>
+<p><code>developerconnect. connections. listEffectiveTags</code></p>
+<p><code>developerconnect. connections. listTagBindings</code></p>
 <p><code>dlp.*</code></p>
 <ul>
 <li><code>dlp. analyzeRiskTemplates. create</code></li>
@@ -3857,6 +3930,37 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>financialservices. v1instances. deleteTagBinding</code></p>
 <p><code>financialservices. v1instances. listEffectiveTags</code></p>
 <p><code>financialservices. v1instances. listTagBindings</code></p>
+<p><code>firebaseapphosting. backends. createTagBinding</code></p>
+<p><code>firebaseapphosting. backends. deleteTagBinding</code></p>
+<p><code>firebaseapphosting. backends. listEffectiveTags</code></p>
+<p><code>firebaseapphosting. backends. listTagBindings</code></p>
+<p><code>firebasedataconnect. services. createTagBinding</code></p>
+<p><code>firebasedataconnect. services. deleteTagBinding</code></p>
+<p><code>firebasedataconnect. services. listEffectiveTags</code></p>
+<p><code>firebasedataconnect. services. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. hardware. createTagBinding</code></p>
+<p><code>gdchardwaremanagement. hardware. deleteTagBinding</code></p>
+<p><code>gdchardwaremanagement. hardware. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. hardware. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. orders. createTagBinding</code></p>
+<p><code>gdchardwaremanagement. orders. deleteTagBinding</code></p>
+<p><code>gdchardwaremanagement. orders. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. orders. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. sites. createTagBinding</code></p>
+<p><code>gdchardwaremanagement. sites. deleteTagBinding</code></p>
+<p><code>gdchardwaremanagement. sites. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. sites. listTagBindings</code></p>
+<p><code>gdchardwaremanagement. zoneOperations.*</code></p>
+<ul>
+<li><code>gdchardwaremanagement. zoneOperations. createTagBinding</code></li>
+<li><code>gdchardwaremanagement. zoneOperations. deleteTagBinding</code></li>
+<li><code>gdchardwaremanagement. zoneOperations. listEffectiveTags</code></li>
+<li><code>gdchardwaremanagement. zoneOperations. listTagBindings</code></li>
+</ul>
+<p><code>gdchardwaremanagement. zones. createTagBinding</code></p>
+<p><code>gdchardwaremanagement. zones. deleteTagBinding</code></p>
+<p><code>gdchardwaremanagement. zones. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. zones. listTagBindings</code></p>
 <p><code>geminidataanalytics. locations. chat</code></p>
 <p><code>gkemulticloud. attachedClusters. createTagBinding</code></p>
 <p><code>gkemulticloud. attachedClusters. deleteTagBinding</code></p>
@@ -3918,6 +4022,14 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>memcache. instances. deleteTagBinding</code></p>
 <p><code>memcache. instances. listEffectiveTags</code></p>
 <p><code>memcache. instances. listTagBindings</code></p>
+<p><code>memorystore. backupCollections. createTagBinding</code></p>
+<p><code>memorystore. backupCollections. deleteTagBinding</code></p>
+<p><code>memorystore. backupCollections. listEffectiveTags</code></p>
+<p><code>memorystore. backupCollections. listTagBindings</code></p>
+<p><code>memorystore. instances. createTagBinding</code></p>
+<p><code>memorystore. instances. deleteTagBinding</code></p>
+<p><code>memorystore. instances. listEffectiveTags</code></p>
+<p><code>memorystore. instances. listTagBindings</code></p>
 <p><code>metastore. federations. createTagBinding</code></p>
 <p><code>metastore. federations. deleteTagBinding</code></p>
 <p><code>metastore. federations. listEffectiveTags</code></p>
@@ -3982,6 +4094,26 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>notebooks. instances. deleteTagBinding</code></p>
 <p><code>notebooks. instances. listEffectiveTags</code></p>
 <p><code>notebooks. instances. listTagBindings</code></p>
+<p><code>oracledatabase. autonomousDatabases. createTagBinding</code></p>
+<p><code>oracledatabase. autonomousDatabases. deleteTagBinding</code></p>
+<p><code>oracledatabase. autonomousDatabases. listEffectiveTags</code></p>
+<p><code>oracledatabase. autonomousDatabases. listTagBindings</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. createTagBinding</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. deleteTagBinding</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. listEffectiveTags</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. listTagBindings</code></p>
+<p><code>oracledatabase. cloudVmClusters. createTagBinding</code></p>
+<p><code>oracledatabase. cloudVmClusters. deleteTagBinding</code></p>
+<p><code>oracledatabase. cloudVmClusters. listEffectiveTags</code></p>
+<p><code>oracledatabase. cloudVmClusters. listTagBindings</code></p>
+<p><code>oracledatabase. dbSystems. createTagBinding</code></p>
+<p><code>oracledatabase. dbSystems. deleteTagBinding</code></p>
+<p><code>oracledatabase. dbSystems. listEffectiveTags</code></p>
+<p><code>oracledatabase. dbSystems. listTagBindings</code></p>
+<p><code>oracledatabase. entitlements. createTagBinding</code></p>
+<p><code>oracledatabase. entitlements. deleteTagBinding</code></p>
+<p><code>oracledatabase. entitlements. listEffectiveTags</code></p>
+<p><code>oracledatabase. entitlements. listTagBindings</code></p>
 <p><code>parametermanager. parameters. createTagBinding</code></p>
 <p><code>parametermanager. parameters. deleteTagBinding</code></p>
 <p><code>parametermanager. parameters. listEffectiveTags</code></p>
@@ -4358,6 +4490,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>bigquery.tables.updateTag</code></li>
 </ul>
 <p><code>cloudaicompanion. instances. completeTask</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
 <p><code>cloudaicompanion.topics.create</code></p>
 <p><code>cloudasset. assets. analyzeIamPolicy</code></p>
 <p><code>cloudasset. assets. exportResource</code></p>

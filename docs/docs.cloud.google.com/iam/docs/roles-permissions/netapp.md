@@ -26,10 +26,21 @@ This page lists the IAM roles and permissions for Google Cloud NetApp Volumes. T
 <td>Google Cloud NetApp Volumes Admin <sup>Beta</sup>
 <p>( <code>roles/ netapp.admin</code> )</p>
 <p>Full access to Google Cloud NetApp Volumes resources.</p></td>
-<td><p><code>backupdr.backupPlans.get</code></p>
+<td><p><code>backupdr. backupPlanAssociations. createForNetappVolumes</code></p>
+<p><code>backupdr. backupPlanAssociations. deleteForNetappVolumes</code></p>
+<p><code>backupdr. backupPlanAssociations. fetchForNetappVolumes</code></p>
+<p><code>backupdr. backupPlanAssociations. getForNetappVolumes</code></p>
+<p><code>backupdr. backupPlanAssociations. triggerBackupForNetappVolumes</code></p>
+<p><code>backupdr. backupPlanAssociations. updateForNetappVolumes</code></p>
+<p><code>backupdr.backupPlans.get</code></p>
 <p><code>backupdr.backupPlans.list</code></p>
+<p><code>backupdr. backupPlans. useForNetappVolumes</code></p>
 <p><code>backupdr.backupVaults.get</code></p>
 <p><code>backupdr.backupVaults.list</code></p>
+<p><code>backupdr. bvbackups. fetchForNetappVolumes</code></p>
+<p><code>backupdr. bvbackups. useReadOnlyForNetappVolumes</code></p>
+<p><code>backupdr. dataSourceReferences. fetchForNetappVolumes</code></p>
+<p><code>backupdr. dataSourceReferences. getForNetappVolumes</code></p>
 <p><code>backupdr.locations.list</code></p>
 <p><code>backupdr.operations.get</code></p>
 <p><code>backupdr. serviceConfig. initialize</code></p>
@@ -126,7 +137,12 @@ This page lists the IAM roles and permissions for Google Cloud NetApp Volumes. T
 <td>Google Cloud NetApp Volumes Viewer <sup>Beta</sup>
 <p>( <code>roles/ netapp.viewer</code> )</p>
 <p>Readonly access to Google Cloud NetApp Volumes resources.</p></td>
-<td><p><code>netapp.activeDirectories.get</code></p>
+<td><p><code>backupdr. backupPlanAssociations. fetchForNetappVolumes</code></p>
+<p><code>backupdr. backupPlanAssociations. getForNetappVolumes</code></p>
+<p><code>backupdr. bvbackups. fetchForNetappVolumes</code></p>
+<p><code>backupdr. dataSourceReferences. fetchForNetappVolumes</code></p>
+<p><code>backupdr. dataSourceReferences. getForNetappVolumes</code></p>
+<p><code>netapp.activeDirectories.get</code></p>
 <p><code>netapp.activeDirectories.list</code></p>
 <p><code>netapp.backupPolicies.get</code></p>
 <p><code>netapp.backupPolicies.list</code></p>

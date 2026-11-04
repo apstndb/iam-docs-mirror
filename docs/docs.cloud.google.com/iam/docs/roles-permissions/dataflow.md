@@ -1762,18 +1762,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>developerconnect. connections. processGitHubAppCreationCallback</code></p>
 <p><code>developerconnect. connections. processGitHubOAuthCallback</code></p>
 <p><code>developerconnect. connections. update</code></p>
-<p><code>developerconnect. gitRepositoryLinks.*</code></p>
-<ul>
-<li><code>developerconnect. gitRepositoryLinks. create</code></li>
-<li><code>developerconnect. gitRepositoryLinks. delete</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></li>
-<li><code>developerconnect. gitRepositoryLinks. get</code></li>
-<li><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></li>
-<li><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></li>
-<li><code>developerconnect. gitRepositoryLinks. list</code></li>
-</ul>
+<p><code>developerconnect. gitRepositoryLinks. create</code></p>
+<p><code>developerconnect. gitRepositoryLinks. delete</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. get</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></p>
+<p><code>developerconnect. gitRepositoryLinks. list</code></p>
 <p><code>developerconnect.locations.*</code></p>
 <ul>
 <li><code>developerconnect.locations.get</code></li>

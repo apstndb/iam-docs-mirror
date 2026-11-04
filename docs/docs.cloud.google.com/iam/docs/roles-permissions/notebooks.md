@@ -47,6 +47,10 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <li><code>aiplatform.schedules.list</code></li>
 <li><code>aiplatform.schedules.update</code></li>
 </ul>
+<p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. get</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorInterconnects. queryFormability</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -617,6 +621,10 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>aiplatform. notebookExecutionJobs. list</code></p>
 <p><code>aiplatform.schedules.get</code></p>
 <p><code>aiplatform.schedules.list</code></p>
+<p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. get</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorInterconnects. queryFormability</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -1187,6 +1195,10 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>aiplatform. notebookExecutionJobs. list</code></p>
 <p><code>aiplatform.schedules.get</code></p>
 <p><code>aiplatform.schedules.list</code></p>
+<p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. get</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorInterconnects. queryFormability</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -1746,6 +1758,12 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>cloudkms. projects. showEffectiveAutokeyConfig</code></p>
 <p><code>compute.*</code></p>
 <ul>
+<li><code>compute. acceleratorInterconnectMemberInstances. list</code></li>
+<li><code>compute. acceleratorInterconnects. create</code></li>
+<li><code>compute. acceleratorInterconnects. delete</code></li>
+<li><code>compute. acceleratorInterconnects. get</code></li>
+<li><code>compute. acceleratorInterconnects. list</code></li>
+<li><code>compute. acceleratorInterconnects. queryFormability</code></li>
 <li><code>compute.acceleratorTypes.get</code></li>
 <li><code>compute.acceleratorTypes.list</code></li>
 <li><code>compute.addresses.create</code></li>
@@ -2935,7 +2953,11 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <td>Notebooks Legacy Viewer
 <p>( <code>roles/ notebooks.legacyViewer</code> )</p>
 <p>Read-only access to Notebooks all resources through compute API.</p></td>
-<td><p><code>compute.acceleratorTypes.*</code></p>
+<td><p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. get</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorInterconnects. queryFormability</code></p>
+<p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
 <li><code>compute.acceleratorTypes.list</code></li>
@@ -3480,6 +3502,10 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <li><code>aiplatform.schedules.list</code></li>
 <li><code>aiplatform.schedules.update</code></li>
 </ul>
+<p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. get</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorInterconnects. queryFormability</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -4077,6 +4103,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>backupdr.operations.get</code></p>
 <p><code>backupdr.operations.list</code></p>
 <p><code>backupdr. serviceConfig. initialize</code></p>
+<p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. get</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorInterconnects. queryFormability</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>

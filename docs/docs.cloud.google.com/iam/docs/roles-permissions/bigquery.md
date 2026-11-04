@@ -387,18 +387,15 @@ This page lists the IAM roles and permissions for BigQuery. To search through al
 <p><code>developerconnect. connections. processGitHubAppCreationCallback</code></p>
 <p><code>developerconnect. connections. processGitHubOAuthCallback</code></p>
 <p><code>developerconnect. connections. update</code></p>
-<p><code>developerconnect. gitRepositoryLinks.*</code></p>
-<ul>
-<li><code>developerconnect. gitRepositoryLinks. create</code></li>
-<li><code>developerconnect. gitRepositoryLinks. delete</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></li>
-<li><code>developerconnect. gitRepositoryLinks. get</code></li>
-<li><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></li>
-<li><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></li>
-<li><code>developerconnect. gitRepositoryLinks. list</code></li>
-</ul>
+<p><code>developerconnect. gitRepositoryLinks. create</code></p>
+<p><code>developerconnect. gitRepositoryLinks. delete</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. get</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></p>
+<p><code>developerconnect. gitRepositoryLinks. list</code></p>
 <p><code>developerconnect.locations.*</code></p>
 <ul>
 <li><code>developerconnect.locations.get</code></li>
@@ -816,6 +813,7 @@ This page lists the IAM roles and permissions for BigQuery. To search through al
 <p>This role can only be granted on Resource Manager resources (projects, folders, and organizations).</p></td>
 <td><p><code>bigquery.config.get</code></p>
 <p><code>bigquery.jobs.create</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
 <p><code>cloudaicompanion.topics.create</code></p>
 <p><code>dataform.folders.create</code></p>
 <p><code>dataform.locations.*</code></p>
@@ -1586,18 +1584,15 @@ This page lists the IAM roles and permissions for BigQuery. To search through al
 <p><code>developerconnect. connections. processGitHubAppCreationCallback</code></p>
 <p><code>developerconnect. connections. processGitHubOAuthCallback</code></p>
 <p><code>developerconnect. connections. update</code></p>
-<p><code>developerconnect. gitRepositoryLinks.*</code></p>
-<ul>
-<li><code>developerconnect. gitRepositoryLinks. create</code></li>
-<li><code>developerconnect. gitRepositoryLinks. delete</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></li>
-<li><code>developerconnect. gitRepositoryLinks. get</code></li>
-<li><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></li>
-<li><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></li>
-<li><code>developerconnect. gitRepositoryLinks. list</code></li>
-</ul>
+<p><code>developerconnect. gitRepositoryLinks. create</code></p>
+<p><code>developerconnect. gitRepositoryLinks. delete</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. get</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></p>
+<p><code>developerconnect. gitRepositoryLinks. list</code></p>
 <p><code>developerconnect.locations.*</code></p>
 <ul>
 <li><code>developerconnect.locations.get</code></li>
@@ -1791,11 +1786,23 @@ This page lists the IAM roles and permissions for BigQuery. To search through al
 <p><code>developerconnect. connections. fetchLinkableGitRepositories</code></p>
 <p><code>developerconnect. connections. get</code></p>
 <p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. connections. listEffectiveTags</code></p>
+<p><code>developerconnect. connections. listTagBindings</code></p>
+<p><code>developerconnect. gitRepositoryLinks. addPullRequestComment</code></p>
+<p><code>developerconnect. gitRepositoryLinks. addPullRequestReviewComment</code></p>
+<p><code>developerconnect. gitRepositoryLinks. diffCommit</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchCommit</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchCommitList</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchFileBlame</code></p>
 <p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchPullRequest</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchPullRequestList</code></p>
 <p><code>developerconnect. gitRepositoryLinks. get</code></p>
 <p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
 <p><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></p>
 <p><code>developerconnect. gitRepositoryLinks. list</code></p>
+<p><code>developerconnect. gitRepositoryLinks. modifyPullRequest</code></p>
+<p><code>developerconnect. gitRepositoryLinks. openPullRequest</code></p>
 <p><code>developerconnect.locations.*</code></p>
 <ul>
 <li><code>developerconnect.locations.get</code></li>
@@ -1862,6 +1869,8 @@ This page lists the IAM roles and permissions for BigQuery. To search through al
 <p><code>bigquery.tables.list</code></p>
 <p><code>bigquery.transfers.get</code></p>
 <p><code>bigquerymigration. translation. translate</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
+<p><code>cloudaicompanion.topics.create</code></p>
 <p><code>cloudkms.keyHandles.*</code></p>
 <ul>
 <li><code>cloudkms.keyHandles.create</code></li>
@@ -1879,6 +1888,7 @@ This page lists the IAM roles and permissions for BigQuery. To search through al
 <p><code>dataform.repositories.create</code></p>
 <p><code>dataform.repositories.list</code></p>
 <p><code>dataplex.projects.search</code></p>
+<p><code>geminidataanalytics. locations. chat</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>

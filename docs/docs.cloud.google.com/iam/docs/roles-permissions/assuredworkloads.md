@@ -258,11 +258,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code>cloudasset. assets. exportResource</code></p>
+<td><p><code>cloudasset. assets. exportIamPolicy</code></p>
+<p><code>cloudasset. assets. exportResource</code></p>
 <p><code>cloudasset.assets.listResource</code></p>
 <p><code>cloudasset.feeds.create</code></p>
 <p><code>cloudasset.feeds.delete</code></p>
-<p><code>cloudasset.feeds.get</code></p></td>
+<p><code>cloudasset.feeds.get</code></p>
+<p><code>cloudasset.feeds.list</code></p></td>
 </tr>
 <tr class="even">
 <td>Assured Workloads Service Agent

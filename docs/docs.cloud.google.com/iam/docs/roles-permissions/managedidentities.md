@@ -358,6 +358,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>dns.dnsKeys.get</code></li>
 <li><code>dns.dnsKeys.list</code></li>
 </ul>
+<p><code>dns.locations.*</code></p>
+<ul>
+<li><code>dns.locations.get</code></li>
+<li><code>dns.locations.list</code></li>
+</ul>
 <p><code>dns.managedZoneOperations.*</code></p>
 <ul>
 <li><code>dns.managedZoneOperations.get</code></li>
@@ -370,6 +375,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>dns.managedZones.update</code></p>
 <p><code>dns. networks. bindPrivateDNSPolicy</code></p>
 <p><code>dns. networks. bindPrivateDNSZone</code></p>
+<p><code>dns.operations.delete</code></p>
+<p><code>dns.operations.get</code></p>
+<p><code>dns.operations.list</code></p>
+<p><code>dns.outboundEndpoints.create</code></p>
+<p><code>dns.outboundEndpoints.delete</code></p>
+<p><code>dns.outboundEndpoints.get</code></p>
+<p><code>dns.outboundEndpoints.list</code></p>
+<p><code>dns.outboundEndpoints.update</code></p>
 <p><code>dns.policies.create</code></p>
 <p><code>dns.policies.delete</code></p>
 <p><code>dns.policies.get</code></p>

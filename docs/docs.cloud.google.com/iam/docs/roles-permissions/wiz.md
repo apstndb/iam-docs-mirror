@@ -113,7 +113,6 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 </ul>
 <p><code>artifactregistry.packages.get</code></p>
 <p><code>artifactregistry.packages.list</code></p>
-<p><code>artifactregistry. repositories. downloadArtifacts</code></p>
 <p><code>artifactregistry. repositories. get</code></p>
 <p><code>artifactregistry. repositories. getIamPolicy</code></p>
 <p><code>artifactregistry. repositories. list</code></p>
@@ -147,7 +146,6 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>certificatemanager. locations. list</code></p>
 <p><code>certificatemanager. trustconfigs. list</code></p>
 <p><code>clientauthconfig.brands.list</code></p>
-<p><code>clientauthconfig. clients. listWithSecrets</code></p>
 <p><code>cloud.locations.get</code></p>
 <p><code>cloudasset. assets. analyzeIamPolicy</code></p>
 <p><code>cloudasset.assets.listResource</code></p>
@@ -159,7 +157,6 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>cloudfunctions.functions.get</code></p>
 <p><code>cloudfunctions. functions. getIamPolicy</code></p>
 <p><code>cloudfunctions.functions.list</code></p>
-<p><code>cloudfunctions. functions. sourceCodeGet</code></p>
 <p><code>cloudkms. cryptoKeyVersions. list</code></p>
 <p><code>cloudkms. cryptoKeys. getIamPolicy</code></p>
 <p><code>cloudkms.cryptoKeys.list</code></p>
@@ -311,8 +308,6 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>container.roleBindings.list</code></p>
 <p><code>container.roles.get</code></p>
 <p><code>container.roles.list</code></p>
-<p><code>container.secrets.get</code></p>
-<p><code>container.secrets.list</code></p>
 <p><code>container.serviceAccounts.get</code></p>
 <p><code>container.serviceAccounts.list</code></p>
 <p><code>container.services.get</code></p>
@@ -632,8 +627,9 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>speech.recognizers.list</code></p>
 <p><code>storage.buckets.get</code></p>
 <p><code>storage.buckets.getIamPolicy</code></p>
+<p><code>storage. buckets. getObjectInsights</code></p>
 <p><code>storage.buckets.list</code></p>
-<p><code>storage.objects.get</code></p>
+<p><code>storage.objects.getIamPolicy</code></p>
 <p><code>storage.objects.list</code></p>
 <p><code>storageinsights. datasetConfigs. list</code></p>
 <p><code>storageinsights.locations.list</code></p>
@@ -676,13 +672,8 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>cloudsql.backupRuns.list</code></p>
 <p><code>cloudsql.instances.get</code></p>
 <p><code>cloudsql.instances.list</code></p>
-<p><code>storage.buckets.create</code></p>
-<p><code>storage.buckets.delete</code></p>
 <p><code>storage.buckets.get</code></p>
 <p><code>storage. buckets. getObjectInsights</code></p>
-<p><code>storage.buckets.update</code></p>
-<p><code>storage.objects.create</code></p>
-<p><code>storage.objects.delete</code></p>
 <p><code>storage.objects.get</code></p>
 <p><code>storage.objects.list</code></p>
 <p><code>storageinsights. reportConfigs. update</code></p></td>

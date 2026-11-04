@@ -167,6 +167,16 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. deploymentResourcePools. queryDeployedModels</code></li>
 <li><code>aiplatform. deploymentResourcePools. update</code></li>
 </ul>
+<p><code>aiplatform.detectors.*</code></p>
+<ul>
+<li><code>aiplatform.detectors.create</code></li>
+<li><code>aiplatform.detectors.delete</code></li>
+<li><code>aiplatform.detectors.disable</code></li>
+<li><code>aiplatform.detectors.enable</code></li>
+<li><code>aiplatform.detectors.get</code></li>
+<li><code>aiplatform.detectors.list</code></li>
+<li><code>aiplatform.detectors.update</code></li>
+</ul>
 <p><code>aiplatform. edgeDeploymentJobs.*</code></p>
 <ul>
 <li><code>aiplatform. edgeDeploymentJobs. create</code></li>
@@ -1103,11 +1113,23 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>developerconnect. connections. fetchLinkableGitRepositories</code></p>
 <p><code>developerconnect. connections. get</code></p>
 <p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. connections. listEffectiveTags</code></p>
+<p><code>developerconnect. connections. listTagBindings</code></p>
+<p><code>developerconnect. gitRepositoryLinks. addPullRequestComment</code></p>
+<p><code>developerconnect. gitRepositoryLinks. addPullRequestReviewComment</code></p>
+<p><code>developerconnect. gitRepositoryLinks. diffCommit</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchCommit</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchCommitList</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchFileBlame</code></p>
 <p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchPullRequest</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchPullRequestList</code></p>
 <p><code>developerconnect. gitRepositoryLinks. get</code></p>
 <p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
 <p><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></p>
 <p><code>developerconnect. gitRepositoryLinks. list</code></p>
+<p><code>developerconnect. gitRepositoryLinks. modifyPullRequest</code></p>
+<p><code>developerconnect. gitRepositoryLinks. openPullRequest</code></p>
 <p><code>developerconnect.locations.*</code></p>
 <ul>
 <li><code>developerconnect.locations.get</code></li>
@@ -1251,16 +1273,24 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>memcache.operations.get</code></p>
 <p><code>memcache.operations.list</code></p>
-<p><code>memorystore. backupCollections.*</code></p>
+<p><code>memorystore.aclPolicies.get</code></p>
+<p><code>memorystore.aclPolicies.list</code></p>
+<p><code>memorystore. aclPolicyRevisions.*</code></p>
 <ul>
-<li><code>memorystore. backupCollections. get</code></li>
-<li><code>memorystore. backupCollections. list</code></li>
+<li><code>memorystore. aclPolicyRevisions. get</code></li>
+<li><code>memorystore. aclPolicyRevisions. list</code></li>
 </ul>
+<p><code>memorystore. backupCollections. get</code></p>
+<p><code>memorystore. backupCollections. list</code></p>
+<p><code>memorystore. backupCollections. listEffectiveTags</code></p>
+<p><code>memorystore. backupCollections. listTagBindings</code></p>
 <p><code>memorystore.backups.get</code></p>
 <p><code>memorystore.backups.list</code></p>
 <p><code>memorystore.instances.connect</code></p>
 <p><code>memorystore.instances.get</code></p>
 <p><code>memorystore.instances.list</code></p>
+<p><code>memorystore. instances. listEffectiveTags</code></p>
+<p><code>memorystore. instances. listTagBindings</code></p>
 <p><code>memorystore.locations.*</code></p>
 <ul>
 <li><code>memorystore.locations.get</code></li>
@@ -2185,6 +2215,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>cloudsql.workloadCaptures.stop</code></li>
 <li><code>cloudsql. workloadCaptures. stopReplay</code></li>
 </ul>
+<p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. get</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorInterconnects. queryFormability</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -2881,18 +2915,15 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>developerconnect. connections. processGitHubAppCreationCallback</code></p>
 <p><code>developerconnect. connections. processGitHubOAuthCallback</code></p>
 <p><code>developerconnect. connections. update</code></p>
-<p><code>developerconnect. gitRepositoryLinks.*</code></p>
-<ul>
-<li><code>developerconnect. gitRepositoryLinks. create</code></li>
-<li><code>developerconnect. gitRepositoryLinks. delete</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></li>
-<li><code>developerconnect. gitRepositoryLinks. get</code></li>
-<li><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></li>
-<li><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></li>
-<li><code>developerconnect. gitRepositoryLinks. list</code></li>
-</ul>
+<p><code>developerconnect. gitRepositoryLinks. create</code></p>
+<p><code>developerconnect. gitRepositoryLinks. delete</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. get</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></p>
+<p><code>developerconnect. gitRepositoryLinks. list</code></p>
 <p><code>developerconnect.locations.*</code></p>
 <ul>
 <li><code>developerconnect.locations.get</code></li>
@@ -2984,8 +3015,23 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>memorystore.*</code></p>
 <ul>
+<li><code>memorystore.aclPolicies.create</code></li>
+<li><code>memorystore.aclPolicies.delete</code></li>
+<li><code>memorystore.aclPolicies.get</code></li>
+<li><code>memorystore.aclPolicies.list</code></li>
+<li><code>memorystore.aclPolicies.update</code></li>
+<li><code>memorystore. aclPolicyRevisions. get</code></li>
+<li><code>memorystore. aclPolicyRevisions. list</code></li>
+<li><code>memorystore.authTokens.create</code></li>
+<li><code>memorystore.authTokens.delete</code></li>
+<li><code>memorystore.authTokens.get</code></li>
+<li><code>memorystore.authTokens.list</code></li>
+<li><code>memorystore. backupCollections. createTagBinding</code></li>
+<li><code>memorystore. backupCollections. deleteTagBinding</code></li>
 <li><code>memorystore. backupCollections. get</code></li>
 <li><code>memorystore. backupCollections. list</code></li>
+<li><code>memorystore. backupCollections. listEffectiveTags</code></li>
+<li><code>memorystore. backupCollections. listTagBindings</code></li>
 <li><code>memorystore.backups.delete</code></li>
 <li><code>memorystore.backups.export</code></li>
 <li><code>memorystore.backups.get</code></li>
@@ -2993,10 +3039,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>memorystore.instances.backup</code></li>
 <li><code>memorystore.instances.connect</code></li>
 <li><code>memorystore.instances.create</code></li>
+<li><code>memorystore. instances. createTagBinding</code></li>
 <li><code>memorystore.instances.delete</code></li>
+<li><code>memorystore. instances. deleteTagBinding</code></li>
 <li><code>memorystore. instances. finishMigration</code></li>
 <li><code>memorystore.instances.get</code></li>
 <li><code>memorystore.instances.list</code></li>
+<li><code>memorystore. instances. listEffectiveTags</code></li>
+<li><code>memorystore. instances. listTagBindings</code></li>
 <li><code>memorystore. instances. startMigration</code></li>
 <li><code>memorystore.instances.update</code></li>
 <li><code>memorystore.locations.get</code></li>
@@ -3005,6 +3055,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>memorystore.operations.delete</code></li>
 <li><code>memorystore.operations.get</code></li>
 <li><code>memorystore.operations.list</code></li>
+<li><code>memorystore. tokenAuthUsers. create</code></li>
+<li><code>memorystore. tokenAuthUsers. delete</code></li>
+<li><code>memorystore.tokenAuthUsers.get</code></li>
+<li><code>memorystore. tokenAuthUsers. list</code></li>
 </ul>
 <p><code>monitoring.alertPolicies.*</code></p>
 <ul>
@@ -3879,22 +3933,36 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute.subnetworks.list</code></p>
 <p><code>developerconnect. connections. constructGitHubAppManifest</code></p>
 <p><code>developerconnect. connections. create</code></p>
+<p><code>developerconnect. connections. createTagBinding</code></p>
 <p><code>developerconnect. connections. delete</code></p>
+<p><code>developerconnect. connections. deleteTagBinding</code></p>
 <p><code>developerconnect. connections. fetchGitHubInstallations</code></p>
 <p><code>developerconnect. connections. fetchLinkableGitRepositories</code></p>
 <p><code>developerconnect. connections. generateGitHubStateToken</code></p>
 <p><code>developerconnect. connections. get</code></p>
 <p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. connections. listEffectiveTags</code></p>
+<p><code>developerconnect. connections. listTagBindings</code></p>
 <p><code>developerconnect. connections. processGitHubAppCreationCallback</code></p>
 <p><code>developerconnect. connections. processGitHubOAuthCallback</code></p>
 <p><code>developerconnect. connections. update</code></p>
+<p><code>developerconnect. gitRepositoryLinks. addPullRequestComment</code></p>
+<p><code>developerconnect. gitRepositoryLinks. addPullRequestReviewComment</code></p>
 <p><code>developerconnect. gitRepositoryLinks. create</code></p>
 <p><code>developerconnect. gitRepositoryLinks. delete</code></p>
+<p><code>developerconnect. gitRepositoryLinks. diffCommit</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchCommit</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchCommitList</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchFileBlame</code></p>
 <p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchPullRequest</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchPullRequestList</code></p>
 <p><code>developerconnect. gitRepositoryLinks. get</code></p>
 <p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
 <p><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></p>
 <p><code>developerconnect. gitRepositoryLinks. list</code></p>
+<p><code>developerconnect. gitRepositoryLinks. modifyPullRequest</code></p>
+<p><code>developerconnect. gitRepositoryLinks. openPullRequest</code></p>
 <p><code>developerconnect.locations.*</code></p>
 <ul>
 <li><code>developerconnect.locations.get</code></li>
@@ -4630,6 +4698,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudnotifications. activities. list</code></p>
 <p><code>compute.*</code></p>
 <ul>
+<li><code>compute. acceleratorInterconnectMemberInstances. list</code></li>
+<li><code>compute. acceleratorInterconnects. create</code></li>
+<li><code>compute. acceleratorInterconnects. delete</code></li>
+<li><code>compute. acceleratorInterconnects. get</code></li>
+<li><code>compute. acceleratorInterconnects. list</code></li>
+<li><code>compute. acceleratorInterconnects. queryFormability</code></li>
 <li><code>compute.acceleratorTypes.get</code></li>
 <li><code>compute.acceleratorTypes.list</code></li>
 <li><code>compute.addresses.create</code></li>
@@ -7119,6 +7193,16 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. deploymentResourcePools. queryDeployedModels</code></li>
 <li><code>aiplatform. deploymentResourcePools. update</code></li>
 </ul>
+<p><code>aiplatform.detectors.*</code></p>
+<ul>
+<li><code>aiplatform.detectors.create</code></li>
+<li><code>aiplatform.detectors.delete</code></li>
+<li><code>aiplatform.detectors.disable</code></li>
+<li><code>aiplatform.detectors.enable</code></li>
+<li><code>aiplatform.detectors.get</code></li>
+<li><code>aiplatform.detectors.list</code></li>
+<li><code>aiplatform.detectors.update</code></li>
+</ul>
 <p><code>aiplatform. edgeDeploymentJobs.*</code></p>
 <ul>
 <li><code>aiplatform. edgeDeploymentJobs. create</code></li>
@@ -8656,18 +8740,15 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>developerconnect. connections. processGitHubAppCreationCallback</code></p>
 <p><code>developerconnect. connections. processGitHubOAuthCallback</code></p>
 <p><code>developerconnect. connections. update</code></p>
-<p><code>developerconnect. gitRepositoryLinks.*</code></p>
-<ul>
-<li><code>developerconnect. gitRepositoryLinks. create</code></li>
-<li><code>developerconnect. gitRepositoryLinks. delete</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></li>
-<li><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></li>
-<li><code>developerconnect. gitRepositoryLinks. get</code></li>
-<li><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></li>
-<li><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></li>
-<li><code>developerconnect. gitRepositoryLinks. list</code></li>
-</ul>
+<p><code>developerconnect. gitRepositoryLinks. create</code></p>
+<p><code>developerconnect. gitRepositoryLinks. delete</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchReadWriteToken</code></p>
+<p><code>developerconnect. gitRepositoryLinks. get</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyRead</code></p>
+<p><code>developerconnect. gitRepositoryLinks. gitProxyWrite</code></p>
+<p><code>developerconnect. gitRepositoryLinks. list</code></p>
 <p><code>developerconnect.locations.*</code></p>
 <ul>
 <li><code>developerconnect.locations.get</code></li>
@@ -8997,6 +9078,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudnotifications. activities. list</code></p>
 <p><code>compute.*</code></p>
 <ul>
+<li><code>compute. acceleratorInterconnectMemberInstances. list</code></li>
+<li><code>compute. acceleratorInterconnects. create</code></li>
+<li><code>compute. acceleratorInterconnects. delete</code></li>
+<li><code>compute. acceleratorInterconnects. get</code></li>
+<li><code>compute. acceleratorInterconnects. list</code></li>
+<li><code>compute. acceleratorInterconnects. queryFormability</code></li>
 <li><code>compute.acceleratorTypes.get</code></li>
 <li><code>compute.acceleratorTypes.list</code></li>
 <li><code>compute.addresses.create</code></li>
@@ -10108,6 +10195,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>dns.dnsKeys.list</code></li>
 <li><code>dns. gkeClusters. bindDNSResponsePolicy</code></li>
 <li><code>dns. gkeClusters. bindPrivateDNSZone</code></li>
+<li><code>dns.locations.get</code></li>
+<li><code>dns.locations.list</code></li>
 <li><code>dns.managedZoneOperations.get</code></li>
 <li><code>dns.managedZoneOperations.list</code></li>
 <li><code>dns.managedZones.create</code></li>
@@ -10122,6 +10211,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>dns. networks. bindPrivateDNSZone</code></li>
 <li><code>dns. networks. targetWithPeeringZone</code></li>
 <li><code>dns.networks.useHealthSignals</code></li>
+<li><code>dns.operations.cancel</code></li>
+<li><code>dns.operations.delete</code></li>
+<li><code>dns.operations.get</code></li>
+<li><code>dns.operations.list</code></li>
+<li><code>dns. outboundEndpoints. bindPrivateDNSPolicy</code></li>
+<li><code>dns. outboundEndpoints. bindPrivateDNSZone</code></li>
+<li><code>dns.outboundEndpoints.create</code></li>
+<li><code>dns.outboundEndpoints.delete</code></li>
+<li><code>dns.outboundEndpoints.get</code></li>
+<li><code>dns.outboundEndpoints.list</code></li>
+<li><code>dns.outboundEndpoints.update</code></li>
 <li><code>dns.policies.create</code></li>
 <li><code>dns.policies.createTagBinding</code></li>
 <li><code>dns.policies.delete</code></li>
@@ -10930,6 +11030,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>agentidentity. authorizations. list</code></p>
 <p><code>agentidentity.locations.list</code></p>
 <p><code>agentregistry.agents.list</code></p>
+<p><code>agentregistry. aiApplications. getIamPolicy</code></p>
+<p><code>agentregistry. aiApplications. list</code></p>
 <p><code>agentregistry.bindings.list</code></p>
 <p><code>agentregistry.endpoints.list</code></p>
 <p><code>agentregistry.locations.list</code></p>
@@ -10964,6 +11066,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>aiplatform.datasets.get</code></p>
 <p><code>aiplatform.datasets.list</code></p>
 <p><code>aiplatform. deploymentResourcePools. list</code></p>
+<p><code>aiplatform.detectors.list</code></p>
 <p><code>aiplatform. edgeDeploymentJobs. list</code></p>
 <p><code>aiplatform.edgeDevices.list</code></p>
 <p><code>aiplatform.endpoints.get</code></p>
@@ -12438,6 +12541,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>composer.operations.list</code></p>
 <p><code>composer. userworkloadsconfigmaps. list</code></p>
 <p><code>composer. userworkloadssecrets. list</code></p>
+<p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. get</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorInterconnects. queryFormability</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -13444,6 +13551,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>designcenter.spaces.list</code></p>
 <p><code>developerconnect. accountConnectors. list</code></p>
 <p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. connections. listEffectiveTags</code></p>
+<p><code>developerconnect. connections. listTagBindings</code></p>
 <p><code>developerconnect. deploymentEvents. list</code></p>
 <p><code>developerconnect. gitRepositoryLinks. list</code></p>
 <p><code>developerconnect. insightsConfigs. list</code></p>
@@ -13564,6 +13673,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>dns.dnsKeys.get</code></li>
 <li><code>dns.dnsKeys.list</code></li>
 </ul>
+<p><code>dns.locations.*</code></p>
+<ul>
+<li><code>dns.locations.get</code></li>
+<li><code>dns.locations.list</code></li>
+</ul>
 <p><code>dns.managedZoneOperations.*</code></p>
 <ul>
 <li><code>dns.managedZoneOperations.get</code></li>
@@ -13572,6 +13686,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dns.managedZones.get</code></p>
 <p><code>dns.managedZones.getIamPolicy</code></p>
 <p><code>dns.managedZones.list</code></p>
+<p><code>dns.operations.get</code></p>
+<p><code>dns.operations.list</code></p>
+<p><code>dns.outboundEndpoints.get</code></p>
+<p><code>dns.outboundEndpoints.list</code></p>
 <p><code>dns.policies.get</code></p>
 <p><code>dns.policies.list</code></p>
 <p><code>dns.policies.listEffectiveTags</code></p>
@@ -13720,6 +13838,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>firebaseappdistro. releases. list</code></p>
 <p><code>firebaseappdistro.testers.list</code></p>
 <p><code>firebaseapphosting. backends. list</code></p>
+<p><code>firebaseapphosting. backends. listEffectiveTags</code></p>
+<p><code>firebaseapphosting. backends. listTagBindings</code></p>
 <p><code>firebaseapphosting.builds.list</code></p>
 <p><code>firebaseapphosting. domains. list</code></p>
 <p><code>firebaseapphosting. locations. list</code></p>
@@ -13734,6 +13854,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>firebasedataconnect. schemaRevisions. list</code></p>
 <p><code>firebasedataconnect. schemas. list</code></p>
 <p><code>firebasedataconnect. services. list</code></p>
+<p><code>firebasedataconnect. services. listEffectiveTags</code></p>
+<p><code>firebasedataconnect. services. listTagBindings</code></p>
 <p><code>firebasedynamiclinks. destinations. list</code></p>
 <p><code>firebasedynamiclinks. domains. list</code></p>
 <p><code>firebasedynamiclinks. links. list</code></p>
@@ -13761,13 +13883,23 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>gdchardwaremanagement. changeLogEntries. list</code></p>
 <p><code>gdchardwaremanagement. comments. list</code></p>
 <p><code>gdchardwaremanagement. hardware. list</code></p>
+<p><code>gdchardwaremanagement. hardware. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. hardware. listTagBindings</code></p>
 <p><code>gdchardwaremanagement. hardwareGroups. list</code></p>
 <p><code>gdchardwaremanagement. locations. list</code></p>
 <p><code>gdchardwaremanagement. operations. list</code></p>
 <p><code>gdchardwaremanagement. orders. list</code></p>
+<p><code>gdchardwaremanagement. orders. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. orders. listTagBindings</code></p>
 <p><code>gdchardwaremanagement. sites. list</code></p>
+<p><code>gdchardwaremanagement. sites. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. sites. listTagBindings</code></p>
 <p><code>gdchardwaremanagement. skus. list</code></p>
+<p><code>gdchardwaremanagement. zoneOperations. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. zoneOperations. listTagBindings</code></p>
 <p><code>gdchardwaremanagement. zones. list</code></p>
+<p><code>gdchardwaremanagement. zones. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. zones. listTagBindings</code></p>
 <p><code>geminicloudassist. investigationRevisions. list</code></p>
 <p><code>geminicloudassist. investigations. getIamPolicy</code></p>
 <p><code>geminicloudassist. investigations. list</code></p>
@@ -14069,11 +14201,19 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>memcache. instances. listTagBindings</code></p>
 <p><code>memcache.locations.list</code></p>
 <p><code>memcache.operations.list</code></p>
+<p><code>memorystore.aclPolicies.list</code></p>
+<p><code>memorystore. aclPolicyRevisions. list</code></p>
+<p><code>memorystore.authTokens.list</code></p>
 <p><code>memorystore. backupCollections. list</code></p>
+<p><code>memorystore. backupCollections. listEffectiveTags</code></p>
+<p><code>memorystore. backupCollections. listTagBindings</code></p>
 <p><code>memorystore.backups.list</code></p>
 <p><code>memorystore.instances.list</code></p>
+<p><code>memorystore. instances. listEffectiveTags</code></p>
+<p><code>memorystore. instances. listTagBindings</code></p>
 <p><code>memorystore.locations.list</code></p>
 <p><code>memorystore.operations.list</code></p>
+<p><code>memorystore. tokenAuthUsers. list</code></p>
 <p><code>metastore.backups.getIamPolicy</code></p>
 <p><code>metastore.backups.list</code></p>
 <p><code>metastore. databases. getIamPolicy</code></p>
@@ -14364,9 +14504,15 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>oracledatabase. autonomousDatabaseBackups. list</code></p>
 <p><code>oracledatabase. autonomousDatabaseCharacterSets. list</code></p>
 <p><code>oracledatabase. autonomousDatabases. list</code></p>
+<p><code>oracledatabase. autonomousDatabases. listEffectiveTags</code></p>
+<p><code>oracledatabase. autonomousDatabases. listTagBindings</code></p>
 <p><code>oracledatabase. autonomousDbVersions. list</code></p>
 <p><code>oracledatabase. cloudExadataInfrastructures. list</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. listEffectiveTags</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. listTagBindings</code></p>
 <p><code>oracledatabase. cloudVmClusters. list</code></p>
+<p><code>oracledatabase. cloudVmClusters. listEffectiveTags</code></p>
+<p><code>oracledatabase. cloudVmClusters. listTagBindings</code></p>
 <p><code>oracledatabase. databaseCharacterSets. list</code></p>
 <p><code>oracledatabase. databaseConnections. list</code></p>
 <p><code>oracledatabase.databases.list</code></p>
@@ -14376,8 +14522,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>oracledatabase. dbSystemInitialStorageSizes. list</code></p>
 <p><code>oracledatabase. dbSystemShapes. list</code></p>
 <p><code>oracledatabase.dbSystems.list</code></p>
+<p><code>oracledatabase. dbSystems. listEffectiveTags</code></p>
+<p><code>oracledatabase. dbSystems. listTagBindings</code></p>
 <p><code>oracledatabase.dbVersions.list</code></p>
 <p><code>oracledatabase. entitlements. list</code></p>
+<p><code>oracledatabase. entitlements. listEffectiveTags</code></p>
+<p><code>oracledatabase. entitlements. listTagBindings</code></p>
 <p><code>oracledatabase. exadbVmClusters. list</code></p>
 <p><code>oracledatabase. exascaleDbStorageVaults. list</code></p>
 <p><code>oracledatabase. flexComponents. list</code></p>
@@ -14784,11 +14934,15 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>saasservicemgmt.unitKinds.list</code></p>
 <p><code>saasservicemgmt. unitOperations. list</code></p>
 <p><code>saasservicemgmt.units.list</code></p>
+<p><code>secretmanager.backups.get</code></p>
+<p><code>secretmanager.backups.list</code></p>
 <p><code>secretmanager.locations.*</code></p>
 <ul>
 <li><code>secretmanager.locations.get</code></li>
 <li><code>secretmanager.locations.list</code></li>
 </ul>
+<p><code>secretmanager.operations.get</code></p>
+<p><code>secretmanager.operations.list</code></p>
 <p><code>secretmanager.secrets.get</code></p>
 <p><code>secretmanager. secrets. getIamPolicy</code></p>
 <p><code>secretmanager.secrets.list</code></p>
@@ -15147,6 +15301,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>vmmigration. sources. listTagBindings</code></p>
 <p><code>vmmigration.targets.list</code></p>
 <p><code>vmmigration. utilizationReports. list</code></p>
+<p><code>vmwareengine. capacityAllocations. list</code></p>
 <p><code>vmwareengine. clusters. getIamPolicy</code></p>
 <p><code>vmwareengine.clusters.list</code></p>
 <p><code>vmwareengine. datastores. getIamPolicy</code></p>
@@ -15991,6 +16146,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>cloudtrace.traces.get</code></p>
 <p><code>cloudtrace.traces.list</code></p>
+<p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. get</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorInterconnects. queryFormability</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -17264,6 +17423,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>agentregistry.agents.list</code></li>
 <li><code>agentregistry.agents.search</code></li>
 </ul>
+<p><code>agentregistry. aiApplications. get</code></p>
+<p><code>agentregistry. aiApplications. getIamPolicy</code></p>
+<p><code>agentregistry. aiApplications. list</code></p>
 <p><code>agentregistry. bindings. fetchAvailable</code></p>
 <p><code>agentregistry.bindings.get</code></p>
 <p><code>agentregistry.bindings.list</code></p>
@@ -17346,6 +17508,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>aiplatform. deploymentResourcePools. get</code></p>
 <p><code>aiplatform. deploymentResourcePools. list</code></p>
 <p><code>aiplatform. deploymentResourcePools. queryDeployedModels</code></p>
+<p><code>aiplatform.detectors.get</code></p>
+<p><code>aiplatform.detectors.list</code></p>
 <p><code>aiplatform. edgeDeploymentJobs. get</code></p>
 <p><code>aiplatform. edgeDeploymentJobs. list</code></p>
 <p><code>aiplatform. edgeDeviceDebugInfo. get</code></p>
@@ -18078,11 +18242,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>backupdr. backupPlanAssociations. fetchForComputeDisk</code></p>
 <p><code>backupdr. backupPlanAssociations. fetchForComputeInstance</code></p>
 <p><code>backupdr. backupPlanAssociations. fetchForFilestoreInstance</code></p>
+<p><code>backupdr. backupPlanAssociations. fetchForNetappVolumes</code></p>
 <p><code>backupdr. backupPlanAssociations. getForAlloydbCluster</code></p>
 <p><code>backupdr. backupPlanAssociations. getForCloudSqlInstance</code></p>
 <p><code>backupdr. backupPlanAssociations. getForComputeDisk</code></p>
 <p><code>backupdr. backupPlanAssociations. getForComputeInstance</code></p>
 <p><code>backupdr. backupPlanAssociations. getForFilestoreInstance</code></p>
+<p><code>backupdr. backupPlanAssociations. getForNetappVolumes</code></p>
 <p><code>backupdr. backupPlanAssociations. list</code></p>
 <p><code>backupdr.backupPlanRevisions.*</code></p>
 <ul>
@@ -18099,6 +18265,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>backupdr. bvbackups. fetchForCloudSqlInstance</code></p>
 <p><code>backupdr. bvbackups. fetchForComputeDisk</code></p>
 <p><code>backupdr. bvbackups. fetchForComputeInstance</code></p>
+<p><code>backupdr. bvbackups. fetchForNetappVolumes</code></p>
 <p><code>backupdr.bvbackups.get</code></p>
 <p><code>backupdr.bvbackups.list</code></p>
 <p><code>backupdr.bvdataSources.get</code></p>
@@ -18108,9 +18275,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>backupdr. dataSourceReferences. fetchForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. fetchForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. fetchForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. getForAlloydbCluster</code></li>
 <li><code>backupdr. dataSourceReferences. getForCloudSqlInstance</code></li>
 <li><code>backupdr. dataSourceReferences. getForFilestoreInstance</code></li>
+<li><code>backupdr. dataSourceReferences. getForNetappVolumes</code></li>
 <li><code>backupdr. dataSourceReferences. list</code></li>
 </ul>
 <p><code>backupdr.locations.*</code></p>
@@ -18511,6 +18680,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>ces.toolsets.list</code></p>
 <p><code>chat.bots.get</code></p>
 <p><code>chronicle.agentSettings.get</code></p>
+<p><code>chronicle. agenticCaseReportTemplates. get</code></p>
+<p><code>chronicle. agenticCaseReports. get</code></p>
+<p><code>chronicle. aiBillingSettings. get</code></p>
 <p><code>chronicle.ais.*</code></p>
 <ul>
 <li><code>chronicle.ais.createFeedback</code></li>
@@ -19955,6 +20127,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>composer. userworkloadsconfigmaps. list</code></p>
 <p><code>composer. userworkloadssecrets. get</code></p>
 <p><code>composer. userworkloadssecrets. list</code></p>
+<p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
+<p><code>compute. acceleratorInterconnects. get</code></p>
+<p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorInterconnects. queryFormability</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -20913,10 +21089,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>databaseinsights. resourceMetadata. fetch</code></p>
 <p><code>databaseinsights. resourceRecommendations. query</code></p>
 <p><code>databaseinsights. systemMetrics. fetch</code></p>
+<p><code>databaseinsights.tasks.getTask</code></p>
+<p><code>databaseinsights. tasks. listTasks</code></p>
 <p><code>databaseinsights. telemetryConfig. fetch</code></p>
 <p><code>databaseinsights. timeSeries. query</code></p>
 <p><code>databaseinsights.traces.fetch</code></p>
 <p><code>databaseinsights. virtualDbaAgent. fetchContextService</code></p>
+<p><code>databaseinsights. virtualDbaAgent. get</code></p>
 <p><code>databaseinsights. virtualDbaAgent. getAgentPolicy</code></p>
 <p><code>databaseinsights. virtualDbaAgent. getGoal</code></p>
 <p><code>databaseinsights. virtualDbaAgent. getTask</code></p>
@@ -21412,12 +21591,20 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>developerconnect. connections. fetchLinkableGitRepositories</code></p>
 <p><code>developerconnect. connections. get</code></p>
 <p><code>developerconnect. connections. list</code></p>
+<p><code>developerconnect. connections. listEffectiveTags</code></p>
+<p><code>developerconnect. connections. listTagBindings</code></p>
 <p><code>developerconnect. deploymentEvents.*</code></p>
 <ul>
 <li><code>developerconnect. deploymentEvents. get</code></li>
 <li><code>developerconnect. deploymentEvents. list</code></li>
 </ul>
+<p><code>developerconnect. gitRepositoryLinks. diffCommit</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchCommit</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchCommitList</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchFileBlame</code></p>
 <p><code>developerconnect. gitRepositoryLinks. fetchGitRefs</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchPullRequest</code></p>
+<p><code>developerconnect. gitRepositoryLinks. fetchPullRequestList</code></p>
 <p><code>developerconnect. gitRepositoryLinks. get</code></p>
 <p><code>developerconnect. gitRepositoryLinks. list</code></p>
 <p><code>developerconnect. insightsConfigs. get</code></p>
@@ -21731,6 +21918,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>dns.dnsKeys.get</code></li>
 <li><code>dns.dnsKeys.list</code></li>
 </ul>
+<p><code>dns.locations.*</code></p>
+<ul>
+<li><code>dns.locations.get</code></li>
+<li><code>dns.locations.list</code></li>
+</ul>
 <p><code>dns.managedZoneOperations.*</code></p>
 <ul>
 <li><code>dns.managedZoneOperations.get</code></li>
@@ -21739,6 +21931,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>dns.managedZones.get</code></p>
 <p><code>dns.managedZones.getIamPolicy</code></p>
 <p><code>dns.managedZones.list</code></p>
+<p><code>dns.operations.get</code></p>
+<p><code>dns.operations.list</code></p>
+<p><code>dns.outboundEndpoints.get</code></p>
+<p><code>dns.outboundEndpoints.list</code></p>
 <p><code>dns.policies.get</code></p>
 <p><code>dns.policies.list</code></p>
 <p><code>dns.policies.listEffectiveTags</code></p>
@@ -22084,6 +22280,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>firebaseappdistro.testers.list</code></p>
 <p><code>firebaseapphosting. backends. get</code></p>
 <p><code>firebaseapphosting. backends. list</code></p>
+<p><code>firebaseapphosting. backends. listEffectiveTags</code></p>
+<p><code>firebaseapphosting. backends. listTagBindings</code></p>
 <p><code>firebaseapphosting.builds.get</code></p>
 <p><code>firebaseapphosting.builds.list</code></p>
 <p><code>firebaseapphosting.domains.get</code></p>
@@ -22128,6 +22326,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>firebasedataconnect. services. get</code></p>
 <p><code>firebasedataconnect. services. introspectGraphql</code></p>
 <p><code>firebasedataconnect. services. list</code></p>
+<p><code>firebasedataconnect. services. listEffectiveTags</code></p>
+<p><code>firebasedataconnect. services. listTagBindings</code></p>
 <p><code>firebasedynamiclinks. destinations. list</code></p>
 <p><code>firebasedynamiclinks. domains. get</code></p>
 <p><code>firebasedynamiclinks. domains. list</code></p>
@@ -22197,6 +22397,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>gdchardwaremanagement. comments. list</code></p>
 <p><code>gdchardwaremanagement. hardware. get</code></p>
 <p><code>gdchardwaremanagement. hardware. list</code></p>
+<p><code>gdchardwaremanagement. hardware. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. hardware. listTagBindings</code></p>
 <p><code>gdchardwaremanagement. hardwareGroups. get</code></p>
 <p><code>gdchardwaremanagement. hardwareGroups. list</code></p>
 <p><code>gdchardwaremanagement. locations.*</code></p>
@@ -22208,15 +22410,23 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>gdchardwaremanagement. operations. list</code></p>
 <p><code>gdchardwaremanagement. orders. get</code></p>
 <p><code>gdchardwaremanagement. orders. list</code></p>
+<p><code>gdchardwaremanagement. orders. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. orders. listTagBindings</code></p>
 <p><code>gdchardwaremanagement. sites. get</code></p>
 <p><code>gdchardwaremanagement. sites. list</code></p>
+<p><code>gdchardwaremanagement. sites. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. sites. listTagBindings</code></p>
 <p><code>gdchardwaremanagement.skus.*</code></p>
 <ul>
 <li><code>gdchardwaremanagement.skus.get</code></li>
 <li><code>gdchardwaremanagement. skus. list</code></li>
 </ul>
+<p><code>gdchardwaremanagement. zoneOperations. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. zoneOperations. listTagBindings</code></p>
 <p><code>gdchardwaremanagement. zones. get</code></p>
 <p><code>gdchardwaremanagement. zones. list</code></p>
+<p><code>gdchardwaremanagement. zones. listEffectiveTags</code></p>
+<p><code>gdchardwaremanagement. zones. listTagBindings</code></p>
 <p><code>geminicloudassist. agents. invoke</code></p>
 <p><code>geminicloudassist. instances. explain</code></p>
 <p><code>geminicloudassist. investigationRevisions. get</code></p>
@@ -22875,15 +23085,25 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>memcache.operations.get</code></p>
 <p><code>memcache.operations.list</code></p>
-<p><code>memorystore. backupCollections.*</code></p>
+<p><code>memorystore.aclPolicies.get</code></p>
+<p><code>memorystore.aclPolicies.list</code></p>
+<p><code>memorystore. aclPolicyRevisions.*</code></p>
 <ul>
-<li><code>memorystore. backupCollections. get</code></li>
-<li><code>memorystore. backupCollections. list</code></li>
+<li><code>memorystore. aclPolicyRevisions. get</code></li>
+<li><code>memorystore. aclPolicyRevisions. list</code></li>
 </ul>
+<p><code>memorystore.authTokens.get</code></p>
+<p><code>memorystore.authTokens.list</code></p>
+<p><code>memorystore. backupCollections. get</code></p>
+<p><code>memorystore. backupCollections. list</code></p>
+<p><code>memorystore. backupCollections. listEffectiveTags</code></p>
+<p><code>memorystore. backupCollections. listTagBindings</code></p>
 <p><code>memorystore.backups.get</code></p>
 <p><code>memorystore.backups.list</code></p>
 <p><code>memorystore.instances.get</code></p>
 <p><code>memorystore.instances.list</code></p>
+<p><code>memorystore. instances. listEffectiveTags</code></p>
+<p><code>memorystore. instances. listTagBindings</code></p>
 <p><code>memorystore.locations.*</code></p>
 <ul>
 <li><code>memorystore.locations.get</code></li>
@@ -22891,6 +23111,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>memorystore.operations.get</code></p>
 <p><code>memorystore.operations.list</code></p>
+<p><code>memorystore.tokenAuthUsers.get</code></p>
+<p><code>memorystore. tokenAuthUsers. list</code></p>
 <p><code>metastore.backups.get</code></p>
 <p><code>metastore.backups.getIamPolicy</code></p>
 <p><code>metastore.backups.list</code></p>
@@ -23353,12 +23575,18 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>oracledatabase. autonomousDatabaseCharacterSets. list</code></p>
 <p><code>oracledatabase. autonomousDatabases. get</code></p>
 <p><code>oracledatabase. autonomousDatabases. list</code></p>
+<p><code>oracledatabase. autonomousDatabases. listEffectiveTags</code></p>
 <p><code>oracledatabase. autonomousDatabases. listRefreshableClones</code></p>
+<p><code>oracledatabase. autonomousDatabases. listTagBindings</code></p>
 <p><code>oracledatabase. autonomousDbVersions. list</code></p>
 <p><code>oracledatabase. cloudExadataInfrastructures. get</code></p>
 <p><code>oracledatabase. cloudExadataInfrastructures. list</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. listEffectiveTags</code></p>
+<p><code>oracledatabase. cloudExadataInfrastructures. listTagBindings</code></p>
 <p><code>oracledatabase. cloudVmClusters. get</code></p>
 <p><code>oracledatabase. cloudVmClusters. list</code></p>
+<p><code>oracledatabase. cloudVmClusters. listEffectiveTags</code></p>
+<p><code>oracledatabase. cloudVmClusters. listTagBindings</code></p>
 <p><code>oracledatabase. databaseCharacterSets. list</code></p>
 <p><code>oracledatabase. databaseConnections. get</code></p>
 <p><code>oracledatabase. databaseConnections. list</code></p>
@@ -23374,8 +23602,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>oracledatabase. dbSystemShapes. list</code></p>
 <p><code>oracledatabase.dbSystems.get</code></p>
 <p><code>oracledatabase.dbSystems.list</code></p>
+<p><code>oracledatabase. dbSystems. listEffectiveTags</code></p>
+<p><code>oracledatabase. dbSystems. listTagBindings</code></p>
 <p><code>oracledatabase.dbVersions.list</code></p>
 <p><code>oracledatabase. entitlements. list</code></p>
+<p><code>oracledatabase. entitlements. listEffectiveTags</code></p>
+<p><code>oracledatabase. entitlements. listTagBindings</code></p>
 <p><code>oracledatabase. exadbVmClusters. get</code></p>
 <p><code>oracledatabase. exadbVmClusters. list</code></p>
 <p><code>oracledatabase. exascaleDbStorageVaults. get</code></p>
@@ -24159,11 +24391,15 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>saasservicemgmt. unitOperations. list</code></p>
 <p><code>saasservicemgmt.units.get</code></p>
 <p><code>saasservicemgmt.units.list</code></p>
+<p><code>secretmanager.backups.get</code></p>
+<p><code>secretmanager.backups.list</code></p>
 <p><code>secretmanager.locations.*</code></p>
 <ul>
 <li><code>secretmanager.locations.get</code></li>
 <li><code>secretmanager.locations.list</code></li>
 </ul>
+<p><code>secretmanager.operations.get</code></p>
+<p><code>secretmanager.operations.list</code></p>
 <p><code>secretmanager.secrets.get</code></p>
 <p><code>secretmanager. secrets. getIamPolicy</code></p>
 <p><code>secretmanager.secrets.list</code></p>
@@ -24842,6 +25078,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>vmmigration.targets.list</code></p>
 <p><code>vmmigration. utilizationReports. get</code></p>
 <p><code>vmmigration. utilizationReports. list</code></p>
+<p><code>vmwareengine. capacityAllocations. list</code></p>
 <p><code>vmwareengine.clusters.get</code></p>
 <p><code>vmwareengine. clusters. getIamPolicy</code></p>
 <p><code>vmwareengine.clusters.list</code></p>

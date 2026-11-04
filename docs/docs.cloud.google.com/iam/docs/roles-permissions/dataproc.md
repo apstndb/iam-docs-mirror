@@ -698,6 +698,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>backupdr.operations.get</code></p>
 <p><code>backupdr.operations.list</code></p>
 <p><code>backupdr. serviceConfig. initialize</code></p>
+<p><code>biglake.catalogs.create</code></p>
 <p><code>biglake.catalogs.get</code></p>
 <p><code>cloudaicompanion. instances. completeTask</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
@@ -1097,6 +1098,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>dataproc.nodeGroups.update</code></li>
 </ul>
 <p><code>dataproc.operations.cancel</code></p>
+<p><code>dataproc.operations.get</code></p>
 <p><code>dataproc.sessionTemplates.get</code></p>
 <p><code>dataproc.sessions.*</code></p>
 <ul>
@@ -2349,6 +2351,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code>roles/ clouddeploymentmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.serviceAgent">Cloud Data Fusion API Service Agent</a> ( <code>roles/ datafusion.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code>roles/ dataplex.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serviceAgent">Dataproc Service Agent</a> ( <code>roles/ dataproc.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">

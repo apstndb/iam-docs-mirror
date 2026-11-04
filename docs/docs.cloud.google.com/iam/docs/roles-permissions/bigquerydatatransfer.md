@@ -34,6 +34,7 @@ BigQuery Data Transfer Service offers the following service agent roles. Service
 <td><p><code>bigquery.config.get</code></p>
 <p><code>bigquery.connections.delegate</code></p>
 <p><code>bigquery.jobs.create</code></p>
+<p><code>cloudaicompanion. operations. get</code></p>
 <p><code>cloudaicompanion.topics.create</code></p>
 <p><code>compute.networkAttachments.get</code></p>
 <p><code>compute. networkAttachments. update</code></p>
@@ -47,6 +48,8 @@ BigQuery Data Transfer Service offers the following service agent roles. Service
 </ul>
 <p><code>dataform.repositories.create</code></p>
 <p><code>dataform.repositories.list</code></p>
+<p><code>datalineage. locations. importLineage</code></p>
+<p><code>datalineage.operations.get</code></p>
 <p><code>dataplex.entryGroups.get</code></p>
 <p><code>dataplex. entryGroups. useContactsAspect</code></p>
 <p><code>dataplex. entryGroups. useDataProfileAspect</code></p>
