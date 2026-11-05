@@ -6,14 +6,14 @@ description: Obtain short-lived tokens using a workforce identity pool and provi
 data_source: docs.cloud.google.com
 ---
 
-You can use a workforce identity pool and workforce identity pool provider to obtain short-lived tokens from Security Token Service or the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) . These tokens let you access Google Cloud resources that [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) and for which you have permissions.
+You can use a workforce identity pool and workforce identity pool provider to obtain short-lived tokens from Security Token Service or, for Looker integrations, the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) . These tokens let you access Google Cloud resources that [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) and for which you have permissions.
 
 You can use the methods described in this document on headless machines.
 
 To obtain short-lived tokens, follow this high-level process:
 
 1.  Obtain a credential from the trusted identity provider (IdP), or redirect users to the authorization endpoint ( `https://auth.cloud.google/authorize` ) to sign in with the IdP and obtain an authorization code.
-2.  Exchange the credential or authorization code for a token from Security Token Service or the Cloud OAuth API.
+2.  Exchange the credential or authorization code for a token from Security Token Service or, for Looker integrations, the Cloud OAuth API.
 
 ## Before you begin
 
@@ -44,9 +44,9 @@ To obtain short-lived tokens, follow this high-level process:
 
 ## Exchange external credentials for a Google Cloud access token
 
-This section shows you how to use [Security Token Service](https://docs.cloud.google.com/iam/docs/reference/sts/rest) or the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) to exchange your external credentials for an access token that grants access to Google Cloud. You can do this by using the gcloud CLI, the REST API, and the Cloud Client Libraries as described later in this document.
+This section shows you how to use [Security Token Service](https://docs.cloud.google.com/iam/docs/reference/sts/rest) or, for Looker integrations, the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) to exchange your external credentials for an access token that grants access to Google Cloud. You can do this by using the gcloud CLI, the REST API, and the Cloud Client Libraries as described later in this document.
 
-For instructions about how to obtain an authorization code from the authorization endpoint ( `https://auth.cloud.google/authorize` ) and exchange authorization codes and refresh tokens using the Cloud OAuth API, see [Exchange tokens with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-exchange-tokens) .
+For Looker integrations, to obtain an authorization code from the authorization endpoint ( `https://auth.cloud.google/authorize` ) and exchange authorization codes or refresh tokens by using the Cloud OAuth API, see [Exchange tokens with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-exchange-tokens) .
 
 If you need long-lived access, you can configure a long-running process to continuously refresh credentials on that machine. Alternatively, you can run a local server in the background with an endpoint that returns the credentials.
 
@@ -826,7 +826,7 @@ For details, see the [user guide for the `google-auth` package](https://github.c
 
 ### Use the REST API
 
-To obtain an authorization code from the authorization endpoint ( `https://auth.cloud.google/authorize` ) and exchange authorization codes or refresh tokens using the Cloud OAuth API ( `cloudoauth.googleapis.com` ), see [Exchange tokens with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-exchange-tokens) .
+For Looker integrations, to obtain an authorization code from the authorization endpoint ( `https://auth.cloud.google/authorize` ) and exchange authorization codes or refresh tokens by using the Cloud OAuth API ( `cloudoauth.googleapis.com` ), see [Exchange tokens with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-exchange-tokens) .
 
 You can also call the Google Cloud Security Token Service API to exchange your external credentials for Google Cloud access tokens by running the following command:
 

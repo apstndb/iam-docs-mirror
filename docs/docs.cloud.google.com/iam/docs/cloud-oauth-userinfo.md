@@ -12,7 +12,7 @@ data_source: docs.cloud.google.com
 
 This guide describes how to retrieve OpenID Connect (OIDC) standard claims, custom directory claims, and group memberships for authenticated workforce users by using the `/userinfo` endpoint in the Cloud OAuth API ( `cloudoauth.googleapis.com` ).
 
-> **Important:** The `/userinfo` endpoint is available only for Looker.
+> **Important:** The Cloud OAuth API is available only for Looker.
 
 ## Before you begin
 

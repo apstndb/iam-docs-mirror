@@ -12,6 +12,8 @@ data_source: docs.cloud.google.com
 
 You can use the Cloud OAuth API ( `cloudoauth.googleapis.com` ) to exchange authorization codes or refresh tokens for short-lived Google Cloud OAuth 2.0 access tokens and OpenID Connect (OIDC) ID tokens. In [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) integrations, your applications can then verify the returned ID tokens using your organization's public keys and use the access tokens to call Google Cloud APIs on behalf of federated users.
 
+> **Important:** The Cloud OAuth API is available only for Looker.
+
 ## Before you begin
 
 1.  Configure a workforce identity pool and provider. For more information, see [Configure Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) .
@@ -112,8 +114,6 @@ For information about error responses returned by the Cloud OAuth API, see [Clou
 ## Verify the OIDC ID token
 
 For Looker OIDC integrations, you can verify the cryptographic signature of the `id_token` returned by the Cloud OAuth API by using your organization's public JSON Web Keys (JWKs).
-
-> **Important:** The `/.well-known/openid-configuration` and `/.well-known/jwks.json` endpoints are available only for Looker.
 
 Retrieve the organization's public JWKs in one of the following ways:
 

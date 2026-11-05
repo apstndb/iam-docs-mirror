@@ -12,6 +12,8 @@ data_source: docs.cloud.google.com
 
 The Cloud OAuth API ( `cloudoauth.googleapis.com` ) provides OAuth 2.0 and OpenID Connect (OIDC) token exchange and authentication for [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) .
 
+> **Important:** The Cloud OAuth API is available only for Looker.
+
 The Cloud OAuth API authenticates Google Cloud users. This API lets your applications redirect users to the authorization endpoint ( `https://auth.cloud.google/authorize` ) to obtain authorization codes. Your applications can then exchange external credentials, authorization codes, or refresh tokens for short-lived OAuth 2.0 access tokens and OIDC ID tokens.
 
 The API is based on the [OAuth 2.0 Token Exchange (RFC 8693)](https://tools.ietf.org/html/rfc8693) and [OAuth 2.0 Authorization Framework (RFC 6749)](https://tools.ietf.org/html/rfc6749) specifications.
@@ -20,10 +22,11 @@ The API is based on the [OAuth 2.0 Token Exchange (RFC 8693)](https://tools.ietf
 
 Historically, Google Cloud's [Security Token Service](https://docs.cloud.google.com/iam/docs/reference/sts/rest) ( `sts.googleapis.com` ) handled token exchange for both Workforce Identity Federation and Workload Identity Federation.
 
-The Cloud OAuth API supports the same token exchanges as Security Token Service but is dedicated to Workforce Identity Federation traffic. This separation isolates workforce token exchanges from workload traffic, which helps prevent cross-service disruptions and lets workforce capacity scale independently of Security Token Service. Depending on your integration status, follow these guidelines:
+The Cloud OAuth API supports the same token exchanges as Security Token Service but is dedicated to Workforce Identity Federation traffic. This separation isolates workforce token exchanges from workload traffic, which helps prevent cross-service disruptions and lets workforce capacity scale independently of Security Token Service. Depending on your integration, follow these guidelines:
 
-- **New integrations** : Redirect users to the authorization endpoint ( `https://auth.cloud.google/authorize` ) and exchange tokens using the Cloud OAuth API ( `cloudoauth.googleapis.com` ).
-- **Existing integrations** : If you use Security Token Service ( `sts.googleapis.com/v1/oauthtoken` or `sts.googleapis.com/v1/token` ), transition to `cloudoauth.googleapis.com` .
+- **New Looker integrations** : Redirect users to the authorization endpoint ( `https://auth.cloud.google/authorize` ) and exchange tokens by using the Cloud OAuth API ( `cloudoauth.googleapis.com` ).
+- **Existing Looker integrations** : If your Looker integration uses Security Token Service ( `sts.googleapis.com/v1/oauthtoken` or `sts.googleapis.com/v1/token` ), transition to `cloudoauth.googleapis.com` .
+- **Other integrations** : For other Workforce Identity Federation integrations, continue to use [Security Token Service](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials) .
 
 ## Supported endpoints
 
@@ -39,8 +42,6 @@ In the organization-scoped endpoint URLs, replace `ORGANIZATION_ID` with your nu
 | **[JSON Web Key Set (JWKS)](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview#oidc-discovery-jwks)**  | `GET`  | `https://cloudoauth.googleapis.com/v1/organizations/ `` ORGANIZATION_ID `` /.well-known/jwks.json`      | Returns the public JSON Web Keys (JWKs) used to verify the signatures of OIDC ID tokens issued for the organization.                          |
 | **[User info](https://docs.cloud.google.com/iam/docs/cloud-oauth-userinfo)**                                        | `GET`  | `https://cloudoauth.googleapis.com/v1/organizations/ `` ORGANIZATION_ID `` /userinfo`                   | Retrieves OIDC standard claims, custom directory claims, and group memberships for the authenticated user.                                    |
 | **[Enterprise groups](https://docs.cloud.google.com/iam/docs/cloud-oauth-groups)**                                  | `GET`  | `https://cloudoauth.googleapis.com/v1/common/groups`                                                    | Retrieves paginated enterprise group memberships for the authenticated user.                                                                  |
-
-> **Important:** The `/.well-known/openid-configuration` , `/.well-known/jwks.json` , `/userinfo` , and `/groups` endpoints are available only for Looker.
 
 ## Authorization endpoint
 

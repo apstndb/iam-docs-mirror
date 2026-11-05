@@ -52,10 +52,10 @@ If successful, the response body contains data with the following structure:
 }
 ```
 
-| Fields          |                                                                                                                                                                                                         |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `groups[]`      | `string` A paginated list of enterprise group memberships for the user.                                                                                                                                 |
-| `nextPageToken` | `string` A token which can be sent as `pageToken` to retrieve the next page of results. If this field is empty or omitted, there are no subsequent pages. Note: Pagination is not supported in preview. |
+| Fields          |                                                                                                                                                           |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `groups[]`      | `string` A paginated list of enterprise group memberships for the user.                                                                                   |
+| `nextPageToken` | `string` A token which can be sent as `pageToken` to retrieve the next page of results. If this field is empty or omitted, there are no subsequent pages. |
 
 ### Authorization scopes
 

@@ -61,8 +61,8 @@ The request body contains data with the following structure:
 <td><p><code>string</code></p>
 <p>Required. The grant types are as follows:</p>
 <ul>
-<li><p><code>authorization_code</code> : an authorization code flow, for example, exchange of authorization code for the OAuth access token</p></li>
-<li><p><code>refreshToken</code> : a refresh token flow, for example, obtain a new access token by providing the refresh token. See <a href="https://www.rfc-editor.org/rfc/rfc6749#section-6">Grant Type</a></p></li>
+<li><p><code>authorization_code</code> : An authorization code flow that exchanges an authorization code for an OAuth access token.</p></li>
+<li><p><code>refresh_token</code> : A refresh token flow that obtains a new access token by providing a refresh token. See <a href="https://www.rfc-editor.org/rfc/rfc6749#section-6">Grant Type</a> .</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -93,7 +93,7 @@ The request body contains data with the following structure:
 <tr class="odd">
 <td><code>refreshToken</code></td>
 <td><p><code>string</code></p>
-<p>Optional. Credential used to obtain a new access token when the current access token becomes invalid or expires. Required when using refresh token flow, for example, if <code>grantType</code> is <code>refreshToken</code> . See <a href="https://www.rfc-editor.org/rfc/rfc6749#section-1.5">Refresh Token Grant</a> and <a href="https://www.rfc-editor.org/rfc/rfc6749#section-6">Refresh Token</a></p></td>
+<p>Optional. Credential used to obtain a new access token when the current access token becomes invalid or expires. Required when using refresh token flow, for example, if <code>grantType</code> is <code>refresh_token</code> . See <a href="https://www.rfc-editor.org/rfc/rfc6749#section-1.5">Refresh Token Grant</a> and <a href="https://www.rfc-editor.org/rfc/rfc6749#section-6">Refresh Token</a> .</p></td>
 </tr>
 <tr class="even">
 <td><code>clientSecret</code></td>

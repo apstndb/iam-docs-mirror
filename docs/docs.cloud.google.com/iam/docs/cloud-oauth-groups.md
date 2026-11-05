@@ -14,7 +14,7 @@ This guide describes how to retrieve enterprise group memberships for authentica
 
 The `/groups` endpoint serves as a distributed claims endpoint for OpenID Connect (OIDC) integrations, returning paginated enterprise group memberships for users in SCIM-enabled and non-SCIM workforce identity pools.
 
-> **Important:** The `/groups` endpoint is available only for Looker.
+> **Important:** The Cloud OAuth API is available only for Looker.
 
 ## Before you begin
 

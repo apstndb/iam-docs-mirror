@@ -8,7 +8,7 @@ data_source: docs.cloud.google.com
 
 You can create, view, update, and delete OAuth clients and client credentials to integrate your OAuth-based applications with Google Cloud. Registering an OAuth client lets federated workforce users sign in to your applications and access Google Cloud resources.
 
-> **Important:** OAuth application integration works only with Identity-Aware Proxy.
+> **Important:** OAuth application integration works only with Identity-Aware Proxy and Looker.
 
 > **Note:** These steps and the `projects.locations.oauthClients` API are only for [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) . To create and manage standard OAuth 2.0 client IDs for Google Cloud users or services, go to the Google Cloud console, then go to [**APIs & Services \> Credentials**](https://console.cloud.google.com/apis/credentials) .
 
@@ -18,7 +18,7 @@ At a high level, to integrate an OAuth-based application, you do the following:
 2.  [Create an OAuth client credential](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#create-credential) .
 3.  In the OAuth client credential, obtain the client secret. To learn about risks associated with storing and accessing the client secret and strategies that can help mitigate them, see [OAuth client and credential security risks and mitigations](https://docs.cloud.google.com/iam/docs/workforce-oauth-app#security) .
 
-After you complete these steps, the OAuth-based application can access Google Cloud products and data. You can redirect users to the authorization endpoint ( `https://auth.cloud.google/authorize` ) to obtain an authorization code, and then use the registered OAuth client credentials to exchange authorization codes or refresh tokens with the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) .
+After you complete these steps, the OAuth-based application can access Google Cloud products and data. For Looker integrations, you can redirect users to the authorization endpoint ( `https://auth.cloud.google/authorize` ) to obtain an authorization code and then use the registered OAuth client credentials to exchange authorization codes or refresh tokens with the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) .
 
 ## Before you begin
 

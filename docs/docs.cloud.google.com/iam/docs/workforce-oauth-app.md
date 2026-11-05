@@ -12,7 +12,7 @@ You can use OAuth application integration to integrate your OAuth-based applicat
 
 To use OAuth application integration, you must first create a workforce identity pool and provider. You can then register the OAuth-based application using OAuth 2.0. Applications must be registered in the organization where your workforce identity pool and provider are configured.
 
-> **Important:** OAuth application integration works only with Identity-Aware Proxy.
+> **Important:** OAuth application integration works only with Identity-Aware Proxy and Looker.
 
 > **Note:** OAuth application integration and the `projects.locations.oauthClients` API are only for [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) . To create and manage standard OAuth 2.0 client IDs for Google Cloud users or services, go to the Google Cloud console, then go to [**APIs & Services \> Credentials**](https://console.cloud.google.com/apis/credentials) .
 
