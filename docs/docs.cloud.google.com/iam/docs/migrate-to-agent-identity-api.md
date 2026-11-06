@@ -6,9 +6,7 @@ description: Migrate your agents and auth providers from the legacy IAMConnector
 data_source: docs.cloud.google.com
 ---
 
-This document shows you how to migrate your deployed agents and auth providers from the legacy IAM Connectors API ( `iamconnectors.googleapis.com` ) to the new Agent Identity API ( `agentidentity.googleapis.com` ).
-
-Both APIs operate side-by-side during the preview migration period, allowing you to migrate your workloads without interrupting existing agent conversations.
+You can migrate your deployed agents and auth providers from the legacy IAM Connectors API ( `iamconnectors.googleapis.com` ) to the Agent Identity API ( `agentidentity.googleapis.com` ). Both APIs operate side-by-side during the preview migration period, so you can transition your workloads without interrupting existing agent conversations.
 
 The migration workflow includes the following tasks:
 

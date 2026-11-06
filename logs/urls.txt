@@ -24,7 +24,7 @@ https://docs.cloud.google.com/iam/docs/auth-manager-overview	2026-10-02T06:11:42
 https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2	2026-10-27T17:27:48Z
 https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2	2026-10-27T17:27:48Z
 https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2	2026-10-27T17:27:48Z
-https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries	2026-10-02T06:11:42Z
+https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries	2026-11-05T11:45:00Z
 https://docs.cloud.google.com/iam/docs/authentication	2026-10-02T06:11:42Z
 https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys	2026-10-15T06:26:09Z
 https://docs.cloud.google.com/iam/docs/best-practices-for-using-service-accounts-in-deployment-pipelines	2026-10-02T06:11:42Z
@@ -42,12 +42,12 @@ https://docs.cloud.google.com/iam/docs/cloud-oauth-userinfo	2026-11-04T06:27:57Z
 https://docs.cloud.google.com/iam/docs/conditions-attribute-reference	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/conditions-overview	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/conditions-resource-attributes	2026-10-02T06:13:11Z
-https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra	2026-10-16T14:29:56Z
-https://docs.cloud.google.com/iam/docs/configure-scim-okta	2026-10-16T14:29:56Z
+https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra	2026-11-06T04:55:29Z
+https://docs.cloud.google.com/iam/docs/configure-scim-okta	2026-11-06T04:55:29Z
 https://docs.cloud.google.com/iam/docs/configuring-resource-based-access	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/configuring-temporary-access	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation	2026-11-02T18:54:37Z
-https://docs.cloud.google.com/iam/docs/create-and-deploy-agent	2026-10-02T06:13:11Z
+https://docs.cloud.google.com/iam/docs/create-and-deploy-agent	2026-11-05T11:45:00Z
 https://docs.cloud.google.com/iam/docs/create-downscoped-short-lived-credentials	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute	2026-10-08T05:16:03Z
 https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-gke	2026-10-02T06:13:11Z
@@ -63,7 +63,7 @@ https://docs.cloud.google.com/iam/docs/deny-overview	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-11-03T21:49:03Z
 https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/federated-identity-architectures	2026-10-02T06:13:11Z
-https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-10-29T15:12:35Z
+https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-11-06T05:52:01Z
 https://docs.cloud.google.com/iam/docs/full-resource-names	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/getting-support	2026-09-25T07:59:04Z
 https://docs.cloud.google.com/iam/docs/google-identities	2026-10-02T06:13:11Z
@@ -92,7 +92,7 @@ https://docs.cloud.google.com/iam/docs/managed-workload-identity	2026-10-02T06:1
 https://docs.cloud.google.com/iam/docs/managed-workload-identity-custom-constraints	2026-10-29T20:02:30Z
 https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings	2026-11-02T05:37:00Z
 https://docs.cloud.google.com/iam/docs/migrate-from-service-account-keys	2026-10-02T06:14:42Z
-https://docs.cloud.google.com/iam/docs/migrate-to-agent-identity-api	2026-10-22T15:32:34Z
+https://docs.cloud.google.com/iam/docs/migrate-to-agent-identity-api	2026-11-05T11:45:00Z
 https://docs.cloud.google.com/iam/docs/migrating-to-credentials-api	2026-10-11T07:20:05Z
 https://docs.cloud.google.com/iam/docs/org-policy-custom-constraints	2026-10-29T20:02:19Z
 https://docs.cloud.google.com/iam/docs/overview	2026-10-02T06:14:42Z

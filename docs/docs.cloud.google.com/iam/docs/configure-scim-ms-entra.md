@@ -8,20 +8,13 @@ data_source: docs.cloud.google.com
 
 > **Important:** SCIM provisioning applies only to Gemini Enterprise and Looker ( [Preview](https://cloud.google.com/products#product-launch-stages) ).
 
-This document describes how to configure a SCIM tenant in a workforce identity pool. To learn more about SCIM, see [SCIM provisioning for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim) .
+System for Cross-domain Identity Management (SCIM) provisioning with Microsoft Entra ID lets you automatically synchronize users and groups into your workforce identity pool. Automatic provisioning keeps user lifecycle and group membership changes in your external identity provider (IdP) synchronized with your Google Cloud access controls. For supported configurations and requirements, see [SCIM provisioning for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim) .
 
-Each workforce identity pool supports only one SCIM tenant. To configure a new SCIM tenant in a pool that already has one, you must first [hard-delete the existing tenant](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#delete-scim-tenant) .
+## Before you begin
 
-The `--claim-mapping` flag for a SCIM tenant can contain only specific Common Expression Language (CEL) expressions. To learn which expressions are supported, see [Claim mapping](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#token-scim-mapping) .
-
-Ensure that your IdP provides unique, non-empty values for attributes mapped to `google.subject` and `google.group` . Syncing duplicate values fails with an HTTP `409 Conflict` error, and null or empty values fail with an HTTP `400 Bad Request` error. For more information, see [SCIM support](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim) .
-
-To configure [System for Cross-domain Identity Management (SCIM)](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim) , do the following:
-
-1.  [Configure a SCIM tenant and token in Google Cloud](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#configure-scim-tenant-token-gcp)
-2.  [Configure SCIM in Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#configure-scim-idp)
-3.  [Update the provider to enable SCIM](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#update-provider-enable-scim)
-4.  [Verify SCIM synchronization](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#verify-sync)
+- Each workforce identity pool supports only one SCIM tenant. To configure a SCIM tenant in a pool that already has one, first [hard-delete the existing tenant](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#delete-scim-tenant) .
+- The `--claim-mapping` flag for a SCIM tenant supports only specific Common Expression Language (CEL) expressions. For supported expressions, see [Claim mapping](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#token-scim-mapping) .
+- Configure your IdP to provide unique, non-empty values for attributes mapped to `google.subject` and `google.group` . Syncing duplicate values returns an HTTP `409 Conflict` status code, and null or empty values return an HTTP `400 Bad Request` status code.
 
 ## Configure a SCIM tenant and token in Google Cloud
 

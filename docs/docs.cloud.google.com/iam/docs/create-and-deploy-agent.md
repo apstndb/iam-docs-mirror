@@ -10,9 +10,7 @@ data_source: docs.cloud.google.com
 >
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-This guide shows you how to create and deploy an agent in Agent Runtime on Gemini Enterprise Agent Platform with Agent Identity enabled.
-
-Agent Identity assigns a secure SPIFFE identity to your deployed agent. The agent uses this identity to authenticate to Google Cloud services and retrieve credentials from the Agent Identity auth manager.
+[Agent Identity](https://docs.cloud.google.com/iam/docs/agent-identity-overview) lets you provision a managed identity for agents that you create and deploy in Agent Runtime on Gemini Enterprise Agent Platform by using the Agent CLI and Agent Development Kit (ADK). Your deployed agent can then authenticate to Google Cloud services and retrieve credentials from the [Agent Identity auth manager](https://docs.cloud.google.com/iam/docs/auth-manager-overview) without manual credential management.
 
 ## Before you begin
 

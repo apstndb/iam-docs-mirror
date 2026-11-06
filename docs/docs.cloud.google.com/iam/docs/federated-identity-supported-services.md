@@ -6,9 +6,11 @@ description: Learn about the Google Cloud products that support Workforce Identi
 data_source: docs.cloud.google.com
 ---
 
+[Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) and [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) , collectively *identity federation* , let external users and workloads access supported Google Cloud products. Before you configure federated access, review the product-specific support levels and limitations in the following sections.
+
 ## Overview
 
-This page provides details of limitations and the level of support for each Google Cloud product that can use [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) or [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) , collectively *identity federation* .
+Identity federation includes two models for authenticating external users and workloads.
 
 ### Workforce Identity Federation
 

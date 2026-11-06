@@ -6,14 +6,9 @@ description: Learn how to use {{dynamic_data.site_values.cloud_name}} authentica
 data_source: docs.cloud.google.com
 ---
 
-This document shows you how to use [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) with Google Cloud authentication libraries, known as auth libraries, to authenticate workloads from third-party identity providers such as AWS, Microsoft Azure, and providers that support OpenID Connect (OIDC) or SAML 2.0.
+[Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) works with Google Cloud authentication libraries (auth libraries) to let external workloads access Google Cloud resources without service account keys. The auth libraries exchange external credentials, such as tokens from Amazon Web Services (AWS), Microsoft Azure, or OpenID Connect (OIDC) and Security Assertion Markup Language (SAML) 2.0 providers, or X.509 client certificates, for short-lived access tokens.
 
-Workload Identity Federation lets applications running outside Google Cloud access Google Cloud resources without using service account keys. The Google auth libraries enable this by exchanging external credentials for short-lived Google Cloud access tokens.
-
-For authentication, you can obtain external credentials using the following methods:
-
-- [Standard mechanism](https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries#authenticate-standard) for common setups.
-- [Custom credential suppliers](https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries#auth-custom-creds) for complex workflows that require you to write your own code.
+To obtain external credentials, you can use the [standard mechanism](https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries#authenticate-standard) for common setups, or implement [custom credential suppliers](https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries#auth-custom-creds) for workflows that require custom code.
 
 ## Before you begin
 
