@@ -62,7 +62,7 @@ https://docs.cloud.google.com/iam/docs/deny-access	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/deny-overview	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-11-03T21:49:03Z
 https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-10-02T06:13:11Z
-https://docs.cloud.google.com/iam/docs/federated-identity-architectures	2026-10-02T06:13:11Z
+https://docs.cloud.google.com/iam/docs/federated-identity-architectures	2026-11-06T05:52:01Z
 https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-11-06T05:52:01Z
 https://docs.cloud.google.com/iam/docs/full-resource-names	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/getting-support	2026-09-25T07:59:04Z
@@ -1191,7 +1191,7 @@ https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim	2026-1
 https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud	2026-11-02T21:44:52Z
 https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app	2026-11-04T06:27:36Z
 https://docs.cloud.google.com/iam/docs/workforce-oauth-app	2026-11-04T06:27:57Z
-https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials	2026-11-04T06:27:44Z
+https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials	2026-11-06T16:23:01Z
 https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions	2026-10-07T05:03:27Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id	2026-10-15T19:33:05Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups	2026-11-03T06:18:25Z

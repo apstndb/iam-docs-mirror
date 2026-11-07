@@ -687,7 +687,7 @@ You can now execute `gcloud` commands using the gcloud CLI.
 
 If you use a supported client library, you can configure the client library so that it generates Google credentials automatically. When possible, we recommend that you generate credentials automatically, so that you don't need to implement the token-exchange process yourself.
 
-Google Cloud client libraries support workforce pools in the following languages: Node.js, Java, Python, Go, and C++ (gRPC).
+Google Cloud client libraries support workforce pools in the following languages: C++, C#, Go, Java, Node.js, PHP, Python, Ruby, and Rust.
 
 To use client libraries with these services or languages, do the following:
 
@@ -705,9 +705,7 @@ Support for Workforce Identity Federation in the bq tool is available in [versio
 
 ### C++
 
-Most of the [Google Cloud Client Libraries for C++](https://github.com/googleapis/google-cloud-cpp) support Workforce Identity Federation by using a `ChannelCredentials` object, which is created by calling `grpc::GoogleDefaultCredentials()` . To initialize this credential, you must build the client libraries with version 1.42.0 or later of [gRPC](https://github.com/grpc/grpc) .
-
-The Cloud Storage Cloud Client Libraries for C++ uses the REST API, not gRPC, so it doesn't support Workforce Identity Federation.
+The [Google Cloud Client Libraries for C++](https://github.com/googleapis/google-cloud-cpp) support Workforce Identity Federation in version 2.31.0 or later for REST-based client libraries, and when built with version 1.42.0 or later of [gRPC](https://github.com/grpc/grpc) for gRPC-based client libraries (using a `ChannelCredentials` object created by calling `grpc::GoogleDefaultCredentials()` ).
 
 ```
 auto creds = grpc::GoogleDefaultCredentials();
@@ -717,6 +715,10 @@ auto channel = grpc::CreateChannel("greeter.googleapis.com", creds);
 std::unique_ptr<Greeter::Stub> stub(Greeter::NewStub(channel));
 grpc::Status s = stub->sayHello(&context, *request, response);
 ```
+
+### C#
+
+Cloud Client Libraries for .NET support Workforce Identity Federation when you use version 1.58.0 or later of the [`Google.Apis.Auth` package](https://www.nuget.org/packages/Google.Apis.Auth) .
 
 ### gcloud
 
@@ -732,7 +734,7 @@ Support for Workforce Identity Federation in the gcloud CLI is available in [ver
 
 ### Go
 
-Cloud Client Libraries for Go support Workforce Identity Federation when you use version v0.0.0-20211005180243-6b3c2da341f1 or later of the `golang.org/x/oauth2` module.
+Cloud Client Libraries for Go support Workforce Identity Federation when you use version v0.1.0 or later of the [`cloud.google.com/go/auth` module](https://pkg.go.dev/cloud.google.com/go/auth) or version v0.0.0-20211005180243-6b3c2da341f1 or later of the [`golang.org/x/oauth2` module](https://pkg.go.dev/golang.org/x/oauth2) .
 
 ```
 import (
@@ -805,6 +807,10 @@ const res = await client.request({url});
 console.log(res.data);
 ```
 
+### PHP
+
+Cloud Client Libraries for PHP support Workforce Identity Federation when you use version 1.35.0 or later of the [`google/auth` package](https://github.com/googleapis/google-auth-library-php) .
+
 ### Python
 
 Cloud Client Libraries for Python support Workforce Identity Federation when you use version 2.3.0 or later of the [`google-auth` package](https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth) .
@@ -823,6 +829,14 @@ client = storage.Client(
 In the example code, the `project` value can be `None` if the library is unable to automatically discover the project ID. You can pass the project ID explicitly when using a service instance, as the storage client example does, or set the project ID through the environment variable `GOOGLE_CLOUD_PROJECT` .
 
 For details, see the [user guide for the `google-auth` package](https://github.com/googleapis/google-cloud-python/blob/main/packages/google-auth/docs/user-guide.rst#using-external-identities) .
+
+### Ruby
+
+Cloud Client Libraries for Ruby support Workforce Identity Federation when you use version 1.6.0 or later of the [`googleauth` gem](https://github.com/googleapis/google-auth-library-ruby) .
+
+### Rust
+
+Cloud Client Libraries for Rust support Workforce Identity Federation when you use version 1.7.0 or later of the [`google-cloud-auth` crate](https://crates.io/crates/google-cloud-auth) .
 
 ### Use the REST API
 

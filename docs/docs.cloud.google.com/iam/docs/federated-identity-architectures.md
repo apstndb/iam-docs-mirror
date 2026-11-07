@@ -6,14 +6,7 @@ description: Learn about the four architectural patterns for federating {{dynami
 data_source: docs.cloud.google.com
 ---
 
-This document compares four architectural patterns to federate Google Cloud with an external identity provider (IdP). It also provides guidance to help you choose a suitable architecture for your use case.
-
-The four architectural patterns are as follows:
-
-- [Cloud Identity or Google Workspace federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#cloud-identity-fed)
-- [Workforce Identity Federation, sync-less](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#sync-less-fed)
-- [Workforce Identity Federation with SCIM](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#scim-fed)
-- [Hybrid Cloud Identity and Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#hybrid-fed)
+Identity federation lets you connect Google Cloud to an external identity provider (IdP) so your workforce can access Google Cloud resources and other Google services by using their existing credentials. Depending on your service portfolio, data residency requirements, and Gemini Enterprise integrations, you can choose from four architectures: [Cloud Identity or Google Workspace federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#cloud-identity-fed) , [sync-less Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#sync-less-fed) , [Workforce Identity Federation with SCIM](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#scim-fed) , or [hybrid Cloud Identity and Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#hybrid-fed) .
 
 ## Decision factors
 
