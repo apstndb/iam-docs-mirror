@@ -1412,7 +1412,6 @@ https://docs.cloud.google.com/sdk/gcloud/reference/iam/oauth-clients/delete	2026
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/oauth-clients/describe	2026-05-27T16:48:27Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/oauth-clients/list	2026-05-27T16:47:56Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/oauth-clients/undelete	2026-05-27T16:48:35Z
-https://docs.cloud.google.com/sdk/gcloud/reference/iam/oauth-clients/update	2026-08-15T02:41:35Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/policies	2026-05-27T16:46:38Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/policies/create	2026-05-27T16:48:28Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/policies/delete	2026-05-27T16:48:25Z
