@@ -85,7 +85,7 @@ You can test a change to a custom constraint, an organization policy that enforc
 
     6.  To define a condition, click edit **Edit condition** .
 
-    7.  In the **Add condition** panel, create a CEL condition that refers to a supported service resource, for example `resource.management.autoUpgrade == false` . This field has a maximum length of 1000 characters. For details about CEL usage, see [Common Expression Language](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints#common_expression_language) . For more information about the service resources you can use in your custom constraints, see [Custom constraint supported services](https://docs.cloud.google.com/resource-manager/docs/organization-policy/custom-constraint-supported-services) .
+    7.  In the **Add condition** panel, create a CEL condition that refers to a supported service resource, for example `resource.management.autoUpgrade == false` . This field has a maximum length of 1,500 characters. For details about CEL usage, see [Common Expression Language](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints#common_expression_language) . For more information about the service resources you can use in your custom constraints, see [Custom constraint supported services](https://docs.cloud.google.com/resource-manager/docs/organization-policy/custom-constraint-supported-services) .
 
     8.  Click **Save** .
 
@@ -144,7 +144,7 @@ The **Simulation history** page appears, with a list of simulations performed by
 
     - `METHOD1 `` , `` METHOD2` : a list of RESTful methods for which to enforce the constraint. Can be `CREATE` or `CREATE` and `UPDATE` . Not all Google Cloud services support both methods. To see supported methods for each service, find the service in [Supported services](https://docs.cloud.google.com/resource-manager/docs/organization-policy/custom-constraint-supported-services) .
 
-    - `CONDITION` : a CEL condition that refers to a supported service resource, for example `"resource.management.autoUpgrade == false"` . This field has a maximum length of 1000 characters. For details about CEL usage, see [Common Expression Language](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints#common_expression_language) .
+    - `CONDITION` : a CEL condition that refers to a supported service resource, for example `"resource.management.autoUpgrade == false"` . This field has a maximum length of 1,500 characters. For details about CEL usage, see [Common Expression Language](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints#common_expression_language) .
 
     - `ACTION` : the action to take if the `condition` is met. This can be either `ALLOW` or `DENY` .
 

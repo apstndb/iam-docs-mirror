@@ -204,6 +204,7 @@ A workforce identity pool defines a namespace for principal identifiers and serv
 [Choose a unique and meaningful pool name](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation#unique-pool-name) .  
 [Treat pools as highly-privileged resources](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation#treat-pools-privileged) .  
 [Consider risks when extending federation to partners](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation#consider-risks-federation) .  
+[Monitor your token exchange quota](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation#monitor-quota) .  
 
 ### Use a single pool per IdP
 
@@ -253,6 +254,22 @@ Federating Google Cloud with an external IdP using Workforce Identity Federation
 Workforce Identity Federation provides limited mechanisms to validate the assertions made by an external IdP. Specifically, Workforce Identity Federation doesn't support post-SSO MFA [in the same way as Cloud Identity](https://support.google.com/a/answer/6002699) .
 
 Before using Workforce Identity Federation to allow external partners or contractors to access your Google Cloud resources, determine whether this level of trust is appropriate. Don't use Workforce Identity Federation for partner access unless you trust the partner and their IdP to consistently meet your security standards.
+
+### Monitor your token exchange quota
+
+Workforce Identity Federation token exchange is limited by the quota metric `sts.googleapis.com/workforce_requests` , which defaults to 1,000 requests per minute and is enforced **per organization** . The quota is shared across every workforce pool, provider, user, and workload in the organization. Separate pools don't receive separate quotas. For the current value, see [Quotas and limits](https://docs.cloud.google.com/iam/quotas) .
+
+Because the quota is organization-wide, a single high-frequency client can exhaust it and cause `429 RESOURCE_EXHAUSTED` errors for all other users in your organization, including administrators.
+
+We recommend the following:
+
+- **Reserve Workforce Identity Federation for human sign-in.** Route automated workloads, CI/CD pipelines, and agents to [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) , which is designed for machine-to-machine traffic.
+- **Back off when throttled.** Retry `429 RESOURCE_EXHAUSTED` responses with exponential backoff and jitter. Tight retry loops deepen the saturation and extend the outage for everyone in your organization.
+- **Request more quota before you need it.** If your organization has a legitimate, sustained need above the default, request a quota increase rather than operating at the edge of the limit.
+- **Alert before you reach quota limit.** Create a Cloud Monitoring alert that fires when usage reaches 80% of your limit, by comparing `serviceruntime.googleapis.com/quota/rate/net_usage` against `serviceruntime.googleapis.com/quota/limit` , filtered to `metric.label.quota_metric="sts.googleapis.com/workforce_requests"` .
+- **Maintain break-glass access.** Ensure at least one administrator can reach your organization without Workforce Identity Federation, so that you can still act if token exchange is being throttled.
+
+To view your current usage and limit, go to the [Quotas page](https://console.cloud.google.com/iam-admin/quotas) in the Google Cloud console and select your **organization** as the resource, then filter for `Workforce Pool token exchange requests` .
 
 ## Manage workforce identity pool providers
 

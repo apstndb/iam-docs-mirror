@@ -82,7 +82,7 @@ Replace the following:
 
 - `RESOURCE_TYPE` : the name (not the URI) of the Identity and Access Management API REST resource containing the object and field you want to restrict. For example, iam.googleapis.com/ServiceAccount.
 
-- `CONDITION` : a [CEL condition](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints#common_expression_language) that is written against a representation of a supported service resource. This field has a maximum length of 1000 characters. See [Supported resources](https://docs.cloud.google.com/iam/docs/service-accounts-custom-constraints#supported_resources) for more information about the resources available to write conditions against. For example, `"resource.description.contains(' `` INVALID_DESCRIPTION `` ')"` .
+- `CONDITION` : a [CEL condition](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints#common_expression_language) that is written against a representation of a supported service resource. This field has a maximum length of 1,500 characters. See [Supported resources](https://docs.cloud.google.com/iam/docs/service-accounts-custom-constraints#supported_resources) for more information about the resources available to write conditions against. For example, `"resource.description.contains(' `` INVALID_DESCRIPTION `` ')"` .
 
 - `ACTION` : the action to take if the `condition` is met. This can be either `ALLOW` or `DENY` .
 
@@ -110,7 +110,7 @@ To create a custom constraint, do the following:
 To see supported methods for each service, find the service in [Services that support custom constraints](https://docs.cloud.google.com/organization-policy/reference/custom-constraint-supported-services) .
 
 1.  To define a condition, click edit **Edit condition** .
-    1.  In the **Add condition** panel, create a CEL condition that refers to a supported service resource, for example, `resource.management.autoUpgrade == false` . This field can contain up to 1000 characters. For details about CEL usage, see [Common Expression Language](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints#common_expression_language) . For more information about the service resources you can use in your custom constraints, see [Custom constraint supported services](https://docs.cloud.google.com/resource-manager/docs/organization-policy/custom-constraint-supported-services) .
+    1.  In the **Add condition** panel, create a CEL condition that refers to a supported service resource, for example, `resource.autopilot.enabled == false` . This field can contain up to 1,500 characters. For details about CEL usage, see [Common Expression Language](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints#common_expression_language) . For more information about the service resources you can use in your custom constraints, see [Custom constraint supported services](https://docs.cloud.google.com/resource-manager/docs/organization-policy/custom-constraint-supported-services) .
     2.  Click **Save** .
 2.  Under **Action** , select whether to allow or deny the evaluated method if the condition is met.
 
@@ -146,7 +146,7 @@ Replace the following:
 
 To see the supported methods for each service, find the service in [Services that support custom constraints](https://docs.cloud.google.com/organization-policy/reference/custom-constraint-supported-services) .
 
-- `CONDITION` : a [CEL condition](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints#common_expression_language) that is written against a representation of a supported service resource. This field can contain up to 1000 characters. For example, `"resource.description.contains(' `` INVALID_DESCRIPTION `` ')"` .
+- `CONDITION` : a [CEL condition](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints#common_expression_language) that is written against a representation of a supported service resource. This field can contain up to 1,500 characters. For example, `"resource.description.contains(' `` INVALID_DESCRIPTION `` ')"` .
 
 For more information about the resources available to write conditions against, see [Supported resources](https://docs.cloud.google.com/iam/docs/service-accounts-custom-constraints#supported_resources) .
 

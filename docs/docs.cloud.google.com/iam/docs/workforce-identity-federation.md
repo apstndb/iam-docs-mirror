@@ -22,6 +22,12 @@ To compare this approach with other federation architectures, see [Architecture 
 
 Workforce Identity Federation federates user identities whereas Workload Identity Federation federates workload identities.
 
+Workforce Identity Federation is designed and capacity-modeled for human sign-in rates. Token exchange is limited by the quota metric `sts.googleapis.com/workforce_requests` , which defaults to **1,000 requests per minute per organization** . For the current value, see [Quotas and limits](https://docs.cloud.google.com/iam/quotas) .
+
+> **Caution:** This quota is enforced **per organization** and is shared by every workforce pool, provider, human user, and automated workload in that organization. Creating a separate workforce pool does **not** create a separate quota. For automated workloads, use [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) .  
+>   
+> If a workload must use Workforce Identity Federation, retry throttled requests with exponential backoff rather than tight retry loops, and [monitor your token exchange quota](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation#monitor-quota) .
+
 For more information, see [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) .
 
 ### Attribute-based access
