@@ -62,9 +62,10 @@ The following is an example of a Credential Access Boundary:
         "availablePermissions": [
           "inRole:ROLE_ID"
         ],
-        "availableResource": "//storage.googleapis.com/projects/_/buckets/BUCKET_NAME"
-         "availabilityCondition": {
-            "expression" : "CONDITION"
+        "availableResource": "//storage.googleapis.com/projects/_/buckets/BUCKET_NAME",
+        "availabilityCondition": {
+          "expression" : "CONDITION"
+        }
       }
     ]
   }
@@ -778,44 +779,29 @@ def token_consumer(bucket_name, object_name):
 
 #### Exchange and refresh the access token manually
 
-A token broker can use the Security Token Service API to exchange an access token for a downscoped access token. It can then provide the downscoped token to a token consumer.
+A token broker can call the [`sts.token`](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/TopLevel/token) method in the Security Token Service API ( `POST https://sts.googleapis.com/v1/token` ) to exchange an OAuth 2.0 access token for a downscoped access token, and then provide the downscoped token to a token consumer.
 
-To exchange the access token, use the following HTTP method and URL:
-
-```
-POST https://sts.googleapis.com/v1/token
-```
-
-Set the `Content-Type` header in the request to `application/x-www-form-urlencoded` . Include the following fields in the request body:
-
-| Fields                 |                                                                                                                                                             |
-|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `grant_type`           | `string` Use the value `urn:ietf:params:oauth:grant-type:token-exchange` .                                                                                  |
-| `options`              | `string` A JSON-formatted Credential Access Boundary, encoded with [percent encoding](https://developer.mozilla.org/en-US/docs/Glossary/percent-encoding) . |
-| `requested_token_type` | `string` Use the value `urn:ietf:params:oauth:token-type:access_token` .                                                                                    |
-| `subject_token`        | `string` The OAuth 2.0 access token that you want to exchange.                                                                                              |
-| `subject_token_type`   | `string` Use the value `urn:ietf:params:oauth:token-type:access_token` .                                                                                    |
-
-The response is a JSON object that contains the following fields:
-
-| Fields              |                                                                                                                                                                                                                                                                                    |
-|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `access_token`      | `string` A downscoped OAuth 2.0 access token that respects the Credential Access Boundary.                                                                                                                                                                                         |
-| `expires_in`        | `number` The amount of time until the downscoped token expires, in seconds. This field is included only if the original access token represents a service account. When this field is not included, the downscoped token has the same time to expire as the original access token. |
-| `issued_token_type` | `string` Contains the value `urn:ietf:params:oauth:token-type:access_token` .                                                                                                                                                                                                      |
-| `token_type`        | `string` Contains the value `Bearer` .                                                                                                                                                                                                                                             |
-
-For example, if a JSON-formatted Credential Access Boundary is stored in the file `./access-boundary.json` , you can use the following [`curl`](https://curl.haxx.se/) command to exchange the access token. Replace `original-token` with the original access token:
+The following `curl` command exchanges an access token by using a JSON-formatted Credential Access Boundary file:
 
 ```
-curl -H "Content-Type:application/x-www-form-urlencoded" \
-    -X POST \
-    https://sts.googleapis.com/v1/token \
-    -d "grant_type=urn:ietf:params:oauth:grant-type:token-exchange&subject_token_type=urn:ietf:params:oauth:token-type:access_token&requested_token_type=urn:ietf:params:oauth:token-type:access_token&subject_token=original-token" \
-    --data-urlencode "options=$(cat ./access-boundary.json)"
+curl https://sts.googleapis.com/v1/token \
+    --header "Content-Type: application/x-www-form-urlencoded" \
+    --request POST \
+    --data-urlencode "grant_type=urn:ietf:params:oauth:grant-type:token-exchange" \
+    --data-urlencode "subject_token_type=urn:ietf:params:oauth:token-type:access_token" \
+    --data-urlencode "requested_token_type=urn:ietf:params:oauth:token-type:access_token" \
+    --data-urlencode "subject_token=ORIGINAL_TOKEN" \
+    --data-urlencode "options=$(cat ACCESS_BOUNDARY_FILE)"
 ```
 
-The response is similar to the following example:
+Replace the following:
+
+- `ORIGINAL_TOKEN` : the OAuth 2.0 access token that you want to exchange.
+- `ACCESS_BOUNDARY_FILE` : the path to the file that contains the JSON-formatted Credential Access Boundary, such as `./access-boundary.json` .
+
+For complete details about the request parameters and response fields, see the [`sts.token` REST API reference](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/TopLevel/token) .
+
+The output is similar to the following:
 
 ```
 {
@@ -825,6 +811,8 @@ The response is similar to the following example:
   "expires_in": 3600
 }
 ```
+
+The `expires_in` field appears only when the original access token represents a service account. When the original access token represents a user account, the response omits `expires_in` , and the downscoped token expires at the same time as the original access token.
 
 When a token consumer requests a downscoped token, the token broker responds with both the downscoped token and the number of seconds until it expires. If the token has expired, the server rejects the request. To refresh the downscoped token, the consumer can request a downscoped token from the broker before the existing token expires.
 

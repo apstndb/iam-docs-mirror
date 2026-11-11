@@ -2054,94 +2054,99 @@ Google Cloud can introduce new service agents at any time, both for existing ser
 <p>Granted on the project.</p></td>
 </tr>
 <tr class="odd">
+<td>Vertex AI Grounding Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
+<p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-grounding.iam.gserviceaccount.com</code></p></td>
+<td>None</td>
+</tr>
+<tr class="even">
 <td>Vertex AI Logging Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-logging.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex AI Managed OSS Fine Tuning Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-moss-ft.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.tuningServiceAgent">Vertex AI Tuning Service Agent</a><br />
 ( <code>roles/aiplatform.tuningServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex AI Model Monitoring Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-mm.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.modelMonitoringServiceAgent">Vertex AI Model Monitoring Service Agent</a><br />
 ( <code>roles/aiplatform.modelMonitoringServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex AI Notebook Service Account Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-aiplatform-vm.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.notebookServiceAgent">Vertex AI Notebook Service Agent</a><br />
 ( <code>roles/aiplatform.notebookServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex AI Online Prediction Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-op.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.onlinePredictionServiceAgent">Vertex AI Online Prediction Service Agent</a><br />
 ( <code>roles/aiplatform.onlinePredictionServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex AI Secure Fine Tuning Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-tune.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.tuningServiceAgent">Vertex AI Tuning Service Agent</a><br />
 ( <code>roles/aiplatform.tuningServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex AI Session Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-session.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex AI Telemetry Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-telemetry.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.telemetryServiceAgent">Vertex AI Telemetry Service Agent</a><br />
 ( <code>roles/aiplatform.telemetryServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex AI Training Cluster Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-vtc.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Vertex Agent Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-agent.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vertex RAG Data Service Agent Service agent for <code>aiplatform.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-vertex-rag.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a><br />
 ( <code>roles/aiplatform.ragServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Virtual Machine Threat Detection Service Account Service agent for <code>securitycenter.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-scc-vmtd.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Vision AI Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>visionai.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-visionai.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visionai#visionai.serviceAgent">Cloud Vision AI Service Agent</a><br />
 ( <code>roles/visionai.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Workload Manager Service Account <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code>workloadmanager.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-workloadmanager.iam.gserviceaccount.com</code></p></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.serviceAgent">Workload Manager Service Agent</a><br />
 ( <code>roles/workloadmanager.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Workstations VM Default Service Account Service agent for <code>workstations.googleapis.com</code> .
 <p><code>service- </code><var translate="no"> PROJECT_NUMBER </var><code> @gcp-sa-workstationsvm.iam.gserviceaccount.com</code></p></td>
 <td>None</td>

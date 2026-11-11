@@ -6,11 +6,9 @@ description: Overview of OAuth application integration.
 data_source: docs.cloud.google.com
 ---
 
-This page provides an overview of OAuth application integration in Google Cloud.
+[Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) OAuth application integration lets you connect custom and third-party OAuth-based applications with Google Cloud. Federated users can use their external identity provider (IdP) credentials to sign in to integrated applications and access Google Cloud resources without creating new identities or synchronizing user accounts.
 
-You can use OAuth application integration to integrate your OAuth-based applications with Google Cloud. Federated users can use their identity provider (IdP) to sign in to the applications and access their Google Cloud products and data. OAuth application integration is a feature of Workforce Identity Federation.
-
-To use OAuth application integration, you must first create a workforce identity pool and provider. You can then register the OAuth-based application using OAuth 2.0. Applications must be registered in the organization where your workforce identity pool and provider are configured.
+To integrate an OAuth 2.0 application, you must first create a workforce identity pool and provider, and then register the application in the same organization.
 
 > **Important:** OAuth application integration works only with Identity-Aware Proxy and Looker.
 

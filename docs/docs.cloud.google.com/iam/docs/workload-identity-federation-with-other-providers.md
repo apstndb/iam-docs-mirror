@@ -20,7 +20,7 @@ Using Workload Identity Federation can help you [reduce the number of credential
 
 The following sections describe how you can use Workload Identity Federation with IdPs that support either OpenID Connect (OIDC) or SAML authentication protocols.
 
-> **Note:** If your workloads run on AWS or Azure, see [Configure Workload Identity Federation with AWS or Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds) instead. If you're using Active Directory Federation Services (AD FS) as IdP, see [Configure Workload Identity Federation with Active Directory](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory) . If you've configured AWS with [outbound identity federation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_outbound_getting_started.html) , continue with the following OIDC instructions on this page.
+> **Note:** If your workloads run on AWS or Azure, see [Configure Workload Identity Federation with AWS or Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds) instead. If you're using Active Directory Federation Services (AD FS) as an IdP, see [Configure Workload Identity Federation with Active Directory](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory) . If you've configured AWS with [outbound identity federation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_outbound_getting_started.html) , continue with the following OIDC instructions on this page.
 
 ## Prepare your external IdP
 
@@ -51,7 +51,7 @@ Before you begin, verify that your external IdP meets the following requirements
 
     Google Cloud uses these endpoint URLs to download your IdP's JSON web keys (JWKs) and uses these keys to validate tokens. Google Cloud doesn't limit the number of keys that it can download.
 
-  - You can upload an OIDC JWKS file directly to Google Cloud when you create or update the OIDC workload identity pool provider. To do this, you use the `--jwk-json-path` to provide a path to your JWKS file. You can use this method when the IdP's OIDC metadata endpoint URL isn't publicly accessible. A maximum of 8 keys can be uploaded to Google Cloud. As a best practice, we recommend that you rotate your JWKS keys regularly by [updating the JWKS file](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#manage-oidc-keys) .
+  - You can upload an OIDC JWKS file directly to Google Cloud when you create or update the OIDC workload identity pool provider. To do this, you use the `--jwk-json-path` flag to provide a path to your JWKS file. You can use this method when the IdP's OIDC metadata endpoint URL isn't publicly accessible. A maximum of 8 keys can be uploaded to Google Cloud. As a best practice, we recommend that you rotate your JWKS keys regularly by [updating the JWKS file](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#manage-oidc-keys) .
 
 - If you're federating workloads from AWS using [AWS Outbound Identity Federation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_outbound.html) , AWS acts as your OIDC IdP. To prepare your AWS environment, follow these steps:
 
@@ -217,11 +217,11 @@ This operation replaces any existing uploaded keys with the ones in the file. Yo
 
 To delete all of the uploaded OIDC JWKs and return to using the issuer URI to fetch the keys, run the [gcloud iam workload-identity-pools providers update-oidc](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-oidc) command with `--jwk-json-path=" `` JWK_JSON_PATH `` "` . Replace `JWK_JSON_PATH` with the path to an empty file. Use the `--issuer-uri` flag to set the issuer URI.
 
-This operation deletes all of your existing uploaded keys with the ones in the file. You cannot restore the deleted keys.
+This operation deletes all of your existing uploaded keys. You cannot restore the deleted keys.
 
 ### Define an attribute mapping and condition
 
-The OIDC tokens or SAML assertions issued by your IdP might contain multiple attributes, and you must decide which attribute you want to use as subject identifier ( `google.subject` ) in Google Cloud.
+The OIDC tokens or SAML assertions issued by your IdP might contain multiple attributes, and you must decide which attribute you want to use as the subject identifier ( `google.subject` ) in Google Cloud.
 
 Optionally, you can [map additional attributes](https://docs.cloud.google.com/iam/docs/workload-identity-federation#mapping) . You can then refer to these attributes when granting access to resources.
 
@@ -984,6 +984,17 @@ The Cloud Client Libraries obtain external credentials from a local file, an HTT
   }
   ```
 
+  If you use actor delegation ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ), the JSON file must include separate fields for both the subject token and the actor token:
+
+  ```
+  {
+    "subject_token": "ey...",
+    "actor_token": "ey..."
+  }
+  ```
+
+  Credential configurations that use actor delegation ( `actor_token_field_name` and `actor_token_type` ) are supported only by the [Google Auth Library for Java](https://docs.cloud.google.com/java/getting-started/getting-started-with-google-auth-library#actor-delegation) .
+
   ### Text
 
   ```
@@ -1042,7 +1053,12 @@ gcloud iam workload-identity-pools create-cred-config \
     --output-file=FILEPATH.json \
     --credential-source-file=TOKEN_FILEPATH \
     --credential-source-type=SOURCE_TYPE \
-    --credential-source-field-name=FIELD_NAME
+    --credential-source-field-name=FIELD_NAME \
+    --actor-token-field-name=ACTOR_FIELD_NAME \
+    --actor-token-type=ACTOR_TOKEN_TYPE \
+    --credential-cert-path=WORKLOAD_CERTIFICATE_PATH \
+    --credential-cert-private-key-path=WORKLOAD_KEY_PATH \
+    --credential-cert-configuration-output-file=CERT_CONFIG_FILEPATH
 ```
 
 Replace the following:
@@ -1055,8 +1071,15 @@ Replace the following:
 - `REGION` : Optional. Specify the region of the [regional Security Token Service endpoints](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#sts-regional-endpoints) , if they are available.
 - `FILEPATH` : The file to save the configuration to.
 - `TOKEN_FILEPATH` : The path where OIDC ID tokens are stored.
-- `SOURCE_TYPE` : The format of the OIDC ID token file, set to `text` (default) or `json` .
+- `SOURCE_TYPE` : The format of the OIDC ID token file, set to `text` (default) or `json` . If the `--actor-token-field-name` flag is specified, it must be set to `json` .
 - `FIELD_NAME` : The field in the text file that contains the token (if `SOURCE_TYPE` is `json` ).
+- `ACTOR_FIELD_NAME` ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ): Optional. If you use actor delegation, specify the field in the JSON file ( `TOKEN_FILEPATH` ) that contains the actor token. It must differ from `FIELD_NAME` . Omit this flag if you don't use actor delegation.
+- `ACTOR_TOKEN_TYPE` ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ): Optional. The token type of the actor token when the `--actor-token-field-name` flag is specified. It defaults to `urn:ietf:params:oauth:token-type:jwt` . Omit this flag if you don't use actor delegation.
+- `WORKLOAD_CERTIFICATE_PATH` ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ): Optional. If you use certificate-bound tokens, specify the path to your workload's PEM-encoded X.509 leaf certificate file. When this flag is specified, the gcloud CLI configures mTLS endpoints ( `sts.mtls.googleapis.com` and `iamcredentials.mtls.googleapis.com` ) and generates a certificate configuration file.
+- `WORKLOAD_KEY_PATH` ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ): Optional. The path to the PEM-encoded private key file for your workload's X.509 certificate. If the `--credential-cert-path` flag is specified, this flag is required.
+- `CERT_CONFIG_FILEPATH` ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ): Optional. A custom output path for the generated certificate configuration file. If you omit this flag and specify the `--credential-cert-path` flag, then the gcloud CLI writes `certificate_config.json` to the default gcloud CLI configuration location ( `~/.config/gcloud/certificate_config.json` on Linux and macOS, or `%APPDATA%\gcloud\certificate_config.json` on Windows).
+
+Resulting credential configurations that include actor delegation using the `--actor-token-field-name` and `--actor-token-type` flags are supported only by the [Google Auth Library for Java](https://docs.cloud.google.com/java/getting-started/getting-started-with-google-auth-library#actor-delegation) .
 
 ### URL-sourced credentials
 
@@ -1078,11 +1101,11 @@ Replace the following:
 - `PROJECT_NUMBER` : Project number of the project that contains the workload identity pool.
 - `POOL_ID` : ID of the workload identity pool.
 - `WORKLOAD_PROVIDER_ID` : ID of the workload identity pool provider
-- `SERVICE_ACCOUNT_EMAIL` : If you use service account impersonation, replace with the mail address of the service account. Omit this flag if you don't use service account impersonation.
+- `SERVICE_ACCOUNT_EMAIL` : If you use service account impersonation, replace with the email address of the service account. Omit this flag if you don't use service account impersonation.
 - `SERVICE_ACCOUNT_TOKEN_LIFETIME` : If you use service account impersonation, replace with the lifetime of the service account access token, in seconds; this defaults to one hour when not provided. Omit this flag if you don't use service account impersonation. To specify a lifetime longer than one hour, you must configure the `constraints/iam.allowServiceAccountCredentialLifetimeExtension` [organizational policy constraint](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-policies) .
 - `REGION` : Optional. Specify the region of the [regional Security Token Service endpoints](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#sts-regional-endpoints) , if they are available.
 - `FILEPATH` : File to save the configuration to.
-- `TOKEN_URL` : URL to retrieve OIDC ID token from
+- `TOKEN_URL` : URL to retrieve the OIDC ID token from
 - `KEY_n` , `VALUE_n` : Custom headers to include in HTTP request to `TOKEN_URL`
 - `SOURCE_TYPE` : Format of the OIDC ID token file, set to `text` (default) or `json`
 - `FIELD_NAME` : Field in the text file that contains the token (if `SOURCE_TYPE` is `json` )

@@ -12,7 +12,7 @@ gcloud iam workload-identity-pools create-cred-config - create a configuration f
 
 SYNOPSIS
 
-`gcloud iam workload-identity-pools create-cred-config` [`AUDIENCE`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#AUDIENCE) [`--output-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--output-file) = `OUTPUT_FILE` ( [`--aws`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--aws) \| [`--azure`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--azure) \| [`--credential-cert-path`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-cert-path) = `CREDENTIAL_CERT_PATH` \| [`--credential-source-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-file) = `CREDENTIAL_SOURCE_FILE` \| [`--credential-source-url`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-url) = `CREDENTIAL_SOURCE_URL` \| [`--executable-command`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--executable-command) = `EXECUTABLE_COMMAND` ) \[ [`--app-id-uri`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--app-id-uri) = `APP_ID_URI` \] \[ [`--credential-source-field-name`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-field-name) = `CREDENTIAL_SOURCE_FIELD_NAME` \] \[ [`--credential-source-headers`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-headers) =\[ `key` = `value` , …\]\] \[ [`--credential-source-type`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-type) = `CREDENTIAL_SOURCE_TYPE` \] \[ [`--enable-imdsv2`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--enable-imdsv2) \] \[ [`--sts-location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--sts-location) = `STS_LOCATION` \] \[ [`--subject-token-type`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--subject-token-type) = `SUBJECT_TOKEN_TYPE` \] \[ [`--credential-cert-private-key-path`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-cert-private-key-path) = `CREDENTIAL_CERT_PRIVATE_KEY_PATH` : [`--credential-cert-configuration-output-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-cert-configuration-output-file) = `CREDENTIAL_CERT_CONFIGURATION_OUTPUT_FILE` [`--credential-cert-trust-chain-path`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-cert-trust-chain-path) = `CREDENTIAL_CERT_TRUST_CHAIN_PATH` \] \[ [`--executable-output-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--executable-output-file) = `EXECUTABLE_OUTPUT_FILE` [`--executable-timeout-millis`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--executable-timeout-millis) = `EXECUTABLE_TIMEOUT_MILLIS` \] \[ [`--service-account`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--service-account) = `SERVICE_ACCOUNT` : [`--service-account-token-lifetime-seconds`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--service-account-token-lifetime-seconds) = `SERVICE_ACCOUNT_TOKEN_LIFETIME_SECONDS` \] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#GCLOUD-WIDE-FLAGS)` …` \]
+`gcloud iam workload-identity-pools create-cred-config` [`AUDIENCE`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#AUDIENCE) [`--output-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--output-file) = `OUTPUT_FILE` ( [`--aws`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--aws) \| [`--azure`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--azure) \| [`--credential-source-url`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-url) = `CREDENTIAL_SOURCE_URL` \| [`--executable-command`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--executable-command) = `EXECUTABLE_COMMAND` \| [`--credential-cert-path`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-cert-path) = `CREDENTIAL_CERT_PATH` [`--credential-source-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-file) = `CREDENTIAL_SOURCE_FILE` ) \[ [`--actor-token-field-name`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--actor-token-field-name) = `ACTOR_TOKEN_FIELD_NAME` \] \[ [`--actor-token-type`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--actor-token-type) = `ACTOR_TOKEN_TYPE` \] \[ [`--app-id-uri`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--app-id-uri) = `APP_ID_URI` \] \[ [`--credential-source-field-name`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-field-name) = `CREDENTIAL_SOURCE_FIELD_NAME` \] \[ [`--credential-source-headers`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-headers) =\[ `key` = `value` , …\]\] \[ [`--credential-source-type`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-source-type) = `CREDENTIAL_SOURCE_TYPE` \] \[ [`--enable-imdsv2`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--enable-imdsv2) \] \[ [`--sts-location`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--sts-location) = `STS_LOCATION` \] \[ [`--subject-token-type`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--subject-token-type) = `SUBJECT_TOKEN_TYPE` \] \[ [`--credential-cert-private-key-path`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-cert-private-key-path) = `CREDENTIAL_CERT_PRIVATE_KEY_PATH` : [`--credential-cert-configuration-output-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-cert-configuration-output-file) = `CREDENTIAL_CERT_CONFIGURATION_OUTPUT_FILE` [`--credential-cert-trust-chain-path`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--credential-cert-trust-chain-path) = `CREDENTIAL_CERT_TRUST_CHAIN_PATH` \] \[ [`--executable-output-file`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--executable-output-file) = `EXECUTABLE_OUTPUT_FILE` [`--executable-timeout-millis`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--executable-timeout-millis) = `EXECUTABLE_TIMEOUT_MILLIS` \] \[ [`--service-account`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--service-account) = `SERVICE_ACCOUNT` : [`--service-account-token-lifetime-seconds`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#--service-account-token-lifetime-seconds) = `SERVICE_ACCOUNT_TOKEN_LIFETIME_SECONDS` \] \[ [`GCLOUD_WIDE_FLAG`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config#GCLOUD-WIDE-FLAGS)` …` \]
 
 DESCRIPTION
 
@@ -56,6 +56,12 @@ To create an X.509 certificate-based credential configuration for your project, 
 gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --service-account=$EMAIL --credential-cert-path=$PATH_TO_CERTIFICATE_FILE --credential-cert-private-key-path=$PATH_TO_PRIVATE_KEY_FILE --output-file=credentials.json
 ```
 
+To create a hybrid file-sourced and X.509 certificate-bound credential configuration with an actor token for your project, run:
+
+```
+gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --credential-source-file=$PATH_TO_JSON_TOKENS --credential-source-field-name=$SUBJECT_TOKEN_FIELD --actor-token-field-name=$ACTOR_TOKEN_FIELD --credential-cert-path=$PATH_TO_CERTIFICATE_FILE --credential-cert-private-key-path=$PATH_TO_PRIVATE_KEY_FILE --output-file=credentials.json
+```
+
 To use the resulting file for any of these commands, set the GOOGLE_APPLICATION_CREDENTIALS environment variable to point to the generated file
 
 POSITIONAL ARGUMENTS
@@ -73,25 +79,38 @@ Credential types.
 
 Exactly one of these must be specified:
 
-`--aws`  
+`--aws`
+
 Use AWS.
 
-`--azure`  
+`--azure`
+
 Use Azure.
 
+`--credential-source-url` = `CREDENTIAL_SOURCE_URL`
+
+URL to obtain the credential from.
+
+`--executable-command` = `EXECUTABLE_COMMAND`
+
+The full command to run to retrieve the credential. Must be an absolute path for the program including arguments.
+
+Or at least one of these can be specified:
+
+File and/or X.509 certificate credential sources.  
 `--credential-cert-path` = `CREDENTIAL_CERT_PATH`  
-Path of the X.509 certificate file.
+Path of the X.509 certificate file. Can be used standalone for X.509 certificate-based credentials or combined with `--credential-source-file` for certificate-bound token exchanges.
 
 `--credential-source-file` = `CREDENTIAL_SOURCE_FILE`  
 Location of the credential source file.
 
-`--credential-source-url` = `CREDENTIAL_SOURCE_URL`  
-URL to obtain the credential from.
-
-`--executable-command` = `EXECUTABLE_COMMAND`  
-The full command to run to retrieve the credential. Must be an absolute path for the program including arguments.
-
 OPTIONAL FLAGS
+
+`--actor-token-field-name` = `ACTOR_TOKEN_FIELD_NAME`  
+The field name in the JSON credential source file containing the actor token. Must be used with `--credential-source-file` and `--credential-source-field-name` .
+
+`--actor-token-type` = `ACTOR_TOKEN_TYPE`  
+The type of actor token being used for authorization. This defaults to urn:ietf:params:oauth:token-type:jwt.
 
 `--app-id-uri` = `APP_ID_URI`  
 The custom Application ID URI for the Azure access token.
@@ -114,7 +133,7 @@ The location to use for the Security Token Service token endpoint. For example, 
 `--subject-token-type` = `SUBJECT_TOKEN_TYPE`  
 The type of token being used for authorization. This defaults to urn:ietf:params:oauth:token-type:jwt.
 
-Arguments for an X.509 certificate type credential source.  
+Arguments for configuring X.509 certificates.  
 `--credential-cert-private-key-path` = `CREDENTIAL_CERT_PRIVATE_KEY_PATH`  
 Path of the X.509 private key file.
 

@@ -10,6 +10,7 @@ https://docs.cloud.google.com/iam/docs/apis	2026-10-02T06:11:42Z
 https://docs.cloud.google.com/iam/docs/attach-service-accounts	2026-11-02T05:36:49Z
 https://docs.cloud.google.com/iam/docs/audit-logging	2026-10-27T13:05:39Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-agentidentity	2026-10-27T13:05:39Z
+https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-cloudoauth	2026-11-10T23:58:32Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamcreds	2026-10-27T13:05:39Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamscim	2026-10-27T13:05:39Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-pam	2026-10-27T13:05:39Z
@@ -48,7 +49,7 @@ https://docs.cloud.google.com/iam/docs/configuring-resource-based-access	2026-10
 https://docs.cloud.google.com/iam/docs/configuring-temporary-access	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation	2026-11-02T18:54:37Z
 https://docs.cloud.google.com/iam/docs/create-and-deploy-agent	2026-11-05T11:45:00Z
-https://docs.cloud.google.com/iam/docs/create-downscoped-short-lived-credentials	2026-10-02T06:13:11Z
+https://docs.cloud.google.com/iam/docs/create-downscoped-short-lived-credentials	2026-11-11T05:46:52Z
 https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute	2026-10-08T05:16:03Z
 https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-gke	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-load-balancing	2026-10-02T06:13:11Z
@@ -905,7 +906,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/commercepricemanagement
 https://docs.cloud.google.com/iam/docs/roles-permissions/commerceproducer	2026-10-28T18:23:16Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/compliancescanning	2026-10-02T06:11:54Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/composer	2026-10-28T18:23:16Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/compute	2026-11-03T21:44:38Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/compute	2026-11-08T07:48:13Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing	2026-10-28T18:23:26Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/config	2026-10-28T18:23:26Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery	2026-10-28T18:23:16Z
@@ -1165,7 +1166,7 @@ https://docs.cloud.google.com/iam/docs/service-accounts-delete-undelete	2026-10-
 https://docs.cloud.google.com/iam/docs/service-accounts-disable-enable	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/service-accounts-list-edit	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/service-accounts-tags	2026-10-02T06:11:46Z
-https://docs.cloud.google.com/iam/docs/service-agents	2026-10-29T20:02:40Z
+https://docs.cloud.google.com/iam/docs/service-agents	2026-11-08T07:48:30Z
 https://docs.cloud.google.com/iam/docs/setting-limits-on-granting-roles	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/tags-access-control	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/temporary-elevated-access	2026-10-02T06:11:46Z
@@ -1190,8 +1191,8 @@ https://docs.cloud.google.com/iam/docs/workforce-identity-federation	2026-11-09T
 https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim	2026-10-05T05:59:34Z
 https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud	2026-11-02T21:44:52Z
 https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app	2026-11-04T06:27:36Z
-https://docs.cloud.google.com/iam/docs/workforce-oauth-app	2026-11-04T06:27:57Z
-https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials	2026-11-06T16:23:01Z
+https://docs.cloud.google.com/iam/docs/workforce-oauth-app	2026-11-10T19:10:30Z
+https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials	2026-11-10T19:10:30Z
 https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions	2026-10-07T05:03:27Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id	2026-10-15T19:33:05Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups	2026-11-03T06:18:25Z
@@ -1207,7 +1208,7 @@ https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines	2026-10-02T06:12:00Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-kubernetes	2026-10-02T06:12:00Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds	2026-10-02T06:12:00Z
-https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers	2026-10-27T21:35:23Z
+https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers	2026-11-11T04:18:17Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates	2026-10-19T08:14:58Z
 https://docs.cloud.google.com/iam/docs/write-policy-client-libraries	2026-10-02T06:12:00Z
 https://docs.cloud.google.com/iam/quotas	2026-10-02T06:11:42Z
@@ -1520,7 +1521,7 @@ https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools	2
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/add-attestation-rule	2026-05-27T16:47:16Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/add-iam-policy-binding	2026-05-27T16:47:59Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create	2026-05-27T16:46:33Z
-https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config	2026-08-11T16:07:32Z
+https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config	2026-11-10T17:26:21Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/delete	2026-05-27T16:48:29Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/describe	2026-05-27T16:48:50Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/get-iam-policy	2026-05-27T16:46:48Z

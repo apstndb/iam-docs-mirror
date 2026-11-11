@@ -6,14 +6,9 @@ description: Obtain short-lived tokens using a workforce identity pool and provi
 data_source: docs.cloud.google.com
 ---
 
-You can use a workforce identity pool and workforce identity pool provider to obtain short-lived tokens from Security Token Service or, for Looker integrations, the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) . These tokens let you access Google Cloud resources that [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) and for which you have permissions.
+Workforce identity pools and workforce identity pool providers let you obtain short-lived tokens from Security Token Service or, for Looker integrations, the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) . You can exchange credentials from your trusted identity provider (IdP) for short-lived tokens to access Google Cloud resources that [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) and for which you have permissions.
 
 You can use the methods described in this document on headless machines.
-
-To obtain short-lived tokens, follow this high-level process:
-
-1.  Obtain a credential from the trusted identity provider (IdP), or redirect users to the authorization endpoint ( `https://auth.cloud.google/authorize` ) to sign in with the IdP and obtain an authorization code.
-2.  Exchange the credential or authorization code for a token from Security Token Service or, for Looker integrations, the Cloud OAuth API.
 
 ## Before you begin
 
