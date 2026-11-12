@@ -6,7 +6,7 @@ description: Learn how to configure managed workload identities with mTLS and se
 data_source: docs.cloud.google.com
 ---
 
-This document describes how to configure [managed workload identities](https://docs.cloud.google.com/iam/docs/managed-workload-identity) for Compute Engine by using the gcloud CLI. It also describes how to set up automatic provisioning and lifecycle management of managed workload identities for Compute Engine by using [Certificate Authority Service](https://docs.cloud.google.com/certificate-authority-service) , which lets you establish mutual TLS (mTLS) connections between workloads.
+To establish mutual TLS (mTLS) connections between Compute Engine workloads, you can use the gcloud CLI to configure [managed workload identities](https://docs.cloud.google.com/iam/docs/managed-workload-identity) and set up automatic provisioning and lifecycle management of certificates. For certificate issuance, you can use either a Google-managed default certificate authority (CA) or a self-managed certificate authority with [Certificate Authority Service](https://docs.cloud.google.com/certificate-authority-service) .
 
 ## Before you begin
 

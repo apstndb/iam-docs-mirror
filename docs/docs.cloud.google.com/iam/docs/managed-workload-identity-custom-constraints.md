@@ -107,7 +107,7 @@ resourceTypes: RESOURCE_NAME
 methodTypes:
   - CREATE
   - UPDATE 
-condition: &quot;CONDITION"
+condition: "CONDITION"
 actionType: ACTION
 displayName: DISPLAY_NAME
 description: DESCRIPTION

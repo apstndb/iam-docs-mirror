@@ -6,7 +6,7 @@ description: 'Troubleshoot Workload Identity Federation errors: API credentials,
 data_source: docs.cloud.google.com
 ---
 
-This page describes resolutions for common [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) errors.
+To diagnose and resolve authentication issues in [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) , review common error responses and provider configuration settings. You can inspect token claims, organization policies, and network connectivity to identify root causes and restore access for external workloads.
 
 ## Google Cloud API does not accept the credential issued from `SecurityTokenService`
 

@@ -17,6 +17,7 @@ The following services support Agent Identity:
 - [Gemini Enterprise Agent Platform Runtime](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/runtime/agent-identity) ( *Agent Runtime* )
 - [Gemini Enterprise](https://docs.cloud.google.com/gemini/enterprise/docs)
 - [Cloud Run](https://docs.cloud.google.com/run/docs/ai/agent-platform-features)
+- [Google Kubernetes Engine](https://docs.cloud.google.com/kubernetes-engine/security/about-agent-identity)
 
 ## Authentication models
 

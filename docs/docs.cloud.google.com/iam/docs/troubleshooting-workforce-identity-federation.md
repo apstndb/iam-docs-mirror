@@ -6,7 +6,7 @@ description: Resolve issues with Workforce identity federation
 data_source: docs.cloud.google.com
 ---
 
-This page shows you how to resolve common issues with [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) .
+To diagnose and resolve authentication and provisioning errors in [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) , inspect your identity provider (IdP) responses and Cloud Audit Logs. These checks help you identify configuration mismatches and restore user access.
 
 ## Inspect the IdP response
 

@@ -10,9 +10,9 @@ data_source: docs.cloud.google.com
 >
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-This document describes how to resolve common errors when authenticating agents with Agent Identity and the Agent Identity auth manager.
+To resolve common errors when authenticating agents with Agent Identity and the Agent Identity auth manager, verify your auth provider configurations, Identity and Access Management (IAM) role bindings, OAuth scopes, and OpenID Connect (OIDC) token verification settings.
 
-For instructions about configuring auth providers, see [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2) . For instructions about verifying Agent Identity ID tokens in external services, see [Authenticate to external services using an agent's own identity](https://docs.cloud.google.com/iam/docs/auth-agent-own-identity-external) .
+To manage auth providers, see [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2) . To verify Agent Identity ID tokens in external services, see [Authenticate to external services using an agent's own identity](https://docs.cloud.google.com/iam/docs/auth-agent-own-identity-external) .
 
 ## Redirect URI mismatch
 

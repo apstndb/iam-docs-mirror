@@ -1,9 +1,9 @@
 https://cloud.google.com/products/iam	
 https://docs.cloud.google.com/iam/docs	2026-10-02T06:12:05Z
 https://docs.cloud.google.com/iam/docs/access-change-propagation	2026-10-11T07:19:54Z
-https://docs.cloud.google.com/iam/docs/agent-identity-custom-constraints	2026-11-10T03:44:55Z
+https://docs.cloud.google.com/iam/docs/agent-identity-custom-constraints	2026-11-11T16:19:28Z
 https://docs.cloud.google.com/iam/docs/agent-identity-locations	2026-10-02T06:11:42Z
-https://docs.cloud.google.com/iam/docs/agent-identity-overview	2026-10-27T21:12:02Z
+https://docs.cloud.google.com/iam/docs/agent-identity-overview	2026-11-11T21:42:14Z
 https://docs.cloud.google.com/iam/docs/allow-policies	2026-10-02T06:11:42Z
 https://docs.cloud.google.com/iam/docs/analyze-access	2026-10-02T06:11:42Z
 https://docs.cloud.google.com/iam/docs/apis	2026-10-02T06:11:42Z
@@ -50,7 +50,7 @@ https://docs.cloud.google.com/iam/docs/configuring-temporary-access	2026-10-02T0
 https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation	2026-11-02T18:54:37Z
 https://docs.cloud.google.com/iam/docs/create-and-deploy-agent	2026-11-05T11:45:00Z
 https://docs.cloud.google.com/iam/docs/create-downscoped-short-lived-credentials	2026-11-11T05:46:52Z
-https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute	2026-10-08T05:16:03Z
+https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-compute	2026-11-12T04:58:41Z
 https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-gke	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-load-balancing	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/create-service-agents	2026-10-02T06:13:11Z
@@ -61,7 +61,7 @@ https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support	2026-10-
 https://docs.cloud.google.com/iam/docs/custom-roles-tags	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/deny-access	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/deny-overview	2026-10-02T06:13:11Z
-https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-11-03T21:49:03Z
+https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-11-12T01:52:39Z
 https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/federated-identity-architectures	2026-11-06T05:52:01Z
 https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-11-06T05:52:01Z
@@ -86,11 +86,11 @@ https://docs.cloud.google.com/iam/docs/keys-upload	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/linting-policies	2026-10-11T07:20:05Z
 https://docs.cloud.google.com/iam/docs/manage-access-other-resources	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/manage-access-service-accounts	2026-10-02T06:13:11Z
-https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2	2026-10-02T06:13:11Z
+https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2	2026-11-12T06:56:47Z
 https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers	2026-11-02T18:54:37Z
 https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers	2026-10-06T03:25:05Z
 https://docs.cloud.google.com/iam/docs/managed-workload-identity	2026-10-02T06:14:42Z
-https://docs.cloud.google.com/iam/docs/managed-workload-identity-custom-constraints	2026-11-10T03:45:10Z
+https://docs.cloud.google.com/iam/docs/managed-workload-identity-custom-constraints	2026-11-12T04:51:24Z
 https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings	2026-11-02T05:37:00Z
 https://docs.cloud.google.com/iam/docs/migrate-from-service-account-keys	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/migrate-to-agent-identity-api	2026-11-05T11:45:00Z
@@ -1172,13 +1172,13 @@ https://docs.cloud.google.com/iam/docs/tags-access-control	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/temporary-elevated-access	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/test-policy-changes	2026-09-25T07:59:36Z
 https://docs.cloud.google.com/iam/docs/testing-permissions	2026-10-02T06:11:46Z
-https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager	2026-10-13T21:53:03Z
+https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager	2026-11-12T06:56:47Z
 https://docs.cloud.google.com/iam/docs/troubleshoot-managed-workload-identities-gke	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/troubleshoot-org-policies	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/troubleshoot-policies	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/troubleshooting-withcond	2026-10-02T06:11:46Z
-https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation	2026-11-10T06:27:08Z
-https://docs.cloud.google.com/iam/docs/troubleshooting-workload-identity-federation	2026-10-02T06:11:46Z
+https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation	2026-11-12T05:09:03Z
+https://docs.cloud.google.com/iam/docs/troubleshooting-workload-identity-federation	2026-11-12T05:09:03Z
 https://docs.cloud.google.com/iam/docs/tutorial-cloud-run-workload-id-federation	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/use-iam-mcp	2026-10-21T18:06:40Z
 https://docs.cloud.google.com/iam/docs/use-workload-identity-federation-to-let-customers-access-their-cloud-resources	2026-10-02T06:11:46Z
