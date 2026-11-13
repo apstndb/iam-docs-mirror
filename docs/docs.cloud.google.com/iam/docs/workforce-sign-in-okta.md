@@ -6,7 +6,7 @@ description: Configure Workforce Identity Federation with Okta to access {{dynam
 data_source: docs.cloud.google.com
 ---
 
-This guide shows you how to configure Workforce Identity Federation using Okta as an identity provider (IdP), manage access, and sign in users to access Google Cloud services that [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) .
+Workforce Identity Federation lets you use Okta as an external identity provider (IdP) to authenticate your workforce to Google Cloud. After you configure OpenID Connect (OIDC) or Security Assertion Markup Language (SAML) 2.0 integration, federated users can sign in to [supported Google Cloud services](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) .
 
 ## Before you begin
 

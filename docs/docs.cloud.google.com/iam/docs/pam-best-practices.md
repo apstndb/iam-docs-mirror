@@ -6,7 +6,7 @@ description: Learn best practices for using Privileged Access Manager
 data_source: docs.cloud.google.com
 ---
 
-This document describes best practices for using Privileged Access Manager to control just-in-time temporary privilege elevation with Identity and Access Management (IAM).
+[Privileged Access Manager (PAM)](https://docs.cloud.google.com/iam/docs/pam-overview) lets you control just-in-time, temporary privilege elevation with Identity and Access Management (IAM). You can use these best practices to manage IAM policy size limits, optimize your Privileged Access Manager entitlements, and grant time-bound access at the narrowest required scope.
 
 ## Manage IAM policy size
 

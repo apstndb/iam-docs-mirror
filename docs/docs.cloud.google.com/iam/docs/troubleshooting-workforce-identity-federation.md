@@ -618,7 +618,7 @@ To resolve this issue, do the following:
 
 ### User or group-based access or sharing not working
 
-This issue occurs when synchronized users can't access Google Cloud resources, or when sharing notebooks in Gemini Notebook Enterprise or agents in the Gemini Enterprise app fails.
+This issue occurs when synchronized users can't access Google Cloud resources, or when sharing notebooks in Gemini Notebook for business or agents in the Gemini Enterprise app fails.
 
 Common causes include the following:
 

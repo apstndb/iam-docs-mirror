@@ -54,6 +54,7 @@ The following attributes relate to the resource that is the subject of the reque
 <li>Cloud Storage</li>
 <li>Compute Engine</li>
 <li>Dataform</li>
+<li>Managed Service for Apache Spark</li>
 <li>Cloud DNS</li>
 <li>Google Kubernetes Engine</li>
 <li>Firestore</li>
@@ -89,6 +90,7 @@ The following attributes relate to the resource that is the subject of the reque
 <li>Cloud Storage</li>
 <li>Compute Engine</li>
 <li>Dataform</li>
+<li>Managed Service for Apache Spark</li>
 <li>Cloud DNS</li>
 <li>Google Kubernetes Engine</li>
 <li>Firestore</li>
@@ -126,6 +128,7 @@ The following attributes relate to the resource that is the subject of the reque
 <li>Cloud Storage</li>
 <li>Compute Engine</li>
 <li>Dataform</li>
+<li>Managed Service for Apache Spark</li>
 <li>Cloud DNS</li>
 <li>Google Kubernetes Engine</li>
 <li>Firestore</li>
@@ -344,6 +347,7 @@ You can use the `resource.service` attribute in allow policy role bindings.
 <li>Cloud Storage</li>
 <li>Compute Engine</li>
 <li>Dataform</li>
+<li>Managed Service for Apache Spark</li>
 <li>Cloud DNS</li>
 <li>Google Kubernetes Engine</li>
 <li>Firestore</li>
@@ -586,30 +590,39 @@ You can use the `resource.type` attribute in allow policy role bindings.
 </ul></td>
 </tr>
 <tr class="even">
+<td>Managed Service for Apache Spark</td>
+<td><ul>
+<li>Autoscaling policies</li>
+<li>Clusters</li>
+<li>Jobs</li>
+<li>Workflow templates</li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td>Cloud DNS</td>
 <td><ul>
 <li>resource record sets</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Google Cloud</td>
 <td><ul>
 <li>Locations <sup>1</sup></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Google Kubernetes Engine</td>
 <td><ul>
 <li>Clusters</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Firestore</td>
 <td><ul>
 <li>Databases</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Identity-Aware Proxy</td>
 <td><ul>
 <li>All backend services and App Engine apps</li>
@@ -622,7 +635,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Tunnel instances</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Integration Connectors</td>
 <td><ul>
 <li>Connections</li>
@@ -632,7 +645,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Managed zones</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Google Cloud Managed Service for Apache Kafka</td>
 <td><ul>
 <li>Clusters</li>
@@ -641,14 +654,14 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Topics</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Parameter Manager</td>
 <td><ul>
 <li>Parameter versions</li>
 <li>Parameters</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Pub/Sub Lite</td>
 <td><ul>
 <li>Locations</li>
@@ -656,7 +669,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Topics</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Network Security Integration</td>
 <td><ul>
 <li>Intercept Deployment Groups</li>
@@ -669,20 +682,20 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Mirroring Endpoint Group Associations</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Resource Manager</td>
 <td><ul>
 <li>Projects</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Secret Manager</td>
 <td><ul>
 <li>Secret versions</li>
 <li>Secrets</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Spanner</td>
 <td><ul>
 <li>Backups</li>
@@ -979,12 +992,21 @@ You can use the `resource.name` attribute in allow policy role bindings.
 </ul></td>
 </tr>
 <tr class="odd">
+<td>Managed Service for Apache Spark</td>
+<td><ul>
+<li>Autoscaling policies</li>
+<li>Clusters</li>
+<li>Jobs</li>
+<li>Workflow templates</li>
+</ul></td>
+</tr>
+<tr class="even">
 <td>Cloud DNS</td>
 <td><ul>
 <li>resource record sets</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Integration Connectors</td>
 <td><ul>
 <li>Connections</li>
@@ -994,7 +1016,7 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Managed zones</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Google Cloud Managed Service for Apache Kafka</td>
 <td><ul>
 <li>Clusters</li>
@@ -1003,14 +1025,14 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Topics</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Parameter Manager</td>
 <td><ul>
 <li>Parameter versions</li>
 <li>Parameters</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Pub/Sub Lite</td>
 <td><ul>
 <li>Locations</li>
@@ -1018,7 +1040,7 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Topics</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Network Security Integration</td>
 <td><ul>
 <li>Intercept Deployment Groups</li>
@@ -1031,14 +1053,14 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Mirroring Endpoint Group Associations</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Secret Manager</td>
 <td><ul>
 <li>Secret versions</li>
 <li>Secrets</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Spanner</td>
 <td><ul>
 <li>Backups</li>

@@ -6,9 +6,7 @@ description: Manage workload identity pools and providers. Create, list, get, up
 data_source: docs.cloud.google.com
 ---
 
-This page explains how to manage your existing [workload identity pools](https://docs.cloud.google.com/iam/docs/workload-identity-federation) and their identity providers (IdPs) for Workload Identity Federation.
-
-You can manage pools and providers using the Google Cloud console, the [Google Cloud CLI](https://docs.cloud.google.com/sdk/gcloud) , or the [REST API](https://docs.cloud.google.com/iam/docs/reference/rest) .
+Workload Identity Federation lets you grant external workloads access to Google Cloud resources through [workload identity pools](https://docs.cloud.google.com/iam/docs/workload-identity-federation) and connected identity providers (IdPs). As your requirements change, you can create, view, update, delete, or undelete pools and providers by using the Google Cloud console, the [Google Cloud CLI](https://docs.cloud.google.com/sdk/gcloud) , or the [REST API](https://docs.cloud.google.com/iam/docs/reference/rest) .
 
 ## Before you begin
 
@@ -76,11 +74,130 @@ To create workload identity pools in a project, do the following:
 
 ### gcloud
 
-Execute the [`gcloud iam workload-identity-pools create`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create) command.
+The [`gcloud iam workload-identity-pools create`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create) command creates a workload identity pool in a project.
+
+Before using any of the command data below, make the following replacements:
+
+- `POOL_ID` : A unique ID for the workload identity pool—for example, `my-pool` . Must be 4-32 lowercase alphanumeric characters or hyphens, and can't start with `gcp-` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `DISPLAY_NAME` : Optional. A display name for the workload identity pool, up to 32 characters—for example, `My workload pool` .
+- `DESCRIPTION` : Optional. A description of the workload identity pool, up to 256 characters.
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools create POOL_ID \
+    --project=PROJECT_ID \
+    --location="global" \
+    --display-name="DISPLAY_NAME" \
+    --description="DESCRIPTION"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools create POOL_ID `
+    --project=PROJECT_ID `
+    --location="global" `
+    --display-name="DISPLAY_NAME" `
+    --description="DESCRIPTION"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools create POOL_ID ^
+    --project=PROJECT_ID ^
+    --location="global" ^
+    --display-name="DISPLAY_NAME" ^
+    --description="DESCRIPTION"
+```
+
+You should receive a response similar to the following:
+
+```
+Create request issued for: [my-pool]
+Waiting for operation [projects/123456789012/locations/global/workloadIdentityPools/my-pool/operations/operation-1700000000000-0123456789abcdef] to complete...done.
+Created workloadIdentityPool [my-pool].
+```
 
 ### REST
 
-Call [`projects.locations.workloadIdentityPools.create()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/create) .
+The [`projects.locations.workloadIdentityPools.create`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/create) method creates a workload identity pool in a project.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : A unique ID for the workload identity pool—for example, `my-pool` . Must be 4-32 lowercase alphanumeric characters or hyphens, and can't start with `gcp-` .
+- `DISPLAY_NAME` : Optional. A display name for the workload identity pool, up to 32 characters—for example, `My workload pool` .
+- `DESCRIPTION` : Optional. A description of the workload identity pool, up to 256 characters.
+
+HTTP method and URL:
+
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools?workloadIdentityPoolId=POOL_ID
+```
+
+Request JSON body:
+
+```
+{
+  "displayName": "DISPLAY_NAME",
+  "description": "DESCRIPTION"
+}
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools?workloadIdentityPoolId=POOL_ID"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools?workloadIdentityPoolId=POOL_ID" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Copy the request body and open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/create) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Paste the request body in this tool, complete any other required fields, and click **Execute** .
+
+The response contains a long-running operation that represents your request. To check whether the pool creation is complete, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#check-operation-status) on this page.
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/operations/operation-1700000000000-0123456789abcdef",
+  "metadata": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPoolOperationMetadata"
+  },
+  "done": false
+}
+```
 
 ### List pools
 
@@ -96,11 +213,116 @@ To list all the workload identity pools in a project, do the following:
 
 ### gcloud
 
-Execute the [`gcloud iam workload-identity-pools list`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/list) command.
+The [`gcloud iam workload-identity-pools list`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/list) command lists the workload identity pools in a project.
+
+Before using any of the command data below, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` . To include soft-deleted pools in the output, add the `--show-deleted` flag.
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools list \
+    --project=PROJECT_ID \
+    --location="global" \
+    --format="json"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools list `
+    --project=PROJECT_ID `
+    --location="global" `
+    --format="json"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools list ^
+    --project=PROJECT_ID ^
+    --location="global" ^
+    --format="json"
+```
+
+You should receive a response similar to the following:
+
+```
+[
+  {
+    "description": "Workload identity pool for external workloads.",
+    "displayName": "My workload pool",
+    "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool",
+    "state": "ACTIVE"
+  }
+]
+```
 
 ### REST
 
-Call [`projects.locations.workloadIdentityPools.list()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/list) .
+The [`projects.locations.workloadIdentityPools.list`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/list) method lists the workload identity pools in a project.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` . To include soft-deleted pools in the response, append `?showDeleted=true` to the request URL.
+
+HTTP method and URL:
+
+```
+GET https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/list) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Complete any required fields and click **Execute** .
+
+You should receive a JSON response similar to the following:
+
+```
+{
+  "workloadIdentityPools": [
+    {
+      "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool",
+      "displayName": "My workload pool",
+      "description": "Workload identity pool for external workloads.",
+      "state": "ACTIVE"
+    }
+  ]
+}
+```
 
 ### Get a pool
 
@@ -114,11 +336,112 @@ To get details for a specific workload identity pool, do the following:
 
 ### gcloud
 
-Execute the [`gcloud iam workload-identity-pools describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/describe) command.
+The [`gcloud iam workload-identity-pools describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/describe) command gets details about a workload identity pool.
+
+Before using any of the command data below, make the following replacements:
+
+- `POOL_ID` : The ID of the workload identity pool—for example, `my-pool` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools describe POOL_ID \
+    --project=PROJECT_ID \
+    --location="global" \
+    --format="json"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools describe POOL_ID `
+    --project=PROJECT_ID `
+    --location="global" `
+    --format="json"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools describe POOL_ID ^
+    --project=PROJECT_ID ^
+    --location="global" ^
+    --format="json"
+```
+
+You should receive a response similar to the following:
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool",
+  "displayName": "My workload pool",
+  "description": "Workload identity pool for external workloads.",
+  "state": "ACTIVE"
+}
+```
 
 ### REST
 
-Call [`projects.locations.workloadIdentityPools.get()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/get) .
+The [`projects.locations.workloadIdentityPools.get`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/get) method gets details about a workload identity pool.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool—for example, `my-pool` .
+
+HTTP method and URL:
+
+```
+GET https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/get) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Complete any required fields and click **Execute** .
+
+You should receive a JSON response similar to the following:
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool",
+  "displayName": "My workload pool",
+  "description": "Workload identity pool for external workloads.",
+  "state": "ACTIVE"
+}
+```
 
 ### Update a pool
 
@@ -150,11 +473,133 @@ To update an existing workload identity pool, do the following:
 
 ### gcloud
 
-Execute the [`gcloud iam workload-identity-pools update`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/update) command.
+The [`gcloud iam workload-identity-pools update`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/update) command updates an existing workload identity pool.
+
+Before using any of the command data below, make the following replacements:
+
+- `POOL_ID` : The ID of the workload identity pool—for example, `my-pool` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `DISPLAY_NAME` : A display name for the workload identity pool, up to 32 characters—for example, `My updated pool` .
+- `DESCRIPTION` : A description of the workload identity pool, up to 256 characters. To disable or enable the pool, also pass the `--disabled` or `--no-disabled` flag.
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools update POOL_ID \
+    --project=PROJECT_ID \
+    --location="global" \
+    --display-name="DISPLAY_NAME" \
+    --description="DESCRIPTION"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools update POOL_ID `
+    --project=PROJECT_ID `
+    --location="global" `
+    --display-name="DISPLAY_NAME" `
+    --description="DESCRIPTION"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools update POOL_ID ^
+    --project=PROJECT_ID ^
+    --location="global" ^
+    --display-name="DISPLAY_NAME" ^
+    --description="DESCRIPTION"
+```
+
+You should receive a response similar to the following:
+
+```
+Update request issued for: [my-pool]
+Waiting for operation [projects/123456789012/locations/global/workloadIdentityPools/my-pool/operations/operation-1700000000001-0123456789abcdef] to complete...done.
+Updated workloadIdentityPool [my-pool].
+```
 
 ### REST
 
-Call [`projects.locations.workloadIdentityPools.patch()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/patch) .
+The [`projects.locations.workloadIdentityPools.patch`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/patch) method updates an existing workload identity pool.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool—for example, `my-pool` .
+- `UPDATE_MASK` : A comma-separated list of fields to update—for example, `displayName,description,disabled` .
+- `DISPLAY_NAME` : A display name for the workload identity pool, up to 32 characters—for example, `My updated pool` .
+- `DESCRIPTION` : A description of the workload identity pool, up to 256 characters.
+- `DISABLED` : Whether the pool is disabled. Set to `true` to disable the pool or `false` to enable it.
+
+HTTP method and URL:
+
+```
+PATCH https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID?updateMask=UPDATE_MASK
+```
+
+Request JSON body:
+
+```
+{
+  "displayName": "DISPLAY_NAME",
+  "description": "DESCRIPTION",
+  "disabled": DISABLED
+}
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+curl -X PATCH \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID?updateMask=UPDATE_MASK"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method PATCH `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID?updateMask=UPDATE_MASK" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Copy the request body and open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/patch) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Paste the request body in this tool, complete any other required fields, and click **Execute** .
+
+The response contains a long-running operation that represents your request. To check whether the pool update is complete, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#check-operation-status) on this page.
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/operations/operation-1700000000001-0123456789abcdef",
+  "metadata": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPoolOperationMetadata"
+  },
+  "done": false
+}
+```
 
 ### Delete a pool
 
@@ -176,11 +621,107 @@ To delete a workload identity pool and its IdPs, do the following:
 
 ### gcloud
 
-Execute the [`gcloud iam workload-identity-pools delete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/delete) command.
+The [`gcloud iam workload-identity-pools delete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/delete) command deletes a workload identity pool.
+
+Before using any of the command data below, make the following replacements:
+
+- `POOL_ID` : The ID of the workload identity pool to delete—for example, `my-pool` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools delete POOL_ID \
+    --project=PROJECT_ID \
+    --location="global"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools delete POOL_ID `
+    --project=PROJECT_ID `
+    --location="global"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools delete POOL_ID ^
+    --project=PROJECT_ID ^
+    --location="global"
+```
+
+You should receive a response similar to the following:
+
+```
+Delete request issued for: [my-pool]
+Waiting for operation [projects/123456789012/locations/global/workloadIdentityPools/my-pool/operations/operation-1700000000002-0123456789abcdef] to complete...done.
+Deleted workloadIdentityPool [my-pool].
+```
 
 ### REST
 
-Call [`projects.locations.workloadIdentityPools.delete()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/delete) .
+The [`projects.locations.workloadIdentityPools.delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/delete) method deletes a workload identity pool.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool to delete—for example, `my-pool` .
+
+HTTP method and URL:
+
+```
+DELETE https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+curl -X DELETE \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method DELETE `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/delete) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Complete any required fields and click **Execute** .
+
+The response contains a long-running operation that represents your request. To check whether the pool deletion is complete, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#check-operation-status) on this page.
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/operations/operation-1700000000002-0123456789abcdef",
+  "metadata": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPoolOperationMetadata"
+  },
+  "done": false
+}
+```
 
 ### Undelete a pool
 
@@ -200,11 +741,117 @@ To undelete a pool, do the following:
 
 ### gcloud
 
-Execute the [`gcloud iam workload-identity-pools undelete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/undelete) command.
+The [`gcloud iam workload-identity-pools undelete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/undelete) command restores a soft-deleted workload identity pool.
+
+Before using any of the command data below, make the following replacements:
+
+- `POOL_ID` : The ID of the deleted workload identity pool to restore—for example, `my-pool` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools undelete POOL_ID \
+    --project=PROJECT_ID \
+    --location="global"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools undelete POOL_ID `
+    --project=PROJECT_ID `
+    --location="global"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools undelete POOL_ID ^
+    --project=PROJECT_ID ^
+    --location="global"
+```
+
+You should receive a response similar to the following:
+
+```
+Undelete request issued for: [my-pool]
+Waiting for operation [projects/123456789012/locations/global/workloadIdentityPools/my-pool/operations/operation-1700000000003-0123456789abcdef] to complete...done.
+Undeleted workloadIdentityPool [my-pool].
+```
 
 ### REST
 
-Call [`projects.locations.workloadIdentityPools.undelete()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/undelete) .
+The [`projects.locations.workloadIdentityPools.undelete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/undelete) method restores a soft-deleted workload identity pool.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the deleted workload identity pool to restore—for example, `my-pool` .
+
+HTTP method and URL:
+
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID:undelete
+```
+
+Request JSON body:
+
+```
+{}
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID:undelete"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID:undelete" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Copy the request body and open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools/undelete) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Paste the request body in this tool, complete any other required fields, and click **Execute** .
+
+The response contains a long-running operation that represents your request. To check whether the pool restoration is complete, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#check-operation-status) on this page.
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/operations/operation-1700000000003-0123456789abcdef",
+  "metadata": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPoolOperationMetadata"
+  },
+  "done": false
+}
+```
 
 ## Manage workload identity pool providers
 
@@ -254,13 +901,307 @@ To create a workload identity pool provider in an existing workload identity poo
 
 ### gcloud
 
-Execute the [`gcloud iam workload-identity-pools providers create-aws`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-aws) command to create an AWS provider.
+#### Create an AWS provider
 
-Execute the [`gcloud iam workload-identity-pools providers create-oidc`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc) command to create an OIDC provider. This includes Microsoft Azure.
+The [`gcloud iam workload-identity-pools providers create-aws`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-aws) command creates an AWS workload identity pool provider.
+
+Before using any of the command data below, make the following replacements:
+
+- `PROVIDER_ID` : A unique ID for the provider—for example, `my-aws-provider` . Must be 4-32 lowercase alphanumeric characters or hyphens, and can't start with `gcp-` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool to add the provider to—for example, `my-pool` .
+- `DISPLAY_NAME` : Optional. A display name for the provider, up to 32 characters—for example, `My AWS provider` .
+- `AWS_ACCOUNT_ID` : Your 12-digit AWS account ID—for example, `123456789012` .
+- `ATTRIBUTE_CONDITION` : Optional. A Common Expression Language (CEL) expression that restricts which identities can authenticate—for example, `attribute.aws_role == 'arn:aws:sts::123456789012:assumed-role/my-role'` .
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools providers create-aws PROVIDER_ID \
+    --project=PROJECT_ID \
+    --location="global" \
+    --workload-identity-pool="POOL_ID" \
+    --display-name="DISPLAY_NAME" \
+    --account-id="AWS_ACCOUNT_ID" \
+    --attribute-condition="ATTRIBUTE_CONDITION"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools providers create-aws PROVIDER_ID `
+    --project=PROJECT_ID `
+    --location="global" `
+    --workload-identity-pool="POOL_ID" `
+    --display-name="DISPLAY_NAME" `
+    --account-id="AWS_ACCOUNT_ID" `
+    --attribute-condition="ATTRIBUTE_CONDITION"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools providers create-aws PROVIDER_ID ^
+    --project=PROJECT_ID ^
+    --location="global" ^
+    --workload-identity-pool="POOL_ID" ^
+    --display-name="DISPLAY_NAME" ^
+    --account-id="AWS_ACCOUNT_ID" ^
+    --attribute-condition="ATTRIBUTE_CONDITION"
+```
+
+You should receive a response similar to the following:
+
+```
+Create request issued for: [my-aws-provider]
+Waiting for operation [projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-aws-provider/operations/operation-1700000000010-0123456789abcdef] to complete...done.
+Created workloadIdentityPoolProvider [my-aws-provider].
+```
+
+#### Create an OIDC provider
+
+The [`gcloud iam workload-identity-pools providers create-oidc`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/create-oidc) command creates an OIDC workload identity pool provider.
+
+Before using any of the command data below, make the following replacements:
+
+- `PROVIDER_ID` : A unique ID for the provider—for example, `my-oidc-provider` . Must be 4-32 lowercase alphanumeric characters or hyphens, and can't start with `gcp-` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool to add the provider to—for example, `my-pool` .
+- `DISPLAY_NAME` : Optional. A display name for the provider, up to 32 characters—for example, `My OIDC provider` .
+- `ISSUER_URI` : The OIDC issuer HTTPS URL—for example, `https://idp.example.com` or `https://sts.windows.net/ `` AZURE_TENANT_ID` .
+- `DISCOVERY_URI` : Optional. The URL to fetch the OIDC discovery document from, overriding the default `ISSUER_URI `` /.well-known/openid-configuration` URL—for example, `https://idp.example.com/.well-known/custom-openid-configuration` . The scheme, host, and port must match `ISSUER_URI` , and the path must contain a `/.well-known/` segment followed by a non-empty suffix.
+- `ATTRIBUTE_CONDITION` : Optional. A Common Expression Language (CEL) expression that restricts which identities can authenticate—for example, `assertion.sub.startsWith('repo:my-org/')` .
+- `ACTOR_PROVIDERS` : Optional. The full resource names of up to three workload identity pool providers in the same pool that are authorized to issue actor tokens for this provider—for example, `projects/my-project/locations/global/workloadIdentityPools/my-pool/providers/my-actor-provider` . The project identifier in each resource name must match the project ID or project number format that you use for this provider. For more information, see [Configure identity delegation and actor tokens](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#delegation) .
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools providers create-oidc PROVIDER_ID \
+    --project=PROJECT_ID \
+    --location="global" \
+    --workload-identity-pool="POOL_ID" \
+    --display-name="DISPLAY_NAME" \
+    --issuer-uri="ISSUER_URI" \
+    --discovery-uri="DISCOVERY_URI" \
+    --attribute-mapping="google.subject=assertion.sub" \
+    --attribute-condition="ATTRIBUTE_CONDITION" \
+    --actor-providers="ACTOR_PROVIDERS"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools providers create-oidc PROVIDER_ID `
+    --project=PROJECT_ID `
+    --location="global" `
+    --workload-identity-pool="POOL_ID" `
+    --display-name="DISPLAY_NAME" `
+    --issuer-uri="ISSUER_URI" `
+    --discovery-uri="DISCOVERY_URI" `
+    --attribute-mapping="google.subject=assertion.sub" `
+    --attribute-condition="ATTRIBUTE_CONDITION" `
+    --actor-providers="ACTOR_PROVIDERS"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools providers create-oidc PROVIDER_ID ^
+    --project=PROJECT_ID ^
+    --location="global" ^
+    --workload-identity-pool="POOL_ID" ^
+    --display-name="DISPLAY_NAME" ^
+    --issuer-uri="ISSUER_URI" ^
+    --discovery-uri="DISCOVERY_URI" ^
+    --attribute-mapping="google.subject=assertion.sub" ^
+    --attribute-condition="ATTRIBUTE_CONDITION" ^
+    --actor-providers="ACTOR_PROVIDERS"
+```
+
+You should receive a response similar to the following:
+
+```
+Create request issued for: [my-oidc-provider]
+Waiting for operation [projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-oidc-provider/operations/operation-1700000000011-0123456789abcdef] to complete...done.
+Created workloadIdentityPoolProvider [my-oidc-provider].
+```
 
 ### REST
 
-Call [`projects.locations.workloadIdentityPools.providers.create()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/create) .
+#### Create an AWS provider
+
+The [`projects.locations.workloadIdentityPools.providers.create`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/create) method creates an AWS workload identity pool provider.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool to add the provider to—for example, `my-pool` .
+- `PROVIDER_ID` : A unique ID for the provider—for example, `my-aws-provider` . Must be 4-32 lowercase alphanumeric characters or hyphens, and can't start with `gcp-` .
+- `DISPLAY_NAME` : Optional. A display name for the provider, up to 32 characters—for example, `My AWS provider` .
+- `AWS_ACCOUNT_ID` : Your 12-digit AWS account ID—for example, `123456789012` .
+- `ATTRIBUTE_CONDITION` : Optional. A Common Expression Language (CEL) expression that restricts which identities can authenticate—for example, `attribute.aws_role == 'arn:aws:sts::123456789012:assumed-role/my-role'` .
+
+HTTP method and URL:
+
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers?workloadIdentityPoolProviderId=PROVIDER_ID
+```
+
+Request JSON body:
+
+```
+{
+  "displayName": "DISPLAY_NAME",
+  "aws": {
+    "accountId": "AWS_ACCOUNT_ID"
+  },
+  "attributeCondition": "ATTRIBUTE_CONDITION"
+}
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers?workloadIdentityPoolProviderId=PROVIDER_ID"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers?workloadIdentityPoolProviderId=PROVIDER_ID" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Copy the request body and open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/create) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Paste the request body in this tool, complete any other required fields, and click **Execute** .
+
+The response contains a long-running operation that represents your request. To check whether the provider creation is complete, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#check-operation-status) on this page.
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-aws-provider/operations/operation-1700000000010-0123456789abcdef",
+  "metadata": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPoolProviderOperationMetadata"
+  },
+  "done": false
+}
+```
+
+#### Create an OIDC provider
+
+The [`projects.locations.workloadIdentityPools.providers.create`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/create) method creates an OIDC workload identity pool provider.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool to add the provider to—for example, `my-pool` .
+- `PROVIDER_ID` : A unique ID for the provider—for example, `my-oidc-provider` . Must be 4-32 lowercase alphanumeric characters or hyphens, and can't start with `gcp-` .
+- `DISPLAY_NAME` : Optional. A display name for the provider, up to 32 characters—for example, `My OIDC provider` .
+- `ISSUER_URI` : The OIDC issuer HTTPS URL—for example, `https://idp.example.com` or `https://sts.windows.net/ `` AZURE_TENANT_ID` .
+- `DISCOVERY_URI` : Optional. The URL to fetch the OIDC discovery document from, overriding the default `ISSUER_URI `` /.well-known/openid-configuration` URL—for example, `https://idp.example.com/.well-known/custom-openid-configuration` . The scheme, host, and port must match `ISSUER_URI` , and the path must contain a `/.well-known/` segment followed by a non-empty suffix.
+- `ATTRIBUTE_CONDITION` : Optional. A Common Expression Language (CEL) expression that restricts which identities can authenticate—for example, `assertion.sub.startsWith('repo:my-org/')` .
+- `ACTOR_PROVIDERS` : Optional. The full resource names of up to three workload identity pool providers in the same pool that are authorized to issue actor tokens for this provider—for example, `projects/my-project/locations/global/workloadIdentityPools/my-pool/providers/my-actor-provider` . The project identifier in each resource name must match the project ID or project number format that you use for this provider. For more information, see [Configure identity delegation and actor tokens](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#delegation) .
+
+HTTP method and URL:
+
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers?workloadIdentityPoolProviderId=PROVIDER_ID
+```
+
+Request JSON body:
+
+```
+{
+  "displayName": "DISPLAY_NAME",
+  "oidc": {
+    "issuerUri": "ISSUER_URI",
+    "discoveryUri": "DISCOVERY_URI"
+  },
+  "attributeMapping": {
+    "google.subject": "assertion.sub"
+  },
+  "attributeCondition": "ATTRIBUTE_CONDITION",
+  "actorProviders": [
+    "ACTOR_PROVIDERS"
+  ]
+}
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers?workloadIdentityPoolProviderId=PROVIDER_ID"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers?workloadIdentityPoolProviderId=PROVIDER_ID" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Copy the request body and open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/create) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Paste the request body in this tool, complete any other required fields, and click **Execute** .
+
+The response contains a long-running operation that represents your request. To check whether the provider creation is complete, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#check-operation-status) on this page.
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-oidc-provider/operations/operation-1700000000011-0123456789abcdef",
+  "metadata": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPoolProviderOperationMetadata"
+  },
+  "done": false
+}
+```
 
 ### List providers
 
@@ -274,11 +1215,131 @@ To list the workload identity pool providers in a project, do the following:
 
 ### gcloud
 
-Execute the [`gcloud iam workload-identity-pools providers list`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/list) command.
+The [`gcloud iam workload-identity-pools providers list`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/list) command lists the providers in a workload identity pool.
+
+Before using any of the command data below, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool whose providers you want to list—for example, `my-pool` . To include soft-deleted providers in the output, add the `--show-deleted` flag.
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools providers list \
+    --project=PROJECT_ID \
+    --location="global" \
+    --workload-identity-pool="POOL_ID" \
+    --format="json"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools providers list `
+    --project=PROJECT_ID `
+    --location="global" `
+    --workload-identity-pool="POOL_ID" `
+    --format="json"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools providers list ^
+    --project=PROJECT_ID ^
+    --location="global" ^
+    --workload-identity-pool="POOL_ID" ^
+    --format="json"
+```
+
+You should receive a response similar to the following:
+
+```
+[
+  {
+    "attributeMapping": {
+      "google.subject": "assertion.sub"
+    },
+    "displayName": "My OIDC provider",
+    "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-oidc-provider",
+    "oidc": {
+      "issuerUri": "https://idp.example.com"
+    },
+    "state": "ACTIVE"
+  }
+]
+```
 
 ### REST
 
-Call [`projects.locations.workloadIdentityPools.providers.list()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/list) .
+The [`projects.locations.workloadIdentityPools.providers.list`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/list) method lists the providers in a workload identity pool.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool whose providers you want to list—for example, `my-pool` . To include soft-deleted providers in the response, append `?showDeleted=true` to the request URL.
+
+HTTP method and URL:
+
+```
+GET https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/list) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Complete any required fields and click **Execute** .
+
+You should receive a JSON response similar to the following:
+
+```
+{
+  "workloadIdentityPoolProviders": [
+    {
+      "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-oidc-provider",
+      "displayName": "My OIDC provider",
+      "state": "ACTIVE",
+      "attributeMapping": {
+        "google.subject": "assertion.sub"
+      },
+      "oidc": {
+        "issuerUri": "https://idp.example.com"
+      }
+    }
+  ]
+}
+```
 
 ### Get a provider
 
@@ -294,11 +1355,127 @@ To get details for a specific workload identity pool provider, do the following:
 
 ### gcloud
 
-Execute the [`gcloud iam workload-identity-pools providers describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/describe) command.
+The [`gcloud iam workload-identity-pools providers describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/describe) command gets details about a workload identity pool provider.
+
+Before using any of the command data below, make the following replacements:
+
+- `PROVIDER_ID` : The ID of the workload identity pool provider—for example, `my-oidc-provider` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool that contains the provider—for example, `my-pool` .
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools providers describe PROVIDER_ID \
+    --project=PROJECT_ID \
+    --location="global" \
+    --workload-identity-pool="POOL_ID" \
+    --format="json"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools providers describe PROVIDER_ID `
+    --project=PROJECT_ID `
+    --location="global" `
+    --workload-identity-pool="POOL_ID" `
+    --format="json"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools providers describe PROVIDER_ID ^
+    --project=PROJECT_ID ^
+    --location="global" ^
+    --workload-identity-pool="POOL_ID" ^
+    --format="json"
+```
+
+You should receive a response similar to the following:
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-oidc-provider",
+  "displayName": "My OIDC provider",
+  "state": "ACTIVE",
+  "attributeMapping": {
+    "google.subject": "assertion.sub"
+  },
+  "oidc": {
+    "issuerUri": "https://idp.example.com"
+  }
+}
+```
 
 ### REST
 
-Call [`projects.locations.workloadIdentityPools.providers.get()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/get) .
+The [`projects.locations.workloadIdentityPools.providers.get`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/get) method gets details about a workload identity pool provider.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool that contains the provider—for example, `my-pool` .
+- `PROVIDER_ID` : The ID of the workload identity pool provider—for example, `my-oidc-provider` .
+
+HTTP method and URL:
+
+```
+GET https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/get) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Complete any required fields and click **Execute** .
+
+You should receive a JSON response similar to the following:
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-oidc-provider",
+  "displayName": "My OIDC provider",
+  "state": "ACTIVE",
+  "attributeMapping": {
+    "google.subject": "assertion.sub"
+  },
+  "oidc": {
+    "issuerUri": "https://idp.example.com"
+  }
+}
+```
 
 ### Update a provider
 
@@ -318,13 +1495,199 @@ To update an existing workload identity pool provider, do the following:
 
 ### gcloud
 
-Execute the [`gcloud iam workload-identity-pools providers update-aws`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-aws) command to update an AWS provider.
+#### Update an AWS provider
 
-Execute the [`gcloud iam workload-identity-pools providers update-oidc`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-oidc) command to update an OIDC provider. This includes Microsoft Azure.
+The [`gcloud iam workload-identity-pools providers update-aws`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-aws) command updates an existing AWS workload identity pool provider.
+
+Before using any of the command data below, make the following replacements:
+
+- `PROVIDER_ID` : The ID of the provider to update—for example, `my-aws-provider` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool that contains the provider—for example, `my-pool` .
+- `DISPLAY_NAME` : A display name for the provider, up to 32 characters—for example, `Updated AWS provider` .
+- `DESCRIPTION` : A description of the provider, up to 256 characters. To disable or enable the provider, also pass the `--disabled` or `--no-disabled` flag.
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools providers update-aws PROVIDER_ID \
+    --project=PROJECT_ID \
+    --location="global" \
+    --workload-identity-pool="POOL_ID" \
+    --display-name="DISPLAY_NAME" \
+    --description="DESCRIPTION"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools providers update-aws PROVIDER_ID `
+    --project=PROJECT_ID `
+    --location="global" `
+    --workload-identity-pool="POOL_ID" `
+    --display-name="DISPLAY_NAME" `
+    --description="DESCRIPTION"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools providers update-aws PROVIDER_ID ^
+    --project=PROJECT_ID ^
+    --location="global" ^
+    --workload-identity-pool="POOL_ID" ^
+    --display-name="DISPLAY_NAME" ^
+    --description="DESCRIPTION"
+```
+
+You should receive a response similar to the following:
+
+```
+Update request issued for: [my-aws-provider]
+Waiting for operation [projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-aws-provider/operations/operation-1700000000012-0123456789abcdef] to complete...done.
+Updated workloadIdentityPoolProvider [my-aws-provider].
+```
+
+#### Update an OIDC provider
+
+The [`gcloud iam workload-identity-pools providers update-oidc`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/update-oidc) command updates an existing AWS workload identity pool provider.
+
+Before using any of the command data below, make the following replacements:
+
+- `PROVIDER_ID` : The ID of the OIDC provider to update—for example, `my-oidc-provider` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool that contains the provider—for example, `my-pool` .
+- `DISPLAY_NAME` : A display name for the provider, up to 32 characters—for example, `Updated OIDC provider` .
+- `DESCRIPTION` : A description of the provider, up to 256 characters.
+- `ISSUER_URI` : The OIDC issuer HTTPS URL—for example, `https://idp.example.com` . To disable or enable the provider, also pass the `--disabled` or `--no-disabled` flag.
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools providers update-oidc PROVIDER_ID \
+    --project=PROJECT_ID \
+    --location="global" \
+    --workload-identity-pool="POOL_ID" \
+    --display-name="DISPLAY_NAME" \
+    --description="DESCRIPTION" \
+    --issuer-uri="ISSUER_URI"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools providers update-oidc PROVIDER_ID `
+    --project=PROJECT_ID `
+    --location="global" `
+    --workload-identity-pool="POOL_ID" `
+    --display-name="DISPLAY_NAME" `
+    --description="DESCRIPTION" `
+    --issuer-uri="ISSUER_URI"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools providers update-oidc PROVIDER_ID ^
+    --project=PROJECT_ID ^
+    --location="global" ^
+    --workload-identity-pool="POOL_ID" ^
+    --display-name="DISPLAY_NAME" ^
+    --description="DESCRIPTION" ^
+    --issuer-uri="ISSUER_URI"
+```
+
+You should receive a response similar to the following:
+
+```
+Update request issued for: [my-oidc-provider]
+Waiting for operation [projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-oidc-provider/operations/operation-1700000000013-0123456789abcdef] to complete...done.
+Updated workloadIdentityPoolProvider [my-oidc-provider].
+```
 
 ### REST
 
-Call [`projects.locations.workloadIdentityPools.providers.patch()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/patch) .
+The [`projects.locations.workloadIdentityPools.providers.patch`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/patch) method updates an existing workload identity pool provider.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool that contains the provider—for example, `my-pool` .
+- `PROVIDER_ID` : The ID of the provider to update—for example, `my-aws-provider` .
+- `UPDATE_MASK` : A comma-separated list of fields to update—for example, `displayName,description,disabled` .
+- `DISPLAY_NAME` : A display name for the provider, up to 32 characters—for example, `Updated AWS provider` .
+- `DESCRIPTION` : A description of the provider, up to 256 characters.
+- `DISABLED` : Whether the provider is disabled. Set to `true` to disable the provider or `false` to enable it.
+
+HTTP method and URL:
+
+```
+PATCH https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID?updateMask=UPDATE_MASK
+```
+
+Request JSON body:
+
+```
+{
+  "displayName": "DISPLAY_NAME",
+  "description": "DESCRIPTION",
+  "disabled": DISABLED
+}
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+curl -X PATCH \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID?updateMask=UPDATE_MASK"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method PATCH `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID?updateMask=UPDATE_MASK" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Copy the request body and open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/patch) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Paste the request body in this tool, complete any other required fields, and click **Execute** .
+
+The response contains a long-running operation that represents your request. To check whether the provider update is complete, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#check-operation-status) on this page.
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-aws-provider/operations/operation-1700000000012-0123456789abcdef",
+  "metadata": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPoolProviderOperationMetadata"
+  },
+  "done": false
+}
+```
 
 ### Delete a provider
 
@@ -348,11 +1711,112 @@ To delete a workload identity pool provider, do the following:
 
 ### gcloud
 
-Execute the [`gcloud iam workload-identity-pools providers delete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/delete) command.
+The [`gcloud iam workload-identity-pools providers delete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/delete) command deletes a workload identity pool provider.
+
+Before using any of the command data below, make the following replacements:
+
+- `PROVIDER_ID` : The ID of the workload identity pool provider to delete—for example, `my-oidc-provider` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool that contains the provider—for example, `my-pool` .
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools providers delete PROVIDER_ID \
+    --project=PROJECT_ID \
+    --location="global" \
+    --workload-identity-pool="POOL_ID"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools providers delete PROVIDER_ID `
+    --project=PROJECT_ID `
+    --location="global" `
+    --workload-identity-pool="POOL_ID"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools providers delete PROVIDER_ID ^
+    --project=PROJECT_ID ^
+    --location="global" ^
+    --workload-identity-pool="POOL_ID"
+```
+
+You should receive a response similar to the following:
+
+```
+Delete request issued for: [my-oidc-provider]
+Waiting for operation [projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-oidc-provider/operations/operation-1700000000014-0123456789abcdef] to complete...done.
+Deleted workloadIdentityPoolProvider [my-oidc-provider].
+```
 
 ### REST
 
-Call [`projects.locations.workloadIdentityPools.providers.delete()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/delete) .
+The [`projects.locations.workloadIdentityPools.providers.delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/delete) method deletes a workload identity pool provider.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool that contains the provider—for example, `my-pool` .
+- `PROVIDER_ID` : The ID of the workload identity pool provider to delete—for example, `my-oidc-provider` .
+
+HTTP method and URL:
+
+```
+DELETE https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+curl -X DELETE \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method DELETE `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/delete) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Complete any required fields and click **Execute** .
+
+The response contains a long-running operation that represents your request. To check whether the provider deletion is complete, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#check-operation-status) on this page.
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-oidc-provider/operations/operation-1700000000014-0123456789abcdef",
+  "metadata": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPoolProviderOperationMetadata"
+  },
+  "done": false
+}
+```
 
 ### Undelete a provider
 
@@ -372,11 +1836,252 @@ You can recover a deleted workload identity pool provider for up to 30 days afte
 
 ### gcloud
 
-Execute the [`gcloud iam workload-identity-pools providers undelete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/undelete) command.
+The [`gcloud iam workload-identity-pools providers undelete`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/undelete) command restores a soft-deleted workload identity pool provider.
+
+Before using any of the command data below, make the following replacements:
+
+- `PROVIDER_ID` : The ID of the deleted workload identity pool provider to restore—for example, `my-oidc-provider` .
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool that contains the provider—for example, `my-pool` .
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools providers undelete PROVIDER_ID \
+    --project=PROJECT_ID \
+    --location="global" \
+    --workload-identity-pool="POOL_ID"
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools providers undelete PROVIDER_ID `
+    --project=PROJECT_ID `
+    --location="global" `
+    --workload-identity-pool="POOL_ID"
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools providers undelete PROVIDER_ID ^
+    --project=PROJECT_ID ^
+    --location="global" ^
+    --workload-identity-pool="POOL_ID"
+```
+
+You should receive a response similar to the following:
+
+```
+Undelete request issued for: [my-oidc-provider]
+Waiting for operation [projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-oidc-provider/operations/operation-1700000000015-0123456789abcdef] to complete...done.
+Undeleted workloadIdentityPoolProvider [my-oidc-provider].
+```
 
 ### REST
 
-Call [`projects.locations.workloadIdentityPools.providers.undelete()`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/undelete) .
+The [`projects.locations.workloadIdentityPools.providers.undelete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/undelete) method restores a soft-deleted workload identity pool provider.
+
+Before using any of the request data, make the following replacements:
+
+- `PROJECT_ID` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+- `POOL_ID` : The ID of the workload identity pool that contains the provider—for example, `my-pool` .
+- `PROVIDER_ID` : The ID of the deleted workload identity pool provider to restore—for example, `my-oidc-provider` .
+
+HTTP method and URL:
+
+```
+POST https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID:undelete
+```
+
+Request JSON body:
+
+```
+{}
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json; charset=utf-8" \
+     -d @request.json \
+     "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID:undelete"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Save the request body in a file named `request.json` , and execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method POST `
+    -Headers $headers `
+    -ContentType: "application/json; charset=utf-8" `
+    -InFile request.json `
+    -Uri "https://iam.googleapis.com/v1/projects/PROJECT_ID/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID:undelete" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Copy the request body and open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers/undelete) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Paste the request body in this tool, complete any other required fields, and click **Execute** .
+
+The response contains a long-running operation that represents your request. To check whether the provider restoration is complete, see [Check the status of a long-running operation](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#check-operation-status) on this page.
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/providers/my-oidc-provider/operations/operation-1700000000015-0123456789abcdef",
+  "metadata": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPoolProviderOperationMetadata"
+  },
+  "done": false
+}
+```
+
+## Check the status of a long-running operation
+
+When you use the REST API, any method that creates, updates, deletes, or restores a workload identity pool or provider returns a long-running operation (LRO). The long-running operation tracks the status of the request and indicates whether the change is complete.
+
+> **Note:** When you modify a workload identity pool or provider by using the gcloud CLI, the gcloud CLI waits for the operation to complete by default unless you pass the `--async` flag.
+
+### gcloud
+
+The [`gcloud iam workload-identity-pools operations describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/operations/describe) command returns the status of a long-running operation.
+
+Before using any of the command data below, make the following replacements:
+
+- `OPERATION_NAME` : The full resource name of the operation from the `name` field of the original response:
+
+  - Pool operations: `projects/ `` PROJECT_NUMBER `` /locations/global/workloadIdentityPools/ `` POOL_ID `` /operations/ `` OPERATION_ID`
+  - Provider operations: `projects/ `` PROJECT_NUMBER `` /locations/global/workloadIdentityPools/ `` POOL_ID `` /providers/ `` PROVIDER_ID `` /operations/ `` OPERATION_ID`
+
+  For provider operations, run the [`gcloud iam workload-identity-pools providers operations describe`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers/operations/describe) command instead.
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+```
+gcloud iam workload-identity-pools operations describe OPERATION_NAME
+```
+
+#### Windows (PowerShell)
+
+```
+gcloud iam workload-identity-pools operations describe OPERATION_NAME
+```
+
+#### Windows (cmd.exe)
+
+```
+gcloud iam workload-identity-pools operations describe OPERATION_NAME
+```
+
+You should receive a response similar to the following:
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/operations/operation-1700000000000-0123456789abcdef",
+  "metadata": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPoolOperationMetadata"
+  },
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPool",
+    "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool",
+    "displayName": "My workload pool",
+    "description": "Workload identity pool for external workloads.",
+    "state": "ACTIVE"
+  }
+}
+```
+
+### REST
+
+The [`projects.locations.workloadIdentityPools.operations.get`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.operations/get) method returns the status of a long-running operation.
+
+Before using any of the request data, make the following replacements:
+
+- `OPERATION_NAME` : The full resource name of the operation from the `name` field of the original response:
+
+  - Pool operations: `projects/ `` PROJECT_NUMBER `` /locations/global/workloadIdentityPools/ `` POOL_ID `` /operations/ `` OPERATION_ID`
+  - Provider operations: `projects/ `` PROJECT_NUMBER `` /locations/global/workloadIdentityPools/ `` POOL_ID `` /providers/ `` PROVIDER_ID `` /operations/ `` OPERATION_ID`
+
+HTTP method and URL:
+
+```
+GET https://iam.googleapis.com/v1/OPERATION_NAME
+```
+
+To send your request, expand one of these options:
+
+#### curl (Linux, macOS, or Cloud Shell)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+curl -X GET \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     "https://iam.googleapis.com/v1/OPERATION_NAME"
+```
+
+#### PowerShell (Windows)
+
+> **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+
+Execute the following command:
+
+```
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+
+Invoke-WebRequest `
+    -Method GET `
+    -Headers $headers `
+    -Uri "https://iam.googleapis.com/v1/OPERATION_NAME" | Select-Object -Expand Content
+```
+
+#### APIs Explorer (browser)
+
+Open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.operations/get) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Complete any required fields and click **Execute** .
+
+You should receive a JSON response similar to the following:
+
+```
+{
+  "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool/operations/operation-1700000000000-0123456789abcdef",
+  "metadata": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPoolOperationMetadata"
+  },
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.iam.v1.WorkloadIdentityPool",
+    "name": "projects/123456789012/locations/global/workloadIdentityPools/my-pool",
+    "displayName": "My workload pool",
+    "description": "Workload identity pool for external workloads.",
+    "state": "ACTIVE"
+  }
+}
+```
+
+If the operation's `done` field is `false` or omitted, continue to monitor its status by getting the operation repeatedly. Use [truncated exponential backoff](https://docs.cloud.google.com/iam/docs/retry-strategy#algorithm) to introduce a delay between requests. When the `done` field is set to `true` , the operation is complete.
 
 ## Manage constraints for Workload Identity Federation
 

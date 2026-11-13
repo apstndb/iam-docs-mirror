@@ -2993,6 +2993,44 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
+<td><code>backupdr. bvbackups. useReadOnlyForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAdmin">Backup and DR Backup Vault Admin</a> ( <code>roles/ backupdr.backupvaultAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.serviceAgent">Backup and DR Service Agent</a> ( <code>roles/ backupdr.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. bvbackups. useReadOnlyForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAdmin">Backup and DR Backup Vault Admin</a> ( <code>roles/ backupdr.backupvaultAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.serviceAgent">Backup and DR Service Agent</a> ( <code>roles/ backupdr.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><code>backupdr. bvbackups. useReadOnlyForFilestoreInstance</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -3178,6 +3216,30 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code>roles/ composer.serviceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. bvdataSources. useReadOnlyForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAdmin">Backup and DR Backup Vault Admin</a> ( <code>roles/ backupdr.backupvaultAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. bvdataSources. useReadOnlyForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupvaultAdmin">Backup and DR Backup Vault Admin</a> ( <code>roles/ backupdr.backupvaultAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>backupdr. compute. restoreFromBackupVault</code></td>
@@ -4211,6 +4273,606 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><code>backupdr. restoreTargets. useForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplateExecutions. getForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplateExecutions. getForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplateExecutions. getForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplateExecutions. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplateExecutions. triggerRestoreCleanupForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplateExecutions. triggerRestoreCleanupForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplateExecutions. triggerRestoreCleanupForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplates. createForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplates. createForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplates. createForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplates. deleteForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplates. deleteForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplates. deleteForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplates. getForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplates. getForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplates. getForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr.restoreTemplates.list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplates. runForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplates. runForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplates. runForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplates. runWithCleanupForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.serviceAgent">Backup and DR Service Agent</a> ( <code>roles/ backupdr.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplates. runWithCleanupForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.serviceAgent">Backup and DR Service Agent</a> ( <code>roles/ backupdr.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplates. runWithCleanupForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.serviceAgent">Backup and DR Service Agent</a> ( <code>roles/ backupdr.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplates. updateForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplates. updateForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplates. updateForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplates. useForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreTemplates. useForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreTemplates. useForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreVerificationPlanAssociations. createForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreVerificationPlanAssociations. createForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreVerificationPlanAssociations. createForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreVerificationPlanAssociations. deleteForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreVerificationPlanAssociations. deleteForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreVerificationPlanAssociations. deleteForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreVerificationPlanAssociations. getForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreVerificationPlanAssociations. getForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreVerificationPlanAssociations. getForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreVerificationPlanAssociations. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreVerificationPlanAssociations. triggerRestoreVerificationForCloudSqlInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreVerificationPlanAssociations. triggerRestoreVerificationForComputeDisk</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreVerificationPlanAssociations. triggerRestoreVerificationForComputeInstance</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreVerificationPlans. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreVerificationPlans. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>backupdr. restoreVerificationPlans. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>backupdr. restoreVerificationPlans. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.viewer">Backup and DR Viewer</a> ( <code>roles/ backupdr.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.restoreUser">Backup and DR Restore User</a> ( <code>roles/ backupdr.restoreUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
 <td><code>backupdr. serviceConfig. initialize</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -4248,7 +4910,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr.trial.end</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -4257,7 +4919,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code>roles/ backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code>roles/ backupdr.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>backupdr.trial.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -4272,7 +4934,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code>roles/ backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>backupdr.trial.subscribe</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>

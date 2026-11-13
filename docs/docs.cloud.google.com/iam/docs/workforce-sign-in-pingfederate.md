@@ -6,7 +6,7 @@ description: Configure Workforce Identity Federation with PingFederate to access
 data_source: docs.cloud.google.com
 ---
 
-This document shows you how to configure Workforce Identity Federation with the PingFederate identity provider (IdP) and manage access to Google Cloud. After you configure the PingFederate IdP, federated users can access Google Cloud services that [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) by using the SAML 2.0 protocol.
+Workforce Identity Federation lets you use PingFederate as an identity provider (IdP) to authenticate your workforce to Google Cloud. After you configure Security Assertion Markup Language (SAML) 2.0 integration, federated users can sign in to Google Cloud services that [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) .
 
 ## Before you begin
 

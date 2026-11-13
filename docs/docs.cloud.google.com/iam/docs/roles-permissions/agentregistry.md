@@ -487,6 +487,7 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -768,7 +769,14 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.admin">Agent Registry API Admin</a> ( <code>roles/ agentregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.editor">Agent Registry API Editor</a> ( <code>roles/ agentregistry.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.editor">Agent Registry API Editor</a> ( <code>roles/ agentregistry.editor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><code>agentregistry.services.delete</code></td>
@@ -777,7 +785,14 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.admin">Agent Registry API Admin</a> ( <code>roles/ agentregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.editor">Agent Registry API Editor</a> ( <code>roles/ agentregistry.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.editor">Agent Registry API Editor</a> ( <code>roles/ agentregistry.editor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><code>agentregistry.services.get</code></td>
@@ -791,7 +806,14 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.editor">Agent Registry API Editor</a> ( <code>roles/ agentregistry.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.viewer">Agent Registry API Viewer</a> ( <code>roles/ agentregistry.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.user">Agent Registry User</a> ( <code>roles/ agentregistry.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><code>agentregistry.services.list</code></td>
@@ -817,7 +839,14 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.admin">Agent Registry API Admin</a> ( <code>roles/ agentregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.editor">Agent Registry API Editor</a> ( <code>roles/ agentregistry.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.editor">Agent Registry API Editor</a> ( <code>roles/ agentregistry.editor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><code>agentregistry. skillRevisions. create</code></td>
@@ -899,7 +928,10 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.admin">Agent Registry API Admin</a> ( <code>roles/ agentregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.editor">Agent Registry API Editor</a> ( <code>roles/ agentregistry.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.user">Agent Registry User</a> ( <code>roles/ agentregistry.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1005,7 +1037,10 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.admin">Agent Registry API Admin</a> ( <code>roles/ agentregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.editor">Agent Registry API Editor</a> ( <code>roles/ agentregistry.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.viewer">Agent Registry API Viewer</a> ( <code>roles/ agentregistry.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code>roles/ discoveryengine.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.user">Agent Registry User</a> ( <code>roles/ agentregistry.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
 <tr class="even">

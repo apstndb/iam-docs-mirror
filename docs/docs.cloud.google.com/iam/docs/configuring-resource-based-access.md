@@ -32,6 +32,7 @@ This page describes how to manage access to specific resources using conditional
   - Cloud Storage
   - Compute Engine
   - Dataform
+  - Managed Service for Apache Spark
   - Cloud DNS
   - Google Kubernetes Engine
   - Firestore

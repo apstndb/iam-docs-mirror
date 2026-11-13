@@ -6,9 +6,9 @@ description: Grant workloads access to {{dynamic_data.site_values.cloud_name}} r
 data_source: docs.cloud.google.com
 ---
 
-This page describes how to configure your workloads to access Google Cloud resources by using Workload Identity Federation and either direct resource access or [service account impersonation](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#allow_the_external_workload_to_impersonate_the_service_account) .
+Workload Identity Federation lets you grant external workloads access to Google Cloud resources either directly or through [service account impersonation](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#impersonation) . You can then download a credential configuration file to set up Application Default Credentials (ADC) for client libraries.
 
-You can find end-to-end, use case-specific instructions in configuration guides for [AWS and Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds) , [Active Directory](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory) , [GitHub, GitLab, and other deployment pipelines](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines) , and [Kubernetes](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-kubernetes) .
+For end-to-end, use-case-specific instructions, see the configuration guides for [Amazon Web Services (AWS) and Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds) , [Active Directory](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory) , [GitHub, GitLab, and other deployment pipelines](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines) , and [Kubernetes](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-kubernetes) .
 
 ## Allow your external workload to access Google Cloud resources
 

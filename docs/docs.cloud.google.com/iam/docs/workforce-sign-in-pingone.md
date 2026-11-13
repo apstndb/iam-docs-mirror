@@ -6,7 +6,7 @@ description: Configure Workforce Identity Federation with PingOne Advanced Ident
 data_source: docs.cloud.google.com
 ---
 
-This document shows you how to configure Workforce Identity Federation with PingOne Advanced Identity Cloud (AIC) as an identity provider (IdP) and manage access to Google Cloud. After you configure the PingOne AIC IdP, federated users can access Google Cloud services that [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) by using the SAML 2.0 protocol.
+Workforce Identity Federation lets you use PingOne Advanced Identity Cloud (AIC) as an identity provider (IdP) to authenticate your workforce to Google Cloud. After you configure Security Assertion Markup Language (SAML) 2.0 integration, federated users can access Google Cloud services that [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) .
 
 ## Before you begin
 

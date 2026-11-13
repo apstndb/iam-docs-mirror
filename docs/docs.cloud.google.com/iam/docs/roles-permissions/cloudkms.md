@@ -880,6 +880,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms#cloudkmskacls.serviceAgent">Cloud KMS KACLS Service Agent</a> ( <code>roles/ cloudkmskacls.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
@@ -937,6 +938,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 </ul></td>
@@ -1308,11 +1310,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.admin">Kubernetes Engine Admin</a> ( <code>roles/ container.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.clusterAdmin">Kubernetes Engine Cluster Admin</a> ( <code>roles/ container.clusterAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code>roles/ datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.admin">Dataproc Administrator</a> ( <code>roles/ dataproc.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.editor">Dataproc Editor</a> ( <code>roles/ dataproc.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastream#datastream.admin">Datastream Admin</a> ( <code>roles/ datastream.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.admin">Document AI Administrator</a> ( <code>roles/ documentai.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.editor">Document AI Editor</a> ( <code>roles/ documentai.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code>roles/ edgecontainer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edge Container Editor</a> ( <code>roles/ edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/file#file.admin">Cloud Filestore Admin</a> ( <code>roles/ file.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/file#file.editor">Cloud Filestore Editor</a> ( <code>roles/ file.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
@@ -1335,6 +1341,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serverlessEditor">Dataproc Serverless Editor</a> ( <code>roles/ dataproc.serverlessEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
@@ -1382,11 +1389,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.admin">Kubernetes Engine Admin</a> ( <code>roles/ container.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.clusterAdmin">Kubernetes Engine Cluster Admin</a> ( <code>roles/ container.clusterAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code>roles/ datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.admin">Dataproc Administrator</a> ( <code>roles/ dataproc.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.editor">Dataproc Editor</a> ( <code>roles/ dataproc.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastream#datastream.admin">Datastream Admin</a> ( <code>roles/ datastream.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.admin">Document AI Administrator</a> ( <code>roles/ documentai.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.editor">Document AI Editor</a> ( <code>roles/ documentai.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code>roles/ edgecontainer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edge Container Editor</a> ( <code>roles/ edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/file#file.admin">Cloud Filestore Admin</a> ( <code>roles/ file.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/file#file.editor">Cloud Filestore Editor</a> ( <code>roles/ file.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
@@ -1409,6 +1420,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serverlessEditor">Dataproc Serverless Editor</a> ( <code>roles/ dataproc.serverlessEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
@@ -1458,11 +1470,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.admin">Kubernetes Engine Admin</a> ( <code>roles/ container.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.clusterAdmin">Kubernetes Engine Cluster Admin</a> ( <code>roles/ container.clusterAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code>roles/ datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.admin">Dataproc Administrator</a> ( <code>roles/ dataproc.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.editor">Dataproc Editor</a> ( <code>roles/ dataproc.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastream#datastream.admin">Datastream Admin</a> ( <code>roles/ datastream.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.admin">Document AI Administrator</a> ( <code>roles/ documentai.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.editor">Document AI Editor</a> ( <code>roles/ documentai.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code>roles/ edgecontainer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edge Container Editor</a> ( <code>roles/ edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/file#file.admin">Cloud Filestore Admin</a> ( <code>roles/ file.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/file#file.editor">Cloud Filestore Editor</a> ( <code>roles/ file.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
@@ -1487,6 +1503,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serverlessEditor">Dataproc Serverless Editor</a> ( <code>roles/ dataproc.serverlessEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
@@ -1612,6 +1629,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 </ul></td>
@@ -1810,11 +1828,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.admin">Kubernetes Engine Admin</a> ( <code>roles/ container.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.clusterAdmin">Kubernetes Engine Cluster Admin</a> ( <code>roles/ container.clusterAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code>roles/ datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.admin">Dataproc Administrator</a> ( <code>roles/ dataproc.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.editor">Dataproc Editor</a> ( <code>roles/ dataproc.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastream#datastream.admin">Datastream Admin</a> ( <code>roles/ datastream.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.admin">Document AI Administrator</a> ( <code>roles/ documentai.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.editor">Document AI Editor</a> ( <code>roles/ documentai.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code>roles/ edgecontainer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edge Container Editor</a> ( <code>roles/ edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/file#file.admin">Cloud Filestore Admin</a> ( <code>roles/ file.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/file#file.editor">Cloud Filestore Editor</a> ( <code>roles/ file.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
@@ -1840,6 +1862,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serverlessEditor">Dataproc Serverless Editor</a> ( <code>roles/ dataproc.serverlessEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
@@ -1889,11 +1912,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.admin">Kubernetes Engine Admin</a> ( <code>roles/ container.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.clusterAdmin">Kubernetes Engine Cluster Admin</a> ( <code>roles/ container.clusterAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.admin">Dataflow Admin</a> ( <code>roles/ dataflow.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code>roles/ datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.admin">Dataproc Administrator</a> ( <code>roles/ dataproc.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.editor">Dataproc Editor</a> ( <code>roles/ dataproc.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastream#datastream.admin">Datastream Admin</a> ( <code>roles/ datastream.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code>roles/ discoveryengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.admin">Document AI Administrator</a> ( <code>roles/ documentai.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.editor">Document AI Editor</a> ( <code>roles/ documentai.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code>roles/ edgecontainer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edge Container Editor</a> ( <code>roles/ edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/file#file.admin">Cloud Filestore Admin</a> ( <code>roles/ file.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/file#file.editor">Cloud Filestore Editor</a> ( <code>roles/ file.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
@@ -1917,6 +1944,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code>roles/ composer.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.developer">Dataflow Developer</a> ( <code>roles/ dataflow.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serverlessEditor">Dataproc Serverless Editor</a> ( <code>roles/ dataproc.serverlessEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code>roles/ discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code>roles/ firebase.developAdmin</code> )</p>
