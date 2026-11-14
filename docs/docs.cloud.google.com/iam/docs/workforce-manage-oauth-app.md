@@ -38,9 +38,26 @@ After you complete these steps, the OAuth-based application can access Google Cl
 
 ## Required roles
 
-To get the permissions that you need to register an OAuth application for your organization, ask your administrator to grant you the [IAM OAuth Client Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.oauthClientAdmin) ( `roles/iam.oauthClientAdmin` ) IAM role on the project. For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+To get the permissions that you need to register an OAuth application and manage its credentials for your organization, ask your administrator to grant you the [IAM OAuth Client Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.oauthClientAdmin) ( `roles/iam.oauthClientAdmin` ) IAM role on the project. For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
-You might also be able to get the required permissions through [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
+This predefined role contains the permissions required to register an OAuth application and manage its credentials for your organization. To see the exact permissions that are required, expand the **Required permissions** section:
+
+#### Required permissions
+
+The following permissions are required to register an OAuth application and manage its credentials for your organization:
+
+- `iam.oauthClients.create`
+- `iam.oauthClients.delete`
+- `iam.oauthClients.get`
+- `iam.oauthClients.list`
+- `iam.oauthClients.update`
+- `iam.oauthClientCredentials.create`
+- `iam.oauthClientCredentials.delete`
+- `iam.oauthClientCredentials.get`
+- `iam.oauthClientCredentials.list`
+- `iam.oauthClientCredentials.update`
+
+You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
 ## Manage OAuth clients
 

@@ -57,7 +57,7 @@ https://docs.cloud.google.com/iam/docs/create-service-agents	2026-10-02T06:13:11
 https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/creating-custom-roles	2026-10-02T06:13:11Z
-https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support	2026-10-27T06:13:03Z
+https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support	2026-11-13T03:48:31Z
 https://docs.cloud.google.com/iam/docs/custom-roles-tags	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/deny-access	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/deny-overview	2026-10-02T06:13:11Z
@@ -101,8 +101,8 @@ https://docs.cloud.google.com/iam/docs/pab-blocked-permissions	2026-10-02T06:14:
 https://docs.cloud.google.com/iam/docs/pam-approve-deny-grants	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/pam-audit-entitlement-events	2026-09-25T07:59:04Z
 https://docs.cloud.google.com/iam/docs/pam-best-practices	2026-11-13T10:00:49Z
-https://docs.cloud.google.com/iam/docs/pam-configure-settings	2026-10-02T06:14:42Z
-https://docs.cloud.google.com/iam/docs/pam-create-entitlements	2026-10-02T06:14:42Z
+https://docs.cloud.google.com/iam/docs/pam-configure-settings	2026-11-13T10:00:49Z
+https://docs.cloud.google.com/iam/docs/pam-create-entitlements	2026-11-13T10:00:49Z
 https://docs.cloud.google.com/iam/docs/pam-custom-constraints	2026-11-10T03:45:10Z
 https://docs.cloud.google.com/iam/docs/pam-overview	2026-11-02T05:33:38Z
 https://docs.cloud.google.com/iam/docs/pam-permissions-and-setup	2026-10-02T06:14:42Z
@@ -118,7 +118,7 @@ https://docs.cloud.google.com/iam/docs/permissions-change-log	2026-10-29T06:49:4
 https://docs.cloud.google.com/iam/docs/permissions-change-log-archive	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/policy-intelligence-tools	2026-10-02T06:14:42Z
 https://docs.cloud.google.com/iam/docs/policy-types	2026-10-02T06:14:42Z
-https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies	2026-10-11T07:20:12Z
+https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies	2026-11-13T22:01:12Z
 https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create	2026-10-06T23:30:53Z
 https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit	2026-10-06T23:30:59Z
 https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove	2026-10-06T23:31:04Z
@@ -1190,7 +1190,7 @@ https://docs.cloud.google.com/iam/docs/workforce-delete-user-data	2026-11-02T22:
 https://docs.cloud.google.com/iam/docs/workforce-identity-federation	2026-11-09T18:31:41Z
 https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim	2026-10-05T05:59:34Z
 https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud	2026-11-02T21:44:52Z
-https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app	2026-11-04T06:27:36Z
+https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app	2026-11-13T16:26:21Z
 https://docs.cloud.google.com/iam/docs/workforce-oauth-app	2026-11-10T19:10:30Z
 https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials	2026-11-10T19:10:30Z
 https://docs.cloud.google.com/iam/docs/workforce-revoke-sessions	2026-10-07T05:03:27Z

@@ -104,6 +104,28 @@ Whether a Principal Access Boundary policy can prevent ineligible principals fro
 
 In all cases, Principal Access Boundary policies still prevent ineligible principals from modifying or deleting publicly visible resources.
 
+### Google-owned resources
+
+To enable developers to use Google Cloud services, such as BigQuery and Cloud Workstations, Google Cloud provides Google-owned public resources. For example, BigQuery provides [public datasets](https://docs.cloud.google.com/bigquery/public-data) that you can integrate into your applications. These public resources are hosted in a Google-owned Google Cloud organization with the ID `433637338589` . This organization is also used to manage [tenant projects](https://docs.cloud.google.com/service-infrastructure/docs/manage-tenant-projects) for services like Cloud Workstations.
+
+Principals who are subject to Principal Access Boundary policies will lose access to these public resources unless you make them eligible to access resources in the Google-owned organization.
+
+To make principals eligible to access resources in the Google-owned organization, [add the following rule](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit#edit-policy) to a Principal Access Boundary policy that applies to the principals:
+
+```
+{
+  "description": "Make principals eligible to access Google-owned public resources",
+  "resources": [
+    "//cloudresourcemanager.googleapis.com/organizations/433637338589"
+  ],
+  "effect": "ALLOW"
+}
+```
+
+Alternatively, you can [create a new Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create) with this rule and bind it to the relevant principal set.
+
+> **Warning:** Only bind this policy to principal sets that are already subject to Principal Access Boundary policies. If a principal set isn't subject to any Principal Access Boundary policies, then binding this policy will make those principals ineligible to access resources outside of the Google-owned organization.
+
 ## Principal Access Boundary policy evaluation
 
 When a principal attempts to access a resource, IAM evaluates the relevant Principal Access Boundary policies to determine whether to block the access attempt. A policy is relevant if the principal making the access attempt is subject to the policy.

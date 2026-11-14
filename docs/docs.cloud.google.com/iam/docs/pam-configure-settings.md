@@ -8,15 +8,7 @@ data_source: docs.cloud.google.com
 
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-As a Privileged Access Manager settings administrator, you can configure some additional settings for the approval workflow and notification preferences.
-
-The settings that you configure at the organization or folder level are automatically applied to their child resources, unless you explicitly override the settings at the child resource level.
-
-You can enable automated approvals to allow service accounts and agent identities to be designated as eligible approvers. The automated approvals setting impacts how automation and programmatic access can be integrated into the approval workflows for privileged access.
-
-The automated approvals setting lets administrators add service accounts, agent identities, and [identities in workload identity pools](https://docs.cloud.google.com/iam/docs/workload-identity-federation) as approvers when creating or modifying an entitlement.
-
-You can customize resource-wide notification preferences for various Privileged Access Manager events by selectively disabling notifications for specific events and specific personas, or disabling all notifications.
+[Privileged Access Manager (PAM)](https://docs.cloud.google.com/iam/docs/pam-overview) settings let you automate approval workflows and customize email notification preferences across organizations, folders, and projects. As a Privileged Access Manager settings administrator, you can enable automated approvals to designate service accounts, agent identities, and [identities in workload identity pools](https://docs.cloud.google.com/iam/docs/workload-identity-federation) as eligible approvers for entitlements. You can also turn off resource-wide emails for specific Privileged Access Manager events and personas or disable all notifications. Folders and projects inherit settings through the [resource hierarchy](https://docs.cloud.google.com/cloud-setup/docs/organizational-structure#resource-hierarchy) by default unless you configure an override.
 
 ## Before you begin
 

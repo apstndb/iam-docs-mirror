@@ -6,40 +6,23 @@ description: Create entitlements to allow temporary privilege elevation by using
 data_source: docs.cloud.google.com
 ---
 
-You can create entitlements to allow temporary privilege elevation for a select set of principals. Keep the following in mind when creating entitlements:
+[Privileged Access Manager (PAM)](https://docs.cloud.google.com/iam/docs/pam-overview) lets you create entitlements on an organization, folder, or project to provide temporary, on-demand access to Google Cloud resources. Each entitlement defines the [Identity and Access Management (IAM) roles](https://docs.cloud.google.com/iam/docs/roles-permissions) to grant, the eligible requesters, the maximum access duration, and any required approval workflow. Roles granted by an entitlement follow the Google Cloud [resource hierarchy](https://docs.cloud.google.com/iam/docs/resource-hierarchy-access-control) , so child resources inherit access granted at a parent level.
 
-- You can create entitlements at the organization, folder, or project level. Roles granted by an entitlement at each level follow the Google Cloud [resource hierarchy](https://docs.cloud.google.com/iam/docs/resource-hierarchy-access-control) . For example, roles granted by an entitlement at the organization level are inherited at the folder and project levels.
+## Entitlement considerations
 
-- If Security Command Center Premium or Enterprise tier is activated, then you can mandate more than one approval level per entitlement, allowing up to two levels of sequential approvals for each entitlement. You can mandate up to five approvals per level.
+Before you create an entitlement, review the following requirements and constraints:
 
-  After the required number of first-level approvals are received, email notifications are sent to second-level approvers. After the required number of second-level approvals are received, the grant moves to the `active` state. If any approver denies the grant, then the grant moves to the `denied` state and is not sent to any additional approvers.
+- **Supported roles and services** :
+  - You can add predefined or custom roles only for services that [support IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview#resources) .
+  - For [basic roles](https://docs.cloud.google.com/iam/docs/roles-overview#basic) , only `Admin` ( `roles/admin` ), `Writer` ( `roles/writer` ), and `Reader` ( `roles/reader` ) are supported. The [legacy basic roles](https://docs.cloud.google.com/iam/docs/roles-overview#legacy-basic) `Owner` , `Editor` , and `Viewer` aren't supported.
+  - Don't grant service agent roles in entitlements. Some service agent roles contain very powerful permissions, and the permissions within these roles can change without notice. Instead, choose a different [predefined role](https://docs.cloud.google.com/iam/docs/roles-permissions) , or create a [custom role](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) with the permissions you need.
+- **Requesters and approvers** :
+  - You can add up to 20 principals as requesters and up to 20 principals per approval level as approvers. If you add a group as a requester or approver, all group members can request or review grants, but only the individual account requesting a grant receives elevated privileges.
+  - If automated approvals are enabled for the resource, you can add service accounts, agent identities, and workload pool identities as approvers ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ). For details, see [Configure Privileged Access Manager settings](https://docs.cloud.google.com/iam/docs/pam-configure-settings) .
+  - If Security Command Center Premium or Enterprise tier is activated, you can configure up to two sequential approval levels per entitlement and require up to five approvals per level ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ). Second-level approvers are notified after first-level approvals are complete, and the grant becomes `active` after second-level approvals are received. If any approver denies the request, the grant moves to the `denied` state without notifying additional approvers.
+- **Existing access** : Creating an entitlement doesn't revoke permanent IAM role bindings that principals already have. To require just-in-time access, remove existing permanent role bindings separately.
 
-  This feature is available in [preview](https://docs.cloud.google.com/products#product-launch-stages) .
-
-- If service accounts and agent identities are allowed to approve grants for this resource, then you can add service accounts, agent identities, and workload pool identities as approvers. To learn how to enable this setting, see [Configure Privileged Access Manager settings](https://docs.cloud.google.com/iam/docs/pam-configure-settings) .
-
-  This feature is available in [preview](https://docs.cloud.google.com/products#product-launch-stages) .
-
-- If you add a group as a requester to an entitlement, all individual accounts in that group can request a grant of that entitlement. However, only the individual account requesting the grant can receive elevated privileges.
-
-- If you add a group as an approver to an entitlement, all individual accounts in that group can approve or deny a grant request.
-
-- [Basic roles](https://docs.cloud.google.com/iam/docs/roles-overview#basic) (Admin, Writer, and Reader) are supported, but [legacy basic roles](https://docs.cloud.google.com/iam/docs/roles-overview#legacy-basic) (Owner, Editor, and Viewer) are not supported.
-
-- Privileged Access Manager only supports services that support granular access through IAM because it uses IAM conditions to manage temporary access.
-
-- Don't include service agent roles in entitlements.
-
-  Some service agent roles contain very powerful permissions, and the permissions within these roles can change without notice. Instead, choose a different [predefined role](https://docs.cloud.google.com/iam/docs/roles-permissions) , or create a [custom role](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) with the permissions you need.
-
-> **Caution:** Be careful when including the following types of roles in an entitlement:
->
-> - Roles with permissions to grant and revoke IAM roles (that is, roles with permission names that end in `setIamPolicy` ).
-> - Roles with the `iam.roles.update` permission, which lets users modify custom roles.
->
-> These types of roles contain permissions that can let a user modify their own IAM permissions. As a result, requesting principals can use these roles to increase their own access to resources, or give themselves additional access to resources.
->
-> For example, imagine a user that has a custom role with very limited permissions. If this user successfully requests a grant against an entitlement with the Role Administrator role ( `roles/iam.roleAdmin` ), then they can use the permissions in that role to add the `resourcemanager.projects.setIamPolicy` permission to their custom role. This permission would let them grant and revoke all IAM roles for the project, even after the grant expires.
+> **Caution:** If you include a role with `*setIamPolicy` or `iam.roles.update` permissions, such as Role Administrator ( `roles/iam.roleAdmin` ), a requester can modify IAM policies or roles during their grant window to retain permanent access after the grant expires.
 
 ## Before you begin
 
