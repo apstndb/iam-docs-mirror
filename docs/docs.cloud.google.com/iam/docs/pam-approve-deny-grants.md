@@ -6,13 +6,18 @@ description: Use Privileged Access Manager (PAM) to manage just-in-time temporar
 data_source: docs.cloud.google.com
 ---
 
-When an entitlement has an approval workflow, principals that are specified as approvers can approve or deny grant requests for that entitlement.
+[Privileged Access Manager (PAM)](https://docs.cloud.google.com/iam/docs/pam-overview) lets you approve or deny grant requests for entitlements that have an approval workflow. When you are specified as an approver, you can review pending requests to control when principals receive temporary elevated access.
 
-If the Security Command Center Premium or Enterprise tier is activated, then the approval workflow can have two levels of approvals. An approver can be in one or both approval levels, but can only approve once. After the required number of first-level approvals are received, email notifications are sent to second-level approvers. After the required number of second-level approvals are received, the grant moves to the `active` state. If any approver denies the grant, then the grant moves to the `denied` state and is not sent to any additional approvers. This feature is available in [preview](https://docs.cloud.google.com/products#product-launch-stages) .
+## Grant approval considerations
 
-Keep the following in mind when approving or denying a grant request against an entitlement:
+When you approve or deny a grant request against an entitlement, the following rules apply:
 
 - You can't approve your own request.
+
+- If the Security Command Center Premium or Enterprise tier is activated, the approval workflow can have two levels of approvals. This feature is available in [preview](https://docs.cloud.google.com/products#product-launch-stages) .
+  - An approver can be in one or both approval levels, but can only approve once.
+  - After the required number of first-level approvals are received, Privileged Access Manager sends email notifications to second-level approvers. After the required number of second-level approvals are received, the grant moves to the `active` state.
+  - If any approver denies the grant, the grant moves to the `denied` state and isn't sent to any additional approvers.
 
 - If a request isn't approved or denied, its status changes to `expired` as follows:
 

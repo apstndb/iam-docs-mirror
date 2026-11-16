@@ -10,7 +10,7 @@ data_source: docs.cloud.google.com
 >
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-With custom organization policies, you can restrict how users create and modify Privileged Access Manager (PAM) entitlements and grants.
+Custom organization policies let you restrict how users create and modify [Privileged Access Manager (PAM)](https://docs.cloud.google.com/iam/docs/pam-overview) entitlements and create grants. You can enforce custom constraints on your organization, folders, or projects to limit request durations or require approver justifications.
 
 This page shows you how to use Organization Policy Service custom constraints to restrict specific operations on the following Google Cloud resources:
 

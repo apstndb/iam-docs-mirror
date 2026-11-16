@@ -6,11 +6,7 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This guide shows you how to let users that are in Microsoft Entra groups access BigQuery data in Power BI by using [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) .
-
-Microsoft Entra is the identity provider (IdP). Groups claims from Microsoft Entra are mapped to Google Cloud. Groups are granted Identity and Access Management (IAM) permission to access the BigQuery data.
-
-This guide provides instructions for Power BI Desktop or Web.
+[Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) lets you give users in Microsoft Entra groups access to BigQuery data in Power BI Desktop or Power BI Web. With Microsoft Entra as the identity provider (IdP), you map group claims from Microsoft Entra to Google Cloud and grant the groups Identity and Access Management (IAM) permission to access the BigQuery data.
 
 ## Before you begin
 

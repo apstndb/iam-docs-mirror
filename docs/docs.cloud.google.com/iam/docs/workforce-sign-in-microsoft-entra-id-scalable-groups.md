@@ -6,7 +6,7 @@ description: Configure Workforce Identity Federation with Microsoft Entra ID to 
 data_source: docs.cloud.google.com
 ---
 
-You can configure Workforce Identity Federation with the Microsoft Entra ID identity provider (IdP) and map up to 400 groups from Microsoft Entra ID to Google Cloud by using Microsoft Graph. You can then grant IAM roles to those groups, which lets Microsoft Entra ID users in those groups sign in to Google Cloud. The users can then access Google Cloud products to which they were granted IAM access that also [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) .
+Workforce Identity Federation lets you map up to 400 groups from the Microsoft Entra ID identity provider (IdP) to Google Cloud by using Microsoft Graph. After you grant IAM roles to those groups, users in the groups can sign in to Google Cloud and access the Google Cloud products to which they were granted access that also [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) .
 
 To map fewer than 150 groups from Microsoft Entra ID to Google Cloud, see [Configure Workforce Identity Federation with Microsoft Entra ID and sign in users](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id) .
 

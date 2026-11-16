@@ -6,15 +6,15 @@ description: Request for temporary elevated access with Privileged Access Manage
 data_source: docs.cloud.google.com
 ---
 
-To temporarily elevate your privileges, you can request a grant against an *entitlement* in [Privileged Access Manager (PAM)](https://docs.cloud.google.com/iam/docs/pam-overview) for a fixed duration.
+[Privileged Access Manager (PAM)](https://docs.cloud.google.com/iam/docs/pam-overview) lets you temporarily elevate your privileges by requesting a grant against an *entitlement* for a fixed duration. After your grant request succeeds, Privileged Access Manager grants you the [roles](https://docs.cloud.google.com/iam/docs/understanding-roles) in the entitlement and removes them when the grant ends.
 
-An entitlement contains [roles](https://docs.cloud.google.com/iam/docs/understanding-roles) that are granted to you after your grant request is successful. These roles are removed by Privileged Access Manager when the grant ends. Grant activation and role removal take time to propagate through the system due to standard [access change propagation](https://docs.cloud.google.com/iam/docs/access-change-propagation) .
+## Grant request considerations
 
-Keep the following in mind when you want to request a grant against an entitlement:
+When you request a grant against an entitlement, the following rules and limits apply:
 
 - You can only request grants against entitlements that you have been added to. To be added to an entitlement, contact the principal administering the entitlement.
 
-- One user can have a maximum of 10 open grants per entitlement at a time. These grants can be in the `Active` , `Scheduled` , or `Approval awaited` state.
+- You can have up to 10 open grants for an entitlement at one time. These grants can be in the `Active` , `Scheduled` , or `Approval awaited` state.
 
 - You can't request a grant with the same scope as an existing grant in the `Active` , `Scheduled` , or `Approval awaited` state.
 
@@ -24,12 +24,12 @@ Keep the following in mind when you want to request a grant against an entitleme
 
 - If a grant request needs approval, it must be approved or denied before it expires. The deadline depends on the activation type:
 
-  - Immediate activation: Within 24 hours of the request.
-  - Scheduled activation: Before the scheduled activation time.
+  - Immediate activation: within 24 hours of the request.
+  - Scheduled activation: before the scheduled activation time.
 
   If a request isn't approved or denied by the deadline, its status changes to `Expired` .
 
-- Successful grant requests take time to propagate through the system because Privileged Access Manager uses time-based [IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) subject to standard [access change propagation](https://docs.cloud.google.com/iam/docs/access-change-propagation) .
+- Successful grant requests, grant activation, and role removal take time to propagate through the system because Privileged Access Manager uses time-based [Identity and Access Management (IAM) Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) subject to standard [access change propagation](https://docs.cloud.google.com/iam/docs/access-change-propagation) .
 
 ## Request a grant
 
