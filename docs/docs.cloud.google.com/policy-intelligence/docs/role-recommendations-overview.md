@@ -203,7 +203,7 @@ For the IAM recommender to generate a role recommendation for a role, the follow
 - It must have been longer than the [minimum observation period](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#observation-period) since the role was granted. This ensures that the IAM recommender has enough usage data to make a recommendation. By default, the minimum observation period is 90 days, but you can manually set it to 30 days or 60 days. For details, see [Configure role recommendation generation](https://docs.cloud.google.com/policy-intelligence/docs/configure-role-recommendations) .
 - If the principal that's granted the role is a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , the role must be Owner, Editor, or Viewer. The IAM recommender doesn't generate role recommendations for service agents with other roles. For more details, see [Role recommendations for service agents](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#service-agents) .
 
-If a role was granted too recently or doesn't have any insights, the **Analyzed permissions** column in the Google Cloud console shows a help icon.
+If a role was granted too recently or doesn't have any insights, the **Analyzed permissions** column in the Google Cloud console shows a icon.
 
 There are some cases where the IAM recommender doesn't generate role recommendations for a role, even though enough time has passed and the role has an insight associated with it. This can happen for the following reasons:
 

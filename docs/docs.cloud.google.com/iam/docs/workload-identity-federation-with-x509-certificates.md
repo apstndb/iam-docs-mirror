@@ -6,11 +6,7 @@ description: Configure Workload Identity Federation with X.509 certificates for 
 data_source: docs.cloud.google.com
 ---
 
-This guide describes how to use Workload Identity Federation with X.509 certificates that are issued by your certificate authority (CA) to authenticate to Google Cloud and access Google Cloud resources.
-
-If your workloads possess an mTLS client certificate, you can authenticate to Google Cloud by registering one or more CAs with Workload Identity Federation as trust anchors. You can also register intermediate CAs.
-
-By using Workload Identity Federation, you can let these workloads obtain short-lived Google Cloud credentials through a mutual TLS (mTLS) connection. Workloads can use these short-lived credentials to access Google Cloud APIs.
+Workload Identity Federation lets you use X.509 certificates issued by your certificate authority (CA) to authenticate to Google Cloud without managing [service account keys](https://docs.cloud.google.com/iam/docs/service-account-creds#key-types) . When you register trust anchor and optional intermediate CAs, workloads can use client certificates over mutual TLS (mTLS) to obtain short-lived credentials for Google Cloud APIs.
 
 ## Concepts
 
@@ -32,7 +28,9 @@ The X.509 certificate-based federation concepts include the following:
 
 To start configuring Workload Identity Federation, do the following:
 
-1.  In the Google Cloud console, on the project selector page, select or create a Google Cloud project.
+1.  [Verify that you have the permissions required to complete this guide](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates#required-roles) .
+
+2.  In the Google Cloud console, on the project selector page, select or create a Google Cloud project.
 
     **Roles required to select or create a project**
 
@@ -49,7 +47,7 @@ Enable the IAM, Resource Manager, Service Account Credentials, and Security Toke
 
 To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
-## Required roles
+### Required roles
 
 To get the permissions that you need to configure Workload Identity Federation, ask your administrator to grant you the following IAM roles on the project:
 
@@ -309,7 +307,7 @@ To use the Google Cloud console to grant IAM roles directly on a resource, you m
 
 3.  Select the **Permissions** tab near the top of the page.
 
-4.  Click the *add_box* **Grant access** button.
+4.  Click the **Grant access** button.
 
     The **Add principals** dialog appears.
 
@@ -583,7 +581,7 @@ To create credential and certificate configuration files for direct resource acc
 
 2.  Click the name of the pool that contains the provider you want to use.
 
-3.  Click **add_box Grant access** .
+3.  Click **Grant access** .
 
 4.  In the **Grant access to service account** panel, select **Grant access using federated identities (Recommended)** .
 
@@ -642,7 +640,7 @@ To create credential and certificate configuration files with service account im
 
 2.  Click the name of the pool that contains the provider you want to use.
 
-3.  Click **add Grant access** .
+3.  Click **Grant access** .
 
 4.  Select **Grant access using service account impersonation** .
 

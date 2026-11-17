@@ -639,7 +639,7 @@ To use the Google Cloud console to grant IAM roles directly on a resource, you m
 
 3.  Select the **Permissions** tab near the top of the page.
 
-4.  Click the *add_box* **Grant access** button.
+4.  Click the **Grant access** button.
 
     The **Add principals** dialog appears.
 

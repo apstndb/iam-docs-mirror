@@ -165,9 +165,11 @@ The full resource name of the resource to which the policy will be bound. Immuta
 ```
 {
 
-  // Union field target can be only one of the following:
-  "principalSet": string
-  // End of list of possible types for union field target.
+  // The following is a list of mutually exclusive fields. At most one of the
+  // fields will be set in a response:
+  "principalSet": string,
+  "resource": string
+  // End of mutually exclusive fields.
 }
 ```
 
@@ -184,7 +186,7 @@ The full resource name of the resource to which the policy will be bound. Immuta
 </thead>
 <tbody>
 <tr class="odd">
-<td>Union field <code>target</code> . The different types of targets that can be bound to a policy. <code>target</code> can be only one of the following:</td>
+<td>The different types of targets that can be bound to a policy. The following is a list of mutually exclusive fields. At most one of the fields will be set in a response:</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -214,6 +216,25 @@ The full resource name of the resource to which the policy will be bound. Immuta
 </ul></li>
 </ul></td>
 </tr>
+<tr class="odd">
+<td><code>resource</code></td>
+<td><p><code>string</code></p>
+<p>Immutable. The full resource name that's used for Unified Access Policy bindings.</p>
+<p>Examples:</p>
+<ul>
+<li>Organization: <code>//cloudresourcemanager.googleapis.com/organizations/ORGANIZATION_ID</code></li>
+<li>Folder: <code>//cloudresourcemanager.googleapis.com/folders/FOLDER_ID</code></li>
+<li>Project:
+<ul>
+<li><code>//cloudresourcemanager.googleapis.com/projects/PROJECT_NUMBER</code></li>
+<li><code>//cloudresourcemanager.googleapis.com/projects/PROJECT_ID</code></li>
+</ul></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>End of mutually exclusive fields.</td>
+<td></td>
+</tr>
 </tbody>
 </table>
 
@@ -225,6 +246,7 @@ The different policy kinds supported in this binding.
 |-----------------------------|--------------------------------------------|
 | `POLICY_KIND_UNSPECIFIED`   | Unspecified policy kind; Not a valid state |
 | `PRINCIPAL_ACCESS_BOUNDARY` | Principal access boundary policy kind      |
+| `ACCESS`                    | Unified Access Policy kind.                |
 
 | Methods                                                                                                                                              |                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|

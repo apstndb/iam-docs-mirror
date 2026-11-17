@@ -14,7 +14,7 @@ data_source: docs.cloud.google.com
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies/get#examples)
 - [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies/get#try-it)
 
-Gets an access policy.
+Gets a Unified Access Policy.
 
 ### HTTP request
 
@@ -24,9 +24,9 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-| Parameters |                                                                                                                                                                                                                                                                                                                                                                                                   |
-|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name`     | `string` Required. The name of the access policy to retrieve. Format: `projects/{projectId}/locations/{location}/accessPolicies/{accessPolicyId}` `projects/{projectNumber}/locations/{location}/accessPolicies/{accessPolicyId}` `folders/{folderId}/locations/{location}/accessPolicies/{accessPolicyId}` `organizations/{organizationId}/locations/{location}/accessPolicies/{accessPolicyId}` |
+| Parameters |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`     | `string` Required. The name of the Unified Access Policy to retrieve. Format: \* `projects/{projectId}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `projects/{projectNumber}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `folders/{folderId}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `organizations/{organizationId}/locations/{location}/accessPolicies/{unified_access_policy_id}` |
 
 ### Request body
 
@@ -38,8 +38,9 @@ If successful, the response body contains an instance of [`AccessPolicy`](https:
 
 ### Authorization scopes
 
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .

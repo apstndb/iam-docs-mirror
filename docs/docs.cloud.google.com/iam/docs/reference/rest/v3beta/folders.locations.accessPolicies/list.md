@@ -15,7 +15,7 @@ data_source: docs.cloud.google.com
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies/list#examples)
 - [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies/list#try-it)
 
-Lists access policies.
+Lists Unified Access Policies.
 
 ### HTTP request
 
@@ -25,16 +25,17 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-| Parameters |                                                                                                                                                                                                                                                                                                   |
-|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `parent`   | `string` Required. The parent resource, which owns the collection of access policy resources. Format: `projects/{projectId}/locations/{location}` `projects/{projectNumber}/locations/{location}` `folders/{folderId}/locations/{location}` `organizations/{organizationId}/locations/{location}` |
+| Parameters |                                                                                                                                                                                                                                                                                                                       |
+|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`   | `string` Required. The parent resource, which owns the collection of Unified Access Policy resources. Format: \* `projects/{projectId}/locations/{location}` \* `projects/{projectNumber}/locations/{location}` \* `folders/{folderId}/locations/{location}` \* `organizations/{organizationId}/locations/{location}` |
 
 ### Query parameters
 
-| Parameters  |                                                                                                                                                                                                                                                               |
-|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `pageSize`  | `integer` Optional. The maximum number of access policies to return. The service may return fewer than this value. If unspecified, at most 50 access policies will be returned. Valid value ranges from 1 to 1000; values above 1000 will be coerced to 1000. |
-| `pageToken` | `string` Optional. A page token, received from a previous `accessPolicies.list` call. Provide this to retrieve the subsequent page. When paginating, all other parameters provided to `accessPolicies.list` must match the call that provided the page token. |
+| Parameters  |                                                                                                                                                                                                                                                                                |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `pageSize`  | `integer` Optional. The maximum number of Unified Access Policies to return. The service might return a smaller number of bindings. If unspecified, at most 50 Unified Access Policies are returned. Valid value ranges from 1 to 1000; values above 1000 are reduced to 1000. |
+| `pageToken` | `string` Optional. A page token, received from a previous `accessPolicies.list` call. Provide this to retrieve the subsequent page. When paginating, all other parameters provided to `accessPolicies.list` must match the call that provided the page token.                  |
+| `filter`    | `string` Optional. An expression for filtering the results of the request. Example filter query: `displayName:example*` matches Unified Access Policies whose display name starts with "example".                                                                              |
 
 ### Request body
 
@@ -46,8 +47,9 @@ If successful, the response body contains an instance of [`ListAccessPoliciesRes
 
 ### Authorization scopes
 
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .

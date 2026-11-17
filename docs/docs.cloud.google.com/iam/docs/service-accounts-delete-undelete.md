@@ -177,7 +177,7 @@ Deleted service accounts do not count towards your [service account quota](https
 
 2.  Select a project.
 
-3.  Select the service account you want to delete, and then click **Delete** delete .
+3.  Select the service account you want to delete, and then click **Delete** .
 
 ### gcloud
 
@@ -462,7 +462,7 @@ Alternatively, you can search your audit logs for the `DeleteServiceAccount` ope
 
     - If the search results show more than one log, do the following:
 
-      1.  Find the correct log entry. To find the correct log entry, click the keyboard_arrow_right expander arrow next to a log entry. Review the details of the log entry and determine whether the log entry shows the operation that you want to undo. Repeat this process until you find the correct log entry.
+      1.  Find the correct log entry. To find the correct log entry, click the expander arrow next to a log entry. Review the details of the log entry and determine whether the log entry shows the operation that you want to undo. Repeat this process until you find the correct log entry.
 
       2.  In the correct log entry, locate the service account's numeric ID. To locate the numeric ID, expand the log entry's `protoPayload` field, then find the `resourceName` field.
 

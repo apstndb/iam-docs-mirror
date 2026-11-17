@@ -23,7 +23,7 @@ Response message for SearchAccessPolicyBindings rpc.
 }
 ```
 
-| Fields             |                                                                                                                                                                                                        |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `policyBindings[]` | `object ( `[`PolicyBinding`](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.policyBindings#PolicyBinding)` )` The policy bindings that reference the specified policy. |
-| `nextPageToken`    | `string` Optional. A token, which can be sent as `pageToken` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                                       |
+| Fields             |                                                                                                                                                                                                                |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `policyBindings[]` | `object ( `[`PolicyBinding`](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.policyBindings#PolicyBinding)` )` The bindings that reference the specified Unified Access Policy. |
+| `nextPageToken`    | `string` Optional. A token, which can be sent as `pageToken` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                                               |

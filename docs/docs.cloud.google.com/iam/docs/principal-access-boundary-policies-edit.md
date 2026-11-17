@@ -90,7 +90,7 @@ You can edit a Principal Access Boundary policy using the Google Cloud console, 
 
 3.  Click the policy ID of the Principal Access Boundary policy that you want to edit.
 
-4.  Click edit **Edit policy** .
+4.  Click **Edit policy** .
 
 5.  To edit the policy's rules, do the following:
 
@@ -98,7 +98,7 @@ You can edit a Principal Access Boundary policy using the Google Cloud console, 
     2.  Edit the rule's description or the resources included in the rule.
     3.  Click **Done** .
 
-6.  To delete a rule from the policy, click delete **Delete** in that rule's row.
+6.  To delete a rule from the policy, click **Delete** in that rule's row.
 
 7.  To edit the policy's display name, edit the **Display name** field.
 
@@ -342,13 +342,13 @@ You can edit a policy binding using the Google Cloud console, the gcloud CLI, or
 
 4.  Click the **Bindings** tab.
 
-5.  Find the ID of the binding that you want to edit. In that binding's row, click more_vert **Actions** , then click **Edit binding** .
+5.  Find the ID of the binding that you want to edit. In that binding's row, click **Actions** , then click **Edit binding** .
 
 6.  To update the binding's display name, edit the **Display name** field.
 
 7.  To add a condition to the binding, do the following:
 
-    1.  Click add **Add condition** .
+    1.  Click **Add condition** .
     2.  In the **Title** field, enter a brief summary of the purpose of the condition.
     3.  Optional: In the **Description** field, enter a longer description of the condition.
     4.  In the **Expression** field, enter a condition expression that uses the [Common Expression Language (CEL) syntax](https://github.com/google/cel-spec/blob/master/doc/langdef.md) . The expression must reference the [`principal.type` or `principal.subject` attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#principals) . Other attributes are not supported.
@@ -356,7 +356,7 @@ You can edit a policy binding using the Google Cloud console, the gcloud CLI, or
 
 8.  To update an existing condition, do the following:
 
-    1.  Click edit **Edit condition** next to the name of the condition.
+    1.  Click **Edit condition** next to the name of the condition.
     2.  Update the condition's title, description, or expression.
     3.  Click **Save** .
 
@@ -374,7 +374,7 @@ Before using any of the command data below, make the following replacements:
 
 - `BINDING_ID` : The ID of the policy binding that you want to update—for example, `example-binding` .
 
-- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization`
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization` .
 
   The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
@@ -450,7 +450,7 @@ The [`policyBindings.patch`](https://docs.cloud.google.com/iam/docs/reference/re
 
 Before using any of the request data, make the following replacements:
 
-- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations`
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations` .
 
   The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 

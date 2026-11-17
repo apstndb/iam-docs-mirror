@@ -23,7 +23,7 @@ Response message for ListAccessPolicies method.
 }
 ```
 
-| Fields             |                                                                                                                                                                                            |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `accessPolicies[]` | `object ( `[`AccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies#AccessPolicy)` )` The access policies from the specified parent. |
-| `nextPageToken`    | `string` Optional. A token, which can be sent as `pageToken` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                           |
+| Fields             |                                                                                                                                                                                                    |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `accessPolicies[]` | `object ( `[`AccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies#AccessPolicy)` )` The Unified Access Policies from the specified parent. |
+| `nextPageToken`    | `string` Optional. A token, which can be sent as `pageToken` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                                   |

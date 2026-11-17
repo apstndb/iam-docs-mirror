@@ -94,7 +94,7 @@ You might also be able to get these permissions with [custom roles](https://docs
 
 3.  In the **Entitlements** tab, click the **Entitlements for all users** tab. Here you can find the available entitlements, the roles they grant, and their valid requesters and approvers.
 
-4.  In the table, click more_vert **More options** in the same row as an entitlement you want to inspect.
+4.  In the table, click **More options** in the same row as an entitlement you want to inspect.
 
     - To view the entitlement details, click **View entitlement details** .
 
@@ -104,7 +104,7 @@ You might also be able to get these permissions with [custom roles](https://docs
 
     - To delete the entitlement, click **Delete entitlement** . You can't delete an entitlement with active grants. You must revoke the grants first.
 
-5.  To update an entitlement, click edit **Edit entitlement** in the same row as the entitlement you want to update.
+5.  To update an entitlement, click **Edit entitlement** in the same row as the entitlement you want to update.
 
     Keep the following things in mind when updating an entitlement:
 

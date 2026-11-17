@@ -14,6 +14,32 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/feeds/iam-release-notes.xml) directly.
 
+## November 02, 2026
+
+Feature
+
+Unified Access Policies (UAPs) are available in [Preview](https://cloud.google.com/products#product-launch-stages) . You can use UAPs to grant and revoke access to resources using the same policy.
+
+For more information, see [Unified Access Policies](https://docs.cloud.google.com/iam/docs/unified-access-policies) .
+
+Breaking
+
+Permissions to grant access by using Unified Access Policies (UAPs) are included in the following roles:
+
+- Owner ( `roles/owner` )
+- Admin ( `roles/admin` )
+- Security Admin ( `roles/iam.securityAdmin` )
+- Organization Administrator ( `roles/resourcemanager.organizationAdmin` )
+- Folder IAM Admin ( `roles/resourcemanager.folderIamAdmin` )
+- Project IAM Admin ( `roles/resourcemanager.projectIamAdmin` )
+
+If users have these roles and aren't denied permission to modify UAPs or bind them to resources, then they can grant any permission by using UAPs. Granting access in this way is not limited by [custom organization policies that limit role granting](https://docs.cloud.google.com/iam/docs/org-policy-custom-constraints) .
+
+If you want to prevent these users from granting access by using UAPs, do one of the following:
+
+- Enforce the [`iam.managed.disableAccessPolicyBinding` organization policy constraint](https://docs.cloud.google.com/organization-policy/reference/org-policy-constraints#constraints/iam.managed.disableAccessPolicyBinding) in your organization.
+- [Deny UAP-related access change permissions](https://docs.cloud.google.com/iam/docs/deny-access-change-permissions#identify-permissions) to principals with these roles.
+
 ## October 29, 2026
 
 Feature

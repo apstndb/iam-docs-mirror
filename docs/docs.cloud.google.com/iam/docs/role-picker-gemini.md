@@ -83,13 +83,13 @@ The following procedure uses the **IAM** page as the primary entry point.
 
 3.  Select a principal to get role suggestions for:
 
-    - To get role suggestions for a principal who already has other roles on the resource, find a row containing the principal, and then click edit **Edit principal** in that row.
+    - To get role suggestions for a principal who already has other roles on the resource, find a row containing the principal, and then click **Edit principal** in that row.
 
       To grant a role to a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
 
       > **Note:** You cannot edit inherited roles when managing access to a resource. To edit inherited roles, go to the resource where the role was granted.
 
-    - To get role suggestions for a principal who doesn't have any existing roles on the resource, click person_add **Grant Access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
+    - To get role suggestions for a principal who doesn't have any existing roles on the resource, click **Grant Access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
 
 4.  To open the IAM role picker dialog, click **Help me choose roles** .
 

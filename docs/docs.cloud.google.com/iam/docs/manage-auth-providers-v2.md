@@ -44,7 +44,7 @@ To update the description or authentication details of an auth provider, use the
 
 4.  In the **Auth Providers** section, find the auth provider that you want to manage.
 
-5.  For your auth provider, click the **more_vert Actions** menu and select **Edit** .
+5.  For your auth provider, click the **Actions** menu and select **Edit** .
 
 6.  Update the description or authentication details as needed.
 
@@ -88,7 +88,7 @@ If you want to temporarily stop an agent from using an auth provider without del
 
 4.  In the **Auth Providers** section, find the auth provider that you want to manage.
 
-5.  For your auth provider, click **more_vert Actions** and select **Enable** or **Disable** .
+5.  For your auth provider, click **Actions** and select **Enable** or **Disable** .
 
 6.  In the confirmation dialog, click **Enable** or **Disable** .
 
@@ -127,7 +127,7 @@ When you no longer need an auth provider, you can delete it. Deleting an auth pr
 
 4.  In the **Auth Providers** section, find the auth provider that you want to manage.
 
-5.  For your auth provider, click **more_vert Actions** and select **Delete** .
+5.  For your auth provider, click **Actions** and select **Delete** .
 
 6.  In the confirmation dialog, click **Delete** .
 
@@ -159,7 +159,7 @@ If you accidentally delete an auth provider, you can restore it from its soft-de
 
 4.  In the **Auth Providers** section, find the auth provider that you want to manage.
 
-5.  For your auth provider, click **more_vert Actions** and select **Restore** .
+5.  For your auth provider, click **Actions** and select **Restore** .
 
 6.  In the confirmation dialog, click **Restore** .
 

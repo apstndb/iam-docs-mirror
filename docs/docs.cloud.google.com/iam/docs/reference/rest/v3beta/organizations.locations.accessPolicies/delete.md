@@ -15,7 +15,7 @@ data_source: docs.cloud.google.com
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/organizations.locations.accessPolicies/delete#examples)
 - [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/organizations.locations.accessPolicies/delete#try-it)
 
-Deletes an access policy.
+Deletes a Unified Access Policy.
 
 ### HTTP request
 
@@ -25,17 +25,17 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-| Parameters |                                                                                                                                                                                                                                                                                                                                                                                                 |
-|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name`     | `string` Required. The name of the access policy to delete. Format: `projects/{projectId}/locations/{location}/accessPolicies/{accessPolicyId}` `projects/{projectNumber}/locations/{location}/accessPolicies/{accessPolicyId}` `folders/{folderId}/locations/{location}/accessPolicies/{accessPolicyId}` `organizations/{organizationId}/locations/{location}/accessPolicies/{accessPolicyId}` |
+| Parameters |                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`     | `string` Required. The name of the Unified Access Policy to delete. Format: \* `projects/{projectId}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `projects/{projectNumber}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `folders/{folderId}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `organizations/{organizationId}/locations/{location}/accessPolicies/{unified_access_policy_id}` |
 
 ### Query parameters
 
-| Parameters     |                                                                                                                                     |
-|----------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| `etag`         | `string` Optional. The etag of the access policy. If this is provided, it must match the server's etag.                             |
-| `validateOnly` | `boolean` Optional. If set, validate the request and preview the deletion, but do not actually post it.                             |
-| `force`        | `boolean` Optional. If set to true, the request will force the deletion of the Policy even if the Policy references PolicyBindings. |
+| Parameters     |                                                                                                                                                                                                                                                                            |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `etag`         | `string` Optional. The etag of the Unified Access Policy. If this is provided, it must match the server's etag.                                                                                                                                                            |
+| `validateOnly` | `boolean` Optional. If set, validate the request and preview the deletion, but do not actually post it.                                                                                                                                                                    |
+| `force`        | `boolean` Optional. If set to true, the request will force the deletion of the Unified Access Policy even if it's referenced in existing bindings. If this value is set to false and the Unified Access Policy is referenced in existing bindings, then the request fails. |
 
 ### Request body
 
@@ -47,8 +47,9 @@ If successful, the response body contains an instance of [`Operation`](https://d
 
 ### Authorization scopes
 
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .

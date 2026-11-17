@@ -78,7 +78,7 @@ Before you attach a service account to a resource in another project, do the fol
 
     4.  Go to the **Principals with access** tab.
 
-    5.  Click person_add **Grant access** , and then enter the email address of the service agent.
+    5.  Click **Grant access** , and then enter the email address of the service agent.
 
     6.  Click **Select a role** , type `Service Account Token Creator` , and click the role.
 

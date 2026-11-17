@@ -90,11 +90,11 @@ You can create a Principal Access Boundary policy using the Google Cloud console
 
 2.  Select the organization that you want to create Principal Access Boundary policies for.
 
-3.  Click add_box **Create policy** .
+3.  Click **Create policy** .
 
 4.  Add Principal Access Boundary rules to the policy:
 
-    1.  Click add_box **Add boundary rule** .
+    1.  Click **Add boundary rule** .
 
     2.  In the **Description** field, add a description of the Principal Access Boundary policy rule. The description can be a maximum of 256 characters.
 
@@ -312,7 +312,7 @@ You can create a policy binding using the Google Cloud console, the gcloud CLI, 
 
 3.  Click the policy ID of the Principal Access Boundary policy that you want to create a binding for.
 
-4.  Click the **Bindings** tab, then click add_box **Add binding** .
+4.  Click the **Bindings** tab, then click **Add binding** .
 
 5.  Enter the binding details:
 
@@ -326,7 +326,7 @@ You can create a policy binding using the Google Cloud console, the gcloud CLI, 
 
 6.  Optional: To specify which principals in the principal set the Principal Access Boundary policy is enforced for, add a condition to the binding:
 
-    1.  Click add **Add condition** .
+    1.  Click **Add condition** .
     2.  In the **Title** field, enter a brief summary of the purpose of the condition.
     3.  Optional: In the **Description** field, enter a longer description of the condition.
     4.  In the **Expression** field, enter a condition expression that uses the [Common Expression Language (CEL) syntax](https://github.com/google/cel-spec/blob/master/doc/langdef.md) . The expression must reference the [`principal.type` or `principal.subject` attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#principals) . Other attributes are not supported.
@@ -346,7 +346,7 @@ Before using any of the command data below, make the following replacements:
 
 - `BINDING_ID` : A unique name for the policy binding—for example, `example-binding` .
 
-- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization`
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization` .
 
   The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
@@ -419,7 +419,7 @@ The [`policyBindings.create`](https://docs.cloud.google.com/iam/docs/reference/r
 
 Before using any of the request data, make the following replacements:
 
-- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations`
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations` .
 
   The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 

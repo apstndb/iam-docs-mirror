@@ -12,8 +12,6 @@ Identity and Access Management (IAM) lets you create and manage permissions for 
 
 [Go to the Identity and Access Management product page for more.](https://cloud.google.com/security/products/iam)
 
-format_list_numbered
-
 ### Guides
 
 - Quickstarts: [Quickstart: Grant an IAM role by using the Google Cloud console](https://docs.cloud.google.com/iam/docs/grant-role-console) or [Quickstart: Write an IAM policy by using client libraries](https://docs.cloud.google.com/iam/docs/write-policy-client-libraries)
@@ -34,8 +32,6 @@ format_list_numbered
 
 - [Configure temporary access](https://docs.cloud.google.com/iam/docs/configuring-temporary-access)
 
-find_in_page
-
 ### Reference
 
 - [Roles and permissions](https://docs.cloud.google.com/iam/docs/roles-permissions)
@@ -55,8 +51,6 @@ find_in_page
 - [Resource types that accept IAM policies](https://docs.cloud.google.com/iam/docs/resource-types-with-policies)
 
 - [Service agents](https://docs.cloud.google.com/iam/docs/service-agents)
-
-info
 
 ### Resources
 

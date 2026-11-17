@@ -172,7 +172,7 @@ To view grantable roles for a project, folder, or organization, do the following
 
 3.  Select the project, folder, or organization for which you want to view grantable roles.
 
-4.  Click person_add **Grant access** .
+4.  Click **Grant access** .
 
 5.  Click **Select a role** . This menu displays all the roles, including any custom roles, that you can grant on this resource.
 
@@ -186,7 +186,7 @@ To view grantable roles for other resource types, do the following:
 
 3.  Ensure that the info panel is visible. If it is not visible, click **Show info panel** .
 
-4.  Click person_add **Add principal** .
+4.  Click **Add principal** .
 
 5.  Click **Select a role** . This menu displays all the roles, including any custom roles, that you can grant on this resource.
 

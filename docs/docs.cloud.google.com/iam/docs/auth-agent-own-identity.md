@@ -49,7 +49,7 @@ To grant an agent access to a resource, use the Google Cloud console or the gclo
 1.  In the Google Cloud console, go to the **IAM** page for the resource that you want to grant access to.
     - For a project, go to the **IAM** page:
     - For other resources, go to the page for that resource and click the **Permissions** or **IAM** tab.
-2.  Click person_add **Grant Access** .
+2.  Click **Grant Access** .
 3.  In the **New principals** field, enter the principal identifier that matches the level of access you want to grant:
     - **A single agent** : `principal://agents.global.org- `` ORGANIZATION_ID `` . system.id.goog/ resources/ aiplatform/ projects/ `` PROJECT_NUMBER `` / locations/ `` LOCATION `` / reasoningEngines/ `` ENGINE_ID`
     - **All agents in a project** : `principalSet://agents.global.org- `` ORGANIZATION_ID `` . system.id.goog/ attribute.platformContainer/ aiplatform/ projects/ `` PROJECT_NUMBER`

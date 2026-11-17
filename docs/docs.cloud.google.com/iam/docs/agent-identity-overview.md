@@ -8,8 +8,6 @@ data_source: docs.cloud.google.com
 
 Agent Identity provides a strongly attested, cryptographic identity for each agent that is based on the [SPIFFE standard](https://docs.cloud.google.com/iam/docs/agent-identity-overview#spiffe-identity) . With Agent Identity, your agent can securely authenticate to MCP servers, cloud resources, endpoints, and other agents, acting either on its own behalf or on behalf of an end user. Agent Identity uses the [agent's own credential](https://docs.cloud.google.com/iam/docs/agent-identity-overview#agent-credentials) and [Agent Identity auth manager](https://docs.cloud.google.com/iam/docs/agent-identity-overview#agent-auth-manager) . You can use the auth manager to create and manage *auth providers* , which are the specific configurations used to acquire, manage, and secure API keys, OAuth client IDs, OAuth client secrets, and delegated end-user OAuth tokens.
 
-Unlike service accounts, agent identities are not shared by multiple workloads by default, can't be impersonated, and don't allow developers to generate long-lived service account keys. Access tokens generated for Google Cloud are cryptographically bound to the agent's unique X.509 certificates to prevent token theft.
-
 Agent Identity works with [Agent Registry](https://docs.cloud.google.com/agent-registry/overview) and [Agent Gateway](https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/gateways/agent-gateway-overview) to help secure and govern AI agents. Agent Identity provisions cryptographic identities and manages credentials, Agent Registry catalogs the tools and destinations in your environment, and Agent Gateway enforces access policies and inspects network traffic when agents call those destinations.
 
 The following services support Agent Identity:
@@ -18,6 +16,12 @@ The following services support Agent Identity:
 - [Gemini Enterprise](https://docs.cloud.google.com/gemini/enterprise/docs)
 - [Cloud Run](https://docs.cloud.google.com/run/docs/ai/agent-platform-features)
 - [Google Kubernetes Engine](https://docs.cloud.google.com/kubernetes-engine/security/about-agent-identity)
+
+## How Agent Identity differs from service accounts
+
+Unlike [service accounts](https://docs.cloud.google.com/iam/docs/service-account-overview) , agent identities are not shared by multiple workloads by default, can't be impersonated, and don't allow developers to generate long-lived service account keys. Access tokens generated for Google Cloud are cryptographically bound to the agent's unique X.509 certificates to prevent token theft.
+
+Traditional service accounts authenticate deterministic backend workloads, whereas AI agents act like *digital workers* that reason dynamically, call external tools, and act either autonomously or on behalf of users. Instead of relying on shared credentials or service account impersonation, Agent Identity assigns a dedicated principal to each agent, brokers user-delegated OAuth tokens through [Agent Identity auth manager](https://docs.cloud.google.com/iam/docs/agent-identity-overview#agent-auth-manager) , and records both the agent and the delegating user in audit logs. For a detailed comparison, see [Compare Agent Identity and service accounts](https://docs.cloud.google.com/iam/docs/compare-agent-identity-service-accounts) .
 
 ## Authentication models
 
@@ -145,6 +149,7 @@ Agent Identity improves security over standard service accounts.
 
 ## What's next
 
+- [Compare Agent Identity and service accounts](https://docs.cloud.google.com/iam/docs/compare-agent-identity-service-accounts)
 - [Identity delegation architecture](https://docs.cloud.google.com/iam/docs/identity-delegation-architecture)
 - [Create an agent with Agent Identity](https://docs.cloud.google.com/iam/docs/create-and-deploy-agent)
 - [Authenticate to Google Cloud using an agent's own identity](https://docs.cloud.google.com/iam/docs/auth-agent-own-identity)

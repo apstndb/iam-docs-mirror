@@ -51,7 +51,7 @@ To view a grant, complete the following instructions:
 
     > **Note:** Each binding created by Privileged Access Manager has a time-based condition that expires with the grant duration. As long as the time condition is not altered, the requester's privileged access will end when the grant expires.
 
-4.  In the table, click more_vert **More options** in the same row as an entitlement you want to inspect.
+4.  In the table, click **More options** in the same row as an entitlement you want to inspect.
 
     - To view the grant details including its history, click **View details** . You can also revoke a grant from this panel.
 

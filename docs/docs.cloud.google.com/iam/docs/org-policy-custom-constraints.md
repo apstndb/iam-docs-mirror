@@ -140,7 +140,7 @@ You can also use the logical operators `&&` ( `and` ) and `||` ( `or` ) to write
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>RoleNameMatches( role, roleNames: list )</code> trending_flat <code>bool</code></td>
+<td><code>RoleNameMatches( role, roleNames: list )</code> <code>bool</code></td>
 <td><p>Returns <code>true</code> if the role <code>role</code> fully matches at least one of the roles listed in <code>roleNames</code> .</p>
 <dl>
 <dt>Parameters</dt>
@@ -158,7 +158,7 @@ You can also use the logical operators `&&` ( `and` ) and `||` ( `or` ) to write
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>RoleNameStartsWith( role, rolePrefixes: list )</code> trending_flat <code>bool</code></td>
+<td><code>RoleNameStartsWith( role, rolePrefixes: list )</code> <code>bool</code></td>
 <td><p>Returns <code>true</code> if the role <code>role</code> starts with at least one of the strings listed in <code>rolePrefixes</code> .</p>
 <dl>
 <dt>Parameters</dt>
@@ -176,7 +176,7 @@ You can also use the logical operators `&&` ( `and` ) and `||` ( `or` ) to write
 </dl></td>
 </tr>
 <tr class="odd">
-<td><code>RoleNameEndsWith( role, roleSuffixes: list )</code> trending_flat <code>bool</code></td>
+<td><code>RoleNameEndsWith( role, roleSuffixes: list )</code> <code>bool</code></td>
 <td><p>Returns <code>true</code> if the role <code>role</code> ends with at least one of the strings listed in <code>roleSuffixes</code> .</p>
 <dl>
 <dt>Parameters</dt>
@@ -194,7 +194,7 @@ You can also use the logical operators `&&` ( `and` ) and `||` ( `or` ) to write
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>RoleNameContains( role, roleSubstrings: list )</code> trending_flat <code>bool</code></td>
+<td><code>RoleNameContains( role, roleSubstrings: list )</code> <code>bool</code></td>
 <td><p>Returns <code>true</code> if the role <code>role</code> contains at least one of the strings listed in <code>roleSubstrings</code> .</p>
 <dl>
 <dt>Parameters</dt>
@@ -212,7 +212,7 @@ You can also use the logical operators `&&` ( `and` ) and `||` ( `or` ) to write
 </dl></td>
 </tr>
 <tr class="odd">
-<td><code>MemberSubjectMatches( member, memberNames: list )</code> trending_flat <code>bool</code></td>
+<td><code>MemberSubjectMatches( member, memberNames: list )</code> <code>bool</code></td>
 <td><p>Returns <code>true</code> if the member <code>member</code> fully matches at least one of the members listed in <code>memberNames</code> .</p>
 <p>If the identifier for <code>member</code> is an email address, this function evaluates the email address as well as any <a href="https://support.google.com/a/answer/33327">aliases</a> for that email address.</p>
 <dl>
@@ -231,7 +231,7 @@ You can also use the logical operators `&&` ( `and` ) and `||` ( `or` ) to write
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>MemberSubjectStartsWith( member, memberPrefixes: list )</code> trending_flat <code>bool</code></td>
+<td><code>MemberSubjectStartsWith( member, memberPrefixes: list )</code> <code>bool</code></td>
 <td><p>Returns <code>true</code> if the member <code>member</code> starts with at least one of the strings listed in <code>memberPrefixes</code> .</p>
 <p>If the identifier for <code>member</code> is an email address, this function evaluates the email address as well as any <a href="https://support.google.com/a/answer/33327">aliases</a> for that email address.</p>
 <dl>
@@ -250,7 +250,7 @@ You can also use the logical operators `&&` ( `and` ) and `||` ( `or` ) to write
 </dl></td>
 </tr>
 <tr class="odd">
-<td><code>MemberSubjectEndsWith( member, memberSuffixes: list )</code> trending_flat <code>bool</code></td>
+<td><code>MemberSubjectEndsWith( member, memberSuffixes: list )</code> <code>bool</code></td>
 <td><p>Returns <code>true</code> if the member <code>member</code> ends with at least one of the strings listed in <code>memberSuffixes</code> .</p>
 <p>If the identifier for <code>member</code> is an email address, this function evaluates the email address as well as any <a href="https://support.google.com/a/answer/33327">aliases</a> for that email address.</p>
 <dl>
@@ -269,7 +269,7 @@ You can also use the logical operators `&&` ( `and` ) and `||` ( `or` ) to write
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>MemberInPrincipalSet( member, principalSets: list )</code> trending_flat <code>bool</code></td>
+<td><code>MemberInPrincipalSet( member, principalSets: list )</code> <code>bool</code></td>
 <td><p>Returns <code>true</code> if the member belongs to at least one of the listed principal sets.</p>
 <dl>
 <dt>Parameters</dt>
@@ -294,7 +294,7 @@ You can also use the logical operators `&&` ( `and` ) and `||` ( `or` ) to write
 </dl></td>
 </tr>
 <tr class="odd">
-<td><code>MemberTypeMatches( member, principalType: list )</code> trending_flat <code>bool</code></td>
+<td><code>MemberTypeMatches( member, principalType: list )</code> <code>bool</code></td>
 <td><p>Returns <code>true</code> if the member is one of the listed principal types.</p>
 <dl>
 <dt>Parameters</dt>
@@ -331,7 +331,7 @@ Use the `all` and `exists` macros to evaluate a condition expression for a list 
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>list.</code> <code>all( item, conditionExpression )</code> trending_flat <code>bool</code></td>
+<td><code>list.</code> <code>all( item, conditionExpression )</code> <code>bool</code></td>
 <td><p>Returns <code>true</code> if <code>conditionExpression</code> evaluates to <code>true</code> for <em>every</em> <code>item</code> in <code>list</code> .</p>
 <p>This macro is typically used for custom organization policies with the <code>actionType</code> <code>ALLOW</code> . For example, you can use this macro to ensure that an action is only allowed if <em>all</em> modified principals meet the condition.</p>
 <dl>
@@ -353,7 +353,7 @@ Use the `all` and `exists` macros to evaluate a condition expression for a list 
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>list.</code> <code>exists( item, conditionExpression )</code> trending_flat <code>bool</code></td>
+<td><code>list.</code> <code>exists( item, conditionExpression )</code> <code>bool</code></td>
 <td><p>Returns <code>true</code> if <code>conditionExpression</code> evaluates to <code>true</code> for <em>any</em> <code>item</code> in <code>list</code> .</p>
 <p>This macro is typically used for custom organization policies with the <code>actionType</code> <code>DENY</code> . For example, you can use this macro to ensure that an action is denied if <em>any</em> of the modified principals meet the condition.</p>
 <dl>
@@ -582,7 +582,7 @@ To create a custom constraint, do the following:
 
 1.  In the Google Cloud console, go to the **Organization policies** page.
 2.  From the project picker, select the project that you want to set the organization policy for.
-3.  Click add **Custom constraint** .
+3.  Click **Custom constraint** .
 4.  In the **Display name** box, enter a human-readable name for the constraint. This name is used in error messages and can be used for identification and debugging. Don't use personally identifiable information (PII) or sensitive data in display names because this name could be exposed in error messages. This field can contain up to 200 characters.
 5.  In the **Constraint ID** box, enter the ID that you want for your new custom constraint. A custom constraint can only contain letters (including upper and lowercase) or numbers, for example `custom.denyProjectIAMAdmin` . This field can contain up to 70 characters, not counting the prefix ( `custom.` ), for example, `organizations/123456789/customConstraints/custom` . Don't include PII or sensitive data in your constraint ID, because it could be exposed in error messages.
 6.  In the **Description** box, enter a human-readable description of the constraint. This description is used as an error message when the policy is violated. Include details about why the policy violation occurred and how to resolve the policy violation. Don't include PII or sensitive data in your description, because it could be exposed in error messages. This field can contain up to 2000 characters.
@@ -591,7 +591,7 @@ To create a custom constraint, do the following:
 
 To see supported methods for each service, find the service in [Services that support custom constraints](https://docs.cloud.google.com/organization-policy/reference/custom-constraint-supported-services) .
 
-1.  To define a condition, click edit **Edit condition** .
+1.  To define a condition, click **Edit condition** .
     1.  In the **Add condition** panel, create a CEL condition that refers to a supported service resource, for example, `resource.autopilot.enabled == false` . This field can contain up to 1,500 characters. For details about CEL usage, see [Common Expression Language](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints#common_expression_language) . For more information about the service resources you can use in your custom constraints, see [Custom constraint supported services](https://docs.cloud.google.com/resource-manager/docs/organization-policy/custom-constraint-supported-services) .
     2.  Click **Save** .
 2.  Under **Action** , select whether to allow or deny the evaluated method if the condition is met.

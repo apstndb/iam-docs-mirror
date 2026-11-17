@@ -6,52 +6,47 @@ description: Authenticate CI/CD deployment pipelines to {{dynamic_data.site_valu
 data_source: docs.cloud.google.com
 ---
 
-This guide describes how to use Workload Identity Federation to let deployment pipelines authenticate to Google Cloud.
+Workload Identity Federation lets your deployment pipelines authenticate to Google Cloud by using OpenID Connect (OIDC) tokens to obtain short-lived Google Cloud credentials. This approach helps you avoid the maintenance overhead and security risks of managing [service account keys](https://docs.cloud.google.com/iam/docs/service-account-creds#key-types) .
 
-Depending on the CI/CD system you're using, your deployment pipelines might have access to ambient, environment-specific credentials. For example:
-
-- Azure DevOps pipelines can use a [Microsoft Entra workload identity federation service connection](https://learn.microsoft.com/en-au/azure/devops/pipelines/library/connect-to-azure?view=azure-devops#create-an-azure-resource-manager-service-connection-that-uses-workload-identity-federation) to obtain an ID token that uniquely identifies the Azure DevOps project.
-- GitHub Actions workflows can obtain a [GitHub OIDC token](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect) that uniquely identifies the workflow and its repository.
-- GitLab SaaS lets CI/CD jobs access an [ID token](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html) that uniquely identifies the job and its project, environment, and repository.
-- HCP Terraform can provide an [OIDC token](https://developer.hashicorp.com/terraform/cloud-docs/dynamic-provider-credentials/workload-identity-tokens) to your Terraform configuration that uniquely identifies the workspace and environment.
-
-You can configure your deployment pipelines to use these credentials to authenticate to Google Cloud by using Workload Identity Federation. This approach eliminates the maintenance and security burden associated with [service account keys](https://docs.cloud.google.com/iam/docs/service-account-creds#key-types) .
+You can configure federation for continuous integration and continuous delivery (CI/CD) platforms such as [Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/pipelines/library/connect-to-azure#create-an-azure-resource-manager-service-connection-that-uses-workload-identity-federation) , [GitHub Actions](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect) , [GitLab SaaS](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html) , and [HCP Terraform](https://developer.hashicorp.com/terraform/cloud-docs/dynamic-provider-credentials/workload-identity-tokens) .
 
 ## Before you begin
 
-### Set up authentication
+1.  [Verify that you have the permissions required to complete this guide](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines#required-roles) .
 
-Select the tab for how you plan to use the samples on this page:
+2.  Set up authentication.
 
-### Console
+    Select the tab for how you plan to use the samples on this page:
 
-When you use the Google Cloud console to access Google Cloud services and APIs, you don't need to set up authentication.
+    ### Console
 
-### gcloud
+    When you use the Google Cloud console to access Google Cloud services and APIs, you don't need to set up authentication.
 
-In the Google Cloud console, activate Cloud Shell.
+    ### gcloud
 
-At the bottom of the Google Cloud console, a [Cloud Shell](https://docs.cloud.google.com/shell/docs/how-cloud-shell-works) session starts and displays a command-line prompt. Cloud Shell is a shell environment with the Google Cloud CLI already installed and with values already set for your current project. It can take a few seconds for the session to initialize.
+    In the Google Cloud console, activate Cloud Shell.
 
-### Python
+    At the bottom of the Google Cloud console, a [Cloud Shell](https://docs.cloud.google.com/shell/docs/how-cloud-shell-works) session starts and displays a command-line prompt. Cloud Shell is a shell environment with the Google Cloud CLI already installed and with values already set for your current project. It can take a few seconds for the session to initialize.
 
-To use the Python samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
+    ### Python
 
-1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
+    To use the Python samples on this page in a local development environment, install and initialize the gcloud CLI, and then set up Application Default Credentials with your user credentials.
 
-2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+    1.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI.
 
-3.  If you're using a local shell, then create local authentication credentials for your user account:
+    2.  If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
 
-    ```
-    gcloud auth application-default login
-    ```
+    3.  If you're using a local shell, then create local authentication credentials for your user account:
 
-    You don't need to do this if you're using Cloud Shell.
+        ```
+        gcloud auth application-default login
+        ```
 
-    If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+        You don't need to do this if you're using Cloud Shell.
 
-For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
+        If an authentication error is returned, and you are using an external identity provider (IdP), confirm that you have [signed in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+
+    For more information, see [Set up ADC for a local development environment](https://docs.cloud.google.com/docs/authentication/set-up-adc-local-dev-environment) in the Google Cloud authentication documentation.
 
 ### Required roles
 
@@ -470,9 +465,9 @@ To find the recommended attribute condition for your pipeline, see [Define an at
 
 1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-2.  Find the workload identity pool that contains the provider, and then click the arrow_right **Expand node** icon for the pool.
+2.  Find the workload identity pool that contains the provider, and then click the **Expand node** icon for the pool.
 
-3.  Find the workload identity pool provider that you want to edit and click edit **Edit** .
+3.  Find the workload identity pool provider that you want to edit and click **Edit** .
 
 4.  In **Attribute conditions** , enter the [attribute condition that you've identified previously](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines#mappings-and-conditions) .
 
@@ -517,7 +512,7 @@ To use the Google Cloud console to grant IAM roles directly on a resource, you m
 
 3.  Select the **Permissions** tab near the top of the page.
 
-4.  Click the *add_box* **Grant access** button.
+4.  Click the **Grant access** button.
 
     The **Add principals** dialog appears.
 

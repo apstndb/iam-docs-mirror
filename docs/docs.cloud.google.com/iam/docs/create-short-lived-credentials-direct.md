@@ -182,7 +182,7 @@ Grant the required role on `PRIV_SA` :
 
 4.  Click the **Permissions** tab.
 
-5.  Under **Principals with access to this service account** , click person_add **Grant Access** .
+5.  Under **Principals with access to this service account** , click **Grant Access** .
 
 6.  Enter the email address of the caller service account, `CALLER_SA` .
 
@@ -469,7 +469,7 @@ Grant the required role on `PRIV_SA` :
 
 4.  Click the **Permissions** tab.
 
-5.  Under **Principals with access to this service account** , click person_add **Grant Access** .
+5.  Under **Principals with access to this service account** , click **Grant Access** .
 
 6.  Enter the principal identifier of the caller account, `CALLER_ACCOUNT` .
 
@@ -1122,7 +1122,7 @@ Grant the required role on `PRIV_SA` :
 
 4.  Click the **Permissions** tab.
 
-5.  Under **Principals with access to this service account** , click person_add **Grant Access** .
+5.  Under **Principals with access to this service account** , click **Grant Access** .
 
 6.  Enter the email address of the caller service account, `CALLER_SA` .
 
@@ -1409,7 +1409,7 @@ Grant the required role on `PRIV_SA` :
 
 4.  Click the **Permissions** tab.
 
-5.  Under **Principals with access to this service account** , click person_add **Grant Access** .
+5.  Under **Principals with access to this service account** , click **Grant Access** .
 
 6.  Enter the principal identifier of the caller account, `CALLER_ACCOUNT` .
 
@@ -1796,7 +1796,7 @@ Grant the required role on `PRIV_SA` :
 
 4.  Click the **Permissions** tab.
 
-5.  Under **Principals with access to this service account** , click person_add **Grant Access** .
+5.  Under **Principals with access to this service account** , click **Grant Access** .
 
 6.  Enter the email address of the caller service account, `CALLER_SA` .
 
@@ -2083,7 +2083,7 @@ Grant the required role on `PRIV_SA` :
 
 4.  Click the **Permissions** tab.
 
-5.  Under **Principals with access to this service account** , click person_add **Grant Access** .
+5.  Under **Principals with access to this service account** , click **Grant Access** .
 
 6.  Enter the principal identifier of the caller account, `CALLER_ACCOUNT` .
 
@@ -2468,7 +2468,7 @@ Grant the required role on `PRIV_SA` :
 
 4.  Click the **Permissions** tab.
 
-5.  Under **Principals with access to this service account** , click person_add **Grant Access** .
+5.  Under **Principals with access to this service account** , click **Grant Access** .
 
 6.  Enter the email address of the caller service account, `CALLER_SA` .
 
@@ -2755,7 +2755,7 @@ Grant the required role on `PRIV_SA` :
 
 4.  Click the **Permissions** tab.
 
-5.  Under **Principals with access to this service account** , click person_add **Grant Access** .
+5.  Under **Principals with access to this service account** , click **Grant Access** .
 
 6.  Enter the principal identifier of the caller account, `CALLER_ACCOUNT` .
 

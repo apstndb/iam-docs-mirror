@@ -145,7 +145,7 @@ Edit a principal's permissions, then, instead of clicking **Save** , click **Tes
 
 2.  Create a proposed change to the allow policy by editing an existing principal's permissions:
 
-    1.  Locate the principal whose access you want to edit and click the **Edit** edit button on the right.
+    1.  Locate the principal whose access you want to edit and click the **Edit** button on the right.
     2.  Edit the principal's access by adding a new role, or by revoking or changing an existing role.
 
 3.  To simulate the proposed change, click **Test changes** .

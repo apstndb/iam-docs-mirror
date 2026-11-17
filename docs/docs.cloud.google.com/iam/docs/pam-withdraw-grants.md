@@ -20,7 +20,7 @@ Requesters can withdraw grant requests that are pending approval or are schedule
 
 3.  Click the **Grants** tab, followed by the **My grants** tab. This lists your grants with grant statuses and their associated entitlement details.
 
-4.  In the table, click more_vert **More options** for the grant that you want to withdraw, and click **Withdraw** .
+4.  In the table, click **More options** for the grant that you want to withdraw, and click **Withdraw** .
 
 5.  To confirm, click **Withdraw** again.
 

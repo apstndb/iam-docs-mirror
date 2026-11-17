@@ -2493,7 +2493,7 @@ You can delete any custom role in your project or organization.
 
 2.  Using the drop-down list at the top of the page, select the project or organization that contains the role that you want to delete.
 
-3.  Select the checkbox for the roles you want to delete and click *delete* **Delete** .
+3.  Select the checkbox for the roles you want to delete and click **Delete** .
 
 ### gcloud
 

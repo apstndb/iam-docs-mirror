@@ -16,7 +16,7 @@ data_source: docs.cloud.google.com
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/list#examples)
 - [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/list#try-it)
 
-Gemini Enterprise only. Lists all non-deleted \[WorkforcePoolProviderScimTokens\]\[\]s in a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) . If `showDeleted` is set to `true` , then deleted SCIM tokens are also listed.
+Gemini Enterprise and Looker only. Lists all non-deleted \[WorkforcePoolProviderScimTokens\]\[\]s in a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) . If `showDeleted` is set to `true` , then deleted SCIM tokens are also listed.
 
 ### HTTP request
 
@@ -26,17 +26,17 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-| Parameters |                                                                                                                                                                                         |
-|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `parent`   | `string` Required. Gemini Enterprise only. The parent to list SCIM tokens. Format: 'locations/{location}/workforcePools/{workforcePool}/providers/{provider}/scimTenants/{scim_tenant}' |
+| Parameters |                                                                                                                                                                                                    |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`   | `string` Required. Gemini Enterprise and Looker only. The parent to list SCIM tokens. Format: 'locations/{location}/workforcePools/{workforcePool}/providers/{provider}/scimTenants/{scim_tenant}' |
 
 ### Query parameters
 
-| Parameters    |                                                                                                                                                     |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| `pageSize`    | `integer` Optional. Gemini Enterprise only. The maximum number of SCIM tokens to return. If unspecified, at most 2 SCIM tokens will be returned.    |
-| `pageToken`   | `string` Optional. Gemini Enterprise only. A page token, received from a previous `tokens.list` call. Provide this to retrieve the subsequent page. |
-| `showDeleted` | `boolean` Optional. Gemini Enterprise only. Whether to return soft-deleted SCIM tokens.                                                             |
+| Parameters    |                                                                                                                                                                |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `pageSize`    | `integer` Optional. Gemini Enterprise and Looker only. The maximum number of SCIM tokens to return. If unspecified, at most 2 SCIM tokens will be returned.    |
+| `pageToken`   | `string` Optional. Gemini Enterprise and Looker only. A page token, received from a previous `tokens.list` call. Provide this to retrieve the subsequent page. |
+| `showDeleted` | `boolean` Optional. Gemini Enterprise and Looker only. Whether to return soft-deleted SCIM tokens.                                                             |
 
 ### Request body
 
@@ -44,7 +44,7 @@ The request body must be empty.
 
 ### Response body
 
-Gemini Enterprise only. Response message for tokens.list.
+Gemini Enterprise and Looker only. Response message for tokens.list.
 
 If successful, the response body contains data with the following structure:
 
@@ -61,10 +61,10 @@ If successful, the response body contains data with the following structure:
 }
 ```
 
-| Fields                              |                                                                                                                                                                                                                                                              |
-|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `workforcePoolProviderScimTokens[]` | `object ( `[`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens#WorkforcePoolProviderScimToken)` )` Output only. Gemini Enterprise only. A list of SCIM tokens. |
-| `nextPageToken`                     | `string` Optional. Gemini Enterprise only. A token, which can be sent as `pageToken` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                                                                     |
+| Fields                              |                                                                                                                                                                                                                                                                         |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `workforcePoolProviderScimTokens[]` | `object ( `[`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens#WorkforcePoolProviderScimToken)` )` Output only. Gemini Enterprise and Looker only. A list of SCIM tokens. |
+| `nextPageToken`                     | `string` Optional. Gemini Enterprise and Looker only. A token, which can be sent as `pageToken` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                                                                     |
 
 ### Authorization scopes
 

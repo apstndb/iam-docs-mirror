@@ -25,15 +25,15 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-| Parameters |                                                                                                                                                                                                                                                                                                                                                                                       |
-|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name`     | `string` Required. The name of the access policy. Format: `organizations/{organizationId}/locations/{location}/accessPolicies/{accessPolicyId}` `folders/{folderId}/locations/{location}/accessPolicies/{accessPolicyId}` `projects/{projectId}/locations/{location}/accessPolicies/{accessPolicyId}` `projects/{projectNumber}/locations/{location}/accessPolicies/{accessPolicyId}` |
+| Parameters |                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`     | `string` Required. The name of the Unified Access Policy. Format: \* `organizations/{organizationId}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `folders/{folderId}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `projects/{projectId}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `projects/{projectNumber}/locations/{location}/accessPolicies/{unified_access_policy_id}` |
 
 ### Query parameters
 
 | Parameters  |                                                                                                                                                                                                                                                                                           |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `pageSize`  | `integer` Optional. The maximum number of policy bindings to return. The service may return fewer than this value. If unspecified, at most 50 policy bindings will be returned. The maximum value is 1000; values above 1000 will be coerced to 1000.                                     |
+| `pageSize`  | `integer` Optional. The maximum number of Unified Access Policy bindings to return. The service might return a smaller number of bindings. If unspecified, at most 50 bindings are returned. The maximum value is 1000; values above 1000 are reduced to 1000.                            |
 | `pageToken` | `string` Optional. A page token, received from a previous `SearchAccessPolicyBindingsRequest` call. Provide this to retrieve the subsequent page. When paginating, all other parameters provided to `SearchAccessPolicyBindingsRequest` must match the call that provided the page token. |
 
 ### Request body
@@ -46,8 +46,9 @@ If successful, the response body contains an instance of [`SearchAccessPolicyBin
 
 ### Authorization scopes
 
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .

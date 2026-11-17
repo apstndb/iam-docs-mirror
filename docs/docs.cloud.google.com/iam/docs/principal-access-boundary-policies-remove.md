@@ -149,7 +149,7 @@ You can delete a policy binding using the Google Cloud console, the gcloud CLI, 
 
 4.  Click the **Bindings** tab.
 
-5.  Find the ID of the binding that you want to delete. In that binding's row, click more_vert **Actions** , then click **Delete binding** .
+5.  Find the ID of the binding that you want to delete. In that binding's row, click **Actions** , then click **Delete binding** .
 
 6.  In the confirmation dialog, click **Delete** .
 
@@ -161,7 +161,7 @@ Before using any of the command data below, make the following replacements:
 
 - `BINDING_ID` : The ID of the policy binding that you want to delete—for example, `example-binding` .
 
-- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization`
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization` .
 
   The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
@@ -204,7 +204,7 @@ The [`policyBindings.delete`](https://docs.cloud.google.com/iam/docs/reference/r
 
 Before using any of the request data, make the following replacements:
 
-- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations`
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations` .
 
   The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
@@ -281,7 +281,7 @@ You can delete a Principal Access Boundary policy using the Google Cloud console
 
 2.  Select the organization that owns the Principal Access Boundary policy that you want to delete.
 
-3.  Find the ID of the policy that you want to delete. In that policy's row, click more_vert **Actions** , then click **Delete policy** .
+3.  Find the ID of the policy that you want to delete. In that policy's row, click **Actions** , then click **Delete policy** .
 
 4.  In the confirmation dialog, confirm that you want to delete the policy:
 

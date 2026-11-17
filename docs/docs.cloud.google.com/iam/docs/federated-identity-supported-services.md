@@ -2318,7 +2318,7 @@ The limitations table is organized in the following way:
 <td><ul>
 <li>In the Applications tab, the <strong>Method</strong> column is disabled, and users cannot use external identities for authorization.</li>
 <li>In the Applications tab, App Engine resources cannot be listed.</li>
-<li>The <strong>Go to OAuth configuration</strong> item in the <em>more_vert</em> action menu isn't available.</li>
+<li>The <strong>Go to OAuth configuration</strong> item in the action menu isn't available.</li>
 <li>In the <strong>Applications</strong> tab, on-premises connectors cannot be added or listed.</li>
 </ul></td>
 </tr>

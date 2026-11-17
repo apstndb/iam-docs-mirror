@@ -6,11 +6,11 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This page shows examples of the audit logs that are generated when you use [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) . With Workforce Identity Federation, you can allow third-party identities to access Google Cloud resources, without using a service account key.
-
-> **Note:** Each example shows only the most relevant fields in the log entries.
+[Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) lets you grant third-party identities access to Google Cloud resources without using a service account key. When you use Workforce Identity Federation, you can review the generated audit logs to monitor workforce pool management, token exchanges, federated sign-in events, and Google Cloud API calls. Each example shows only the most relevant fields in the log entries.
 
 For more information about enabling and viewing audit logs, see [IAM audit logging](https://docs.cloud.google.com/iam/docs/audit-logging) .
+
+## Audit log configuration
 
 IAM can generate audit logs when you create and manage workforce pools. To enable audit logs when managing workforce pools, you must [enable audit logs for Data Access activity](https://docs.cloud.google.com/iam/docs/audit-logging#enabling_audit_logging) for the following API:
 

@@ -45,7 +45,7 @@ To view the usage metrics for your service accounts or service account keys, fol
 
 To view the metrics for a monitored resource by using the Metrics Explorer, do the following:
 
-1.  In the Google Cloud console, go to the *leaderboard* **Metrics explorer** page:
+1.  In the Google Cloud console, go to the **Metrics explorer** page:
 
     If you use the search bar to find this page, then select the result whose subheading is **Monitoring** .
 
@@ -144,7 +144,7 @@ To view usage metrics for a single service account, follow these steps:
 
 4.  Click the **Metrics** tab. The **Authentication traffic** chart shows the usage metrics for the service account.
 
-5.  Optional: To view the chart on the **Metrics explorer** page, which offers additional filtering and viewing options, click more_vert \> **View in Metrics Explorer** .
+5.  Optional: To view the chart on the **Metrics explorer** page, which offers additional filtering and viewing options, click \> **View in Metrics Explorer** .
 
 ### REST
 
@@ -220,7 +220,7 @@ To view usage metrics for a single service account key, follow these steps:
 
 5.  In the chart legend, click the ID of the service account key that you want to view usage metrics for. The chart updates to show metrics for only that service account key.
 
-6.  Optional: To view the chart on the **Metrics explorer** page, which offers additional filtering and viewing options, click more_vert \> **View in Metrics Explorer** .
+6.  Optional: To view the chart on the **Metrics explorer** page, which offers additional filtering and viewing options, click \> **View in Metrics Explorer** .
 
 ### REST
 

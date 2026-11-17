@@ -6,9 +6,7 @@ description: Example audit logs for Workload Identity Federation {{dynamic_data.
 data_source: docs.cloud.google.com
 ---
 
-This page shows examples of the audit logs that are generated when you use [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) . With Workload Identity Federation, you can allow an on-premises or multicloud workload to access Google Cloud resources, without using a service account key.
-
-> **Note:** Each example shows only the most relevant fields in the log entries.
+[Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) lets you grant on-premises or multicloud workloads access to Google Cloud resources without using a service account key. When you use Workload Identity Federation, you can review the generated audit logs to monitor token exchanges, short-lived service account credential creation, and impersonated API requests. Each example shows only the most relevant fields in the log entries.
 
 For more information about enabling and viewing audit logs, see [IAM audit logging](https://docs.cloud.google.com/iam/docs/audit-logging) .
 

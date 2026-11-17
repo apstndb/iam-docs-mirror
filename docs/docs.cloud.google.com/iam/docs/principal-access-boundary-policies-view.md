@@ -813,7 +813,7 @@ The [`gcloud iam policy-bindings list`](https://docs.cloud.google.com/sdk/gcloud
 
 Before using any of the command data below, make the following replacements:
 
-- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization`
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization` .
 
   The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
@@ -893,7 +893,7 @@ The [`policyBindings.list`](https://docs.cloud.google.com/iam/docs/reference/res
 
 Before using any of the request data, make the following replacements:
 
-- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations`
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations` .
 
   The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
@@ -986,7 +986,7 @@ Before using any of the command data below, make the following replacements:
 
 - `BINDING_ID` : The ID of the policy binding that you want to get—for example, `example-binding` .
 
-- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization`
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `project` , `folder` , or `organization` .
 
   The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
@@ -1045,7 +1045,7 @@ The [`policyBindings.get`](https://docs.cloud.google.com/iam/docs/reference/rest
 
 Before using any of the request data, make the following replacements:
 
-- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations`
+- `RESOURCE_TYPE` : The type of the Resource Manager resource (project, folder, or organization) that the policy binding is a child of. Use the value `projects` , `folders` , or `organizations` .
 
   The resource type depends on the principal set in the policy binding. To see which resource type to use, see [Supported principal types](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 

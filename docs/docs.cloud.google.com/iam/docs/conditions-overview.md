@@ -15,6 +15,7 @@ You can use conditions in the following places:
 - Allow policy role bindings, including role bindings managed by Privileged Access Manager entitlements
 - Deny policy rules
 - Policy bindings for Principal Access Boundary policies
+- Unified Access Policy (UAP) rules
 
 The following sections describe how you can use conditions in each of these places to enforce attribute-based access control.
 
@@ -98,6 +99,82 @@ To add a condition to a deny rule, you define the `denialCondition` field:
 To learn more about the fields in a condition, see [Condition structure](https://docs.cloud.google.com/iam/docs/conditions-overview#structure) on this page.
 
 To learn how to create and manage deny policies, see [Deny access](https://docs.cloud.google.com/iam/docs/deny-access) .
+
+### Conditions in Unified Access Policies
+
+> **Preview — Unified Access Policies (UAPs)**
+>
+> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
+
+You can use conditions in UAPs to control when a certain rule applies. If the expression in the condition evaluates to `true` for a specific request, then the rule applies for that request. If the expression evaluates to `false` , then the rule doesn't apply for the request.
+
+Conditions in UAPs are similar to conditions in allow and deny policies, with a few critical differences:
+
+- For allow and deny policies, IAM provides all supported condition attributes and functions. By contrast, for UAPs, each service can provide its own condition attributes and functions.
+- In UAPs, you can add multiple conditions to a single rule.
+
+To add a condition to a UAP rule, you add an item to the `conditions` field:
+
+```
+"rules": [
+  {
+    "principals": [
+      INCLUDED_PRINCIPALS
+    ],
+    "excludedPrincipals": [
+      EXCLUDED_PRINCIPALS
+    ],
+    "operation": {
+      "permissions": [
+        INCLUDED_PERMISSIONS
+      ],
+      "excludedPermissions": [
+        EXCLUDED_PERMISSIONS
+      ]
+    },
+    "conditions": {
+      CONDITION
+    },
+    "description": "DESCRIPTION",
+    "effect": "EFFECT"
+  }
+]
+```
+
+When writing a condition, you always preface the condition with the name of the service whose attributes and functions you're using. You can add multiple conditions to a rule, but a single condition can't mix attributes from different services.
+
+For example, if you're adding a condition that uses an attribute provided by IAM, you preface the condition with `iam.googleapis.com` :
+
+```
+"conditions": {
+  "iam.googleapis.com": {
+    "title": "CONDITION_TITLE",
+    "description": "CONDITION_DESCRIPTION",
+    "expression": "CONDITION_EXPRESSION"
+  }
+}
+```
+
+If you want to add an attribute provided by Eventarc, you need to add a second condition:
+
+```
+"conditions": {
+  "iam.googleapis.com": {
+    "title": "CONDITION_TITLE",
+    "description": "CONDITION_DESCRIPTION",
+    "expression": "CONDITION_EXPRESSION"
+  },
+  "eventarc.googleapis.com": {
+    "title": "CONDITION_TITLE",
+    "description": "CONDITION_DESCRIPTION",
+    "expression": "CONDITION_EXPRESSION"
+  }
+}
+```
+
+To see the condition attributes and functions that UAPs support, see [the UAP documentation](https://docs.cloud.google.com/iam/docs/unified-access-policies#conditions) .
+
+Certain attributes must always be paired with certain permissions. For more information, see [Applicable permissions for condition attributes](https://docs.cloud.google.com/iam/docs/unified-access-policies#attributes-applicable-permissions) .
 
 ### Conditions in Principal Access Boundary policy bindings
 

@@ -143,7 +143,7 @@ To update a specific workforce pool using the Google Cloud console, do the follo
 
 2.  In the table, select the pool.
 
-3.  Click edit **Edit** , update the pool parameters, and then click **Save** .
+3.  Click **Edit** , update the pool parameters, and then click **Save** .
 
 ### Delete a pool
 
@@ -164,7 +164,7 @@ To delete a specific workforce pool using the Google Cloud console, do the follo
 
 1.  In the Google Cloud console, go to the **Workforce Identity Pools** page:
 
-2.  In **Workforce pools** , click more_vert **Delete** on the pool that you want to delete.
+2.  In **Workforce pools** , click **Delete** on the pool that you want to delete.
 
 3.  Follow additional instructions.
 
@@ -331,7 +331,7 @@ In the command response, ` POOL_RESOURCE_NAME ` is the name of the pool; for exa
 
 2.  In the **Workforce Identity Pools** table, select the pool for which you want to create the provider.
 
-3.  In the **Providers** section, click **add Add Provider** .
+3.  In the **Providers** section, click **Add Provider** .
 
 4.  In the **Select a Provider vendor** list, select your IdP.
 
@@ -395,7 +395,7 @@ To configure attribute mappings and conditions, do the following:
 
 2.  In the **Workforce Identity Pools** table, select the pool for which you want to create the provider.
 
-3.  In the **Providers** section, click **add Add Provider** .
+3.  In the **Providers** section, click **Add Provider** .
 
 4.  In the **Select a Provider vendor** list, select your IdP.
 
@@ -504,7 +504,7 @@ To configure the SAML provider using the Google Cloud console, do the following:
 
 2.  In the **Workforce Identity Pools** table, select the pool for which you want to create the provider.
 
-3.  In the **Providers** section, click **add Add Provider** .
+3.  In the **Providers** section, click **Add Provider** .
 
 4.  In the **Select a Provider vendor** list, select your IdP.
 
@@ -646,7 +646,7 @@ To update a provider, do the following:
 
 2.  In the table, select the pool for which you want to update the provider.
 
-3.  In the **Providers** table, click more_vert **Edit provider** next to the provider that you want to update.
+3.  In the **Providers** table, click **Edit provider** next to the provider that you want to update.
 
 4.  Update the provider's display name, description, status, or OIDC settings such as **Issuer (URL)** , **Client ID** , **Response type** , or the client secret (by clicking **Edit client secret** ), and then click **Save** .
 
@@ -693,7 +693,7 @@ To delete a provider, do the following:
 
 2.  In the table, select the pool that contains the provider that you want to delete.
 
-3.  In the **Providers** table, click more_vert **Delete provider** next to the provider that you want to delete, and then follow the confirmation prompts.
+3.  In the **Providers** table, click **Delete provider** next to the provider that you want to delete, and then follow the confirmation prompts.
 
 ### Undelete a provider
 

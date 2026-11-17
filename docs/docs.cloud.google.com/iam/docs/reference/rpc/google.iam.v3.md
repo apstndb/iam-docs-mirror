@@ -11,12 +11,22 @@ data_source: docs.cloud.google.com
 - [`AccessPolicies`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicies) (interface)
 - [`PolicyBindings`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.PolicyBindings) (interface)
 - [`PrincipalAccessBoundaryPolicies`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.PrincipalAccessBoundaryPolicies) (interface)
+- [`AccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicy) (message)
+- [`AccessPolicyDetails`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicyDetails) (message)
+- [`AccessPolicyRule`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicyRule) (message)
+- [`AccessPolicyRule.Effect`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicyRule.Effect) (enum)
+- [`AccessPolicyRule.Operation`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicyRule.Operation) (message)
+- [`CreateAccessPolicyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.CreateAccessPolicyRequest) (message)
 - [`CreatePolicyBindingRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.CreatePolicyBindingRequest) (message)
 - [`CreatePrincipalAccessBoundaryPolicyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.CreatePrincipalAccessBoundaryPolicyRequest) (message)
+- [`DeleteAccessPolicyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.DeleteAccessPolicyRequest) (message)
 - [`DeletePolicyBindingRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.DeletePolicyBindingRequest) (message)
 - [`DeletePrincipalAccessBoundaryPolicyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.DeletePrincipalAccessBoundaryPolicyRequest) (message)
+- [`GetAccessPolicyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.GetAccessPolicyRequest) (message)
 - [`GetPolicyBindingRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.GetPolicyBindingRequest) (message)
 - [`GetPrincipalAccessBoundaryPolicyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.GetPrincipalAccessBoundaryPolicyRequest) (message)
+- [`ListAccessPoliciesRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.ListAccessPoliciesRequest) (message)
+- [`ListAccessPoliciesResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.ListAccessPoliciesResponse) (message)
 - [`ListPolicyBindingsRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.ListPolicyBindingsRequest) (message)
 - [`ListPolicyBindingsResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.ListPolicyBindingsResponse) (message)
 - [`ListPrincipalAccessBoundaryPoliciesRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.ListPrincipalAccessBoundaryPoliciesRequest) (message)
@@ -29,16 +39,103 @@ data_source: docs.cloud.google.com
 - [`PrincipalAccessBoundaryPolicyDetails`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.PrincipalAccessBoundaryPolicyDetails) (message)
 - [`PrincipalAccessBoundaryPolicyRule`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.PrincipalAccessBoundaryPolicyRule) (message)
 - [`PrincipalAccessBoundaryPolicyRule.Effect`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.PrincipalAccessBoundaryPolicyRule.Effect) (enum)
+- [`SearchAccessPolicyBindingsRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.SearchAccessPolicyBindingsRequest) (message)
+- [`SearchAccessPolicyBindingsResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.SearchAccessPolicyBindingsResponse) (message)
 - [`SearchPrincipalAccessBoundaryPolicyBindingsRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.SearchPrincipalAccessBoundaryPolicyBindingsRequest) (message)
 - [`SearchPrincipalAccessBoundaryPolicyBindingsResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.SearchPrincipalAccessBoundaryPolicyBindingsResponse) (message)
 - [`SearchTargetPolicyBindingsRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.SearchTargetPolicyBindingsRequest) (message)
 - [`SearchTargetPolicyBindingsResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.SearchTargetPolicyBindingsResponse) (message)
+- [`UpdateAccessPolicyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.UpdateAccessPolicyRequest) (message)
 - [`UpdatePolicyBindingRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.UpdatePolicyBindingRequest) (message)
 - [`UpdatePrincipalAccessBoundaryPolicyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.UpdatePrincipalAccessBoundaryPolicyRequest) (message)
 
 ## AccessPolicies
 
-Manages Identity and Access Management (IAM) access policies.
+Manages Identity and Access Management (IAM) Unified Access Policies.
+
+**CreateAccessPolicy**
+
+`rpc CreateAccessPolicy( `[`CreateAccessPolicyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.CreateAccessPolicyRequest)` ) returns ( `[`Operation`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.longrunning#google.longrunning.Operation)` )`
+
+Creates a Unified Access Policy, and returns a long running operation.
+
+Authorization scopes  
+Requires one of the following OAuth scopes:
+
+- `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
+
+For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
+
+**DeleteAccessPolicy**
+
+`rpc DeleteAccessPolicy( `[`DeleteAccessPolicyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.DeleteAccessPolicyRequest)` ) returns ( `[`Operation`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.longrunning#google.longrunning.Operation)` )`
+
+Deletes a Unified Access Policy.
+
+Authorization scopes  
+Requires one of the following OAuth scopes:
+
+- `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
+
+For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
+
+**GetAccessPolicy**
+
+`rpc GetAccessPolicy( `[`GetAccessPolicyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.GetAccessPolicyRequest)` ) returns ( `[`AccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicy)` )`
+
+Gets a Unified Access Policy.
+
+Authorization scopes  
+Requires one of the following OAuth scopes:
+
+- `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
+
+For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
+
+**ListAccessPolicies**
+
+`rpc ListAccessPolicies( `[`ListAccessPoliciesRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.ListAccessPoliciesRequest)` ) returns ( `[`ListAccessPoliciesResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.ListAccessPoliciesResponse)` )`
+
+Lists Unified Access Policies.
+
+Authorization scopes  
+Requires one of the following OAuth scopes:
+
+- `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
+
+For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
+
+**SearchAccessPolicyBindings**
+
+`rpc SearchAccessPolicyBindings( `[`SearchAccessPolicyBindingsRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.SearchAccessPolicyBindingsRequest)` ) returns ( `[`SearchAccessPolicyBindingsResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.SearchAccessPolicyBindingsResponse)` )`
+
+Returns all policy bindings that bind a specific policy if a user has searchPolicyBindings permission on that policy.
+
+Authorization scopes  
+Requires one of the following OAuth scopes:
+
+- `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
+
+For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
+
+**UpdateAccessPolicy**
+
+`rpc UpdateAccessPolicy( `[`UpdateAccessPolicyRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.UpdateAccessPolicyRequest)` ) returns ( `[`Operation`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.longrunning#google.longrunning.Operation)` )`
+
+Updates a Unified Access Policy.
+
+Authorization scopes  
+Requires one of the following OAuth scopes:
+
+- `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
+
+For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
 ## PolicyBindings
 
@@ -51,9 +148,10 @@ An interface for managing Identity and Access Management (IAM) policy bindings.
 Creates a policy binding and returns a long-running operation. Callers will need the IAM permissions on both the policy and target. After the binding is created, the policy is applied to the target.
 
 Authorization scopes  
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -64,9 +162,10 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 Deletes a policy binding and returns a long-running operation. Callers will need the IAM permissions on both the policy and target. After the binding is deleted, the policy no longer applies to the target.
 
 Authorization scopes  
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -77,9 +176,10 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 Gets a policy binding.
 
 Authorization scopes  
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -99,9 +199,10 @@ For more information, see the [IAM documentation](https://cloud.google.com/iam/d
 Lists policy bindings.
 
 Authorization scopes  
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -121,9 +222,10 @@ For more information, see the [IAM documentation](https://cloud.google.com/iam/d
 Search policy bindings by target. Returns all policy binding objects bound directly to target.
 
 Authorization scopes  
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -134,9 +236,10 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 Updates a policy binding and returns a long-running operation. Callers will need the IAM permissions on the policy and target in the binding to update. Target and policy are immutable and cannot be updated.
 
 Authorization scopes  
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -151,9 +254,10 @@ Manages Identity and Access Management (IAM) principal access boundary policies.
 Creates a principal access boundary policy, and returns a long running operation.
 
 Authorization scopes  
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -173,9 +277,10 @@ For more information, see the [IAM documentation](https://cloud.google.com/iam/d
 Deletes a principal access boundary policy.
 
 Authorization scopes  
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -195,9 +300,10 @@ For more information, see the [IAM documentation](https://cloud.google.com/iam/d
 Gets a principal access boundary policy.
 
 Authorization scopes  
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -217,9 +323,10 @@ For more information, see the [IAM documentation](https://cloud.google.com/iam/d
 Lists principal access boundary policies.
 
 Authorization scopes  
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -239,9 +346,10 @@ For more information, see the [IAM documentation](https://cloud.google.com/iam/d
 Returns all policy bindings that bind a specific policy if a user has searchPolicyBindings permission on that policy.
 
 Authorization scopes  
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -261,9 +369,10 @@ For more information, see the [IAM documentation](https://cloud.google.com/iam/d
 Updates a principal access boundary policy.
 
 Authorization scopes  
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 
@@ -275,6 +384,223 @@ Requires the following [IAM](https://cloud.google.com/iam/docs) permission on th
 - `iam.principalaccessboundarypolicies.update`
 
 For more information, see the [IAM documentation](https://cloud.google.com/iam/docs) .
+
+## AccessPolicy
+
+An IAM Unified Access Policy resource.
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fields</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>name</code></td>
+<td><p><code>string</code></p>
+<p>Identifier. The resource name of the Unified Access Policy.</p>
+<p>The following formats are supported:</p>
+<ul>
+<li><code>projects/{project_id}/locations/{location}/accessPolicies/{unified_access_policy_id}</code></li>
+<li><code>projects/{project_number}/locations/{location}/accessPolicies/{unified_access_policy_id}</code></li>
+<li><code>folders/{folder_id}/locations/{location}/accessPolicies/{unified_access_policy_id}</code></li>
+<li><code>organizations/{organization_id}/locations/{location}/accessPolicies/{unified_access_policy_id}</code></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><code>uid</code></td>
+<td><p><code>string</code></p>
+<p>Output only. The globally unique ID of the Unified Access Policy.</p></td>
+</tr>
+<tr class="odd">
+<td><code>etag</code></td>
+<td><p><code>string</code></p>
+<p>Optional. The etag for the Unified Access Policy. If this is provided on update, it must match the server's etag.</p></td>
+</tr>
+<tr class="even">
+<td><code>display_name</code></td>
+<td><p><code>string</code></p>
+<p>Optional. The description of the Unified Access Policy. This description can be a maximum of 63 characters.</p></td>
+</tr>
+<tr class="odd">
+<td><code>annotations</code></td>
+<td><p><code>map&lt;string, string&gt;</code></p>
+<p>Optional. User-defined annotations. See <a href="https://google.aip.dev/148#annotations">https://google.aip.dev/148#annotations</a> for more details such as format and size limitations.</p></td>
+</tr>
+<tr class="even">
+<td><code>create_time</code></td>
+<td><p><a href="https://protobuf.dev/reference/protobuf/google.protobuf/#timestamp"><code>Timestamp</code></a></p>
+<p>Output only. The time when the Unified Access Policy was created.</p></td>
+</tr>
+<tr class="odd">
+<td><code>update_time</code></td>
+<td><p><a href="https://protobuf.dev/reference/protobuf/google.protobuf/#timestamp"><code>Timestamp</code></a></p>
+<p>Output only. The time when the Unified Access Policy was most recently updated.</p></td>
+</tr>
+<tr class="even">
+<td><code>details</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicyDetails"><code>AccessPolicyDetails</code></a></p>
+<p>Optional. The details for the Unified Access Policy.</p></td>
+</tr>
+</tbody>
+</table>
+
+## AccessPolicyDetails
+
+Unified Access Policy details.
+
+| Fields    |                                                                                                                                                                          |
+|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `rules[]` | [`AccessPolicyRule`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicyRule) Required. A list of Unified Access Policy rules. |
+
+## AccessPolicyRule
+
+Unified Access Policy rule that determines the behavior of the policy.
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fields</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>principals[]</code></td>
+<td><p><code>string</code></p>
+<p>Required. The principals to include in the rule. This field can contain the following values:</p>
+<ul>
+<li><p><code>principal://goog/subject/{email_id}</code> : A specific Google Account. Includes Gmail, Cloud Identity, and Google Workspace user accounts. For example, <code>principal://goog/subject/alice@example.com</code> .</p></li>
+<li><p><code>principal://iam.googleapis.com/projects/-/serviceAccounts/{service_account_id}</code> : A Google Cloud service account. For example, <code>principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@iam.gserviceaccount.com</code> .</p></li>
+<li><p><code>principalSet://goog/group/{group_id}</code> : A Google group. For example, <code>principalSet://goog/group/admins@example.com</code> .</p></li>
+<li><p><code>principalSet://goog/cloudIdentityCustomerId/{customer_id}</code> : All of the principals associated with the specified Google Workspace or Cloud Identity customer ID. For example, <code>principalSet://goog/cloudIdentityCustomerId/C01Abc35</code> .</p></li>
+<li><p><code>principalSet://goog/public:all</code> : A special identifier that represents any principal that is on the internet, even if they do not have a Google Account or are not logged in. This value is only supported in rules with the <code>DENY</code> effect.</p></li>
+<li><p><code>principal://iam.googleapis.com/locations/global/workforcePools/{pool_id}/subject/{subject_attribute_value}</code> : A single identity in a workforce identity pool.</p></li>
+<li><p><code>principalSet://iam.googleapis.com/locations/global/workforcePools/{pool_id}/group/{group_id}</code> : All workforce identities in a group.</p></li>
+<li><p><code>principalSet://iam.googleapis.com/locations/global/workforcePools/{pool_id}/attribute.{attribute_name}/{attribute_value}</code> : All workforce identities with a specific attribute value.</p></li>
+<li><p><code>principalSet://iam.googleapis.com/locations/global/workforcePools/{pool_id}/*</code> : All identities in a workforce identity pool.</p></li>
+<li><p><code>principal://iam.googleapis.com/projects/{project_number}/locations/global/workloadIdentityPools/{pool_id}/subject/{subject_attribute_value}</code> : A single identity in a workload identity pool.</p></li>
+<li><p><code>principalSet://iam.googleapis.com/projects/{project_number}/locations/global/workloadIdentityPools/{pool_id}/group/{group_id}</code> : A workload identity pool group.</p></li>
+<li><p><code>principalSet://iam.googleapis.com/projects/{project_number}/locations/global/workloadIdentityPools/{pool_id}/attribute.{attribute_name}/{attribute_value}</code> : All identities in a workload identity pool with a certain attribute.</p></li>
+<li><p><code>principalSet://iam.googleapis.com/projects/{project_number}/locations/global/workloadIdentityPools/{pool_id}/*</code> : All identities in a workload identity pool.</p></li>
+<li><p><code>principal://{trust_domain}/{agent_resource_path}/{agent_id}</code> : A single, specific agent identity.</p></li>
+<li><p><code>principalSet://{trust_domain}/*</code> : All agent identities that belong to a particular trust domain.</p></li>
+<li><p><code>principalSet://{trust_domain}/attribute.{attribute_name}/{attribute_value}</code> : All agents with a particular attribute.</p></li>
+</ul>
+<p>If an identifier that was previously used in a rule is soft deleted, then a <code>deleted</code> prefix is automatically added to the identifier. Users can't add new identifiers with this syntax.</p>
+<ul>
+<li><p><code>deleted:principal://goog/subject/{email_id}?uid={uid}</code> : A specific Google Account that was deleted recently. For example, <code>deleted:principal://goog/subject/alice@example.com?uid=1234567890</code> . If the Google Account is recovered, this identifier reverts to the standard identifier for a Google Account.</p></li>
+<li><p><code>deleted:principalSet://goog/group/{group_id}?uid={uid}</code> : A Google group that was deleted recently. For example, <code>deleted:principalSet://goog/group/admins@example.com?uid=1234567890</code> . If the Google group is restored, this identifier reverts to the standard identifier for a Google group.</p></li>
+<li><p><code>deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/{service_account_id}?uid={uid}</code> : A Google Cloud service account that was deleted recently. For example, <code>deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@iam.gserviceaccount.com?uid=1234567890</code> . If the service account is undeleted, this identifier reverts to the standard identifier for a service account.</p></li>
+<li><p><code>deleted:principal://iam.googleapis.com/locations/global/workforcePools/{pool_id}/subject/{subject_attribute_value}</code> : A workforce identity that was deleted recently. For example, <code>deleted:principal://iam.googleapis.com/locations/global/workforcePools/my-pool-id/subject/my-subject-attribute-value</code> . If the workforce identity is undeleted, this identifier reverts to the standard identifier for a workforce identity.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><code>excluded_principals[]</code></td>
+<td><p><code>string</code></p>
+<p>Optional. The principals to exclude from the rule, even if they are listed in the <code>principals</code> . For example, you could add a Google group to the <code>principals</code> , then exclude specific users who belong to that group.</p></td>
+</tr>
+<tr class="odd">
+<td><code>operation</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicyRule.Operation"><code>Operation</code></a></p>
+<p>Required. Attributes that are used to determine whether this rule applies to a request.</p></td>
+</tr>
+<tr class="even">
+<td><code>conditions</code></td>
+<td><p><code>map&lt;string, </code><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.type#google.type.Expr"><code>Expr</code></a><code> &gt;</code></p>
+<p>Optional. The conditions that determine whether this rule applies to a request. Conditions are identified by their key, which is the FQDN of the service that they are relevant to. For example:</p>
+<pre data-fenced=""><code>&quot;conditions&quot;: {
+ &quot;iam.googleapis.com&quot;: {
+  &quot;expression&quot;: {cel_expression}
+ }
+}</code></pre>
+<p>Each rule is evaluated independently. If this rule does not apply to a request, other rules might still apply. The following keys are supported:</p>
+<ul>
+<li><p><code>eventarc.googleapis.com</code> : Can use <code>CEL</code> functions that evaluate resource fields.</p></li>
+<li><p><code>iam.googleapis.com</code> : Can use <code>CEL</code> functions that evaluate <a href="https://cloud.google.com/iam/help/conditions/resource-tags">resource tags</a> and combine them using boolean and logical operators. Other functions and operators are not supported.</p></li>
+<li><p><code>iap.googleapis.com</code> : Can use <code>CEL</code> functions and <a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/policies/cel-attributes-uap">attributes</a> that evaluate destination resources for requests that use the <code>iap.googleapis.com/resources.egressViaIAP</code> permission.</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>description</code></td>
+<td><p><code>string</code></p>
+<p>Optional. Customer-specified description of the rule. This description can be a maximum of 256 characters.</p></td>
+</tr>
+<tr class="even">
+<td><code>effect</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicyRule.Effect"><code>Effect</code></a></p>
+<p>Required. The effect of the rule.</p></td>
+</tr>
+</tbody>
+</table>
+
+## Effect
+
+An effect to describe how the rule affects access.
+
+| Enums                |                                                     |
+|----------------------|-----------------------------------------------------|
+| `EFFECT_UNSPECIFIED` | The effect is unspecified.                          |
+| `DENY`               | The rule will deny access if it evaluates to true.  |
+| `ALLOW`              | The rule will grant access if it evaluates to true. |
+
+## Operation
+
+Attributes that are used to determine whether this rule applies to a request.
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fields</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>permissions[]</code></td>
+<td><p><code>string</code></p>
+<p>Optional. The permissions to include in the rule. Rules with the <code>ALLOW</code> effect grant the specified permissions. Rules with the <code>DENY</code> effect deny the specified permissions.</p>
+<p>The following formats are supported:</p>
+<ul>
+<li>Individual permissions: Individual permissions use the format <code>{service_fqdn}/{resource}.{verb}</code> , where <code>{service_fqdn}</code> is the fully qualified domain name for the service. For example, <code>eventarc.googleapis.com/messageBuses.publish</code> .</li>
+<li>Roles: Only supported in rules with the <code>ALLOW</code> effect. Roles use the format <code>role:{role_name}</code> . For example, <code>role:roles/logging.logsViewer</code> . If you include a role name in a rule, then the rule includes all of the permissions in that role.</li>
+<li>Permission groups: Sets of permissions, such as <code>aiplatform.googleapis.com/*.*</code> . Permission groups are sets of permissions that match a specified pattern. There are some restrictions on the permission groups you can reference and the permissions included in those groups. For more information, see <a href="https://docs.cloud.google.com/iam/help/uap/permission-groups">Permission groups</a> .</li>
+</ul>
+<p>An empty list doesn't match any <code>permissions</code> .</p></td>
+</tr>
+<tr class="even">
+<td><code>excluded_permissions[]</code></td>
+<td><p><code>string</code></p>
+<p>Optional. Specifies the permissions to exclude from the rule. If a permission appears in <code>permissions</code> <em>and</em> in <code>excluded_permissions</code> , then it will <em>not</em> be subject to the rule effect.</p>
+<p>The excluded permissions can be specified using the same syntax as <code>permissions</code> .</p></td>
+</tr>
+</tbody>
+</table>
+
+## CreateAccessPolicyRequest
+
+Request message for CreateAccessPolicy method.
+
+| Fields             |                                                                                                                                                                                                                                                                                                                                                                                      |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`           | `string` Required. The parent resource where this Unified Access Policy is created. Format: \* `projects/{project_id}/locations/{location}` \* `projects/{project_number}/locations/{location}` \* `folders/{folder_id}/locations/{location}` \* `organizations/{organization_id}/locations/{location}`                                                                              |
+| `access_policy_id` | `string` Required. The ID to use for the Unified Access Policy, which will become the final component of the Unified Access Policy's resource name. This value must start with a lowercase letter followed by up to 62 lowercase letters, numbers, hyphens, or dots (/\[a-z\]\[a-z0-9-.\]{2,62}/). This value must be unique among all Unified Access Policies with the same parent. |
+| `access_policy`    | [`AccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicy) Required. The Unified Access Policy to create.                                                                                                                                                                                                                       |
+| `validate_only`    | `bool` Optional. If set, validate the request and preview the creation, but do not actually post it.                                                                                                                                                                                                                                                                                 |
 
 ## CreatePolicyBindingRequest
 
@@ -334,6 +660,17 @@ Request message for CreatePrincipalAccessBoundaryPolicyRequest method.
 | `principal_access_boundary_policy`    | [`PrincipalAccessBoundaryPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.PrincipalAccessBoundaryPolicy) Required. The principal access boundary policy to create.                                                                                                                      |
 | `validate_only`                       | `bool` Optional. If set, validate the request and preview the creation, but do not actually post it.                                                                                                                                                                                                                             |
 
+## DeleteAccessPolicyRequest
+
+Request message for DeleteAccessPolicy method.
+
+| Fields          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`          | `string` Required. The name of the Unified Access Policy to delete. Format: \* `projects/{project_id}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `projects/{project_number}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `folders/{folder_id}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `organizations/{organization_id}/locations/{location}/accessPolicies/{unified_access_policy_id}` |
+| `etag`          | `string` Optional. The etag of the Unified Access Policy. If this is provided, it must match the server's etag.                                                                                                                                                                                                                                                                                                                                                 |
+| `validate_only` | `bool` Optional. If set, validate the request and preview the deletion, but do not actually post it.                                                                                                                                                                                                                                                                                                                                                            |
+| `force`         | `bool` Optional. If set to true, the request will force the deletion of the Unified Access Policy even if it's referenced in existing bindings. If this value is set to false and the Unified Access Policy is referenced in existing bindings, then the request fails.                                                                                                                                                                                         |
+
 ## DeletePolicyBindingRequest
 
 Request message for DeletePolicyBinding method.
@@ -386,6 +723,14 @@ Request message for DeletePrincipalAccessBoundaryPolicy method.
 | `validate_only` | `bool` Optional. If set, validate the request and preview the deletion, but do not actually post it.                                                                                                                |
 | `force`         | `bool` Optional. If set to true, the request will force the deletion of the policy even if the policy is referenced in policy bindings.                                                                             |
 
+## GetAccessPolicyRequest
+
+Request message for GetAccessPolicy method.
+
+| Fields |                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name` | `string` Required. The name of the Unified Access Policy to retrieve. Format: \* `projects/{project_id}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `projects/{project_number}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `folders/{folder_id}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `organizations/{organization_id}/locations/{location}/accessPolicies/{unified_access_policy_id}` |
+
 ## GetPolicyBindingRequest
 
 Request message for GetPolicyBinding method.
@@ -424,6 +769,26 @@ Request message for GetPrincipalAccessBoundaryPolicy method.
 | Fields |                                                                                                                                                                                                                       |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `name` | `string` Required. The name of the principal access boundary policy to retrieve. Format: `organizations/{organization_id}/locations/{location}/principalAccessBoundaryPolicies/{principal_access_boundary_policy_id}` |
+
+## ListAccessPoliciesRequest
+
+Request message for ListAccessPolicies method.
+
+| Fields       |                                                                                                                                                                                                                                                                                                                           |
+|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`     | `string` Required. The parent resource, which owns the collection of Unified Access Policy resources. Format: \* `projects/{project_id}/locations/{location}` \* `projects/{project_number}/locations/{location}` \* `folders/{folder_id}/locations/{location}` \* `organizations/{organization_id}/locations/{location}` |
+| `page_size`  | `int32` Optional. The maximum number of Unified Access Policies to return. The service might return a smaller number of bindings. If unspecified, at most 50 Unified Access Policies are returned. Valid value ranges from 1 to 1000; values above 1000 are reduced to 1000.                                              |
+| `page_token` | `string` Optional. A page token, received from a previous `ListAccessPolicies` call. Provide this to retrieve the subsequent page. When paginating, all other parameters provided to `ListAccessPolicies` must match the call that provided the page token.                                                               |
+| `filter`     | `string` Optional. An expression for filtering the results of the request. Example filter query: `display_name:example*` matches Unified Access Policies whose display name starts with "example".                                                                                                                        |
+
+## ListAccessPoliciesResponse
+
+Response message for ListAccessPolicies method.
+
+| Fields              |                                                                                                                                                                        |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `access_policies[]` | [`AccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicy) The Unified Access Policies from the specified parent. |
+| `next_page_token`   | `string` Optional. A token, which can be sent as `page_token` to retrieve the next page. If this field is omitted, there are no subsequent pages.                      |
 
 ## ListPolicyBindingsRequest
 
@@ -501,6 +866,7 @@ Request message for ListPrincipalAccessBoundaryPolicies method.
 | `parent`     | `string` Required. The parent resource, which owns the collection of principal access boundary policies. Format: `organizations/{organization_id}/locations/{location}`                                                                                                                       |
 | `page_size`  | `int32` Optional. The maximum number of principal access boundary policies to return. The service may return fewer than this value. If unspecified, at most 50 principal access boundary policies will be returned. The maximum value is 1000; values above 1000 will be coerced to 1000.     |
 | `page_token` | `string` Optional. A page token, received from a previous `ListPrincipalAccessBoundaryPolicies` call. Provide this to retrieve the subsequent page. When paginating, all other parameters provided to `ListPrincipalAccessBoundaryPolicies` must match the call that provided the page token. |
+| `filter`     | `string` Optional. An expression for filtering the results of the request. Example filter query: `display_name:example*` matches principal access boundary policies whose display name starts with "example".                                                                                 |
 
 ## ListPrincipalAccessBoundaryPoliciesResponse
 
@@ -647,6 +1013,7 @@ The different policy kinds supported in this binding.
 |-----------------------------|--------------------------------------------|
 | `POLICY_KIND_UNSPECIFIED`   | Unspecified policy kind; Not a valid state |
 | `PRINCIPAL_ACCESS_BOUNDARY` | Principal access boundary policy kind      |
+| `ACCESS`                    | Unified Access Policy kind.                |
 
 ## Target
 
@@ -692,6 +1059,21 @@ The full resource name of the resource to which the policy will be bound. Immuta
 <li><code>//cloudresourcemanager.googleapis.com/projects/PROJECT_ID</code></li>
 </ul></li>
 <li>Workload Identity Pool: <code>//iam.googleapis.com/projects/PROJECT_NUMBER/locations/LOCATION/workloadIdentityPools/WORKLOAD_POOL_ID</code></li>
+</ul></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>resource</code></td>
+<td><p><code>string</code></p>
+<p>Immutable. The full resource name that's used for Unified Access Policy bindings.</p>
+<p>Examples:</p>
+<ul>
+<li>Organization: <code>//cloudresourcemanager.googleapis.com/organizations/ORGANIZATION_ID</code></li>
+<li>Folder: <code>//cloudresourcemanager.googleapis.com/folders/FOLDER_ID</code></li>
+<li>Project:
+<ul>
+<li><code>//cloudresourcemanager.googleapis.com/projects/PROJECT_NUMBER</code></li>
+<li><code>//cloudresourcemanager.googleapis.com/projects/PROJECT_ID</code></li>
 </ul></li>
 </ul></td>
 </tr>
@@ -771,6 +1153,25 @@ An effect to describe the access relationship.
 | `EFFECT_UNSPECIFIED` | Effect unspecified.                          |
 | `ALLOW`              | Allows access to the resources in this rule. |
 
+## SearchAccessPolicyBindingsRequest
+
+Request message for SearchAccessPolicyBindings rpc.
+
+| Fields       |                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`       | `string` Required. The name of the Unified Access Policy. Format: \* `organizations/{organization_id}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `folders/{folder_id}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `projects/{project_id}/locations/{location}/accessPolicies/{unified_access_policy_id}` \* `projects/{project_number}/locations/{location}/accessPolicies/{unified_access_policy_id}` |
+| `page_size`  | `int32` Optional. The maximum number of Unified Access Policy bindings to return. The service might return a smaller number of bindings. If unspecified, at most 50 bindings are returned. The maximum value is 1000; values above 1000 are reduced to 1000.                                                                                                                                                                                          |
+| `page_token` | `string` Optional. A page token, received from a previous `SearchAccessPolicyBindingsRequest` call. Provide this to retrieve the subsequent page. When paginating, all other parameters provided to `SearchAccessPolicyBindingsRequest` must match the call that provided the page token.                                                                                                                                                             |
+
+## SearchAccessPolicyBindingsResponse
+
+Response message for SearchAccessPolicyBindings rpc.
+
+| Fields              |                                                                                                                                                                                    |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `policy_bindings[]` | [`PolicyBinding`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.PolicyBinding) The bindings that reference the specified Unified Access Policy. |
+| `next_page_token`   | `string` Optional. A token, which can be sent as `page_token` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                  |
+
 ## SearchPrincipalAccessBoundaryPolicyBindingsRequest
 
 Request message for SearchPrincipalAccessBoundaryPolicyBindings rpc.
@@ -844,6 +1245,17 @@ Request message for SearchTargetPolicyBindings method.
 <li><code>organizations/{organization_id}/locations/{location}</code></li>
 </ul></td>
 </tr>
+<tr class="odd">
+<td><code>filter</code></td>
+<td><p><code>string</code></p>
+<p>Optional. Filtering currently only supports the kind of policies to return, and must be in the format "policy_kind={policy_kind}".</p>
+<p>If String is empty, bindings bound to all kinds of policies would be returned.</p>
+<p>The only supported values are the following:</p>
+<ul>
+<li>"policy_kind=PRINCIPAL_ACCESS_BOUNDARY",</li>
+<li>"policy_kind=ACCESS"</li>
+</ul></td>
+</tr>
 </tbody>
 </table>
 
@@ -855,6 +1267,15 @@ Response message for SearchTargetPolicyBindings method.
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `policy_bindings[]` | [`PolicyBinding`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.PolicyBinding) The policy bindings bound to the specified target. |
 | `next_page_token`   | `string` Optional. A token, which can be sent as `page_token` to retrieve the next page. If this field is omitted, there are no subsequent pages.                    |
+
+## UpdateAccessPolicyRequest
+
+Request message for UpdateAccessPolicy method.
+
+| Fields          |                                                                                                                                                                                                                                                   |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `access_policy` | [`AccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicy) Required. The Unified Access Policy to update. The Unified Access Policy's `name` field is used to identify the policy to update. |
+| `validate_only` | `bool` Optional. If set, validate the request and preview the update, but do not actually post it.                                                                                                                                                |
 
 ## UpdatePolicyBindingRequest
 

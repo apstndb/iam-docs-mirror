@@ -35,7 +35,7 @@ data_source: docs.cloud.google.com
 
 - [Conditions attribute reference Learn about attributes that you can use to conditionally grant or deny access.](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference)
 - [Conditions resource attribute value reference Grant access to specific Google Cloud services, resource types, and resource names.](https://docs.cloud.google.com/iam/docs/conditions-resource-attributes)
-- [Services that allow conditional role bindings Find out which resource types let you add conditional role bindings to their allow policies.](https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles)
+- [Services that permit conditions in allow policies Find out which resource types let you add conditional role bindings to their allow policies.](https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles)
 
 <!-- -->
 

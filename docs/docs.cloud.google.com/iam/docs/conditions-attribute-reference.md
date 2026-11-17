@@ -149,6 +149,7 @@ The following attributes relate to the resource that is the subject of the reque
 <ul>
 <li>Allow policy role bindings</li>
 <li>Deny policy deny rules</li>
+<li>Unified Access Policy allow and deny rules</li>
 </ul></td>
 <td><p>All Google Cloud services (see <a href="https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#inherited-support">Support for inherited conditions</a> )</p>
 <blockquote>
@@ -273,6 +274,12 @@ The following attributes relate to the details of the request.
 </table>
 
 For more details about request attributes, see [Request attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#request) on this page.
+
+### Service-specific attributes
+
+Some services provide additional attributes specific to that service's resources. These attributes can be used in Unified Access Policies (UAPs) that reference specific permissions for that service.
+
+For more details about service-specific attributes, see [Conditions in UAPs](https://docs.cloud.google.com/iam/docs/unified-access-policies#conditions) .
 
 ### Support for inherited conditions
 
@@ -1094,6 +1101,7 @@ You can use tag-based conditions in the following:
 
 - Allow policy role bindings
 - Deny policy deny rules
+- Unified Access Policy allow and deny rules
 
 You can use the following functions to set conditions based on tags:
 
@@ -1110,7 +1118,7 @@ You can use the following functions to set conditions based on tags:
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>resource.hasTagKey( keyName: string )</code> trending_flat <code>bool</code></td>
+<td><code>resource.hasTagKey( keyName: string )</code> <code>bool</code></td>
 <td><p>Checks whether the resource for the request has a tag with the specified key. The tag key is looked up by its <em>namespaced name</em> . To check for a tag key using its <em>permanent ID</em> , use the function <code>resource.hasTagKeyId()</code> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1125,7 +1133,7 @@ You can use the following functions to set conditions based on tags:
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>resource.hasTagKeyId( keyId: string )</code> trending_flat <code>bool</code></td>
+<td><code>resource.hasTagKeyId( keyId: string )</code> <code>bool</code></td>
 <td><p>Checks whether the resource for the request has a tag with the specified key. The tag key is looked up by its <em>permanent ID</em> . To check for a tag key using its <em>namespaced name</em> , use the function <code>resource.hasTagKey()</code> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1140,7 +1148,7 @@ You can use the following functions to set conditions based on tags:
 </dl></td>
 </tr>
 <tr class="odd">
-<td><code>resource.matchTag( keyName: string, valueShortName: string )</code> trending_flat <code>bool</code></td>
+<td><code>resource.matchTag( keyName: string, valueShortName: string )</code> <code>bool</code></td>
 <td><p>Checks whether the resource for the request has a tag with the specified key and value. The key is looked up by its <em>namespaced name</em> , and the value is looked up by its <em>short name</em> . To check for a tag key and value using their <em>permanent IDs</em> , use the function <code>resource.matchTagId()</code> .</p>
 <dl>
 <dt>Parameters</dt>
@@ -1158,7 +1166,7 @@ You can use the following functions to set conditions based on tags:
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>resource.matchTagId( keyId: string, valueId: string )</code> trending_flat <code>bool</code></td>
+<td><code>resource.matchTagId( keyId: string, valueId: string )</code> <code>bool</code></td>
 <td><p>Checks whether the resource for the request has a tag with the specified key and value. The key and value are looked up by their <em>permanent IDs</em> . To check for a tag key using its <em>namespaced name</em> and a value using its <em>short name</em> , use the function <code>resource.matchTag()</code> .</p>
 <dl>
 <dt>Parameters</dt>
@@ -1432,7 +1440,7 @@ You can use the following function to work with API attributes:
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>api.getAttribute( attributeName: string, defaultValue: V&lt;T&gt; )</code> trending_flat <code>V&lt;T&gt;</code></td>
+<td><code>api.getAttribute( attributeName: string, defaultValue: V&lt;T&gt; )</code> <code>V&lt;T&gt;</code></td>
 <td><p>Gets the requested API attribute.</p>
 <dl>
 <dt>Parameters</dt>
@@ -1457,7 +1465,7 @@ You can use the following function to work with API attributes:
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>hasOnly( items: list&lt;T&gt; )</code> trending_flat <code>bool</code></td>
+<td><code>hasOnly( items: list&lt;T&gt; )</code> <code>bool</code></td>
 <td><p>Checks that a list contains only the allowed items, or a subset of those items. You can call the function on a list returned by <code>api.getAttribute()</code> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1646,7 +1654,7 @@ The following sections list the functions that you can use to set conditions bas
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>date( value: string )</code> trending_flat <code>Timestamp</code></td>
+<td><code>date( value: string )</code> <code>Timestamp</code></td>
 <td><p>Converts a date from a <code>string</code> to a <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#timestamp"><code>Timestamp</code></a> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1661,7 +1669,7 @@ The following sections list the functions that you can use to set conditions bas
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>duration( value: string )</code> trending_flat <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#duration"><code>Duration</code></a></td>
+<td><code>duration( value: string )</code> <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#duration"><code>Duration</code></a></td>
 <td><p>Converts an amount of time from a <code>string</code> to a <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#duration"><code>Duration</code></a> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1678,7 +1686,7 @@ The following sections list the functions that you can use to set conditions bas
 </dl></td>
 </tr>
 <tr class="odd">
-<td><code>timestamp( value: string )</code> trending_flat <code>Timestamp</code></td>
+<td><code>timestamp( value: string )</code> <code>Timestamp</code></td>
 <td><p>Converts a <code>string</code> to a <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#timestamp"><code>Timestamp</code></a> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1717,8 +1725,8 @@ The following sections list the functions that you can use to set conditions bas
 </tr>
 <tr class="odd">
 <td><ul>
-<li><code>timestamp + duration</code> trending_flat <code>Timestamp</code></li>
-<li><code>timestamp - duration</code> trending_flat <code>Timestamp</code></li>
+<li><code>timestamp + duration</code> <code>Timestamp</code></li>
+<li><code>timestamp - duration</code> <code>Timestamp</code></li>
 </ul></td>
 <td><p>Add or subtract a <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#duration"><code>Duration</code></a> from a <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#timestamp"><code>Timestamp</code></a> .</p>
 <dl>
@@ -1755,7 +1763,7 @@ To specify a different time zone, pass the time zone into the function. Use a na
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>Timestamp.getDate( timeZone: string )</code> trending_flat <code>int</code></td>
+<td><code>Timestamp.getDate( timeZone: string )</code> <code>int</code></td>
 <td><p>Gets the day of the month from the <code>Timestamp</code> . The value uses one-based indexing; the first day of the month is <code>1</code> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1770,7 +1778,7 @@ To specify a different time zone, pass the time zone into the function. Use a na
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>Timestamp.getDayOfMonth( timeZone: string )</code> trending_flat <code>int</code></td>
+<td><code>Timestamp.getDayOfMonth( timeZone: string )</code> <code>int</code></td>
 <td><p>Gets the day of the month from the <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#timestamp"><code>Timestamp</code></a> . The value uses zero-based indexing; the first day of the month is <code>0</code> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1785,7 +1793,7 @@ To specify a different time zone, pass the time zone into the function. Use a na
 </dl></td>
 </tr>
 <tr class="odd">
-<td><code>Timestamp.getDayOfWeek( timeZone: string )</code> trending_flat <code>int</code></td>
+<td><code>Timestamp.getDayOfWeek( timeZone: string )</code> <code>int</code></td>
 <td><p>Gets the day of the week from the <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#timestamp"><code>Timestamp</code></a> . The value uses zero-based indexing; for example, Sunday is <code>0</code> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1801,7 +1809,7 @@ To specify a different time zone, pass the time zone into the function. Use a na
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>Timestamp.getDayOfYear( timeZone: string )</code> trending_flat <code>int</code></td>
+<td><code>Timestamp.getDayOfYear( timeZone: string )</code> <code>int</code></td>
 <td><p>Gets the day of the year from the <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#timestamp"><code>Timestamp</code></a> . The value uses zero-based indexing; the first day of the year is <code>0</code> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1817,7 +1825,7 @@ To specify a different time zone, pass the time zone into the function. Use a na
 </dl></td>
 </tr>
 <tr class="odd">
-<td><code>Timestamp.getFullYear( timeZone: string )</code> trending_flat <code>int</code></td>
+<td><code>Timestamp.getFullYear( timeZone: string )</code> <code>int</code></td>
 <td><p>Gets the year from the <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#timestamp"><code>Timestamp</code></a> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1834,7 +1842,7 @@ To specify a different time zone, pass the time zone into the function. Use a na
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>Timestamp.getHours( timeZone: string )</code> trending_flat <code>int</code></td>
+<td><code>Timestamp.getHours( timeZone: string )</code> <code>int</code></td>
 <td><p>Gets the hour of the day from the <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#timestamp"><code>Timestamp</code></a> . The value uses zero-based indexing; values range from <code>0</code> to <code>23</code> .</p>
 <p>You can combine this function with <code>getDayofWeek()</code> to grant access only during the permitted working hours in your jurisdiction.</p>
 <dl>
@@ -1853,7 +1861,7 @@ To specify a different time zone, pass the time zone into the function. Use a na
 </dl></td>
 </tr>
 <tr class="odd">
-<td><code>Timestamp.getMilliseconds( timeZone: string )</code> trending_flat <code>int</code></td>
+<td><code>Timestamp.getMilliseconds( timeZone: string )</code> <code>int</code></td>
 <td><p>Gets the number of milliseconds from the <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#timestamp"><code>Timestamp</code></a> . The value uses zero-based indexing; values range from <code>0</code> to <code>999</code> .</p>
 <blockquote>
 <strong>Note:</strong> In general, when you use IAM Conditions, you won't need to evaluate timestamps with this level of precision.
@@ -1866,7 +1874,7 @@ To specify a different time zone, pass the time zone into the function. Use a na
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>Timestamp.getMinutes( timeZone: string )</code> trending_flat <code>int</code></td>
+<td><code>Timestamp.getMinutes( timeZone: string )</code> <code>int</code></td>
 <td><p>Gets the number of minutes after the hour from the <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#timestamp"><code>Timestamp</code></a> . The value uses zero-based indexing; values range from <code>0</code> to <code>59</code> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1882,7 +1890,7 @@ To specify a different time zone, pass the time zone into the function. Use a na
 </dl></td>
 </tr>
 <tr class="odd">
-<td><code>Timestamp.getMonth( timeZone: string )</code> trending_flat <code>int</code></td>
+<td><code>Timestamp.getMonth( timeZone: string )</code> <code>int</code></td>
 <td><p>Gets the month of the year from the <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#timestamp"><code>Timestamp</code></a> . The value uses zero-based indexing; values range from <code>0</code> to <code>11</code> .</p>
 <dl>
 <dt>Parameter</dt>
@@ -1897,7 +1905,7 @@ To specify a different time zone, pass the time zone into the function. Use a na
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>Timestamp.getSeconds( timeZone: string )</code> trending_flat <code>int</code></td>
+<td><code>Timestamp.getSeconds( timeZone: string )</code> <code>int</code></td>
 <td><p>Gets the number of seconds from the <a href="https://developers.google.com/protocol-buffers/docs/reference/google.protobuf#timestamp"><code>Timestamp</code></a> . The value uses zero-based indexing; values range from <code>0</code> to <code>59</code> .</p>
 <blockquote>
 <strong>Note:</strong> In general, when you use IAM Conditions, you won't need to evaluate timestamps with this level of precision.
@@ -2026,7 +2034,7 @@ For Cloud Load Balancing, the forwarding rule attributes don't affect the abilit
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>compute.isForwardingRule CreationOperation()</code> trending_flat <code>bool</code></td>
+<td><code>compute.isForwardingRule CreationOperation()</code> <code>bool</code></td>
 <td><p>Checks whether the request is creating a <a href="https://docs.cloud.google.com/load-balancing/docs/forwarding-rule-concepts">forwarding rule</a> .</p>
 <dl>
 <dt>Example</dt>
@@ -2036,7 +2044,7 @@ See the example for <code>compute.matchLoadBalancingSchemes()</code> .
 </dl></td>
 </tr>
 <tr class="even">
-<td><code>compute.matchLoad BalancingSchemes( schemes: list&lt;string&gt; )</code> trending_flat <code>bool</code></td>
+<td><code>compute.matchLoad BalancingSchemes( schemes: list&lt;string&gt; )</code> <code>bool</code></td>
 <td><p>Checks whether the request affects one of the specified types of load balancing scheme. To find the identifier for each load balancing scheme, as well as more details, see <a href="https://docs.cloud.google.com/load-balancing/docs/access-control/iam-conditions#conditions-iam">Using IAM Conditions on Google Cloud load balancers</a> .</p>
 <blockquote>
 <strong>Note:</strong> In general, if you use this function in a condition expression, you should also use <code>compute.isForwardingRuleCreationOperation()</code> . See the examples in this cell for details.
@@ -2197,9 +2205,9 @@ The `extract()` function extracts different parts of the attribute based on whet
 | Has prefix | Has suffix | Extracted value                                                                                                                                                                              |
 |------------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | —          | —          | The entire attribute                                                                                                                                                                         |
-| check      | —          | The characters after the first occurrence of the prefix, or an empty string if there are no characters after the prefix                                                                      |
-| —          | check      | The characters before the first occurrence of the suffix, or an empty string if there are no characters before the suffix                                                                    |
-| check      | check      | The characters between the first occurrence of the prefix and the first subsequent occurrence of the suffix, or an empty string if there are no characters between the prefix and the suffix |
+|            | —          | The characters after the first occurrence of the prefix, or an empty string if there are no characters after the prefix                                                                      |
+| —          |            | The characters before the first occurrence of the suffix, or an empty string if there are no characters before the suffix                                                                    |
+|            |            | The characters between the first occurrence of the prefix and the first subsequent occurrence of the suffix, or an empty string if there are no characters between the prefix and the suffix |
 
 If you specify a prefix or suffix that don't appear in the attribute, or if the suffix appears only before the prefix, the `extract()` function returns an empty string.
 

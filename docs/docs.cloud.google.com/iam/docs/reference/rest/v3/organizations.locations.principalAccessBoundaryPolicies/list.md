@@ -37,6 +37,7 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `pageSize`  | `integer` Optional. The maximum number of principal access boundary policies to return. The service may return fewer than this value. If unspecified, at most 50 principal access boundary policies will be returned. The maximum value is 1000; values above 1000 will be coerced to 1000.     |
 | `pageToken` | `string` Optional. A page token, received from a previous `principalAccessBoundaryPolicies.list` call. Provide this to retrieve the subsequent page. When paginating, all other parameters provided to `principalAccessBoundaryPolicies.list` must match the call that provided the page token. |
+| `filter`    | `string` Optional. An expression for filtering the results of the request. Example filter query: `displayName:example*` matches principal access boundary policies whose display name starts with "example".                                                                                    |
 
 ### Request body
 
@@ -68,9 +69,10 @@ If successful, the response body contains data with the following structure:
 
 ### Authorization scopes
 
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .
 

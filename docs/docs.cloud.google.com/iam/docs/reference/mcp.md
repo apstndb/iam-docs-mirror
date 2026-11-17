@@ -196,6 +196,175 @@ The iam.googleapis.com MCP server has the following tools:
 </ul>
 <p>This tool returns the details of the restored role.</p></td>
 </tr>
+<tr class="odd">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/list_access_policies"><code>list_access_policies</code></a></td>
+<td><p>Lists Unified Access Policies under a given parent project. Organizations and folders are <em>not</em> supported.</p>
+<p>Use this tool to discover Unified Access Policies defined at an attachment point.</p>
+<p>This tool requires the following parameters:</p>
+<ul>
+<li><code>parent</code> (string): The URL-encoded full resource name of the attachment point where policies are listed. Only projects are supported. The format is <code>projects/PROJECT_ID/locations/LOCATION</code> (for example, <code>projects/my-project/locations/global</code> ).</li>
+</ul>
+<p>The following parameters are optional:</p>
+<ul>
+<li><code>page_size</code> (int32): The maximum number of policies to return.</li>
+<li><code>page_token</code> (string): Pagination token from a previous list request.</li>
+<li><code>filter</code> (string): Filter criteria to narrow down the list of Unified Access Policies.</li>
+</ul>
+<p>This tool returns a list of Unified Access Policies defined at the specified project along with an optional next page token.</p></td>
+</tr>
+<tr class="even">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/get_access_policy"><code>get_access_policy</code></a></td>
+<td><p>Gets the details, metadata, and rules of a Unified Access Policy. Only supports Unified Access Policies that are parented by a project.</p>
+<p>Use this tool to inspect the policy rules and configuration of a specific Unified Access Policy.</p>
+<p>This tool requires the <code>name</code> parameter, which is the resource name of the Unified Access Policy to retrieve. Only projects are supported. The format is <code>projects/PROJECT_ID/locations/LOCATION/accessPolicies/POLICY_ID</code> .</p>
+<p>This tool returns the details and configuration of the specified Unified Access Policy, including its rules and etag.</p></td>
+</tr>
+<tr class="odd">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/create_access_policy"><code>create_access_policy</code></a></td>
+<td><p>Creates a new Unified Access Policy under a given parent project. Doesn't support creating Unified Access Policies under an organization or folder.</p>
+<p>Creating a Unified Access Policy is asynchronous and returns a long-running operation. Use the <code>get_access_policy_status</code> tool to check for operation completion.</p>
+<p>This tool requires the following parameters:</p>
+<ul>
+<li><code>parent</code> (string): The resource attachment point where the Unified Access Policy will be created. Only projects are supported. The format is <code>projects/PROJECT_ID/locations/LOCATION</code> .</li>
+<li><code>access_policy_id</code> (string): Unique ID for this access policy (3-63 characters, matching valid naming constraints).</li>
+<li><code>access_policy</code> (object): The access policy definition containing rules and configuration.</li>
+</ul>
+<p>This tool returns a long-running operation resource whose resolution status can be tracked with <code>get_access_policy_status</code> .</p></td>
+</tr>
+<tr class="even">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/update_access_policy"><code>update_access_policy</code></a></td>
+<td><p>Updates an existing Unified Access Policy.</p>
+<p>Updating a Unified Access Policy is asynchronous and returns a long-running operation. Use the <code>get_access_policy_status</code> tool to check for operation completion.</p>
+<p>This tool requires the following parameters:</p>
+<ul>
+<li><code>access_policy</code> (object): The updated Unified Access Policy definition with its name set.</li>
+</ul>
+<p>The following parameters are optional:</p>
+<ul>
+<li><code>update_mask</code> (string): Field mask indicating which fields to update (for example, <code>rules,etag</code> ).</li>
+</ul>
+<p>This tool returns a long-running operation resource whose resolution status can be tracked with <code>get_access_policy_status</code> .</p></td>
+</tr>
+<tr class="odd">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/delete_access_policy"><code>delete_access_policy</code></a></td>
+<td><p>Deletes a specific Unified Access Policy. Only supports Unified Access Policies that are parented by a project.</p>
+<p>Deleting a Unified Access Policy is asynchronous and returns a long-running operation. Use the <code>get_access_policy_status</code> tool to check for operation completion.</p>
+<p>This tool requires the following parameters:</p>
+<ul>
+<li><code>name</code> (string): The resource name of the Unified Access Policy to delete. Only projects are supported. The format is <code>projects/PROJECT_ID/locations/LOCATION/accessPolicies/POLICY_ID</code> .</li>
+</ul>
+<p>The following parameters are optional:</p>
+<ul>
+<li><code>etag</code> (string): Base64-encoded etag value for optimistic concurrency control.</li>
+</ul>
+<p>This tool returns a long-running operation resource whose resolution status can be tracked with <code>get_access_policy_status</code> .</p></td>
+</tr>
+<tr class="even">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/get_access_policy_status"><code>get_access_policy_status</code></a></td>
+<td><p>Gets the status of a long-running operation initiated by creating, updating, or deleting a Unified Access Policy. Use this tool to check whether an asynchronous policy mutation has completed successfully ( <code>done: true</code> ) or if any errors occurred during execution.</p>
+<p>This tool requires the <code>name</code> parameter, which is the operation resource name returned by <code>create_access_policy</code> , <code>update_access_policy</code> , or <code>delete_access_policy</code> . The format is <code>operations/OPERATION_ID</code> or <code>projects/PROJECT_ID/locations/LOCATION/operations/OPERATION_ID</code> .</p>
+<p>This tool returns an operation object indicating completion status ( <code>done</code> ), metadata, and final response or error details.</p></td>
+</tr>
+<tr class="odd">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/search_access_policy_bindings"><code>search_access_policy_bindings</code></a></td>
+<td><p>Returns all policy bindings that bind a specific Unified Access Policy, provided the caller has <code>searchPolicyBindings</code> permission on that policy. Only supports Unified Access Policy bindings that are parented by a project.</p>
+<p>Use this tool to discover which bindings reference a specific Unified Access policy.</p>
+<p>This tool requires the following parameters:</p>
+<ul>
+<li><code>name</code> (string): The resource name of the Unified Access Policy to search bindings for. Only projects are supported. The format is <code>projects/PROJECT_ID/locations/LOCATION/accessPolicies/POLICY_ID</code> .</li>
+</ul>
+<p>The following parameters are optional:</p>
+<ul>
+<li><code>page_size</code> (int32): The maximum number of policy bindings to return.</li>
+<li><code>page_token</code> (string): Pagination token from a previous search request.</li>
+</ul>
+<p>This tool returns a list of Unified Access Policy binding objects referencing the specified access policy along with an optional next page token.</p></td>
+</tr>
+<tr class="even">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/list_access_policy_bindings"><code>list_access_policy_bindings</code></a></td>
+<td><p>Lists Unified Access Policy bindings under a given parent project. Doesn't support listing Unified Access Policy bindings under an organization or folder.</p>
+<p>Use this tool to discover policy bindings defined at an attachment point.</p>
+<p>This tool requires the following parameters:</p>
+<ul>
+<li><code>parent</code> (string): The resource name of the parent under which policy bindings are defined. Only projects are supported. The format is <code>projects/PROJECT_ID/locations/LOCATION</code> .</li>
+</ul>
+<p>The following parameters are optional:</p>
+<ul>
+<li><code>page_size</code> (int32): The maximum number of policy bindings to return.</li>
+<li><code>page_token</code> (string): Pagination token from a previous list request.</li>
+<li><code>filter</code> (string): Filter criteria to narrow down the list of bindings.</li>
+</ul>
+<p>This tool returns a list of Unified Access Policy bindings parented by the specified project along with an optional next page token.</p></td>
+</tr>
+<tr class="odd">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/get_access_policy_binding"><code>get_access_policy_binding</code></a></td>
+<td><p>Gets the details and configuration of a Unified Access Policy binding. Only supports Unified Access Policy bindings that are parented by a project.</p>
+<p>Use this tool to inspect a binding's target resource, applied policy, and conditions.</p>
+<p>This tool requires the <code>name</code> parameter, which is the resource name of the policy binding to retrieve. Only projects are supported. The format is <code>projects/PROJECT_ID/locations/LOCATION/policyBindings/BINDING_ID</code> .</p>
+<p>This tool returns the details and configuration of the specified binding.</p></td>
+</tr>
+<tr class="even">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/search_target_policy_bindings"><code>search_target_policy_bindings</code></a></td>
+<td><p>Searches policy bindings by target. Returns all policy binding objects bound directly to a specified target cloud resource. Only supports Unified Access Policy bindings that are parented by a project.</p>
+<p>Use this tool to discover what policy bindings apply directly to a target resource within a given parent hierarchy.</p>
+<p>This tool requires the following parameters:</p>
+<ul>
+<li><code>parent</code> (string): The parent resource scope for searching bindings. Only projects are supported. The format is <code>projects/PROJECT_ID/locations/LOCATION</code> .</li>
+<li><code>target</code> (string): The full resource name of the target cloud resource to find policy bindings for (for example, <code>//cloudresourcemanager.googleapis.com/projects/my-project</code> ). Only project targets are supported.</li>
+</ul>
+<p>The following parameters are optional:</p>
+<ul>
+<li><code>page_size</code> (int32): The maximum number of policy bindings to return.</li>
+<li><code>page_token</code> (string): Pagination token from a previous search request.</li>
+</ul>
+<p>This tool returns a list of policy binding objects bound directly to the specified target along with an optional next page token.</p></td>
+</tr>
+<tr class="odd">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/create_access_policy_binding"><code>create_access_policy_binding</code></a></td>
+<td><p>Creates a new Unified Access Policy binding under a given parent project.</p>
+<p>After the binding is created, the referenced policy is applied to the target resource. Creating a policy binding is asynchronous and returns a long-running operation. Use the <code>get_access_policy_binding_status</code> tool to check for operation completion.</p>
+<p>This tool requires the following parameters:</p>
+<ul>
+<li><code>parent</code> (string): The resource attachment point where the policy binding will be created. Only projects are supported. The format is <code>projects/PROJECT_ID/locations/LOCATION</code> .</li>
+<li><code>policy_binding_id</code> (string): Unique ID for this policy binding matching valid naming constraints.</li>
+<li><code>policy_binding</code> (object): The policy binding definition specifying the <code>target</code> resource and referenced <code>policy</code> .</li>
+</ul>
+<p>This tool returns a long-running operation resource whose resolution status can be tracked with <code>get_access_policy_binding_status</code> .</p></td>
+</tr>
+<tr class="even">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/update_access_policy_binding"><code>update_access_policy_binding</code></a></td>
+<td><p>Updates an existing Unified Access Policy binding. Note that <code>target</code> and <code>policy</code> fields in a binding are immutable and cannot be updated.</p>
+<p>Updating a policy binding is asynchronous and returns a long-running operation. Use the <code>get_access_policy_binding_status</code> tool to check for operation completion.</p>
+<p>This tool requires the following parameters:</p>
+<ul>
+<li><code>policy_binding</code> (object): The updated policy binding definition with its name set.</li>
+</ul>
+<p>The following parameters are optional:</p>
+<ul>
+<li><code>update_mask</code> (string): Field mask indicating which fields to update.</li>
+</ul>
+<p>This tool returns a long-running operation resource whose resolution status can be tracked with <code>get_access_policy_binding_status</code> .</p></td>
+</tr>
+<tr class="odd">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/delete_access_policy_binding"><code>delete_access_policy_binding</code></a></td>
+<td><p>Deletes a specific Unified Access Policy binding. Only supports Unified Access Policy bindings that are parented by a project.</p>
+<p>After the binding is deleted, the referenced policy no longer applies to the target. Deleting a policy binding is asynchronous and returns a long-running operation. Use the <code>get_access_policy_binding_status</code> tool to check for operation completion.</p>
+<p>This tool requires the following parameters:</p>
+<ul>
+<li><code>name</code> (string): The resource name of the policy binding to delete. Only projects are supported. The format is <code>projects/PROJECT_ID/locations/LOCATION/policyBindings/BINDING_ID</code> .</li>
+</ul>
+<p>The following parameters are optional:</p>
+<ul>
+<li><code>etag</code> (string): Base64-encoded etag value for optimistic concurrency control.</li>
+</ul>
+<p>This tool returns a long-running operation resource whose resolution status can be tracked with <code>get_access_policy_binding_status</code> .</p></td>
+</tr>
+<tr class="even">
+<td><a href="https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/get_access_policy_binding_status"><code>get_access_policy_binding_status</code></a></td>
+<td><p>Gets the status of a long-running operation initiated by creating, updating, or deleting a Unified Access Policy binding. Use this tool to check whether an asynchronous binding mutation has completed successfully ( <code>done: true</code> ) or if any errors occurred during execution.</p>
+<p>This tool requires the <code>name</code> parameter, which is the operation resource name returned by <code>create_access_policy_binding</code> , <code>update_access_policy_binding</code> , or <code>delete_access_policy_binding</code> . The format is <code>operations/OPERATION_ID</code> or <code>projects/PROJECT_ID/locations/LOCATION/operations/OPERATION_ID</code> .</p>
+<p>This tool returns an operation object indicating completion status ( <code>done</code> ), metadata, and final response or error details.</p></td>
+</tr>
 </tbody>
 </table>
 

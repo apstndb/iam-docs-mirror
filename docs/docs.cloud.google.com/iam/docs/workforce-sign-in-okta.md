@@ -286,7 +286,7 @@ To create a workforce identity pool provider for your Okta app integration, usin
 
     1.  In **Client authentication** , select **Client secret** .
 
-    2.  In the **Client Secrets** table, locate the secret and click *content_copy* **Copy** .
+    2.  In the **Client Secrets** table, locate the secret and click **Copy** .
 
     In Google Cloud, to create an OIDC provider that uses [authorization code flow](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#oidc-flow-types) for web sign-in, run the following command:
 
@@ -430,7 +430,7 @@ To create a workforce identity pool provider for your Okta app integration, usin
 
         1.  In **Client authentication** , select **Client secret** .
 
-        2.  In the **Client Secrets** table, locate the secret and click *content_copy* **Copy** .
+        2.  In the **Client Secrets** table, locate the secret and click **Copy** .
 
     <!-- -->
 
@@ -438,7 +438,7 @@ To create a workforce identity pool provider for your Okta app integration, usin
 
     2.  In the **Workforce Identity Pools** table, select the pool for which you want to create the provider.
 
-    3.  In the **Providers** section, click **add Add Provider** .
+    3.  In the **Providers** section, click **Add Provider** .
 
     4.  In the **Select a Provider vendor** list, select your IdP.
 
@@ -504,7 +504,7 @@ To create a workforce identity pool provider for your Okta app integration, usin
 
     2.  In the **Workforce Identity Pools** table, select the pool for which you want to create the provider.
 
-    3.  In the **Providers** section, click **add Add Provider** .
+    3.  In the **Providers** section, click **Add Provider** .
 
     4.  In the **Select a Provider vendor** list, select your IdP.
 
@@ -767,7 +767,7 @@ To configure the SAML provider using the Google Cloud console, do the following:
 
 2.  In the **Workforce Identity Pools** table, select the pool for which you want to create the provider.
 
-3.  In the **Providers** section, click **add Add Provider** .
+3.  In the **Providers** section, click **Add Provider** .
 
 4.  In the **Select a Provider vendor** list, select your IdP.
 
@@ -865,7 +865,7 @@ To view the full assertion token, click **View full token** . This shows the raw
 
 To correct any errors, you can edit the configuration:
 
-1.  In the **Validate your provider attributes** page, click **edit Edit** .
+1.  In the **Validate your provider attributes** page, click **Edit** .
 2.  Make the necessary changes.
 3.  To start a new test and see the updated results, click **Save and refetch token** .
 

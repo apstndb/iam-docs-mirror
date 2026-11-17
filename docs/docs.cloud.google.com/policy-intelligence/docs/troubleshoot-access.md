@@ -14,7 +14,7 @@ Policy Troubleshooter helps you understand whether a principal can access a reso
 
 You can access Policy Troubleshooter using the Google Cloud console, the Google Cloud CLI, or the REST API. For basic queries, using the Google Cloud console is typically fastest. For more complex scenarios, consider the gcloud CLI or the REST API.
 
-> **Note:** Policy Troubleshooter does not account for access granted by Cloud Storage [access control lists (ACLs)](https://docs.cloud.google.com/storage/docs/access-control/lists) . It also does not diagnose access issues related to [VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/overview) . To troubleshoot issues with VPC Service Controls, use the [VPC Service Controls violation analyzer](https://docs.cloud.google.com/vpc-service-controls/docs/troubleshooter) .
+> **Note:** Policy Troubleshooter does not account for access granted by Cloud Storage [access control lists (ACLs)](https://docs.cloud.google.com/storage/docs/access-control/lists) or IAM [Unified Access Policies](https://docs.cloud.google.com/iam/docs/unified-access-policies) . It also does not diagnose access issues related to [VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/overview) . To troubleshoot issues with VPC Service Controls, use the [VPC Service Controls violation analyzer](https://docs.cloud.google.com/vpc-service-controls/docs/troubleshooter) .
 
 ## Before you begin
 
@@ -1185,11 +1185,11 @@ The **Policies** pane lists all policies that are bound to a principal set that 
 
 Principal Access Boundary policies can affect a principal's access in the following ways:
 
-- check_circle **Principal is eligible to access the resource** : The Principal Access Boundary policy applies to the principal, and one of its rules contains the queried resource.
+- **Principal is eligible to access the resource** : The Principal Access Boundary policy applies to the principal, and one of its rules contains the queried resource.
 
-- error **Principal is ineligible to access the resource** : The Principal Access Boundary policy applies to the principal, but the queried resource isn't in that policy's rules.
+- **Principal is ineligible to access the resource** : The Principal Access Boundary policy applies to the principal, but the queried resource isn't in that policy's rules.
 
-- do_not_disturb_on **Not enforced** : Principal Access Boundary policies aren't enforced in the following situations:
+- **Not enforced** : Principal Access Boundary policies aren't enforced in the following situations:
 
   - IAM doesn't enforce the specified permission at the Principal Access Boundary policy's [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) . As a result, the Principal Access Boundary policy can't block access.
   - Due to a [condition in the policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#conditions) , the Principal Access Boundary policy or binding doesn't apply to the principal.

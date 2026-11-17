@@ -183,8 +183,14 @@ The Service name `iam.googleapis.com` is needed to create RPC client stubs.
 
 ## [`google.iam.v3.AccessPolicies`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicies)
 
-| Methods |
-|---------|
+| Methods                                                                                                                                                    |                                                                                                                       |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| [`CreateAccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicies.CreateAccessPolicy)                 | Creates a Unified Access Policy, and returns a long running operation.                                                |
+| [`DeleteAccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicies.DeleteAccessPolicy)                 | Deletes a Unified Access Policy.                                                                                      |
+| [`GetAccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicies.GetAccessPolicy)                       | Gets a Unified Access Policy.                                                                                         |
+| [`ListAccessPolicies`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicies.ListAccessPolicies)                 | Lists Unified Access Policies.                                                                                        |
+| [`SearchAccessPolicyBindings`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicies.SearchAccessPolicyBindings) | Returns all policy bindings that bind a specific policy if a user has searchPolicyBindings permission on that policy. |
+| [`UpdateAccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.AccessPolicies.UpdateAccessPolicy)                 | Updates a Unified Access Policy.                                                                                      |
 
 ## [`google.iam.v3.PolicyBindings`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3#google.iam.v3.PolicyBindings)
 
@@ -212,12 +218,12 @@ The Service name `iam.googleapis.com` is needed to create RPC client stubs.
 
 | Methods                                                                                                                                                            |                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [`CreateAccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta#google.iam.v3beta.AccessPolicies.CreateAccessPolicy)                 | Creates an access policy, and returns a long running operation.                                                       |
-| [`DeleteAccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta#google.iam.v3beta.AccessPolicies.DeleteAccessPolicy)                 | Deletes an access policy.                                                                                             |
-| [`GetAccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta#google.iam.v3beta.AccessPolicies.GetAccessPolicy)                       | Gets an access policy.                                                                                                |
-| [`ListAccessPolicies`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta#google.iam.v3beta.AccessPolicies.ListAccessPolicies)                 | Lists access policies.                                                                                                |
+| [`CreateAccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta#google.iam.v3beta.AccessPolicies.CreateAccessPolicy)                 | Creates a Unified Access Policy, and returns a long running operation.                                                |
+| [`DeleteAccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta#google.iam.v3beta.AccessPolicies.DeleteAccessPolicy)                 | Deletes a Unified Access Policy.                                                                                      |
+| [`GetAccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta#google.iam.v3beta.AccessPolicies.GetAccessPolicy)                       | Gets a Unified Access Policy.                                                                                         |
+| [`ListAccessPolicies`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta#google.iam.v3beta.AccessPolicies.ListAccessPolicies)                 | Lists Unified Access Policies.                                                                                        |
 | [`SearchAccessPolicyBindings`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta#google.iam.v3beta.AccessPolicies.SearchAccessPolicyBindings) | Returns all policy bindings that bind a specific policy if a user has searchPolicyBindings permission on that policy. |
-| [`UpdateAccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta#google.iam.v3beta.AccessPolicies.UpdateAccessPolicy)                 | Updates an access policy.                                                                                             |
+| [`UpdateAccessPolicy`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta#google.iam.v3beta.AccessPolicies.UpdateAccessPolicy)                 | Updates a Unified Access Policy.                                                                                      |
 
 ## [`google.iam.v3beta.PolicyBindings`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.v3beta#google.iam.v3beta.PolicyBindings)
 

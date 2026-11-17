@@ -459,7 +459,7 @@ To update an existing workload identity pool, do the following:
 
 4.  To edit the workload identity pool's display name, do the following:
 
-    1.  In the **Pool details** page, next to the display name, click the edit **Edit** icon.
+    1.  In the **Pool details** page, next to the display name, click the **Edit** icon.
     2.  In the **Edit pool display name** dialog that appears, update the display name.
     3.  Click **Save** .
 
@@ -467,7 +467,7 @@ To update an existing workload identity pool, do the following:
 
 6.  To edit the description, do the following:
 
-    1.  In **Description** , next to your description text, click edit **Edit** .
+    1.  In **Description** , next to your description text, click **Edit** .
     2.  Update the description.
     3.  Click **Save** .
 
@@ -617,7 +617,7 @@ To delete a workload identity pool and its IdPs, do the following:
 
 2.  Find the workload identity pool that you want to delete, and then click its display name.
 
-3.  Click delete **Delete pool** , then click **Delete** . The workload identity pool and its IdPs are deleted.
+3.  Click **Delete pool** , then click **Delete** . The workload identity pool and its IdPs are deleted.
 
 ### gcloud
 
@@ -735,7 +735,7 @@ To undelete a pool, do the following:
 
 2.  Click the **Show deleted pools and providers** toggle.
 
-3.  Find the workload identity pool that you want to undelete, then click its undo **Restore** icon.
+3.  Find the workload identity pool that you want to undelete, then click its **Restore** icon.
 
 4.  Click **Restore** . The pool and its providers are restored.
 
@@ -867,7 +867,7 @@ To create a workload identity pool provider in an existing workload identity poo
 
 2.  Find the workload identity pool that you want to add a provider to, and then click its **Display name** .
 
-3.  Click add_box **Add provider** .
+3.  Click **Add provider** .
 
 4.  Select the type of provider to create:
 
@@ -1211,7 +1211,7 @@ To list the workload identity pool providers in a project, do the following:
 
 1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-2.  To view the providers for a workload identity pool, click the arrow_right **Expand node** icon for the pool.
+2.  To view the providers for a workload identity pool, click the **Expand node** icon for the pool.
 
 ### gcloud
 
@@ -1349,9 +1349,9 @@ To get details for a specific workload identity pool provider, do the following:
 
 1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-2.  Find the workload identity pool that contains the provider, then click the arrow_right **Expand node** icon for the pool.
+2.  Find the workload identity pool that contains the provider, then click the **Expand node** icon for the pool.
 
-3.  Find the workload identity pool provider that you want to view, then click its edit **Edit** icon. The Google Cloud console shows detailed information about the provider.
+3.  Find the workload identity pool provider that you want to view, then click its **Edit** icon. The Google Cloud console shows detailed information about the provider.
 
 ### gcloud
 
@@ -1487,9 +1487,9 @@ To update an existing workload identity pool provider, do the following:
 
 1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-2.  Find the workload identity pool that contains the provider, then click the arrow_right **Expand node** icon for the pool.
+2.  Find the workload identity pool that contains the provider, then click the **Expand node** icon for the pool.
 
-3.  Find the workload identity pool provider that you want to edit, then click its edit **Edit** icon.
+3.  Find the workload identity pool provider that you want to edit, then click its **Edit** icon.
 
 4.  Edit the provider's information, then click **Save** .
 
@@ -1705,7 +1705,7 @@ To delete a workload identity pool provider, do the following:
 
 2.  Find the workload identity pool that contains the provider, and then click its **Display name** .
 
-3.  In the **Providers** pane, find the provider that you want to delete, then click its delete **Delete** icon.
+3.  In the **Providers** pane, find the provider that you want to delete, then click its **Delete** icon.
 
 4.  Click **Delete** to delete the provider.
 
@@ -1828,9 +1828,9 @@ You can recover a deleted workload identity pool provider for up to 30 days afte
 
 2.  Click the **Show deleted pools and providers** toggle.
 
-3.  Find the workload identity pool that contains the provider, then click the arrow_right **Expand node** icon for the pool.
+3.  Find the workload identity pool that contains the provider, then click the **Expand node** icon for the pool.
 
-4.  Find the provider that you want to undelete, then click its undo **Restore** icon.
+4.  Find the provider that you want to undelete, then click its **Restore** icon.
 
 5.  Click **Restore** . The provider is restored.
 

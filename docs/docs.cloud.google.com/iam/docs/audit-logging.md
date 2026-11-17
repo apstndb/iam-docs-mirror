@@ -1606,7 +1606,7 @@ The following methods don't produce audit logs:
 
 To use the sample queries in the following table, complete these steps:
 
-1.  Replace the variables in the query expression with your own project information, then copy the expression using the clipboard icon *content_copy* .
+1.  Replace the variables in the query expression with your own project information, then copy the expression using the clipboard icon .
 
 2.  In the Google Cloud console, go to the segment **Logs Explorer** page:
 

@@ -8,7 +8,9 @@ data_source: docs.cloud.google.com
 
 You can use some, but not all, Identity and Access Management (IAM) permissions in [deny policies](https://docs.cloud.google.com/iam/docs/deny-overview) .
 
-Deny policies require the IAM `v2` permission format, which is `SERVICE_FQDN `` / `` RESOURCE `` . `` ACTION` . The value of `SERVICE_FQDN` is typically the value of `SERVICE_ID` from the `v1` API, followed by `.googleapis.com` . For example, the permission to delete a role is `iam.googleapis.com/roles.delete` . Exceptions are documented on this page.
+Deny policies require the fully qualified domain name format for permissions, which is `SERVICE_FQDN `` / `` RESOURCE `` . `` VERB` . This is different from the format used in the IAM `v1` API, which is `SERVICE_ID `` . `` RESOURCE `` . `` VERB` .
+
+The value of `SERVICE_FQDN` is typically the value of `SERVICE_ID` from the `v1` permission format, followed by `.googleapis.com` . For example, the permission to delete a role is `iam.googleapis.com/roles.delete` . Exceptions are documented on this page.
 
 ## Supported permissions
 

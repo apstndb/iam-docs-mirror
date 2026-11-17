@@ -69,7 +69,7 @@ Follow the steps to [edit a policy binding](https://docs.cloud.google.com/iam/do
 
 3.  Click the policy ID of the Principal Access Boundary policy whose rule you want to delete.
 
-4.  In the **Boundary rules** table, select the rules that you want to delete, then click auto_delete **Test delete rules** .
+4.  In the **Boundary rules** table, select the rules that you want to delete, then click **Test delete rules** .
 
 ### Simulate deleting a Principal Access Boundary policy
 
@@ -77,7 +77,7 @@ Follow the steps to [edit a policy binding](https://docs.cloud.google.com/iam/do
 
 2.  Select the organization that owns the Principal Access Boundary policy whose binding you want to delete.
 
-3.  Find the ID of the policy that you want to delete. In that policy's row, click more_vert **Actions** , then click **Test delete policy** .
+3.  Find the ID of the policy that you want to delete. In that policy's row, click **Actions** , then click **Test delete policy** .
 
 ### Simulate deleting a binding for a Principal Access Boundary policy
 
@@ -89,7 +89,7 @@ Follow the steps to [edit a policy binding](https://docs.cloud.google.com/iam/do
 
 4.  Click the **Bindings** tab.
 
-5.  Find the ID of the binding that you want to delete. In that binding's row, click more_vert **Actions** , then click **Test delete binding** .
+5.  Find the ID of the binding that you want to delete. In that binding's row, click **Actions** , then click **Test delete binding** .
 
 ## Understand simulation results
 

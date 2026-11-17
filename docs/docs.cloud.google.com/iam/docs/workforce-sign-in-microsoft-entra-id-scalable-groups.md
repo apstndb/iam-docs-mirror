@@ -357,7 +357,7 @@ Replace the following:
 
 2.  In the **Workforce Identity Pools** table, select the pool for which you want to create the provider.
 
-3.  In the **Providers** section, click **add Add Provider** .
+3.  In the **Providers** section, click **Add Provider** .
 
 4.  In the **Select a Provider vendor** list, select your identity provider (IdP).
 
@@ -610,7 +610,7 @@ Replace the following:
 
 2.  In the **Workforce Identity Pools** table, select the pool for which you want to create the provider.
 
-3.  In the **Providers** section, click **add Add Provider** .
+3.  In the **Providers** section, click **Add Provider** .
 
 4.  In the **Select a Provider vendor** list, select your identity provider (IdP).
 
@@ -862,7 +862,7 @@ Replace the following:
 
 2.  In the **Workforce Identity Pools** table, select the pool for which you want to create the provider.
 
-3.  In the **Providers** section, click **add Add Provider** .
+3.  In the **Providers** section, click **Add Provider** .
 
 4.  In the **Select a Provider vendor** list, select your identity provider (IdP).
 
@@ -967,7 +967,7 @@ To view the full assertion token, click **View full token** . This shows the raw
 
 To correct any errors, you can edit the configuration:
 
-1.  In the **Validate your provider attributes** page, click **edit Edit** .
+1.  In the **Validate your provider attributes** page, click **Edit** .
 2.  Make the necessary changes.
 3.  To start a new test and see the updated results, click **Save and refetch token** .
 

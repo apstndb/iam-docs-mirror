@@ -6,7 +6,7 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This document describes requirements and best practices that you can follow to let customers use your product to access their resources in Google Cloud without using [service account keys](https://docs.cloud.google.com/iam/docs/keys-create-delete) .
+Workload Identity Federation lets you extend your on-premises or software-as-a-service (SaaS) product or service so that your customers can access their resources in Google Cloud without using [service account keys](https://docs.cloud.google.com/iam/docs/keys-create-delete) .
 
 If you offer a product or operate a service that lets customers analyze or manage data or resources, then your customers might want to access data or other resources in their Google Cloud environment. Examples for such products and services include the following:
 
@@ -14,11 +14,9 @@ If you offer a product or operate a service that lets customers analyze or manag
 - **CI/CD products and services** : Your customers might use such services to deploy infrastructure and applications to their Google Cloud projects.
 - **Robotic process automation (RPA)** : Your customers might use RPA for workflows such as creating projects, managing access, or automating administrative tasks in Google Cloud.
 
-To authenticate on-premises or software-as-a-service (SaaS) products to Google Cloud, customers have conventionally relied on service account keys, but these keys can be [challenging to manage and store securely](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) .
+To authenticate on-premises or SaaS products to Google Cloud, customers have conventionally relied on service account keys, but these keys can be [challenging to manage and store securely](https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys) . As a vendor, you can help your customers protect their Google Cloud resources by supporting Workload Identity Federation. Examples for services that already let their customers use Workload Identity Federation include [Terraform Cloud, GitHub](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines) , and [GitLab](https://docs.gitlab.com/ee/ci/cloud_services/google_cloud/) .
 
-As a vendor of an on-premises or SaaS product, you can help your customers protect their Google Cloud resources by letting them use Workload Identity Federation to access their Google Cloud resources. Examples for services that already let their customers use Workload Identity Federation include [Terraform Cloud, GitHub](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines) , and [GitLab](https://docs.gitlab.com/ee/ci/cloud_services/google_cloud/)
-
-This document describes how you can extend your product to support Workload Identity Federation, and describes best practice that you can follow. This document assumes that you're familiar with [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) and [OpenID Connect](https://openid.net/connect/) .
+Following the requirements and best practices in this document helps you support Workload Identity Federation in your product. This document assumes that you're familiar with [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) and [OpenID Connect](https://openid.net/connect/) .
 
 ## Architecture
 

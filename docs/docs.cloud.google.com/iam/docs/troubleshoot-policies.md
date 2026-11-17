@@ -1,12 +1,12 @@
 ---
 name: documents/docs.cloud.google.com/iam/docs/troubleshoot-policies
 uri: https://docs.cloud.google.com/iam/docs/troubleshoot-policies
-title: Troubleshoot policies
-description: Overview of the tools you can use to troubleshoot IAM policies.
+title: Troubleshoot IAM-related policies
+description: Overview of the tools you can use to troubleshoot IAM-related policies.
 data_source: docs.cloud.google.com
 ---
 
-This page describes how to troubleshoot Identity and Access Management (IAM) allow, deny, and Principal Access Boundary policies.
+This page describes how to troubleshoot Identity and Access Management (IAM) allow policies, deny policies, Principal Access Boundary policies, and Unified Access Policies (UAPs).
 
 ## Use Policy Troubleshooter
 
@@ -14,15 +14,73 @@ If you need to troubleshoot access for a specific principal, use Policy Troubles
 
 Policy Troubleshooter helps you understand whether a principal can access a resource. Given a principal, a resource, and a permission, Policy Troubleshooter examines the allow policies, deny policies, and Principal Access Boundary (PAB) policies that impact the principal's access. Then, it tells you whether, based on those policies, the principal can use the specified permission to access the resource. It also lists the relevant policies and explains how they affect the principal's access.
 
+Policy Troubleshooter doesn't support troubleshooting UAPs. To learn how to troubleshoot UAPs, see [Troubleshoot manually](https://docs.cloud.google.com/iam/docs/troubleshoot-policies#manual-troubleshoot) on this page.
+
 To learn how to use Policy Troubleshooter to troubleshoot allow policies, deny policies, and Principal Access Boundary policies, see [Troubleshoot IAM permissions](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access) .
 
-## Required roles
+## Search allow policies
 
-To get the permissions that you need to view all allow and deny policies, ask your administrator to grant you the [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/iam.securityReviewer` ) IAM role on the organization that contains the resource. For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+If you need to find a specific role binding in an allow policy, you can search the allow policy.
 
-You might also be able to get the required permissions through [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
+Cloud Asset Inventory lets you search allow policies for role bindings that match the specified parameters. You can use a variety of search parameters, including the following:
 
-## View all allow and deny policies that apply to a resource
+- Resource type
+- Principal type
+- Role
+- Project
+- Folder
+- Organization
+
+For more information, see [Searching IAM allow policies](https://docs.cloud.google.com/asset-inventory/docs/searching-iam-policies) .
+
+## Troubleshoot manually
+
+To manually troubleshoot a principal's access to a resource, review all of the policies that can affect the principal's access.
+
+### Required roles
+
+To review all of the policies that affect a principal's access, you need permission to view allow policies, deny policies, UAP bindings, and UAPs.
+
+To get the permissions that you need to view all allow and deny policies, ask your administrator to grant you the [Security Reviewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer) ( `roles/iam.securityReviewer` ) IAM role on the organization that contains the resource.
+
+To get the permissions that you need to view all UAP bindings that affect a target resource , ask your administrator to grant you the following IAM roles on the organization that contains the resource:
+
+- [Organization Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` )
+- List bindings for service-specific resources: A role with the permission `SERVICE `` . `` RESOURCE `` .searchPolicyBindings` , where `RESOURCE` is the resource type and `SERVICE` is the service that owns the resource.
+
+For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+
+These predefined roles contain the permissions required to view all UAP bindings that affect a target resource . To see the exact permissions that are required, expand the **Required permissions** section:
+
+#### Required permissions
+
+The following permissions are required to view all UAP bindings that affect a target resource :
+
+- List bindings for organizations: `resourcemanager.organizations.searchPolicyBindings`
+- List bindings for folders: `resourcemanager.folders.searchPolicyBindings`
+- List bindings for projects: `resourcemanager.projects.searchPolicyBindings`
+- List bindings for service-specific resources: `SERVICE `` . `` RESOURCE `` .searchPolicyBindings`
+
+You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
+
+To get the permissions that you need to view all UAP bindings that affect a target resource, ask your administrator to grant you roles that let you list bindings for that resource and that resource's ancestors. These roles must include the permission `SERVICE `` . `` RESOURCE `` .searchPolicyBindings` , where `RESOURCE` is the target resource type and `SERVICE` is the service that owns the resource.
+
+To get the permissions that you need to view all UAPs, ask your administrator to grant you the [Access Policy Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.accessPolicyViewer) ( `roles/iam.accessPolicyViewer` ) IAM role on the organization that contains the resource. For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+
+This predefined role contains the permissions required to view all UAPs. To see the exact permissions that are required, expand the **Required permissions** section:
+
+#### Required permissions
+
+The following permissions are required to view all UAPs:
+
+- List bindings for organizations: `resourcemanager.organizations.searchPolicyBindings`
+- List bindings for folders: `resourcemanager.folders.searchPolicyBindings`
+- List bindings for projects: `resourcemanager.projects.searchPolicyBindings`
+- List bindings for service-specific resources: `SERVICE `` . `` RESOURCE `` .searchPolicyBindings`
+
+You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
+
+### View all allow and deny policies that apply to a resource
 
 In Google Cloud, the following allow and deny policies affect access to a resource:
 
@@ -147,17 +205,27 @@ In some cases, you might only need to view the effective allow policy for a reso
 
 - Use the Cloud Asset API to get the resource's effective allow policy. To learn more, see [Viewing effective IAM policies](https://docs.cloud.google.com/asset-inventory/docs/view-effective-iam-policies) .
 
-## Search allow policies
+### View all Unified Access Policies that apply to a resource
 
-If you need to locate a specific role binding in an allow policy, you can search the allow policy.
+> **Preview — Unified Access Policies (UAPs)**
+>
+> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-Cloud Asset Inventory lets you search allow policies for role bindings that match the specified parameters. You can use a variety of search parameters, including the following:
+To view all UAPs that apply to a target resource, do the following:
 
-- Resource type
-- Principal type
-- Role
-- Project
-- Folder
-- Organization
+### Console
 
-For more information, see [Searching IAM allow policies](https://docs.cloud.google.com/asset-inventory/docs/searching-iam-policies) .
+1.  Identify all of the target resource's parent resources. The parent resources are any projects, folders, and organizations above the resource in the [resource hierarchy](https://docs.cloud.google.com/iam/docs/unified-access-policies#policy-inheritance) .
+2.  [View the UAP bound to each parent resource](https://docs.cloud.google.com/iam/docs/unified-access-policies-view#uap-list-console) . If the UAP mentions the principal, then it could affect the principal's access to the target resource.
+
+### gcloud
+
+1.  Identify all of the target resource's parent resources. The parent resources are any projects, folders, and organizations above the resource in the [resource hierarchy](https://docs.cloud.google.com/iam/docs/unified-access-policies#policy-inheritance) .
+2.  [List UAP bindings](https://docs.cloud.google.com/iam/docs/unified-access-policies-view#search-target-bindings) for the target resource and each of the target resource's ancestors. Record the policy IDs in each binding.
+3.  [View each UAP](https://docs.cloud.google.com/iam/docs/unified-access-policies-view#get-uap) in each binding that you retrieved. If the UAP mentions the principal, then it could affect the principal's access to the target resource.
+
+### REST
+
+1.  Identify all of the target resource's parent resources. The parent resources are any projects, folders, and organizations above the resource in the [resource hierarchy](https://docs.cloud.google.com/iam/docs/unified-access-policies#policy-inheritance) .
+2.  [List UAP bindings](https://docs.cloud.google.com/iam/docs/unified-access-policies-view#search-target-bindings) for the target resource and each of the target resource's ancestors. Record the policy IDs in each binding.
+3.  [View each UAP](https://docs.cloud.google.com/iam/docs/unified-access-policies-view#get-uap) in each binding that you retrieved. If the UAP mentions the principal, then it could affect the principal's access to the target resource.

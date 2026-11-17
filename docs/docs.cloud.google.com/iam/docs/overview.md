@@ -46,9 +46,14 @@ For more information about principals, see [IAM principals](https://docs.cloud.g
 
 ### Permissions and roles
 
-Permissions determine what operations are allowed on a resource. In IAM, permissions are typically represented in the form `service `` . `` resource `` . `` verb` . Often, permissions correspond one-to-one with REST API methods—for example, the `resourcemanager.projects.list` permission lets you list Resource Manager projects.
+Permissions determine what operations are allowed on a resource. In IAM, permissions are typically represented in one of the following forms:
 
-*You can't directly grant permissions to a principal* . Instead, you give principals permissions by granting them *roles* .
+- `SERVICE `` . `` RESOURCE `` . `` VERB`
+- `SERVICE_FQDN `` / `` RESOURCE `` . `` VERB` , where `SERVICE_FQDN` is the fully qualified domain name of the service—for example, `cloudresourcemanager.googleapis.com` .
+
+Often, permissions correspond one-to-one with REST API methods—for example, the `resourcemanager.projects.list` permission lets you list Resource Manager projects.
+
+With IAM allow policies, *you can't directly grant permissions to a principal* . Instead, you give principals permissions by granting them *roles* .
 
 Roles are collections of permissions. When you grant a role to a principal, you give that principal all of the permissions in that role.
 
@@ -60,7 +65,7 @@ There are three types of roles:
 
 - **Basic roles** : Highly permissive roles that provide broad access to Google Cloud services. These roles can be useful for testing purposes, but shouldn't be used in production environments.
 
-For more information about roles and permissions, see [Roles and permissions](https://docs.cloud.google.com/iam/docs/roles-overview) .
+For more information about IAM roles, see [Roles overview](https://docs.cloud.google.com/iam/docs/roles-overview) .
 
 ### Resources
 
@@ -132,6 +137,8 @@ In addition to allow policies, IAM provides the following access control mechani
   - **Deny policies** : Deny policies prevent principals from using certain permissions, even if they're granted a role with the permission.
 
   - **Principal Access Boundary (PAB) policies** : Principal Access Boundary policies define and enforce the resources a principal is eligible to access. Principals can't access resources that they're not eligible to access, even if they've been granted a role on the resource.
+
+  - **Unified Access Policies (UAPs)** ( [Preview](https://cloud.google.com/products#product-launch-stages) ): UAPs let you grant and deny access to principals in the same policy.
 
   To learn more about these policies, see [Policy types](https://docs.cloud.google.com/iam/docs/policy-types) .
 

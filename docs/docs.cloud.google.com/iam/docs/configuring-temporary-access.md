@@ -60,7 +60,7 @@ To grant expirable access to a project resource:
 
 1.  In the Google Cloud console, go to the **IAM** page.
 
-2.  From the list of principals, locate the desired principal and click the *edit* button.
+2.  From the list of principals, locate the desired principal and click the button.
 
 3.  From the **Edit permissions** panel, locate the desired role to configure a condition for. Then under **IAM condition (optional)** , click **Add IAM condition** .
 
@@ -72,7 +72,7 @@ To grant expirable access to a project resource:
 
     1.  From the **Condition type** drop-down, select **Expiring Access** .
     2.  From the **Operator** drop-down, select **by** .
-    3.  From the **Time** drop-down, click the *date_range* button to select from a date and time range.
+    3.  From the **Time** drop-down, click the button to select from a date and time range.
     4.  Click **Save** to apply the condition.
     5.  After the **Edit condition** panel is closed, click **Save** again from the **Edit permissions** panel to update your allow policy.
 
@@ -384,7 +384,7 @@ To grant access to a project resource for only certain days or hours of the week
 
 1.  In the Google Cloud console, go to the **IAM** page.
 
-2.  From the list of principals, locate the desired principal and click the *edit* button.
+2.  From the list of principals, locate the desired principal and click the button.
 
 3.  From the **Edit permissions** panel, locate the desired role to configure a condition for. Then under **IAM condition (optional)** , click **Add IAM condition** .
 
@@ -395,12 +395,12 @@ To grant access to a project resource for only certain days or hours of the week
     **Condition builder** :
 
     1.  Click **Add** .
-    2.  From the **Condition type** drop-down, select **Time** *arrow_right* **Schedule** *arrow_right* **Day of Week** .
+    2.  From the **Condition type** drop-down, select **Time** **Schedule** **Day of Week** .
     3.  From the **Operator** drop-down, select **After or On** .
     4.  From the **Day of Week** drop-down, select **Monday** .
     5.  From the **Choose a time zone** drop-down, select your desired time zone from the list.
     6.  Ensure that the **And** operator is selected on the left, and then click **Add** again.
-    7.  From the **Condition type** drop-down, select **Time** *arrow_right* **Schedule** *arrow_right* **Day of Week** .
+    7.  From the **Condition type** drop-down, select **Time** **Schedule** **Day of Week** .
     8.  From the **Operator** drop-down, select **Before or On** .
     9.  From the **Day of Week** drop-down, select **Friday** .
     10. From the **Choose a time zone** drop-down, select your desired time zone from the list.
@@ -409,12 +409,12 @@ To grant access to a project resource for only certain days or hours of the week
 
     1.  Ensure that the **And** operator is selected on the left, and then click **Add** again.
 
-    2.  From the **Condition type** drop-down, select **Time** *arrow_right* **Schedule** *arrow_right* **Hour of Day** .
+    2.  From the **Condition type** drop-down, select **Time** **Schedule** **Hour of Day** .
 
         1.  From the **Operator** drop-down, select **After or On** .
         2.  From the **Hour of Day** drop-down, select **9** (9 AM).
         3.  From the **Choose a time zone** drop-down, select your desired time zone from the list.
-        4.  From the **Condition type** drop-down, select **Time** *arrow_right* **Schedule** *arrow_right* **Hour of Day** .
+        4.  From the **Condition type** drop-down, select **Time** **Schedule** **Hour of Day** .
         5.  From the **Operator** drop-down, select **Before or On** . Note that for this selection, "on" will logically evaluate to all times between 17:00 (5 PM) and 17:59 (5:59 PM). To set access to expire at 4:59 PM, ensure the hour is set to 16 instead of 17.
         6.  From the **Hour of Day** drop-down, select **17** (5 PM).
         7.  From the **Choose a time zone** drop-down, select your desired time zone from the list.

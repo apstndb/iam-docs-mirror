@@ -6,7 +6,9 @@ description: 'Configure {{dynamic_data.site_values.cloud_name}} workload identit
 data_source: docs.cloud.google.com
 ---
 
-This page describes the identity types that you can use to configure your workloads' access to Google Cloud resources.
+Workload identities let your workloads on Google Cloud and external platforms authenticate to access Google Cloud resources or authenticate with other workloads using mutual TLS (mTLS). Depending on where your workloads run, you can configure federated identities, service accounts, managed workload identities, or agent identities.
+
+## Overview
 
 Google Cloud provides the following types of identities for workloads:
 

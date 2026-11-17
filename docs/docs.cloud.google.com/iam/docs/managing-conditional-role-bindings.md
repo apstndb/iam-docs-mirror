@@ -50,7 +50,7 @@ To add a conditional role binding to an existing allow policy:
 
 1.  In the Google Cloud console, go to the **IAM** page.
 
-2.  From the list of principals, locate the desired principal and click the edit button.
+2.  From the list of principals, locate the desired principal and click the button.
 
 3.  From the **Edit permissions** panel, locate the desired role to configure a condition for. Then under **IAM condition (optional)** , click **Add IAM condition** .
 
@@ -62,7 +62,7 @@ To add a conditional role binding to an existing allow policy:
 
     1.  From the **Condition type** drop-down, select **Expiring Access** .
     2.  From the **Operator** drop-down, select **by** .
-    3.  From the **Time** drop-down, click the date_range button to select from a date and time range.
+    3.  From the **Time** drop-down, click the button to select from a date and time range.
     4.  Click **Save** to apply the condition.
     5.  Once the **Edit condition** panel is closed, click **Save** again from the **Edit permissions** panel to update your allow policy.
 
@@ -371,7 +371,7 @@ To modify a conditional role binding in an existing allow policy:
 
 1.  In the Google Cloud console, go to the **IAM** page.
 
-2.  From the list of principals, locate the desired principal and click the edit button.
+2.  From the list of principals, locate the desired principal and click the button.
 
 3.  From the **Edit permissions** panel, locate the desired role to configure a condition for. Then under **IAM condition (optional)** , click the name of the existing condition to edit it.
 
@@ -695,11 +695,11 @@ To remove a condition from a role binding in an allow policy:
 
 1.  In the Google Cloud console, go to the **IAM** page.
 
-2.  From the list of principals, locate the desired principal and click the edit button.
+2.  From the list of principals, locate the desired principal and click the button.
 
 3.  From the **Edit permissions** panel, locate the desired role binding. Then under **IAM condition (optional)** , click the name of an existing condition.
 
-4.  In the **Edit condition** panel, click the delete button to remove the condition. You will be prompted to confirm deletion of the condition.
+4.  In the **Edit condition** panel, click the button to remove the condition. You will be prompted to confirm deletion of the condition.
 
 5.  Once the **Edit condition** panel is closed, click **Save** again from the **Edit permissions** panel to update your allow policy.
 

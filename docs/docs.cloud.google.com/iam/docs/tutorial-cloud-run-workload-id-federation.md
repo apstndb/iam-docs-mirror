@@ -6,11 +6,9 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This tutorial describes how to use Workload Identity Federation to authenticate workloads that run outside of Google Cloud so that they can access microservices hosted by Cloud Run. This tutorial is intended for administrators who want to integrate Workload Identity Federation with their existing identity provider (IdP). [Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) lets you connect external workloads to workloads that run in Google Cloud. [Cloud Run](https://docs.cloud.google.com/run) lets you run stateless containerized microservices.
+[Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) lets you connect workloads running outside Google Cloud to stateless containerized microservices hosted on [Cloud Run](https://docs.cloud.google.com/run) . In this tutorial for administrators, you integrate Workload Identity Federation with an existing identity provider (IdP) by configuring Jenkins as your external workload, Keycloak as your IdP, and Cloud Run. Completing these steps shows how to authenticate your Jenkins application with Google Cloud by using [OpenID Connect](https://openid.net/connect/) (OIDC).
 
-This tutorial provides instructions on how to configure Jenkins as your external workload, Keycloak as your IdP, Cloud Run, and Workload Identity Federation. When you complete this tutorial, you can see how Workload Identity Federation lets you authenticate your Jenkins application with Google Cloud by using [OpenID Connect](https://openid.net/connect/) authentication.
-
-> **Note:** This tutorial is intended to demonstrate a concept. Some steps in this tutorial aren't recommended for a production environment. These steps are noted, with recommendations.
+> **Note:** Because this setup demonstrates a concept, some configurations aren't suited for a production environment and include recommendations where applicable.
 
 ## External workload authentication using Workload Identity Federation
 

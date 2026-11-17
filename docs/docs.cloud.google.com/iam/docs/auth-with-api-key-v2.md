@@ -122,7 +122,7 @@ To create an API key auth provider, use the Google Cloud console, the Google Clo
 
 3.  Click **Identity** .
 
-4.  In the **Auth Providers** section, click **add Add auth provider** .
+4.  In the **Auth Providers** section, click **Add auth provider** .
 
 5.  In the **Add auth provider** pane, enter a name and description.
 

@@ -1,7 +1,7 @@
 ---
 name: documents/docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles
 uri: https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles
-title: Services that allow conditional role bindings
+title: Services that permit conditions in allow policies
 description: Fine-grained access control and visibility for centrally managing cloud resources.
 data_source: docs.cloud.google.com
 ---

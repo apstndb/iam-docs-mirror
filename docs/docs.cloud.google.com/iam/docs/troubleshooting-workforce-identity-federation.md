@@ -84,7 +84,7 @@ To troubleshoot workforce identity pool provider attribute mapping issues, do th
 
   To correct any errors, you can edit the configuration:
 
-  1.  In the **Validate your provider attributes** page, click **edit Edit** .
+  1.  In the **Validate your provider attributes** page, click **Edit** .
   2.  Make the necessary changes.
   3.  To start a new test and see the updated results, click **Save and refetch token** .
 

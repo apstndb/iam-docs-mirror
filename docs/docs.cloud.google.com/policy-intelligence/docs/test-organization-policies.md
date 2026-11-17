@@ -65,9 +65,9 @@ You can test a change to a custom constraint, an organization policy that enforc
 
 3.  Do one of the following:
 
-    - To test a new custom constraint, click add **Custom constraint** .
+    - To test a new custom constraint, click **Custom constraint** .
 
-    - To make changes to an existing custom constraint, select it from the list on the **Organization policies** page, and then click edit **Edit constraint** .
+    - To make changes to an existing custom constraint, select it from the list on the **Organization policies** page, and then click **Edit constraint** .
 
 4.  Create or update the custom constraint you want to test.
 
@@ -83,7 +83,7 @@ You can test a change to a custom constraint, an organization policy that enforc
 
     5.  In the **Enforcement method** section, select whether to enforce the constraint on a REST `CREATE` method, or on both `CREATE` and `UPDATE` methods. Not all Google Cloud services support both methods. To see supported methods for each service, find the service in [Supported services](https://docs.cloud.google.com/resource-manager/docs/organization-policy/custom-constraint-supported-services) .
 
-    6.  To define a condition, click edit **Edit condition** .
+    6.  To define a condition, click **Edit condition** .
 
     7.  In the **Add condition** panel, create a CEL condition that refers to a supported service resource, for example `resource.management.autoUpgrade == false` . This field has a maximum length of 1,500 characters. For details about CEL usage, see [Common Expression Language](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-custom-constraints#common_expression_language) . For more information about the service resources you can use in your custom constraints, see [Custom constraint supported services](https://docs.cloud.google.com/resource-manager/docs/organization-policy/custom-constraint-supported-services) .
 
@@ -388,7 +388,7 @@ After you have tested your custom constraint, organization policy, or both, you 
 
 4.  If this simulation report includes changes to no more than one organization policy, you can apply that organization policy as a [dry-run policy](https://docs.cloud.google.com/resource-manager/docs/organization-policy/dry-run-policy) to monitor behavior in production without introducing risk by clicking **Set dry run policy** . The **Policy details** page for the new organization policy page appears.
 
-    You can enforce the organization policy immediately by clicking expand_more and then clicking **Set policy** .
+    You can enforce the organization policy immediately by clicking and then clicking **Set policy** .
 
 ### gcloud
 
@@ -422,7 +422,7 @@ If you are using the Google Cloud console, you can save Policy Simulator results
 
 2.  Select the simulation report you want to save.
 
-3.  Click upload **Export full results** .
+3.  Click **Export full results** .
 
 ### gcloud
 

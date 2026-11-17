@@ -15,7 +15,7 @@ data_source: docs.cloud.google.com
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies/create#examples)
 - [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/folders.locations.accessPolicies/create#try-it)
 
-Creates an access policy, and returns a long running operation.
+Creates a Unified Access Policy, and returns a long running operation.
 
 ### HTTP request
 
@@ -25,16 +25,16 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-| Parameters |                                                                                                                                                                                                                                                                                      |
-|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `parent`   | `string` Required. The parent resource where this access policy will be created. Format: `projects/{projectId}/locations/{location}` `projects/{projectNumber}/locations/{location}` `folders/{folderId}/locations/{location}` `organizations/{organizationId}/locations/{location}` |
+| Parameters |                                                                                                                                                                                                                                                                                                     |
+|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`   | `string` Required. The parent resource where this Unified Access Policy is created. Format: \* `projects/{projectId}/locations/{location}` \* `projects/{projectNumber}/locations/{location}` \* `folders/{folderId}/locations/{location}` \* `organizations/{organizationId}/locations/{location}` |
 
 ### Query parameters
 
-| Parameters       |                                                                                                                                                                                                                                                                                                                                                                      |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `accessPolicyId` | `string` Required. The ID to use for the access policy, which will become the final component of the access policy's resource name. This value must start with a lowercase letter followed by up to 62 lowercase letters, numbers, hyphens, or dots. Pattern, /\[a-z\]\[a-z0-9-.\]{2,62}/. This value must be unique among all access policies with the same parent. |
-| `validateOnly`   | `boolean` Optional. If set, validate the request and preview the creation, but do not actually post it.                                                                                                                                                                                                                                                              |
+| Parameters       |                                                                                                                                                                                                                                                                                                                                                                                      |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `accessPolicyId` | `string` Required. The ID to use for the Unified Access Policy, which will become the final component of the Unified Access Policy's resource name. This value must start with a lowercase letter followed by up to 62 lowercase letters, numbers, hyphens, or dots (/\[a-z\]\[a-z0-9-.\]{2,62}/). This value must be unique among all Unified Access Policies with the same parent. |
+| `validateOnly`   | `boolean` Optional. If set, validate the request and preview the creation, but do not actually post it.                                                                                                                                                                                                                                                                              |
 
 ### Request body
 
@@ -46,8 +46,9 @@ If successful, the response body contains a newly created instance of [`Operatio
 
 ### Authorization scopes
 
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .

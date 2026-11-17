@@ -195,10 +195,10 @@ You can include up to 10 values in the list of allowed roles. All of these value
 
 > **Warning:** Don't include the following types of roles in the list of allowed roles:
 >
-> - Roles with permissions to grant and revoke IAM roles (that is, roles with permission names that end in `setIamPolicy` ).
+> - Roles with permissions to grant access. To learn how to identify these permissions, see [Identify permissions that let users grant access](https://docs.cloud.google.com/iam/docs/deny-access-change-permissions#identify-permissions) .
 > - Custom roles that the limited IAM admin can modify. For example, if the limited IAM admin also has the Role Administrator role ( `roles/iam.roleAdmin` ) on a project, don't allow them to grant or revoke project-level custom roles.
 >
-> Both of these types of roles contain, or could contain, permission to modify allow policies. As a result, limited IAM admins who can grant and revoke these types of roles can give themselves permission to grant and revoke all IAM roles.
+> Both of these types of roles contain, or could contain, the permission to grant access. As a result, limited IAM admins who can grant and revoke these types of roles can give themselves permission to grant and revoke all IAM roles.
 >
 > For example, if a user is a limited IAM admin for a project, and you let them grant or revoke a custom role that they can modify, they could add the `resourcemanager.projects.setIamPolicy` permission to the custom role, then grant themselves that role unconditionally. They would then be able to grant and revoke all IAM roles for the project.
 
@@ -257,7 +257,7 @@ To allow a principal to grant or revoke only certain roles, use the condition ex
 
         If you don't see the name of your resource, click the resource selector, then select your resource.
 
-    3.  In the list of principals, locate the principal that will grant and revoke roles, and click the *edit* button.
+    3.  In the list of principals, locate the principal that will grant and revoke roles, and click the button.
 
     4.  In the **Edit permissions** panel, select the role you chose previously. Then under **IAM condition (optional)** , click **Add IAM condition** .
 
@@ -273,7 +273,7 @@ To allow a principal to grant or revoke only certain roles, use the condition ex
 
         **Warning:** Don't include the following types of roles in the list of allowed roles:
 
-        - Roles with permissions to grant and revoke IAM roles (that is, roles with permission names that end in `setIamPolicy` ).
+        - Roles with permissions to grant access. To learn how to identify these permissions, see [Identify permissions that let users grant access](https://docs.cloud.google.com/iam/docs/deny-access-change-permissions#identify-permissions) .
         - Custom roles that the limited IAM admin can modify. For example, if the limited IAM admin also has the Role Administrator role ( `roles/iam.roleAdmin` ) on a project, don't allow them to grant or revoke project-level custom roles.
 
         Limited IAM admins who can grant and revoke these types of roles can give themselves permission to grant and revoke all IAM roles. See [Writing a condition expression to limit role granting](https://docs.cloud.google.com/iam/docs/setting-limits-on-granting-roles#writing-condition) for more information.
@@ -370,7 +370,7 @@ To allow a principal to grant or revoke only certain roles, use the condition ex
 
       **Warning:** Don't include the following types of roles in the list of allowed roles:
 
-      - Roles with permissions to grant and revoke IAM roles (that is, roles with permission names that end in `setIamPolicy` ).
+      - Roles with permissions to grant access. To learn how to identify these permissions, see [Identify permissions that let users grant access](https://docs.cloud.google.com/iam/docs/deny-access-change-permissions#identify-permissions) .
       - Custom roles that the limited IAM admin can modify. For example, if the limited IAM admin also has the Role Administrator role ( `roles/iam.roleAdmin` ) on a project, don't allow them to grant or revoke project-level custom roles.
 
       Limited IAM admins who can grant and revoke these types of roles can give themselves permission to grant and revoke all IAM roles. See [Writing a condition expression to limit role granting](https://docs.cloud.google.com/iam/docs/setting-limits-on-granting-roles#writing-condition) for more information.
@@ -526,7 +526,7 @@ To allow a principal to grant or revoke only certain roles, use the condition ex
 
       **Warning:** Don't include the following types of roles in the list of allowed roles:
 
-      - Roles with permissions to grant and revoke IAM roles (that is, roles with permission names that end in `setIamPolicy` ).
+      - Roles with permissions to grant access. To learn how to identify these permissions, see [Identify permissions that let users grant access](https://docs.cloud.google.com/iam/docs/deny-access-change-permissions#identify-permissions) .
       - Custom roles that the limited IAM admin can modify. For example, if the limited IAM admin also has the Role Administrator role ( `roles/iam.roleAdmin` ) on a project, don't allow them to grant or revoke project-level custom roles.
 
       Limited IAM admins who can grant and revoke these types of roles can give themselves permission to grant and revoke all IAM roles. See [Writing a condition expression to limit role granting](https://docs.cloud.google.com/iam/docs/setting-limits-on-granting-roles#writing-condition) for more information.

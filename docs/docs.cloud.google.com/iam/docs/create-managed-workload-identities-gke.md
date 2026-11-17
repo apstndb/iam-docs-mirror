@@ -6,7 +6,9 @@ description: Configure managed workload identities with mTLS for GKE and enable 
 data_source: docs.cloud.google.com
 ---
 
-This document describes how to configure [managed workload identities](https://docs.cloud.google.com/iam/docs/managed-workload-identity) for Google Kubernetes Engine (GKE) in your GKE fleet-managed clusters. It also describes how to deploy a workload and verify the workload's identity and certificate.
+[Managed workload identities](https://docs.cloud.google.com/iam/docs/managed-workload-identity) for Google Kubernetes Engine (GKE) let you provision X.509 certificates for workloads in fleet-managed clusters to establish mutual TLS (mTLS) authentication. After you configure a certificate authority (CA), you can deploy workloads and verify their identities and certificates.
+
+## Overview
 
 To set up and use managed workload identities for GKE, complete the following steps:
 

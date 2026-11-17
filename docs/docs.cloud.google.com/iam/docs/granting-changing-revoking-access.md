@@ -411,13 +411,13 @@ To grant a single role to a principal, do the following:
 
 3.  Select a principal to grant a role to:
 
-    - To grant a role to a principal who already has other roles on the resource, find a row containing the principal, click edit **Edit principal** in that row, and click add **Add another role** .
+    - To grant a role to a principal who already has other roles on the resource, find a row containing the principal, click **Edit principal** in that row, and click **Add another role** .
 
       To grant a role to a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
 
       > **Note:** You cannot edit inherited roles when managing access to a resource. To edit inherited roles, go to the resource where the role was granted.
 
-    - To grant a role to a principal who doesn't have any existing roles on the resource, click person_add **Grant Access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
+    - To grant a role to a principal who doesn't have any existing roles on the resource, click **Grant Access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
 
 4.  Click **Select a role** , then search for a role to grant based on the following:
 
@@ -442,8 +442,8 @@ To grant a role to a principal for more than one project, folder, or organizatio
 
 4.  Select a principal to grant a role to:
 
-    - To grant a role to a principal who already has other roles, find a row containing the principal, click edit **Edit principal** in that row, and click add **Add another role** .
-    - To grant a role to a principal who does not already have other roles, click person_add **Grant access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
+    - To grant a role to a principal who already has other roles, find a row containing the principal, click **Edit principal** in that row, and click **Add another role** .
+    - To grant a role to a principal who does not already have other roles, click **Grant access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
 
 5.  Click **Select a role** , then search for a role to grant based on the following:
 
@@ -528,11 +528,11 @@ To revoke a single role from a principal, do the following:
 
 2.  Select a project, folder, or organization.
 
-3.  Find the row containing the principal whose access you want to revoke. Then, click edit **Edit principal** in that row.
+3.  Find the row containing the principal whose access you want to revoke. Then, click **Edit principal** in that row.
 
     > **Note:** You cannot edit inherited roles when managing access to a resource. To edit inherited roles, go to the resource where the role was granted.
 
-4.  Click the **Delete** delete button for the role that you want to revoke, and then click **Save** .
+4.  Click the **Delete** button for the role that you want to revoke, and then click **Save** .
 
 ### gcloud
 
@@ -588,20 +588,20 @@ You can use the Google Cloud console to grant and revoke multiple roles for a si
 
 3.  Select the principal whose roles you want to modify:
 
-    - To modify roles for a principal who already has roles on the resource, find a row containing the principal, click edit **Edit principal** in that row, and click add **Add another role** .
+    - To modify roles for a principal who already has roles on the resource, find a row containing the principal, click **Edit principal** in that row, and click **Add another role** .
 
       To modify roles for a [service agent](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) , select the **Include Google-provided role grants** checkbox to see its email address.
 
       > **Note:** You cannot edit inherited roles when managing access to a resource. To edit inherited roles, go to the resource where the role was granted.
 
-    - To grant roles to a principal who doesn't have any roles on the resource, click person_add **Grant Access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
+    - To grant roles to a principal who doesn't have any roles on the resource, click **Grant Access** , then enter a [principal identifier](https://docs.cloud.google.com/iam/docs/principal-identifiers) —for example, `my-user@example.com` or `//iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` .
 
 4.  Modify the principal's roles:
 
     - To grant a role to a principal who doesn't have any existing roles on the resource, click **Select a role** , then search for a role to grant.
     - To grant an additional role to the principal, click **Add another role** , then search for a role to grant.
     - To replace one of the principal's roles with a different role, click the existing role, then search for a different role to grant.
-    - To revoke one of the principal's roles, click the **Delete** delete button for each role that you want to revoke.
+    - To revoke one of the principal's roles, click the **Delete** button for each role that you want to revoke.
 
     You can also [add a condition](https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings#add) to a role, [modify a role's condition](https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings#modify) , or [remove a role's condition](https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings#removing) .
 

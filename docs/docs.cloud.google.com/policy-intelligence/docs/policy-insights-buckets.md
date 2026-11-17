@@ -65,7 +65,7 @@ To list all bucket-level policy insights for your project, use one of the follow
 
 1.  In the Google Cloud console, go to the **Buckets** page.
 
-2.  Find the **Security insights** column in the table. If the **Security insights** column is not visible, click view_column **Column display options** and select **Security insights** .
+2.  Find the **Security insights** column in the table. If the **Security insights** column is not visible, click **Column display options** and select **Security insights** .
 
     This column shows a summary of all policy insights for the bucket. Each summary indicates the total number of excess permissions for all roles granted on that bucket.
 
@@ -254,7 +254,7 @@ To get more information about a single insight, including the insight's descript
 
 3.  Find the **Security insights** column in the table. This column shows a summary of all policy insights for the bucket. Each summary indicates the total number of excess permissions for all roles granted on that bucket.
 
-    If the **Security insights** column is not visible, click view_column **Column display options** and select **Security insights** . Then, find the column in the table.
+    If the **Security insights** column is not visible, click **Column display options** and select **Security insights** . Then, find the column in the table.
 
 4.  Find the bucket whose insights you want to view and click the policy insights summary in that row. This opens a pane that lists all principals who have a role on the bucket, their roles, and any policy insights associated with those roles.
 

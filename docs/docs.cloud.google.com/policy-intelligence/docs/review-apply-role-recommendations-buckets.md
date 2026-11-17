@@ -83,7 +83,7 @@ You can review and apply bucket-level role recommendations with the Google Cloud
 
 1.  In the Google Cloud console, go to the Cloud Storage **Buckets** page.
 
-2.  Find the **Security insights** column. If the column is not visible, click **Column display options** view_column and select **Security insights** .
+2.  Find the **Security insights** column. If the column is not visible, click **Column display options** and select **Security insights** .
 
     The **Security insights** column shows a summary of all policy insights for a bucket. Each summary indicates the total number of excess permissions for all roles granted on that bucket.
 
@@ -676,7 +676,7 @@ You can view the recommendations history for a bucket in the Google Cloud consol
 
 1.  In the Google Cloud console, go to the **Buckets** page.
 
-2.  Find the **Security insights** column. If the column is not visible, click **Column display options** view_column and select **Security insights** .
+2.  Find the **Security insights** column. If the column is not visible, click **Column display options** and select **Security insights** .
 
 3.  Find the bucket whose recommendation history you want to view, then click the security insight summary in that row.
 
@@ -684,7 +684,7 @@ You can view the recommendations history for a bucket in the Google Cloud consol
 
     The Google Cloud console shows a list of previous actions on your role recommendations.
 
-5.  To view details about a recommendation, click the expand_more expander arrow.
+5.  To view details about a recommendation, click the expander arrow.
 
     The Google Cloud console shows details about the action that was taken, including the principal that took the action:
 

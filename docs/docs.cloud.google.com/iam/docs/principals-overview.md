@@ -71,6 +71,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
+<li><strong>Unified Access Policy (UAP)</strong></li>
 </ul>
 <p>The following policy types don't support Google Accounts:</p>
 <ul>
@@ -86,6 +87,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
+<li><strong>UAP</strong></li>
 </ul>
 <p>The following policy types don't support service accounts:</p>
 <ul>
@@ -101,6 +103,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
+<li><strong>UAP</strong></li>
 </ul>
 <p>The following policy types don't support a set of service accounts:</p>
 <ul>
@@ -115,11 +118,13 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <td><p>The following policy types support a set of service agents:</p>
 <ul>
 <li><strong>Deny</strong></li>
+<li><strong>UAP deny rules</strong></li>
 </ul>
 <p>The following policy types don't support a set of service agents:</p>
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Principal Access Boundary</strong></li>
+<li><strong>UAP allow rules</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -135,6 +140,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
+<li><strong>UAP</strong></li>
 </ul>
 <p>The following policy types don't support Google groups:</p>
 <ul>
@@ -155,6 +161,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
 <li><strong>Principal Access Boundary</strong></li>
+<li><strong>UAP</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -176,10 +183,11 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Deny</strong></li>
 <li><strong>Principal Access Boundary</strong></li>
+<li><strong>UAP</strong></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><a href="https://docs.cloud.google.com/iam/docs/principals-overview#all-users"><code>allUsers</code></a></td>
+<td><a href="https://docs.cloud.google.com/iam/docs/principals-overview#all-users"><code>allUsers</code> or <code>principalSet://goog/public:all</code></a></td>
 <td>A special identifier that represents anyone who is on the internet—authenticated and unauthenticated.</td>
 <td><p>Principal set that can contain the following principal types:</p>
 <ul>
@@ -189,14 +197,16 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <li>Workload identities</li>
 </ul></td>
 <td>Both</td>
-<td><p>The following policy types support <code>allUsers</code> :</p>
+<td><p>The following policy types support <code>allUsers</code> or <code>principalSet://goog/public:all</code> :</p>
 <ul>
 <li><strong>Allow</strong> (for some resources)</li>
 <li><strong>Deny</strong></li>
+<li><strong>UAP deny rules</strong></li>
 </ul>
-<p>The following policy types don't support <code>allUsers</code> :</p>
+<p>The following policy types don't support <code>allUsers</code> or <code>principalSet://goog/public:all</code> :</p>
 <ul>
 <li><strong>Principal Access Boundary</strong></li>
+<li><strong>UAP allow rules</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -208,6 +218,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
+<li><strong>UAP</strong></li>
 </ul>
 <p>The following policy types don't support a single principal in a workforce identity pool:</p>
 <ul>
@@ -224,6 +235,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
 <li><strong>Principal Access Boundary</strong></li>
+<li><strong>UAP</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -235,6 +247,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
+<li><strong>UAP</strong></li>
 </ul>
 <p>The following policy types don't support a single principal in a workload identity pool:</p>
 <ul>
@@ -251,6 +264,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
 <li><strong>Principal Access Boundary</strong></li>
+<li><strong>UAP</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -258,25 +272,27 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <td>A workload (or machine user) running on and federated through GKE.</td>
 <td>Principal set that can contain one or more federated workload identities</td>
 <td>Federated</td>
-<td><p>The following policy types support GKE pods:</p>
+<td><p>The following policy types support GKE Pods:</p>
 <ul>
 <li><strong>Allow</strong></li>
 </ul>
-<p>The following policy types don't support GKE pods:</p>
+<p>The following policy types don't support GKE Pods:</p>
 <ul>
 <li><strong>Deny</strong></li>
 <li><strong>Principal Access Boundary</strong></li>
+<li><strong>UAP</strong></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><a href="https://docs.cloud.google.com/iam/docs/principals-overview#agent-identity">Agent identities</a></td>
-<td>An identity for an agentic workload that is strongly attested is tied to the lifecycle of the agent.</td>
+<td>An identity for an agentic workload that is strongly attested and is tied to the lifecycle of the agent.</td>
 <td>Single principal</td>
 <td>Google-managed</td>
 <td><p>The following policy types support agent identities:</p>
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
+<li><strong>UAP</strong></li>
 </ul>
 <p>The following policy types don't support individual agent identities:</p>
 <ul>
@@ -285,17 +301,15 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 </tr>
 <tr class="odd">
 <td><a href="https://docs.cloud.google.com/iam/docs/principals-overview#agent-identity">A set of agent identities</a></td>
-<td>All agent identities in a project, folder, or organization.</td>
+<td>All agent identities in a trust domain.</td>
 <td>Principal set that contains agent identities.</td>
 <td>Google-managed</td>
 <td><p>The following policy types support a set of agent identities:</p>
 <ul>
 <li><strong>Allow</strong></li>
-<li><strong>Principal Access Boundary</strong> (only for agent identities in a project)</li>
-</ul>
-<p>The following policy types don't support sets of agent identities:</p>
-<ul>
 <li><strong>Deny</strong></li>
+<li><strong>Principal Access Boundary</strong> (only for agent identities in a project)</li>
+<li><strong>UAP</strong></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -317,6 +331,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
+<li><strong>UAP</strong></li>
 </ul></td>
 </tr>
 </tbody>
@@ -332,6 +347,7 @@ The following examples show how you can identify a Google Account in different t
 
 - **Allow policies** : `user:alex@example.com`
 - **Deny policies** : `principal://goog/subject/alex@example.com`
+- **UAPs** : `principal://goog/subject/alex@example.com`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -361,11 +377,13 @@ The following examples show how you can identify an individual service account i
 
 - **A service account in allow policies** : `serviceAccount:my-service-account@my-project.iam.gserviceaccount.com`
 - **A service account in deny policies** : `principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com`
+- **A service account in UAPs** : `principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com`
 
 The following examples show how you can identify all service accounts for a project, folder, or organization in different types of policies:
 
 - **All service accounts for a project in allow policies** : `principalSet://cloudresourcemanager.googleapis.com/projects/123456789012/type/ServiceAccount`
 - **All service agents associated with a folder in deny policies** : `principalSet://cloudresourcemanager.googleapis.com/folders/123456789012/type/ServiceAgent`
+- **All service accounts for an organization in UAPs** : `principalSet://cloudresourcemanager.googleapis.com/organizations/123456789012/type/ServiceAccount`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -388,6 +406,7 @@ The following examples show how you can identify a Google group in different typ
 
 - **Allow policies** : `group:my-group@example.com`
 - **Deny policies** : `principalSet://goog/group/my-group@example.com`
+- **UAPs** : `principalSet://goog/group/my-group@example.com`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -405,6 +424,7 @@ The following examples show how you can identify a domain in different types of 
 
 - **Allow policies** : `domain:example.com`
 - **Deny policies** : `principalSet://goog/cloudIdentityCustomerId/C01Abc35`
+- **UAPs** : `principalSet://goog/cloudIdentityCustomerId/C01Abc35`
 - **Principal Access Boundary policies** : `//iam.googleapis.com/locations/global/workspace/C01Abc35`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
@@ -449,7 +469,7 @@ Some resource types don't support this principal type.
 The following examples show how the `allUsers` identifier might look in different types of policies:
 
 - **Allow policies on supported resource types** : `allUsers`
-- **Deny policies** : `principalSet://goog/public:all`
+- **Deny policies and UAP deny rules** : `principalSet://goog/public:all`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -491,7 +511,7 @@ To learn more about principal identifier formats, see [Principal identifiers](ht
 
 Workloads running on GKE use [Workload Identity Federation for GKE](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/workload-identity) to access Google Cloud services. For more information about principal identifiers for GKE Pods, see [Reference Kubernetes resources in IAM policies](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/workload-identity#kubernetes-resources-iam-policies) .
 
-The following example shows how you can identify all GKE pods in a specific cluster in an allow policy:
+The following example shows how you can identify all GKE Pods in a specific cluster in an allow policy:
 
 ```
 principalSet://iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/123456789012.svc.id.goog/kubernetes.cluster/https://container.googleapis.com/v1/projects/123456789012/locations/global/clusters/example-gke-cluster
@@ -546,5 +566,5 @@ To learn more about principal identifier formats, see [Principal identifiers](ht
 
 ## What's next
 
-- Learn about the [policy types](https://docs.cloud.google.com/iam/docs/policy-types) that IAM supports
-- [Grant a principal a role](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) on a Resource Manager project, folder, or organization
+- Learn about the [policy types](https://docs.cloud.google.com/iam/docs/policy-types) that IAM supports.
+- [Grant a principal a role](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) on a Resource Manager project, folder, or organization.

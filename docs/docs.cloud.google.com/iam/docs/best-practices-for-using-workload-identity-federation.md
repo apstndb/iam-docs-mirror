@@ -6,18 +6,16 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-Workload Identity Federation lets applications running outside Google Cloud impersonate a service account by using credentials from an external identity provider.
+[Workload Identity Federation](https://docs.cloud.google.com/iam/docs/workload-identity-federation) lets your applications running outside Google Cloud impersonate a service account by using credentials from an external identity provider (IdP). Using the authentication mechanisms that your external environment provides helps you improve security and [replace service account keys](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts#using_service_accounts) .
 
-Using Workload Identity Federation can help you improve security by letting applications use the authentication mechanisms that the external environment provides and can help [replace service account keys](https://docs.cloud.google.com/iam/docs/best-practices-service-accounts#using_service_accounts) .
-
-To use Workload Identity Federation securely, you must configure it in a way that protects you from the following threats:
+To use Workload Identity Federation securely, you must configure it in a way that helps protect you from the following threats:
 
 - **Spoofing:** A bad actor might attempt to spoof another user's identity to gain unauthorized access to Google Cloud resources.
 - **Privilege escalation:** A bad actor might take advantage of Workload Identity Federation to gain access to resources they otherwise wouldn't have access to.
 - **Non-repudiation:** A bad actor might conceal their identity and actions by using external credentials that make it difficult to trace actions back to them.
 - **Malicious credential configurations:** A bad actor could provide a malicious credential configuration to circumvent your security defenses.
 
-This guide presents best practices for deciding when to use Workload Identity Federation, and how to configure it in a way that helps you minimize risks.
+Following best practices helps you decide when to use Workload Identity Federation and how to configure it to help you minimize security risks.
 
 ## When to use Workload Identity Federation
 

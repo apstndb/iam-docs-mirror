@@ -12,8 +12,6 @@ Large organizations often have an extensive set of Google Cloud policies to cont
 
 [Go to the Policy Intelligence product page for more.](https://cloud.google.com/security/products/policy-intelligence)
 
-format_list_numbered
-
 ### Guides
 
 - [Policy Intelligence tools](https://docs.cloud.google.com/policy-intelligence/docs/overview)
@@ -28,15 +26,11 @@ format_list_numbered
 
 - [Test IAM allow policy changes](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview)
 
-find_in_page
-
 ### Reference
 
 - [REST API](https://docs.cloud.google.com/policy-intelligence/docs/apis)
 
 - [Client libraries](https://docs.cloud.google.com/policy-intelligence/docs/reference/libraries)
-
-info
 
 ### Resources
 

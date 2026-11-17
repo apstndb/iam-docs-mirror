@@ -217,7 +217,7 @@ Deny policies override allow policies. If a principal is granted a role that con
 
 2.  Select a project, folder, or organization.
 
-3.  Click add_box **Create deny policy** .
+3.  Click **Create deny policy** .
 
 4.  In the **Policy name** section, define the policy ID by doing one of the following:
 
@@ -234,15 +234,15 @@ Deny policies override allow policies. If a principal is granted a role that con
 
         > **Note** : If a principal set in the list of denied principals includes [service agents](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) —for example, the principal set `principalSet://goog/public:all` —then we recommend adding your service agents as exceptions in the deny rule. This helps ensure that your services continue to function properly. When adding service agents as exceptions, use the project, folder, or organization's [service agent principal set](https://docs.cloud.google.com/iam/docs/principal-identifiers#deny-service-agent-principal-sets) .
 
-    3.  In the **Denied permissions** sections, add the permissions that you want to deny. The permissions must be [supported in deny policies](https://docs.cloud.google.com/iam/docs/deny-permissions-support) .
+    3.  In the **Denied permissions** section, add the permissions that you want to deny. The permissions must be [supported in deny policies](https://docs.cloud.google.com/iam/docs/deny-permissions-support) .
 
         In some cases, you can also use permission groups to deny sets of permissions. For more information, see [Permission groups](https://docs.cloud.google.com/iam/docs/deny-overview#permission-groups) .
 
     4.  Optional: Add exception permissions. Exception permissions are permissions that you don't want this deny rule to deny, even if they're included in the list of denied permissions. For example, you can use this field to make exceptions for specific permissions in a permission group.
 
-        To add exception permissions, click **Exception permissions** , click add **Add another permission** , and then enter the permission in the **Permission 1** field. Continue adding permissions until you've added all permissions that you want to exempt from the deny policy.
+        To add exception permissions, click **Exception permissions** , click **Add another permission** , and then enter the permission in the **Permission 1** field. Continue adding permissions until you've added all permissions that you want to exempt from the deny policy.
 
-    5.  Optional: Add a denial condition to specify when the principals can't use the permission. To add a denial condition, click add **Add denial condition** , and then define the following fields:
+    5.  Optional: Add a denial condition to specify when the principals can't use the permission. To add a denial condition, click **Add denial condition** , and then define the following fields:
 
         - **Title** : Optional. A brief summary of the purpose of the condition.
 
@@ -338,7 +338,7 @@ Provide the following values:
 
 - `POLICY_FILE` : The filepath for the JSON file that contains the deny policy.
 
-By default, if this command succeeds, it does not print any output. To print a detailed response, add the flag `--format=json` to the command.
+If successful, this command returns no output. To print a detailed response, use the `--format=json` flag.
 
 For example, the following command creates a deny policy named `my-deny-policy` for the project `my-project` , using a file named `policy.json` :
 
@@ -964,7 +964,7 @@ You should receive a JSON response similar to the following:
     "displayName": "My deny policy.",
     "etag": "MTc3NDU4MjM4OTY0MzU5MjQ5OTI=",
     "createTime": "2022-06-28T19:06:12.455151Z",
-    "updateTime": "2022-06-28T22:26:21.968687Z"
+    "updateTime": "2022-06-28T22:26:21.968687Z",
     "rules": [
       {
         "denyRule": {
@@ -1674,13 +1674,13 @@ You can update a deny policy using the Google Cloud console, or using one of the
 
 3.  In the **Policy ID** column, click the ID of the policy that you want to edit.
 
-4.  Click edit **Edit** .
+4.  Click **Edit** .
 
 5.  Update the deny policy:
 
     - To change the policy display name, edit the **Display name** field.
     - To edit an existing deny rule, click the deny rule, and then modify the rule's principals, exception principals, denied permissions, exception permissions, or denial condition.
-    - To remove a deny rule, find the deny rule that you want to delete, and then click delete **Delete** in that row.
+    - To remove a deny rule, find the deny rule that you want to delete, and then click **Delete** in that row.
     - To add a deny rule, click **Add deny rule** , and then create a deny rule like you do when you [create a deny policy](https://docs.cloud.google.com/iam/docs/deny-access#create-deny-policy) .
 
 6.  When you're done updating the deny policy, click **Save** .
@@ -2071,7 +2071,7 @@ Provide the following values:
 
 - `POLICY_FILE` : The filepath for the JSON file that contains the deny policy.
 
-By default, if this command succeeds, it does not print any output. To print a detailed response, add the flag `--format=json` to the command.
+If successful, this command returns no output. To print a detailed response, use the `--format=json` flag.
 
 For example, the following command updates a deny policy named `my-deny-policy` for the project `my-project` , using a file named `policy.json` :
 
@@ -2692,7 +2692,7 @@ If you omit the `etag` from the request, IAM deletes the policy unconditionally.
 
 3.  In the **Policy ID** column, click the ID of the policy that you want to delete.
 
-4.  Click delete **Delete** . In the confirmation dialog, click **Confirm** .
+4.  Click **Delete** . In the confirmation dialog, click **Confirm** .
 
 ### gcloud
 
@@ -2712,7 +2712,7 @@ Provide the following values:
 
 Optionally, you can add the flag `--etag= `` ETAG` . Replace `ETAG` with the current `etag` value for the deny policy.
 
-By default, if this command succeeds, it does not print any output. To print a detailed response, add the flag `--format=json` to the command.
+If successful, this command returns no output. To print a detailed response, use the `--format=json` flag.
 
 For example, the following command deletes a deny policy named `my-deny-policy` from the project `my-project` :
 

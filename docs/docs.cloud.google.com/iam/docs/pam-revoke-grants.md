@@ -22,7 +22,7 @@ To revoke a specific grant made against an entitlement, complete the following i
 
 3.  Click the **Grants** tab, followed by the **Grants for all users** tab. This contains all grants across all requesters, the grant statuses, and their associated entitlement details.
 
-4.  In the table, click more_vert **More options** in the same row as a grant you want to revoke.
+4.  In the table, click **More options** in the same row as a grant you want to revoke.
 
 5.  To revoke an active grant, click **Revoke grant** .
 
@@ -32,7 +32,7 @@ To revoke all active grants made against an entitlement, complete the following 
 
 2.  Click the **Entitlements** tab, followed by the **Entitlements for all users** tab. Here you can find the available entitlements, the roles they grant, and their valid requesters and approvers.
 
-3.  In the table, click more_vert **More options** in the same row as an entitlement you want to revoke the grants for.
+3.  In the table, click **More options** in the same row as an entitlement you want to revoke the grants for.
 
 4.  Click **Revoke all grants** .
 

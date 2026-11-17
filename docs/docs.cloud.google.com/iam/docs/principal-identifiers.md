@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/principal-identifiers
 uri: https://docs.cloud.google.com/iam/docs/principal-identifiers
 title: Principal identifiers
-description: Understand principal identifier formats for Identity and Access Management (IAM) allow, deny, PAB, and access policies.
+description: Understand principal identifier formats for Identity and Access Management (IAM) allow, deny, Principal Access Boundary, and Unified Access Policies.
 data_source: docs.cloud.google.com
 ---
 
@@ -337,9 +337,13 @@ To learn which principals are included in each of these principal sets, see [Sup
 
 <sup>1</sup> [Learn how to find your Cloud Identity customer ID](https://support.google.com/cloudidentity/answer/10070793) .
 
-## Principal types for access policies
+## Principal types for Unified Access Policies
 
-The following table describes the principal identifiers that you can use in access policies. You can use access policies to control access to Eventarc resources. For more information, see the [Eventarc documentation](https://docs.cloud.google.com/eventarc/advanced/docs/control-publishing-access) .
+> **Preview — Unified Access Policies (UAPs)**
+>
+> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
+
+The following table describes the principal identifiers for [Unified Access Policies (UAPs)](https://docs.cloud.google.com/iam/docs/unified-access-policies) , which use the `v3` API.
 
 <table>
 <colgroup>
@@ -354,7 +358,7 @@ The following table describes the principal identifiers that you can use in acce
 </thead>
 <tbody>
 <tr class="odd">
-<td>User</td>
+<td>Google Account</td>
 <td><p><code>principal://goog/subject/ </code><var translate="no"> USER_EMAIL_ADDRESS</var></p>
 <p><strong>Example:</strong> <code>principal://goog/subject/alex@example.com</code></p></td>
 </tr>
@@ -374,20 +378,109 @@ The following table describes the principal identifiers that you can use in acce
 </blockquote></td>
 </tr>
 <tr class="even">
-<td>Group</td>
+<td>All <a href="https://docs.cloud.google.com/iam/docs/service-account-types#service-agents">service agents</a> associated with a project, folder, or organization</td>
+<td><p><code>principalSet://cloudresourcemanager.googleapis.com/ </code><var translate="no"> RESOURCE_TYPE </var><code> / </code><var translate="no"> RESOURCE_NUMBER </var><code> / type/ ServiceAgent</code></p>
+<p><strong>Example for all service agents associated with a project or its descendants:</strong> <code>principalSet://cloudresourcemanager.googleapis.com/ projects/ 123456789012/ type/ ServiceAgent</code></p>
+<p><strong>Example for all service agents associated with a folder or its descendants:</strong> <code>principalSet://cloudresourcemanager.googleapis.com/ folders/ 123456789012/ type/ ServiceAgent</code></p>
+<p><strong>Example for all service agents associated with an organization or its descendants:</strong> <code>principalSet://cloudresourcemanager.googleapis.com/ organizations/ 123456789012/ type/ ServiceAgent</code></p>
+<blockquote>
+<strong>Warning:</strong> Don't deny permissions for service agents—doing so might cause some Google Cloud services to stop working properly. Instead, use these principal sets to exempt service agents from deny rules.
+</blockquote>
+<blockquote>
+<strong>Note</strong> : Moving projects into or out of a folder or organization changes the service agents included in this principal set. For example, if you move a project out of a folder or organization, then this principal set no longer includes that project's service agents.
+</blockquote></td>
+</tr>
+<tr class="odd">
+<td>Google group</td>
 <td><p><code>principalSet://goog/group/ </code><var translate="no"> GROUP_EMAIL_ADDRESS</var></p>
 <p><strong>Example:</strong> <code>principalSet://goog/group/my-group@example.com</code></p></td>
 </tr>
-<tr class="odd">
-<td>All principals <sup>1</sup></td>
+<tr class="even">
+<td>All principals (only supported in <a href="https://docs.cloud.google.com/iam/docs/unified-access-policies#unified-access-policies-rules">deny rules</a> )</td>
 <td><code>principalSet://goog/public:all</code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>All principals in a Cloud Identity account (domain)</td>
 <td><p><code>principalSet://goog/cloudIdentityCustomerId/ </code><var translate="no"> CLOUD_IDENTITY_CUSTOMER_ID </var><sup><var translate="no">1</var></sup></p>
 <p><strong>Example:</strong> <code>principalSet://goog/cloudIdentityCustomerId/C01Abc35</code></p></td>
 </tr>
+<tr class="even">
+<td>Single identity in a workforce identity pool</td>
+<td><code>principal://iam.googleapis.com/locations/global/workforcePools/ </code><var translate="no"> POOL_ID </var><code> /subject/ </code><var translate="no"> SUBJECT_ATTRIBUTE_VALUE</var>
+<p><strong>Example:</strong> <code>principal://iam.googleapis.com/locations/global/workforcePools/altostrat-contractors/subject/raha@altostrat.com</code></p></td>
+</tr>
+<tr class="odd">
+<td>All workforce identities in a group</td>
+<td><code>principalSet://iam.googleapis.com/locations/global/workforcePools/ </code><var translate="no"> POOL_ID </var><code> /group/ </code><var translate="no"> GROUP_ID</var>
+<p><strong>Example using a group email:</strong> <code>principalSet://iam.googleapis.com/locations/global/workforcePools/altostrat-contractors/group/administrators-group@altostrat.com</code></p>
+<p><strong>Example using a group UUID:</strong> <code>principalSet://iam.googleapis.com/locations/global/workforcePools/altostrat-contractors/group/abcdefgh-0123-0123-abcdef</code></p></td>
+</tr>
+<tr class="even">
+<td>All workforce identities with a specific attribute value</td>
+<td><code>principalSet://iam.googleapis.com/locations/global/workforcePools/ </code><var translate="no"> POOL_ID </var><code> /attribute. </code><var translate="no"> ATTRIBUTE_NAME </var><code> / </code><var translate="no"> ATTRIBUTE_VALUE</var>
+<p><strong>Example:</strong> <code>principalSet://iam.googleapis.com/locations/global/workforcePools/altostrat-contractors/attribute.department/administration</code></p></td>
+</tr>
+<tr class="odd">
+<td>All identities in a workforce identity pool</td>
+<td><code>principalSet://iam.googleapis.com/locations/global/workforcePools/ </code><var translate="no"> POOL_ID </var><code> /*</code>
+<p><strong>Example:</strong> <code>principalSet://iam.googleapis.com/locations/global/workforcePools/altostrat-contractors/*</code></p></td>
+</tr>
+<tr class="even">
+<td>Single identity in a workload identity pool</td>
+<td><code>principal://iam.googleapis.com/projects/ </code><var translate="no"> PROJECT_NUMBER </var><code> /locations/global/workloadIdentityPools/ </code><var translate="no"> POOL_ID </var><code> /subject/ </code><var translate="no"> SUBJECT_ATTRIBUTE_VALUE</var></td>
+</tr>
+<tr class="odd">
+<td>Workload identity pool group</td>
+<td><code>principalSet://iam.googleapis.com/projects/ </code><var translate="no"> PROJECT_NUMBER </var><code> /locations/global/workloadIdentityPools/ </code><var translate="no"> POOL_ID </var><code> /group/ </code><var translate="no"> GROUP_ID</var></td>
+</tr>
+<tr class="even">
+<td>All identities in a workload identity pool with a certain attribute</td>
+<td><code>principalSet://iam.googleapis.com/projects/ </code><var translate="no"> PROJECT_NUMBER </var><code> /locations/global/workloadIdentityPools/ </code><var translate="no"> POOL_ID </var><code> /attribute. </code><var translate="no"> ATTRIBUTE_NAME </var><code> / </code><var translate="no"> ATTRIBUTE_VALUE</var></td>
+</tr>
+<tr class="odd">
+<td>All identities in a workload identity pool</td>
+<td><code>principalSet://iam.googleapis.com/projects/ </code><var translate="no"> PROJECT_NUMBER </var><code> /locations/global/workloadIdentityPools/ </code><var translate="no"> POOL_ID </var><code> /*</code></td>
+</tr>
+<tr class="even">
+<td>Agent identity</td>
+<td><p><code>principal:// </code><var translate="no"> TRUST_DOMAIN </var><code> /resources/ </code><var translate="no"> SERVICE </var><code> / </code><var translate="no"> RESOURCE_PATH</var></p>
+<p><strong>Example (Vertex AI Agent Engine in an organization):</strong> <code>principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent</code></p>
+<p><strong>Example (Vertex AI Agent Engine in a project without an organization):</strong> <code>principal://agents.global.proj-9876543210.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent</code></p>
+<p><strong>Example (Gemini Enterprise):</strong> <code>principal://agents.global.org-123456789012.system.id.goog/resources/discoveryengine/projects/9876543210/locations/global/collections/default_collection/engines/my-test-agent</code></p></td>
+</tr>
+<tr class="odd">
+<td>All agent identities in a trust domain</td>
+<td><p><code>principalSet:// </code><var translate="no"> TRUST_DOMAIN </var><code> /*</code></p>
+<p><strong>Example:</strong> <code>principalSet://agents.global.org-123456789012.system.id.goog/*</code></p></td>
+</tr>
+<tr class="even">
+<td>All agent identities in a project</td>
+<td><p><code>principalSet:// </code><var translate="no"> TRUST_DOMAIN </var><code> /attribute.platformContainer/aiplatform/projects/ </code><var translate="no"> PROJECT_NUMBER</var></p>
+<p><strong>Example:</strong> <code>principalSet://agents.global.org-123456789012.system.id.goog/attribute.platformContainer/aiplatform/projects/9876543210</code></p></td>
+</tr>
+<tr class="odd">
+<td>Deleted Google Account <sup>2</sup></td>
+<td><p><code>deleted:principal://goog/subject/ </code><var translate="no"> USER_EMAIL_ADDRESS </var><code> ?uid= </code><var translate="no"> UNIQUE_ID</var></p>
+<p><strong>Example:</strong> <code>deleted:principal://goog/subject/alex@example.com?uid=123456789012345678901</code></p></td>
+</tr>
+<tr class="even">
+<td>Deleted service account <sup>2</sup></td>
+<td><p><code>deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/ </code><var translate="no"> SA_EMAIL_ADDRESS </var><code> ?uid= </code><var translate="no"> UNIQUE_ID</var></p>
+<p><strong>Example:</strong> <code>deleted:principal://iam.googleapis.com/projects/-/serviceAccounts/my-service-account@my-project.iam.gserviceaccount.com?uid=123456789012345678901</code></p></td>
+</tr>
+<tr class="odd">
+<td>Deleted Google group <sup>2</sup></td>
+<td><p><code>deleted:principalSet://goog/group/ </code><var translate="no"> GROUP_EMAIL_ADDRESS </var><code> ?uid= </code><var translate="no"> UNIQUE_ID</var></p>
+<p><strong>Example:</strong> <code>deleted:principalSet://goog/group/my-group@example.com?uid=123456789012345678901</code></p></td>
+</tr>
+<tr class="even">
+<td>Deleted single identity in a workforce identity pool <sup>2</sup></td>
+<td><p><code>deleted:principal://iam.googleapis.com/locations/global/workforcePools/ </code><var translate="no"> POOL_ID </var><code> /subject/ </code><var translate="no"> SUBJECT_ATTRIBUTE_VALUE</var></p>
+<p><strong>Example:</strong> <code>deleted:principal://iam.googleapis.com/locations/global/workforcePools/my-pool-id/subject/my-subject-attribute-value</code></p></td>
+</tr>
 </tbody>
 </table>
 
-<sup>1</sup> This value can only be used in access policies with the `DENY` action.
+<sup>1</sup> [Learn how to find your Cloud Identity customer ID](https://support.google.com/cloudidentity/answer/10070793) .
+
+<sup>2</sup> Don't add deleted principals when creating or modifying policies.

@@ -394,7 +394,7 @@ To use the Google Cloud console to grant IAM roles directly on a resource, you m
 
 3.  Select the **Permissions** tab near the top of the page.
 
-4.  Click the *add_box* **Grant access** button.
+4.  Click the **Grant access** button.
 
     The **Add principals** dialog appears.
 
@@ -677,7 +677,7 @@ To download a credential configuration file in the Google Cloud console, do the 
 
     1.  Select **Connected service accounts** .
 
-    2.  Find the service account you want to use and click file_download **Download** .
+    2.  Find the service account you want to use and click **Download** .
 
     3.  Continue with instructions to **Configure your application** dialog, later in this procedure.
 
@@ -693,7 +693,7 @@ To download a credential configuration file in the Google Cloud console, do the 
 
     **Application ID URL** : Application ID URI of the Azure application
 
-7.  Select file_download **Download config** to download the credential configuration file, then click **Dismiss** .
+7.  Select **Download config** to download the credential configuration file, then click **Dismiss** .
 
 If you want to use the Security Token Service regional endpoints—for example, `https://sts.us-central1.rep.googleapis.com` , refer to [Using regional Security Token Service endpoints for better reliability](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#sts-regional-endpoints) .
 

@@ -94,7 +94,7 @@ To grant access based on a name prefix to Compute Engine disks and instances in 
 
 1.  In the Google Cloud console, go to the **IAM** page.
 
-2.  From the list of principals, locate the desired principal and click the *edit* button.
+2.  From the list of principals, locate the desired principal and click the button.
 
 3.  From the **Edit permissions** panel, locate the desired role to configure a condition for. Then under **IAM condition (optional)** , click **Add IAM condition** .
 

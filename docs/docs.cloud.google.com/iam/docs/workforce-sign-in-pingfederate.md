@@ -182,7 +182,7 @@ This section describes how to create a [workforce identity pool provider](https:
 
     2.  In the **Workforce Identity Pools** table, select the pool that you want to create the provider for.
 
-    3.  In the **Providers** section, click **add Add Provider** .
+    3.  In the **Providers** section, click **Add Provider** .
 
     4.  In the **Select a Provider vendor** list, select **Generic Identity Provider** .
 

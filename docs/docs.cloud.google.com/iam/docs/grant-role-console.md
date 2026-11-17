@@ -62,13 +62,13 @@ Make sure that you have the following role or roles on the project: Project IAM 
 
 2.  Select the project.
 
-3.  Click person_add **Grant access** .
+3.  Click **Grant access** .
 
 4.  In the **New principals** field, enter your user identifier. This is typically the email address for a Google Account.
 
 5.  Click **Select a role** , then search for the role.
 
-6.  To grant additional roles, click add **Add another role** and add each additional role.
+6.  To grant additional roles, click **Add another role** and add each additional role.
 
 7.  Click **Save** .
 
@@ -88,7 +88,7 @@ Grant a principal the Logs Viewer role on the project.
 
 2.  Select your new project.
 
-3.  Click person_add **Grant access** .
+3.  Click **Grant access** .
 
 4.  Enter an identifier for the principal. For example, `my-user@example.com` .
 
@@ -122,7 +122,7 @@ Grant the principal the Compute Viewer role in addition to their Logs Viewer rol
 
 1.  In the Google Cloud console, go to the **IAM** page.
 
-2.  Locate the row that contains the principal to whom you want to grant another role, and click **Edit principal** edit in that row.
+2.  Locate the row that contains the principal to whom you want to grant another role, and click **Edit principal** in that row.
 
 3.  In the **Edit permissions** pane, click **Add another role** .
 
@@ -140,7 +140,7 @@ The principal now has a second IAM role.
 
 Revoke the roles you granted to the principal in the preceding steps by doing the following:
 
-1.  Locate the row that contains the principal that you granted roles to and click **Edit principal** edit in that row.
+1.  Locate the row that contains the principal that you granted roles to and click **Edit principal** in that row.
 
 2.  In the **Edit permissions** pane, click the delete icon next to the Logs Viewer and Compute Viewer roles.
 

@@ -893,7 +893,7 @@ If you have an [organization-level activation of the Premium or Enterprise tier 
 
 To view the inheritance visualization, create an organization policy analysis query for [configured policies](https://docs.cloud.google.com/policy-intelligence/docs/analyze-organization-policies#analyze_policies) , [containers](https://docs.cloud.google.com/policy-intelligence/docs/analyze-organization-policies#analyze_containers) , or [assets](https://docs.cloud.google.com/policy-intelligence/docs/analyze-organization-policies#analyze_assets) . On the **Run query analysis** page, click **Analyze** , and then select **Visualize** .
 
-You can also navigate to the URL of a saved query, select the resources you want to highlight, and then click lan **View inheritance** .
+You can also navigate to the URL of a saved query, select the resources you want to highlight, and then click **View inheritance** .
 
 The **Resource inheritance** page shows a visualization of the resource hierarchy for the resources selected in your analysis query:
 

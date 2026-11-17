@@ -654,7 +654,7 @@ As a best practice, rotate your service account keys regularly. To learn more ab
 
 4.  Click the **Keys** tab.
 
-5.  From the list of keys, click **Delete** delete for each key you'd like to delete.
+5.  From the list of keys, click **Delete** for each key you'd like to delete.
 
 ### gcloud
 

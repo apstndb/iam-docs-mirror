@@ -15,7 +15,7 @@ data_source: docs.cloud.google.com
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/organizations.locations.accessPolicies/patch#examples)
 - [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/organizations.locations.accessPolicies/patch#try-it)
 
-Updates an access policy.
+Updates a Unified Access Policy.
 
 ### HTTP request
 
@@ -40,13 +40,13 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 <tr class="odd">
 <td><code>accessPolicy.name</code></td>
 <td><p><code>string</code></p>
-<p>Identifier. The resource name of the access policy.</p>
+<p>Identifier. The resource name of the Unified Access Policy.</p>
 <p>The following formats are supported:</p>
 <ul>
-<li><code>projects/{projectId}/locations/{location}/accessPolicies/{policyId}</code></li>
-<li><code>projects/{projectNumber}/locations/{location}/accessPolicies/{policyId}</code></li>
-<li><code>folders/{folderId}/locations/{location}/accessPolicies/{policyId}</code></li>
-<li><code>organizations/{organizationId}/locations/{location}/accessPolicies/{policyId}</code></li>
+<li><code>projects/{projectId}/locations/{location}/accessPolicies/{unified_access_policy_id}</code></li>
+<li><code>projects/{projectNumber}/locations/{location}/accessPolicies/{unified_access_policy_id}</code></li>
+<li><code>folders/{folderId}/locations/{location}/accessPolicies/{unified_access_policy_id}</code></li>
+<li><code>organizations/{organizationId}/locations/{location}/accessPolicies/{unified_access_policy_id}</code></li>
 </ul></td>
 </tr>
 </tbody>
@@ -68,8 +68,9 @@ If successful, the response body contains an instance of [`Operation`](https://d
 
 ### Authorization scopes
 
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .

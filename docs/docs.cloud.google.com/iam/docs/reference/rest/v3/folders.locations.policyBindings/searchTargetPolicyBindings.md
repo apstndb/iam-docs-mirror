@@ -92,6 +92,17 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 <p>Optional. A page token, received from a previous <code>SearchTargetPolicyBindingsRequest</code> call. Provide this to retrieve the subsequent page.</p>
 <p>When paginating, all other parameters provided to <code>SearchTargetPolicyBindingsRequest</code> must match the call that provided the page token.</p></td>
 </tr>
+<tr class="even">
+<td><code>filter</code></td>
+<td><p><code>string</code></p>
+<p>Optional. Filtering currently only supports the kind of policies to return, and must be in the format "policyKind={policyKind}".</p>
+<p>If String is empty, bindings bound to all kinds of policies would be returned.</p>
+<p>The only supported values are the following:</p>
+<ul>
+<li>"policyKind=PRINCIPAL_ACCESS_BOUNDARY",</li>
+<li>"policyKind=ACCESS"</li>
+</ul></td>
+</tr>
 </tbody>
 </table>
 
@@ -105,8 +116,9 @@ If successful, the response body contains an instance of [`SearchTargetPolicyBin
 
 ### Authorization scopes
 
-Requires the following OAuth scope:
+Requires one of the following OAuth scopes:
 
 - `https://www.googleapis.com/auth/cloud-platform`
+- `https://www.googleapis.com/auth/iam`
 
 For more information, see the [Authentication Overview](https://docs.cloud.google.com/docs/authentication#authorization-gcp) .

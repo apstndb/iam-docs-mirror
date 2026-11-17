@@ -6,11 +6,9 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This guide describes how to use Workload Identity Federation to let workloads that run on Azure Kubernetes Service (AKS), Amazon Elastic Kubernetes Service, or on a self-hosted Kubernetes cluster authenticate to Google Cloud.
+Workload Identity Federation lets workloads in Azure Kubernetes Service (AKS), Amazon Elastic Kubernetes Service (Amazon EKS), or self-hosted Kubernetes clusters authenticate to Google Cloud. Kubernetes lets you configure a cluster so that workloads can obtain Kubernetes ServiceAccount tokens [from a projected volume](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/#serviceaccount-token-volume-projection) . Workloads can exchange these tokens for short-lived credentials to access Google Cloud APIs without using [service account keys](https://docs.cloud.google.com/iam/docs/service-account-creds#key-types) .
 
-Kubernetes lets you configure a cluster so that workloads can obtain Kubernetes ServiceAccount tokens [from a projected volume](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/#serviceaccount-token-volume-projection) . By setting up Workload Identity Federation, you can let workloads use these Kubernetes ServiceAccount tokens to authenticate to Google Cloud.
-
-If you're using GKE, use [Workload Identity Federation for GKE](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/workload-identity) instead of configuring Workload Identity Federation.
+For workloads running on Google Kubernetes Engine (GKE), use [Workload Identity Federation for GKE](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/workload-identity) instead.
 
 ## Before you begin
 

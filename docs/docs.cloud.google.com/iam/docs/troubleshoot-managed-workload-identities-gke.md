@@ -6,9 +6,9 @@ description: Troubleshoot managed workload identities with mTLS for GKE with cer
 data_source: docs.cloud.google.com
 ---
 
-This document describes resolutions for common [managed workload identities](https://docs.cloud.google.com/iam/docs/managed-workload-identity) errors.
+To diagnose and resolve common [managed workload identities](https://docs.cloud.google.com/iam/docs/managed-workload-identity) errors on Google Kubernetes Engine (GKE), inspect your Pod events, workload identity pools, certificate issuance configurations, and Certificate Authority Service resources. These checks help you resolve Pod deployment, X.509 certificate issuance, and certificate authority (CA) update issues.
 
-If the Google Kubernetes Engine (GKE) workload Pod has failed to be deployed with the mounted certificates, use the following command to check the Pod status:
+If the GKE workload Pod has failed to be deployed with the mounted certificates, use the following command to check the Pod status:
 
 ```
 kubectl describe pod POD_NAME -n POD_NAMESPACE

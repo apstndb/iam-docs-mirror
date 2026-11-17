@@ -219,7 +219,7 @@ The full resource name of the resource to which the policy will be bound. Immuta
 <tr class="odd">
 <td><code>resource</code></td>
 <td><p><code>string</code></p>
-<p>Immutable. The full resource name that's used for access policy bindings.</p>
+<p>Immutable. The full resource name that's used for Unified Access Policy bindings.</p>
 <p>Examples:</p>
 <ul>
 <li>Organization: <code>//cloudresourcemanager.googleapis.com/organizations/ORGANIZATION_ID</code></li>
@@ -246,7 +246,7 @@ The different policy kinds supported in this binding.
 |-----------------------------|--------------------------------------------|
 | `POLICY_KIND_UNSPECIFIED`   | Unspecified policy kind; Not a valid state |
 | `PRINCIPAL_ACCESS_BOUNDARY` | Principal access boundary policy kind      |
-| `ACCESS`                    | Access policy kind.                        |
+| `ACCESS`                    | Unified Access Policy kind.                |
 
 | Methods                                                                                                                                                  |                                                                |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|

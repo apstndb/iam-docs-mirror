@@ -84,7 +84,7 @@ You can use Policy Analyzer to check which principals have certain roles or perm
 
     1.  In the **Parameter 1** field, select **Resource** from the drop-down menu.
     2.  In the **Resource** field, enter the full resource name of the resource that you want to analyze access for. If you don't know the full resource name, start typing the display name of the resource, then select the resource from the list of resources provided.
-    3.  Click add **Add selector** .
+    3.  Click **Add selector** .
     4.  In the **Parameter 2** field, select either **Role** or **Permission** .
     5.  In the **Select a role** or **Select a permission** field, select the role or permission that you want to check for.
     6.  Optional: To check for additional roles and permissions, continue adding **Role** and **Permission** selectors until all the roles and permissions that you want to check for are listed.
@@ -311,7 +311,7 @@ You can use Policy Analyzer to check which principals have specific roles or per
 
 6.  Optional: To check for additional roles and permissions, do the following:
 
-    1.  Click add **Add selector** .
+    1.  Click **Add selector** .
     2.  In the **Parameter 2** field, select either **Role** or **Permission** .
     3.  In the **Select a role** or **Select a permission** field, select the role or permission that you want to check for.
     4.  Continue adding **Role** and **Permission** selectors until all the roles and permissions that you want to check for are listed.
@@ -539,7 +539,7 @@ You can use Policy Analyzer to check what roles or permissions a principal has o
 
     1.  In the **Parameter 1** field, select **Resource** from the drop-down menu.
     2.  In the **Resource** field, enter the full resource name of the resource that you want to analyze access for. If you don't know the full resource name, start typing the display name of the resource, then select the resource from the list of resources provided.
-    3.  Click add **Add selector** .
+    3.  Click **Add selector** .
     4.  In the **Parameter 2** field, select **Principal** from the drop-down menu.
     5.  In the **Principal** field, start typing the name of a user, service account, or group. Then, select the user, service account, or group whose access you want to analyze from the list of principals provided.
 
@@ -753,7 +753,7 @@ You can use Policy Analyzer to check which resources within your organization a 
 
     1.  In the **Parameter 1** field, select **Principal** from the drop-down menu.
     2.  In the **Principal** field, start typing the name of a user, service account, or group. Then, select the user, service account, or group whose access you want to analyze from the list of principals provided.
-    3.  Click add **Add selector** .
+    3.  Click **Add selector** .
     4.  In the **Parameter 2** field, select either **Role** or **Permission** .
     5.  In the **Select a role** or **Select a permission** field, select the role or permission that you want to check for.
     6.  Optional: To check for additional roles and permissions, continue adding **Role** and **Permission** selectors until all the roles and permissions that you want to check for are listed.
@@ -1362,7 +1362,7 @@ The following example demonstrates visualizing a query to [determine which princ
 
     1.  In the **Parameter 1** field, select **Principal** from the drop-down menu.
     2.  In the **Principal** field, start to enter the name of a principal, service account, or group. Then, select the principal, service account, or group whose access that you want to analyze from the list of principals provided.
-    3.  Click add **Add selector** .
+    3.  Click **Add selector** .
     4.  In the **Parameter 2** field, select either **Role** or **Permission** .
     5.  In the **Select a role** or **Select a permission** field, select the role or permission that you want to check for.
     6.  Optional: To check for additional roles and permissions, continue adding **Role** and **Permission** selectors until all the roles and permissions that you want to check for are listed. You can select up to a combination of 10 roles and permissions.
@@ -1382,7 +1382,7 @@ The following example demonstrates visualizing a query to [determine which princ
     3.  A line labeled "has" connects each principal or group to a role.
     4.  A line labeled "with access to" connects each role to the resource that it's granted on.
     5.  The number of resources that are affected by the granted role is represented as a number next to the resource.
-    6.  If there is an existing [role recommendation or policy insight](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) , the role is circled and has a lightbulb lightbulb icon. You can click the role to get more information about the recommendation, and use the link to review and apply it.
+    6.  If there is an existing [role recommendation or policy insight](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) , the role is circled and has a lightbulb icon. You can click the role to get more information about the recommendation, and use the link to review and apply it.
 
 7.  To adjust the query, click **Toggle panel "Visualize results"** .
 

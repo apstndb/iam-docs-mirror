@@ -475,7 +475,7 @@ Use the list of roles and service agents that you created in [Trigger service ag
 
 2.  Select a project, folder, or organization that you created the service agent for.
 
-3.  Click person_add **Grant Access** , then enter the service agent's email address.
+3.  Click **Grant Access** , then enter the service agent's email address.
 
 4.  Click **Select a role** , then search for a role to grant based on the following:
 

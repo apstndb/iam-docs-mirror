@@ -73,7 +73,7 @@ To lint a condition expression:
 
 2.  Click **Select a project** , choose a project, and click **Open** .
 
-3.  From the list of principals, locate the desired principal and click the edit **Edit** button.
+3.  From the list of principals, locate the desired principal and click the **Edit** button.
 
 4.  From the **Edit permissions** panel, locate the desired role that you want to lint. Then under **IAM condition (optional)** , click the name of the condition.
 
@@ -81,9 +81,9 @@ To lint a condition expression:
 
 6.  To validate the CEL syntax, click **Run Linter** .
 
-    If the syntax contains errors, an error **Error** icon appears next to the incorrect line. To see details about each error, hold the pointer over the icon.
+    If the syntax contains errors, an **Error** icon appears next to the incorrect line. To see details about each error, hold the pointer over the icon.
 
-    If the condition uses the correct syntax, but the linter finds a possible issue, a warning **Warning** icon appears next to the line with the issue. To see details about each warning, hold the pointer over the icon.
+    If the condition uses the correct syntax, but the linter finds a possible issue, a **Warning** icon appears next to the line with the issue. To see details about each warning, hold the pointer over the icon.
 
 7.  Make any necessary changes to the condition expression. After you click **Run Linter** , the linter runs automatically in the background while you edit the expression.
 

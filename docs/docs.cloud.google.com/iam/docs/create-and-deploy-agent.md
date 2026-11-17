@@ -178,7 +178,7 @@ Create a sample agent using `google-agents-cli` and deploy it with Agent Identit
 
     1.  In the Google Cloud console, go to the **Deployments** page.
 
-    2.  To copy your agent's SPIFFE ID to the clipboard, find the row that your deployed agent is in, and in the **Identity** column of that row click content_copy **Copy to clipboard** . The identity looks similar to the following: `principal://agents.global.org- `` ORGANIZATION_ID `` .system.id.goog/resources/aiplatform/projects/ `` PROJECT_NUMBER `` /locations/ `` LOCATION `` /reasoningEngines/ `` ENGINE_ID` .
+    2.  To copy your agent's SPIFFE ID to the clipboard, find the row that your deployed agent is in, and in the **Identity** column of that row click **Copy to clipboard** . The identity looks similar to the following: `principal://agents.global.org- `` ORGANIZATION_ID `` .system.id.goog/resources/aiplatform/projects/ `` PROJECT_NUMBER `` /locations/ `` LOCATION `` /reasoningEngines/ `` ENGINE_ID` .
 
 ## What's next
 

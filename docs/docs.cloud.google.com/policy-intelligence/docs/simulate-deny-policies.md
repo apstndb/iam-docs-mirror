@@ -62,13 +62,13 @@ You can start a simulation in the following ways:
 
   3.  In the **Policy ID** column, click the ID of the policy that you want to edit.
 
-  4.  Click edit **Edit** .
+  4.  Click **Edit** .
 
   5.  Update the deny policy:
 
       - To change the policy display name, edit the **Display name** field.
       - To edit an existing deny rule, click the deny rule, and then modify the rule's principals, exception principals, denied permissions, exception permissions, or denial condition.
-      - To remove a deny rule, find the deny rule that you want to delete, and then click delete **Delete** in that row.
+      - To remove a deny rule, find the deny rule that you want to delete, and then click **Delete** in that row.
       - To add a deny rule, click **Add deny rule** , and then create a deny rule like you do when you [create a deny policy](https://docs.cloud.google.com/iam/docs/deny-access#create-deny-policy) .
 
   6.  When you're done updating the deny policy, click **Test changes** .
@@ -125,7 +125,7 @@ To view the **Deny simulation reports** page, do the following:
 
 2.  Select the project, folder, or organization that you want to view simulations for.
 
-3.  Click schedule **Simulation history** .
+3.  Click **Simulation history** .
 
 For each simulation, the page lists the policy that the simulation is for, the date that you started the simulation, and the status of the simulation.
 

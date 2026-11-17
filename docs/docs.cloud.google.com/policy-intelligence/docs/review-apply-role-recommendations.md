@@ -162,7 +162,7 @@ You can also review and apply recommendations with the Google Cloud CLI and the 
 
     To dismiss the recommendation, click **Dismiss** , then confirm your choice. You can [restore a dismissed recommendation](https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations#history) as long as the recommendation is still valid.
 
-    > **Note:** You can also quickly apply and dismiss recommendations by clicking the arrow_right expander arrow next to an insight with a recommendation, then clicking **Apply recommendation** or **Dismiss recommendation** . You cannot apply recommendations to create custom roles in this way.
+    > **Note:** You can also quickly apply and dismiss recommendations by clicking the expander arrow next to an insight with a recommendation, then clicking **Apply recommendation** or **Dismiss recommendation** . You cannot apply recommendations to create custom roles in this way.
 
 8.  Repeat the previous steps until you have reviewed all of your recommendations.
 
@@ -781,7 +781,7 @@ To view the recommendations history:
 
     The Google Cloud console shows a list of previous actions on your role recommendations.
 
-4.  To view details about a recommendation, click the expand_more expander arrow.
+4.  To view details about a recommendation, click the expander arrow.
 
     The Google Cloud console shows details about the action that was taken, including the principal that took the action:
 
