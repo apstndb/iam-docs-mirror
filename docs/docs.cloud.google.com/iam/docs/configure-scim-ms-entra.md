@@ -6,7 +6,7 @@ description: Learn how to configure Microsoft Entra ID as your SCIM identity pro
 data_source: docs.cloud.google.com
 ---
 
-> **Important:** SCIM provisioning applies only to Gemini Enterprise and Looker ( [Preview](https://cloud.google.com/products#product-launch-stages) ).
+> **Important:** SCIM provisioning applies only to Gemini Enterprise and Looker.
 
 System for Cross-domain Identity Management (SCIM) provisioning with Microsoft Entra ID lets you automatically synchronize users and groups into your workforce identity pool. Automatic provisioning keeps user lifecycle and group membership changes in your external identity provider (IdP) synchronized with your Google Cloud access controls. For supported configurations and requirements, see [SCIM provisioning for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim) .
 
@@ -158,7 +158,7 @@ To configure SCIM in Microsoft Entra ID, do the following:
 To enable SCIM for a provider, set the `--scim-usage` flag based on your product target:
 
 - [**Enabled for groups ( `enabled-for-groups` )**](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#enable-scim-groups) : Used for Gemini Enterprise. Uses SCIM-synced groups for IAM authorization and policy evaluation. User attributes continue to be sourced from IdP login tokens.
-- [**Enabled for users and groups ( `enabled-for-users-groups` )**](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#enable-scim-users-groups) : Used for Looker ( [Preview](https://cloud.google.com/products#product-launch-stages) ). Uses SCIM-synced user and group data as the primary source of claims for IAM authorization and OAuth sign-in workflows.
+- [**Enabled for users and groups ( `enabled-for-users-groups` )**](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#enable-scim-users-groups) : Used for Gemini Enterprise and Looker. Uses SCIM-synced user and group data as the source of claims for IAM authorization in web sign-in and OAuth sign-in workflows.
 
 ### Enable SCIM for groups (Gemini Enterprise)
 
@@ -192,7 +192,7 @@ Replace the following:
 - `PROVIDER_ID` : the ID of the workforce identity pool provider
 - `WORKFORCE_POOL_ID` : the ID of the workforce pool
 
-### Enable SCIM for users and groups (Looker) ( [Preview](https://cloud.google.com/products#product-launch-stages) )
+### Enable SCIM for users and groups (Gemini Enterprise and Looker)
 
 #### OIDC
 

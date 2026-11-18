@@ -433,9 +433,9 @@ To resolve this error, do the following for your identity provider:
 1.  Configure a SCIM tenant and token on Google Cloud ( [Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#configure-scim-tenant-token-gcp) \| [Okta](https://docs.cloud.google.com/iam/docs/configure-scim-okta#configure-scim-tenant-token-gcp) ).
 2.  Link the provider to a SCIM tenant ( [Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#update-provider-enable-scim) \| [Okta](https://docs.cloud.google.com/iam/docs/configure-scim-okta#update-provider-enable-scim) ).
 
-#### Sign-in fails when SCIM usage is enabled for users and groups ( [Preview](https://cloud.google.com/products#product-launch-stages) )
+#### Sign-in fails when SCIM usage is enabled for users and groups
 
-When `--scim-usage` is set to `enabled-for-users-groups` , sign-in attempts might fail with specific error messages:
+When `--scim-usage` is set to `enabled-for-users-groups` , web sign-in and OAuth sign-in attempts might fail with the following error messages:
 
 - **SCIM user not found or inactive:**
 
@@ -716,7 +716,7 @@ This error occurs when provider creation or update fails with one of the followi
 - `Select one of scim_usage - ENABLED_FOR_USERS_GROUPS or extra_attributes_oauth2_client, but not both.`
 - `Select one of scim_usage or extended_attributes_oauth2_client, but not both.`
 
-Setting `--scim-usage=enabled-for-users-groups` ( [Preview](https://cloud.google.com/products#product-launch-stages) ) is mutually exclusive with Extra Attributes ( `extra_attributes_oauth2_client` ) and Extended Attributes ( `extended_attributes_oauth2_client` ).
+Setting `--scim-usage=enabled-for-users-groups` is mutually exclusive with Extra Attributes ( `extra_attributes_oauth2_client` ) and Extended Attributes ( `extended_attributes_oauth2_client` ).
 
 To resolve this issue, remove the conflicting Extra or Extended Attributes configuration from the provider, or change the `--scim-usage` setting.
 

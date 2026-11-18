@@ -14,7 +14,7 @@ data_source: docs.cloud.google.com
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/undelete#examples)
 - [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/undelete#try-it)
 
-Gemini Enterprise only. Undeletes a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) , that was deleted fewer than 30 days ago.
+Gemini Enterprise and Looker only. Undeletes a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) , that was deleted fewer than 30 days ago.
 
 ### HTTP request
 
@@ -24,9 +24,9 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-| Parameters |                                                                                                                                                                                                  |
-|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name`     | `string` Required. Gemini Enterprise only. The name of the SCIM tenant to undelete. Format: `locations/{location}/workforcePools/{workforcePool}/providers/{provider}/scimTenants/{scim_tenant}` |
+| Parameters |                                                                                                                                                                                                             |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`     | `string` Required. Gemini Enterprise and Looker only. The name of the SCIM tenant to undelete. Format: `locations/{location}/workforcePools/{workforcePool}/providers/{provider}/scimTenants/{scim_tenant}` |
 
 ### Request body
 

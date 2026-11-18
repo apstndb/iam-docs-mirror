@@ -13,7 +13,7 @@ data_source: docs.cloud.google.com
 
 ## Resource: WorkforcePoolProviderScimTenant
 
-Gemini Enterprise only. Represents a SCIM tenant. Used for provisioning and managing identity data (such as Users and Groups) in cross-domain environments.
+Gemini Enterprise and Looker only. Represents a SCIM tenant. Used for provisioning and managing identity data (such as Users and Groups) in cross-domain environments.
 
 **JSON representation**
 
@@ -48,36 +48,36 @@ Gemini Enterprise only. Represents a SCIM tenant. Used for provisioning and mana
 <tr class="odd">
 <td><code>name</code></td>
 <td><p><code>string</code></p>
-<p>Identifier. Gemini Enterprise only. The resource name of the SCIM Tenant.</p>
+<p>Identifier. Gemini Enterprise and Looker only. The resource name of the SCIM Tenant.</p>
 <p>Format: <code>locations/{location}/workforcePools/{workforcePool}/providers/ {workforcePoolProvider}/scimTenants/{scim_tenant}</code></p></td>
 </tr>
 <tr class="even">
 <td><code>baseUri</code></td>
 <td><p><code>string</code></p>
-<p>Output only. Gemini Enterprise only. Represents the base URI as defined in <a href="https://datatracker.ietf.org/doc/html/rfc7644#section-1.3">RFC 7644, Section 1.3</a> . Clients must use this as the root address for managing resources under the tenant.</p>
+<p>Output only. Gemini Enterprise and Looker only. Represents the base URI as defined in <a href="https://datatracker.ietf.org/doc/html/rfc7644#section-1.3">RFC 7644, Section 1.3</a> . Clients must use this as the root address for managing resources under the tenant.</p>
 <p>Format: <a href="https://iamscim.googleapis.com/%7Bversion%7D/%7BtenantId%7D/">https://iamscim.googleapis.com/{version}/{tenantId}/</a></p></td>
 </tr>
 <tr class="odd">
 <td><code>state</code></td>
 <td><p><code>enum ( </code><a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#State"><code>State</code></a><code> )</code></p>
-<p>Output only. Gemini Enterprise only. The state of the tenant.</p></td>
+<p>Output only. Gemini Enterprise and Looker only. The state of the tenant.</p></td>
 </tr>
 <tr class="even">
 <td><code>description</code></td>
 <td><p><code>string</code></p>
-<p>Optional. Gemini Enterprise only. The description of the SCIM tenant.</p>
+<p>Optional. Gemini Enterprise and Looker only. The description of the SCIM tenant.</p>
 <p>Cannot exceed 256 characters.</p></td>
 </tr>
 <tr class="odd">
 <td><code>displayName</code></td>
 <td><p><code>string</code></p>
-<p>Optional. Gemini Enterprise only. The display name of the SCIM tenant.</p>
+<p>Optional. Gemini Enterprise and Looker only. The display name of the SCIM tenant.</p>
 <p>Cannot exceed 32 characters.</p></td>
 </tr>
 <tr class="even">
 <td><code>claimMapping</code></td>
 <td><p><code>map (key: string, value: string)</code></p>
-<p>Required. Immutable. Gemini Enterprise only. Maps SCIM attributes to Google attributes.</p>
+<p>Required. Immutable. Gemini Enterprise and Looker only. Maps SCIM attributes to Google attributes.</p>
 <p>This mapping is used to associate the attributes synced via SCIM with the Google Cloud attributes used in IAM policies for Workforce Identity Federation. SCIM-managed user and group attributes are mapped to <code>google.subject</code> and <code>google.group</code> respectively.</p>
 <p>Each key must be a string specifying the Google Cloud IAM attribute to map to. The supported keys are as follows:</p>
 <ul>
@@ -95,7 +95,7 @@ Gemini Enterprise only. Represents a SCIM tenant. Used for provisioning and mana
 <tr class="odd">
 <td><code>purgeTime</code></td>
 <td><p><code>string ( </code><a href="https://protobuf.dev/reference/protobuf/google.protobuf/#timestamp"><code>Timestamp</code></a><code> format)</code></p>
-<p>Output only. Gemini Enterprise only. The timestamp that represents the time when the SCIM tenant is purged.</p>
+<p>Output only. Gemini Enterprise and Looker only. The timestamp that represents the time when the SCIM tenant is purged.</p>
 <p>Uses RFC 3339, where generated output will always be Z-normalized and use 0, 3, 6 or 9 fractional digits. Offsets other than "Z" are also accepted. Examples: <code>"2014-10-02T15:01:23Z"</code> , <code>"2014-10-02T15:01:23.045123456Z"</code> or <code>"2014-10-02T15:01:23+05:30"</code> .</p></td>
 </tr>
 <tr class="even">
@@ -108,19 +108,19 @@ Gemini Enterprise only. Represents a SCIM tenant. Used for provisioning and mana
 
 ## State
 
-Gemini Enterprise only. The current state of the SCIM tenant.
+Gemini Enterprise and Looker only. The current state of the SCIM tenant.
 
-| Enums               |                                                                                                                               |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| `STATE_UNSPECIFIED` | Gemini Enterprise only. State unspecified.                                                                                    |
-| `ACTIVE`            | Gemini Enterprise only. The tenant is active and may be used to provision users and groups.                                   |
-| `DELETED`           | Gemini Enterprise only. The tenant is soft-deleted. Soft-deleted tenants are permanently deleted after approximately 30 days. |
+| Enums               |                                                                                                                                          |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| `STATE_UNSPECIFIED` | Gemini Enterprise and Looker only. State unspecified.                                                                                    |
+| `ACTIVE`            | Gemini Enterprise and Looker only. The tenant is active and may be used to provision users and groups.                                   |
+| `DELETED`           | Gemini Enterprise and Looker only. The tenant is soft-deleted. Soft-deleted tenants are permanently deleted after approximately 30 days. |
 
-| Methods                                                                                                                        |                         |
-|--------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| [`create`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/create)     | Gemini Enterprise only. |
-| [`delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/delete)     | Gemini Enterprise only. |
-| [`get`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/get)           | Gemini Enterprise only. |
-| [`list`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/list)         | Gemini Enterprise only. |
-| [`patch`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/patch)       | Gemini Enterprise only. |
-| [`undelete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/undelete) | Gemini Enterprise only. |
+| Methods                                                                                                                        |                                    |
+|--------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| [`create`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/create)     | Gemini Enterprise and Looker only. |
+| [`delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/delete)     | Gemini Enterprise and Looker only. |
+| [`get`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/get)           | Gemini Enterprise and Looker only. |
+| [`list`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/list)         | Gemini Enterprise and Looker only. |
+| [`patch`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/patch)       | Gemini Enterprise and Looker only. |
+| [`undelete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/undelete) | Gemini Enterprise and Looker only. |

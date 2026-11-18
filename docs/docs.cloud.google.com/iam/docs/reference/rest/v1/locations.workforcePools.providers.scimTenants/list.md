@@ -16,7 +16,7 @@ data_source: docs.cloud.google.com
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/list#examples)
 - [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/list#try-it)
 
-Gemini Enterprise only. Lists all non-deleted [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) s in a [`WorkforcePoolProvider`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#WorkforcePoolProvider) . If `showDeleted` is set to `true` , then deleted SCIM tenants are also listed.
+Gemini Enterprise and Looker only. Lists all non-deleted [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) s in a [`WorkforcePoolProvider`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#WorkforcePoolProvider) . If `showDeleted` is set to `true` , then deleted SCIM tenants are also listed.
 
 ### HTTP request
 
@@ -26,17 +26,17 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-| Parameters |                                                                                                                                                                |
-|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `parent`   | `string` Required. Gemini Enterprise only. The parent to list SCIM tenants. Format: 'locations/{location}/workforcePools/{workforcePool}/providers/{provider}' |
+| Parameters |                                                                                                                                                                           |
+|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`   | `string` Required. Gemini Enterprise and Looker only. The parent to list SCIM tenants. Format: 'locations/{location}/workforcePools/{workforcePool}/providers/{provider}' |
 
 ### Query parameters
 
-| Parameters    |                                                                                                                                                                                                                      |
-|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `pageSize`    | `integer` Optional. Gemini Enterprise only. The maximum number of SCIM tenants to return. If unspecified, at most 50 SCIM tenants will be returned. The maximum value is 100; values above 100 are truncated to 100. |
-| `pageToken`   | `string` Optional. Gemini Enterprise only. A page token, received from a previous `ListScimTenants` call. Provide this to retrieve the subsequent page.                                                              |
-| `showDeleted` | `boolean` Optional. Gemini Enterprise only. Whether to return soft-deleted SCIM tenants.                                                                                                                             |
+| Parameters    |                                                                                                                                                                                                                                 |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `pageSize`    | `integer` Optional. Gemini Enterprise and Looker only. The maximum number of SCIM tenants to return. If unspecified, at most 50 SCIM tenants will be returned. The maximum value is 100; values above 100 are truncated to 100. |
+| `pageToken`   | `string` Optional. Gemini Enterprise and Looker only. A page token, received from a previous `ListScimTenants` call. Provide this to retrieve the subsequent page.                                                              |
+| `showDeleted` | `boolean` Optional. Gemini Enterprise and Looker only. Whether to return soft-deleted SCIM tenants.                                                                                                                             |
 
 ### Request body
 
@@ -44,7 +44,7 @@ The request body must be empty.
 
 ### Response body
 
-Gemini Enterprise only. Response message for scimTenants.list.
+Gemini Enterprise and Looker only. Response message for scimTenants.list.
 
 If successful, the response body contains data with the following structure:
 
@@ -61,10 +61,10 @@ If successful, the response body contains data with the following structure:
 }
 ```
 
-| Fields                               |                                                                                                                                                                                                                                                          |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `workforcePoolProviderScimTenants[]` | `object ( `[`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant)` )` Output only. Gemini Enterprise only. A list of SCIM tenants. |
-| `nextPageToken`                      | `string` Optional. Gemini Enterprise only. A token, which can be sent as `pageToken` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                                                                 |
+| Fields                               |                                                                                                                                                                                                                                                                     |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `workforcePoolProviderScimTenants[]` | `object ( `[`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant)` )` Output only. Gemini Enterprise and Looker only. A list of SCIM tenants. |
+| `nextPageToken`                      | `string` Optional. Gemini Enterprise and Looker only. A token, which can be sent as `pageToken` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                                                                 |
 
 ### Authorization scopes
 

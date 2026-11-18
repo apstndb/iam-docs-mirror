@@ -177,7 +177,7 @@ A configuration for an external identity provider.
 <tr class="even">
 <td><code>scimUsage</code></td>
 <td><p><code>enum ( </code><a href="https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#ScimUsage"><code>ScimUsage</code></a><code> )</code></p>
-<p>Optional. Gemini Enterprise only. Specifies whether the workforce identity pool provider uses SCIM-managed groups instead of the <code>google.groups</code> attribute mapping for authorization checks.</p>
+<p>Optional. Gemini Enterprise and Looker only. Specifies whether the workforce identity pool provider uses SCIM-managed groups, or users and groups.</p>
 <p>The <code>scimUsage</code> and <code>extendedAttributesOauth2Client</code> fields are mutually exclusive. A request that enables both fields on the same workforce identity pool provider will produce an error.</p></td>
 </tr>
 <tr class="odd">
@@ -466,11 +466,11 @@ Represents the parameters to control which claims are fetched from an IdP.
 
 Gemini Enterprise and Looker only. Specifies whether the workforce identity pool provider uses SCIM-managed groups, or users and groups.
 
-| Enums                      |                                                                                                               |
-|----------------------------|---------------------------------------------------------------------------------------------------------------|
-| `SCIM_USAGE_UNSPECIFIED`   | Indicates that SCIM data is not used.                                                                         |
-| `ENABLED_FOR_GROUPS`       | Gemini Enterprise only. SCIM sync is enabled and SCIM-managed groups are used for authorization checks.       |
-| `ENABLED_FOR_USERS_GROUPS` | Looker only. SCIM sync is enabled, and SCIM-managed user claims and groups are used for authorization checks. |
+| Enums                      |                                                                                                                                     |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| `SCIM_USAGE_UNSPECIFIED`   | Indicates that SCIM data is not used.                                                                                               |
+| `ENABLED_FOR_GROUPS`       | Gemini Enterprise only. SCIM sync is enabled and SCIM-managed groups are used for authorization checks.                             |
+| `ENABLED_FOR_USERS_GROUPS` | Gemini Enterprise and Looker only. SCIM sync is enabled, and SCIM-managed user claims and groups are used for authorization checks. |
 
 ## VendorType
 

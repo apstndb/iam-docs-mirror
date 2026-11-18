@@ -15,7 +15,7 @@ data_source: docs.cloud.google.com
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#examples)
 - [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create#try-it)
 
-Gemini Enterprise only. Creates a new [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens#WorkforcePoolProviderScimToken) in a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) . You cannot reuse the name of a deleted SCIM token until 30 days after deletion.
+Gemini Enterprise and Looker only. Creates a new [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens#WorkforcePoolProviderScimToken) in a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) . You cannot reuse the name of a deleted SCIM token until 30 days after deletion.
 
 ### HTTP request
 
@@ -25,15 +25,15 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-| Parameters |                                                                                                                                                                                                 |
-|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `parent`   | `string` Required. Gemini Enterprise only. The parent tenant to create SCIM token. Format: 'locations/{location}/workforcePools/{workforcePool}/providers/{provider}/scimTenants/{scim_tenant}' |
+| Parameters |                                                                                                                                                                                                            |
+|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`   | `string` Required. Gemini Enterprise and Looker only. The parent tenant to create SCIM token. Format: 'locations/{location}/workforcePools/{workforcePool}/providers/{provider}/scimTenants/{scim_tenant}' |
 
 ### Query parameters
 
-| Parameters                         |                                                                                                                                                                                                                                        |
-|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `workforcePoolProviderScimTokenId` | `string` Required. Gemini Enterprise only. The ID to use for the SCIM token, which becomes the final component of the resource name. This value should be 4-32 characters and follow the pattern: `([a-z]([a-z0-9\\-]{2,30}[a-z0-9]))` |
+| Parameters                         |                                                                                                                                                                                                                                                   |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `workforcePoolProviderScimTokenId` | `string` Required. Gemini Enterprise and Looker only. The ID to use for the SCIM token, which becomes the final component of the resource name. This value should be 4-32 characters and follow the pattern: `([a-z]([a-z0-9\\-]{2,30}[a-z0-9]))` |
 
 ### Request body
 

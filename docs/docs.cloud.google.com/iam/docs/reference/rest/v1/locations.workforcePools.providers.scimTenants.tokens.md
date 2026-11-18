@@ -13,7 +13,7 @@ data_source: docs.cloud.google.com
 
 ## Resource: WorkforcePoolProviderScimToken
 
-Gemini Enterprise only. Represents a token for the [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) . Used for authenticating SCIM provisioning requests.
+Gemini Enterprise and Looker only. Represents a token for the [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) . Used for authenticating SCIM provisioning requests.
 
 **JSON representation**
 
@@ -26,27 +26,27 @@ Gemini Enterprise only. Represents a token for the [`WorkforcePoolProviderScimTe
 }
 ```
 
-| Fields          |                                                                                                                                                                                                                             |
-|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name`          | `string` Identifier. Gemini Enterprise only. The resource name of the SCIM Token. Format: `locations/{location}/workforcePools/{workforcePool}/providers/ {workforcePoolProvider}/scimTenants/{scim_tenant}/tokens/{token}` |
-| `securityToken` | `string` Output only. Gemini Enterprise only. The token string. Provide this to the IdP for authentication. Will be set only during creation.                                                                               |
-| `state`         | `enum ( `[`State`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens#State)` )` Output only. Gemini Enterprise only. The state of the token.                   |
-| `displayName`   | `string` Optional. Gemini Enterprise only. The display name of the SCIM token. Cannot exceed 32 characters.                                                                                                                 |
+| Fields          |                                                                                                                                                                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`          | `string` Identifier. Gemini Enterprise and Looker only. The resource name of the SCIM Token. Format: `locations/{location}/workforcePools/{workforcePool}/providers/ {workforcePoolProvider}/scimTenants/{scim_tenant}/tokens/{token}` |
+| `securityToken` | `string` Output only. Gemini Enterprise and Looker only. The token string. Provide this to the IdP for authentication. Will be set only during creation.                                                                               |
+| `state`         | `enum ( `[`State`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens#State)` )` Output only. Gemini Enterprise and Looker only. The state of the token.                   |
+| `displayName`   | `string` Optional. Gemini Enterprise and Looker only. The display name of the SCIM token. Cannot exceed 32 characters.                                                                                                                 |
 
 ## State
 
-Gemini Enterprise only. The current state of the SCIM token.
+Gemini Enterprise and Looker only. The current state of the SCIM token.
 
-| Enums               |                                                                                                                             |
-|---------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| `STATE_UNSPECIFIED` | Gemini Enterprise only. State unspecified.                                                                                  |
-| `ACTIVE`            | Gemini Enterprise only. The token is active and may be used to provision users and groups.                                  |
-| `DELETED`           | Gemini Enterprise only. The token is soft-deleted. Soft-deleted tokens are permanently deleted after approximately 30 days. |
+| Enums               |                                                                                                                                        |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `STATE_UNSPECIFIED` | Gemini Enterprise and Looker only. State unspecified.                                                                                  |
+| `ACTIVE`            | Gemini Enterprise and Looker only. The token is active and may be used to provision users and groups.                                  |
+| `DELETED`           | Gemini Enterprise and Looker only. The token is soft-deleted. Soft-deleted tokens are permanently deleted after approximately 30 days. |
 
-| Methods                                                                                                                           |                         |
-|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| [`create`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create) | Gemini Enterprise only. |
-| [`delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/delete) | Gemini Enterprise only. |
-| [`get`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/get)       | Gemini Enterprise only. |
-| [`list`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/list)     | Gemini Enterprise only. |
-| [`patch`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/patch)   | Gemini Enterprise only. |
+| Methods                                                                                                                           |                                    |
+|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| [`create`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/create) | Gemini Enterprise and Looker only. |
+| [`delete`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/delete) | Gemini Enterprise and Looker only. |
+| [`get`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/get)       | Gemini Enterprise and Looker only. |
+| [`list`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/list)     | Gemini Enterprise and Looker only. |
+| [`patch`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants.tokens/patch)   | Gemini Enterprise and Looker only. |

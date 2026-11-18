@@ -892,7 +892,7 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 `rpc CreateWorkforcePoolProviderScimTenant( `[`CreateWorkforcePoolProviderScimTenantRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.CreateWorkforcePoolProviderScimTenantRequest)` ) returns ( `[`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant)` )`
 
-Gemini Enterprise only. Creates a new [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) in a [`WorkforcePoolProvider`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider) . You cannot reuse the name of a deleted SCIM tenant until 30 days after deletion.
+Gemini Enterprise and Looker only. Creates a new [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) in a [`WorkforcePoolProvider`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider) . You cannot reuse the name of a deleted SCIM tenant until 30 days after deletion.
 
 Authorization scopes  
 Requires one of the following OAuth scopes:
@@ -906,7 +906,7 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 `rpc CreateWorkforcePoolProviderScimToken( `[`CreateWorkforcePoolProviderScimTokenRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.CreateWorkforcePoolProviderScimTokenRequest)` ) returns ( `[`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken)` )`
 
-Gemini Enterprise only. Creates a new [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) in a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) . You cannot reuse the name of a deleted SCIM token until 30 days after deletion.
+Gemini Enterprise and Looker only. Creates a new [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) in a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) . You cannot reuse the name of a deleted SCIM token until 30 days after deletion.
 
 Authorization scopes  
 Requires one of the following OAuth scopes:
@@ -966,7 +966,7 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 `rpc DeleteWorkforcePoolProviderScimTenant( `[`DeleteWorkforcePoolProviderScimTenantRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.DeleteWorkforcePoolProviderScimTenantRequest)` ) returns ( `[`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant)` )`
 
-Gemini Enterprise only. Deletes a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) .
+Gemini Enterprise and Looker only. Deletes a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) .
 
 You can undelete a SCIM tenant for 30 days. After 30 days, deletion is permanent. You cannot update deleted SCIM tenants. However, you can view and list them.
 
@@ -982,7 +982,7 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 `rpc DeleteWorkforcePoolProviderScimToken( `[`DeleteWorkforcePoolProviderScimTokenRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.DeleteWorkforcePoolProviderScimTokenRequest)` ) returns ( `[`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken)` )`
 
-Gemini Enterprise only. Deletes a [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) . You can undelete a SCIM token for 30 days. After 30 days, the SCIM token is permanently deleted. You cannot update deleted SCIM tokens, however, you can view and list them.
+Gemini Enterprise and Looker only. Deletes a [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) . You can undelete a SCIM token for 30 days. After 30 days, the SCIM token is permanently deleted. You cannot update deleted SCIM tokens, however, you can view and list them.
 
 Authorization scopes  
 Requires one of the following OAuth scopes:
@@ -1085,7 +1085,7 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 `rpc GetWorkforcePoolProviderScimTenant( `[`GetWorkforcePoolProviderScimTenantRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.GetWorkforcePoolProviderScimTenantRequest)` ) returns ( `[`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant)` )`
 
-Gemini Enterprise only. Gets an individual [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) .
+Gemini Enterprise and Looker only. Gets an individual [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) .
 
 Authorization scopes  
 Requires one of the following OAuth scopes:
@@ -1099,7 +1099,7 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 `rpc GetWorkforcePoolProviderScimToken( `[`GetWorkforcePoolProviderScimTokenRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.GetWorkforcePoolProviderScimTokenRequest)` ) returns ( `[`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken)` )`
 
-Gemini Enterprise only. Gets an individual [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) .
+Gemini Enterprise and Looker only. Gets an individual [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) .
 
 Authorization scopes  
 Requires one of the following OAuth scopes:
@@ -1127,7 +1127,7 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 `rpc ListWorkforcePoolProviderScimTenants( `[`ListWorkforcePoolProviderScimTenantsRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.ListWorkforcePoolProviderScimTenantsRequest)` ) returns ( `[`ListWorkforcePoolProviderScimTenantsResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.ListWorkforcePoolProviderScimTenantsResponse)` )`
 
-Gemini Enterprise only. Lists all non-deleted [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) s in a [`WorkforcePoolProvider`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider) . If `show_deleted` is set to `true` , then deleted SCIM tenants are also listed.
+Gemini Enterprise and Looker only. Lists all non-deleted [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) s in a [`WorkforcePoolProvider`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider) . If `show_deleted` is set to `true` , then deleted SCIM tenants are also listed.
 
 Authorization scopes  
 Requires one of the following OAuth scopes:
@@ -1141,7 +1141,7 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 `rpc ListWorkforcePoolProviderScimTokens( `[`ListWorkforcePoolProviderScimTokensRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.ListWorkforcePoolProviderScimTokensRequest)` ) returns ( `[`ListWorkforcePoolProviderScimTokensResponse`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.ListWorkforcePoolProviderScimTokensResponse)` )`
 
-Gemini Enterprise only. Lists all non-deleted \[WorkforcePoolProviderScimTokens\]\[\]s in a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) . If `show_deleted` is set to `true` , then deleted SCIM tokens are also listed.
+Gemini Enterprise and Looker only. Lists all non-deleted \[WorkforcePoolProviderScimTokens\]\[\]s in a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) . If `show_deleted` is set to `true` , then deleted SCIM tokens are also listed.
 
 Authorization scopes  
 Requires one of the following OAuth scopes:
@@ -1276,7 +1276,7 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 `rpc UndeleteWorkforcePoolProviderScimTenant( `[`UndeleteWorkforcePoolProviderScimTenantRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.UndeleteWorkforcePoolProviderScimTenantRequest)` ) returns ( `[`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant)` )`
 
-Gemini Enterprise only. Undeletes a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) , that was deleted fewer than 30 days ago.
+Gemini Enterprise and Looker only. Undeletes a [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) , that was deleted fewer than 30 days ago.
 
 Authorization scopes  
 Requires one of the following OAuth scopes:
@@ -1332,7 +1332,7 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 `rpc UpdateWorkforcePoolProviderScimTenant( `[`UpdateWorkforcePoolProviderScimTenantRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.UpdateWorkforcePoolProviderScimTenantRequest)` ) returns ( `[`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant)` )`
 
-Gemini Enterprise only. Updates an existing [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) .
+Gemini Enterprise and Looker only. Updates an existing [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) .
 
 Authorization scopes  
 Requires one of the following OAuth scopes:
@@ -1346,7 +1346,7 @@ For more information, see the [Authentication Overview](https://docs.cloud.googl
 
 `rpc UpdateWorkforcePoolProviderScimToken( `[`UpdateWorkforcePoolProviderScimTokenRequest`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.UpdateWorkforcePoolProviderScimTokenRequest)` ) returns ( `[`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken)` )`
 
-Gemini Enterprise only. Updates an existing [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) .
+Gemini Enterprise and Looker only. Updates an existing [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) .
 
 Authorization scopes  
 Requires one of the following OAuth scopes:
@@ -1546,23 +1546,23 @@ Request message for CreateWorkforcePoolProvider.
 
 ## CreateWorkforcePoolProviderScimTenantRequest
 
-Gemini Enterprise only. Request message for CreateWorkforcePoolProviderScimTenant.
+Gemini Enterprise and Looker only. Request message for CreateWorkforcePoolProviderScimTenant.
 
-| Fields                                   |                                                                                                                                                                                                                                |
-|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `parent`                                 | `string` Required. Gemini Enterprise only. The parent to create SCIM tenant. Format: 'locations/{location}/workforcePools/{workforce_pool}/providers/{provider}'                                                               |
-| `workforce_pool_provider_scim_tenant`    | [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) Required. Gemini Enterprise only. The SCIM tenant to create. |
-| `workforce_pool_provider_scim_tenant_id` | `string` Required. Gemini Enterprise only. The ID to use for the SCIM tenant, which becomes the final component of the resource name. This value should be 4-32 characters, containing the characters `[a-z0-9-]` .            |
+| Fields                                   |                                                                                                                                                                                                                                           |
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`                                 | `string` Required. Gemini Enterprise and Looker only. The parent to create SCIM tenant. Format: 'locations/{location}/workforcePools/{workforce_pool}/providers/{provider}'                                                               |
+| `workforce_pool_provider_scim_tenant`    | [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) Required. Gemini Enterprise and Looker only. The SCIM tenant to create. |
+| `workforce_pool_provider_scim_tenant_id` | `string` Required. Gemini Enterprise and Looker only. The ID to use for the SCIM tenant, which becomes the final component of the resource name. This value should be 4-32 characters, containing the characters `[a-z0-9-]` .            |
 
 ## CreateWorkforcePoolProviderScimTokenRequest
 
-Gemini Enterprise only. Request message for CreateWorkforcePoolProviderScimToken.
+Gemini Enterprise and Looker only. Request message for CreateWorkforcePoolProviderScimToken.
 
-| Fields                                  |                                                                                                                                                                                                                                        |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `parent`                                | `string` Required. Gemini Enterprise only. The parent tenant to create SCIM token. Format: 'locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}'                                       |
-| `workforce_pool_provider_scim_token`    | [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) Required. Gemini Enterprise only. The SCIM token to create.            |
-| `workforce_pool_provider_scim_token_id` | `string` Required. Gemini Enterprise only. The ID to use for the SCIM token, which becomes the final component of the resource name. This value should be 4-32 characters and follow the pattern: `([a-z]([a-z0-9\\-]{2,30}[a-z0-9]))` |
+| Fields                                  |                                                                                                                                                                                                                                                   |
+|-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`                                | `string` Required. Gemini Enterprise and Looker only. The parent tenant to create SCIM token. Format: 'locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}'                                       |
+| `workforce_pool_provider_scim_token`    | [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) Required. Gemini Enterprise and Looker only. The SCIM token to create.            |
+| `workforce_pool_provider_scim_token_id` | `string` Required. Gemini Enterprise and Looker only. The ID to use for the SCIM token, which becomes the final component of the resource name. This value should be 4-32 characters and follow the pattern: `([a-z]([a-z0-9\\-]{2,30}[a-z0-9]))` |
 
 ## CreateWorkforcePoolRequest
 
@@ -1724,20 +1724,20 @@ Request message for DeleteWorkforcePoolProvider.
 
 ## DeleteWorkforcePoolProviderScimTenantRequest
 
-Gemini Enterprise only. Request message for DeleteWorkforcePoolProviderScimTenant.
+Gemini Enterprise and Looker only. Request message for DeleteWorkforcePoolProviderScimTenant.
 
-| Fields        |                                                                                                                                                                                                 |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name`        | `string` Required. Gemini Enterprise only. The name of the SCIM tenant to delete. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}` |
-| `hard_delete` | `bool` Optional. Deletes the SCIM tenant immediately. This operation cannot be undone.                                                                                                          |
+| Fields        |                                                                                                                                                                                                            |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`        | `string` Required. Gemini Enterprise and Looker only. The name of the SCIM tenant to delete. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}` |
+| `hard_delete` | `bool` Optional. Deletes the SCIM tenant immediately. This operation cannot be undone.                                                                                                                     |
 
 ## DeleteWorkforcePoolProviderScimTokenRequest
 
-Gemini Enterprise only. Request message for DeleteWorkforcePoolProviderScimToken.
+Gemini Enterprise and Looker only. Request message for DeleteWorkforcePoolProviderScimToken.
 
-| Fields |                                                                                                                                                                                                               |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name` | `string` Required. Gemini Enterprise only. The name of the SCIM token to delete. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}/tokens/{token}` |
+| Fields |                                                                                                                                                                                                                          |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name` | `string` Required. Gemini Enterprise and Looker only. The name of the SCIM token to delete. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}/tokens/{token}` |
 
 ## DeleteWorkforcePoolRequest
 
@@ -2062,19 +2062,19 @@ Request message for GetWorkforcePoolProvider.
 
 ## GetWorkforcePoolProviderScimTenantRequest
 
-Gemini Enterprise only. Request message for GetWorkforcePoolProviderScimTenant.
+Gemini Enterprise and Looker only. Request message for GetWorkforcePoolProviderScimTenant.
 
-| Fields |                                                                                                                                                                                                   |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name` | `string` Required. Gemini Enterprise only. The name of the SCIM tenant to retrieve. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}` |
+| Fields |                                                                                                                                                                                                              |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name` | `string` Required. Gemini Enterprise and Looker only. The name of the SCIM tenant to retrieve. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}` |
 
 ## GetWorkforcePoolProviderScimTokenRequest
 
-Gemini Enterprise only. Request message for GetWorkforcePoolProviderScimToken.
+Gemini Enterprise and Looker only. Request message for GetWorkforcePoolProviderScimToken.
 
-| Fields |                                                                                                                                                                                                                 |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name` | `string` Required. Gemini Enterprise only. The name of the SCIM token to retrieve. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}/tokens/{token}` |
+| Fields |                                                                                                                                                                                                                            |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name` | `string` Required. Gemini Enterprise and Looker only. The name of the SCIM token to retrieve. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}/tokens/{token}` |
 
 ## GetWorkforcePoolRequest
 
@@ -2435,43 +2435,43 @@ Response message for ListWorkforcePoolProviderKeys.
 
 ## ListWorkforcePoolProviderScimTenantsRequest
 
-Gemini Enterprise only. Request message for ListWorkforcePoolProviderScimTenants.
+Gemini Enterprise and Looker only. Request message for ListWorkforcePoolProviderScimTenants.
 
-| Fields         |                                                                                                                                                                                                                    |
-|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `parent`       | `string` Required. Gemini Enterprise only. The parent to list SCIM tenants. Format: 'locations/{location}/workforcePools/{workforce_pool}/providers/{provider}'                                                    |
-| `page_size`    | `int32` Optional. Gemini Enterprise only. The maximum number of SCIM tenants to return. If unspecified, at most 50 SCIM tenants will be returned. The maximum value is 100; values above 100 are truncated to 100. |
-| `page_token`   | `string` Optional. Gemini Enterprise only. A page token, received from a previous `ListScimTenants` call. Provide this to retrieve the subsequent page.                                                            |
-| `show_deleted` | `bool` Optional. Gemini Enterprise only. Whether to return soft-deleted SCIM tenants.                                                                                                                              |
+| Fields         |                                                                                                                                                                                                                               |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`       | `string` Required. Gemini Enterprise and Looker only. The parent to list SCIM tenants. Format: 'locations/{location}/workforcePools/{workforce_pool}/providers/{provider}'                                                    |
+| `page_size`    | `int32` Optional. Gemini Enterprise and Looker only. The maximum number of SCIM tenants to return. If unspecified, at most 50 SCIM tenants will be returned. The maximum value is 100; values above 100 are truncated to 100. |
+| `page_token`   | `string` Optional. Gemini Enterprise and Looker only. A page token, received from a previous `ListScimTenants` call. Provide this to retrieve the subsequent page.                                                            |
+| `show_deleted` | `bool` Optional. Gemini Enterprise and Looker only. Whether to return soft-deleted SCIM tenants.                                                                                                                              |
 
 ## ListWorkforcePoolProviderScimTenantsResponse
 
-Gemini Enterprise only. Response message for ListWorkforcePoolProviderScimTenants.
+Gemini Enterprise and Looker only. Response message for ListWorkforcePoolProviderScimTenants.
 
-| Fields                                   |                                                                                                                                                                                                                                |
-|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `workforce_pool_provider_scim_tenants[]` | [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) Output only. Gemini Enterprise only. A list of SCIM tenants. |
-| `next_page_token`                        | `string` Optional. Gemini Enterprise only. A token, which can be sent as `page_token` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                                      |
+| Fields                                   |                                                                                                                                                                                                                                           |
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `workforce_pool_provider_scim_tenants[]` | [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) Output only. Gemini Enterprise and Looker only. A list of SCIM tenants. |
+| `next_page_token`                        | `string` Optional. Gemini Enterprise and Looker only. A token, which can be sent as `page_token` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                                      |
 
 ## ListWorkforcePoolProviderScimTokensRequest
 
-Gemini Enterprise only. Request message for ListWorkforcePoolProviderScimTokens.
+Gemini Enterprise and Looker only. Request message for ListWorkforcePoolProviderScimTokens.
 
-| Fields         |                                                                                                                                                                                          |
-|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `parent`       | `string` Required. Gemini Enterprise only. The parent to list SCIM tokens. Format: 'locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}' |
-| `page_size`    | `int32` Optional. Gemini Enterprise only. The maximum number of SCIM tokens to return. If unspecified, at most 2 SCIM tokens will be returned.                                           |
-| `page_token`   | `string` Optional. Gemini Enterprise only. A page token, received from a previous `ListWorkforcePoolProviderScimTokens` call. Provide this to retrieve the subsequent page.              |
-| `show_deleted` | `bool` Optional. Gemini Enterprise only. Whether to return soft-deleted SCIM tokens.                                                                                                     |
+| Fields         |                                                                                                                                                                                                     |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`       | `string` Required. Gemini Enterprise and Looker only. The parent to list SCIM tokens. Format: 'locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}' |
+| `page_size`    | `int32` Optional. Gemini Enterprise and Looker only. The maximum number of SCIM tokens to return. If unspecified, at most 2 SCIM tokens will be returned.                                           |
+| `page_token`   | `string` Optional. Gemini Enterprise and Looker only. A page token, received from a previous `ListWorkforcePoolProviderScimTokens` call. Provide this to retrieve the subsequent page.              |
+| `show_deleted` | `bool` Optional. Gemini Enterprise and Looker only. Whether to return soft-deleted SCIM tokens.                                                                                                     |
 
 ## ListWorkforcePoolProviderScimTokensResponse
 
-Gemini Enterprise only. Response message for ListWorkforcePoolProviderScimTokens.
+Gemini Enterprise and Looker only. Response message for ListWorkforcePoolProviderScimTokens.
 
-| Fields                                  |                                                                                                                                                                                                                             |
-|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `workforce_pool_provider_scim_tokens[]` | [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) Output only. Gemini Enterprise only. A list of SCIM tokens. |
-| `next_page_token`                       | `string` Optional. Gemini Enterprise only. A token, which can be sent as `page_token` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                                   |
+| Fields                                  |                                                                                                                                                                                                                                        |
+|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `workforce_pool_provider_scim_tokens[]` | [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) Output only. Gemini Enterprise and Looker only. A list of SCIM tokens. |
+| `next_page_token`                       | `string` Optional. Gemini Enterprise and Looker only. A token, which can be sent as `page_token` to retrieve the next page. If this field is omitted, there are no subsequent pages.                                                   |
 
 ## ListWorkforcePoolProvidersRequest
 
@@ -3346,11 +3346,11 @@ Request message for UndeleteWorkforcePoolProvider.
 
 ## UndeleteWorkforcePoolProviderScimTenantRequest
 
-Gemini Enterprise only. Request message for UndeleteWorkforcePoolProviderScimTenant.
+Gemini Enterprise and Looker only. Request message for UndeleteWorkforcePoolProviderScimTenant.
 
-| Fields |                                                                                                                                                                                                   |
-|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name` | `string` Required. Gemini Enterprise only. The name of the SCIM tenant to undelete. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}` |
+| Fields |                                                                                                                                                                                                              |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name` | `string` Required. Gemini Enterprise and Looker only. The name of the SCIM tenant to undelete. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/{provider}/scimTenants/{scim_tenant}` |
 
 ## UndeleteWorkforcePoolRequest
 
@@ -3440,21 +3440,21 @@ Request message for UpdateWorkforcePoolProvider.
 
 ## UpdateWorkforcePoolProviderScimTenantRequest
 
-Gemini Enterprise only. Request message for UpdateWorkforcePoolProviderScimTenant.
+Gemini Enterprise and Looker only. Request message for UpdateWorkforcePoolProviderScimTenant.
 
-| Fields                                |                                                                                                                                                                                                                                                                                      |
-|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `workforce_pool_provider_scim_tenant` | [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) Required. Gemini Enterprise only. The SCIM tenant to update. The `name` field is used to identify the SCIM tenant. |
-| `update_mask`                         | [`FieldMask`](https://protobuf.dev/reference/protobuf/google.protobuf/#field-mask) Optional. Gemini Enterprise only. The list of fields to update.                                                                                                                                   |
+| Fields                                |                                                                                                                                                                                                                                                                                                 |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `workforce_pool_provider_scim_tenant` | [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) Required. Gemini Enterprise and Looker only. The SCIM tenant to update. The `name` field is used to identify the SCIM tenant. |
+| `update_mask`                         | [`FieldMask`](https://protobuf.dev/reference/protobuf/google.protobuf/#field-mask) Optional. Gemini Enterprise and Looker only. The list of fields to update.                                                                                                                                   |
 
 ## UpdateWorkforcePoolProviderScimTokenRequest
 
-Gemini Enterprise only. Request message for UpdateWorkforcePoolProviderScimToken.
+Gemini Enterprise and Looker only. Request message for UpdateWorkforcePoolProviderScimToken.
 
-| Fields                               |                                                                                                                                                                                                                                                                                  |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `workforce_pool_provider_scim_token` | [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) Required. Gemini Enterprise only. The SCIM token to update. The `name` field is used to identify the SCIM token. |
-| `update_mask`                        | [`FieldMask`](https://protobuf.dev/reference/protobuf/google.protobuf/#field-mask) Optional. Gemini Enterprise only. The list of fields to update.                                                                                                                               |
+| Fields                               |                                                                                                                                                                                                                                                                                             |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `workforce_pool_provider_scim_token` | [`WorkforcePoolProviderScimToken`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken) Required. Gemini Enterprise and Looker only. The SCIM token to update. The `name` field is used to identify the SCIM token. |
+| `update_mask`                        | [`FieldMask`](https://protobuf.dev/reference/protobuf/google.protobuf/#field-mask) Optional. Gemini Enterprise and Looker only. The list of fields to update.                                                                                                                               |
 
 ## UpdateWorkforcePoolRequest
 
@@ -3666,7 +3666,7 @@ A configuration for an external identity provider.
 <tr class="even">
 <td><code>scim_usage</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProvider.ScimUsage"><code>ScimUsage</code></a></p>
-<p>Optional. Gemini Enterprise only. Specifies whether the workforce identity pool provider uses SCIM-managed groups instead of the <code>google.groups</code> attribute mapping for authorization checks.</p>
+<p>Optional. Gemini Enterprise and Looker only. Specifies whether the workforce identity pool provider uses SCIM-managed groups, or users and groups.</p>
 <p>The <code>scim_usage</code> and <code>extended_attributes_oauth2_client</code> fields are mutually exclusive. A request that enables both fields on the same workforce identity pool provider will produce an error.</p></td>
 </tr>
 <tr class="odd">
@@ -3853,11 +3853,11 @@ Represents a SAML identity provider.
 
 Gemini Enterprise and Looker only. Specifies whether the workforce identity pool provider uses SCIM-managed groups, or users and groups.
 
-| Enums                      |                                                                                                               |
-|----------------------------|---------------------------------------------------------------------------------------------------------------|
-| `SCIM_USAGE_UNSPECIFIED`   | Indicates that SCIM data is not used.                                                                         |
-| `ENABLED_FOR_GROUPS`       | Gemini Enterprise only. SCIM sync is enabled and SCIM-managed groups are used for authorization checks.       |
-| `ENABLED_FOR_USERS_GROUPS` | Looker only. SCIM sync is enabled, and SCIM-managed user claims and groups are used for authorization checks. |
+| Enums                      |                                                                                                                                     |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| `SCIM_USAGE_UNSPECIFIED`   | Indicates that SCIM data is not used.                                                                                               |
+| `ENABLED_FOR_GROUPS`       | Gemini Enterprise only. SCIM sync is enabled and SCIM-managed groups are used for authorization checks.                             |
+| `ENABLED_FOR_USERS_GROUPS` | Gemini Enterprise and Looker only. SCIM sync is enabled, and SCIM-managed user claims and groups are used for authorization checks. |
 
 ## State
 
@@ -3931,7 +3931,7 @@ Metadata for long-running WorkforcePoolProvider operations.
 
 ## WorkforcePoolProviderScimTenant
 
-Gemini Enterprise only. Represents a SCIM tenant. Used for provisioning and managing identity data (such as Users and Groups) in cross-domain environments.
+Gemini Enterprise and Looker only. Represents a SCIM tenant. Used for provisioning and managing identity data (such as Users and Groups) in cross-domain environments.
 
 <table>
 <colgroup>
@@ -3948,36 +3948,36 @@ Gemini Enterprise only. Represents a SCIM tenant. Used for provisioning and mana
 <tr class="odd">
 <td><code>name</code></td>
 <td><p><code>string</code></p>
-<p>Identifier. Gemini Enterprise only. The resource name of the SCIM Tenant.</p>
+<p>Identifier. Gemini Enterprise and Looker only. The resource name of the SCIM Tenant.</p>
 <p>Format: <code>locations/{location}/workforcePools/{workforce_pool}/providers/ {workforce_pool_provider}/scimTenants/{scim_tenant}</code></p></td>
 </tr>
 <tr class="even">
 <td><code>base_uri</code></td>
 <td><p><code>string</code></p>
-<p>Output only. Gemini Enterprise only. Represents the base URI as defined in <a href="https://datatracker.ietf.org/doc/html/rfc7644#section-1.3">RFC 7644, Section 1.3</a> . Clients must use this as the root address for managing resources under the tenant.</p>
+<p>Output only. Gemini Enterprise and Looker only. Represents the base URI as defined in <a href="https://datatracker.ietf.org/doc/html/rfc7644#section-1.3">RFC 7644, Section 1.3</a> . Clients must use this as the root address for managing resources under the tenant.</p>
 <p>Format: <a href="https://iamscim.googleapis.com/%7Bversion%7D/%7Btenant_id%7D/">https://iamscim.googleapis.com/{version}/{tenant_id}/</a></p></td>
 </tr>
 <tr class="odd">
 <td><code>state</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant.State"><code>State</code></a></p>
-<p>Output only. Gemini Enterprise only. The state of the tenant.</p></td>
+<p>Output only. Gemini Enterprise and Looker only. The state of the tenant.</p></td>
 </tr>
 <tr class="even">
 <td><code>description</code></td>
 <td><p><code>string</code></p>
-<p>Optional. Gemini Enterprise only. The description of the SCIM tenant.</p>
+<p>Optional. Gemini Enterprise and Looker only. The description of the SCIM tenant.</p>
 <p>Cannot exceed 256 characters.</p></td>
 </tr>
 <tr class="odd">
 <td><code>display_name</code></td>
 <td><p><code>string</code></p>
-<p>Optional. Gemini Enterprise only. The display name of the SCIM tenant.</p>
+<p>Optional. Gemini Enterprise and Looker only. The display name of the SCIM tenant.</p>
 <p>Cannot exceed 32 characters.</p></td>
 </tr>
 <tr class="even">
 <td><code>claim_mapping</code></td>
 <td><p><code>map&lt;string, string&gt;</code></p>
-<p>Required. Immutable. Gemini Enterprise only. Maps SCIM attributes to Google attributes.</p>
+<p>Required. Immutable. Gemini Enterprise and Looker only. Maps SCIM attributes to Google attributes.</p>
 <p>This mapping is used to associate the attributes synced via SCIM with the Google Cloud attributes used in IAM policies for Workforce Identity Federation. SCIM-managed user and group attributes are mapped to <code>google.subject</code> and <code>google.group</code> respectively.</p>
 <p>Each key must be a string specifying the Google Cloud IAM attribute to map to. The supported keys are as follows:</p>
 <ul>
@@ -3994,7 +3994,7 @@ Gemini Enterprise only. Represents a SCIM tenant. Used for provisioning and mana
 <tr class="odd">
 <td><code>purge_time</code></td>
 <td><p><a href="https://protobuf.dev/reference/protobuf/google.protobuf/#timestamp"><code>Timestamp</code></a></p>
-<p>Output only. Gemini Enterprise only. The timestamp that represents the time when the SCIM tenant is purged.</p></td>
+<p>Output only. Gemini Enterprise and Looker only. The timestamp that represents the time when the SCIM tenant is purged.</p></td>
 </tr>
 <tr class="even">
 <td><code>service_agent</code></td>
@@ -4006,34 +4006,34 @@ Gemini Enterprise only. Represents a SCIM tenant. Used for provisioning and mana
 
 ## State
 
-Gemini Enterprise only. The current state of the SCIM tenant.
+Gemini Enterprise and Looker only. The current state of the SCIM tenant.
 
-| Enums               |                                                                                                                               |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| `STATE_UNSPECIFIED` | Gemini Enterprise only. State unspecified.                                                                                    |
-| `ACTIVE`            | Gemini Enterprise only. The tenant is active and may be used to provision users and groups.                                   |
-| `DELETED`           | Gemini Enterprise only. The tenant is soft-deleted. Soft-deleted tenants are permanently deleted after approximately 30 days. |
+| Enums               |                                                                                                                                          |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| `STATE_UNSPECIFIED` | Gemini Enterprise and Looker only. State unspecified.                                                                                    |
+| `ACTIVE`            | Gemini Enterprise and Looker only. The tenant is active and may be used to provision users and groups.                                   |
+| `DELETED`           | Gemini Enterprise and Looker only. The tenant is soft-deleted. Soft-deleted tenants are permanently deleted after approximately 30 days. |
 
 ## WorkforcePoolProviderScimToken
 
-Gemini Enterprise only. Represents a token for the [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) . Used for authenticating SCIM provisioning requests.
+Gemini Enterprise and Looker only. Represents a token for the [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimTenant) . Used for authenticating SCIM provisioning requests.
 
-| Fields           |                                                                                                                                                                                                                                |
-|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name`           | `string` Identifier. Gemini Enterprise only. The resource name of the SCIM Token. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/ {workforce_pool_provider}/scimTenants/{scim_tenant}/tokens/{token}` |
-| `security_token` | `string` Output only. Gemini Enterprise only. The token string. Provide this to the IdP for authentication. Will be set only during creation.                                                                                  |
-| `state`          | [`State`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken.State) Output only. Gemini Enterprise only. The state of the token.                      |
-| `display_name`   | `string` Optional. Gemini Enterprise only. The display name of the SCIM token. Cannot exceed 32 characters.                                                                                                                    |
+| Fields           |                                                                                                                                                                                                                                           |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`           | `string` Identifier. Gemini Enterprise and Looker only. The resource name of the SCIM Token. Format: `locations/{location}/workforcePools/{workforce_pool}/providers/ {workforce_pool_provider}/scimTenants/{scim_tenant}/tokens/{token}` |
+| `security_token` | `string` Output only. Gemini Enterprise and Looker only. The token string. Provide this to the IdP for authentication. Will be set only during creation.                                                                                  |
+| `state`          | [`State`](https://docs.cloud.google.com/iam/docs/reference/rpc/google.iam.admin.v1#google.iam.admin.v1.WorkforcePoolProviderScimToken.State) Output only. Gemini Enterprise and Looker only. The state of the token.                      |
+| `display_name`   | `string` Optional. Gemini Enterprise and Looker only. The display name of the SCIM token. Cannot exceed 32 characters.                                                                                                                    |
 
 ## State
 
-Gemini Enterprise only. The current state of the SCIM token.
+Gemini Enterprise and Looker only. The current state of the SCIM token.
 
-| Enums               |                                                                                                                             |
-|---------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| `STATE_UNSPECIFIED` | Gemini Enterprise only. State unspecified.                                                                                  |
-| `ACTIVE`            | Gemini Enterprise only. The token is active and may be used to provision users and groups.                                  |
-| `DELETED`           | Gemini Enterprise only. The token is soft-deleted. Soft-deleted tokens are permanently deleted after approximately 30 days. |
+| Enums               |                                                                                                                                        |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `STATE_UNSPECIFIED` | Gemini Enterprise and Looker only. State unspecified.                                                                                  |
+| `ACTIVE`            | Gemini Enterprise and Looker only. The token is active and may be used to provision users and groups.                                  |
+| `DELETED`           | Gemini Enterprise and Looker only. The token is soft-deleted. Soft-deleted tokens are permanently deleted after approximately 30 days. |
 
 ## WorkforcePoolSubject
 

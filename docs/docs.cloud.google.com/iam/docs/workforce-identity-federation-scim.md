@@ -8,7 +8,7 @@ data_source: docs.cloud.google.com
 
 If your identity provider (IdP) supports [System for Cross-domain Identity Management (SCIM)](https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management) , you can configure it to provision and manage users and groups in Google Cloud.
 
-> **Important:** SCIM provisioning applies only to Gemini Enterprise and Looker ( [Preview](https://cloud.google.com/products#product-launch-stages) ).
+> **Important:** SCIM provisioning applies only to Gemini Enterprise and Looker.
 
 ## Capabilities
 
@@ -32,8 +32,8 @@ When you use Workforce Identity Federation SCIM support, the following considera
   - **Hard delete:** To permanently and immediately delete a SCIM tenant, use the `--hard-delete` flag with the delete command. This action is irreversible and lets you create a new SCIM tenant in the same workforce identity pool immediately without waiting for the 30-day retention period. Alternatively, you can create a new workforce identity pool and a new SCIM tenant or use a workforce identity pool that hasn't previously been configured with a SCIM tenant.
 - **SCIM usage modes ( `--scim-usage` ):**
   - **`enabled-for-groups` (Gemini Enterprise):** Uses SCIM-synced groups for IAM authorization and policy evaluation. User attributes continue to be sourced from login tokens. Only `google.subject` and `google.group` mappings are evaluated.
-  - **`enabled-for-users-groups` (Looker) ( [Preview](https://cloud.google.com/products#product-launch-stages) ):** Uses SCIM-synced user and group data as the source of claims for IAM authorization and OAuth sign-in workflows. Evaluates `google.subject` , `google.group` , and all configured user claims (such as `google.display_name` , `google.profile_photo` , `google.email` , `google.posix_username` , and custom `attribute.KEY` ).
-- **Mutual exclusivity:** Setting `--scim-usage=enabled-for-users-groups` ( [Preview](https://cloud.google.com/products#product-launch-stages) ) is mutually exclusive with Extra Attributes ( `extra_attributes_oauth2_client` ) and Extended Attributes ( `extended_attributes_oauth2_client` ).
+  - **`enabled-for-users-groups` (Gemini Enterprise and Looker):** Uses SCIM-synced user and group data as the source of claims for IAM authorization in web sign-in and OAuth sign-in workflows. Evaluates `google.subject` , `google.group` , and all configured user claims (such as `google.display_name` , `google.profile_photo` , `google.email` , `google.posix_username` , and custom `attribute.<var>KEY</var>` ).
+- **Mutual exclusivity:** Setting `--scim-usage=enabled-for-users-groups` is mutually exclusive with Extra Attributes ( `extra_attributes_oauth2_client` ) and Extended Attributes ( `extended_attributes_oauth2_client` ).
 - When you use SCIM, you map attributes in both the workforce identity pool provider and the SCIM tenant. The `google.subject` attribute must uniquely refer to the same identities. You specify `google.subject` in the workforce identity pool provider by using the `--attribute-mapping` flag and in the SCIM tenant using the `--claim-mapping` flag. Mapping non-unique identity values can cause Google Cloud to treat different IdP identities as the same identity. As a result, access that's granted to one user or group identity can extend to others, but revoking access from one might not remove it from all.
 - If you enable SCIM usage on a provider without an attached SCIM tenant, sign-in attempts fail because Google Cloud can't find a SCIM tenant for that provider.
 - **Uniqueness enforcement:** Google Cloud validates and enforces uniqueness on attributes mapped to `google.subject` (users) and `google.group` (groups) in a SCIM tenant. If the mapped attributes provisioned by your IdP result in duplicate values for `google.subject` or `google.group` during synchronization, then provisioning fails with an HTTP `409 Conflict` error. If a mapped attribute evaluates to null or empty, provisioning fails with an HTTP `400 Bad Request` error.
@@ -129,7 +129,9 @@ The following table lists the Google Cloud attributes that you can map in your S
 The evaluation of SCIM claim mappings depends on the `--scim-usage` mode configured on the workforce identity pool provider:
 
 - **`enabled-for-groups` (Gemini Enterprise):** Only `google.subject` and `google.group` mappings are evaluated. Any additional user claim mappings in `--claim-mapping` are ignored.
-- **`enabled-for-users-groups` (Looker) ( [Preview](https://cloud.google.com/products#product-launch-stages) ):** Evaluates `google.subject` , `google.group` , and all configured user claims (such as `google.display_name` , `google.profile_photo` , `google.email` , `google.posix_username` , and custom `attribute.<var>KEY</var>` ).
+- **`enabled-for-users-groups` (Gemini Enterprise and Looker):** Evaluates `google.subject` , `google.group` , and all configured user claims (such as `google.display_name` , `google.profile_photo` , `google.email` , `google.posix_username` , and custom `attribute.<var>KEY</var>` ). Google Cloud uses SCIM claims in the following sign-in workflows:
+  - **Web sign-in:** When users sign in to Gemini Enterprise, Google Cloud uses the SCIM-synced user and group claims. When users sign in to other products, such as the Google Cloud console, Google Cloud uses the attributes mapped from the IdP token by the provider's `--attribute-mapping` flag.
+  - **OAuth sign-in:** When users sign in to Gemini Enterprise and Looker applications that use the Workforce Identity Federation OAuth flow, Google Cloud uses the SCIM-synced user and group claims. When users sign in to other applications, Google Cloud uses the attributes mapped from the IdP token by the provider's `--attribute-mapping` flag.
 
 ### Example mappings for subject consistency
 

@@ -15,7 +15,7 @@ data_source: docs.cloud.google.com
 - [Examples](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/create#examples)
 - [Try it!](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants/create#try-it)
 
-Gemini Enterprise only. Creates a new [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) in a [`WorkforcePoolProvider`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#WorkforcePoolProvider) . You cannot reuse the name of a deleted SCIM tenant until 30 days after deletion.
+Gemini Enterprise and Looker only. Creates a new [`WorkforcePoolProviderScimTenant`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers.scimTenants#WorkforcePoolProviderScimTenant) in a [`WorkforcePoolProvider`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers#WorkforcePoolProvider) . You cannot reuse the name of a deleted SCIM tenant until 30 days after deletion.
 
 ### HTTP request
 
@@ -25,15 +25,15 @@ The URL uses [gRPC Transcoding](https://google.aip.dev/127) syntax.
 
 ### Path parameters
 
-| Parameters |                                                                                                                                                                 |
-|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `parent`   | `string` Required. Gemini Enterprise only. The parent to create SCIM tenant. Format: 'locations/{location}/workforcePools/{workforcePool}/providers/{provider}' |
+| Parameters |                                                                                                                                                                            |
+|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `parent`   | `string` Required. Gemini Enterprise and Looker only. The parent to create SCIM tenant. Format: 'locations/{location}/workforcePools/{workforcePool}/providers/{provider}' |
 
 ### Query parameters
 
-| Parameters                          |                                                                                                                                                                                                                     |
-|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `workforcePoolProviderScimTenantId` | `string` Required. Gemini Enterprise only. The ID to use for the SCIM tenant, which becomes the final component of the resource name. This value should be 4-32 characters, containing the characters `[a-z0-9-]` . |
+| Parameters                          |                                                                                                                                                                                                                                |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `workforcePoolProviderScimTenantId` | `string` Required. Gemini Enterprise and Looker only. The ID to use for the SCIM tenant, which becomes the final component of the resource name. This value should be 4-32 characters, containing the characters `[a-z0-9-]` . |
 
 ### Request body
 
