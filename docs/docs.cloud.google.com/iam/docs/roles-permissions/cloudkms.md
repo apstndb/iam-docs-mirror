@@ -1094,6 +1094,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code>roles/ iam.siteReliabilityEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1324,6 +1325,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memorystore#memorystore.admin">Memorystore Admin</a> ( <code>roles/ memorystore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.admin">Parameter Manager Admin</a> ( <code>roles/ parametermanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsub#pubsub.admin">Pub/Sub Admin</a> ( <code>roles/ pubsub.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsub#pubsub.editor">Pub/Sub Editor</a> ( <code>roles/ pubsub.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redis#redis.admin">Cloud Memorystore Redis Admin</a> ( <code>roles/ redis.admin</code> )</p>
@@ -1403,6 +1405,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memorystore#memorystore.admin">Memorystore Admin</a> ( <code>roles/ memorystore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.admin">Parameter Manager Admin</a> ( <code>roles/ parametermanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsub#pubsub.admin">Pub/Sub Admin</a> ( <code>roles/ pubsub.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsub#pubsub.editor">Pub/Sub Editor</a> ( <code>roles/ pubsub.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redis#redis.admin">Cloud Memorystore Redis Admin</a> ( <code>roles/ redis.admin</code> )</p>
@@ -1486,6 +1489,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memorystore#memorystore.admin">Memorystore Admin</a> ( <code>roles/ memorystore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.admin">Parameter Manager Admin</a> ( <code>roles/ parametermanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsub#pubsub.admin">Pub/Sub Admin</a> ( <code>roles/ pubsub.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsub#pubsub.editor">Pub/Sub Editor</a> ( <code>roles/ pubsub.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redis#redis.admin">Cloud Memorystore Redis Admin</a> ( <code>roles/ redis.admin</code> )</p>
@@ -1519,7 +1523,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.legacyAdmin">Notebooks Legacy Admin</a> ( <code>roles/ notebooks.legacyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code>roles/ run.sourceDeveloper</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager#securesourcemanager.instanceOwner">Secure Source Manager Instance Owner</a> ( <code>roles/ securesourcemanager.instanceOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spanner#spanner.databaseAdmin">Cloud Spanner Database Admin</a> ( <code>roles/ spanner.databaseAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spanner#spanner.databaseAdmin">Cloud Spanner Database Admin</a> ( <code>roles/ spanner.databaseAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><code>cloudkms.keyRings.create</code></td>
@@ -1842,6 +1847,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memorystore#memorystore.admin">Memorystore Admin</a> ( <code>roles/ memorystore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.admin">Parameter Manager Admin</a> ( <code>roles/ parametermanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsub#pubsub.admin">Pub/Sub Admin</a> ( <code>roles/ pubsub.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsub#pubsub.editor">Pub/Sub Editor</a> ( <code>roles/ pubsub.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redis#redis.admin">Cloud Memorystore Redis Admin</a> ( <code>roles/ redis.admin</code> )</p>
@@ -1926,6 +1932,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code>roles/ firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gkebackup#gkebackup.admin">Backup for GKE Admin</a> ( <code>roles/ gkebackup.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memorystore#memorystore.admin">Memorystore Admin</a> ( <code>roles/ memorystore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.admin">Parameter Manager Admin</a> ( <code>roles/ parametermanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsub#pubsub.admin">Pub/Sub Admin</a> ( <code>roles/ pubsub.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsub#pubsub.editor">Pub/Sub Editor</a> ( <code>roles/ pubsub.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redis#redis.admin">Cloud Memorystore Redis Admin</a> ( <code>roles/ redis.admin</code> )</p>
@@ -2187,7 +2194,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code>roles/ iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><code>cloudkms. singleTenantHsmInstances. use</code></td>

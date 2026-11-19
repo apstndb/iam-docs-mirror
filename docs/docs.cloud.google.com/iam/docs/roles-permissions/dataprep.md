@@ -188,6 +188,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>compute. acceleratorInterconnects. get</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute. acceleratorInterconnects. queryFormability</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>

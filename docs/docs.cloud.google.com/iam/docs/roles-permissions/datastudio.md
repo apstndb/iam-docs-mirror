@@ -282,6 +282,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><code>bigquery.datasets.get</code></p>
 <p><code>bigquery.tables.create</code></p>
 <p><code>bigquery.tables.delete</code></p>
+<p><code>bigquery.tables.get</code></p>
 <p><code>bigquery.tables.getData</code></p>
 <p><code>bigquery.tables.list</code></p>
 <p><code>bigquery.tables.update</code></p>

@@ -241,6 +241,7 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. evaluationExperiments. list</code></li>
 <li><code>aiplatform. evaluationExperiments. update</code></li>
 </ul>
+<p><code>aiplatform. evaluationItemRevisions. get</code></p>
 <p><code>aiplatform.evaluationItems.*</code></p>
 <ul>
 <li><code>aiplatform. evaluationItems. create</code></li>
@@ -265,6 +266,11 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform.evaluationRuns.get</code></li>
 <li><code>aiplatform.evaluationRuns.list</code></li>
 <li><code>aiplatform. evaluationRuns. update</code></li>
+</ul>
+<p><code>aiplatform. evaluationSetRevisions.*</code></p>
+<ul>
+<li><code>aiplatform. evaluationSetRevisions. delete</code></li>
+<li><code>aiplatform. evaluationSetRevisions. get</code></li>
 </ul>
 <p><code>aiplatform.evaluationSets.*</code></p>
 <ul>
@@ -995,6 +1001,7 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. evaluationExperiments. list</code></li>
 <li><code>aiplatform. evaluationExperiments. update</code></li>
 </ul>
+<p><code>aiplatform. evaluationItemRevisions. get</code></p>
 <p><code>aiplatform.evaluationItems.*</code></p>
 <ul>
 <li><code>aiplatform. evaluationItems. create</code></li>
@@ -1019,6 +1026,11 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform.evaluationRuns.get</code></li>
 <li><code>aiplatform.evaluationRuns.list</code></li>
 <li><code>aiplatform. evaluationRuns. update</code></li>
+</ul>
+<p><code>aiplatform. evaluationSetRevisions.*</code></p>
+<ul>
+<li><code>aiplatform. evaluationSetRevisions. delete</code></li>
+<li><code>aiplatform. evaluationSetRevisions. get</code></li>
 </ul>
 <p><code>aiplatform.evaluationSets.*</code></p>
 <ul>
@@ -1767,6 +1779,7 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform. evaluationExperiments. list</code></li>
 <li><code>aiplatform. evaluationExperiments. update</code></li>
 </ul>
+<p><code>aiplatform. evaluationItemRevisions. get</code></p>
 <p><code>aiplatform.evaluationItems.*</code></p>
 <ul>
 <li><code>aiplatform. evaluationItems. create</code></li>
@@ -1791,6 +1804,11 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code>aiplatform.evaluationRuns.get</code></li>
 <li><code>aiplatform.evaluationRuns.list</code></li>
 <li><code>aiplatform. evaluationRuns. update</code></li>
+</ul>
+<p><code>aiplatform. evaluationSetRevisions.*</code></p>
+<ul>
+<li><code>aiplatform. evaluationSetRevisions. delete</code></li>
+<li><code>aiplatform. evaluationSetRevisions. get</code></li>
 </ul>
 <p><code>aiplatform.evaluationSets.*</code></p>
 <ul>
@@ -2323,12 +2341,14 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code>aiplatform. entityTypes. streamingReadFeatureValues</code></p>
 <p><code>aiplatform. evaluationExperiments. get</code></p>
 <p><code>aiplatform. evaluationExperiments. list</code></p>
+<p><code>aiplatform. evaluationItemRevisions. get</code></p>
 <p><code>aiplatform.evaluationItems.get</code></p>
 <p><code>aiplatform. evaluationItems. list</code></p>
 <p><code>aiplatform. evaluationMetrics. get</code></p>
 <p><code>aiplatform. evaluationMetrics. list</code></p>
 <p><code>aiplatform.evaluationRuns.get</code></p>
 <p><code>aiplatform.evaluationRuns.list</code></p>
+<p><code>aiplatform. evaluationSetRevisions. get</code></p>
 <p><code>aiplatform.evaluationSets.get</code></p>
 <p><code>aiplatform.evaluationSets.list</code></p>
 <p><code>aiplatform.exampleStores.get</code></p>
@@ -3671,6 +3691,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. evaluationExperiments. list</code></li>
 <li><code>aiplatform. evaluationExperiments. update</code></li>
 </ul>
+<p><code>aiplatform. evaluationItemRevisions. get</code></p>
 <p><code>aiplatform.evaluationItems.*</code></p>
 <ul>
 <li><code>aiplatform. evaluationItems. create</code></li>
@@ -3695,6 +3716,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.evaluationRuns.get</code></li>
 <li><code>aiplatform.evaluationRuns.list</code></li>
 <li><code>aiplatform. evaluationRuns. update</code></li>
+</ul>
+<p><code>aiplatform. evaluationSetRevisions.*</code></p>
+<ul>
+<li><code>aiplatform. evaluationSetRevisions. delete</code></li>
+<li><code>aiplatform. evaluationSetRevisions. get</code></li>
 </ul>
 <p><code>aiplatform.evaluationSets.*</code></p>
 <ul>
@@ -4565,6 +4591,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>agentregistry.operations.get</code></li>
 <li><code>agentregistry.operations.list</code></li>
 </ul>
+<p><code>agentregistry.services.create</code></p>
+<p><code>agentregistry.services.delete</code></p>
+<p><code>agentregistry.services.get</code></p>
+<p><code>agentregistry.services.update</code></p>
 <p><code>agentregistry.skills.create</code></p>
 <p><code>agentregistry.skills.delete</code></p>
 <p><code>agentregistry.skills.get</code></p>
@@ -4768,6 +4798,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. evaluationExperiments. list</code></li>
 <li><code>aiplatform. evaluationExperiments. update</code></li>
 </ul>
+<p><code>aiplatform. evaluationItemRevisions. get</code></p>
 <p><code>aiplatform.evaluationItems.*</code></p>
 <ul>
 <li><code>aiplatform. evaluationItems. create</code></li>
@@ -4792,6 +4823,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.evaluationRuns.get</code></li>
 <li><code>aiplatform.evaluationRuns.list</code></li>
 <li><code>aiplatform. evaluationRuns. update</code></li>
+</ul>
+<p><code>aiplatform. evaluationSetRevisions.*</code></p>
+<ul>
+<li><code>aiplatform. evaluationSetRevisions. delete</code></li>
+<li><code>aiplatform. evaluationSetRevisions. get</code></li>
 </ul>
 <p><code>aiplatform.evaluationSets.*</code></p>
 <ul>
@@ -5308,6 +5344,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>compute.instances.create</code></p>
 <p><code>compute. instances. createTagBinding</code></p>
 <p><code>compute.instances.delete</code></p>
+<p><code>compute. instances. deleteTagBinding</code></p>
 <p><code>compute.instances.detachDisk</code></p>
 <p><code>compute.instances.get</code></p>
 <p><code>compute. instances. getGuestAttributes</code></p>
@@ -5412,6 +5449,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>observability.operations.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p>
+<p><code>resourcemanager.tagKeys.get</code></p>
+<p><code>resourcemanager. tagValueBindings.*</code></p>
+<ul>
+<li><code>resourcemanager. tagValueBindings. create</code></li>
+<li><code>resourcemanager. tagValueBindings. delete</code></li>
+</ul>
+<p><code>resourcemanager.tagValues.get</code></p>
 <p><code>run.executions.delete</code></p>
 <p><code>run.executions.get</code></p>
 <p><code>run.jobs.create</code></p>
@@ -7315,6 +7359,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
@@ -7352,6 +7397,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
@@ -7829,6 +7875,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dspm#dspm.serviceAgent">DSPM Service Agent</a> ( <code>roles/ dspm.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
@@ -7889,6 +7936,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dspm#dspm.serviceAgent">DSPM Service Agent</a> ( <code>roles/ dspm.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.controlServiceAgent">Security Center Control Service Agent</a> ( <code>roles/ securitycenter.controlServiceAgent</code> )</li>
@@ -8603,6 +8651,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.tuningServiceAgent">Vertex AI Tuning Service Agent</a> ( <code>roles/ aiplatform.tuningServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code>roles/ ces.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dialogflow#dialogflow.serviceAgent">Dialogflow Service Agent</a> ( <code>roles/ dialogflow.serviceAgent</code> )</li>
@@ -8676,6 +8725,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.reasoningEngineServiceAgent">Vertex AI Reasoning Engine Service Agent</a> ( <code>roles/ aiplatform.reasoningEngineServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dspm#dspm.serviceAgent">DSPM Service Agent</a> ( <code>roles/ dspm.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spanner#spanner.serviceAgent">Cloud Spanner API Service Agent</a> ( <code>roles/ spanner.serviceAgent</code> )</li>
@@ -9264,49 +9314,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
-<td><code>aiplatform. evaluationItems. create</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
-<p>Service agent roles</p>
-<blockquote>
-<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
-</blockquote>
-<ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><code>aiplatform. evaluationItems. delete</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
-<p>Service agent roles</p>
-<blockquote>
-<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
-</blockquote>
-<ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><code>aiplatform.evaluationItems.get</code></td>
+<td><code>aiplatform. evaluationItemRevisions. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
@@ -9333,6 +9341,75 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><code>aiplatform. evaluationItems. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>aiplatform. evaluationItems. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><code>aiplatform.evaluationItems.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><code>aiplatform. evaluationItems. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9362,7 +9439,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. evaluationItems. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9383,7 +9460,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. evaluationMetrics. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9404,7 +9481,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. evaluationMetrics. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9425,7 +9502,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. evaluationMetrics. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9452,7 +9529,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. evaluationMetrics. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9482,7 +9559,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. evaluationRuns. cancel</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9503,7 +9580,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. evaluationRuns. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9525,7 +9602,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. evaluationRuns. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9546,7 +9623,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. evaluationRuns. execute</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9567,7 +9644,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.evaluationRuns.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9595,7 +9672,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.evaluationRuns.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9625,7 +9702,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. evaluationRuns. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9646,29 +9723,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
-<td><code>aiplatform. evaluationSets. create</code></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
-<p>Service agent roles</p>
-<blockquote>
-<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
-</blockquote>
-<ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
-</ul></td>
-</tr>
 <tr class="even">
-<td><code>aiplatform. evaluationSets. delete</code></td>
+<td><code>aiplatform. evaluationSetRevisions. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
@@ -9689,7 +9745,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
-<td><code>aiplatform.evaluationSets.get</code></td>
+<td><code>aiplatform. evaluationSetRevisions. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
@@ -9716,7 +9772,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
-<td><code>aiplatform. evaluationSets. import</code></td>
+<td><code>aiplatform. evaluationSets. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
@@ -9737,6 +9793,75 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
+<td><code>aiplatform. evaluationSets. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><code>aiplatform.evaluationSets.get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code>roles/ aiplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code>roles/ dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code>roles/ dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><code>aiplatform. evaluationSets. import</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code>roles/ aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code>roles/ aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code>roles/ aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code>roles/ iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><code>aiplatform.evaluationSets.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9766,7 +9891,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. evaluationSets. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9787,7 +9912,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. exampleStores. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9808,7 +9933,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. exampleStores. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9829,7 +9954,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.exampleStores.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9856,7 +9981,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.exampleStores.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9886,7 +10011,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. exampleStores. readExample</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9913,7 +10038,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. exampleStores. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9934,7 +10059,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. exampleStores. writeExample</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9955,7 +10080,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. executions. addExecutionEvents</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9976,7 +10101,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.executions.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -9998,7 +10123,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.executions.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10020,7 +10145,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.executions.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10051,7 +10176,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.executions.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10085,7 +10210,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. executions. queryExecutionInputsAndOutputs</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10112,7 +10237,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.executions.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10134,7 +10259,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.extensions.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10156,7 +10281,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.extensions.execute</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10180,7 +10305,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.extensions.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10210,7 +10335,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.extensions.import</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10232,7 +10357,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.extensions.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10263,7 +10388,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.extensions.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10285,7 +10410,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featureGroups. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10307,7 +10432,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureGroups. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10329,7 +10454,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.featureGroups.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10361,7 +10486,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureGroups. getIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10392,7 +10517,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.featureGroups.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10428,7 +10553,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureGroups. setIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10444,7 +10569,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featureGroups. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10466,7 +10591,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureMonitorJobs. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10488,7 +10613,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featureMonitorJobs. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10520,7 +10645,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureMonitorJobs. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10555,7 +10680,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featureMonitors. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10577,7 +10702,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureMonitors. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10599,7 +10724,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.featureMonitors.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10631,7 +10756,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureMonitors. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10666,7 +10791,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featureMonitors. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10688,7 +10813,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureOnlineStores. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10710,7 +10835,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featureOnlineStores. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10732,7 +10857,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureOnlineStores. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10764,7 +10889,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featureOnlineStores. getIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10795,7 +10920,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureOnlineStores. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10831,7 +10956,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featureOnlineStores. setIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10847,7 +10972,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureOnlineStores. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10869,7 +10994,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featureViewSyncs. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10901,7 +11026,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureViewSyncs. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10936,7 +11061,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.featureViews.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10958,7 +11083,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.featureViews.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10980,7 +11105,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featureViews. directWrite</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11002,7 +11127,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureViews. fetchFeatureValues</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11033,7 +11158,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.featureViews.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11066,7 +11191,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureViews. getIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11097,7 +11222,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.featureViews.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11134,7 +11259,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featureViews. searchNearestEntities</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11165,7 +11290,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featureViews. setIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11181,7 +11306,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.featureViews.sync</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11204,7 +11329,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.featureViews.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11227,7 +11352,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.features.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11251,7 +11376,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.features.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11275,7 +11400,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.features.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11308,7 +11433,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.features.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11344,7 +11469,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.features.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11368,7 +11493,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featurestores. batchReadFeatureValues</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11397,7 +11522,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featurestores. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11421,7 +11546,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featurestores. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11445,7 +11570,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featurestores. exportFeatures</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11468,7 +11593,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.featurestores.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11497,11 +11622,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featurestores. getIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11533,7 +11659,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featurestores. importFeatures</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11556,7 +11682,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.featurestores.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11589,11 +11715,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featurestores. readFeatures</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11622,7 +11749,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featurestores. setIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11639,7 +11766,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. featurestores. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11663,7 +11790,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. featurestores. writeFeatures</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11686,7 +11813,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. humanInTheLoops. cancel</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11707,7 +11834,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. humanInTheLoops. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11728,7 +11855,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. humanInTheLoops. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11749,7 +11876,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.humanInTheLoops.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11776,7 +11903,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. humanInTheLoops. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11806,7 +11933,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. humanInTheLoops. queryAnnotationStats</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11833,7 +11960,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. humanInTheLoops. send</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11854,7 +11981,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. humanInTheLoops. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11875,7 +12002,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. hyperparameterTuningJobs. cancel</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11896,7 +12023,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. hyperparameterTuningJobs. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11917,7 +12044,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. hyperparameterTuningJobs. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11938,7 +12065,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. hyperparameterTuningJobs. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11963,11 +12090,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. hyperparameterTuningJobs. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11996,11 +12124,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. indexEndpoints. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12022,7 +12151,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. indexEndpoints. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12044,7 +12173,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. indexEndpoints. deploy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12066,7 +12195,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.indexEndpoints.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12095,7 +12224,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.indexEndpoints.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12127,7 +12256,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. indexEndpoints. queryVectors</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12155,7 +12284,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. indexEndpoints. undeploy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12177,7 +12306,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. indexEndpoints. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12199,7 +12328,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.indexes.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12221,7 +12350,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.indexes.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12243,7 +12372,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.indexes.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12271,7 +12400,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.indexes.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12303,7 +12432,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.indexes.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12325,7 +12454,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.interactions.cancel</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12347,7 +12476,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.interactions.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12366,12 +12495,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/flow#aisandbox.serviceAgent">FlowService Service Agent</a> ( <code>roles/ aisandbox.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseml#firebaseml.serviceAgent">Firebase AI Logic Service Agent</a> ( <code>roles/ firebaseml.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/flow#flow.serviceAgent">Flow Service Agent</a> ( <code>roles/ flow.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.interactions.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12393,7 +12523,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.interactions.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12418,12 +12548,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/flow#aisandbox.serviceAgent">FlowService Service Agent</a> ( <code>roles/ aisandbox.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseml#firebaseml.serviceAgent">Firebase AI Logic Service Agent</a> ( <code>roles/ firebaseml.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/flow#flow.serviceAgent">Flow Service Agent</a> ( <code>roles/ flow.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.interactions.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12454,7 +12585,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. locations. evaluateInstances</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12485,7 +12616,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.locations.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12522,7 +12653,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.locations.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12554,7 +12685,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.memories.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12580,7 +12711,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.memories.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12606,7 +12737,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.memories.generate</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12632,7 +12763,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.memories.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12664,7 +12795,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.memories.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12699,7 +12830,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.memories.retrieve</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12728,7 +12859,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.memories.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12754,7 +12885,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.memoryRevisions.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12783,7 +12914,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. memoryRevisions. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12815,7 +12946,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. memoryRevisions. rollback</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12838,7 +12969,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. metadataSchemas. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12860,7 +12991,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. metadataSchemas. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12882,7 +13013,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.metadataSchemas.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12910,7 +13041,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. metadataSchemas. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12942,7 +13073,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. metadataStores. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12964,7 +13095,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. metadataStores. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12986,7 +13117,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.metadataStores.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13012,11 +13143,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.tuningServiceAgent">Vertex AI Tuning Service Agent</a> ( <code>roles/ aiplatform.tuningServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.metadataStores.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13046,11 +13178,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.tuningServiceAgent">Vertex AI Tuning Service Agent</a> ( <code>roles/ aiplatform.tuningServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. migratableResources. migrate</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13068,7 +13201,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. migratableResources. search</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13096,7 +13229,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. modelDeploymentMonitoringJobs. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13117,7 +13250,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. modelDeploymentMonitoringJobs. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13138,7 +13271,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. modelDeploymentMonitoringJobs. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13165,7 +13298,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. modelDeploymentMonitoringJobs. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13196,7 +13329,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. modelDeploymentMonitoringJobs. pause</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13217,7 +13350,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. modelDeploymentMonitoringJobs. resume</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13238,7 +13371,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. modelDeploymentMonitoringJobs. searchStatsAnomalies</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13265,7 +13398,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. modelDeploymentMonitoringJobs. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13286,7 +13419,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. modelEvaluationSlices. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13313,7 +13446,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. modelEvaluationSlices. import</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13334,7 +13467,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. modelEvaluationSlices. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13364,7 +13497,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. modelEvaluations. exportEvaluatedDataItems</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13385,7 +13518,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. modelEvaluations. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13412,7 +13545,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. modelEvaluations. import</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13433,7 +13566,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. modelEvaluations. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13464,7 +13597,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. modelMonitoringJobs. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13485,7 +13618,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. modelMonitoringJobs. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13506,7 +13639,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. modelMonitoringJobs. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13533,7 +13666,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. modelMonitoringJobs. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13563,7 +13696,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. modelMonitors. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13584,7 +13717,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. modelMonitors. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13605,7 +13738,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.modelMonitors.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13632,7 +13765,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.modelMonitors.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13662,7 +13795,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. modelMonitors. searchModelMonitoringAlerts</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13689,7 +13822,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. modelMonitors. searchModelMonitoringStats</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13716,7 +13849,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. modelMonitors. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13737,7 +13870,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.models.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13758,7 +13891,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.models.export</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13780,7 +13913,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.models.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13811,6 +13944,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.tuningServiceAgent">Vertex AI Tuning Service Agent</a> ( <code>roles/ aiplatform.tuningServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code>roles/ ces.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dialogflow#dialogflow.serviceAgent">Dialogflow Service Agent</a> ( <code>roles/ dialogflow.serviceAgent</code> )</li>
@@ -13819,7 +13953,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.models.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13851,6 +13985,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dspm#dspm.serviceAgent">DSPM Service Agent</a> ( <code>roles/ dspm.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.controlServiceAgent">Security Center Control Service Agent</a> ( <code>roles/ securitycenter.controlServiceAgent</code> )</li>
@@ -13859,7 +13994,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.models.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13881,7 +14016,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.models.upload</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13903,7 +14038,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. monitoredAgents. clearTrainingData</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13920,7 +14055,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. monitoredAgents. disable</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13941,7 +14076,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. monitoredAgents. enable</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13962,7 +14097,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.monitoredAgents.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -13989,7 +14124,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. monitoredAgents. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14019,7 +14154,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.nasJobs.cancel</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14040,7 +14175,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.nasJobs.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14061,7 +14196,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.nasJobs.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14082,7 +14217,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.nasJobs.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14109,7 +14244,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.nasJobs.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14140,7 +14275,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.nasTrialDetails.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14167,7 +14302,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. nasTrialDetails. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14197,7 +14332,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. notebookExecutionJobs. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14225,7 +14360,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. notebookExecutionJobs. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14252,7 +14387,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. notebookExecutionJobs. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14287,7 +14422,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. notebookExecutionJobs. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14325,7 +14460,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. notebookRuntimeTemplates. apply</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14358,7 +14493,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. notebookRuntimeTemplates. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14382,7 +14517,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. notebookRuntimeTemplates. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14406,7 +14541,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. notebookRuntimeTemplates. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14437,11 +14572,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. notebookRuntimeTemplates. getIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14477,7 +14613,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. notebookRuntimeTemplates. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14512,11 +14648,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. notebookRuntimeTemplates. setDefault</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14536,7 +14673,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. notebookRuntimeTemplates. setIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14554,7 +14691,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. notebookRuntimeTemplates. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14578,7 +14715,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. notebookRuntimes. assign</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14605,7 +14742,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. notebookRuntimes. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14629,7 +14766,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. notebookRuntimes. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14663,7 +14800,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. notebookRuntimes. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14700,7 +14837,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. notebookRuntimes. start</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14724,7 +14861,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. notebookRuntimes. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14748,7 +14885,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. notebookRuntimes. upgrade</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14772,7 +14909,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. onlineEvaluators. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14793,7 +14930,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. onlineEvaluators. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14814,7 +14951,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. onlineEvaluators. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14841,7 +14978,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. onlineEvaluators. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14871,7 +15008,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. onlineEvaluators. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14892,7 +15029,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.operations.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14939,7 +15076,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. persistentResources. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14956,7 +15093,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. persistentResources. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -14973,7 +15110,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. persistentResources. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15000,7 +15137,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. persistentResources. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15031,7 +15168,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.pipelineJobs.cancel</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15052,7 +15189,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.pipelineJobs.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15079,7 +15216,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.pipelineJobs.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15100,7 +15237,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.pipelineJobs.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15128,7 +15265,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.pipelineJobs.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15160,7 +15297,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. provisionedThroughputRevisions. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15188,7 +15325,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. provisionedThroughputRevisions. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15219,7 +15356,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. provisionedThroughputs. cancel</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15237,7 +15374,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. provisionedThroughputs. changeScope</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15255,7 +15392,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. provisionedThroughputs. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15273,7 +15410,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. provisionedThroughputs. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15301,7 +15438,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. provisionedThroughputs. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15332,7 +15469,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. provisionedThroughputs. split</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15350,7 +15487,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. provisionedThroughputs. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15368,7 +15505,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.ragCorpora.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15390,7 +15527,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.ragCorpora.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15412,7 +15549,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.ragCorpora.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15442,7 +15579,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.ragCorpora.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15476,7 +15613,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.ragCorpora.query</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15507,7 +15644,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.ragCorpora.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15529,7 +15666,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. ragEngineConfigs. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15556,7 +15693,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. ragEngineConfigs. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15573,7 +15710,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.ragFiles.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15595,7 +15732,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.ragFiles.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15624,7 +15761,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.ragFiles.import</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15646,7 +15783,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.ragFiles.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15679,7 +15816,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.ragFiles.upload</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15701,7 +15838,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. reasoningEngineRuntimeRevisions. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15722,7 +15859,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. reasoningEngineRuntimeRevisions. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15749,7 +15886,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. reasoningEngineRuntimeRevisions. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15779,7 +15916,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. reasoningEngineRuntimeRevisions. query</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15803,7 +15940,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. reasoningEngines. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15827,7 +15964,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. reasoningEngines. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15851,7 +15988,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. reasoningEngines. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15877,11 +16014,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. reasoningEngines. getIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15904,7 +16042,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. reasoningEngines. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15934,11 +16072,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. reasoningEngines. query</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15964,11 +16103,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. reasoningEngines. setIamPolicy</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -15983,7 +16123,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. reasoningEngines. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16007,7 +16147,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. sandboxEnvironments. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16031,7 +16171,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. sandboxEnvironments. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16055,7 +16195,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. sandboxEnvironments. execute</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16079,7 +16219,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. sandboxEnvironments. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16109,7 +16249,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. sandboxEnvironments. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16142,7 +16282,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.schedules.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16169,7 +16309,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.schedules.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16196,7 +16336,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.schedules.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16231,7 +16371,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.schedules.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16270,7 +16410,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.schedules.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16297,7 +16437,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. semanticGovernancePolicies. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16318,7 +16458,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. semanticGovernancePolicies. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16339,7 +16479,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. semanticGovernancePolicies. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16366,7 +16506,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. semanticGovernancePolicies. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16396,7 +16536,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. semanticGovernancePolicies. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16417,7 +16557,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. semanticGovernancePolicyEngine. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16444,7 +16584,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. semanticGovernancePolicyEngine. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16465,7 +16605,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. sessionEvents. append</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16488,10 +16628,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.reasoningEngineServiceAgent">Vertex AI Reasoning Engine Service Agent</a> ( <code>roles/ aiplatform.reasoningEngineServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.sessionEvents.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16523,10 +16664,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.reasoningEngineServiceAgent">Vertex AI Reasoning Engine Service Agent</a> ( <code>roles/ aiplatform.reasoningEngineServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.sessions.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16549,10 +16691,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.reasoningEngineServiceAgent">Vertex AI Reasoning Engine Service Agent</a> ( <code>roles/ aiplatform.reasoningEngineServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.sessions.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16575,10 +16718,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.reasoningEngineServiceAgent">Vertex AI Reasoning Engine Service Agent</a> ( <code>roles/ aiplatform.reasoningEngineServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.sessions.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16607,10 +16751,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.reasoningEngineServiceAgent">Vertex AI Reasoning Engine Service Agent</a> ( <code>roles/ aiplatform.reasoningEngineServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.sessions.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16642,10 +16787,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.reasoningEngineServiceAgent">Vertex AI Reasoning Engine Service Agent</a> ( <code>roles/ aiplatform.reasoningEngineServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.sessions.run</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16663,10 +16809,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.sessions.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16689,10 +16836,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.reasoningEngineServiceAgent">Vertex AI Reasoning Engine Service Agent</a> ( <code>roles/ aiplatform.reasoningEngineServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. specialistPools. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16713,7 +16861,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. specialistPools. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16734,7 +16882,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.specialistPools.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16761,7 +16909,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. specialistPools. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16792,7 +16940,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. specialistPools. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16816,7 +16964,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.studies.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16837,7 +16985,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.studies.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16858,7 +17006,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.studies.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16885,7 +17033,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.studies.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16915,7 +17063,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.studies.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16936,7 +17084,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.tasks.cancel</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16960,7 +17108,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.tasks.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -16983,7 +17131,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.tasks.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17007,7 +17155,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.tasks.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17036,7 +17184,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.tasks.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17068,7 +17216,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.tasks.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17091,7 +17239,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tensorboardExperiments. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17113,7 +17261,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. tensorboardExperiments. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17135,7 +17283,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tensorboardExperiments. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17163,7 +17311,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. tensorboardExperiments. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17194,7 +17342,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tensorboardExperiments. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17216,7 +17364,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. tensorboardExperiments. write</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17238,7 +17386,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tensorboardRuns. batchCreate</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17260,7 +17408,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. tensorboardRuns. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17282,7 +17430,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tensorboardRuns. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17304,7 +17452,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.tensorboardRuns.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17332,7 +17480,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tensorboardRuns. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17363,7 +17511,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. tensorboardRuns. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17385,7 +17533,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tensorboardRuns. write</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17407,7 +17555,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. tensorboardTimeSeries. batchCreate</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17429,7 +17577,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tensorboardTimeSeries. batchRead</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17457,7 +17605,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. tensorboardTimeSeries. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17479,7 +17627,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tensorboardTimeSeries. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17501,7 +17649,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. tensorboardTimeSeries. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17529,7 +17677,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tensorboardTimeSeries. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17560,7 +17708,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. tensorboardTimeSeries. read</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17588,7 +17736,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tensorboardTimeSeries. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17610,7 +17758,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.tensorboards.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17632,7 +17780,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.tensorboards.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17654,7 +17802,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.tensorboards.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17680,11 +17828,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.tuningServiceAgent">Vertex AI Tuning Service Agent</a> ( <code>roles/ aiplatform.tuningServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.tensorboards.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17714,11 +17863,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.tuningServiceAgent">Vertex AI Tuning Service Agent</a> ( <code>roles/ aiplatform.tuningServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. tensorboards. recordAccess</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17733,7 +17883,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.tensorboards.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17755,7 +17905,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. trainingPipelines. cancel</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17776,7 +17926,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. trainingPipelines. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17797,7 +17947,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. trainingPipelines. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17818,7 +17968,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. trainingPipelines. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17843,11 +17993,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. trainingPipelines. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17876,12 +18027,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code>roles/ aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dspm#dspm.serviceAgent">DSPM Service Agent</a> ( <code>roles/ dspm.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.trials.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17902,7 +18054,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.trials.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17923,7 +18075,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.trials.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17950,7 +18102,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.trials.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -17980,7 +18132,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.trials.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -18001,7 +18153,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.tuningJobs.cancel</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -18023,7 +18175,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.tuningJobs.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -18045,7 +18197,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.tuningJobs.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -18067,7 +18219,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform.tuningJobs.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -18099,7 +18251,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform.tuningJobs.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -18134,7 +18286,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tuningJobs. optimizePrompt</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -18155,7 +18307,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>aiplatform. tuningJobs. validateReinforcementTuningReward</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -18176,7 +18328,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code>roles/ visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>aiplatform. tuningJobs. vertexTune</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>

@@ -151,6 +151,14 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <li><code>cloudaicompanion. settingBindings. releaseChannelSettingsUpdate</code></li>
 <li><code>cloudaicompanion. settingBindings. releaseChannelSettingsUse</code></li>
 </ul>
+<p><code>cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code>cloudkms.keyHandles.create</code></li>
+<li><code>cloudkms.keyHandles.get</code></li>
+<li><code>cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code>cloudkms.operations.get</code></p>
+<p><code>cloudkms. projects. showEffectiveAutokeyConfig</code></p>
 <p><code>cloudnotifications. activities. list</code></p>
 <p><code>cloudtrace.insights.*</code></p>
 <ul>
@@ -1073,7 +1081,9 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <td>Discovery Engine User
 <p>( <code>roles/ discoveryengine.user</code> )</p>
 <p>Grants user-level access to Discovery Engine resources.</p></td>
-<td><p><code>businessaicode.*</code></p>
+<td><p><code>agentregistry.skills.create</code></p>
+<p><code>agentregistry.skills.search</code></p>
+<p><code>businessaicode.*</code></p>
 <ul>
 <li><code>businessaicode. locations. fetchQuotaStatus</code></li>
 <li><code>businessaicode. locations. generateContent</code></li>
@@ -1172,6 +1182,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code>discoveryengine. locations. buildAuthorizationUrl</code></p>
 <p><code>discoveryengine. locations. completeExternalIdentities</code></p>
 <p><code>discoveryengine. locations. fetchAgentCards</code></p>
+<p><code>discoveryengine. locations. getConnectorSource</code></p>
 <p><code>discoveryengine. locations. listConnectorSources</code></p>
 <p><code>discoveryengine.memories.*</code></p>
 <ul>
@@ -1497,6 +1508,14 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <li><code>cloudaicompanion. settingBindings. releaseChannelSettingsUpdate</code></li>
 <li><code>cloudaicompanion. settingBindings. releaseChannelSettingsUse</code></li>
 </ul>
+<p><code>cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code>cloudkms.keyHandles.create</code></li>
+<li><code>cloudkms.keyHandles.get</code></li>
+<li><code>cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code>cloudkms.operations.get</code></p>
+<p><code>cloudkms. projects. showEffectiveAutokeyConfig</code></p>
 <p><code>cloudnotifications. activities. list</code></p>
 <p><code>cloudtrace.insights.*</code></p>
 <ul>
@@ -2425,7 +2444,9 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <td>Gemini Enterprise User
 <p>( <code>roles/ discoveryengine.agentspaceUser</code> )</p>
 <p>Grants user-level access to Gemini Enterprise resources.</p></td>
-<td><p><code>businessaicode.*</code></p>
+<td><p><code>agentregistry.skills.create</code></p>
+<p><code>agentregistry.skills.search</code></p>
+<p><code>businessaicode.*</code></p>
 <ul>
 <li><code>businessaicode. locations. fetchQuotaStatus</code></li>
 <li><code>businessaicode. locations. generateContent</code></li>
@@ -2524,6 +2545,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code>discoveryengine. locations. buildAuthorizationUrl</code></p>
 <p><code>discoveryengine. locations. completeExternalIdentities</code></p>
 <p><code>discoveryengine. locations. fetchAgentCards</code></p>
+<p><code>discoveryengine. locations. getConnectorSource</code></p>
 <p><code>discoveryengine. locations. listConnectorSources</code></p>
 <p><code>discoveryengine.memories.*</code></p>
 <ul>
@@ -2882,7 +2904,9 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <td>Podcast API User <sup>Beta</sup>
 <p>( <code>roles/ discoveryengine.podcastApiUser</code> )</p>
 <p>Grants user-level access to the Podcast resources.</p></td>
-<td><p><code>businessaicode.*</code></p>
+<td><p><code>agentregistry.skills.create</code></p>
+<p><code>agentregistry.skills.search</code></p>
+<p><code>businessaicode.*</code></p>
 <ul>
 <li><code>businessaicode. locations. fetchQuotaStatus</code></li>
 <li><code>businessaicode. locations. generateContent</code></li>
@@ -2981,6 +3005,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code>discoveryengine. locations. buildAuthorizationUrl</code></p>
 <p><code>discoveryengine. locations. completeExternalIdentities</code></p>
 <p><code>discoveryengine. locations. fetchAgentCards</code></p>
+<p><code>discoveryengine. locations. getConnectorSource</code></p>
 <p><code>discoveryengine. locations. listConnectorSources</code></p>
 <p><code>discoveryengine.memories.*</code></p>
 <ul>
@@ -3100,11 +3125,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>agentregistry. aiApplications. get</code></p>
 <p><code>agentregistry. aiApplications. list</code></p>
-<p><code>agentregistry.bindings.create</code></p>
-<p><code>agentregistry.bindings.delete</code></p>
-<p><code>agentregistry. bindings. fetchAvailable</code></p>
-<p><code>agentregistry.bindings.get</code></p>
-<p><code>agentregistry.bindings.update</code></p>
+<p><code>agentregistry.bindings.*</code></p>
+<ul>
+<li><code>agentregistry.bindings.create</code></li>
+<li><code>agentregistry.bindings.delete</code></li>
+<li><code>agentregistry. bindings. fetchAvailable</code></li>
+<li><code>agentregistry.bindings.get</code></li>
+<li><code>agentregistry.bindings.list</code></li>
+<li><code>agentregistry.bindings.update</code></li>
+</ul>
 <p><code>agentregistry.mcpServers.*</code></p>
 <ul>
 <li><code>agentregistry.mcpServers.get</code></li>
@@ -3125,6 +3154,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>agentregistry.skills.delete</code></p>
 <p><code>agentregistry.skills.get</code></p>
 <p><code>agentregistry. skills. getIamPolicy</code></p>
+<p><code>agentregistry.skills.list</code></p>
 <p><code>agentregistry.skills.update</code></p>
 <p><code>aiplatform.agents.get</code></p>
 <p><code>aiplatform.agents.list</code></p>
@@ -3160,6 +3190,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>alloydb.databases.list</code></p>
 <p><code>alloydb.instances.get</code></p>
 <p><code>alloydb.operations.get</code></p>
+<p><code>apphubendpoint. locations. lookup</code></p>
 <p><code>bigquery.datasets.create</code></p>
 <p><code>bigquery.datasets.get</code></p>
 <p><code>bigquery.jobs.create</code></p>
@@ -3209,6 +3240,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>integrations.testCases.invoke</code></p>
 <p><code>integrations.testCases.list</code></p>
 <p><code>logging.logEntries.create</code></p>
+<p><code>modelarmor. floorSettings. computeEffectiveFloorSetting</code></p>
+<p><code>modelarmor.floorSettings.get</code></p>
 <p><code>modelarmor.templates.create</code></p>
 <p><code>modelarmor.templates.delete</code></p>
 <p><code>modelarmor.templates.get</code></p>

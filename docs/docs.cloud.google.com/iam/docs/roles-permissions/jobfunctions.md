@@ -223,6 +223,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. evaluationExperiments. list</code></li>
 <li><code>aiplatform. evaluationExperiments. update</code></li>
 </ul>
+<p><code>aiplatform. evaluationItemRevisions. get</code></p>
 <p><code>aiplatform.evaluationItems.*</code></p>
 <ul>
 <li><code>aiplatform. evaluationItems. create</code></li>
@@ -247,6 +248,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform.evaluationRuns.get</code></li>
 <li><code>aiplatform.evaluationRuns.list</code></li>
 <li><code>aiplatform. evaluationRuns. update</code></li>
+</ul>
+<p><code>aiplatform. evaluationSetRevisions.*</code></p>
+<ul>
+<li><code>aiplatform. evaluationSetRevisions. delete</code></li>
+<li><code>aiplatform. evaluationSetRevisions. get</code></li>
 </ul>
 <p><code>aiplatform.evaluationSets.*</code></p>
 <ul>
@@ -2147,6 +2153,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>cloudsql. blueGreenDeployments. get</code></li>
 <li><code>cloudsql. blueGreenDeployments. list</code></li>
 <li><code>cloudsql. blueGreenDeployments. switchover</code></li>
+<li><code>cloudsql. customerManagedCertificates. delete</code></li>
+<li><code>cloudsql. customerManagedCertificates. list</code></li>
+<li><code>cloudsql. customerManagedCertificates. update</code></li>
 <li><code>cloudsql.databases.create</code></li>
 <li><code>cloudsql.databases.delete</code></li>
 <li><code>cloudsql.databases.get</code></li>
@@ -2166,6 +2175,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>cloudsql. instances. deleteTagBinding</code></li>
 <li><code>cloudsql. instances. demoteMaster</code></li>
 <li><code>cloudsql.instances.executeSql</code></li>
+<li><code>cloudsql. instances. executeSqlReadOnly</code></li>
 <li><code>cloudsql.instances.export</code></li>
 <li><code>cloudsql.instances.failover</code></li>
 <li><code>cloudsql.instances.get</code></li>
@@ -2219,6 +2229,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute. acceleratorInterconnects. get</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute. acceleratorInterconnects. queryFormability</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -3855,6 +3867,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudsql. blueGreenDeployments. create</code></p>
 <p><code>cloudsql. blueGreenDeployments. get</code></p>
 <p><code>cloudsql. blueGreenDeployments. list</code></p>
+<p><code>cloudsql. customerManagedCertificates. list</code></p>
+<p><code>cloudsql. customerManagedCertificates. update</code></p>
 <p><code>cloudsql.databases.create</code></p>
 <p><code>cloudsql.databases.get</code></p>
 <p><code>cloudsql.databases.list</code></p>
@@ -4704,6 +4718,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute. acceleratorInterconnects. get</code></li>
 <li><code>compute. acceleratorInterconnects. list</code></li>
 <li><code>compute. acceleratorInterconnects. queryFormability</code></li>
+<li><code>compute. acceleratorPodControllers. create</code></li>
+<li><code>compute. acceleratorPodControllers. delete</code></li>
+<li><code>compute. acceleratorPodControllers. get</code></li>
+<li><code>compute. acceleratorPodControllers. list</code></li>
+<li><code>compute. acceleratorPodControllers. update</code></li>
 <li><code>compute.acceleratorTypes.get</code></li>
 <li><code>compute.acceleratorTypes.list</code></li>
 <li><code>compute.addresses.create</code></li>
@@ -6685,12 +6704,21 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>networkservices.*</code></p>
 <ul>
+<li><code>networkservices. agentConnectivityTemplates. create</code></li>
+<li><code>networkservices. agentConnectivityTemplates. delete</code></li>
+<li><code>networkservices. agentConnectivityTemplates. get</code></li>
+<li><code>networkservices. agentConnectivityTemplates. list</code></li>
+<li><code>networkservices. agentConnectivityTemplates. update</code></li>
 <li><code>networkservices. agentGateways. create</code></li>
 <li><code>networkservices. agentGateways. delete</code></li>
 <li><code>networkservices. agentGateways. get</code></li>
 <li><code>networkservices. agentGateways. list</code></li>
 <li><code>networkservices. agentGateways. update</code></li>
 <li><code>networkservices. agentGateways. use</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. createPolicyBinding</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. deletePolicyBinding</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. searchPolicyBindings</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. updatePolicyBinding</code></li>
 <li><code>networkservices. authzExtensions. create</code></li>
 <li><code>networkservices. authzExtensions. delete</code></li>
 <li><code>networkservices. authzExtensions. get</code></li>
@@ -7257,6 +7285,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform. evaluationExperiments. list</code></li>
 <li><code>aiplatform. evaluationExperiments. update</code></li>
 </ul>
+<p><code>aiplatform. evaluationItemRevisions. get</code></p>
 <p><code>aiplatform.evaluationItems.*</code></p>
 <ul>
 <li><code>aiplatform. evaluationItems. create</code></li>
@@ -7281,6 +7310,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>aiplatform.evaluationRuns.get</code></li>
 <li><code>aiplatform.evaluationRuns.list</code></li>
 <li><code>aiplatform. evaluationRuns. update</code></li>
+</ul>
+<p><code>aiplatform. evaluationSetRevisions.*</code></p>
+<ul>
+<li><code>aiplatform. evaluationSetRevisions. delete</code></li>
+<li><code>aiplatform. evaluationSetRevisions. get</code></li>
 </ul>
 <p><code>aiplatform.evaluationSets.*</code></p>
 <ul>
@@ -9084,6 +9118,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>compute. acceleratorInterconnects. get</code></li>
 <li><code>compute. acceleratorInterconnects. list</code></li>
 <li><code>compute. acceleratorInterconnects. queryFormability</code></li>
+<li><code>compute. acceleratorPodControllers. create</code></li>
+<li><code>compute. acceleratorPodControllers. delete</code></li>
+<li><code>compute. acceleratorPodControllers. get</code></li>
+<li><code>compute. acceleratorPodControllers. list</code></li>
+<li><code>compute. acceleratorPodControllers. update</code></li>
 <li><code>compute.acceleratorTypes.get</code></li>
 <li><code>compute.acceleratorTypes.list</code></li>
 <li><code>compute.addresses.create</code></li>
@@ -10812,12 +10851,21 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code>networkservices.*</code></p>
 <ul>
+<li><code>networkservices. agentConnectivityTemplates. create</code></li>
+<li><code>networkservices. agentConnectivityTemplates. delete</code></li>
+<li><code>networkservices. agentConnectivityTemplates. get</code></li>
+<li><code>networkservices. agentConnectivityTemplates. list</code></li>
+<li><code>networkservices. agentConnectivityTemplates. update</code></li>
 <li><code>networkservices. agentGateways. create</code></li>
 <li><code>networkservices. agentGateways. delete</code></li>
 <li><code>networkservices. agentGateways. get</code></li>
 <li><code>networkservices. agentGateways. list</code></li>
 <li><code>networkservices. agentGateways. update</code></li>
 <li><code>networkservices. agentGateways. use</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. createPolicyBinding</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. deletePolicyBinding</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. searchPolicyBindings</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. updatePolicyBinding</code></li>
 <li><code>networkservices. authzExtensions. create</code></li>
 <li><code>networkservices. authzExtensions. delete</code></li>
 <li><code>networkservices. authzExtensions. get</code></li>
@@ -11293,6 +11341,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>appengine.versions.list</code></p>
 <p><code>apphub. applications. getIamPolicy</code></p>
 <p><code>apphub.applications.list</code></p>
+<p><code>apphub. applications. listEffectiveTags</code></p>
+<p><code>apphub. applications. listTagBindings</code></p>
 <p><code>apphub.discoveredServices.list</code></p>
 <p><code>apphub. discoveredWorkloads. list</code></p>
 <p><code>apphub. extendedMetadataSchemas. list</code></p>
@@ -11458,6 +11508,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>backupdr. managementServers. listTagBindings</code></p>
 <p><code>backupdr.operations.list</code></p>
 <p><code>backupdr. resourceBackupConfigs. list</code></p>
+<p><code>backupdr. restoreTemplateExecutions. list</code></p>
+<p><code>backupdr.restoreTemplates.list</code></p>
+<p><code>backupdr. restoreVerificationPlanAssociations. list</code></p>
+<p><code>backupdr. restoreVerificationPlans. list</code></p>
 <p><code>baremetalsolution. instancequotas. list</code></p>
 <p><code>baremetalsolution. instances. list</code></p>
 <p><code>baremetalsolution.luns.list</code></p>
@@ -11681,6 +11735,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>chronicle. nativeDashboards. list</code></p>
 <p><code>chronicle.notebooks.list</code></p>
 <p><code>chronicle.operations.list</code></p>
+<p><code>chronicle. parserAnalysisReports. list</code></p>
 <p><code>chronicle. parserExtensions. list</code></p>
 <p><code>chronicle.parsers.list</code></p>
 <p><code>chronicle.parsingErrors.list</code></p>
@@ -12456,6 +12511,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudsql.backupRuns.list</code></p>
 <p><code>cloudsql. blueGreenDeployments. get</code></p>
 <p><code>cloudsql. blueGreenDeployments. list</code></p>
+<p><code>cloudsql. customerManagedCertificates. list</code></p>
 <p><code>cloudsql.databases.get</code></p>
 <p><code>cloudsql.databases.list</code></p>
 <p><code>cloudsql.instances.get</code></p>
@@ -12545,6 +12601,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute. acceleratorInterconnects. get</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute. acceleratorInterconnects. queryFormability</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -13870,6 +13928,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>firebaserules.releases.list</code></p>
 <p><code>firebaserules.rulesets.list</code></p>
 <p><code>firebasestorage.buckets.list</code></p>
+<p><code>firebasetelemetryadmin. configs. list</code></p>
+<p><code>firebasetelemetryadmin. locations. list</code></p>
+<p><code>firebasetelemetryadmin. mappingFiles. list</code></p>
+<p><code>firebasetelemetryadmin. operations. list</code></p>
 <p><code>firebasevertexai. promptTemplates. list</code></p>
 <p><code>fleetengine. deliveryvehicles. list</code></p>
 <p><code>fleetengine.tasks.list</code></p>
@@ -14415,8 +14477,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>networksecurity. serverTlsPolicies. listTagBindings</code></p>
 <p><code>networksecurity. tlsInspectionPolicies. get</code></p>
 <p><code>networksecurity. tlsInspectionPolicies. list</code></p>
+<p><code>networksecurity. ullMirroringCollectorRules. list</code></p>
+<p><code>networksecurity. ullMirroringCollectors. list</code></p>
+<p><code>networksecurity. ullMirroringEngines. list</code></p>
 <p><code>networksecurity.urlLists.get</code></p>
 <p><code>networksecurity.urlLists.list</code></p>
+<p><code>networkservices. agentConnectivityTemplates. get</code></p>
+<p><code>networkservices. agentConnectivityTemplates. list</code></p>
 <p><code>networkservices. agentGateways. get</code></p>
 <p><code>networkservices. agentGateways. list</code></p>
 <p><code>networkservices. authzExtensions. get</code></p>
@@ -15360,6 +15427,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>workloadmanager.results.list</code></p>
 <p><code>workloadmanager.rules.list</code></p>
 <p><code>workloadmanager.workloads.list</code></p>
+<p><code>workspacekeyaccess. configs. list</code></p>
+<p><code>workspacekeyaccess. endpoints. list</code></p>
+<p><code>workspacekeyaccess. locations. list</code></p>
+<p><code>workspacekeyaccess. operations. list</code></p>
 <p><code>workstations.operations.list</code></p>
 <p><code>workstations. workstationClusters. list</code></p>
 <p><code>workstations. workstationClusters. listEffectiveTags</code></p>
@@ -16105,6 +16176,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudsql.backupRuns.list</code></p>
 <p><code>cloudsql. blueGreenDeployments. get</code></p>
 <p><code>cloudsql. blueGreenDeployments. list</code></p>
+<p><code>cloudsql. customerManagedCertificates. list</code></p>
 <p><code>cloudsql.databases.get</code></p>
 <p><code>cloudsql.databases.list</code></p>
 <p><code>cloudsql.instances.get</code></p>
@@ -16150,6 +16222,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute. acceleratorInterconnects. get</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute. acceleratorInterconnects. queryFormability</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -17426,6 +17500,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>agentregistry. aiApplications. get</code></p>
 <p><code>agentregistry. aiApplications. getIamPolicy</code></p>
 <p><code>agentregistry. aiApplications. list</code></p>
+<p><code>agentregistry. aiApplications. searchPolicyBindings</code></p>
 <p><code>agentregistry. bindings. fetchAvailable</code></p>
 <p><code>agentregistry.bindings.get</code></p>
 <p><code>agentregistry.bindings.list</code></p>
@@ -17528,12 +17603,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>aiplatform. entityTypes. streamingReadFeatureValues</code></p>
 <p><code>aiplatform. evaluationExperiments. get</code></p>
 <p><code>aiplatform. evaluationExperiments. list</code></p>
+<p><code>aiplatform. evaluationItemRevisions. get</code></p>
 <p><code>aiplatform.evaluationItems.get</code></p>
 <p><code>aiplatform. evaluationItems. list</code></p>
 <p><code>aiplatform. evaluationMetrics. get</code></p>
 <p><code>aiplatform. evaluationMetrics. list</code></p>
 <p><code>aiplatform.evaluationRuns.get</code></p>
 <p><code>aiplatform.evaluationRuns.list</code></p>
+<p><code>aiplatform. evaluationSetRevisions. get</code></p>
 <p><code>aiplatform.evaluationSets.get</code></p>
 <p><code>aiplatform.evaluationSets.list</code></p>
 <p><code>aiplatform.exampleStores.get</code></p>
@@ -18025,6 +18102,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>apphub.applications.get</code></p>
 <p><code>apphub. applications. getIamPolicy</code></p>
 <p><code>apphub.applications.list</code></p>
+<p><code>apphub. applications. listEffectiveTags</code></p>
+<p><code>apphub. applications. listTagBindings</code></p>
 <p><code>apphub.boundaries.get</code></p>
 <p><code>apphub.discoveredServices.get</code></p>
 <p><code>apphub.discoveredServices.list</code></p>
@@ -18049,6 +18128,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>apphub.services.list</code></p>
 <p><code>apphub.workloads.get</code></p>
 <p><code>apphub.workloads.list</code></p>
+<p><code>apphubendpoint. locations. lookup</code></p>
 <p><code>applianceactivation. rttCommands. get</code></p>
 <p><code>applianceactivation. rttCommands. list</code></p>
 <p><code>appoptimize.locations.*</code></p>
@@ -18310,6 +18390,20 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>backupdr. resourceBackupConfigs. get</code></li>
 <li><code>backupdr. resourceBackupConfigs. list</code></li>
 </ul>
+<p><code>backupdr. restoreTemplateExecutions. getForCloudSqlInstance</code></p>
+<p><code>backupdr. restoreTemplateExecutions. getForComputeDisk</code></p>
+<p><code>backupdr. restoreTemplateExecutions. getForComputeInstance</code></p>
+<p><code>backupdr. restoreTemplateExecutions. list</code></p>
+<p><code>backupdr. restoreTemplates. getForCloudSqlInstance</code></p>
+<p><code>backupdr. restoreTemplates. getForComputeDisk</code></p>
+<p><code>backupdr. restoreTemplates. getForComputeInstance</code></p>
+<p><code>backupdr.restoreTemplates.list</code></p>
+<p><code>backupdr. restoreVerificationPlanAssociations. getForCloudSqlInstance</code></p>
+<p><code>backupdr. restoreVerificationPlanAssociations. getForComputeDisk</code></p>
+<p><code>backupdr. restoreVerificationPlanAssociations. getForComputeInstance</code></p>
+<p><code>backupdr. restoreVerificationPlanAssociations. list</code></p>
+<p><code>backupdr. restoreVerificationPlans. get</code></p>
+<p><code>backupdr. restoreVerificationPlans. list</code></p>
 <p><code>backupdr.trial.get</code></p>
 <p><code>baremetalsolution. instancequotas. list</code></p>
 <p><code>baremetalsolution. instances. get</code></p>
@@ -19914,9 +20008,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>cloudsql.backupRuns.list</code></p>
 <p><code>cloudsql. blueGreenDeployments. get</code></p>
 <p><code>cloudsql. blueGreenDeployments. list</code></p>
+<p><code>cloudsql. customerManagedCertificates. list</code></p>
 <p><code>cloudsql.databases.get</code></p>
 <p><code>cloudsql.databases.list</code></p>
 <p><code>cloudsql. instances. createBackupDrBackup</code></p>
+<p><code>cloudsql. instances. executeSqlReadOnly</code></p>
 <p><code>cloudsql.instances.get</code></p>
 <p><code>cloudsql. instances. getAgentSession</code></p>
 <p><code>cloudsql. instances. getDiskShrinkConfig</code></p>
@@ -20131,6 +20227,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>compute. acceleratorInterconnects. get</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute. acceleratorInterconnects. queryFormability</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -22358,6 +22456,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>firebasestorage.buckets.get</code></p>
 <p><code>firebasestorage.buckets.list</code></p>
 <p><code>firebasestorage. defaultBucket. get</code></p>
+<p><code>firebasetelemetryadmin. configs. get</code></p>
+<p><code>firebasetelemetryadmin. configs. list</code></p>
+<p><code>firebasetelemetryadmin. locations.*</code></p>
+<ul>
+<li><code>firebasetelemetryadmin. locations. get</code></li>
+<li><code>firebasetelemetryadmin. locations. list</code></li>
+</ul>
+<p><code>firebasetelemetryadmin. mappingFiles. get</code></p>
+<p><code>firebasetelemetryadmin. mappingFiles. list</code></p>
+<p><code>firebasetelemetryadmin. operations. get</code></p>
+<p><code>firebasetelemetryadmin. operations. list</code></p>
 <p><code>firebasevertexai.configs.get</code></p>
 <p><code>firebasevertexai. promptTemplates. get</code></p>
 <p><code>firebasevertexai. promptTemplates. list</code></p>
@@ -23452,8 +23561,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>networksecurity. serverTlsPolicies. listTagBindings</code></p>
 <p><code>networksecurity. tlsInspectionPolicies. get</code></p>
 <p><code>networksecurity. tlsInspectionPolicies. list</code></p>
+<p><code>networksecurity. ullMirroringCollectorRules. get</code></p>
+<p><code>networksecurity. ullMirroringCollectorRules. list</code></p>
+<p><code>networksecurity. ullMirroringCollectors. get</code></p>
+<p><code>networksecurity. ullMirroringCollectors. list</code></p>
+<p><code>networksecurity. ullMirroringEngines. get</code></p>
+<p><code>networksecurity. ullMirroringEngines. list</code></p>
+<p><code>networksecurity. ullMirroringEngines. listNetworks</code></p>
 <p><code>networksecurity.urlLists.get</code></p>
 <p><code>networksecurity.urlLists.list</code></p>
+<p><code>networkservices. agentConnectivityTemplates. get</code></p>
+<p><code>networkservices. agentConnectivityTemplates. list</code></p>
 <p><code>networkservices. agentGateways. get</code></p>
 <p><code>networkservices. agentGateways. list</code></p>
 <p><code>networkservices. authzExtensions. get</code></p>
@@ -23468,6 +23586,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code>networkservices. gateways. listTagBindings</code></p>
 <p><code>networkservices. googleTagGatewayPolicies. get</code></p>
 <p><code>networkservices. googleTagGatewayPolicies. list</code></p>
+<p><code>networkservices.googleapis. com/agentGateways. searchPolicyBindings</code></p>
 <p><code>networkservices.grpcRoutes.get</code></p>
 <p><code>networkservices. grpcRoutes. list</code></p>
 <p><code>networkservices. httpFilters. get</code></p>
@@ -25219,6 +25338,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code>workloadmanager.workloads.get</code></li>
 <li><code>workloadmanager.workloads.list</code></li>
 </ul>
+<p><code>workspacekeyaccess.configs.get</code></p>
+<p><code>workspacekeyaccess. configs. list</code></p>
+<p><code>workspacekeyaccess. endpoints. get</code></p>
+<p><code>workspacekeyaccess. endpoints. list</code></p>
+<p><code>workspacekeyaccess.locations.*</code></p>
+<ul>
+<li><code>workspacekeyaccess. locations. get</code></li>
+<li><code>workspacekeyaccess. locations. list</code></li>
+</ul>
+<p><code>workspacekeyaccess. operations. get</code></p>
+<p><code>workspacekeyaccess. operations. list</code></p>
 <p><code>workspacemarketplace. appConfiguration. view</code></p>
 <p><code>workstations.operations.*</code></p>
 <ul>

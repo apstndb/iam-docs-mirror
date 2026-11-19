@@ -171,6 +171,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>backupdr.operations.get</code></p>
 <p><code>backupdr.operations.list</code></p>
 <p><code>backupdr. serviceConfig. initialize</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -795,6 +797,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>backupdr.operations.get</code></p>
 <p><code>backupdr.operations.list</code></p>
 <p><code>backupdr. serviceConfig. initialize</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>

@@ -748,6 +748,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>backupdr. managementServers. setIamPolicy</code></p>
 <p><code>backupdr.operations.list</code></p>
 <p><code>backupdr. resourceBackupConfigs. list</code></p>
+<p><code>backupdr. restoreTemplateExecutions. list</code></p>
+<p><code>backupdr.restoreTemplates.list</code></p>
+<p><code>backupdr. restoreVerificationPlanAssociations. list</code></p>
+<p><code>backupdr. restoreVerificationPlans. list</code></p>
 <p><code>baremetalsolution. instancequotas. list</code></p>
 <p><code>baremetalsolution. instances. list</code></p>
 <p><code>baremetalsolution.luns.list</code></p>
@@ -965,6 +969,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>chronicle. nativeDashboards. list</code></p>
 <p><code>chronicle.notebooks.list</code></p>
 <p><code>chronicle.operations.list</code></p>
+<p><code>chronicle. parserAnalysisReports. list</code></p>
 <p><code>chronicle. parserExtensions. list</code></p>
 <p><code>chronicle.parsers.list</code></p>
 <p><code>chronicle.parsingErrors.list</code></p>
@@ -1121,6 +1126,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>cloudsecurityscanner. scans. list</code></p>
 <p><code>cloudsql.backupRuns.list</code></p>
 <p><code>cloudsql. blueGreenDeployments. list</code></p>
+<p><code>cloudsql. customerManagedCertificates. list</code></p>
 <p><code>cloudsql.databases.list</code></p>
 <p><code>cloudsql.instances.list</code></p>
 <p><code>cloudsql.sslCerts.list</code></p>
@@ -1195,6 +1201,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>composer. userworkloadssecrets. list</code></p>
 <p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.list</code></p>
 <p><code>compute.addresses.list</code></p>
 <p><code>compute.autoscalers.list</code></p>
@@ -2087,6 +2094,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>firebaserules.releases.list</code></p>
 <p><code>firebaserules.rulesets.list</code></p>
 <p><code>firebasestorage.buckets.list</code></p>
+<p><code>firebasetelemetryadmin. configs. list</code></p>
+<p><code>firebasetelemetryadmin. locations. list</code></p>
+<p><code>firebasetelemetryadmin. mappingFiles. list</code></p>
+<p><code>firebasetelemetryadmin. operations. list</code></p>
 <p><code>firebasevertexai. promptTemplates. list</code></p>
 <p><code>fleetengine. deliveryvehicles. list</code></p>
 <p><code>fleetengine.tasks.list</code></p>
@@ -2570,7 +2581,11 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>networksecurity. serverTlsPolicies. list</code></p>
 <p><code>networksecurity. serverTlsPolicies. setIamPolicy</code></p>
 <p><code>networksecurity. tlsInspectionPolicies. list</code></p>
+<p><code>networksecurity. ullMirroringCollectorRules. list</code></p>
+<p><code>networksecurity. ullMirroringCollectors. list</code></p>
+<p><code>networksecurity. ullMirroringEngines. list</code></p>
 <p><code>networksecurity.urlLists.list</code></p>
+<p><code>networkservices. agentConnectivityTemplates. list</code></p>
 <p><code>networkservices. agentGateways. list</code></p>
 <p><code>networkservices. authzExtensions. list</code></p>
 <p><code>networkservices. endpointPolicies. list</code></p>
@@ -3293,6 +3308,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>workloadmanager.results.list</code></p>
 <p><code>workloadmanager.rules.list</code></p>
 <p><code>workloadmanager.workloads.list</code></p>
+<p><code>workspacekeyaccess. configs. list</code></p>
+<p><code>workspacekeyaccess. endpoints. list</code></p>
+<p><code>workspacekeyaccess. locations. list</code></p>
+<p><code>workspacekeyaccess. operations. list</code></p>
 <p><code>workstations.operations.list</code></p>
 <p><code>workstations. workstationClusters. list</code></p>
 <p><code>workstations. workstationConfigs. getIamPolicy</code></p>
@@ -3648,6 +3667,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>backupdr. managementServers. list</code></p>
 <p><code>backupdr.operations.list</code></p>
 <p><code>backupdr. resourceBackupConfigs. list</code></p>
+<p><code>backupdr. restoreTemplateExecutions. list</code></p>
+<p><code>backupdr.restoreTemplates.list</code></p>
+<p><code>backupdr. restoreVerificationPlanAssociations. list</code></p>
+<p><code>backupdr. restoreVerificationPlans. list</code></p>
 <p><code>baremetalsolution. instancequotas. list</code></p>
 <p><code>baremetalsolution. instances. list</code></p>
 <p><code>baremetalsolution.luns.list</code></p>
@@ -3840,6 +3863,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>chronicle. nativeDashboards. list</code></p>
 <p><code>chronicle.notebooks.list</code></p>
 <p><code>chronicle.operations.list</code></p>
+<p><code>chronicle. parserAnalysisReports. list</code></p>
 <p><code>chronicle. parserExtensions. list</code></p>
 <p><code>chronicle.parsers.list</code></p>
 <p><code>chronicle.parsingErrors.list</code></p>
@@ -3979,6 +4003,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>cloudsecurityscanner. scans. list</code></p>
 <p><code>cloudsql.backupRuns.list</code></p>
 <p><code>cloudsql. blueGreenDeployments. list</code></p>
+<p><code>cloudsql. customerManagedCertificates. list</code></p>
 <p><code>cloudsql.databases.list</code></p>
 <p><code>cloudsql.instances.list</code></p>
 <p><code>cloudsql.sslCerts.list</code></p>
@@ -4051,6 +4076,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>composer. userworkloadssecrets. list</code></p>
 <p><code>compute. acceleratorInterconnectMemberInstances. list</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.list</code></p>
 <p><code>compute.addresses.list</code></p>
 <p><code>compute.autoscalers.list</code></p>
@@ -4827,6 +4853,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>firebaserules.releases.list</code></p>
 <p><code>firebaserules.rulesets.list</code></p>
 <p><code>firebasestorage.buckets.list</code></p>
+<p><code>firebasetelemetryadmin. configs. list</code></p>
+<p><code>firebasetelemetryadmin. locations. list</code></p>
+<p><code>firebasetelemetryadmin. mappingFiles. list</code></p>
+<p><code>firebasetelemetryadmin. operations. list</code></p>
 <p><code>firebasevertexai. promptTemplates. list</code></p>
 <p><code>fleetengine. deliveryvehicles. list</code></p>
 <p><code>fleetengine.tasks.list</code></p>
@@ -5240,7 +5270,11 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>networksecurity. serverTlsPolicies. getIamPolicy</code></p>
 <p><code>networksecurity. serverTlsPolicies. list</code></p>
 <p><code>networksecurity. tlsInspectionPolicies. list</code></p>
+<p><code>networksecurity. ullMirroringCollectorRules. list</code></p>
+<p><code>networksecurity. ullMirroringCollectors. list</code></p>
+<p><code>networksecurity. ullMirroringEngines. list</code></p>
 <p><code>networksecurity.urlLists.list</code></p>
+<p><code>networkservices. agentConnectivityTemplates. list</code></p>
 <p><code>networkservices. agentGateways. list</code></p>
 <p><code>networkservices. authzExtensions. list</code></p>
 <p><code>networkservices. endpointPolicies. list</code></p>
@@ -5896,6 +5930,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code>workloadmanager.results.list</code></p>
 <p><code>workloadmanager.rules.list</code></p>
 <p><code>workloadmanager.workloads.list</code></p>
+<p><code>workspacekeyaccess. configs. list</code></p>
+<p><code>workspacekeyaccess. endpoints. list</code></p>
+<p><code>workspacekeyaccess. locations. list</code></p>
+<p><code>workspacekeyaccess. operations. list</code></p>
 <p><code>workstations.operations.list</code></p>
 <p><code>workstations. workstationClusters. list</code></p>
 <p><code>workstations. workstationConfigs. getIamPolicy</code></p>

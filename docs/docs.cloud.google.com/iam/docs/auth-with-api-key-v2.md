@@ -466,67 +466,6 @@ app = App(
 
 Reference the auth provider in your agent's code using an authenticated function tool in the ADK.
 
-```
-import httpx
-from google.adk.agents import Agent
-from google.adk.auth.credential_manager import CredentialManager
-from google.adk.integrations.agent_identity import GcpAuthProvider
-from google.adk.integrations.agent_identity import GcpAuthProviderScheme
-from google.adk.apps import App
-from google.adk.auth.auth_credential import AuthCredential
-from google.adk.auth.auth_tool import AuthConfig
-from google.adk.tools.authenticated_function_tool import AuthenticatedFunctionTool
-from vertexai import agent_engines
-
-# First, register Google Cloud auth provider
-CredentialManager.register_auth_provider(GcpAuthProvider())
-
-# Create Auth Config
-# Note: If using the legacy V1 API, the resource name uses 'connectors'
-# instead of 'authProviders': projects/.../connectors/...
-spotify_auth_config = AuthConfig(
-    auth_scheme=GcpAuthProviderScheme(
-        name="projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME"
-    )
-)
-
-# Use the Auth Config in Authenticated Function Tool
-spotify_search_track_tool = AuthenticatedFunctionTool(
-    func=spotify_search_track, auth_config=spotify_auth_config
-)
-
-# Sample function tool
-async def spotify_search_track(credential: AuthCredential, query: str) -> str | list:
-    token = None
-    if credential.http and credential.http.credentials:
-        token = credential.http.credentials.token
-
-    if not token:
-        return "Error: No authentication token available."
-
-    async with httpx.AsyncClient() as client:
-        response = await client.get(
-            "https://api.spotify.com/v1/search",
-            headers={"Authorization": f"Bearer {token}"},
-            params={"q": query, "type": "track", "limit": 1},
-        )
-        # Add your own logic here
-
-agent = Agent(
-    name="AGENT_NAME",
-    model="gemini-2.5-flash",
-    instruction="AGENT_INSTRUCTIONS",
-    tools=[spotify_search_track_tool],
-)
-
-app = App(
-    name="APP_NAME",
-    root_agent=agent,
-)
-
-vertex_app = agent_engines.AdkApp(app_name=app)
-```
-
 #### Example: Connecting to Google Maps Weather API
 
 The following example demonstrates an `agent.py` configuration that connects an agent to the Google Maps Weather API using an authenticated function tool:

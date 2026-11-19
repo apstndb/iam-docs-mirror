@@ -119,6 +119,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentgateway#agentgateway.serviceAgent">Agent Gateway Service Agent</a> ( <code>roles/ agentgateway.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code>roles/ discoveryengine.serviceAgent</code> )</li>
 </ul></td>
 </tr>

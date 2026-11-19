@@ -2519,6 +2519,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.admin">App Hub Admin</a> ( <code>roles/ apphub.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.editor">App Hub Editor</a> ( <code>roles/ apphub.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.viewer">App Hub Viewer</a> ( <code>roles/ apphub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphubendpoint#apphubendpoint.viewer">App Hub Endpoint Viewer</a> ( <code>roles/ apphubendpoint.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/applianceactivation#applianceactivation.admin">Appliance Admin</a> ( <code>roles/ applianceactivation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/applianceactivation#applianceactivation.viewer">Appliance Viewer</a> ( <code>roles/ applianceactivation.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code>roles/ apptopology.admin</code> )</p>
@@ -2861,6 +2862,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaserules#firebaserules.viewer">Firebase Rules Viewer</a> ( <code>roles/ firebaserules.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasestorage#firebasestorage.admin">Cloud Storage for Firebase Admin</a> ( <code>roles/ firebasestorage.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasestorage#firebasestorage.viewer">Cloud Storage for Firebase Viewer</a> ( <code>roles/ firebasestorage.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasetelemetryadmin#firebasetelemetryadmin.admin">Firebase Telemetry Admin Admin</a> ( <code>roles/ firebasetelemetryadmin.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasetelemetryadmin#firebasetelemetryadmin.viewer">Firebase Telemetry Admin Viewer</a> ( <code>roles/ firebasetelemetryadmin.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasevertexai#firebasevertexai.admin">Firebase AI Logic Admin</a> ( <code>roles/ firebasevertexai.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasevertexai#firebasevertexai.viewer">Firebase AI Logic Viewer</a> ( <code>roles/ firebasevertexai.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleet Engine Viewer</a> ( <code>roles/ fleetengine.viewer</code> )</p>
@@ -3671,6 +3674,11 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointAdmin">Mirroring Endpoint Admin</a> ( <code>roles/ networksecurity.mirroringEndpointAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointViewer">Mirroring Endpoint Viewer</a> ( <code>roles/ networksecurity.mirroringEndpointViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.securityProfileAdmin">Security Profile Admin</a> ( <code>roles/ networksecurity.securityProfileAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorAdmin">Ull Mirroring Collector Admin</a> ( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorViewer">Ull Mirroring Collector Viewer</a> ( <code>roles/ networksecurity.ullMirroringCollectorViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineUser">Ull Mirroring Engine User</a> ( <code>roles/ networksecurity.ullMirroringEngineUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineViewer">Ull Mirroring Engine Viewer</a> ( <code>roles/ networksecurity.ullMirroringEngineViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkservices#networkservices.GoogleTagGatewayPolicyAdmin">Google Tag Gateway Admin</a> ( <code>roles/ networkservices.GoogleTagGatewayPolicyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkservices#networkservices.serviceExtensionsAdmin">Service Extensions Admin</a> ( <code>roles/ networkservices.serviceExtensionsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkservices#networkservices.serviceExtensionsViewer">Service Extensions Viewer</a> ( <code>roles/ networkservices.serviceExtensionsViewer</code> )</p>
@@ -4162,6 +4170,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.admin">App Hub Admin</a> ( <code>roles/ apphub.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.editor">App Hub Editor</a> ( <code>roles/ apphub.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.viewer">App Hub Viewer</a> ( <code>roles/ apphub.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphubendpoint#apphubendpoint.viewer">App Hub Endpoint Viewer</a> ( <code>roles/ apphubendpoint.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/applianceactivation#applianceactivation.admin">Appliance Admin</a> ( <code>roles/ applianceactivation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/applianceactivation#applianceactivation.viewer">Appliance Viewer</a> ( <code>roles/ applianceactivation.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code>roles/ apptopology.admin</code> )</p>
@@ -4494,6 +4503,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaserules#firebaserules.viewer">Firebase Rules Viewer</a> ( <code>roles/ firebaserules.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasestorage#firebasestorage.admin">Cloud Storage for Firebase Admin</a> ( <code>roles/ firebasestorage.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasestorage#firebasestorage.viewer">Cloud Storage for Firebase Viewer</a> ( <code>roles/ firebasestorage.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasetelemetryadmin#firebasetelemetryadmin.admin">Firebase Telemetry Admin Admin</a> ( <code>roles/ firebasetelemetryadmin.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasetelemetryadmin#firebasetelemetryadmin.viewer">Firebase Telemetry Admin Viewer</a> ( <code>roles/ firebasetelemetryadmin.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasevertexai#firebasevertexai.admin">Firebase AI Logic Admin</a> ( <code>roles/ firebasevertexai.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasevertexai#firebasevertexai.viewer">Firebase AI Logic Viewer</a> ( <code>roles/ firebasevertexai.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleet Engine Viewer</a> ( <code>roles/ fleetengine.viewer</code> )</p>
@@ -5261,6 +5272,11 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointAdmin">Mirroring Endpoint Admin</a> ( <code>roles/ networksecurity.mirroringEndpointAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointViewer">Mirroring Endpoint Viewer</a> ( <code>roles/ networksecurity.mirroringEndpointViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.securityProfileAdmin">Security Profile Admin</a> ( <code>roles/ networksecurity.securityProfileAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorAdmin">Ull Mirroring Collector Admin</a> ( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorViewer">Ull Mirroring Collector Viewer</a> ( <code>roles/ networksecurity.ullMirroringCollectorViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineUser">Ull Mirroring Engine User</a> ( <code>roles/ networksecurity.ullMirroringEngineUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineViewer">Ull Mirroring Engine Viewer</a> ( <code>roles/ networksecurity.ullMirroringEngineViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkservices#networkservices.GoogleTagGatewayPolicyAdmin">Google Tag Gateway Admin</a> ( <code>roles/ networkservices.GoogleTagGatewayPolicyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkservices#networkservices.serviceExtensionsAdmin">Service Extensions Admin</a> ( <code>roles/ networkservices.serviceExtensionsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkservices#networkservices.serviceExtensionsViewer">Service Extensions Viewer</a> ( <code>roles/ networkservices.serviceExtensionsViewer</code> )</p>

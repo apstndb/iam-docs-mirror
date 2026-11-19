@@ -441,6 +441,7 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">

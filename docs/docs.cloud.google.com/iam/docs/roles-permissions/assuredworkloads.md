@@ -26,7 +26,14 @@ This page lists the IAM roles and permissions for Assured Workloads. To search t
 <td>Assured Workloads Administrator
 <p>( <code>roles/ assuredworkloads.admin</code> )</p>
 <p>Grants full access to Assured Workloads resources, CRM resources - project/folder and Organization Policy administration</p></td>
-<td><p><code>assuredworkloads.*</code></p>
+<td><p><code>accesscontextmanager. policies. create</code></p>
+<p><code>accesscontextmanager. policies. delete</code></p>
+<p><code>accesscontextmanager. policies. get</code></p>
+<p><code>accesscontextmanager. servicePerimeters. create</code></p>
+<p><code>accesscontextmanager. servicePerimeters. delete</code></p>
+<p><code>accesscontextmanager. servicePerimeters. get</code></p>
+<p><code>accesscontextmanager. servicePerimeters. update</code></p>
+<p><code>assuredworkloads.*</code></p>
 <ul>
 <li><code>assuredworkloads. dbControlComplianceSummaries. list</code></li>
 <li><code>assuredworkloads. dbFindingSummaries. list</code></li>
@@ -95,7 +102,14 @@ This page lists the IAM roles and permissions for Assured Workloads. To search t
 <td>Assured Workloads Editor
 <p>( <code>roles/ assuredworkloads.editor</code> )</p>
 <p>Grants read, write access to Assured Workloads resources, CRM resources - project/folder and Organization Policy administration</p></td>
-<td><p><code>assuredworkloads.*</code></p>
+<td><p><code>accesscontextmanager. policies. create</code></p>
+<p><code>accesscontextmanager. policies. delete</code></p>
+<p><code>accesscontextmanager. policies. get</code></p>
+<p><code>accesscontextmanager. servicePerimeters. create</code></p>
+<p><code>accesscontextmanager. servicePerimeters. delete</code></p>
+<p><code>accesscontextmanager. servicePerimeters. get</code></p>
+<p><code>accesscontextmanager. servicePerimeters. update</code></p>
+<p><code>assuredworkloads.*</code></p>
 <ul>
 <li><code>assuredworkloads. dbControlComplianceSummaries. list</code></li>
 <li><code>assuredworkloads. dbFindingSummaries. list</code></li>
@@ -258,13 +272,131 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code>cloudasset. assets. exportIamPolicy</code></p>
+<td><p><code>accessapproval.settings.get</code></p>
+<p><code>aiplatform.customJobs.get</code></p>
+<p><code>aiplatform.customJobs.list</code></p>
+<p><code>aiplatform.datasets.get</code></p>
+<p><code>aiplatform.datasets.list</code></p>
+<p><code>aiplatform.endpoints.get</code></p>
+<p><code>aiplatform.endpoints.list</code></p>
+<p><code>aiplatform.featurestores.get</code></p>
+<p><code>aiplatform.featurestores.list</code></p>
+<p><code>aiplatform. hyperparameterTuningJobs. get</code></p>
+<p><code>aiplatform. hyperparameterTuningJobs. list</code></p>
+<p><code>aiplatform.metadataStores.get</code></p>
+<p><code>aiplatform.metadataStores.list</code></p>
+<p><code>aiplatform.models.get</code></p>
+<p><code>aiplatform.models.list</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. get</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. list</code></p>
+<p><code>aiplatform.tensorboards.get</code></p>
+<p><code>aiplatform.tensorboards.list</code></p>
+<p><code>aiplatform. trainingPipelines. get</code></p>
+<p><code>aiplatform. trainingPipelines. list</code></p>
+<p><code>artifactregistry. repositories. get</code></p>
+<p><code>artifactregistry. repositories. list</code></p>
+<p><code>axt.labels.get</code></p>
+<p><code>bigquery.datasets.get</code></p>
+<p><code>binaryauthorization.policy.get</code></p>
+<p><code>certificatemanager.certs.list</code></p>
+<p><code>certificatemanager. trustconfigs. list</code></p>
+<p><code>cloudasset. assets. exportIamPolicy</code></p>
 <p><code>cloudasset. assets. exportResource</code></p>
 <p><code>cloudasset.assets.listResource</code></p>
-<p><code>cloudasset.feeds.create</code></p>
-<p><code>cloudasset.feeds.delete</code></p>
-<p><code>cloudasset.feeds.get</code></p>
-<p><code>cloudasset.feeds.list</code></p></td>
+<p><code>cloudasset. assets. searchAllIamPolicies</code></p>
+<p><code>cloudasset. assets. searchAllResources</code></p>
+<p><code>cloudasset.feeds.*</code></p>
+<ul>
+<li><code>cloudasset.feeds.create</code></li>
+<li><code>cloudasset.feeds.delete</code></li>
+<li><code>cloudasset.feeds.get</code></li>
+<li><code>cloudasset.feeds.list</code></li>
+<li><code>cloudasset.feeds.update</code></li>
+</ul>
+<p><code>cloudkms.cryptoKeys.get</code></p>
+<p><code>cloudkms.cryptoKeys.list</code></p>
+<p><code>cloudkms.keyRings.list</code></p>
+<p><code>cloudsecurityscanner.scans.get</code></p>
+<p><code>cloudsecurityscanner. scans. list</code></p>
+<p><code>cloudsql.instances.connect</code></p>
+<p><code>cloudsql.instances.get</code></p>
+<p><code>cloudsql.instances.list</code></p>
+<p><code>cloudsql.users.list</code></p>
+<p><code>compute.autoscalers.list</code></p>
+<p><code>compute.backendServices.list</code></p>
+<p><code>compute.disks.list</code></p>
+<p><code>compute.firewallPolicies.list</code></p>
+<p><code>compute.firewalls.list</code></p>
+<p><code>compute.forwardingRules.list</code></p>
+<p><code>compute. globalForwardingRules. list</code></p>
+<p><code>compute. instanceGroupManagers. list</code></p>
+<p><code>compute.instanceGroups.list</code></p>
+<p><code>compute.instances.get</code></p>
+<p><code>compute.instances.list</code></p>
+<p><code>compute.managedRulesets.*</code></p>
+<ul>
+<li><code>compute.managedRulesets.get</code></li>
+<li><code>compute.managedRulesets.list</code></li>
+</ul>
+<p><code>compute.networks.list</code></p>
+<p><code>compute.regionSslPolicies.list</code></p>
+<p><code>compute. regionTargetHttpProxies. list</code></p>
+<p><code>compute.regionUrlMaps.list</code></p>
+<p><code>compute.routers.list</code></p>
+<p><code>compute.securityPolicies.list</code></p>
+<p><code>compute.sslCertificates.list</code></p>
+<p><code>compute.sslPolicies.list</code></p>
+<p><code>compute.subnetworks.list</code></p>
+<p><code>compute.targetHttpProxies.list</code></p>
+<p><code>compute.targetSslProxies.list</code></p>
+<p><code>compute.urlMaps.list</code></p>
+<p><code>compute.vpnGateways.list</code></p>
+<p><code>compute.zones.list</code></p>
+<p><code>container.clusters.get</code></p>
+<p><code>container.clusters.list</code></p>
+<p><code>discoveryengine.dataStores.get</code></p>
+<p><code>discoveryengine. dataStores. list</code></p>
+<p><code>dlp.fileStoreProfiles.list</code></p>
+<p><code>dlp.inspectTemplates.list</code></p>
+<p><code>dlp.jobTriggers.list</code></p>
+<p><code>dlp.jobs.list</code></p>
+<p><code>dlp.tableDataProfiles.get</code></p>
+<p><code>dlp.tableDataProfiles.list</code></p>
+<p><code>dns.managedZones.list</code></p>
+<p><code>iam.serviceAccountKeys.list</code></p>
+<p><code>iam.serviceAccounts.get</code></p>
+<p><code>iam. serviceAccounts. getIamPolicy</code></p>
+<p><code>logging.buckets.list</code></p>
+<p><code>logging.logMetrics.list</code></p>
+<p><code>monitoring.alertPolicies.list</code></p>
+<p><code>notebooks.instances.get</code></p>
+<p><code>notebooks.instances.list</code></p>
+<p><code>orgpolicy.constraints.list</code></p>
+<p><code>orgpolicy.policies.list</code></p>
+<p><code>orgpolicy.policy.get</code></p>
+<p><code>privateca.certificates.list</code></p>
+<p><code>resourcemanager.folders.get</code></p>
+<p><code>resourcemanager. folders. getIamPolicy</code></p>
+<p><code>resourcemanager.folders.list</code></p>
+<p><code>resourcemanager. hierarchyNodes. listEffectiveTags</code></p>
+<p><code>resourcemanager. hierarchyNodes. listTagBindings</code></p>
+<p><code>resourcemanager. organizations. get</code></p>
+<p><code>resourcemanager. organizations. getIamPolicy</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager. projects. getIamPolicy</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>resourcemanager.tagHolds.list</code></p>
+<p><code>resourcemanager.tagKeys.get</code></p>
+<p><code>resourcemanager.tagKeys.list</code></p>
+<p><code>resourcemanager.tagValues.get</code></p>
+<p><code>resourcemanager.tagValues.list</code></p>
+<p><code>secretmanager.secrets.list</code></p>
+<p><code>securesourcemanager. sshkeys. listAny</code></p>
+<p><code>serviceusage.services.get</code></p>
+<p><code>serviceusage.services.list</code></p>
+<p><code>storage.buckets.get</code></p>
+<p><code>storage.buckets.getIamPolicy</code></p>
+<p><code>storage.buckets.list</code></p></td>
 </tr>
 <tr class="even">
 <td>Assured Workloads Service Agent

@@ -384,6 +384,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>biglake.tables.create</code></p>
 <p><code>biglake.tables.delete</code></p>
 <p><code>biglake.tables.get</code></p>
+<p><code>biglake.tables.getData</code></p>
 <p><code>biglake.tables.list</code></p>
 <p><code>biglake.tables.register</code></p>
 <p><code>biglake.tables.update</code></p>

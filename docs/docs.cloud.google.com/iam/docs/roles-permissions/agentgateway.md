@@ -27,11 +27,16 @@ Agent Gateway offers the following service agent roles. Service agent roles shou
 <tr class="odd">
 <td>Agent Gateway Service Agent
 <p>( <code>roles/ agentgateway.serviceAgent</code> )</p>
-<p>Grants Agent Gateway Service Agent permissions required to do DNS peering.</p>
+<p>Grants Agent Gateway Service Agent permissions required to do DNS peering, to look up Agent Registry entities via AppHub Endpoint, and to call Prism.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code>dns. networks. targetWithPeeringZone</code></p></td>
+<td><p><code>agentregistry. aiApplications. get</code></p>
+<p><code>agentregistry. bindings. fetchAvailable</code></p>
+<p><code>apphubendpoint. locations. lookup</code></p>
+<p><code>dns. networks. targetWithPeeringZone</code></p>
+<p><code>serviceextensions. callouts. invoke</code></p>
+<p><code>serviceusage.services.use</code></p></td>
 </tr>
 </tbody>
 </table>

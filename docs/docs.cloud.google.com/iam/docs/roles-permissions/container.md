@@ -2099,6 +2099,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>certificatemanager. trustconfigs. listTagBindings</code></p>
 <p><code>certificatemanager. trustconfigs. update</code></p>
 <p><code>certificatemanager. trustconfigs. use</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -3058,6 +3060,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>compute.snapshotGroups.list</code></li>
 <li><code>compute. snapshotGroups. setIamPolicy</code></li>
 <li><code>compute. snapshotGroups. useReadOnly</code></li>
+</ul>
+<p><code>compute. snapshotRecycleBinPolicy.*</code></p>
+<ul>
+<li><code>compute. snapshotRecycleBinPolicy. get</code></li>
+<li><code>compute. snapshotRecycleBinPolicy. update</code></li>
 </ul>
 <p><code>compute.snapshots.*</code></p>
 <ul>
@@ -4131,12 +4138,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>networkservices.*</code></p>
 <ul>
+<li><code>networkservices. agentConnectivityTemplates. create</code></li>
+<li><code>networkservices. agentConnectivityTemplates. delete</code></li>
+<li><code>networkservices. agentConnectivityTemplates. get</code></li>
+<li><code>networkservices. agentConnectivityTemplates. list</code></li>
+<li><code>networkservices. agentConnectivityTemplates. update</code></li>
 <li><code>networkservices. agentGateways. create</code></li>
 <li><code>networkservices. agentGateways. delete</code></li>
 <li><code>networkservices. agentGateways. get</code></li>
 <li><code>networkservices. agentGateways. list</code></li>
 <li><code>networkservices. agentGateways. update</code></li>
 <li><code>networkservices. agentGateways. use</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. createPolicyBinding</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. deletePolicyBinding</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. searchPolicyBindings</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. updatePolicyBinding</code></li>
 <li><code>networkservices. authzExtensions. create</code></li>
 <li><code>networkservices. authzExtensions. delete</code></li>
 <li><code>networkservices. authzExtensions. get</code></li>

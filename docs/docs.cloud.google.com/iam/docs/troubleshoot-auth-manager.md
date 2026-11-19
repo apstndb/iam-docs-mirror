@@ -164,11 +164,11 @@ To resolve this issue, do the following:
 
 For more information, see [Supported third-party services](https://docs.cloud.google.com/iam/docs/auth-manager-overview#supported-services) .
 
-## GitHub or Microsoft multiple scopes error
+## Microsoft multiple scopes error
 
-When configuring an auth provider for GitHub or Microsoft, authentication fails if you request multiple OAuth scopes.
+When configuring an auth provider for Microsoft, authentication fails if you request multiple OAuth scopes.
 
-The auth manager supports single-scope integrations for GitHub and Microsoft. The auth manager doesn't support requesting multiple scopes simultaneously.
+The auth manager supports single-scope integrations for Microsoft. The auth manager doesn't support requesting multiple scopes simultaneously.
 
 To resolve this issue, configure your agent or auth provider to request only a single scope needed for the integration.
 

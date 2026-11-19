@@ -806,9 +806,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>cloudasset. assets. queryResource</code></p>
 <p><code>cloudasset. assets. searchAllIamPolicies</code></p>
 <p><code>cloudasset. assets. searchAllResources</code></p>
-<p><code>cloudasset.feeds.create</code></p>
-<p><code>cloudasset.feeds.delete</code></p>
-<p><code>cloudasset.feeds.get</code></p>
+<p><code>cloudasset.feeds.*</code></p>
+<ul>
+<li><code>cloudasset.feeds.create</code></li>
+<li><code>cloudasset.feeds.delete</code></li>
+<li><code>cloudasset.feeds.get</code></li>
+<li><code>cloudasset.feeds.list</code></li>
+<li><code>cloudasset.feeds.update</code></li>
+</ul>
 <p><code>cloudasset. othercloudconnections. get</code></p>
 <p><code>cloudasset. othercloudconnections. list</code></p>
 <p><code>cloudasset. othercloudconnections. verify</code></p>
@@ -875,17 +880,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>dlp.jobTriggers.list</code></p>
 <p><code>dlp.jobs.list</code></p>
 <p><code>dlp.tableDataProfiles.get</code></p>
+<p><code>dlp.tableDataProfiles.list</code></p>
 <p><code>dns.managedZones.list</code></p>
 <p><code>iam.serviceAccountKeys.list</code></p>
 <p><code>iam.serviceAccounts.get</code></p>
 <p><code>iam. serviceAccounts. getIamPolicy</code></p>
 <p><code>logging.buckets.list</code></p>
+<p><code>logging.logMetrics.list</code></p>
 <p><code>logging.settings.update</code></p>
 <p><code>monitoring.alertPolicies.list</code></p>
 <p><code>monitoring.timeSeries.list</code></p>
 <p><code>notebooks.instances.get</code></p>
 <p><code>notebooks.instances.list</code></p>
 <p><code>orgpolicy.constraints.list</code></p>
+<p><code>orgpolicy.policies.list</code></p>
 <p><code>orgpolicy.policy.get</code></p>
 <p><code>privateca.certificates.list</code></p>
 <p><code>recommender. cloudAssetInsights. get</code></p>
@@ -910,6 +918,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>resourcemanager.tagKeys.list</code></p>
 <p><code>resourcemanager.tagValues.get</code></p>
 <p><code>resourcemanager.tagValues.list</code></p>
+<p><code>secretmanager.secrets.list</code></p>
+<p><code>securesourcemanager. sshkeys. listAny</code></p>
 <p><code>securitycentermanagement. securityCenterServices. get</code></p>
 <p><code>securitycentermanagement. securityCenterServices. update</code></p>
 <p><code>serviceusage. catalogs. listMembers</code></p>
@@ -936,6 +946,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>serviceusage.services.list</code></p>
 <p><code>serviceusage.services.listApis</code></p>
 <p><code>serviceusage. services. listDependentServices</code></p>
+<p><code>serviceusage.services.use</code></p>
 <p><code>serviceusage.values.test</code></p>
 <p><code>storage.buckets.get</code></p>
 <p><code>storage.buckets.getIamPolicy</code></p>

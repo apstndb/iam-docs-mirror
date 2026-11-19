@@ -226,6 +226,26 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
 <td><p><code>accessapproval.settings.get</code></p>
+<p><code>aiplatform.customJobs.get</code></p>
+<p><code>aiplatform.customJobs.list</code></p>
+<p><code>aiplatform.datasets.get</code></p>
+<p><code>aiplatform.datasets.list</code></p>
+<p><code>aiplatform.endpoints.get</code></p>
+<p><code>aiplatform.endpoints.list</code></p>
+<p><code>aiplatform.featurestores.get</code></p>
+<p><code>aiplatform.featurestores.list</code></p>
+<p><code>aiplatform. hyperparameterTuningJobs. get</code></p>
+<p><code>aiplatform. hyperparameterTuningJobs. list</code></p>
+<p><code>aiplatform.metadataStores.get</code></p>
+<p><code>aiplatform.metadataStores.list</code></p>
+<p><code>aiplatform.models.get</code></p>
+<p><code>aiplatform.models.list</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. get</code></p>
+<p><code>aiplatform. notebookRuntimeTemplates. list</code></p>
+<p><code>aiplatform.tensorboards.get</code></p>
+<p><code>aiplatform.tensorboards.list</code></p>
+<p><code>aiplatform. trainingPipelines. get</code></p>
+<p><code>aiplatform. trainingPipelines. list</code></p>
 <p><code>artifactregistry. repositories. get</code></p>
 <p><code>artifactregistry. repositories. list</code></p>
 <p><code>bigquery.datasets.get</code></p>
@@ -840,15 +860,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>container.clusters.list</code></p>
 <p><code>discoveryengine.dataStores.get</code></p>
 <p><code>discoveryengine. dataStores. list</code></p>
+<p><code>dlp.fileStoreProfiles.list</code></p>
 <p><code>dlp.inspectTemplates.list</code></p>
 <p><code>dlp.jobTriggers.list</code></p>
+<p><code>dlp.jobs.list</code></p>
+<p><code>dlp.tableDataProfiles.get</code></p>
+<p><code>dlp.tableDataProfiles.list</code></p>
 <p><code>dns.managedZones.list</code></p>
 <p><code>iam.serviceAccountKeys.list</code></p>
 <p><code>iam.serviceAccounts.get</code></p>
 <p><code>iam. serviceAccounts. getIamPolicy</code></p>
 <p><code>logging.buckets.list</code></p>
+<p><code>logging.logMetrics.list</code></p>
 <p><code>monitoring.alertPolicies.list</code></p>
 <p><code>monitoring.timeSeries.list</code></p>
+<p><code>notebooks.instances.get</code></p>
+<p><code>notebooks.instances.list</code></p>
 <p><code>orgpolicy.constraints.list</code></p>
 <p><code>orgpolicy.policy.get</code></p>
 <p><code>privateca.certificates.list</code></p>
@@ -875,6 +902,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>resourcemanager.tagValues.get</code></p>
 <p><code>resourcemanager.tagValues.list</code></p>
 <p><code>secretmanager.secrets.list</code></p>
+<p><code>securesourcemanager. sshkeys. listAny</code></p>
 <p><code>serviceusage. catalogs. listMembers</code></p>
 <p><code>serviceusage. consumerpolicy. analyze</code></p>
 <p><code>serviceusage. consumerpolicy. get</code></p>

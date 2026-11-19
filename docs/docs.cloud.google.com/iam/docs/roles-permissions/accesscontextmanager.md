@@ -570,6 +570,8 @@ This page lists the IAM roles and permissions for Access Context Manager. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.admin">Access Context Manager Admin</a> ( <code>roles/ accesscontextmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.editor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyAdmin">Access Context Manager Admin</a> ( <code>roles/ accesscontextmanager.policyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code>roles/ assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code>roles/ assuredworkloads.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyEditor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.policyEditor</code> )</p></td>
 </tr>
 <tr class="even">
@@ -581,6 +583,8 @@ This page lists the IAM roles and permissions for Access Context Manager. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.admin">Access Context Manager Admin</a> ( <code>roles/ accesscontextmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.editor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyAdmin">Access Context Manager Admin</a> ( <code>roles/ accesscontextmanager.policyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code>roles/ assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code>roles/ assuredworkloads.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyEditor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.policyEditor</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -595,6 +599,8 @@ This page lists the IAM roles and permissions for Access Context Manager. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.editor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyAdmin">Access Context Manager Admin</a> ( <code>roles/ accesscontextmanager.policyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.viewer">Access Context Manager Viewer</a> ( <code>roles/ accesscontextmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code>roles/ assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code>roles/ assuredworkloads.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyEditor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.policyEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyReader">Access Context Manager Reader</a> ( <code>roles/ accesscontextmanager.policyReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.vpcScTroubleshooterViewer">VPC Service Controls Troubleshooter Viewer</a> ( <code>roles/ accesscontextmanager.vpcScTroubleshooterViewer</code> )</p>
@@ -688,6 +694,8 @@ This page lists the IAM roles and permissions for Access Context Manager. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.admin">Access Context Manager Admin</a> ( <code>roles/ accesscontextmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.editor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyAdmin">Access Context Manager Admin</a> ( <code>roles/ accesscontextmanager.policyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code>roles/ assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code>roles/ assuredworkloads.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyEditor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.policyEditor</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -706,6 +714,8 @@ This page lists the IAM roles and permissions for Access Context Manager. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.admin">Access Context Manager Admin</a> ( <code>roles/ accesscontextmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.editor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyAdmin">Access Context Manager Admin</a> ( <code>roles/ accesscontextmanager.policyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code>roles/ assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code>roles/ assuredworkloads.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyEditor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.policyEditor</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -727,6 +737,8 @@ This page lists the IAM roles and permissions for Access Context Manager. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.editor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyAdmin">Access Context Manager Admin</a> ( <code>roles/ accesscontextmanager.policyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.viewer">Access Context Manager Viewer</a> ( <code>roles/ accesscontextmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code>roles/ assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code>roles/ assuredworkloads.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyEditor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.policyEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyReader">Access Context Manager Reader</a> ( <code>roles/ accesscontextmanager.policyReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.vpcScTroubleshooterViewer">VPC Service Controls Troubleshooter Viewer</a> ( <code>roles/ accesscontextmanager.vpcScTroubleshooterViewer</code> )</p>
@@ -783,6 +795,8 @@ This page lists the IAM roles and permissions for Access Context Manager. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.admin">Access Context Manager Admin</a> ( <code>roles/ accesscontextmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.editor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyAdmin">Access Context Manager Admin</a> ( <code>roles/ accesscontextmanager.policyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code>roles/ assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code>roles/ assuredworkloads.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.policyEditor">Access Context Manager Editor</a> ( <code>roles/ accesscontextmanager.policyEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.bqdwOrgRemediator">SLZ BQDW Blueprint Organization Level Remediator</a> ( <code>roles/ securedlandingzone.bqdwOrgRemediator</code> )</p>
 <p>Service agent roles</p>

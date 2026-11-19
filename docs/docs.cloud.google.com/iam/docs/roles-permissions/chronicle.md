@@ -455,6 +455,14 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code>chronicle.features.list</code></li>
 <li><code>chronicle.features.update</code></li>
 </ul>
+<p><code>chronicle.federationGroups.*</code></p>
+<ul>
+<li><code>chronicle. federationGroups. create</code></li>
+<li><code>chronicle. federationGroups. delete</code></li>
+<li><code>chronicle.federationGroups.get</code></li>
+<li><code>chronicle. federationGroups. list</code></li>
+<li><code>chronicle. federationGroups. update</code></li>
+</ul>
 <p><code>chronicle.feedPacks.*</code></p>
 <ul>
 <li><code>chronicle.feedPacks.get</code></li>
@@ -856,6 +864,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <p><code>chronicle.messages.*</code></p>
 <ul>
 <li><code>chronicle.messages.create</code></li>
+<li><code>chronicle. messages. createLongRunning</code></li>
 <li><code>chronicle.messages.delete</code></li>
 <li><code>chronicle.messages.get</code></li>
 <li><code>chronicle.messages.list</code></li>
@@ -907,6 +916,11 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code>chronicle. operations. streamSearch</code></li>
 <li><code>chronicle.operations.wait</code></li>
 </ul>
+<p><code>chronicle. parserAnalysisReports.*</code></p>
+<ul>
+<li><code>chronicle. parserAnalysisReports. get</code></li>
+<li><code>chronicle. parserAnalysisReports. list</code></li>
+</ul>
 <p><code>chronicle.parserExtensions.*</code></p>
 <ul>
 <li><code>chronicle. parserExtensions. activate</code></li>
@@ -929,6 +943,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code>chronicle. parsers. generateEventTypesSuggestions</code></li>
 <li><code>chronicle.parsers.get</code></li>
 <li><code>chronicle.parsers.list</code></li>
+<li><code>chronicle.parsers.runAnalysis</code></li>
 <li><code>chronicle.parsers.runParser</code></li>
 <li><code>chronicle.parsers.update</code></li>
 </ul>
@@ -1474,10 +1489,14 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code>chronicle.enrichmentAgent.get</code></li>
 </ul>
 <p><code>chronicle. enrichmentCombination. get</code></p>
-<p><code>chronicle. enrichmentControls. create</code></p>
-<p><code>chronicle. enrichmentControls. disable</code></p>
-<p><code>chronicle. enrichmentControls. get</code></p>
-<p><code>chronicle. enrichmentControls. list</code></p>
+<p><code>chronicle.enrichmentControls.*</code></p>
+<ul>
+<li><code>chronicle. enrichmentControls. create</code></li>
+<li><code>chronicle. enrichmentControls. delete</code></li>
+<li><code>chronicle. enrichmentControls. disable</code></li>
+<li><code>chronicle. enrichmentControls. get</code></li>
+<li><code>chronicle. enrichmentControls. list</code></li>
+</ul>
 <p><code>chronicle.entities.*</code></p>
 <ul>
 <li><code>chronicle.entities.batchCreate</code></li>
@@ -1534,6 +1553,8 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 </ul>
 <p><code>chronicle.features.get</code></p>
 <p><code>chronicle.features.list</code></p>
+<p><code>chronicle.federationGroups.get</code></p>
+<p><code>chronicle. federationGroups. list</code></p>
 <p><code>chronicle.feedPacks.*</code></p>
 <ul>
 <li><code>chronicle.feedPacks.get</code></li>
@@ -1820,6 +1841,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <p><code>chronicle.messages.*</code></p>
 <ul>
 <li><code>chronicle.messages.create</code></li>
+<li><code>chronicle. messages. createLongRunning</code></li>
 <li><code>chronicle.messages.delete</code></li>
 <li><code>chronicle.messages.get</code></li>
 <li><code>chronicle.messages.list</code></li>
@@ -1912,13 +1934,17 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code>chronicle. ruleDeployments. update</code></li>
 </ul>
 <p><code>chronicle. ruleExecutionErrors. list</code></p>
-<p><code>chronicle.rules.create</code></p>
-<p><code>chronicle.rules.get</code></p>
-<p><code>chronicle.rules.list</code></p>
-<p><code>chronicle.rules.listRevisions</code></p>
-<p><code>chronicle.rules.modifyRules</code></p>
-<p><code>chronicle.rules.update</code></p>
-<p><code>chronicle.rules.verifyRuleText</code></p>
+<p><code>chronicle.rules.*</code></p>
+<ul>
+<li><code>chronicle.rules.create</code></li>
+<li><code>chronicle.rules.delete</code></li>
+<li><code>chronicle.rules.get</code></li>
+<li><code>chronicle.rules.list</code></li>
+<li><code>chronicle.rules.listRevisions</code></li>
+<li><code>chronicle.rules.modifyRules</code></li>
+<li><code>chronicle.rules.update</code></li>
+<li><code>chronicle.rules.verifyRuleText</code></li>
+</ul>
 <p><code>chronicle.savedColumnSets.*</code></p>
 <ul>
 <li><code>chronicle. savedColumnSets. create</code></li>
@@ -1937,6 +1963,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 </ul>
 <p><code>chronicle. searchSessions. search</code></p>
 <p><code>chronicle.searchedResults.list</code></p>
+<p><code>chronicle.shareConfigs.get</code></p>
 <p><code>chronicle. sharedPreferenceSets.*</code></p>
 <ul>
 <li><code>chronicle. sharedPreferenceSets. create</code></li>
@@ -1956,6 +1983,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code>chronicle.summaryTables.list</code></li>
 <li><code>chronicle.summaryTables.update</code></li>
 </ul>
+<p><code>chronicle. systemNotifications. get</code></p>
 <p><code>chronicle.tagSubscriptions.*</code></p>
 <ul>
 <li><code>chronicle. tagSubscriptions. create</code></li>
@@ -2082,6 +2110,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <p><code>chronicle. caseEvidenceDatas. get</code></p>
 <p><code>chronicle.caseQueueFilters.get</code></p>
 <p><code>chronicle. caseTagDefinitions. get</code></p>
+<p><code>chronicle.caseWallRecords.get</code></p>
 <p><code>chronicle. cases. countPriorities</code></p>
 <p><code>chronicle.cases.generateReport</code></p>
 <p><code>chronicle.cases.get</code></p>
@@ -2122,6 +2151,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 </ul>
 <p><code>chronicle. customFieldValues. get</code></p>
 <p><code>chronicle.customFields.get</code></p>
+<p><code>chronicle.customLists.get</code></p>
 <p><code>chronicle.dashboardCharts.*</code></p>
 <ul>
 <li><code>chronicle.dashboardCharts.get</code></li>
@@ -2152,6 +2182,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <p><code>chronicle.dataTables.list</code></p>
 <p><code>chronicle.dataTaps.get</code></p>
 <p><code>chronicle.dataTaps.list</code></p>
+<p><code>chronicle.emailTemplates.get</code></p>
 <p><code>chronicle.enrichmentAgent.get</code></p>
 <p><code>chronicle. enrichmentCombination. get</code></p>
 <p><code>chronicle. enrichmentControls. get</code></p>
@@ -2165,6 +2196,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <p><code>chronicle. entities. searchEntities</code></p>
 <p><code>chronicle.entities.summarize</code></p>
 <p><code>chronicle. entities. summarizeFromQuery</code></p>
+<p><code>chronicle. entitiesBlocklists. get</code></p>
 <p><code>chronicle. entityRiskScores. queryEntityRiskScores</code></p>
 <p><code>chronicle. environmentGroups. get</code></p>
 <p><code>chronicle.environments.get</code></p>
@@ -2185,6 +2217,8 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <p><code>chronicle. featuredContentSearchQueries. list</code></p>
 <p><code>chronicle.features.get</code></p>
 <p><code>chronicle.features.list</code></p>
+<p><code>chronicle.federationGroups.get</code></p>
+<p><code>chronicle. federationGroups. list</code></p>
 <p><code>chronicle.feedPacks.*</code></p>
 <ul>
 <li><code>chronicle.feedPacks.get</code></li>
@@ -2338,6 +2372,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code>chronicle.notebooks.get</code></li>
 <li><code>chronicle.notebooks.list</code></li>
 </ul>
+<p><code>chronicle. notificationSettings. get</code></p>
 <p><code>chronicle.operations.get</code></p>
 <p><code>chronicle.operations.list</code></p>
 <p><code>chronicle. operations. streamSearch</code></p>
@@ -2357,6 +2392,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <p><code>chronicle.referenceLists.get</code></p>
 <p><code>chronicle.referenceLists.list</code></p>
 <p><code>chronicle. referenceLists. verifyReferenceList</code></p>
+<p><code>chronicle.remoteAgents.get</code></p>
 <p><code>chronicle.requestTemplates.get</code></p>
 <p><code>chronicle.retrohunts.get</code></p>
 <p><code>chronicle.retrohunts.list</code></p>
@@ -2386,15 +2422,18 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 </ul>
 <p><code>chronicle. searchSessions. search</code></p>
 <p><code>chronicle.searchedResults.list</code></p>
+<p><code>chronicle.shareConfigs.get</code></p>
 <p><code>chronicle. sharedPreferenceSets. get</code></p>
 <p><code>chronicle. sharedPreferenceSets. list</code></p>
 <p><code>chronicle.socRoles.get</code></p>
 <p><code>chronicle.summaryTables.get</code></p>
 <p><code>chronicle.summaryTables.list</code></p>
+<p><code>chronicle. systemNotifications. get</code></p>
 <p><code>chronicle.tagSubscriptions.get</code></p>
 <p><code>chronicle. tagSubscriptions. list</code></p>
 <p><code>chronicle.tags.get</code></p>
 <p><code>chronicle.tags.list</code></p>
+<p><code>chronicle.tasks.get</code></p>
 <p><code>chronicle. threatCollectionFilterSet. get</code></p>
 <p><code>chronicle.threatCollections.*</code></p>
 <ul>
@@ -2404,11 +2443,15 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code>chronicle. threatCollections. get</code></li>
 <li><code>chronicle. threatCollections. list</code></li>
 </ul>
+<p><code>chronicle.uniqueEntities.get</code></p>
 <p><code>chronicle. userLocalizations. get</code></p>
 <p><code>chronicle. userNotifications. get</code></p>
 <p><code>chronicle.views.get</code></p>
 <p><code>chronicle.watchlists.get</code></p>
 <p><code>chronicle.watchlists.list</code></p>
+<p><code>chronicle.workdeskContacts.get</code></p>
+<p><code>chronicle.workdeskLinks.get</code></p>
+<p><code>chronicle.workdeskNotes.get</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>
@@ -3691,6 +3734,25 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><code>aiplatform.agents.get</code></p>
 <p><code>aiplatform.agents.list</code></p>
 <p><code>aiplatform.agents.update</code></p>
+<p><code>aiplatform.interactions.create</code></p>
+<p><code>aiplatform.interactions.get</code></p>
+<p><code>aiplatform. reasoningEngines. get</code></p>
+<p><code>aiplatform. reasoningEngines. list</code></p>
+<p><code>aiplatform. reasoningEngines. query</code></p>
+<p><code>aiplatform.sessionEvents.*</code></p>
+<ul>
+<li><code>aiplatform. sessionEvents. append</code></li>
+<li><code>aiplatform.sessionEvents.list</code></li>
+</ul>
+<p><code>aiplatform.sessions.*</code></p>
+<ul>
+<li><code>aiplatform.sessions.create</code></li>
+<li><code>aiplatform.sessions.delete</code></li>
+<li><code>aiplatform.sessions.get</code></li>
+<li><code>aiplatform.sessions.list</code></li>
+<li><code>aiplatform.sessions.run</code></li>
+<li><code>aiplatform.sessions.update</code></li>
+</ul>
 <p><code>aiplatform.tasks.*</code></p>
 <ul>
 <li><code>aiplatform.tasks.cancel</code></li>
@@ -3710,11 +3772,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>bigquery.connections.updateTag</code></p>
 <p><code>bigquery.connections.use</code></p>
 <p><code>bigquery.datasets.create</code></p>
+<p><code>bigquery.datasets.get</code></p>
+<p><code>bigquery.datasets.update</code></p>
 <p><code>bigquery.jobs.create</code></p>
 <p><code>bigquery.jobs.get</code></p>
 <p><code>bigquery.tables.create</code></p>
 <p><code>bigquery.tables.delete</code></p>
 <p><code>bigquery.tables.get</code></p>
+<p><code>bigquery.tables.list</code></p>
 <p><code>bigquery.tables.update</code></p>
 <p><code>bigquery.tables.updateData</code></p>
 <p><code>chronicle.caseAlerts.get</code></p>
@@ -3830,7 +3895,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>storage.buckets.create</code></p>
 <p><code>storage.buckets.get</code></p>
 <p><code>storage.buckets.getIamPolicy</code></p>
+<p><code>storage.buckets.list</code></p>
 <p><code>storage.buckets.setIamPolicy</code></p>
+<p><code>storage.buckets.update</code></p>
 <p><code>storage.objects.create</code></p>
 <p><code>storage.objects.delete</code></p>
 <p><code>storage.objects.get</code></p>
@@ -10088,6 +10155,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><code>chronicle. messages. createLongRunning</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><code>chronicle.messages.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10103,7 +10179,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.messages.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10118,7 +10194,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.messages.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10136,7 +10212,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.messages.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10145,7 +10221,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.moduleSettings.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10167,7 +10243,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. moduleSettings. modifyCaseList</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10182,7 +10258,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. moduleSettings. rebranding</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10199,7 +10275,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarVulnerabilityManager">Chronicle SOAR Vulnerability Manager</a> ( <code>roles/ chronicle.soarVulnerabilityManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. moduleSettingsProperties. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10223,21 +10299,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. moduleSettingsProperties. testSettings</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. moduleSettingsProperties. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. multitenantDirectories. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10252,7 +10328,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. nativeDashboards. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10261,7 +10337,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. nativeDashboards. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10270,7 +10346,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. nativeDashboards. duplicate</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10279,7 +10355,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.nativeDashboards.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10294,7 +10370,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. nativeDashboards. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10312,7 +10388,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. nativeDashboards. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10321,7 +10397,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.notebooks.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10336,7 +10412,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.notebooks.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10354,7 +10430,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. notificationSettings. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10368,7 +10444,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. notificationSettings. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10378,7 +10454,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.ontologyRecords.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10386,14 +10462,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. ontologyRecords. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.operations.cancel</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10402,7 +10478,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.operations.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10411,7 +10487,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.operations.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10426,7 +10502,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.operations.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10444,7 +10520,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. operations. streamSearch</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10459,7 +10535,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.operations.wait</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10474,13 +10550,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. parserAnalysisReports. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. parserAnalysisReports. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10489,43 +10565,43 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. parserExtensions. activate</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. parserExtensions. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. parserExtensions. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. parserExtensions. generateKeyValueMappings</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.parserExtensions.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. parserExtensions. legacySubmitParserExtension</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. parserExtensions. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10534,61 +10610,61 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. parserExtensions. removeSyslog</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.parsers.activate</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. parsers. activateReleaseCandidate</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. parsers. copyPrebuiltParser</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.parsers.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.parsers.deactivate</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.parsers.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. parsers. generateEventTypesSuggestions</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.parsers.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.parsers.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10597,25 +10673,25 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.parsers.runAnalysis</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.parsers.runParser</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.parsers.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.parsingErrors.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10624,7 +10700,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.preferenceSets.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10639,7 +10715,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarThreatManager">Chronicle SOAR Threat Manager</a> ( <code>roles/ chronicle.soarThreatManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarVulnerabilityManager">Chronicle SOAR Vulnerability Manager</a> ( <code>roles/ chronicle.soarVulnerabilityManager</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. preferenceSets. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10661,7 +10737,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. propertySchemaDefinitions. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10669,7 +10745,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. propertySchemaDefinitions. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10679,7 +10755,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. propertySchemaDefinitions. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10687,7 +10763,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.queries.suggestSql</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10702,7 +10778,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.queryMetrics.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10717,7 +10793,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.queryMetrics.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10735,7 +10811,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. referenceLists. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10744,7 +10820,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.referenceLists.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10765,7 +10841,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.referenceLists.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10789,7 +10865,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. referenceLists. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10805,7 +10881,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. referenceLists. verifyReferenceList</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10819,7 +10895,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.remoteAgents.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10829,7 +10905,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.remoteAgents.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10843,7 +10919,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.remoteAgents.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10853,14 +10929,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. requestTemplates. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.requestTemplates.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10875,14 +10951,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. requestTemplates. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.retrohunts.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10898,7 +10974,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.retrohunts.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10912,7 +10988,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.retrohunts.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10929,7 +11005,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.riskConfigs.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10943,14 +11019,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.riskConfigs.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.ruleDeployments.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10964,7 +11040,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.ruleDeployments.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10981,7 +11057,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. ruleDeployments. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -10990,7 +11066,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. ruleExecutionErrors. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11007,7 +11083,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.rules.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11016,7 +11092,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.rules.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11025,7 +11101,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.rules.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11046,7 +11122,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.rules.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11063,7 +11139,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.rules.listRevisions</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11077,7 +11153,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.rules.modifyRules</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11086,7 +11162,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.rules.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11095,7 +11171,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.rules.verifyRuleText</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11109,7 +11185,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. savedColumnSets. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11119,7 +11195,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code>roles/ chronicle.viewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. savedColumnSets. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11129,7 +11205,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code>roles/ chronicle.viewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.savedColumnSets.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11143,7 +11219,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.savedColumnSets.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11160,7 +11236,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. savedColumnSets. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11170,7 +11246,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code>roles/ chronicle.viewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.searchQueries.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11182,7 +11258,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.limitedViewer">Chronicle API Limited Viewer</a> ( <code>roles/ chronicle.limitedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.searchQueries.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11194,7 +11270,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.limitedViewer">Chronicle API Limited Viewer</a> ( <code>roles/ chronicle.limitedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.searchQueries.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11209,7 +11285,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.searchQueries.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11227,7 +11303,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.searchQueries.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11239,7 +11315,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.limitedViewer">Chronicle API Limited Viewer</a> ( <code>roles/ chronicle.limitedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. searchSessions. search</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11254,7 +11330,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.searchedResults.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11272,7 +11348,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.shareConfigs.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11285,7 +11361,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code>roles/ chronicle.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.shareConfigs.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11293,7 +11369,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. sharedPreferenceSets. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11302,7 +11378,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. sharedPreferenceSets. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11311,7 +11387,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. sharedPreferenceSets. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11325,7 +11401,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. sharedPreferenceSets. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11342,7 +11418,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. sharedPreferenceSets. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11351,35 +11427,35 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. slaDefinitions. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.slaDefinitions.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. slaDefinitions. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.soarDomains.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.soarDomains.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11387,21 +11463,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.soarDomains.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.soarNetworks.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.soarNetworks.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11409,21 +11485,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.soarNetworks.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.socRoles.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.socRoles.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11435,14 +11511,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarThreatManager">Chronicle SOAR Threat Manager</a> ( <code>roles/ chronicle.soarThreatManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarVulnerabilityManager">Chronicle SOAR Vulnerability Manager</a> ( <code>roles/ chronicle.soarVulnerabilityManager</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.socRoles.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.summaryTables.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11451,7 +11527,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.summaryTables.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11460,7 +11536,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.summaryTables.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11474,7 +11550,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.summaryTables.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11491,7 +11567,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.summaryTables.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11500,7 +11576,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. systemNotifications. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11514,7 +11590,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. systemNotifications. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11523,7 +11599,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. tagSubscriptions. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11532,7 +11608,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. tagSubscriptions. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11541,7 +11617,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.tagSubscriptions.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11555,7 +11631,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. tagSubscriptions. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11572,7 +11648,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. tagSubscriptions. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11581,7 +11657,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.tags.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11590,7 +11666,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.tags.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11599,7 +11675,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.tags.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11613,7 +11689,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.tags.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11630,7 +11706,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.tags.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11639,7 +11715,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.tasks.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11649,7 +11725,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.tasks.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11663,7 +11739,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.tasks.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11673,7 +11749,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.tenants.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11681,7 +11757,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.tenants.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11695,7 +11771,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.tenants.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11703,7 +11779,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. threatCollectionFilterSet. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11718,7 +11794,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. threatCollections. fetchEntityMetadata</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11740,7 +11816,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. threatCollections. fetchIocMatchMetadata</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11755,7 +11831,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. threatCollections. fetchRelated</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11777,7 +11853,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code>roles/ chronicle.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. threatCollections. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11792,7 +11868,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. threatCollections. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11810,7 +11886,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. transformerDefinitions. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11820,7 +11896,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. transformerDefinitions. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11830,7 +11906,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. transformerDefinitions. execute</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11840,7 +11916,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. transformerDefinitions. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11853,7 +11929,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. transformerDefinitions. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11869,7 +11945,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. transformerDefinitions. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11879,7 +11955,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. transformerRevisions. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11889,7 +11965,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. transformerRevisions. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11902,7 +11978,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. transformerRevisions. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11912,7 +11988,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.uniqueEntities.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11926,7 +12002,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. uniqueEntities. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11936,7 +12012,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. userLocalizations. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11953,7 +12029,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarVulnerabilityManager">Chronicle SOAR Vulnerability Manager</a> ( <code>roles/ chronicle.soarVulnerabilityManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. userLocalizations. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11963,7 +12039,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. userNotifications. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11980,7 +12056,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarVulnerabilityManager">Chronicle SOAR Vulnerability Manager</a> ( <code>roles/ chronicle.soarVulnerabilityManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. userNotifications. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11990,7 +12066,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. validationErrors. list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -11999,13 +12075,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. validationReports. get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.views.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12015,21 +12091,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.views.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. visualFamilies. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.visualFamilies.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12037,28 +12113,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle. visualFamilies. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.watchlists.create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.watchlists.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.watchlists.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12072,7 +12148,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code>roles/ chronicle.restrictedDataAccessViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.watchlists.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12089,14 +12165,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.watchlists.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code>roles/ chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.webhooks.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12104,7 +12180,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.webhooks.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12112,7 +12188,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.webhooks.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12120,7 +12196,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. workdeskContacts. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12130,7 +12206,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.workdeskContacts.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12144,7 +12220,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle. workdeskContacts. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12154,7 +12230,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.workdeskLinks.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12164,7 +12240,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.workdeskLinks.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12178,7 +12254,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.workdeskLinks.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12188,7 +12264,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.workdeskNotes.delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12198,7 +12274,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code>roles/ chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>chronicle.workdeskNotes.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -12212,7 +12288,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code>roles/ chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>chronicle.workdeskNotes.update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>

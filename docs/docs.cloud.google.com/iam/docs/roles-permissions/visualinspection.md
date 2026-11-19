@@ -430,6 +430,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform. evaluationExperiments. list</code></li>
 <li><code>aiplatform. evaluationExperiments. update</code></li>
 </ul>
+<p><code>aiplatform. evaluationItemRevisions. get</code></p>
 <p><code>aiplatform.evaluationItems.*</code></p>
 <ul>
 <li><code>aiplatform. evaluationItems. create</code></li>
@@ -454,6 +455,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>aiplatform.evaluationRuns.get</code></li>
 <li><code>aiplatform.evaluationRuns.list</code></li>
 <li><code>aiplatform. evaluationRuns. update</code></li>
+</ul>
+<p><code>aiplatform. evaluationSetRevisions.*</code></p>
+<ul>
+<li><code>aiplatform. evaluationSetRevisions. delete</code></li>
+<li><code>aiplatform. evaluationSetRevisions. get</code></li>
 </ul>
 <p><code>aiplatform.evaluationSets.*</code></p>
 <ul>

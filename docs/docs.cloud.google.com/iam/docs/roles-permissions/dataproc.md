@@ -701,6 +701,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>biglake.catalogs.create</code></p>
 <p><code>biglake.catalogs.get</code></p>
 <p><code>cloudaicompanion. instances. completeTask</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -937,6 +939,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>compute. networks. listEffectiveTags</code></p>
 <p><code>compute. networks. listTagBindings</code></p>
 <p><code>compute. networks. setFirewallPolicy</code></p>
+<p><code>compute.networks.updatePolicy</code></p>
 <p><code>compute.networks.use</code></p>
 <p><code>compute.networks.useExternalIp</code></p>
 <p><code>compute.nodeGroups.get</code></p>
@@ -2630,6 +2633,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code>roles/ iam.mlEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/wiz#wiz.cloudInventoryViewer">Wiz Cloud Inventory Viewer</a> ( <code>roles/ wiz.cloudInventoryViewer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .

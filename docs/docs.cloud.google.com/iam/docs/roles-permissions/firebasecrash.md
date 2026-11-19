@@ -39,6 +39,25 @@ This page lists the IAM roles and permissions for Firebase Crashlytics. To searc
 <li><code>firebasecrashlytics. issues. update</code></li>
 <li><code>firebasecrashlytics. sessions. get</code></li>
 </ul>
+<p><code>firebasetelemetryadmin.*</code></p>
+<ul>
+<li><code>firebasetelemetryadmin. configs. create</code></li>
+<li><code>firebasetelemetryadmin. configs. delete</code></li>
+<li><code>firebasetelemetryadmin. configs. get</code></li>
+<li><code>firebasetelemetryadmin. configs. list</code></li>
+<li><code>firebasetelemetryadmin. configs. update</code></li>
+<li><code>firebasetelemetryadmin. locations. get</code></li>
+<li><code>firebasetelemetryadmin. locations. list</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. create</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. delete</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. get</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. list</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. update</code></li>
+<li><code>firebasetelemetryadmin. operations. cancel</code></li>
+<li><code>firebasetelemetryadmin. operations. delete</code></li>
+<li><code>firebasetelemetryadmin. operations. get</code></li>
+<li><code>firebasetelemetryadmin. operations. list</code></li>
+</ul>
 <p><code>logging.logEntries.download</code></p>
 <p><code>logging.views.access</code></p>
 <p><code>logging.views.listLogs</code></p>
@@ -59,6 +78,17 @@ This page lists the IAM roles and permissions for Firebase Crashlytics. To searc
 <p><code>firebasecrashlytics.issues.get</code></p>
 <p><code>firebasecrashlytics. issues. list</code></p>
 <p><code>firebasecrashlytics. sessions. get</code></p>
+<p><code>firebasetelemetryadmin. configs. get</code></p>
+<p><code>firebasetelemetryadmin. configs. list</code></p>
+<p><code>firebasetelemetryadmin. locations.*</code></p>
+<ul>
+<li><code>firebasetelemetryadmin. locations. get</code></li>
+<li><code>firebasetelemetryadmin. locations. list</code></li>
+</ul>
+<p><code>firebasetelemetryadmin. mappingFiles. get</code></p>
+<p><code>firebasetelemetryadmin. mappingFiles. list</code></p>
+<p><code>firebasetelemetryadmin. operations. get</code></p>
+<p><code>firebasetelemetryadmin. operations. list</code></p>
 <p><code>logging.logEntries.download</code></p>
 <p><code>logging.views.access</code></p>
 <p><code>logging.views.listLogs</code></p>

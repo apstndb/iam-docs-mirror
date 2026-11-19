@@ -51,6 +51,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>compute. acceleratorInterconnects. get</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute. acceleratorInterconnects. queryFormability</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -625,6 +627,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>compute. acceleratorInterconnects. get</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute. acceleratorInterconnects. queryFormability</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -1199,6 +1203,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>compute. acceleratorInterconnects. get</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute. acceleratorInterconnects. queryFormability</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -1764,6 +1770,11 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <li><code>compute. acceleratorInterconnects. get</code></li>
 <li><code>compute. acceleratorInterconnects. list</code></li>
 <li><code>compute. acceleratorInterconnects. queryFormability</code></li>
+<li><code>compute. acceleratorPodControllers. create</code></li>
+<li><code>compute. acceleratorPodControllers. delete</code></li>
+<li><code>compute. acceleratorPodControllers. get</code></li>
+<li><code>compute. acceleratorPodControllers. list</code></li>
+<li><code>compute. acceleratorPodControllers. update</code></li>
 <li><code>compute.acceleratorTypes.get</code></li>
 <li><code>compute.acceleratorTypes.list</code></li>
 <li><code>compute.addresses.create</code></li>
@@ -2957,6 +2968,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>compute. acceleratorInterconnects. get</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute. acceleratorInterconnects. queryFormability</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -3506,6 +3519,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code>compute. acceleratorInterconnects. get</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute. acceleratorInterconnects. queryFormability</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -4107,6 +4122,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>compute. acceleratorInterconnects. get</code></p>
 <p><code>compute. acceleratorInterconnects. list</code></p>
 <p><code>compute. acceleratorInterconnects. queryFormability</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -5312,6 +5329,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.colabServiceAgent">Vertex AI Colab Service Agent</a> ( <code>roles/ aiplatform.colabServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code>roles/ aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>
@@ -5391,6 +5409,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code>roles/ notebooks.serviceAgent</code> )</li>
 </ul></td>

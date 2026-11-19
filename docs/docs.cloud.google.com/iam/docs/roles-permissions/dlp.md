@@ -608,12 +608,14 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>aiplatform. entityTypes. streamingReadFeatureValues</code></p>
 <p><code>aiplatform. evaluationExperiments. get</code></p>
 <p><code>aiplatform. evaluationExperiments. list</code></p>
+<p><code>aiplatform. evaluationItemRevisions. get</code></p>
 <p><code>aiplatform.evaluationItems.get</code></p>
 <p><code>aiplatform. evaluationItems. list</code></p>
 <p><code>aiplatform. evaluationMetrics. get</code></p>
 <p><code>aiplatform. evaluationMetrics. list</code></p>
 <p><code>aiplatform.evaluationRuns.get</code></p>
 <p><code>aiplatform.evaluationRuns.list</code></p>
+<p><code>aiplatform. evaluationSetRevisions. get</code></p>
 <p><code>aiplatform.evaluationSets.get</code></p>
 <p><code>aiplatform.evaluationSets.list</code></p>
 <p><code>aiplatform.exampleStores.get</code></p>
@@ -819,6 +821,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>apihub. deployments. deleteTagBinding</code></p>
 <p><code>apihub. deployments. listEffectiveTags</code></p>
 <p><code>apihub. deployments. listTagBindings</code></p>
+<p><code>apphub. applications. createTagBinding</code></p>
+<p><code>apphub. applications. deleteTagBinding</code></p>
+<p><code>apphub. applications. listEffectiveTags</code></p>
+<p><code>apphub. applications. listTagBindings</code></p>
 <p><code>artifactregistry. repositories. createTagBinding</code></p>
 <p><code>artifactregistry. repositories. deleteTagBinding</code></p>
 <p><code>artifactregistry. repositories. listEffectiveTags</code></p>
@@ -1552,6 +1558,7 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>cloudsql. instances. createTagBinding</code></p>
 <p><code>cloudsql. instances. deleteTagBinding</code></p>
 <p><code>cloudsql.instances.executeSql</code></p>
+<p><code>cloudsql. instances. executeSqlReadOnly</code></p>
 <p><code>cloudsql.instances.get</code></p>
 <p><code>cloudsql. instances. listEffectiveTags</code></p>
 <p><code>cloudsql. instances. listTagBindings</code></p>
@@ -2483,12 +2490,14 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>aiplatform. entityTypes. streamingReadFeatureValues</code></p>
 <p><code>aiplatform. evaluationExperiments. get</code></p>
 <p><code>aiplatform. evaluationExperiments. list</code></p>
+<p><code>aiplatform. evaluationItemRevisions. get</code></p>
 <p><code>aiplatform.evaluationItems.get</code></p>
 <p><code>aiplatform. evaluationItems. list</code></p>
 <p><code>aiplatform. evaluationMetrics. get</code></p>
 <p><code>aiplatform. evaluationMetrics. list</code></p>
 <p><code>aiplatform.evaluationRuns.get</code></p>
 <p><code>aiplatform.evaluationRuns.list</code></p>
+<p><code>aiplatform. evaluationSetRevisions. get</code></p>
 <p><code>aiplatform.evaluationSets.get</code></p>
 <p><code>aiplatform.evaluationSets.list</code></p>
 <p><code>aiplatform.exampleStores.get</code></p>
@@ -2694,6 +2703,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>apihub. deployments. deleteTagBinding</code></p>
 <p><code>apihub. deployments. listEffectiveTags</code></p>
 <p><code>apihub. deployments. listTagBindings</code></p>
+<p><code>apphub. applications. createTagBinding</code></p>
+<p><code>apphub. applications. deleteTagBinding</code></p>
+<p><code>apphub. applications. listEffectiveTags</code></p>
+<p><code>apphub. applications. listTagBindings</code></p>
 <p><code>artifactregistry. repositories. createTagBinding</code></p>
 <p><code>artifactregistry. repositories. deleteTagBinding</code></p>
 <p><code>artifactregistry. repositories. listEffectiveTags</code></p>
@@ -3427,6 +3440,7 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code>cloudsql. instances. createTagBinding</code></p>
 <p><code>cloudsql. instances. deleteTagBinding</code></p>
 <p><code>cloudsql.instances.executeSql</code></p>
+<p><code>cloudsql. instances. executeSqlReadOnly</code></p>
 <p><code>cloudsql.instances.get</code></p>
 <p><code>cloudsql. instances. listEffectiveTags</code></p>
 <p><code>cloudsql. instances. listTagBindings</code></p>
@@ -5470,6 +5484,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -5852,6 +5867,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.serviceAgent">DLP API Service Agent</a> ( <code>roles/ dlp.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor#modelarmor.serviceAgent">Model Armor Service Agent</a> ( <code>roles/ modelarmor.serviceAgent</code> )</li>
@@ -6196,6 +6212,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -6229,6 +6246,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.monitoringServiceAgent">Assured Workloads Monitoring Service Agent</a> ( <code>roles/ assuredworkloads.monitoringServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code>roles/ auditmanager.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code>roles/ cloudsecuritycompliance.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 </tbody>

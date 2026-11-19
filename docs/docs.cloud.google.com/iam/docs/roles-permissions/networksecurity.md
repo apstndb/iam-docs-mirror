@@ -196,6 +196,23 @@ This page lists the IAM roles and permissions for Network Security. To search th
 <li><code>networksecurity. tlsInspectionPolicies. list</code></li>
 <li><code>networksecurity. tlsInspectionPolicies. update</code></li>
 <li><code>networksecurity. tlsInspectionPolicies. use</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. create</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. delete</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. get</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. list</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. update</code></li>
+<li><code>networksecurity. ullMirroringCollectors. create</code></li>
+<li><code>networksecurity. ullMirroringCollectors. delete</code></li>
+<li><code>networksecurity. ullMirroringCollectors. get</code></li>
+<li><code>networksecurity. ullMirroringCollectors. list</code></li>
+<li><code>networksecurity. ullMirroringCollectors. update</code></li>
+<li><code>networksecurity. ullMirroringEngines. create</code></li>
+<li><code>networksecurity. ullMirroringEngines. delete</code></li>
+<li><code>networksecurity. ullMirroringEngines. get</code></li>
+<li><code>networksecurity. ullMirroringEngines. list</code></li>
+<li><code>networksecurity. ullMirroringEngines. listNetworks</code></li>
+<li><code>networksecurity. ullMirroringEngines. update</code></li>
+<li><code>networksecurity. ullMirroringEngines. use</code></li>
 <li><code>networksecurity. urlLists. create</code></li>
 <li><code>networksecurity. urlLists. delete</code></li>
 <li><code>networksecurity.urlLists.get</code></li>
@@ -430,6 +447,32 @@ This page lists the IAM roles and permissions for Network Security. To search th
 <li><code>networksecurity. tlsInspectionPolicies. update</code></li>
 <li><code>networksecurity. tlsInspectionPolicies. use</code></li>
 </ul>
+<p><code>networksecurity. ullMirroringCollectorRules.*</code></p>
+<ul>
+<li><code>networksecurity. ullMirroringCollectorRules. create</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. delete</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. get</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. list</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. update</code></li>
+</ul>
+<p><code>networksecurity. ullMirroringCollectors.*</code></p>
+<ul>
+<li><code>networksecurity. ullMirroringCollectors. create</code></li>
+<li><code>networksecurity. ullMirroringCollectors. delete</code></li>
+<li><code>networksecurity. ullMirroringCollectors. get</code></li>
+<li><code>networksecurity. ullMirroringCollectors. list</code></li>
+<li><code>networksecurity. ullMirroringCollectors. update</code></li>
+</ul>
+<p><code>networksecurity. ullMirroringEngines.*</code></p>
+<ul>
+<li><code>networksecurity. ullMirroringEngines. create</code></li>
+<li><code>networksecurity. ullMirroringEngines. delete</code></li>
+<li><code>networksecurity. ullMirroringEngines. get</code></li>
+<li><code>networksecurity. ullMirroringEngines. list</code></li>
+<li><code>networksecurity. ullMirroringEngines. listNetworks</code></li>
+<li><code>networksecurity. ullMirroringEngines. update</code></li>
+<li><code>networksecurity. ullMirroringEngines. use</code></li>
+</ul>
 <p><code>networksecurity.urlLists.*</code></p>
 <ul>
 <li><code>networksecurity. urlLists. create</code></li>
@@ -517,6 +560,13 @@ This page lists the IAM roles and permissions for Network Security. To search th
 <p><code>networksecurity. serverTlsPolicies. listTagBindings</code></p>
 <p><code>networksecurity. tlsInspectionPolicies. get</code></p>
 <p><code>networksecurity. tlsInspectionPolicies. list</code></p>
+<p><code>networksecurity. ullMirroringCollectorRules. get</code></p>
+<p><code>networksecurity. ullMirroringCollectorRules. list</code></p>
+<p><code>networksecurity. ullMirroringCollectors. get</code></p>
+<p><code>networksecurity. ullMirroringCollectors. list</code></p>
+<p><code>networksecurity. ullMirroringEngines. get</code></p>
+<p><code>networksecurity. ullMirroringEngines. list</code></p>
+<p><code>networksecurity. ullMirroringEngines. listNetworks</code></p>
 <p><code>networksecurity.urlLists.get</code></p>
 <p><code>networksecurity.urlLists.list</code></p>
 <p><code>resourcemanager.projects.get</code></p>
@@ -787,6 +837,85 @@ This page lists the IAM roles and permissions for Network Security. To search th
 <li><code>networksecurity. securityProfiles. update</code></li>
 <li><code>networksecurity. securityProfiles. use</code></li>
 </ul>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="even">
+<td>Ull Mirroring Collector Admin
+<p>( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p>
+<p>Enables full access to Ull Mirroring Collector resources.</p></td>
+<td><p><code>networksecurity. ullMirroringCollectorRules.*</code></p>
+<ul>
+<li><code>networksecurity. ullMirroringCollectorRules. create</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. delete</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. get</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. list</code></li>
+<li><code>networksecurity. ullMirroringCollectorRules. update</code></li>
+</ul>
+<p><code>networksecurity. ullMirroringCollectors.*</code></p>
+<ul>
+<li><code>networksecurity. ullMirroringCollectors. create</code></li>
+<li><code>networksecurity. ullMirroringCollectors. delete</code></li>
+<li><code>networksecurity. ullMirroringCollectors. get</code></li>
+<li><code>networksecurity. ullMirroringCollectors. list</code></li>
+<li><code>networksecurity. ullMirroringCollectors. update</code></li>
+</ul>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="odd">
+<td>Ull Mirroring Collector Viewer
+<p>( <code>roles/ networksecurity.ullMirroringCollectorViewer</code> )</p>
+<p>Enables read-only access to Ull Mirroring Collector resources.</p></td>
+<td><p><code>networksecurity. ullMirroringCollectorRules. get</code></p>
+<p><code>networksecurity. ullMirroringCollectorRules. list</code></p>
+<p><code>networksecurity. ullMirroringCollectors. get</code></p>
+<p><code>networksecurity. ullMirroringCollectors. list</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="even">
+<td>Ull Mirroring Engine Admin
+<p>( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p>
+<p>Enables full access to Ull Mirroring Engine and Collector resources.</p></td>
+<td><p><code>networksecurity. ullMirroringCollectors.*</code></p>
+<ul>
+<li><code>networksecurity. ullMirroringCollectors. create</code></li>
+<li><code>networksecurity. ullMirroringCollectors. delete</code></li>
+<li><code>networksecurity. ullMirroringCollectors. get</code></li>
+<li><code>networksecurity. ullMirroringCollectors. list</code></li>
+<li><code>networksecurity. ullMirroringCollectors. update</code></li>
+</ul>
+<p><code>networksecurity. ullMirroringEngines.*</code></p>
+<ul>
+<li><code>networksecurity. ullMirroringEngines. create</code></li>
+<li><code>networksecurity. ullMirroringEngines. delete</code></li>
+<li><code>networksecurity. ullMirroringEngines. get</code></li>
+<li><code>networksecurity. ullMirroringEngines. list</code></li>
+<li><code>networksecurity. ullMirroringEngines. listNetworks</code></li>
+<li><code>networksecurity. ullMirroringEngines. update</code></li>
+<li><code>networksecurity. ullMirroringEngines. use</code></li>
+</ul>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="odd">
+<td>Ull Mirroring Engine User
+<p>( <code>roles/ networksecurity.ullMirroringEngineUser</code> )</p>
+<p>Enables creating a collector for an in-scope engine.</p></td>
+<td><p><code>networksecurity. ullMirroringEngines. use</code></p>
+<p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="even">
+<td>Ull Mirroring Engine Viewer
+<p>( <code>roles/ networksecurity.ullMirroringEngineViewer</code> )</p>
+<p>Enables read-only access to Ull Mirroring Engine and Collector resources.</p></td>
+<td><p><code>networksecurity. ullMirroringCollectors. get</code></p>
+<p><code>networksecurity. ullMirroringCollectors. list</code></p>
+<p><code>networksecurity. ullMirroringEngines. get</code></p>
+<p><code>networksecurity. ullMirroringEngines. list</code></p>
+<p><code>networksecurity. ullMirroringEngines. listNetworks</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>
 </tr>
@@ -4667,6 +4796,228 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
+<td><code>networksecurity. ullMirroringCollectorRules. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorAdmin">Ull Mirroring Collector Admin</a> ( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>networksecurity. ullMirroringCollectorRules. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorAdmin">Ull Mirroring Collector Admin</a> ( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>networksecurity. ullMirroringCollectorRules. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.viewer">Network Security Viewer</a> ( <code>roles/ networksecurity.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorAdmin">Ull Mirroring Collector Admin</a> ( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorViewer">Ull Mirroring Collector Viewer</a> ( <code>roles/ networksecurity.ullMirroringCollectorViewer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>networksecurity. ullMirroringCollectorRules. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.viewer">Network Security Viewer</a> ( <code>roles/ networksecurity.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorAdmin">Ull Mirroring Collector Admin</a> ( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorViewer">Ull Mirroring Collector Viewer</a> ( <code>roles/ networksecurity.ullMirroringCollectorViewer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>networksecurity. ullMirroringCollectorRules. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorAdmin">Ull Mirroring Collector Admin</a> ( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>networksecurity. ullMirroringCollectors. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorAdmin">Ull Mirroring Collector Admin</a> ( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>networksecurity. ullMirroringCollectors. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorAdmin">Ull Mirroring Collector Admin</a> ( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>networksecurity. ullMirroringCollectors. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.viewer">Network Security Viewer</a> ( <code>roles/ networksecurity.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorAdmin">Ull Mirroring Collector Admin</a> ( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorViewer">Ull Mirroring Collector Viewer</a> ( <code>roles/ networksecurity.ullMirroringCollectorViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineViewer">Ull Mirroring Engine Viewer</a> ( <code>roles/ networksecurity.ullMirroringEngineViewer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>networksecurity. ullMirroringCollectors. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.viewer">Network Security Viewer</a> ( <code>roles/ networksecurity.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorAdmin">Ull Mirroring Collector Admin</a> ( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorViewer">Ull Mirroring Collector Viewer</a> ( <code>roles/ networksecurity.ullMirroringCollectorViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineViewer">Ull Mirroring Engine Viewer</a> ( <code>roles/ networksecurity.ullMirroringEngineViewer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>networksecurity. ullMirroringCollectors. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringCollectorAdmin">Ull Mirroring Collector Admin</a> ( <code>roles/ networksecurity.ullMirroringCollectorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>networksecurity. ullMirroringEngines. create</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>networksecurity. ullMirroringEngines. delete</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>networksecurity. ullMirroringEngines. get</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.viewer">Network Security Viewer</a> ( <code>roles/ networksecurity.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineViewer">Ull Mirroring Engine Viewer</a> ( <code>roles/ networksecurity.ullMirroringEngineViewer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>networksecurity. ullMirroringEngines. list</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code>roles/ iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code>roles/ iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.viewer">Network Security Viewer</a> ( <code>roles/ networksecurity.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code>roles/ iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineViewer">Ull Mirroring Engine Viewer</a> ( <code>roles/ networksecurity.ullMirroringEngineViewer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>networksecurity. ullMirroringEngines. listNetworks</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code>roles/ reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer (Legacy)</a> ( <code>roles/ viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.viewer">Network Security Viewer</a> ( <code>roles/ networksecurity.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code>roles/ iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineViewer">Ull Mirroring Engine Viewer</a> ( <code>roles/ networksecurity.ullMirroringEngineViewer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><code>networksecurity. ullMirroringEngines. update</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><code>networksecurity. ullMirroringEngines. use</code></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code>roles/ writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor (Legacy)</a> ( <code>roles/ editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Network Security Admin</a> ( <code>roles/ networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Network Security Editor</a> ( <code>roles/ networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineAdmin">Ull Mirroring Engine Admin</a> ( <code>roles/ networksecurity.ullMirroringEngineAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.ullMirroringEngineUser">Ull Mirroring Engine User</a> ( <code>roles/ networksecurity.ullMirroringEngineUser</code> )</p></td>
+</tr>
+<tr class="even">
 <td><code>networksecurity. urlLists. create</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -4688,7 +5039,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code>roles/ dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>networksecurity. urlLists. delete</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -4710,7 +5061,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code>roles/ dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>networksecurity.urlLists.get</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -4742,7 +5093,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code>roles/ hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>networksecurity.urlLists.list</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -4777,7 +5128,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code>roles/ hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>networksecurity. urlLists. update</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>
@@ -4799,7 +5150,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code>roles/ dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>networksecurity.urlLists.use</code></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code>roles/ admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner (Legacy)</a> ( <code>roles/ owner</code> )</p>

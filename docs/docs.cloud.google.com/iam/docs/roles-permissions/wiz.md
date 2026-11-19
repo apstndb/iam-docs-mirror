@@ -153,6 +153,7 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>cloudasset. assets. searchAllResources</code></p>
 <p><code>cloudbuild.builds.list</code></p>
 <p><code>cloudbuild.connections.list</code></p>
+<p><code>cloudbuild.repositories.list</code></p>
 <p><code>cloudbuild.workerpools.list</code></p>
 <p><code>cloudfunctions.functions.get</code></p>
 <p><code>cloudfunctions. functions. getIamPolicy</code></p>
@@ -160,10 +161,13 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>cloudkms. cryptoKeyVersions. list</code></p>
 <p><code>cloudkms. cryptoKeys. getIamPolicy</code></p>
 <p><code>cloudkms.cryptoKeys.list</code></p>
+<p><code>cloudkms.ekmConnections.list</code></p>
 <p><code>cloudkms.importJobs.list</code></p>
+<p><code>cloudkms.keyHandles.list</code></p>
 <p><code>cloudkms.keyRings.getIamPolicy</code></p>
 <p><code>cloudkms.keyRings.list</code></p>
 <p><code>cloudkms.locations.list</code></p>
+<p><code>cloudkms. singleTenantHsmInstances. list</code></p>
 <p><code>cloudscheduler.jobs.list</code></p>
 <p><code>cloudscheduler.locations.list</code></p>
 <p><code>cloudsecurityscanner. scans. list</code></p>
@@ -191,6 +195,7 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>compute. externalVpnGateways. list</code></p>
 <p><code>compute.firewallPolicies.list</code></p>
 <p><code>compute.firewalls.list</code></p>
+<p><code>compute. folderVmExtensionPolicies. list</code></p>
 <p><code>compute.forwardingRules.list</code></p>
 <p><code>compute. globalNetworkEndpointGroups. get</code></p>
 <p><code>compute. globalNetworkEndpointGroups. list</code></p>
@@ -352,6 +357,7 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>dataproc.clusters.getIamPolicy</code></p>
 <p><code>dataproc.clusters.list</code></p>
 <p><code>dataproc.sessionTemplates.list</code></p>
+<p><code>dataproc.sessions.list</code></p>
 <p><code>dataproc. workflowTemplates. list</code></p>
 <p><code>datastore.backups.list</code></p>
 <p><code>datastore.databases.list</code></p>
@@ -410,9 +416,11 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>file.backups.list</code></p>
 <p><code>file.instances.list</code></p>
 <p><code>file.locations.list</code></p>
+<p><code>firebaseappcheck.services.get</code></p>
 <p><code>firebasedataconnect. connectors. list</code></p>
 <p><code>firebasedataconnect. locations. list</code></p>
 <p><code>firebasedataconnect. services. list</code></p>
+<p><code>firebaserules.releases.list</code></p>
 <p><code>firebaserules.rulesets.get</code></p>
 <p><code>firebaserules.rulesets.list</code></p>
 <p><code>ftp.locations.list</code></p>
@@ -420,6 +428,14 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>gkebackup.backupPlans.list</code></p>
 <p><code>gkebackup.backups.list</code></p>
 <p><code>gkebackup.restorePlans.list</code></p>
+<p><code>gkehub.features.list</code></p>
+<p><code>gkehub.fleet.get</code></p>
+<p><code>gkehub.locations.list</code></p>
+<p><code>gkehub.membershipbindings.get</code></p>
+<p><code>gkehub.membershipbindings.list</code></p>
+<p><code>gkehub.memberships.list</code></p>
+<p><code>gkehub.scopes.get</code></p>
+<p><code>gkehub.scopes.list</code></p>
 <p><code>healthcare.consentStores.list</code></p>
 <p><code>healthcare.consents.list</code></p>
 <p><code>healthcare.datasets.list</code></p>
@@ -513,11 +529,13 @@ This page lists the IAM roles and permissions for Wiz. To search through all rol
 <p><code>networksecurity. serverTlsPolicies. list</code></p>
 <p><code>networksecurity. tlsInspectionPolicies. list</code></p>
 <p><code>networksecurity.urlLists.list</code></p>
+<p><code>networkservices. agentGateways. list</code></p>
 <p><code>networkservices. authzExtensions. list</code></p>
 <p><code>networkservices. endpointPolicies. list</code></p>
 <p><code>networkservices.gateways.list</code></p>
 <p><code>networkservices. grpcRoutes. list</code></p>
 <p><code>networkservices. httpRoutes. list</code></p>
+<p><code>networkservices. lbEdgeExtensions. list</code></p>
 <p><code>networkservices. lbRouteExtensions. list</code></p>
 <p><code>networkservices. lbTrafficExtensions. list</code></p>
 <p><code>networkservices.locations.list</code></p>

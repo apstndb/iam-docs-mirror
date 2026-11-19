@@ -26,7 +26,15 @@ This page lists the IAM roles and permissions for Parameter Manager. To search t
 <td>Parameter Manager Admin
 <p>( <code>roles/ parametermanager.admin</code> )</p>
 <p>Grants full access to all Parameter Manager resources. Intended for project admins &amp; owners who need to perform all administrative tasks.</p></td>
-<td><p><code>parametermanager.*</code></p>
+<td><p><code>cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code>cloudkms.keyHandles.create</code></li>
+<li><code>cloudkms.keyHandles.get</code></li>
+<li><code>cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code>cloudkms.operations.get</code></p>
+<p><code>cloudkms. projects. showEffectiveAutokeyConfig</code></p>
+<p><code>parametermanager.*</code></p>
 <ul>
 <li><code>parametermanager.locations.get</code></li>
 <li><code>parametermanager. locations. list</code></li>

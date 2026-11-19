@@ -130,82 +130,69 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code>dataplex.changeRequests.list</code></p>
 <p><code>dataplex.changeRequests.use</code></p>
 <p><code>dataplex.dataDomains.discover</code></p>
-<p><code>dataplex.entries.*</code></p>
-<ul>
-<li><code>dataplex.entries.create</code></li>
-<li><code>dataplex.entries.createContext</code></li>
-<li><code>dataplex.entries.delete</code></li>
-<li><code>dataplex.entries.deleteContext</code></li>
-<li><code>dataplex.entries.get</code></li>
-<li><code>dataplex.entries.getContext</code></li>
-<li><code>dataplex.entries.getData</code></li>
-<li><code>dataplex.entries.link</code></li>
-<li><code>dataplex.entries.list</code></li>
-<li><code>dataplex.entries.listContext</code></li>
-<li><code>dataplex.entries.update</code></li>
-<li><code>dataplex.entries.updateContext</code></li>
-</ul>
-<p><code>dataplex.entryGroups.*</code></p>
-<ul>
-<li><code>dataplex.entryGroups.create</code></li>
-<li><code>dataplex. entryGroups. createContextSet</code></li>
-<li><code>dataplex. entryGroups. createTagBinding</code></li>
-<li><code>dataplex.entryGroups.delete</code></li>
-<li><code>dataplex. entryGroups. deleteContextSet</code></li>
-<li><code>dataplex. entryGroups. deleteTagBinding</code></li>
-<li><code>dataplex.entryGroups.export</code></li>
-<li><code>dataplex.entryGroups.get</code></li>
-<li><code>dataplex. entryGroups. getContextSet</code></li>
-<li><code>dataplex. entryGroups. getIamPolicy</code></li>
-<li><code>dataplex.entryGroups.import</code></li>
-<li><code>dataplex.entryGroups.list</code></li>
-<li><code>dataplex. entryGroups. listEffectiveTags</code></li>
-<li><code>dataplex. entryGroups. listTagBindings</code></li>
-<li><code>dataplex. entryGroups. requestChanges</code></li>
-<li><code>dataplex. entryGroups. requestContextChanges</code></li>
-<li><code>dataplex. entryGroups. setIamPolicy</code></li>
-<li><code>dataplex.entryGroups.update</code></li>
-<li><code>dataplex. entryGroups. updateContextSet</code></li>
-<li><code>dataplex. entryGroups. useCertificationAspect</code></li>
-<li><code>dataplex. entryGroups. useContactsAspect</code></li>
-<li><code>dataplex. entryGroups. useContextAspect</code></li>
-<li><code>dataplex. entryGroups. useContextEntry</code></li>
-<li><code>dataplex. entryGroups. useContextEntryLink</code></li>
-<li><code>dataplex. entryGroups. useDataProfileAspect</code></li>
-<li><code>dataplex. entryGroups. useDataQualityRuleTemplateAspect</code></li>
-<li><code>dataplex. entryGroups. useDataQualityRuleTemplateEntry</code></li>
-<li><code>dataplex. entryGroups. useDataQualityScorecardAspect</code></li>
-<li><code>dataplex. entryGroups. useDataRulesAspect</code></li>
-<li><code>dataplex. entryGroups. useDatabaseDataPolicyAspect</code></li>
-<li><code>dataplex. entryGroups. useDefinitionEntryLink</code></li>
-<li><code>dataplex. entryGroups. useDescriptionsAspect</code></li>
-<li><code>dataplex. entryGroups. useDocumentAspect</code></li>
-<li><code>dataplex. entryGroups. useDocumentEntry</code></li>
-<li><code>dataplex. entryGroups. useGenericAspect</code></li>
-<li><code>dataplex. entryGroups. useGenericEntry</code></li>
-<li><code>dataplex. entryGroups. useGraphProfileAspect</code></li>
-<li><code>dataplex. entryGroups. useManagedConnectorTypes</code></li>
-<li><code>dataplex. entryGroups. useMySQLConnectorTypes</code></li>
-<li><code>dataplex. entryGroups. useOracleConnectorTypes</code></li>
-<li><code>dataplex. entryGroups. useOverviewAspect</code></li>
-<li><code>dataplex. entryGroups. usePostgreSQLConnectorTypes</code></li>
-<li><code>dataplex. entryGroups. useQueriesAspect</code></li>
-<li><code>dataplex. entryGroups. useQueryTemplateAspect</code></li>
-<li><code>dataplex. entryGroups. useQueryTemplateEntry</code></li>
-<li><code>dataplex. entryGroups. useReferenceEntryLink</code></li>
-<li><code>dataplex. entryGroups. useRefreshCadenceAspect</code></li>
-<li><code>dataplex. entryGroups. useRelatedEntryLink</code></li>
-<li><code>dataplex. entryGroups. useSQLAccessAspect</code></li>
-<li><code>dataplex. entryGroups. useSQLServerConnectorTypes</code></li>
-<li><code>dataplex. entryGroups. useSQLTriggersAspect</code></li>
-<li><code>dataplex. entryGroups. useSchemaAspect</code></li>
-<li><code>dataplex. entryGroups. useSchemaJoinAspect</code></li>
-<li><code>dataplex. entryGroups. useSchemaJoinEntryLink</code></li>
-<li><code>dataplex. entryGroups. useSecondaryIndexesAspect</code></li>
-<li><code>dataplex. entryGroups. useStorageAspect</code></li>
-<li><code>dataplex. entryGroups. useSynonymEntryLink</code></li>
-<li><code>dataplex. entryGroups. useUsageAspect</code></li>
-</ul>
+<p><code>dataplex.entries.create</code></p>
+<p><code>dataplex.entries.delete</code></p>
+<p><code>dataplex.entries.get</code></p>
+<p><code>dataplex.entries.getData</code></p>
+<p><code>dataplex.entries.link</code></p>
+<p><code>dataplex.entries.list</code></p>
+<p><code>dataplex.entries.update</code></p>
+<p><code>dataplex.entryGroups.create</code></p>
+<p><code>dataplex. entryGroups. createTagBinding</code></p>
+<p><code>dataplex.entryGroups.delete</code></p>
+<p><code>dataplex. entryGroups. deleteTagBinding</code></p>
+<p><code>dataplex.entryGroups.export</code></p>
+<p><code>dataplex.entryGroups.get</code></p>
+<p><code>dataplex. entryGroups. getIamPolicy</code></p>
+<p><code>dataplex.entryGroups.import</code></p>
+<p><code>dataplex.entryGroups.list</code></p>
+<p><code>dataplex. entryGroups. listEffectiveTags</code></p>
+<p><code>dataplex. entryGroups. listTagBindings</code></p>
+<p><code>dataplex. entryGroups. requestChanges</code></p>
+<p><code>dataplex. entryGroups. setIamPolicy</code></p>
+<p><code>dataplex.entryGroups.update</code></p>
+<p><code>dataplex. entryGroups. useCertificationAspect</code></p>
+<p><code>dataplex. entryGroups. useContactsAspect</code></p>
+<p><code>dataplex. entryGroups. useContextAspect</code></p>
+<p><code>dataplex. entryGroups. useContextEntry</code></p>
+<p><code>dataplex. entryGroups. useContextEntryLink</code></p>
+<p><code>dataplex. entryGroups. useDataContractAspect</code></p>
+<p><code>dataplex. entryGroups. useDataProfileAspect</code></p>
+<p><code>dataplex. entryGroups. useDataQualityRuleTemplateAspect</code></p>
+<p><code>dataplex. entryGroups. useDataQualityRuleTemplateEntry</code></p>
+<p><code>dataplex. entryGroups. useDataQualityScorecardAspect</code></p>
+<p><code>dataplex. entryGroups. useDataRulesAspect</code></p>
+<p><code>dataplex. entryGroups. useDatabaseDataPolicyAspect</code></p>
+<p><code>dataplex. entryGroups. useDefinitionEntryLink</code></p>
+<p><code>dataplex. entryGroups. useDescriptionsAspect</code></p>
+<p><code>dataplex. entryGroups. useDocumentAspect</code></p>
+<p><code>dataplex. entryGroups. useDocumentEntry</code></p>
+<p><code>dataplex. entryGroups. useGenericAspect</code></p>
+<p><code>dataplex. entryGroups. useGenericEntry</code></p>
+<p><code>dataplex. entryGroups. useGraphProfileAspect</code></p>
+<p><code>dataplex. entryGroups. useGuidelinesAspect</code></p>
+<p><code>dataplex. entryGroups. useManagedConnectorTypes</code></p>
+<p><code>dataplex. entryGroups. useMySQLConnectorTypes</code></p>
+<p><code>dataplex. entryGroups. useOracleConnectorTypes</code></p>
+<p><code>dataplex. entryGroups. useOverviewAspect</code></p>
+<p><code>dataplex. entryGroups. usePostgreSQLConnectorTypes</code></p>
+<p><code>dataplex. entryGroups. useQueriesAspect</code></p>
+<p><code>dataplex. entryGroups. useQueryTemplateAspect</code></p>
+<p><code>dataplex. entryGroups. useQueryTemplateEntry</code></p>
+<p><code>dataplex. entryGroups. useReferenceEntryLink</code></p>
+<p><code>dataplex. entryGroups. useRefreshCadenceAspect</code></p>
+<p><code>dataplex. entryGroups. useRelatedEntryLink</code></p>
+<p><code>dataplex. entryGroups. useSQLAccessAspect</code></p>
+<p><code>dataplex. entryGroups. useSQLServerConnectorTypes</code></p>
+<p><code>dataplex. entryGroups. useSQLTriggersAspect</code></p>
+<p><code>dataplex. entryGroups. useSchemaAspect</code></p>
+<p><code>dataplex. entryGroups. useSchemaJoinAspect</code></p>
+<p><code>dataplex. entryGroups. useSchemaJoinEntryLink</code></p>
+<p><code>dataplex. entryGroups. useSecondaryIndexesAspect</code></p>
+<p><code>dataplex. entryGroups. useStorageAspect</code></p>
+<p><code>dataplex. entryGroups. useStructuredDataAspect</code></p>
+<p><code>dataplex. entryGroups. useSynonymEntryLink</code></p>
+<p><code>dataplex. entryGroups. useUsageAspect</code></p>
 <p><code>dataplex.entryLinkTypes.*</code></p>
 <ul>
 <li><code>dataplex.entryLinkTypes.create</code></li>
@@ -557,82 +544,69 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code>dataplex.changeRequests.get</code></p>
 <p><code>dataplex.changeRequests.list</code></p>
 <p><code>dataplex.dataDomains.discover</code></p>
-<p><code>dataplex.entries.*</code></p>
-<ul>
-<li><code>dataplex.entries.create</code></li>
-<li><code>dataplex.entries.createContext</code></li>
-<li><code>dataplex.entries.delete</code></li>
-<li><code>dataplex.entries.deleteContext</code></li>
-<li><code>dataplex.entries.get</code></li>
-<li><code>dataplex.entries.getContext</code></li>
-<li><code>dataplex.entries.getData</code></li>
-<li><code>dataplex.entries.link</code></li>
-<li><code>dataplex.entries.list</code></li>
-<li><code>dataplex.entries.listContext</code></li>
-<li><code>dataplex.entries.update</code></li>
-<li><code>dataplex.entries.updateContext</code></li>
-</ul>
-<p><code>dataplex.entryGroups.*</code></p>
-<ul>
-<li><code>dataplex.entryGroups.create</code></li>
-<li><code>dataplex. entryGroups. createContextSet</code></li>
-<li><code>dataplex. entryGroups. createTagBinding</code></li>
-<li><code>dataplex.entryGroups.delete</code></li>
-<li><code>dataplex. entryGroups. deleteContextSet</code></li>
-<li><code>dataplex. entryGroups. deleteTagBinding</code></li>
-<li><code>dataplex.entryGroups.export</code></li>
-<li><code>dataplex.entryGroups.get</code></li>
-<li><code>dataplex. entryGroups. getContextSet</code></li>
-<li><code>dataplex. entryGroups. getIamPolicy</code></li>
-<li><code>dataplex.entryGroups.import</code></li>
-<li><code>dataplex.entryGroups.list</code></li>
-<li><code>dataplex. entryGroups. listEffectiveTags</code></li>
-<li><code>dataplex. entryGroups. listTagBindings</code></li>
-<li><code>dataplex. entryGroups. requestChanges</code></li>
-<li><code>dataplex. entryGroups. requestContextChanges</code></li>
-<li><code>dataplex. entryGroups. setIamPolicy</code></li>
-<li><code>dataplex.entryGroups.update</code></li>
-<li><code>dataplex. entryGroups. updateContextSet</code></li>
-<li><code>dataplex. entryGroups. useCertificationAspect</code></li>
-<li><code>dataplex. entryGroups. useContactsAspect</code></li>
-<li><code>dataplex. entryGroups. useContextAspect</code></li>
-<li><code>dataplex. entryGroups. useContextEntry</code></li>
-<li><code>dataplex. entryGroups. useContextEntryLink</code></li>
-<li><code>dataplex. entryGroups. useDataProfileAspect</code></li>
-<li><code>dataplex. entryGroups. useDataQualityRuleTemplateAspect</code></li>
-<li><code>dataplex. entryGroups. useDataQualityRuleTemplateEntry</code></li>
-<li><code>dataplex. entryGroups. useDataQualityScorecardAspect</code></li>
-<li><code>dataplex. entryGroups. useDataRulesAspect</code></li>
-<li><code>dataplex. entryGroups. useDatabaseDataPolicyAspect</code></li>
-<li><code>dataplex. entryGroups. useDefinitionEntryLink</code></li>
-<li><code>dataplex. entryGroups. useDescriptionsAspect</code></li>
-<li><code>dataplex. entryGroups. useDocumentAspect</code></li>
-<li><code>dataplex. entryGroups. useDocumentEntry</code></li>
-<li><code>dataplex. entryGroups. useGenericAspect</code></li>
-<li><code>dataplex. entryGroups. useGenericEntry</code></li>
-<li><code>dataplex. entryGroups. useGraphProfileAspect</code></li>
-<li><code>dataplex. entryGroups. useManagedConnectorTypes</code></li>
-<li><code>dataplex. entryGroups. useMySQLConnectorTypes</code></li>
-<li><code>dataplex. entryGroups. useOracleConnectorTypes</code></li>
-<li><code>dataplex. entryGroups. useOverviewAspect</code></li>
-<li><code>dataplex. entryGroups. usePostgreSQLConnectorTypes</code></li>
-<li><code>dataplex. entryGroups. useQueriesAspect</code></li>
-<li><code>dataplex. entryGroups. useQueryTemplateAspect</code></li>
-<li><code>dataplex. entryGroups. useQueryTemplateEntry</code></li>
-<li><code>dataplex. entryGroups. useReferenceEntryLink</code></li>
-<li><code>dataplex. entryGroups. useRefreshCadenceAspect</code></li>
-<li><code>dataplex. entryGroups. useRelatedEntryLink</code></li>
-<li><code>dataplex. entryGroups. useSQLAccessAspect</code></li>
-<li><code>dataplex. entryGroups. useSQLServerConnectorTypes</code></li>
-<li><code>dataplex. entryGroups. useSQLTriggersAspect</code></li>
-<li><code>dataplex. entryGroups. useSchemaAspect</code></li>
-<li><code>dataplex. entryGroups. useSchemaJoinAspect</code></li>
-<li><code>dataplex. entryGroups. useSchemaJoinEntryLink</code></li>
-<li><code>dataplex. entryGroups. useSecondaryIndexesAspect</code></li>
-<li><code>dataplex. entryGroups. useStorageAspect</code></li>
-<li><code>dataplex. entryGroups. useSynonymEntryLink</code></li>
-<li><code>dataplex. entryGroups. useUsageAspect</code></li>
-</ul>
+<p><code>dataplex.entries.create</code></p>
+<p><code>dataplex.entries.delete</code></p>
+<p><code>dataplex.entries.get</code></p>
+<p><code>dataplex.entries.getData</code></p>
+<p><code>dataplex.entries.link</code></p>
+<p><code>dataplex.entries.list</code></p>
+<p><code>dataplex.entries.update</code></p>
+<p><code>dataplex.entryGroups.create</code></p>
+<p><code>dataplex. entryGroups. createTagBinding</code></p>
+<p><code>dataplex.entryGroups.delete</code></p>
+<p><code>dataplex. entryGroups. deleteTagBinding</code></p>
+<p><code>dataplex.entryGroups.export</code></p>
+<p><code>dataplex.entryGroups.get</code></p>
+<p><code>dataplex. entryGroups. getIamPolicy</code></p>
+<p><code>dataplex.entryGroups.import</code></p>
+<p><code>dataplex.entryGroups.list</code></p>
+<p><code>dataplex. entryGroups. listEffectiveTags</code></p>
+<p><code>dataplex. entryGroups. listTagBindings</code></p>
+<p><code>dataplex. entryGroups. requestChanges</code></p>
+<p><code>dataplex. entryGroups. setIamPolicy</code></p>
+<p><code>dataplex.entryGroups.update</code></p>
+<p><code>dataplex. entryGroups. useCertificationAspect</code></p>
+<p><code>dataplex. entryGroups. useContactsAspect</code></p>
+<p><code>dataplex. entryGroups. useContextAspect</code></p>
+<p><code>dataplex. entryGroups. useContextEntry</code></p>
+<p><code>dataplex. entryGroups. useContextEntryLink</code></p>
+<p><code>dataplex. entryGroups. useDataContractAspect</code></p>
+<p><code>dataplex. entryGroups. useDataProfileAspect</code></p>
+<p><code>dataplex. entryGroups. useDataQualityRuleTemplateAspect</code></p>
+<p><code>dataplex. entryGroups. useDataQualityRuleTemplateEntry</code></p>
+<p><code>dataplex. entryGroups. useDataQualityScorecardAspect</code></p>
+<p><code>dataplex. entryGroups. useDataRulesAspect</code></p>
+<p><code>dataplex. entryGroups. useDatabaseDataPolicyAspect</code></p>
+<p><code>dataplex. entryGroups. useDefinitionEntryLink</code></p>
+<p><code>dataplex. entryGroups. useDescriptionsAspect</code></p>
+<p><code>dataplex. entryGroups. useDocumentAspect</code></p>
+<p><code>dataplex. entryGroups. useDocumentEntry</code></p>
+<p><code>dataplex. entryGroups. useGenericAspect</code></p>
+<p><code>dataplex. entryGroups. useGenericEntry</code></p>
+<p><code>dataplex. entryGroups. useGraphProfileAspect</code></p>
+<p><code>dataplex. entryGroups. useGuidelinesAspect</code></p>
+<p><code>dataplex. entryGroups. useManagedConnectorTypes</code></p>
+<p><code>dataplex. entryGroups. useMySQLConnectorTypes</code></p>
+<p><code>dataplex. entryGroups. useOracleConnectorTypes</code></p>
+<p><code>dataplex. entryGroups. useOverviewAspect</code></p>
+<p><code>dataplex. entryGroups. usePostgreSQLConnectorTypes</code></p>
+<p><code>dataplex. entryGroups. useQueriesAspect</code></p>
+<p><code>dataplex. entryGroups. useQueryTemplateAspect</code></p>
+<p><code>dataplex. entryGroups. useQueryTemplateEntry</code></p>
+<p><code>dataplex. entryGroups. useReferenceEntryLink</code></p>
+<p><code>dataplex. entryGroups. useRefreshCadenceAspect</code></p>
+<p><code>dataplex. entryGroups. useRelatedEntryLink</code></p>
+<p><code>dataplex. entryGroups. useSQLAccessAspect</code></p>
+<p><code>dataplex. entryGroups. useSQLServerConnectorTypes</code></p>
+<p><code>dataplex. entryGroups. useSQLTriggersAspect</code></p>
+<p><code>dataplex. entryGroups. useSchemaAspect</code></p>
+<p><code>dataplex. entryGroups. useSchemaJoinAspect</code></p>
+<p><code>dataplex. entryGroups. useSchemaJoinEntryLink</code></p>
+<p><code>dataplex. entryGroups. useSecondaryIndexesAspect</code></p>
+<p><code>dataplex. entryGroups. useStorageAspect</code></p>
+<p><code>dataplex. entryGroups. useStructuredDataAspect</code></p>
+<p><code>dataplex. entryGroups. useSynonymEntryLink</code></p>
+<p><code>dataplex. entryGroups. useUsageAspect</code></p>
 <p><code>dataplex.entryLinkTypes.get</code></p>
 <p><code>dataplex.entryLinkTypes.list</code></p>
 <p><code>dataplex.entryLinkTypes.use</code></p>
@@ -686,27 +660,20 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code>dataplex.changeRequests.get</code></p>
 <p><code>dataplex.changeRequests.list</code></p>
 <p><code>dataplex.dataDomains.discover</code></p>
-<p><code>dataplex.entries.*</code></p>
-<ul>
-<li><code>dataplex.entries.create</code></li>
-<li><code>dataplex.entries.createContext</code></li>
-<li><code>dataplex.entries.delete</code></li>
-<li><code>dataplex.entries.deleteContext</code></li>
-<li><code>dataplex.entries.get</code></li>
-<li><code>dataplex.entries.getContext</code></li>
-<li><code>dataplex.entries.getData</code></li>
-<li><code>dataplex.entries.link</code></li>
-<li><code>dataplex.entries.list</code></li>
-<li><code>dataplex.entries.listContext</code></li>
-<li><code>dataplex.entries.update</code></li>
-<li><code>dataplex.entries.updateContext</code></li>
-</ul>
+<p><code>dataplex.entries.create</code></p>
+<p><code>dataplex.entries.delete</code></p>
+<p><code>dataplex.entries.get</code></p>
+<p><code>dataplex.entries.getData</code></p>
+<p><code>dataplex.entries.link</code></p>
+<p><code>dataplex.entries.list</code></p>
+<p><code>dataplex.entries.update</code></p>
 <p><code>dataplex.entryGroups.get</code></p>
 <p><code>dataplex. entryGroups. useCertificationAspect</code></p>
 <p><code>dataplex. entryGroups. useContactsAspect</code></p>
 <p><code>dataplex. entryGroups. useContextAspect</code></p>
 <p><code>dataplex. entryGroups. useContextEntry</code></p>
 <p><code>dataplex. entryGroups. useContextEntryLink</code></p>
+<p><code>dataplex. entryGroups. useDataContractAspect</code></p>
 <p><code>dataplex. entryGroups. useDataProfileAspect</code></p>
 <p><code>dataplex. entryGroups. useDataQualityRuleTemplateAspect</code></p>
 <p><code>dataplex. entryGroups. useDataQualityRuleTemplateEntry</code></p>
@@ -720,6 +687,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code>dataplex. entryGroups. useGenericAspect</code></p>
 <p><code>dataplex. entryGroups. useGenericEntry</code></p>
 <p><code>dataplex. entryGroups. useGraphProfileAspect</code></p>
+<p><code>dataplex. entryGroups. useGuidelinesAspect</code></p>
 <p><code>dataplex. entryGroups. useManagedConnectorTypes</code></p>
 <p><code>dataplex. entryGroups. useMySQLConnectorTypes</code></p>
 <p><code>dataplex. entryGroups. useOracleConnectorTypes</code></p>
@@ -739,6 +707,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code>dataplex. entryGroups. useSchemaJoinEntryLink</code></p>
 <p><code>dataplex. entryGroups. useSecondaryIndexesAspect</code></p>
 <p><code>dataplex. entryGroups. useStorageAspect</code></p>
+<p><code>dataplex. entryGroups. useStructuredDataAspect</code></p>
 <p><code>dataplex. entryGroups. useSynonymEntryLink</code></p>
 <p><code>dataplex. entryGroups. useUsageAspect</code></p>
 <p><code>dataplex.entryLinkTypes.get</code></p>

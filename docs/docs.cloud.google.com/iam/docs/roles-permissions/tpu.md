@@ -212,6 +212,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>backupdr.operations.get</code></p>
 <p><code>backupdr.operations.list</code></p>
 <p><code>backupdr. serviceConfig. initialize</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -1600,12 +1602,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>networkservices.*</code></p>
 <ul>
+<li><code>networkservices. agentConnectivityTemplates. create</code></li>
+<li><code>networkservices. agentConnectivityTemplates. delete</code></li>
+<li><code>networkservices. agentConnectivityTemplates. get</code></li>
+<li><code>networkservices. agentConnectivityTemplates. list</code></li>
+<li><code>networkservices. agentConnectivityTemplates. update</code></li>
 <li><code>networkservices. agentGateways. create</code></li>
 <li><code>networkservices. agentGateways. delete</code></li>
 <li><code>networkservices. agentGateways. get</code></li>
 <li><code>networkservices. agentGateways. list</code></li>
 <li><code>networkservices. agentGateways. update</code></li>
 <li><code>networkservices. agentGateways. use</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. createPolicyBinding</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. deletePolicyBinding</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. searchPolicyBindings</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. updatePolicyBinding</code></li>
 <li><code>networkservices. authzExtensions. create</code></li>
 <li><code>networkservices. authzExtensions. delete</code></li>
 <li><code>networkservices. authzExtensions. get</code></li>

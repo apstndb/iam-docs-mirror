@@ -687,6 +687,25 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code>firebasestorage. defaultBucket. delete</code></li>
 <li><code>firebasestorage. defaultBucket. get</code></li>
 </ul>
+<p><code>firebasetelemetryadmin.*</code></p>
+<ul>
+<li><code>firebasetelemetryadmin. configs. create</code></li>
+<li><code>firebasetelemetryadmin. configs. delete</code></li>
+<li><code>firebasetelemetryadmin. configs. get</code></li>
+<li><code>firebasetelemetryadmin. configs. list</code></li>
+<li><code>firebasetelemetryadmin. configs. update</code></li>
+<li><code>firebasetelemetryadmin. locations. get</code></li>
+<li><code>firebasetelemetryadmin. locations. list</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. create</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. delete</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. get</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. list</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. update</code></li>
+<li><code>firebasetelemetryadmin. operations. cancel</code></li>
+<li><code>firebasetelemetryadmin. operations. delete</code></li>
+<li><code>firebasetelemetryadmin. operations. get</code></li>
+<li><code>firebasetelemetryadmin. operations. list</code></li>
+</ul>
 <p><code>firebasevertexai.*</code></p>
 <ul>
 <li><code>firebasevertexai.configs.get</code></li>
@@ -1409,6 +1428,25 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>firebasestorage.buckets.get</code></p>
 <p><code>firebasestorage.buckets.list</code></p>
 <p><code>firebasestorage. defaultBucket. get</code></p>
+<p><code>firebasetelemetryadmin.*</code></p>
+<ul>
+<li><code>firebasetelemetryadmin. configs. create</code></li>
+<li><code>firebasetelemetryadmin. configs. delete</code></li>
+<li><code>firebasetelemetryadmin. configs. get</code></li>
+<li><code>firebasetelemetryadmin. configs. list</code></li>
+<li><code>firebasetelemetryadmin. configs. update</code></li>
+<li><code>firebasetelemetryadmin. locations. get</code></li>
+<li><code>firebasetelemetryadmin. locations. list</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. create</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. delete</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. get</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. list</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. update</code></li>
+<li><code>firebasetelemetryadmin. operations. cancel</code></li>
+<li><code>firebasetelemetryadmin. operations. delete</code></li>
+<li><code>firebasetelemetryadmin. operations. get</code></li>
+<li><code>firebasetelemetryadmin. operations. list</code></li>
+</ul>
 <p><code>firebasevertexai.configs.get</code></p>
 <p><code>firebasevertexai. promptTemplates. get</code></p>
 <p><code>firebasevertexai. promptTemplates. list</code></p>
@@ -1751,6 +1789,17 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>firebasestorage.buckets.get</code></p>
 <p><code>firebasestorage.buckets.list</code></p>
 <p><code>firebasestorage. defaultBucket. get</code></p>
+<p><code>firebasetelemetryadmin. configs. get</code></p>
+<p><code>firebasetelemetryadmin. configs. list</code></p>
+<p><code>firebasetelemetryadmin. locations.*</code></p>
+<ul>
+<li><code>firebasetelemetryadmin. locations. get</code></li>
+<li><code>firebasetelemetryadmin. locations. list</code></li>
+</ul>
+<p><code>firebasetelemetryadmin. mappingFiles. get</code></p>
+<p><code>firebasetelemetryadmin. mappingFiles. list</code></p>
+<p><code>firebasetelemetryadmin. operations. get</code></p>
+<p><code>firebasetelemetryadmin. operations. list</code></p>
 <p><code>firebasevertexai.configs.get</code></p>
 <p><code>firebasevertexai. promptTemplates. get</code></p>
 <p><code>firebasevertexai. promptTemplates. list</code></p>
@@ -3277,6 +3326,25 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code>firebaseperformance. config. update</code></li>
 <li><code>firebaseperformance.data.get</code></li>
 </ul>
+<p><code>firebasetelemetryadmin.*</code></p>
+<ul>
+<li><code>firebasetelemetryadmin. configs. create</code></li>
+<li><code>firebasetelemetryadmin. configs. delete</code></li>
+<li><code>firebasetelemetryadmin. configs. get</code></li>
+<li><code>firebasetelemetryadmin. configs. list</code></li>
+<li><code>firebasetelemetryadmin. configs. update</code></li>
+<li><code>firebasetelemetryadmin. locations. get</code></li>
+<li><code>firebasetelemetryadmin. locations. list</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. create</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. delete</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. get</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. list</code></li>
+<li><code>firebasetelemetryadmin. mappingFiles. update</code></li>
+<li><code>firebasetelemetryadmin. operations. cancel</code></li>
+<li><code>firebasetelemetryadmin. operations. delete</code></li>
+<li><code>firebasetelemetryadmin. operations. get</code></li>
+<li><code>firebasetelemetryadmin. operations. list</code></li>
+</ul>
 <p><code>logging.logEntries.download</code></p>
 <p><code>logging.views.access</code></p>
 <p><code>logging.views.listLogs</code></p>
@@ -3333,6 +3401,17 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code>firebasecrashlytics. sessions. get</code></p>
 <p><code>firebaseextensions. configs. list</code></p>
 <p><code>firebaseperformance.data.get</code></p>
+<p><code>firebasetelemetryadmin. configs. get</code></p>
+<p><code>firebasetelemetryadmin. configs. list</code></p>
+<p><code>firebasetelemetryadmin. locations.*</code></p>
+<ul>
+<li><code>firebasetelemetryadmin. locations. get</code></li>
+<li><code>firebasetelemetryadmin. locations. list</code></li>
+</ul>
+<p><code>firebasetelemetryadmin. mappingFiles. get</code></p>
+<p><code>firebasetelemetryadmin. mappingFiles. list</code></p>
+<p><code>firebasetelemetryadmin. operations. get</code></p>
+<p><code>firebasetelemetryadmin. operations. list</code></p>
 <p><code>logging.logEntries.download</code></p>
 <p><code>logging.views.access</code></p>
 <p><code>logging.views.listLogs</code></p>
@@ -3498,6 +3577,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code>firebaserules.rulesets.create</code></p>
 <p><code>firebaserules.rulesets.get</code></p>
 <p><code>firebaserules.rulesets.list</code></p>
+<p><code>firebasestorage. buckets. addFirebase</code></p>
 <p><code>firebasestorage. defaultBucket. get</code></p>
 <p><code>firebasevertexai.configs.*</code></p>
 <ul>

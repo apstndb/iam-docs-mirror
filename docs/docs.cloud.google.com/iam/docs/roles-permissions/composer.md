@@ -1242,6 +1242,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>cloudsql. blueGreenDeployments. get</code></li>
 <li><code>cloudsql. blueGreenDeployments. list</code></li>
 <li><code>cloudsql. blueGreenDeployments. switchover</code></li>
+<li><code>cloudsql. customerManagedCertificates. delete</code></li>
+<li><code>cloudsql. customerManagedCertificates. list</code></li>
+<li><code>cloudsql. customerManagedCertificates. update</code></li>
 <li><code>cloudsql.databases.create</code></li>
 <li><code>cloudsql.databases.delete</code></li>
 <li><code>cloudsql.databases.get</code></li>
@@ -1261,6 +1264,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code>cloudsql. instances. deleteTagBinding</code></li>
 <li><code>cloudsql. instances. demoteMaster</code></li>
 <li><code>cloudsql.instances.executeSql</code></li>
+<li><code>cloudsql. instances. executeSqlReadOnly</code></li>
 <li><code>cloudsql.instances.export</code></li>
 <li><code>cloudsql.instances.failover</code></li>
 <li><code>cloudsql.instances.get</code></li>
@@ -1312,6 +1316,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>composer.dags.get</code></p>
 <p><code>composer.environments.get</code></p>
+<p><code>compute. acceleratorPodControllers. get</code></p>
+<p><code>compute. acceleratorPodControllers. list</code></p>
 <p><code>compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code>compute.acceleratorTypes.get</code></li>
@@ -3302,12 +3308,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code>networkservices.*</code></p>
 <ul>
+<li><code>networkservices. agentConnectivityTemplates. create</code></li>
+<li><code>networkservices. agentConnectivityTemplates. delete</code></li>
+<li><code>networkservices. agentConnectivityTemplates. get</code></li>
+<li><code>networkservices. agentConnectivityTemplates. list</code></li>
+<li><code>networkservices. agentConnectivityTemplates. update</code></li>
 <li><code>networkservices. agentGateways. create</code></li>
 <li><code>networkservices. agentGateways. delete</code></li>
 <li><code>networkservices. agentGateways. get</code></li>
 <li><code>networkservices. agentGateways. list</code></li>
 <li><code>networkservices. agentGateways. update</code></li>
 <li><code>networkservices. agentGateways. use</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. createPolicyBinding</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. deletePolicyBinding</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. searchPolicyBindings</code></li>
+<li><code>networkservices.googleapis. com/agentGateways. updatePolicyBinding</code></li>
 <li><code>networkservices. authzExtensions. create</code></li>
 <li><code>networkservices. authzExtensions. delete</code></li>
 <li><code>networkservices. authzExtensions. get</code></li>

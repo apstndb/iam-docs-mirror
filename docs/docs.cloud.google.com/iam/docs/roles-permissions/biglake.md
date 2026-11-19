@@ -606,6 +606,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.serviceAgent">AlloyDB Service Agent</a> ( <code>roles/ alloydb.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code>roles/ dataplex.serviceAgent</code> )</li>
 </ul></td>
 </tr>

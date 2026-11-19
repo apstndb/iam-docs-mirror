@@ -10,6 +10,89 @@ This page lists the IAM roles and permissions for Workspace Key Access. To searc
 
 ## Workspace Key Access roles
 
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Role</th>
+<th>Permissions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Workspace Key Access API Admin <sup>Beta</sup>
+<p>( <code>roles/ workspacekeyaccess.admin</code> )</p>
+<p>Admin role for Workspace Key Access.</p></td>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>workspacekeyaccess.*</code></p>
+<ul>
+<li><code>workspacekeyaccess. configs. create</code></li>
+<li><code>workspacekeyaccess. configs. delete</code></li>
+<li><code>workspacekeyaccess.configs.get</code></li>
+<li><code>workspacekeyaccess. configs. list</code></li>
+<li><code>workspacekeyaccess. configs. update</code></li>
+<li><code>workspacekeyaccess. endpoints. create</code></li>
+<li><code>workspacekeyaccess. endpoints. get</code></li>
+<li><code>workspacekeyaccess. endpoints. list</code></li>
+<li><code>workspacekeyaccess. endpoints. update</code></li>
+<li><code>workspacekeyaccess. locations. get</code></li>
+<li><code>workspacekeyaccess. locations. list</code></li>
+<li><code>workspacekeyaccess. operations. cancel</code></li>
+<li><code>workspacekeyaccess. operations. delete</code></li>
+<li><code>workspacekeyaccess. operations. get</code></li>
+<li><code>workspacekeyaccess. operations. list</code></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Workspace Key Access API Editor <sup>Beta</sup>
+<p>( <code>roles/ workspacekeyaccess.editor</code> )</p>
+<p>Editor role for Workspace Key Access.</p></td>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>workspacekeyaccess.*</code></p>
+<ul>
+<li><code>workspacekeyaccess. configs. create</code></li>
+<li><code>workspacekeyaccess. configs. delete</code></li>
+<li><code>workspacekeyaccess.configs.get</code></li>
+<li><code>workspacekeyaccess. configs. list</code></li>
+<li><code>workspacekeyaccess. configs. update</code></li>
+<li><code>workspacekeyaccess. endpoints. create</code></li>
+<li><code>workspacekeyaccess. endpoints. get</code></li>
+<li><code>workspacekeyaccess. endpoints. list</code></li>
+<li><code>workspacekeyaccess. endpoints. update</code></li>
+<li><code>workspacekeyaccess. locations. get</code></li>
+<li><code>workspacekeyaccess. locations. list</code></li>
+<li><code>workspacekeyaccess. operations. cancel</code></li>
+<li><code>workspacekeyaccess. operations. delete</code></li>
+<li><code>workspacekeyaccess. operations. get</code></li>
+<li><code>workspacekeyaccess. operations. list</code></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Workspace Key Access API Viewer <sup>Beta</sup>
+<p>( <code>roles/ workspacekeyaccess.viewer</code> )</p>
+<p>Viewer role for Workspace Key Access.</p></td>
+<td><p><code>resourcemanager.projects.get</code></p>
+<p><code>resourcemanager.projects.list</code></p>
+<p><code>workspacekeyaccess.configs.get</code></p>
+<p><code>workspacekeyaccess. configs. list</code></p>
+<p><code>workspacekeyaccess. endpoints. get</code></p>
+<p><code>workspacekeyaccess. endpoints. list</code></p>
+<p><code>workspacekeyaccess.locations.*</code></p>
+<ul>
+<li><code>workspacekeyaccess. locations. get</code></li>
+<li><code>workspacekeyaccess. locations. list</code></li>
+</ul>
+<p><code>workspacekeyaccess. operations. get</code></p>
+<p><code>workspacekeyaccess. operations. list</code></p></td>
+</tr>
+</tbody>
+</table>
+
 ## Workspace Key Access permissions
 
 | Permission                               | Included in roles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
