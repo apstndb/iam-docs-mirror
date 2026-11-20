@@ -625,7 +625,7 @@ Common causes include the following:
 - Silent synchronization failures or delays from the IdP.
 - Inconsistent claim mappings between the provider ( `--attribute-mapping` ) and the SCIM tenant ( `--claim-mapping` ).
 - Changes in the IdP to attributes mapped to `google.subject` or `google.group` . Google Cloud expects values mapped to these attributes to be immutable.
-- SCIM usage isn't enabled for groups on the provider.
+- SCIM usage ( `--scim-usage=enabled-for-users-groups` or `--scim-usage=enabled-for-groups` ) isn't enabled on the workforce pool provider that owns the SCIM tenant.
 
 To resolve this issue, do the following:
 
@@ -670,19 +670,40 @@ To resolve this issue, do the following:
 
 3.  **Ensure identifier immutability** : Verify that the IdP attributes mapped to `google.subject` and `google.group` haven't changed. Google Cloud treats values mapped to these attributes as [immutable identifiers](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim#behavior-limitations) . If an attribute value changed in your IdP, revert the change in your IdP, or permanently delete the affected user or group from your IdP and recreate it with the new value so that the identifier matches what Google Cloud expects.
 
-4.  **Enable SCIM group usage** : Update your provider to enable SCIM for groups:
+4.  **Verify SCIM usage on the provider** : Check the `scimUsage` field on the workforce pool provider that owns the SCIM tenant:
 
     ```
-    gcloud iam workforce-pools providers update-oidc PROVIDER_ID \
+    gcloud iam workforce-pools providers describe PROVIDER_ID \
         --workforce-pool="WORKFORCE_POOL_ID" \
-        --location="global" \
-        --scim-usage="enabled-for-groups"
+        --location="global"
     ```
 
     Replace the following:
 
     - `PROVIDER_ID` : the ID of the workforce pool provider.
     - `WORKFORCE_POOL_ID` : the ID of the workforce identity pool.
+
+    In the output, confirm that `scimUsage` is set to `ENABLED_FOR_USERS_GROUPS` (recommended) or `ENABLED_FOR_GROUPS` . If `scimUsage` is omitted or set to `SCIM_USAGE_UNSPECIFIED` , SCIM-synced user and group claims aren't evaluated for IAM access checks.
+
+5.  **Enable SCIM usage on the provider** : If SCIM usage isn't enabled, run the update command for your provider type. We recommend that you use `enabled-for-users-groups` . For more information about SCIM usage modes, see [SCIM provisioning considerations](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim#considerations) .
+
+    ### OIDC
+
+    ```
+    gcloud iam workforce-pools providers update-oidc PROVIDER_ID \
+        --workforce-pool="WORKFORCE_POOL_ID" \
+        --location="global" \
+        --scim-usage="enabled-for-users-groups"
+    ```
+
+    ### SAML
+
+    ```
+    gcloud iam workforce-pools providers update-saml PROVIDER_ID \
+        --workforce-pool="WORKFORCE_POOL_ID" \
+        --location="global" \
+        --scim-usage="enabled-for-users-groups"
+    ```
 
 ### Changes made in the IdP are delayed or not reflecting
 
