@@ -93,8 +93,6 @@ However, in some cases, the Google APIs Service Agent might automatically be gra
 
 - **Dataproc Service Agent role ( `roles/dataproc.serviceAgent` )** : Granted if you enable the Dataproc API
 
-- **Cloud Scheduler Service Agent role ( `roles/cloudscheduler.serviceAgent` )** : Granted if you enable the Cloud Scheduler API
-
 - **Editor role ( `roles/editor` )** : Granted if your project was created before April 2026 or if you enable the Cloud Deployment Manager API
 
   The Editor role is highly permissive. If the Google APIs Service Agent is granted the Editor role, then we recommend using the [Role Recommender](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) to determine if you can safely reduce its permissions.

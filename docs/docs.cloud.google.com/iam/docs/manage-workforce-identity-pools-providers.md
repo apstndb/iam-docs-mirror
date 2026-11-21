@@ -347,7 +347,7 @@ In the command response, ` POOL_RESOURCE_NAME ` is the name of the pool; for exa
     5.  To create a provider that is enabled, make sure **Enable provider** is on.
     6.  Click **Continue** .
 
-7.  In the **Share your provider information with IdP** section, copy the URL. In your IdP, configure this URL as the redirect URI, which informs your IdP where to send the assertion token after logging in.
+7.  In the **Share your provider information with IdP** section, copy the URL. In your IdP, configure this URL as the redirect URI, which informs your IdP where to send the assertion token after you sign in.
 
 8.  Click **Continue** .
 
@@ -411,7 +411,7 @@ To configure attribute mappings and conditions, do the following:
     5.  To create a provider that is enabled, make sure **Enable provider** is on.
     6.  Click **Continue** .
 
-7.  In the **Share your provider information with IdP** section, copy the URL. In your IdP, configure this url as the redirect URI, which informs your IdP where to send the assertion token after logging in.
+7.  In the **Share your provider information with IdP** section, copy the URL. In your IdP, configure this URL as the redirect URI, which informs your IdP where to send the assertion token after you sign in.
 
 8.  Click **Continue** .
 

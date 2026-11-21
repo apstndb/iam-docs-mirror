@@ -1,7 +1,7 @@
 ---
 name: documents/docs.cloud.google.com/iam/docs/workforce-sign-in-okta
 uri: https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta
-title: Configure Workforce Identity Federation with Okta and sign in users
+title: Configure Workforce Identity Federation with Okta
 description: Configure Workforce Identity Federation with Okta to access {{dynamic_data.site_values.cloud_name}} using OIDC or SAML 2.0.
 data_source: docs.cloud.google.com
 ---
@@ -454,7 +454,9 @@ To create a workforce identity pool provider for your Okta app integration, usin
         5.  To create a provider that is enabled, make sure **Enable provider** is on.
         6.  Click **Continue** .
 
-    7.  In the **Share your provider information with IdP** section, copy the URL. In your IdP, configure this URL as the redirect URI, which informs your IdP where to send the assertion token after logging in.
+    7.  In the **Share your provider information with IdP** section, copy the URL. In your IdP, configure this URL as the redirect URI, which informs your IdP where to send the assertion token after you sign in.
+
+        If you used the **OIDC using App Catalog** integration, skip this step because the redirect URI is already configured.
 
     8.  Click **Continue** .
 
@@ -520,7 +522,9 @@ To create a workforce identity pool provider for your Okta app integration, usin
         5.  To create a provider that is enabled, make sure **Enable provider** is on.
         6.  Click **Continue** .
 
-    7.  In the **Share your provider information with IdP** section, copy the URL. In your IdP, configure this url as the redirect URI, which informs your IdP where to send the assertion token after logging in.
+    7.  In the **Share your provider information with IdP** section, copy the URL. In your IdP, configure this URL as the redirect URI, which informs your IdP where to send the assertion token after you sign in.
+
+        If you used the **OIDC using App Catalog** integration, skip this step because the redirect URI is already configured.
 
     8.  Click **Continue** .
 
