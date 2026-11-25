@@ -2441,13 +2441,21 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.cloud.google.com/looker/docs">Looker (Google Cloud core)</a></td>
-<td>Unsupported</td>
+<td><a href="https://docs.cloud.google.com/looker/docs/looker-core-overview">Looker (Google Cloud core)</a></td>
+<td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
 <tr class="odd">
-<td>Alternatives:</td>
-<td>No alternatives available</td>
+<td>Console (federated):</td>
+<td>No known limitations</td>
+</tr>
+<tr class="even">
+<td>Google Cloud API:</td>
+<td>No known limitations</td>
+</tr>
+<tr class="odd">
+<td>Other:</td>
+<td>For <a href="https://docs.cloud.google.com/looker/docs/looker-core-dialects#oauth-options">BigQuery connections</a> in Looker (Google Cloud core), Workforce Identity Federation users must set up <a href="https://docs.cloud.google.com/looker/docs/looker-core-create-oauth">Google OAuth</a> separately.</td>
 </tr>
 </tbody>
 </table></td>

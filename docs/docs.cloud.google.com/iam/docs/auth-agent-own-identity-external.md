@@ -6,10 +6,6 @@ description: Learn how agents authenticate to external APIs, backends, and third
 data_source: docs.cloud.google.com
 ---
 
-> **Preview**
->
-> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
-
 Agent Identity lets your agents on Google Cloud use their own identity to authenticate to external services and to workloads hosted on Cloud Run or Google Kubernetes Engine (GKE). By using OpenID Connect (OIDC) ID tokens, you can connect agents to third-party cloud platforms such as Amazon Web Services (AWS) and Microsoft Azure, custom APIs, API gateways, and on-premises backends.
 
 When an agent acts on its own authority, Agent Identity issues an OIDC ID token, which is a JSON Web Token (JWT) that asserts the agent's [SPIFFE identity](https://docs.cloud.google.com/iam/docs/agent-identity-overview#spiffe-identity) and is signed by the issuer keys for the agent's trust domain (managed workload identity pool). External systems can verify these ID tokens without Google Cloud credentials or SDKs through public endpoints hosted by the Google Cloud Security Token Service:

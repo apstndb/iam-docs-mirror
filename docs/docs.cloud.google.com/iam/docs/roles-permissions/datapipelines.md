@@ -53,7 +53,8 @@ This page lists the IAM roles and permissions for Data Pipelines. To search thro
 <tr class="odd">
 <td>Data pipelines Invoker
 <p>( <code>roles/ datapipelines.invoker</code> )</p>
-<p>Invoker of Data pipelines jobs</p></td>
+<p>Lets you trigger runs of existing Data Pipelines batch pipelines.</p>
+<p>Triggered jobs run as the Dataflow worker service account configured on the pipeline, even if the caller doesn't have the <code>iam.serviceAccounts.actAs</code> permission on that service account. Grant this role only to principals who should be allowed to run pipelines using the worker service accounts configured on those pipelines.</p></td>
 <td><p><code>datapipelines.pipelines.run</code></p>
 <p><code>resourcemanager.projects.get</code></p>
 <p><code>resourcemanager.projects.list</code></p></td>

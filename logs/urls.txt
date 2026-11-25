@@ -20,7 +20,7 @@ https://docs.cloud.google.com/iam/docs/audit-logging/examples-service-accounts	2
 https://docs.cloud.google.com/iam/docs/audit-logging/examples-workforce-identity	2026-11-17T03:42:39Z
 https://docs.cloud.google.com/iam/docs/audit-logging/examples-workload-identity	2026-11-17T03:42:39Z
 https://docs.cloud.google.com/iam/docs/auth-agent-own-identity	2026-11-16T18:02:31Z
-https://docs.cloud.google.com/iam/docs/auth-agent-own-identity-external	2026-10-16T04:50:20Z
+https://docs.cloud.google.com/iam/docs/auth-agent-own-identity-external	2026-11-23T22:54:14Z
 https://docs.cloud.google.com/iam/docs/auth-manager-overview	2026-11-17T16:11:47Z
 https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2	2026-11-16T18:02:31Z
 https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2	2026-11-16T18:02:19Z
@@ -65,8 +65,8 @@ https://docs.cloud.google.com/iam/docs/deny-access-change-permissions	2026-11-16
 https://docs.cloud.google.com/iam/docs/deny-overview	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-11-18T19:19:09Z
 https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-10-02T06:13:11Z
-https://docs.cloud.google.com/iam/docs/federated-identity-architectures	2026-11-13T03:48:23Z
-https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-11-16T18:02:05Z
+https://docs.cloud.google.com/iam/docs/federated-identity-architectures	2026-11-20T19:52:29Z
+https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-11-20T19:52:27Z
 https://docs.cloud.google.com/iam/docs/full-resource-names	2026-10-02T06:13:11Z
 https://docs.cloud.google.com/iam/docs/getting-support	2026-09-25T07:59:04Z
 https://docs.cloud.google.com/iam/docs/google-identities	2026-10-02T06:13:11Z
@@ -972,7 +972,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion	2026-10-29T2
 https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling	2026-10-28T18:23:26Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/datalineage	2026-11-03T21:44:38Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration	2026-10-28T18:23:26Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines	2026-10-28T18:23:16Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines	2026-11-17T06:38:11Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex	2026-11-18T19:18:34Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep	2026-11-17T06:38:22Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc	2026-11-18T19:18:34Z
@@ -1208,7 +1208,7 @@ https://docs.cloud.google.com/iam/docs/service-accounts-delete-undelete	2026-11-
 https://docs.cloud.google.com/iam/docs/service-accounts-disable-enable	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/service-accounts-list-edit	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/service-accounts-tags	2026-10-02T06:11:46Z
-https://docs.cloud.google.com/iam/docs/service-agents	2026-11-08T07:48:30Z
+https://docs.cloud.google.com/iam/docs/service-agents	2026-11-17T06:37:58Z
 https://docs.cloud.google.com/iam/docs/setting-limits-on-granting-roles	2026-11-16T18:17:20Z
 https://docs.cloud.google.com/iam/docs/tags-access-control	2026-10-02T06:11:46Z
 https://docs.cloud.google.com/iam/docs/temporary-elevated-access	2026-10-02T06:11:46Z

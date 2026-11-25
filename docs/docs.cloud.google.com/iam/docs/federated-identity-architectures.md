@@ -30,7 +30,7 @@ Google services manage authentication and authorization differently. This affect
 Google services implement authorization in one of two ways:
 
 - **IAM** : Most Google Cloud services use IAM to let administrators manage fine-grained access to resources.
-- **Service-specific authorization** : Services such as Google Ads, Looker, or Google Workspace don't use IAM. Instead, administrators manage access using tools specific to each service.
+- **Service-specific authorization** : Services such as Google Ads or Google Workspace don't use IAM. Instead, administrators manage access using tools specific to each service.
 
 These factors result in the following service groups:
 
@@ -169,7 +169,7 @@ This pattern doesn't require user provisioning or group provisioning. Every time
 
 #### Limitations
 
-- Workforce Identity Federation is an IAM feature and only lets users access services that use IAM. Users who authenticate using Workforce Identity Federation can't access Google services such as Google Ads, Looker, or Google Marketing Platform.
+- Workforce Identity Federation is an IAM feature and only lets users access services that use IAM. Users who authenticate using Workforce Identity Federation can't access Google services such as Google Ads or Google Marketing Platform.
 - Users who authenticate using Workforce Identity Federation can't access some Google Cloud features. For details, see [Identity federation: products and limitations](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) .
 - Many IdPs limit the number of group memberships they can pass to Workforce Identity Federation in a SAML assertion or ID token. To stay under these limits, you might need to [strengthen group governance](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation#strengthen-group-governance) and restrict the [types of groups to include](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation#distinguish-groups) in assertions or tokens.
 - When sharing resources such as a Gemini Notebook for business notebook, you can't look up a group by name. Instead, users must manually enter their identifiers.
@@ -196,7 +196,7 @@ In this pattern, you use Workforce Identity Federation to federate your Google C
 #### Limitations
 
 - Support for SCIM-provisioned groups is limited to Gemini Enterprise and Gemini Notebook for business. Other services can only consume the group memberships that your IdP passes in the SAML assertion or ID token.
-- Workforce Identity Federation is an IAM feature and only lets users access services that use IAM. Users who authenticate using Workforce Identity Federation can't access Google services such as Google Ads, Looker, or Google Marketing Platform.
+- Workforce Identity Federation is an IAM feature and only lets users access services that use IAM. Users who authenticate using Workforce Identity Federation can't access Google services such as Google Ads or Google Marketing Platform.
 - Users who authenticate using Workforce Identity Federation can't access some of the Google Cloud features. For details, see [Identity federation: products and limitations](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) .
 
 ### Hybrid Cloud Identity and Workforce Identity Federation
